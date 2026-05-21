@@ -1,0 +1,1 @@
+"class Solution:\n    def minLengthAfterRemovals(self, nums: List[int]) -> int:\n        "

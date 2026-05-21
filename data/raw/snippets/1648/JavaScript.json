@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} inventory\n * @param {number} orders\n * @return {number}\n */\nvar maxProfit = function(inventory, orders) {\n    \n};"

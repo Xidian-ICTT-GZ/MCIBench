@@ -1,0 +1,1 @@
+"-spec simplify_path(Path :: unicode:unicode_binary()) -> unicode:unicode_binary().\nsimplify_path(Path) ->\n  ."

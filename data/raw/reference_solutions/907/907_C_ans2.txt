@@ -1,0 +1,16 @@
+int sumSubarrayMins(int* arr, int arrSize) {
+    long long ans = 0;
+    long long mod = 1e9 + 7;
+    int monoStack[arrSize], dp[arrSize];
+    int top = 0;
+    for (int i = 0; i < arrSize; i++) {
+        while (top > 0 && arr[monoStack[top - 1]] > arr[i]) {
+            top--;
+        }
+        int k = top == 0 ? (i + 1) : (i - monoStack[top - 1]);
+        dp[i] = k * arr[i] + (top == 0 ? 0 : dp[i - k]);
+        ans = (ans + dp[i]) % mod;
+        monoStack[top++] = i;
+    }
+    return ans;
+}

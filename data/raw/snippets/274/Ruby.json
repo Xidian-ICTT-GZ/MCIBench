@@ -1,0 +1,1 @@
+"# @param {Integer[]} citations\n# @return {Integer}\ndef h_index(citations)\n    \nend"

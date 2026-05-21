@@ -1,0 +1,1 @@
+"(define/contract (get-maximum-consecutive coins)\n  (-> (listof exact-integer?) exact-integer?)\n  )"

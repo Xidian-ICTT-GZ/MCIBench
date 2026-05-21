@@ -1,0 +1,1 @@
+"class Solution:\n    def primeSubOperation(self, nums: List[int]) -> bool:\n        "

@@ -1,0 +1,1 @@
+"impl Solution {\n    pub fn max_array_value(nums: Vec<i32>) -> i64 {\n        \n    }\n}"

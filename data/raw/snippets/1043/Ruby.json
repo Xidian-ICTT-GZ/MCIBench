@@ -1,0 +1,1 @@
+"# @param {Integer[]} arr\n# @param {Integer} k\n# @return {Integer}\ndef max_sum_after_partitioning(arr, k)\n    \nend"

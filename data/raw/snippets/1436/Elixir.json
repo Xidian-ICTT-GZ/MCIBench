@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec dest_city(paths :: [[String.t]]) :: String.t\n  def dest_city(paths) do\n    \n  end\nend"

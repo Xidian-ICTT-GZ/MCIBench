@@ -1,0 +1,1 @@
+"class ParkingSystem(_big: Int, _medium: Int, _small: Int) {\n\n    def addCar(carType: Int): Boolean = {\n        \n    }\n\n}\n\n/**\n * Your ParkingSystem object will be instantiated and called as such:\n * val obj = new ParkingSystem(big, medium, small)\n * val param_1 = obj.addCar(carType)\n */"

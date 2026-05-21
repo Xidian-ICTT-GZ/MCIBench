@@ -1,0 +1,7 @@
+class Solution {
+    static final int BIG = 1 << 30;
+
+    public boolean isPowerOfTwo(int n) {
+        return n > 0 && BIG % n == 0;
+    }
+}

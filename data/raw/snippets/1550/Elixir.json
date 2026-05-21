@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec three_consecutive_odds(arr :: [integer]) :: boolean\n  def three_consecutive_odds(arr) do\n    \n  end\nend"

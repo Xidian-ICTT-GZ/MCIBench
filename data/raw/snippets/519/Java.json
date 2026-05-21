@@ -1,0 +1,1 @@
+"class Solution {\n\n    public Solution(int m, int n) {\n        \n    }\n    \n    public int[] flip() {\n        \n    }\n    \n    public void reset() {\n        \n    }\n}\n\n/**\n * Your Solution object will be instantiated and called as such:\n * Solution obj = new Solution(m, n);\n * int[] param_1 = obj.flip();\n * obj.reset();\n */"

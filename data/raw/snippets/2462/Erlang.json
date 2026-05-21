@@ -1,0 +1,1 @@
+"-spec total_cost(Costs :: [integer()], K :: integer(), Candidates :: integer()) -> integer().\ntotal_cost(Costs, K, Candidates) ->\n  ."

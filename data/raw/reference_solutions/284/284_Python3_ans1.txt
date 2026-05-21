@@ -1,0 +1,19 @@
+class PeekingIterator:
+    def __init__(self, iterator):
+        self.iterator = iterator
+        self._next = None
+
+    def peek(self):
+        if self._next is None:
+            self._next = self.iterator.next()
+        return self._next
+
+    def next(self):
+        if self._next is not None:
+            ret = self._next
+            self._next=None
+            return ret
+        return self.iterator.next()
+
+    def hasNext(self):
+        return self._next is not None or self.iterator.hasNext()

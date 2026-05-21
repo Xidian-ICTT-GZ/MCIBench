@@ -1,0 +1,1 @@
+"/**\n * @param {string[]} words\n * @return {number}\n */\nvar minimumLengthEncoding = function(words) {\n    \n};"

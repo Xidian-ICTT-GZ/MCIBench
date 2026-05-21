@@ -1,0 +1,1 @@
+"class Solution:\n    def kthSmallestPath(self, destination: List[int], k: int) -> str:\n        "

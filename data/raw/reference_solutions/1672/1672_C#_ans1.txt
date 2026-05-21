@@ -1,0 +1,9 @@
+public class Solution {
+    public int MaximumWealth(int[][] accounts) {
+        int maxWealth = int.MinValue;
+        foreach (int[] account in accounts) {
+            maxWealth = Math.Max(maxWealth, account.Sum());
+        }
+        return maxWealth;
+    }
+}

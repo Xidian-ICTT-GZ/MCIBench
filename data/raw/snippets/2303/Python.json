@@ -1,0 +1,1 @@
+"class Solution(object):\n    def calculateTax(self, brackets, income):\n        \"\"\"\n        :type brackets: List[List[int]]\n        :type income: int\n        :rtype: float\n        \"\"\"\n        "

@@ -1,0 +1,1 @@
+"# @param {Integer} m\n# @param {Integer} n\n# @param {Integer[][]} indices\n# @return {Integer}\ndef odd_cells(m, n, indices)\n    \nend"

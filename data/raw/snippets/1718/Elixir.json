@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec construct_distanced_sequence(n :: integer) :: [integer]\n  def construct_distanced_sequence(n) do\n    \n  end\nend"

@@ -1,0 +1,26 @@
+var repeatLimitedString = function(s, repeatLimit) {
+    let N = 26;
+    let count = new Array(N).fill(0);
+    for (let i = 0; i < s.length; i++) {
+        count[s.charCodeAt(i) - 97]++;
+    }
+    let ret = new Array();
+    let m = 0;
+    for (let i = N - 1, j = N - 2; i >= 0 && j >= 0;) {
+        if (count[i] == 0) { 
+            m = 0;
+            i--;
+        } else if (m < repeatLimit) { 
+            count[i]--;
+            ret.push(String.fromCharCode(97 + i));
+            m++;
+        } else if (j >= i || count[j] == 0) { 
+            j--;
+        } else { 
+            count[j]--;
+            ret.push(String.fromCharCode(97 + j));
+            m = 0;
+        }
+    }
+    return ret.join('');
+};

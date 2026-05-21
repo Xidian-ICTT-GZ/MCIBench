@@ -1,0 +1,1 @@
+"class Solution {\n    func countFairPairs(nums: Array<Int64>, lower: Int64, upper: Int64): Int64 {\n\n    }\n}"

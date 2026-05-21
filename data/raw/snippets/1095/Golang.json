@@ -1,0 +1,1 @@
+"/**\n * // This is the MountainArray's API interface.\n * // You should not implement it, or speculate about its implementation\n * type MountainArray struct {\n * }\n *\n * func (this *MountainArray) get(index int) int {}\n * func (this *MountainArray) length() int {}\n */\n\nfunc findInMountainArray(target int, mountainArr *MountainArray) int {\n    \n}"

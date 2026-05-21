@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<int> findThePrefixCommonArray(vector<int>& A, vector<int>& B) {\n        \n    }\n};"

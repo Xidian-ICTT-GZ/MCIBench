@@ -1,0 +1,26 @@
+#define MIN(a, b) ((a) < (b) ? (a) : (b))
+
+int rearrangeCharacters(char * s, char * target) {
+    int sCounts[26], targetCounts[26];
+    memset(sCounts, 0, sizeof(sCounts));
+    memset(targetCounts, 0, sizeof(targetCounts));
+    int n = strlen(s), m = strlen(target);
+    for (int i = 0; i < m; i++) {
+        targetCounts[target[i] - 'a']++;
+    }
+    for (int i = 0; i < n; i++) {
+        if (targetCounts[s[i] - 'a']) {
+            sCounts[s[i] - 'a']++;
+        }
+    }
+    int ans = INT_MAX;
+    for (int i = 0; i < 26; i++) {
+        if (targetCounts[i] > 0) {
+            ans = MIN(ans, sCounts[i] / targetCounts[i]);
+            if (ans == 0) {
+                return 0;
+            }
+        }
+    }
+    return ans;
+}

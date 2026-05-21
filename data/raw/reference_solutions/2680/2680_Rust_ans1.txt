@@ -1,0 +1,17 @@
+impl Solution {
+    pub fn maximum_or(nums: Vec<i32>, k: i32) -> i64 {
+        let n = nums.len();
+        let mut suf = vec![0 as i64; n + 1];
+        for i in (0..n).rev() {
+            suf[i] = suf[i + 1] | (nums[i] as i64);
+        }
+
+        let mut res = 0;
+        let mut pre = 0;
+        for i in 0..n {
+            res = res.max(pre | ((nums[i] as i64) << (k as i64)) | suf[i + 1]);
+            pre = pre | nums[i] as i64;
+        }
+        res
+    }
+}

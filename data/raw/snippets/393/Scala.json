@@ -1,0 +1,1 @@
+"object Solution {\n    def validUtf8(data: Array[Int]): Boolean = {\n        \n    }\n}"

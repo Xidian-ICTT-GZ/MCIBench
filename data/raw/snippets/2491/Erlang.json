@@ -1,0 +1,1 @@
+"-spec divide_players(Skill :: [integer()]) -> integer().\ndivide_players(Skill) ->\n  ."

@@ -1,0 +1,1 @@
+"-spec max_bottles_drunk(NumBottles :: integer(), NumExchange :: integer()) -> integer().\nmax_bottles_drunk(NumBottles, NumExchange) ->\n  ."

@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String[] $words\n     * @param String $separator\n     * @return String[]\n     */\n    function splitWordsBySeparator($words, $separator) {\n        \n    }\n}"

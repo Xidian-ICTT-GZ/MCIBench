@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @param {Integer[][]} queries\n# @return {Integer[]}\ndef subarray_majority(nums, queries)\n    \nend"

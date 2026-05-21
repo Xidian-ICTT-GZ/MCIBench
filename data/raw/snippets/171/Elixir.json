@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec title_to_number(column_title :: String.t) :: integer\n  def title_to_number(column_title) do\n    \n  end\nend"

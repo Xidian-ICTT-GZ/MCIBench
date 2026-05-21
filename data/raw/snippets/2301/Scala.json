@@ -1,0 +1,1 @@
+"object Solution {\n    def matchReplacement(s: String, sub: String, mappings: Array[Array[Char]]): Boolean = {\n        \n    }\n}"

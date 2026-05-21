@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String[] $messages\n     * @param String[] $senders\n     * @return String\n     */\n    function largestWordCount($messages, $senders) {\n        \n    }\n}"

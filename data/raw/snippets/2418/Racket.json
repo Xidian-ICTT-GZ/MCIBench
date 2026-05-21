@@ -1,0 +1,1 @@
+"(define/contract (sort-people names heights)\n  (-> (listof string?) (listof exact-integer?) (listof string?))\n  )"

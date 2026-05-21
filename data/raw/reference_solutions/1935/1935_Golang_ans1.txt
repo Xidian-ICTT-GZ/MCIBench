@@ -1,0 +1,25 @@
+func canBeTypedWords(text string, brokenLetters string) int {
+    broken := make(map[rune]bool)   
+    for _, ch := range brokenLetters {
+        broken[ch] = true
+    }
+    res := 0   
+    flag := true   
+    for _, ch := range text {
+        if ch == ' ' {
+            
+            if flag {
+                res++
+            }
+            flag = true
+        } else if broken[ch] {
+            
+            flag = false
+        }
+    }
+    
+    if flag {
+        res++
+    }
+    return res
+}

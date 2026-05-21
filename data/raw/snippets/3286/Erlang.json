@@ -1,0 +1,1 @@
+"-spec find_safe_walk(Grid :: [[integer()]], Health :: integer()) -> boolean().\nfind_safe_walk(Grid, Health) ->\n  ."

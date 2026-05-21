@@ -1,0 +1,1 @@
+"class Solution:\n    def videoStitching(self, clips: List[List[int]], time: int) -> int:\n        "

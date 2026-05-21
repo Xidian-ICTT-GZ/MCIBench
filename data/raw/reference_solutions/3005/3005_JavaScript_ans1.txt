@@ -1,0 +1,19 @@
+var maxFrequencyElements = function(nums) {
+    let count = {};
+    for (let a of nums) {
+        count[a] = (count[a] || 0) + 1;
+    }
+    let maxf = 0;
+    for (let key in count) {
+        if (count[key] > maxf) {
+            maxf = count[key];
+        }
+    }
+    let res = 0;
+    for (let key in count) {
+        if (count[key] === maxf) {
+            res += maxf;
+        }
+    }
+    return res;
+};

@@ -1,0 +1,1 @@
+"class Solution:\n    def findMiddleIndex(self, nums: List[int]) -> int:\n        "

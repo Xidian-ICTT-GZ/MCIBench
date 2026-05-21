@@ -1,0 +1,19 @@
+var beautifulSubsets = function(nums, k) {
+    let ans = 0;
+    const cnt = new Map();
+    function dfs(i) {
+        if (i === nums.length) {
+            ans++;
+            return;
+        }
+        dfs(i + 1);
+        if ((!cnt.has(nums[i] - k) || cnt.get(nums[i] - k) === 0) &&
+            (!cnt.has(nums[i] + k) || cnt.get(nums[i] + k) === 0)) {
+            cnt.set(nums[i], (cnt.get(nums[i]) || 0) + 1);
+            dfs(i + 1);
+            cnt.set(nums[i], (cnt.get(nums[i]) || 0) - 1);
+        }
+    }
+    dfs(0);
+    return ans - 1;
+};

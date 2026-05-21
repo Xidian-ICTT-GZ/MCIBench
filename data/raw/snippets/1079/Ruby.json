@@ -1,0 +1,1 @@
+"# @param {String} tiles\n# @return {Integer}\ndef num_tile_possibilities(tiles)\n    \nend"

@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $maxTime\n     * @param Integer[][] $edges\n     * @param Integer[] $passingFees\n     * @return Integer\n     */\n    function minCost($maxTime, $edges, $passingFees) {\n        \n    }\n}"

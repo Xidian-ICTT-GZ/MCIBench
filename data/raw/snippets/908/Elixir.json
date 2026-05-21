@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec smallest_range_i(nums :: [integer], k :: integer) :: integer\n  def smallest_range_i(nums, k) do\n    \n  end\nend"

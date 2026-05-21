@@ -1,0 +1,1 @@
+"class Solution(object):\n    def waysToBuyPensPencils(self, total, cost1, cost2):\n        \"\"\"\n        :type total: int\n        :type cost1: int\n        :type cost2: int\n        :rtype: int\n        \"\"\"\n        "

@@ -1,0 +1,1 @@
+"object Solution {\n    def maximalPathQuality(values: Array[Int], edges: Array[Array[Int]], maxTime: Int): Int = {\n        \n    }\n}"

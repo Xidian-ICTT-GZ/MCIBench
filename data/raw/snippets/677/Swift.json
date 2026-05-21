@@ -1,0 +1,1 @@
+"\nclass MapSum {\n\n    init() {\n        \n    }\n    \n    func insert(_ key: String, _ val: Int) {\n        \n    }\n    \n    func sum(_ prefix: String) -> Int {\n        \n    }\n}\n\n/**\n * Your MapSum object will be instantiated and called as such:\n * let obj = MapSum()\n * obj.insert(key, val)\n * let ret_2: Int = obj.sum(prefix)\n */"

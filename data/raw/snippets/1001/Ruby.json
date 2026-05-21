@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @param {Integer[][]} lamps\n# @param {Integer[][]} queries\n# @return {Integer[]}\ndef grid_illumination(n, lamps, queries)\n    \nend"

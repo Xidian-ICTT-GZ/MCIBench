@@ -1,0 +1,1 @@
+"# @param {String} s\n# @param {String[]} dictionary\n# @return {Integer}\ndef min_extra_char(s, dictionary)\n    \nend"

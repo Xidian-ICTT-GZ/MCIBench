@@ -1,0 +1,1 @@
+"(define/contract (is-reachable-at-time sx sy fx fy t)\n  (-> exact-integer? exact-integer? exact-integer? exact-integer? exact-integer? boolean?)\n  )"

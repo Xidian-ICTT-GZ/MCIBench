@@ -1,0 +1,1 @@
+"import pandas as pd\n\ndef swap_salary(salary: pd.DataFrame) -> pd.DataFrame:\n    "

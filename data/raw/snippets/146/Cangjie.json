@@ -1,0 +1,1 @@
+"class LRUCache {\n    init(capacity: Int64) {\n\n    }\n    \n    func get(key: Int64): Int64 {\n\n    }\n    \n    func put(key: Int64, value: Int64): Unit {\n\n    }\n}\n\n/**\n * Your LRUCache object will be instantiated and called as such:\n * let obj: LRUCache = LRUCache(capacity)\n * let param_1 = obj.get(key)\n * obj.put(key,value)\n */"

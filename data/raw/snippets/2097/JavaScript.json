@@ -1,0 +1,1 @@
+"/**\n * @param {number[][]} pairs\n * @return {number[][]}\n */\nvar validArrangement = function(pairs) {\n    \n};"

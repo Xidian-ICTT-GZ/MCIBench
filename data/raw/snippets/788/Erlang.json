@@ -1,0 +1,1 @@
+"-spec rotated_digits(N :: integer()) -> integer().\nrotated_digits(N) ->\n  ."

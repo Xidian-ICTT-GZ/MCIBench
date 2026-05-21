@@ -1,0 +1,1 @@
+"class Solution {\n    public long numberOfPowerfulInt(long start, long finish, int limit, String s) {\n        \n    }\n}"

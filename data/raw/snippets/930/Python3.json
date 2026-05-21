@@ -1,0 +1,1 @@
+"class Solution:\n    def numSubarraysWithSum(self, nums: List[int], goal: int) -> int:\n        "

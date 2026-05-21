@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec remove_stars(s :: String.t) :: String.t\n  def remove_stars(s) do\n    \n  end\nend"

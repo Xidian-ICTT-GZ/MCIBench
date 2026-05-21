@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $rectangles\n     * @return Integer\n     */\n    function rectangleArea($rectangles) {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"class Solution:\n    def nthUglyNumber(self, n: int) -> int:\n        "

@@ -1,0 +1,1 @@
+"class Solution {\n    fun calculateTax(brackets: Array<IntArray>, income: Int): Double {\n        \n    }\n}"

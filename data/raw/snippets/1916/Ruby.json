@@ -1,0 +1,1 @@
+"# @param {Integer[]} prev_room\n# @return {Integer}\ndef ways_to_build_rooms(prev_room)\n    \nend"

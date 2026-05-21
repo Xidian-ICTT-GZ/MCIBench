@@ -1,0 +1,1 @@
+"class Solution:\n    def maxGoodNumber(self, nums: List[int]) -> int:\n        "

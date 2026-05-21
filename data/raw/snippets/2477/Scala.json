@@ -1,0 +1,1 @@
+"object Solution {\n    def minimumFuelCost(roads: Array[Array[Int]], seats: Int): Long = {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec min_domino_rotations(tops :: [integer], bottoms :: [integer]) :: integer\n  def min_domino_rotations(tops, bottoms) do\n    \n  end\nend"

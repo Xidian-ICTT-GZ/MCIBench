@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec minimum_deletions(s :: String.t) :: integer\n  def minimum_deletions(s) do\n    \n  end\nend"

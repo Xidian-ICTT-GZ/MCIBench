@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $seq\n     * @return Integer[]\n     */\n    function maxDepthAfterSplit($seq) {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"-spec can_alice_win(Nums :: [integer()]) -> boolean().\ncan_alice_win(Nums) ->\n  ."

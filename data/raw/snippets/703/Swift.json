@@ -1,0 +1,1 @@
+"\nclass KthLargest {\n\n    init(_ k: Int, _ nums: [Int]) {\n        \n    }\n    \n    func add(_ val: Int) -> Int {\n        \n    }\n}\n\n/**\n * Your KthLargest object will be instantiated and called as such:\n * let obj = KthLargest(k, nums)\n * let ret_1: Int = obj.add(val)\n */"

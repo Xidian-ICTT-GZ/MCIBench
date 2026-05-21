@@ -1,0 +1,1 @@
+"# @param {Integer} kx\n# @param {Integer} ky\n# @param {Integer[][]} positions\n# @return {Integer}\ndef max_moves(kx, ky, positions)\n    \nend"

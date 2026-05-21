@@ -1,0 +1,1 @@
+"class Solution:\n    def separateSquares(self, squares: List[List[int]]) -> float:\n        "

@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<int> bestCoordinate(vector<vector<int>>& towers, int radius) {\n        \n    }\n};"

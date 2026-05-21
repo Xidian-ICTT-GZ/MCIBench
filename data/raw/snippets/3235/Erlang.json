@@ -1,0 +1,1 @@
+"-spec can_reach_corner(XCorner :: integer(), YCorner :: integer(), Circles :: [[integer()]]) -> boolean().\ncan_reach_corner(XCorner, YCorner, Circles) ->\n  ."

@@ -1,0 +1,1 @@
+"-spec add_minimum(Word :: unicode:unicode_binary()) -> integer().\nadd_minimum(Word) ->\n  ."

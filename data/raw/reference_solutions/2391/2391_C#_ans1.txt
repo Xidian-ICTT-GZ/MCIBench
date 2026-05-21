@@ -1,0 +1,20 @@
+public class Solution {
+    public int GarbageCollection(string[] garbage, int[] travel) {
+        IDictionary<char, int> distance = new Dictionary<char, int>();
+        int res = 0, curDis = 0;
+        for (int i = 0; i < garbage.Length; i++) {
+            res += garbage[i].Length;
+            if (i > 0) {
+                curDis += travel[i - 1];
+            }
+            foreach (char c in garbage[i]) {
+                if (!distance.ContainsKey(c)) {
+                    distance.Add(c, curDis);
+                } else {
+                    distance[c] = curDis;
+                }
+            }
+        }
+        return res + distance.Values.Sum();
+    }
+}

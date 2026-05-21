@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $tomatoSlices\n     * @param Integer $cheeseSlices\n     * @return Integer[]\n     */\n    function numOfBurgers($tomatoSlices, $cheeseSlices) {\n        \n    }\n}"

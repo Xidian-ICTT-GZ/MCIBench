@@ -1,0 +1,1 @@
+"impl Solution {\n    pub fn edge_score(edges: Vec<i32>) -> i32 {\n        \n    }\n}"

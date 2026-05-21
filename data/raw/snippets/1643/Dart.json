@@ -1,0 +1,1 @@
+"class Solution {\n  String kthSmallestPath(List<int> destination, int k) {\n    \n  }\n}"

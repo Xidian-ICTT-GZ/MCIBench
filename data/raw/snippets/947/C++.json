@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int removeStones(vector<vector<int>>& stones) {\n        \n    }\n};"

@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} deck\n * @return {boolean}\n */\nvar hasGroupsSizeX = function(deck) {\n    \n};"

@@ -1,0 +1,1 @@
+"object Solution {\n    def accountsMerge(accounts: List[List[String]]): List[List[String]] = {\n        \n    }\n}"

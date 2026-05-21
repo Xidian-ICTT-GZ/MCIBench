@@ -1,0 +1,1 @@
+"class Solution(object):\n    def findMaximizedCapital(self, k, w, profits, capital):\n        \"\"\"\n        :type k: int\n        :type w: int\n        :type profits: List[int]\n        :type capital: List[int]\n        :rtype: int\n        \"\"\"\n        "

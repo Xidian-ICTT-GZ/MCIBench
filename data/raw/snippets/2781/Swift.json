@@ -1,0 +1,1 @@
+"class Solution {\n    func longestValidSubstring(_ word: String, _ forbidden: [String]) -> Int {\n        \n    }\n}"

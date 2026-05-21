@@ -1,0 +1,1 @@
+"class Solution {\n    func sortPeople(_ names: [String], _ heights: [Int]) -> [String] {\n        \n    }\n}"

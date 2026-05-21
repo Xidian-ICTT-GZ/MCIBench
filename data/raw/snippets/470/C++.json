@@ -1,0 +1,1 @@
+"// The rand7() API is already defined for you.\n// int rand7();\n// @return a random integer in the range 1 to 7\n\nclass Solution {\npublic:\n    int rand10() {\n        \n    }\n};"

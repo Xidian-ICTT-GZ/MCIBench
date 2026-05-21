@@ -1,0 +1,1 @@
+"class Solution:\n    def countWords(self, words1: List[str], words2: List[str]) -> int:\n        "

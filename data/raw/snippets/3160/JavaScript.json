@@ -1,0 +1,1 @@
+"/**\n * @param {number} limit\n * @param {number[][]} queries\n * @return {number[]}\n */\nvar queryResults = function(limit, queries) {\n    \n};"

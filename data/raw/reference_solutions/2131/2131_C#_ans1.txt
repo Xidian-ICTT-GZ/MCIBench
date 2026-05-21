@@ -1,0 +1,27 @@
+public class Solution {
+    public int LongestPalindrome(string[] words) {
+        Dictionary<string, int> freq = new Dictionary<string, int>();
+        foreach (string word in words) {
+            freq[word] = freq.GetValueOrDefault(word, 0) + 1;
+        }
+        int res = 0;
+        bool mid = false;
+        foreach (var entry in freq) {
+            string word = entry.Key;
+            int cnt = entry.Value;
+            string rev = "" + word[1] + word[0];
+            if (word == rev) {
+                if (cnt % 2 == 1) {
+                    mid = true;
+                }
+                res += 2 * (cnt / 2 * 2);
+            } else if (string.Compare(word, rev) > 0) {
+                res += 4 * Math.Min(freq.GetValueOrDefault(word, 0), freq.GetValueOrDefault(rev, 0));
+            }
+        }
+        if (mid) {
+            res += 2;
+        }
+        return res;
+    }
+}

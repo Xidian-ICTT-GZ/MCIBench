@@ -1,0 +1,1 @@
+"-spec max_subsequence(Nums :: [integer()], K :: integer()) -> [integer()].\nmax_subsequence(Nums, K) ->\n  ."

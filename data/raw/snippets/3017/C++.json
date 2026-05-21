@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<long long> countOfPairs(int n, int x, int y) {\n        \n    }\n};"

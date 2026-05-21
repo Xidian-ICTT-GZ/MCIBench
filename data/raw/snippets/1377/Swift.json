@@ -1,0 +1,1 @@
+"class Solution {\n    func frogPosition(_ n: Int, _ edges: [[Int]], _ t: Int, _ target: Int) -> Double {\n        \n    }\n}"

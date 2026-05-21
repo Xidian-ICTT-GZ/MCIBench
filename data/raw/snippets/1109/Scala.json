@@ -1,0 +1,1 @@
+"object Solution {\n    def corpFlightBookings(bookings: Array[Array[Int]], n: Int): Array[Int] = {\n        \n    }\n}"

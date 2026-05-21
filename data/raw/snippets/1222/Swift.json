@@ -1,0 +1,1 @@
+"class Solution {\n    func queensAttacktheKing(_ queens: [[Int]], _ king: [Int]) -> [[Int]] {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"-spec min_stable(Nums :: [integer()], MaxC :: integer()) -> integer().\nmin_stable(Nums, MaxC) ->\n  ."

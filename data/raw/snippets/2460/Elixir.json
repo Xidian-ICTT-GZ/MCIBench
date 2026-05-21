@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec apply_operations(nums :: [integer]) :: [integer]\n  def apply_operations(nums) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"-spec count_arrays(Original :: [integer()], Bounds :: [[integer()]]) -> integer().\ncount_arrays(Original, Bounds) ->\n  ."

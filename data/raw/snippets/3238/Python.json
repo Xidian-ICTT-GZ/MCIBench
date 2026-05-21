@@ -1,0 +1,1 @@
+"class Solution(object):\n    def winningPlayerCount(self, n, pick):\n        \"\"\"\n        :type n: int\n        :type pick: List[List[int]]\n        :rtype: int\n        \"\"\"\n        "

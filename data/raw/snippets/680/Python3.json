@@ -1,0 +1,1 @@
+"class Solution:\n    def validPalindrome(self, s: str) -> bool:\n        "

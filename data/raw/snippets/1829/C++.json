@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<int> getMaximumXor(vector<int>& nums, int maximumBit) {\n        \n    }\n};"

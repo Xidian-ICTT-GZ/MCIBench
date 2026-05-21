@@ -1,0 +1,36 @@
+func kSum(nums []int, k int) int64 {
+    n := len(nums)
+    total, total2 := int64(0), int64(0)
+    for i := range nums {
+        if nums[i] >= 0 {
+            total += int64(nums[i])
+        } else {
+            nums[i] = -nums[i]
+        }
+        total2 += int64(nums[i])
+    }
+    sort.Ints(nums)
+    var cnt int
+    var dfs func(int, int64, int64)
+    dfs = func(i int, t, limit int64) {
+        if i == n || cnt >= k - 1 || t + int64(nums[i]) > limit {
+            return
+        }
+        cnt++
+        dfs(i + 1, t + int64(nums[i]), limit)
+        dfs(i + 1, t, limit)
+    }
+
+    left, right := int64(0), total2
+    for left <= right {
+        mid := (left + right) / 2
+        cnt = 0
+        dfs(0, 0, mid)
+        if cnt >= k - 1 {
+            right = mid - 1
+        } else {
+            left = mid + 1
+        }
+    }
+    return total - left
+}

@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int maximumUnits(vector<vector<int>>& boxTypes, int truckSize) {\n        \n    }\n};"

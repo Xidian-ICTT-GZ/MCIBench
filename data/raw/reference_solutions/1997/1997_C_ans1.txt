@@ -1,0 +1,19 @@
+const int MOD = 1e9 + 7;
+
+int firstDayBeenInAllRooms(int* nextVisit, int nextVisitSize) {
+    int dp[nextVisitSize ];
+    memset(dp, 0, sizeof(dp));
+
+    
+    dp[0] = 2; 
+    for (int i = 1; i < nextVisitSize; i++) {
+        int to = nextVisit[i];
+        dp[i] = 2 + dp[i - 1];
+        if (to) {
+            
+            dp[i] = (dp[i] - dp[to - 1] + MOD) % MOD;
+        }
+        dp[i] = (dp[i] + dp[i - 1]) % MOD;
+    }
+    return dp[nextVisitSize - 2]; 
+}

@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @param {Integer[][]} edges\n# @param {Integer[]} disappear\n# @return {Integer[]}\ndef minimum_time(n, edges, disappear)\n    \nend"

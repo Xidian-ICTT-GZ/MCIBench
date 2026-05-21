@@ -1,0 +1,1 @@
+"# @param {Integer} dividend\n# @param {Integer} divisor\n# @return {Integer}\ndef divide(dividend, divisor)\n    \nend"

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec distinct_averages(nums :: [integer]) :: integer\n  def distinct_averages(nums) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"# @param {Integer[][]} statements\n# @return {Integer}\ndef maximum_good(statements)\n    \nend"

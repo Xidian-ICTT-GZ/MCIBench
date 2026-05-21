@@ -1,0 +1,1 @@
+"impl Solution {\n    pub fn find_common_response(responses: Vec<Vec<String>>) -> String {\n        \n    }\n}"

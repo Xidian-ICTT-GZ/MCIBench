@@ -1,0 +1,1 @@
+"# @param {Integer[][]} forest\n# @return {Integer}\ndef cut_off_tree(forest)\n    \nend"

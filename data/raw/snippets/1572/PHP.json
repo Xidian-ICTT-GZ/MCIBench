@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $mat\n     * @return Integer\n     */\n    function diagonalSum($mat) {\n        \n    }\n}"

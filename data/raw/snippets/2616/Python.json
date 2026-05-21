@@ -1,0 +1,1 @@
+"class Solution(object):\n    def minimizeMax(self, nums, p):\n        \"\"\"\n        :type nums: List[int]\n        :type p: int\n        :rtype: int\n        \"\"\"\n        "

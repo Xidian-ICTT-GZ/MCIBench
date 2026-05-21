@@ -1,0 +1,36 @@
+public class Solution {
+    IList<int>[] match;
+    bool[] vis;
+    int num;
+
+    public int CountArrangement(int n) {
+        vis = new bool[n + 1];
+        match = new IList<int>[n + 1];
+        for (int i = 0; i <= n; i++) {
+            match[i] = new List<int>();
+        }
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= n; j++) {
+                if (i % j == 0 || j % i == 0) {
+                    match[i].Add(j);
+                }
+            }
+        }
+        Backtrack(1, n);
+        return num;
+    }
+
+    public void Backtrack(int index, int n) {
+        if (index == n + 1) {
+            num++;
+            return;
+        }
+        foreach (int x in match[index]) {
+            if (!vis[x]) {
+                vis[x] = true;
+                Backtrack(index + 1, n);
+                vis[x] = false;
+            }
+        }
+    }
+}

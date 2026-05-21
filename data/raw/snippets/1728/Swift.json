@@ -1,0 +1,1 @@
+"class Solution {\n    func canMouseWin(_ grid: [String], _ catJump: Int, _ mouseJump: Int) -> Bool {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @param {Integer} k\n# @return {Integer[]}\ndef circular_game_losers(n, k)\n    \nend"

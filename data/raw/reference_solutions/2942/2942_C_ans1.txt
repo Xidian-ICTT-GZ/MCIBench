@@ -1,0 +1,10 @@
+int* findWordsContaining(char** words, int wordsSize, char x, int* returnSize) {
+    int* res = (int*)malloc(wordsSize * sizeof(int));
+    *returnSize = 0;
+    for (int i = 0; i < wordsSize; i++) {
+        if (strchr(words[i], x) != NULL) {
+            res[(*returnSize)++] = i;
+        }
+    }
+    return res;
+}

@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<vector<int>> flipAndInvertImage(vector<vector<int>>& image) {\n        \n    }\n};"

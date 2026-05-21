@@ -1,0 +1,1 @@
+"# @param {Integer[]} spells\n# @param {Integer[]} potions\n# @param {Integer} success\n# @return {Integer[]}\ndef successful_pairs(spells, potions, success)\n    \nend"

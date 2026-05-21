@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec largest_palindromic(num :: String.t) :: String.t\n  def largest_palindromic(num) do\n    \n  end\nend"

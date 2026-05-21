@@ -1,0 +1,1 @@
+"object Solution {\n    def numberOfSets(n: Int, maxDistance: Int, roads: Array[Array[Int]]): Int = {\n        \n    }\n}"

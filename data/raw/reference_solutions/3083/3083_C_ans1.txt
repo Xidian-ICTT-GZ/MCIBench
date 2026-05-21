@@ -1,0 +1,10 @@
+bool isSubstringPresent(char* s) {
+    int len = strlen(s);
+    for (int i = 0; i < len - 1; i++) {
+        char substr[3] = {s[i + 1], s[i], '\0'};
+        if (strstr(s, substr)) {
+            return true;
+        }
+    }
+    return false;
+}

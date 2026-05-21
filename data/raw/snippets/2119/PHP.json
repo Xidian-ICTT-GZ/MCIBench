@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $num\n     * @return Boolean\n     */\n    function isSameAfterReversals($num) {\n        \n    }\n}"

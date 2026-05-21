@@ -1,0 +1,24 @@
+#define MAX(a, b) ((a) > (b) ? (a) : (b))
+
+int longestWPI(int* hours, int hoursSize) {
+    int s[hoursSize + 1];
+    int stk[hoursSize + 1];
+    int top = 0;
+    stk[top++] = 0;
+    s[0] = 0;
+    for (int i = 1; i <= hoursSize; i++) {
+        s[i] = s[i - 1] + (hours[i - 1] > 8 ? 1 : -1);
+        if (s[stk[top - 1]] > s[i]) {
+            stk[top++] = i;
+        }
+    }
+
+    int res = 0;
+    for (int r = hoursSize; r >= 1; r--) {
+        while (top && s[stk[top - 1]] < s[r]) {
+            res = MAX(res, r - stk[top - 1]);
+            top--;
+        }
+    }
+    return res;
+}

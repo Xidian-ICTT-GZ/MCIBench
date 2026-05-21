@@ -1,0 +1,88 @@
+class Trie:
+    left: "Trie" = None
+    right: "Trie" = None
+    
+    
+    cnt: int = 0
+
+class Solution:
+
+    
+    
+    MAXD = 17
+
+    def maxGeneticDifference(self, parents: List[int], queries: List[List[int]]) -> List[int]:
+        n = len(parents)
+
+        
+        edges = defaultdict(list)
+        
+        root = -1
+        for i, parent in enumerate(parents):
+            if parent == -1:
+                root = i
+            else:
+                edges[parent].append(i)
+
+        q = len(queries)
+        
+        stored = defaultdict(list)
+        ans = [0] * q
+        for i, (node, val) in enumerate(queries):
+            stored[node].append((i, val))
+
+        r = Trie()
+
+        
+        def trie_insert(x: int) -> None:
+            cur = r
+            for i in range(Solution.MAXD, -1, -1):
+                if x & (1 << i):
+                    if not cur.right:
+                        cur.right = Trie()
+                    cur = cur.right
+                else:
+                    if not cur.left:
+                        cur.left = Trie()
+                    cur = cur.left
+                cur.cnt += 1
+
+        
+        def trie_query(x: int) -> int:
+            cur, ret = r, 0
+            for i in range(Solution.MAXD, -1, -1):
+                if x & (1 << i):
+                    if cur.left and cur.left.cnt:
+                        ret |= (1 << i)
+                        cur = cur.left
+                    else:
+                        cur = cur.right
+                else:
+                    if cur.right and cur.right.cnt:
+                        ret |= (1 << i)
+                        cur = cur.right
+                    else:
+                        cur = cur.left
+            return ret
+
+        
+        def trie_erase(x: int) -> None:
+            cur = r
+            for i in range(Solution.MAXD, -1, -1):
+                if x & (1 << i):
+                    cur = cur.right
+                else:
+                    cur = cur.left
+                cur.cnt -= 1
+
+        
+        def dfs(u: int) -> None:
+            trie_insert(u)
+            for idx, num in stored[u]:
+                ans[idx] = trie_query(num)
+            for v in edges[u]:
+                dfs(v)
+            trie_erase(u)
+
+        dfs(root)
+        return ans

@@ -1,0 +1,1 @@
+"(define/contract (count-winning-sequences s)\n  (-> string? exact-integer?)\n  )"

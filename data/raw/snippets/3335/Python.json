@@ -1,0 +1,1 @@
+"class Solution(object):\n    def lengthAfterTransformations(self, s, t):\n        \"\"\"\n        :type s: str\n        :type t: int\n        :rtype: int\n        \"\"\"\n        "

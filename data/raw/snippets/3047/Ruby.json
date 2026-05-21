@@ -1,0 +1,1 @@
+"# @param {Integer[][]} bottom_left\n# @param {Integer[][]} top_right\n# @return {Integer}\ndef largest_square_area(bottom_left, top_right)\n    \nend"

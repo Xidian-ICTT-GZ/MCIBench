@@ -1,0 +1,27 @@
+public class Solution {
+    private const int INF = 0x3f3f3f3f;
+
+    public int MinimumWhiteTiles(string floor, int numCarpets, int carpetLen) {
+        int n = floor.Length;
+        int[] d = new int[n + 1];
+        int[] f = new int[n + 1];
+        Array.Fill(d, INF);
+        Array.Fill(f, INF);
+        d[0] = 0;
+        for (int i = 1; i <= n; i++) {
+            d[i] = d[i - 1] + (floor[i - 1] == '1' ? 1 : 0);
+        }
+        for (int j = 1; j <= numCarpets; j++) {
+            f[0] = 0;
+            for (int i = 1; i <= n; i++) {
+                f[i] = f[i - 1] + (floor[i - 1] == '1' ? 1 : 0);
+                f[i] = Math.Min(f[i], d[Math.Max(0, i - carpetLen)]);
+            }
+            int[] temp = d;
+            d = f;
+            f = temp;
+        }
+
+        return d[n];
+    }
+}

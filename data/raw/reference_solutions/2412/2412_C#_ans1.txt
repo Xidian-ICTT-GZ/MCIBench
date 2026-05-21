@@ -1,0 +1,13 @@
+public class Solution {
+    public long MinimumMoney(int[][] transactions) {
+        long totalLose = 0;
+        int res = 0;
+        foreach (var t in transactions) {
+            int cost = t[0];
+            int cashback = t[1];
+            totalLose += Math.Max(cost - cashback, 0);
+            res = Math.Max(res, Math.Min(cost, cashback));
+        }
+        return totalLose + res;
+    }
+}

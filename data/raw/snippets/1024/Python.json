@@ -1,0 +1,1 @@
+"class Solution(object):\n    def videoStitching(self, clips, time):\n        \"\"\"\n        :type clips: List[List[int]]\n        :type time: int\n        :rtype: int\n        \"\"\"\n        "

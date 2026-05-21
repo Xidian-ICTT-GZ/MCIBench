@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec unmarked_sum_array(nums :: [integer], queries :: [[integer]]) :: [integer]\n  def unmarked_sum_array(nums, queries) do\n    \n  end\nend"

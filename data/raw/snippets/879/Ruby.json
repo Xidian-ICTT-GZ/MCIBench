@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @param {Integer} min_profit\n# @param {Integer[]} group\n# @param {Integer[]} profit\n# @return {Integer}\ndef profitable_schemes(n, min_profit, group, profit)\n    \nend"

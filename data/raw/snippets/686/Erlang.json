@@ -1,0 +1,1 @@
+"-spec repeated_string_match(A :: unicode:unicode_binary(), B :: unicode:unicode_binary()) -> integer().\nrepeated_string_match(A, B) ->\n  ."

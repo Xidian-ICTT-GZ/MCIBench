@@ -1,0 +1,1 @@
+"object Solution {\n    def findCoins(numWays: Array[Int]): List[Int] = {\n        \n    }\n}"

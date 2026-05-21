@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    long long findTheArrayConcVal(vector<int>& nums) {\n        \n    }\n};"

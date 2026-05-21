@@ -1,0 +1,1 @@
+"-spec results_array(Nums :: [integer()], K :: integer()) -> [integer()].\nresults_array(Nums, K) ->\n  ."

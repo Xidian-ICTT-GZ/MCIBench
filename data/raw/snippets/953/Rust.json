@@ -1,0 +1,1 @@
+"impl Solution {\n    pub fn is_alien_sorted(words: Vec<String>, order: String) -> bool {\n        \n    }\n}"

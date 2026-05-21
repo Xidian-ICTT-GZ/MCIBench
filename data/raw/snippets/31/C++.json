@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    void nextPermutation(vector<int>& nums) {\n        \n    }\n};"

@@ -1,0 +1,1 @@
+"type F = (...args: number[]) => void\n\nfunction debounce(fn: F, t: number): F {\n    \n    return function(...args) {\n        \n    }\n};\n\n/**\n * const log = debounce(console.log, 100);\n * log('Hello'); // cancelled\n * log('Hello'); // cancelled\n * log('Hello'); // Logged at t=100ms\n */"

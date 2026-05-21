@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec compare_version(version1 :: String.t, version2 :: String.t) :: integer\n  def compare_version(version1, version2) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} groups\n * @param {number[]} elements\n * @return {number[]}\n */\nvar assignElements = function(groups, elements) {\n    \n};"

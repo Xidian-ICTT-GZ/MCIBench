@@ -1,0 +1,67 @@
+struct TIII {
+    int first, first_idx, second;
+};
+
+
+
+const int INFTY = 0x3f3f3f3f;
+
+int minCost(int* houses, int housesSize, int** cost, int costSize, int* costColSize, int m, int n, int target) {
+    
+    for (int i = 0; i < housesSize; ++i) {
+        houses[i]--;
+    }
+
+    
+    int dp[m][n][target];
+    memset(dp, 0x3f, sizeof(dp));
+    struct TIII best[m][target];
+    for (int i = 0; i < m; i++) {
+        for (int j = 0; j < target; j++) {
+            best[i][j] = (struct TIII){INFTY, -1, INFTY};
+        }
+    }
+
+    for (int i = 0; i < m; ++i) {
+        for (int j = 0; j < n; ++j) {
+            if (houses[i] != -1 && houses[i] != j) {
+                continue;
+            }
+
+            for (int k = 0; k < target; ++k) {
+                if (i == 0) {
+                    if (k == 0) {
+                        dp[i][j][k] = 0;
+                    }
+                } else {
+                    dp[i][j][k] = dp[i - 1][j][k];
+                    if (k > 0) {
+                        
+                        struct TIII* tmp = &best[i - 1][k - 1];
+                        dp[i][j][k] = fmin(dp[i][j][k], (j == tmp->first_idx ? tmp->second : tmp->first));
+                    }
+                }
+
+                if (dp[i][j][k] != INFTY && houses[i] == -1) {
+                    dp[i][j][k] += cost[i][j];
+                }
+
+                
+                struct TIII* tmp = &best[i][k];
+                if (dp[i][j][k] < tmp->first) {
+                    tmp->second = tmp->first;
+                    tmp->first = dp[i][j][k];
+                    tmp->first_idx = j;
+                } else if (dp[i][j][k] < tmp->second) {
+                    tmp->second = dp[i][j][k];
+                }
+            }
+        }
+    }
+
+    int ans = INFTY;
+    for (int j = 0; j < n; ++j) {
+        ans = fmin(ans, dp[m - 1][j][target - 1]);
+    }
+    return ans == INFTY ? -1 : ans;
+}

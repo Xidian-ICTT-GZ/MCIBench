@@ -1,0 +1,27 @@
+var minDifficulty = function(jobDifficulty, d) {
+    const n = jobDifficulty.length;
+    if (n < d) {
+        return -1;
+    }
+    const dp = new Array(d).fill(0).map(() => new Array(n).fill(0));
+    for (let j = 0, ma = 0; j < n; ++j) {
+        ma = Math.max(ma, jobDifficulty[j]);
+        dp[0][j] = ma;
+    }
+    for (let i = 1; i < d; ++i) {
+        const stack = [];
+        for (let j = i; j < n; ++j) {
+            let mi = dp[i - 1][j - 1];
+            while (stack.length && jobDifficulty[stack[stack.length - 1][0]] < jobDifficulty[j]) {
+                mi = Math.min(mi, stack.pop()[1]);
+            }
+            if (stack.length === 0) {
+                dp[i][j] = mi + jobDifficulty[j];
+            } else {
+                dp[i][j] = Math.min(dp[i][stack[stack.length - 1][0]], mi + jobDifficulty[j]);
+            }
+            stack.push([j, mi]);
+        }
+    }
+    return dp[d - 1][n - 1];
+};

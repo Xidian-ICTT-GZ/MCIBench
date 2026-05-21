@@ -1,0 +1,15 @@
+public class Solution {
+    public int LongestContinuousSubstring(string s) {
+        int res = 1;
+        int cur = 1;
+        for (int i = 1; i < s.Length; i++) {
+            if (s[i] == s[i - 1] + 1) {
+                cur++;
+            } else {
+                cur = 1;
+            }
+            res = Math.Max(res, cur);
+        }
+        return res;
+    }
+}

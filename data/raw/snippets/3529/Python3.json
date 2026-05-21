@@ -1,0 +1,1 @@
+"class Solution:\n    def countCells(self, grid: List[List[str]], pattern: str) -> int:\n        "

@@ -1,0 +1,1 @@
+"class Solution(object):\n    def maxRunTime(self, n, batteries):\n        \"\"\"\n        :type n: int\n        :type batteries: List[int]\n        :rtype: int\n        \"\"\"\n        "

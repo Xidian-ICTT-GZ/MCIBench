@@ -1,0 +1,29 @@
+void flatten(struct TreeNode *root) {
+    if (root == NULL) {
+        return;
+    }
+    struct TreeNode **stk = (struct TreeNode **)malloc(sizeof(struct TreeNode *));
+    int stk_top = 1;
+    stk[0] = root;
+    struct TreeNode *prev = NULL;
+    while (stk_top != 0) {
+        struct TreeNode *curr = stk[--stk_top];
+        if (prev != NULL) {
+            prev->left = NULL;
+            prev->right = curr;
+        }
+        struct TreeNode *left = curr->left, *right = curr->right;
+        if (right != NULL) {
+            stk_top++;
+            stk = (struct TreeNode **)realloc(stk, sizeof(struct TreeNode *) * stk_top);
+            stk[stk_top - 1] = right;
+        }
+        if (left != NULL) {
+            stk_top++;
+            stk = (struct TreeNode **)realloc(stk, sizeof(struct TreeNode *) * stk_top);
+            stk[stk_top - 1] = left;
+        }
+        prev = curr;
+    }
+    free(stk);
+}

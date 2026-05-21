@@ -1,0 +1,28 @@
+int compare(const void *a, const void *b) {
+    return (*(int*)a - *(int*)b);
+}
+
+int latestTimeCatchTheBus(int* buses, int busesSize, int* passengers, int passengersSize, int capacity) {
+    qsort(buses, busesSize, sizeof(int), compare);
+    qsort(passengers, passengersSize, sizeof(int), compare);
+    int pos = 0;
+    int space = 0;
+
+    for (int i = 0; i < busesSize; i++) {
+        int arrive = buses[i];
+        space = capacity;
+        while (space > 0 && pos < passengersSize && passengers[pos] <= arrive) {
+            space--;
+            pos++;
+        }
+    }
+
+    pos--;
+    int lastCatchTime = space > 0 ? buses[busesSize - 1] : passengers[pos];
+    while (pos >= 0 && passengers[pos] == lastCatchTime) {
+        pos--;
+        lastCatchTime--;
+    }
+
+    return lastCatchTime;
+}

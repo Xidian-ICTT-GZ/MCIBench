@@ -1,0 +1,1 @@
+"# @param {Integer[]} queries\n# @param {Integer} int_length\n# @return {Integer[]}\ndef kth_palindrome(queries, int_length)\n    \nend"

@@ -1,0 +1,19 @@
+func maxDivScore(nums []int, divisors []int) int {
+    cnt := -1
+    ans := 0
+
+    for _, divisor := range divisors {
+        tmp := 0
+        for _, num := range nums {
+            if num % divisor == 0 {
+                tmp++
+            }
+        }
+
+        if tmp > cnt || (tmp == cnt && divisor < ans) {
+            cnt = tmp
+            ans = divisor
+        }
+    }
+    return ans
+}

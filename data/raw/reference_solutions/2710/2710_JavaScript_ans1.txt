@@ -1,0 +1,7 @@
+var removeTrailingZeros = function(num) {
+    let len = num.length;
+    while (len > 0 && num[len - 1] == '0') {
+        len--;
+    }
+    return num.slice(0, len);
+};

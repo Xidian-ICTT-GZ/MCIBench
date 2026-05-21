@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $gain\n     * @return Integer\n     */\n    function largestAltitude($gain) {\n        \n    }\n}"

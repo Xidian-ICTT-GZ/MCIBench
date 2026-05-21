@@ -1,0 +1,1 @@
+"class Solution(object):\n    def maxUniqueSplit(self, s):\n        \"\"\"\n        :type s: str\n        :rtype: int\n        \"\"\"\n        "

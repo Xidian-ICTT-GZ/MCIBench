@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $word\n     * @param Integer $k\n     * @return Integer\n     */\n    function possibleStringCount($word, $k) {\n        \n    }\n}"

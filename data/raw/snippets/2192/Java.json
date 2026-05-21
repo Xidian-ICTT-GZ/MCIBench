@@ -1,0 +1,1 @@
+"class Solution {\n    public List<List<Integer>> getAncestors(int n, int[][] edges) {\n        \n    }\n}"

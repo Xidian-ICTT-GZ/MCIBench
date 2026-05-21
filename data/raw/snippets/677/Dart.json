@@ -1,0 +1,1 @@
+"class MapSum {\n\n  MapSum() {\n    \n  }\n  \n  void insert(String key, int val) {\n    \n  }\n  \n  int sum(String prefix) {\n    \n  }\n}\n\n/**\n * Your MapSum object will be instantiated and called as such:\n * MapSum obj = MapSum();\n * obj.insert(key,val);\n * int param2 = obj.sum(prefix);\n */"

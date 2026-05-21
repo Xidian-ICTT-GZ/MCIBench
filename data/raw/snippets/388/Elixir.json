@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec length_longest_path(input :: String.t) :: integer\n  def length_longest_path(input) do\n    \n  end\nend"

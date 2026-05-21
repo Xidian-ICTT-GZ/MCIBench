@@ -1,0 +1,1 @@
+"-spec min_cost(MaxTime :: integer(), Edges :: [[integer()]], PassingFees :: [integer()]) -> integer().\nmin_cost(MaxTime, Edges, PassingFees) ->\n  ."

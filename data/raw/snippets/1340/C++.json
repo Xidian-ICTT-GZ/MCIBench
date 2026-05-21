@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int maxJumps(vector<int>& arr, int d) {\n        \n    }\n};"

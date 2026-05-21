@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $basket1\n     * @param Integer[] $basket2\n     * @return Integer\n     */\n    function minCost($basket1, $basket2) {\n        \n    }\n}"

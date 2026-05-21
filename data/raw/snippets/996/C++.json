@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int numSquarefulPerms(vector<int>& nums) {\n        \n    }\n};"

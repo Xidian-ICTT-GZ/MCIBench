@@ -1,0 +1,19 @@
+class Solution:
+    def queensAttacktheKing(self, queens: List[List[int]], king: List[int]) -> List[List[int]]:
+        queen_pos = set((x, y) for x, y in queens)
+
+        ans = list()
+        for dx in [-1, 0, 1]:
+            for dy in [-1, 0, 1]:
+                if dx == dy == 0:
+                    continue
+                
+                kx, ky = king[0] + dx, king[1] + dy
+                while 0 <= kx < 8 and 0 <= ky < 8:
+                    if (kx, ky) in queen_pos:
+                        ans.append([kx, ky])
+                        break
+                    kx += dx
+                    ky += dy
+        
+        return ans

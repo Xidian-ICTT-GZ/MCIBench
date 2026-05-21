@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec min_flips(a :: integer, b :: integer, c :: integer) :: integer\n  def min_flips(a, b, c) do\n    \n  end\nend"

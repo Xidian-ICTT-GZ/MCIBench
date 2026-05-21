@@ -1,0 +1,1 @@
+"class MKAverage {\n    constructor(m: number, k: number) {\n        \n    }\n\n    addElement(num: number): void {\n        \n    }\n\n    calculateMKAverage(): number {\n        \n    }\n}\n\n/**\n * Your MKAverage object will be instantiated and called as such:\n * var obj = new MKAverage(m, k)\n * obj.addElement(num)\n * var param_2 = obj.calculateMKAverage()\n */"

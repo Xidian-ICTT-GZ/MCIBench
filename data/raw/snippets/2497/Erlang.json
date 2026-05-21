@@ -1,0 +1,1 @@
+"-spec max_star_sum(Vals :: [integer()], Edges :: [[integer()]], K :: integer()) -> integer().\nmax_star_sum(Vals, Edges, K) ->\n  ."

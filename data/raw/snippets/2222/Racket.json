@@ -1,0 +1,1 @@
+"(define/contract (number-of-ways s)\n  (-> string? exact-integer?)\n  )"

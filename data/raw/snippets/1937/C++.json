@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    long long maxPoints(vector<vector<int>>& points) {\n        \n    }\n};"

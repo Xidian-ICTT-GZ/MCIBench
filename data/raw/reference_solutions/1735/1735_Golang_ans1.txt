@@ -1,0 +1,37 @@
+const MOD int = 1e9 + 7
+const MAXN int = 1e4 + 14
+const MAXM int = 14
+
+func waysToFillArray(queries [][]int) []int {
+    var comb [MAXN][MAXM]int64
+	var ans []int
+
+	comb[0][0] = 1
+	for i := 1; i < MAXN; i++ {
+		comb[i][0] = 1
+		for j := 1; j <= i && j < MAXM; j++ {
+			comb[i][j] = (comb[i-1][j-1] + comb[i-1][j]) % int64(MOD)
+		}
+	}
+
+	for _, q := range queries {
+		n, k := q[0], q[1]
+		tot := int64(1)
+		for i := 2; i*i <= k; i++ {
+			if k%i == 0 {
+				cnt := 0
+				for k%i == 0 {
+					k /= i
+					cnt++
+				}
+				tot = (tot * comb[n+cnt-1][cnt]) % int64(MOD)
+			}
+		}
+        
+		if k > 1 {
+			tot = tot * n % int64(MOD)
+		}
+		ans = append(ans, int(tot))
+	}
+	return ans
+}

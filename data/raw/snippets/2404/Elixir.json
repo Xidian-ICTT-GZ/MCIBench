@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec most_frequent_even(nums :: [integer]) :: integer\n  def most_frequent_even(nums) do\n    \n  end\nend"

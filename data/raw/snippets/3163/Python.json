@@ -1,0 +1,1 @@
+"class Solution(object):\n    def compressedString(self, word):\n        \"\"\"\n        :type word: str\n        :rtype: str\n        \"\"\"\n        "

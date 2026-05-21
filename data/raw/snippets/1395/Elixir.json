@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec num_teams(rating :: [integer]) :: integer\n  def num_teams(rating) do\n    \n  end\nend"

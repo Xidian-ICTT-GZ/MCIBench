@@ -1,0 +1,1 @@
+"class Solution(object):\n    def sortPeople(self, names, heights):\n        \"\"\"\n        :type names: List[str]\n        :type heights: List[int]\n        :rtype: List[str]\n        \"\"\"\n        "

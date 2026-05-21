@@ -1,0 +1,1 @@
+"-spec minimize_result(Expression :: unicode:unicode_binary()) -> unicode:unicode_binary().\nminimize_result(Expression) ->\n  ."

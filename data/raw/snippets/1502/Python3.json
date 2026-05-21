@@ -1,0 +1,1 @@
+"class Solution:\n    def canMakeArithmeticProgression(self, arr: List[int]) -> bool:\n        "

@@ -1,0 +1,1 @@
+"object Solution {\n    def minimumTotalDistance(robot: List[Int], factory: Array[Array[Int]]): Long = {\n        \n    }\n}"

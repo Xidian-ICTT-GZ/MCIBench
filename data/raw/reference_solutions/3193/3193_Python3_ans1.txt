@@ -1,0 +1,28 @@
+class Solution:
+    def numberOfPermutations(self, n: int, requirements: List[List[int]]) -> int:
+
+        mod = 10 ** 9 + 7
+        reqMap = {0: 0}
+        for end, cnt in requirements:
+            reqMap[end] = cnt
+        if reqMap[0]:
+            return 0
+        
+        @cache
+        def dfs(end: int, cnt: int) -> int:
+            if end == 0:
+                return 1
+            if end - 1 in reqMap:
+                r = reqMap[end - 1]
+                if r <= cnt <= end + r:
+                    return dfs(end - 1, r)
+                else:
+                    return 0
+            else:
+                sm = 0
+                for i in range(min(end, cnt) + 1):
+                    sm += dfs(end - 1, cnt - i)
+                    sm %= mod
+                return sm
+        
+        return dfs(n - 1, reqMap[n - 1])

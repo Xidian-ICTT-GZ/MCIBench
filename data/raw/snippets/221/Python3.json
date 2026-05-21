@@ -1,0 +1,1 @@
+"class Solution:\n    def maximalSquare(self, matrix: List[List[str]]) -> int:\n        "

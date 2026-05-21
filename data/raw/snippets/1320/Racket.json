@@ -1,0 +1,1 @@
+"(define/contract (minimum-distance word)\n  (-> string? exact-integer?)\n  )"

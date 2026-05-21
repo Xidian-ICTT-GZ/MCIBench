@@ -1,0 +1,1 @@
+"class Solution(object):\n    def prefixesDivBy5(self, nums):\n        \"\"\"\n        :type nums: List[int]\n        :rtype: List[bool]\n        \"\"\"\n        "

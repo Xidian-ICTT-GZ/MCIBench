@@ -1,0 +1,1 @@
+"/**\n * @param {string[]} dictionary\n * @param {string} sentence\n * @return {string}\n */\nvar replaceWords = function(dictionary, sentence) {\n    \n};"

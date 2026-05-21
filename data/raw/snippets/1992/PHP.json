@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $land\n     * @return Integer[][]\n     */\n    function findFarmland($land) {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    long long numberOfPowerfulInt(long long start, long long finish, int limit, string s) {\n        \n    }\n};"

@@ -1,0 +1,1 @@
+"/**\n * @param {string} word\n * @param {number} numFriends\n * @return {string}\n */\nvar answerString = function(word, numFriends) {\n    \n};"

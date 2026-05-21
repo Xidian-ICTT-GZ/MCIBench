@@ -1,0 +1,1 @@
+"class NumberContainers() {\n\n    def change(index: Int, number: Int): Unit = {\n        \n    }\n\n    def find(number: Int): Int = {\n        \n    }\n\n}\n\n/**\n * Your NumberContainers object will be instantiated and called as such:\n * val obj = new NumberContainers()\n * obj.change(index,number)\n * val param_2 = obj.find(number)\n */"

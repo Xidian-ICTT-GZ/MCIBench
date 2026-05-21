@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec is_prefix_string(s :: String.t, words :: [String.t]) :: boolean\n  def is_prefix_string(s, words) do\n    \n  end\nend"

@@ -1,0 +1,28 @@
+struct TreeNode* creatTreeNode(int val, const struct TreeNode *left, const struct TreeNode *right) {
+    struct TreeNode* node = (struct TreeNode *)malloc(sizeof(struct TreeNode));
+    node->val = val;
+    node->left = left;
+    node->right = right;
+    return node;
+}
+
+struct TreeNode* insertIntoMaxTree(struct TreeNode* root, int val){
+    struct TreeNode* parent = NULL;
+    struct TreeNode* cur = root;
+    struct TreeNode* node = NULL;
+    while (cur) {
+        if (val > cur->val) {
+            if (!parent) {
+                return creatTreeNode(val, root, NULL);
+            } 
+            parent->right = creatTreeNode(val, cur, NULL);
+            return root;
+        }
+        else {
+            parent = cur;
+            cur = cur->right;
+        }
+    }
+    parent->right = creatTreeNode(val, NULL, NULL);;
+    return root;
+}

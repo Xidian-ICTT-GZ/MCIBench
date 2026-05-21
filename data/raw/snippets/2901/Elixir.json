@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec get_words_in_longest_subsequence(words :: [String.t], groups :: [integer]) :: [String.t]\n  def get_words_in_longest_subsequence(words, groups) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec mincost_to_hire_workers(quality :: [integer], wage :: [integer], k :: integer) :: float\n  def mincost_to_hire_workers(quality, wage, k) do\n    \n  end\nend"

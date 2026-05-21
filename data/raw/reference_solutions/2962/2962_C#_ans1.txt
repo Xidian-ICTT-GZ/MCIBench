@@ -1,0 +1,20 @@
+public class Solution {
+    public long CountSubarrays(int[] nums, int k) {
+        int n = nums.Length;
+        int mx = nums.Max();
+        List<int> pos = new List<int> { -1 };
+        for (int i = 0; i < n; i++) {
+            if (nums[i] == mx) {
+                pos.Add(i);
+            }
+        }
+        int left = 1, right = k;
+        long ans = 0;
+        while (right < pos.Count) {
+            ans += (long)(pos[left] - pos[left - 1]) * (n - pos[right]);
+            left++;
+            right++;
+        }
+        return ans;
+    }
+}

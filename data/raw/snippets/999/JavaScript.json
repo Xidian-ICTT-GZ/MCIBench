@@ -1,0 +1,1 @@
+"/**\n * @param {character[][]} board\n * @return {number}\n */\nvar numRookCaptures = function(board) {\n    \n};"

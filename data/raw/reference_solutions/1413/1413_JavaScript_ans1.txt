@@ -1,0 +1,8 @@
+var minStartValue = function(nums) {
+    let accSum = 0, accSumMin = 0;
+    for (const num of nums) {
+        accSum += num;
+        accSumMin = Math.min(accSumMin, accSum);
+    }
+    return -accSumMin + 1;
+};

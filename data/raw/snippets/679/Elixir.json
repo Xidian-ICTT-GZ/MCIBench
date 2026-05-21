@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec judge_point24(cards :: [integer]) :: boolean\n  def judge_point24(cards) do\n    \n  end\nend"

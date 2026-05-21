@@ -1,0 +1,12 @@
+class Solution:
+    def minimumTime(self, s: str) -> int:
+        n = len(s)
+        ans = float("inf")
+        presum = prebest = 0
+
+        for j, ch in enumerate(s):
+            prebest = min(prebest, j - 2 * presum)
+            presum += int(s[j])
+            ans = min(ans, prebest + 2 * presum - j)
+        
+        return min(ans + n - 1, n)

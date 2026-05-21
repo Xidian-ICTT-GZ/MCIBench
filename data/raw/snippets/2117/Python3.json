@@ -1,0 +1,1 @@
+"class Solution:\n    def abbreviateProduct(self, left: int, right: int) -> str:\n        "

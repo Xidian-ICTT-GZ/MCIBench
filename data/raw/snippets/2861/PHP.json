@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $n\n     * @param Integer $k\n     * @param Integer $budget\n     * @param Integer[][] $composition\n     * @param Integer[] $stock\n     * @param Integer[] $cost\n     * @return Integer\n     */\n    function maxNumberOfAlloys($n, $k, $budget, $composition, $stock, $cost) {\n        \n    }\n}"

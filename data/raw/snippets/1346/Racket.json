@@ -1,0 +1,1 @@
+"(define/contract (check-if-exist arr)\n  (-> (listof exact-integer?) boolean?)\n  )"

@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @return {Boolean}\ndef split_array_same_average(nums)\n    \nend"

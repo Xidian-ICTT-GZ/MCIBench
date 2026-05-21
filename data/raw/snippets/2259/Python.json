@@ -1,0 +1,1 @@
+"class Solution(object):\n    def removeDigit(self, number, digit):\n        \"\"\"\n        :type number: str\n        :type digit: str\n        :rtype: str\n        \"\"\"\n        "

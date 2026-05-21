@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<vector<int>> generate(int numRows) {\n        \n    }\n};"

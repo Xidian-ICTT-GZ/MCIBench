@@ -1,0 +1,1 @@
+"class TimeMap {\n\n  TimeMap() {\n    \n  }\n  \n  void set(String key, String value, int timestamp) {\n    \n  }\n  \n  String get(String key, int timestamp) {\n    \n  }\n}\n\n/**\n * Your TimeMap object will be instantiated and called as such:\n * TimeMap obj = TimeMap();\n * obj.set(key,value,timestamp);\n * String param2 = obj.get(key,timestamp);\n */"

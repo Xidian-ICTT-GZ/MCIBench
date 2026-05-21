@@ -1,0 +1,1 @@
+"# @param {Integer[][]} grid\n# @return {Boolean}\ndef check_x_matrix(grid)\n    \nend"

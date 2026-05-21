@@ -1,0 +1,1 @@
+"class Solution(object):\n    def destCity(self, paths):\n        \"\"\"\n        :type paths: List[List[str]]\n        :rtype: str\n        \"\"\"\n        "

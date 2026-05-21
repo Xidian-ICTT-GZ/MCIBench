@@ -1,0 +1,9 @@
+int maxHeight(int x, int y) {
+    int odd = 2 * (int)sqrt((double)x) - 1;
+    int even = 2 * (int)((-1 + sqrt(1 + 4.0 * (double)y)) / 2);
+    return fmin(odd, even) + 1;
+}
+
+int maxHeightOfTriangle(int red, int blue) {
+    return fmax(maxHeight(red, blue), maxHeight(blue, red));
+}

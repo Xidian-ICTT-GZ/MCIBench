@@ -1,0 +1,18 @@
+func maximumUniqueSubarray(nums []int) int {
+     n := len(nums)
+    seen := make(map[int]bool)
+    ans, psum := 0, 0
+    for i, j := 0, 0; i < n; i++ {
+        psum += nums[i]
+        for seen[nums[i]] {
+            delete(seen, nums[j])
+            psum -= nums[j]
+            j++
+        }
+        seen[nums[i]] = true
+        if psum > ans {
+            ans = psum
+        }
+    }
+    return ans
+}

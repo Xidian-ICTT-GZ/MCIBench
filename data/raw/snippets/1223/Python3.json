@@ -1,0 +1,1 @@
+"class Solution:\n    def dieSimulator(self, n: int, rollMax: List[int]) -> int:\n        "

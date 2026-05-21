@@ -1,0 +1,1 @@
+"class Solution {\n    fun numOfMinutes(n: Int, headID: Int, manager: IntArray, informTime: IntArray): Int {\n        \n    }\n}"

@@ -1,0 +1,34 @@
+int f(int* nums2, int nums2Size, long long x1, long long v) {
+    int left = 0, right = nums2Size - 1;
+    while (left <= right) {
+        int mid = (left + right) / 2;
+        long long prod = (long long)nums2[mid] * x1;
+        if ((x1 >= 0 && prod <= v) || (x1 < 0 && prod > v)) {
+            left = mid + 1;
+        } else {
+            right = mid - 1;
+        }
+    }
+    if (x1 >= 0) {
+        return left;
+    } else {
+        return nums2Size - left;
+    }
+}
+
+long long kthSmallestProduct(int* nums1, int nums1Size, int* nums2, int nums2Size, long long k) {
+    long long left = -10000000000LL, right = 10000000000LL;
+    while (left <= right) {
+        long long mid = (left + right) / 2;
+        long long count = 0;
+        for (int i = 0; i < nums1Size; i++) {
+            count += f(nums2, nums2Size, (long long)nums1[i], mid);
+        }
+        if (count < k) {
+            left = mid + 1;
+        } else {
+            right = mid - 1;
+        }
+    }
+    return left;
+}

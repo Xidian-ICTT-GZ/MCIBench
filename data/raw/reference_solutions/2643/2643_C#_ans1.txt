@@ -1,0 +1,14 @@
+public class Solution {
+    public int[] RowAndMaximumOnes(int[][] mat) {
+        int maxOnes = 0;
+        int rowIndex = 0;
+        for (int i = 0; i < mat.Length; i++) {
+            int tot = mat[i].Sum();
+            if (tot > maxOnes) {
+                maxOnes = tot;
+                rowIndex = i;
+            }
+        }
+        return new int[]{ rowIndex, maxOnes};
+    }
+}

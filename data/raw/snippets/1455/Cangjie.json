@@ -1,0 +1,1 @@
+"class Solution {\n    func isPrefixOfWord(sentence: String, searchWord: String): Int64 {\n\n    }\n}"

@@ -1,0 +1,13 @@
+public class Solution {
+    public int TwoEggDrop(int n) {
+        int[] f = new int[n + 1];
+        Array.Fill(f, int.MaxValue / 2);
+        f[0] = 0;
+        for (int i = 1; i <= n; i++) {
+            for (int k = 1; k <= i; k++) {
+                f[i] = Math.Min(f[i], Math.Max(k - 1, f[i - k]) + 1);
+            }
+        }
+        return f[n];
+    }
+}

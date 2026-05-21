@@ -1,0 +1,1 @@
+"(define/contract (count-homogenous s)\n  (-> string? exact-integer?)\n  )"

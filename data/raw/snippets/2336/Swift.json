@@ -1,0 +1,1 @@
+"\nclass SmallestInfiniteSet {\n\n    init() {\n        \n    }\n    \n    func popSmallest() -> Int {\n        \n    }\n    \n    func addBack(_ num: Int) {\n        \n    }\n}\n\n/**\n * Your SmallestInfiniteSet object will be instantiated and called as such:\n * let obj = SmallestInfiniteSet()\n * let ret_1: Int = obj.popSmallest()\n * obj.addBack(num)\n */"

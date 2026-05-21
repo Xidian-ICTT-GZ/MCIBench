@@ -1,0 +1,72 @@
+#define MAX_STR_LEN 32
+
+static inline char* tri_hash(int x, int y, int z) {
+    char *str = (char *)malloc(sizeof(char) * MAX_STR_LEN);
+    sprintf(str, "%d,%d,%d", x, y, z);
+    return str;
+}
+
+typedef struct {
+    char key[MAX_STR_LEN];
+    struct TreeNode *node;
+    int idx;
+    UT_hash_handle hh;
+} HashMapItem; 
+
+typedef struct {
+    void *key;
+    UT_hash_handle hh;
+} HashSetItem; 
+
+int dfs(struct TreeNode* node, HashMapItem **seen, HashSetItem **repeat, int *idx) {
+    if (!node) {
+        return 0;
+    }
+    int ret1 = dfs(node->left, seen, repeat, idx);
+    int ret2 = dfs(node->right, seen, repeat, idx);
+    HashMapItem *pHashMapEntry = NULL;
+    char *hashKey = tri_hash(node->val, ret1, ret2);
+    HASH_FIND_STR(*seen, hashKey, pHashMapEntry);
+    if (pHashMapEntry) {
+        HashSetItem *pHashSetEntry = NULL;
+        HASH_FIND_PTR(*repeat, &(pHashMapEntry->node), pHashSetEntry);
+        if (pHashSetEntry == NULL) {
+            pHashSetEntry = (HashSetItem *)malloc(sizeof(HashSetItem));
+            pHashSetEntry->key = (void *)pHashMapEntry->node;
+            HASH_ADD_PTR(*repeat, key, pHashSetEntry);
+        }
+        free(hashKey);
+        return pHashMapEntry->idx;
+    } else {
+        pHashMapEntry = (HashMapItem *)malloc(sizeof(HashMapItem));
+        strcpy(pHashMapEntry->key, hashKey);
+        pHashMapEntry->node = node;
+        pHashMapEntry->idx = ++(*idx);
+        HASH_ADD_STR(*seen, key, pHashMapEntry);
+        free(hashKey);
+        return *idx;
+    }
+}
+
+struct TreeNode** findDuplicateSubtrees(struct TreeNode* root, int* returnSize){
+    HashMapItem *seen = NULL;
+    HashSetItem *repeat = NULL;
+    int idx = 0;
+    dfs(root, &seen, &repeat, &idx);
+
+    int count = HASH_COUNT(repeat), pos = 0;
+    struct TreeNode** ret = (struct TreeNode**)malloc(sizeof(struct TreeNode*) * count);
+    HashSetItem *cur, *tmp;
+    HASH_ITER(hh, repeat, cur, tmp) {
+        ret[pos++] = (struct TreeNode*)cur->key;
+        HASH_DEL(repeat, cur);
+        free(cur);            
+    }
+    *returnSize = count;
+    HashMapItem *curMap, *tmpMap;
+    HASH_ITER(hh, seen, curMap, tmpMap) {
+        HASH_DEL(seen, curMap);  
+        free(curMap);             
+    }
+    return ret;
+}

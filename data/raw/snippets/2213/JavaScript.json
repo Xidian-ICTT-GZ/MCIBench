@@ -1,0 +1,1 @@
+"/**\n * @param {string} s\n * @param {string} queryCharacters\n * @param {number[]} queryIndices\n * @return {number[]}\n */\nvar longestRepeating = function(s, queryCharacters, queryIndices) {\n    \n};"

@@ -1,0 +1,1 @@
+"class Solution(object):\n    def numOfMinutes(self, n, headID, manager, informTime):\n        \"\"\"\n        :type n: int\n        :type headID: int\n        :type manager: List[int]\n        :type informTime: List[int]\n        :rtype: int\n        \"\"\"\n        "

@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $matrix\n     * @param Integer $numSelect\n     * @return Integer\n     */\n    function maximumRows($matrix, $numSelect) {\n        \n    }\n}"

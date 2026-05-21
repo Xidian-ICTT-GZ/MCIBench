@@ -1,0 +1,28 @@
+var chalkReplacer = function(chalk, k) {
+   const n = chalk.length;
+    if (chalk[0] > k) {
+        return 0;
+    }
+    for (let i = 1; i < n; ++i) {
+        chalk[i] += chalk[i - 1];
+        if (chalk[i] > k) {
+            return i;
+        }
+    }
+
+    k %= chalk[n - 1];
+    return binarySearch(chalk, k);
+};
+
+const binarySearch = (arr, target) => {
+    let low = 0, high = arr.length - 1;
+    while (low < high) {
+        const mid = Math.floor((high - low) / 2) + low;
+        if (arr[mid] <= target) {
+            low = mid + 1;
+        } else {
+            high = mid;
+        }
+    }
+    return low;
+}

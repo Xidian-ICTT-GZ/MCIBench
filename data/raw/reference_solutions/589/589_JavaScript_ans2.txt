@@ -1,0 +1,31 @@
+var preorder = function(root) {
+    if (root == null) {
+        return [];
+    }
+    const ans = [];
+    const st = [];
+    const nextIndex = new Map();
+    let node = root;
+    while (st.length || node) {
+        while (node) {
+            ans.push(node.val);
+            st.push(node);
+            if (!node.children) {
+                break;
+            }
+            nextIndex.set(node, 1);
+            node = node.children[0];
+        }
+        node = st[st.length - 1];
+        const i = nextIndex.get(node);
+        if (i < node.children.length) {
+            nextIndex.set(node, i + 1);
+            node = node.children[i];
+        } else {
+            st.pop();
+            nextIndex.delete(node);
+            node = null;
+        }
+    }
+    return ans;
+};

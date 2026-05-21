@@ -1,0 +1,1 @@
+"(define/contract (restore-string s indices)\n  (-> string? (listof exact-integer?) string?)\n  )"

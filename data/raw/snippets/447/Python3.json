@@ -1,0 +1,1 @@
+"class Solution:\n    def numberOfBoomerangs(self, points: List[List[int]]) -> int:\n        "

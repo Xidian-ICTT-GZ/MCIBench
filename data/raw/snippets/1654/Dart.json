@@ -1,0 +1,1 @@
+"class Solution {\n  int minimumJumps(List<int> forbidden, int a, int b, int x) {\n    \n  }\n}"

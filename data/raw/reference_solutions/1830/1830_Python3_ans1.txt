@@ -1,0 +1,39 @@
+class Solution:
+    def makeStringSorted(self, s: str) -> int:
+        mod = 10**9 + 7
+        
+        
+        def quickmul(x: int, y: int) -> int:
+            
+            return pow(x, y, mod)
+    
+        n = len(s)
+        
+        
+        
+        fac, facinv = [0] * (n + 1), [0] * (n + 1)
+        fac[0] = facinv[0] = 1
+        for i in range(1, n):
+            fac[i] = fac[i - 1] * i % mod
+            
+            facinv[i] = quickmul(fac[i], mod - 2)
+        
+        
+        freq = collections.Counter(s)
+        
+        ans = 0
+        for i in range(n - 1):
+            
+            rank = sum(occ for ch, occ in freq.items() if ch < s[i])
+            
+            cur = rank * fac[n - i - 1] % mod
+            
+            for ch, occ in freq.items():
+                cur = cur * facinv[occ] % mod
+            
+            ans += cur
+            freq[s[i]] -= 1
+            if freq[s[i]] == 0:
+                freq.pop(s[i])
+        
+        return ans % mod

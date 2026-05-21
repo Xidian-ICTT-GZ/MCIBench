@@ -1,0 +1,1 @@
+"-spec longest_equal_subarray(Nums :: [integer()], K :: integer()) -> integer().\nlongest_equal_subarray(Nums, K) ->\n  ."

@@ -1,0 +1,1 @@
+"class Solution:\n    def compress(self, chars: List[str]) -> int:\n        "

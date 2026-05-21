@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec is_valid(s :: String.t) :: boolean\n  def is_valid(s) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"-spec maximum_happiness_sum(Happiness :: [integer()], K :: integer()) -> integer().\nmaximum_happiness_sum(Happiness, K) ->\n  ."

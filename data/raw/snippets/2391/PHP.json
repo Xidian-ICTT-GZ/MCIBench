@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String[] $garbage\n     * @param Integer[] $travel\n     * @return Integer\n     */\n    function garbageCollection($garbage, $travel) {\n        \n    }\n}"

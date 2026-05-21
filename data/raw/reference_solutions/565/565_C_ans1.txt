@@ -1,0 +1,18 @@
+#define MAX(a, b) ((a) > (b) ? (a) : (b))
+
+int arrayNesting(int* nums, int numsSize){
+    int ans = 0;
+    bool *vis = (bool *)malloc(sizeof(bool) * numsSize);
+    memset(vis, 0, sizeof(bool) * numsSize);
+    for (int i = 0; i < numsSize; ++i) {
+        int cnt = 0;
+        while (!vis[i]) {
+            vis[i] = true;
+            i = nums[i];
+            ++cnt;
+        }
+        ans = MAX(ans, cnt);
+    }
+    free(vis);
+    return ans;
+}

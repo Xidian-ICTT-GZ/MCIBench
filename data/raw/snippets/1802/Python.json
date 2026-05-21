@@ -1,0 +1,1 @@
+"class Solution(object):\n    def maxValue(self, n, index, maxSum):\n        \"\"\"\n        :type n: int\n        :type index: int\n        :type maxSum: int\n        :rtype: int\n        \"\"\"\n        "

@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    void duplicateZeros(vector<int>& arr) {\n        \n    }\n};"

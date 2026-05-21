@@ -1,0 +1,1 @@
+"# @param {Integer[][]} fruits\n# @param {Integer} start_pos\n# @param {Integer} k\n# @return {Integer}\ndef max_total_fruits(fruits, start_pos, k)\n    \nend"

@@ -1,0 +1,1 @@
+"(define/contract (find-latest-time s)\n  (-> string? string?)\n  )"

@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    bool canMouseWin(vector<string>& grid, int catJump, int mouseJump) {\n        \n    }\n};"

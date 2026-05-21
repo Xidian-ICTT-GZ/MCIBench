@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<int> processQueries(int c, vector<vector<int>>& connections, vector<vector<int>>& queries) {\n        \n    }\n};"

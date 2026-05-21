@@ -1,0 +1,1 @@
+"import pandas as pd\n\ndef find_customers(customer: pd.DataFrame, product: pd.DataFrame) -> pd.DataFrame:\n    "

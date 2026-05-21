@@ -1,0 +1,21 @@
+var largestValues = function(root) {
+    if (!root) {
+        return [];
+    }
+    const res = [];
+    const dfs = (res, root, curHeight) => {
+        if (curHeight === res.length) {
+            res.push(root.val);
+        } else {
+            res.splice(curHeight, 1, Math.max(res[curHeight], root.val));
+        }
+        if (root.left) {
+            dfs(res, root.left, curHeight + 1);
+        }
+        if (root.right) {
+            dfs(res, root.right, curHeight + 1);
+        }
+    }
+    dfs(res, root, 0);
+    return res;
+};

@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int findMinimumTime(vector<int>& strength, int k) {\n        \n    }\n};"

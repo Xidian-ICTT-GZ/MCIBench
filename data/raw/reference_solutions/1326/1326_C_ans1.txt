@@ -1,0 +1,36 @@
+#define MIN(a, b) ((a) < (b) ? (a) : (b))
+#define MAX(a, b) ((a) > (b) ? (a) : (b))
+
+const int INF = 0x3f3f3f3f;
+
+static int cmp(const void *pa, const void *pb) {
+    int la = ((int *)pa)[0], ra = ((int *)pa)[1];
+    int lb = ((int *)pb)[0], rb = ((int *)pb)[1];
+    if (la == lb) {
+        return ra - rb;
+    }
+    return la - lb;
+}
+
+int minTaps(int n, int* ranges, int rangesSize) {
+    int seglines[n + 1][2];
+    for (int i = 0; i <= n; i++) {
+        seglines[i][0] = MAX(0, i - ranges[i]);
+        seglines[i][1] = MIN(n, i + ranges[i]);
+    }
+    qsort(seglines, n + 1, sizeof(seglines[0]), cmp);
+    int dp[n + 1];
+    memset(dp, 0x3f, sizeof(dp));
+    dp[0] = 0;
+    for (int i = 0; i <= n; i++) {
+        int start = seglines[i][0];
+        int end = seglines[i][1];
+        if (dp[start] == INF) {
+            return -1;
+        }
+        for (int j = start; j <= end; j++) {
+            dp[j] = MIN(dp[j], dp[start] + 1);
+        }
+    }
+    return dp[n];
+}

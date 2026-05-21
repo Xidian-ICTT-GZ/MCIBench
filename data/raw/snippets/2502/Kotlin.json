@@ -1,0 +1,1 @@
+"class Allocator(n: Int) {\n\n    fun allocate(size: Int, mID: Int): Int {\n        \n    }\n\n    fun freeMemory(mID: Int): Int {\n        \n    }\n\n}\n\n/**\n * Your Allocator object will be instantiated and called as such:\n * var obj = Allocator(n)\n * var param_1 = obj.allocate(size,mID)\n * var param_2 = obj.freeMemory(mID)\n */"

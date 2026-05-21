@@ -1,0 +1,1 @@
+"# @param {Integer} h\n# @param {Integer} w\n# @param {Integer[]} horizontal_cuts\n# @param {Integer[]} vertical_cuts\n# @return {Integer}\ndef max_area(h, w, horizontal_cuts, vertical_cuts)\n    \nend"

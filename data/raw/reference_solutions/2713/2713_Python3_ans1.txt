@@ -1,0 +1,17 @@
+class Solution:
+    def maxIncreasingCells(self, mat: List[List[int]]) -> int:
+        m, n = len(mat), len(mat[0])
+        mp = defaultdict(list)
+        row = [0] * m
+        col = [0] * n
+
+        for i in range(m):
+            for j in range(n):
+                mp[mat[i][j]].append((i, j))
+        for _, pos in sorted(mp.items(), key=lambda k:k[0]):
+            
+            res = [max(row[i], col[j]) + 1 for i, j in pos]
+            for (i, j), d in zip(pos, res):
+                row[i] = max(row[i], d)
+                col[j] = max(col[j], d)
+        return max(row)

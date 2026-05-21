@@ -1,0 +1,11 @@
+class Solution:
+    def buildArray(self, target: List[int], n: int) -> List[str]:
+        res = []
+        prev = 0
+        for number in target:
+            for _ in range(number - prev - 1):
+                res.append('Push')
+                res.append('Pop')
+            res.append('Push')
+            prev = number
+        return res

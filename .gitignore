@@ -1,0 +1,55 @@
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Local environments
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Local credentials and cookies
+Cookies.txt
+Gcookies.txt
+*cookies*.txt
+*Cookies*.txt
+secrets/
+credentials/
+
+# Runtime caches
+.cache/
+cache/
+*.cache
+*.sqlite
+*.sqlite3
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary logs and partial outputs
+*.log
+*.tmp
+*.bak
+
+# Local-only agent and project notes
+docs/
+_archive/
+
+# Heavy raw experiment outputs are kept outside the main GitHub repository.
+artifacts/derived_data/generation_results.csv
+artifacts/derived_data/translation_results.csv
+artifacts/figures
+artifacts/output/
+artifacts/output.zip
+
+# Ignore raw experiment folders, keep compressed archive
+experiments/translation/code/
+experiments/translation/submissions/
+
+experiments/generation/code/
+experiments/generation/submissions/

@@ -1,0 +1,19 @@
+func maxFrequencyElements(nums []int) int {
+    count := make(map[int]int)
+    for _, a := range nums {
+        count[a]++
+    }
+    maxf := 0
+    for _, freq := range count {
+        if freq > maxf {
+            maxf = freq
+        }
+    }
+    res := 0
+    for _, freq := range count {
+        if freq == maxf {
+            res += maxf
+        }
+    }
+    return res
+}

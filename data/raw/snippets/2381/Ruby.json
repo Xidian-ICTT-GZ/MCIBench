@@ -1,0 +1,1 @@
+"# @param {String} s\n# @param {Integer[][]} shifts\n# @return {String}\ndef shifting_letters(s, shifts)\n    \nend"

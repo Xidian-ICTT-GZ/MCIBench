@@ -1,0 +1,1 @@
+"class Solution {\n  int minimumTotalPrice(int n, List<List<int>> edges, List<int> price, List<List<int>> trips) {\n    \n  }\n}"

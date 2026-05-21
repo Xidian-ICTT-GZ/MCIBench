@@ -1,0 +1,20 @@
+class Solution:
+    def maxScore(self, grid: List[List[int]]) -> int:
+        m, n = len(grid), len(grid[0])
+        premin = [[inf] * n for _ in range(2)]
+        ans = -inf
+
+        for i in range(m):
+            premin[i & 1] = [inf] * n
+            for j in range(n):
+                pre = inf
+                if i > 0:
+                    pre = min(pre, premin[(i - 1) & 1][j])
+                if j > 0:
+                    pre = min(pre, premin[i & 1][j - 1])
+                
+                if i + j > 0:
+                    ans = max(ans, grid[i][j] - pre)
+                premin[i & 1][j] = min(pre, grid[i][j])
+        
+        return ans

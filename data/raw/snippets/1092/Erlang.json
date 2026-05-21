@@ -1,0 +1,1 @@
+"-spec shortest_common_supersequence(Str1 :: unicode:unicode_binary(), Str2 :: unicode:unicode_binary()) -> unicode:unicode_binary().\nshortest_common_supersequence(Str1, Str2) ->\n  ."

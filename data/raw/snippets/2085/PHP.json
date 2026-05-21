@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String[] $words1\n     * @param String[] $words2\n     * @return Integer\n     */\n    function countWords($words1, $words2) {\n        \n    }\n}"

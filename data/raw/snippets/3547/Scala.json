@@ -1,0 +1,1 @@
+"object Solution {\n    def maxScore(n: Int, edges: Array[Array[Int]]): Long = {\n        \n    }\n}"

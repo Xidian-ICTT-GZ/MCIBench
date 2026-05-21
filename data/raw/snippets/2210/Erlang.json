@@ -1,0 +1,1 @@
+"-spec count_hill_valley(Nums :: [integer()]) -> integer().\ncount_hill_valley(Nums) ->\n  ."

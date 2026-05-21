@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int maxDistance(int side, vector<vector<int>>& points, int k) {\n        \n    }\n};"

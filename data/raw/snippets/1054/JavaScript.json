@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} barcodes\n * @return {number[]}\n */\nvar rearrangeBarcodes = function(barcodes) {\n    \n};"

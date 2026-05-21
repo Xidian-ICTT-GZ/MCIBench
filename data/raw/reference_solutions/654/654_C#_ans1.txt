@@ -1,0 +1,21 @@
+public class Solution {
+    public TreeNode ConstructMaximumBinaryTree(int[] nums) {
+        return Construct(nums, 0, nums.Length - 1);
+    }
+
+    public TreeNode Construct(int[] nums, int left, int right) {
+        if (left > right) {
+            return null;
+        }
+        int best = left;
+        for (int i = left + 1; i <= right; ++i) {
+            if (nums[i] > nums[best]) {
+                best = i;
+            }
+        }
+        TreeNode node = new TreeNode(nums[best]);
+        node.left = Construct(nums, left, best - 1);
+        node.right = Construct(nums, best + 1, right);
+        return node;
+    }
+}

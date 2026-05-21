@@ -1,0 +1,18 @@
+public class Solution {
+    public int MaximumElementAfterDecrementingAndRearranging(int[] arr) {
+        int n = arr.Length;
+        int[] cnt = new int[n + 1];
+        foreach (int v in arr) {
+            ++cnt[Math.Min(v, n)];
+        }
+        int miss = 0;
+        for (int i = 1; i <= n; ++i) {
+            if (cnt[i] == 0) {
+                ++miss;
+            } else {
+                miss -= Math.Min(cnt[i] - 1, miss); 
+            }
+        }
+        return n - miss;
+    }
+}

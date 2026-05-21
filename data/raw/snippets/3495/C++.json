@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    long long minOperations(vector<vector<int>>& queries) {\n        \n    }\n};"

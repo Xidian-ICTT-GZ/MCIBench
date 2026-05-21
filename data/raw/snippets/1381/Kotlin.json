@@ -1,0 +1,1 @@
+"class CustomStack(maxSize: Int) {\n\n    fun push(x: Int) {\n        \n    }\n\n    fun pop(): Int {\n        \n    }\n\n    fun increment(k: Int, `val`: Int) {\n        \n    }\n\n}\n\n/**\n * Your CustomStack object will be instantiated and called as such:\n * var obj = CustomStack(maxSize)\n * obj.push(x)\n * var param_2 = obj.pop()\n * obj.increment(k,`val`)\n */"

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec minimum_time_to_initial_state(word :: String.t, k :: integer) :: integer\n  def minimum_time_to_initial_state(word, k) do\n    \n  end\nend"

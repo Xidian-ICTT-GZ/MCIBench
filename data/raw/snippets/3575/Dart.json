@@ -1,0 +1,1 @@
+"class Solution {\n  int goodSubtreeSum(List<int> vals, List<int> par) {\n    \n  }\n}"

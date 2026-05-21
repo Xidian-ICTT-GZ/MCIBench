@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec find_length_of_lcis(nums :: [integer]) :: integer\n  def find_length_of_lcis(nums) do\n    \n  end\nend"

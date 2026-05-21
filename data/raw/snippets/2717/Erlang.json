@@ -1,0 +1,1 @@
+"-spec semi_ordered_permutation(Nums :: [integer()]) -> integer().\nsemi_ordered_permutation(Nums) ->\n  ."

@@ -1,0 +1,38 @@
+class Solution {
+    public int[] findEvenNumbers(int[] digits) {
+        List<Integer> res = new ArrayList<>();
+        Map<Integer, Integer> freq = new HashMap<>();
+        
+        for (int d : digits) {
+            freq.put(d, freq.getOrDefault(d, 0) + 1);
+        }
+        
+        for (int i = 100; i < 1000; i += 2) {
+            Map<Integer, Integer> freq1 = new HashMap<>();
+            int num = i;
+            
+            while (num > 0) {
+                int d = num % 10;
+                freq1.put(d, freq1.getOrDefault(d, 0) + 1);
+                num /= 10;
+            }
+            
+            boolean isValid = true;
+            for (Map.Entry<Integer, Integer> entry : freq1.entrySet()) {
+                if (freq.getOrDefault(entry.getKey(), 0) < entry.getValue()) {
+                    isValid = false;
+                    break;
+                }
+            }
+            if (isValid) {
+                res.add(i);
+            }
+        }
+        
+        int[] result = new int[res.size()];
+        for (int j = 0; j < res.size(); j++) {
+            result[j] = res.get(j);
+        }
+        return result;
+    }
+}

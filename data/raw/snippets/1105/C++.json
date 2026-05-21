@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int minHeightShelves(vector<vector<int>>& books, int shelfWidth) {\n        \n    }\n};"

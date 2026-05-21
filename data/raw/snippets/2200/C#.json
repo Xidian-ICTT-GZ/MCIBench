@@ -1,0 +1,1 @@
+"public class Solution {\n    public IList<int> FindKDistantIndices(int[] nums, int key, int k) {\n        \n    }\n}"

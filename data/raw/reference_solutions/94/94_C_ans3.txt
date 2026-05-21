@@ -1,0 +1,33 @@
+int* inorderTraversal(struct TreeNode* root, int* returnSize) {
+    int* res = malloc(sizeof(int) * 501);
+    *returnSize = 0;
+    struct TreeNode* predecessor = NULL;
+
+    while (root != NULL) {
+        if (root->left != NULL) {
+            
+            predecessor = root->left;
+            while (predecessor->right != NULL && predecessor->right != root) {
+                predecessor = predecessor->right;
+            }
+
+            
+            if (predecessor->right == NULL) {
+                predecessor->right = root;
+                root = root->left;
+            }
+            
+            else {
+                res[(*returnSize)++] = root->val;
+                predecessor->right = NULL;
+                root = root->right;
+            }
+        }
+        
+        else {
+            res[(*returnSize)++] = root->val;
+            root = root->right;
+        }
+    }
+    return res;
+}

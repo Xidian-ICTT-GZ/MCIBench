@@ -1,0 +1,23 @@
+class FindElements {
+private:
+    unordered_set<int> valSet;
+
+    void dfs(TreeNode *node, int val) {
+        if (node == nullptr) {
+            return;
+        }
+        node->val = val;
+        valSet.insert(val);
+        dfs(node->left, val * 2 + 1);
+        dfs(node->right, val * 2 + 2);
+    }
+
+public:
+    FindElements(TreeNode* root) {
+        dfs(root, 0);
+    }
+
+    bool find(int target) {
+        return valSet.count(target) > 0;
+    }
+};

@@ -1,0 +1,1 @@
+"type MapSum struct {\n    \n}\n\n\nfunc Constructor() MapSum {\n    \n}\n\n\nfunc (this *MapSum) Insert(key string, val int)  {\n    \n}\n\n\nfunc (this *MapSum) Sum(prefix string) int {\n    \n}\n\n\n/**\n * Your MapSum object will be instantiated and called as such:\n * obj := Constructor();\n * obj.Insert(key,val);\n * param_2 := obj.Sum(prefix);\n */"

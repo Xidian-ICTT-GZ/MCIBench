@@ -1,0 +1,1 @@
+"(define/contract (smallest-sufficient-team req_skills people)\n  (-> (listof string?) (listof (listof string?)) (listof exact-integer?))\n  )"

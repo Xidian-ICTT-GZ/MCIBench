@@ -1,0 +1,1 @@
+"class Solution {\n    func kthSmallestPath(destination: Array<Int64>, k: Int64): String {\n\n    }\n}"

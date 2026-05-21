@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @param {Integer} left\n# @param {Integer} right\n# @return {Integer}\ndef num_subarray_bounded_max(nums, left, right)\n    \nend"

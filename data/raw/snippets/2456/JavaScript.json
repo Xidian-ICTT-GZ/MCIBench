@@ -1,0 +1,1 @@
+"/**\n * @param {string[]} creators\n * @param {string[]} ids\n * @param {number[]} views\n * @return {string[][]}\n */\nvar mostPopularCreator = function(creators, ids, views) {\n    \n};"

@@ -1,0 +1,1 @@
+"public class Solution {\n    public IList<string> FindHighAccessEmployees(IList<IList<string>> access_times) {\n        \n    }\n}"

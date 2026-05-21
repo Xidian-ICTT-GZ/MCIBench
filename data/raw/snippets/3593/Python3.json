@@ -1,0 +1,1 @@
+"class Solution:\n    def minIncrease(self, n: int, edges: List[List[int]], cost: List[int]) -> int:\n        "

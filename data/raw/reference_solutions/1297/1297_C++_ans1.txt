@@ -1,0 +1,24 @@
+class Solution {
+public:
+    int maxFreq(string s, int maxLetters, int minSize, int maxSize) {
+        int n = s.size();
+        unordered_map<string, int> occ;
+        int ans = 0;
+        for (int i = 0; i < n; ++i) {
+            unordered_set<char> exist;
+            string cur;
+            for (int j = i; j < min(n, i + maxSize); ++j) {
+                exist.insert(s[j]);
+                if (exist.size() > maxLetters) {
+                    break;
+                }
+                cur += s[j];
+                if (j - i + 1 >= minSize) {
+                    ++occ[cur];
+                    ans = max(ans, occ[cur]);
+                }
+            }
+        }
+        return ans;
+    }
+};

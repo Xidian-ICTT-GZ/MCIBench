@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec assign_tasks(servers :: [integer], tasks :: [integer]) :: [integer]\n  def assign_tasks(servers, tasks) do\n    \n  end\nend"

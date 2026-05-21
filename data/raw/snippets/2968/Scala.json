@@ -1,0 +1,1 @@
+"object Solution {\n    def maxFrequencyScore(nums: Array[Int], k: Long): Int = {\n        \n    }\n}"

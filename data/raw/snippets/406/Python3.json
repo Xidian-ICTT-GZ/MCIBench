@@ -1,0 +1,1 @@
+"class Solution:\n    def reconstructQueue(self, people: List[List[int]]) -> List[List[int]]:\n        "

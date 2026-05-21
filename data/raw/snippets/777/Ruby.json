@@ -1,0 +1,1 @@
+"# @param {String} start\n# @param {String} result\n# @return {Boolean}\ndef can_transform(start, result)\n    \nend"

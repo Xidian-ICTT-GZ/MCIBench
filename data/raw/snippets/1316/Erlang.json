@@ -1,0 +1,1 @@
+"-spec distinct_echo_substrings(Text :: unicode:unicode_binary()) -> integer().\ndistinct_echo_substrings(Text) ->\n  ."

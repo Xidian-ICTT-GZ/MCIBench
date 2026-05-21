@@ -1,0 +1,1 @@
+"(define/contract (valid-sequence word1 word2)\n  (-> string? string? (listof exact-integer?))\n  )"

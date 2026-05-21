@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    bool pyramidTransition(string bottom, vector<string>& allowed) {\n        \n    }\n};"

@@ -1,0 +1,1 @@
+"/**\n * @param {number[][]} transactions\n * @return {number}\n */\nvar minimumMoney = function(transactions) {\n    \n};"

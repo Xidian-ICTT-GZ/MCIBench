@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec minimum_replacement(nums :: [integer]) :: integer\n  def minimum_replacement(nums) do\n    \n  end\nend"

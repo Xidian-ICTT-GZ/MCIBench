@@ -1,0 +1,1 @@
+"class Solution {\n    func allPathsSourceTarget(graph: Array<Array<Int64>>): ArrayList<ArrayList<Int64>> {\n\n    }\n}"

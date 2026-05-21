@@ -1,0 +1,1 @@
+"/**\n * @param {number[][]} board\n * @return {void} Do not return anything, modify board in-place instead.\n */\nvar gameOfLife = function(board) {\n    \n};"

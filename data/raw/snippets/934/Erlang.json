@@ -1,0 +1,1 @@
+"-spec shortest_bridge(Grid :: [[integer()]]) -> integer().\nshortest_bridge(Grid) ->\n  ."

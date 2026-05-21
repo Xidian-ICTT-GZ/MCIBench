@@ -1,0 +1,135 @@
+typedef struct Element {
+    int *arr;
+    int arrSize;
+} Element;
+
+typedef struct {
+    int key;
+    Element *val;
+    UT_hash_handle hh;
+} HashItem; 
+
+HashItem *hashFindItem(HashItem **obj, int key) {
+    HashItem *pEntry = NULL;
+    HASH_FIND_INT(*obj, &key, pEntry);
+    return pEntry;
+}
+
+const int k = 20;
+
+bool hashAddItem(HashItem **obj, int key, Element *val) {
+    if (hashFindItem(obj, key)) {
+        return false;
+    }
+    HashItem *pEntry = (HashItem *)malloc(sizeof(HashItem));
+    pEntry->key = key;
+    pEntry->val = val;
+    HASH_ADD_INT(*obj, key, pEntry);
+    return true;
+}
+
+Element* hashGetItem(HashItem **obj, int key) {
+    HashItem *pEntry = hashFindItem(obj, key);
+    if (!pEntry) {
+        return NULL;
+    }
+    return pEntry->val;
+}
+
+void hashFree(HashItem **obj) {
+    HashItem *curr = NULL, *tmp = NULL;
+    HASH_ITER(hh, *obj, curr, tmp) {
+        HASH_DEL(*obj, curr);  
+        free(curr->val->arr);
+        free(curr->val);
+        free(curr);             
+    }
+}
+
+typedef struct {
+    int *arr;
+    int arrSize;
+    HashItem *loc;
+} MajorityChecker;
+
+static int cmp(const void *pa, const void *pb) {
+    int *a = (int *)pa;
+    int *b = (int *)pb;
+    return a[0] - b[0];
+}
+
+int searchStart(const int *pos, int posSize, int target) {
+    int low = 0, high = posSize;
+    while (low < high) {
+        int mid = low + (high - low) / 2;
+        if (pos[mid] >= target) {
+            high = mid;
+        } else {
+            low = mid + 1;
+        }
+    }
+    return low;
+}
+
+int searchEnd(const int *pos, int posSize, int target) {
+    int low = 0, high = posSize;
+    while (low < high) {
+        int mid = low + (high - low) / 2;
+        if (pos[mid] > target) {
+            high = mid;
+        } else {
+            low = mid + 1;
+        }
+    }
+    return low;
+}
+
+MajorityChecker* majorityCheckerCreate(int* arr, int arrSize) {
+    MajorityChecker *obj = (MajorityChecker *)malloc(sizeof(MajorityChecker));
+    obj->arr = arr;
+    obj->arrSize = arrSize;
+    obj->loc = NULL;
+    int cnt[arrSize][2];
+    for (int i = 0; i < arrSize; i++) {
+        cnt[i][0] = arr[i];
+        cnt[i][1] = i;
+    }
+    qsort(cnt, arrSize, sizeof(cnt[0]), cmp);
+    for (int i = 0, j = 0; i <= arrSize; i++) {
+        if (i == arrSize || cnt[i][0] != cnt[j][0]) {
+            Element *cur = (Element *)malloc(sizeof(Element));
+            cur->arr = (int *)malloc(sizeof(int) * (i - j));
+            cur->arrSize = i - j;
+            for (int k = 0; k < i - j; k++) {
+                cur->arr[k] = cnt[j + k][1];
+            }            
+            hashAddItem(&obj->loc, cnt[j][0], cur);
+            j = i;
+        }
+    }
+    return obj;
+}
+
+int majorityCheckerQuery(MajorityChecker* obj, int left, int right, int threshold) {
+    int length = right - left + 1;
+    srand(time(NULL));
+
+    for (int i = 0; i < k; ++i) {
+        int x = obj->arr[rand() % length + left];
+        Element *cur = hashGetItem(&obj->loc, x);
+        int *pos = cur->arr;
+        int posSize = cur->arrSize;
+        int occ = searchEnd(pos, posSize, right) - searchStart(pos, posSize, left);
+        if (occ >= threshold) {
+            return x;
+        } else if (occ * 2 >= length) {
+            return -1;
+        }
+    }
+    return -1;
+}
+
+void majorityCheckerFree(MajorityChecker* obj) {
+    hashFree(&obj->loc);
+    free(obj);
+}

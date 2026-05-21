@@ -1,0 +1,1 @@
+"import pandas as pd\n\ndef exchange_seats(seat: pd.DataFrame) -> pd.DataFrame:\n    "

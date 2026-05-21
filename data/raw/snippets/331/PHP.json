@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $preorder\n     * @return Boolean\n     */\n    function isValidSerialization($preorder) {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec maximum_wealth(accounts :: [[integer]]) :: integer\n  def maximum_wealth(accounts) do\n    \n  end\nend"

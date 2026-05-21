@@ -1,0 +1,30 @@
+var vowels = map[rune]bool{
+	'a': true, 'e': true, 'i': true, 'o': true, 'u': true,
+	'A': true, 'E': true, 'I': true, 'O': true, 'U': true,
+}
+
+func sortVowels(s string) string {
+	var tmp []rune
+	for _, ch := range s {
+		if vowels[ch] {
+			tmp = append(tmp, ch)
+		}
+	}
+
+	sort.Slice(tmp, func(i, j int) bool {
+		return tmp[i] < tmp[j]
+	})
+
+	var result strings.Builder
+	idx := 0
+	for _, ch := range s {
+		if vowels[ch] {
+			result.WriteRune(tmp[idx])
+			idx++
+		} else {
+			result.WriteRune(ch)
+		}
+	}
+
+	return result.String()
+}

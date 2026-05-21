@@ -1,0 +1,40 @@
+class Solution:
+    def minWastedSpace(self, packages: List[int], boxes: List[List[int]]) -> int:
+        MOD = 10**9 + 7
+        
+        packages.sort()
+        
+        pre = list(accumulate(packages, initial=0))
+
+        
+        get = lambda left, right: pre[right + 1] - pre[left]
+        
+        ans = float("inf")
+        for box in boxes:
+            box.sort()
+            
+            if packages[-1] > box[-1]:
+                continue
+
+            
+            pt = 0
+            
+            total = 0
+
+            for y in box:
+                
+                if y < packages[pt]:
+                    continue
+                
+                
+                pt_next = bisect_right(packages, y, pt) - 1
+                
+                total += (pt_next - pt + 1) * y - get(pt, pt_next)
+                pt = pt_next + 1
+                
+                if pt == len(packages):
+                    break
+            
+            ans = min(ans, total)
+
+        return -1 if ans == float("inf") else ans % MOD

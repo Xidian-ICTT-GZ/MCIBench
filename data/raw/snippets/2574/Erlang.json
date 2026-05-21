@@ -1,0 +1,1 @@
+"-spec left_right_difference(Nums :: [integer()]) -> [integer()].\nleft_right_difference(Nums) ->\n  ."

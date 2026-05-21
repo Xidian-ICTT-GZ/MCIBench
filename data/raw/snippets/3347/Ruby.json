@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @param {Integer} k\n# @param {Integer} num_operations\n# @return {Integer}\ndef max_frequency(nums, k, num_operations)\n    \nend"

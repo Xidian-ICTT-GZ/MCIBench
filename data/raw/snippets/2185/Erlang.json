@@ -1,0 +1,1 @@
+"-spec prefix_count(Words :: [unicode:unicode_binary()], Pref :: unicode:unicode_binary()) -> integer().\nprefix_count(Words, Pref) ->\n  ."

@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $sx\n     * @param Integer $sy\n     * @param Integer $fx\n     * @param Integer $fy\n     * @param Integer $t\n     * @return Boolean\n     */\n    function isReachableAtTime($sx, $sy, $fx, $fy, $t) {\n        \n    }\n}"

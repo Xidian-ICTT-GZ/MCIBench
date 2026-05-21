@@ -1,0 +1,28 @@
+func minFallingPathSum(grid [][]int) int {
+    n := len(grid)
+    first_min_sum, second_min_sum := 0, 0
+    first_min_index := -1
+    
+    for i := 0; i < n; i++ {
+        cur_first_min_sum, cur_second_min_sum := math.MaxInt, math.MaxInt
+        cur_first_min_index := -1
+        
+        for j := 0; j < n; j++ {
+            cur_sum := grid[i][j]
+            if j != first_min_index {
+                cur_sum += first_min_sum
+            } else {
+                cur_sum += second_min_sum
+            }
+            if cur_sum < cur_first_min_sum {
+                cur_second_min_sum, cur_first_min_sum = cur_first_min_sum, cur_sum
+                cur_first_min_index = j
+            } else if cur_sum < cur_second_min_sum {
+                cur_second_min_sum = cur_sum
+            }
+        }
+        first_min_sum, second_min_sum = cur_first_min_sum, cur_second_min_sum
+        first_min_index = cur_first_min_index
+    }
+    return first_min_sum;
+}

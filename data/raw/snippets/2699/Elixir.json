@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec modified_graph_edges(n :: integer, edges :: [[integer]], source :: integer, destination :: integer, target :: integer) :: [[integer]]\n  def modified_graph_edges(n, edges, source, destination, target) do\n    \n  end\nend"

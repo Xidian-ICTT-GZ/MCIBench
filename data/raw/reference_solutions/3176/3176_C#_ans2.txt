@@ -1,0 +1,27 @@
+public class Solution {
+    public int MaximumLength(int[] nums, int k) {
+        int len = nums.Length;
+        IDictionary<int, int[]> dp = new Dictionary<int, int[]>();
+        int[] zd = new int[k + 1];
+
+        for (int i = 0; i < len; i++) {
+            int v = nums[i];
+            dp.TryAdd(v, new int[k + 1]);
+
+            int[] tmp = dp[v];
+            for (int j = 0; j <= k; j++) {
+                tmp[j] = tmp[j] + 1;
+                if (j > 0) {
+                    tmp[j] = Math.Max(tmp[j], zd[j - 1] + 1);
+                }
+            }
+            for (int j = 0; j <= k; j++) {
+                zd[j] = Math.Max(zd[j], tmp[j]);
+                if (j > 0) {
+                    zd[j] = Math.Max(zd[j], zd[j - 1]);
+                }
+            }
+        }
+        return zd[k];
+    }
+}

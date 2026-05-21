@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec contains_pattern(arr :: [integer], m :: integer, k :: integer) :: boolean\n  def contains_pattern(arr, m, k) do\n    \n  end\nend"

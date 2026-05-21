@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @param {Integer[][]} edges\n# @return {Integer}\ndef count_paths(n, edges)\n    \nend"

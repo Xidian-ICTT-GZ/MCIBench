@@ -1,0 +1,1 @@
+"class FreqStack() {\n\n    def push(`val`: Int): Unit = {\n        \n    }\n\n    def pop(): Int = {\n        \n    }\n\n}\n\n/**\n * Your FreqStack object will be instantiated and called as such:\n * val obj = new FreqStack()\n * obj.push(`val`)\n * val param_2 = obj.pop()\n */"

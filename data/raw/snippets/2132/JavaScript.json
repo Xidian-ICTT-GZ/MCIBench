@@ -1,0 +1,1 @@
+"/**\n * @param {number[][]} grid\n * @param {number} stampHeight\n * @param {number} stampWidth\n * @return {boolean}\n */\nvar possibleToStamp = function(grid, stampHeight, stampWidth) {\n    \n};"

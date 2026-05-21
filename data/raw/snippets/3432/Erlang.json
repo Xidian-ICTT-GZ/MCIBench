@@ -1,0 +1,1 @@
+"-spec count_partitions(Nums :: [integer()]) -> integer().\ncount_partitions(Nums) ->\n  ."

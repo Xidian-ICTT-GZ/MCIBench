@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<string> findAndReplacePattern(vector<string>& words, string pattern) {\n        \n    }\n};"

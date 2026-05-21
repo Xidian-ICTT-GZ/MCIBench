@@ -1,0 +1,1 @@
+"class Solution:\n    def largest1BorderedSquare(self, grid: List[List[int]]) -> int:\n        "

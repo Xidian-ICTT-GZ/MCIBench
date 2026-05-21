@@ -1,0 +1,1 @@
+"class Solution {\n    fun jobScheduling(startTime: IntArray, endTime: IntArray, profit: IntArray): Int {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec first_palindrome(words :: [String.t]) :: String.t\n  def first_palindrome(words) do\n    \n  end\nend"

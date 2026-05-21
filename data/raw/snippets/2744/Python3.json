@@ -1,0 +1,1 @@
+"class Solution:\n    def maximumNumberOfStringPairs(self, words: List[str]) -> int:\n        "

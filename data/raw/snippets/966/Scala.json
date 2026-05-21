@@ -1,0 +1,1 @@
+"object Solution {\n    def spellchecker(wordlist: Array[String], queries: Array[String]): Array[String] = {\n        \n    }\n}"

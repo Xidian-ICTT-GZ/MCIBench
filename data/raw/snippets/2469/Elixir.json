@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec convert_temperature(celsius :: float) :: [float]\n  def convert_temperature(celsius) do\n    \n  end\nend"

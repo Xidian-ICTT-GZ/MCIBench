@@ -1,0 +1,1 @@
+"-spec max_depth(S :: unicode:unicode_binary()) -> integer().\nmax_depth(S) ->\n  ."

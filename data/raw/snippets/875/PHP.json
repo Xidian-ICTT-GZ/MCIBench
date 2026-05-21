@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $piles\n     * @param Integer $h\n     * @return Integer\n     */\n    function minEatingSpeed($piles, $h) {\n        \n    }\n}"

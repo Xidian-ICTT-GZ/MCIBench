@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec combine(n :: integer, k :: integer) :: [[integer]]\n  def combine(n, k) do\n    \n  end\nend"

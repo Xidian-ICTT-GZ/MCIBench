@@ -1,0 +1,1 @@
+"# @param {Integer} length\n# @param {Integer} width\n# @param {Integer} height\n# @param {Integer} mass\n# @return {String}\ndef categorize_box(length, width, height, mass)\n    \nend"

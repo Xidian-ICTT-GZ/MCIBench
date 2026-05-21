@@ -1,0 +1,1 @@
+"/**\n * @param {number} num1\n * @param {number} num2\n * @param {number} num3\n * @return {number}\n */\nvar generateKey = function(num1, num2, num3) {\n    \n};"

@@ -1,0 +1,1 @@
+"object Solution {\n    def numberOfAlternatingGroups(colors: Array[Int], queries: Array[Array[Int]]): List[Int] = {\n        \n    }\n}"

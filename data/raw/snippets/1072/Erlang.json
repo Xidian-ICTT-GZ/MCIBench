@@ -1,0 +1,1 @@
+"-spec max_equal_rows_after_flips(Matrix :: [[integer()]]) -> integer().\nmax_equal_rows_after_flips(Matrix) ->\n  ."

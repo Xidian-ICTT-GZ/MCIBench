@@ -1,0 +1,1 @@
+"class Solution {\n    fun matrixReshape(mat: Array<IntArray>, r: Int, c: Int): Array<IntArray> {\n        \n    }\n}"

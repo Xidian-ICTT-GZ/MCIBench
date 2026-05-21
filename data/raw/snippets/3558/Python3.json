@@ -1,0 +1,1 @@
+"class Solution:\n    def assignEdgeWeights(self, edges: List[List[int]]) -> int:\n        "

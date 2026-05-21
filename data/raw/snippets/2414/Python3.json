@@ -1,0 +1,1 @@
+"class Solution:\n    def longestContinuousSubstring(self, s: str) -> int:\n        "

@@ -1,0 +1,30 @@
+public class Solution {
+    public IList<IList<int>> FindMatrix(int[] nums) {
+        Dictionary<int, int> cnt = new Dictionary<int, int>();
+        foreach (int x in nums) {
+            if (!cnt.ContainsKey(x)) {
+                cnt[x] = 0;
+            }
+            cnt[x]++;
+        }
+
+        List<List<int>> ans = new List<List<int>>();
+        while (cnt.Count > 0) {
+            List<int> arr = new List<int>();
+            List<int> keysToRemove = new List<int>();
+            foreach (var entry in cnt) {
+                cnt[entry.Key]--;
+                arr.Add(entry.Key);
+                if (cnt[entry.Key] == 0) {
+                    keysToRemove.Add(entry.Key);
+                }
+            }
+            foreach (var key in keysToRemove) {
+                cnt.Remove(key);
+            }
+            ans.Add(arr);
+        }
+        
+        return ans.ToArray();
+    }
+}

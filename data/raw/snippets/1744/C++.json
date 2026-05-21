@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<bool> canEat(vector<int>& candiesCount, vector<vector<int>>& queries) {\n        \n    }\n};"

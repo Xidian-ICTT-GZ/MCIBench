@@ -1,0 +1,1 @@
+"-spec digit_count(Num :: unicode:unicode_binary()) -> boolean().\ndigit_count(Num) ->\n  ."

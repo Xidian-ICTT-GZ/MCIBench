@@ -1,0 +1,1 @@
+"class Solution(object):\n    def maxLen(self, n, edges, label):\n        \"\"\"\n        :type n: int\n        :type edges: List[List[int]]\n        :type label: str\n        :rtype: int\n        \"\"\"\n        "

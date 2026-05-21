@@ -1,0 +1,1 @@
+"\nclass ProductOfNumbers {\n\n    init() {\n        \n    }\n    \n    func add(_ num: Int) {\n        \n    }\n    \n    func getProduct(_ k: Int) -> Int {\n        \n    }\n}\n\n/**\n * Your ProductOfNumbers object will be instantiated and called as such:\n * let obj = ProductOfNumbers()\n * obj.add(num)\n * let ret_2: Int = obj.getProduct(k)\n */"

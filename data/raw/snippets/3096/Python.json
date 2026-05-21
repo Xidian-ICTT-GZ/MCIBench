@@ -1,0 +1,1 @@
+"class Solution(object):\n    def minimumLevels(self, possible):\n        \"\"\"\n        :type possible: List[int]\n        :rtype: int\n        \"\"\"\n        "

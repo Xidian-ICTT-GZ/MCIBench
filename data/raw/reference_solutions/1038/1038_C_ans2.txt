@@ -1,0 +1,33 @@
+struct TreeNode* getSuccessor(struct TreeNode* node) {
+    struct TreeNode* succ = node->right;
+    while (succ->left != NULL && succ->left != node) {
+        succ = succ->left;
+    }
+    return succ;
+}
+
+struct TreeNode* bstToGst(struct TreeNode* root) {
+    int sum = 0;
+    struct TreeNode* node = root;
+
+    while (node != NULL) {
+        if (node->right == NULL) {
+            sum += node->val;
+            node->val = sum;
+            node = node->left;
+        } else {
+            struct TreeNode* succ = getSuccessor(node);
+            if (succ->left == NULL) {
+                succ->left = node;
+                node = node->right;
+            } else {
+                succ->left = NULL;
+                sum += node->val;
+                node->val = sum;
+                node = node->left;
+            }
+        }
+    }
+
+    return root;
+}

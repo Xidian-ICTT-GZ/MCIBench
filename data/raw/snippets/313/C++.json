@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int nthSuperUglyNumber(int n, vector<int>& primes) {\n        \n    }\n};"

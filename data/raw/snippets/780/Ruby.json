@@ -1,0 +1,1 @@
+"# @param {Integer} sx\n# @param {Integer} sy\n# @param {Integer} tx\n# @param {Integer} ty\n# @return {Boolean}\ndef reaching_points(sx, sy, tx, ty)\n    \nend"

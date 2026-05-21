@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @param {Integer} min_k\n# @param {Integer} max_k\n# @return {Integer}\ndef count_subarrays(nums, min_k, max_k)\n    \nend"

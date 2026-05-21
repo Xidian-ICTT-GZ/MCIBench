@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec moves_to_chessboard(board :: [[integer]]) :: integer\n  def moves_to_chessboard(board) do\n    \n  end\nend"

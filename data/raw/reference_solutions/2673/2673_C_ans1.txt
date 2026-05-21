@@ -1,0 +1,9 @@
+int minIncrements(int n, int* cost, int costSize){
+    int ans = 0;
+    for (int i = n - 2; i > 0; i -= 2) {
+        ans += abs(cost[i] - cost[i + 1]);
+        
+        cost[i / 2] += fmax(cost[i], cost[i + 1]);
+    }
+    return ans;
+}

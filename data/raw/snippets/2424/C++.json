@@ -1,0 +1,1 @@
+"class LUPrefix {\npublic:\n    LUPrefix(int n) {\n        \n    }\n    \n    void upload(int video) {\n        \n    }\n    \n    int longest() {\n        \n    }\n};\n\n/**\n * Your LUPrefix object will be instantiated and called as such:\n * LUPrefix* obj = new LUPrefix(n);\n * obj->upload(video);\n * int param_2 = obj->longest();\n */"

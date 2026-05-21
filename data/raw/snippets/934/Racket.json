@@ -1,0 +1,1 @@
+"(define/contract (shortest-bridge grid)\n  (-> (listof (listof exact-integer?)) exact-integer?)\n  )"

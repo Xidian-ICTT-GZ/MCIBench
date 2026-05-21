@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    bool escapeGhosts(vector<vector<int>>& ghosts, vector<int>& target) {\n        \n    }\n};"

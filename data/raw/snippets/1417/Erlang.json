@@ -1,0 +1,1 @@
+"-spec reformat(S :: unicode:unicode_binary()) -> unicode:unicode_binary().\nreformat(S) ->\n  ."

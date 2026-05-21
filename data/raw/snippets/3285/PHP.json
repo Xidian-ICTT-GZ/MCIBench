@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $height\n     * @param Integer $threshold\n     * @return Integer[]\n     */\n    function stableMountains($height, $threshold) {\n        \n    }\n}"

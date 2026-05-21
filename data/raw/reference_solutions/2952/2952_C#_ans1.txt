@@ -1,0 +1,18 @@
+public class Solution {
+    public int MinimumAddedCoins(int[] coins, int target) {
+        Array.Sort(coins);
+        int ans = 0;
+        int x = 1;
+        int length = coins.Length, index = 0;
+        while (x <= target) {
+            if (index < length && coins[index] <= x) {
+                x += coins[index];
+                index++;
+            } else {
+                x *= 2;
+                ans++;
+            }
+        }
+        return ans;
+    }
+}

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec max_area(height :: [integer]) :: integer\n  def max_area(height) do\n    \n  end\nend"

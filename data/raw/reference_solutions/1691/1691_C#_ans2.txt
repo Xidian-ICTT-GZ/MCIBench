@@ -1,0 +1,34 @@
+public class Solution {
+    public int MaxHeight(int[][] cuboids) {
+        int n = cuboids.Length;
+        foreach (int[] v in cuboids) {
+            Array.Sort(v);
+        }
+        Array.Sort(cuboids, (a, b) => (a[0] + a[1] + a[2]) - (b[0] + b[1] + b[2]));
+
+        int[] memo = new int[n];
+        Array.Fill(memo, -1);
+        return DFS(cuboids, memo, -1, 0);
+    }
+
+    public int DFS(int[][] cuboids, int[] memo, int top, int index) {
+        if (index == cuboids.Length) {
+            return 0;
+        }
+        if (top != -1 && memo[top] != -1) {
+            return memo[top];
+        }
+        int height = DFS(cuboids, memo, top, index + 1);
+        if (top == -1 || Check(cuboids[top], cuboids[index])) {
+            height = Math.Max(height, cuboids[index][2] + DFS(cuboids, memo, index, index + 1));
+        }
+        if (top != -1) {
+            memo[top] = height;
+        }
+        return height;
+    }
+
+    public bool Check(int[] a, int[] b) {
+        return a[0] <= b[0] && a[1] <= b[1] && a[2] <= b[2];
+    }
+}

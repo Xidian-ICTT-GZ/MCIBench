@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} nums\n * @param {number[]} multipliers\n * @return {number}\n */\nvar maximumScore = function(nums, multipliers) {\n    \n};"

@@ -1,0 +1,1 @@
+"# @param {Integer} label\n# @return {Integer[]}\ndef path_in_zig_zag_tree(label)\n    \nend"

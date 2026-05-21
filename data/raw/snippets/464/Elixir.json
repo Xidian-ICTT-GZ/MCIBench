@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec can_i_win(max_choosable_integer :: integer, desired_total :: integer) :: boolean\n  def can_i_win(max_choosable_integer, desired_total) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"-spec remove_palindrome_sub(S :: unicode:unicode_binary()) -> integer().\nremove_palindrome_sub(S) ->\n  ."

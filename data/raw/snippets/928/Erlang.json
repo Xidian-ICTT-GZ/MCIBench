@@ -1,0 +1,1 @@
+"-spec min_malware_spread(Graph :: [[integer()]], Initial :: [integer()]) -> integer().\nmin_malware_spread(Graph, Initial) ->\n  ."

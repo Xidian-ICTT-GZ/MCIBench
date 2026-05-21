@@ -1,0 +1,1 @@
+"# @param {Integer[][]} blocked\n# @param {Integer[]} source\n# @param {Integer[]} target\n# @return {Boolean}\ndef is_escape_possible(blocked, source, target)\n    \nend"

@@ -1,0 +1,1 @@
+"(define/contract (abbreviate-product left right)\n  (-> exact-integer? exact-integer? string?)\n  )"

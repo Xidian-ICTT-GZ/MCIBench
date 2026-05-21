@@ -1,0 +1,1 @@
+"public class Solution {\n    public long CountFairPairs(int[] nums, int lower, int upper) {\n        \n    }\n}"

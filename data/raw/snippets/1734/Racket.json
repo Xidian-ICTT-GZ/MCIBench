@@ -1,0 +1,1 @@
+"(define/contract (decode encoded)\n  (-> (listof exact-integer?) (listof exact-integer?))\n  )"

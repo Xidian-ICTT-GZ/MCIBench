@@ -1,0 +1,1 @@
+"class Solution(object):\n    def matchReplacement(self, s, sub, mappings):\n        \"\"\"\n        :type s: str\n        :type sub: str\n        :type mappings: List[List[str]]\n        :rtype: bool\n        \"\"\"\n        "

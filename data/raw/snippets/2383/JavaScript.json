@@ -1,0 +1,1 @@
+"/**\n * @param {number} initialEnergy\n * @param {number} initialExperience\n * @param {number[]} energy\n * @param {number[]} experience\n * @return {number}\n */\nvar minNumberOfHours = function(initialEnergy, initialExperience, energy, experience) {\n    \n};"

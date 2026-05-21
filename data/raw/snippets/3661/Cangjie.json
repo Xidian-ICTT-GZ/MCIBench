@@ -1,0 +1,1 @@
+"class Solution {\n    func maxWalls(robots: Array<Int64>, distance: Array<Int64>, walls: Array<Int64>): Int64 {\n\n    }\n}"

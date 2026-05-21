@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @param {Integer} k\n# @param {Integer} row\n# @param {Integer} column\n# @return {Float}\ndef knight_probability(n, k, row, column)\n    \nend"

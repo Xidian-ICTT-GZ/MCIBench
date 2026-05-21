@@ -1,0 +1,1 @@
+"class Solution {\n    fun findSubstring(s: String, words: Array<String>): List<Int> {\n        \n    }\n}"

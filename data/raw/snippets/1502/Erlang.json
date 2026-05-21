@@ -1,0 +1,1 @@
+"-spec can_make_arithmetic_progression(Arr :: [integer()]) -> boolean().\ncan_make_arithmetic_progression(Arr) ->\n  ."

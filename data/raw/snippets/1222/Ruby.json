@@ -1,0 +1,1 @@
+"# @param {Integer[][]} queens\n# @param {Integer[]} king\n# @return {Integer[][]}\ndef queens_attackthe_king(queens, king)\n    \nend"

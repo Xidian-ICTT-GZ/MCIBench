@@ -1,0 +1,41 @@
+public class Solution {
+    public IList<bool> CheckArithmeticSubarrays(int[] nums, int[] l, int[] r) {
+        int n = l.Length;
+        IList<bool> ans = new List<bool>();
+        for (int i = 0; i < n; ++i) {
+            int left = l[i], right = r[i];
+            int minv = nums[left], maxv = nums[left];
+            for (int j = left + 1; j <= right; ++j) {
+                minv = Math.Min(minv, nums[j]);
+                maxv = Math.Max(maxv, nums[j]);
+            }
+
+            if (minv == maxv) {
+                ans.Add(true);
+                continue;
+            }
+            if ((maxv - minv) % (right - left) != 0) {
+                ans.Add(false);
+                continue;
+            }
+
+            int d = (maxv - minv) / (right - left);
+            bool flag = true;
+            bool[] seen = new bool[right - left + 1];
+            for (int j = left; j <= right; ++j) {
+                if ((nums[j] - minv) % d != 0) {
+                    flag = false;
+                    break;
+                }
+                int t = (nums[j] - minv) / d;
+                if (seen[t]) {
+                    flag = false;
+                    break;
+                }
+                seen[t] = true;
+            }
+            ans.Add(flag);
+        }
+        return ans;
+    }
+}

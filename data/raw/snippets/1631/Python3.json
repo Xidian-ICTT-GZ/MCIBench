@@ -1,0 +1,1 @@
+"class Solution:\n    def minimumEffortPath(self, heights: List[List[int]]) -> int:\n        "

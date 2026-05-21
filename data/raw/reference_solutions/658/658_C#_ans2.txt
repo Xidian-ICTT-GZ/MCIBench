@@ -1,0 +1,35 @@
+public class Solution {
+    public IList<int> FindClosestElements(int[] arr, int k, int x) {
+        int right = BinarySearch(arr, x);
+        int left = right - 1;
+        while (k-- > 0) {
+            if (left < 0) {
+                right++;
+            } else if (right >= arr.Length) {
+                left--;
+            } else if (x - arr[left] <= arr[right] - x) {
+                left--;
+            } else {
+                right++;
+            }
+        }
+        IList<int> ans = new List<int>();
+        for (int i = left + 1; i < right; i++) {
+            ans.Add(arr[i]);
+        }
+        return ans;
+    }
+
+    public int BinarySearch(int[] arr, int x) {
+        int low = 0, high = arr.Length - 1;
+        while (low < high) {
+            int mid = low + (high - low) / 2;
+            if (arr[mid] >= x) {
+                high = mid;
+            } else {
+                low = mid + 1;
+            }
+        }
+        return low;
+    }
+}

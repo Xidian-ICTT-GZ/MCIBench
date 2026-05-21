@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @return {Integer}\ndef semi_ordered_permutation(nums)\n    \nend"

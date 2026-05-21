@@ -1,0 +1,1 @@
+"# @param {Integer[]} parents\n# @param {Integer[][]} queries\n# @return {Integer[]}\ndef max_genetic_difference(parents, queries)\n    \nend"

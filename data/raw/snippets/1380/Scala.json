@@ -1,0 +1,1 @@
+"object Solution {\n    def luckyNumbers(matrix: Array[Array[Int]]): List[Int] = {\n        \n    }\n}"

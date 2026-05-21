@@ -1,0 +1,11 @@
+func maximumBeauty(nums []int, k int) int {
+    res, n := 0, len(nums)
+    sort.Ints(nums)
+    for i, j := 0, 0; i < n; i++ {
+        for nums[i] - 2 * k > nums[j] {
+            j++
+        }
+        res = max(res, i - j + 1)
+    }
+    return res
+}

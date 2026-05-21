@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec watering_plants(plants :: [integer], capacity :: integer) :: integer\n  def watering_plants(plants, capacity) do\n    \n  end\nend"

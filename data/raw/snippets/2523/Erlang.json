@@ -1,0 +1,1 @@
+"-spec closest_primes(Left :: integer(), Right :: integer()) -> [integer()].\nclosest_primes(Left, Right) ->\n  ."

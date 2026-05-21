@@ -1,0 +1,53 @@
+struct ListNode *createdListNode(int val) {
+    struct ListNode *obj = (struct ListNode *)malloc(sizeof(struct ListNode));
+    obj->val = val;
+    obj->next = NULL;
+    return obj;
+}
+
+void dfs(int x, int f, struct ListNode **g, int *cnt, int *isrestricted) {
+    (*cnt)++;
+    for (struct ListNode *p = g[x]; p; p = p->next) {
+        int y = p->val;
+        if (y != f && !isrestricted[y]) {
+            dfs(y, x, g, cnt, isrestricted);
+        }
+    }
+}
+
+void freeList(struct ListNode *list) {
+    while (list) {
+        struct ListNode *p = list;
+        list = list->next;
+        free(p);
+    }
+}
+
+int reachableNodes(int n, int** edges, int edgesSize, int* edgesColSize, int* restricted, int restrictedSize) {
+    int isrestricted[n];
+    memset(isrestricted, 0, sizeof(isrestricted));
+    for (int i = 0; i < restrictedSize; i++) {
+        isrestricted[restricted[i]] = 1;
+    }
+    
+    struct ListNode *g[n];
+    for (int i = 0; i < n; i++) {
+        g[i] = NULL;
+    }
+    for (int i = 0; i < edgesSize; i++) {
+        int x = edges[i][0], y = edges[i][1];
+        struct ListNode *nodex = createdListNode(x);
+        struct ListNode *nodey = createdListNode(y);
+        nodex->next = g[y];
+        g[y] = nodex;
+        nodey->next = g[x];
+        g[x] = nodey;
+    }
+   
+    int cnt = 0;
+    dfs(0, -1, g, &cnt, isrestricted);
+    for (int i = 0; i < n; i++) {
+        freeList(g[i]);
+    }
+    return cnt;
+}

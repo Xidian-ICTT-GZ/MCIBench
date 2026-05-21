@@ -1,0 +1,17 @@
+public class Solution {
+    public string[] FindOcurrences(string text, string first, string second) {
+        string[] words = text.Split(" ");
+        IList<string> list = new List<string>();
+        for (int i = 2; i < words.Length; i++) {
+            if (words[i - 2].Equals(first) && words[i - 1].Equals(second)) {
+                list.Add(words[i]);
+            }
+        }
+        int size = list.Count;
+        string[] ret = new string[size];
+        for (int i = 0; i < size; i++) {
+            ret[i] = list[i];
+        }
+        return ret;
+    }
+}

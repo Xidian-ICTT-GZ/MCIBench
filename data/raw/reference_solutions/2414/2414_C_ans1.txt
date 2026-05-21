@@ -1,0 +1,14 @@
+int longestContinuousSubstring(char* s) {
+    int res = 1;
+    int cur = 1;
+    int len = strlen(s);
+    for (int i = 1; i < len; i++) {
+        if (s[i] == s[i - 1] + 1) {
+            cur++;
+        } else {
+            cur = 1;
+        }
+        res = fmax(res, cur);
+    }
+    return res;
+}

@@ -1,0 +1,1 @@
+"(define/contract (can-i-win maxChoosableInteger desiredTotal)\n  (-> exact-integer? exact-integer? boolean?)\n  )"

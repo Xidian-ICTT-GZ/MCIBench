@@ -1,0 +1,1 @@
+"-spec valid_arrangement(Pairs :: [[integer()]]) -> [[integer()]].\nvalid_arrangement(Pairs) ->\n  ."

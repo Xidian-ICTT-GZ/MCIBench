@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} flowers\n * @param {number} newFlowers\n * @param {number} target\n * @param {number} full\n * @param {number} partial\n * @return {number}\n */\nvar maximumBeauty = function(flowers, newFlowers, target, full, partial) {\n    \n};"

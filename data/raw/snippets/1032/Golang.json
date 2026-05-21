@@ -1,0 +1,1 @@
+"type StreamChecker struct {\n    \n}\n\n\nfunc Constructor(words []string) StreamChecker {\n    \n}\n\n\nfunc (this *StreamChecker) Query(letter byte) bool {\n    \n}\n\n\n/**\n * Your StreamChecker object will be instantiated and called as such:\n * obj := Constructor(words);\n * param_1 := obj.Query(letter);\n */"

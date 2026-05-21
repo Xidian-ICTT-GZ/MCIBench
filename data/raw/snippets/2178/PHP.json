@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $finalSum\n     * @return Integer[]\n     */\n    function maximumEvenSplit($finalSum) {\n        \n    }\n}"

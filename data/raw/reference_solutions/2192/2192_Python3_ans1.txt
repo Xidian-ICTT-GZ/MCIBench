@@ -1,0 +1,26 @@
+class Solution:
+    def getAncestors(self, n: int, edges: List[List[int]]) -> List[List[int]]:
+        anc = [set() for _ in range(n)]   
+        e = [[] for _ in range(n)] 
+        indeg = [0] * n   
+        
+        for u, v in edges:
+            e[u].append(v)
+            indeg[v] += 1
+        
+        q = deque()
+        for i in range(n):
+            if indeg[i] == 0:
+                q.append(i)
+        while q:
+            u = q.popleft()
+            for v in e[u]:
+                
+                anc[v].add(u)
+                anc[v].update(anc[u])
+                indeg[v] -= 1
+                if indeg[v] == 0:
+                    q.append(v)
+        
+        res = [sorted(anc[i]) for i in range(n)]        
+        return res

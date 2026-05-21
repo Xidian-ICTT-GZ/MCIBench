@@ -1,0 +1,1 @@
+"/**\n * @param {string} a\n * @param {string} b\n * @return {number}\n */\nvar repeatedStringMatch = function(a, b) {\n    \n};"

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec successful_pairs(spells :: [integer], potions :: [integer], success :: integer) :: [integer]\n  def successful_pairs(spells, potions, success) do\n    \n  end\nend"

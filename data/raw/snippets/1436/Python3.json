@@ -1,0 +1,1 @@
+"class Solution:\n    def destCity(self, paths: List[List[str]]) -> str:\n        "

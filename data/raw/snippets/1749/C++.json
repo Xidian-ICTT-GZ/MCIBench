@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int maxAbsoluteSum(vector<int>& nums) {\n        \n    }\n};"

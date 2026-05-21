@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec distinct_echo_substrings(text :: String.t) :: integer\n  def distinct_echo_substrings(text) do\n    \n  end\nend"

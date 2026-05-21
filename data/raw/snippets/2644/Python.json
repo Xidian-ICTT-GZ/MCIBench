@@ -1,0 +1,1 @@
+"class Solution(object):\n    def maxDivScore(self, nums, divisors):\n        \"\"\"\n        :type nums: List[int]\n        :type divisors: List[int]\n        :rtype: int\n        \"\"\"\n        "

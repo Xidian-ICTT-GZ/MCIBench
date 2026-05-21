@@ -1,0 +1,12 @@
+impl Solution {
+    pub fn maximum69_number (num: i32) -> i32 {
+        let mut s = num.to_string().chars().collect::<Vec<char>>();
+        for i in 0..s.len() {
+            if s[i] == '6' {
+                s[i] = '9';
+                break;
+            }
+        }
+        s.iter().collect::<String>().parse().unwrap()
+    }
+}

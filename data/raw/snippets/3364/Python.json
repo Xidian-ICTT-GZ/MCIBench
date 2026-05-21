@@ -1,0 +1,1 @@
+"class Solution(object):\n    def minimumSumSubarray(self, nums, l, r):\n        \"\"\"\n        :type nums: List[int]\n        :type l: int\n        :type r: int\n        :rtype: int\n        \"\"\"\n        "

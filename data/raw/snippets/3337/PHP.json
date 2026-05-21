@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $s\n     * @param Integer $t\n     * @param Integer[] $nums\n     * @return Integer\n     */\n    function lengthAfterTransformations($s, $t, $nums) {\n        \n    }\n}"

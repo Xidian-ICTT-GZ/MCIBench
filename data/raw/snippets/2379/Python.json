@@ -1,0 +1,1 @@
+"class Solution(object):\n    def minimumRecolors(self, blocks, k):\n        \"\"\"\n        :type blocks: str\n        :type k: int\n        :rtype: int\n        \"\"\"\n        "

@@ -1,0 +1,29 @@
+var canSortArray = function(nums) {
+    let lastCnt = 0;
+    let lastGroupMax = 0;
+    let curGroupMax = 0;
+
+    for (let num of nums) {
+        let curCnt = countBits(num);
+        if (curCnt === lastCnt) {
+            curGroupMax = Math.max(curGroupMax, num);
+        } else {
+            lastCnt = curCnt;
+            lastGroupMax = curGroupMax;
+            curGroupMax = num;
+        }
+        if (num < lastGroupMax) {
+            return false;
+        }
+    }
+    return true;
+};
+
+const countBits = (num) => {
+    let count = 0;
+    while (num !== 0) {
+        count++;
+        num &= num - 1;
+    }
+    return count;
+}

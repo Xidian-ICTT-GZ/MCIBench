@@ -1,0 +1,1 @@
+"-spec can_choose(Groups :: [[integer()]], Nums :: [integer()]) -> boolean().\ncan_choose(Groups, Nums) ->\n  ."

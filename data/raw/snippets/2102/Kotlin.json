@@ -1,0 +1,1 @@
+"class SORTracker() {\n\n    fun add(name: String, score: Int) {\n        \n    }\n\n    fun get(): String {\n        \n    }\n\n}\n\n/**\n * Your SORTracker object will be instantiated and called as such:\n * var obj = SORTracker()\n * obj.add(name,score)\n * var param_2 = obj.get()\n */"

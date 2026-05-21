@@ -1,0 +1,1 @@
+"%% Definition for a binary tree node.\n%%\n%% -record(tree_node, {val = 0 :: integer(),\n%%                     left = null  :: 'null' | #tree_node{},\n%%                     right = null :: 'null' | #tree_node{}}).\n\n-spec balance_bst(Root :: #tree_node{} | null) -> #tree_node{} | null.\nbalance_bst(Root) ->\n  ."

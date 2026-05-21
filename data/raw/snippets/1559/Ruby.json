@@ -1,0 +1,1 @@
+"# @param {Character[][]} grid\n# @return {Boolean}\ndef contains_cycle(grid)\n    \nend"

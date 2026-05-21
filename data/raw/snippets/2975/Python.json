@@ -1,0 +1,1 @@
+"class Solution(object):\n    def maximizeSquareArea(self, m, n, hFences, vFences):\n        \"\"\"\n        :type m: int\n        :type n: int\n        :type hFences: List[int]\n        :type vFences: List[int]\n        :rtype: int\n        \"\"\"\n        "

@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @param {Integer[]} queries\n# @return {Integer[]}\ndef gcd_values(nums, queries)\n    \nend"

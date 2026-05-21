@@ -1,0 +1,1 @@
+"/**\n * @param {string[]} queries\n * @param {string[]} dictionary\n * @return {string[]}\n */\nvar twoEditWords = function(queries, dictionary) {\n    \n};"

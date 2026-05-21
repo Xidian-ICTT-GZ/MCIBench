@@ -1,0 +1,22 @@
+public class Solution {
+    public int FindMinFibonacciNumbers(int k) {
+        IList<int> f = new List<int>();
+        f.Add(1);
+        int a = 1, b = 1;
+        while (a + b <= k) {
+            int c = a + b;
+            f.Add(c);
+            a = b;
+            b = c;
+        }
+        int ans = 0;
+        for (int i = f.Count - 1; i >= 0 && k > 0; i--) {
+            int num = f[i];
+            if (k >= num) {
+                k -= num;
+                ans++;
+            }
+        }
+        return ans;
+    }
+}

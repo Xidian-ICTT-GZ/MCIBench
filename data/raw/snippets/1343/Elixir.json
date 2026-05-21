@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec num_of_subarrays(arr :: [integer], k :: integer, threshold :: integer) :: integer\n  def num_of_subarrays(arr, k, threshold) do\n    \n  end\nend"

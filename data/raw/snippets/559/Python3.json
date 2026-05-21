@@ -1,0 +1,1 @@
+"\"\"\"\n# Definition for a Node.\nclass Node:\n    def __init__(self, val: Optional[int] = None, children: Optional[List['Node']] = None):\n        self.val = val\n        self.children = children\n\"\"\"\n\nclass Solution:\n    def maxDepth(self, root: 'Node') -> int:\n        "

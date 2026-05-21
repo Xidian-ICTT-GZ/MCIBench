@@ -1,0 +1,61 @@
+#define INIT_SIZE 4
+
+typedef struct {
+    int *pdata;
+    int size;
+    int capacity;
+} Vector;
+
+void Push(Vector *v, int x) {
+    if (v->capacity == 0) {
+        v->capacity = INIT_SIZE;
+        v->pdata = (int *)malloc(sizeof(int) * v->capacity);
+    }
+    if (v->size == v->capacity) {
+        int *tmp = (int *)malloc(sizeof(int) * v->capacity * 2);
+        memcpy(tmp, v->pdata, sizeof(int) * v->capacity);
+        free(v->pdata);
+        v->pdata = tmp;
+        v->capacity *= 2;
+    }
+    v->pdata[v->size++] = x;
+}
+
+int dfs(int x, Vector *graph, bool *visited) {
+    visited[x] = true;
+    int count = 1;
+    for (int i = 0; i < graph[x].size; i++) {
+        int y = graph[x].pdata[i];
+        if (!visited[y]) {
+            count += dfs(y, graph, visited);
+        }
+    }
+    return count;
+}
+
+long long countPairs(int n, int **edges, int edgesSize, int *edgesColSize) {
+    Vector *graph = (Vector *)malloc(sizeof(Vector) * n);
+    memset(graph, 0, sizeof(Vector) * n);
+    for (int i = 0; i < edgesSize; i++) {
+        int x = edges[i][0], y = edges[i][1];
+        Push(&graph[x], y);
+        Push(&graph[y], x);
+    }
+
+    bool *visited = (bool *)malloc(sizeof(bool) * n);
+    memset(visited, 0, sizeof(bool) * n);
+    long long res = 0;
+    for (int i = 0; i < n; i++) {
+        if (!visited[i]) {
+            long long count = dfs(i, graph, visited);
+            res += count * (n - count);
+        }
+    }
+
+    for (int i = 0; i < n; i++) {
+        free(graph[i].pdata);
+    }
+    free(graph);
+    free(visited);
+    return res / 2;
+}

@@ -1,0 +1,1 @@
+"/**\n * @param {number[][]} rectangles\n * @param {number[][]} points\n * @return {number[]}\n */\nvar countRectangles = function(rectangles, points) {\n    \n};"

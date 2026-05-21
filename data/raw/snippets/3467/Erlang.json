@@ -1,0 +1,1 @@
+"-spec transform_array(Nums :: [integer()]) -> [integer()].\ntransform_array(Nums) ->\n  ."

@@ -1,0 +1,17 @@
+public class Solution {
+    public IList<int> Preorder(Node root) {
+        IList<int> res = new List<int>();
+        Helper(root, res);
+        return res;
+    }
+
+    public void Helper(Node root, IList<int> res) {
+        if (root == null) {
+            return;
+        }
+        res.Add(root.val);
+        foreach (Node ch in root.children) {
+            Helper(ch, res);
+        }
+    }
+}

@@ -1,0 +1,1 @@
+"class Solution(object):\n    def interpret(self, command):\n        \"\"\"\n        :type command: str\n        :rtype: str\n        \"\"\"\n        "

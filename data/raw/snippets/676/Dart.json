@@ -1,0 +1,1 @@
+"class MagicDictionary {\n\n  MagicDictionary() {\n    \n  }\n  \n  void buildDict(List<String> dictionary) {\n    \n  }\n  \n  bool search(String searchWord) {\n    \n  }\n}\n\n/**\n * Your MagicDictionary object will be instantiated and called as such:\n * MagicDictionary obj = MagicDictionary();\n * obj.buildDict(dictionary);\n * bool param2 = obj.search(searchWord);\n */"

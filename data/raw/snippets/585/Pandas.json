@@ -1,0 +1,1 @@
+"import pandas as pd\n\ndef find_investments(insurance: pd.DataFrame) -> pd.DataFrame:\n    "

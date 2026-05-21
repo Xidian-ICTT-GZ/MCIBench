@@ -1,0 +1,1 @@
+"class ExamRoom {\n\n  ExamRoom(int n) {\n    \n  }\n  \n  int seat() {\n    \n  }\n  \n  void leave(int p) {\n    \n  }\n}\n\n/**\n * Your ExamRoom object will be instantiated and called as such:\n * ExamRoom obj = ExamRoom(n);\n * int param1 = obj.seat();\n * obj.leave(p);\n */"

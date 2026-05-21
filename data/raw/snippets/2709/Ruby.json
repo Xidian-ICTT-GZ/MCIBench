@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @return {Boolean}\ndef can_traverse_all_pairs(nums)\n    \nend"

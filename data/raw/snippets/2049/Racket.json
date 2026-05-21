@@ -1,0 +1,1 @@
+"(define/contract (count-highest-score-nodes parents)\n  (-> (listof exact-integer?) exact-integer?)\n  )"

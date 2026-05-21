@@ -1,0 +1,45 @@
+func min(a, b int) int {
+    if a < b {
+        return a
+    }
+    return b
+}
+
+func minTrioDegree(n int, edges [][]int) int {
+    g := make([]map[int]struct{}, n)
+    h := make([][]int, n)
+    degree := make([]int, n)
+    for i := 0; i < n; i++ {
+        g[i] = make(map[int]struct{})
+    }
+
+    for _, edge := range edges {
+        x, y := edge[0] - 1, edge[1] - 1
+        g[x][y], g[y][x] = struct{}{}, struct{}{}
+        degree[x]++
+        degree[y]++
+    }
+    for _, edge := range edges {
+        x, y := edge[0] - 1, edge[1] - 1
+        if degree[x] < degree[y] || (degree[x] == degree[y] && x < y) {
+            h[x] = append(h[x], y)
+        } else {
+            h[y] = append(h[y], x)
+        }
+    }
+
+    ans := 0x3f3f3f3f
+    for i := 0; i < n; i++ {
+        for _, j := range h[i] {
+            for _, k := range h[j] {
+                if _, ok := g[i][k]; ok {
+                    ans = min(ans, degree[i] + degree[j] + degree[k] - 6)
+                }
+            }
+        }
+    }
+    if ans == 0x3f3f3f3f {
+        return -1
+    }
+    return ans
+}

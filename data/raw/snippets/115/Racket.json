@@ -1,0 +1,1 @@
+"(define/contract (num-distinct s t)\n  (-> string? string? exact-integer?)\n  )"

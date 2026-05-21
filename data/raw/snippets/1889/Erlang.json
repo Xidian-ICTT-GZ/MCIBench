@@ -1,0 +1,1 @@
+"-spec min_wasted_space(Packages :: [integer()], Boxes :: [[integer()]]) -> integer().\nmin_wasted_space(Packages, Boxes) ->\n  ."

@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $forts\n     * @return Integer\n     */\n    function captureForts($forts) {\n        \n    }\n}"

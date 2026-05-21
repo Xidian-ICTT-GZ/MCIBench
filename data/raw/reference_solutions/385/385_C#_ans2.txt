@@ -1,0 +1,34 @@
+public class Solution {
+    public NestedInteger Deserialize(string s) {
+        if (s[0] != '[') {
+            return new NestedInteger(int.Parse(s));
+        }
+        Stack<NestedInteger> stack = new Stack<NestedInteger>();
+        int num = 0;
+        bool negative = false;
+        for (int i = 0; i < s.Length; i++) {
+            char c = s[i];
+            if (c == '-') {
+                negative = true;
+            } else if (char.IsDigit(c)) {
+                num = num * 10 + c - '0';
+            } else if (c == '[') {
+                stack.Push(new NestedInteger());
+            } else if (c == ',' || c == ']') {
+                if (char.IsDigit(s[i - 1])) {
+                    if (negative) {
+                        num *= -1;
+                    }
+                    stack.Peek().Add(new NestedInteger(num));
+                }
+                num = 0;
+                negative = false;
+                if (c == ']' && stack.Count > 1) {
+                    NestedInteger ni = stack.Pop();
+                    stack.Peek().Add(ni);
+                }
+            }
+        }
+        return stack.Pop();
+    }
+}

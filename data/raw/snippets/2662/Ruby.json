@@ -1,0 +1,1 @@
+"# @param {Integer[]} start\n# @param {Integer[]} target\n# @param {Integer[][]} special_roads\n# @return {Integer}\ndef minimum_cost(start, target, special_roads)\n    \nend"

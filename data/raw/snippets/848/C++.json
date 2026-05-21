@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    string shiftingLetters(string s, vector<int>& shifts) {\n        \n    }\n};"

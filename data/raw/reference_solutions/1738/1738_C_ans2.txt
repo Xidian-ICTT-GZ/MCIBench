@@ -1,0 +1,48 @@
+void swap(int* a, int* b) {
+    int t = *a;
+    *a = *b, *b = t;
+}
+
+int cmp(int a, int b) {
+    return a > b;
+}
+
+void nth_element(int* arr, int left, int kth, int right) {
+    if (left == right) {
+        return;
+    }
+    int pivot = left + rand() % (right - left);
+    swap(&arr[pivot], &arr[right]);
+    
+    int sepl = left - 1, sepr = left - 1;
+    for (int i = left; i <= right; i++) {
+        if (arr[i] > arr[right]) {
+            swap(&arr[++sepr], &arr[i]);
+            swap(&arr[++sepl], &arr[sepr]);
+        } else if (arr[i] == arr[right]) {
+            swap(&arr[++sepr], &arr[i]);
+        }
+    }
+    if (sepl < left + kth && left + kth <= sepr) {
+        return;
+    } else if (left + kth <= sepl) {
+        nth_element(arr, left, kth, sepl);
+    } else {
+        nth_element(arr, sepr + 1, kth - (sepr - left + 1), right);
+    }
+}
+
+int kthLargestValue(int** matrix, int matrixSize, int* matrixColSize, int k) {
+    int m = matrixSize, n = matrixColSize[0];
+    int pre[m + 1][n + 1];
+    memset(pre, 0, sizeof(pre));
+    int results[m * n], resultsSize = 0;
+    for (int i = 1; i <= m; ++i) {
+        for (int j = 1; j <= n; ++j) {
+            pre[i][j] = pre[i - 1][j] ^ pre[i][j - 1] ^ pre[i - 1][j - 1] ^ matrix[i - 1][j - 1];
+            results[resultsSize++] = pre[i][j];
+        }
+    }
+    nth_element(results, 0, k - 1, resultsSize - 1);
+    return results[k - 1];
+}

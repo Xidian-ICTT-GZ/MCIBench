@@ -1,0 +1,1 @@
+"impl Solution {\n    pub fn split_into_fibonacci(num: String) -> Vec<i32> {\n        \n    }\n}"

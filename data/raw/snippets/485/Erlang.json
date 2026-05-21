@@ -1,0 +1,1 @@
+"-spec find_max_consecutive_ones(Nums :: [integer()]) -> integer().\nfind_max_consecutive_ones(Nums) ->\n  ."

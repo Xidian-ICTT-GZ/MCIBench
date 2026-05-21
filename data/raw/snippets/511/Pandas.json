@@ -1,0 +1,1 @@
+"import pandas as pd\n\ndef game_analysis(activity: pd.DataFrame) -> pd.DataFrame:\n    "

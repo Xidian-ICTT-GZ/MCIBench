@@ -1,0 +1,1 @@
+"class NumMatrix(matrix: Array<IntArray>) {\n\n    fun sumRegion(row1: Int, col1: Int, row2: Int, col2: Int): Int {\n        \n    }\n\n}\n\n/**\n * Your NumMatrix object will be instantiated and called as such:\n * var obj = NumMatrix(matrix)\n * var param_1 = obj.sumRegion(row1,col1,row2,col2)\n */"

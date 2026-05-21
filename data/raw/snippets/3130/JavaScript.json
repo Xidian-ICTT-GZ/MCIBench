@@ -1,0 +1,1 @@
+"/**\n * @param {number} zero\n * @param {number} one\n * @param {number} limit\n * @return {number}\n */\nvar numberOfStableArrays = function(zero, one, limit) {\n    \n};"

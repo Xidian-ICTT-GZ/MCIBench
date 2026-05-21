@@ -1,0 +1,1 @@
+"class Solution:\n    def smallestDivisor(self, nums: List[int], threshold: int) -> int:\n        "

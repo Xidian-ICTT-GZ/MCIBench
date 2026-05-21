@@ -1,0 +1,1 @@
+"class Solution(object):\n    def minIncrease(self, n, edges, cost):\n        \"\"\"\n        :type n: int\n        :type edges: List[List[int]]\n        :type cost: List[int]\n        :rtype: int\n        \"\"\"\n        "

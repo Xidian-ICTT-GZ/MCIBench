@@ -1,0 +1,1 @@
+"-spec insert(Intervals :: [[integer()]], NewInterval :: [integer()]) -> [[integer()]].\ninsert(Intervals, NewInterval) ->\n  ."

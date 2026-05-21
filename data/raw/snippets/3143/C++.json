@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int maxPointsInsideSquare(vector<vector<int>>& points, string s) {\n        \n    }\n};"

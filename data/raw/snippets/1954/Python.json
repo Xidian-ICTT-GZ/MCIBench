@@ -1,0 +1,1 @@
+"class Solution(object):\n    def minimumPerimeter(self, neededApples):\n        \"\"\"\n        :type neededApples: int\n        :rtype: int\n        \"\"\"\n        "

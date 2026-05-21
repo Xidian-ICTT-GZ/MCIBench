@@ -1,0 +1,1 @@
+"class Solution {\n    func subStrHash(s: String, power: Int64, modulo: Int64, k: Int64, hashValue: Int64): String {\n\n    }\n}"

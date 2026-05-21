@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec can_complete_circuit(gas :: [integer], cost :: [integer]) :: integer\n  def can_complete_circuit(gas, cost) do\n    \n  end\nend"

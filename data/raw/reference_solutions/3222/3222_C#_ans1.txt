@@ -1,0 +1,6 @@
+public class Solution {
+    public string WinningPlayer(int x, int y) {
+        int ops = Math.Min(x, y / 4);
+        return ops % 2 == 1 ? "Alice" : "Bob";
+    }
+}

@@ -1,0 +1,1 @@
+"(define/contract (count-pairs-of-connectable-servers edges signalSpeed)\n  (-> (listof (listof exact-integer?)) exact-integer? (listof exact-integer?))\n  )"

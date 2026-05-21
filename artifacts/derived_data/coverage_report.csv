@@ -1,0 +1,16 @@
+task,model,expected_rows,accepted_rows,wrong_answer_rows
+generation,claude-3-5-haiku-20241022,59560,38855,2334
+generation,deepseek-v3.2,59560,27855,2915
+generation,glm-4,59560,40073,12087
+generation,gpt-4o,59560,46050,8175
+generation,qwen3-1.7b,59560,13686,26854
+generation,qwen3-14b,59560,31790,13490
+generation,qwen3-32b,59560,44608,4592
+generation,qwen3-4b,59560,24645,22184
+generation,qwen3-8b,59560,29942,19367
+generation,qwen3-coder-480b-a35b-instruct,59560,53022,3426
+translation,claude-3-5-haiku-20241022,28000,10477,2920
+translation,deepseek-v3.2,28000,12215,565
+translation,glm-4,28000,15141,9379
+translation,gpt-4o,28000,17295,2748
+translation,qwen3-coder-480b-a35b-instruct,28000,24433,2119

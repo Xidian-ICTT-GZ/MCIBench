@@ -1,0 +1,1 @@
+"(define/contract (length-of-last-word s)\n  (-> string? exact-integer?)\n  )"

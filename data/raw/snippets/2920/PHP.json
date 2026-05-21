@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $edges\n     * @param Integer[] $coins\n     * @param Integer $k\n     * @return Integer\n     */\n    function maximumPoints($edges, $coins, $k) {\n        \n    }\n}"

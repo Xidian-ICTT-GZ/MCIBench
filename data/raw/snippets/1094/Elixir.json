@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec car_pooling(trips :: [[integer]], capacity :: integer) :: boolean\n  def car_pooling(trips, capacity) do\n    \n  end\nend"

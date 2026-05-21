@@ -1,0 +1,1 @@
+"/**\n * Definition for a binary tree node.\n * class TreeNode {\n *   int val;\n *   TreeNode? left;\n *   TreeNode? right;\n *   TreeNode([this.val = 0, this.left, this.right]);\n * }\n */\nclass Solution {\n  int maxSumBST(TreeNode? root) {\n    \n  }\n}"

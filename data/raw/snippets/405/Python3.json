@@ -1,0 +1,1 @@
+"class Solution:\n    def toHex(self, num: int) -> str:\n        "

@@ -1,0 +1,1 @@
+"-spec wiggle_max_length(Nums :: [integer()]) -> integer().\nwiggle_max_length(Nums) ->\n  ."

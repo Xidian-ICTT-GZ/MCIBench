@@ -1,0 +1,1 @@
+"/*\n *\t// Definition for Employee.\n *\tclass Employee {\n *\t\tvar id:Int = 0\n *\t\tvar importance:Int = 0\n *\t\tvar subordinates:List<Int> = listOf()\n *\t}\n */\n\nclass Solution {\n    fun getImportance(employees: List<Employee?>, id: Int): Int {\n        \n    }\n}"

@@ -1,0 +1,58 @@
+char* generate(char* s, int idx, int offset) {
+    char* res = (char*)malloc(sizeof(char) * (strlen(s) + 1));
+    strcpy(res, s);
+    res[idx] += offset;
+    int len = strlen(s);
+    for (int i = idx + 1; i < len; ++i) {
+        char blockedCharacters[3] = {'\0'};
+        for (int j = 1; j < 3; ++j) {
+            if (i - j >= 0) {
+                blockedCharacters[j - 1] = res[i - j];
+            }
+        }
+        for (char c = 'a'; c <= 'c'; ++c) {
+            int isBlocked = 0;
+            for (int x = 0; x < 3; ++x) {
+                if (blockedCharacters[x] == c) {
+                    isBlocked = 1;
+                    break;
+                }
+            }
+            if (!isBlocked) {
+                res[i] = c;
+                break;
+            }
+        }
+    }
+    return res;
+}
+
+char * smallestBeautifulString(char * s, int k){
+    int length = strlen(s);
+    char* result = (char*)malloc(sizeof(char) * (length + 1));
+    strcpy(result, "");
+    for (int i = length - 1; i >= 0; --i) {
+        char blockedCharacters[3] = {'\0'};
+        for (int j = 1; j < 3; ++j) {
+            if (i - j >= 0) {
+                blockedCharacters[j - 1] = s[i - j];
+            }
+        }
+        for (int j = 1; j < 4; ++j) {
+            if (s[i] - 'a' + j + 1 <= k) {
+                int isBlocked = 0;
+                for (int x = 0; x < 3; ++x) {
+                    if (blockedCharacters[x] == s[i] + j) {
+                        isBlocked = 1;
+                        break;
+                    }
+                }
+                if (!isBlocked) {
+                    sprintf(result, "%s", generate(s, i, j));
+                    return result;
+                }
+            }
+        }
+    }
+    return result;
+}

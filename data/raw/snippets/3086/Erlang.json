@@ -1,0 +1,1 @@
+"-spec minimum_moves(Nums :: [integer()], K :: integer(), MaxChanges :: integer()) -> integer().\nminimum_moves(Nums, K, MaxChanges) ->\n  ."

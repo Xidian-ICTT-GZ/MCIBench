@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec longest_word(words :: [String.t]) :: String.t\n  def longest_word(words) do\n    \n  end\nend"

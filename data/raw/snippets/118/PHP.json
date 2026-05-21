@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $numRows\n     * @return Integer[][]\n     */\n    function generate($numRows) {\n        \n    }\n}"

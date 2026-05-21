@@ -1,0 +1,22 @@
+int** modifiedMatrix(int** matrix, int matrixSize, int* matrixColSize, int* returnSize, int** returnColumnSizes) {
+    int** res = (int**)malloc(matrixSize * sizeof(int *));
+    for (int i = 0; i < matrixSize; i++) {
+        res[i] = (int *)malloc(matrixColSize[0] * sizeof(int));
+        memcpy(res[i], matrix[i], matrixColSize[0] * sizeof(int));
+    }
+    for (int j = 0; j < matrixColSize[0]; j++) {
+        int zd = -1;
+        for (int i = 0; i < matrixSize; i++) {
+            zd = fmax(zd, matrix[i][j]);
+        }
+        for (int i = 0; i < matrixSize; i++) {
+            if (matrix[i][j] == -1) {
+                res[i][j] = zd;
+            }
+        }
+    }
+    *returnSize = matrixSize;
+    *returnColumnSizes = (int *)malloc(matrixSize * sizeof(int));
+    memcpy(*returnColumnSizes, matrixColSize, matrixSize * sizeof(int));
+    return res;
+}

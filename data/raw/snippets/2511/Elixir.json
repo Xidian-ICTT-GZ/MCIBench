@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec capture_forts(forts :: [integer]) :: integer\n  def capture_forts(forts) do\n    \n  end\nend"

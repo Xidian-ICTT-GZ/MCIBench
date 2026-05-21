@@ -1,0 +1,1 @@
+"class Solution(object):\n    def checkDistances(self, s, distance):\n        \"\"\"\n        :type s: str\n        :type distance: List[int]\n        :rtype: bool\n        \"\"\"\n        "

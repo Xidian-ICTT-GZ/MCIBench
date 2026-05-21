@@ -1,0 +1,16 @@
+class Solution {
+public:
+    string baseNeg2(int n) {
+        int val = 0x55555555 ^ (0x55555555 - n);
+        if (val == 0) {
+            return "0";
+        }
+        string res;
+        while (val) {
+            res.push_back('0' + (val & 1));
+            val >>= 1;
+        }
+        reverse(res.begin(), res.end());
+        return res;
+    }
+};

@@ -1,0 +1,26 @@
+public class Solution {
+    public IList<int> Postorder(Node root) {
+        IList<int> res = new List<int>();
+        if (root == null) {
+            return res;
+        }
+
+        Stack<Node> stack = new Stack<Node>();
+        ISet<Node> visited = new HashSet<Node>();
+        stack.Push(root);
+        while (stack.Count > 0) {
+            Node node = stack.Peek();
+            
+            if (node.children.Count == 0 || visited.Contains(node)) {
+                stack.Pop();
+                res.Add(node.val);
+                continue;
+            }
+            for (int i = node.children.Count - 1; i >= 0; i--) {
+                stack.Push(node.children[i]);
+            }
+            visited.Add(node);
+        }
+        return res;
+    }
+}

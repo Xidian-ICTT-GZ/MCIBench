@@ -1,0 +1,1 @@
+"class Solution:\n    def isValid(self, word: str) -> bool:\n        "

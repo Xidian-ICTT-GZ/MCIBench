@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $fruits\n     * @param Integer $startPos\n     * @param Integer $k\n     * @return Integer\n     */\n    function maxTotalFruits($fruits, $startPos, $k) {\n        \n    }\n}"

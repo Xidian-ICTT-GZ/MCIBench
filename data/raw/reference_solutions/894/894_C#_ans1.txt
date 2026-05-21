@@ -1,0 +1,23 @@
+public class Solution {
+    public IList<TreeNode> AllPossibleFBT(int n) {
+        IList<TreeNode> fullBinaryTrees = new List<TreeNode>();
+        if (n % 2 == 0) {
+            return fullBinaryTrees;
+        }
+        if (n == 1) {
+            fullBinaryTrees.Add(new TreeNode(0));
+            return fullBinaryTrees;
+        }
+        for (int i = 1; i < n; i += 2) {
+            IList<TreeNode> leftSubtrees = AllPossibleFBT(i);
+            IList<TreeNode> rightSubtrees = AllPossibleFBT(n - 1 - i);
+            foreach (TreeNode leftSubtree in leftSubtrees) {
+                foreach (TreeNode rightSubtree in rightSubtrees) {
+                    TreeNode root = new TreeNode(0, leftSubtree, rightSubtree);
+                    fullBinaryTrees.Add(root);
+                }
+            }
+        }
+        return fullBinaryTrees;
+    }
+}

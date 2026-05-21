@@ -1,0 +1,1 @@
+"# @param {Integer} turned_on\n# @return {String[]}\ndef read_binary_watch(turned_on)\n    \nend"

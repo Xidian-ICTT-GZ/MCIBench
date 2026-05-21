@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int minCostToEqualizeArray(vector<int>& nums, int cost1, int cost2) {\n        \n    }\n};"

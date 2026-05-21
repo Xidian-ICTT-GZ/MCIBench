@@ -1,0 +1,1 @@
+"# @param {Integer[][]} bombs\n# @return {Integer}\ndef maximum_detonation(bombs)\n    \nend"

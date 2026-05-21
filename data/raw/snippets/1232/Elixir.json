@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec check_straight_line(coordinates :: [[integer]]) :: boolean\n  def check_straight_line(coordinates) do\n    \n  end\nend"

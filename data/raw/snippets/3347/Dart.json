@@ -1,0 +1,1 @@
+"class Solution {\n  int maxFrequency(List<int> nums, int k, int numOperations) {\n    \n  }\n}"

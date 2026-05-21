@@ -1,0 +1,1 @@
+"# @param {Integer[][]} edges\n# @param {Integer[]} nums\n# @param {Integer} k\n# @return {Integer}\ndef subtree_inversion_sum(edges, nums, k)\n    \nend"

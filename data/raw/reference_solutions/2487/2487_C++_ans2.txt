@@ -1,0 +1,16 @@
+class Solution {
+public:
+    ListNode* removeNodes(ListNode* head) {
+        stack<ListNode *> st;
+        for (; head != nullptr; head = head->next) {
+            st.push(head);
+        }
+        for(; !st.empty(); st.pop()) {
+            if (head == nullptr || st.top()->val >= head->val) {
+                st.top()->next = head;
+                head = st.top();
+            }
+        }
+        return head;
+    }
+};

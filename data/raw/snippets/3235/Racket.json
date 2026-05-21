@@ -1,0 +1,1 @@
+"(define/contract (can-reach-corner xCorner yCorner circles)\n  (-> exact-integer? exact-integer? (listof (listof exact-integer?)) boolean?)\n  )"

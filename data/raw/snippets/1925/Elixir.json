@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec count_triples(n :: integer) :: integer\n  def count_triples(n) do\n    \n  end\nend"

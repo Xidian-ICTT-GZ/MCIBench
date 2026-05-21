@@ -1,0 +1,1 @@
+"/**\n * @param {number} length\n * @param {number} width\n * @param {number} height\n * @param {number} mass\n * @return {string}\n */\nvar categorizeBox = function(length, width, height, mass) {\n    \n};"

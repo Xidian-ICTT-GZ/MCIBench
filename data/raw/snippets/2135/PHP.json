@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String[] $startWords\n     * @param String[] $targetWords\n     * @return Integer\n     */\n    function wordCount($startWords, $targetWords) {\n        \n    }\n}"

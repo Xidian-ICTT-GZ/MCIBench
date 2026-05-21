@@ -1,0 +1,7 @@
+public class Solution {
+    const int BIG = 1 << 30;
+
+    public bool IsPowerOfTwo(int n) {
+        return n > 0 && BIG % n == 0;
+    }
+}

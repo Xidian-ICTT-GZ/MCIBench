@@ -1,0 +1,1 @@
+"(define/contract (get-money-amount n)\n  (-> exact-integer? exact-integer?)\n  )"

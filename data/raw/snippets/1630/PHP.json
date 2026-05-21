@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer[] $l\n     * @param Integer[] $r\n     * @return Boolean[]\n     */\n    function checkArithmeticSubarrays($nums, $l, $r) {\n        \n    }\n}"

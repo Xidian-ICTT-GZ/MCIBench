@@ -1,0 +1,1 @@
+"/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* findColumnWidth(int** grid, int gridSize, int* gridColSize, int* returnSize) {\n    \n}"

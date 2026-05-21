@@ -1,0 +1,41 @@
+char** getLongestSubsequence(char** words, int wordsSize, int* groups, int groupsSize, int* returnSize) {
+    int* dp = (int*)malloc(wordsSize * sizeof(int));
+    int* prev = (int*)malloc(wordsSize * sizeof(int));
+    int maxLen = 1, endIndex = 0;
+
+    for (int i = 0; i < wordsSize; i++) {
+        dp[i] = 1;
+        prev[i] = -1;
+    }
+    for (int i = 1; i < wordsSize; i++) {
+        int bestLen = 1;
+        int bestPrev = -1;
+        for (int j = i - 1; j >= 0; j--) {
+            if (groups[i] != groups[j] && dp[j] + 1 > bestLen) {
+                bestLen = dp[j] + 1;
+                bestPrev = j;
+            }
+        }
+        dp[i] = bestLen;
+        prev[i] = bestPrev;
+        if (dp[i] > maxLen) {
+            maxLen = dp[i];
+            endIndex = i;
+        }
+    }
+
+    char** res = (char**)malloc(maxLen * sizeof(char*));
+    int pos = 0;
+    for (int i = endIndex; i != -1; i = prev[i]) {
+        res[pos++] = words[i];
+    }
+    for (int i = 0; i < pos / 2; i++) {
+        char* temp = res[i];
+        res[i] = res[pos - 1 - i];
+        res[pos - 1 - i] = temp;
+    }
+    *returnSize = pos;
+    free(dp);
+    free(prev);
+    return res;
+}

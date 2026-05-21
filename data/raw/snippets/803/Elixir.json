@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec hit_bricks(grid :: [[integer]], hits :: [[integer]]) :: [integer]\n  def hit_bricks(grid, hits) do\n    \n  end\nend"

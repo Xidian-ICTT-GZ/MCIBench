@@ -1,0 +1,1 @@
+"class TopVotedCandidate(persons: IntArray, times: IntArray) {\n\n    fun q(t: Int): Int {\n        \n    }\n\n}\n\n/**\n * Your TopVotedCandidate object will be instantiated and called as such:\n * var obj = TopVotedCandidate(persons, times)\n * var param_1 = obj.q(t)\n */"

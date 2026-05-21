@@ -1,0 +1,1 @@
+"class NeighborSum {\n\n  NeighborSum(List<List<int>> grid) {\n    \n  }\n  \n  int adjacentSum(int value) {\n    \n  }\n  \n  int diagonalSum(int value) {\n    \n  }\n}\n\n/**\n * Your NeighborSum object will be instantiated and called as such:\n * NeighborSum obj = NeighborSum(grid);\n * int param1 = obj.adjacentSum(value);\n * int param2 = obj.diagonalSum(value);\n */"

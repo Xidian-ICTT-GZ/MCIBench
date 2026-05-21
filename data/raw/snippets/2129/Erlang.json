@@ -1,0 +1,1 @@
+"-spec capitalize_title(Title :: unicode:unicode_binary()) -> unicode:unicode_binary().\ncapitalize_title(Title) ->\n  ."

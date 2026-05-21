@@ -1,0 +1,1 @@
+"class Solution {\n  bool canFinish(int numCourses, List<List<int>> prerequisites) {\n    \n  }\n}"

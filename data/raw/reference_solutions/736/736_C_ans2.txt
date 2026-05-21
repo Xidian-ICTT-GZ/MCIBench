@@ -1,0 +1,194 @@
+#define MAX_VAR_LEN 64
+#define MAX_VAR_SIZE 1024
+
+typedef struct {
+    char key[MAX_VAR_LEN];
+    struct ListNode *lst;
+    UT_hash_handle hh;
+} HashItem;
+
+typedef struct VarNode {
+    char *var[MAX_VAR_SIZE];
+    int varSize;
+    struct VarNode *next;
+} VarNode;
+
+HashItem *scope = NULL;
+
+typedef enum ExprStatus {
+    VALUE = 0, 
+    NONE,      
+    LET,       
+    LET1,      
+    LET2,      
+    ADD,       
+    ADD1,      
+    ADD2,      
+    MULT,      
+    MULT1,     
+    MULT2,     
+    DONE       
+} ExprStatus;
+
+typedef struct Expr {
+    ExprStatus status;
+    char var[MAX_VAR_LEN]; 
+    int value; 
+    int e1, e2; 
+} Expr;
+
+Expr *creatExpr(ExprStatus s) {
+    Expr *e = (Expr *)malloc(sizeof(Expr));
+    e->status = s;
+    e->value = 0;
+    return e;
+}
+
+VarNode *creatVarNode() {
+    VarNode *node = (VarNode *)malloc(sizeof(VarNode));
+    node->varSize = 0;
+    node->next = NULL;
+    return node;
+}
+
+int calculateToken(const char *token) {
+    if (islower(token[0])) {
+        HashItem *pEntry = NULL;
+        HASH_FIND_STR(scope, token, pEntry);
+        return pEntry->lst->val;
+    } else {
+        return atoi(token);
+    }
+}
+
+void freeScope() {
+    HashItem *curr, *tmp;
+    HASH_ITER(hh, scope, curr, tmp) {
+      HASH_DEL(scope, curr);
+      for (struct ListNode *node = curr->lst; node; ) {
+          struct ListNode *pNode = node;
+          node = node->next;
+          free(pNode);
+      }
+      free(curr);
+    }
+}
+
+int evaluate(char * expression){
+    VarNode *vars = NULL;
+    int start = 0, n = strlen(expression);
+    Expr **st = (Expr **)malloc(sizeof(Expr *) * n);
+    int top = 0;
+    Expr *cur = creatExpr(VALUE);
+    HashItem *pEntry = NULL;
+    while (start < n) {
+        if (expression[start] == ' ') {
+            start++; 
+            continue;
+        }
+        if (expression[start] == '(') {
+            start++; 
+            st[top++] = cur;
+            cur = creatExpr(NONE);
+            continue;
+        }
+        char token[MAX_VAR_LEN];
+        int pos = 0;
+        if (expression[start] == ')') { 
+            start++; 
+            if (cur->status == LET2) {
+                pos = sprintf(token, "%d", cur->value);
+                for (int i = 0; i < vars->varSize; i++) {
+                    pEntry = NULL;
+                    HASH_FIND_STR(scope, vars->var[i], pEntry);
+                    if (pEntry) {
+                        struct ListNode *pNode = pEntry->lst; 
+                        if (pEntry->lst) {
+                            pEntry->lst = pEntry->lst->next;
+                            free(pNode);
+                        }
+                    }
+                    free(vars->var[i]);
+                }
+                VarNode *prev = vars;
+                vars = vars->next;    
+                free(prev);        
+            } else if (cur->status == ADD2) {
+                pos = sprintf(token, "%d", cur->e1 + cur->e2);
+            } else {
+                pos = sprintf(token, "%d", cur->e1 * cur->e2);
+            }
+            free(cur);
+            cur = st[top - 1]; 
+            top--;
+        } else {
+            while (start < n && expression[start] != ' ' && expression[start] != ')') {
+                token[pos++] = expression[start];
+                token[pos] = '\0';
+                start++;
+            }
+        }
+        switch (cur->status) {
+            case VALUE:
+                cur->value = atoi(token);
+                cur->status = DONE;
+                break;
+            case NONE:
+                if (!strcmp(token, "let")) {
+                    cur->status = LET;
+                    VarNode *pNode = creatVarNode();
+                    pNode->next = vars;
+                    vars = pNode; 
+                } else if (!strcmp(token, "add")) {
+                    cur->status = ADD;
+                } else if (!strcmp(token, "mult")) {
+                    cur->status = MULT;
+                }
+                break;
+            case LET:
+                if (expression[start] == ')') { 
+                    cur->value = calculateToken(token);
+                    cur->status = LET2;
+                } else {
+                    strcpy(cur->var, token);
+                    vars->var[vars->varSize] = (char *)malloc(sizeof(char) * (strlen(token) + 1));
+                    strcpy(vars->var[vars->varSize++], token); 
+                    cur->status = LET1;         
+                }
+                break;
+            case LET1:
+                pEntry = NULL;
+                HASH_FIND_STR(scope, cur->var, pEntry);
+                if (NULL == pEntry) {
+                    pEntry = (HashItem *)malloc(sizeof(HashItem));
+                    strcpy(pEntry->key, cur->var);
+                    pEntry->lst = NULL;
+                    HASH_ADD_STR(scope, key, pEntry);
+                }
+                struct ListNode *pNode = (struct ListNode *)malloc(sizeof(struct ListNode));
+                pNode->val = calculateToken(token);
+                pNode->next = pEntry->lst;
+                pEntry->lst = pNode; 
+                cur->status = LET;
+                break;
+            case ADD:
+                cur->e1 = calculateToken(token);
+                cur->status = ADD1;
+                break;
+            case ADD1:
+                cur->e2 = calculateToken(token);
+                cur->status = ADD2;
+                break;
+            case MULT:
+                cur->e1 = calculateToken(token);
+                cur->status = MULT1;
+                break;
+            case MULT1:
+                cur->e2 = calculateToken(token);
+                cur->status = MULT2;
+                break;
+        }
+    }
+    freeScope();
+    return cur->value;
+}

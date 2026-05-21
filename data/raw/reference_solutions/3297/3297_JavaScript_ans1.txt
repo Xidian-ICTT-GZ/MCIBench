@@ -1,0 +1,40 @@
+var validSubstringCount = function(word1, word2) {
+    const count = Array(26).fill(0);
+    for (let c of word2) {
+        count[c.charCodeAt(0) - 'a'.charCodeAt(0)]++;
+    }
+    const n = word1.length;
+    const preCount = Array.from({ length: n + 1 }, () => Array(26).fill(0));
+    for (let i = 1; i <= n; i++) {
+        for (let j = 0; j < 26; j++) {
+            preCount[i][j] = preCount[i - 1][j];
+        }
+        preCount[i][word1.charCodeAt(i - 1) - 'a'.charCodeAt(0)]++;
+    }
+    let res = 0;
+    for (let l = 1; l <= n; l++) {
+        const r = get(l, n + 1, preCount, count);
+        res += n - r + 1;
+    }
+    return res;
+};
+
+const get = (l, r, preCount, count) => {
+    let border = l;
+    while (l < r) {
+        const m = Math.floor((l + r) / 2);
+        let f = true;
+        for (let i = 0; i < 26; i++) {
+            if (preCount[m][i] - preCount[border - 1][i] < count[i]) {
+                f = false;
+                break;
+            }
+        }
+        if (f) {
+            r = m;
+        } else {
+            l = m + 1;
+        }
+    }
+    return l;
+}

@@ -1,0 +1,1 @@
+"class Solution:\n    def selfDividingNumbers(self, left: int, right: int) -> List[int]:\n        "

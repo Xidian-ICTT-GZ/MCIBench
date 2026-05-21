@@ -1,0 +1,19 @@
+bool winnerOfGame(char * colors){
+    int freq[2] = {0, 0};
+    char cur = 'C';
+    int cnt = 0;
+    int len = strlen(colors);
+    for (int i = 0; i < len; i++) {
+        char c = colors[i];
+        if (c != cur) {
+            cur = c;
+            cnt = 1;
+        } else {
+            cnt += 1;
+            if (cnt >= 3) {
+                freq[cur - 'A'] += 1;
+            }
+        }
+    }       
+    return freq[0] > freq[1];
+}

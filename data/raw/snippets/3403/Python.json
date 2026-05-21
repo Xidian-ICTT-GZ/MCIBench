@@ -1,0 +1,1 @@
+"class Solution(object):\n    def answerString(self, word, numFriends):\n        \"\"\"\n        :type word: str\n        :type numFriends: int\n        :rtype: str\n        \"\"\"\n        "

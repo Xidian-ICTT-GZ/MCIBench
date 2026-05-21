@@ -1,0 +1,1 @@
+"-spec sum_subseq_widths(Nums :: [integer()]) -> integer().\nsum_subseq_widths(Nums) ->\n  ."

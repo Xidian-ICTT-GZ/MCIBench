@@ -1,0 +1,1 @@
+"/**\n * @param {string} title\n * @return {string}\n */\nvar capitalizeTitle = function(title) {\n    \n};"

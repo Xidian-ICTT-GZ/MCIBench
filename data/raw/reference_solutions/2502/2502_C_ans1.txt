@@ -1,0 +1,46 @@
+typedef struct {
+    int n;
+    int *memory;
+} Allocator;
+
+Allocator* allocatorCreate(int n) {
+    Allocator *ret = (Allocator *)malloc(sizeof(Allocator));
+    ret->n = n;
+    ret->memory = (int *)malloc(n * sizeof(int));
+    memset(ret->memory, 0, n * sizeof(int));
+    return ret;
+}
+
+int allocatorAllocate(Allocator* obj, int size, int mID) {
+    int count = 0;
+    for (int i = 0; i < obj->n; ++i) {
+        if (obj->memory[i]) {
+            count = 0;
+        } else {
+            ++count;
+            if (count == size) {
+                for (int j = i - count + 1; j <= i; ++j) {
+                    obj->memory[j] = mID;
+                }
+                return i - count + 1;
+            }
+        }
+    }
+    return -1;
+}
+
+int allocatorFreeMemory(Allocator* obj, int mID) {
+    int count = 0;
+    for (int i = 0; i < obj->n; ++i) {
+        if (obj->memory[i] == mID) {
+            ++count;
+            obj->memory[i] = 0;
+        }
+    }
+    return count;
+}
+
+void allocatorFree(Allocator* obj) {
+    free(obj->memory);
+    free(obj);
+}

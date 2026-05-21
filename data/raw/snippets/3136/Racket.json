@@ -1,0 +1,1 @@
+"(define/contract (is-valid word)\n  (-> string? boolean?)\n  )"

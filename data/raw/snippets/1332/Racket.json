@@ -1,0 +1,1 @@
+"(define/contract (remove-palindrome-sub s)\n  (-> string? exact-integer?)\n  )"

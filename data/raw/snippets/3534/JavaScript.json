@@ -1,0 +1,1 @@
+"/**\n * @param {number} n\n * @param {number[]} nums\n * @param {number} maxDiff\n * @param {number[][]} queries\n * @return {number[]}\n */\nvar pathExistenceQueries = function(n, nums, maxDiff, queries) {\n    \n};"

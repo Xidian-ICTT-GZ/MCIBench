@@ -1,0 +1,1 @@
+"(define/contract (min-operations k)\n  (-> exact-integer? exact-integer?)\n  )"

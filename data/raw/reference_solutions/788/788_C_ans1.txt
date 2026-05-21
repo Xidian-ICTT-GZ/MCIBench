@@ -1,0 +1,22 @@
+const int check[10] = {0, 0, 1, -1, -1, 1, 1, -1, 0, 1};
+
+int rotatedDigits(int n){
+    int ans = 0;
+    for (int i = 1; i <= n; ++i) {
+        char num[8];
+        sprintf(num, "%d", i);
+        bool valid = true, diff = false;
+        for (int j = 0; num[j]; j++) {
+            if (check[num[j] - '0'] == -1) {
+                valid = false;
+            }
+            else if (check[num[j] - '0'] == 1) {
+                diff = true;
+            }
+        }
+        if (valid && diff) {
+            ++ans;
+        }
+    }
+    return ans;
+}

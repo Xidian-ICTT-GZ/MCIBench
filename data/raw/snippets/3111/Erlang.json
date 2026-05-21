@@ -1,0 +1,1 @@
+"-spec min_rectangles_to_cover_points(Points :: [[integer()]], W :: integer()) -> integer().\nmin_rectangles_to_cover_points(Points, W) ->\n  ."

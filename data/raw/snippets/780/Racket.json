@@ -1,0 +1,1 @@
+"(define/contract (reaching-points sx sy tx ty)\n  (-> exact-integer? exact-integer? exact-integer? exact-integer? boolean?)\n  )"

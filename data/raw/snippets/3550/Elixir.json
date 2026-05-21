@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec smallest_index(nums :: [integer]) :: integer\n  def smallest_index(nums) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"# @param {Integer[]} par\n# @param {Integer[]} vals\n# @param {Integer[][]} queries\n# @return {Integer[]}\ndef kth_smallest(par, vals, queries)\n    \nend"

@@ -1,0 +1,1 @@
+"class Solution {\n  int nearestExit(List<List<String>> maze, List<int> entrance) {\n    \n  }\n}"

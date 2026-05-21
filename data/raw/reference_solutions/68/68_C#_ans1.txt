@@ -1,0 +1,61 @@
+public class Solution {
+    public IList<string> FullJustify(string[] words, int maxWidth) {
+        IList<string> ans = new List<string>();
+        int right = 0, n = words.Length;
+        while (true) {
+            int left = right; 
+            int sumLen = 0; 
+            
+            while (right < n && sumLen + words[right].Length + right - left <= maxWidth) {
+                sumLen += words[right++].Length;
+            }
+
+            
+            if (right == n) {
+                StringBuilder sb = Join(words, left, n, " ");
+                sb.Append(Blank(maxWidth - sb.Length));
+                ans.Add(sb.ToString());
+                return ans;
+            }
+
+            int numWords = right - left;
+            int numSpaces = maxWidth - sumLen;
+
+            
+            if (numWords == 1) {
+                StringBuilder sb = new StringBuilder(words[left]);
+                sb.Append(Blank(numSpaces));
+                ans.Add(sb.ToString());
+                continue;
+            }
+
+            
+            int avgSpaces = numSpaces / (numWords - 1);
+            int extraSpaces = numSpaces % (numWords - 1);
+            StringBuilder curr = new StringBuilder();
+            curr.Append(Join(words, left, left + extraSpaces + 1, Blank(avgSpaces + 1))); 
+            curr.Append(Blank(avgSpaces));
+            curr.Append(Join(words, left + extraSpaces + 1, right, Blank(avgSpaces))); 
+            ans.Add(curr.ToString());
+        }
+    }
+
+    
+    public string Blank(int n) {
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < n; ++i) {
+            sb.Append(' ');
+        }
+        return sb.ToString();
+    }
+
+    
+    public StringBuilder Join(string[] words, int left, int right, string sep) {
+        StringBuilder sb = new StringBuilder(words[left]);
+        for (int i = left + 1; i < right; ++i) {
+            sb.Append(sep);
+            sb.Append(words[i]);
+        }
+        return sb;
+    }
+}

@@ -1,0 +1,13 @@
+var getTargetCopy = function(original, cloned, target) {
+    if (original == null) {
+        return null;
+    }
+    if (original == target) {
+        return cloned;
+    }
+    const left = getTargetCopy(original.left, cloned.left, target);
+    if (left != null) {
+        return left;
+    }
+    return getTargetCopy(original.right, cloned.right, target);
+};

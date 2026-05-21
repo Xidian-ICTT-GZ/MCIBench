@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    double largestTriangleArea(vector<vector<int>>& points) {\n        \n    }\n};"

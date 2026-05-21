@@ -1,0 +1,1 @@
+"class Solution:\n    def isZeroArray(self, nums: List[int], queries: List[List[int]]) -> bool:\n        "

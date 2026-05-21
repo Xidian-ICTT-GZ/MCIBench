@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $text\n     * @param String $pattern\n     * @return Integer\n     */\n    function maximumSubsequenceCount($text, $pattern) {\n        \n    }\n}"

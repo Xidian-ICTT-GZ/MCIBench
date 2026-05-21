@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @param {Integer[][]} buildings\n# @return {Integer}\ndef count_covered_buildings(n, buildings)\n    \nend"

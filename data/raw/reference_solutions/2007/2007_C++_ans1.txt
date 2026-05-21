@@ -1,0 +1,23 @@
+class Solution {
+public:
+    vector<int> findOriginalArray(vector<int>& changed) {
+        sort(changed.begin(), changed.end());
+        unordered_map<int, int> count;
+        for (int a : changed) {
+            count[a]++;
+        }
+        vector<int> res;
+        for (int a : changed) {
+            if (count[a] == 0) {
+                continue;
+            }
+            count[a]--;
+            if (count[a * 2] == 0) {
+                return {};
+            }
+            count[a * 2]--;
+            res.push_back(a);
+        }
+        return res;
+    }
+};

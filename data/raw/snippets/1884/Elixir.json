@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec two_egg_drop(n :: integer) :: integer\n  def two_egg_drop(n) do\n    \n  end\nend"

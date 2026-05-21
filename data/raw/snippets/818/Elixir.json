@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec racecar(target :: integer) :: integer\n  def racecar(target) do\n    \n  end\nend"

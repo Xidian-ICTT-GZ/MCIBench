@@ -1,0 +1,1 @@
+"class Solution {\n  List<List<int>> insert(List<List<int>> intervals, List<int> newInterval) {\n    \n  }\n}"

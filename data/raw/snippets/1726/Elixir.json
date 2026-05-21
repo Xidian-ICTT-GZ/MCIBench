@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec tuple_same_product(nums :: [integer]) :: integer\n  def tuple_same_product(nums) do\n    \n  end\nend"

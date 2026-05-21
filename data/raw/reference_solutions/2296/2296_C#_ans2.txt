@@ -1,0 +1,55 @@
+public class TextEditor {
+    private LinkedList<char> left;
+    private LinkedList<char> right;
+
+    public TextEditor() {
+        left = new LinkedList<char>();
+        right = new LinkedList<char>();
+    }
+
+    public void AddText(string text) {
+        foreach (char c in text) {
+            left.AddLast(c);
+        }
+    }
+
+    public int DeleteText(int k) {
+        int count = 0;
+        while (k > 0 && left.Count > 0) {
+            left.RemoveLast();
+            count++;
+            k--;
+        }
+        return count;
+    }
+
+    public string CursorLeft(int k) {
+        int move = Math.Min(k, left.Count);
+        for (int i = 0; i < move; i++) {
+            right.AddLast(left.Last.Value);
+            left.RemoveLast();
+        }
+        return GetLeftText();
+    }
+
+    public string CursorRight(int k) {
+        int move = Math.Min(k, right.Count);
+        for (int i = 0; i < move; i++) {
+            left.AddLast(right.Last.Value);
+            right.RemoveLast();
+        }
+        return GetLeftText();
+    }
+
+    private string GetLeftText() {
+        var text = new char[Math.Min(10, left.Count)];
+        var current = left.Last;
+        int index = text.Length - 1;
+        while (current != null && index >= 0)
+        {
+            text[index--] = current.Value;
+            current = current.Previous;
+        }
+        return new string(text);
+    }
+}

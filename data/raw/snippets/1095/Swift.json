@@ -1,0 +1,1 @@
+"/**\n * // This is MountainArray's API interface.\n * // You should not implement it, or speculate about its implementation\n * interface MountainArray {\n *     public func get(_ index: Int) -> Int {}\n *     public func length() -> Int {}\n * }\n */\n\nclass Solution {\n    func findInMountainArray(_ target: Int, _ mountainArr: MountainArray) -> Int {\n        \n    }\n}"

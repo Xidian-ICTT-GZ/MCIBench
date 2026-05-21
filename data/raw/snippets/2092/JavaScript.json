@@ -1,0 +1,1 @@
+"/**\n * @param {number} n\n * @param {number[][]} meetings\n * @param {number} firstPerson\n * @return {number[]}\n */\nvar findAllPeople = function(n, meetings, firstPerson) {\n    \n};"

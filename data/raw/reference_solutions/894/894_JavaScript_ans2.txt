@@ -1,0 +1,19 @@
+var allPossibleFBT = function(n) {
+    if (n % 2 === 0) {
+        return [];
+    }
+    
+    const dp = Array(n + 1).fill().map(() => []);
+    dp[1] = [new TreeNode(0)];
+    for (let i = 3; i <= n; i += 2) {
+        for (let j = 1; j < i; j += 2) {
+            for (let leftSubtree of dp[j]) {
+                for (let rightSubtree of dp[i - 1 - j]) {
+                    const root = new TreeNode(0, leftSubtree, rightSubtree);
+                    dp[i].push(root);
+                }
+            }
+        }
+    }
+    return dp[n];
+};

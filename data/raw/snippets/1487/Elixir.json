@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec get_folder_names(names :: [String.t]) :: [String.t]\n  def get_folder_names(names) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"class Solution {\n\n    public Solution(double radius, double x_center, double y_center) {\n        \n    }\n    \n    public double[] randPoint() {\n        \n    }\n}\n\n/**\n * Your Solution object will be instantiated and called as such:\n * Solution obj = new Solution(radius, x_center, y_center);\n * double[] param_1 = obj.randPoint();\n */"

@@ -1,0 +1,1 @@
+"/**\n * @param {string} s\n * @param {number} power\n * @param {number} modulo\n * @param {number} k\n * @param {number} hashValue\n * @return {string}\n */\nvar subStrHash = function(s, power, modulo, k, hashValue) {\n    \n};"

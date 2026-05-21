@@ -1,0 +1,16 @@
+int edgeScore(int* edges, int edgesSize) {
+    long long *points = (int *)calloc(edgesSize, sizeof(long long));
+    for (int i = 0; i < edgesSize; i++) {
+        points[edges[i]] += i;
+    }
+    long long maxPoints = -1;
+    int res = -1;
+    for (int i = 0; i < edgesSize; i++) {
+        if (points[i] > maxPoints) {
+            maxPoints = points[i];
+            res = i;
+        }
+    }
+    free(points);
+    return res;
+}

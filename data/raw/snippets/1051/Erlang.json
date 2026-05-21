@@ -1,0 +1,1 @@
+"-spec height_checker(Heights :: [integer()]) -> integer().\nheight_checker(Heights) ->\n  ."

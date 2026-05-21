@@ -1,0 +1,1 @@
+"(define/contract (min-edge-reversals n edges)\n  (-> exact-integer? (listof (listof exact-integer?)) (listof exact-integer?))\n  )"

@@ -1,0 +1,1 @@
+"object Solution {\n    def maxHeight(cuboids: Array[Array[Int]]): Int = {\n        \n    }\n}"

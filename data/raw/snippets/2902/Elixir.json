@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec count_sub_multisets(nums :: [integer], l :: integer, r :: integer) :: integer\n  def count_sub_multisets(nums, l, r) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec are_occurrences_equal(s :: String.t) :: boolean\n  def are_occurrences_equal(s) do\n    \n  end\nend"

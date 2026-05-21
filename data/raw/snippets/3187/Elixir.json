@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec count_of_peaks(nums :: [integer], queries :: [[integer]]) :: [integer]\n  def count_of_peaks(nums, queries) do\n    \n  end\nend"

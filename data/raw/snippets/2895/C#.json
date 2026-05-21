@@ -1,0 +1,1 @@
+"public class Solution {\n    public int MinProcessingTime(IList<int> processorTime, IList<int> tasks) {\n        \n    }\n}"

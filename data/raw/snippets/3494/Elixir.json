@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec min_time(skill :: [integer], mana :: [integer]) :: integer\n  def min_time(skill, mana) do\n    \n  end\nend"

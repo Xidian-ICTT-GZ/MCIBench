@@ -1,0 +1,1 @@
+"class Solution {\n    fun isReachableAtTime(sx: Int, sy: Int, fx: Int, fy: Int, t: Int): Boolean {\n        \n    }\n}"

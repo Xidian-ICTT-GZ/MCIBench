@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<string> wordSubsets(vector<string>& words1, vector<string>& words2) {\n        \n    }\n};"

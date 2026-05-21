@@ -1,0 +1,1 @@
+"class Solution(object):\n    def countDaysTogether(self, arriveAlice, leaveAlice, arriveBob, leaveBob):\n        \"\"\"\n        :type arriveAlice: str\n        :type leaveAlice: str\n        :type arriveBob: str\n        :type leaveBob: str\n        :rtype: int\n        \"\"\"\n        "

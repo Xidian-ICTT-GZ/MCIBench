@@ -1,0 +1,1 @@
+"class Solution(object):\n    def commonChars(self, words):\n        \"\"\"\n        :type words: List[str]\n        :rtype: List[str]\n        \"\"\"\n        "

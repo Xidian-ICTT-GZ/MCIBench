@@ -1,0 +1,1 @@
+"type Solution struct {\n    \n}\n\n\nfunc Constructor(w []int) Solution {\n    \n}\n\n\nfunc (this *Solution) PickIndex() int {\n    \n}\n\n\n/**\n * Your Solution object will be instantiated and called as such:\n * obj := Constructor(w);\n * param_1 := obj.PickIndex();\n */"

@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $n\n     * @param Integer[][] $logs\n     * @return Integer\n     */\n    function hardestWorker($n, $logs) {\n        \n    }\n}"

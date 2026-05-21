@@ -1,0 +1,1 @@
+"# @param {Integer[]} start_pos\n# @param {Integer[]} home_pos\n# @param {Integer[]} row_costs\n# @param {Integer[]} col_costs\n# @return {Integer}\ndef min_cost(start_pos, home_pos, row_costs, col_costs)\n    \nend"

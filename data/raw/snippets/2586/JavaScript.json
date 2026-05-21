@@ -1,0 +1,1 @@
+"/**\n * @param {string[]} words\n * @param {number} left\n * @param {number} right\n * @return {number}\n */\nvar vowelStrings = function(words, left, right) {\n    \n};"

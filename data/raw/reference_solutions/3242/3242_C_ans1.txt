@@ -1,0 +1,57 @@
+int dirs[2][4][2] = {
+    {{-1, 0}, {1, 0}, {0, -1}, {0, 1}},
+    {{-1, -1}, {-1, 1}, {1, -1}, {1, 1}}
+};
+
+typedef struct {
+    int **grid;
+    int rows;
+    int cols;
+    int **positions;    
+} NeighborSum;
+
+NeighborSum* neighborSumCreate(int** grid, int gridSize, int* gridColSize) {
+    NeighborSum* obj = (NeighborSum*)malloc(sizeof(NeighborSum));
+    obj->grid = grid;
+    obj->rows = gridSize;
+    obj->cols = gridColSize[0];
+    obj->positions = (int**)malloc(obj->rows * obj->cols * sizeof(int*));
+    for (int i = 0; i < obj->rows; i++) {
+        for (int j = 0; j < obj->cols; j++) {
+            obj->positions[grid[i][j]] = (int *)malloc(sizeof(int) * 2);
+            obj->positions[grid[i][j]][0] = i;
+            obj->positions[grid[i][j]][1] = j;
+        }
+    }
+    return obj;
+}
+
+int NeighborSumGetSum(NeighborSum* obj, int value, int idx) {
+    int *p = obj->positions[value];
+    int x = p[0], y = p[1];
+    int sum = 0;
+    for (int i = 0; i < 4; i++) {
+        int nx = x + dirs[idx][i][0];
+        int ny = y + dirs[idx][i][1];
+        if (nx >= 0 && nx < obj->rows && ny >= 0 && ny < obj->cols) {
+            sum += obj->grid[nx][ny];
+        }
+    }
+    return sum;
+}
+
+int neighborSumAdjacentSum(NeighborSum* obj, int value) {
+    return NeighborSumGetSum(obj, value, 0);
+}
+
+int neighborSumDiagonalSum(NeighborSum* obj, int value) {
+    return NeighborSumGetSum(obj, value, 1);
+}
+
+void neighborSumFree(NeighborSum* obj) {
+    for (int i = 0; i < obj->rows * obj->cols; i++) {
+        free(obj->positions[i]);
+    }
+    free(obj->positions);
+    free(obj);
+}

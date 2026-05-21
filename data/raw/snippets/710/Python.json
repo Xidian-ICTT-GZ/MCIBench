@@ -1,0 +1,1 @@
+"class Solution(object):\n\n    def __init__(self, n, blacklist):\n        \"\"\"\n        :type n: int\n        :type blacklist: List[int]\n        \"\"\"\n        \n\n    def pick(self):\n        \"\"\"\n        :rtype: int\n        \"\"\"\n        \n\n\n# Your Solution object will be instantiated and called as such:\n# obj = Solution(n, blacklist)\n# param_1 = obj.pick()"

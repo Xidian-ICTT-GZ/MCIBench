@@ -1,0 +1,1 @@
+"/**\n * @param {number[][]} adjacentPairs\n * @return {number[]}\n */\nvar restoreArray = function(adjacentPairs) {\n    \n};"

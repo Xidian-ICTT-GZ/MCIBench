@@ -1,0 +1,32 @@
+func maxDiff(num int) int {
+    
+	change := func(x, y int) string {
+		numStr := strconv.Itoa(num)
+		var res strings.Builder
+		for _, digit := range numStr {
+			if int(digit-'0') == x {
+				res.WriteByte(byte('0' + y))
+			} else {
+				res.WriteRune(digit)
+			}
+		}
+		return res.String()
+	}
+
+	minNum := num
+	maxNum := num
+	
+	for x := 0; x < 10; x++ {
+		for y := 0; y < 10; y++ {
+			res := change(x, y)
+			
+			if res[0] != '0' {
+				res_i, _ := strconv.Atoi(res)
+                minNum = min(minNum, res_i)
+                maxNum = max(maxNum, res_i)
+			}
+		}
+	}
+
+	return maxNum - minNum
+}

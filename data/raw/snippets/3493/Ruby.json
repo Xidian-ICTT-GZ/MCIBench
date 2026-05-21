@@ -1,0 +1,1 @@
+"# @param {Integer[][]} properties\n# @param {Integer} k\n# @return {Integer}\ndef number_of_components(properties, k)\n    \nend"

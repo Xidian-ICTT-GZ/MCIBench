@@ -1,0 +1,1 @@
+"class Solution:\n    def longestRepeating(self, s: str, queryCharacters: str, queryIndices: List[int]) -> List[int]:\n        "

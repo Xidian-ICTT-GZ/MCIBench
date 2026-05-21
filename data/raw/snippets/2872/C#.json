@@ -1,0 +1,1 @@
+"public class Solution {\n    public int MaxKDivisibleComponents(int n, int[][] edges, int[] values, int k) {\n        \n    }\n}"

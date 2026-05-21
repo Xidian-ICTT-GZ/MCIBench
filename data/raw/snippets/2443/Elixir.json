@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec sum_of_number_and_reverse(num :: integer) :: boolean\n  def sum_of_number_and_reverse(num) do\n    \n  end\nend"

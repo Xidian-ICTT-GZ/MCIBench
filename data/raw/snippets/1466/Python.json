@@ -1,0 +1,1 @@
+"class Solution(object):\n    def minReorder(self, n, connections):\n        \"\"\"\n        :type n: int\n        :type connections: List[List[int]]\n        :rtype: int\n        \"\"\"\n        "

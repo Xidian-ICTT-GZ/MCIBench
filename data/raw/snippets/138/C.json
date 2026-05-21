@@ -1,0 +1,1 @@
+"/**\n * Definition for a Node.\n * struct Node {\n *     int val;\n *     struct Node *next;\n *     struct Node *random;\n * };\n */\n\nstruct Node* copyRandomList(struct Node* head) {\n\t\n}"

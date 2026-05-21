@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @param {Integer} pivot\n# @return {Integer[]}\ndef pivot_array(nums, pivot)\n    \nend"

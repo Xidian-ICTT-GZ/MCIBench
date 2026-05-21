@@ -1,0 +1,1 @@
+"-spec min_area_rect(Points :: [[integer()]]) -> integer().\nmin_area_rect(Points) ->\n  ."

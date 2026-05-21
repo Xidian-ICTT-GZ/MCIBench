@@ -1,0 +1,1 @@
+"class Solution {\n\n  Solution(List<List<int>> rects) {\n    \n  }\n  \n  List<int> pick() {\n    \n  }\n}\n\n/**\n * Your Solution object will be instantiated and called as such:\n * Solution obj = Solution(rects);\n * List<int> param1 = obj.pick();\n */"

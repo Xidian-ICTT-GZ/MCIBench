@@ -1,0 +1,25 @@
+var maximumValueSum = function (nums, k, edges) {
+    const n = nums.length;
+    const g = Array.from({ length: n }, () => []);
+
+    for (const [u, v] of edges) {
+        g[u].push(v);
+        g[v].push(u);
+    }
+
+    const dfs = (u, fa) => {
+        let f0 = 0, f1 = -Infinity;
+        for (const v of g[u]) {
+            if (v !== fa) {
+                const [r0, r1] = dfs(v, u);
+                let t = Math.max(f1 + r0, f0 + r1);
+                f0 = Math.max(f0 + r0, f1 + r1);
+                f1 = t;
+            }
+        }
+        const x = nums[u], y = nums[u] ^ k;
+        return [Math.max(f0 + x, f1 + y), Math.max(f1 + x, f0 + y)];
+    };
+
+    return dfs(0, -1)[0];
+};

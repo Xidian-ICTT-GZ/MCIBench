@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $days\n     * @param Integer[][] $meetings\n     * @return Integer\n     */\n    function countDays($days, $meetings) {\n        \n    }\n}"

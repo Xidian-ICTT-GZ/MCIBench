@@ -1,0 +1,1 @@
+"/**\n * @param {number} n\n * @param {number} threshold\n * @param {number[][]} queries\n * @return {boolean[]}\n */\nvar areConnected = function(n, threshold, queries) {\n    \n};"

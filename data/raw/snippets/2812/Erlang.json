@@ -1,0 +1,1 @@
+"-spec maximum_safeness_factor(Grid :: [[integer()]]) -> integer().\nmaximum_safeness_factor(Grid) ->\n  ."

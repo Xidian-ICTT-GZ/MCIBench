@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec minimum_partition(s :: String.t, k :: integer) :: integer\n  def minimum_partition(s, k) do\n    \n  end\nend"

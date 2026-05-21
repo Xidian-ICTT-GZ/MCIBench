@@ -1,0 +1,1 @@
+"/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* deckRevealedIncreasing(int* deck, int deckSize, int* returnSize) {\n    \n}"

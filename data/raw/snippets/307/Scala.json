@@ -1,0 +1,1 @@
+"class NumArray(_nums: Array[Int]) {\n\n    def update(index: Int, `val`: Int): Unit = {\n        \n    }\n\n    def sumRange(left: Int, right: Int): Int = {\n        \n    }\n\n}\n\n/**\n * Your NumArray object will be instantiated and called as such:\n * val obj = new NumArray(nums)\n * obj.update(index,`val`)\n * val param_2 = obj.sumRange(left,right)\n */"

@@ -1,0 +1,1 @@
+"-spec find_disappeared_numbers(Nums :: [integer()]) -> [integer()].\nfind_disappeared_numbers(Nums) ->\n  ."

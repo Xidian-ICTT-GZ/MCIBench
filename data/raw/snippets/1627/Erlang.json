@@ -1,0 +1,1 @@
+"-spec are_connected(N :: integer(), Threshold :: integer(), Queries :: [[integer()]]) -> [boolean()].\nare_connected(N, Threshold, Queries) ->\n  ."

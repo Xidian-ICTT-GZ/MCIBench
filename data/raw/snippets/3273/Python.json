@@ -1,0 +1,1 @@
+"class Solution(object):\n    def minDamage(self, power, damage, health):\n        \"\"\"\n        :type power: int\n        :type damage: List[int]\n        :type health: List[int]\n        :rtype: int\n        \"\"\"\n        "

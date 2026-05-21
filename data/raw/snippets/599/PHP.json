@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String[] $list1\n     * @param String[] $list2\n     * @return String[]\n     */\n    function findRestaurant($list1, $list2) {\n        \n    }\n}"

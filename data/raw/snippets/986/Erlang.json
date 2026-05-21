@@ -1,0 +1,1 @@
+"-spec interval_intersection(FirstList :: [[integer()]], SecondList :: [[integer()]]) -> [[integer()]].\ninterval_intersection(FirstList, SecondList) ->\n  ."

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec is_acronym(words :: [String.t], s :: String.t) :: boolean\n  def is_acronym(words, s) do\n    \n  end\nend"

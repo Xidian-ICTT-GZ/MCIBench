@@ -1,0 +1,1 @@
+"-spec max_power(S :: unicode:unicode_binary()) -> integer().\nmax_power(S) ->\n  ."

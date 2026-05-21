@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int networkBecomesIdle(vector<vector<int>>& edges, vector<int>& patience) {\n        \n    }\n};"

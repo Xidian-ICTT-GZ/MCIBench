@@ -1,0 +1,1 @@
+"(define/contract (possible-bipartition n dislikes)\n  (-> exact-integer? (listof (listof exact-integer?)) boolean?)\n  )"

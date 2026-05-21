@@ -1,0 +1,1 @@
+"/**\n * @param {number} n\n * @param {number} x\n * @param {number} y\n * @return {number}\n */\nvar numberOfWays = function(n, x, y) {\n    \n};"

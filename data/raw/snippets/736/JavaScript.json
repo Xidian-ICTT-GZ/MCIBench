@@ -1,0 +1,1 @@
+"/**\n * @param {string} expression\n * @return {number}\n */\nvar evaluate = function(expression) {\n    \n};"

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec valid_subarray_size(nums :: [integer], threshold :: integer) :: integer\n  def valid_subarray_size(nums, threshold) do\n    \n  end\nend"

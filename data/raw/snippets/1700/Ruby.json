@@ -1,0 +1,1 @@
+"# @param {Integer[]} students\n# @param {Integer[]} sandwiches\n# @return {Integer}\ndef count_students(students, sandwiches)\n    \nend"

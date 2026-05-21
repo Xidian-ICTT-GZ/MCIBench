@@ -1,0 +1,20 @@
+class Solution:
+    def smallestNumber(self, num: int) -> int:
+        if num == 0:
+            return 0
+        
+        negative = (num) < 0
+        num = abs(num)
+        digits = sorted(int(digit) for digit in str(num))
+        
+        if negative:
+            digits = digits[::-1]
+        else:
+            if digits[0] == 0:
+                i = 1
+                while digits[i] == 0:
+                    i += 1
+                digits[0], digits[i] = digits[i], digits[0]
+
+        ans = int("".join(str(digit) for digit in digits))
+        return -ans if negative else ans

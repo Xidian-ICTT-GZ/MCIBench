@@ -1,0 +1,1 @@
+"class Solution {\n    fun minMalwareSpread(graph: Array<IntArray>, initial: IntArray): Int {\n        \n    }\n}"

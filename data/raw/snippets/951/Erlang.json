@@ -1,0 +1,1 @@
+"%% Definition for a binary tree node.\n%%\n%% -record(tree_node, {val = 0 :: integer(),\n%%                     left = null  :: 'null' | #tree_node{},\n%%                     right = null :: 'null' | #tree_node{}}).\n\n-spec flip_equiv(Root1 :: #tree_node{} | null, Root2 :: #tree_node{} | null) -> boolean().\nflip_equiv(Root1, Root2) ->\n  ."

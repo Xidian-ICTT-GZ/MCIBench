@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec repeated_substring_pattern(s :: String.t) :: boolean\n  def repeated_substring_pattern(s) do\n    \n  end\nend"

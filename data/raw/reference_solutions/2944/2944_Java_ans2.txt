@@ -1,0 +1,18 @@
+class Solution {
+    public int minimumCoins(int[] prices) {
+        int n = prices.length;
+        Deque<int[]> queue = new ArrayDeque<int[]>();
+        queue.offerFirst(new int[]{n, 0});
+        for (int i = n - 1; i >= 0; i--) {
+            while (queue.peekLast()[0] >= 2 * i + 3) {
+                queue.pollLast();
+            }
+            int cur = queue.peekLast()[1] + prices[i];
+            while (queue.peekFirst()[1] >= cur) {
+                queue.pollFirst();
+            }
+            queue.offerFirst(new int[]{i, cur});
+        }
+        return queue.peekFirst()[1];
+    }
+}

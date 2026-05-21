@@ -1,0 +1,1 @@
+"(define/contract (count-k-subsequences-with-max-beauty s k)\n  (-> string? exact-integer? exact-integer?)\n  )"

@@ -1,0 +1,1 @@
+"object Solution {\n    def checkPalindromeFormation(a: String, b: String): Boolean = {\n        \n    }\n}"

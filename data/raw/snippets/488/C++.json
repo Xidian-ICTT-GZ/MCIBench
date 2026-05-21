@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int findMinStep(string board, string hand) {\n        \n    }\n};"

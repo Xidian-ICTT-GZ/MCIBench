@@ -1,0 +1,1 @@
+"# @param {Integer[]} rolls\n# @param {Integer} k\n# @return {Integer}\ndef shortest_sequence(rolls, k)\n    \nend"

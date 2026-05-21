@@ -1,0 +1,1 @@
+"class Solution(object):\n    def countMatchingSubarrays(self, nums, pattern):\n        \"\"\"\n        :type nums: List[int]\n        :type pattern: List[int]\n        :rtype: int\n        \"\"\"\n        "

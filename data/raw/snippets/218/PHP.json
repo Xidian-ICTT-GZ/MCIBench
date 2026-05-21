@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $buildings\n     * @return Integer[][]\n     */\n    function getSkyline($buildings) {\n        \n    }\n}"

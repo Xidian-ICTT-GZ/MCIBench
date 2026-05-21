@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec get_last_moment(n :: integer, left :: [integer], right :: [integer]) :: integer\n  def get_last_moment(n, left, right) do\n    \n  end\nend"

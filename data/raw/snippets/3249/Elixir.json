@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec count_good_nodes(edges :: [[integer]]) :: integer\n  def count_good_nodes(edges) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"# @param {String} s\n# @param {String[]} word_dict\n# @return {Boolean}\ndef word_break(s, word_dict)\n    \nend"

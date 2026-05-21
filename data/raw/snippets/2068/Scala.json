@@ -1,0 +1,1 @@
+"object Solution {\n    def checkAlmostEquivalent(word1: String, word2: String): Boolean = {\n        \n    }\n}"

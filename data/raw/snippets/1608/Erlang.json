@@ -1,0 +1,1 @@
+"-spec special_array(Nums :: [integer()]) -> integer().\nspecial_array(Nums) ->\n  ."

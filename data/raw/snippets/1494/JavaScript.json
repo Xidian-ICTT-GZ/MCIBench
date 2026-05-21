@@ -1,0 +1,1 @@
+"/**\n * @param {number} n\n * @param {number[][]} relations\n * @param {number} k\n * @return {number}\n */\nvar minNumberOfSemesters = function(n, relations, k) {\n    \n};"

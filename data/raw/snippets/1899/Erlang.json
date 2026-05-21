@@ -1,0 +1,1 @@
+"-spec merge_triplets(Triplets :: [[integer()]], Target :: [integer()]) -> boolean().\nmerge_triplets(Triplets, Target) ->\n  ."

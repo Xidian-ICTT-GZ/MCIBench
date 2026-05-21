@@ -1,0 +1,1 @@
+"class Solution(object):\n    def generateTheString(self, n):\n        \"\"\"\n        :type n: int\n        :rtype: str\n        \"\"\"\n        "

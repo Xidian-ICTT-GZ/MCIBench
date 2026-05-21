@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int maximizeSquareArea(int m, int n, vector<int>& hFences, vector<int>& vFences) {\n        \n    }\n};"

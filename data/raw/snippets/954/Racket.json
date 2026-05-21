@@ -1,0 +1,1 @@
+"(define/contract (can-reorder-doubled arr)\n  (-> (listof exact-integer?) boolean?)\n  )"

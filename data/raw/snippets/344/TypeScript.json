@@ -1,0 +1,1 @@
+"/**\n Do not return anything, modify s in-place instead.\n */\nfunction reverseString(s: string[]): void {\n    \n};"

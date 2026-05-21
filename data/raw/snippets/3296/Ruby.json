@@ -1,0 +1,1 @@
+"# @param {Integer} mountain_height\n# @param {Integer[]} worker_times\n# @return {Integer}\ndef min_number_of_seconds(mountain_height, worker_times)\n    \nend"

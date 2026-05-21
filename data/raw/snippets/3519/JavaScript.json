@@ -1,0 +1,1 @@
+"/**\n * @param {string} l\n * @param {string} r\n * @param {number} b\n * @return {number}\n */\nvar countNumbers = function(l, r, b) {\n    \n};"

@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $start\n     * @param String $target\n     * @return Boolean\n     */\n    function canChange($start, $target) {\n        \n    }\n}"

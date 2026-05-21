@@ -1,0 +1,1 @@
+"public class Solution {\n    public IList<string> TwoEditWords(string[] queries, string[] dictionary) {\n        \n    }\n}"

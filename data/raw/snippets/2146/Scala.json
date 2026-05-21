@@ -1,0 +1,1 @@
+"object Solution {\n    def highestRankedKItems(grid: Array[Array[Int]], pricing: Array[Int], start: Array[Int], k: Int): List[List[Int]] = {\n        \n    }\n}"

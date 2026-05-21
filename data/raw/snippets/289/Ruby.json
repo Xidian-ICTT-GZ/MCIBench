@@ -1,0 +1,1 @@
+"# @param {Integer[][]} board\n# @return {Void} Do not return anything, modify board in-place instead.\ndef game_of_life(board)\n    \nend"

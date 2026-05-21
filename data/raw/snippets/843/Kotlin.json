@@ -1,0 +1,1 @@
+"/**\n * // This is the Master's API interface.\n * // You should not implement it, or speculate about its implementation\n * interface Master {\n *     fun guess(word: String): Int {}\n * }\n */\nclass Solution {\n    fun findSecretWord(words: Array<String>, master: Master) {\n        \n    }\n}"

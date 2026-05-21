@@ -1,0 +1,1 @@
+"type Solution struct {\n    \n}\n\n\nfunc Constructor(radius float64, x_center float64, y_center float64) Solution {\n    \n}\n\n\nfunc (this *Solution) RandPoint() []float64 {\n    \n}\n\n\n/**\n * Your Solution object will be instantiated and called as such:\n * obj := Constructor(radius, x_center, y_center);\n * param_1 := obj.RandPoint();\n */"

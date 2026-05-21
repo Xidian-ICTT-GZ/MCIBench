@@ -1,0 +1,1 @@
+"impl Solution {\n    pub fn kth_distinct(arr: Vec<String>, k: i32) -> String {\n        \n    }\n}"

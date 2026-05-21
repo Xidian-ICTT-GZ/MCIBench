@@ -1,0 +1,1 @@
+"-spec minimum_sum(Num :: integer()) -> integer().\nminimum_sum(Num) ->\n  ."

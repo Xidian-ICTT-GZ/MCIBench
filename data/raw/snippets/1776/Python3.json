@@ -1,0 +1,1 @@
+"class Solution:\n    def getCollisionTimes(self, cars: List[List[int]]) -> List[float]:\n        "

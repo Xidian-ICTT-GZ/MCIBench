@@ -1,0 +1,1 @@
+"# @param {Integer[][]} nums\n# @return {Integer}\ndef diagonal_prime(nums)\n    \nend"

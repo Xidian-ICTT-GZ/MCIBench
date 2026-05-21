@@ -1,0 +1,55 @@
+int numberOfSets(int n, int maxDistance, int** roads, int roadsSize, int* roadsColSize) {
+    int res = 0, opened[n], d[n][n];
+
+    for (int mask = 0; mask < (1 << n); mask++) {
+        for (int i = 0; i < n; i++) {
+            opened[i] = mask & (1 << i);
+        }
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                d[i][j] = 1000000;
+            }
+        }
+        for (int k = 0; k < roadsSize; k++) {
+            int i = roads[k][0], j = roads[k][1], r = roads[k][2];
+            if (opened[i] && opened[j]) {
+                d[i][j] = d[j][i] = (d[i][j] < r) ? d[i][j] : r;
+            }
+        }
+
+        
+        for (int k = 0; k < n; k++) {
+            if (opened[k]) {
+                for (int i = 0; i < n; i++) {
+                    if (opened[i]) {
+                        for (int j = 0; j < n; j++) {
+                            if (opened[j]) {
+                                if (d[i][k] + d[k][j] < d[i][j]) {
+                                    d[i][j] = d[i][k] + d[k][j];
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        
+        int good = 1;
+        for (int i = 0; i < n; i++) {
+            if (opened[i]) {
+                for (int j = i + 1; j < n; j++) {
+                    if (opened[j] && d[i][j] > maxDistance) {
+                        good = 0;
+                        break;
+                    }
+                }
+                if (!good) {
+                    break;
+                }
+            }
+        }
+        res += good;
+    }
+    return res;
+}

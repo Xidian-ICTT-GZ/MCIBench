@@ -1,0 +1,1 @@
+"object Solution {\n    def removeElement(nums: Array[Int], `val`: Int): Int = {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"class CombinationIterator:\n\n    def __init__(self, characters: str, combinationLength: int):\n        \n\n    def next(self) -> str:\n        \n\n    def hasNext(self) -> bool:\n        \n\n\n# Your CombinationIterator object will be instantiated and called as such:\n# obj = CombinationIterator(characters, combinationLength)\n# param_1 = obj.next()\n# param_2 = obj.hasNext()"

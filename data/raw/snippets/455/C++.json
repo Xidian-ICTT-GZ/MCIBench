@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int findContentChildren(vector<int>& g, vector<int>& s) {\n        \n    }\n};"

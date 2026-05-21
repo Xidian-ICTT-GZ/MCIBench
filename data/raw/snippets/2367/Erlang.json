@@ -1,0 +1,1 @@
+"-spec arithmetic_triplets(Nums :: [integer()], Diff :: integer()) -> integer().\narithmetic_triplets(Nums, Diff) ->\n  ."

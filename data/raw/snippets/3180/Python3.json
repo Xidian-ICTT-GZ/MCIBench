@@ -1,0 +1,1 @@
+"class Solution:\n    def maxTotalReward(self, rewardValues: List[int]) -> int:\n        "

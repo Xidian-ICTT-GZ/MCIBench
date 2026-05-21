@@ -1,0 +1,1 @@
+"-spec letter_case_permutation(S :: unicode:unicode_binary()) -> [unicode:unicode_binary()].\nletter_case_permutation(S) ->\n  ."

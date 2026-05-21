@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @param {Integer} k\n# @param {Integer} p\n# @return {Integer}\ndef count_distinct(nums, k, p)\n    \nend"

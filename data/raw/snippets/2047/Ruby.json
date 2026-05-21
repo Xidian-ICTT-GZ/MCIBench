@@ -1,0 +1,1 @@
+"# @param {String} sentence\n# @return {Integer}\ndef count_valid_words(sentence)\n    \nend"

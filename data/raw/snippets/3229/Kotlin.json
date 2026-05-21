@@ -1,0 +1,1 @@
+"class Solution {\n    fun minimumOperations(nums: IntArray, target: IntArray): Long {\n        \n    }\n}"

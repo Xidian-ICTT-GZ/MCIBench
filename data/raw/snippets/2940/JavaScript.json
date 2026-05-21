@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} heights\n * @param {number[][]} queries\n * @return {number[]}\n */\nvar leftmostBuildingQueries = function(heights, queries) {\n    \n};"

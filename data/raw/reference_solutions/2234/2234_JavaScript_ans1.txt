@@ -1,0 +1,31 @@
+var maximumBeauty = function(flowers, newFlowers, target, full, partial) {
+    const n = flowers.length;
+    flowers = flowers.map(flower => Math.min(flower, target));
+    flowers.sort((a, b) => b - a);
+    let sum = flowers.reduce((acc, flower) => acc + flower, 0);
+    let ans = 0;
+    if (target * n - sum <= newFlowers) {
+        ans = full * n;
+    }
+    let pre = 0, ptr = 0;
+    for (let i = 0; i < n; i++) {
+        if (i !== 0) {
+            pre += flowers[i - 1];
+        }
+        if (flowers[i] === target) {
+            continue;
+        }
+        let rest = newFlowers - (target * i - pre);
+        if (rest < 0) {
+            break;
+        }
+        while (!(ptr >= i && flowers[ptr] * (n - ptr) - sum <= rest)) {
+            sum -= flowers[ptr];
+            ptr++;
+        }
+        rest -= flowers[ptr] * (n - ptr) - sum;
+        ans = Math.max(ans, full * i + partial * Math.min(flowers[ptr] + Math.floor(rest / (n - ptr)), target - 1));
+    }
+
+    return ans;
+};

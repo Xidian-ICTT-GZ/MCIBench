@@ -1,0 +1,23 @@
+public class Solution {
+    ISet<string> powerOf2Digits = new HashSet<string>();
+
+    public bool ReorderedPowerOf2(int n) {
+        Init();
+        return powerOf2Digits.Contains(CountDigits(n));
+    }
+
+    public void Init() {
+        for (int n = 1; n <= 1e9; n <<= 1) {
+            powerOf2Digits.Add(CountDigits(n));
+        }
+    }
+
+    public string CountDigits(int n) {
+        char[] cnt = new char[10];
+        while (n > 0) {
+            ++cnt[n % 10];
+            n /= 10;
+        }
+        return new string(cnt);
+    }
+}

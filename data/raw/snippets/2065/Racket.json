@@ -1,0 +1,1 @@
+"(define/contract (maximal-path-quality values edges maxTime)\n  (-> (listof exact-integer?) (listof (listof exact-integer?)) exact-integer? exact-integer?)\n  )"

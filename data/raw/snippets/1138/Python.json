@@ -1,0 +1,1 @@
+"class Solution(object):\n    def alphabetBoardPath(self, target):\n        \"\"\"\n        :type target: str\n        :rtype: str\n        \"\"\"\n        "

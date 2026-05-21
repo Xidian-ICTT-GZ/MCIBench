@@ -1,0 +1,1 @@
+"-spec can_jump(Nums :: [integer()]) -> boolean().\ncan_jump(Nums) ->\n  ."

@@ -1,0 +1,1 @@
+"import pandas as pd\n\ndef immediate_food_delivery(delivery: pd.DataFrame) -> pd.DataFrame:\n    "

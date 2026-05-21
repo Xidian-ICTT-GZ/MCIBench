@@ -1,0 +1,1 @@
+"impl Solution {\n    pub fn maximum_strong_pair_xor(nums: Vec<i32>) -> i32 {\n        \n    }\n}"

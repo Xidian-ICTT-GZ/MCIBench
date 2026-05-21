@@ -1,0 +1,1 @@
+"/**\n * @param {number[][]} edges\n * @param {boolean[]} online\n * @param {number} k\n * @return {number}\n */\nvar findMaxPathScore = function(edges, online, k) {\n    \n};"

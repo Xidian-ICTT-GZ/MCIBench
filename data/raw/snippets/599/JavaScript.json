@@ -1,0 +1,1 @@
+"/**\n * @param {string[]} list1\n * @param {string[]} list2\n * @return {string[]}\n */\nvar findRestaurant = function(list1, list2) {\n    \n};"

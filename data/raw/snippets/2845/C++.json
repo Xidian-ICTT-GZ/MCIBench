@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    long long countInterestingSubarrays(vector<int>& nums, int modulo, int k) {\n        \n    }\n};"

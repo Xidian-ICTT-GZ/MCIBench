@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<bool> findAnswer(vector<int>& parent, string s) {\n        \n    }\n};"

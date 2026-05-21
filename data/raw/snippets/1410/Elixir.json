@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec entity_parser(text :: String.t) :: String.t\n  def entity_parser(text) do\n    \n  end\nend"

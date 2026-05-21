@@ -1,0 +1,1 @@
+"# @param {String} sentence\n# @param {String} search_word\n# @return {Integer}\ndef is_prefix_of_word(sentence, search_word)\n    \nend"

@@ -1,0 +1,1 @@
+"object Solution {\n    def maxBalancedShipments(weight: Array[Int]): Int = {\n        \n    }\n}"

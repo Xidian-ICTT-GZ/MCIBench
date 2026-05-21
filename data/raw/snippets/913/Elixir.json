@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec cat_mouse_game(graph :: [[integer]]) :: integer\n  def cat_mouse_game(graph) do\n    \n  end\nend"

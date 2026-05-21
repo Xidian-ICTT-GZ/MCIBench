@@ -1,0 +1,1 @@
+"-spec num_identical_pairs(Nums :: [integer()]) -> integer().\nnum_identical_pairs(Nums) ->\n  ."

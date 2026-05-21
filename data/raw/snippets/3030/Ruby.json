@@ -1,0 +1,1 @@
+"# @param {Integer[][]} image\n# @param {Integer} threshold\n# @return {Integer[][]}\ndef result_grid(image, threshold)\n    \nend"

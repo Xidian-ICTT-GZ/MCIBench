@@ -1,0 +1,1 @@
+"(define/contract (latest-day-to-cross row col cells)\n  (-> exact-integer? exact-integer? (listof (listof exact-integer?)) exact-integer?)\n  )"

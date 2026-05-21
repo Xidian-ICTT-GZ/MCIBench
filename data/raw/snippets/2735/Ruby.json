@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @param {Integer} x\n# @return {Integer}\ndef min_cost(nums, x)\n    \nend"

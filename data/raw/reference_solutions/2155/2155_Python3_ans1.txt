@@ -1,0 +1,19 @@
+class Solution:
+    def maxScoreIndices(self, nums: List[int]) -> List[int]:
+        
+        presum = best = 0
+        
+        ans = [0]
+
+        for i, num in enumerate(nums):
+            if num == 0:
+                presum += 1
+                if presum > best:
+                    best = presum
+                    ans = [i + 1]
+                elif presum == best:
+                    ans.append(i + 1)
+            else:
+                presum -= 1
+        
+        return ans

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec contains_duplicate(nums :: [integer]) :: boolean\n  def contains_duplicate(nums) do\n    \n  end\nend"

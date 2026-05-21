@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec validate_binary_tree_nodes(n :: integer, left_child :: [integer], right_child :: [integer]) :: boolean\n  def validate_binary_tree_nodes(n, left_child, right_child) do\n    \n  end\nend"

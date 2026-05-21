@@ -1,0 +1,1 @@
+"-spec can_reach(S :: unicode:unicode_binary(), MinJump :: integer(), MaxJump :: integer()) -> boolean().\ncan_reach(S, MinJump, MaxJump) ->\n  ."

@@ -1,0 +1,1 @@
+"-spec num_times_all_blue(Flips :: [integer()]) -> integer().\nnum_times_all_blue(Flips) ->\n  ."

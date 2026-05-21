@@ -1,0 +1,1 @@
+"public class Solution {\n    public double MinTime(int n, int k, int m, int[] time, double[] mul) {\n        \n    }\n}"

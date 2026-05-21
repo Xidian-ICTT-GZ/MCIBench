@@ -1,0 +1,1 @@
+"class Solution:\n    def palindromePairs(self, words: List[str]) -> List[List[int]]:\n        "

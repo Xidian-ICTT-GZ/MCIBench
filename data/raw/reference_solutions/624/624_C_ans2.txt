@@ -1,0 +1,12 @@
+int maxDistance(int** arrays, int arraysSize, int* arraysColSize) {
+    int res = 0;
+    for (int i = 0; i < arraysSize - 1; i++) {
+        for (int j = i + 1; j < arraysSize; j++) {
+            int* array1 = arrays[i];
+            int* array2 = arrays[j];
+            res = fmax(res, abs(array1[0] - array2[arraysColSize[j] - 1]));
+            res = fmax(res, abs(array2[0] - array1[arraysColSize[i] - 1]));
+        }
+    }
+    return res;
+}

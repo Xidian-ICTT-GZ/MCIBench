@@ -1,0 +1,1 @@
+"# @param {String} s\n# @param {String} p\n# @return {Boolean}\ndef is_match(s, p)\n    \nend"

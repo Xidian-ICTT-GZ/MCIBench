@@ -1,0 +1,1 @@
+"class Solution {\n    func solveNQueens(n: Int64): ArrayList<ArrayList<String>> {\n\n    }\n}"

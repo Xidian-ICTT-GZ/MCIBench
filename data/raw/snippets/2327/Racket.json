@@ -1,0 +1,1 @@
+"(define/contract (people-aware-of-secret n delay forget)\n  (-> exact-integer? exact-integer? exact-integer? exact-integer?)\n  )"

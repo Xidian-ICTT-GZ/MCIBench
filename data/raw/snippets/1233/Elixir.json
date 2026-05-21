@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec remove_subfolders(folder :: [String.t]) :: [String.t]\n  def remove_subfolders(folder) do\n    \n  end\nend"

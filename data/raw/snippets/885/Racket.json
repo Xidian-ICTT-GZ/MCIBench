@@ -1,0 +1,1 @@
+"(define/contract (spiral-matrix-iii rows cols rStart cStart)\n  (-> exact-integer? exact-integer? exact-integer? exact-integer? (listof (listof exact-integer?)))\n  )"

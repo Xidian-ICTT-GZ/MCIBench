@@ -1,0 +1,1 @@
+"(define/contract (make-fancy-string s)\n  (-> string? string?)\n  )"

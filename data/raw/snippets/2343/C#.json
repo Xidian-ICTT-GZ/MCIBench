@@ -1,0 +1,1 @@
+"public class Solution {\n    public int[] SmallestTrimmedNumbers(string[] nums, int[][] queries) {\n        \n    }\n}"

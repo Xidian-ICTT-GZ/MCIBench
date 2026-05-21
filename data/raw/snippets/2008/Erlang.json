@@ -1,0 +1,1 @@
+"-spec max_taxi_earnings(N :: integer(), Rides :: [[integer()]]) -> integer().\nmax_taxi_earnings(N, Rides) ->\n  ."

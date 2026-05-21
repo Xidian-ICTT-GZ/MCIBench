@@ -1,0 +1,15 @@
+var sumDigitDifferences = function(nums) {
+    let res = 0n;
+    let n = nums.length;
+    while (nums[0] > 0) {
+        const cnt = new Array(10).fill(0);
+        for (let i = 0; i < n; i++) {
+            cnt[nums[i] % 10]++;
+            nums[i] = Math.floor(nums[i] / 10);
+        }
+        for (let i = 0; i < 10; i++) {
+            res += BigInt(n - cnt[i]) * BigInt(cnt[i]);
+        }
+    }
+    return Number(res >> 1n);
+};

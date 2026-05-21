@@ -1,0 +1,99 @@
+typedef struct {
+    int *elements;
+    int rear, front;
+    int capacity;
+} MyCircularDeque;
+
+MyCircularDeque* myCircularDequeCreate(int k) {
+    MyCircularDeque *obj = (MyCircularDeque *)malloc(sizeof(MyCircularDeque));
+    obj->capacity = k + 1;
+    obj->rear = obj->front = 0;
+    obj->elements = (int *)malloc(sizeof(int) * obj->capacity);
+    return obj;
+}
+
+bool myCircularDequeInsertFront(MyCircularDeque* obj, int value) {
+    if ((obj->rear + 1) % obj->capacity == obj->front) {
+        return false;
+    }
+    obj->front = (obj->front - 1 + obj->capacity) % obj->capacity;
+    obj->elements[obj->front] = value;
+    return true;
+}
+
+bool myCircularDequeInsertLast(MyCircularDeque* obj, int value) {
+    if ((obj->rear + 1) % obj->capacity == obj->front) {
+        return false;
+    }
+    obj->elements[obj->rear] = value;
+    obj->rear = (obj->rear + 1) % obj->capacity;
+    return true;
+}
+
+bool myCircularDequeDeleteFront(MyCircularDeque* obj) {
+    if (obj->rear == obj->front) {
+        return false;
+    }
+    obj->front = (obj->front + 1) % obj->capacity;
+    return true;
+}
+
+bool myCircularDequeDeleteLast(MyCircularDeque* obj) {
+    if (obj->rear == obj->front) {
+        return false;
+    }
+    obj->rear = (obj->rear - 1 + obj->capacity) % obj->capacity;
+    return true;
+}
+
+int myCircularDequeGetFront(MyCircularDeque* obj) {
+    if (obj->rear == obj->front) {
+        return -1;
+    }
+    return obj->elements[obj->front];
+}
+
+int myCircularDequeGetRear(MyCircularDeque* obj) {
+    if (obj->rear == obj->front) {
+        return -1;
+    }
+    return obj->elements[(obj->rear - 1 + obj->capacity) % obj->capacity];
+}
+
+bool myCircularDequeIsEmpty(MyCircularDeque* obj) {
+    return obj->rear == obj->front;
+}
+
+bool myCircularDequeIsFull(MyCircularDeque* obj) {
+    return (obj->rear + 1) % obj->capacity == obj->front;
+}
+
+void myCircularDequeFree(MyCircularDeque* obj) {
+    free(obj->elements);
+    free(obj);
+}
+
+#define MIN(a, b) ((a) < (b) ? (a) : (b))
+
+int shortestSubarray(int* nums, int numsSize, int k) {
+    long preSumArr[numsSize + 1];
+    preSumArr[0] = 0;
+    for (int i = 0; i < numsSize; i++) {
+        preSumArr[i + 1] = preSumArr[i] + nums[i];
+    }
+    int res = numsSize + 1;
+    MyCircularDeque *queue = myCircularDequeCreate(numsSize + 1);
+    for (int i = 0; i <= numsSize; i++) {
+        long curSum = preSumArr[i];
+        while (!myCircularDequeIsEmpty(queue) && curSum - preSumArr[myCircularDequeGetFront(queue)] >= k) {
+            res = MIN(res, i - myCircularDequeGetFront(queue));
+            myCircularDequeDeleteFront(queue);
+        }
+        while (!myCircularDequeIsEmpty(queue) && preSumArr[myCircularDequeGetRear(queue)] >= curSum) {
+            myCircularDequeDeleteLast(queue);
+        }
+        myCircularDequeInsertLast(queue, i);
+    }
+    myCircularDequeFree(queue);
+    return res < numsSize + 1 ? res : -1;
+}

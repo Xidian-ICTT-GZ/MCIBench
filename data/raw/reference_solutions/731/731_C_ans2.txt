@@ -1,0 +1,85 @@
+#define MAX(a, b) ((a) > (b) ? (a) : (b))
+
+typedef struct HashItem {
+    int key;
+    int maxBook;
+    int lazy;
+    UT_hash_handle hh;
+} HashItem;
+
+typedef struct {
+    HashItem *tree;
+} MyCalendarTwo;
+
+MyCalendarTwo* myCalendarTwoCreate() {
+    MyCalendarTwo *obj = (MyCalendarTwo *)malloc(sizeof(MyCalendarTwo));
+    obj->tree = NULL;
+    return obj;    
+}
+
+void update(MyCalendarTwo* obj, int start, int end, int val, int l, int r, int idx) {
+    if (r < start || end < l) {
+        return;
+    } 
+    if (start <= l && r <= end) {
+        HashItem *pEntry = NULL;
+        HASH_FIND_INT(obj->tree, &idx, pEntry);
+        if (pEntry == NULL) {
+            pEntry = (HashItem *)malloc(sizeof(HashItem));
+            pEntry->key = idx;
+            pEntry->maxBook = val;
+            pEntry->lazy = val;
+            HASH_ADD_INT(obj->tree, key, pEntry);
+        } else {
+            pEntry->maxBook += val;
+            pEntry->lazy += val;
+        }
+    } else {
+        int mid = (l + r) >> 1;
+        update(obj, start, end, val, l, mid, 2 * idx);
+        update(obj, start, end, val, mid + 1, r, 2 * idx + 1);
+        int lchid = idx * 2, rchid = idx * 2 + 1;
+        int lmax = 0, rmax = 0;
+        HashItem *pEntry1 = NULL, *pEntry2 = NULL;
+        HASH_FIND_INT(obj->tree, &lchid, pEntry1);
+        HASH_FIND_INT(obj->tree, &rchid, pEntry2);
+        if (pEntry1) {
+            lmax = pEntry1->maxBook;
+        }
+        if (pEntry2) {
+            rmax = pEntry2->maxBook;
+        }
+        HashItem *pEntry = NULL;
+        HASH_FIND_INT(obj->tree, &idx, pEntry);
+        if (pEntry) {
+            pEntry->maxBook = pEntry->lazy + MAX(lmax, rmax);
+        } else {
+            pEntry = (HashItem *)malloc(sizeof(HashItem));
+            pEntry->key = idx;
+            pEntry->maxBook = 1;
+            pEntry->lazy = 0;
+            HASH_ADD_INT(obj->tree, key, pEntry);
+        }
+    }
+}
+
+bool myCalendarTwoBook(MyCalendarTwo* obj, int start, int end) {
+    update(obj, start, end - 1, 1, 0, 1e9, 1);
+    int idx = 1;
+    HashItem *pEntry = NULL;
+    HASH_FIND_INT(obj->tree, &idx, pEntry);
+    if (pEntry->maxBook > 2) {
+        update(obj, start, end - 1, -1, 0, 1e9, 1);
+        return false;
+    }
+    return true;
+}
+
+void myCalendarTwoFree(MyCalendarTwo* obj) {
+    struct HashItem *curr,*tmp;
+    HASH_ITER(hh, obj->tree, curr, tmp) {
+        HASH_DEL(obj->tree, curr); 
+        free(curr);             
+    } 
+    free(obj); 
+}

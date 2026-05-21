@@ -1,0 +1,1 @@
+"-spec minimum_distance(Points :: [[integer()]]) -> integer().\nminimum_distance(Points) ->\n  ."

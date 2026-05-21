@@ -1,0 +1,1 @@
+"class Solution(object):\n    def minimumEffortPath(self, heights):\n        \"\"\"\n        :type heights: List[List[int]]\n        :rtype: int\n        \"\"\"\n        "

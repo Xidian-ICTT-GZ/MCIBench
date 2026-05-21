@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec minimum_perimeter(needed_apples :: integer) :: integer\n  def minimum_perimeter(needed_apples) do\n    \n  end\nend"

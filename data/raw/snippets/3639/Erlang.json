@@ -1,0 +1,1 @@
+"-spec min_time(S :: unicode:unicode_binary(), Order :: [integer()], K :: integer()) -> integer().\nmin_time(S, Order, K) ->\n  ."

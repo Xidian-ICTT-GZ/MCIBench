@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int visiblePoints(vector<vector<int>>& points, int angle, vector<int>& location) {\n        \n    }\n};"

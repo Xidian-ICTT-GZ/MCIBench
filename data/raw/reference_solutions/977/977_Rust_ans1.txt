@@ -1,0 +1,7 @@
+impl Solution {
+    pub fn sorted_squares(nums: Vec<i32>) -> Vec<i32> {
+        let mut ans: Vec<i32> = nums.iter().map(|&num| num * num).collect();
+        ans.sort();
+        ans
+    }
+}

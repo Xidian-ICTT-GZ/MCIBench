@@ -1,0 +1,31 @@
+long long maximumSumOfHeights(int* maxHeights, int maxHeightsSize) {
+    int n = maxHeightsSize;
+    long long res = 0;
+    long long prefix[n], suffix[n];
+    int stack1[n], stack2[n];
+    int top1 = 0, top2 = 0;
+    for (int i = 0; i < n; i++) {
+        while (top1 > 0 && maxHeights[i] < maxHeights[stack1[top1 - 1]]) {
+            top1--;
+        }
+        if (top1 == 0) {
+            prefix[i] = (long long)(i + 1) * maxHeights[i];
+        } else {
+            prefix[i] = prefix[stack1[top1 - 1]] + (long long)(i - stack1[top1 - 1]) * maxHeights[i];
+        }
+        stack1[top1++] = i;
+    }
+    for (int i = n - 1; i >= 0; i--) {
+        while (top2 > 0 && maxHeights[i] < maxHeights[stack2[top2 - 1]]) {
+            top2--;
+        }
+        if (top2 == 0) {
+            suffix[i] = (long long)(n - i) * maxHeights[i];
+        } else {
+            suffix[i] = suffix[stack2[top2 - 1]] + (long long)(stack2[top2 - 1] - i) * maxHeights[i];
+        }
+        stack2[top2++] = i;
+        res = fmax(res, prefix[i] + suffix[i] - maxHeights[i]);
+    }
+    return res;
+}

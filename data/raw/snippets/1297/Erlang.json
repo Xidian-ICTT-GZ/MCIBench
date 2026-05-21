@@ -1,0 +1,1 @@
+"-spec max_freq(S :: unicode:unicode_binary(), MaxLetters :: integer(), MinSize :: integer(), MaxSize :: integer()) -> integer().\nmax_freq(S, MaxLetters, MinSize, MaxSize) ->\n  ."

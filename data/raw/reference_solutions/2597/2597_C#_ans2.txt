@@ -1,0 +1,33 @@
+public class Solution {
+    public int BeautifulSubsets(int[] nums, int k) {
+        var groups = new Dictionary<int, SortedDictionary<int, int>>();
+        foreach (int a in nums) {
+            int mod = a % k;
+            if (!groups.ContainsKey(mod)) {
+                groups[mod] = new SortedDictionary<int, int>();
+            }
+            groups[mod][a] = groups[mod].GetValueOrDefault(a, 0) + 1;
+        }
+        int ans = 1;
+        foreach (var g in groups.Values) {
+            int m = g.Count;
+            int[,] f = new int[m, 2];
+            f[0, 0] = 1;
+            f[0, 1] = (1 << g.First().Value) - 1;
+            int i = 1;
+            var prev = g.First();
+            foreach (var curr in g.Skip(1)) {
+                f[i, 0] = f[i - 1, 0] + f[i - 1, 1];
+                if (curr.Key - prev.Key == k) {
+                    f[i, 1] = f[i - 1, 0] * ((1 << curr.Value) - 1);
+                } else {
+                    f[i, 1] = (f[i - 1, 0] + f[i - 1, 1]) * ((1 << curr.Value) - 1);
+                }
+                prev = curr;
+                i++;
+            }
+            ans *= f[m - 1, 0] + f[m - 1, 1];
+        }
+        return ans - 1;
+    }
+}

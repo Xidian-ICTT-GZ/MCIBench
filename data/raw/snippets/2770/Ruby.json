@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @param {Integer} target\n# @return {Integer}\ndef maximum_jumps(nums, target)\n    \nend"

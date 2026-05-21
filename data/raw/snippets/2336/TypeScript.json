@@ -1,0 +1,1 @@
+"class SmallestInfiniteSet {\n    constructor() {\n        \n    }\n\n    popSmallest(): number {\n        \n    }\n\n    addBack(num: number): void {\n        \n    }\n}\n\n/**\n * Your SmallestInfiniteSet object will be instantiated and called as such:\n * var obj = new SmallestInfiniteSet()\n * var param_1 = obj.popSmallest()\n * obj.addBack(num)\n */"

@@ -1,0 +1,46 @@
+var binarySearch = function(arr, target) {
+    let lo = 0, hi = arr.length - 1;
+    let ret = arr.length;
+    while (lo <= hi) {
+        let mid = (lo + hi) >> 1;
+        if (arr[mid] >= target) {
+            ret = mid;
+            hi = mid - 1;
+        } else {
+            lo = mid + 1;
+        }
+    }
+    return ret;
+}   
+
+var closestNodes = function(root, queries) {
+    const arr = new Array();
+    const dfs = function(root) {
+        if (!root) {
+            return;
+        }
+        dfs(root.left);
+        arr.push(root.val);
+        dfs(root.right);
+    }
+    dfs(root);
+    
+    const res = new Array();
+    for (const val of queries) {
+        let maxVal = -1, minVal = -1;
+        let index = binarySearch(arr, val);
+        if (index != arr.length) {
+            maxVal = arr[index];
+            if (arr[index] == val) {
+                minVal = arr[index];
+                res.push([minVal, maxVal]);
+                continue;
+            }
+        }
+        if (index != 0) {
+            minVal = arr[index - 1];
+        }
+        res.push([minVal, maxVal]);
+    }
+    return res;
+};

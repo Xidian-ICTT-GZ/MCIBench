@@ -1,0 +1,1 @@
+"-spec max_sum(Nums :: [integer()], K :: integer(), M :: integer()) -> integer().\nmax_sum(Nums, K, M) ->\n  ."

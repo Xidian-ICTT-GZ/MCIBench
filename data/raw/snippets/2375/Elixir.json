@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec smallest_number(pattern :: String.t) :: String.t\n  def smallest_number(pattern) do\n    \n  end\nend"

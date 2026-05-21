@@ -1,0 +1,1 @@
+"/** \n * Forward declaration of guess API.\n * @param {number} num   your guess\n * @return \t     -1 if num is higher than the picked number\n *\t\t\t      1 if num is lower than the picked number\n *               otherwise return 0\n * var guess = function(num) {}\n */\n\n\nfunction guessNumber(n: number): number {\n\n};"

@@ -1,0 +1,23 @@
+func combinationSum3(k int, n int) (ans [][]int) {
+	var temp []int
+	var dfs func(cur, rest int)
+	dfs = func(cur, rest int) {
+		
+		if len(temp) == k && rest == 0 {
+			ans = append(ans, append([]int(nil), temp...))
+			return
+		}
+		
+		if len(temp)+10-cur < k || rest < 0 {
+			return
+		}
+		
+		dfs(cur+1, rest)
+		
+		temp = append(temp, cur)
+		dfs(cur+1, rest-cur)
+		temp = temp[:len(temp)-1]
+	}
+	dfs(1, n)
+	return
+}

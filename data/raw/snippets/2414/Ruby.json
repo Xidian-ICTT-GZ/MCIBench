@@ -1,0 +1,1 @@
+"# @param {String} s\n# @return {Integer}\ndef longest_continuous_substring(s)\n    \nend"

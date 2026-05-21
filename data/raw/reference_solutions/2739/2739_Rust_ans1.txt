@@ -1,0 +1,16 @@
+impl Solution {
+    pub fn distance_traveled(main_tank: i32, additional_tank: i32) -> i32 {
+        let mut main_tank = main_tank;
+        let mut additional_tank = additional_tank;
+        let mut ans = 0;
+        while main_tank >= 5 {
+            main_tank -= 5;
+            ans += 50;
+            if additional_tank > 0 {
+                additional_tank -= 1;
+                main_tank += 1;
+            }
+        }
+        ans + main_tank * 10
+    }
+}

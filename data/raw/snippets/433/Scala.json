@@ -1,0 +1,1 @@
+"object Solution {\n    def minMutation(startGene: String, endGene: String, bank: Array[String]): Int = {\n        \n    }\n}"

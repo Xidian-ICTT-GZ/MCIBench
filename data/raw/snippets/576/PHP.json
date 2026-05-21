@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $m\n     * @param Integer $n\n     * @param Integer $maxMove\n     * @param Integer $startRow\n     * @param Integer $startColumn\n     * @return Integer\n     */\n    function findPaths($m, $n, $maxMove, $startRow, $startColumn) {\n        \n    }\n}"

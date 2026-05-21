@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec can_partition_k_subsets(nums :: [integer], k :: integer) :: boolean\n  def can_partition_k_subsets(nums, k) do\n    \n  end\nend"

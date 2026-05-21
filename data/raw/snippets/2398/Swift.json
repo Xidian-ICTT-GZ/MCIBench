@@ -1,0 +1,1 @@
+"class Solution {\n    func maximumRobots(_ chargeTimes: [Int], _ runningCosts: [Int], _ budget: Int) -> Int {\n        \n    }\n}"

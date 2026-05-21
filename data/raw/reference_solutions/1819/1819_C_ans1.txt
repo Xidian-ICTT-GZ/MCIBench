@@ -1,0 +1,40 @@
+#define MAX(a, b) ((a) > (b) ? (a) : (b))
+
+static int gcd(int num1, int num2) {
+    while (num2 != 0) {
+        int temp = num1;
+        num1 = num2;
+        num2 = temp % num2;
+    }
+    return num1;
+}
+
+int countDifferentSubsequenceGCDs(int* nums, int numsSize) {
+    int maxVal = 0;
+    for (int i = 0; i < numsSize; i++) {
+        maxVal = MAX(maxVal, nums[i]);
+    }
+    bool occured[maxVal + 1];
+    memset(occured, 0, sizeof(occured));
+    for (int i = 0; i < numsSize; i++) {
+        occured[nums[i]] = true;
+    }
+    int ans = 0;
+    for (int i = 1; i <= maxVal; i++) {
+        int subGcd = 0;
+        for (int j = i; j <= maxVal; j += i) {
+            if (occured[j]) {
+                if (subGcd == 0) {
+                    subGcd = j;
+                } else {
+                    subGcd = gcd(subGcd, j);
+                }
+                if (subGcd == i) {
+                    ans++;
+                    break;
+                }
+            }
+        }
+    }
+    return ans;
+}

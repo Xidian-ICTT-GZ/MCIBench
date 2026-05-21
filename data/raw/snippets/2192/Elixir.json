@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec get_ancestors(n :: integer, edges :: [[integer]]) :: [[integer]]\n  def get_ancestors(n, edges) do\n    \n  end\nend"

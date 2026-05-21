@@ -1,0 +1,1 @@
+"-spec find_shortest_sub_array(Nums :: [integer()]) -> integer().\nfind_shortest_sub_array(Nums) ->\n  ."

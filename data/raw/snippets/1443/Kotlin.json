@@ -1,0 +1,1 @@
+"class Solution {\n    fun minTime(n: Int, edges: Array<IntArray>, hasApple: List<Boolean>): Int {\n        \n    }\n}"

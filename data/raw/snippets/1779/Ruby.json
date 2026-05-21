@@ -1,0 +1,1 @@
+"# @param {Integer} x\n# @param {Integer} y\n# @param {Integer[][]} points\n# @return {Integer}\ndef nearest_valid_point(x, y, points)\n    \nend"

@@ -1,0 +1,1 @@
+"-spec pancake_sort(Arr :: [integer()]) -> [integer()].\npancake_sort(Arr) ->\n  ."

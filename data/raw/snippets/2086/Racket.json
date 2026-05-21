@@ -1,0 +1,1 @@
+"(define/contract (minimum-buckets hamsters)\n  (-> string? exact-integer?)\n  )"

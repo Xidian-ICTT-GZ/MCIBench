@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} nums\n * @return {boolean}\n */\nvar xorGame = function(nums) {\n    \n};"

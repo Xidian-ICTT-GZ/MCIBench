@@ -1,0 +1,1 @@
+"-spec minimum_array_length(Nums :: [integer()]) -> integer().\nminimum_array_length(Nums) ->\n  ."

@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $word\n     * @param String[] $forbidden\n     * @return Integer\n     */\n    function longestValidSubstring($word, $forbidden) {\n        \n    }\n}"

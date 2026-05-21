@@ -1,0 +1,22 @@
+class Solution {
+public:
+    using pii = pair<int, int>;
+    int findMaxValueOfEquation(vector<vector<int>>& points, int k) {
+        int res = INT_MIN;
+        deque<pii> qu;
+        for (auto &point : points) {
+            int x = point[0], y = point[1];
+            while (!qu.empty() && x - qu.front().second > k) {
+                qu.pop_front();
+            }
+            if (!qu.empty()) {
+                res = max(res, x + y + qu.front().first);
+            }
+            while (!qu.empty() && y - x >= qu.back().first) {
+                qu.pop_back();
+            }
+            qu.emplace_back(y - x, x);
+        }
+        return res;
+    }
+};

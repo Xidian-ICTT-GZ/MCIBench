@@ -1,0 +1,1 @@
+"-spec number_of_paths(Grid :: [[integer()]], K :: integer()) -> integer().\nnumber_of_paths(Grid, K) ->\n  ."

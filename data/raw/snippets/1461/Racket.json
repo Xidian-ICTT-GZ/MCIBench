@@ -1,0 +1,1 @@
+"(define/contract (has-all-codes s k)\n  (-> string? exact-integer? boolean?)\n  )"

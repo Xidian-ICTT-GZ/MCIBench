@@ -1,0 +1,31 @@
+public class Solution {
+    public bool Makesquare(int[] matchsticks) {
+        int totalLen = matchsticks.Sum();
+        if (totalLen % 4 != 0) {
+            return false;
+        }
+        Array.Sort(matchsticks);
+        for (int i = 0, j = matchsticks.Length - 1; i < j; i++, j--) {
+            int temp = matchsticks[i];
+            matchsticks[i] = matchsticks[j];
+            matchsticks[j] = temp;
+        }
+
+        int[] edges = new int[4];
+        return DFS(0, matchsticks, edges, totalLen / 4);
+    }
+
+    public bool DFS(int index, int[] matchsticks, int[] edges, int len) {
+        if (index == matchsticks.Length) {
+            return true;
+        }
+        for (int i = 0; i < edges.Length; i++) {
+            edges[i] += matchsticks[index];
+            if (edges[i] <= len && DFS(index + 1, matchsticks, edges, len)) {
+                return true;
+            }
+            edges[i] -= matchsticks[index];
+        }
+        return false;
+    }
+}

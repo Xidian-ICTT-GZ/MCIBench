@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec total_steps(nums :: [integer]) :: integer\n  def total_steps(nums) do\n    \n  end\nend"

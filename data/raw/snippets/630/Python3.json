@@ -1,0 +1,1 @@
+"class Solution:\n    def scheduleCourse(self, courses: List[List[int]]) -> int:\n        "

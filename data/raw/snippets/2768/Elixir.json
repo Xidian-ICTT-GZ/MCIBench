@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec count_black_blocks(m :: integer, n :: integer, coordinates :: [[integer]]) :: [integer]\n  def count_black_blocks(m, n, coordinates) do\n    \n  end\nend"

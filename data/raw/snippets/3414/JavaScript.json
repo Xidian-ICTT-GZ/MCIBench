@@ -1,0 +1,1 @@
+"/**\n * @param {number[][]} intervals\n * @return {number[]}\n */\nvar maximumWeight = function(intervals) {\n    \n};"

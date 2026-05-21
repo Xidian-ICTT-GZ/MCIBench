@@ -1,0 +1,1 @@
+"(define/contract (generate-key num1 num2 num3)\n  (-> exact-integer? exact-integer? exact-integer? exact-integer?)\n  )"

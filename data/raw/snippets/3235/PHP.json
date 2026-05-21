@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $xCorner\n     * @param Integer $yCorner\n     * @param Integer[][] $circles\n     * @return Boolean\n     */\n    function canReachCorner($xCorner, $yCorner, $circles) {\n        \n    }\n}"

@@ -1,0 +1,22 @@
+func getWinner(arr []int, k int) int {
+    prev := max(arr[0], arr[1])
+    if k == 1 {
+        return prev
+    }
+    consecutive := 1
+    maxNum := prev
+    for i := 2; i < len(arr); i++ {
+        curr := arr[i]
+        if prev > curr {
+            consecutive++
+            if consecutive == k {
+                return prev
+            }
+        } else {
+            prev = curr
+            consecutive = 1
+        }
+        maxNum = max(maxNum, curr)
+    }
+    return maxNum
+}

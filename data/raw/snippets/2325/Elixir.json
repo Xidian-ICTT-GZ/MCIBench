@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec decode_message(key :: String.t, message :: String.t) :: String.t\n  def decode_message(key, message) do\n    \n  end\nend"

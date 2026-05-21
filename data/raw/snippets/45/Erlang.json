@@ -1,0 +1,1 @@
+"-spec jump(Nums :: [integer()]) -> integer().\njump(Nums) ->\n  ."

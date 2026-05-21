@@ -1,0 +1,1 @@
+"-spec magnificent_sets(N :: integer(), Edges :: [[integer()]]) -> integer().\nmagnificent_sets(N, Edges) ->\n  ."

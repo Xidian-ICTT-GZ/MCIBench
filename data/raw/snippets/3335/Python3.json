@@ -1,0 +1,1 @@
+"class Solution:\n    def lengthAfterTransformations(self, s: str, t: int) -> int:\n        "

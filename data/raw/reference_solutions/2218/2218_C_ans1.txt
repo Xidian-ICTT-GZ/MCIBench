@@ -1,0 +1,19 @@
+int maxValueOfCoins(int** piles, int pilesSize, int* pilesColSize, int k) {
+    int f[k + 1];
+    for (int i = 0; i <= k; i++) {
+        f[i] = -1;
+    }
+    f[0] = 0;
+    for (int p = 0; p < pilesSize; p++) {
+        for (int i = k; i > 0; i--) {
+            int value = 0;
+            for (int t = 1; t <= pilesColSize[p]; t++) {
+                value += piles[p][t - 1];
+                if (i >= t && f[i - t] != -1) {
+                    f[i] = fmax(f[i], f[i - t] + value);
+                }
+            }
+        }
+    }
+    return f[k];
+}

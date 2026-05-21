@@ -1,0 +1,15 @@
+var longestEqualSubarray = function(nums, k) {
+    let n = nums.length;
+    let ans = 0;
+    let cnt = new Map();
+    for (let i = 0, j = 0; j < n; j++) {
+        cnt.set(nums[j], (cnt.get(nums[j]) || 0) + 1);
+        
+        while (j - i + 1 - cnt.get(nums[i]) > k) {
+            cnt.set(nums[i], cnt.get(nums[i]) - 1);
+            i++;
+        }
+        ans = Math.max(ans, cnt.get(nums[j]));
+    }
+    return ans;
+};

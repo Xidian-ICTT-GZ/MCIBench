@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec deck_revealed_increasing(deck :: [integer]) :: [integer]\n  def deck_revealed_increasing(deck) do\n    \n  end\nend"

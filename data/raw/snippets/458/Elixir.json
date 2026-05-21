@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec poor_pigs(buckets :: integer, minutes_to_die :: integer, minutes_to_test :: integer) :: integer\n  def poor_pigs(buckets, minutes_to_die, minutes_to_test) do\n    \n  end\nend"

@@ -1,0 +1,15 @@
+class Solution:
+    def getTargetCopy(self, original: TreeNode, cloned: TreeNode, target: TreeNode) -> TreeNode:
+        q1, q2 = [original], [cloned]
+        while len(q1) > 0:
+            node1, node2 = q1[0], q2[0]
+            q1, q2 = q1[1:], q2[1:]
+            if node1 == target:
+                return node2
+            if node1.left is not None:
+                q1.append(node1.left)
+                q2.append(node2.left)
+            if node1.right is not None:
+                q1.append(node1.right)
+                q2.append(node2.right)
+        return None

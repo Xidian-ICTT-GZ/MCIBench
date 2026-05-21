@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int findSmallestInteger(vector<int>& nums, int value) {\n        \n    }\n};"

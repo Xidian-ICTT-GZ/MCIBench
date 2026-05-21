@@ -1,0 +1,1 @@
+"class Solution(object):\n    def findReplaceString(self, s, indices, sources, targets):\n        \"\"\"\n        :type s: str\n        :type indices: List[int]\n        :type sources: List[str]\n        :type targets: List[str]\n        :rtype: str\n        \"\"\"\n        "

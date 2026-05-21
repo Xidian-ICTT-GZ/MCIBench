@@ -1,0 +1,1 @@
+"class Solution {\n    func secondMinimum(_ n: Int, _ edges: [[Int]], _ time: Int, _ change: Int) -> Int {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"class Solution {\n    fun canFinish(numCourses: Int, prerequisites: Array<IntArray>): Boolean {\n        \n    }\n}"

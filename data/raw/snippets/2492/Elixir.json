@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec min_score(n :: integer, roads :: [[integer]]) :: integer\n  def min_score(n, roads) do\n    \n  end\nend"

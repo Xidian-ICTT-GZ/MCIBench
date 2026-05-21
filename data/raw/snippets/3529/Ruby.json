@@ -1,0 +1,1 @@
+"# @param {Character[][]} grid\n# @param {String} pattern\n# @return {Integer}\ndef count_cells(grid, pattern)\n    \nend"

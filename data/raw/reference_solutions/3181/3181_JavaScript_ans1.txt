@@ -1,0 +1,13 @@
+var maxTotalReward = function(rewardValues) {
+    let n = rewardValues.length;
+    rewardValues.sort((a, b) => a - b);
+    if (n >= 2 && rewardValues[n - 2] == rewardValues[n - 1] - 1) {
+        return 2 * rewardValues[n - 1] - 1;
+    }
+    let f = BigInt(1);
+    for (let x of rewardValues) {
+        let mask = (BigInt(1) << BigInt(x)) - BigInt(1);
+        f = f | ((f & mask) << BigInt(x));
+    }
+    return f.toString(2).length - 1;
+};

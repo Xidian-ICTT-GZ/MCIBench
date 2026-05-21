@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec sample_stats(count :: [integer]) :: [float]\n  def sample_stats(count) do\n    \n  end\nend"

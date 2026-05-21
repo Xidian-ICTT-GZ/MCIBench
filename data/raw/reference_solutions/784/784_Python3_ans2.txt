@@ -1,0 +1,15 @@
+class Solution:
+    def letterCasePermutation(self, s: str) -> List[str]:
+        ans = []
+        def dfs(s: List[str], pos: int) -> None:
+            while pos < len(s) and s[pos].isdigit():
+                pos += 1
+            if pos == len(s):
+                ans.append(''.join(s))
+                return
+            dfs(s, pos + 1)
+            s[pos] = s[pos].swapcase()
+            dfs(s, pos + 1)
+            s[pos] = s[pos].swapcase()
+        dfs(list(s), 0)
+        return ans

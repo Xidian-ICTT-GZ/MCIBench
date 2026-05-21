@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int numberOfBoomerangs(vector<vector<int>>& points) {\n        \n    }\n};"

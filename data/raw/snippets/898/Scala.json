@@ -1,0 +1,1 @@
+"object Solution {\n    def subarrayBitwiseORs(arr: Array[Int]): Int = {\n        \n    }\n}"

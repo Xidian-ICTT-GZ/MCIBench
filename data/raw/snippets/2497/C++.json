@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int maxStarSum(vector<int>& vals, vector<vector<int>>& edges, int k) {\n        \n    }\n};"

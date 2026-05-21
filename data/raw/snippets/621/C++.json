@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int leastInterval(vector<char>& tasks, int n) {\n        \n    }\n};"

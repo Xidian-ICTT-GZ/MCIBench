@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    string mostCommonWord(string paragraph, vector<string>& banned) {\n        \n    }\n};"

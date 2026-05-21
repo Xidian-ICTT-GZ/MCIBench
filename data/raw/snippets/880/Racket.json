@@ -1,0 +1,1 @@
+"(define/contract (decode-at-index s k)\n  (-> string? exact-integer? string?)\n  )"

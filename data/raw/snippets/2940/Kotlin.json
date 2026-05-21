@@ -1,0 +1,1 @@
+"class Solution {\n    fun leftmostBuildingQueries(heights: IntArray, queries: Array<IntArray>): IntArray {\n        \n    }\n}"

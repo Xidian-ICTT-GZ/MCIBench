@@ -1,0 +1,1 @@
+"class Solution:\n    def minMoves(self, matrix: List[str]) -> int:\n        "

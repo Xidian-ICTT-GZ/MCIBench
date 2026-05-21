@@ -1,0 +1,1 @@
+"# @param {Integer} rows\n# @param {Integer} cols\n# @param {Integer} r_center\n# @param {Integer} c_center\n# @return {Integer[][]}\ndef all_cells_dist_order(rows, cols, r_center, c_center)\n    \nend"

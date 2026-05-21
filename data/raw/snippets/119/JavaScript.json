@@ -1,0 +1,1 @@
+"/**\n * @param {number} rowIndex\n * @return {number[]}\n */\nvar getRow = function(rowIndex) {\n    \n};"

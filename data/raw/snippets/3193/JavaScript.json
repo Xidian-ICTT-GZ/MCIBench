@@ -1,0 +1,1 @@
+"/**\n * @param {number} n\n * @param {number[][]} requirements\n * @return {number}\n */\nvar numberOfPermutations = function(n, requirements) {\n    \n};"

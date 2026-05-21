@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec most_points(questions :: [[integer]]) :: integer\n  def most_points(questions) do\n    \n  end\nend"

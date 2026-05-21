@@ -1,0 +1,1 @@
+"(define/contract (max-profit n present future hierarchy budget)\n  (-> exact-integer? (listof exact-integer?) (listof exact-integer?) (listof (listof exact-integer?)) exact-integer? exact-integer?)\n  )"

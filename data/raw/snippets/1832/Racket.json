@@ -1,0 +1,1 @@
+"(define/contract (check-if-pangram sentence)\n  (-> string? boolean?)\n  )"

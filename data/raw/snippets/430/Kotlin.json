@@ -1,0 +1,1 @@
+"/**\n * Definition for a Node.\n * class Node(var `val`: Int) {\n *     var prev: Node? = null\n *     var next: Node? = null\n *     var child: Node? = null\n * }\n */\n\nclass Solution {\n    fun flatten(root: Node?): Node? {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"-spec flower_game(N :: integer(), M :: integer()) -> integer().\nflower_game(N, M) ->\n  ."

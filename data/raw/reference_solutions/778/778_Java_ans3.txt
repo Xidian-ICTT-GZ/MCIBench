@@ -1,0 +1,46 @@
+class Solution {
+    public int swimInWater(int[][] grid) {
+        int n = grid.length;
+        int[] f = new int[n * n];
+        for (int i = 0; i < n * n; i++) {
+            f[i] = i;
+        }
+
+        int[][] idx = new int[n * n][2]; 
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                idx[grid[i][j]][0] = i;
+                idx[grid[i][j]][1] = j;
+            }
+        }
+
+        int[][] directions = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
+        for (int threshold = 0; threshold < n * n; threshold++) {
+            int i = idx[threshold][0], j = idx[threshold][1];
+            for (int[] direction : directions) {
+                int ni = i + direction[0], nj = j + direction[1];
+                if (ni >= 0 && ni < n && nj >= 0 && nj < n && grid[ni][nj] <= threshold) {
+                    merge(f, i * n + j, ni * n + nj);
+                }
+            }
+            if (find(f, 0) == find(f, n * n - 1)) {
+                return threshold;
+            }
+        }
+        return -1; 
+    }
+
+    public int find(int[] f, int x) {
+        if (f[x] == x) {
+            return x;
+        }
+        int fa = find(f, f[x]);
+        f[x] = fa;
+        return fa;
+    }
+
+    public void merge(int[] f, int x, int y) {
+        int fx = find(f, x), fy = find(f, y);
+        f[fx] = fy;
+    }
+}

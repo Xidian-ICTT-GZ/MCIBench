@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    bool validTicTacToe(vector<string>& board) {\n        \n    }\n};"

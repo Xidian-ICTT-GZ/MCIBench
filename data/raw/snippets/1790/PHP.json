@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $s1\n     * @param String $s2\n     * @return Boolean\n     */\n    function areAlmostEqual($s1, $s2) {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"-spec alternate_digit_sum(N :: integer()) -> integer().\nalternate_digit_sum(N) ->\n  ."

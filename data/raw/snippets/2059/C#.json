@@ -1,0 +1,1 @@
+"public class Solution {\n    public int MinimumOperations(int[] nums, int start, int goal) {\n        \n    }\n}"

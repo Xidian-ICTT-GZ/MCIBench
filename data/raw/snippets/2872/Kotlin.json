@@ -1,0 +1,1 @@
+"class Solution {\n    fun maxKDivisibleComponents(n: Int, edges: Array<IntArray>, values: IntArray, k: Int): Int {\n        \n    }\n}"

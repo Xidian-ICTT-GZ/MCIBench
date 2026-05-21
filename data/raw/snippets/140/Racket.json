@@ -1,0 +1,1 @@
+"(define/contract (word-break s wordDict)\n  (-> string? (listof string?) (listof string?))\n  )"

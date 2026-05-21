@@ -1,0 +1,1 @@
+"(define/contract (image-smoother img)\n  (-> (listof (listof exact-integer?)) (listof (listof exact-integer?)))\n  )"

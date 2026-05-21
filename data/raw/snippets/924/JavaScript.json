@@ -1,0 +1,1 @@
+"/**\n * @param {number[][]} graph\n * @param {number[]} initial\n * @return {number}\n */\nvar minMalwareSpread = function(graph, initial) {\n    \n};"

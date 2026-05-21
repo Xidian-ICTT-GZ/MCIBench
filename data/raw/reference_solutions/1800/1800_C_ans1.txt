@@ -1,0 +1,14 @@
+#define MAX(a, b) ((a) > (b) ? (a) : (b))
+
+int maxAscendingSum(int* nums, int numsSize){
+    int res = 0;
+    int l = 0;
+    while (l < numsSize) {
+        int cursum = nums[l++];
+        while (l < numsSize && nums[l] > nums[l - 1]) {
+            cursum += nums[l++];
+        }
+        res = MAX(res, cursum);
+    }
+    return res;
+}

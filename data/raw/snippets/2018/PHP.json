@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String[][] $board\n     * @param String $word\n     * @return Boolean\n     */\n    function placeWordInCrossword($board, $word) {\n        \n    }\n}"

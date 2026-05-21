@@ -1,0 +1,1 @@
+"# @param {Integer[][]} matrix\n# @return {Integer}\ndef max_equal_rows_after_flips(matrix)\n    \nend"

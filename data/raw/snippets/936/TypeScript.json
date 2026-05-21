@@ -1,0 +1,1 @@
+"function movesToStamp(stamp: string, target: string): number[] {\n    \n};"

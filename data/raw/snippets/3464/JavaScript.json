@@ -1,0 +1,1 @@
+"/**\n * @param {number} side\n * @param {number[][]} points\n * @param {number} k\n * @return {number}\n */\nvar maxDistance = function(side, points, k) {\n    \n};"

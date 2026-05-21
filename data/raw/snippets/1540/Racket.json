@@ -1,0 +1,1 @@
+"(define/contract (can-convert-string s t k)\n  (-> string? string? exact-integer? boolean?)\n  )"

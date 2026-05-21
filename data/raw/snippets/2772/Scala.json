@@ -1,0 +1,1 @@
+"object Solution {\n    def checkArray(nums: Array[Int], k: Int): Boolean = {\n        \n    }\n}"

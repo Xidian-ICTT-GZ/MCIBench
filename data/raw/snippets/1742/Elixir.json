@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec count_balls(low_limit :: integer, high_limit :: integer) :: integer\n  def count_balls(low_limit, high_limit) do\n    \n  end\nend"

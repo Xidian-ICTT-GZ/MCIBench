@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $a\n     * @param String $b\n     * @return Integer\n     */\n    function repeatedStringMatch($a, $b) {\n        \n    }\n}"

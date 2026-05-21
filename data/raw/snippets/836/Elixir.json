@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec is_rectangle_overlap(rec1 :: [integer], rec2 :: [integer]) :: boolean\n  def is_rectangle_overlap(rec1, rec2) do\n    \n  end\nend"

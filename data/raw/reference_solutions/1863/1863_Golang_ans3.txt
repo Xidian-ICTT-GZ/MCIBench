@@ -1,0 +1,8 @@
+func subsetXORSum(nums []int) int {
+    res := 0
+    n := len(nums)
+    for _, num := range nums {
+        res |= num
+    }
+    return res << (n - 1)
+}

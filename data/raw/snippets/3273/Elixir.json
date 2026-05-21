@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec min_damage(power :: integer, damage :: [integer], health :: [integer]) :: integer\n  def min_damage(power, damage, health) do\n    \n  end\nend"

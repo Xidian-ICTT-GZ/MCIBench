@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $g\n     * @param Integer[] $s\n     * @return Integer\n     */\n    function findContentChildren($g, $s) {\n        \n    }\n}"

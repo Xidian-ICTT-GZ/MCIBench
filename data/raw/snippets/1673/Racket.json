@@ -1,0 +1,1 @@
+"(define/contract (most-competitive nums k)\n  (-> (listof exact-integer?) exact-integer? (listof exact-integer?))\n  )"

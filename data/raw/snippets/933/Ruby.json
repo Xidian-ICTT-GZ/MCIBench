@@ -1,0 +1,1 @@
+"class RecentCounter\n    def initialize()\n        \n    end\n\n\n=begin\n    :type t: Integer\n    :rtype: Integer\n=end\n    def ping(t)\n        \n    end\n\n\nend\n\n# Your RecentCounter object will be instantiated and called as such:\n# obj = RecentCounter.new()\n# param_1 = obj.ping(t)"

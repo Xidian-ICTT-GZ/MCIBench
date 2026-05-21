@@ -1,0 +1,1 @@
+"class Solution {\n    func maximizeSquareArea(_ m: Int, _ n: Int, _ hFences: [Int], _ vFences: [Int]) -> Int {\n        \n    }\n}"

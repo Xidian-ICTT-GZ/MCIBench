@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec contains_nearby_duplicate(nums :: [integer], k :: integer) :: boolean\n  def contains_nearby_duplicate(nums, k) do\n    \n  end\nend"

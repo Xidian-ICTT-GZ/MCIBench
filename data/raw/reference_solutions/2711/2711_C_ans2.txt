@@ -1,0 +1,80 @@
+int** differenceOfDistinctValues(int** grid, int gridSize, int* gridColSize, int* returnSize, int** returnColumnSizes) {
+    int m = gridSize;
+    int n = gridColSize[0];
+
+    int** res = (int**)malloc(m * sizeof(int*));
+    *returnColumnSizes = (int*)malloc(m * sizeof(int));
+    *returnSize = m;
+
+    for (int i = 0; i < m; ++i) {
+        res[i] = (int*)malloc(n * sizeof(int));
+        (*returnColumnSizes)[i] = n;
+        for (int j = 0; j < n; ++j) {
+            res[i][j] = 0;
+        }
+    }
+
+    for (int i = 0; i < m; ++i) {
+        int x = i, y = 0;
+        bool s[51] = {false};
+        int count = 0;
+        while (x < m && y < n) {
+            res[x][y] += count;
+            if (!s[grid[x][y]]) {
+                s[grid[x][y]] = true;
+                count++;
+            }
+            x += 1;
+            y += 1;
+        }
+    }
+
+    for (int j = 1; j < n; ++j) {
+        int x = 0, y = j;
+        bool s[51] = {false};
+        int count = 0;
+        while (x < m && y < n) {
+            res[x][y] += count;
+            if (!s[grid[x][y]]) {
+                s[grid[x][y]] = true;
+                count++;
+            }
+            x += 1;
+            y += 1;
+        }
+    }
+
+    for (int i = 0; i < m; ++i) {
+        int x = i, y = n - 1;
+        bool s[51] = {false};
+        int count = 0;
+        while (x >= 0 && y >= 0) {
+            res[x][y] -= count;
+            res[x][y] = abs(res[x][y]);
+            if (!s[grid[x][y]]) {
+                s[grid[x][y]] = true;
+                count++;
+            }
+            x -= 1;
+            y -= 1;
+        }
+    }
+
+    for (int j = n - 2; j >= 0; --j) {
+        int x = m - 1, y = j;
+        bool s[51] = {false};
+        int count = 0;
+        while (x >= 0 && y >= 0) {
+            res[x][y] -= count;
+            res[x][y] = abs(res[x][y]);
+            if (!s[grid[x][y]]) {
+                s[grid[x][y]] = true;
+                count++;
+            }
+            x -= 1;
+            y -= 1;
+        }
+    }
+
+    return res;
+}

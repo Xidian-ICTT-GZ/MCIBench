@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec does_valid_array_exist(derived :: [integer]) :: boolean\n  def does_valid_array_exist(derived) do\n    \n  end\nend"

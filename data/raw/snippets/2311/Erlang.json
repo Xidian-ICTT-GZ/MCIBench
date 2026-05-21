@@ -1,0 +1,1 @@
+"-spec longest_subsequence(S :: unicode:unicode_binary(), K :: integer()) -> integer().\nlongest_subsequence(S, K) ->\n  ."

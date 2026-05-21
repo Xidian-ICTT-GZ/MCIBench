@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $queries\n     * @return Integer[]\n     */\n    function findProductsOfElements($queries) {\n        \n    }\n}"

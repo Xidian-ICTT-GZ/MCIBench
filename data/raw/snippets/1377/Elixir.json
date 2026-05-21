@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec frog_position(n :: integer, edges :: [[integer]], t :: integer, target :: integer) :: float\n  def frog_position(n, edges, t, target) do\n    \n  end\nend"

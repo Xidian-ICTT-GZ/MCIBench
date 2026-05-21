@@ -1,0 +1,1 @@
+"class Solution(object):\n    def minReverseOperations(self, n, p, banned, k):\n        \"\"\"\n        :type n: int\n        :type p: int\n        :type banned: List[int]\n        :type k: int\n        :rtype: List[int]\n        \"\"\"\n        "

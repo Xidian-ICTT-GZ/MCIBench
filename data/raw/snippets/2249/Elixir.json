@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec count_lattice_points(circles :: [[integer]]) :: integer\n  def count_lattice_points(circles) do\n    \n  end\nend"

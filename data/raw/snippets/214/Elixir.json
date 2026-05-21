@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec shortest_palindrome(s :: String.t) :: String.t\n  def shortest_palindrome(s) do\n    \n  end\nend"

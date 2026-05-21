@@ -1,0 +1,1 @@
+"-spec matrix_score(Grid :: [[integer()]]) -> integer().\nmatrix_score(Grid) ->\n  ."

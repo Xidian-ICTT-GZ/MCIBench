@@ -1,0 +1,1 @@
+"# @param {Integer} batch_size\n# @param {Integer[]} groups\n# @return {Integer}\ndef max_happy_groups(batch_size, groups)\n    \nend"

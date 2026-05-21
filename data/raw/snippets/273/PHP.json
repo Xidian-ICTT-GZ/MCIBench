@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $num\n     * @return String\n     */\n    function numberToWords($num) {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"class Solution {\n  List<int> countServers(int n, List<List<int>> logs, int x, List<int> queries) {\n    \n  }\n}"

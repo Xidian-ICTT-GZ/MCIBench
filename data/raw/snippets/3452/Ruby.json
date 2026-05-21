@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @param {Integer} k\n# @return {Integer}\ndef sum_of_good_numbers(nums, k)\n    \nend"

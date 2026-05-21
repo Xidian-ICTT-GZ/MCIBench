@@ -1,0 +1,89 @@
+#define ADDITION -1
+#define SUBTRACTION -2
+#define MULTIPLICATION -3
+
+int* diffWaysToCompute(char * expression, int* returnSize) {
+    int len = strlen(expression);
+    int *ops = (int *)malloc(sizeof(int) * len);
+    int opsSize = 0;
+    for (int i = 0; i < len;) {
+        if (!isdigit(expression[i])) {
+            if (expression[i] == '+') {
+                ops[opsSize++] = ADDITION;
+            } else if (expression[i] == '-') {
+                ops[opsSize++] = SUBTRACTION;
+            } else {
+                ops[opsSize++] = MULTIPLICATION;
+            }
+            i++;
+        } else {
+            int t = 0;
+            while (i < len && isdigit(expression[i])) {
+                t = t * 10 + expression[i] - '0';
+                i++;
+            }
+            ops[opsSize++] = t;
+        }
+    }
+    struct ListNode ***dp = NULL;
+    dp = (struct ListNode ***)malloc(sizeof(struct ListNode **) * opsSize);
+    for (int i = 0; i < opsSize; i++) {
+        dp[i] = (struct ListNode **)malloc(sizeof(struct ListNode *) * opsSize);
+        for (int j = 0; j < opsSize; j++) {
+            dp[i][j] = NULL;
+        }
+    }
+    for (int i = 0; i < opsSize; i += 2) {
+        struct ListNode *node = (struct ListNode*)malloc(sizeof(struct ListNode));
+        node->val = ops[i];
+        node->next = NULL;
+        dp[i][i] = node;
+    }
+    for (int i = 3; i <= opsSize; i++) {
+        for (int j = 0; j + i <= opsSize; j += 2) {
+            int l = j;
+            int r = j + i - 1;
+            for (int k = j + 1; k < r; k += 2) {
+                struct ListNode *left = dp[l][k - 1];
+                struct ListNode *right = dp[k + 1][r];
+                for (struct ListNode *left = dp[l][k - 1]; left; left = left->next) {
+                    for (struct ListNode *right = dp[k + 1][r]; right; right = right->next) {
+                        struct ListNode *node = (struct ListNode *)malloc(sizeof(struct ListNode));
+                        if (ops[k] == ADDITION) {
+                            node->val = left->val + right->val;
+                        }
+                        else if (ops[k] == SUBTRACTION) {
+                            node->val = left->val - right->val;
+                        }
+                        else if (ops[k] == MULTIPLICATION) {
+                            node->val = left->val * right->val;
+                        }
+                        node->next = dp[l][r];
+                        dp[l][r] = node;
+                    }
+                }
+            }
+        }
+    }
+    int *ans = (int *)malloc(sizeof(int) * (1 << opsSize));
+    int pos = 0;
+    for (struct ListNode *node = dp[0][opsSize - 1]; node; node = node->next) {
+        ans[pos++] = node->val;
+    }
+    *returnSize = pos;
+    for (int i = 0; i < opsSize; i++) {
+        for (int j = 0; j < opsSize; j++) {
+            struct ListNode *curr, *tmp;
+            curr = dp[i][j];
+            while (curr) {
+                tmp = curr;
+                curr = curr->next;
+                free(tmp);
+            }
+        }
+        free(dp[i]);
+    }
+    free(dp);
+    free(ops);
+    return ans;
+}

@@ -1,0 +1,1 @@
+"class Solution(object):\n    def fullBloomFlowers(self, flowers, people):\n        \"\"\"\n        :type flowers: List[List[int]]\n        :type people: List[int]\n        :rtype: List[int]\n        \"\"\"\n        "

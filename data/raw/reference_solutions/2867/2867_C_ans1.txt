@@ -1,0 +1,118 @@
+#define N 100001
+bool isPrime[N];
+
+typedef struct {
+    int key;
+    UT_hash_handle hh;
+} HashItem;
+
+HashItem *hashFindItem(HashItem **obj, long long key) {
+    HashItem *pEntry = NULL;
+    HASH_FIND_INT(*obj, &key, pEntry);
+    return pEntry;
+}
+
+bool hashAddItem(HashItem **obj, int key) {
+    if (hashFindItem(obj, key)) {
+        return false;
+    }
+    HashItem *pEntry = (HashItem *)malloc(sizeof(HashItem));
+    pEntry->key = key;
+    HASH_ADD_INT(*obj, key, pEntry);
+    return true;
+}
+
+void hashFree(HashItem **obj) {
+    HashItem *curr = NULL, *tmp = NULL;
+    HASH_ITER(hh, *obj, curr, tmp) {
+        HASH_DEL(*obj, curr);
+        free(curr);
+    }
+}
+
+struct ListNode *createListNode(int val) {
+    struct ListNode *obj = (struct ListNode *)malloc(sizeof(struct ListNode));
+    obj->val = val;
+    obj->next = NULL;
+    return obj;
+}
+
+void freeList(struct ListNode *list) {
+    while(list) {
+        struct ListNode *p = list;
+        list = list->next;
+        free(p);
+    }
+}
+
+void dfs(struct ListNode **G, HashItem **seen, int i, int pre) {
+    hashAddItem(seen, i);
+    for (struct ListNode *p = G[i]; p; p = p->next) {
+        int j = p->val;
+        if (j != pre && !isPrime[j]) {
+            dfs(G, seen, j, i);
+        }
+    }
+}
+
+long long countPaths(int n, int** edges, int edgesSize, int* edgesColSize) {
+    
+    memset(isPrime, 1, sizeof(isPrime));
+    isPrime[1] = false;
+    for (int i = 2; i * i <= n; i++) {
+        if (isPrime[i]) {
+            for (int j = i * i; j <= n; j += i) {
+                isPrime[j] = false;
+            }
+        }
+    }
+
+    struct ListNode *G[n + 1];
+    for (int i = 0; i <= n; i++) {
+        G[i] = NULL;
+    }
+    for (int i = 0; i < edgesSize; i++) {
+        int x = edges[i][0], y = edges[i][1];
+        struct ListNode *nodex = createListNode(x);
+        nodex->next = G[y];
+        G[y] = nodex;
+        struct ListNode *nodey = createListNode(y);
+        nodey->next = G[x];
+        G[x] = nodey;
+    }
+
+    HashItem *seen = NULL;
+    long long res = 0;
+    long long count[n + 1];
+    memset(count, 0, sizeof(count));
+    for (int i = 1; i <= n; i++) {
+        if (!isPrime[i]) {
+            continue;
+        }
+        long long cur = 0;
+        for (struct ListNode *p = G[i]; p; p = p->next) {
+            int j = p->val;
+            if (isPrime[j]) {
+                continue;
+            }
+            if (count[j] == 0) {
+                hashFree(&seen);
+                seen = NULL;
+                dfs(G, &seen, j, 0);
+                long long cnt = HASH_COUNT(seen);
+                for (HashItem *pEntry = seen; pEntry; pEntry = pEntry->hh.next) {
+                    int k = pEntry->key;
+                    count[k] = cnt;
+                }
+            }
+            res += count[j] * cur;
+            cur += count[j];
+        }
+        res += cur;
+    }
+    for (int i = 0; i <= n; i++) {
+        free(G[i]);
+    }
+    hashFree(&seen);
+    return res;
+}

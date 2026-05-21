@@ -1,0 +1,64 @@
+#define COLUMNS 26
+
+typedef struct {
+    int** grid;
+    int rows;
+} Spreadsheet;
+
+void getPos(const char* cell, int* x, int* y) {
+    *x = atoi(cell + 1);
+    *y = toupper(cell[0]) - 'A';
+}
+
+Spreadsheet* spreadsheetCreate(int rows) {
+    Spreadsheet* obj = (Spreadsheet*)malloc(sizeof(Spreadsheet));
+    obj->rows = rows + 1;
+    obj->grid = (int**)malloc(obj->rows * sizeof(int*));
+    for (int i = 0; i < obj->rows; i++) {
+        obj->grid[i] = (int*)calloc(COLUMNS, sizeof(int));
+    }
+    return obj;
+}
+
+void spreadsheetSetCell(Spreadsheet* obj, char* cell, int value) {
+    int x, y;
+    getPos(cell, &x, &y);
+    obj->grid[x][y] = value;
+}
+
+void spreadsheetResetCell(Spreadsheet* obj, char* cell) {
+    int x, y;
+    getPos(cell, &x, &y);
+    obj->grid[x][y] = 0;
+}
+
+int getCellVal(Spreadsheet* obj, const char* cell) {
+    if (isalpha(cell[0])) {
+        int x, y;
+        getPos(cell, &x, &y);
+        return obj->grid[x][y];
+    } else {
+        return atoi(cell);
+    }
+}
+
+int spreadsheetGetValue(Spreadsheet* obj, char* formula) {
+    char* plus = strchr(formula, '+');
+    char* cell1 = (char*)malloc(plus - formula);
+    strncpy(cell1, formula + 1, plus - formula - 1);
+    cell1[plus - formula - 1] = '\0';
+    char* cell2 = strdup(plus + 1);
+    int val1 = getCellVal(obj, cell1);
+    int val2 = getCellVal(obj, cell2);
+    free(cell1);
+    free(cell2);
+    return val1 + val2;
+}
+
+void spreadsheetFree(Spreadsheet* obj) {
+    for (int i = 0; i < obj->rows; i++) {
+        free(obj->grid[i]);
+    }
+    free(obj->grid);
+    free(obj);
+}

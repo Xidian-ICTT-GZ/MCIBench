@@ -1,0 +1,1 @@
+"(define/contract (count-sub-trees n edges labels)\n  (-> exact-integer? (listof (listof exact-integer?)) string? (listof exact-integer?))\n  )"

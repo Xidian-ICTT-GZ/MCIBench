@@ -1,0 +1,1 @@
+"-spec score_of_parentheses(S :: unicode:unicode_binary()) -> integer().\nscore_of_parentheses(S) ->\n  ."

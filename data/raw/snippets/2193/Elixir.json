@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec min_moves_to_make_palindrome(s :: String.t) :: integer\n  def min_moves_to_make_palindrome(s) do\n    \n  end\nend"

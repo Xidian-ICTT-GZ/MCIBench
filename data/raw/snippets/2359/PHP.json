@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $edges\n     * @param Integer $node1\n     * @param Integer $node2\n     * @return Integer\n     */\n    function closestMeetingNode($edges, $node1, $node2) {\n        \n    }\n}"

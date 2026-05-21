@@ -1,0 +1,1 @@
+"-spec count_highest_score_nodes(Parents :: [integer()]) -> integer().\ncount_highest_score_nodes(Parents) ->\n  ."

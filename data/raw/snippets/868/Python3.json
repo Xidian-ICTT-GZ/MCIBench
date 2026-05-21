@@ -1,0 +1,1 @@
+"class Solution:\n    def binaryGap(self, n: int) -> int:\n        "

@@ -1,0 +1,1 @@
+"class Solution {\n    fun findSmallestSetOfVertices(n: Int, edges: List<List<Int>>): List<Int> {\n        \n    }\n}"

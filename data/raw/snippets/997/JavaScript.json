@@ -1,0 +1,1 @@
+"/**\n * @param {number} n\n * @param {number[][]} trust\n * @return {number}\n */\nvar findJudge = function(n, trust) {\n    \n};"

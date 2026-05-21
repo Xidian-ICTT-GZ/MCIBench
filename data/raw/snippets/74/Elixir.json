@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec search_matrix(matrix :: [[integer]], target :: integer) :: boolean\n  def search_matrix(matrix, target) do\n    \n  end\nend"

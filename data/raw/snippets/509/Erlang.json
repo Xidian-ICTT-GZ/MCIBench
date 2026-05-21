@@ -1,0 +1,1 @@
+"-spec fib(N :: integer()) -> integer().\nfib(N) ->\n  ."

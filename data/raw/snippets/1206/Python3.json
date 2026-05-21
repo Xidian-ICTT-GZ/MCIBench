@@ -1,0 +1,1 @@
+"class Skiplist:\n\n    def __init__(self):\n        \n\n    def search(self, target: int) -> bool:\n        \n\n    def add(self, num: int) -> None:\n        \n\n    def erase(self, num: int) -> bool:\n        \n\n\n# Your Skiplist object will be instantiated and called as such:\n# obj = Skiplist()\n# param_1 = obj.search(target)\n# obj.add(num)\n# param_3 = obj.erase(num)"

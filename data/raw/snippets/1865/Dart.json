@@ -1,0 +1,1 @@
+"class FindSumPairs {\n\n  FindSumPairs(List<int> nums1, List<int> nums2) {\n    \n  }\n  \n  void add(int index, int val) {\n    \n  }\n  \n  int count(int tot) {\n    \n  }\n}\n\n/**\n * Your FindSumPairs object will be instantiated and called as such:\n * FindSumPairs obj = FindSumPairs(nums1, nums2);\n * obj.add(index,val);\n * int param2 = obj.count(tot);\n */"

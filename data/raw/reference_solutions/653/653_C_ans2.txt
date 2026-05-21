@@ -1,0 +1,37 @@
+#define MAX_NODE_SIZE 1e4
+
+typedef struct {
+    int key;
+    UT_hash_handle hh;
+} HashItem;
+
+bool findTarget(struct TreeNode* root, int k){
+    HashItem * hashTable = NULL;
+    struct TreeNode ** que = (struct TreeNode **)malloc(sizeof(struct TreeNode *) * MAX_NODE_SIZE);
+    int head = 0, tail = 0;
+    que[tail++] = root;
+    while (head != tail) {
+        struct TreeNode *node = que[head++];
+        int key = k - node->val;
+        HashItem * pEntry = NULL;
+        HASH_FIND_INT(hashTable, &key, pEntry);
+        if (pEntry != NULL) {
+            return true;
+        }
+        pEntry = (HashItem *)malloc(sizeof(HashItem));
+        pEntry->key = node->val;
+        HASH_ADD_INT(hashTable, key, pEntry);
+        if (node->left != NULL) {
+            que[tail++] = node->left;
+        }
+        if (node->right != NULL) {
+            que[tail++] = node->right;
+        }
+    }
+    HashItem * curr = NULL, * next = NULL;
+    HASH_ITER(hh, hashTable, curr, next) {
+        HASH_DEL(hashTable, curr); 
+        free(curr);           
+    }
+    return false;
+}

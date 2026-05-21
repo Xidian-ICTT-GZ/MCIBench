@@ -1,0 +1,1 @@
+"# @param {Integer[][]} ranges\n# @return {Integer}\ndef count_ways(ranges)\n    \nend"

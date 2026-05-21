@@ -1,0 +1,49 @@
+class Solution:
+    def canMerge(self, trees: List[TreeNode]) -> Optional[TreeNode]:
+        
+        leaves = set()
+        
+        candidates = dict()
+        for tree in trees:
+            if tree.left:
+                leaves.add(tree.left.val)
+            if tree.right:
+                leaves.add(tree.right.val)
+            candidates[tree.val] = tree
+        
+        
+        prev = float("-inf")
+        
+        
+        def dfs(tree: Optional[TreeNode]) -> bool:
+            if not tree:
+                return True
+            
+            
+            if not tree.left and not tree.right and tree.val in candidates:
+                tree.left = candidates[tree.val].left
+                tree.right = candidates[tree.val].right
+                
+                candidates.pop(tree.val)
+            
+            
+            if not dfs(tree.left):
+                return False
+            
+            nonlocal prev
+            if tree.val <= prev:
+                return False
+            prev = tree.val
+            
+            return dfs(tree.right)
+        
+        for tree in trees:
+            
+            if tree.val not in leaves:
+                
+                candidates.pop(tree.val)
+                
+                
+                return tree if dfs(tree) and not candidates else None
+        
+        return None

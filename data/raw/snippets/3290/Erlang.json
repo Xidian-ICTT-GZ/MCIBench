@@ -1,0 +1,1 @@
+"-spec max_score(A :: [integer()], B :: [integer()]) -> integer().\nmax_score(A, B) ->\n  ."

@@ -1,0 +1,1 @@
+"class Solution {\n    fun minimumCost(n: Int, edges: Array<IntArray>, query: Array<IntArray>): IntArray {\n        \n    }\n}"

@@ -1,0 +1,16 @@
+public class Solution {
+    public int[] ArrayRankTransform(int[] arr) {
+        int[] sortedArr = new int[arr.Length];
+        Array.Copy(arr, 0, sortedArr, 0, arr.Length);
+        Array.Sort(sortedArr);
+        Dictionary<int, int> ranks = new Dictionary<int, int>();
+        int[] ans = new int[arr.Length];
+        foreach (int a in sortedArr) {
+            ranks.TryAdd(a, ranks.Count + 1);
+        }
+        for (int i = 0; i < arr.Length; i++) {
+            ans[i] = ranks[arr[i]];
+        }
+        return ans;
+    }
+}

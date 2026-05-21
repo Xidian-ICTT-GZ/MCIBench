@@ -1,0 +1,1 @@
+"class Solution {\n    public List<Boolean> checkArithmeticSubarrays(int[] nums, int[] l, int[] r) {\n        \n    }\n}"

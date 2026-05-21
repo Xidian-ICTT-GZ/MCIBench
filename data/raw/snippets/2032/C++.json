@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<int> twoOutOfThree(vector<int>& nums1, vector<int>& nums2, vector<int>& nums3) {\n        \n    }\n};"

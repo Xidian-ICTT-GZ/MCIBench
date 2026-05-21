@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @return {Integer}\ndef num_identical_pairs(nums)\n    \nend"

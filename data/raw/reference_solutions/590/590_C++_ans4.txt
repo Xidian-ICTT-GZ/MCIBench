@@ -1,0 +1,22 @@
+class Solution {
+public:
+    vector<int> postorder(Node* root) {
+        vector<int> res;
+        if (root == nullptr) {
+            return res;
+        }
+
+        stack<Node *> st;
+        st.emplace(root);
+        while (!st.empty()) {
+            Node * node = st.top();
+            st.pop();
+            res.emplace_back(node->val);
+            for (auto &item : node->children) {
+                st.emplace(item);
+            }
+        }       
+        reverse(res.begin(), res.end()); 
+        return res;
+    }
+};

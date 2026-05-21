@@ -1,0 +1,1 @@
+"class Solution {\n  List<int> numSmallerByFrequency(List<String> queries, List<String> words) {\n    \n  }\n}"

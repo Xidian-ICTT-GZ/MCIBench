@@ -1,0 +1,1 @@
+"class FreqStack {\n    constructor() {\n        \n    }\n\n    push(val: number): void {\n        \n    }\n\n    pop(): number {\n        \n    }\n}\n\n/**\n * Your FreqStack object will be instantiated and called as such:\n * var obj = new FreqStack()\n * obj.push(val)\n * var param_2 = obj.pop()\n */"

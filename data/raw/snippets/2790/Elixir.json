@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec max_increasing_groups(usage_limits :: [integer]) :: integer\n  def max_increasing_groups(usage_limits) do\n    \n  end\nend"

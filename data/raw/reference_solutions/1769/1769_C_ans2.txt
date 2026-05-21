@@ -1,0 +1,22 @@
+int* minOperations(char * boxes, int* returnSize) {
+    int left = boxes[0] - '0', right = 0, operations = 0;
+    int n = strlen(boxes);
+    for (int i = 1; i < n; i++) {
+        if (boxes[i] == '1') {
+            right++;
+            operations += i;
+        }
+    }
+    int *res = (int *)malloc(sizeof(int) * n);
+    res[0] = operations;
+    for (int i = 1; i < n; i++) {
+        operations += left - right;
+        if (boxes[i] == '1') {
+            left++;
+            right--;
+        }
+        res[i] = operations;
+    }
+    *returnSize = n;
+    return res;
+}

@@ -1,0 +1,99 @@
+typedef struct HashItem {
+    int key;
+    bool hasBooked;
+    bool lazy;
+    UT_hash_handle hh;
+} HashItem;
+
+typedef struct {
+    HashItem *tree;
+} MyCalendar;
+
+MyCalendar* myCalendarCreate() {
+    MyCalendar *obj = (MyCalendar *)malloc(sizeof(MyCalendar));
+    obj->tree = NULL;
+    return obj;
+}
+
+bool query(MyCalendar* obj, int start, int end, int l, int r, int idx) {
+    if (r < start || end < l) {
+        return false;
+    } 
+    HashItem *pEntry = NULL;
+    HASH_FIND_INT(obj->tree, &idx, pEntry);
+    
+    if (pEntry && pEntry->lazy) {
+        return true;
+    }
+    if (start <= l && r <= end) {
+        if (pEntry) {
+            return pEntry->hasBooked;
+        } else {
+            return false;
+        }
+    } else {
+        int mid = (l + r) >> 1;
+        if (end <= mid) {
+            return query(obj, start, end, l, mid, 2 * idx);
+        } else if (start > mid) {
+            return query(obj, start, end, mid + 1, r, 2 * idx + 1);
+        } else {
+            return query(obj, start, end, l, mid, 2 * idx) | \
+                   query(obj, start, end, mid + 1, r, 2 * idx + 1);
+        }
+    }
+}
+
+void update(MyCalendar* obj, int start, int end, int l, int r, int idx) {
+    if (r < start || end < l) {
+        return;
+    } 
+    if (start <= l && r <= end) {
+        HashItem *pEntry = NULL;
+        HASH_FIND_INT(obj->tree, &idx, pEntry);
+        if (!pEntry) {
+            pEntry = (HashItem *)malloc(sizeof(HashItem));
+            pEntry->key = idx;
+            HASH_ADD_INT(obj->tree, key, pEntry);
+        }
+        pEntry->hasBooked = true;
+        pEntry->lazy = true;
+    } else {
+        int mid = (l + r) >> 1;
+        update(obj, start, end, l, mid, 2 * idx);
+        update(obj, start, end, mid + 1, r, 2 * idx + 1);
+        HashItem *pEntry = NULL;
+        HASH_FIND_INT(obj->tree, &idx, pEntry);
+        if (!pEntry) {
+            pEntry = (HashItem *)malloc(sizeof(HashItem));
+            pEntry->key = idx;
+            HASH_ADD_INT(obj->tree, key, pEntry);
+        }   
+        pEntry->hasBooked = true;
+        pEntry->lazy = false;
+        HashItem *pEntry1 = NULL, *pEntry2 = NULL;
+        int lchild = 2 * idx, rchild = 2 * idx + 1;
+        HASH_FIND_INT(obj->tree, &lchild, pEntry1);
+        HASH_FIND_INT(obj->tree, &rchild, pEntry2);
+        if (pEntry1 && pEntry1->lazy && pEntry2 && pEntry2->lazy) {
+            pEntry->lazy = true;
+        }
+    }
+}
+
+bool myCalendarBook(MyCalendar* obj, int start, int end) {
+    if (query(obj, start, end - 1, 0, 1e9, 1)) {
+        return false;
+    }
+    update(obj, start, end - 1, 0, 1e9, 1);
+    return true;
+}
+
+void myCalendarFree(MyCalendar* obj) {
+    struct HashItem *curr, *tmp;
+    HASH_ITER(hh, obj->tree, curr, tmp) {
+        HASH_DEL(obj->tree, curr); 
+        free(curr);             
+    } 
+    free(obj);
+}

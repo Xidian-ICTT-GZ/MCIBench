@@ -1,0 +1,52 @@
+double eps = 1e-7;
+
+double getDist(int** positions, int positionsSize, double xc, double yc) {
+    double ans = 0;
+    for (int i = 0; i < positionsSize; i++) {
+        int* pos = positions[i];
+        ans += sqrt((pos[0] - xc) * (pos[0] - xc) + (pos[1] - yc) * (pos[1] - yc));
+    }
+    return ans;
+};
+
+double checkOptimal(int** positions, int positionsSize, double xc) {
+    double yLeft = 0.0, yRight = 100.0;
+    while (yRight - yLeft > eps) {
+        double yFirst = (yLeft + yLeft + yRight) / 3;
+        double ySecond = (yLeft + yRight + yRight) / 3;
+        if (getDist(positions, positionsSize, xc, yFirst) < getDist(positions, positionsSize, xc, ySecond)) {
+            yRight = ySecond;
+        } else {
+            yLeft = yFirst;
+        }
+    }
+    return getDist(positions, positionsSize, xc, yLeft);
+};
+
+double getMinDistSum(int** positions, int positionsSize, int* positionsColSize) {
+    int batchSize = positionsSize;
+
+    double x = 0.0, y = 0.0;
+    for (int i = 0; i < positionsSize; i++) {
+        int* pos = positions[i];
+        x += pos[0];
+        y += pos[1];
+    }
+    x /= positionsSize;
+    y /= positionsSize;
+
+    double xLeft = 0.0, xRight = 100.0;
+    while (xRight - xLeft > eps) {
+        
+        double xFirst = (xLeft + xLeft + xRight) / 3;
+        
+        double xSecond = (xLeft + xRight + xRight) / 3;
+        if (checkOptimal(positions, positionsSize, xFirst) < checkOptimal(positions, positionsSize, xSecond)) {
+            xRight = xSecond;
+        } else {
+            xLeft = xFirst;
+        }
+    }
+
+    return checkOptimal(positions, positionsSize, xLeft);
+}

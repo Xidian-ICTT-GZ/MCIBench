@@ -1,0 +1,1 @@
+"class ATM {\n\n    public ATM() {\n        \n    }\n    \n    public void deposit(int[] banknotesCount) {\n        \n    }\n    \n    public int[] withdraw(int amount) {\n        \n    }\n}\n\n/**\n * Your ATM object will be instantiated and called as such:\n * ATM obj = new ATM();\n * obj.deposit(banknotesCount);\n * int[] param_2 = obj.withdraw(amount);\n */"

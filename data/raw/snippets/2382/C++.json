@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<long long> maximumSegmentSum(vector<int>& nums, vector<int>& removeQueries) {\n        \n    }\n};"

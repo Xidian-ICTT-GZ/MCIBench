@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $status\n     * @param Integer[] $candies\n     * @param Integer[][] $keys\n     * @param Integer[][] $containedBoxes\n     * @param Integer[] $initialBoxes\n     * @return Integer\n     */\n    function maxCandies($status, $candies, $keys, $containedBoxes, $initialBoxes) {\n        \n    }\n}"

@@ -1,0 +1,53 @@
+var AuthenticationManager = function(timeToLive) {
+    this.timeToLive = timeToLive;
+    this.head = new Node(-1);
+    this.tail = new Node(-1);
+    this.head.next = this.tail;
+    this.tail.prev = this.head;
+    this.map = new Map();
+};
+
+AuthenticationManager.prototype.generate = function(tokenId, currentTime) {
+    const node = new Node(currentTime + this.timeToLive, tokenId);
+    this.map.set(tokenId, node);
+    const last = this.tail.prev;
+    last.next = node;
+    node.prev = last;
+    this.tail.prev = node;
+    node.next = this.tail;
+};
+
+AuthenticationManager.prototype.renew = function(tokenId, currentTime) {
+    if (this.map.has(tokenId) && this.map.get(tokenId).expire > currentTime) {
+        const node = this.map.get(tokenId);
+        const prev = node.prev;
+        const next = node.next;
+        prev.next = next;
+        next.prev = prev;
+        node.expire = currentTime + this.timeToLive;
+        const last = this.tail.prev;
+        last.next = node;
+        node.prev = last;
+        this.tail.prev = node;
+        node.next = this.tail;
+    }
+};
+
+AuthenticationManager.prototype.countUnexpiredTokens = function(currentTime) {
+    while (this.head.next.expire > 0 && this.head.next.expire <= currentTime) {
+        const node = this.head.next;
+        this.map.delete(node.key);
+        this.head.next = node.next;
+        node.next.prev = this.head;
+    }
+    return this.map.size;
+};
+
+class Node {
+    constructor(expire, key, prev, next) {
+        this.expire = expire;
+        this.key = key;
+        this.prev = prev;
+        this.next = next;
+    }
+}

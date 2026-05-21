@@ -1,0 +1,1 @@
+"(define/contract (count-collisions directions)\n  (-> string? exact-integer?)\n  )"

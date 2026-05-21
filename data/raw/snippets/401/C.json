@@ -1,0 +1,1 @@
+"/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nchar** readBinaryWatch(int turnedOn, int* returnSize) {\n    \n}"

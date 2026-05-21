@@ -1,0 +1,1 @@
+"(define/contract (find-min-step board hand)\n  (-> string? string? exact-integer?)\n  )"

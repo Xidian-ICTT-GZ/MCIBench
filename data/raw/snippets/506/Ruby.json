@@ -1,0 +1,1 @@
+"# @param {Integer[]} score\n# @return {String[]}\ndef find_relative_ranks(score)\n    \nend"

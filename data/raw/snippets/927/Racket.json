@@ -1,0 +1,1 @@
+"(define/contract (three-equal-parts arr)\n  (-> (listof exact-integer?) (listof exact-integer?))\n  )"

@@ -1,0 +1,1 @@
+"-spec shortest_subarray(Nums :: [integer()], K :: integer()) -> integer().\nshortest_subarray(Nums, K) ->\n  ."

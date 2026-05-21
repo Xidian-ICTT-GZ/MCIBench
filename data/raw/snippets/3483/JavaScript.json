@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} digits\n * @return {number}\n */\nvar totalNumbers = function(digits) {\n    \n};"

@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $intervals\n     * @param Integer[] $newInterval\n     * @return Integer[][]\n     */\n    function insert($intervals, $newInterval) {\n        \n    }\n}"

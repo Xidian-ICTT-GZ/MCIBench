@@ -1,0 +1,1 @@
+"class Solution {\n    fun maxGeneticDifference(parents: IntArray, queries: Array<IntArray>): IntArray {\n        \n    }\n}"

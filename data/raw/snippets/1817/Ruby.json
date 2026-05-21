@@ -1,0 +1,1 @@
+"# @param {Integer[][]} logs\n# @param {Integer} k\n# @return {Integer[]}\ndef finding_users_active_minutes(logs, k)\n    \nend"

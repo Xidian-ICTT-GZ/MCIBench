@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec partition_disjoint(nums :: [integer]) :: integer\n  def partition_disjoint(nums) do\n    \n  end\nend"

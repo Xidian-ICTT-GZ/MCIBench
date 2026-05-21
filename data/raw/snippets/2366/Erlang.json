@@ -1,0 +1,1 @@
+"-spec minimum_replacement(Nums :: [integer()]) -> integer().\nminimum_replacement(Nums) ->\n  ."

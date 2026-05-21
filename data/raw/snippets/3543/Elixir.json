@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec max_weight(n :: integer, edges :: [[integer]], k :: integer, t :: integer) :: integer\n  def max_weight(n, edges, k, t) do\n    \n  end\nend"

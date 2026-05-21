@@ -1,0 +1,1 @@
+"public class StreamChecker {\n\n    public StreamChecker(string[] words) {\n        \n    }\n    \n    public bool Query(char letter) {\n        \n    }\n}\n\n/**\n * Your StreamChecker object will be instantiated and called as such:\n * StreamChecker obj = new StreamChecker(words);\n * bool param_1 = obj.Query(letter);\n */"

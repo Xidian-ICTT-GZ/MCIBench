@@ -1,0 +1,22 @@
+public class Solution {
+    private int ans = 0;
+    private Dictionary<int, int> cnt = new Dictionary<int, int>();
+
+    public int BeautifulSubsets(int[] nums, int k) {
+        DFS(nums, k, 0);
+        return ans - 1;
+    }
+
+    public void DFS(int[] nums, int k, int i) {
+        if (i == nums.Length) {
+            ans++;
+            return;
+        }
+        DFS(nums, k, i + 1);
+        if (cnt.GetValueOrDefault(nums[i] - k, 0) == 0 && cnt.GetValueOrDefault(nums[i] + k, 0) == 0) {
+            cnt[nums[i]] = cnt.GetValueOrDefault(nums[i], 0) + 1;
+            DFS(nums, k, i + 1);
+            cnt[nums[i]] = cnt.GetValueOrDefault(nums[i], 0) - 1;
+        }
+    }
+}

@@ -1,0 +1,35 @@
+class Solution {
+public:
+    vector<int> sortJumbled(vector<int>& mapping, vector<int>& nums) {
+        auto transfer = [&](int x) -> int {
+            if (x == 0) {
+                return mapping[0];
+            }
+            
+            vector<int> digits;
+            while (x) {
+                digits.push_back(x % 10);
+                x /= 10;
+            }
+            int num = 0;
+            for (int i = digits.size() - 1; i >= 0; --i) {
+                num = num * 10 + mapping[digits[i]];
+            }
+            return num;
+        };
+        
+        vector<pair<int, int>> num_pairs;
+        for (int num: nums) {
+            num_pairs.emplace_back(transfer(num), num);
+        }
+        stable_sort(num_pairs.begin(), num_pairs.end(), [](const auto& lhs, const auto& rhs) {
+            return lhs.first < rhs.first;
+        });
+
+        vector<int> ans;
+        for (const auto& [_, num]: num_pairs) {
+            ans.push_back(num);
+        }
+        return ans;
+    }
+};

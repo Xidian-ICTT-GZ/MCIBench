@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $grid\n     * @param Integer $k\n     * @return Integer[][]\n     */\n    function rotateGrid($grid, $k) {\n        \n    }\n}"

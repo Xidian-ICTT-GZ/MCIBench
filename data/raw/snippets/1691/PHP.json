@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $cuboids\n     * @return Integer\n     */\n    function maxHeight($cuboids) {\n        \n    }\n}"

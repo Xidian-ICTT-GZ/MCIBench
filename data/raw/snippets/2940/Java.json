@@ -1,0 +1,1 @@
+"class Solution {\n    public int[] leftmostBuildingQueries(int[] heights, int[][] queries) {\n        \n    }\n}"

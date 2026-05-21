@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec is_possible(n :: integer, edges :: [[integer]]) :: boolean\n  def is_possible(n, edges) do\n    \n  end\nend"

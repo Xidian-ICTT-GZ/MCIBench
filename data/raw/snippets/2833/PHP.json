@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $moves\n     * @return Integer\n     */\n    function furthestDistanceFromOrigin($moves) {\n        \n    }\n}"

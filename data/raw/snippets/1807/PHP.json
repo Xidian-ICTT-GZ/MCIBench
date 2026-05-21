@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $s\n     * @param String[][] $knowledge\n     * @return String\n     */\n    function evaluate($s, $knowledge) {\n        \n    }\n}"

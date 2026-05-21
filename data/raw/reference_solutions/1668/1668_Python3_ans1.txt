@@ -1,0 +1,17 @@
+class Solution:
+    def maxRepeating(self, sequence: str, word: str) -> int:
+        n, m = len(sequence), len(word)
+        if n < m:
+            return 0
+        
+        f = [0] * n
+        for i in range(m - 1, n):
+            valid = True
+            for j in range(m):
+                if sequence[i - m + j + 1] != word[j]:
+                    valid = False
+                    break
+            if valid:
+                f[i] = (0 if i == m - 1 else f[i - m]) + 1
+        
+        return max(f)

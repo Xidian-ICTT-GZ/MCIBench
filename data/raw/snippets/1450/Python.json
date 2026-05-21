@@ -1,0 +1,1 @@
+"class Solution(object):\n    def busyStudent(self, startTime, endTime, queryTime):\n        \"\"\"\n        :type startTime: List[int]\n        :type endTime: List[int]\n        :type queryTime: int\n        :rtype: int\n        \"\"\"\n        "

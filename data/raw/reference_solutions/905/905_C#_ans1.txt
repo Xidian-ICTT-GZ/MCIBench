@@ -1,0 +1,17 @@
+public class Solution {
+    public int[] SortArrayByParity(int[] nums) {
+        int n = nums.Length, index = 0;
+        int[] res = new int[n];
+        foreach (int num in nums) {
+            if (num % 2 == 0) {
+                res[index++] = num;
+            }
+        }
+        foreach (int num in nums) {
+            if (num % 2 == 1) {
+                res[index++] = num;
+            }
+        }
+        return res;
+    }
+}

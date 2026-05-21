@@ -1,0 +1,1 @@
+"type TreeAncestor struct {\n    \n}\n\n\nfunc Constructor(n int, parent []int) TreeAncestor {\n    \n}\n\n\nfunc (this *TreeAncestor) GetKthAncestor(node int, k int) int {\n    \n}\n\n\n/**\n * Your TreeAncestor object will be instantiated and called as such:\n * obj := Constructor(n, parent);\n * param_1 := obj.GetKthAncestor(node,k);\n */"

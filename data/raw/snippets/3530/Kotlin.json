@@ -1,0 +1,1 @@
+"class Solution {\n    fun maxProfit(n: Int, edges: Array<IntArray>, score: IntArray): Int {\n        \n    }\n}"

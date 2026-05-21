@@ -1,0 +1,1 @@
+"-spec magical_sum(M :: integer(), K :: integer(), Nums :: [integer()]) -> integer().\nmagical_sum(M, K, Nums) ->\n  ."

@@ -1,0 +1,1 @@
+"class Solution:\n    def countGoodArrays(self, n: int, m: int, k: int) -> int:\n        "

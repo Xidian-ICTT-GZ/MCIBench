@@ -1,0 +1,1 @@
+"class Solution(object):\n    def complexNumberMultiply(self, num1, num2):\n        \"\"\"\n        :type num1: str\n        :type num2: str\n        :rtype: str\n        \"\"\"\n        "

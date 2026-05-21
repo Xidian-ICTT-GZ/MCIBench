@@ -1,0 +1,48 @@
+#define MAX_STR_LEN 32
+
+int atMostNGivenDigitSet(char ** digits, int digitsSize, int n){
+    char s[MAX_STR_LEN];
+    sprintf(s, "%d", n);
+    int m = digitsSize, k = strlen(s);
+    int bits[MAX_STR_LEN], pos = 0;
+    bool isLimit = true;
+    for (int i = 0; i < k; i++) {
+        if (!isLimit) {
+            bits[pos++] = m - 1;
+        } else {
+            int selectIndex = -1;
+            for (int j = 0; j < m; j++) {
+                if (digits[j][0] <= s[i]) {
+                    selectIndex = j;
+                } else {
+                    break;
+                }
+            }
+            if (selectIndex >= 0) {
+                bits[pos++] = selectIndex;
+                if (digits[selectIndex][0] < s[i]) {
+                    isLimit = false;
+                }
+            } else {
+                int len = pos;
+                while (pos > 0 && bits[pos - 1] == 0) {
+                    pos--;
+                }
+                if (pos > 0) {
+                    bits[pos - 1] -= 1;
+                } else {
+                    len--;
+                }
+                while (pos <= len) {
+                    bits[pos++] = m - 1;
+                }
+                isLimit = false;
+            }
+        }
+    }
+    int ans = 0;
+    for (int i = 0; i < pos; i++) {
+        ans = ans * m + (bits[i] + 1);
+    }
+    return ans;
+}

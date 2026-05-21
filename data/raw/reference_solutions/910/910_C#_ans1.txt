@@ -1,0 +1,12 @@
+public class Solution {
+    public int SmallestRangeII(int[] nums, int k) {
+        Array.Sort(nums);
+        int mi = nums[0], ma = nums[nums.Length - 1];
+        int res = ma - mi;
+        for (int i = 0; i < nums.Length - 1; i++) {
+            int a = nums[i], b = nums[i + 1];
+            res = Math.Min(res, Math.Max(ma - k, a + k) - Math.Min(mi + k, b - k));
+        }
+        return res;
+    }
+}

@@ -1,0 +1,1 @@
+"(define/contract (max-substring-length s k)\n  (-> string? exact-integer? boolean?)\n  )"

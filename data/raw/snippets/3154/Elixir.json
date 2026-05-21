@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec ways_to_reach_stair(k :: integer) :: integer\n  def ways_to_reach_stair(k) do\n    \n  end\nend"

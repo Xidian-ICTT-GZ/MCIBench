@@ -1,0 +1,1 @@
+"/**\n * @param {string} s\n * @return {number}\n */\nvar longestSemiRepetitiveSubstring = function(s) {\n    \n};"

@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<int> recoverArray(int n, vector<int>& sums) {\n        \n    }\n};"

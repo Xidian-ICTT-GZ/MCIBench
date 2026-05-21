@@ -1,0 +1,1 @@
+"-spec min_days(Grid :: [[integer()]]) -> integer().\nmin_days(Grid) ->\n  ."

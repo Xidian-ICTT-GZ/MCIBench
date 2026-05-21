@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec count_paths(n :: integer, roads :: [[integer]]) :: integer\n  def count_paths(n, roads) do\n    \n  end\nend"

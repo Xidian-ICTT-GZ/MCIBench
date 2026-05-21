@@ -1,0 +1,1 @@
+"class Solution {\n    fun rangeAddQueries(n: Int, queries: Array<IntArray>): Array<IntArray> {\n        \n    }\n}"

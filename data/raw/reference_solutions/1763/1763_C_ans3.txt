@@ -1,0 +1,58 @@
+void check(const char * s, int typeNum, int * maxPos, int * maxLen) {
+    int lowerCnt[26], upperCnt[26];
+    memset(lowerCnt, 0, sizeof(lowerCnt));
+    memset(upperCnt, 0, sizeof(upperCnt));
+    int n = strlen(s);
+    int cnt = 0;
+    for (int l = 0, r = 0, total = 0; r < n; ++r) {
+        int idx = tolower(s[r]) - 'a';
+        if (islower(s[r])) {
+            ++lowerCnt[idx];
+            if (lowerCnt[idx] == 1 && upperCnt[idx] > 0) {
+                ++cnt;
+            }
+        } else {
+            ++upperCnt[idx];
+            if (upperCnt[idx] == 1 && lowerCnt[idx] > 0) {
+                ++cnt;
+            }
+        }
+        total += (lowerCnt[idx] + upperCnt[idx]) == 1 ? 1 : 0;
+        
+        while (total > typeNum) {
+            int idx = tolower(s[l]) - 'a';
+            total -= (lowerCnt[idx] + upperCnt[idx]) == 1 ? 1 : 0;
+            if (islower(s[l])) {
+                --lowerCnt[idx];
+                if (lowerCnt[idx] == 0 && upperCnt[idx] > 0) {
+                    --cnt;
+                }
+            } else {
+                --upperCnt[idx];
+                if (upperCnt[idx] == 0 && lowerCnt[idx] > 0) {
+                    --cnt;
+                }
+            }
+            ++l;
+        }
+        if (cnt == typeNum && r - l + 1 > *maxLen) {
+            *maxPos = l;
+            *maxLen = r - l + 1;
+        }
+    }
+}
+
+char * longestNiceSubstring(char * s){
+    int maxPos = 0, maxLen = 0;
+    int mask = 0;
+    int n = strlen(s);
+    for (int i = 0; i < n; ++i) {
+        mask |= 1 << (tolower(s[i]) - 'a');
+    }
+    int types = __builtin_popcount(mask);
+    for (int i = 1; i <= types; ++i) {
+        check(s, i, &maxPos, &maxLen);
+    }
+    s[maxPos + maxLen] = '\0';
+    return s + maxPos;
+}

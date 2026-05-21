@@ -1,0 +1,1 @@
+"(define/contract (make-good s)\n  (-> string? string?)\n  )"

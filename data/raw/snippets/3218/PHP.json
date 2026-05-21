@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $m\n     * @param Integer $n\n     * @param Integer[] $horizontalCut\n     * @param Integer[] $verticalCut\n     * @return Integer\n     */\n    function minimumCost($m, $n, $horizontalCut, $verticalCut) {\n        \n    }\n}"

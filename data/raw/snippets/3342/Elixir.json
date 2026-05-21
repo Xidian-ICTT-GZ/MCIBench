@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec min_time_to_reach(move_time :: [[integer]]) :: integer\n  def min_time_to_reach(move_time) do\n    \n  end\nend"

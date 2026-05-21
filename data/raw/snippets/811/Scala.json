@@ -1,0 +1,1 @@
+"object Solution {\n    def subdomainVisits(cpdomains: Array[String]): List[String] = {\n        \n    }\n}"

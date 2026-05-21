@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec hardest_worker(n :: integer, logs :: [[integer]]) :: integer\n  def hardest_worker(n, logs) do\n    \n  end\nend"

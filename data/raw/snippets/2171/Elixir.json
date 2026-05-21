@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec minimum_removal(beans :: [integer]) :: integer\n  def minimum_removal(beans) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec maximum_even_split(final_sum :: integer) :: [integer]\n  def maximum_even_split(final_sum) do\n    \n  end\nend"

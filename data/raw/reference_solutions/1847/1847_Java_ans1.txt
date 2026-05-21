@@ -1,0 +1,69 @@
+class Event implements Comparable<Event> {
+    int type, size, id, origin;
+
+    public Event(int type, int size, int id, int origin) {
+        this.type = type;
+        this.size = size;
+        this.id = id;
+        this.origin = origin;
+    }
+
+    @Override
+    public int compareTo(Event that) {
+        
+        
+        if (this.size != that.size) {
+            return Integer.compare(that.size, this.size);
+        } else {
+            return Integer.compare(this.type, that.type);
+        }
+    }
+}
+
+class Solution {
+    public int[] closestRoom(int[][] rooms, int[][] queries) {
+        int m = rooms.length;
+        int n = queries.length;
+
+        
+        List<Event> events = new ArrayList<>();
+        for (int i = 0; i < m; ++i) {
+            
+            events.add(new Event(0, rooms[i][1], rooms[i][0], i));
+        }
+        for (int i = 0; i < n; ++i) {
+            
+            events.add(new Event(1, queries[i][1], queries[i][0], i));
+        }
+        
+        Collections.sort(events);
+        int[] ans = new int[n];
+        Arrays.fill(ans, -1);
+        
+        TreeSet<Integer> valid = new TreeSet<>();
+
+        for (Event event : events) {
+            if (event.type == 0) {
+                
+                valid.add(event.id);
+            } else {
+                
+                Integer higher = valid.ceiling(event.id);
+                Integer lower = valid.floor(event.id);
+                int dist = Integer.MAX_VALUE;
+
+                
+                if (higher != null && higher - event.id < dist) {
+                    dist = higher - event.id;
+                    ans[event.origin] = higher;
+                }
+                
+                if (lower != null && event.id - lower <= dist) {
+                    ans[event.origin] = lower;
+                }
+            }
+        }
+
+        return ans;
+    }
+}

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec break_palindrome(palindrome :: String.t) :: String.t\n  def break_palindrome(palindrome) do\n    \n  end\nend"

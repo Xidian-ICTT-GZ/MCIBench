@@ -1,0 +1,1 @@
+"class Solution(object):\n    def kthSmallestPath(self, destination, k):\n        \"\"\"\n        :type destination: List[int]\n        :type k: int\n        :rtype: str\n        \"\"\"\n        "

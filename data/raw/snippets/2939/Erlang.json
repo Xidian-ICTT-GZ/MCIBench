@@ -1,0 +1,1 @@
+"-spec maximum_xor_product(A :: integer(), B :: integer(), N :: integer()) -> integer().\nmaximum_xor_product(A, B, N) ->\n  ."

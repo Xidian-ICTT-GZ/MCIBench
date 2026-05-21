@@ -1,0 +1,1 @@
+"class Solution:\n    def maxDifference(self, s: str, k: int) -> int:\n        "

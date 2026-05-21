@@ -1,0 +1,1 @@
+"object Solution {\n    def collectTheCoins(coins: Array[Int], edges: Array[Array[Int]]): Int = {\n        \n    }\n}"

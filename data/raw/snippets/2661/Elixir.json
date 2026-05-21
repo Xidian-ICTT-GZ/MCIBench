@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec first_complete_index(arr :: [integer], mat :: [[integer]]) :: integer\n  def first_complete_index(arr, mat) do\n    \n  end\nend"

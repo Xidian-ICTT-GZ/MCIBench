@@ -1,0 +1,1 @@
+"object Solution {\n    def minCostToEqualizeArray(nums: Array[Int], cost1: Int, cost2: Int): Int = {\n        \n    }\n}"

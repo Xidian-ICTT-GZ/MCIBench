@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @param {Integer[][]} edges\n# @return {Integer}\ndef component_value(nums, edges)\n    \nend"

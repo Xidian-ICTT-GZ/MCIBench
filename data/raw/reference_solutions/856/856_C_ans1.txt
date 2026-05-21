@@ -1,0 +1,27 @@
+int scoreOfParentheses(char * s) {
+    int n = strlen(s);
+    if (n == 2) {
+        return 1;
+    }
+    int bal = 0, len = 0;
+    for (int i = 0; i < n; i++) {
+        bal += (s[i] == '(' ? 1 : -1);
+        if (bal == 0) {
+            len = i + 1;
+            break;
+        }
+    }
+    if (len == n) {
+        char str[n - 1];
+        strncpy(str, s + 1, n - 2);
+        str[n - 2] = '\0';
+        return 2 * scoreOfParentheses(str);
+    } else {
+        char str1[len + 1], str2[n - len + 1];
+        strncpy(str1, s, len);
+        str1[len] = '\0';
+        strncpy(str2, s + len, n - len);
+        str2[n - len] = '\0';
+        return scoreOfParentheses(str1) + scoreOfParentheses(str2);
+    }
+}

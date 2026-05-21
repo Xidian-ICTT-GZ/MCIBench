@@ -1,0 +1,1 @@
+"class Solution(object):\n    def minimumString(self, a, b, c):\n        \"\"\"\n        :type a: str\n        :type b: str\n        :type c: str\n        :rtype: str\n        \"\"\"\n        "

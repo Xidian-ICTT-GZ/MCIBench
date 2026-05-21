@@ -1,0 +1,1 @@
+"class Solution:\n    def maximumOddBinaryNumber(self, s: str) -> str:\n        "

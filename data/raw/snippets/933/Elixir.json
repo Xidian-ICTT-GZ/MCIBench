@@ -1,0 +1,1 @@
+"defmodule RecentCounter do\n  @spec init_() :: any\n  def init_() do\n    \n  end\n\n  @spec ping(t :: integer) :: integer\n  def ping(t) do\n    \n  end\nend\n\n# Your functions will be called as such:\n# RecentCounter.init_()\n# param_1 = RecentCounter.ping(t)\n\n# RecentCounter.init_ will be called before every test case, in which you can do some necessary initializations."

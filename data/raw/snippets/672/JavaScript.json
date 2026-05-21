@@ -1,0 +1,1 @@
+"/**\n * @param {number} n\n * @param {number} presses\n * @return {number}\n */\nvar flipLights = function(n, presses) {\n    \n};"

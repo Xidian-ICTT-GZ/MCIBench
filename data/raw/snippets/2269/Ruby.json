@@ -1,0 +1,1 @@
+"# @param {Integer} num\n# @param {Integer} k\n# @return {Integer}\ndef divisor_substrings(num, k)\n    \nend"

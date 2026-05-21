@@ -1,0 +1,1 @@
+"class Solution {\n    func goodSubtreeSum(vals: Array<Int64>, par: Array<Int64>): Int64 {\n\n    }\n}"

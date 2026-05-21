@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<int> minimumTime(int n, vector<vector<int>>& edges, vector<int>& disappear) {\n        \n    }\n};"

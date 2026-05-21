@@ -1,0 +1,1 @@
+"import pandas as pd\n\ndef rearrange_products_table(products: pd.DataFrame) -> pd.DataFrame:\n    "

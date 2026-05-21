@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec self_dividing_numbers(left :: integer, right :: integer) :: [integer]\n  def self_dividing_numbers(left, right) do\n    \n  end\nend"

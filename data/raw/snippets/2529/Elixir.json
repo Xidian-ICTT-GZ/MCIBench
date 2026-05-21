@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec maximum_count(nums :: [integer]) :: integer\n  def maximum_count(nums) do\n    \n  end\nend"

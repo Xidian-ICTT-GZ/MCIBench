@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $s\n     * @param Integer[][] $queries\n     * @return Integer[][]\n     */\n    function substringXorQueries($s, $queries) {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec min_integer(num :: String.t, k :: integer) :: String.t\n  def min_integer(num, k) do\n    \n  end\nend"

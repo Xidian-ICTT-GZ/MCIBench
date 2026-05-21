@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $original\n     * @param Integer $m\n     * @param Integer $n\n     * @return Integer[][]\n     */\n    function construct2DArray($original, $m, $n) {\n        \n    }\n}"

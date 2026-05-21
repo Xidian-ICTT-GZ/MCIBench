@@ -1,0 +1,1 @@
+"(define/contract (find-replace-string s indices sources targets)\n  (-> string? (listof exact-integer?) (listof string?) (listof string?) string?)\n  )"

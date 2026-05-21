@@ -1,0 +1,1 @@
+"# @param {String} ransom_note\n# @param {String} magazine\n# @return {Boolean}\ndef can_construct(ransom_note, magazine)\n    \nend"

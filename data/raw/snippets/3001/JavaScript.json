@@ -1,0 +1,1 @@
+"/**\n * @param {number} a\n * @param {number} b\n * @param {number} c\n * @param {number} d\n * @param {number} e\n * @param {number} f\n * @return {number}\n */\nvar minMovesToCaptureTheQueen = function(a, b, c, d, e, f) {\n    \n};"

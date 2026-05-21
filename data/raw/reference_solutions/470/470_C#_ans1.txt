@@ -1,0 +1,11 @@
+public class Solution : SolBase {
+    public int Rand10() {
+        int row, col, idx;
+        do {
+            row = Rand7();
+            col = Rand7();
+            idx = col + (row - 1) * 7;
+        } while (idx > 40);
+        return 1 + (idx - 1) % 10;
+    }
+}

@@ -1,0 +1,60 @@
+func minimumMoves(nums []int, k int, maxChanges int) int64 {
+    n := len(nums)
+    f := func(i int) int {
+        x := nums[i]
+        if i - 1 >= 0 {
+            x += nums[i - 1]
+        }
+        if i + 1 < n {
+            x += nums[i + 1]
+        }
+        return x
+    }
+
+    left, right := 0, -1
+    leftSum, rightSum := int64(0), int64(0)
+    leftCount, rightCount := int64(0), int64(0)
+    var res int64 = math.MaxInt64
+    for i := 0; i < n; i++ {
+        if f(i) + maxChanges >= k {
+            if k <= f(i) {
+                res = min(res, int64(k - nums[i]))
+            } else {
+                res = min(res, int64(2 * k - f(i) - nums[i]))
+            }
+        }
+        if k <= maxChanges {
+            continue
+        }
+        for right + 1 < n && (right - i < i - left || leftCount + rightCount + int64(maxChanges) < int64(k)) {
+            if (nums[right + 1] == 1) {
+                rightCount++;
+                rightSum += int64(right) + 1;
+            }
+            right++;
+        }
+        for leftCount + rightCount + int64(maxChanges) > int64(k) {
+            if right - i < i - left || right - i == i - left && nums[left] == 1 {
+                if nums[left] == 1 {
+                    leftCount--;
+                    leftSum -= int64(left);
+                }
+                left++;
+            } else {
+                if nums[right] == 1 {
+                    rightCount--;
+                    rightSum -= int64(right);
+                }
+                right--;
+            }
+        }
+        res = min(res, leftCount * int64(i) - leftSum + rightSum - rightCount * int64(i) + 2 * int64(maxChanges));
+        if nums[i] == 1 {
+            leftCount++;
+            leftSum += int64(i);
+            rightCount--;
+            rightSum -= int64(i);
+        }
+    }
+    return res
+}

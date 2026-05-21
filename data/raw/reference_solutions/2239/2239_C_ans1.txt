@@ -1,0 +1,13 @@
+int findClosestNumber(int* nums, int numsSize) {
+    int res = nums[0];        
+    int dis = abs(nums[0]);   
+    for (int i = 0; i < numsSize; ++i) {
+        if (abs(nums[i]) < dis) {
+            dis = abs(nums[i]);
+            res = nums[i];
+        } else if (abs(nums[i]) == dis) {
+            res = fmax(res, nums[i]);
+        }
+    }
+    return res;
+}

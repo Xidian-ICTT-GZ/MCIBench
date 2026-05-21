@@ -1,0 +1,1 @@
+"(define/contract (max-target-nodes edges1 edges2 k)\n  (-> (listof (listof exact-integer?)) (listof (listof exact-integer?)) exact-integer? (listof exact-integer?))\n  )"

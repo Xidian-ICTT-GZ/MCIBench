@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec maximum_xor_product(a :: integer, b :: integer, n :: integer) :: integer\n  def maximum_xor_product(a, b, n) do\n    \n  end\nend"

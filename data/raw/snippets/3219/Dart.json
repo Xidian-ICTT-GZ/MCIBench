@@ -1,0 +1,1 @@
+"class Solution {\n  int minimumCost(int m, int n, List<int> horizontalCut, List<int> verticalCut) {\n    \n  }\n}"

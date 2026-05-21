@@ -1,0 +1,1 @@
+"(define/contract (get-max-grid-happiness m n introvertsCount extrovertsCount)\n  (-> exact-integer? exact-integer? exact-integer? exact-integer? exact-integer?)\n  )"

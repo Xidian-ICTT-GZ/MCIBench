@@ -1,0 +1,1 @@
+"class Solution {\n    func suggestedProducts(products: Array<String>, searchWord: String): ArrayList<ArrayList<String>> {\n\n    }\n}"

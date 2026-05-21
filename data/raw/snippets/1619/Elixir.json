@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec trim_mean(arr :: [integer]) :: float\n  def trim_mean(arr) do\n    \n  end\nend"

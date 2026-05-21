@@ -1,0 +1,1 @@
+"class Solution {\n    fun reportSpam(message: Array<String>, bannedWords: Array<String>): Boolean {\n        \n    }\n}"

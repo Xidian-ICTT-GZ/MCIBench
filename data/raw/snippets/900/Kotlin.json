@@ -1,0 +1,1 @@
+"class RLEIterator(encoding: IntArray) {\n\n    fun next(n: Int): Int {\n        \n    }\n\n}\n\n/**\n * Your RLEIterator object will be instantiated and called as such:\n * var obj = RLEIterator(encoding)\n * var param_1 = obj.next(n)\n */"

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec num_moves_stones_ii(stones :: [integer]) :: [integer]\n  def num_moves_stones_ii(stones) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"(define/contract (count-segments s)\n  (-> string? exact-integer?)\n  )"

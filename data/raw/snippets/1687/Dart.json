@@ -1,0 +1,1 @@
+"class Solution {\n  int boxDelivering(List<List<int>> boxes, int portsCount, int maxBoxes, int maxWeight) {\n    \n  }\n}"

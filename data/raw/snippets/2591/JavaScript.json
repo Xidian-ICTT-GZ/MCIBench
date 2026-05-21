@@ -1,0 +1,1 @@
+"/**\n * @param {number} money\n * @param {number} children\n * @return {number}\n */\nvar distMoney = function(money, children) {\n    \n};"

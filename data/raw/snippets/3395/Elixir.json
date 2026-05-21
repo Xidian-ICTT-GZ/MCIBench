@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec subsequences_with_middle_mode(nums :: [integer]) :: integer\n  def subsequences_with_middle_mode(nums) do\n    \n  end\nend"

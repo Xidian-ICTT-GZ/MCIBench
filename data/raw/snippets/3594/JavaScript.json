@@ -1,0 +1,1 @@
+"/**\n * @param {number} n\n * @param {number} k\n * @param {number} m\n * @param {number[]} time\n * @param {number[]} mul\n * @return {number}\n */\nvar minTime = function(n, k, m, time, mul) {\n    \n};"

@@ -1,0 +1,1 @@
+"type F = (x: number) => number;\n\nfunction compose(functions: F[]): F {\n    \n\treturn function(x) {\n        \n    }\n};\n\n/**\n * const fn = compose([x => x + 1, x => 2 * x])\n * fn(4) // 9\n */"

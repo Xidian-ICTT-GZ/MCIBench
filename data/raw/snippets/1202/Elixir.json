@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec smallest_string_with_swaps(s :: String.t, pairs :: [[integer]]) :: String.t\n  def smallest_string_with_swaps(s, pairs) do\n    \n  end\nend"

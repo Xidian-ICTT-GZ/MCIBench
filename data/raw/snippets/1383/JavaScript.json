@@ -1,0 +1,1 @@
+"/**\n * @param {number} n\n * @param {number[]} speed\n * @param {number[]} efficiency\n * @param {number} k\n * @return {number}\n */\nvar maxPerformance = function(n, speed, efficiency, k) {\n    \n};"

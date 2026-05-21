@@ -1,0 +1,1 @@
+"class Solution:\n    def numSub(self, s: str) -> int:\n        "

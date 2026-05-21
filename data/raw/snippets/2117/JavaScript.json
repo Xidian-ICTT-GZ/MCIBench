@@ -1,0 +1,1 @@
+"/**\n * @param {number} left\n * @param {number} right\n * @return {string}\n */\nvar abbreviateProduct = function(left, right) {\n    \n};"

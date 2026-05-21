@@ -1,0 +1,14 @@
+public class Solution {
+    public int PaintWalls(int[] cost, int[] time) {
+        int n = cost.Length;
+        int[] f = new int[n + 2];
+        Array.Fill(f, int.MaxValue / 2);
+        f[0] = 0;
+        for (int i = 0; i < n; ++i) {
+            for (int j = n + 1; j >= 0; --j) {
+                f[Math.Min(j + time[i], n) + 1] = Math.Min(f[Math.Min(j + time[i], n) + 1], f[j] + cost[i]);
+            }
+        }
+        return Math.Min(f[n], f[n + 1]);
+    }
+}

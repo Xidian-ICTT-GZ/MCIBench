@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int palindromePartition(string s, int k) {\n        \n    }\n};"

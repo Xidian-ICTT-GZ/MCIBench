@@ -1,0 +1,28 @@
+func canBeValid(s string, locked string) bool {
+    n := len(s)
+    mx := 0   
+    mn := 0   
+    for i := 0; i < n; i++ {
+        if locked[i] == '1' {
+            
+            var diff int
+            if s[i] == '(' {
+                diff = 1
+            } else {
+                diff = -1
+            }
+            mx += diff
+            mn = int(math.Max(float64(mn+diff), float64((i+1)%2)))
+        } else {
+            
+            mx++
+            mn = int(math.Max(float64(mn-1), float64((i+1)%2)))
+        }
+        if mx < mn {
+            
+            return false
+        }
+    }
+    
+    return mn == 0
+}

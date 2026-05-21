@@ -1,0 +1,10 @@
+impl Solution {
+    pub fn winning_player(x: i32, y: i32) -> String {
+        let ops = (x).min(y / 4);
+        if ops % 2 == 1 {
+            String::from("Alice")
+        } else {
+            String::from("Bob")
+        }
+    }
+}

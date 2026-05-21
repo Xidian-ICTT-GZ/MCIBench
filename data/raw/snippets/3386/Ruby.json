@@ -1,0 +1,1 @@
+"# @param {Integer[][]} events\n# @return {Integer}\ndef button_with_longest_time(events)\n    \nend"

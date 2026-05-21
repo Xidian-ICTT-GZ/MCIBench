@@ -1,0 +1,32 @@
+public class Solution {
+    public int MinDifficulty(int[] jobDifficulty, int d) {
+        int n = jobDifficulty.Length;
+        if (n < d) {
+            return -1;
+        }
+        int[][] dp = new int[d][];
+        for (int i = 0; i < d; ++i) {
+            dp[i] = new int[n];
+        }
+        for (int j = 0, ma = 0; j < n; ++j) {
+            ma = Math.Max(ma, jobDifficulty[j]);
+            dp[0][j] = ma;
+        }
+        for (int i = 1; i < d; ++i) {
+            Stack<Tuple<int, int>> stack = new Stack<Tuple<int, int>>();
+            for (int j = i; j < n; ++j) {
+                int mi = dp[i - 1][j - 1];
+                while (stack.Count > 0 && jobDifficulty[stack.Peek().Item1] < jobDifficulty[j]) {
+                    mi = Math.Min(mi, stack.Pop().Item2);
+                }
+                if (stack.Count == 0) {
+                    dp[i][j] = mi + jobDifficulty[j];
+                } else {
+                    dp[i][j] = Math.Min(dp[i][stack.Peek().Item1], mi + jobDifficulty[j]);
+                }
+                stack.Push(new Tuple<int, int>(j, mi));
+            }
+        }
+        return dp[d - 1][n - 1];
+    }
+}

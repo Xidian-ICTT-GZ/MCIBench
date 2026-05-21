@@ -1,0 +1,17 @@
+List<List<Integer>> ans = new ArrayList<List<Integer>>();
+List<Integer> temp = new ArrayList<Integer>();
+public void dfs(int cur, int[] nums) {
+    if (cur == nums.length) {
+        
+        if (isValid() && notVisited()) {
+            ans.add(new ArrayList<Integer>(temp));
+        }
+        return;
+    }
+    
+    temp.add(nums[cur]);
+    dfs(cur + 1, nums);
+    temp.remove(temp.size() - 1);
+    
+    dfs(cur + 1, nums);
+}

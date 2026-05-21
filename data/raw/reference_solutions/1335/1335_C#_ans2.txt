@@ -1,0 +1,26 @@
+public class Solution {
+    public int MinDifficulty(int[] jobDifficulty, int d) {
+        int n = jobDifficulty.Length;
+        if (n < d) {
+            return -1;
+        }
+        int[] dp = new int[n];
+        for (int i = 0, j = 0; i < n; ++i) {
+            j = Math.Max(j, jobDifficulty[i]);
+            dp[i] = j;
+        }
+        for (int i = 1; i < d; ++i) {
+            int[] ndp = new int[n];
+            Array.Fill(ndp, 0x3f3f3f3f);
+            for (int j = i; j < n; ++j) {
+                int ma = 0;
+                for (int k = j; k >= i; --k) {
+                    ma = Math.Max(ma, jobDifficulty[k]);
+                    ndp[j] = Math.Min(ndp[j], ma + dp[k - 1]);
+                }
+            }
+            dp = ndp;
+        }
+        return dp[n - 1];
+    }
+}

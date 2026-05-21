@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $envelopes\n     * @return Integer\n     */\n    function maxEnvelopes($envelopes) {\n        \n    }\n}"

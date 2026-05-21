@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec find_final_value(nums :: [integer], original :: integer) :: integer\n  def find_final_value(nums, original) do\n    \n  end\nend"

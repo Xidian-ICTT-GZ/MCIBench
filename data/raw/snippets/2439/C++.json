@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int minimizeArrayValue(vector<int>& nums) {\n        \n    }\n};"

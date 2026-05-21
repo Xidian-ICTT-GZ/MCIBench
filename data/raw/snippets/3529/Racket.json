@@ -1,0 +1,1 @@
+"(define/contract (count-cells grid pattern)\n  (-> (listof (listof char?)) string? exact-integer?)\n  )"

@@ -1,0 +1,44 @@
+impl Solution {
+    pub fn valid_substring_count(word1: String, word2: String) -> i64 {
+        let mut count = vec![0; 26];
+        for c in word2.chars() {
+            count[(c as u8 - b'a') as usize] += 1;
+        }
+
+        let n = word1.len();
+        let word1_bytes = word1.as_bytes();
+
+        let mut pre_count = vec![vec![0; 26]; n + 1];
+        for i in 1..=n {
+            pre_count[i] = pre_count[i - 1].clone();
+            pre_count[i][(word1_bytes[i - 1] - b'a') as usize] += 1;
+        }
+
+        let get = |mut l: usize, mut r: usize| {
+            let border = l - 1;
+            while l < r {
+                let m = (l + r) / 2;
+                let mut valid = true;
+                for i in 0..26 {
+                    if pre_count[m][i] - pre_count[border][i] < count[i] {
+                        valid = false;
+                        break;
+                    }
+                }
+                if valid {
+                    r = m;
+                } else {
+                    l = m + 1;
+                }
+            }
+            l
+        };
+
+        let mut res = 0;
+        for l in 1..=n {
+            let r = get(l, n + 1);
+            res += (n + 1 - r) as i64;
+        }
+        res
+    }
+}

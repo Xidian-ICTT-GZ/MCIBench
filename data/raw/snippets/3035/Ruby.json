@@ -1,0 +1,1 @@
+"# @param {String[]} words\n# @return {Integer}\ndef max_palindromes_after_operations(words)\n    \nend"

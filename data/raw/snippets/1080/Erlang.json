@@ -1,0 +1,1 @@
+"%% Definition for a binary tree node.\n%%\n%% -record(tree_node, {val = 0 :: integer(),\n%%                     left = null  :: 'null' | #tree_node{},\n%%                     right = null :: 'null' | #tree_node{}}).\n\n-spec sufficient_subset(Root :: #tree_node{} | null, Limit :: integer()) -> #tree_node{} | null.\nsufficient_subset(Root, Limit) ->\n  ."

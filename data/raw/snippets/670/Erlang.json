@@ -1,0 +1,1 @@
+"-spec maximum_swap(Num :: integer()) -> integer().\nmaximum_swap(Num) ->\n  ."

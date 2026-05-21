@@ -1,0 +1,1 @@
+"/**\n * @param {number} left\n * @param {number} right\n * @return {number[]}\n */\nvar selfDividingNumbers = function(left, right) {\n    \n};"

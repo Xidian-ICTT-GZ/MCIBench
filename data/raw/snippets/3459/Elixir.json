@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec len_of_v_diagonal(grid :: [[integer]]) :: integer\n  def len_of_v_diagonal(grid) do\n    \n  end\nend"

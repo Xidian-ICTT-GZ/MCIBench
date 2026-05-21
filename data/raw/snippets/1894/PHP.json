@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $chalk\n     * @param Integer $k\n     * @return Integer\n     */\n    function chalkReplacer($chalk, $k) {\n        \n    }\n}"

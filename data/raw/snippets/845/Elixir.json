@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec longest_mountain(arr :: [integer]) :: integer\n  def longest_mountain(arr) do\n    \n  end\nend"

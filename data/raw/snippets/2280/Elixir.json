@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec minimum_lines(stock_prices :: [[integer]]) :: integer\n  def minimum_lines(stock_prices) do\n    \n  end\nend"

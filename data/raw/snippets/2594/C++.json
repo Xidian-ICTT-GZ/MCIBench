@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    long long repairCars(vector<int>& ranks, int cars) {\n        \n    }\n};"

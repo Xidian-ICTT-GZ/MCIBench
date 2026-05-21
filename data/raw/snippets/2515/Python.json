@@ -1,0 +1,1 @@
+"class Solution(object):\n    def closestTarget(self, words, target, startIndex):\n        \"\"\"\n        :type words: List[str]\n        :type target: str\n        :type startIndex: int\n        :rtype: int\n        \"\"\"\n        "

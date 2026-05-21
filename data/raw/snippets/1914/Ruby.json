@@ -1,0 +1,1 @@
+"# @param {Integer[][]} grid\n# @param {Integer} k\n# @return {Integer[][]}\ndef rotate_grid(grid, k)\n    \nend"

@@ -1,0 +1,1 @@
+"/**\n * @param {string} expression\n * @return {number}\n */\nvar minOperationsToFlip = function(expression) {\n    \n};"

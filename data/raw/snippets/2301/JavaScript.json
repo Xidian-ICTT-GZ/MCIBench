@@ -1,0 +1,1 @@
+"/**\n * @param {string} s\n * @param {string} sub\n * @param {character[][]} mappings\n * @return {boolean}\n */\nvar matchReplacement = function(s, sub, mappings) {\n    \n};"

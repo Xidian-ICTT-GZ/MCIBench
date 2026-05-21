@@ -1,0 +1,1 @@
+"-spec count_sub_islands(Grid1 :: [[integer()]], Grid2 :: [[integer()]]) -> integer().\ncount_sub_islands(Grid1, Grid2) ->\n  ."

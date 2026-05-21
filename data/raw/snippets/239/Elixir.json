@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec max_sliding_window(nums :: [integer], k :: integer) :: [integer]\n  def max_sliding_window(nums, k) do\n    \n  end\nend"

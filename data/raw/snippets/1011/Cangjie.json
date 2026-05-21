@@ -1,0 +1,1 @@
+"class Solution {\n    func shipWithinDays(weights: Array<Int64>, days: Int64): Int64 {\n\n    }\n}"

@@ -1,0 +1,1 @@
+"class ATM {\npublic:\n    ATM() {\n        \n    }\n    \n    void deposit(vector<int> banknotesCount) {\n        \n    }\n    \n    vector<int> withdraw(int amount) {\n        \n    }\n};\n\n/**\n * Your ATM object will be instantiated and called as such:\n * ATM* obj = new ATM();\n * obj->deposit(banknotesCount);\n * vector<int> param_2 = obj->withdraw(amount);\n */"

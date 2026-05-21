@@ -1,0 +1,1 @@
+"# @param {String[]} key_name\n# @param {String[]} key_time\n# @return {String[]}\ndef alert_names(key_name, key_time)\n    \nend"

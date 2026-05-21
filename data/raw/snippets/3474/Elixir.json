@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec generate_string(str1 :: String.t, str2 :: String.t) :: String.t\n  def generate_string(str1, str2) do\n    \n  end\nend"

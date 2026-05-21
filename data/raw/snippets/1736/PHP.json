@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $time\n     * @return String\n     */\n    function maximumTime($time) {\n        \n    }\n}"

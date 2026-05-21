@@ -1,0 +1,1 @@
+"class Solution:\n    def createSortedArray(self, instructions: List[int]) -> int:\n        "

@@ -1,0 +1,7 @@
+var average = function(salary) {
+    let maxValue = Math.max(...salary);
+    let minValue = Math.min(...salary);
+    let sum = salary.reduce((acc, cur) => acc + cur, 0);
+    sum -= maxValue + minValue;
+    return sum / (salary.length - 2);
+};

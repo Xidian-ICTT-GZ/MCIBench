@@ -1,0 +1,1 @@
+"(define/contract (maximum-odd-binary-number s)\n  (-> string? string?)\n  )"

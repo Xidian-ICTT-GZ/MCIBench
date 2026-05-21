@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $n\n     * @param Integer[][] $paths\n     * @return Integer\n     */\n    function longestCommonSubpath($n, $paths) {\n        \n    }\n}"

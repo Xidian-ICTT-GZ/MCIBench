@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec concat_hex36(n :: integer) :: String.t\n  def concat_hex36(n) do\n    \n  end\nend"

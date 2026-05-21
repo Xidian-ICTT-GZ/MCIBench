@@ -1,0 +1,1 @@
+"object Solution {\n    def canSortArray(nums: Array[Int]): Boolean = {\n        \n    }\n}"

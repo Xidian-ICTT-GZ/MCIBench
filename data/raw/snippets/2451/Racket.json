@@ -1,0 +1,1 @@
+"(define/contract (odd-string words)\n  (-> (listof string?) string?)\n  )"

@@ -1,0 +1,1 @@
+"class Solution(object):\n    def finalPrices(self, prices):\n        \"\"\"\n        :type prices: List[int]\n        :rtype: List[int]\n        \"\"\"\n        "

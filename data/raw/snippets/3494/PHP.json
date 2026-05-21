@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $skill\n     * @param Integer[] $mana\n     * @return Integer\n     */\n    function minTime($skill, $mana) {\n        \n    }\n}"

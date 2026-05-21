@@ -1,0 +1,23 @@
+public class Solution {
+    public string LongestWord(string[] words) {
+        Array.Sort(words, (a, b) =>  {
+            if (a.Length != b.Length) {
+                return a.Length - b.Length;
+            } else {
+                return b.CompareTo(a);
+            }
+        });
+        string longest = "";
+        ISet<string> candidates = new HashSet<string>();
+        candidates.Add("");
+        int n = words.Length;
+        for (int i = 0; i < n; i++) {
+            string word = words[i];
+            if (candidates.Contains(word.Substring(0, word.Length - 1))) {
+                candidates.Add(word);
+                longest = word;
+            }
+        }
+        return longest;
+    }
+}

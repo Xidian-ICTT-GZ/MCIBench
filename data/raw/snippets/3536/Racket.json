@@ -1,0 +1,1 @@
+"(define/contract (max-product n)\n  (-> exact-integer? exact-integer?)\n  )"

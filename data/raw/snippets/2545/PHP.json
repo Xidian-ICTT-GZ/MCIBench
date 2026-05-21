@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $score\n     * @param Integer $k\n     * @return Integer[][]\n     */\n    function sortTheStudents($score, $k) {\n        \n    }\n}"

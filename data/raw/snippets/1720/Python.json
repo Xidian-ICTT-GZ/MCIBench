@@ -1,0 +1,1 @@
+"class Solution(object):\n    def decode(self, encoded, first):\n        \"\"\"\n        :type encoded: List[int]\n        :type first: int\n        :rtype: List[int]\n        \"\"\"\n        "

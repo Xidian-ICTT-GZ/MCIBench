@@ -1,0 +1,1 @@
+"object Solution {\n    def maxIncreasingGroups(usageLimits: List[Int]): Int = {\n        \n    }\n}"

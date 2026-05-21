@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer $p\n     * @return Integer\n     */\n    function minSubarray($nums, $p) {\n        \n    }\n}"

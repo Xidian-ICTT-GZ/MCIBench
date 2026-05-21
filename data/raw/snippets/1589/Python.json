@@ -1,0 +1,1 @@
+"class Solution(object):\n    def maxSumRangeQuery(self, nums, requests):\n        \"\"\"\n        :type nums: List[int]\n        :type requests: List[List[int]]\n        :rtype: int\n        \"\"\"\n        "

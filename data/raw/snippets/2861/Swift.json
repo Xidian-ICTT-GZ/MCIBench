@@ -1,0 +1,1 @@
+"class Solution {\n    func maxNumberOfAlloys(_ n: Int, _ k: Int, _ budget: Int, _ composition: [[Int]], _ stock: [Int], _ cost: [Int]) -> Int {\n        \n    }\n}"

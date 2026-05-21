@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $candies\n     * @param Integer $extraCandies\n     * @return Boolean[]\n     */\n    function kidsWithCandies($candies, $extraCandies) {\n        \n    }\n}"

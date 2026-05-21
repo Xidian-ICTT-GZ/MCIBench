@@ -1,0 +1,1 @@
+"class Solution:\n    def solveEquation(self, equation: str) -> str:\n        "

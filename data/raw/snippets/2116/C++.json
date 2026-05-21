@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    bool canBeValid(string s, string locked) {\n        \n    }\n};"

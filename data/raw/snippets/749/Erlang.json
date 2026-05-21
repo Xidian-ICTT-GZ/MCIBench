@@ -1,0 +1,1 @@
+"-spec contain_virus(IsInfected :: [[integer()]]) -> integer().\ncontain_virus(IsInfected) ->\n  ."

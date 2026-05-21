@@ -1,0 +1,1 @@
+"-spec min_max_subarray_sum(Nums :: [integer()], K :: integer()) -> integer().\nmin_max_subarray_sum(Nums, K) ->\n  ."

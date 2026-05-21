@@ -1,0 +1,40 @@
+public class FoodRatings {
+    private Dictionary<string, Tuple<int, string>> foodMap;
+    private Dictionary<string, SortedSet<Tuple<int, string>>> ratingMap;
+    private int n;
+
+    public FoodRatings(string[] foods, string[] cuisines, int[] ratings) {
+        n = foods.Length;
+        foodMap = new Dictionary<string, Tuple<int, string>>();
+        ratingMap = new Dictionary<string, SortedSet<Tuple<int, string>>>();
+
+        for (int i = 0; i < n; i++) {
+            string food = foods[i];
+            string cuisine = cuisines[i];
+            int rating = ratings[i];
+            foodMap[food] = Tuple.Create(rating, cuisine);
+            if (!ratingMap.ContainsKey(cuisine)) {
+                ratingMap[cuisine] = new SortedSet<Tuple<int, string>>(Comparer<Tuple<int, string>>.Create((a, b) => {
+                    if (a.Item1 != b.Item1) {
+                        return a.Item1.CompareTo(b.Item1);
+                    }
+                    return a.Item2.CompareTo(b.Item2);
+                }));
+            }
+            ratingMap[cuisine].Add(Tuple.Create(n - rating, food));
+        }
+    }
+    
+    public void ChangeRating(string food, int newRating) {
+        var pair = foodMap[food];
+        int oldRating = pair.Item1;
+        string cuisine = pair.Item2;
+        ratingMap[cuisine].Remove(Tuple.Create(n - oldRating, food));
+        ratingMap[cuisine].Add(Tuple.Create(n - newRating, food));
+        foodMap[food] = Tuple.Create(newRating, cuisine);
+    }
+    
+    public string HighestRated(string cuisine) {
+        return ratingMap[cuisine].Min.Item2;
+    }
+}

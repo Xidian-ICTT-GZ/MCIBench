@@ -1,0 +1,1 @@
+"# @param {Integer} low\n# @param {Integer} high\n# @return {Integer}\ndef count_odds(low, high)\n    \nend"

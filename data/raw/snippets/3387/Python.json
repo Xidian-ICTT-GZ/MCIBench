@@ -1,0 +1,1 @@
+"class Solution(object):\n    def maxAmount(self, initialCurrency, pairs1, rates1, pairs2, rates2):\n        \"\"\"\n        :type initialCurrency: str\n        :type pairs1: List[List[str]]\n        :type rates1: List[float]\n        :type pairs2: List[List[str]]\n        :type rates2: List[float]\n        :rtype: float\n        \"\"\"\n        "

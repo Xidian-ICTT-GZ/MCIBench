@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec distance_sum(m :: integer, n :: integer, k :: integer) :: integer\n  def distance_sum(m, n, k) do\n    \n  end\nend"

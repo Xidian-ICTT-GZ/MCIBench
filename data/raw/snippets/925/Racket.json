@@ -1,0 +1,1 @@
+"(define/contract (is-long-pressed-name name typed)\n  (-> string? string? boolean?)\n  )"

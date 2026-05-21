@@ -1,0 +1,1 @@
+"-spec image_smoother(Img :: [[integer()]]) -> [[integer()]].\nimage_smoother(Img) ->\n  ."

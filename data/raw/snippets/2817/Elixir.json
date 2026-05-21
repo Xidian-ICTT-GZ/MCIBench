@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec min_absolute_difference(nums :: [integer], x :: integer) :: integer\n  def min_absolute_difference(nums, x) do\n    \n  end\nend"

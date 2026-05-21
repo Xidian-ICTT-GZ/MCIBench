@@ -1,0 +1,1 @@
+"public class Solution {\n    public int MinTravelTime(int l, int n, int k, int[] position, int[] time) {\n        \n    }\n}"

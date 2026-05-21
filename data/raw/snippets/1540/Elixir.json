@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec can_convert_string(s :: String.t, t :: String.t, k :: integer) :: boolean\n  def can_convert_string(s, t, k) do\n    \n  end\nend"

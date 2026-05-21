@@ -1,0 +1,17 @@
+int* getNoZeroIntegers(int n, int* returnSize) {
+    char aStr[8], bStr[8];
+    for (int A = 1; A < n; ++A) {
+        int B = n - A;
+        sprintf(aStr, "%d", A);
+        sprintf(bStr, "%d", B);
+        if (strchr(aStr, '0') == NULL && strchr(bStr, '0') == NULL) {
+            int* result = malloc(2 * sizeof(int));
+            *returnSize = 2;
+            result[0] = A;
+            result[1] = B;
+            return result;
+        }
+    }
+    *returnSize = 0;
+    return NULL;
+}

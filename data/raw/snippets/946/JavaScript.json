@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} pushed\n * @param {number[]} popped\n * @return {boolean}\n */\nvar validateStackSequences = function(pushed, popped) {\n    \n};"

@@ -1,0 +1,25 @@
+bool carPooling(int **trips, int tripsSize, int *tripsColSize, int capacity) {
+    int toMax = 0;
+    for (int i = 0; i < tripsSize; i++) {
+        if (toMax < trips[i][2]) {
+            toMax = trips[i][2];
+        }
+    }
+
+    int *diff = malloc(sizeof(int) * (toMax + 1));
+    memset(diff, 0, sizeof(int) * (toMax + 1));
+    for (int i = 0; i < tripsSize; i++) {
+        diff[trips[i][1]] += trips[i][0];
+        diff[trips[i][2]] -= trips[i][0];
+    }
+
+    int count = 0;
+    for (int i = 0; i < toMax; i++) {
+        count += diff[i];
+        if (count > capacity) {
+            return false;
+        }
+    }
+    free(diff);
+    return true;
+}

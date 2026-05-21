@@ -1,0 +1,1 @@
+"/**\n * @param {string} encodedText\n * @param {number} rows\n * @return {string}\n */\nvar decodeCiphertext = function(encodedText, rows) {\n    \n};"

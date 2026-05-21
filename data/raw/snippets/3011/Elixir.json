@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec can_sort_array(nums :: [integer]) :: boolean\n  def can_sort_array(nums) do\n    \n  end\nend"

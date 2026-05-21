@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec find_max_average(nums :: [integer], k :: integer) :: float\n  def find_max_average(nums, k) do\n    \n  end\nend"

@@ -1,0 +1,10 @@
+func nthPersonGetsNthSeat(n int) float64 {
+    if n <= 2 {
+        return 1 / float64(n)
+    }
+    prob := 0.5
+    for i := 3; i <= n; i++ {
+        prob = (1 + float64(i - 2) * prob) / float64(i)
+    }
+    return prob
+}

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec mct_from_leaf_values(arr :: [integer]) :: integer\n  def mct_from_leaf_values(arr) do\n    \n  end\nend"

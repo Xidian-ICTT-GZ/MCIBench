@@ -1,0 +1,1 @@
+"(define/contract (distribute-cookies cookies k)\n  (-> (listof exact-integer?) exact-integer? exact-integer?)\n  )"

@@ -1,0 +1,1 @@
+"class Solution(object):\n    def strongPasswordChecker(self, password):\n        \"\"\"\n        :type password: str\n        :rtype: int\n        \"\"\"\n        "

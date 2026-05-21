@@ -1,0 +1,1 @@
+"class Solution(object):\n    def longestCommonPrefix(self, arr1, arr2):\n        \"\"\"\n        :type arr1: List[int]\n        :type arr2: List[int]\n        :rtype: int\n        \"\"\"\n        "

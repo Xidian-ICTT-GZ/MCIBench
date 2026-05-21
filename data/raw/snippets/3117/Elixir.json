@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec minimum_value_sum(nums :: [integer], and_values :: [integer]) :: integer\n  def minimum_value_sum(nums, and_values) do\n    \n  end\nend"

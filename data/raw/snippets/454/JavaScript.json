@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} nums1\n * @param {number[]} nums2\n * @param {number[]} nums3\n * @param {number[]} nums4\n * @return {number}\n */\nvar fourSumCount = function(nums1, nums2, nums3, nums4) {\n    \n};"

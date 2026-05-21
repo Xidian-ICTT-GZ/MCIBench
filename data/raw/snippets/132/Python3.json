@@ -1,0 +1,1 @@
+"class Solution:\n    def minCut(self, s: str) -> int:\n        "

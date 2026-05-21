@@ -1,0 +1,15 @@
+use std::cmp::min;
+use std::cmp::max;
+
+impl Solution {
+    pub fn two_egg_drop(n: i32) -> i32 {
+        let mut f = vec![i32::MAX / 2; n as usize + 1];
+        f[0] = 0;
+        for i in 1..= (n as usize) {
+            for k in 1..= i {
+                f[i] = min(f[i], max(f[i - k], k as i32 - 1) + 1)
+            }
+        }
+        f[n as usize]
+    }
+}

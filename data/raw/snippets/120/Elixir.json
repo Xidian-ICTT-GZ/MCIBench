@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec minimum_total(triangle :: [[integer]]) :: integer\n  def minimum_total(triangle) do\n    \n  end\nend"

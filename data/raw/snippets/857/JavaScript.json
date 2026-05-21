@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} quality\n * @param {number[]} wage\n * @param {number} k\n * @return {number}\n */\nvar mincostToHireWorkers = function(quality, wage, k) {\n    \n};"

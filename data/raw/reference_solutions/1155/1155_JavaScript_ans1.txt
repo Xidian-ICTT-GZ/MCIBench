@@ -1,0 +1,15 @@
+var numRollsToTarget = function(n, k, target) {
+    const mod = 1e9 + 7;
+    f = new Array(n + 1).fill(0).map(() => new Array(target + 1).fill(0));
+    f[0][0] = 1;
+    for (let i = 1; i <= n; i++) {
+        for (let j = 0; j <= target; j++) {
+            for (let x = 1; x <= k; x++) {
+                if (j - x >= 0) {
+                    f[i][j] = (f[i][j] + f[i - 1][j - x]) % mod;
+                }
+            }
+        }
+    }
+    return f[n][target];
+};

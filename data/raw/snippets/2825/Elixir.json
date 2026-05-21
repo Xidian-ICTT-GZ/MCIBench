@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec can_make_subsequence(str1 :: String.t, str2 :: String.t) :: boolean\n  def can_make_subsequence(str1, str2) do\n    \n  end\nend"

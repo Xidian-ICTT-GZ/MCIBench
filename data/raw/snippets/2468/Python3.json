@@ -1,0 +1,1 @@
+"class Solution:\n    def splitMessage(self, message: str, limit: int) -> List[str]:\n        "

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec interval_intersection(first_list :: [[integer]], second_list :: [[integer]]) :: [[integer]]\n  def interval_intersection(first_list, second_list) do\n    \n  end\nend"

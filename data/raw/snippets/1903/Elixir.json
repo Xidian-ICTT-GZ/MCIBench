@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec largest_odd_number(num :: String.t) :: String.t\n  def largest_odd_number(num) do\n    \n  end\nend"

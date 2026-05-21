@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec closest_room(rooms :: [[integer]], queries :: [[integer]]) :: [integer]\n  def closest_room(rooms, queries) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec minimize_array_value(nums :: [integer]) :: integer\n  def minimize_array_value(nums) do\n    \n  end\nend"

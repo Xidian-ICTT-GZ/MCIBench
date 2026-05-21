@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec min_operations_queries(n :: integer, edges :: [[integer]], queries :: [[integer]]) :: [integer]\n  def min_operations_queries(n, edges, queries) do\n    \n  end\nend"

@@ -1,0 +1,15 @@
+public class Solution {
+    public int FindMaxK(int[] nums) {
+        int k = -1;
+        ISet<int> set = new HashSet<int>();
+        foreach (int x in nums) {
+            set.Add(x);
+        }
+        foreach (int x in nums) {
+            if (set.Contains(-x)) {
+                k = Math.Max(k, x);
+            }
+        }
+        return k;
+    }
+}

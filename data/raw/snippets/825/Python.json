@@ -1,0 +1,1 @@
+"class Solution(object):\n    def numFriendRequests(self, ages):\n        \"\"\"\n        :type ages: List[int]\n        :rtype: int\n        \"\"\"\n        "

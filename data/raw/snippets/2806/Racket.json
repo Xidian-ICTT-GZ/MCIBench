@@ -1,0 +1,1 @@
+"(define/contract (account-balance-after-purchase purchaseAmount)\n  (-> exact-integer? exact-integer?)\n  )"

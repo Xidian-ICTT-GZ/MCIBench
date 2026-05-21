@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $s\n     * @param String $t\n     * @param Integer[] $nextCost\n     * @param Integer[] $previousCost\n     * @return Integer\n     */\n    function shiftDistance($s, $t, $nextCost, $previousCost) {\n        \n    }\n}"

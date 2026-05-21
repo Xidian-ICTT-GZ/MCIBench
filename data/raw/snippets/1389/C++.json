@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<int> createTargetArray(vector<int>& nums, vector<int>& index) {\n        \n    }\n};"

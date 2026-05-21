@@ -1,0 +1,1 @@
+"-spec sum_zero(N :: integer()) -> [integer()].\nsum_zero(N) ->\n  ."

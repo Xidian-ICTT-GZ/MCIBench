@@ -1,0 +1,57 @@
+bool possibleBipartition(int n, int** dislikes, int dislikesSize, int* dislikesColSize) {
+    int color[n + 1];
+    struct ListNode *g[n + 1];
+    for (int i = 0; i <= n; i++) {
+        color[i] = 0;
+        g[i] = NULL;
+    }
+    for (int i = 0; i < dislikesSize; i++) {
+        int a = dislikes[i][0], b = dislikes[i][1];
+        struct ListNode *node = (struct ListNode *)malloc(sizeof(struct ListNode));
+        node->val = a;
+        node->next = g[b];
+        g[b] = node;
+        node = (struct ListNode *)malloc(sizeof(struct ListNode));
+        node->val = b;
+        node->next = g[a];
+        g[a] = node;
+    }
+    for (int i = 1; i <= n; ++i) {
+        if (color[i] == 0) {
+            int queue[n];
+            int head = 0, tail = 0;
+            queue[tail++] = i;
+            color[i] = 1;
+            while (head != tail) {
+                int t = queue[head++];
+                for (struct ListNode *nextNode = g[t]; nextNode; nextNode = nextNode->next) {
+                    int next = nextNode->val;
+                    if (color[next] > 0 && color[next] == color[t]) {
+                        for (int j = 0; j <= n; j++) {
+                            struct ListNode * node = g[j];
+                            while (node) {
+                                struct ListNode * prev = node;
+                                node = node->next;
+                                free(prev);
+                            }
+                        }
+                        return false;
+                    }
+                    if (color[next] == 0) {
+                        color[next] = 3 ^ color[t];
+                        queue[tail++] = next;
+                    }
+                }
+            }
+        }
+    }
+    for (int j = 0; j <= n; j++) {
+        struct ListNode * node = g[j];
+        while (node) {
+            struct ListNode * prev = node;
+            node = node->next;
+            free(prev);
+        }
+    }
+    return true;
+}

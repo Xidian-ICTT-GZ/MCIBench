@@ -1,0 +1,1 @@
+"# @param {Integer[][]} rectangles\n# @return {Integer}\ndef interchangeable_rectangles(rectangles)\n    \nend"

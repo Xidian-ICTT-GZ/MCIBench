@@ -1,0 +1,1 @@
+"impl Solution {\n    pub fn smallest_divisor(nums: Vec<i32>, threshold: i32) -> i32 {\n        \n    }\n}"

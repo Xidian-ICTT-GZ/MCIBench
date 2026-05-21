@@ -1,0 +1,1 @@
+"class MKAverage(m: Int, k: Int) {\n\n    fun addElement(num: Int) {\n        \n    }\n\n    fun calculateMKAverage(): Int {\n        \n    }\n\n}\n\n/**\n * Your MKAverage object will be instantiated and called as such:\n * var obj = MKAverage(m, k)\n * obj.addElement(num)\n * var param_2 = obj.calculateMKAverage()\n */"

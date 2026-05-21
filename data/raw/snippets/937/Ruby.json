@@ -1,0 +1,1 @@
+"# @param {String[]} logs\n# @return {String[]}\ndef reorder_log_files(logs)\n    \nend"

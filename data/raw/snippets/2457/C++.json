@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    long long makeIntegerBeautiful(long long n, int target) {\n        \n    }\n};"

@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $l\n     * @param Integer $n\n     * @param Integer $k\n     * @param Integer[] $position\n     * @param Integer[] $time\n     * @return Integer\n     */\n    function minTravelTime($l, $n, $k, $position, $time) {\n        \n    }\n}"

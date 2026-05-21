@@ -1,0 +1,13 @@
+public class Solution {
+    public int RepeatedNTimes(int[] nums) {
+        int n = nums.Length;
+        Random random = new Random();
+
+        while (true) {
+            int x = random.Next(n), y = random.Next(n);
+            if (x != y && nums[x] == nums[y]) {
+                return nums[x];
+            }
+        }
+    }
+}

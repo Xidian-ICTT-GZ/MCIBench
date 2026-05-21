@@ -1,0 +1,1 @@
+"class Solution:\n    def minDays(self, bloomDay: List[int], m: int, k: int) -> int:\n        "

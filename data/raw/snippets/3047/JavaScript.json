@@ -1,0 +1,1 @@
+"/**\n * @param {number[][]} bottomLeft\n * @param {number[][]} topRight\n * @return {number}\n */\nvar largestSquareArea = function(bottomLeft, topRight) {\n    \n};"

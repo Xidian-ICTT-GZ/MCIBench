@@ -1,0 +1,1 @@
+"-spec longest_wpi(Hours :: [integer()]) -> integer().\nlongest_wpi(Hours) ->\n  ."

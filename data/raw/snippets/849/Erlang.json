@@ -1,0 +1,1 @@
+"-spec max_dist_to_closest(Seats :: [integer()]) -> integer().\nmax_dist_to_closest(Seats) ->\n  ."

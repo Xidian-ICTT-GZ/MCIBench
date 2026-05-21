@@ -1,0 +1,1 @@
+"-spec value_after_k_seconds(N :: integer(), K :: integer()) -> integer().\nvalue_after_k_seconds(N, K) ->\n  ."

@@ -1,0 +1,1 @@
+"import pandas as pd\n\ndef find_valid_serial_products(products: pd.DataFrame) -> pd.DataFrame:\n    "

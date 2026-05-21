@@ -1,0 +1,1 @@
+"class Solution(object):\n    def smallestNumber(self, num, t):\n        \"\"\"\n        :type num: str\n        :type t: int\n        :rtype: str\n        \"\"\"\n        "

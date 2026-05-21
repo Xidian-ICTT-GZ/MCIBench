@@ -1,0 +1,25 @@
+func numberOfArrays(differences []int, lower int, upper int) int {
+	var x, y, cur int
+	for _, d := range differences {
+		cur += d
+		x, y = min(x, cur), max(y, cur)
+		if y-x > upper-lower {
+			return 0
+		}
+	}
+	return (upper - lower) - (y - x) + 1
+}
+
+func min(x, y int) int {
+	if x > y {
+		return y
+	}
+	return x
+}
+
+func max(x, y int) int {
+	if x > y {
+		return x
+	}
+	return y
+}

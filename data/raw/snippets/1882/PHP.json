@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $servers\n     * @param Integer[] $tasks\n     * @return Integer[]\n     */\n    function assignTasks($servers, $tasks) {\n        \n    }\n}"

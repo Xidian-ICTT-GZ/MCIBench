@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec knight_dialer(n :: integer) :: integer\n  def knight_dialer(n) do\n    \n  end\nend"

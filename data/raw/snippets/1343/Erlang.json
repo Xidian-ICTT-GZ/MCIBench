@@ -1,0 +1,1 @@
+"-spec num_of_subarrays(Arr :: [integer()], K :: integer(), Threshold :: integer()) -> integer().\nnum_of_subarrays(Arr, K, Threshold) ->\n  ."

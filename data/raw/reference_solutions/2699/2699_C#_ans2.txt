@@ -1,0 +1,68 @@
+public class Solution {
+    long[] fromDestination;
+    int target;
+
+    public int[][] ModifiedGraphEdges(int n, int[][] edges, int source, int destination, int target) {
+        this.target = target;
+        int[][] adjMatrix = new int[n][];
+        for (int i = 0; i < n; ++i) {
+            adjMatrix[i] = new int[n];
+            Array.Fill(adjMatrix[i], -1);
+        }
+        
+        for (int i = 0; i < edges.Length; ++i) {
+            int u = edges[i][0], v = edges[i][1];
+            adjMatrix[u][v] = adjMatrix[v][u] = i;
+        }
+        fromDestination = Dijkstra(0, destination, edges, adjMatrix);
+        if (fromDestination[source] > target) {
+            return new int[0][];
+        }
+        long[] fromSource = Dijkstra(1, source, edges, adjMatrix);
+        if (fromSource[destination] != target) {
+            return new int[0][];
+        }
+        return edges;
+    }
+
+    public long[] Dijkstra(int op, int source, int[][] edges, int[][] adjMatrix) {
+        
+        
+        int n = adjMatrix.Length;
+        long[] dist = new long[n];
+        Array.Fill(dist, int.MaxValue / 2);
+        bool[] used = new bool[n];
+        dist[source] = 0;
+
+        for (int round = 0; round < n - 1; ++round) {
+            int u = -1;
+            for (int i = 0; i < n; ++i) {
+                if (!used[i] && (u == -1 || dist[i] < dist[u])) {
+                    u = i;
+                }
+            }
+            used[u] = true;
+            for (int v = 0; v < n; ++v) {
+                if (!used[v] && adjMatrix[u][v] != -1) {
+                    if (edges[adjMatrix[u][v]][2] != -1) {
+                        dist[v] = Math.Min(dist[v], dist[u] + edges[adjMatrix[u][v]][2]);
+                    } else {
+                        if (op == 0) {
+                            dist[v] = Math.Min(dist[v], dist[u] + 1);
+                        } else {
+                            int modify = (int) (target - dist[u] - fromDestination[v]);
+                            if (modify > 0) {
+                                dist[v] = Math.Min(dist[v], dist[u] + modify);
+                                edges[adjMatrix[u][v]][2] = modify;
+                            } else {
+                                edges[adjMatrix[u][v]][2] = target;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        return dist;
+    }
+}

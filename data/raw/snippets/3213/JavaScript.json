@@ -1,0 +1,1 @@
+"/**\n * @param {string} target\n * @param {string[]} words\n * @param {number[]} costs\n * @return {number}\n */\nvar minimumCost = function(target, words, costs) {\n    \n};"

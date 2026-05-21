@@ -1,0 +1,1 @@
+"-spec flipgame(Fronts :: [integer()], Backs :: [integer()]) -> integer().\nflipgame(Fronts, Backs) ->\n  ."

@@ -1,0 +1,1 @@
+"function* fibGenerator(): Generator<number, any, number> {\n    \n};\n\n/**\n * const gen = fibGenerator();\n * gen.next().value; // 0\n * gen.next().value; // 1\n */"

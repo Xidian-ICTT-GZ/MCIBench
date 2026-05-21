@@ -1,0 +1,26 @@
+func stoneGameVII(stones []int) int {
+    n := len(stones)
+	sum := make([]int, n + 1)
+	memo := make([][]int, n)
+	for i := range memo {
+		memo[i] = make([]int, n)
+	}
+
+	for i := 0; i < n; i++ {
+		sum[i + 1] = sum[i] + stones[i]
+	}
+
+	var dfs func(int, int) int
+	dfs = func(i, j int) int {
+		if i >= j {
+			return 0
+		}
+		if memo[i][j] != 0 {
+			return memo[i][j]
+		}
+		res := max(sum[j + 1] - sum[i + 1] - dfs(i + 1, j), sum[j] - sum[i] - dfs(i, j - 1))
+		memo[i][j] = res
+		return res
+	}
+	return dfs(0, n - 1)
+}

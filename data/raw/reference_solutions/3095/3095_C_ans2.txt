@@ -1,0 +1,29 @@
+int calc(int* bits) {
+    int ans = 0;
+    for (int i = 0; i < 30; i++) {
+        if (bits[i] > 0) {
+            ans |= 1 << i;
+        }
+    }
+    return ans;
+}
+
+int minimumSubarrayLength(int* nums, int numsSize, int k) {
+    int bits[30] = {0};
+    int res = INT_MAX;
+
+    for (int left = 0, right = 0; right < numsSize; right++) {
+        for (int i = 0; i < 30; i++) {
+            bits[i] += (nums[right] >> i) & 1;
+        }
+        while (left <= right && calc(bits) >= k) {
+            res = fmin(res, right - left + 1);
+            for (int i = 0; i < 30; i++) {
+                bits[i] -= (nums[left] >> i) & 1;
+            }
+            left++;
+        }
+    }
+
+    return res == INT_MAX ? -1 : res;
+}

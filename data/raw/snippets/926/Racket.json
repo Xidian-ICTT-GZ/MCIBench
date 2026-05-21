@@ -1,0 +1,1 @@
+"(define/contract (min-flips-mono-incr s)\n  (-> string? exact-integer?)\n  )"

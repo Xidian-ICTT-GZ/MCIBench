@@ -1,0 +1,1 @@
+"# @param {Integer[]} strength\n# @param {Integer} k\n# @return {Integer}\ndef find_minimum_time(strength, k)\n    \nend"

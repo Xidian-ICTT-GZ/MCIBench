@@ -1,0 +1,19 @@
+func shortestDistanceAfterQueries(n int, queries [][]int) []int {
+    prev := make([][]int, n)
+    dp := make([]int, n)
+    for i := 1; i < n; i++ {
+        prev[i] = append(prev[i], i - 1)
+        dp[i] = i
+    }
+    var res []int
+    for _, query := range queries {
+        prev[query[1]] = append(prev[query[1]], query[0])
+        for v := query[1]; v < n; v++ {
+            for _, u := range prev[v] {
+                dp[v] = min(dp[v], dp[u] + 1)
+            }
+        }
+        res = append(res, dp[n - 1])
+    }
+    return res
+}

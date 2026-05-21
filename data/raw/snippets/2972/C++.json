@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    long long incremovableSubarrayCount(vector<int>& nums) {\n        \n    }\n};"

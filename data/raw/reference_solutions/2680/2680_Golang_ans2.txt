@@ -1,0 +1,12 @@
+func maximumOr(nums []int, k int) int64 {
+    var orSum, multiBits int64
+    for _, x := range nums {
+        multiBits |= int64(x) & orSum
+        orSum |= int64(x)
+    }
+    var res int64
+    for _, x := range nums {
+        res = max(res, (orSum ^ int64(x)) | (int64(x) << k) | multiBits)
+    }
+    return res
+}

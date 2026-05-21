@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec prime_subarray(nums :: [integer], k :: integer) :: integer\n  def prime_subarray(nums, k) do\n    \n  end\nend"

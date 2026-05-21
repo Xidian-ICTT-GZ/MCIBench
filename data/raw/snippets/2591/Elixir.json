@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec dist_money(money :: integer, children :: integer) :: integer\n  def dist_money(money, children) do\n    \n  end\nend"

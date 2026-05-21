@@ -1,0 +1,1 @@
+"import pandas as pd\n\ndef consecutive_numbers(logs: pd.DataFrame) -> pd.DataFrame:\n    "

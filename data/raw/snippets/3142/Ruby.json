@@ -1,0 +1,1 @@
+"# @param {Integer[][]} grid\n# @return {Boolean}\ndef satisfies_conditions(grid)\n    \nend"

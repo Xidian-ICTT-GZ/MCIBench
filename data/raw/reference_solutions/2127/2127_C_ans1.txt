@@ -1,0 +1,61 @@
+int maximumInvitations(int* favorite, int favoriteSize) {
+    int n = favoriteSize;
+    
+    int indeg[n];
+    memset(indeg, 0, sizeof(indeg));
+    for (int i = 0; i < n; ++i) {
+        ++indeg[favorite[i]];
+    }
+
+    int used[n], f[n];
+    memset(used, 0, sizeof(used));
+    for (int i = 0; i < n; i++) {
+        f[i] = 1;
+    }
+    
+    int q[n];
+    int head = 0, tail = 0;
+    for (int i = 0; i < n; ++i) {
+        if (!indeg[i]) {
+            q[tail++] = i;
+        }
+    }
+    while (head != tail) {
+        int u = q[head++];
+        used[u] = true;
+        int v = favorite[u];
+        
+        f[v] = fmax(f[v], f[u] + 1);
+        --indeg[v];
+        if (!indeg[v]) {
+            q[tail++] = v;
+        }
+    }
+    
+    
+    int ring = 0, total = 0;
+    for (int i = 0; i < n; ++i) {
+        if (!used[i]) {
+            int j = favorite[i];
+            
+            if (favorite[j] == i) {
+                total += f[i] + f[j];
+                used[i] = used[j] = true;
+            }
+            
+            else {
+                int u = i, cnt = 0;
+                while (true) {
+                    ++cnt;
+                    u = favorite[u];
+                    used[u] = true;
+                    if (u == i) {
+                        break;
+                    }
+                }
+                ring = fmax(ring, cnt);
+            }
+        }
+    }
+    return fmax(ring, total);
+}

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec minimum_cost(n :: integer, edges :: [[integer]], query :: [[integer]]) :: [integer]\n  def minimum_cost(n, edges, query) do\n    \n  end\nend"

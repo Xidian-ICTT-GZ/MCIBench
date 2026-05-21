@@ -1,0 +1,1 @@
+"impl Solution {\n    pub fn is_circular_sentence(sentence: String) -> bool {\n        \n    }\n}"

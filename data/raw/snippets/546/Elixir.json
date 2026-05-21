@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec remove_boxes(boxes :: [integer]) :: integer\n  def remove_boxes(boxes) do\n    \n  end\nend"

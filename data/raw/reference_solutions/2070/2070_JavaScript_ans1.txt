@@ -1,0 +1,34 @@
+var maximumBeauty = function(items, queries) {
+    
+    items.sort((a, b) => a[0] - b[0]);
+    const n = items.length;
+    
+    for (let i = 1; i < n; ++i) {
+        items[i][1] = Math.max(items[i][1], items[i - 1][1]);
+    }
+    
+    const res = [];
+    for (let q of queries) {
+        res.push(query(items, q, n));
+    }
+    return res;
+};
+
+function query(items, q, n) {
+    let l = 0, r = n;
+    while (l < r) {
+        const mid = l + Math.floor((r - l) / 2);
+        if (items[mid][0] > q) {
+            r = mid;
+        } else {
+            l = mid + 1;
+        }
+    }
+    if (l === 0) {
+        
+        return 0;
+    } else {
+        
+        return items[l - 1][1];
+    }
+}

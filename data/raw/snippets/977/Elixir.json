@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec sorted_squares(nums :: [integer]) :: [integer]\n  def sorted_squares(nums) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"-spec longest_common_subpath(N :: integer(), Paths :: [[integer()]]) -> integer().\nlongest_common_subpath(N, Paths) ->\n  ."

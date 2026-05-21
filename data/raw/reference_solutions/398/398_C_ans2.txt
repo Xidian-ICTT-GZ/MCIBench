@@ -1,0 +1,29 @@
+typedef struct {
+    int *nums;
+    int numsSize;
+} Solution;
+
+
+Solution* solutionCreate(int* nums, int numsSize) {
+    Solution *obj = (Solution *)malloc(sizeof(Solution));
+    obj->nums = nums;
+    obj->numsSize = numsSize;
+    return obj;
+}
+
+int solutionPick(Solution* obj, int target) {
+    int ans;
+    for (int i = 0, cnt = 0; i < obj->numsSize; ++i) {
+        if (obj->nums[i] == target) {
+            ++cnt; 
+            if (rand() % cnt == 0) {
+                ans = i;
+            }
+        }
+    }
+    return ans;
+}
+
+void solutionFree(Solution* obj) {
+    free(obj);
+}

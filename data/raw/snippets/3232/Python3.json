@@ -1,0 +1,1 @@
+"class Solution:\n    def canAliceWin(self, nums: List[int]) -> bool:\n        "

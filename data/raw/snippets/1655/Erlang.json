@@ -1,0 +1,1 @@
+"-spec can_distribute(Nums :: [integer()], Quantity :: [integer()]) -> boolean().\ncan_distribute(Nums, Quantity) ->\n  ."

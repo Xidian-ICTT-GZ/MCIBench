@@ -1,0 +1,1 @@
+"-spec mirror_reflection(P :: integer(), Q :: integer()) -> integer().\nmirror_reflection(P, Q) ->\n  ."

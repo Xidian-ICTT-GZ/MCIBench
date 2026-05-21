@@ -1,0 +1,32 @@
+public class Solution {
+    public bool IsPossibleDivide(int[] nums, int k) {
+        int n = nums.Length;
+        if (n % k != 0) {
+            return false;
+        }
+        Array.Sort(nums);
+        Dictionary<int, int> cnt = new Dictionary<int, int>();
+        foreach (int x in nums) {
+            if (!cnt.ContainsKey(x)) {
+                cnt.Add(x, 0);
+            }
+            cnt[x]++;
+        }
+        foreach (int x in nums) {
+            if (!cnt.ContainsKey(x)) {
+                continue;
+            }
+            for (int j = 0; j < k; j++) {
+                int num = x + j;
+                if (!cnt.ContainsKey(num)) {
+                    return false;
+                }
+                cnt[num]--;
+                if (cnt[num] == 0) {
+                    cnt.Remove(num);
+                }
+            }
+        }
+        return true;
+    }
+}

@@ -1,0 +1,52 @@
+public class RangeFreqQuery {
+    
+    private Dictionary<int, List<int>> occurrence;
+
+    public RangeFreqQuery(int[] arr) {
+        occurrence = new Dictionary<int, List<int>>();
+        
+        for (int i = 0; i < arr.Length; ++i) {
+            if (!occurrence.ContainsKey(arr[i])) {
+                occurrence[arr[i]] = new List<int>();
+            }
+            occurrence[arr[i]].Add(i);
+        }
+    }
+    
+    public int Query(int left, int right, int value) {
+        
+        if (!occurrence.TryGetValue(value, out var pos)) {
+            pos = new List<int>();
+        }
+        
+        int l = LowerBound(pos, left);
+        int r = UpperBound(pos, right);
+        return r - l;
+    }
+
+    private int LowerBound(List<int> pos, int target) {
+        int low = 0, high = pos.Count - 1;
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+            if (pos[mid] < target) {
+                low = mid + 1;
+            } else {
+                high = mid - 1;
+            }
+        }
+        return low;
+    }
+
+    private int UpperBound(List<int> pos, int target) {
+        int low = 0, high = pos.Count - 1;
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+            if (pos[mid] <= target) {
+                low = mid + 1;
+            } else {
+                high = mid - 1;
+            }
+        }
+        return low;
+    }
+}

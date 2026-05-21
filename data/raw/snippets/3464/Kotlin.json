@@ -1,0 +1,1 @@
+"class Solution {\n    fun maxDistance(side: Int, points: Array<IntArray>, k: Int): Int {\n        \n    }\n}"

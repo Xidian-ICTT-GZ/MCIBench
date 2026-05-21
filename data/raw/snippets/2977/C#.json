@@ -1,0 +1,1 @@
+"public class Solution {\n    public long MinimumCost(string source, string target, string[] original, string[] changed, int[] cost) {\n        \n    }\n}"

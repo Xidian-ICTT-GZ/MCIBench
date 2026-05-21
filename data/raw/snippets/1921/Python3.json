@@ -1,0 +1,1 @@
+"class Solution:\n    def eliminateMaximum(self, dist: List[int], speed: List[int]) -> int:\n        "

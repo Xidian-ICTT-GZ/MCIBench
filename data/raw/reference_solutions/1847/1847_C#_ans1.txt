@@ -1,0 +1,65 @@
+class Event : IComparable<Event> {
+    public int Type, Size, Id, Origin;
+    public Event(int type, int size, int id, int origin) {
+        
+        Type = type;
+        Size = size;
+        Id = id;
+        Origin = origin;
+    }
+
+    public int CompareTo(Event that) {
+        
+        
+        if (this.Size != that.Size) {
+            return that.Size.CompareTo(this.Size);
+        } else {
+            return this.Type.CompareTo(that.Type);
+        }
+    }
+}
+
+public class Solution {
+    public int[] ClosestRoom(int[][] rooms, int[][] queries) {
+        int m = rooms.Length;
+        int n = queries.Length;
+
+        
+        List<Event> events = new List<Event>();
+        for (int i = 0; i < m; ++i) {
+            
+            events.Add(new Event(0, rooms[i][1], rooms[i][0], i));
+        }
+        for (int i = 0; i < n; ++i) {
+            
+            events.Add(new Event(1, queries[i][1], queries[i][0], i));
+        }
+
+        
+        events.Sort();
+        int[] ans = new int[n];
+        Array.Fill(ans, -1);
+        
+        SortedSet<int> valid = new SortedSet<int>();
+        foreach (var ev in events) {
+            if (ev.Type == 0) {
+                
+                valid.Add(ev.Id);
+            } else {
+                
+                int dist = int.MaxValue;
+                var ceiling = valid.GetViewBetween(ev.Id, int.MaxValue).Min;
+                if (ceiling != default && ceiling - ev.Id < dist) {
+                    dist = ceiling - ev.Id;
+                    ans[ev.Origin] = ceiling;
+                }
+                var floor = valid.GetViewBetween(0, ev.Id).Max;
+                if (floor != default && ev.Id - floor <= dist) {
+                    ans[ev.Origin] = floor;
+                }
+            }
+        }
+
+        return ans;
+    }
+}

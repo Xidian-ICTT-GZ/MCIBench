@@ -1,0 +1,28 @@
+func maxScore(grid [][]int) int {
+    m, n := len(grid), len(grid[0])
+	premin := make([][]int, 2)
+	for i := range premin {
+		premin[i] = make([]int, n)
+		for j := range premin[i] {
+			premin[i][j] = math.MaxInt
+		}
+	}
+	ans := math.MinInt
+	for i := 0; i < m; i++ {
+		for j := 0; j < n; j++ {
+			pre := math.MaxInt
+			if i > 0 {
+				pre = min(pre, premin[(i - 1) & 1][j])
+			}
+			if j > 0 {
+				pre = min(pre, premin[i & 1][j - 1])
+			}
+            
+			if i + j > 0 {
+				ans = max(ans, grid[i][j] - pre)
+			}
+			premin[i&1][j] = min(pre, grid[i][j])
+		}
+	}
+	return ans
+}

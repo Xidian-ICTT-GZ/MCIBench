@@ -1,0 +1,1 @@
+"type ParkingSystem struct {\n    \n}\n\n\nfunc Constructor(big int, medium int, small int) ParkingSystem {\n    \n}\n\n\nfunc (this *ParkingSystem) AddCar(carType int) bool {\n    \n}\n\n\n/**\n * Your ParkingSystem object will be instantiated and called as such:\n * obj := Constructor(big, medium, small);\n * param_1 := obj.AddCar(carType);\n */"

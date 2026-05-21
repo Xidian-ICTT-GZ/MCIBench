@@ -1,0 +1,12 @@
+public class Solution {
+    public int PercentageLetter(string s, char letter) {
+        int n = s.Length;
+        int cnt = 0;
+        foreach (char ch in s) {
+            if (ch == letter) {
+                ++cnt;
+            }
+        }
+        return 100 * cnt / n;
+    }
+}

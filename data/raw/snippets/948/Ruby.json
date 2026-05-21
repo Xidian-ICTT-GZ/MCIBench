@@ -1,0 +1,1 @@
+"# @param {Integer[]} tokens\n# @param {Integer} power\n# @return {Integer}\ndef bag_of_tokens_score(tokens, power)\n    \nend"

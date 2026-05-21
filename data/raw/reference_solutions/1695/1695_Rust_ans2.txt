@@ -1,0 +1,22 @@
+use std::collections::HashSet;
+
+impl Solution {
+    pub fn maximum_unique_subarray(nums: Vec<i32>) -> i32 {
+        let n = nums.len();
+        let mut seen = HashSet::new();
+        let mut ans = 0;
+        let mut psum = 0;
+        let mut j = 0;
+        for i in 0..n {
+            psum += nums[i];
+            while seen.contains(&nums[i]) {
+                seen.remove(&nums[j]);
+                psum -= nums[j];
+                j += 1;
+            }
+            seen.insert(nums[i]);
+            ans = ans.max(psum);
+        }
+        ans
+    }
+}

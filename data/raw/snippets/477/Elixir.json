@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec total_hamming_distance(nums :: [integer]) :: integer\n  def total_hamming_distance(nums) do\n    \n  end\nend"

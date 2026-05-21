@@ -1,0 +1,20 @@
+int maximumLength(int* nums, int numsSize, int k) {
+    int dp[numsSize][51];
+    memset(dp, -1, sizeof(dp));
+    int ans = 0;
+
+    for (int i = 0; i < numsSize; i++) {
+        dp[i][0] = 1;
+        for (int l = 0; l <= k; l++) {
+            for (int j = 0; j < i; j++) {
+                int add = (nums[i] != nums[j]);
+                if (l - add >= 0 && dp[j][l - add] != -1) {
+                    dp[i][l] = fmax(dp[i][l], dp[j][l - add] + 1);
+                }
+            }
+            ans = fmax(ans, dp[i][l]);
+        }
+    }
+
+    return ans;
+}

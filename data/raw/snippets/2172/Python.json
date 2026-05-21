@@ -1,0 +1,1 @@
+"class Solution(object):\n    def maximumANDSum(self, nums, numSlots):\n        \"\"\"\n        :type nums: List[int]\n        :type numSlots: int\n        :rtype: int\n        \"\"\"\n        "

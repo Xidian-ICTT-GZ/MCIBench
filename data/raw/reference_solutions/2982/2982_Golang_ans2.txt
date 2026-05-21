@@ -1,0 +1,29 @@
+func maximumLength(s string) int {
+    n := len(s)
+    cnt := make([][3]int, 26)
+    
+    for i, j := 0, 0; i < n; i = j {
+        for j < n && s[j] == s[i] {
+            j++
+        }
+        index := s[i] - 'a'
+        length := j - i
+        if length > cnt[index][0] {
+            cnt[index][0], cnt[index][1], cnt[index][2] = length, cnt[index][0], cnt[index][1]
+        } else if length > cnt[index][1] {
+            cnt[index][1], cnt[index][2] = length, cnt[index][1]
+        } else if length > cnt[index][2] {
+            cnt[index][2] = length
+        }
+    }
+    
+    res := 0
+    for _, vec := range cnt {
+        res = max(res, max(vec[0] - 2, min(vec[0] - 1, vec[1])))
+        res = max(res, vec[2])
+    }
+    if res != 0 {
+        return res
+    }
+    return -1
+}

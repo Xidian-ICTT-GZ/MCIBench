@@ -1,0 +1,11 @@
+public class Solution {
+    public int FindNumbers(int[] nums) {
+        int ans = 0;
+        foreach (int num in nums) {
+            if ((int) (Math.Log10(num) + 1) % 2 == 0) {
+                ans++;
+            }
+        }
+        return ans;
+    }
+}

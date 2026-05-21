@@ -1,0 +1,1 @@
+"(define/contract (can-make-palindrome-queries s queries)\n  (-> string? (listof (listof exact-integer?)) (listof boolean?))\n  )"

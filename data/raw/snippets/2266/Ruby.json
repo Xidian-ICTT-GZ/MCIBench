@@ -1,0 +1,1 @@
+"# @param {String} pressed_keys\n# @return {Integer}\ndef count_texts(pressed_keys)\n    \nend"

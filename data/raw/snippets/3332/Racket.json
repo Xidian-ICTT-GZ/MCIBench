@@ -1,0 +1,1 @@
+"(define/contract (max-score n k stayScore travelScore)\n  (-> exact-integer? exact-integer? (listof (listof exact-integer?)) (listof (listof exact-integer?)) exact-integer?)\n  )"

@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $n\n     * @param Integer[][] $edges\n     * @param Integer $k\n     * @param Integer $t\n     * @return Integer\n     */\n    function maxWeight($n, $edges, $k, $t) {\n        \n    }\n}"

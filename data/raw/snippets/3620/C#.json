@@ -1,0 +1,1 @@
+"public class Solution {\n    public int FindMaxPathScore(int[][] edges, bool[] online, long k) {\n        \n    }\n}"

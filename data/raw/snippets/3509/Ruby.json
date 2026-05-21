@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @param {Integer} k\n# @param {Integer} limit\n# @return {Integer}\ndef max_product(nums, k, limit)\n    \nend"

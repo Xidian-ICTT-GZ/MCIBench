@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int hIndex(vector<int>& citations) {\n        \n    }\n};"

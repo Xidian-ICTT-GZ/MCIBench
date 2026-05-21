@@ -1,0 +1,1 @@
+"-spec color_the_array(N :: integer(), Queries :: [[integer()]]) -> [integer()].\ncolor_the_array(N, Queries) ->\n  ."

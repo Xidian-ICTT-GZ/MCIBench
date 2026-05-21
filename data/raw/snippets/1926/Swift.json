@@ -1,0 +1,1 @@
+"class Solution {\n    func nearestExit(_ maze: [[Character]], _ entrance: [Int]) -> Int {\n        \n    }\n}"

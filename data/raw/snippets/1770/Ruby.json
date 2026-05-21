@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @param {Integer[]} multipliers\n# @return {Integer}\ndef maximum_score(nums, multipliers)\n    \nend"

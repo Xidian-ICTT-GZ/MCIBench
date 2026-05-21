@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec maximum_tastiness(price :: [integer], k :: integer) :: integer\n  def maximum_tastiness(price, k) do\n    \n  end\nend"

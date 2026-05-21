@@ -1,0 +1,51 @@
+static int MOD1 = 1000000007;
+static int MOD2 = 1000000009;
+
+void init(const char *s, int n, long long *pre1, long long *pre2, long long *pow1, long long *pow2) {
+    srand(time(NULL));
+    int Base1 = 1000000 + rand() % 9000000;
+    int Base2 = 1000000 + rand() % 9000000;
+    while (Base2 == Base1) {
+        Base2 = 1000000 + rand() % 9000000;
+    }
+    pow1[0] = pow2[0] = 1;
+    pre1[0] = pre2[0] = 0;
+    pre1[1] = pre2[1] = s[0];
+    for (int i = 1; i < n; ++i) {
+        pow1[i] = (pow1[i - 1] * Base1) % MOD1;
+        pow2[i] = (pow2[i - 1] * Base2) % MOD2;
+        pre1[i + 1] = (pre1[i] * Base1 + s[i]) % MOD1;
+        pre2[i + 1] = (pre2[i] * Base2 + s[i]) % MOD2;
+    }
+}
+
+long long getHash(int l, int r, long long *pre1, long long *pre2, long long *pow1, long long *pow2) {
+    int x = (pre1[r + 1] - ((pre1[l] * pow1[r + 1 - l]) % MOD1) + MOD1) % MOD1;
+    int y = (pre2[r + 1] - ((pre2[l] * pow2[r + 1 - l]) % MOD2) + MOD2) % MOD2;
+    return (long long) x << 32 | y;
+}
+
+int longestDecomposition(char * text) {
+    int n = strlen(text);
+    long long pre1[n + 1], pre2[n + 1];
+    long long pow1[n], pow2[n];
+    init(text, n, pre1, pre2, pow1, pow2);
+    int res = 0;
+    int l = 0, r = n - 1;
+    while (l <= r) {
+        int len = 1;
+        while (l + len - 1 < r - len + 1) {
+            if (getHash(l, l + len - 1, pre1, pre2, pow1, pow2) == getHash(r - len + 1, r, pre1, pre2, pow1, pow2)) {
+                res += 2;
+                break;
+            }
+            ++len;
+        }
+        if (l + len - 1 >= r - len + 1) {
+            ++res;
+        }
+        l += len;
+        r -= len;
+    }
+    return res;
+}

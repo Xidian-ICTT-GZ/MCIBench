@@ -1,0 +1,1 @@
+"class Solution(n: Int, blacklist: IntArray) {\n\n    fun pick(): Int {\n        \n    }\n\n}\n\n/**\n * Your Solution object will be instantiated and called as such:\n * var obj = Solution(n, blacklist)\n * var param_1 = obj.pick()\n */"

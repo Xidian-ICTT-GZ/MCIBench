@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int minimumTime(vector<vector<int>>& grid) {\n        \n    }\n};"

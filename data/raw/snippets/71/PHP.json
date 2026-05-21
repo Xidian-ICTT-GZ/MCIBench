@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $path\n     * @return String\n     */\n    function simplifyPath($path) {\n        \n    }\n}"

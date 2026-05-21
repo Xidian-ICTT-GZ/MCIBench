@@ -1,0 +1,1 @@
+"-spec number_game(Nums :: [integer()]) -> [integer()].\nnumber_game(Nums) ->\n  ."

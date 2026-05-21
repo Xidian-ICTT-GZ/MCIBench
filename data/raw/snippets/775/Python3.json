@@ -1,0 +1,1 @@
+"class Solution:\n    def isIdealPermutation(self, nums: List[int]) -> bool:\n        "

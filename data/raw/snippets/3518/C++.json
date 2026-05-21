@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    string smallestPalindrome(string s, int k) {\n        \n    }\n};"

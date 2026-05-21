@@ -1,0 +1,1 @@
+"(define/contract (stable-mountains height threshold)\n  (-> (listof exact-integer?) exact-integer? (listof exact-integer?))\n  )"

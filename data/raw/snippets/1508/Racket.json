@@ -1,0 +1,1 @@
+"(define/contract (range-sum nums n left right)\n  (-> (listof exact-integer?) exact-integer? exact-integer? exact-integer? exact-integer?)\n  )"

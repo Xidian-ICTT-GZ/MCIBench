@@ -1,0 +1,1 @@
+"-spec get_collision_times(Cars :: [[integer()]]) -> [float()].\nget_collision_times(Cars) ->\n  ."

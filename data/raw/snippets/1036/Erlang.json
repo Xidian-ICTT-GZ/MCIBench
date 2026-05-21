@@ -1,0 +1,1 @@
+"-spec is_escape_possible(Blocked :: [[integer()]], Source :: [integer()], Target :: [integer()]) -> boolean().\nis_escape_possible(Blocked, Source, Target) ->\n  ."

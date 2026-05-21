@@ -1,0 +1,23 @@
+public class Solution {
+    public IList<IList<int>> SubsetsWithDup(int[] nums) {
+        Array.Sort(nums);
+        IList<IList<int>> ans = new List<IList<int>>();
+        List<int> t = new List<int>();
+        Dfs(false, 0, nums, t, ans);
+        return ans;
+    }
+
+    private void Dfs(bool choosePre, int cur, int[] nums, List<int> t, IList<IList<int>> ans) {
+        if (cur == nums.Length) {
+            ans.Add(new List<int>(t));
+            return;
+        }
+        Dfs(false, cur + 1, nums, t, ans);
+        if (!choosePre && cur > 0 && nums[cur - 1] == nums[cur]) {
+            return;
+        }
+        t.Add(nums[cur]);
+        Dfs(true, cur + 1, nums, t, ans);
+        t.RemoveAt(t.Count - 1);
+    }
+}

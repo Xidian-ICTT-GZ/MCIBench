@@ -1,0 +1,1 @@
+"class Solution(object):\n    def maximumBeauty(self, flowers, newFlowers, target, full, partial):\n        \"\"\"\n        :type flowers: List[int]\n        :type newFlowers: int\n        :type target: int\n        :type full: int\n        :type partial: int\n        :rtype: int\n        \"\"\"\n        "

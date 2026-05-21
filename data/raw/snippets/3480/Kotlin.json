@@ -1,0 +1,1 @@
+"class Solution {\n    fun maxSubarrays(n: Int, conflictingPairs: Array<IntArray>): Long {\n        \n    }\n}"

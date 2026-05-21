@@ -1,0 +1,1 @@
+"class ParkingSystem {\n    init(big: Int64, medium: Int64, small: Int64) {\n\n    }\n    \n    func addCar(carType: Int64): Bool {\n\n    }\n}\n\n/**\n * Your ParkingSystem object will be instantiated and called as such:\n * let obj: ParkingSystem = ParkingSystem(big, medium, small)\n * let param_1 = obj.addCar(carType)\n */"

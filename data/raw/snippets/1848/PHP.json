@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer $target\n     * @param Integer $start\n     * @return Integer\n     */\n    function getMinDistance($nums, $target, $start) {\n        \n    }\n}"

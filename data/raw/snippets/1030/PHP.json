@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $rows\n     * @param Integer $cols\n     * @param Integer $rCenter\n     * @param Integer $cCenter\n     * @return Integer[][]\n     */\n    function allCellsDistOrder($rows, $cols, $rCenter, $cCenter) {\n        \n    }\n}"

@@ -1,0 +1,11 @@
+var checkDistances = function(s, distance) {
+    let firstIndex = new Array(26).fill(0);
+    for (let i = 0; i < s.length; i++) {
+        let idx = s.charCodeAt(i) - 'a'.charCodeAt(0);
+        if (firstIndex[idx] != 0 && i - firstIndex[idx] != distance[idx]) {
+            return false;
+        }
+        firstIndex[idx] = i + 1;
+    }
+    return true;
+};

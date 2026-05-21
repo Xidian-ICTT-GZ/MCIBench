@@ -1,0 +1,1 @@
+"class Solution:\n    def numPairsDivisibleBy60(self, time: List[int]) -> int:\n        "

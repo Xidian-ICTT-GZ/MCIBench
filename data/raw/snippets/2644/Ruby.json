@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @param {Integer[]} divisors\n# @return {Integer}\ndef max_div_score(nums, divisors)\n    \nend"

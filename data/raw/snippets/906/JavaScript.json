@@ -1,0 +1,1 @@
+"/**\n * @param {string} left\n * @param {string} right\n * @return {number}\n */\nvar superpalindromesInRange = function(left, right) {\n    \n};"

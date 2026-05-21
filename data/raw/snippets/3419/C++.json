@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int minMaxWeight(int n, vector<vector<int>>& edges, int threshold) {\n        \n    }\n};"

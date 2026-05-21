@@ -1,0 +1,1 @@
+"class Solution(object):\n    def findPaths(self, m, n, maxMove, startRow, startColumn):\n        \"\"\"\n        :type m: int\n        :type n: int\n        :type maxMove: int\n        :type startRow: int\n        :type startColumn: int\n        :rtype: int\n        \"\"\"\n        "

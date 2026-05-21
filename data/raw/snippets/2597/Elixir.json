@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec beautiful_subsets(nums :: [integer], k :: integer) :: integer\n  def beautiful_subsets(nums, k) do\n    \n  end\nend"

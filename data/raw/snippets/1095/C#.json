@@ -1,0 +1,1 @@
+"/**\n * // This is MountainArray's API interface.\n * // You should not implement it, or speculate about its implementation\n * class MountainArray {\n *     public int Get(int index) {}\n *     public int Length() {}\n * }\n */\n\nclass Solution {\n    public int FindInMountainArray(int target, MountainArray mountainArr) {\n        \n    }\n}"

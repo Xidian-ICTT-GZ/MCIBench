@@ -1,0 +1,1 @@
+"function checkIfInstanceOf(obj: any, classFunction: any): boolean {\n    \n};\n\n/**\n * checkIfInstanceOf(new Date(), Date); // true\n */"

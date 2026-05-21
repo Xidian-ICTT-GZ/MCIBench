@@ -1,0 +1,1 @@
+"object Solution {\n    def sequentialDigits(low: Int, high: Int): List[Int] = {\n        \n    }\n}"

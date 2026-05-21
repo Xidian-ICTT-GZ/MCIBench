@@ -1,0 +1,6 @@
+impl Solution {
+    pub fn difference_of_sums(n: i32, m: i32) -> i32 {
+        let k = n / m;
+        n * (n + 1) / 2 - k * (k + 1) * m
+    }
+}

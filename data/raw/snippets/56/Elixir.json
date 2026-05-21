@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec merge(intervals :: [[integer]]) :: [[integer]]\n  def merge(intervals) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @param {Integer} limit\n# @param {Integer} goal\n# @return {Integer}\ndef min_elements(nums, limit, goal)\n    \nend"

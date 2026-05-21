@@ -1,0 +1,1 @@
+"class Solution:\n    def minimumDistance(self, word: str) -> int:\n        "

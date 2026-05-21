@@ -1,0 +1,1 @@
+"/**\n * Definition for _Node.\n * class _Node {\n *     val: number\n *     neighbors: _Node[]\n * \n *     constructor(val?: number, neighbors?: _Node[]) {\n *         this.val = (val===undefined ? 0 : val)\n *         this.neighbors = (neighbors===undefined ? [] : neighbors)\n *     }\n * }\n * \n */\n\n\nfunction cloneGraph(node: _Node | null): _Node | null {\n\t\n};"

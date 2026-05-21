@@ -1,0 +1,17 @@
+var maxSpending = function(values) {
+    const m = values.length, n = values[0].length;
+    const pq = new MinPriorityQueue();
+    for (let i = 0; i < m; i++) {
+        pq.enqueue([values[i][n - 1], i, n - 1], values[i][n - 1]);
+    }
+    
+    let ans = 0;
+    for (let turn = 1; turn <= m * n; turn++) {
+        const [val, i, j] = pq.dequeue().element;
+        ans += val * turn;
+        if (j > 0) {
+            pq.enqueue([values[i][j - 1], i, j - 1], values[i][j - 1]);
+        }
+    }
+    return ans;
+};

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec number_of_arrays(differences :: [integer], lower :: integer, upper :: integer) :: integer\n  def number_of_arrays(differences, lower, upper) do\n    \n  end\nend"

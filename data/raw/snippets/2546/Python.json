@@ -1,0 +1,1 @@
+"class Solution(object):\n    def makeStringsEqual(self, s, target):\n        \"\"\"\n        :type s: str\n        :type target: str\n        :rtype: bool\n        \"\"\"\n        "

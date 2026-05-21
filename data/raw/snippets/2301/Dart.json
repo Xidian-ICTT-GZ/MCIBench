@@ -1,0 +1,1 @@
+"class Solution {\n  bool matchReplacement(String s, String sub, List<List<String>> mappings) {\n    \n  }\n}"

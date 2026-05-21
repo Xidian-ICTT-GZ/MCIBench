@@ -1,0 +1,1 @@
+"# @param {Integer} num1\n# @param {Integer} num2\n# @param {Integer} num3\n# @return {Integer}\ndef generate_key(num1, num2, num3)\n    \nend"

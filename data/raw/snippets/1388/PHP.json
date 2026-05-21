@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $slices\n     * @return Integer\n     */\n    function maxSizeSlices($slices) {\n        \n    }\n}"

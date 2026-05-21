@@ -1,0 +1,1 @@
+"class Solution(object):\n    def longestValidSubstring(self, word, forbidden):\n        \"\"\"\n        :type word: str\n        :type forbidden: List[str]\n        :rtype: int\n        \"\"\"\n        "

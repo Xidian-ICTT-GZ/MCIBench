@@ -1,0 +1,1 @@
+"class Solution {\n  List<int> platesBetweenCandles(String s, List<List<int>> queries) {\n    \n  }\n}"

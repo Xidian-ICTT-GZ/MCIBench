@@ -1,0 +1,1 @@
+"class Solution {\n    func reportSpam(_ message: [String], _ bannedWords: [String]) -> Bool {\n        \n    }\n}"

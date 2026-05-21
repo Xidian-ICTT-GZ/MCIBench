@@ -1,0 +1,22 @@
+class Solution:
+    def maxScore(self, grid: List[List[int]]) -> int:
+        m, n = len(grid), len(grid[0])
+        prerow = [[0] * n for _ in range(m)]
+        precol = [[0] * n for _ in range(m)]
+        f = [[-inf] * n for _ in range(m)]
+        ans = -inf
+
+        for i in range(m):
+            for j in range(n):
+                if i > 0:
+                    f[i][j] = max(f[i][j], grid[i][j] + precol[i - 1][j])
+                if j > 0:
+                    f[i][j] = max(f[i][j], grid[i][j] + prerow[i][j - 1])
+                ans = max(ans, f[i][j])
+                prerow[i][j] = precol[i][j] = max(f[i][j], 0) - grid[i][j]
+                if i > 0:
+                    precol[i][j] = max(precol[i][j], precol[i - 1][j])
+                if j > 0:
+                    prerow[i][j] = max(prerow[i][j], prerow[i][j - 1])
+        
+        return ans

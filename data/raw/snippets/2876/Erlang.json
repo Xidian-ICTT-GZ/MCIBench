@@ -1,0 +1,1 @@
+"-spec count_visited_nodes(Edges :: [integer()]) -> [integer()].\ncount_visited_nodes(Edges) ->\n  ."

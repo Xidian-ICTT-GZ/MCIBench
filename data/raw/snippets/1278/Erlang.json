@@ -1,0 +1,1 @@
+"-spec palindrome_partition(S :: unicode:unicode_binary(), K :: integer()) -> integer().\npalindrome_partition(S, K) ->\n  ."

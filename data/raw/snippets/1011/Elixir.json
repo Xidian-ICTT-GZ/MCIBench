@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec ship_within_days(weights :: [integer], days :: integer) :: integer\n  def ship_within_days(weights, days) do\n    \n  end\nend"

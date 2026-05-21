@@ -1,0 +1,66 @@
+typedef struct {
+    int * segmentTree;
+    int numsSize; 
+} NumArray;
+
+void build(int * segmentTree, int node, int s, int e, const int * nums) {
+    if (s == e) {
+        segmentTree[node] = nums[s];
+        return;
+    }
+    int m = s + (e - s) / 2;
+    build(segmentTree, node * 2 + 1, s, m, nums);
+    build(segmentTree, node * 2 + 2, m + 1, e, nums);
+    segmentTree[node] = segmentTree[node * 2 + 1] + segmentTree[node * 2 + 2];
+}
+
+void change(int * segmentTree, int index, int val, int node, int s, int e) {
+    if (s == e) {
+        segmentTree[node] = val;
+        return;
+    }
+    int m = s + (e - s) / 2;
+    if (index <= m) {
+        change(segmentTree, index, val, node * 2 + 1, s, m);
+    } else {
+        change(segmentTree, index, val, node * 2 + 2, m + 1, e);
+    }
+    segmentTree[node] = segmentTree[node * 2 + 1] + segmentTree[node * 2 + 2];
+}
+
+int range(const int * segmentTree, int left, int right, int node, int s, int e) {
+    if (left == s && right == e) {
+        return segmentTree[node];
+    }
+    int m = s + (e - s) / 2;
+    if (right <= m) {
+        return range(segmentTree, left, right, node * 2 + 1, s, m);
+    } else if (left > m) {
+        return range(segmentTree, left, right, node * 2 + 2, m + 1, e);
+    } else {
+        return range(segmentTree, left, m, node * 2 + 1, s, m) + \
+               range(segmentTree, m + 1, right, node * 2 + 2, m + 1, e);
+    }
+}
+
+
+NumArray* numArrayCreate(int* nums, int numsSize) {
+    NumArray * obj = (int *)malloc(sizeof(NumArray));
+    obj->numsSize = numsSize;
+    obj->segmentTree = (int *)malloc(sizeof(int) * 4 * numsSize);
+    build(obj->segmentTree, 0, 0, numsSize - 1, nums);
+    return obj;
+}
+
+void numArrayUpdate(NumArray* obj, int index, int val) {
+    change(obj->segmentTree, index, val, 0, 0, obj->numsSize - 1);
+}
+
+int numArraySumRange(NumArray* obj, int left, int right) {
+    return range(obj->segmentTree, left, right, 0, 0, obj->numsSize - 1);
+}
+
+void numArrayFree(NumArray* obj) {
+    free(obj->segmentTree);
+    free(obj);
+}

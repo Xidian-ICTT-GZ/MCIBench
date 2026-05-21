@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @param {Integer[][]} queries\n# @return {Integer[]}\ndef count_of_peaks(nums, queries)\n    \nend"

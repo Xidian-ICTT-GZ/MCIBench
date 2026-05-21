@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec gray_code(n :: integer) :: [integer]\n  def gray_code(n) do\n    \n  end\nend"

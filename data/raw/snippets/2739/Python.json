@@ -1,0 +1,1 @@
+"class Solution(object):\n    def distanceTraveled(self, mainTank, additionalTank):\n        \"\"\"\n        :type mainTank: int\n        :type additionalTank: int\n        :rtype: int\n        \"\"\"\n        "

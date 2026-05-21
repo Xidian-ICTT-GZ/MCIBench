@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec max_profit_assignment(difficulty :: [integer], profit :: [integer], worker :: [integer]) :: integer\n  def max_profit_assignment(difficulty, profit, worker) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"class Solution {\n  int earliestSecondToMarkIndices(List<int> nums, List<int> changeIndices) {\n    \n  }\n}"

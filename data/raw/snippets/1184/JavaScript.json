@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} distance\n * @param {number} start\n * @param {number} destination\n * @return {number}\n */\nvar distanceBetweenBusStops = function(distance, start, destination) {\n    \n};"

@@ -1,0 +1,75 @@
+typedef struct {
+    int key;
+    UT_hash_handle hh;
+} HashItem; 
+
+HashItem *hashFindItem(HashItem **obj, int key) {
+    HashItem *pEntry = NULL;
+    HASH_FIND_INT(*obj, &key, pEntry);
+    return pEntry;
+}
+
+bool hashAddItem(HashItem **obj, int key) {
+    if (hashFindItem(obj, key)) {
+        return false;
+    }
+    HashItem *pEntry = (HashItem *)malloc(sizeof(HashItem));
+    pEntry->key = key;
+    HASH_ADD_INT(*obj, key, pEntry);
+    return true;
+}
+
+void hashFree(HashItem **obj) {
+    HashItem *curr = NULL, *tmp = NULL;
+    HASH_ITER(hh, *obj, curr, tmp) {
+        HASH_DEL(*obj, curr);  
+        free(curr);
+    }
+}
+
+int minTrioDegree(int n, int** edges, int edgesSize, int* edgesColSize) {
+    
+    HashItem *g[n];
+    
+    HashItem *h[n];
+    int degree[n];
+    for (int i = 0; i < n; i++) {
+        h[i] = NULL;
+        g[i] = NULL;
+    }
+    memset(degree, 0, sizeof(degree));
+
+    for (int i = 0; i < edgesSize; i++) {
+        int x = edges[i][0] - 1, y = edges[i][1] - 1;
+        hashAddItem(&g[x], y);
+        hashAddItem(&g[y], x);
+        ++degree[x];
+        ++degree[y];
+    }
+    for (int i = 0; i < edgesSize; i++) {
+        int x = edges[i][0] - 1, y = edges[i][1] - 1;
+        if (degree[x] < degree[y] || (degree[x] == degree[y] && x < y)) {
+            hashAddItem(&h[x], y);
+        } else {
+            hashAddItem(&h[y], x);
+        }
+    }
+
+    int ans = INT_MAX;
+    for (int i = 0; i < n; ++i) {
+        for (HashItem *pEntry1 = h[i]; pEntry1; pEntry1 = pEntry1->hh.next) {
+            int j = pEntry1->key;
+            for (HashItem *pEntry2 = h[j]; pEntry2; pEntry2 = pEntry2->hh.next) {
+                int k = pEntry2->key;
+                if (hashFindItem(&g[i], k)) {
+                    ans = fmin(ans, degree[i] + degree[j] + degree[k] - 6);
+                }
+            }
+        }
+    }
+    for (int i = 0; i < n; i++) {
+        hashFree(&h[i]);
+        hashFree(&g[i]);
+    }
+    return ans == INT_MAX ? -1 : ans;
+}

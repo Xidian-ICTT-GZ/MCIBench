@@ -1,0 +1,1 @@
+"impl Solution {\n    pub fn connect_two_groups(cost: Vec<Vec<i32>>) -> i32 {\n        \n    }\n}"

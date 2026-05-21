@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $brackets\n     * @param Integer $income\n     * @return Float\n     */\n    function calculateTax($brackets, $income) {\n        \n    }\n}"

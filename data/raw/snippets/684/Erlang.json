@@ -1,0 +1,1 @@
+"-spec find_redundant_connection(Edges :: [[integer()]]) -> [integer()].\nfind_redundant_connection(Edges) ->\n  ."

@@ -1,0 +1,1 @@
+"(define/contract (find-closest-number nums)\n  (-> (listof exact-integer?) exact-integer?)\n  )"

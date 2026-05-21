@@ -1,0 +1,1 @@
+"# @param {Integer[]} dist\n# @param {Integer[]} speed\n# @return {Integer}\ndef eliminate_maximum(dist, speed)\n    \nend"

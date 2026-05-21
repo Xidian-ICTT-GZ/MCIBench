@@ -1,0 +1,17 @@
+var maxSubsequence = function(nums, k) {
+    const n = nums.length;
+    const vals = []; 
+    for (let i = 0; i < n; ++i) {
+        vals.push({ index: i, value: nums[i] }); 
+    }
+    
+    vals.sort((x1, x2) => x2.value - x1.value);
+    
+    const topK = vals.slice(0, k); 
+    topK.sort((x1, x2) => x1.index - x2.index); 
+    const res = []; 
+    for (let i = 0; i < k; ++i) {
+        res.push(topK[i].value); 
+    }
+    return res;
+};

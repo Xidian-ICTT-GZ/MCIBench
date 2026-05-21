@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec get_permutation(n :: integer, k :: integer) :: String.t\n  def get_permutation(n, k) do\n    \n  end\nend"

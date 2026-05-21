@@ -1,0 +1,19 @@
+class Solution {
+public:
+    vector<int> intersection(vector<vector<int>>& nums) {
+        int n = nums.size();
+        unordered_set<int> res(nums[0].begin(), nums[0].end());
+        for (int i = 1; i < n; ++i) {
+            unordered_set<int> tmp;
+            for (int num: nums[i]) {
+                if (res.count(num)) {
+                    tmp.insert(num);
+                }
+            }
+            res = tmp;
+        }
+        vector<int> ans(res.begin(), res.end());
+        sort(ans.begin(), ans.end());
+        return ans;
+    }
+};

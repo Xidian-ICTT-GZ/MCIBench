@@ -1,0 +1,1 @@
+"(define/contract (largest-square-area bottomLeft topRight)\n  (-> (listof (listof exact-integer?)) (listof (listof exact-integer?)) exact-integer?)\n  )"

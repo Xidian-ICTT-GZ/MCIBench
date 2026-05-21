@@ -1,0 +1,87 @@
+long long* dijkstra(int op, int source, int target, int **edges, int edgesSize, int** adj_matrix, int n, long long *from_destination) {
+    
+    
+    int used[n];
+    long long *dist = (long long *)malloc(sizeof(long long) * n);
+    memset(used, 0, sizeof(used));
+    for (int i = 0; i < n; i++) {
+        dist[i] = INT_MAX / 2;
+    }
+    dist[source] = 0;
+
+    for (int round = 0; round < n - 1; ++round) {
+        int u = -1;
+        for (int i = 0; i < n; ++i) {
+            if (!used[i] && (u == -1 || dist[i] < dist[u])) {
+                u = i;
+            }
+        }
+        used[u] = true;
+        for (int v = 0; v < n; ++v) {
+            if (!used[v] && adj_matrix[u][v] != -1) {
+                if (edges[adj_matrix[u][v]][2] != -1) {
+                    dist[v] = fmin(dist[v], dist[u] + edges[adj_matrix[u][v]][2]);
+                } else {
+                    if (op == 0) {
+                        dist[v] = fmin(dist[v], dist[u] + 1);
+                    } else {
+                        int modify = target - dist[u] - from_destination[v];
+                        if (modify > 0) {
+                            dist[v] = fmin(dist[v], dist[u] + modify);
+                            edges[adj_matrix[u][v]][2] = modify;
+                        } else {
+                            edges[adj_matrix[u][v]][2] = target;
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+    return dist;
+}
+
+int** modifiedGraphEdges(int n, int** edges, int edgesSize, int* edgesColSize, int source, int destination, int target, int* returnSize, int** returnColumnSizes) {
+    int **adj_matrix = (int **)malloc(sizeof(int *) * n);
+    for (int i = 0; i < n; i++) {
+        adj_matrix[i] = (int *)malloc(sizeof(int) * n);
+        memset(adj_matrix[i], 0xff, sizeof(int) * n);
+    }
+    
+    for (int i = 0; i < edgesSize; ++i) {
+        int u = edges[i][0], v = edges[i][1];
+        adj_matrix[u][v] = adj_matrix[v][u] = i;
+    }
+
+    long long from_destination[n];
+    memset(from_destination, 0, sizeof(from_destination));
+    long long *ret = dijkstra(0, destination, target, edges, edgesSize, adj_matrix, n, from_destination);
+    memcpy(from_destination, ret, sizeof(long long) * n);
+    free(ret);
+    if (from_destination[source] > target) {
+        for (int i = 0; i < n; i++) {
+            free(adj_matrix[i]);
+        }
+        free(adj_matrix);
+        *returnSize = 0;
+        return NULL;
+    }
+    long long *from_source = dijkstra(1, source, target, edges, edgesSize, adj_matrix, n, from_destination);
+    if (from_source[destination] != target) {
+        for (int i = 0; i < n; i++) {
+            free(adj_matrix[i]);
+        }
+        free(adj_matrix);
+        free(from_source);
+        *returnSize = 0;
+        return NULL;
+    }
+    for (int i = 0; i < n; i++) {
+        free(adj_matrix[i]);
+    }
+    free(adj_matrix);
+    free(from_source);
+    *returnSize = edgesSize;
+    *returnColumnSizes = edgesColSize;
+    return edges;
+}

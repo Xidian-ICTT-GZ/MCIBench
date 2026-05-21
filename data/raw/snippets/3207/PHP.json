@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $enemyEnergies\n     * @param Integer $currentEnergy\n     * @return Integer\n     */\n    function maximumPoints($enemyEnergies, $currentEnergy) {\n        \n    }\n}"

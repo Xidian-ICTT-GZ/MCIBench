@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} nums\n * @return {string}\n */\nvar triangleType = function(nums) {\n    \n};"

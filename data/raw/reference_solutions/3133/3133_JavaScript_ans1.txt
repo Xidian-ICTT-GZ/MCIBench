@@ -1,0 +1,19 @@
+var minEnd = function(n, x) {
+    const bitCount = 64 - leadingZeros(n) - leadingZeros(x);
+    let res = BigInt(x);
+    let j = 0;
+    n--;
+    for (let i = 0; i < bitCount; ++i) {
+        if (((res >> BigInt(i)) & 1n) === 0n) {
+            if (((BigInt(n) >> BigInt(j)) & 1n) != 0n) {
+                res |= 1n << BigInt(i);
+            }
+            j++;
+        }
+    }
+    return Number(res);
+};
+
+function leadingZeros(x) {
+    return x === 0 ? 32 : 31 - Math.floor(Math.log2(x));
+}

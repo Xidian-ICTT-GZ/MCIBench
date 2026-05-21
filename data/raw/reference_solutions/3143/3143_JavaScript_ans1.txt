@@ -1,0 +1,23 @@
+var maxPointsInsideSquare = function(points, s) {
+    const min1 = new Array(26).fill(1000000001);
+    let min2 = 1000000001;
+    const n = s.length;
+    for (let i = 0; i < n; ++i) {
+        const [x, y] = points[i];
+        const j = s.charCodeAt(i) - 'a'.charCodeAt(0);
+        const d = Math.max(Math.abs(x), Math.abs(y));
+        if (d < min1[j]) {
+            min2 = Math.min(min2, min1[j]);
+            min1[j] = d;
+        } else if (d < min2) {
+            min2 = d;
+        }
+    }
+    let res = 0;
+    for (const d of min1) {
+        if (d < min2) {
+            ++res;
+        }
+    }
+    return res;
+};

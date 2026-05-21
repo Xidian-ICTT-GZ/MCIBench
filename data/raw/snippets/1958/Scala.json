@@ -1,0 +1,1 @@
+"object Solution {\n    def checkMove(board: Array[Array[Char]], rMove: Int, cMove: Int, color: Char): Boolean = {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"class MyCalendar {\n\n    public MyCalendar() {\n        \n    }\n    \n    public boolean book(int startTime, int endTime) {\n        \n    }\n}\n\n/**\n * Your MyCalendar object will be instantiated and called as such:\n * MyCalendar obj = new MyCalendar();\n * boolean param_1 = obj.book(startTime,endTime);\n */"

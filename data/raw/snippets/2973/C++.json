@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<long long> placedCoins(vector<vector<int>>& edges, vector<int>& cost) {\n        \n    }\n};"

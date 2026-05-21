@@ -1,0 +1,1 @@
+"# @param {Integer} poured\n# @param {Integer} query_row\n# @param {Integer} query_glass\n# @return {Float}\ndef champagne_tower(poured, query_row, query_glass)\n    \nend"

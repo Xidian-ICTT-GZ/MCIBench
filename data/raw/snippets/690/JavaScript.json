@@ -1,0 +1,1 @@
+"/**\n * Definition for Employee.\n * function Employee(id, importance, subordinates) {\n *     this.id = id;\n *     this.importance = importance;\n *     this.subordinates = subordinates;\n * }\n */\n\n/**\n * @param {Employee[]} employees\n * @param {number} id\n * @return {number}\n */\nvar GetImportance = function(employees, id) {\n    \n};"

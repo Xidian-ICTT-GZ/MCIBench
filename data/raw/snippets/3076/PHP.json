@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String[] $arr\n     * @return String[]\n     */\n    function shortestSubstrings($arr) {\n        \n    }\n}"

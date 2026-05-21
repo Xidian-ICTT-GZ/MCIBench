@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String[] $nums\n     * @param Integer[][] $queries\n     * @return Integer[]\n     */\n    function smallestTrimmedNumbers($nums, $queries) {\n        \n    }\n}"

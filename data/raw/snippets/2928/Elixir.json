@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec distribute_candies(n :: integer, limit :: integer) :: integer\n  def distribute_candies(n, limit) do\n    \n  end\nend"

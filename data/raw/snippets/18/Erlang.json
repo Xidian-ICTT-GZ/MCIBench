@@ -1,0 +1,1 @@
+"-spec four_sum(Nums :: [integer()], Target :: integer()) -> [[integer()]].\nfour_sum(Nums, Target) ->\n  ."

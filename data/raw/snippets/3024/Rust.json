@@ -1,0 +1,1 @@
+"impl Solution {\n    pub fn triangle_type(nums: Vec<i32>) -> String {\n        \n    }\n}"

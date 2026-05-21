@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec new21_game(n :: integer, k :: integer, max_pts :: integer) :: float\n  def new21_game(n, k, max_pts) do\n    \n  end\nend"

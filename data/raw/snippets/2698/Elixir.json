@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec punishment_number(n :: integer) :: integer\n  def punishment_number(n) do\n    \n  end\nend"

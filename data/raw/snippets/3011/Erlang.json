@@ -1,0 +1,1 @@
+"-spec can_sort_array(Nums :: [integer()]) -> boolean().\ncan_sort_array(Nums) ->\n  ."

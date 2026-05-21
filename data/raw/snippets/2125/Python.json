@@ -1,0 +1,1 @@
+"class Solution(object):\n    def numberOfBeams(self, bank):\n        \"\"\"\n        :type bank: List[str]\n        :rtype: int\n        \"\"\"\n        "

@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $low\n     * @param Integer $high\n     * @return Integer\n     */\n    function countSymmetricIntegers($low, $high) {\n        \n    }\n}"

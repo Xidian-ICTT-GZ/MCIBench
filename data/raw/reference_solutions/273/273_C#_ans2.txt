@@ -1,0 +1,41 @@
+public class Solution {
+    string[] singles = {"", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"};
+    string[] teens = {"Ten", "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen"};
+    string[] tens = {"", "Ten", "Twenty", "Thirty", "Forty", "Fifty", "Sixty", "Seventy", "Eighty", "Ninety"};
+    string[] thousands = {"", "Thousand", "Million", "Billion"};
+
+    public string NumberToWords(int num) {
+        if (num == 0) {
+            return "Zero";
+        }
+        StringBuilder sb = new StringBuilder();
+        for (int i = 3, unit = 1000000000; i >= 0; i--, unit /= 1000) {
+            int curNum = num / unit;
+            if (curNum != 0) {
+                num -= curNum * unit;
+                sb.Append(toEnglish(curNum)).Append(thousands[i]).Append(" ");
+            }
+        }
+        return sb.ToString().Trim();
+    }
+
+    public string toEnglish(int num) {
+        StringBuilder curr = new StringBuilder();
+        int hundred = num / 100;
+        num %= 100;
+        if (hundred != 0) {
+            curr.Append(singles[hundred]).Append(" Hundred ");
+        }
+        int ten = num / 10;
+        if (ten >= 2) {
+            curr.Append(tens[ten]).Append(" ");
+            num %= 10;
+        }
+        if (num > 0 && num < 10) {
+            curr.Append(singles[num]).Append(" ");
+        } else if (num >= 10) {
+            curr.Append(teens[num - 10]).Append(" ");
+        }
+        return curr.ToString();
+    }
+}

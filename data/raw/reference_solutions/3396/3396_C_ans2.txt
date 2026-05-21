@@ -1,0 +1,10 @@
+int minimumOperations(int* nums, int numsSize) {
+    int seen[128] = {0};
+    for (int i = numsSize - 1; i >= 0; i--) {
+        if (seen[nums[i]]) {
+            return i / 3 + 1;
+        }
+        seen[nums[i]] = true;
+    }
+    return 0;
+}

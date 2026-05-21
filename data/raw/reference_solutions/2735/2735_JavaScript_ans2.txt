@@ -1,0 +1,76 @@
+var minCost = function(nums, x) {
+    const n = nums.length;
+    
+    const min_idx = nums.indexOf(Math.min(...nums));
+    let tmp = [];
+    for (let i = 0; i < n; ++i) {
+        tmp.push(nums[(min_idx + i) % n]);
+    }
+    nums = tmp;
+
+    const L = new Array(n).fill(0);
+    const R = new Array(n).fill(0);
+    L[0] = n - 1;
+    
+    for (let i = 0; i < n; i++) {
+        R[i] = n - i - 1;
+    }
+
+    let s = [0];
+    for (let i = 1; i < n; i++) {
+        while (s.length > 0 && nums[i] < nums[s[s.length - 1]]) {
+            R[s[s.length - 1]] = i - s[s.length - 1] - 1;
+            s.pop();
+        }
+        L[i] = i - s[s.length - 1] - 1;
+        s.push(i);
+    }
+    
+    let F = new Array(n).fill(0);
+    
+    const diff_once = function(l, r, d) {
+        if (l > r) {
+            return;
+        }
+        if (l < n) {
+            F[l] += d;
+        }
+        if (r + 1 < n) {
+            F[r + 1] -= d;
+        }
+    }
+    
+    
+    const diff_twice = function(l, r, k, b) {
+        if (l > r) {
+            return;
+        }
+        diff_once(l, l, k * l + b);
+        diff_once(l + 1, r, k);
+        diff_once(r + 1, r + 1, -(k * r + b));
+    }
+
+    
+    diff_twice(0, n - 1, x, 0);
+    for (let i = 0; i < n; i++) {
+        let minv = Math.min(L[i], R[i]);
+        let maxv = Math.max(L[i], R[i]);
+        
+        diff_twice(0, minv, nums[i], nums[i]);
+        
+        diff_twice(minv + 1, maxv, 0, nums[i] * (minv + 1));
+        
+        diff_twice(maxv + 1, L[i] + R[i], -nums[i], nums[i] * (L[i] + R[i] + 1));
+    }
+
+    
+    for (let i = 0; i < 2; i++) {
+        let G = new Array(n).fill(0);
+        G[0] = F[0];
+        for (let j = 1; j < n; j++) {
+            G[j] = G[j - 1] + F[j];
+        }
+        F = G;
+    }
+    return Math.min(...F);
+};

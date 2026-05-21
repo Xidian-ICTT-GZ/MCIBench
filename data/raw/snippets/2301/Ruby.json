@@ -1,0 +1,1 @@
+"# @param {String} s\n# @param {String} sub\n# @param {Character[][]} mappings\n# @return {Boolean}\ndef match_replacement(s, sub, mappings)\n    \nend"

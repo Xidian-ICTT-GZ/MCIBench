@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<bool> checkArithmeticSubarrays(vector<int>& nums, vector<int>& l, vector<int>& r) {\n        \n    }\n};"

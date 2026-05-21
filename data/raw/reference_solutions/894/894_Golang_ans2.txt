@@ -1,0 +1,19 @@
+func allPossibleFBT(n int) []*TreeNode {
+    if n%2 == 0 {
+		return []*TreeNode{}
+	}
+
+	dp := make([][]*TreeNode, n + 1)
+	dp[1] = []*TreeNode{&TreeNode{Val: 0}}
+	for i := 3; i <= n; i += 2 {
+		for j := 1; j < i; j += 2 {
+			for _, leftSubtree := range dp[j] {
+				for _, rightSubtree := range dp[i - 1 - j] {
+					root := &TreeNode{Val: 0, Left: leftSubtree, Right: rightSubtree}
+					dp[i] = append(dp[i], root)
+				}
+			}
+		}
+	}
+	return dp[n]
+}

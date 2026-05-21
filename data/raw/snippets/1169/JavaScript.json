@@ -1,0 +1,1 @@
+"/**\n * @param {string[]} transactions\n * @return {string[]}\n */\nvar invalidTransactions = function(transactions) {\n    \n};"

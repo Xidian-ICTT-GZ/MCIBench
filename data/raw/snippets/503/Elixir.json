@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec next_greater_elements(nums :: [integer]) :: [integer]\n  def next_greater_elements(nums) do\n    \n  end\nend"

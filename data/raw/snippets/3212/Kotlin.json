@@ -1,0 +1,1 @@
+"class Solution {\n    fun numberOfSubmatrices(grid: Array<CharArray>): Int {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"# @param {String} word\n# @return {Integer}\ndef num_different_integers(word)\n    \nend"

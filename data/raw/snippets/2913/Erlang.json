@@ -1,0 +1,1 @@
+"-spec sum_counts(Nums :: [integer()]) -> integer().\nsum_counts(Nums) ->\n  ."

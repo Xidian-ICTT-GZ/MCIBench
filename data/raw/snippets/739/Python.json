@@ -1,0 +1,1 @@
+"class Solution(object):\n    def dailyTemperatures(self, temperatures):\n        \"\"\"\n        :type temperatures: List[int]\n        :rtype: List[int]\n        \"\"\"\n        "

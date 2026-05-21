@@ -1,0 +1,1 @@
+"class Solution(object):\n    def maxPalindromesAfterOperations(self, words):\n        \"\"\"\n        :type words: List[str]\n        :rtype: int\n        \"\"\"\n        "

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec has_trailing_zeros(nums :: [integer]) :: boolean\n  def has_trailing_zeros(nums) do\n    \n  end\nend"

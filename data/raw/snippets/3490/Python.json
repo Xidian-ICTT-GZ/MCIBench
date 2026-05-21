@@ -1,0 +1,1 @@
+"class Solution(object):\n    def beautifulNumbers(self, l, r):\n        \"\"\"\n        :type l: int\n        :type r: int\n        :rtype: int\n        \"\"\"\n        "

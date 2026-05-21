@@ -1,0 +1,1 @@
+"object Solution {\n    def findMinDifference(timePoints: List[String]): Int = {\n        \n    }\n}"

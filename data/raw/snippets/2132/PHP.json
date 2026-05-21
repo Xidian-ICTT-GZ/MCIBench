@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $grid\n     * @param Integer $stampHeight\n     * @param Integer $stampWidth\n     * @return Boolean\n     */\n    function possibleToStamp($grid, $stampHeight, $stampWidth) {\n        \n    }\n}"

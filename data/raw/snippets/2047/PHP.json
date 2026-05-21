@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $sentence\n     * @return Integer\n     */\n    function countValidWords($sentence) {\n        \n    }\n}"

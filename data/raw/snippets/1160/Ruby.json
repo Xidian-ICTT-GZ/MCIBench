@@ -1,0 +1,1 @@
+"# @param {String[]} words\n# @param {String} chars\n# @return {Integer}\ndef count_characters(words, chars)\n    \nend"

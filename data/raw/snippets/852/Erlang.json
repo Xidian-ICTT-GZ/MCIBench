@@ -1,0 +1,1 @@
+"-spec peak_index_in_mountain_array(Arr :: [integer()]) -> integer().\npeak_index_in_mountain_array(Arr) ->\n  ."

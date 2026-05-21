@@ -1,0 +1,1 @@
+"class Solution(object):\n    def minimumCost(self, target, words, costs):\n        \"\"\"\n        :type target: str\n        :type words: List[str]\n        :type costs: List[int]\n        :rtype: int\n        \"\"\"\n        "

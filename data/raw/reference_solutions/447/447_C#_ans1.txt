@@ -1,0 +1,21 @@
+public class Solution {
+    public int NumberOfBoomerangs(int[][] points) {
+        int ans = 0;
+        foreach (int[] p in points) {
+            Dictionary<int, int> cnt = new Dictionary<int, int>();
+            foreach (int[] q in points) {
+                int dis = (p[0] - q[0]) * (p[0] - q[0]) + (p[1] - q[1]) * (p[1] - q[1]);
+                if (!cnt.ContainsKey(dis)) {
+                    cnt.Add(dis, 1);
+                } else {
+                    ++cnt[dis];
+                }
+            }
+            foreach (KeyValuePair<int, int> kv in cnt) {
+                int m = kv.Value;
+                ans += m * (m - 1);
+            }
+        }
+        return ans;
+    }
+}

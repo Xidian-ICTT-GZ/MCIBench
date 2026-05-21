@@ -1,0 +1,1 @@
+"class Solution:\n    def checkPartitioning(self, s: str) -> bool:\n        "

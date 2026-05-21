@@ -1,0 +1,1 @@
+"class Solution:\n    def merge(self, intervals: List[List[int]]) -> List[List[int]]:\n        "

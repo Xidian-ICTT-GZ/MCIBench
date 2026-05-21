@@ -1,0 +1,23 @@
+public class Solution {
+    public TreeNode ConstructFromPrePost(int[] preorder, int[] postorder) {
+        int n = preorder.Length;
+        IDictionary<int, int> postDictionary = new Dictionary<int, int>();
+        for (int i = 0; i < n; i++) {
+            postDictionary.Add(postorder[i], i);
+        }
+        return DFS(preorder, postorder, postDictionary, 0, n - 1, 0, n - 1);
+    }
+
+    public TreeNode DFS(int[] preorder, int[] postorder, IDictionary<int, int> postDictionary, int preLeft, int preRight, int postLeft, int postRight) {
+        if (preLeft > preRight) {
+            return null;
+        }
+        int leftCount = 0;
+        if (preLeft < preRight) {
+            leftCount = postDictionary[preorder[preLeft + 1]] - postLeft + 1;
+        }
+        return new TreeNode(preorder[preLeft],
+            DFS(preorder, postorder, postDictionary, preLeft + 1, preLeft + leftCount, postLeft, postLeft + leftCount - 1),
+            DFS(preorder, postorder, postDictionary, preLeft + leftCount + 1, preRight, postLeft + leftCount, postRight - 1));
+    }
+}

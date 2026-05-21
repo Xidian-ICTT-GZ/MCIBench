@@ -1,0 +1,1 @@
+"class Solution(object):\n    def mostCommonWord(self, paragraph, banned):\n        \"\"\"\n        :type paragraph: str\n        :type banned: List[str]\n        :rtype: str\n        \"\"\"\n        "

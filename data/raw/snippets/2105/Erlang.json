@@ -1,0 +1,1 @@
+"-spec minimum_refill(Plants :: [integer()], CapacityA :: integer(), CapacityB :: integer()) -> integer().\nminimum_refill(Plants, CapacityA, CapacityB) ->\n  ."

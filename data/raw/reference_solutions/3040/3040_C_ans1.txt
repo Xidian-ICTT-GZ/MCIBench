@@ -1,0 +1,42 @@
+int dfs(int i, int j, int target, int **memo, int *nums) {
+    if (i >= j) {
+        return 0;
+    }
+    if (memo[i][j] != -1) {
+        return memo[i][j];
+    }
+    int ans = 0;
+    if (nums[i] + nums[i + 1] == target) {
+        ans = fmax(ans, 1 + dfs(i + 2, j, target, memo, nums));
+    }
+    if (nums[j - 1] + nums[j] == target) {
+        ans = fmax(ans, 1 + dfs(i, j - 2, target, memo, nums));
+    }
+    if (nums[i] + nums[j] == target) {
+        ans = fmax(ans, 1 + dfs(i + 1, j - 1, target, memo, nums));
+    }
+    memo[i][j] = ans;
+    return ans;
+}
+
+int helper(int i, int j, int target, int **memo, int *nums, int numsSize) {
+    for (int k = 0; k < numsSize; k++) {
+        memset(memo[k], -1, sizeof(int) * numsSize);
+    }
+    return dfs(i, j, target, memo, nums);
+}
+
+int maxOperations(int* nums, int numsSize) {
+    int *memo[numsSize];
+    for (int i = 0; i < numsSize; i++) {
+        memo[i] = (int *)malloc(sizeof(int) * numsSize);
+    }
+    int res = 0;
+    res = fmax(res, helper(0, numsSize - 1, nums[0] + nums[numsSize - 1], memo, nums, numsSize));
+    res = fmax(res, helper(0, numsSize - 1, nums[0] + nums[1], memo, nums, numsSize));
+    res = fmax(res, helper(0, numsSize - 1, nums[numsSize - 2] + nums[numsSize - 1], memo, nums, numsSize));
+    for (int i = 0; i < numsSize; i++) {
+        free(memo[i]);
+    }
+    return res;
+}

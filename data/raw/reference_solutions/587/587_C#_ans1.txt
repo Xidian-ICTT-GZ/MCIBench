@@ -1,0 +1,49 @@
+public class Solution {
+    public int[][] OuterTrees(int[][] trees) {
+        int n = trees.Length;
+        if (n < 4) {
+            return trees;
+        }
+        int leftMost = 0;
+        for (int i = 0; i < n; i++) {
+            if (trees[i][0] < trees[leftMost][0] || 
+                (trees[i][0] == trees[leftMost][0] && 
+                 trees[i][1] < trees[leftMost][1])) {
+                leftMost = i;
+            }
+        }
+
+        IList<int[]> res = new List<int[]>();
+        bool[] visit = new bool[n];
+        int p = leftMost;
+        do {
+            int q = (p + 1) % n;
+            for (int r = 0; r < n; r++) {
+                 
+                if (Cross(trees[p], trees[q], trees[r]) < 0) {
+                    q = r;
+                }
+            }
+            
+            for (int i = 0; i < n; i++) {
+                if (visit[i] || i == p || i == q) {
+                    continue;
+                }
+                if (Cross(trees[p], trees[q], trees[i]) == 0) {
+                    res.Add(trees[i]);
+                    visit[i] = true;
+                }
+            }
+            if  (!visit[q]) {
+                res.Add(trees[q]);
+                visit[q] = true;
+            }
+            p = q;
+        } while (p != leftMost);
+        return res.ToArray();
+    }
+
+    public int Cross(int[] p, int[] q, int[] r) {
+        return (q[0] - p[0]) * (r[1] - q[1]) - (q[1] - p[1]) * (r[0] - q[0]);
+    }
+}

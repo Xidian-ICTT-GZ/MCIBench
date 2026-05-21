@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $n\n     * @param Integer[][] $edges\n     * @param Integer $distanceThreshold\n     * @return Integer\n     */\n    function findTheCity($n, $edges, $distanceThreshold) {\n        \n    }\n}"

@@ -1,0 +1,34 @@
+var solveNQueens = function(n) {
+    const solutions = [];
+    const queens = new Array(n).fill(-1);
+    const row = new Array(n).fill(".");
+
+    function generateBoard() {
+        const board = [];
+        for (let i = 0; i < n; i++) {
+            row[queens[i]] = "Q";
+            board.push(row.join(""));
+            row[queens[i]] = ".";
+        }
+        return board;
+    }
+
+    function solve(row, columns, diagonals1, diagonals2) {
+        if (row === n) {
+            const board = generateBoard();
+            solutions.push(board);
+        } else {
+            let availablePositions = ((1 << n) - 1) & (~(columns | diagonals1 | diagonals2));
+            while (availablePositions) {
+                const position = availablePositions & -availablePositions;
+                availablePositions &= availablePositions - 1;
+                const column = Math.log2(position);
+                queens[row] = column;
+                solve(row + 1, columns | position, (diagonals1 | position) << 1, (diagonals2 | position) >> 1);
+            }
+        }
+    }
+
+    solve(0, 0, 0, 0);
+    return solutions;
+};

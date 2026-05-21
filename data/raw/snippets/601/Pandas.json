@@ -1,0 +1,1 @@
+"import pandas as pd\n\ndef human_traffic(stadium: pd.DataFrame) -> pd.DataFrame:\n    "

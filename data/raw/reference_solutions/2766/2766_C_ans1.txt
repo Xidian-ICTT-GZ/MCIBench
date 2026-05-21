@@ -1,0 +1,60 @@
+typedef struct {
+    int key;
+    UT_hash_handle hh;
+} HashItem; 
+
+HashItem *hashFindItem(HashItem **obj, int key) {
+    HashItem *pEntry = NULL;
+    HASH_FIND_INT(*obj, &key, pEntry);
+    return pEntry;
+}
+
+bool hashAddItem(HashItem **obj, int key) {
+    if (hashFindItem(obj, key)) {
+        return false;
+    }
+    HashItem *pEntry = (HashItem *)malloc(sizeof(HashItem));
+    pEntry->key = key;
+    HASH_ADD_INT(*obj, key, pEntry);
+    return true;
+}
+
+void hashEraseItem(HashItem **obj, int key) {
+    HashItem *pEntry = NULL;
+    HASH_FIND_INT(*obj, &key, pEntry);
+    HASH_DEL(*obj, pEntry);
+    free(pEntry);      
+}
+
+void hashFree(HashItem **obj) {
+    HashItem *curr = NULL, *tmp = NULL;
+    HASH_ITER(hh, *obj, curr, tmp) {
+        HASH_DEL(*obj, curr);  
+        free(curr);
+    }
+}
+
+int cmp(const void *a, const void *b) {
+    return *(int *)a - *(int *)b;
+}
+
+int* relocateMarbles(int* nums, int numsSize, int* moveFrom, int moveFromSize, int* moveTo, int moveToSize, int* returnSize){
+    int *ans = (int *)malloc(sizeof(int) * numsSize);
+    HashItem *mp = NULL;
+    for (int i = 0; i < numsSize; i++) {
+        hashAddItem(&mp, nums[i]);
+    }
+    for (int i = 0; i < moveFromSize; i++) {
+        hashEraseItem(&mp, moveFrom[i]);
+        hashAddItem(&mp, moveTo[i]);
+    }
+
+    int pos = 0;
+    for (HashItem *pEntry = mp; pEntry; pEntry = pEntry->hh.next) {
+        ans[pos++] = pEntry->key;
+    }
+    hashFree(&mp);
+    qsort(ans, pos, sizeof(int), cmp);
+    *returnSize = pos;
+    return ans;
+}

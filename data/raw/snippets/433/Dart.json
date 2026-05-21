@@ -1,0 +1,1 @@
+"class Solution {\n  int minMutation(String startGene, String endGene, List<String> bank) {\n    \n  }\n}"

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec min_bit_flips(start :: integer, goal :: integer) :: integer\n  def min_bit_flips(start, goal) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"object Solution {\n    def satisfiesConditions(grid: Array[Array[Int]]): Boolean = {\n        \n    }\n}"

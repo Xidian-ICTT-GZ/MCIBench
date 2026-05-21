@@ -1,0 +1,1 @@
+"-spec min_removal(Nums :: [integer()], K :: integer()) -> integer().\nmin_removal(Nums, K) ->\n  ."

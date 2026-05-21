@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    long long maxGCDScore(vector<int>& nums, int k) {\n        \n    }\n};"

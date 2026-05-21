@@ -1,0 +1,61 @@
+const int dx[4] = {1, -1, 0, 0};
+const int dy[4] = {0, 0, 1, -1};
+
+void solve(char** board, int boardSize, int* boardColSize) {
+    int m = boardSize;
+    if (m == 0) {
+        return;
+    }
+    int n = boardColSize[0];
+
+    int** que = (int**)malloc(sizeof(int*) * m * n);
+    for (int i = 0; i < m * n; i++) {
+        que[i] = (int*)malloc(sizeof(int) * 2);
+    }
+    int l = 0, r = 0;
+    for (int i = 0; i < m; i++) {
+        if (board[i][0] == 'O') {
+            board[i][0] = 'A';
+            que[r][0] = i, que[r++][1] = 0;
+        }
+        if (board[i][n - 1] == 'O') {
+            board[i][n - 1] = 'A';
+            que[r][0] = i, que[r++][1] = n - 1;
+        }
+    }
+    for (int i = 1; i < n - 1; i++) {
+        if (board[0][i] == 'O') {
+            board[0][i] = 'A';
+            que[r][0] = 0, que[r++][1] = i;
+        }
+        if (board[m - 1][i] == 'O') {
+            board[m - 1][i] = 'A';
+            que[r][0] = m - 1, que[r++][1] = i;
+        }
+    }
+    while (l < r) {
+        int x = que[l][0], y = que[l][1];
+        l++;
+        for (int i = 0; i < 4; i++) {
+            int mx = x + dx[i], my = y + dy[i];
+            if (mx < 0 || my < 0 || mx >= m || my >= n || board[mx][my] != 'O') {
+                continue;
+            }
+            board[mx][my] = 'A';
+            que[r][0] = mx, que[r++][1] = my;
+        }
+    }
+    for (int i = 0; i < m; i++) {
+        for (int j = 0; j < n; j++) {
+            if (board[i][j] == 'A') {
+                board[i][j] = 'O';
+            } else if (board[i][j] == 'O') {
+                board[i][j] = 'X';
+            }
+        }
+    }
+    for (int i = 0; i < m * n; i++) {
+        free(que[i]);
+    }
+    free(que);
+}

@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $batchSize\n     * @param Integer[] $groups\n     * @return Integer\n     */\n    function maxHappyGroups($batchSize, $groups) {\n        \n    }\n}"

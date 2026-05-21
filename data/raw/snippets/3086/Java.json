@@ -1,0 +1,1 @@
+"class Solution {\n    public long minimumMoves(int[] nums, int k, int maxChanges) {\n        \n    }\n}"

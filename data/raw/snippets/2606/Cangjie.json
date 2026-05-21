@@ -1,0 +1,1 @@
+"class Solution {\n    func maximumCostSubstring(s: String, chars: String, vals: Array<Int64>): Int64 {\n\n    }\n}"

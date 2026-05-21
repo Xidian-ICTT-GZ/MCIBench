@@ -1,0 +1,112 @@
+typedef struct {
+    int key;
+    struct ListNode *val;
+    UT_hash_handle hh;
+} HashItem; 
+
+struct ListNode *createListNode(int val) {
+    struct ListNode *p = (struct ListNode*)malloc(sizeof(struct ListNode));
+    p->val = val;
+    p->next = NULL;
+    return p;
+}
+
+HashItem *hashFindItem(HashItem **obj, int key) {
+    HashItem *pEntry = NULL;
+    HASH_FIND_INT(*obj, &key, pEntry);
+    return pEntry;
+}
+
+bool hashAddItem(HashItem **obj, int key, int val) {
+    struct ListNode *p = createListNode(val);
+    HashItem *pEntry = hashFindItem(obj, key);
+    if (pEntry) {
+        p->next = pEntry->val;
+        pEntry->val = p;
+        return true;
+    }
+    pEntry = (HashItem *)malloc(sizeof(HashItem));
+    pEntry->key = key;
+    pEntry->val = p;
+    HASH_ADD_INT(*obj, key, pEntry);
+    return true;
+}
+
+struct ListNode* hashGetItem(HashItem **obj, int key) {
+    HashItem *pEntry = hashFindItem(obj, key);
+    if (!pEntry) {
+        return NULL;
+    }
+    return pEntry->val;
+}
+
+void freeList(struct ListNode *list) {
+    while (list) {
+        struct ListNode *p = list;
+        list = list->next;
+        free(p);
+    }
+}
+
+void hashFree(HashItem **obj) {
+    HashItem *curr = NULL, *tmp = NULL;
+    HASH_ITER(hh, *obj, curr, tmp) {
+        HASH_DEL(*obj, curr);  
+        free(curr);
+    }
+}
+
+int* smallestRange(int** nums, int numsSize, int* numsColSize, int* returnSize) {
+    int n = numsSize;
+    HashItem *indices = NULL;
+    int xMin = INT_MAX, xMax = INT_MIN;
+    for (int i = 0; i < n; ++i) {
+        for (int j = 0; j < numsColSize[i]; j++) {
+            int x = nums[i][j];
+            hashAddItem(&indices, x, i);
+            xMin = fmin(xMin, x);
+            xMax = fmax(xMax, x);
+        }
+    }
+
+    int freq[n];
+    memset(freq, 0, sizeof(freq));
+    int inside = 0;
+    int left = xMin, right = xMin - 1;
+    int bestLeft = xMin, bestRight = xMax;
+
+    while (right < xMax) {
+        ++right;
+        if (hashFindItem(&indices, right)) {
+            for (struct ListNode *p = hashGetItem(&indices, right); p; p = p->next) {
+                int x = p->val;
+                ++freq[x];
+                if (freq[x] == 1) {
+                    ++inside;
+                }
+            }
+            while (inside == n) {
+                if (right - left < bestRight - bestLeft) {
+                    bestLeft = left;
+                    bestRight = right;
+                }
+                if (hashFindItem(&indices, left)) {
+                    for (struct ListNode *p = hashGetItem(&indices, left); p; p = p->next) {
+                        int x = p->val;
+                        --freq[x];
+                        if (freq[x] == 0) {
+                            --inside;
+                        }
+                    }
+                }
+                ++left;
+            }
+        }
+    }
+    int *res = (int *)malloc(sizeof(int) * 2);
+    res[0] = bestLeft;
+    res[1] = bestRight;
+    *returnSize = 2;
+    hashFree(&indices);
+    return res;
+}

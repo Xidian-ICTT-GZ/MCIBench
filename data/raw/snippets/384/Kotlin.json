@@ -1,0 +1,1 @@
+"class Solution(nums: IntArray) {\n\n    fun reset(): IntArray {\n        \n    }\n\n    fun shuffle(): IntArray {\n        \n    }\n\n}\n\n/**\n * Your Solution object will be instantiated and called as such:\n * var obj = Solution(nums)\n * var param_1 = obj.reset()\n * var param_2 = obj.shuffle()\n */"

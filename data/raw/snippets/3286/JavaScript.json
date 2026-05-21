@@ -1,0 +1,1 @@
+"/**\n * @param {number[][]} grid\n * @param {number} health\n * @return {boolean}\n */\nvar findSafeWalk = function(grid, health) {\n    \n};"

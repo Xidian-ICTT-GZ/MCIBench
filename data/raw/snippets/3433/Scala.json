@@ -1,0 +1,1 @@
+"object Solution {\n    def countMentions(numberOfUsers: Int, events: List[List[String]]): Array[Int] = {\n        \n    }\n}"

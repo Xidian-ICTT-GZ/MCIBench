@@ -1,0 +1,1 @@
+"class Solution(object):\n    def findProductsOfElements(self, queries):\n        \"\"\"\n        :type queries: List[List[int]]\n        :rtype: List[int]\n        \"\"\"\n        "

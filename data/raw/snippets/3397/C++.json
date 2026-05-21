@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int maxDistinctElements(vector<int>& nums, int k) {\n        \n    }\n};"

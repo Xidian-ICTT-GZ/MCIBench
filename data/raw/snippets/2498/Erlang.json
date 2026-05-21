@@ -1,0 +1,1 @@
+"-spec max_jump(Stones :: [integer()]) -> integer().\nmax_jump(Stones) ->\n  ."

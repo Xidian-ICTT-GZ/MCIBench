@@ -1,0 +1,1 @@
+"(define/contract (min-valid-strings words target)\n  (-> (listof string?) string? exact-integer?)\n  )"

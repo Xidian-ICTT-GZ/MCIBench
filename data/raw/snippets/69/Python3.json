@@ -1,0 +1,1 @@
+"class Solution:\n    def mySqrt(self, x: int) -> int:\n        "

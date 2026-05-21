@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec find_words_containing(words :: [String.t], x :: char) :: [integer]\n  def find_words_containing(words, x) do\n    \n  end\nend"

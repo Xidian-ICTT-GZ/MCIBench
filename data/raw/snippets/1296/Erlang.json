@@ -1,0 +1,1 @@
+"-spec is_possible_divide(Nums :: [integer()], K :: integer()) -> boolean().\nis_possible_divide(Nums, K) ->\n  ."

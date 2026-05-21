@@ -1,0 +1,1 @@
+"-spec trailing_zeroes(N :: integer()) -> integer().\ntrailing_zeroes(N) ->\n  ."

@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    string findDifferentBinaryString(vector<string>& nums) {\n        \n    }\n};"

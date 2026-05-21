@@ -1,0 +1,1 @@
+"impl Solution {\n    pub fn convert_temperature(celsius: f64) -> Vec<f64> {\n        \n    }\n}"

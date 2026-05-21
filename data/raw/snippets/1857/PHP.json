@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $colors\n     * @param Integer[][] $edges\n     * @return Integer\n     */\n    function largestPathValue($colors, $edges) {\n        \n    }\n}"

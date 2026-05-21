@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    bool isBipartite(vector<vector<int>>& graph) {\n        \n    }\n};"

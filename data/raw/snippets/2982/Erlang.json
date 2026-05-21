@@ -1,0 +1,1 @@
+"-spec maximum_length(S :: unicode:unicode_binary()) -> integer().\nmaximum_length(S) ->\n  ."

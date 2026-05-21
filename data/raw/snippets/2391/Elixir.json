@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec garbage_collection(garbage :: [String.t], travel :: [integer]) :: integer\n  def garbage_collection(garbage, travel) do\n    \n  end\nend"

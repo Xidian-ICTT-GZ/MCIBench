@@ -1,0 +1,16 @@
+func filterRestaurants(restaurants [][]int, veganFriendly int, maxPrice int, maxDistance int) []int {
+    filtered := [][]int{}
+    for _, r := range restaurants {
+        if r[3] <= maxPrice && r[4] <= maxDistance && !(veganFriendly == 1 && r[2] == 0) {
+            filtered = append(filtered, r)
+        }
+    }
+    sort.Slice(filtered, func(i, j int) bool {
+        return filtered[i][1] > filtered[j][1] || (filtered[i][1] == filtered[j][1] && filtered[i][0] > filtered[j][0])
+    })
+    res := []int{}
+    for _, r := range filtered {
+        res = append(res, r[0])
+    }
+    return res
+}

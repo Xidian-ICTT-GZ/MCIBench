@@ -1,0 +1,12 @@
+impl Solution {
+    pub fn divisibility_array(word: String, m: i32) -> Vec<i32> {
+        let mut cur: i64 = 0;
+        let mut m64: i64 = m.into();
+        let mut res = Vec::new();
+        for c in word.chars() {
+            cur = (cur * 10 + (c.to_digit(10).unwrap() as i64)) % m64;
+            res.push(if cur == 0 { 1 } else { 0 });
+        }
+        res
+    }
+}

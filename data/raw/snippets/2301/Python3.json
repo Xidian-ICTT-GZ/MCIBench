@@ -1,0 +1,1 @@
+"class Solution:\n    def matchReplacement(self, s: str, sub: str, mappings: List[List[str]]) -> bool:\n        "

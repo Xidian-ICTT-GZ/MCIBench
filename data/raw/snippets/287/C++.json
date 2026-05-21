@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int findDuplicate(vector<int>& nums) {\n        \n    }\n};"

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec min_removal(nums :: [integer], k :: integer) :: integer\n  def min_removal(nums, k) do\n    \n  end\nend"

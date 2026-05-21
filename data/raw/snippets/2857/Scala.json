@@ -1,0 +1,1 @@
+"object Solution {\n    def countPairs(coordinates: List[List[Int]], k: Int): Int = {\n        \n    }\n}"

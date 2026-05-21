@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec min_cost(grid :: [[integer]]) :: integer\n  def min_cost(grid) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"class Solution {\n    func kthCharacter(_ k: Int, _ operations: [Int]) -> Character {\n        \n    }\n}"

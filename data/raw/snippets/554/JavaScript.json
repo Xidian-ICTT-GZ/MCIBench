@@ -1,0 +1,1 @@
+"/**\n * @param {number[][]} wall\n * @return {number}\n */\nvar leastBricks = function(wall) {\n    \n};"

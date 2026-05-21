@@ -1,0 +1,24 @@
+class Solution {
+    public boolean isSubPath(ListNode head, TreeNode root) {
+        if (root == null) {
+            return false;
+        }
+        return dfs(root, head) || isSubPath(head, root.left) || isSubPath(head, root.right);
+    }
+
+    public boolean dfs(TreeNode rt, ListNode head) {
+        
+        if (head == null) {
+            return true;
+        }
+        
+        if (rt == null) {
+            return false;
+        }
+        
+        if (rt.val != head.val) {
+            return false;
+        }
+        return dfs(rt.left, head.next) || dfs(rt.right, head.next);
+    }
+}

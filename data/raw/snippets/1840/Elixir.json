@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec max_building(n :: integer, restrictions :: [[integer]]) :: integer\n  def max_building(n, restrictions) do\n    \n  end\nend"

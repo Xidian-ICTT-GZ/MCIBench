@@ -1,0 +1,1 @@
+"object Solution {\n    def numOfMinutes(n: Int, headID: Int, manager: Array[Int], informTime: Array[Int]): Int = {\n        \n    }\n}"

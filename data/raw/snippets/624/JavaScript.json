@@ -1,0 +1,1 @@
+"/**\n * @param {number[][]} arrays\n * @return {number}\n */\nvar maxDistance = function(arrays) {\n    \n};"

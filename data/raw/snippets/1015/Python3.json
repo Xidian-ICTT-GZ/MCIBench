@@ -1,0 +1,1 @@
+"class Solution:\n    def smallestRepunitDivByK(self, k: int) -> int:\n        "

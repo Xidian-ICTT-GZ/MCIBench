@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $bottomLeft\n     * @param Integer[][] $topRight\n     * @return Integer\n     */\n    function largestSquareArea($bottomLeft, $topRight) {\n        \n    }\n}"

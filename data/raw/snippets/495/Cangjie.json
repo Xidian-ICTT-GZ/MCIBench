@@ -1,0 +1,1 @@
+"class Solution {\n    func findPoisonedDuration(timeSeries: Array<Int64>, duration: Int64): Int64 {\n\n    }\n}"

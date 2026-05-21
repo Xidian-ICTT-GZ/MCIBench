@@ -1,0 +1,12 @@
+public class Solution {
+    public int ThirdMax(int[] nums) {
+        SortedSet<int> s = new SortedSet<int>();
+        foreach (int num in nums) {
+            s.Add(num);
+            if (s.Count > 3) {
+                s.Remove(s.Min);
+            }
+        }
+        return s.Count == 3 ? s.Min : s.Max;
+    }
+}

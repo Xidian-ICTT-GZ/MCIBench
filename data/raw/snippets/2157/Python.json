@@ -1,0 +1,1 @@
+"class Solution(object):\n    def groupStrings(self, words):\n        \"\"\"\n        :type words: List[str]\n        :rtype: List[int]\n        \"\"\"\n        "

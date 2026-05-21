@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<int> findNumOfValidWords(vector<string>& words, vector<string>& puzzles) {\n        \n    }\n};"

@@ -1,0 +1,65 @@
+const int N = 23;
+const int M = 401;
+const int MOD = 1000000007;
+
+int dfs(char *num, int i, int j, int limit, int **d, int min_sum, int max_sum) {
+    if (j > max_sum) {
+        return 0;
+    }
+    if (i == -1) {
+        return j >= min_sum;
+    }
+    if (!limit && d[i][j] != -1) {
+        return d[i][j];
+    }
+    int res = 0;
+    int up = limit ? num[i] - '0' : 9;
+    for (int x = 0; x <= up; x++) {
+        res = (res + dfs(num, i - 1, j + x, limit && x == up, d, min_sum, max_sum)) % MOD;
+    }
+    if (!limit) {
+        d[i][j] = res;
+    }
+    return res;
+}
+
+int get(char *num, int **d, int min_sum, int max_sum) {
+    int len = strlen(num);
+    for (int i = 0, j = len - 1; i < j; i++, j--) {
+        char ch = num[i];
+        num[i] = num[j];
+        num[j] = ch;
+    }
+    return dfs(num, len - 1, 0, 1, d, min_sum, max_sum);
+}
+
+char* sub(char *num) {
+    int len = strlen(num);
+    int i = len - 1;
+    while (num[i] == '0') {
+        i--;
+    }
+    num[i]--;
+    i++;
+    while (i < len) {
+        num[i] = '9';
+        i++;
+    }
+    return num;
+}
+
+int count(char * num1, char * num2, int min_sum, int max_sum) {
+    int **d = (int **)malloc(sizeof(int *) * N);
+    for (int i = 0; i < N; i++) {
+        d[i] = (int *)malloc(sizeof(int) * M);
+        for (int j = 0; j < M; j++) {
+            d[i][j] = -1;
+        }
+    }
+    int ret = (get(num2, d, min_sum, max_sum) - get(sub(num1), d, min_sum, max_sum) + MOD) % MOD;
+    for (int i = 0; i < N; i++) {
+        free(d[i]);
+    }
+    free(d);
+    return ret;
+}

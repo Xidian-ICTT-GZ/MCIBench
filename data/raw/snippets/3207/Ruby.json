@@ -1,0 +1,1 @@
+"# @param {Integer[]} enemy_energies\n# @param {Integer} current_energy\n# @return {Integer}\ndef maximum_points(enemy_energies, current_energy)\n    \nend"

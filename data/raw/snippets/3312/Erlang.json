@@ -1,0 +1,1 @@
+"-spec gcd_values(Nums :: [integer()], Queries :: [integer()]) -> [integer()].\ngcd_values(Nums, Queries) ->\n  ."

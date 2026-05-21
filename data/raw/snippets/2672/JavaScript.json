@@ -1,0 +1,1 @@
+"/**\n * @param {number} n\n * @param {number[][]} queries\n * @return {number[]}\n */\nvar colorTheArray = function(n, queries) {\n    \n};"

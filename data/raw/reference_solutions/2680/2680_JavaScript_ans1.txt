@@ -1,0 +1,14 @@
+var maximumOr = function(nums, k) {
+    let n = nums.length;
+    let suf = new Array(n + 1).fill(0n);
+    for (let i = n - 1; i >= 0; i--) {
+        suf[i] = suf[i + 1] | BigInt(nums[i]);
+    }
+
+    let res = 0n, pre = 0n;
+    for (let i = 0; i < n; i++) {
+        res = Math.max(Number(res), Number(pre | (BigInt(nums[i]) << BigInt(k)) | suf[i + 1]));
+        pre |= BigInt(nums[i]);
+    }
+    return Number(res);
+};

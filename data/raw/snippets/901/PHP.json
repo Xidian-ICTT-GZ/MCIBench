@@ -1,0 +1,1 @@
+"class StockSpanner {\n    /**\n     */\n    function __construct() {\n        \n    }\n  \n    /**\n     * @param Integer $price\n     * @return Integer\n     */\n    function next($price) {\n        \n    }\n}\n\n/**\n * Your StockSpanner object will be instantiated and called as such:\n * $obj = StockSpanner();\n * $ret_1 = $obj->next($price);\n */"

@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String[] $folder\n     * @return String[]\n     */\n    function removeSubfolders($folder) {\n        \n    }\n}"

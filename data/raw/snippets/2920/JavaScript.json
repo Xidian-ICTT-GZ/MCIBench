@@ -1,0 +1,1 @@
+"/**\n * @param {number[][]} edges\n * @param {number[]} coins\n * @param {number} k\n * @return {number}\n */\nvar maximumPoints = function(edges, coins, k) {\n    \n};"

@@ -1,0 +1,1 @@
+"/**\n * @param {string} name\n * @param {string} typed\n * @return {boolean}\n */\nvar isLongPressedName = function(name, typed) {\n    \n};"

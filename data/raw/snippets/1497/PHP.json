@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $arr\n     * @param Integer $k\n     * @return Boolean\n     */\n    function canArrange($arr, $k) {\n        \n    }\n}"

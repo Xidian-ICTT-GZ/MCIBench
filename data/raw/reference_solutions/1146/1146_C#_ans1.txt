@@ -1,0 +1,39 @@
+public class SnapshotArray {
+    private int snap_cnt;
+    private IList<Tuple<int, int>>[] data;
+
+    public SnapshotArray(int length) {
+        snap_cnt = 0;
+        data = new IList<Tuple<int, int>>[length];
+        for (int i = 0; i < length; i++) {
+            data[i] = new List<Tuple<int, int>>();
+        }
+    }
+
+    public void Set(int index, int val) {
+        data[index].Add(new Tuple<int, int>(snap_cnt, val));
+    }
+
+    public int Snap() {
+        return snap_cnt++;
+    }
+
+    public int Get(int index, int snap_id) {
+        int x = BinarySearch(index, snap_id);
+        return x == 0 ? 0 : data[index][x - 1].Item2;
+    }
+
+    private int BinarySearch(int index, int snap_id) {
+        int low = 0, high = data[index].Count;
+        while (low < high) {
+            int mid = low + (high - low) / 2;
+            Tuple<int, int> pair = data[index][mid];
+            if (pair.Item1 > snap_id + 1 || (pair.Item1 == snap_id + 1 && pair.Item2 >= 0)) {
+                high = mid;
+            } else {
+                low = mid + 1;
+            }
+        }
+        return low;
+    }
+}

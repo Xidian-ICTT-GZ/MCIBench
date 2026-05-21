@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec report_spam(message :: [String.t], banned_words :: [String.t]) :: boolean\n  def report_spam(message, banned_words) do\n    \n  end\nend"

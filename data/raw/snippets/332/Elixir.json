@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec find_itinerary(tickets :: [[String.t]]) :: [String.t]\n  def find_itinerary(tickets) do\n    \n  end\nend"

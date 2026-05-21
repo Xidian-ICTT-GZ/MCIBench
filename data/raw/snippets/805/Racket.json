@@ -1,0 +1,1 @@
+"(define/contract (split-array-same-average nums)\n  (-> (listof exact-integer?) boolean?)\n  )"

@@ -1,0 +1,19 @@
+int findWinningPlayer(int* skills, int skillsSize, int k) {
+    int cnt = 0;
+    int i = 0, last_i = 0;
+
+    while (i < skillsSize) {
+        int j = i + 1; 
+        while (j < skillsSize && skills[j] < skills[i] && cnt < k) {
+            j++;
+            cnt++;
+        }
+        if (cnt == k) {
+            return i;
+        }
+        cnt = 1;
+        last_i = i;
+        i = j;
+    }
+    return last_i;
+}

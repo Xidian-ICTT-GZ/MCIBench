@@ -1,0 +1,1 @@
+"# @param {Integer[][]} richer\n# @param {Integer[]} quiet\n# @return {Integer[]}\ndef loud_and_rich(richer, quiet)\n    \nend"

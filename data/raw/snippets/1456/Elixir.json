@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec max_vowels(s :: String.t, k :: integer) :: integer\n  def max_vowels(s, k) do\n    \n  end\nend"

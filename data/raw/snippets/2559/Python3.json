@@ -1,0 +1,1 @@
+"class Solution:\n    def vowelStrings(self, words: List[str], queries: List[List[int]]) -> List[int]:\n        "

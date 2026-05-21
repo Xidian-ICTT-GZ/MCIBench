@@ -1,0 +1,1 @@
+"/**\n * @param {string} stamp\n * @param {string} target\n * @return {number[]}\n */\nvar movesToStamp = function(stamp, target) {\n    \n};"

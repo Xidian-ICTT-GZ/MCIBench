@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $segments\n     * @return Integer[][]\n     */\n    function splitPainting($segments) {\n        \n    }\n}"

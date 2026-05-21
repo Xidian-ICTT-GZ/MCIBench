@@ -1,0 +1,1 @@
+"class ATM() {\n\n    fun deposit(banknotesCount: IntArray) {\n        \n    }\n\n    fun withdraw(amount: Int): IntArray {\n        \n    }\n\n}\n\n/**\n * Your ATM object will be instantiated and called as such:\n * var obj = ATM()\n * obj.deposit(banknotesCount)\n * var param_2 = obj.withdraw(amount)\n */"

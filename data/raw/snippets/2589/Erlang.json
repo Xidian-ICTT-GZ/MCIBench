@@ -1,0 +1,1 @@
+"-spec find_minimum_time(Tasks :: [[integer()]]) -> integer().\nfind_minimum_time(Tasks) ->\n  ."

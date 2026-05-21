@@ -1,0 +1,1 @@
+"-spec minimum_money(Transactions :: [[integer()]]) -> integer().\nminimum_money(Transactions) ->\n  ."

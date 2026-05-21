@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec max_absolute_sum(nums :: [integer]) :: integer\n  def max_absolute_sum(nums) do\n    \n  end\nend"

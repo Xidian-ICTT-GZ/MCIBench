@@ -1,0 +1,1 @@
+"-spec arrange_words(Text :: unicode:unicode_binary()) -> unicode:unicode_binary().\narrange_words(Text) ->\n  ."

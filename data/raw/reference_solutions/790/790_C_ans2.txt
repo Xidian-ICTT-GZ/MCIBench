@@ -1,0 +1,44 @@
+const long long mod = 1e9 + 7;
+
+struct Matrix {
+    long long mat[4][4];
+};
+
+struct Matrix mulMatrix(const struct Matrix *m1, const struct Matrix *m2) {
+    struct Matrix res;
+    memset(&res, 0, sizeof(res));
+    for (int i = 0; i < 4; i++) {
+        for (int k = 0; k < 4; k++) {
+            for (int j = 0; j < 4; j++) {
+                res.mat[i][k] = (res.mat[i][k] + m1->mat[i][j] * m2->mat[j][k]) % mod;
+            }
+        }
+    }
+    return res;
+}
+
+int numTilings(int n) {
+    long long mat1[4][4] = {
+        {0, 0, 0, 1},
+        {1, 0, 1, 0},
+        {1, 1, 0, 0},
+        {1, 1, 1, 1}
+    };
+    long long mat2[4][4] = {
+        {1, 0, 0, 0},
+        {0, 1, 0, 0},
+        {0, 0, 1, 0},
+        {0, 0, 0, 1}
+    };
+    struct Matrix mat, matn;
+    memcpy(mat.mat, mat1, sizeof(mat1));
+    memcpy(matn.mat, mat2, sizeof(mat2));
+    while (n) {
+        if (n & 1) {
+            matn = mulMatrix(&matn, &mat);
+        }
+        mat = mulMatrix(&mat, &mat);
+        n >>= 1;
+    }
+    return matn.mat[3][3];
+}

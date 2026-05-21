@@ -1,0 +1,1 @@
+"-spec prev_perm_opt1(Arr :: [integer()]) -> [integer()].\nprev_perm_opt1(Arr) ->\n  ."

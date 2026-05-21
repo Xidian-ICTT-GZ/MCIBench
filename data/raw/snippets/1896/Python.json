@@ -1,0 +1,1 @@
+"class Solution(object):\n    def minOperationsToFlip(self, expression):\n        \"\"\"\n        :type expression: str\n        :rtype: int\n        \"\"\"\n        "

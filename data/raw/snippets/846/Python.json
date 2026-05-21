@@ -1,0 +1,1 @@
+"class Solution(object):\n    def isNStraightHand(self, hand, groupSize):\n        \"\"\"\n        :type hand: List[int]\n        :type groupSize: int\n        :rtype: bool\n        \"\"\"\n        "

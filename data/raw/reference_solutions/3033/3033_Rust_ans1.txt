@@ -1,0 +1,19 @@
+impl Solution {
+    pub fn modified_matrix(matrix: Vec<Vec<i32>>) -> Vec<Vec<i32>> {
+        let mut res = matrix.clone();
+        let n = matrix.len();
+        let m = matrix[0].len();
+        for j in 0..m {
+            let mut zd = -1;
+            for i in 0..n {
+                zd = zd.max(res[i][j]);
+            }
+            for i in 0..n {
+                if (res[i][j] == -1) {
+                    res[i][j] = zd;
+                }
+            }
+        }
+        return res;
+    }
+}

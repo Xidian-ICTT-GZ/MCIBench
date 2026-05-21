@@ -1,0 +1,1 @@
+"-spec falling_squares(Positions :: [[integer()]]) -> [integer()].\nfalling_squares(Positions) ->\n  ."

@@ -1,0 +1,1 @@
+"-spec integer_break(N :: integer()) -> integer().\ninteger_break(N) ->\n  ."

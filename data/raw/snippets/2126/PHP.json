@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $mass\n     * @param Integer[] $asteroids\n     * @return Boolean\n     */\n    function asteroidsDestroyed($mass, $asteroids) {\n        \n    }\n}"

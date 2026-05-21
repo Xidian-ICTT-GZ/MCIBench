@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @param {Integer[][]} logs\n# @return {Integer}\ndef hardest_worker(n, logs)\n    \nend"

@@ -1,0 +1,36 @@
+public class Solution {
+    TreeNode xNode;
+
+    public bool BtreeGameWinningMove(TreeNode root, int n, int x) {
+        Find(root, x);
+        int leftSize = GetSubtreeSize(xNode.left);
+        if (leftSize >= (n + 1) / 2) {
+            return true;
+        }
+        int rightSize = GetSubtreeSize(xNode.right);
+        if (rightSize >= (n + 1) / 2) {
+            return true;
+        }
+        int remain = n - 1 - leftSize - rightSize;
+        return remain >= (n + 1) / 2;
+    }
+
+    public void Find(TreeNode node, int x) {
+        if (xNode != null || node == null) {
+            return;
+        }
+        if (node.val == x) {
+            xNode = node;
+            return;
+        }
+        Find(node.left, x);
+        Find(node.right, x);
+    }
+
+    public int GetSubtreeSize(TreeNode node) {
+        if (node == null) {
+            return 0;
+        }
+        return 1 + GetSubtreeSize(node.left) + GetSubtreeSize(node.right);
+    }
+}

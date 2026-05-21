@@ -1,0 +1,1 @@
+"class Solution:\n    def countOfPeaks(self, nums: List[int], queries: List[List[int]]) -> List[int]:\n        "

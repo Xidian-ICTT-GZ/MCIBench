@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec maximum_segment_sum(nums :: [integer], remove_queries :: [integer]) :: [integer]\n  def maximum_segment_sum(nums, remove_queries) do\n    \n  end\nend"

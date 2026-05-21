@@ -1,0 +1,1 @@
+"-spec two_city_sched_cost(Costs :: [[integer()]]) -> integer().\ntwo_city_sched_cost(Costs) ->\n  ."

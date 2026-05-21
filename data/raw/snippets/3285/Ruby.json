@@ -1,0 +1,1 @@
+"# @param {Integer[]} height\n# @param {Integer} threshold\n# @return {Integer[]}\ndef stable_mountains(height, threshold)\n    \nend"

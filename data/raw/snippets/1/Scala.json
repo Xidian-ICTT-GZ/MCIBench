@@ -1,0 +1,1 @@
+"object Solution {\n    def twoSum(nums: Array[Int], target: Int): Array[Int] = {\n        \n    }\n}"

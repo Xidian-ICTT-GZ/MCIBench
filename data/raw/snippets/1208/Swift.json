@@ -1,0 +1,1 @@
+"class Solution {\n    func equalSubstring(_ s: String, _ t: String, _ maxCost: Int) -> Int {\n        \n    }\n}"

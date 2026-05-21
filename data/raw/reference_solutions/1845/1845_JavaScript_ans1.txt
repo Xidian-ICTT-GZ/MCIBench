@@ -1,0 +1,14 @@
+var SeatManager = function(n) {
+    this.available = new MinPriorityQueue();
+    for (let i = 1; i <= n; i++) {
+        this.available.enqueue(i, i);
+    }
+};
+
+SeatManager.prototype.reserve = function() {
+    return this.available.dequeue().element;
+};
+
+SeatManager.prototype.unreserve = function(seatNumber) {
+    this.available.enqueue(seatNumber);
+};

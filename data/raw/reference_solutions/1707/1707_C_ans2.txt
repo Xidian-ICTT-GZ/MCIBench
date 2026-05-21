@@ -1,0 +1,56 @@
+const int L = 30;
+
+struct TrieNode {
+    int minn;
+    struct TrieNode* children[2];
+};
+
+struct TrieNode* createTrieNode() {
+    struct TrieNode* ret = malloc(sizeof(struct TrieNode));
+    ret->minn = INT_MAX;
+    ret->children[0] = ret->children[1] = NULL;
+    return ret;
+};
+
+void insert(struct TrieNode* root, int val) {
+    struct TrieNode* node = root;
+    node->minn = fmin(node->minn, val);
+    for (int i = L - 1; i >= 0; --i) {
+        int bit = (val >> i) & 1;
+        if (node->children[bit] == NULL) {
+            node->children[bit] = createTrieNode();
+        }
+        node = node->children[bit];
+        node->minn = fmin(node->minn, val);
+    }
+}
+
+int getMaxXorWithLimit(struct TrieNode* root, int val, int limit) {
+    struct TrieNode* node = root;
+    if (node->minn > limit) {
+        return -1;
+    }
+    int ans = 0;
+    for (int i = L - 1; i >= 0; --i) {
+        int bit = (val >> i) & 1;
+        if (node->children[bit ^ 1] != NULL && node->children[bit ^ 1]->minn <= limit) {
+            ans |= 1 << i;
+            bit ^= 1;
+        }
+        node = node->children[bit];
+    }
+    return ans;
+}
+
+int* maximizeXor(int* nums, int numsSize, int** queries, int queriesSize, int* queriesColSize, int* returnSize) {
+    struct TrieNode* t = createTrieNode();
+    for (int i = 0; i < numsSize; i++) {
+        insert(t, nums[i]);
+    }
+    int* ans = malloc(sizeof(int) * queriesSize);
+    *returnSize = queriesSize;
+    for (int i = 0; i < queriesSize; ++i) {
+        ans[i] = getMaxXorWithLimit(t, queries[i][0], queries[i][1]);
+    }
+    return ans;
+}

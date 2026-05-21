@@ -1,0 +1,11 @@
+public class Solution {
+    public bool JudgeSquareSum(int c) {
+        for (long a = 0; a * a <= c; a++) {
+            int b = (int) Math.Sqrt(c - a * a);
+            if (a * a + b * b == c) {
+                return true;
+            }
+        }
+        return false;
+    }
+}

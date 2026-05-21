@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int numSimilarGroups(vector<string>& strs) {\n        \n    }\n};"

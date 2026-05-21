@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<int> maxScoreIndices(vector<int>& nums) {\n        \n    }\n};"

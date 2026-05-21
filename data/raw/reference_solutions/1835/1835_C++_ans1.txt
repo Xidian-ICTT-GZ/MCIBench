@@ -1,0 +1,28 @@
+class Solution {
+public:
+    int getXORSum(vector<int>& arr1, vector<int>& arr2) {
+        int m = arr1.size();
+        int n = arr2.size();
+        int ans = 0;
+        
+        for (int k = 30; k >= 0; --k) {
+            int cnt1 = 0;
+            for (int num: arr1) {
+                if (num & (1 << k)) {
+                    ++cnt1;
+                }
+            }
+            int cnt2 = 0;
+            for (int num: arr2) {
+                if (num & (1 << k)) {
+                    ++cnt2;
+                }
+            }
+            
+            if (cnt1 % 2 == 1 && cnt2 % 2 == 1) {
+                ans |= (1 << k);
+            }
+        }
+        return ans;
+    }
+};

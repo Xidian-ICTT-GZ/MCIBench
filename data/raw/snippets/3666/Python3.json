@@ -1,0 +1,1 @@
+"class Solution:\n    def minOperations(self, s: str, k: int) -> int:\n        "

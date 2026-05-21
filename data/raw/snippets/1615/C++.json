@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int maximalNetworkRank(int n, vector<vector<int>>& roads) {\n        \n    }\n};"

@@ -1,0 +1,1 @@
+"public class Solution {\n    public int MinimumHammingDistance(int[] source, int[] target, int[][] allowedSwaps) {\n        \n    }\n}"

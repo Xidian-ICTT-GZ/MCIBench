@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec monkey_move(n :: integer) :: integer\n  def monkey_move(n) do\n    \n  end\nend"

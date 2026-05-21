@@ -1,0 +1,1 @@
+"-spec max_genetic_difference(Parents :: [integer()], Queries :: [[integer()]]) -> [integer()].\nmax_genetic_difference(Parents, Queries) ->\n  ."

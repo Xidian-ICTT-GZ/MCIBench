@@ -1,0 +1,1 @@
+"class Solution:\n    def minDamage(self, power: int, damage: List[int], health: List[int]) -> int:\n        "

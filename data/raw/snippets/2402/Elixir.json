@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec most_booked(n :: integer, meetings :: [[integer]]) :: integer\n  def most_booked(n, meetings) do\n    \n  end\nend"

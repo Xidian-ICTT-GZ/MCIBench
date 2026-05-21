@@ -1,0 +1,1 @@
+"# @param {String[]} words\n# @param {String} order\n# @return {Boolean}\ndef is_alien_sorted(words, order)\n    \nend"

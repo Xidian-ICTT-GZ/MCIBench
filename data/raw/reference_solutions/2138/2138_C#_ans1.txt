@@ -1,0 +1,20 @@
+public class Solution {
+    public string[] DivideString(string s, int k, char fill) {
+        List<string> res = new List<string>(); 
+        int n = s.Length;
+        int curr = 0; 
+        
+        while (curr < n) {
+            int end = Math.Min(curr + k, n);
+            res.Add(s.Substring(curr, end - curr));
+            curr += k;
+        }
+        
+        string last = res[res.Count - 1];
+        if (last.Length < k) {
+            last += new string(fill, k - last.Length);
+            res[res.Count - 1] = last;
+        }
+        return res.ToArray();
+    }
+}

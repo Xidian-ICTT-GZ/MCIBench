@@ -1,0 +1,1 @@
+"class Solution(object):\n    def asteroidsDestroyed(self, mass, asteroids):\n        \"\"\"\n        :type mass: int\n        :type asteroids: List[int]\n        :rtype: bool\n        \"\"\"\n        "

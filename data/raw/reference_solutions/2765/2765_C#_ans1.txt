@@ -1,0 +1,17 @@
+public class Solution {
+    public int AlternatingSubarray(int[] nums) {
+        int res = -1;
+        int n = nums.Length;
+        for (int firstIndex = 0; firstIndex < n; firstIndex++) {
+            for (int i = firstIndex + 1; i < n; i++) {
+                int length = i - firstIndex + 1;
+                if (nums[i] - nums[firstIndex] == (length - 1) % 2) {
+                    res = Math.Max(res, length);
+                } else {
+                    break;
+                }
+            }
+        }
+        return res;
+    }
+}

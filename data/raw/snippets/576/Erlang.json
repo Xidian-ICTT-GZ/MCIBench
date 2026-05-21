@@ -1,0 +1,1 @@
+"-spec find_paths(M :: integer(), N :: integer(), MaxMove :: integer(), StartRow :: integer(), StartColumn :: integer()) -> integer().\nfind_paths(M, N, MaxMove, StartRow, StartColumn) ->\n  ."

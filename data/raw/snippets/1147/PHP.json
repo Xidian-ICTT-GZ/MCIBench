@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $text\n     * @return Integer\n     */\n    function longestDecomposition($text) {\n        \n    }\n}"

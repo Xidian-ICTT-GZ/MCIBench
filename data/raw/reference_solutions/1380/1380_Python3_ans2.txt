@@ -1,0 +1,10 @@
+class Solution:
+    def luckyNumbers(self, matrix: List[List[int]]) -> List[int]:
+        minRow = [min(row) for row in matrix]
+        maxCol = [max(col) for col in zip(*matrix)]
+        ans = []
+        for i, row in enumerate(matrix):
+            for j, x in enumerate(row):
+                if x == minRow[i] == maxCol[j]:
+                    ans.append(x)
+        return ans

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec moves_to_make_zigzag(nums :: [integer]) :: integer\n  def moves_to_make_zigzag(nums) do\n    \n  end\nend"

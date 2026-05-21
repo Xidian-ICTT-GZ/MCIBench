@@ -1,0 +1,23 @@
+public class Solution {
+    public int MaxDepth(Node root) {
+        if (root == null) {
+            return 0;
+        }
+        Queue<Node> queue = new Queue<Node>();
+        queue.Enqueue(root);
+        int ans = 0;
+        while (queue.Count > 0) {
+            int size = queue.Count;
+            while (size > 0) {
+                Node node = queue.Dequeue();
+                IList<Node> children = node.children;
+                foreach (Node child in children) {
+                    queue.Enqueue(child);
+                }
+                size--;
+            }
+            ans++;
+        }
+        return ans;
+    }
+}

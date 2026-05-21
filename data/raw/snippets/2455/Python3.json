@@ -1,0 +1,1 @@
+"class Solution:\n    def averageValue(self, nums: List[int]) -> int:\n        "

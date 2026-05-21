@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec reach_number(target :: integer) :: integer\n  def reach_number(target) do\n    \n  end\nend"

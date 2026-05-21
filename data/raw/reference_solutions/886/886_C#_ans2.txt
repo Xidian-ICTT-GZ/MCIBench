@@ -1,0 +1,33 @@
+public class Solution {
+    public bool PossibleBipartition(int n, int[][] dislikes) {
+        int[] color = new int[n + 1];
+        IList<int>[] g = new IList<int>[n + 1];
+        for (int i = 0; i <= n; ++i) {
+            g[i] = new List<int>();
+        }
+        foreach (int[] p in dislikes) {
+            g[p[0]].Add(p[1]);
+            g[p[1]].Add(p[0]);
+        }
+        for (int i = 1; i <= n; ++i) {
+            if (color[i] == 0) {
+                Queue<int> queue = new Queue<int>();
+                queue.Enqueue(i);
+                color[i] = 1;
+                while (queue.Count > 0) {
+                    int t = queue.Dequeue();
+                    foreach (int next in g[t]) {
+                        if (color[next] > 0 && color[next] == color[t]) {
+                            return false;
+                        }
+                        if (color[next] == 0) {
+                            color[next] = 3 ^ color[t];
+                            queue.Enqueue(next);
+                        }
+                    }
+                }
+            }
+        }
+        return true;
+    }
+}

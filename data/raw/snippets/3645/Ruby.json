@@ -1,0 +1,1 @@
+"# @param {Integer[]} value\n# @param {Integer[]} limit\n# @return {Integer}\ndef max_total(value, limit)\n    \nend"

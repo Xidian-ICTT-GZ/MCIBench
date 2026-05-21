@@ -1,0 +1,1 @@
+"# @param {Integer[]} values\n# @return {Integer}\ndef min_score_triangulation(values)\n    \nend"

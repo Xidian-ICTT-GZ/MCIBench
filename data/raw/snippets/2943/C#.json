@@ -1,0 +1,1 @@
+"public class Solution {\n    public int MaximizeSquareHoleArea(int n, int m, int[] hBars, int[] vBars) {\n        \n    }\n}"

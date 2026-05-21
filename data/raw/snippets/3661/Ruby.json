@@ -1,0 +1,1 @@
+"# @param {Integer[]} robots\n# @param {Integer[]} distance\n# @param {Integer[]} walls\n# @return {Integer}\ndef max_walls(robots, distance, walls)\n    \nend"

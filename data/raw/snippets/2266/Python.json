@@ -1,0 +1,1 @@
+"class Solution(object):\n    def countTexts(self, pressedKeys):\n        \"\"\"\n        :type pressedKeys: str\n        :rtype: int\n        \"\"\"\n        "

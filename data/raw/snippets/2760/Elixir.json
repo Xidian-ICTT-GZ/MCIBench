@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec longest_alternating_subarray(nums :: [integer], threshold :: integer) :: integer\n  def longest_alternating_subarray(nums, threshold) do\n    \n  end\nend"

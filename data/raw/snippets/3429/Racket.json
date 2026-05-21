@@ -1,0 +1,1 @@
+"(define/contract (min-cost n cost)\n  (-> exact-integer? (listof (listof exact-integer?)) exact-integer?)\n  )"

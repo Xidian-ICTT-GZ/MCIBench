@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $encodedText\n     * @param Integer $rows\n     * @return String\n     */\n    function decodeCiphertext($encodedText, $rows) {\n        \n    }\n}"

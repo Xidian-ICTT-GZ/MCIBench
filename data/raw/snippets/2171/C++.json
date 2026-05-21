@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    long long minimumRemoval(vector<int>& beans) {\n        \n    }\n};"

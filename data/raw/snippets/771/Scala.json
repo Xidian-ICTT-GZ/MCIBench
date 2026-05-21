@@ -1,0 +1,1 @@
+"object Solution {\n    def numJewelsInStones(jewels: String, stones: String): Int = {\n        \n    }\n}"

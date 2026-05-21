@@ -1,0 +1,152 @@
+#define MIN_QUEUE_SIZE 64
+
+typedef struct Element {
+    int data;
+} Element;
+
+typedef bool (*compare)(const void *, const void *);
+
+typedef struct PriorityQueue {
+    Element *arr;
+    int capacity;
+    int queueSize;
+    compare lessFunc;
+} PriorityQueue;
+
+static bool less(const void *a, const void *b) {
+    Element *e1 = (Element *)a;
+    Element *e2 = (Element *)b;
+    return e1->data > e2->data;
+}
+
+static bool greater(const void *a, const void *b) {
+    Element *e1 = (Element *)a;
+    Element *e2 = (Element *)b;
+    return e1->data < e2->data;
+}
+
+static void memswap(void *m1, void *m2, size_t size){
+    unsigned char *a = (unsigned char*)m1;
+    unsigned char *b = (unsigned char*)m2;
+    while (size--) {
+        *b ^= *a ^= *b ^= *a;
+        a++;
+        b++;
+    }
+}
+
+static void swap(Element *arr, int i, int j) {
+    memswap(&arr[i], &arr[j], sizeof(Element));
+}
+
+static void down(Element *arr, int size, int i, compare cmpFunc) {
+    for (int k = 2 * i + 1; k < size; k = 2 * k + 1) {
+        if (k + 1 < size && cmpFunc(&arr[k], &arr[k + 1])) {
+            k++;
+        }
+        if (cmpFunc(&arr[k], &arr[(k - 1) / 2])) {
+            break;
+        }
+        swap(arr, k, (k - 1) / 2);
+    }
+}
+
+PriorityQueue *createPriorityQueue(compare cmpFunc) {
+    PriorityQueue *obj = (PriorityQueue *)malloc(sizeof(PriorityQueue));
+    obj->capacity = MIN_QUEUE_SIZE;
+    obj->arr = (Element *)malloc(sizeof(Element) * obj->capacity);
+    obj->queueSize = 0;
+    obj->lessFunc = cmpFunc;
+    return obj;
+}
+
+void heapfiy(PriorityQueue *obj) {
+    for (int i = obj->queueSize / 2 - 1; i >= 0; i--) {
+        down(obj->arr, obj->queueSize, i, obj->lessFunc);
+    }
+}
+
+void enQueue(PriorityQueue *obj, Element *e) {
+    
+    if (obj->queueSize == obj->capacity) {
+        obj->capacity *= 2;
+        obj->arr = realloc(obj->arr, sizeof(Element) * obj->capacity);
+    }
+    memcpy(&obj->arr[obj->queueSize], e, sizeof(Element));
+    for (int i = obj->queueSize; i > 0 && obj->lessFunc(&obj->arr[(i - 1) / 2], &obj->arr[i]); i = (i - 1) / 2) {
+        swap(obj->arr, i, (i - 1) / 2);
+    }
+    obj->queueSize++;
+}
+
+Element* deQueue(PriorityQueue *obj) {
+    swap(obj->arr, 0, obj->queueSize - 1);
+    down(obj->arr, obj->queueSize - 1, 0, obj->lessFunc);
+    Element *e =  &obj->arr[obj->queueSize - 1];
+    obj->queueSize--;
+    return e;
+}
+
+bool isEmpty(const PriorityQueue *obj) {
+    return obj->queueSize == 0;
+}
+
+Element* front(const PriorityQueue *obj) {
+    if (obj->queueSize == 0) {
+        return NULL;
+    } else {
+        return &obj->arr[0];
+    }
+}
+
+void clear(PriorityQueue *obj) {
+    obj->queueSize = 0;
+}
+
+int size(const PriorityQueue *obj) {
+    return obj->queueSize;
+}
+
+void freeQueue(PriorityQueue *obj) {
+    free(obj->arr);
+    free(obj);
+}
+
+int cmp(const void* a, const void* b) {
+    int* ar = *(int**)a;
+    int* br = *(int**)b;
+    return ar[0] - br[0];
+}
+
+int maxRemoval(int* nums, int numsSize, int** queries, int queriesSize, int* queriesColSize) {
+    qsort(queries, queriesSize, sizeof(int*), cmp);
+    PriorityQueue *heap = createPriorityQueue(greater);  
+    int* deltaArray = (int*)calloc(numsSize + 1, sizeof(int));
+    int operations = 0;
+    
+    for (int i = 0, j = 0; i < numsSize; i++) {
+        operations += deltaArray[i];
+        while (j < queriesSize && queries[j][0] == i) {
+            Element e = {queries[j][1]};
+            enQueue(heap, &e);
+            j++;
+        } 
+        while (operations < nums[i] && !isEmpty(heap) && front(heap)->data >= i) {
+            operations += 1;
+            int end = front(heap)->data;
+            deQueue(heap);
+            deltaArray[end + 1] -= 1;
+        }
+        
+        if (operations < nums[i]) {
+            freeQueue(heap);
+            free(deltaArray);
+            return -1;
+        }
+    }
+    
+    int result = size(heap);
+    freeQueue(heap);
+    free(deltaArray);
+    return result;
+}

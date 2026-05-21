@@ -1,0 +1,22 @@
+var maxMoves = function(grid) {
+    const m = grid.length, n = grid[0].length;
+    let q = new Set();
+    for (let i = 0; i < m; i++) {
+        q.add(i);
+    }
+    for (let j = 1; j < n; j++) {
+        const q2 = new Set();
+        for (const i of q) {
+            for (let i2 = i - 1; i2 <= i + 1; i2++) {
+                if (0 <= i2 && i2 < m && grid[i][j - 1] < grid[i2][j]) {
+                    q2.add(i2);
+                }
+            }
+        }
+        q = q2;
+        if (q.size === 0) {
+            return j - 1;
+        }
+    }
+    return n - 1;
+};

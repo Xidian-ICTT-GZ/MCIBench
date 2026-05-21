@@ -1,0 +1,1 @@
+"class Solution(object):\n    def splitMessage(self, message, limit):\n        \"\"\"\n        :type message: str\n        :type limit: int\n        :rtype: List[str]\n        \"\"\"\n        "

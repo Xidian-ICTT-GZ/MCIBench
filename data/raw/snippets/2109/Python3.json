@@ -1,0 +1,1 @@
+"class Solution:\n    def addSpaces(self, s: str, spaces: List[int]) -> str:\n        "

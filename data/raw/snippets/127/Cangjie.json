@@ -1,0 +1,1 @@
+"class Solution {\n    func ladderLength(beginWord: String, endWord: String, wordList: ArrayList<String>): Int64 {\n\n    }\n}"

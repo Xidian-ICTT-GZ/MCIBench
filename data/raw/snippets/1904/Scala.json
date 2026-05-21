@@ -1,0 +1,1 @@
+"object Solution {\n    def numberOfRounds(loginTime: String, logoutTime: String): Int = {\n        \n    }\n}"

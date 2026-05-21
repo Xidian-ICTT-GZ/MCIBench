@@ -1,0 +1,1 @@
+"# Definition for singly-linked list.\n#\n# defmodule ListNode do\n#   @type t :: %__MODULE__{\n#           val: integer,\n#           next: ListNode.t() | nil\n#         }\n#   defstruct val: 0, next: nil\n# end\n\ndefmodule Solution do\n  @spec partition(head :: ListNode.t | nil, x :: integer) :: ListNode.t | nil\n  def partition(head, x) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"# @param {Integer[]} arr\n# @param {Integer[][]} mat\n# @return {Integer}\ndef first_complete_index(arr, mat)\n    \nend"

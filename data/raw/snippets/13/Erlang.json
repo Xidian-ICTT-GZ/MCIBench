@@ -1,0 +1,1 @@
+"-spec roman_to_int(S :: unicode:unicode_binary()) -> integer().\nroman_to_int(S) ->\n  ."

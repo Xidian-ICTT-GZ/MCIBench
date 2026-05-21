@@ -1,0 +1,1 @@
+"public class Solution {\n    public int FindPaths(int m, int n, int maxMove, int startRow, int startColumn) {\n        \n    }\n}"

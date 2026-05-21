@@ -1,0 +1,1 @@
+"public class Solution {\n    public int CountMatchingSubarrays(int[] nums, int[] pattern) {\n        \n    }\n}"

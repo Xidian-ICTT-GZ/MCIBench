@@ -1,0 +1,1 @@
+"object Solution {\n    def minSkips(dist: Array[Int], speed: Int, hoursBefore: Int): Int = {\n        \n    }\n}"

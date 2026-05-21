@@ -1,0 +1,1 @@
+"(define/contract (find-x-sum nums k x)\n  (-> (listof exact-integer?) exact-integer? exact-integer? (listof exact-integer?))\n  )"

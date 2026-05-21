@@ -1,0 +1,1 @@
+"class Solution {\n  int secondMinimum(int n, List<List<int>> edges, int time, int change) {\n    \n  }\n}"

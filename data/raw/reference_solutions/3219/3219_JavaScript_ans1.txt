@@ -1,0 +1,18 @@
+var minimumCost = function(m, n, horizontalCut, verticalCut) {
+    horizontalCut.sort((a, b) => a - b);
+    verticalCut.sort((a, b) => a - b);
+    let h = 1, v = 1;
+    let res = 0;
+    while (horizontalCut.length || verticalCut.length) {
+        if (!verticalCut.length || (horizontalCut.length && horizontalCut[horizontalCut.length - 1] > verticalCut[verticalCut.length - 1])) {
+            res += horizontalCut[horizontalCut.length - 1] * h;
+            horizontalCut.pop();
+            v++;
+        } else {
+            res += verticalCut[verticalCut.length - 1] * v;
+            verticalCut.pop();
+            h++;
+        }
+    }
+    return res;
+};

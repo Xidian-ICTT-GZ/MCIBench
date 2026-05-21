@@ -1,0 +1,28 @@
+class Solution {
+public:
+    int minZeroArray(vector<int>& nums, vector<vector<int>>& queries) {
+        int n = nums.size();
+        vector<int> deltaArray(n + 1, 0);
+        int operations = 0;
+        int k = 0;
+        for (int i = 0; i < n; ++i) {
+            int num = nums[i];
+            operations += deltaArray[i];
+            while (k < queries.size() && operations < num) {
+                int left = queries[k][0];
+                int right = queries[k][1];
+                int value = queries[k][2];
+                deltaArray[left] += value;
+                deltaArray[right + 1] -= value;
+                if (left <= i && i <= right) {
+                    operations += value;
+                }
+                k++;
+            }
+            if (operations < num) {
+                return -1;
+            }
+        }
+        return k;
+    }
+};

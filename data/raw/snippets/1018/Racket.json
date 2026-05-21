@@ -1,0 +1,1 @@
+"(define/contract (prefixes-div-by5 nums)\n  (-> (listof exact-integer?) (listof boolean?))\n  )"

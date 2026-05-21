@@ -1,0 +1,1 @@
+"class Solution:\n    def kthSmallestPrimeFraction(self, arr: List[int], k: int) -> List[int]:\n        "

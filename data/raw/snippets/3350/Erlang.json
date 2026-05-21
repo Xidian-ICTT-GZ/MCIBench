@@ -1,0 +1,1 @@
+"-spec max_increasing_subarrays(Nums :: [integer()]) -> integer().\nmax_increasing_subarrays(Nums) ->\n  ."

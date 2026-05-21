@@ -1,0 +1,1 @@
+"(define/contract (count-unguarded m n guards walls)\n  (-> exact-integer? exact-integer? (listof (listof exact-integer?)) (listof (listof exact-integer?)) exact-integer?)\n  )"

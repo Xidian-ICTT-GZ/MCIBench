@@ -1,0 +1,20 @@
+class Solution {
+public:
+    string removeDigit(string number, char digit) {
+        int n = number.size();
+        int last = -1; 
+        for (int i = 0; i < n; ++i) {
+            if (number[i] == digit) {
+                last = i;
+                if (i + 1 < n && number[i] < number[i + 1]) {
+                    string res = number.substr(0, i);
+                    res.append(number.substr(i + 1, n - i));
+                    return res;
+                }
+            }
+        }
+        string res = number.substr(0, last);
+        res.append(number.substr(last + 1, n - last));
+        return res;
+    }
+};

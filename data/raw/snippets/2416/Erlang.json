@@ -1,0 +1,1 @@
+"-spec sum_prefix_scores(Words :: [unicode:unicode_binary()]) -> [integer()].\nsum_prefix_scores(Words) ->\n  ."

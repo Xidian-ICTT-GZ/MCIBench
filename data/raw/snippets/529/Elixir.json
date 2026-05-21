@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec update_board(board :: [[char]], click :: [integer]) :: [[char]]\n  def update_board(board, click) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int numberOfGoodPaths(vector<int>& vals, vector<vector<int>>& edges) {\n        \n    }\n};"

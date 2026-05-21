@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec min_max_difference(num :: integer) :: integer\n  def min_max_difference(num) do\n    \n  end\nend"

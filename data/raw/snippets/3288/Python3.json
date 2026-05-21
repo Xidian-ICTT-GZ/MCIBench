@@ -1,0 +1,1 @@
+"class Solution:\n    def maxPathLength(self, coordinates: List[List[int]], k: int) -> int:\n        "

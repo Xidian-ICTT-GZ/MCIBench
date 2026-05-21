@@ -1,0 +1,64 @@
+class BinaryIndexedTree {
+    private int[] tree;
+
+    public BinaryIndexedTree(int n) {
+        tree = new int[n + 1];
+    }
+
+    public void Add(int i) {
+        while (i < tree.Length) {
+            tree[i]++;
+            i += i & -i;
+        }
+    }
+
+    public int Get(int i) {
+        int sum = 0;
+        while (i > 0) {
+            sum += tree[i];
+            i -= i & -i;
+        }
+        return sum;
+    }
+}
+
+public class Solution {
+    public int[] ResultArray(int[] nums) {
+        int n = nums.Length;
+        int[] sortedNums = nums.Take(n).ToArray();
+        Array.Sort(sortedNums);
+
+        IDictionary<int, int> index = new Dictionary<int, int>();
+        for (int i = 0; i < n; i++) {
+            index.TryAdd(sortedNums[i], i + 1);
+        }
+
+        IList<int> arr1 = new List<int>{nums[0]};
+        IList<int> arr2 = new List<int>{nums[1]};
+        BinaryIndexedTree tree1 = new BinaryIndexedTree(n);
+        BinaryIndexedTree tree2 = new BinaryIndexedTree(n);
+        tree1.Add(index[nums[0]]);
+        tree2.Add(index[nums[1]]);
+
+        for (int i = 2; i < n; i++) {
+            int count1 = arr1.Count - tree1.Get(index[nums[i]]);
+            int count2 = arr2.Count - tree2.Get(index[nums[i]]);
+            if (count1 > count2 || (count1 == count2 && arr1.Count <= arr2.Count)) {
+                arr1.Add(nums[i]);
+                tree1.Add(index[nums[i]]);
+            } else {
+                arr2.Add(nums[i]);
+                tree2.Add(index[nums[i]]);
+            }
+        }
+
+        int idx = 0;
+        foreach (int a in arr1) {
+            nums[idx++] = a;
+        }
+        foreach (int a in arr2) {
+            nums[idx++] = a;
+        }
+        return nums;
+    }
+}

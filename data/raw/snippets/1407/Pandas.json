@@ -1,0 +1,1 @@
+"import pandas as pd\n\ndef top_travellers(users: pd.DataFrame, rides: pd.DataFrame) -> pd.DataFrame:\n    "

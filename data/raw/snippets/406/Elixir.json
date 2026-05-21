@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec reconstruct_queue(people :: [[integer]]) :: [[integer]]\n  def reconstruct_queue(people) do\n    \n  end\nend"

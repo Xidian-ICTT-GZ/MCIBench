@@ -1,0 +1,1 @@
+"-spec count_ways(Nums :: [integer()]) -> integer().\ncount_ways(Nums) ->\n  ."

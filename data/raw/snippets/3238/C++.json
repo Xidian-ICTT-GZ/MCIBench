@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int winningPlayerCount(int n, vector<vector<int>>& pick) {\n        \n    }\n};"

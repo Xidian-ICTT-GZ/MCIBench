@@ -1,0 +1,1 @@
+"/**\n * @param {string[]} wordlist\n * @param {string[]} queries\n * @return {string[]}\n */\nvar spellchecker = function(wordlist, queries) {\n    \n};"

@@ -1,0 +1,1 @@
+"# @param {Integer[]} coins\n# @param {Integer} k\n# @return {Integer}\ndef find_kth_smallest(coins, k)\n    \nend"

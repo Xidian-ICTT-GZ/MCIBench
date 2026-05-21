@@ -1,0 +1,1 @@
+"\nclass RLEIterator {\n\n    init(_ encoding: [Int]) {\n        \n    }\n    \n    func next(_ n: Int) -> Int {\n        \n    }\n}\n\n/**\n * Your RLEIterator object will be instantiated and called as such:\n * let obj = RLEIterator(encoding)\n * let ret_1: Int = obj.next(n)\n */"

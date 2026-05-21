@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} nums\n * @param {number} l\n * @param {number} r\n * @return {number}\n */\nvar minimumSumSubarray = function(nums, l, r) {\n    \n};"

@@ -1,0 +1,1 @@
+"-spec nums_same_consec_diff(N :: integer(), K :: integer()) -> [integer()].\nnums_same_consec_diff(N, K) ->\n  ."

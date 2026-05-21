@@ -1,0 +1,4 @@
+stage,total_problems,complete_8_lang_problems,complete_rate,new_complete_vs_reference,language_slots_covered,total_language_slots,language_slot_coverage
+reference,1489,332,0.222968,0,8381,11912,0.703576
+reference_plus_generation_accepted,1489,1466,0.984553,1134,11879,11912,0.997230
+reference_plus_generation_and_translation_accepted,1489,1466,0.984553,1134,11879,11912,0.997230

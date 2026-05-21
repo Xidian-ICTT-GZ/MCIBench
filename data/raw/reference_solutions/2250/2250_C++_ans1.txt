@@ -1,0 +1,31 @@
+class Solution {
+public:
+    vector<int> countRectangles(vector<vector<int>>& rectangles, vector<vector<int>>& points) {
+        int n = points.size();
+        vector<int> res(n);   
+        unordered_map<int, vector<pair<int, int>>> p;   
+        for (int i = 0; i < n; ++i) {
+            p[points[i][1]].emplace_back(points[i][0], i);
+        }
+        
+        auto lengths = [&](int y) -> vector<int> {
+            vector<int> res;
+            for (const auto& rect: rectangles) {
+                if (rect[1] >= y) {
+                    res.push_back(rect[0]);
+                }
+            }
+            sort(res.begin(), res.end());
+            return res;
+        };
+
+        for (const auto& [h, plist]: p) {
+            vector<int> llist = lengths(h);
+            for (const auto& [x, idx]: plist) {
+                
+                res[idx] = llist.end() - lower_bound(llist.begin(), llist.end(), x);
+            }
+        }
+        return res;
+    }
+};

@@ -1,0 +1,23 @@
+public class Solution {
+    public int MinRefuelStops(int target, int startFuel, int[][] stations) {
+        PriorityQueue<int, int> pq = new PriorityQueue<int, int>();
+        int ans = 0, prev = 0, fuel = startFuel;
+        int n = stations.Length;
+        for (int i = 0; i <= n; i++) {
+            int curr = i < n ? stations[i][0] : target;
+            fuel -= curr - prev;
+            while (fuel < 0 && pq.Count > 0) {
+                fuel += pq.Dequeue();
+                ans++;
+            }
+            if (fuel < 0) {
+                return -1;
+            }
+            if (i < n) {
+                pq.Enqueue(stations[i][1], -stations[i][1]);
+                prev = curr;
+            }
+        }
+        return ans;
+    }
+}

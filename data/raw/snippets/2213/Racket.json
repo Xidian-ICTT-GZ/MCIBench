@@ -1,0 +1,1 @@
+"(define/contract (longest-repeating s queryCharacters queryIndices)\n  (-> string? string? (listof exact-integer?) (listof exact-integer?))\n  )"

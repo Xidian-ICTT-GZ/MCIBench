@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n\n    // Encodes a URL to a shortened URL.\n    string encode(string longUrl) {\n        \n    }\n\n    // Decodes a shortened URL to its original URL.\n    string decode(string shortUrl) {\n        \n    }\n};\n\n// Your Solution object will be instantiated and called as such:\n// Solution solution;\n// solution.decode(solution.encode(url));"

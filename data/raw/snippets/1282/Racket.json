@@ -1,0 +1,1 @@
+"(define/contract (group-the-people groupSizes)\n  (-> (listof exact-integer?) (listof (listof exact-integer?)))\n  )"

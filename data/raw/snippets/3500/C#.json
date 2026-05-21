@@ -1,0 +1,1 @@
+"public class Solution {\n    public long MinimumCost(int[] nums, int[] cost, int k) {\n        \n    }\n}"

@@ -1,0 +1,50 @@
+var smallestRange = function(nums) {
+    const size = nums.length;
+    const indices = new Map();
+    let xMin = Number.MAX_SAFE_INTEGER, xMax = Number.MIN_SAFE_INTEGER;
+
+    for (let i = 0; i < size; i++) {
+        for (const x of nums[i]) {
+            if (!indices.has(x)) {
+                indices.set(x, []);
+            }
+            indices.get(x).push(i);
+            xMin = Math.min(xMin, x);
+            xMax = Math.max(xMax, x);
+        }
+    }
+
+    const freq = new Array(size).fill(0);
+    let inside = 0;
+    let left = xMin, right = xMin - 1;
+    let bestLeft = xMin, bestRight = xMax;
+
+    while (right < xMax) {
+        right++;
+        if (indices.has(right)) {
+            for (const x of indices.get(right)) {
+                freq[x]++;
+                if (freq[x] === 1) {
+                    inside++;
+                }
+            }
+            while (inside === size) {
+                if (right - left < bestRight - bestLeft) {
+                    bestLeft = left;
+                    bestRight = right;
+                }
+                if (indices.has(left)) {
+                    for (const x of indices.get(left)) {
+                        freq[x]--;
+                        if (freq[x] === 0) {
+                            inside--;
+                        }
+                    }
+                }
+                left++;
+            }
+        }
+    }
+
+    return [bestLeft, bestRight];
+};

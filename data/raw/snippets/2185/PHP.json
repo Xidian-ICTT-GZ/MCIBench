@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String[] $words\n     * @param String $pref\n     * @return Integer\n     */\n    function prefixCount($words, $pref) {\n        \n    }\n}"

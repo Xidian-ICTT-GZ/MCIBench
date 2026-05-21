@@ -1,0 +1,1 @@
+"# Definition for a Node.\n# class Node\n#     attr_accessor :val, :children\n#     def initialize(val)\n#         @val = val\n#         @children = []\n#     end\n# end\n\n# @param {Node} root\n# @return {List[List[int]]}\ndef level_order(root)\n    \nend"

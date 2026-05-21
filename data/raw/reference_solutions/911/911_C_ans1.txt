@@ -1,0 +1,57 @@
+typedef struct {
+    int * tops;
+    int * times;
+    int timesSize;
+} TopVotedCandidate;
+
+
+TopVotedCandidate* topVotedCandidateCreate(int* persons, int personsSize, int* times, int timesSize) {
+    if (NULL == persons || NULL == times || persons <= 0 || timesSize <= 0) {
+        return NULL;
+    }
+
+    TopVotedCandidate * obj = (TopVotedCandidate *)malloc(sizeof(TopVotedCandidate));
+    int * voteCounts = (int *)malloc(sizeof(int) * personsSize); 
+    memset(voteCounts, 0 ,sizeof(int) * personsSize);
+    obj->timesSize = timesSize;
+    obj->tops = (int *)malloc(sizeof(int) * personsSize);
+    obj->times = (int *)malloc(sizeof(int) * timesSize);
+    int top = -1;
+    for (int i = 0; i < personsSize; ++i) {
+        voteCounts[persons[i]]++;
+        if (top < 0 || voteCounts[persons[i]] >= voteCounts[top]) {
+            top = persons[i];
+        }
+        obj->tops[i] = top;
+    }
+    for (int i = 0; i < timesSize; ++i) {
+        obj->times[i] = times[i];
+    }
+    free(voteCounts);
+    return obj;
+}
+
+int topVotedCandidateQ(TopVotedCandidate* obj, int t) {
+    if (NULL == obj) {
+        return -1;
+    }
+    int l = 0, r = obj->timesSize - 1;
+    while (l < r) {
+        int m = l + (r - l + 1) / 2;
+        if (obj->times[m] <= t) {
+            l = m;
+        } else {
+            r = m - 1;
+        }
+    }
+    return obj->tops[l];
+}
+
+void topVotedCandidateFree(TopVotedCandidate* obj) {
+    if (NULL == obj) {
+        return;
+    }
+    free(obj->tops);
+    free(obj->times);
+    free(obj);
+}

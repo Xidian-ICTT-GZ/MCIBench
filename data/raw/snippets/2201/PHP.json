@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $n\n     * @param Integer[][] $artifacts\n     * @param Integer[][] $dig\n     * @return Integer\n     */\n    function digArtifacts($n, $artifacts, $dig) {\n        \n    }\n}"

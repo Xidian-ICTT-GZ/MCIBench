@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $total\n     * @param Integer $cost1\n     * @param Integer $cost2\n     * @return Integer\n     */\n    function waysToBuyPensPencils($total, $cost1, $cost2) {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $weights\n     * @param Integer $k\n     * @return Integer\n     */\n    function putMarbles($weights, $k) {\n        \n    }\n}"

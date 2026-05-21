@@ -1,0 +1,1 @@
+"class Solution:\n    def validMountainArray(self, arr: List[int]) -> bool:\n        "

@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @param {Integer} val\n# @return {Integer}\ndef remove_element(nums, val)\n    \nend"

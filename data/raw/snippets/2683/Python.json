@@ -1,0 +1,1 @@
+"class Solution(object):\n    def doesValidArrayExist(self, derived):\n        \"\"\"\n        :type derived: List[int]\n        :rtype: bool\n        \"\"\"\n        "

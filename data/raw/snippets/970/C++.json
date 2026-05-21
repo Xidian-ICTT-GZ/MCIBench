@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<int> powerfulIntegers(int x, int y, int bound) {\n        \n    }\n};"

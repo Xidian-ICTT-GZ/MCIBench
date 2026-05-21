@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec is_toeplitz_matrix(matrix :: [[integer]]) :: boolean\n  def is_toeplitz_matrix(matrix) do\n    \n  end\nend"

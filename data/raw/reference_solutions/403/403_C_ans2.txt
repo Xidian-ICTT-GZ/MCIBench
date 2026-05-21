@@ -1,0 +1,23 @@
+bool canCross(int* stones, int stonesSize) {
+    int dp[stonesSize][stonesSize];
+    memset(dp, 0, sizeof(dp));
+    dp[0][0] = true;
+    for (int i = 1; i < stonesSize; ++i) {
+        if (stones[i] - stones[i - 1] > i) {
+            return false;
+        }
+    }
+    for (int i = 1; i < stonesSize; ++i) {
+        for (int j = i - 1; j >= 0; --j) {
+            int k = stones[i] - stones[j];
+            if (k > j + 1) {
+                break;
+            }
+            dp[i][k] = dp[j][k - 1] || dp[j][k] || dp[j][k + 1];
+            if (i == stonesSize - 1 && dp[i][k]) {
+                return true;
+            }
+        }
+    }
+    return false;
+}

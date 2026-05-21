@@ -1,0 +1,1 @@
+"-spec remove_digit(Number :: unicode:unicode_binary(), Digit :: char()) -> unicode:unicode_binary().\nremove_digit(Number, Digit) ->\n  ."

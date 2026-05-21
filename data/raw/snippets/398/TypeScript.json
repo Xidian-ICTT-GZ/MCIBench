@@ -1,0 +1,1 @@
+"class Solution {\n    constructor(nums: number[]) {\n        \n    }\n\n    pick(target: number): number {\n        \n    }\n}\n\n/**\n * Your Solution object will be instantiated and called as such:\n * var obj = new Solution(nums)\n * var param_1 = obj.pick(target)\n */"

@@ -1,0 +1,1 @@
+"(define/contract (has-alternating-bits n)\n  (-> exact-integer? boolean?)\n  )"

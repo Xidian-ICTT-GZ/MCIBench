@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec decode_at_index(s :: String.t, k :: integer) :: String.t\n  def decode_at_index(s, k) do\n    \n  end\nend"

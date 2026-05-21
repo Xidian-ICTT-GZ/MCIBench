@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec incremovable_subarray_count(nums :: [integer]) :: integer\n  def incremovable_subarray_count(nums) do\n    \n  end\nend"

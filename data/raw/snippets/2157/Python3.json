@@ -1,0 +1,1 @@
+"class Solution:\n    def groupStrings(self, words: List[str]) -> List[int]:\n        "

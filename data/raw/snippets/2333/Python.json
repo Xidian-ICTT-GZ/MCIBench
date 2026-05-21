@@ -1,0 +1,1 @@
+"class Solution(object):\n    def minSumSquareDiff(self, nums1, nums2, k1, k2):\n        \"\"\"\n        :type nums1: List[int]\n        :type nums2: List[int]\n        :type k1: int\n        :type k2: int\n        :rtype: int\n        \"\"\"\n        "

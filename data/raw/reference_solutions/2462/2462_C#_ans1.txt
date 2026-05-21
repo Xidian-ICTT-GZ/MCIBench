@@ -1,0 +1,35 @@
+public class Solution {
+    public long TotalCost(int[] costs, int k, int candidates) {
+        int n = costs.Length;
+        PriorityQueue<Tuple<int, int>, long> pq = new PriorityQueue<Tuple<int, int>, long>();
+        int left = candidates - 1, right = n - candidates;
+        if (left + 1 < right) {
+            for (int i = 0; i <= left; ++i) {
+                pq.Enqueue(new Tuple<int, int>(costs[i], i), (long) costs[i] * n + i);
+            }
+            for (int i = right; i < n; ++i) {
+                pq.Enqueue(new Tuple<int, int>(costs[i], i), (long) costs[i] * n + i);
+            }
+        } else {
+            for (int i = 0; i < n; ++i) {
+                pq.Enqueue(new Tuple<int, int>(costs[i], i), (long) costs[i] * n + i);
+            }
+        }
+        long ans = 0;
+        for (int i = 0; i < k; ++i) {
+            Tuple<int, int> pair = pq.Dequeue();
+            int cost = pair.Item1, id = pair.Item2;
+            ans += cost;
+            if (left + 1 < right) {
+                if (id <= left) {
+                    ++left;
+                    pq.Enqueue(new Tuple<int, int>(costs[left], left), (long) costs[left] * n + left);
+                } else {
+                    --right;
+                    pq.Enqueue(new Tuple<int, int>(costs[right], right), (long) costs[right] * n + right);
+                }
+            }
+        }
+        return ans;
+    }
+}

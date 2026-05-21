@@ -1,0 +1,29 @@
+impl Solution {
+    pub fn count_beautiful_pairs(nums: Vec<i32>) -> i32 {
+        let mut res = 0;
+        let mut cnt = [0; 10];
+        for x in nums {
+            for y in 1..=9 {
+                if Self::gcd(x % 10, y) == 1 {
+                    res += cnt[y as usize];
+                }
+            }
+            let mut x = x;
+            while x >= 10 {
+                x /= 10;
+            }
+            cnt[x as usize] += 1;
+        }
+
+        res
+    }
+
+    fn gcd(mut a: i32, mut b: i32) -> i32 {
+        while b != 0 {
+            let temp = b;
+            b = a % b;
+            a = temp;
+        }
+        a
+    }
+}

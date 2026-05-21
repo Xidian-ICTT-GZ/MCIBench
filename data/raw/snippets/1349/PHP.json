@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String[][] $seats\n     * @return Integer\n     */\n    function maxStudents($seats) {\n        \n    }\n}"

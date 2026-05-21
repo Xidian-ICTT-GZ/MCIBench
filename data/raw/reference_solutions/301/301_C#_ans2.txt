@@ -1,0 +1,47 @@
+public class Solution {
+    public IList<string> RemoveInvalidParentheses(string s) {
+        List<string> ans = new List<string>();
+        ISet<string> currSet = new HashSet<string>();
+
+        currSet.Add(s);
+        while (true) {
+            foreach (String str in currSet) {
+                if (IsValid(str)) {
+                    ans.Add(str);
+                }
+            }
+            if (ans.Count > 0) {
+                return ans;
+            }
+            ISet<string> nextSet = new HashSet<string>();
+            foreach (string str in currSet) {
+                for (int i = 0; i < str.Length; i++) {
+                    if (i > 0 && str[i] == str[i - 1]) {
+                        continue;
+                    }
+                    if (str[i] == '(' || str[i] == ')') {
+                        nextSet.Add(str.Substring(0, i) + str.Substring(i + 1));
+                    }
+                }
+            }
+            currSet = nextSet;
+        }
+    }
+
+    private bool IsValid(String str) {
+        int count = 0;
+
+        foreach (char c in str) {
+            if (c == '(') {
+                count++;
+            } else if (c == ')') {
+                count--;
+                if (count < 0) {
+                    return false;
+                }
+            }
+        }
+
+        return count == 0;
+    }
+}

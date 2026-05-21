@@ -1,0 +1,1 @@
+"class Solution(object):\n    def fillCups(self, amount):\n        \"\"\"\n        :type amount: List[int]\n        :rtype: int\n        \"\"\"\n        "

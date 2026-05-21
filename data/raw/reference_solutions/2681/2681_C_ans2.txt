@@ -1,0 +1,18 @@
+static int cmp(const void *a, const void *b) {
+    return *(int *)a - *(int *)b;
+}
+
+int sumOfPower(int* nums, int numsSize) {
+    qsort(nums, numsSize, sizeof(int), cmp);
+    int dp = 0, preSum = 0;
+    int res = 0, mod = 1e9 + 7;
+    for (int i = 0; i < numsSize; i++) {
+        dp = (nums[i] + preSum) % mod;
+        preSum = (preSum + dp) % mod;
+        res = (int) ((res + (long long) nums[i] * nums[i] % mod * dp) % mod);
+        if (res < 0) {
+            res += mod;
+        }
+    }
+    return res;
+}

@@ -1,0 +1,1 @@
+"class Solution {\n    func countInterestingSubarrays(_ nums: [Int], _ modulo: Int, _ k: Int) -> Int {\n        \n    }\n}"

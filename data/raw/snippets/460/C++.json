@@ -1,0 +1,1 @@
+"class LFUCache {\npublic:\n    LFUCache(int capacity) {\n        \n    }\n    \n    int get(int key) {\n        \n    }\n    \n    void put(int key, int value) {\n        \n    }\n};\n\n/**\n * Your LFUCache object will be instantiated and called as such:\n * LFUCache* obj = new LFUCache(capacity);\n * int param_1 = obj->get(key);\n * obj->put(key,value);\n */"

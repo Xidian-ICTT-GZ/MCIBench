@@ -1,0 +1,8 @@
+class Solution:
+    def repeatedCharacter(self, s: str) -> str:
+        seen = 0
+        for ch in s:
+            x = ord(ch) - ord("a")
+            if seen & (1 << x):
+                return ch
+            seen |= (1 << x)

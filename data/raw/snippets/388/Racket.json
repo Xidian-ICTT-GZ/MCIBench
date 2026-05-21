@@ -1,0 +1,1 @@
+"(define/contract (length-longest-path input)\n  (-> string? exact-integer?)\n  )"

@@ -1,0 +1,1 @@
+"object Solution {\n    def canPartitionGrid(grid: Array[Array[Int]]): Boolean = {\n        \n    }\n}"

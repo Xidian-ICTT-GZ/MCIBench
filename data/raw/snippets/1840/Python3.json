@@ -1,0 +1,1 @@
+"class Solution:\n    def maxBuilding(self, n: int, restrictions: List[List[int]]) -> int:\n        "

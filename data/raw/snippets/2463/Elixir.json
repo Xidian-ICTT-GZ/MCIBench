@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec minimum_total_distance(robot :: [integer], factory :: [[integer]]) :: integer\n  def minimum_total_distance(robot, factory) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"class Solution {\n    func validSubarraySize(_ nums: [Int], _ threshold: Int) -> Int {\n        \n    }\n}"

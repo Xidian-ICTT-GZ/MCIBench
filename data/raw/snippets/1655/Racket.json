@@ -1,0 +1,1 @@
+"(define/contract (can-distribute nums quantity)\n  (-> (listof exact-integer?) (listof exact-integer?) boolean?)\n  )"

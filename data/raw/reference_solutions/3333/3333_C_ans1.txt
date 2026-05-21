@@ -1,0 +1,52 @@
+#define MOD 1000000007
+
+int possibleStringCount(char* word, int k) {
+    int n = strlen(word);
+    int cnt = 1;
+    int freq[n];
+    memset(freq, 0, sizeof(int) * n);
+    int freqSize = 0;
+    for (int i = 1; i < n; ++i) {
+        if (word[i] == word[i - 1]) {
+            ++cnt;
+        } else {
+            freq[freqSize++] = cnt;
+            cnt = 1;
+        }
+    }
+    freq[freqSize++] = cnt;
+
+    long ans = 1;
+    for (int i = 0; i < freqSize; ++i) {
+        ans = ans * freq[i] % MOD;
+    }
+
+    if (freqSize >= k) {
+        return (int)ans;
+    }
+
+    int f[k], g[k], f_new[k], g_new[k];
+    f[0] = 1;
+    for (int i = 0; i < k; ++i) {
+        g[i] = 1;
+    }
+    for (int i = 0; i < freqSize; ++i) {
+        memset(f_new, 0, sizeof(int) * k);
+        for (int j = 1; j < k; ++j) {
+            f_new[j] = g[j - 1];
+            if (j - freq[i] - 1 >= 0) {
+                f_new[j] = (f_new[j] - g[j - freq[i] - 1] + MOD) % MOD;
+            }
+        }
+        memset(g_new, 0, sizeof(int) * k);
+        g_new[0] = f_new[0];
+        for (int j = 1; j < k; ++j) {
+            g_new[j] = (g_new[j - 1] + f_new[j]) % MOD;
+        }
+        memcpy(f, f_new, sizeof(int) * k);
+        memcpy(g, g_new, sizeof(int) * k);
+    }
+
+    int result = (ans - g[k - 1] + MOD) % MOD;
+    return result;
+}

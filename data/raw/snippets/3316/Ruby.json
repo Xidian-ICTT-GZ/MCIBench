@@ -1,0 +1,1 @@
+"# @param {String} source\n# @param {String} pattern\n# @param {Integer[]} target_indices\n# @return {Integer}\ndef max_removals(source, pattern, target_indices)\n    \nend"

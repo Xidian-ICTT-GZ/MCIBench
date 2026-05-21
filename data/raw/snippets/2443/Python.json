@@ -1,0 +1,1 @@
+"class Solution(object):\n    def sumOfNumberAndReverse(self, num):\n        \"\"\"\n        :type num: int\n        :rtype: bool\n        \"\"\"\n        "

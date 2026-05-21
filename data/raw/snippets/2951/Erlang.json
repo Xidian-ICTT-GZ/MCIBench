@@ -1,0 +1,1 @@
+"-spec find_peaks(Mountain :: [integer()]) -> [integer()].\nfind_peaks(Mountain) ->\n  ."

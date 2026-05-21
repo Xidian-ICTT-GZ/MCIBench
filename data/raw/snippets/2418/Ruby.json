@@ -1,0 +1,1 @@
+"# @param {String[]} names\n# @param {Integer[]} heights\n# @return {String[]}\ndef sort_people(names, heights)\n    \nend"

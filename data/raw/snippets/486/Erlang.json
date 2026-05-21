@@ -1,0 +1,1 @@
+"-spec predict_the_winner(Nums :: [integer()]) -> boolean().\npredict_the_winner(Nums) ->\n  ."

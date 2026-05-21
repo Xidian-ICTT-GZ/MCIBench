@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec result_grid(image :: [[integer]], threshold :: integer) :: [[integer]]\n  def result_grid(image, threshold) do\n    \n  end\nend"

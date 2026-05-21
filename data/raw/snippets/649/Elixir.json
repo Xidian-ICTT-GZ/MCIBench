@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec predict_party_victory(senate :: String.t) :: String.t\n  def predict_party_victory(senate) do\n    \n  end\nend"

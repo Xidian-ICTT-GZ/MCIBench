@@ -1,0 +1,1 @@
+"class Solution(object):\n    def relocateMarbles(self, nums, moveFrom, moveTo):\n        \"\"\"\n        :type nums: List[int]\n        :type moveFrom: List[int]\n        :type moveTo: List[int]\n        :rtype: List[int]\n        \"\"\"\n        "

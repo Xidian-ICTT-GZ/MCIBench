@@ -1,0 +1,25 @@
+class SmallestInfiniteSet {
+public:
+    SmallestInfiniteSet() {}
+    
+    int popSmallest() {
+        if (s.empty()) {
+            int ans = thres;
+            ++thres;
+            return ans;
+        }
+        int ans = *s.begin();
+        s.erase(s.begin());
+        return ans;
+    }
+    
+    void addBack(int num) {
+        if (num < thres) {
+            s.insert(num);
+        }
+    }
+
+private:
+    int thres = 1;
+    set<int> s;
+};

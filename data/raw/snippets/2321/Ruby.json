@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums1\n# @param {Integer[]} nums2\n# @return {Integer}\ndef maximums_spliced_array(nums1, nums2)\n    \nend"

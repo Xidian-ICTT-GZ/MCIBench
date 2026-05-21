@@ -1,0 +1,1 @@
+"-spec number_of_good_subsets(Nums :: [integer()]) -> integer().\nnumber_of_good_subsets(Nums) ->\n  ."

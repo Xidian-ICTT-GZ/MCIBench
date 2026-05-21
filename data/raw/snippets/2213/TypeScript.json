@@ -1,0 +1,1 @@
+"function longestRepeating(s: string, queryCharacters: string, queryIndices: number[]): number[] {\n    \n};"

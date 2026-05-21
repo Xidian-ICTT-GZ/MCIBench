@@ -1,0 +1,1 @@
+"# @param {String} l\n# @param {String} r\n# @param {Integer} b\n# @return {Integer}\ndef count_numbers(l, r, b)\n    \nend"

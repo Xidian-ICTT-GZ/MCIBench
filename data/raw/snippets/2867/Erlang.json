@@ -1,0 +1,1 @@
+"-spec count_paths(N :: integer(), Edges :: [[integer()]]) -> integer().\ncount_paths(N, Edges) ->\n  ."

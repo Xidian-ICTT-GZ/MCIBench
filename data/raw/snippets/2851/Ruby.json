@@ -1,0 +1,1 @@
+"# @param {String} s\n# @param {String} t\n# @param {Integer} k\n# @return {Integer}\ndef number_of_ways(s, t, k)\n    \nend"

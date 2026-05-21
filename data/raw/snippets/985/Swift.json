@@ -1,0 +1,1 @@
+"class Solution {\n    func sumEvenAfterQueries(_ nums: [Int], _ queries: [[Int]]) -> [Int] {\n        \n    }\n}"

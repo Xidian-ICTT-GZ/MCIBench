@@ -1,0 +1,1 @@
+"-spec find132pattern(Nums :: [integer()]) -> boolean().\nfind132pattern(Nums) ->\n  ."

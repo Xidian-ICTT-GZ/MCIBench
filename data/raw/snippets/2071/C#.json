@@ -1,0 +1,1 @@
+"public class Solution {\n    public int MaxTaskAssign(int[] tasks, int[] workers, int pills, int strength) {\n        \n    }\n}"

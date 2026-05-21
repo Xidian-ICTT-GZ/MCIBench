@@ -1,0 +1,16 @@
+class Solution:
+    def gardenNoAdj(self, n: int, paths: List[List[int]]) -> List[int]:
+        adj = [[] for i in range(n)]
+        for path in paths:
+            adj[path[0] - 1].append(path[1] - 1)
+            adj[path[1] - 1].append(path[0] - 1)
+        ans = [0] * n
+        for i in range(n):
+            colored = [False] * 5
+            for vertex in adj[i]:
+                colored[ans[vertex]] = True
+            for j in range(1, 5):
+                if not colored[j]:
+                    ans[i] = j
+                    break
+        return ans

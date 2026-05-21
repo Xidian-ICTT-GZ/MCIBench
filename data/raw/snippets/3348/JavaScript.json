@@ -1,0 +1,1 @@
+"/**\n * @param {string} num\n * @param {number} t\n * @return {string}\n */\nvar smallestNumber = function(num, t) {\n    \n};"

@@ -1,0 +1,1 @@
+"public class Solution {\n    public int[] CountPairs(int n, int[][] edges, int[] queries) {\n        \n    }\n}"

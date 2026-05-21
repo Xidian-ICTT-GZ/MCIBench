@@ -1,0 +1,1 @@
+"class DetectSquares() {\n\n    fun add(point: IntArray) {\n        \n    }\n\n    fun count(point: IntArray): Int {\n        \n    }\n\n}\n\n/**\n * Your DetectSquares object will be instantiated and called as such:\n * var obj = DetectSquares()\n * obj.add(point)\n * var param_2 = obj.count(point)\n */"

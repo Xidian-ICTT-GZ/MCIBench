@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int minRectanglesToCoverPoints(vector<vector<int>>& points, int w) {\n        \n    }\n};"

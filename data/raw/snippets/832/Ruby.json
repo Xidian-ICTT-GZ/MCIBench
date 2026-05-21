@@ -1,0 +1,1 @@
+"# @param {Integer[][]} image\n# @return {Integer[][]}\ndef flip_and_invert_image(image)\n    \nend"

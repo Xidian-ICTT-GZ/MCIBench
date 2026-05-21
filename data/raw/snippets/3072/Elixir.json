@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec result_array(nums :: [integer]) :: [integer]\n  def result_array(nums) do\n    \n  end\nend"

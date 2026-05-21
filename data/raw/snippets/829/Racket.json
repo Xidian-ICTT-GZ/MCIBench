@@ -1,0 +1,1 @@
+"(define/contract (consecutive-numbers-sum n)\n  (-> exact-integer? exact-integer?)\n  )"

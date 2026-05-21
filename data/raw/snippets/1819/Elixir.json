@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec count_different_subsequence_gc_ds(nums :: [integer]) :: integer\n  def count_different_subsequence_gc_ds(nums) do\n    \n  end\nend"

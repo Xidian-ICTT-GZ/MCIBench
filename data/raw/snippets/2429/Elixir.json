@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec minimize_xor(num1 :: integer, num2 :: integer) :: integer\n  def minimize_xor(num1, num2) do\n    \n  end\nend"

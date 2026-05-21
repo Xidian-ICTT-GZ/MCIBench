@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<vector<int>> matrixRankTransform(vector<vector<int>>& matrix) {\n        \n    }\n};"

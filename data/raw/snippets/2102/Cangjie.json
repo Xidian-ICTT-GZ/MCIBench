@@ -1,0 +1,1 @@
+"class SORTracker {\n    init() {\n\n    }\n    \n    func add(name: String, score: Int64): Unit {\n\n    }\n    \n    func get(): String {\n\n    }\n}\n\n/**\n * Your SORTracker object will be instantiated and called as such:\n * let obj: SORTracker = SORTracker()\n * obj.add(name,score)\n * let param_2 = obj.get()\n */"

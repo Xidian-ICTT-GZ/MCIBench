@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} heights\n * @param {number} bricks\n * @param {number} ladders\n * @return {number}\n */\nvar furthestBuilding = function(heights, bricks, ladders) {\n    \n};"

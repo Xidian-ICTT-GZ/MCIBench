@@ -1,0 +1,34 @@
+int findFirstNonA(const char *s) {
+    int i = 0;
+    for (i = 0; s[i] != '\0'; i++) {
+        if (s[i]!= 'a') {
+            return i;
+        }
+    }
+    return i;
+}
+
+int findFirstA_AfterFirstNonA(const char *s, int firstNonA) {
+    int i;
+    for (i = firstNonA; s[i] != '\0'; i++) {
+        if (s[i] == 'a') {
+            return i;
+        }
+    }
+    return i;
+}
+char * smallestString(char * s){
+    int indexOfFirstNonA = findFirstNonA(s);
+    if (indexOfFirstNonA == strlen(s)) {
+        s[strlen(s) - 1] = 'z';
+        return s;
+    }
+    size_t indexOfFirstA_AfterFirstNonA = findFirstA_AfterFirstNonA(s, indexOfFirstNonA);  
+    for (int i = 0; s[i] != '\0'; ++i) {
+        if (indexOfFirstNonA <= i && i < indexOfFirstA_AfterFirstNonA) {
+            s[i] = s[i] - 1;
+        }
+    }
+    
+    return s;
+}

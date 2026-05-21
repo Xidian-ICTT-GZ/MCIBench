@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $n\n     * @param Integer[][] $rectangles\n     * @return Boolean\n     */\n    function checkValidCuts($n, $rectangles) {\n        \n    }\n}"

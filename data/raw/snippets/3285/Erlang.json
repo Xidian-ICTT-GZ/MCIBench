@@ -1,0 +1,1 @@
+"-spec stable_mountains(Height :: [integer()], Threshold :: integer()) -> [integer()].\nstable_mountains(Height, Threshold) ->\n  ."

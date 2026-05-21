@@ -1,0 +1,43 @@
+const MOD: i64 = 1_000_000_007;
+const MAXN: usize = 10_014;
+const MAXM: usize = 14;
+
+impl Solution {
+    pub fn ways_to_fill_array(queries: Vec<Vec<i32>>) -> Vec<i32> {
+        let mut comb = vec![vec![0; MAXM]; MAXN];
+        let mut ans = Vec::new();
+
+        comb[0][0] = 1;
+        for i in 1..MAXN {
+            comb[i][0] = 1;
+            for j in 1..=i.min(MAXM - 1) {
+                comb[i][j] = (comb[i - 1][j - 1] + comb[i - 1][j]) % MOD;
+            }
+        }
+
+        for q in queries {
+            let n = q[0] as usize;
+            let mut k = q[1] as i64;
+            let mut tot = 1;
+
+            let mut i = 2;
+            while i * i <= k {
+                if k % i == 0 {
+                    let mut cnt = 0;
+                    while k % i == 0 {
+                        k /= i;
+                        cnt += 1;
+                    }
+                    tot = (tot * comb[n + cnt - 1][cnt]) % MOD;
+                }
+                i += 1;
+            }
+            
+            if k > 1 {
+                tot = (tot * n as i64) % MOD;
+            }
+            ans.push(tot as i32);
+        }
+        ans
+    }
+}

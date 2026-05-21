@@ -1,0 +1,1 @@
+"/**\n * @param {number[][]} cars\n * @return {number[]}\n */\nvar getCollisionTimes = function(cars) {\n    \n};"

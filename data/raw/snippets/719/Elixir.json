@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec smallest_distance_pair(nums :: [integer], k :: integer) :: integer\n  def smallest_distance_pair(nums, k) do\n    \n  end\nend"

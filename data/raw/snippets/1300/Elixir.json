@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec find_best_value(arr :: [integer], target :: integer) :: integer\n  def find_best_value(arr, target) do\n    \n  end\nend"

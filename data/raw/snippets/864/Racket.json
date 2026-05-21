@@ -1,0 +1,1 @@
+"(define/contract (shortest-path-all-keys grid)\n  (-> (listof string?) exact-integer?)\n  )"

@@ -1,0 +1,1 @@
+"(define/contract (count-mentions numberOfUsers events)\n  (-> exact-integer? (listof (listof string?)) (listof exact-integer?))\n  )"

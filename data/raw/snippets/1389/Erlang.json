@@ -1,0 +1,1 @@
+"-spec create_target_array(Nums :: [integer()], Index :: [integer()]) -> [integer()].\ncreate_target_array(Nums, Index) ->\n  ."

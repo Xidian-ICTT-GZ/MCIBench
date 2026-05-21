@@ -1,0 +1,1 @@
+"# @param {Integer[][]} intervals\n# @param {Integer[]} new_interval\n# @return {Integer[][]}\ndef insert(intervals, new_interval)\n    \nend"

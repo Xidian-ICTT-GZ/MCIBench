@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int minimumDiameterAfterMerge(vector<vector<int>>& edges1, vector<vector<int>>& edges2) {\n        \n    }\n};"

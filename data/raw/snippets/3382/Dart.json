@@ -1,0 +1,1 @@
+"class Solution {\n  int maxRectangleArea(List<int> xCoord, List<int> yCoord) {\n    \n  }\n}"

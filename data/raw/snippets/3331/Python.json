@@ -1,0 +1,1 @@
+"class Solution(object):\n    def findSubtreeSizes(self, parent, s):\n        \"\"\"\n        :type parent: List[int]\n        :type s: str\n        :rtype: List[int]\n        \"\"\"\n        "

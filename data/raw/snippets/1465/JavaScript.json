@@ -1,0 +1,1 @@
+"/**\n * @param {number} h\n * @param {number} w\n * @param {number[]} horizontalCuts\n * @param {number[]} verticalCuts\n * @return {number}\n */\nvar maxArea = function(h, w, horizontalCuts, verticalCuts) {\n    \n};"

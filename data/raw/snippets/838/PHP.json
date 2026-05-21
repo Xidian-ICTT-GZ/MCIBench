@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $dominoes\n     * @return String\n     */\n    function pushDominoes($dominoes) {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"/**\n * @param {number} n\n * @return {string[]}\n */\nvar generateParenthesis = function(n) {\n    \n};"

@@ -1,0 +1,36 @@
+public class Solution {
+    public string FrequencySort(string s) {
+        Dictionary<char, int> dictionary = new Dictionary<char, int>();
+        int maxFreq = 0;
+        int length = s.Length;
+        for (int i = 0; i < length; i++) {
+            char c = s[i];
+            if (dictionary.ContainsKey(c)) {
+                dictionary[c]++;
+            } else {
+                dictionary.Add(c, 1);
+            }
+            maxFreq = Math.Max(maxFreq, dictionary[c]);
+        }
+        StringBuilder[] buckets = new StringBuilder[maxFreq + 1];
+        for (int i = 0; i <= maxFreq; i++) {
+            buckets[i] = new StringBuilder();
+        }
+        foreach (KeyValuePair<char, int> pair in dictionary) {
+            char c = pair.Key;
+            int frequency = pair.Value;
+            buckets[frequency].Append(c);
+        }
+        StringBuilder sb = new StringBuilder();
+        for (int i = maxFreq; i > 0; i--) {
+            StringBuilder bucket = buckets[i];
+            int size = bucket.Length;
+            for (int j = 0; j < size; j++) {
+                for (int k = 0; k < i; k++) {
+                    sb.Append(bucket[j]);
+                }
+            }
+        }
+        return sb.ToString();
+    }
+}

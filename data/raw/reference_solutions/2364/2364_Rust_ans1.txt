@@ -1,0 +1,13 @@
+use std::collections::HashMap;
+impl Solution {
+    pub fn count_bad_pairs(nums: Vec<i32>) -> i64 {
+        let mut h = HashMap::new();
+        let mut res = 0 as i64;
+        for (i, x) in nums.iter().enumerate() {
+            let key = x - i as i32;
+            res += i as i64 - *h.get(&key).unwrap_or(&0);
+            *h.entry(key).or_default() += 1;
+        }
+        res
+    }
+}

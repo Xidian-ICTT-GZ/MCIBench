@@ -1,0 +1,23 @@
+var kthLargestLevelSum = function(root, k) {
+    let q = [root];
+    let levelSumArray = [];
+    while (q.length > 0) {
+        let levelSum = 0, size = q.length;
+        for (let i = 0; i < size; i++) {
+            let node = q.shift();
+            levelSum += node.val;
+            if (node.left) {
+                q.push(node.left);
+            }
+            if (node.right) {
+                q.push(node.right);
+            }
+        }
+        levelSumArray.push(levelSum);
+    }
+    if (levelSumArray.length < k) {
+        return -1;
+    }
+    levelSumArray.sort((a, b) => b - a);
+    return levelSumArray[k - 1];
+};

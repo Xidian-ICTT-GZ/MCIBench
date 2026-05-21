@@ -1,0 +1,1 @@
+"class Solution:\n    def minDeletionSize(self, strs: List[str]) -> int:\n        "

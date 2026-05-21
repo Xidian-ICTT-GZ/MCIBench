@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<string> removeInvalidParentheses(string s) {\n        \n    }\n};"

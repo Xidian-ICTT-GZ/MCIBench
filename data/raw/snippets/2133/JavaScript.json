@@ -1,0 +1,1 @@
+"/**\n * @param {number[][]} matrix\n * @return {boolean}\n */\nvar checkValid = function(matrix) {\n    \n};"

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec kth_grammar(n :: integer, k :: integer) :: integer\n  def kth_grammar(n, k) do\n    \n  end\nend"

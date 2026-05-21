@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int minimumRefill(vector<int>& plants, int capacityA, int capacityB) {\n        \n    }\n};"

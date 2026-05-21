@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec distinct_integers(n :: integer) :: integer\n  def distinct_integers(n) do\n    \n  end\nend"

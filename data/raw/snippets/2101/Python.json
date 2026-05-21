@@ -1,0 +1,1 @@
+"class Solution(object):\n    def maximumDetonation(self, bombs):\n        \"\"\"\n        :type bombs: List[List[int]]\n        :rtype: int\n        \"\"\"\n        "

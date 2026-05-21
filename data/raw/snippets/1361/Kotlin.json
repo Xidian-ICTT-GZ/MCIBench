@@ -1,0 +1,1 @@
+"class Solution {\n    fun validateBinaryTreeNodes(n: Int, leftChild: IntArray, rightChild: IntArray): Boolean {\n        \n    }\n}"

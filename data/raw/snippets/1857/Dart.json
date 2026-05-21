@@ -1,0 +1,1 @@
+"class Solution {\n  int largestPathValue(String colors, List<List<int>> edges) {\n    \n  }\n}"

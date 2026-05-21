@@ -1,0 +1,1 @@
+"-spec subarray_bitwise_o_rs(Arr :: [integer()]) -> integer().\nsubarray_bitwise_o_rs(Arr) ->\n  ."

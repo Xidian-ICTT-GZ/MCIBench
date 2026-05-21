@@ -1,0 +1,1 @@
+"-spec remove_stones(Stones :: [[integer()]]) -> integer().\nremove_stones(Stones) ->\n  ."

@@ -1,0 +1,25 @@
+class Solution:
+    def maximumBobPoints(self, numArrows: int, aliceArrows: List[int]) -> List[int]:
+        n = len(aliceArrows)
+        maxscore = 0   
+        state = 0   
+        
+        for mask in range(2 ** n):
+            cnt = 0
+            score = 0
+            for i in range(n):
+                if (mask >> i) & 1:
+                    cnt += aliceArrows[i] + 1
+                    score += i
+            if cnt <= numArrows and score > maxscore:
+                
+                maxscore = score
+                state = mask
+        
+        res = [0] * n
+        for i in range(n):
+            if (state >> i) & 1:
+                res[i] = aliceArrows[i] + 1
+                numArrows -= res[i]
+        res[0] += numArrows
+        return res

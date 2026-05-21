@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec minimum_deviation(nums :: [integer]) :: integer\n  def minimum_deviation(nums) do\n    \n  end\nend"

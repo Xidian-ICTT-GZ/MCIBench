@@ -1,0 +1,95 @@
+func minElement(nums []int) int {
+    k := 0
+    for i := range nums {
+        if nums[k] > nums[i] {
+            k = i
+        }
+    }
+    return k
+}
+
+func minElementInt64(nums []int64) int {
+    k := 0
+    for i := range nums {
+        if nums[k] > nums[i] {
+            k = i
+        }
+    }
+    return k
+}
+
+func partialSum(F []int64) {
+    for i := 1; i < len(F); i++ {
+        F[i] += F[i - 1]
+    }
+}
+
+func minCost(nums []int, x int) int64 {
+    n := len(nums)
+    
+    minIdx := minElement(nums)
+    var tmp []int
+    for i := 0; i < n; i++ {
+        tmp = append(tmp, nums[(minIdx + i) % n])
+    }
+    nums = tmp
+
+    L, R := make([]int, n), make([]int, n)
+    L[0] = n - 1
+    
+    for i := 0; i < n; i++ {
+        R[i] = n - i - 1
+    }
+    s := []int{0}
+    for i := 1; i < n; i++ {
+        for len(s) > 0 && nums[i] < nums[s[len(s) - 1]] {
+            R[s[len(s) - 1]] = i - s[len(s) - 1] - 1
+            s = s[:len(s) - 1]
+        }
+        L[i] = i - s[len(s) - 1] - 1
+        s = append(s, i)
+    }
+
+    F := make([]int64, n)
+    
+    diffOnce := func(l, r int, d int64) {
+        if l > r {
+            return
+        }
+        if l < n {
+            F[l] += d
+        }
+        if r + 1 < n {
+            F[r + 1] -= d
+        }
+    }
+    
+    diffTwice := func(l, r int, k, b int64) {
+        if l > r {
+            return
+        }
+        diffOnce(l, l, k * int64(l) + b)
+        diffOnce(l + 1, r, k)
+        diffOnce(r + 1, r + 1, -(k * int64(r) + b))
+    }
+
+    
+    diffTwice(0, n - 1, int64(x), 0)
+
+    for i := 0; i < n; i++ {
+        minV := min(L[i], R[i])
+        maxV := max(L[i], R[i])
+        
+        diffTwice(0, minV, int64(nums[i]), int64(nums[i]))
+        
+        diffTwice(minV + 1, maxV, 0, int64(nums[i]) * int64(minV + 1))
+        
+        diffTwice(maxV + 1, L[i] + R[i], -int64(nums[i]), int64(nums[i]) * int64(L[i] + R[i] + 1))
+    }
+
+    
+    for i := 0; i < 2; i++ {
+        partialSum(F)
+    }
+    return F[minElementInt64(F)]
+}

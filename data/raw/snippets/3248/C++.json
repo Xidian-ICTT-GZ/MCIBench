@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int finalPositionOfSnake(int n, vector<string>& commands) {\n        \n    }\n};"

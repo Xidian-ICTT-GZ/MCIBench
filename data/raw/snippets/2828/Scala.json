@@ -1,0 +1,1 @@
+"object Solution {\n    def isAcronym(words: List[String], s: String): Boolean = {\n        \n    }\n}"

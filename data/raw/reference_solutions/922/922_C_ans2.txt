@@ -1,0 +1,18 @@
+void swap(int* a, int* b) {
+    int t = *a;
+    *a = *b, *b = t;
+}
+
+int* sortArrayByParityII(int* nums, int numsSize, int* returnSize) {
+    int j = 1;
+    for (int i = 0; i < numsSize; i += 2) {
+        if (nums[i] % 2 == 1) {
+            while (nums[j] % 2 == 1) {
+                j += 2;
+            }
+            swap(nums + i, nums + j);
+        }
+    }
+    *returnSize = numsSize;
+    return nums;
+}

@@ -1,0 +1,1 @@
+"object Solution {\n    def numberOfWays(s: String, t: String, k: Long): Int = {\n        \n    }\n}"

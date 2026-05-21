@@ -1,0 +1,23 @@
+public class Solution {
+    public string[] FindRelativeRanks(int[] score) {
+        int n = score.Length;
+        string[] desc = {"Gold Medal", "Silver Medal", "Bronze Medal"};
+        int[][] arr = new int[n][];
+
+        for (int i = 0; i < n; ++i) {
+            arr[i] = new int[2];
+            arr[i][0] = score[i];
+            arr[i][1] = i;
+        }
+        Array.Sort(arr, (a, b) => b[0] - a[0]);
+        string[] ans = new string[n];
+        for (int i = 0; i < n; ++i) {
+            if (i >= 3) {
+                ans[arr[i][1]] = (i + 1).ToString();
+            } else {
+                ans[arr[i][1]] = desc[i];
+            }
+        }
+        return ans;
+    }
+}

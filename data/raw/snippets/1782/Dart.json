@@ -1,0 +1,1 @@
+"class Solution {\n  List<int> countPairs(int n, List<List<int>> edges, List<int> queries) {\n    \n  }\n}"

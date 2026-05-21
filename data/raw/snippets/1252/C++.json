@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int oddCells(int m, int n, vector<vector<int>>& indices) {\n        \n    }\n};"

@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer $target\n     * @return Boolean\n     */\n    function search($nums, $target) {\n        \n    }\n}"

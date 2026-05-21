@@ -1,0 +1,1 @@
+"class Solution(object):\n    def maxFrequency(self, nums, k, numOperations):\n        \"\"\"\n        :type nums: List[int]\n        :type k: int\n        :type numOperations: int\n        :rtype: int\n        \"\"\"\n        "

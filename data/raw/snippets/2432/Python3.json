@@ -1,0 +1,1 @@
+"class Solution:\n    def hardestWorker(self, n: int, logs: List[List[int]]) -> int:\n        "

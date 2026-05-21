@@ -1,0 +1,1 @@
+"import pandas as pd\n\ndef find_primary_department(employee: pd.DataFrame) -> pd.DataFrame:\n    "

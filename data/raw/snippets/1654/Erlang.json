@@ -1,0 +1,1 @@
+"-spec minimum_jumps(Forbidden :: [integer()], A :: integer(), B :: integer(), X :: integer()) -> integer().\nminimum_jumps(Forbidden, A, B, X) ->\n  ."

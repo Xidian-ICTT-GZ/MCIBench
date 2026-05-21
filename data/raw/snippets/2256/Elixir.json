@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec minimum_average_difference(nums :: [integer]) :: integer\n  def minimum_average_difference(nums) do\n    \n  end\nend"

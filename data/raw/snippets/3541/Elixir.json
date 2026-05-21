@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec max_freq_sum(s :: String.t) :: integer\n  def max_freq_sum(s) do\n    \n  end\nend"

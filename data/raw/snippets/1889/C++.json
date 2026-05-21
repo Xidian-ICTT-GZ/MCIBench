@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int minWastedSpace(vector<int>& packages, vector<vector<int>>& boxes) {\n        \n    }\n};"

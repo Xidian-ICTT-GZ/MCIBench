@@ -1,0 +1,1 @@
+"/**\n * Definition for a binary tree node.\n * struct TreeNode {\n *     int val;\n *     struct TreeNode *left;\n *     struct TreeNode *right;\n * };\n */\nint longestUnivaluePath(struct TreeNode* root) {\n    \n}"

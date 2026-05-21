@@ -1,0 +1,1 @@
+"# @param {Integer[]} heights\n# @return {Integer}\ndef largest_rectangle_area(heights)\n    \nend"

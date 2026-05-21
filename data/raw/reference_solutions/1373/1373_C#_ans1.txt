@@ -1,0 +1,40 @@
+public class Solution {
+    const int INF = 0x3f3f3f3f;
+    int res;
+
+    public class SubTree {
+        public bool isBST;
+        public int minValue;
+        public int maxValue;
+        public int sumValue;
+
+        public SubTree(bool isBST, int minValue, int maxValue, int sumValue) {
+            this.isBST = isBST;
+            this.minValue = minValue;
+            this.maxValue = maxValue;
+            this.sumValue = sumValue;
+        }
+    }
+
+    public int MaxSumBST(TreeNode root) {
+        res = 0;
+        DFS(root);
+        return res;
+    }
+
+    public SubTree DFS(TreeNode root) {
+        if (root == null) {
+            return new SubTree(true, INF, -INF, 0);
+        }
+        SubTree left = DFS(root.left);
+        SubTree right = DFS(root.right);
+
+        if (left.isBST && right.isBST && root.val > left.maxValue && root.val < right.minValue) {
+            int sum = root.val + left.sumValue + right.sumValue;
+            res = Math.Max(res, sum);
+            return new SubTree(true, Math.Min(left.minValue, root.val), Math.Max(root.val, right.maxValue), sum);
+        } else {
+            return new SubTree(false, 0, 0, 0);
+        }
+    }
+}

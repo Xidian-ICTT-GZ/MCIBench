@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec beautiful_partitions(s :: String.t, k :: integer, min_length :: integer) :: integer\n  def beautiful_partitions(s, k, min_length) do\n    \n  end\nend"

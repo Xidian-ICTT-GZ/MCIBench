@@ -1,0 +1,27 @@
+int takeCharacters(char* s, int k) {
+    int cnt[3] = {0};
+    int len = strlen(s);
+    int ans = len;
+
+    for (int i = 0; i < len; i++) {
+        cnt[s[i] - 'a']++;
+    }
+    if (cnt[0] >= k && cnt[1] >= k && cnt[2] >= k) {
+        ans = len;
+    } else {
+        return -1;
+    }
+
+    for (int l = 0, r = 0; r < len; r++) {
+        cnt[s[r] - 'a']--;
+        while (l < r && (cnt[0] < k || cnt[1] < k || cnt[2] < k)) {
+            cnt[s[l] - 'a']++;
+            l++;
+        }
+        if (cnt[0] >= k && cnt[1] >= k && cnt[2] >= k) {
+            ans = fmin(ans, len - (r - l + 1));
+        }
+    }
+
+    return ans;
+}

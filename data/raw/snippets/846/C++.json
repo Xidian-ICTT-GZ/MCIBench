@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    bool isNStraightHand(vector<int>& hand, int groupSize) {\n        \n    }\n};"

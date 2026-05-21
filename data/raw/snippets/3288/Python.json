@@ -1,0 +1,1 @@
+"class Solution(object):\n    def maxPathLength(self, coordinates, k):\n        \"\"\"\n        :type coordinates: List[List[int]]\n        :type k: int\n        :rtype: int\n        \"\"\"\n        "

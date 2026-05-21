@@ -1,0 +1,12 @@
+class Solution:
+    def numOfMinutes(self, n: int, headID: int, manager: List[int], informTime: List[int]) -> int:
+        
+        @cache
+        def dfs(cur):
+            if cur == headID:  
+                return 0
+            
+            
+            return dfs(manager[cur]) + informTime[manager[cur]]
+        
+        return max(dfs(i) for i in range(n))

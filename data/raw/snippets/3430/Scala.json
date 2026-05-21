@@ -1,0 +1,1 @@
+"object Solution {\n    def minMaxSubarraySum(nums: Array[Int], k: Int): Long = {\n        \n    }\n}"

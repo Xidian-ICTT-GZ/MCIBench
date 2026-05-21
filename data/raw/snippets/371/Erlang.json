@@ -1,0 +1,1 @@
+"-spec get_sum(A :: integer(), B :: integer()) -> integer().\nget_sum(A, B) ->\n  ."

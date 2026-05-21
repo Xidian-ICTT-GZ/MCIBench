@@ -1,0 +1,1 @@
+"-spec sum_of_squares(Nums :: [integer()]) -> integer().\nsum_of_squares(Nums) ->\n  ."

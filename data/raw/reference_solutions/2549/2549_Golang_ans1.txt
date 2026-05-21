@@ -1,0 +1,21 @@
+func distinctIntegers(n int) int {
+    nums := make([]int, n + 1)
+    nums[n] = 1
+    for k := 0; k < n; k++ {
+        for x := 1; x <= n; x++ {
+            if nums[x] == 0 {
+                continue
+            }
+            for i := 1; i <= n; i++ {
+                if x % i == 1 {
+                    nums[i] = 1
+                }
+            }
+        }
+    }
+    var res int
+    for i := 1; i <= n; i++ {
+        res += nums[i]
+    }
+    return res
+}

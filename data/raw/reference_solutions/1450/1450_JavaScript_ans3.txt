@@ -1,0 +1,35 @@
+var busyStudent = function(startTime, endTime, queryTime) {
+    startTime.sort((a, b) => a - b);
+    endTime.sort((a, b) => a - b);
+    const lessStart = upperbound(startTime, 0, startTime.length - 1, queryTime);
+    const lessEnd = lowerbound(endTime, 0, endTime.length - 1, queryTime);
+    return lessStart - lessEnd;
+}
+
+const upperbound = (arr, l, r, target) => {
+    let ans = r + 1;
+    while (l <= r) {
+        const mid = l + ((r - l) >> 1);
+        if (arr[mid] > target) {
+            ans = mid;
+            r = mid - 1;
+        } else {
+            l = mid + 1;
+        }
+    }
+    return ans;
+}
+
+const lowerbound = (arr, l, r, target) => {
+    let ans = r + 1;
+    while (l <= r) {
+        let mid = l + ((r - l) >> 1);
+        if (arr[mid] >= target) {
+            ans = mid;
+            r = mid - 1;
+        } else {
+            l = mid + 1;
+        }
+    }
+    return ans;
+};

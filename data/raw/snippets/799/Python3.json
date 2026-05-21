@@ -1,0 +1,1 @@
+"class Solution:\n    def champagneTower(self, poured: int, query_row: int, query_glass: int) -> float:\n        "

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec find_ocurrences(text :: String.t, first :: String.t, second :: String.t) :: [String.t]\n  def find_ocurrences(text, first, second) do\n    \n  end\nend"

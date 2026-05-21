@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec sum_distance(nums :: [integer], s :: String.t, d :: integer) :: integer\n  def sum_distance(nums, s, d) do\n    \n  end\nend"

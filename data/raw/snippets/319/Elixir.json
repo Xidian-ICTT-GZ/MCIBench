@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec bulb_switch(n :: integer) :: integer\n  def bulb_switch(n) do\n    \n  end\nend"

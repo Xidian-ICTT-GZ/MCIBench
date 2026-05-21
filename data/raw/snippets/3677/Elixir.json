@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec count_binary_palindromes(n :: integer) :: integer\n  def count_binary_palindromes(n) do\n    \n  end\nend"

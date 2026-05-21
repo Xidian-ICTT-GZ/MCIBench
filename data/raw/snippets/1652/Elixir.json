@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec decrypt(code :: [integer], k :: integer) :: [integer]\n  def decrypt(code, k) do\n    \n  end\nend"

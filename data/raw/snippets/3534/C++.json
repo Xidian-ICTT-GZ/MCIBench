@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<int> pathExistenceQueries(int n, vector<int>& nums, int maxDiff, vector<vector<int>>& queries) {\n        \n    }\n};"

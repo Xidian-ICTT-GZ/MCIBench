@@ -1,0 +1,1 @@
+"# @param {String} word\n# @param {Integer} k\n# @return {Integer}\ndef possible_string_count(word, k)\n    \nend"

@@ -1,0 +1,1 @@
+"class Solution:\n    def minimumOneBitOperations(self, n: int) -> int:\n        "

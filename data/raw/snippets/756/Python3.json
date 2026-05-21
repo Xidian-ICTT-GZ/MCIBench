@@ -1,0 +1,1 @@
+"class Solution:\n    def pyramidTransition(self, bottom: str, allowed: List[str]) -> bool:\n        "

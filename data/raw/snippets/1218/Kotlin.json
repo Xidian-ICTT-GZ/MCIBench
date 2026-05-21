@@ -1,0 +1,1 @@
+"class Solution {\n    fun longestSubsequence(arr: IntArray, difference: Int): Int {\n        \n    }\n}"

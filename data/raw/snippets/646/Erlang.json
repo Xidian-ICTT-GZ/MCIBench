@@ -1,0 +1,1 @@
+"-spec find_longest_chain(Pairs :: [[integer()]]) -> integer().\nfind_longest_chain(Pairs) ->\n  ."

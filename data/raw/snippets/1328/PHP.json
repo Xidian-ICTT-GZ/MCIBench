@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $palindrome\n     * @return String\n     */\n    function breakPalindrome($palindrome) {\n        \n    }\n}"

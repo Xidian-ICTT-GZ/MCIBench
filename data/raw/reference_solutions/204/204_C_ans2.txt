@@ -1,0 +1,19 @@
+int countPrimes(int n) {
+    if (n < 2) {
+        return 0;
+    }
+    int isPrime[n];
+    memset(isPrime, 0, sizeof(isPrime));
+    int ans = 0;
+    for (int i = 2; i < n; ++i) {
+        if (!isPrime[i]) {
+            ans += 1;
+            if ((long long)i * i < n) {
+                for (int j = i * i; j < n; j += i) {
+                    isPrime[j] = 1;
+                }
+            }
+        }
+    }
+    return ans;
+}

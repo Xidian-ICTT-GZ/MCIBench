@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int longestPalindrome(string s, string t) {\n        \n    }\n};"

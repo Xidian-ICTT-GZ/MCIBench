@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec people_aware_of_secret(n :: integer, delay :: integer, forget :: integer) :: integer\n  def people_aware_of_secret(n, delay, forget) do\n    \n  end\nend"

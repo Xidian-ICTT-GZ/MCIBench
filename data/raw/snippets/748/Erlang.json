@@ -1,0 +1,1 @@
+"-spec shortest_completing_word(LicensePlate :: unicode:unicode_binary(), Words :: [unicode:unicode_binary()]) -> unicode:unicode_binary().\nshortest_completing_word(LicensePlate, Words) ->\n  ."

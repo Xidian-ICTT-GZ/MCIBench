@@ -1,0 +1,69 @@
+typedef struct {
+    int key;
+    int val;
+    UT_hash_handle hh;
+} HashItem; 
+
+HashItem *hashFindItem(HashItem **obj, int key) {
+    HashItem *pEntry = NULL;
+    HASH_FIND_INT(*obj, &key, pEntry);
+    return pEntry;
+}
+
+bool hashAddItem(HashItem **obj, int key, int val) {
+    if (hashFindItem(obj, key)) {
+        return false;
+    }
+    HashItem *pEntry = (HashItem *)malloc(sizeof(HashItem));
+    pEntry->key = key;
+    pEntry->val = val;
+    HASH_ADD_INT(*obj, key, pEntry);
+    return true;
+}
+
+bool hashSetItem(HashItem **obj, int key, int val) {
+    HashItem *pEntry = hashFindItem(obj, key);
+    if (!pEntry) {
+        hashAddItem(obj, key, val);
+    } else {
+        pEntry->val = val;
+    }
+    return true;
+}
+
+int hashGetItem(HashItem **obj, int key, int defaultVal) {
+    HashItem *pEntry = hashFindItem(obj, key);
+    if (!pEntry) {
+        return defaultVal;
+    }
+    return pEntry->val;
+}
+
+void hashFree(HashItem **obj) {
+    HashItem *curr = NULL, *tmp = NULL;
+    HASH_ITER(hh, *obj, curr, tmp) {
+        HASH_DEL(*obj, curr);  
+        free(curr);
+    }
+}
+
+void dfs(int i, int *nums, int numsSize, int k, HashItem **cnt, int *ans) {
+    if (i == numsSize) {
+        (*ans)++;
+        return;
+    }
+    dfs(i + 1, nums, numsSize, k, cnt, ans);
+    if (hashGetItem(cnt, nums[i] - k, 0) == 0 && hashGetItem(cnt, nums[i] + k, 0) == 0) {
+        hashSetItem(cnt, nums[i], hashGetItem(cnt, nums[i], 0) + 1);
+        dfs(i + 1, nums, numsSize, k, cnt, ans);
+        hashSetItem(cnt, nums[i], hashGetItem(cnt, nums[i], 0) - 1);
+    }
+}
+
+int beautifulSubsets(int* nums, int numsSize, int k) {
+    int ans = 0;
+    HashItem *cnt = NULL;
+    dfs(0, nums, numsSize, k, &cnt, &ans);
+    hashFree(&cnt);
+    return ans - 1;
+}

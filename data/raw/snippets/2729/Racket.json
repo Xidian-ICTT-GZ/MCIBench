@@ -1,0 +1,1 @@
+"(define/contract (is-fascinating n)\n  (-> exact-integer? boolean?)\n  )"

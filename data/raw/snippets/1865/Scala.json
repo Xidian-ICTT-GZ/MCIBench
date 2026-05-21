@@ -1,0 +1,1 @@
+"class FindSumPairs(_nums1: Array[Int], _nums2: Array[Int]) {\n\n    def add(index: Int, `val`: Int): Unit = {\n        \n    }\n\n    def count(tot: Int): Int = {\n        \n    }\n\n}\n\n/**\n * Your FindSumPairs object will be instantiated and called as such:\n * val obj = new FindSumPairs(nums1, nums2)\n * obj.add(index,`val`)\n * val param_2 = obj.count(tot)\n */"

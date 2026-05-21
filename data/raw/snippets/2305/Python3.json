@@ -1,0 +1,1 @@
+"class Solution:\n    def distributeCookies(self, cookies: List[int], k: int) -> int:\n        "

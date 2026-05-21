@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @param {Integer[][]} edges\n# @param {Integer} source\n# @param {Integer} destination\n# @param {Integer} target\n# @return {Integer[][]}\ndef modified_graph_edges(n, edges, source, destination, target)\n    \nend"

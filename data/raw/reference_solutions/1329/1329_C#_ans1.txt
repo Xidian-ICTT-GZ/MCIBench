@@ -1,0 +1,24 @@
+public class Solution {
+    public int[][] DiagonalSort(int[][] mat) {
+        int n = mat.Length, m = mat[0].Length;
+        IList<IList<int>> diag = new List<IList<int>>(m + n);
+        for (int i = 0; i < m + n; i++) {
+            diag.Add(new List<int>());
+        }
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                diag[i - j + m].Add(mat[i][j]);
+            }
+        }
+        foreach (IList<int> d in diag) {
+            ((List<int>) d).Sort((a, b) => b - a);
+        }
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                mat[i][j] = diag[i - j + m][diag[i - j + m].Count - 1];
+                diag[i - j + m].RemoveAt(diag[i - j + m].Count - 1);
+            }
+        }
+        return mat;
+    }
+}

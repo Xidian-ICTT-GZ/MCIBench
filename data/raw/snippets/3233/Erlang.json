@@ -1,0 +1,1 @@
+"-spec non_special_count(L :: integer(), R :: integer()) -> integer().\nnon_special_count(L, R) ->\n  ."

@@ -1,0 +1,1 @@
+"class Solution {\n    func maxOutput(_ n: Int, _ edges: [[Int]], _ price: [Int]) -> Int {\n        \n    }\n}"

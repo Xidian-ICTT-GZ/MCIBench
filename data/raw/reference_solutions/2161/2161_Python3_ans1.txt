@@ -1,0 +1,21 @@
+class Solution:
+    def pivotArray(self, nums: List[int], pivot: int) -> List[int]:
+        n = len(nums)
+        ans = [pivot] * n
+        left, right = 0, n - 1
+
+        for i in range(n):
+            if nums[i] < pivot:
+                ans[left] = nums[i]
+                left += 1
+            elif nums[i] > pivot:
+                ans[right] = nums[i]
+                right -= 1
+        
+        x, y = right + 1, n - 1
+        while x < y:
+            ans[x], ans[y] = ans[y], ans[x]
+            x += 1
+            y -= 1
+        
+        return ans

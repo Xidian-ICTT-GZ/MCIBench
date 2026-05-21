@@ -1,0 +1,8 @@
+bool repeatedSubstringPattern(char* s) {
+    int n = strlen(s);
+    char k[2 * n + 1];
+    k[0] = 0;
+    strcat(k, s);
+    strcat(k, s);
+    return strstr(k + 1, s) - k != n;
+}

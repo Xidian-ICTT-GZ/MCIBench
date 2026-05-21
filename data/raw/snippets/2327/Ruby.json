@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @param {Integer} delay\n# @param {Integer} forget\n# @return {Integer}\ndef people_aware_of_secret(n, delay, forget)\n    \nend"

@@ -1,0 +1,9 @@
+var minOperations = function(nums) {
+    let operation = 0;
+    for (let i = nums.length - 2; i >= 0; i--) {
+        if (nums[i] !== nums[i + 1]) {
+            operation++;
+        }
+    }
+    return nums[0] === 1 ? operation : operation + 1;
+};

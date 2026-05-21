@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec max_operations(nums :: [integer], k :: integer) :: integer\n  def max_operations(nums, k) do\n    \n  end\nend"

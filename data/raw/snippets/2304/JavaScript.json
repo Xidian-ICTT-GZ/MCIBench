@@ -1,0 +1,1 @@
+"/**\n * @param {number[][]} grid\n * @param {number[][]} moveCost\n * @return {number}\n */\nvar minPathCost = function(grid, moveCost) {\n    \n};"

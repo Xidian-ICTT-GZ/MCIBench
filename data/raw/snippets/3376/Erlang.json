@@ -1,0 +1,1 @@
+"-spec find_minimum_time(Strength :: [integer()], K :: integer()) -> integer().\nfind_minimum_time(Strength, K) ->\n  ."

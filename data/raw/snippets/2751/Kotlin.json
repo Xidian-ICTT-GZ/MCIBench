@@ -1,0 +1,1 @@
+"class Solution {\n    fun survivedRobotsHealths(positions: IntArray, healths: IntArray, directions: String): List<Int> {\n        \n    }\n}"

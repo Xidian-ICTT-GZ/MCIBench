@@ -1,0 +1,1 @@
+"-spec count_vowel_substrings(Word :: unicode:unicode_binary()) -> integer().\ncount_vowel_substrings(Word) ->\n  ."

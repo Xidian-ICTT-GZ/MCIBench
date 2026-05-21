@@ -1,0 +1,108 @@
+int minElement(int *nums, int n) {
+    int k = 0;
+    for (int i = 0; i < n; i++) {
+        if (nums[k] > nums[i]) {
+            k = i;
+        }
+    }
+    return k;
+}
+
+int minElement2(long long *nums, int n) {
+    int k = 0;
+    for (int i = 0; i < n; i++) {
+        if (nums[k] > nums[i]) {
+            k = i;
+        }
+    }
+    return k;
+}
+
+
+
+void diffOnce(long long *F, int n, int l, int r, long long d) {
+    if (l > r) {
+        return;
+    }
+    if (l < n) {
+        F[l] += d;
+    }
+    if (r + 1 < n) {
+        F[r + 1] -= d;
+    }
+}
+
+
+void diffTwice(long long *F, int n, int l, int r, long long k, long long b) {
+    if (l > r) {
+        return;
+    }
+    diffOnce(F, n, l, l, k * l + b);
+    diffOnce(F, n, l + 1, r, k);
+    diffOnce(F, n, r + 1, r + 1, -(k * r + b));
+}
+
+long long minCost(int *nums, int numsSize, int x) {
+    int n = numsSize;
+    
+    int minIdx = minElement(nums, n);
+    int *tmp = (int *)malloc(sizeof(int) * n);
+    for (int i = 0; i < n; ++i) {
+        tmp[i] = nums[(minIdx + i) % n];
+    }
+    memcpy(nums, tmp, sizeof(int) * n);
+    free(tmp);
+    tmp = NULL;
+
+    int *L = (int *)malloc(sizeof(int) * n);
+    int *R = (int *)malloc(sizeof(int) * n);
+    L[0] = n - 1;
+    
+    for (int i = 0; i < n; ++i) {
+        R[i] = n - i - 1;
+    }
+    int *s = (int *)malloc(sizeof(int) * n);
+    int t = -1;
+    s[++t] = 0;
+    for (int i = 1; i < n; ++i) {
+        while (t > 0 && nums[i] < nums[s[t]]) {
+            R[s[t]] = i - s[t] - 1;
+            t--;
+        }
+        L[i] = i - s[t] - 1;
+        s[++t] = i;
+    }
+    free(s);
+    s = NULL;
+
+    long long *F = malloc(sizeof(long long) * n);
+    memset(F, 0, sizeof(long long) * n);
+
+    
+    diffTwice(F, n, 0, n - 1, x, 0);
+
+    for (int i = 0; i < n; ++i) {
+        int minv = fmin(L[i], R[i]);
+        int maxv = fmax(L[i], R[i]);
+        
+        diffTwice(F, n, 0, minv, nums[i], nums[i]);
+        
+        diffTwice(F, n, minv + 1, maxv, 0, (long long)nums[i] * (minv + 1));
+        
+        diffTwice(F, n, maxv + 1, L[i] + R[i], -nums[i], (long long)nums[i] * (L[i] + R[i] + 1));
+    }
+
+    
+    for (int i = 0; i < 2; ++i) {
+        for (int i = 1; i < n; i++) {
+            F[i] += F[i - 1];
+        }
+    }
+
+    long long ans = F[minElement2(F, n)];
+    free(F);
+    free(L);
+    free(R);
+
+    return ans;
+}

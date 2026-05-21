@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec strange_printer(s :: String.t) :: integer\n  def strange_printer(s) do\n    \n  end\nend"

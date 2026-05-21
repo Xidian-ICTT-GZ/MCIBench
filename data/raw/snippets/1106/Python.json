@@ -1,0 +1,1 @@
+"class Solution(object):\n    def parseBoolExpr(self, expression):\n        \"\"\"\n        :type expression: str\n        :rtype: bool\n        \"\"\"\n        "

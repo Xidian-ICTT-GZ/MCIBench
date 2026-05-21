@@ -1,0 +1,1 @@
+"-spec is_one_bit_character(Bits :: [integer()]) -> boolean().\nis_one_bit_character(Bits) ->\n  ."

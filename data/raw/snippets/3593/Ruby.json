@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @param {Integer[][]} edges\n# @param {Integer[]} cost\n# @return {Integer}\ndef min_increase(n, edges, cost)\n    \nend"

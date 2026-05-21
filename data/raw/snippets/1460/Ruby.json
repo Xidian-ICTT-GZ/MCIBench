@@ -1,0 +1,1 @@
+"# @param {Integer[]} target\n# @param {Integer[]} arr\n# @return {Boolean}\ndef can_be_equal(target, arr)\n    \nend"

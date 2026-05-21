@@ -1,0 +1,13 @@
+public class Solution {
+    public int GetMaximumConsecutive(int[] coins) {
+        int res = 1;
+        Array.Sort(coins);
+        foreach (int i in coins) {
+            if (i > res) {
+                break;
+            }
+            res += i;
+        }
+        return res;
+    }
+}

@@ -1,0 +1,1 @@
+"class Solution(object):\n    def restoreString(self, s, indices):\n        \"\"\"\n        :type s: str\n        :type indices: List[int]\n        :rtype: str\n        \"\"\"\n        "

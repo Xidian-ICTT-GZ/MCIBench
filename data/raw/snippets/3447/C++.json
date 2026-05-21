@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<int> assignElements(vector<int>& groups, vector<int>& elements) {\n        \n    }\n};"

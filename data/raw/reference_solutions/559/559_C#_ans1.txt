@@ -1,0 +1,14 @@
+public class Solution {
+    public int MaxDepth(Node root) {
+        if (root == null) {
+            return 0;
+        }
+        int maxChildDepth = 0;
+        IList<Node> children = root.children;
+        foreach (Node child in children) {
+            int childDepth = MaxDepth(child);
+            maxChildDepth = Math.Max(maxChildDepth, childDepth);
+        }
+        return maxChildDepth + 1;
+    }
+}

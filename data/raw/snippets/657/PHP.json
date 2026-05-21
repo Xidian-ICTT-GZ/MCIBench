@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $moves\n     * @return Boolean\n     */\n    function judgeCircle($moves) {\n        \n    }\n}"

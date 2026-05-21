@@ -1,0 +1,55 @@
+var longestWord = function(words) {
+    const trie = new Trie();
+    for (const word of words) {
+        trie.insert(word);
+    }
+    let longest = "";
+    for (const word of words) {
+        if (trie.search(word)) {
+            if (word.length > longest.length || (word.length === longest.length && word.localeCompare(longest) < 0)) {
+                longest = word;
+            }
+        }
+    }
+    return longest;
+};
+
+class Node {
+    constructor() {
+        this.children = {};
+        this.isEnd = false;
+    }
+}
+
+class Trie {
+    constructor() {
+        this.children = new Node();
+        this.isEnd = false;
+    }
+
+    insert(word) {
+        let node = this;
+        for (let i = 0; i < word.length; i++) {
+            const ch = word[i];
+            const index = ch.charCodeAt() - 'a'.charCodeAt();
+            if (!node.children[index]) {
+                node.children[index] = new Node();
+            }
+            node = node.children[index];
+        }
+        node.isEnd = true;
+    }
+
+    search(word) {
+        let node = this;
+        for (let i = 0; i < word.length; i++) {
+            const ch = word[i];
+            const index = ch.charCodeAt() - 'a'.charCodeAt();
+            if (!node.children[index] || !node.children[index].isEnd) {
+                return false;
+            }
+            node = node.children[index];
+        }
+        return node && node.isEnd;
+    }
+}

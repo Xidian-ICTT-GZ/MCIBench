@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec min_jumps(arr :: [integer]) :: integer\n  def min_jumps(arr) do\n    \n  end\nend"

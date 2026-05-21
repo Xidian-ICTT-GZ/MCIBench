@@ -1,0 +1,1 @@
+"class Solution:\n    def networkDelayTime(self, times: List[List[int]], n: int, k: int) -> int:\n        "

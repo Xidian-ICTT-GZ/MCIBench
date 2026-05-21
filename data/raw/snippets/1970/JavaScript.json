@@ -1,0 +1,1 @@
+"/**\n * @param {number} row\n * @param {number} col\n * @param {number[][]} cells\n * @return {number}\n */\nvar latestDayToCross = function(row, col, cells) {\n    \n};"

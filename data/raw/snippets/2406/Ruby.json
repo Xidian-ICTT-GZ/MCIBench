@@ -1,0 +1,1 @@
+"# @param {Integer[][]} intervals\n# @return {Integer}\ndef min_groups(intervals)\n    \nend"

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec reduction_operations(nums :: [integer]) :: integer\n  def reduction_operations(nums) do\n    \n  end\nend"

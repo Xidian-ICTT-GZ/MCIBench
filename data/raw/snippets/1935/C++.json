@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int canBeTypedWords(string text, string brokenLetters) {\n        \n    }\n};"

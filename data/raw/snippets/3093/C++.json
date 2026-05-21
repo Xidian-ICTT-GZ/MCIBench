@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<int> stringIndices(vector<string>& wordsContainer, vector<string>& wordsQuery) {\n        \n    }\n};"

@@ -1,0 +1,1 @@
+"# @param {Integer[][]} box_types\n# @param {Integer} truck_size\n# @return {Integer}\ndef maximum_units(box_types, truck_size)\n    \nend"

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec most_frequent(nums :: [integer], key :: integer) :: integer\n  def most_frequent(nums, key) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec find_subsequences(nums :: [integer]) :: [[integer]]\n  def find_subsequences(nums) do\n    \n  end\nend"

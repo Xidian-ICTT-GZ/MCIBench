@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @param {Integer[][]} restrictions\n# @return {Integer}\ndef max_building(n, restrictions)\n    \nend"

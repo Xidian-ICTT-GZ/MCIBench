@@ -1,0 +1,1 @@
+"-spec min_max_weight(N :: integer(), Edges :: [[integer()]], Threshold :: integer()) -> integer().\nmin_max_weight(N, Edges, Threshold) ->\n  ."

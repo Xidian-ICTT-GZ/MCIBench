@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String[][] $responses\n     * @return String\n     */\n    function findCommonResponse($responses) {\n        \n    }\n}"

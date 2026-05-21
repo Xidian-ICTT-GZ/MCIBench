@@ -1,0 +1,1 @@
+"class Solution {\n    func minCost(_ startPos: [Int], _ homePos: [Int], _ rowCosts: [Int], _ colCosts: [Int]) -> Int {\n        \n    }\n}"

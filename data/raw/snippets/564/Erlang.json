@@ -1,0 +1,1 @@
+"-spec nearest_palindromic(N :: unicode:unicode_binary()) -> unicode:unicode_binary().\nnearest_palindromic(N) ->\n  ."

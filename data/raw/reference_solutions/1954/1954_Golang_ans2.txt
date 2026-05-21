@@ -1,0 +1,14 @@
+func minimumPerimeter(neededApples int64) int64 {
+    left, right := int64(1), int64(100000)
+    ans := int64(0)
+    for left <= right {
+        mid := (left + right) / 2
+        if 2 * mid * (mid + 1) * (mid * 2 + 1) >= neededApples {
+            ans = mid
+            right = mid - 1
+        } else {
+            left = mid + 1
+        }
+    }
+    return ans * 8
+}

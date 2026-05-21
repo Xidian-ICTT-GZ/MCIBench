@@ -1,0 +1,74 @@
+type segTree []struct {
+    l, r, val int
+}
+
+func (t segTree) build(o, l, r int) {
+    t[o].l, t[o].r = l, r
+    if l == r {
+        return
+    }
+    m := (l + r) >> 1
+    t.build(o<<1, l, m)
+    t.build(o<<1|1, m+1, r)
+}
+
+func (t segTree) inc(o, i int) {
+    if t[o].l == t[o].r {
+        t[o].val++
+        return
+    }
+    if i <= (t[o].l+t[o].r)>>1 {
+        t.inc(o<<1, i)
+    } else {
+        t.inc(o<<1|1, i)
+    }
+    t[o].val = t[o<<1].val + t[o<<1|1].val
+}
+
+func (t segTree) query(o, l, r int) (res int) {
+    if l <= t[o].l && t[o].r <= r {
+        return t[o].val
+    }
+    m := (t[o].l + t[o].r) >> 1
+    if r <= m {
+        return t.query(o<<1, l, r)
+    }
+    if l > m {
+        return t.query(o<<1|1, l, r)
+    }
+    return t.query(o<<1, l, r) + t.query(o<<1|1, l, r)
+}
+
+func countRangeSum(nums []int, lower, upper int) (cnt int) {
+    n := len(nums)
+
+    
+    allNums := make([]int, 1, 3*n+1)
+    preSum := make([]int, n+1)
+    for i, v := range nums {
+        preSum[i+1] = preSum[i] + v
+        allNums = append(allNums, preSum[i+1], preSum[i+1]-lower, preSum[i+1]-upper)
+    }
+
+    
+    sort.Ints(allNums)
+    k := 1
+    kth := map[int]int{allNums[0]: k}
+    for i := 1; i <= 3*n; i++ {
+        if allNums[i] != allNums[i-1] {
+            k++
+            kth[allNums[i]] = k
+        }
+    }
+
+    
+    t := make(segTree, 4*k)
+    t.build(1, 1, k)
+    t.inc(1, kth[0])
+    for _, sum := range preSum[1:] {
+        left, right := kth[sum-upper], kth[sum-lower]
+        cnt += t.query(1, left, right)
+        t.inc(1, kth[sum])
+    }
+    return
+}

@@ -1,0 +1,1 @@
+"-spec best_closing_time(Customers :: unicode:unicode_binary()) -> integer().\nbest_closing_time(Customers) ->\n  ."

@@ -1,0 +1,12 @@
+func findMaxK(nums []int) int {
+    sort.Ints(nums)
+    for i, j := 0, len(nums)-1; i < j; j-- {
+        for i < j && nums[i] < -nums[j] {
+            i++
+        }
+        if nums[i] == -nums[j] {
+            return nums[j]
+        }
+    }
+    return -1
+}

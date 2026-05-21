@@ -1,0 +1,1 @@
+"-spec minimum_score(Nums :: [integer()], Edges :: [[integer()]]) -> integer().\nminimum_score(Nums, Edges) ->\n  ."

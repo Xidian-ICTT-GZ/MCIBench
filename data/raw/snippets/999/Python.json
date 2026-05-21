@@ -1,0 +1,1 @@
+"class Solution(object):\n    def numRookCaptures(self, board):\n        \"\"\"\n        :type board: List[List[str]]\n        :rtype: int\n        \"\"\"\n        "

@@ -1,0 +1,1 @@
+"-spec min_skips(Dist :: [integer()], Speed :: integer(), HoursBefore :: integer()) -> integer().\nmin_skips(Dist, Speed, HoursBefore) ->\n  ."

@@ -1,0 +1,1 @@
+"class Solution {\n    public int[] longestRepeating(String s, String queryCharacters, int[] queryIndices) {\n        \n    }\n}"

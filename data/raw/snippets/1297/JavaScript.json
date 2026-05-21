@@ -1,0 +1,1 @@
+"/**\n * @param {string} s\n * @param {number} maxLetters\n * @param {number} minSize\n * @param {number} maxSize\n * @return {number}\n */\nvar maxFreq = function(s, maxLetters, minSize, maxSize) {\n    \n};"

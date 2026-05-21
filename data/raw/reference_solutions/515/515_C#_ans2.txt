@@ -1,0 +1,27 @@
+public class Solution {
+    public IList<int> LargestValues(TreeNode root) {
+        if (root == null) {
+            return new List<int>();
+        }
+        IList<int> res = new List<int>();
+        Queue<TreeNode> queue = new Queue<TreeNode>();
+        queue.Enqueue(root);
+        while (queue.Count > 0) {
+            int len = queue.Count;
+            int maxVal = int.MinValue;
+            while (len > 0) {
+                len--;
+                TreeNode t = queue.Dequeue();
+                maxVal = Math.Max(maxVal, t.val);
+                if (t.left != null) {
+                    queue.Enqueue(t.left);
+                }
+                if (t.right != null) {
+                    queue.Enqueue(t.right);
+                }
+            }
+            res.Add(maxVal);
+        }
+        return res;
+    }
+}

@@ -1,0 +1,1 @@
+"impl Solution {\n    pub fn shortest_superstring(words: Vec<String>) -> String {\n        \n    }\n}"

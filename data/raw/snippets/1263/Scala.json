@@ -1,0 +1,1 @@
+"object Solution {\n    def minPushBox(grid: Array[Array[Char]]): Int = {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"/**\n * @param {string} message\n * @param {number} limit\n * @return {string[]}\n */\nvar splitMessage = function(message, limit) {\n    \n};"

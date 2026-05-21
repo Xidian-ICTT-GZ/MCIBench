@@ -1,0 +1,1 @@
+"impl Solution {\n    pub fn minimum_value_sum(nums: Vec<i32>, and_values: Vec<i32>) -> i32 {\n        \n    }\n}"

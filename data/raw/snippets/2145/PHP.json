@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $differences\n     * @param Integer $lower\n     * @param Integer $upper\n     * @return Integer\n     */\n    function numberOfArrays($differences, $lower, $upper) {\n        \n    }\n}"

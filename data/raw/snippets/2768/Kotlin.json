@@ -1,0 +1,1 @@
+"class Solution {\n    fun countBlackBlocks(m: Int, n: Int, coordinates: Array<IntArray>): LongArray {\n        \n    }\n}"

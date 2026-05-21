@@ -1,0 +1,1 @@
+"class Solution:\n    def beautifulArray(self, n: int) -> List[int]:\n        "

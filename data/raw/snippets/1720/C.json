@@ -1,0 +1,1 @@
+"/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* decode(int* encoded, int encodedSize, int first, int* returnSize) {\n    \n}"

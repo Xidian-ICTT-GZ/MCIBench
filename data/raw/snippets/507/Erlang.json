@@ -1,0 +1,1 @@
+"-spec check_perfect_number(Num :: integer()) -> boolean().\ncheck_perfect_number(Num) ->\n  ."

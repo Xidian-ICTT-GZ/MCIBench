@@ -1,0 +1,1 @@
+"\nclass LFUCache {\n\n    init(_ capacity: Int) {\n        \n    }\n    \n    func get(_ key: Int) -> Int {\n        \n    }\n    \n    func put(_ key: Int, _ value: Int) {\n        \n    }\n}\n\n/**\n * Your LFUCache object will be instantiated and called as such:\n * let obj = LFUCache(capacity)\n * let ret_1: Int = obj.get(key)\n * obj.put(key, value)\n */"

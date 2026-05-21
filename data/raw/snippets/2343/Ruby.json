@@ -1,0 +1,1 @@
+"# @param {String[]} nums\n# @param {Integer[][]} queries\n# @return {Integer[]}\ndef smallest_trimmed_numbers(nums, queries)\n    \nend"

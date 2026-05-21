@@ -1,0 +1,1 @@
+"class Solution:\n    def findMaximumScore(self, nums: List[int]) -> int:\n        "

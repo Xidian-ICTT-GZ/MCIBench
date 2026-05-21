@@ -1,0 +1,1 @@
+"\"\"\"\n# Definition for a Node.\nclass Node(object):\n    def __init__(self, val, prev, next, child):\n        self.val = val\n        self.prev = prev\n        self.next = next\n        self.child = child\n\"\"\"\n\nclass Solution(object):\n    def flatten(self, head):\n        \"\"\"\n        :type head: Node\n        :rtype: Node\n        \"\"\"\n        "

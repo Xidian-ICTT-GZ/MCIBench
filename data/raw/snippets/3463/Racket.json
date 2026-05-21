@@ -1,0 +1,1 @@
+"(define/contract (has-same-digits s)\n  (-> string? boolean?)\n  )"

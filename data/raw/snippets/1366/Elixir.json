@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec rank_teams(votes :: [String.t]) :: String.t\n  def rank_teams(votes) do\n    \n  end\nend"

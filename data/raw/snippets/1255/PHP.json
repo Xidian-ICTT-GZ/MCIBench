@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String[] $words\n     * @param String[] $letters\n     * @param Integer[] $score\n     * @return Integer\n     */\n    function maxScoreWords($words, $letters, $score) {\n        \n    }\n}"

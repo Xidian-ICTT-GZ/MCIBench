@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int vowelStrings(vector<string>& words, int left, int right) {\n        \n    }\n};"

@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} nums\n * @param {number[]} moveFrom\n * @param {number[]} moveTo\n * @return {number[]}\n */\nvar relocateMarbles = function(nums, moveFrom, moveTo) {\n    \n};"

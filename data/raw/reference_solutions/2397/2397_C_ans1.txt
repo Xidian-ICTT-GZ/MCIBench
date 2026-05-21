@@ -1,0 +1,25 @@
+int maximumRows(int **matrix, int matrixSize, int *matrixColSize, int numSelect) {
+    int m = matrixSize, n = matrixColSize[0];
+    int *mask = (int *)malloc(sizeof(int) * m);
+    for (int i = 0; i < m; i++) {
+        mask[i] = 0;
+        for (int j = 0; j < n; j++) {
+            mask[i] += matrix[i][j] << (n - 1 - j);
+        }
+    }
+    int res = 0, limit = 1 << n;
+    for (int cur = 1; cur < limit; cur++) {
+        if (__builtin_popcount(cur) != numSelect) {
+            continue;
+        }
+        int t = 0;
+        for (int j = 0; j < m; j++) {
+            if ((mask[j] & cur) == mask[j]) {
+                t++;
+            }
+        }
+        res = res > t ? res : t;
+    }
+    free(mask);
+    return res;
+}

@@ -1,0 +1,1 @@
+"class Solution {\n    fun getMinDistance(nums: IntArray, target: Int, start: Int): Int {\n        \n    }\n}"

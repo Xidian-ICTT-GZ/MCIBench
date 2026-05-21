@@ -1,0 +1,1 @@
+"object Solution {\n    def getMaximumConsecutive(coins: Array[Int]): Int = {\n        \n    }\n}"

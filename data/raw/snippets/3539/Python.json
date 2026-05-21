@@ -1,0 +1,1 @@
+"class Solution(object):\n    def magicalSum(self, m, k, nums):\n        \"\"\"\n        :type m: int\n        :type k: int\n        :type nums: List[int]\n        :rtype: int\n        \"\"\"\n        "

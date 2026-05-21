@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @param {Integer[]} left\n# @param {Integer[]} right\n# @return {Integer}\ndef get_last_moment(n, left, right)\n    \nend"

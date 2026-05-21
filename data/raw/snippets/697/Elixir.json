@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec find_shortest_sub_array(nums :: [integer]) :: integer\n  def find_shortest_sub_array(nums) do\n    \n  end\nend"

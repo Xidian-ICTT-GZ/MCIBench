@@ -1,0 +1,45 @@
+public class Solution {
+    private int Find(int[] f, int x) {
+        return f[x] == x ? x : (f[x] = Find(f, f[x]));
+    }
+
+    private void Merge(int[] f, int x, int y) {
+        int fx = Find(f, x), fy = Find(f, y);
+        f[fx] = fy;
+    }
+
+    public int[] MinReverseOperations(int n, int p, int[] banned, int k) {
+        int[][] fa = new int[2][];
+        for (int i = 0; i < 2; i++) {
+            fa[i] = new int[n + 2];
+            for (int j = 0; j < n + 2; j++) {
+                fa[i][j] = j;
+            }
+        }
+        foreach (int ban in banned) {
+            Merge(fa[ban % 2], ban, ban + 2);
+        }
+        int[] ans = new int[n];
+        Array.Fill(ans, -1);
+        Queue<int> q = new Queue<int>();
+        q.Enqueue(p);
+        ans[p] = 0;
+        Merge(fa[p % 2], p, p + 2);
+        while (q.Count > 0) {
+            int i = q.Dequeue();
+            int mn = Math.Max(i - k + 1, k - i - 1);
+            int mx = Math.Min(i + k - 1, n * 2 - k - i - 1);
+            int fi = 0;
+            for (int j = mn; j <= mx; j = fi + 2) {
+                fi = Find(fa[mn % 2], j);
+                if (fi > mx) {
+                    break;
+                }
+                ans[fi] = ans[i] + 1;
+                q.Enqueue(fi);
+                Merge(fa[mn % 2], fi, fi + 2);
+            }
+        }
+        return ans;
+    }
+}

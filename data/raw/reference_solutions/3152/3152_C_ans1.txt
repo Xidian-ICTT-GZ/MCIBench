@@ -1,0 +1,20 @@
+bool* isArraySpecial(int* nums, int numsSize, int** queries, int queriesSize, int* queriesColSize, int* returnSize) {
+    int* dp = (int*)malloc(numsSize * sizeof(int));
+    for (int i = 0; i < numsSize; i++) {
+        dp[i] = 1;
+    }
+    for (int i = 1; i < numsSize; i++) {
+        if ((nums[i] ^ nums[i - 1]) & 1) {
+            dp[i] = dp[i - 1] + 1;
+        }
+    }
+
+    bool* res = (bool*)malloc(queriesSize * sizeof(bool));
+    for (int i = 0; i < queriesSize; i++) {
+        int x = queries[i][0], y = queries[i][1];
+        res[i] = dp[y] >= y - x + 1;
+    }
+    free(dp);
+    *returnSize = queriesSize;
+    return res;
+}

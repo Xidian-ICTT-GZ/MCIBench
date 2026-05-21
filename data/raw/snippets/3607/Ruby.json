@@ -1,0 +1,1 @@
+"# @param {Integer} c\n# @param {Integer[][]} connections\n# @param {Integer[][]} queries\n# @return {Integer[]}\ndef process_queries(c, connections, queries)\n    \nend"

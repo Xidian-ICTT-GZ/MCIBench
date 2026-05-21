@@ -1,0 +1,1 @@
+"class Solution {\n  List<int> minEdgeReversals(int n, List<List<int>> edges) {\n    \n  }\n}"

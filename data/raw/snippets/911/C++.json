@@ -1,0 +1,1 @@
+"class TopVotedCandidate {\npublic:\n    TopVotedCandidate(vector<int>& persons, vector<int>& times) {\n        \n    }\n    \n    int q(int t) {\n        \n    }\n};\n\n/**\n * Your TopVotedCandidate object will be instantiated and called as such:\n * TopVotedCandidate* obj = new TopVotedCandidate(persons, times);\n * int param_1 = obj->q(t);\n */"

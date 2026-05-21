@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $s\n     * @param Integer $k\n     * @param Integer[][] $queries\n     * @return Integer[]\n     */\n    function countKConstraintSubstrings($s, $k, $queries) {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $n\n     * @param Integer[][] $logs\n     * @param Integer $x\n     * @param Integer[] $queries\n     * @return Integer[]\n     */\n    function countServers($n, $logs, $x, $queries) {\n        \n    }\n}"

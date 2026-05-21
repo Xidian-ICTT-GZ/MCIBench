@@ -1,0 +1,23 @@
+char ** letterCasePermutation(char * s, int* returnSize){
+    int n = strlen(s);
+    int m = 0;
+    for (int i = 0; i < n; i++) {
+        if (isalpha(s[i])) {
+            m++;
+        }
+    }
+    char **ans = (char **)malloc(sizeof(char *) * (1 << m));
+    for (int mask = 0; mask < (1 << m); mask++) {
+        ans[mask] = (char *)malloc(sizeof(char) * (n + 1));
+        ans[mask][n] = '\0';
+        for (int j = 0, k = 0; j < n; j++) {
+            if (isalpha(s[j]) && (mask & (1 << k++))) {
+                ans[mask][j] = toupper(s[j]);
+            } else {
+                ans[mask][j] = tolower(s[j]);
+            }
+        }
+    }
+    *returnSize = (1 << m);
+    return ans;
+}

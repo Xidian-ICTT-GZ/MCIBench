@@ -1,0 +1,1 @@
+"/**\n * @param {string[]} words\n * @param {string} result\n * @return {boolean}\n */\nvar isSolvable = function(words, result) {\n    \n};"

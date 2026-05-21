@@ -1,0 +1,25 @@
+#define INF 0x3f3f3f3f
+
+int minimumWhiteTiles(char* floor, int numCarpets, int carpetLen) {
+    int n = strlen(floor);
+    int *d = (int *)malloc(sizeof(int) * (n + 1));
+    int *f = (int *)malloc(sizeof(int) * (n + 1));
+    memset(d, INF, sizeof(int) * (n + 1));
+    memset(f, INF, sizeof(int) * (n + 1));
+    d[0] = 0;
+    for (int i = 1; i <= n; i++) {
+        d[i] = d[i - 1] + (floor[i - 1] == '1');
+    }
+    for (int j = 1; j <= numCarpets; j++) {
+        f[0] = 0;
+        for (int i = 1; i <= n; i++) {
+            f[i] = f[i - 1] + (floor[i - 1] == '1');
+            f[i] = fmin(f[i], d[(int)fmax(0, i - carpetLen)]);
+        }
+        int* temp = d;
+        d = f;
+        f = temp;
+    }
+
+    return d[n];
+}

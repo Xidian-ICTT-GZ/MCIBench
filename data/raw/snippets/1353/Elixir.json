@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec max_events(events :: [[integer]]) :: integer\n  def max_events(events) do\n    \n  end\nend"

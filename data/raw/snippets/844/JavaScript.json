@@ -1,0 +1,1 @@
+"/**\n * @param {string} s\n * @param {string} t\n * @return {boolean}\n */\nvar backspaceCompare = function(s, t) {\n    \n};"

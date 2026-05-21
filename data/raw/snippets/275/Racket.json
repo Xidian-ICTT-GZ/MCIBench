@@ -1,0 +1,1 @@
+"(define/contract (h-index citations)\n  (-> (listof exact-integer?) exact-integer?)\n  )"

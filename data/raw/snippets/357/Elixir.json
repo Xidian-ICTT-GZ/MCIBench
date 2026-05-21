@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec count_numbers_with_unique_digits(n :: integer) :: integer\n  def count_numbers_with_unique_digits(n) do\n    \n  end\nend"

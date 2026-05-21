@@ -1,0 +1,1 @@
+"-spec unhappy_friends(N :: integer(), Preferences :: [[integer()]], Pairs :: [[integer()]]) -> integer().\nunhappy_friends(N, Preferences, Pairs) ->\n  ."

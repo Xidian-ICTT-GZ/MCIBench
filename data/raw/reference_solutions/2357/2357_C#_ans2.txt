@@ -1,0 +1,11 @@
+public class Solution {
+    public int MinimumOperations(int[] nums) {
+        ISet<int> set = new HashSet<int>();
+        foreach (int num in nums) {
+            if (num > 0) {
+                set.Add(num);
+            }
+        }
+        return set.Count;
+    }
+}

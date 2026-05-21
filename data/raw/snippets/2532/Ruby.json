@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @param {Integer} k\n# @param {Integer[][]} time\n# @return {Integer}\ndef find_crossing_time(n, k, time)\n    \nend"

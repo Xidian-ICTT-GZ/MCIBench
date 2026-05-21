@@ -1,0 +1,38 @@
+func queensAttacktheKing(queens [][]int, king []int) [][]int {
+    var sgn = func(x int) int {
+        if x > 0 {
+            return 1
+        } else if x == 0 {
+            return 0
+        } else {
+            return -1
+        }
+    }
+
+    var abs = func(x int) int {
+        if x < 0 {
+            return -x
+        }
+        return x
+    }
+
+    candidates := make(map[int][]int)
+    kx, ky := king[0], king[1]
+    for _, queen := range queens {
+        qx, qy := queen[0], queen[1]
+        x, y := qx - kx, qy - ky
+        if x == 0 || y == 0 || abs(x) == abs(y) {
+            dx, dy := sgn(x), sgn(y)
+            key := dx * 10 + dy
+            if val, ok := candidates[key]; !ok || val[2] > abs(x) + abs(y) {
+                candidates[key] = []int{qx, qy, abs(x) + abs(y)}
+            }
+        }
+    }
+
+    ans := [][]int{}
+    for _, value := range candidates {
+        ans = append(ans, []int{value[0], value[1]})
+    }
+    return ans
+}

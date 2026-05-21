@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec placed_coins(edges :: [[integer]], cost :: [integer]) :: [integer]\n  def placed_coins(edges, cost) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec fizz_buzz(n :: integer) :: [String.t]\n  def fizz_buzz(n) do\n    \n  end\nend"

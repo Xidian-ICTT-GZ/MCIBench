@@ -1,0 +1,20 @@
+class Solution {
+public:
+    int countVowelSubstrings(string word) {
+        int n = word.size();
+        int res = 0;
+        unordered_set<char> vowelset = {'a', 'e', 'i', 'o', 'u'};   
+        for (int i = 0; i < n; ++i){
+            
+            unordered_set<char> charset;   
+            for (int j = i; j < n; ++j){
+                
+                charset.insert(word[j]);
+                if (charset == vowelset){
+                    ++res;
+                }
+            }
+        }
+        return res;
+    }
+};

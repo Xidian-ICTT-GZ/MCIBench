@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $squares\n     * @return Float\n     */\n    function separateSquares($squares) {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $str1\n     * @param String $str2\n     * @return Boolean\n     */\n    function canMakeSubsequence($str1, $str2) {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"object Solution {\n    def reachingPoints(sx: Int, sy: Int, tx: Int, ty: Int): Boolean = {\n        \n    }\n}"

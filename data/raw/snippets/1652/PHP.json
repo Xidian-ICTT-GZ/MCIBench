@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $code\n     * @param Integer $k\n     * @return Integer[]\n     */\n    function decrypt($code, $k) {\n        \n    }\n}"

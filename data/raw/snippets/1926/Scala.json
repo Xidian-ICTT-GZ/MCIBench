@@ -1,0 +1,1 @@
+"object Solution {\n    def nearestExit(maze: Array[Array[Char]], entrance: Array[Int]): Int = {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"class Solution {\n    fun minValidStrings(words: Array<String>, target: String): Int {\n        \n    }\n}"

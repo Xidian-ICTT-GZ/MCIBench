@@ -1,0 +1,1 @@
+"# @param {Integer[][]} grid\n# @param {Integer} health\n# @return {Boolean}\ndef find_safe_walk(grid, health)\n    \nend"

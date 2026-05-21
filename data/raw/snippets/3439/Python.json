@@ -1,0 +1,1 @@
+"class Solution(object):\n    def maxFreeTime(self, eventTime, k, startTime, endTime):\n        \"\"\"\n        :type eventTime: int\n        :type k: int\n        :type startTime: List[int]\n        :type endTime: List[int]\n        :rtype: int\n        \"\"\"\n        "

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec remove_invalid_parentheses(s :: String.t) :: [String.t]\n  def remove_invalid_parentheses(s) do\n    \n  end\nend"

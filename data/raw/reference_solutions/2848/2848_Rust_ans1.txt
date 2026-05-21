@@ -1,0 +1,24 @@
+impl Solution {
+    pub fn number_of_points(nums: Vec<Vec<i32>>) -> i32 {
+        let mut C = 0;
+        for interval in &nums {
+            C = C.max(interval[1]);
+        }
+
+        let mut count = vec![0; (C + 1) as usize];
+        for interval in &nums {
+            for i in interval[0]..=interval[1] {
+                count[i as usize] += 1;
+            }
+        }
+
+        let mut ans = 0;
+        for i in 1..=C {
+            if count[i as usize] > 0 {
+                ans += 1;
+            }
+        }
+
+        ans
+    }
+}

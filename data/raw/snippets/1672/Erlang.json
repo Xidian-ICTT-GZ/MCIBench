@@ -1,0 +1,1 @@
+"-spec maximum_wealth(Accounts :: [[integer()]]) -> integer().\nmaximum_wealth(Accounts) ->\n  ."

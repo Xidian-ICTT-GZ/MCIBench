@@ -1,0 +1,22 @@
+func countBeautifulPairs(nums []int) int {
+    res := 0
+    n := len(nums)
+    for i := 0; i < n; i++ {
+        for nums[i] >= 10 {
+            nums[i] /= 10
+        }
+        for j := i + 1; j < n; j++ {
+            if gcd(nums[i], nums[j] % 10) == 1 {
+                res++
+            }
+        }
+    }
+    return res
+}
+
+func gcd(a, b int) int {
+    for b != 0 {
+        a, b = b, a % b
+    }
+    return a
+}

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec get_min_distance(nums :: [integer], target :: integer, start :: integer) :: integer\n  def get_min_distance(nums, target, start) do\n    \n  end\nend"

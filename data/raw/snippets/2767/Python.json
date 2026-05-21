@@ -1,0 +1,1 @@
+"class Solution(object):\n    def minimumBeautifulSubstrings(self, s):\n        \"\"\"\n        :type s: str\n        :rtype: int\n        \"\"\"\n        "

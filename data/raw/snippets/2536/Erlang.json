@@ -1,0 +1,1 @@
+"-spec range_add_queries(N :: integer(), Queries :: [[integer()]]) -> [[integer()]].\nrange_add_queries(N, Queries) ->\n  ."

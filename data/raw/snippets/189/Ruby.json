@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @param {Integer} k\n# @return {Void} Do not return anything, modify nums in-place instead.\ndef rotate(nums, k)\n    \nend"

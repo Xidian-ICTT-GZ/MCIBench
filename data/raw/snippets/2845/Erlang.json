@@ -1,0 +1,1 @@
+"-spec count_interesting_subarrays(Nums :: [integer()], Modulo :: integer(), K :: integer()) -> integer().\ncount_interesting_subarrays(Nums, Modulo, K) ->\n  ."

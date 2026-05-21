@@ -1,0 +1,1 @@
+"class Solution(object):\n    def maxFreq(self, s, maxLetters, minSize, maxSize):\n        \"\"\"\n        :type s: str\n        :type maxLetters: int\n        :type minSize: int\n        :type maxSize: int\n        :rtype: int\n        \"\"\"\n        "

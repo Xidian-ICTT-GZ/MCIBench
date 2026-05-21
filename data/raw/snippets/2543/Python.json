@@ -1,0 +1,1 @@
+"class Solution(object):\n    def isReachable(self, targetX, targetY):\n        \"\"\"\n        :type targetX: int\n        :type targetY: int\n        :rtype: bool\n        \"\"\"\n        "

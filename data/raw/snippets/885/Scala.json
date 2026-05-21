@@ -1,0 +1,1 @@
+"object Solution {\n    def spiralMatrixIII(rows: Int, cols: Int, rStart: Int, cStart: Int): Array[Array[Int]] = {\n        \n    }\n}"

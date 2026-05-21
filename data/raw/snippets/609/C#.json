@@ -1,0 +1,1 @@
+"public class Solution {\n    public IList<IList<string>> FindDuplicate(string[] paths) {\n        \n    }\n}"

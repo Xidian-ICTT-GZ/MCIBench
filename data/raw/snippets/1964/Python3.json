@@ -1,0 +1,1 @@
+"class Solution:\n    def longestObstacleCourseAtEachPosition(self, obstacles: List[int]) -> List[int]:\n        "

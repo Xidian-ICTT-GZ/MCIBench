@@ -1,0 +1,1 @@
+"# @param {String[]} event1\n# @param {String[]} event2\n# @return {Boolean}\ndef have_conflict(event1, event2)\n    \nend"

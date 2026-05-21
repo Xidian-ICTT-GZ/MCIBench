@@ -1,0 +1,1 @@
+"-spec num_islands(Grid :: [[char()]]) -> integer().\nnum_islands(Grid) ->\n  ."

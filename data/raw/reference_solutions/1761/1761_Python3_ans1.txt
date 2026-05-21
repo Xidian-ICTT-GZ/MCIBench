@@ -1,0 +1,20 @@
+class Solution:
+    def minTrioDegree(self, n: int, edges: List[List[int]]) -> int:
+        g = [[0] * n for _ in range(n)]
+        degree = [0] * n
+        
+        for x, y in edges:
+            x, y = x - 1, y - 1
+            g[x][y] = g[y][x] = 1
+            degree[x] += 1
+            degree[y] += 1
+        
+        ans = inf
+        for i in range(n):
+            for j in range(i + 1, n):
+                if g[i][j] == 1:
+                    for k in range(j + 1, n):
+                        if g[i][k] == g[j][k] == 1:
+                            ans = min(ans, degree[i] + degree[j] + degree[k] - 6)
+        
+        return -1 if ans == inf else ans

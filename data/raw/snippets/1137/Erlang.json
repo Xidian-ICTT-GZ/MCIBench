@@ -1,0 +1,1 @@
+"-spec tribonacci(N :: integer()) -> integer().\ntribonacci(N) ->\n  ."

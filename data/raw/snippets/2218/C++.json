@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int maxValueOfCoins(vector<vector<int>>& piles, int k) {\n        \n    }\n};"

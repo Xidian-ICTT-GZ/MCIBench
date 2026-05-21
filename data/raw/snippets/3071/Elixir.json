@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec minimum_operations_to_write_y(grid :: [[integer]]) :: integer\n  def minimum_operations_to_write_y(grid) do\n    \n  end\nend"

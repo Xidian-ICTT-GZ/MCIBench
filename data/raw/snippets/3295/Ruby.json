@@ -1,0 +1,1 @@
+"# @param {String[]} message\n# @param {String[]} banned_words\n# @return {Boolean}\ndef report_spam(message, banned_words)\n    \nend"

@@ -1,0 +1,1 @@
+"class Skiplist() {\n\n    fun search(target: Int): Boolean {\n        \n    }\n\n    fun add(num: Int) {\n        \n    }\n\n    fun erase(num: Int): Boolean {\n        \n    }\n\n}\n\n/**\n * Your Skiplist object will be instantiated and called as such:\n * var obj = Skiplist()\n * var param_1 = obj.search(target)\n * obj.add(num)\n * var param_3 = obj.erase(num)\n */"

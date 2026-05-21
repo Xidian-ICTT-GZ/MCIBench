@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec mice_and_cheese(reward1 :: [integer], reward2 :: [integer], k :: integer) :: integer\n  def mice_and_cheese(reward1, reward2, k) do\n    \n  end\nend"

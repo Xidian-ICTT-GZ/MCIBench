@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec has_increasing_subarrays(nums :: [integer], k :: integer) :: boolean\n  def has_increasing_subarrays(nums, k) do\n    \n  end\nend"

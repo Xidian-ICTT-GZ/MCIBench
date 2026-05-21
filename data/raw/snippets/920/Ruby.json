@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @param {Integer} goal\n# @param {Integer} k\n# @return {Integer}\ndef num_music_playlists(n, goal, k)\n    \nend"

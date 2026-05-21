@@ -1,0 +1,1 @@
+"class Solution:\n    def movesToChessboard(self, board: List[List[int]]) -> int:\n        "

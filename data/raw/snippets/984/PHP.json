@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $a\n     * @param Integer $b\n     * @return String\n     */\n    function strWithout3a3b($a, $b) {\n        \n    }\n}"

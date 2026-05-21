@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @param {Integer[][]} edges\n# @return {Boolean}\ndef is_possible(n, edges)\n    \nend"

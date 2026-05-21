@@ -1,0 +1,1 @@
+"-spec generate_the_string(N :: integer()) -> unicode:unicode_binary().\ngenerate_the_string(N) ->\n  ."

@@ -1,0 +1,1 @@
+"# @param {String[][]} accounts\n# @return {String[][]}\ndef accounts_merge(accounts)\n    \nend"

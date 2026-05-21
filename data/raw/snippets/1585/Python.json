@@ -1,0 +1,1 @@
+"class Solution(object):\n    def isTransformable(self, s, t):\n        \"\"\"\n        :type s: str\n        :type t: str\n        :rtype: bool\n        \"\"\"\n        "

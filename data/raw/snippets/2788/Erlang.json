@@ -1,0 +1,1 @@
+"-spec split_words_by_separator(Words :: [unicode:unicode_binary()], Separator :: char()) -> [unicode:unicode_binary()].\nsplit_words_by_separator(Words, Separator) ->\n  ."

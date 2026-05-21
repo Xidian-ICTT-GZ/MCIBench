@@ -1,0 +1,1 @@
+"(define/contract (can-construct ransomNote magazine)\n  (-> string? string? boolean?)\n  )"

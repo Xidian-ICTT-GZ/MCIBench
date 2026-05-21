@@ -1,0 +1,26 @@
+class Solution {
+    public long minimumTime(int[] time, int totalTrips) {
+        
+        long l = 1;
+        long r = (long) totalTrips * Arrays.stream(time).max().orElse(0);
+        
+        while (l < r) {
+            long mid = l + (r - l) / 2;
+            if (check(mid, time, totalTrips)) {
+                r = mid;
+            } else {
+                l = mid + 1;
+            }
+        }
+        return l;
+    }
+
+    
+    public boolean check(long t, int[] time, int totalTrips) {
+        long cnt = 0;
+        for (int period : time) {
+            cnt += t / period;
+        }
+        return cnt >= totalTrips;
+    }
+}

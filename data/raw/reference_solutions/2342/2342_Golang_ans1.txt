@@ -1,0 +1,18 @@
+func maximumSum(nums []int) int {
+    dict := map[int]int{}
+    res := -1
+    for _, i := range(nums) {
+        digitsSum, temp := 0, i
+        for temp > 0 {
+            digitsSum += temp % 10
+            temp /= 10
+        }
+        if _, ok := dict[digitsSum]; ok {
+            res = max(res, dict[digitsSum] + i)
+            dict[digitsSum] = max(dict[digitsSum], i)
+        } else {
+            dict[digitsSum] = i
+        }
+    }
+    return res;
+}

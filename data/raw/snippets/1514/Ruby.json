@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @param {Integer[][]} edges\n# @param {Float[]} succ_prob\n# @param {Integer} start_node\n# @param {Integer} end_node\n# @return {Float}\ndef max_probability(n, edges, succ_prob, start_node, end_node)\n    \nend"

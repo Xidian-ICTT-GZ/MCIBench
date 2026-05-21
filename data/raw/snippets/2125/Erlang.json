@@ -1,0 +1,1 @@
+"-spec number_of_beams(Bank :: [unicode:unicode_binary()]) -> integer().\nnumber_of_beams(Bank) ->\n  ."

@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $routes\n     * @param Integer $source\n     * @param Integer $target\n     * @return Integer\n     */\n    function numBusesToDestination($routes, $source, $target) {\n        \n    }\n}"

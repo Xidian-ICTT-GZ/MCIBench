@@ -1,0 +1,1 @@
+"(define/contract (find-k-distant-indices nums key k)\n  (-> (listof exact-integer?) exact-integer? exact-integer? (listof exact-integer?))\n  )"

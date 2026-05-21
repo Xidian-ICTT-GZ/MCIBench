@@ -1,0 +1,1 @@
+"(define/contract (longest-common-prefix words k)\n  (-> (listof string?) exact-integer? (listof exact-integer?))\n  )"

@@ -1,0 +1,1 @@
+"class Solution:\n    def countVowelPermutation(self, n: int) -> int:\n        "

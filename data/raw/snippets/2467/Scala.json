@@ -1,0 +1,1 @@
+"object Solution {\n    def mostProfitablePath(edges: Array[Array[Int]], bob: Int, amount: Array[Int]): Int = {\n        \n    }\n}"

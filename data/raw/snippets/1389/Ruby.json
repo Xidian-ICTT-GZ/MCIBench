@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @param {Integer[]} index\n# @return {Integer[]}\ndef create_target_array(nums, index)\n    \nend"

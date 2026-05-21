@@ -1,0 +1,1 @@
+"object Solution {\n    def canMakeSubsequence(str1: String, str2: String): Boolean = {\n        \n    }\n}"

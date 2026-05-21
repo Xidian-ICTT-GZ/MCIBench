@@ -1,0 +1,1 @@
+"-spec dominant_index(Nums :: [integer()]) -> integer().\ndominant_index(Nums) ->\n  ."

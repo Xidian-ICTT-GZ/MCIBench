@@ -1,0 +1,11 @@
+public class Solution {
+    public int IntegerReplacement(int n) {
+        if (n == 1) {
+            return 0;
+        }
+        if (n % 2 == 0) {
+            return 1 + IntegerReplacement(n / 2);
+        }
+        return 2 + Math.Min(IntegerReplacement(n / 2), IntegerReplacement(n / 2 + 1));
+    }
+}

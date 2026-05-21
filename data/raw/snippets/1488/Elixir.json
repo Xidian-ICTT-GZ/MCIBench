@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec avoid_flood(rains :: [integer]) :: [integer]\n  def avoid_flood(rains) do\n    \n  end\nend"

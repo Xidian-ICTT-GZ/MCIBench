@@ -1,0 +1,1 @@
+"class SummaryRanges {\n\n  SummaryRanges() {\n    \n  }\n  \n  void addNum(int value) {\n    \n  }\n  \n  List<List<int>> getIntervals() {\n    \n  }\n}\n\n/**\n * Your SummaryRanges object will be instantiated and called as such:\n * SummaryRanges obj = SummaryRanges();\n * obj.addNum(value);\n * List<List<int>> param2 = obj.getIntervals();\n */"

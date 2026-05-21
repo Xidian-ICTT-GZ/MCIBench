@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec delete_duplicate_folder(paths :: [[String.t]]) :: [[String.t]]\n  def delete_duplicate_folder(paths) do\n    \n  end\nend"

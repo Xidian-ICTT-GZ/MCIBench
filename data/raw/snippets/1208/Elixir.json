@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec equal_substring(s :: String.t, t :: String.t, max_cost :: integer) :: integer\n  def equal_substring(s, t, max_cost) do\n    \n  end\nend"

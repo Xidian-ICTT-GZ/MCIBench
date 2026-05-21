@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec concatenated_divisibility(nums :: [integer], k :: integer) :: [integer]\n  def concatenated_divisibility(nums, k) do\n    \n  end\nend"

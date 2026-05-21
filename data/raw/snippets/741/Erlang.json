@@ -1,0 +1,1 @@
+"-spec cherry_pickup(Grid :: [[integer()]]) -> integer().\ncherry_pickup(Grid) ->\n  ."

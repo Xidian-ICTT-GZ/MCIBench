@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int longestPath(vector<int>& parent, string s) {\n        \n    }\n};"

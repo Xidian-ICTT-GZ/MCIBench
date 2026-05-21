@@ -1,0 +1,1 @@
+"class Solution(object):\n    def calPoints(self, operations):\n        \"\"\"\n        :type operations: List[str]\n        :rtype: int\n        \"\"\"\n        "

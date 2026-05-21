@@ -1,0 +1,1 @@
+"# @param {String} word1\n# @param {String} word2\n# @return {Integer}\ndef min_distance(word1, word2)\n    \nend"

@@ -1,0 +1,1 @@
+"class Solution(object):\n    def maxWalls(self, robots, distance, walls):\n        \"\"\"\n        :type robots: List[int]\n        :type distance: List[int]\n        :type walls: List[int]\n        :rtype: int\n        \"\"\"\n        "

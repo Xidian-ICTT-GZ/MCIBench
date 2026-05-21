@@ -1,0 +1,1 @@
+"# @param {Character[][]} board\n# @param {Integer} r_move\n# @param {Integer} c_move\n# @param {Character} color\n# @return {Boolean}\ndef check_move(board, r_move, c_move, color)\n    \nend"

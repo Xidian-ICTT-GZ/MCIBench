@@ -1,0 +1,21 @@
+int compare(const void* a, const void* b) {
+    return (*(int*)b - *(int*)a);
+}
+
+long long minimumCost(int m, int n, int* horizontalCut, int horizontalCutSize, int* verticalCut, int verticalCutSize) {
+    qsort(horizontalCut, horizontalCutSize, sizeof(int), compare);
+    qsort(verticalCut, verticalCutSize, sizeof(int), compare);
+    long long h = 1, v = 1;
+    long long res = 0;
+    int hIndex = 0, vIndex = 0;
+    while (hIndex < horizontalCutSize || vIndex < verticalCutSize) {
+        if (vIndex == verticalCutSize || (hIndex < horizontalCutSize && horizontalCut[hIndex] > verticalCut[vIndex])) {
+            res += horizontalCut[hIndex++] * h;
+            v++;
+        } else {
+            res += verticalCut[vIndex++] * v;
+            h++;
+        }
+    }
+    return res;
+}

@@ -1,0 +1,1 @@
+"class Solution {\n    fun minimizeTheDifference(mat: Array<IntArray>, target: Int): Int {\n        \n    }\n}"

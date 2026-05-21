@@ -1,0 +1,1 @@
+"# @param {String} expression\n# @return {Integer[]}\ndef diff_ways_to_compute(expression)\n    \nend"

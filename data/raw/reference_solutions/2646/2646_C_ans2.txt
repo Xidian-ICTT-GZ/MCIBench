@@ -1,0 +1,128 @@
+typedef struct ListNode ListNode;
+
+ListNode *createListNode(int val) {
+    ListNode *obj = (ListNode *)malloc(sizeof(ListNode));
+    obj->val = val;
+    obj->next = NULL;
+    return obj;
+}
+
+bool freeList(ListNode *list) {
+    while (list) {
+        ListNode *cur = list;
+        list = list->next;
+        free(cur);
+    }
+    return true;
+}
+
+int find(int *uf, int i) {
+    if (uf[i] == i) {
+        return i;
+    }
+    uf[i] = find(uf, uf[i]);
+    return uf[i];
+}
+
+int dfs(int node, int p, int *count, int *diff, ListNode **next) {
+    count[node] = diff[node];
+    for (ListNode *cur = next[node]; cur; cur = cur->next) {
+        int child = cur->val;
+        if (child == p) {
+            continue;
+        }
+        count[node] += dfs(child, node, count, diff, next);
+    }
+    return count[node];
+};
+
+long long dp(int node, int parent, int *count, int *price, ListNode **next) {
+    int first = price[node] * count[node];
+    int second = price[node] * count[node] / 2;
+    for (ListNode *cur = next[node]; cur; cur = cur->next) {
+        int child = cur->val;
+        if (child == parent) {
+            continue;
+        }
+        long long ret = dp(child, node, count, price, next);
+        int x = ret >> 32;
+        int y = ret & 0xFFFFFFFF;
+        first += fmin(x, y); 
+        second += x; 
+    }
+    return ((long long)first << 32) + second;
+}
+
+void tarjan(int node, int p, int *parent, int *uf, int *diff, int *visited,ListNode **next, ListNode **query) {
+    parent[node] = p;
+    uf[node] = node;
+    for (ListNode *cur = next[node]; cur; cur = cur->next) {
+        int child = cur->val;
+        if (child == p) {
+            continue;
+        }
+        tarjan(child, node, parent, uf, diff, visited, next, query);
+        uf[child] = node;
+    }
+    for (ListNode *cur = query[node]; cur; cur = cur->next) {
+        int node1 = cur->val;
+        if (node != node1 && !visited[node1]) {
+            continue;
+        }
+        int lca = find(uf, node1);
+        diff[node]++;
+        diff[node1]++;
+        diff[lca]--;
+        if (parent[lca] >= 0) {
+            diff[parent[lca]]--;
+        }
+    }
+    visited[node] = 1;
+}
+
+int minimumTotalPrice(int n, int** edges, int edgesSize, int* edgesColSize, int* price, int priceSize, int** trips, int tripsSize, int* tripsColSize) {
+    ListNode *next[n];
+    ListNode *query[n];
+    memset(next, 0, sizeof(next));
+    memset(query, 0, sizeof(query));
+    for (int i = 0; i < edgesSize; i++) {
+        int x = edges[i][0];
+        int y = edges[i][1];
+        ListNode *nodex = createListNode(x);
+        ListNode *nodey = createListNode(y);
+        nodex->next = next[y];
+        next[y] = nodex;
+        nodey->next = next[x];
+        next[x] = nodey;
+    }
+    for (int i = 0; i < tripsSize; i++) {
+        int *trip = trips[i];
+        ListNode *node = createListNode(trip[1]);
+        node->next = query[trip[0]];
+        query[trip[0]] = node;
+        if (trip[0] != trip[1]) {
+            node = createListNode(trip[0]);
+            node->next = query[trip[1]];
+            query[trip[1]] = node; 
+        }
+    }
+
+    int uf[n], visited[n];
+    int diff[n], parent[n];
+    memset(uf, 0, sizeof(uf));
+    memset(visited, 0, sizeof(visited));
+    memset(diff, 0, sizeof(diff));
+    memset(parent, 0, sizeof(parent));
+    tarjan(0, -1, parent, uf, diff, visited, next, query);
+
+    int count[n];
+    memset(count, 0, sizeof(count));
+    dfs(0, -1, count, diff, next);
+
+    long long ret = dp(0, -1, count, price, next);
+    for (int i = 0; i < n; i++) {
+        freeList(next[i]);
+        freeList(query[i]);
+    }
+    return fmin(ret >> 32, ret & 0xFFFFFFFF);
+}

@@ -1,0 +1,1 @@
+"-spec can_complete_circuit(Gas :: [integer()], Cost :: [integer()]) -> integer().\ncan_complete_circuit(Gas, Cost) ->\n  ."

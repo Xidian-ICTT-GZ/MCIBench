@@ -1,0 +1,1 @@
+"class Solution {\n    fun findPaths(m: Int, n: Int, maxMove: Int, startRow: Int, startColumn: Int): Int {\n        \n    }\n}"

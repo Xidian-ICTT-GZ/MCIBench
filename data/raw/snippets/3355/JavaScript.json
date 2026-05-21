@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} nums\n * @param {number[][]} queries\n * @return {boolean}\n */\nvar isZeroArray = function(nums, queries) {\n    \n};"

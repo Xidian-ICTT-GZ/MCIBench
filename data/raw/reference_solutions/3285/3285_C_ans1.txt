@@ -1,0 +1,11 @@
+int* stableMountains(int* height, int heightSize, int threshold, int* returnSize) {
+    int* result = (int*)malloc((heightSize - 1) * sizeof(int));
+    *returnSize = 0;
+    for (int i = 1; i < heightSize; i++) {
+        if (height[i - 1] > threshold) {
+            result[*returnSize] = i;
+            (*returnSize)++;
+        }
+    }
+    return result;
+}

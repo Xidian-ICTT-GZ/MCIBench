@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @param {Integer} k\n# @return {Boolean}\ndef can_make_equal(nums, k)\n    \nend"

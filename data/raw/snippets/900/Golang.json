@@ -1,0 +1,1 @@
+"type RLEIterator struct {\n    \n}\n\n\nfunc Constructor(encoding []int) RLEIterator {\n    \n}\n\n\nfunc (this *RLEIterator) Next(n int) int {\n    \n}\n\n\n/**\n * Your RLEIterator object will be instantiated and called as such:\n * obj := Constructor(encoding);\n * param_1 := obj.Next(n);\n */"

@@ -1,0 +1,1 @@
+"-spec max_ascending_sum(Nums :: [integer()]) -> integer().\nmax_ascending_sum(Nums) ->\n  ."

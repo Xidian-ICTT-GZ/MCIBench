@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int nearestExit(vector<vector<char>>& maze, vector<int>& entrance) {\n        \n    }\n};"

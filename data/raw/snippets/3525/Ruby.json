@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @param {Integer} k\n# @param {Integer[][]} queries\n# @return {Integer[]}\ndef result_array(nums, k, queries)\n    \nend"

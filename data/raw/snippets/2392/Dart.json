@@ -1,0 +1,1 @@
+"class Solution {\n  List<List<int>> buildMatrix(int k, List<List<int>> rowConditions, List<List<int>> colConditions) {\n    \n  }\n}"

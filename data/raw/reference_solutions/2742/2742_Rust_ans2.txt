@@ -1,0 +1,15 @@
+use std::cmp::min;
+
+impl Solution {
+    pub fn paint_walls(cost: Vec<i32>, time: Vec<i32>) -> i32 {
+        let n = cost.len();
+        let mut f = vec![i32::MAX / 2; n + 2];
+        f[0] = 0;
+        for i in 0..n {
+            for j in (0..=n).rev() {
+                f[min(j + time[i] as usize, n) + 1] = min(f[min(j + time[i] as usize, n) + 1], f[j] + cost[i]);
+            }
+        }
+        min(f[n], f[n + 1])
+    }
+}

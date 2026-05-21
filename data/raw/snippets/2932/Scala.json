@@ -1,0 +1,1 @@
+"object Solution {\n    def maximumStrongPairXor(nums: Array[Int]): Int = {\n        \n    }\n}"

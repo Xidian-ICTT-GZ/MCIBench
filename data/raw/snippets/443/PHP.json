@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String[] $chars\n     * @return Integer\n     */\n    function compress(&$chars) {\n        \n    }\n}"

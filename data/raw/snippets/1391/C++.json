@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    bool hasValidPath(vector<vector<int>>& grid) {\n        \n    }\n};"

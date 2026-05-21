@@ -1,0 +1,1 @@
+"class Solution:\n    def isPossibleToSplit(self, nums: List[int]) -> bool:\n        "

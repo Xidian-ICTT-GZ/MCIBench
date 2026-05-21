@@ -1,0 +1,26 @@
+public class Solution {
+    public int MaxNumberOfAlloys(int n, int k, int budget, IList<IList<int>> composition, IList<int> stock, IList<int> cost) {
+        int left = 1, right = 200000000, ans = 0;
+        while (left <= right) {
+            int mid = (left + right) / 2;
+            bool valid = false;
+            for (int i = 0; i < k; ++i) {
+                long spend = 0;
+                for (int j = 0; j < n; ++j) {
+                    spend += Math.Max((long) composition[i][j] * mid - stock[j], 0) * cost[j];
+                }
+                if (spend <= budget) {
+                    valid = true;
+                    break;
+                }
+            }
+            if (valid) {
+                ans = mid;
+                left = mid + 1;
+            } else {
+                right = mid - 1;
+            }
+        }
+        return ans;
+    }
+}

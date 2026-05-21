@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec minimum_moves(nums :: [integer], k :: integer, max_changes :: integer) :: integer\n  def minimum_moves(nums, k, max_changes) do\n    \n  end\nend"

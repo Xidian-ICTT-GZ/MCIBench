@@ -1,0 +1,1 @@
+"-spec furthest_distance_from_origin(Moves :: unicode:unicode_binary()) -> integer().\nfurthest_distance_from_origin(Moves) ->\n  ."

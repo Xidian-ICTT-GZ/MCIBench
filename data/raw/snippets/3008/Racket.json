@@ -1,0 +1,1 @@
+"(define/contract (beautiful-indices s a b k)\n  (-> string? string? string? exact-integer? (listof exact-integer?))\n  )"

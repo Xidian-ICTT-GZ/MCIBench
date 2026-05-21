@@ -1,0 +1,1 @@
+"class Solution:\n    def sumBase(self, n: int, k: int) -> int:\n        "

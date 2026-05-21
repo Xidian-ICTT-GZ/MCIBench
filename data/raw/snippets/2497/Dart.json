@@ -1,0 +1,1 @@
+"class Solution {\n  int maxStarSum(List<int> vals, List<List<int>> edges, int k) {\n    \n  }\n}"

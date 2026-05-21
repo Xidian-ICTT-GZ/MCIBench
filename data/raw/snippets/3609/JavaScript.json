@@ -1,0 +1,1 @@
+"/**\n * @param {number} sx\n * @param {number} sy\n * @param {number} tx\n * @param {number} ty\n * @return {number}\n */\nvar minMoves = function(sx, sy, tx, ty) {\n    \n};"

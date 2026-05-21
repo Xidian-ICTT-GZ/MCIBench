@@ -1,0 +1,1 @@
+"-spec shortest_palindrome(S :: unicode:unicode_binary()) -> unicode:unicode_binary().\nshortest_palindrome(S) ->\n  ."

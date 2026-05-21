@@ -1,0 +1,1 @@
+"# @param {Character[][]} board\n# @return {Integer}\ndef num_rook_captures(board)\n    \nend"

@@ -1,0 +1,1 @@
+"(define/contract (max-value n index maxSum)\n  (-> exact-integer? exact-integer? exact-integer? exact-integer?)\n  )"

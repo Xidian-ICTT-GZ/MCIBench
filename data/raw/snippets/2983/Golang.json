@@ -1,0 +1,1 @@
+"func canMakePalindromeQueries(s string, queries [][]int) []bool {\n    \n}"

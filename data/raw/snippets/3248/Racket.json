@@ -1,0 +1,1 @@
+"(define/contract (final-position-of-snake n commands)\n  (-> exact-integer? (listof string?) exact-integer?)\n  )"

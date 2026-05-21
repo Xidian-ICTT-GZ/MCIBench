@@ -1,0 +1,19 @@
+func findWinners(matches [][]int) [][]int {
+    freq := map[int]int{}
+    for _, match := range matches {
+        winner, loser := match[0], match[1]
+        if freq[winner] == 0 {
+            freq[winner] = 0
+        }
+        freq[loser]++
+    }
+    ans := make([][]int, 2)
+    for key, value := range freq {
+        if value < 2 {
+            ans[value] = append(ans[value], key)
+        }
+    }
+    sort.Ints(ans[0])
+    sort.Ints(ans[1])
+    return ans
+}

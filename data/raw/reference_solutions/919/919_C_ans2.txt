@@ -1,0 +1,60 @@
+#define MAX_NODE_SIZE 1000
+
+typedef struct {
+    int cnt;
+    struct TreeNode* root;
+} CBTInserter;
+
+CBTInserter* cBTInserterCreate(struct TreeNode* root) {
+    CBTInserter *obj = (CBTInserter *)malloc(sizeof(CBTInserter));
+    obj->root = root;
+    obj->cnt = 0;
+    struct TreeNode **queue = (struct TreeNode **)malloc(sizeof(struct TreeNode *) * MAX_NODE_SIZE);
+    int head = 0, tail = 0;
+    queue[tail++] = root;
+    while (head != tail) {
+        ++obj->cnt;
+        struct TreeNode* node = queue[head++];
+        if (node->left) {
+            queue[tail++] = node->left;
+        }
+        if (node->right) {
+            queue[tail++] = node->right;
+        }
+    }
+    free(queue);
+    return obj;
+}
+
+int cBTInserterInsert(CBTInserter* obj, int val) {
+    ++obj->cnt;
+    struct TreeNode* child = (struct TreeNode*)malloc(sizeof(struct TreeNode));
+    child->val = val;
+    child->left = NULL;
+    child->right = NULL;
+    struct TreeNode* node = obj->root;
+    int highbit = 31 - __builtin_clz(obj->cnt);
+    for (int i = highbit - 1; i >= 1; --i) {
+        if (obj->cnt & (1 << i)) {
+            node = node->right;
+        }
+        else {
+            node = node->left;
+        }
+    }
+    if (obj->cnt & 1) {
+        node->right = child;
+    }
+    else {
+        node->left = child;
+    }
+    return node->val;
+}
+
+struct TreeNode* cBTInserterGet_root(CBTInserter* obj) {
+    return obj->root;
+}
+
+void cBTInserterFree(CBTInserter* obj) {
+    free(obj);
+}

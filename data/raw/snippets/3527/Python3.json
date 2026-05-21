@@ -1,0 +1,1 @@
+"class Solution:\n    def findCommonResponse(self, responses: List[List[str]]) -> str:\n        "

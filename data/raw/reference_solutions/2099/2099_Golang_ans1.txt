@@ -1,0 +1,20 @@
+func maxSubsequence(nums []int, k int) []int {
+    n := len(nums)
+	vals := make([][]int, n) 
+	for i := 0; i < n; i++ {
+		vals[i] = []int{i, nums[i]}
+	}
+	
+	sort.Slice(vals, func(i, j int) bool {
+		return vals[i][1] > vals[j][1]
+	})
+	
+	sort.Slice(vals[:k], func(i, j int) bool {
+		return vals[i][0] < vals[j][0]
+	})
+	res := make([]int, k) 
+	for i := 0; i < k; i++ {
+		res[i] = vals[i][1]
+	}
+	return res
+}

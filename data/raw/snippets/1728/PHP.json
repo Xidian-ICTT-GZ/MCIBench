@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String[] $grid\n     * @param Integer $catJump\n     * @param Integer $mouseJump\n     * @return Boolean\n     */\n    function canMouseWin($grid, $catJump, $mouseJump) {\n        \n    }\n}"

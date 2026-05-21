@@ -1,0 +1,28 @@
+public class Solution {
+    public int[] SmallestSufficientTeam(string[] req_skills, IList<IList<string>> people) {
+        int n = req_skills.Length, m = people.Count;
+        IDictionary<string, int> skill_index = new Dictionary<string, int>();
+        for (int i = 0; i < n; ++i) {
+            skill_index.Add(req_skills[i], i);
+        }
+        IList<int>[] dp = new IList<int>[1 << n];
+        dp[0] = new List<int>();
+        for (int i = 0; i < m; ++i) {
+            int cur_skill = 0;
+            foreach (string s in people[i]) {
+                cur_skill |= 1 << skill_index[s];
+            }
+            for (int prev = 0; prev < dp.Length; ++prev) {
+                if (dp[prev] == null) {
+                    continue;
+                }
+                int comb = prev | cur_skill;
+                if (dp[comb] == null || dp[prev].Count + 1 < dp[comb].Count) {
+                    dp[comb] = new List<int>(dp[prev]);
+                    dp[comb].Add(i);
+                }
+            }
+        }
+        return dp[(1 << n) - 1].ToArray();
+    }
+}

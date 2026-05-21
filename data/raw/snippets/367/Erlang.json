@@ -1,0 +1,1 @@
+"-spec is_perfect_square(Num :: integer()) -> boolean().\nis_perfect_square(Num) ->\n  ."

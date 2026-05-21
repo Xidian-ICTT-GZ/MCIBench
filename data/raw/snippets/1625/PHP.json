@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $s\n     * @param Integer $a\n     * @param Integer $b\n     * @return String\n     */\n    function findLexSmallestString($s, $a, $b) {\n        \n    }\n}"

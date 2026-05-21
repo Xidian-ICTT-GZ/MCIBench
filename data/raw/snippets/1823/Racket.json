@@ -1,0 +1,1 @@
+"(define/contract (find-the-winner n k)\n  (-> exact-integer? exact-integer? exact-integer?)\n  )"

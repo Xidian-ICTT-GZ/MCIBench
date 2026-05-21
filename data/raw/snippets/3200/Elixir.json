@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec max_height_of_triangle(red :: integer, blue :: integer) :: integer\n  def max_height_of_triangle(red, blue) do\n    \n  end\nend"

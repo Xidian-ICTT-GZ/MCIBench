@@ -1,0 +1,90 @@
+static int cross(const int * p, const int * q, const int * r) {
+    return (q[0] - p[0]) * (r[1] - q[1]) - (q[1] - p[1]) * (r[0] - q[0]);
+}
+
+static int distance(const int * p, const int * q) {
+    return (p[0] - q[0]) * (p[0] - q[0]) + (p[1] - q[1]) * (p[1] - q[1]);
+}
+
+static int * p = NULL;
+
+static int cmp(const void * pa, const void * pb) {
+    int *a = *((int **)pa);
+    int *b = *((int **)pb);
+    int diff = cross(p, a, b);
+    if (diff == 0) {
+        return distance(p, a) - distance(p, b);
+    } else {
+        return -diff;
+    } 
+}
+
+static void swap(int * pa, int * pb) {
+    int c = pa[0];
+    pa[0] = pb[0];
+    pb[0] = c;
+    c = pa[1];
+    pa[1] = pb[1];
+    pb[1] = c;
+}
+
+int** outerTrees(int** trees, int treesSize, int* treesColSize, int* returnSize, int** returnColumnSizes) {
+    int **res = (int **)malloc(sizeof(int *) * treesSize);
+    int pos = 0;
+    if (treesSize < 4) {
+        *returnColumnSizes = (int *)malloc(sizeof(int) * treesSize);
+        for (int i = 0; i < treesSize; i++) {
+            res[i] = (int *)malloc(sizeof(int) * 2);
+            res[i][0] = trees[i][0];
+            res[i][1] = trees[i][1];
+            (*returnColumnSizes)[i] = 2;
+        }
+        *returnSize = treesSize;
+        return res;
+    }
+    int bottom = 0;
+    
+    for (int i = 0; i < treesSize; i++) {
+        if (trees[i][1] < trees[bottom][1] || 
+            (trees[i][1] == trees[bottom][1] && 
+             trees[i][0] < trees[bottom][0])) {
+            bottom = i;
+        }
+    }
+    swap(trees[bottom], trees[0]);
+    p = trees[0];
+    
+    qsort(trees + 1, treesSize - 1, sizeof(int *), cmp);
+    
+    int r = treesSize - 1;
+    while (r >= 0 && cross(trees[0], trees[treesSize - 1], trees[r]) == 0) {
+        r--;
+    }
+    for (int l = r + 1, h = treesSize - 1; l < h; l++, h--) {
+        swap(trees[l], trees[h]);
+    }
+    int * stack = (int *)malloc(sizeof(int) * treesSize);
+    int top = 0;
+    stack[top++] = 0;
+    stack[top++] = 1;
+    for (int i = 2; i < treesSize; i++) {
+        
+        while (top > 1 && cross(trees[stack[top - 2]], trees[stack[top - 1]], trees[i]) < 0) {
+            top--;
+        }
+        stack[top++] = i;
+    }
+    while (top > 0) {
+        res[pos] = (int *)malloc(sizeof(int) * 2);
+        memcpy(res[pos], trees[stack[top - 1]], sizeof(int) * 2);
+        pos++;
+        top--;
+    }
+    *returnSize = pos;
+    *returnColumnSizes = (int *)malloc(sizeof(int) * pos);
+    for (int i = 0; i < pos; i++) {
+        (*returnColumnSizes)[i] = 2;
+    }
+    free(stack);
+    return res;
+}

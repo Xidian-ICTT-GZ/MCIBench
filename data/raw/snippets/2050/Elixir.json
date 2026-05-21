@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec minimum_time(n :: integer, relations :: [[integer]], time :: [integer]) :: integer\n  def minimum_time(n, relations, time) do\n    \n  end\nend"

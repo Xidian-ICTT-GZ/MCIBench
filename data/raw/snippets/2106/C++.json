@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int maxTotalFruits(vector<vector<int>>& fruits, int startPos, int k) {\n        \n    }\n};"

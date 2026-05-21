@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec min_days(grid :: [[integer]]) :: integer\n  def min_days(grid) do\n    \n  end\nend"

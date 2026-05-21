@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec flipgame(fronts :: [integer], backs :: [integer]) :: integer\n  def flipgame(fronts, backs) do\n    \n  end\nend"

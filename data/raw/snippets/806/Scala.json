@@ -1,0 +1,1 @@
+"object Solution {\n    def numberOfLines(widths: Array[Int], s: String): Array[Int] = {\n        \n    }\n}"

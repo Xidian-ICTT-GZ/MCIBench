@@ -1,0 +1,11 @@
+public class Solution {
+    public int[] GetNoZeroIntegers(int n) {
+        for (int A = 1; A < n; ++A) {
+            int B = n - A;
+            if (!A.ToString().Contains("0") && !B.ToString().Contains("0")) {
+                return new int[] { A, B };
+            }
+        }
+        return new int[0];
+    }
+}

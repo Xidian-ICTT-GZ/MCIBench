@@ -1,0 +1,1 @@
+"(define/contract (sum-game num)\n  (-> string? boolean?)\n  )"

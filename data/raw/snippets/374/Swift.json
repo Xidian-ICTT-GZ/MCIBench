@@ -1,0 +1,1 @@
+"/** \n * Forward declaration of guess API.\n * @param  num -> your guess number\n * @return \t     -1 if num is higher than the picked number\n *\t\t\t      1 if num is lower than the picked number\n *               otherwise return 0 \n * func guess(_ num: Int) -> Int \n */\n\nclass Solution : GuessGame {\n    func guessNumber(_ n: Int) -> Int {\n        \n    }\n}"

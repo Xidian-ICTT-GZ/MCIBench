@@ -1,0 +1,1 @@
+"\nclass WordDictionary {\n\n    init() {\n        \n    }\n    \n    func addWord(_ word: String) {\n        \n    }\n    \n    func search(_ word: String) -> Bool {\n        \n    }\n}\n\n/**\n * Your WordDictionary object will be instantiated and called as such:\n * let obj = WordDictionary()\n * obj.addWord(word)\n * let ret_2: Bool = obj.search(word)\n */"

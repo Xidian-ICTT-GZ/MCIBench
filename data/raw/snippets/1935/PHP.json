@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $text\n     * @param String $brokenLetters\n     * @return Integer\n     */\n    function canBeTypedWords($text, $brokenLetters) {\n        \n    }\n}"

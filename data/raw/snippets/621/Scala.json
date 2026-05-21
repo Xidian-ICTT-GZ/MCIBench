@@ -1,0 +1,1 @@
+"object Solution {\n    def leastInterval(tasks: Array[Char], n: Int): Int = {\n        \n    }\n}"

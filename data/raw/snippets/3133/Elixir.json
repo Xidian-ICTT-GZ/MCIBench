@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec min_end(n :: integer, x :: integer) :: integer\n  def min_end(n, x) do\n    \n  end\nend"

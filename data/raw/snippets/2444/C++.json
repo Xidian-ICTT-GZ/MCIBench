@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    long long countSubarrays(vector<int>& nums, int minK, int maxK) {\n        \n    }\n};"

@@ -1,0 +1,1 @@
+"class Solution:\n    def maxScore(self, cardPoints: List[int], k: int) -> int:\n        "

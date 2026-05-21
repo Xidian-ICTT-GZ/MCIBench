@@ -1,0 +1,1 @@
+"# @param {String[]} words\n# @param {Integer} k\n# @return {Integer[]}\ndef longest_common_prefix(words, k)\n    \nend"

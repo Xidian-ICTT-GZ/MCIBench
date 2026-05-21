@@ -1,0 +1,1 @@
+"# @param {Integer[][]} edges\n# @param {Integer} bob\n# @param {Integer[]} amount\n# @return {Integer}\ndef most_profitable_path(edges, bob, amount)\n    \nend"

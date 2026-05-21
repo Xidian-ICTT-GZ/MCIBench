@@ -1,0 +1,24 @@
+var sortVowels = function (s) {
+    const vowels = new Set(['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']);
+
+    const tmp = [];
+    for (const ch of s) {
+        if (vowels.has(ch)) {
+            tmp.push(ch);
+        }
+    }
+
+    tmp.sort();
+
+    let idx = 0;
+    let result = '';
+    for (const ch of s) {
+        if (vowels.has(ch)) {
+            result += tmp[idx++];
+        } else {
+            result += ch;
+        }
+    }
+
+    return result;
+};

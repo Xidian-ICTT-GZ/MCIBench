@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $n\n     * @param Integer $m\n     * @param Integer $k\n     * @return Integer\n     */\n    function minCuttingCost($n, $m, $k) {\n        \n    }\n}"

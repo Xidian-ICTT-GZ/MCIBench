@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $sentence\n     * @param String $searchWord\n     * @return Integer\n     */\n    function isPrefixOfWord($sentence, $searchWord) {\n        \n    }\n}"

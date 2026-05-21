@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec num_rook_captures(board :: [[char]]) :: integer\n  def num_rook_captures(board) do\n    \n  end\nend"

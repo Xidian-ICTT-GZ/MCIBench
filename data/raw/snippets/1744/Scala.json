@@ -1,0 +1,1 @@
+"object Solution {\n    def canEat(candiesCount: Array[Int], queries: Array[Array[Int]]): Array[Boolean] = {\n        \n    }\n}"

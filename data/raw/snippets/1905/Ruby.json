@@ -1,0 +1,1 @@
+"# @param {Integer[][]} grid1\n# @param {Integer[][]} grid2\n# @return {Integer}\ndef count_sub_islands(grid1, grid2)\n    \nend"

@@ -1,0 +1,1 @@
+"-spec is_array_special(Nums :: [integer()]) -> boolean().\nis_array_special(Nums) ->\n  ."

@@ -1,0 +1,1 @@
+"-spec longest_common_prefix(Words :: [unicode:unicode_binary()]) -> [integer()].\nlongest_common_prefix(Words) ->\n  ."

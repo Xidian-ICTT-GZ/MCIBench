@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec num_identical_pairs(nums :: [integer]) :: integer\n  def num_identical_pairs(nums) do\n    \n  end\nend"

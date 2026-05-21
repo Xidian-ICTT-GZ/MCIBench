@@ -1,0 +1,1 @@
+"# @param {String} colors\n# @param {Integer[]} needed_time\n# @return {Integer}\ndef min_cost(colors, needed_time)\n    \nend"

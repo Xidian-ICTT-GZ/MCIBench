@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<int> findErrorNums(vector<int>& nums) {\n        \n    }\n};"

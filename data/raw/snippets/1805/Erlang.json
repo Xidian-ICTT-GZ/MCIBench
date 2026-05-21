@@ -1,0 +1,1 @@
+"-spec num_different_integers(Word :: unicode:unicode_binary()) -> integer().\nnum_different_integers(Word) ->\n  ."

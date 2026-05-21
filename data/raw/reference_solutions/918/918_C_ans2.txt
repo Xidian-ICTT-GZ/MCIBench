@@ -1,0 +1,17 @@
+int maxSubarraySumCircular(int* nums, int numsSize) {
+    int preMax = nums[0], maxRes = nums[0];
+    int preMin = nums[0], minRes = nums[0];
+    int sum = nums[0];
+    for (int i = 1; i < numsSize; i++) {
+        preMax = fmax(preMax + nums[i], nums[i]);
+        maxRes = fmax(maxRes, preMax);
+        preMin = fmin(preMin + nums[i], nums[i]);
+        minRes = fmin(minRes, preMin);
+        sum += nums[i];
+    }
+    if (maxRes < 0) {
+        return maxRes;
+    } else {
+        return fmax(maxRes, sum - minRes);
+    }
+}

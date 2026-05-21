@@ -1,0 +1,1 @@
+"object Solution {\n    def minStartingIndex(s: String, pattern: String): Int = {\n        \n    }\n}"

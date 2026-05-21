@@ -1,0 +1,1 @@
+"class Solution:\n    def isBoomerang(self, points: List[List[int]]) -> bool:\n        "

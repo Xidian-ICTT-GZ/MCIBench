@@ -1,0 +1,39 @@
+public class Solution {
+    public int MaximumPoints(int[][] edges, int[] coins, int k) {
+        int n = coins.Length;
+        var children = new List<List<int>>();
+        for (int i = 0; i < n; i++) {
+            children.Add(new List<int>());
+        }
+        foreach (var edge in edges) {
+            children[edge[0]].Add(edge[1]);
+            children[edge[1]].Add(edge[0]);
+        }
+        var memo = new int[n, 14];
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < 14; j++) {
+                memo[i, j] = -1;
+            }
+        }
+        return Dfs(0, -1, 0, coins, k, children, memo);
+    }
+
+    private int Dfs(int node, int parent, int f, int[] coins, int k, List<List<int>> children, int[,] memo) {
+        if (memo[node, f] != -1) {
+            return memo[node, f];
+        }
+        int res0 = (coins[node] >> f) - k;
+        int res1 = coins[node] >> (f + 1);
+        foreach (int child in children[node]) {
+            if (child == parent) {
+                continue;
+            }
+            res0 += Dfs(child, node, f, coins, k, children, memo);
+            if (f + 1 < 14) {
+                res1 += Dfs(child, node, f + 1, coins, k, children, memo);
+            }
+        }
+        memo[node, f] = Math.Max(res0, res1);
+        return memo[node, f];
+    }
+}

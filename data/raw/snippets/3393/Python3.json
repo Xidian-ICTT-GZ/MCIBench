@@ -1,0 +1,1 @@
+"class Solution:\n    def countPathsWithXorValue(self, grid: List[List[int]], k: int) -> int:\n        "

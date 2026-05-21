@@ -1,0 +1,1 @@
+"class Solution(object):\n    def validStrings(self, n):\n        \"\"\"\n        :type n: int\n        :rtype: List[str]\n        \"\"\"\n        "

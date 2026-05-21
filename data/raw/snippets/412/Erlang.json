@@ -1,0 +1,1 @@
+"-spec fizz_buzz(N :: integer()) -> [unicode:unicode_binary()].\nfizz_buzz(N) ->\n  ."

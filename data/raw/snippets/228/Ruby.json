@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @return {String[]}\ndef summary_ranges(nums)\n    \nend"

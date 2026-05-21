@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec survived_robots_healths(positions :: [integer], healths :: [integer], directions :: String.t) :: [integer]\n  def survived_robots_healths(positions, healths, directions) do\n    \n  end\nend"

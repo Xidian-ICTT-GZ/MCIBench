@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $target\n     * @return String[]\n     */\n    function stringSequence($target) {\n        \n    }\n}"

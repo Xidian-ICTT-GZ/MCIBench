@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec cycle_length_queries(n :: integer, queries :: [[integer]]) :: [integer]\n  def cycle_length_queries(n, queries) do\n    \n  end\nend"

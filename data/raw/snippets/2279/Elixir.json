@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec maximum_bags(capacity :: [integer], rocks :: [integer], additional_rocks :: integer) :: integer\n  def maximum_bags(capacity, rocks, additional_rocks) do\n    \n  end\nend"

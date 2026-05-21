@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec num_similar_groups(strs :: [String.t]) :: integer\n  def num_similar_groups(strs) do\n    \n  end\nend"

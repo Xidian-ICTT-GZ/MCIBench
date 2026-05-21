@@ -1,0 +1,1 @@
+"class Solution(object):\n    def maxWeight(self, pizzas):\n        \"\"\"\n        :type pizzas: List[int]\n        :rtype: int\n        \"\"\"\n        "

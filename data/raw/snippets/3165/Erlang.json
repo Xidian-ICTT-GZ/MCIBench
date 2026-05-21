@@ -1,0 +1,1 @@
+"-spec maximum_sum_subsequence(Nums :: [integer()], Queries :: [[integer()]]) -> integer().\nmaximum_sum_subsequence(Nums, Queries) ->\n  ."

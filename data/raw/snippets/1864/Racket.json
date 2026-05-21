@@ -1,0 +1,1 @@
+"(define/contract (min-swaps s)\n  (-> string? exact-integer?)\n  )"

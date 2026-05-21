@@ -1,0 +1,29 @@
+func countPairs(n int, edges [][]int) int64 {
+    graph := make([][]int, n)
+    for _, edge := range edges {
+        x, y := edge[0], edge[1]
+        graph[x] = append(graph[x], y)
+        graph[y] = append(graph[y], x)
+    }
+
+    visited := make([]bool, n)
+    var dfs func(int) int
+    dfs = func(x int) int {
+        visited[x] = true
+        count := 1
+        for _, y := range graph[x] {
+            if !visited[y] {
+                count += dfs(y)
+            }
+        }
+        return count
+    }
+    var res int64
+    for i := 0; i < n; i++ {
+        if !visited[i] {
+            count := int64(dfs(i))
+            res += count * (int64(n) - count)
+        }
+    }
+    return res / 2
+}

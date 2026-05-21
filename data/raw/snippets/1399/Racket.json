@@ -1,0 +1,1 @@
+"(define/contract (count-largest-group n)\n  (-> exact-integer? exact-integer?)\n  )"

@@ -1,0 +1,1 @@
+"(define/contract (is-match s p)\n  (-> string? string? boolean?)\n  )"

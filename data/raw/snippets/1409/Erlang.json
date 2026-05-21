@@ -1,0 +1,1 @@
+"-spec process_queries(Queries :: [integer()], M :: integer()) -> [integer()].\nprocess_queries(Queries, M) ->\n  ."

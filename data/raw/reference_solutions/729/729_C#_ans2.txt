@@ -1,0 +1,54 @@
+public class MyCalendar {
+    ISet<int> tree;
+    ISet<int> lazy;
+
+    public MyCalendar() {
+        tree = new HashSet<int>();
+        lazy = new HashSet<int>();
+    }
+
+    public bool Book(int start, int end) {
+        if (Query(start, end - 1, 0, 1000000000, 1)) {
+            return false;
+        }
+        Update(start, end - 1, 0, 1000000000, 1);
+        return true;
+    }
+
+    public bool Query(int start, int end, int l, int r, int idx) {
+        if (start > r || end < l) {
+            return false;
+        }
+        
+        if (lazy.Contains(idx)) {
+            return true;
+        }
+        if (start <= l && r <= end) {
+            return tree.Contains(idx);
+        } else {
+            int mid = (l + r) >> 1;
+            if (end <= mid) {
+                return Query(start, end, l, mid, 2 * idx);
+            } else if (start > mid) {
+                return Query(start, end, mid + 1, r, 2 * idx + 1);
+            } else {
+                return Query(start, end, l, mid, 2 * idx) | Query(start, end, mid + 1, r, 2 * idx + 1);
+            }
+        }
+    }
+
+    public void Update(int start, int end, int l, int r, int idx) {
+        if (r < start || end < l) {
+            return;
+        } 
+        if (start <= l && r <= end) {
+            tree.Add(idx);
+            lazy.Add(idx);
+        } else {
+            int mid = (l + r) >> 1;
+            Update(start, end, l, mid, 2 * idx);
+            Update(start, end, mid + 1, r, 2 * idx + 1);
+            tree.Add(idx);
+        }
+    }
+}

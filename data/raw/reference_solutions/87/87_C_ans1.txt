@@ -1,0 +1,99 @@
+struct HashTable {
+    int key;
+    int val;
+    UT_hash_handle hh;
+};
+
+void modifyHashTable(struct HashTable** hashTable, int x, int inc) {
+    struct HashTable* tmp;
+    HASH_FIND_INT(*hashTable, &x, tmp);
+    if (tmp == NULL) {
+        tmp = malloc(sizeof(struct HashTable));
+        tmp->key = x;
+        tmp->val = inc;
+        HASH_ADD_INT(*hashTable, key, tmp);
+    } else {
+        tmp->val += inc;
+    }
+}
+
+bool checkHashTable(struct HashTable** hashTable) {
+    struct HashTable *iter, *tmp;
+    HASH_ITER(hh, *hashTable, iter, tmp) {
+        if (iter->val) {
+            return false;
+        }
+    }
+    return true;
+}
+
+void freeHashTable(struct HashTable** hashTable) {
+    struct HashTable *iter, *tmp;
+    HASH_ITER(hh, *hashTable, iter, tmp) {
+        HASH_DEL(*hashTable, iter);
+        free(iter);
+    }
+}
+
+bool equals(char* s1, char* s2, int i1, int i2, int len) {
+    for (int i = 0; i < len; i++) {
+        if (s1[i + i1] != s2[i + i2]) {
+            return false;
+        }
+    }
+    return true;
+}
+
+
+
+int memo[30][30][31];
+
+
+bool dfs(char* s1, char* s2, int i1, int i2, int length) {
+    if (memo[i1][i2][length]) {
+        return memo[i1][i2][length] == 1;
+    }
+
+    
+    if (equals(s1, s2, i1, i2, length)) {
+        memo[i1][i2][length] = 1;
+        return true;
+    }
+
+    
+    struct HashTable* hashTable = NULL;
+
+    for (int i = i1; i < i1 + length; ++i) {
+        modifyHashTable(&hashTable, s1[i], 1);
+    }
+    for (int i = i2; i < i2 + length; ++i) {
+        modifyHashTable(&hashTable, s2[i], -1);
+    }
+    if (!checkHashTable(&hashTable)) {
+        memo[i1][i2][length] = -1;
+        return false;
+    }
+    freeHashTable(&hashTable);
+
+    
+    for (int i = 1; i < length; ++i) {
+        
+        if (dfs(s1, s2, i1, i2, i) && dfs(s1, s2, i1 + i, i2 + i, length - i)) {
+            memo[i1][i2][length] = 1;
+            return true;
+        }
+        
+        if (dfs(s1, s2, i1, i2 + length - i, i) && dfs(s1, s2, i1 + i, i2, length - i)) {
+            memo[i1][i2][length] = 1;
+            return true;
+        }
+    }
+
+    memo[i1][i2][length] = -1;
+    return false;
+}
+
+bool isScramble(char* s1, char* s2) {
+    memset(memo, 0, sizeof(memo));
+    return dfs(s1, s2, 0, 0, strlen(s1));
+}

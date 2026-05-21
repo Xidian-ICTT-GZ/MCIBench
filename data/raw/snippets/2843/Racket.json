@@ -1,0 +1,1 @@
+"(define/contract (count-symmetric-integers low high)\n  (-> exact-integer? exact-integer? exact-integer?)\n  )"

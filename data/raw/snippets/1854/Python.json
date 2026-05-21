@@ -1,0 +1,1 @@
+"class Solution(object):\n    def maximumPopulation(self, logs):\n        \"\"\"\n        :type logs: List[List[int]]\n        :rtype: int\n        \"\"\"\n        "

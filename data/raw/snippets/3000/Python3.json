@@ -1,0 +1,1 @@
+"class Solution:\n    def areaOfMaxDiagonal(self, dimensions: List[List[int]]) -> int:\n        "

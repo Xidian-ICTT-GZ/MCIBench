@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $triplets\n     * @param Integer[] $target\n     * @return Boolean\n     */\n    function mergeTriplets($triplets, $target) {\n        \n    }\n}"

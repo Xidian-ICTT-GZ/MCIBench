@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec is_valid_serialization(preorder :: String.t) :: boolean\n  def is_valid_serialization(preorder) do\n    \n  end\nend"

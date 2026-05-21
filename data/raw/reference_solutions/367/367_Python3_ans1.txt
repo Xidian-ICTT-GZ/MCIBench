@@ -1,0 +1,3 @@
+class Solution:
+    def isPerfectSquare(self, num: int) -> bool:
+        return float.is_integer(pow(num, 0.5))

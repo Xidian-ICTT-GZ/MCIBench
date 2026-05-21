@@ -1,0 +1,1 @@
+"\nclass StreamChecker {\n\n    init(_ words: [String]) {\n        \n    }\n    \n    func query(_ letter: Character) -> Bool {\n        \n    }\n}\n\n/**\n * Your StreamChecker object will be instantiated and called as such:\n * let obj = StreamChecker(words)\n * let ret_1: Bool = obj.query(letter)\n */"

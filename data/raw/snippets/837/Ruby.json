@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @param {Integer} k\n# @param {Integer} max_pts\n# @return {Float}\ndef new21_game(n, k, max_pts)\n    \nend"

@@ -1,0 +1,1 @@
+"# @param {Integer[]} hand\n# @param {Integer} group_size\n# @return {Boolean}\ndef is_n_straight_hand(hand, group_size)\n    \nend"

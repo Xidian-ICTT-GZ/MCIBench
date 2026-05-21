@@ -1,0 +1,1 @@
+"class StreamChecker {\n\n  StreamChecker(List<String> words) {\n    \n  }\n  \n  bool query(String letter) {\n    \n  }\n}\n\n/**\n * Your StreamChecker object will be instantiated and called as such:\n * StreamChecker obj = StreamChecker(words);\n * bool param1 = obj.query(letter);\n */"

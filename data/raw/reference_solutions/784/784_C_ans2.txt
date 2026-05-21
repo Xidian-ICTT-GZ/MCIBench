@@ -1,0 +1,23 @@
+void dfs(char *s, int pos, char **res,int* returnSize) {
+    while (s[pos] != '\0' && isdigit(s[pos])) {
+        pos++;
+    }
+    if (s[pos] == '\0') {
+        res[*returnSize] = (char *)malloc(sizeof(char) * (strlen(s) + 1));
+        strcpy(res[*returnSize], s);
+        (*returnSize)++;
+        return;
+    }
+    s[pos] ^= 32;
+    dfs(s, pos + 1, res, returnSize);
+    s[pos] ^= 32;
+    dfs(s, pos + 1, res, returnSize);
+}
+
+char ** letterCasePermutation(char * s, int* returnSize) {
+    int n = strlen(s);
+    *returnSize = 0;
+    char **ans = (char **)malloc(sizeof(char *) * (1 << n));
+    dfs(s, 0, ans, returnSize);
+    return ans;
+}

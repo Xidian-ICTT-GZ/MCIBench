@@ -1,0 +1,1 @@
+"class Solution(object):\n    def getMaxFunctionValue(self, receiver, k):\n        \"\"\"\n        :type receiver: List[int]\n        :type k: int\n        :rtype: int\n        \"\"\"\n        "

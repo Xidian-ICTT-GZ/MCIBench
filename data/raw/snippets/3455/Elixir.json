@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec shortest_matching_substring(s :: String.t, p :: String.t) :: integer\n  def shortest_matching_substring(s, p) do\n    \n  end\nend"

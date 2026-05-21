@@ -1,0 +1,1 @@
+"/**\n * @param {number} n\n * @param {number[][]} edges\n * @param {string} label\n * @return {number}\n */\nvar maxLen = function(n, edges, label) {\n    \n};"

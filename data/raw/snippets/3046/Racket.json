@@ -1,0 +1,1 @@
+"(define/contract (is-possible-to-split nums)\n  (-> (listof exact-integer?) boolean?)\n  )"

@@ -1,0 +1,1 @@
+"class Solution(object):\n    def minTime(self, n, edges, hasApple):\n        \"\"\"\n        :type n: int\n        :type edges: List[List[int]]\n        :type hasApple: List[bool]\n        :rtype: int\n        \"\"\"\n        "

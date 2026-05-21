@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec find_subarrays(nums :: [integer]) :: boolean\n  def find_subarrays(nums) do\n    \n  end\nend"

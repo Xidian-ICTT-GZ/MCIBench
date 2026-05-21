@@ -1,0 +1,11 @@
+public class Solution {
+    public IList<int> NumOfBurgers(int tomatoSlices, int cheeseSlices) {
+      if (tomatoSlices % 2 != 0 || tomatoSlices < cheeseSlices * 2 || cheeseSlices * 4 < tomatoSlices) {
+            return new List<int>();
+        }
+        IList<int> ans = new List<int>();
+        ans.Add(tomatoSlices / 2 - cheeseSlices);
+        ans.Add(cheeseSlices * 2 - tomatoSlices / 2);
+        return ans;
+    }
+}

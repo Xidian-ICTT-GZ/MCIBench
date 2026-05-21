@@ -1,0 +1,1 @@
+"(define/contract (strong-password-checker password)\n  (-> string? exact-integer?)\n  )"

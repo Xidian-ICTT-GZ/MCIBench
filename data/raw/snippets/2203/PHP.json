@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $n\n     * @param Integer[][] $edges\n     * @param Integer $src1\n     * @param Integer $src2\n     * @param Integer $dest\n     * @return Integer\n     */\n    function minimumWeight($n, $edges, $src1, $src2, $dest) {\n        \n    }\n}"

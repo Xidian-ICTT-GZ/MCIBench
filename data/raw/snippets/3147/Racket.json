@@ -1,0 +1,1 @@
+"(define/contract (maximum-energy energy k)\n  (-> (listof exact-integer?) exact-integer? exact-integer?)\n  )"

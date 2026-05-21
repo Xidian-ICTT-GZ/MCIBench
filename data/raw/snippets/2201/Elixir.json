@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec dig_artifacts(n :: integer, artifacts :: [[integer]], dig :: [[integer]]) :: integer\n  def dig_artifacts(n, artifacts, dig) do\n    \n  end\nend"

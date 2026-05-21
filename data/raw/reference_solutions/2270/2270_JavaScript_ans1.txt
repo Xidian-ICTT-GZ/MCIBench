@@ -1,0 +1,13 @@
+var waysToSplitArray = function(nums) {
+    let n = nums.length;
+    let left = 0, right = nums.reduce((a, b) => a + b, 0);
+    let ans = 0;
+    for (let i = 0; i < n - 1; i++) {
+        left += nums[i];
+        right -= nums[i];
+        if (left >= right) {
+            ans++;
+        }
+    }
+    return ans;
+};

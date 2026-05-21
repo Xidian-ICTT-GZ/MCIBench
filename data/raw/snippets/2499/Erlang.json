@@ -1,0 +1,1 @@
+"-spec minimum_total_cost(Nums1 :: [integer()], Nums2 :: [integer()]) -> integer().\nminimum_total_cost(Nums1, Nums2) ->\n  ."

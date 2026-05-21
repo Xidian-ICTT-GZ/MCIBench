@@ -1,0 +1,1 @@
+"class Solution(object):\n    def minimumFinishTime(self, tires, changeTime, numLaps):\n        \"\"\"\n        :type tires: List[List[int]]\n        :type changeTime: int\n        :type numLaps: int\n        :rtype: int\n        \"\"\"\n        "

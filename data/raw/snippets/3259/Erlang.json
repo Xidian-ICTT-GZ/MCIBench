@@ -1,0 +1,1 @@
+"-spec max_energy_boost(EnergyDrinkA :: [integer()], EnergyDrinkB :: [integer()]) -> integer().\nmax_energy_boost(EnergyDrinkA, EnergyDrinkB) ->\n  ."

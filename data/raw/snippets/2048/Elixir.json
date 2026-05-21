@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec next_beautiful_number(n :: integer) :: integer\n  def next_beautiful_number(n) do\n    \n  end\nend"

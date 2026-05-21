@@ -1,0 +1,1 @@
+"class Solution(object):\n    def numTimesAllBlue(self, flips):\n        \"\"\"\n        :type flips: List[int]\n        :rtype: int\n        \"\"\"\n        "

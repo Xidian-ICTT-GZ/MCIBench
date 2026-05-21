@@ -1,0 +1,1 @@
+"class Solution(object):\n    def removeElement(self, nums, val):\n        \"\"\"\n        :type nums: List[int]\n        :type val: int\n        :rtype: int\n        \"\"\"\n        "

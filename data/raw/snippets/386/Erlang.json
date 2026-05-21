@@ -1,0 +1,1 @@
+"-spec lexical_order(N :: integer()) -> [integer()].\nlexical_order(N) ->\n  ."

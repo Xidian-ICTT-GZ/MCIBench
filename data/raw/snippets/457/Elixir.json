@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec circular_array_loop(nums :: [integer]) :: boolean\n  def circular_array_loop(nums) do\n    \n  end\nend"

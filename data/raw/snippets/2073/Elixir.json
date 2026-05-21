@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec time_required_to_buy(tickets :: [integer], k :: integer) :: integer\n  def time_required_to_buy(tickets, k) do\n    \n  end\nend"

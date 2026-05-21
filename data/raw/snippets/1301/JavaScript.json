@@ -1,0 +1,1 @@
+"/**\n * @param {string[]} board\n * @return {number[]}\n */\nvar pathsWithMaxScore = function(board) {\n    \n};"

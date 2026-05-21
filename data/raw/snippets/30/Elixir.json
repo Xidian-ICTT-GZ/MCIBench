@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec find_substring(s :: String.t, words :: [String.t]) :: [integer]\n  def find_substring(s, words) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"(define/contract (maximize-sum nums k)\n  (-> (listof exact-integer?) exact-integer? exact-integer?)\n  )"

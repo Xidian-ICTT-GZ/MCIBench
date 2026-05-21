@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $allowed\n     * @param String[] $words\n     * @return Integer\n     */\n    function countConsistentStrings($allowed, $words) {\n        \n    }\n}"

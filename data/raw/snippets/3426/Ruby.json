@@ -1,0 +1,1 @@
+"# @param {Integer} m\n# @param {Integer} n\n# @param {Integer} k\n# @return {Integer}\ndef distance_sum(m, n, k)\n    \nend"

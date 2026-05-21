@@ -1,0 +1,1 @@
+"-spec occurrences_of_element(Nums :: [integer()], Queries :: [integer()], X :: integer()) -> [integer()].\noccurrences_of_element(Nums, Queries, X) ->\n  ."

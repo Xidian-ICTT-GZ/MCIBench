@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int numberWays(vector<vector<int>>& hats) {\n        \n    }\n};"

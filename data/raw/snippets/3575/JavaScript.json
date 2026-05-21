@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} vals\n * @param {number[]} par\n * @return {number}\n */\nvar goodSubtreeSum = function(vals, par) {\n    \n};"

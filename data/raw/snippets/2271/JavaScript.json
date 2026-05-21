@@ -1,0 +1,1 @@
+"/**\n * @param {number[][]} tiles\n * @param {number} carpetLen\n * @return {number}\n */\nvar maximumWhiteTiles = function(tiles, carpetLen) {\n    \n};"

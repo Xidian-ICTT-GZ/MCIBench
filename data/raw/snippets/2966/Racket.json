@@ -1,0 +1,1 @@
+"(define/contract (divide-array nums k)\n  (-> (listof exact-integer?) exact-integer? (listof (listof exact-integer?)))\n  )"

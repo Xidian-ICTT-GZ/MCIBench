@@ -1,0 +1,1 @@
+"(define/contract (max-size-slices slices)\n  (-> (listof exact-integer?) exact-integer?)\n  )"

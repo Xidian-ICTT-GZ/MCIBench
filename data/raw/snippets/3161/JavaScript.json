@@ -1,0 +1,1 @@
+"/**\n * @param {number[][]} queries\n * @return {boolean[]}\n */\nvar getResults = function(queries) {\n    \n};"

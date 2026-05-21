@@ -1,0 +1,1 @@
+"class Solution(object):\n    def peopleIndexes(self, favoriteCompanies):\n        \"\"\"\n        :type favoriteCompanies: List[List[str]]\n        :rtype: List[int]\n        \"\"\"\n        "

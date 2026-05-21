@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec judge_circle(moves :: String.t) :: boolean\n  def judge_circle(moves) do\n    \n  end\nend"

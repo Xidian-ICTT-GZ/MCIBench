@@ -1,0 +1,54 @@
+class Solution {
+public:
+    long long minimumWeight(int n, vector<vector<int>>& edges, int src1, int src2, int dest) {
+        vector<vector<pair<int, int>>> g(n), grev(n);
+        for (const auto& edge: edges) {
+            int x = edge[0], y = edge[1], z = edge[2];
+            g[x].emplace_back(y, z);
+            grev[y].emplace_back(x, z);
+        }
+        
+        auto dijkstra = [&n](const vector<vector<pair<int, int>>>& graph, int start) -> vector<long long> {
+            vector<long long> dist(n, -1);
+            dist[start] = 0;
+            vector<int> used(n);
+            priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> q;
+            q.emplace(0, start);
+            
+            while (!q.empty()) {
+                int u = q.top().second;
+                q.pop();
+                if (used[u]) {
+                    continue;
+                }
+                used[u] = true;
+                
+                for (const auto& [v, weight]: graph[u]) {
+                    long long target = dist[u] + weight;
+                    if (dist[v] == -1 || target < dist[v]) {
+                        dist[v] = target;
+                        q.emplace(dist[v], v);
+                    }
+                }
+            }
+            
+            return dist;
+        };
+        
+        vector<long long> dist1 = dijkstra(g, src1);
+        vector<long long> dist2 = dijkstra(g, src2);
+        vector<long long> dist3 = dijkstra(grev, dest);
+        
+        long long ans = -1;
+        for (int i = 0; i < n; ++i) {
+            if (dist1[i] != -1 && dist2[i] != -1 && dist3[i] != -1) {
+                long long result = dist1[i] + dist2[i] + dist3[i];
+                if (ans == -1 || result < ans) {
+                    ans = result;
+                }
+            }
+        }
+        
+        return ans;
+    }
+};

@@ -1,0 +1,11 @@
+#define MIN(a, b) ((a) < (b) ? (a) : (b))
+#define MAX(a, b) ((a) > (b) ? (a) : (b))
+
+int smallestRangeI(int* nums, int numsSize, int k) {
+    int minNum = INT_MAX, maxNum = INT_MIN;
+    for (int i = 0; i < numsSize; i++) {
+        minNum = MIN(minNum, nums[i]);
+        maxNum = MAX(maxNum, nums[i]);
+    }
+    return maxNum - minNum <= 2 * k ? 0 : maxNum - minNum - 2 * k;
+}

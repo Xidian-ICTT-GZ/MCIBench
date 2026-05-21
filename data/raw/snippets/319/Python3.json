@@ -1,0 +1,1 @@
+"class Solution:\n    def bulbSwitch(self, n: int) -> int:\n        "

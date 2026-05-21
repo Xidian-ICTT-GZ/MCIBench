@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @param {Integer} k\n# @return {Integer[]}\ndef good_indices(nums, k)\n    \nend"

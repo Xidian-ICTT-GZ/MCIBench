@@ -1,0 +1,1 @@
+"public class Solution {\n    public IList<IList<int>> CriticalConnections(int n, IList<IList<int>> connections) {\n        \n    }\n}"

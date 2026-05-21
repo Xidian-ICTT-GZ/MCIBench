@@ -1,0 +1,15 @@
+#define MIN(a, b) ((a) < (b) ? (a) : (b))
+
+double calculateTax(int** brackets, int bracketsSize, int* bracketsColSize, int income) {
+    int totalTax = 0, lower = 0;
+    for (int i = 0; i < bracketsSize; i++) {
+        int upper = brackets[i][0], percent = brackets[i][1];
+        int tax = (MIN(income, upper) - lower) * percent;
+        totalTax += tax;
+        if (income <= upper) {
+            break;
+        }
+        lower = upper;
+    }
+    return (double) totalTax / 100.0;
+}

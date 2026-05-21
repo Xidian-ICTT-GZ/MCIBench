@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<int> countSubTrees(int n, vector<vector<int>>& edges, string labels) {\n        \n    }\n};"

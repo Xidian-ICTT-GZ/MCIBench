@@ -1,0 +1,1 @@
+"class Solution:\n    def canWinNim(self, n: int) -> bool:\n        "

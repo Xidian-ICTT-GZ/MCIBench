@@ -1,0 +1,1 @@
+"object Solution {\n    def finalPositionOfSnake(n: Int, commands: List[String]): Int = {\n        \n    }\n}"

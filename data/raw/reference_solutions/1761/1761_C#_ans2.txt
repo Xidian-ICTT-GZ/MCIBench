@@ -1,0 +1,44 @@
+public class Solution {
+    public int MinTrioDegree(int n, int[][] edges) {
+        
+        ISet<int>[] g = new ISet<int>[n];
+        for (int i = 0; i < n; ++i) {
+            g[i] = new HashSet<int>();
+        }
+        
+        IList<int>[] h = new IList<int>[n];
+        for (int i = 0; i < n; ++i) {
+            h[i] = new List<int>();
+        }
+        int[] degree = new int[n];
+
+        foreach (int[] edge in edges) {
+            int x = edge[0] - 1, y = edge[1] - 1;
+            g[x].Add(y);
+            g[y].Add(x);
+            ++degree[x];
+            ++degree[y];
+        }
+        foreach (int[] edge in edges) {
+            int x = edge[0] - 1, y = edge[1] - 1;
+            if (degree[x] < degree[y] || (degree[x] == degree[y] && x < y)) {
+                h[x].Add(y);
+            } else {
+                h[y].Add(x);
+            }
+        }
+
+        int ans = int.MaxValue;
+        for (int i = 0; i < n; ++i) {
+            foreach (int j in h[i]) {
+                foreach (int k in h[j]) {
+                    if (g[i].Contains(k)) {
+                        ans = Math.Min(ans, degree[i] + degree[j] + degree[k] - 6);
+                    }
+                }
+            }
+        }
+
+        return ans == int.MaxValue ? -1 : ans;
+    }
+}

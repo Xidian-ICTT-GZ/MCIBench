@@ -1,0 +1,1 @@
+"class Solution {\n    public int[] minimumCost(int n, int[][] edges, int[][] query) {\n        \n    }\n}"

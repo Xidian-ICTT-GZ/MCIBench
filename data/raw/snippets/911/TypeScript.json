@@ -1,0 +1,1 @@
+"class TopVotedCandidate {\n    constructor(persons: number[], times: number[]) {\n        \n    }\n\n    q(t: number): number {\n        \n    }\n}\n\n/**\n * Your TopVotedCandidate object will be instantiated and called as such:\n * var obj = new TopVotedCandidate(persons, times)\n * var param_1 = obj.q(t)\n */"

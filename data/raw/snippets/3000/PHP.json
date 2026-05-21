@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $dimensions\n     * @return Integer\n     */\n    function areaOfMaxDiagonal($dimensions) {\n        \n    }\n}"

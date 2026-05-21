@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $points\n     * @return Integer\n     */\n    function minTimeToVisitAllPoints($points) {\n        \n    }\n}"

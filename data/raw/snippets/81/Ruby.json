@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @param {Integer} target\n# @return {Boolean}\ndef search(nums, target)\n    \nend"

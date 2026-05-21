@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec find_num_of_valid_words(words :: [String.t], puzzles :: [String.t]) :: [integer]\n  def find_num_of_valid_words(words, puzzles) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"public class Solution {\n    public IList<bool> CheckIfPrerequisite(int numCourses, int[][] prerequisites, int[][] queries) {\n        \n    }\n}"

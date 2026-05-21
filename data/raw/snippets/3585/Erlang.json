@@ -1,0 +1,1 @@
+"-spec find_median(N :: integer(), Edges :: [[integer()]], Queries :: [[integer()]]) -> [integer()].\nfind_median(N, Edges, Queries) ->\n  ."

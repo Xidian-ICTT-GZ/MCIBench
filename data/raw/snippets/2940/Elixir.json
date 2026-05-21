@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec leftmost_building_queries(heights :: [integer], queries :: [[integer]]) :: [integer]\n  def leftmost_building_queries(heights, queries) do\n    \n  end\nend"

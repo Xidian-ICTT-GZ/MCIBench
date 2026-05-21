@@ -1,0 +1,1 @@
+"/**\n * @param {number} n\n * @param {number[][]} edges\n * @param {number} source\n * @param {number} destination\n * @return {boolean}\n */\nvar validPath = function(n, edges, source, destination) {\n    \n};"

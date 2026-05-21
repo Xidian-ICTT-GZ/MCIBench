@@ -1,0 +1,1 @@
+"-spec third_max(Nums :: [integer()]) -> integer().\nthird_max(Nums) ->\n  ."

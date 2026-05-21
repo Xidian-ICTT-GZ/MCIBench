@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec get_lucky(s :: String.t, k :: integer) :: integer\n  def get_lucky(s, k) do\n    \n  end\nend"

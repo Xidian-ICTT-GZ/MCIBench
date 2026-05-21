@@ -1,0 +1,1 @@
+"# @param {Integer[]} arr\n# @param {Integer} k\n# @return {Integer}\ndef get_winner(arr, k)\n    \nend"

@@ -1,0 +1,1 @@
+"class Solution {\n    fun suggestedProducts(products: Array<String>, searchWord: String): List<List<String>> {\n        \n    }\n}"

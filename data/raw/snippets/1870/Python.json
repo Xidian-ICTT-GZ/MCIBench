@@ -1,0 +1,1 @@
+"class Solution(object):\n    def minSpeedOnTime(self, dist, hour):\n        \"\"\"\n        :type dist: List[int]\n        :type hour: float\n        :rtype: int\n        \"\"\"\n        "

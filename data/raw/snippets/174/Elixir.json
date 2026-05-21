@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec calculate_minimum_hp(dungeon :: [[integer]]) :: integer\n  def calculate_minimum_hp(dungeon) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"class Solution {\n  List<bool> friendRequests(int n, List<List<int>> restrictions, List<List<int>> requests) {\n    \n  }\n}"

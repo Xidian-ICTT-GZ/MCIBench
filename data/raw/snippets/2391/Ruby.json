@@ -1,0 +1,1 @@
+"# @param {String[]} garbage\n# @param {Integer[]} travel\n# @return {Integer}\ndef garbage_collection(garbage, travel)\n    \nend"

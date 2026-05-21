@@ -1,0 +1,1 @@
+"# @param {Integer[]} apples\n# @param {Integer[]} days\n# @return {Integer}\ndef eaten_apples(apples, days)\n    \nend"

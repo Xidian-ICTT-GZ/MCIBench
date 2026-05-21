@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $hats\n     * @return Integer\n     */\n    function numberWays($hats) {\n        \n    }\n}"

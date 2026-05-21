@@ -1,0 +1,1 @@
+"# @param {Integer} a\n# @param {Integer} b\n# @param {Integer} c\n# @return {Integer[]}\ndef num_moves_stones(a, b, c)\n    \nend"

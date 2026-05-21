@@ -1,0 +1,10 @@
+class Solution:
+    def checkDistances(self, s: str, distance: List[int]) -> bool:
+        n = len(s)
+        firstIndex = [0] * 26;
+        for i in range(n):
+            idx = ord(s[i]) - ord('a');
+            if firstIndex[idx] and i - firstIndex[idx] != distance[idx]:
+                return False
+            firstIndex[idx] = i + 1
+        return True

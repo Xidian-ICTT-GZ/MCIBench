@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec running_sum(nums :: [integer]) :: [integer]\n  def running_sum(nums) do\n    \n  end\nend"

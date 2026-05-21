@@ -1,0 +1,1 @@
+"class Solution(object):\n    def maxConsecutive(self, bottom, top, special):\n        \"\"\"\n        :type bottom: int\n        :type top: int\n        :type special: List[int]\n        :rtype: int\n        \"\"\"\n        "

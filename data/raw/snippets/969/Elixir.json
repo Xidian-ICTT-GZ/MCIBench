@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec pancake_sort(arr :: [integer]) :: [integer]\n  def pancake_sort(arr) do\n    \n  end\nend"

@@ -1,0 +1,41 @@
+public class Solution {
+    public IList<bool> CheckIfPrerequisite(int numCourses, int[][] prerequisites, int[][] queries) {
+        IList<int>[] g = new IList<int>[numCourses];
+        for (int i = 0; i < numCourses; i++) {
+            g[i] = new List<int>();
+        }
+        int[] indgree = new int[numCourses];
+        bool[][] isPre = new bool[numCourses][];
+        for (int i = 0; i < numCourses; i++) {
+            isPre[i] = new bool[numCourses];
+        }
+        foreach (int[] p in prerequisites) {
+            ++indgree[p[1]];
+            g[p[0]].Add(p[1]);
+        }
+        Queue<int> queue = new Queue<int>();
+        for (int i = 0; i < numCourses; ++i) {
+            if (indgree[i] == 0) {
+                queue.Enqueue(i);
+            }
+        }
+        while (queue.Count > 0) {
+            int cur = queue.Dequeue();
+            foreach (int ne in g[cur]) {
+                isPre[cur][ne] = true;
+                for (int i = 0; i < numCourses; ++i) {
+                    isPre[i][ne] = isPre[i][ne] | isPre[i][cur];
+                }
+                --indgree[ne];
+                if (indgree[ne] == 0) {
+                    queue.Enqueue(ne);
+                }
+            }
+        }
+        IList<bool> res = new List<bool>();
+        foreach (int[] query in queries) {
+            res.Add(isPre[query[0]][query[1]]);
+        }
+        return res;
+    }
+}

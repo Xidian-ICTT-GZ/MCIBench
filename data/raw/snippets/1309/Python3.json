@@ -1,0 +1,1 @@
+"class Solution:\n    def freqAlphabets(self, s: str) -> str:\n        "

@@ -1,0 +1,1 @@
+"class Solution(object):\n    def score(self, cards, x):\n        \"\"\"\n        :type cards: List[str]\n        :type x: str\n        :rtype: int\n        \"\"\"\n        "

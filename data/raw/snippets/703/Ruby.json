@@ -1,0 +1,1 @@
+"class KthLargest\n\n=begin\n    :type k: Integer\n    :type nums: Integer[]\n=end\n    def initialize(k, nums)\n        \n    end\n\n\n=begin\n    :type val: Integer\n    :rtype: Integer\n=end\n    def add(val)\n        \n    end\n\n\nend\n\n# Your KthLargest object will be instantiated and called as such:\n# obj = KthLargest.new(k, nums)\n# param_1 = obj.add(val)"

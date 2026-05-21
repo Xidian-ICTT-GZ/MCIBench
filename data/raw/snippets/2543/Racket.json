@@ -1,0 +1,1 @@
+"(define/contract (is-reachable targetX targetY)\n  (-> exact-integer? exact-integer? boolean?)\n  )"

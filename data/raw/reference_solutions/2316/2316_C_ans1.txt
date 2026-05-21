@@ -1,0 +1,58 @@
+typedef struct {
+    int *parents;
+    int *sizes;
+} UnionFind;
+
+UnionFind *NewUnionFind(int n) {
+    UnionFind *uf = (UnionFind *)malloc(sizeof(UnionFind));
+    uf->parents = (int *)malloc(sizeof(int) * n);
+    uf->sizes = (int *)malloc(sizeof(int) * n);
+    for (int i = 0; i < n; i++) {
+        uf->parents[i] = i;
+        uf->sizes[i] = 1;
+    }
+    return uf;
+}
+
+void FreeUnionFind(UnionFind *uf) {
+    free(uf->parents);
+    free(uf->sizes);
+    free(uf);
+}
+
+int Find(UnionFind *uf, int x) {
+    if (uf->parents[x] == x) {
+        return x;
+    }
+    return uf->parents[x] = Find(uf, uf->parents[x]);
+}
+
+void Union(UnionFind *uf, int x, int y) {
+    int rx = Find(uf, x), ry = Find(uf, y);
+    if (rx != ry) {
+        if (uf->sizes[rx] > uf->sizes[ry]) {
+            uf->parents[ry] = rx;
+            uf->sizes[rx] += uf->sizes[ry];
+        } else {
+            uf->parents[rx] = ry;
+            uf->sizes[ry] += uf->sizes[rx];
+        }
+    }
+}
+
+int GetSize(UnionFind *uf, int x) {
+    return uf->sizes[x];
+}
+
+long long countPairs(int n, int** edges, int edgesSize, int* edgesColSize){
+    UnionFind *uf = NewUnionFind(n);
+    for (int i = 0; i < edgesSize; i++) {
+        Union(uf, edges[i][0], edges[i][1]);
+    }
+    long long res = 0;
+    for (int i = 0; i < n; i++) {
+        res += n - GetSize(uf, Find(uf, i));
+    }
+    FreeUnionFind(uf);
+    return res / 2;
+}

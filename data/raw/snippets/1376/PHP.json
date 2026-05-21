@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $n\n     * @param Integer $headID\n     * @param Integer[] $manager\n     * @param Integer[] $informTime\n     * @return Integer\n     */\n    function numOfMinutes($n, $headID, $manager, $informTime) {\n        \n    }\n}"

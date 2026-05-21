@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $matchsticks\n     * @return Boolean\n     */\n    function makesquare($matchsticks) {\n        \n    }\n}"

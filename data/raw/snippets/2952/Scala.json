@@ -1,0 +1,1 @@
+"object Solution {\n    def minimumAddedCoins(coins: Array[Int], target: Int): Int = {\n        \n    }\n}"

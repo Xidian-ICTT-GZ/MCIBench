@@ -1,0 +1,1 @@
+"class MapSum() {\n\n    def insert(key: String, `val`: Int): Unit = {\n        \n    }\n\n    def sum(prefix: String): Int = {\n        \n    }\n\n}\n\n/**\n * Your MapSum object will be instantiated and called as such:\n * val obj = new MapSum()\n * obj.insert(key,`val`)\n * val param_2 = obj.sum(prefix)\n */"

@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} startTime\n * @param {number[]} endTime\n * @param {number[]} profit\n * @return {number}\n */\nvar jobScheduling = function(startTime, endTime, profit) {\n    \n};"

@@ -1,0 +1,1 @@
+"(define/contract (count-days-together arriveAlice leaveAlice arriveBob leaveBob)\n  (-> string? string? string? string? exact-integer?)\n  )"

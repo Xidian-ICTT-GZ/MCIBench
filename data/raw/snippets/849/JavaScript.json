@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} seats\n * @return {number}\n */\nvar maxDistToClosest = function(seats) {\n    \n};"

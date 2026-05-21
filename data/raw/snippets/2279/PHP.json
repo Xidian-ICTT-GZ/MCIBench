@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $capacity\n     * @param Integer[] $rocks\n     * @param Integer $additionalRocks\n     * @return Integer\n     */\n    function maximumBags($capacity, $rocks, $additionalRocks) {\n        \n    }\n}"

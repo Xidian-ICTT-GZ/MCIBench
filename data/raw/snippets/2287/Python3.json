@@ -1,0 +1,1 @@
+"class Solution:\n    def rearrangeCharacters(self, s: str, target: str) -> int:\n        "

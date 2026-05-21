@@ -1,0 +1,13 @@
+class Solution:
+    def findRadius(self, houses: List[int], heaters: List[int]) -> int:
+        ans = 0
+        houses.sort()
+        heaters.sort()
+        j = 0
+        for i, house in enumerate(houses):
+            curDistance = abs(house - heaters[j])
+            while j + 1 < len(heaters) and abs(houses[i] - heaters[j]) >= abs(houses[i] - heaters[j + 1]):
+                j += 1
+                curDistance = min(curDistance, abs(houses[i] - heaters[j]))
+            ans = max(ans, curDistance)
+        return ans

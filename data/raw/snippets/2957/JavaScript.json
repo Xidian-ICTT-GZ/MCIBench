@@ -1,0 +1,1 @@
+"/**\n * @param {string} word\n * @return {number}\n */\nvar removeAlmostEqualCharacters = function(word) {\n    \n};"

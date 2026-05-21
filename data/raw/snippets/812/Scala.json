@@ -1,0 +1,1 @@
+"object Solution {\n    def largestTriangleArea(points: Array[Array[Int]]): Double = {\n        \n    }\n}"

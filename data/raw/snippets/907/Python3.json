@@ -1,0 +1,1 @@
+"class Solution:\n    def sumSubarrayMins(self, arr: List[int]) -> int:\n        "

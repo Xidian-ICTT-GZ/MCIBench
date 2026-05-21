@@ -1,0 +1,1 @@
+"class Solution(object):\n    def countEven(self, num):\n        \"\"\"\n        :type num: int\n        :rtype: int\n        \"\"\"\n        "

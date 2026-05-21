@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @param {Integer} k\n# @return {Integer}\ndef count_non_decreasing_subarrays(nums, k)\n    \nend"

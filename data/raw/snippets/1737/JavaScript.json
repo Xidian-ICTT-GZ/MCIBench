@@ -1,0 +1,1 @@
+"/**\n * @param {string} a\n * @param {string} b\n * @return {number}\n */\nvar minCharacters = function(a, b) {\n    \n};"

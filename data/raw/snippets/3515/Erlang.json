@@ -1,0 +1,1 @@
+"-spec tree_queries(N :: integer(), Edges :: [[integer()]], Queries :: [[integer()]]) -> [integer()].\ntree_queries(N, Edges, Queries) ->\n  ."

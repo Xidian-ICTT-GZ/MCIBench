@@ -1,0 +1,1 @@
+"(define/contract (minimum-cost source target original changed cost)\n  (-> string? string? (listof string?) (listof string?) (listof exact-integer?) exact-integer?)\n  )"

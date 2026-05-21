@@ -1,0 +1,1 @@
+"class Solution {\n    fun largestPathValue(colors: String, edges: Array<IntArray>): Int {\n        \n    }\n}"

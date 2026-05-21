@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<string> restoreIpAddresses(string s) {\n        \n    }\n};"

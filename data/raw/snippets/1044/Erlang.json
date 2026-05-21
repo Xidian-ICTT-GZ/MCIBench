@@ -1,0 +1,1 @@
+"-spec longest_dup_substring(S :: unicode:unicode_binary()) -> unicode:unicode_binary().\nlongest_dup_substring(S) ->\n  ."

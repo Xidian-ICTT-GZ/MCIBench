@@ -1,0 +1,1 @@
+"class Solution:\n    def nthMagicalNumber(self, n: int, a: int, b: int) -> int:\n        "

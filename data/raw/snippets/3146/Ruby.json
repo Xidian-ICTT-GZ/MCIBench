@@ -1,0 +1,1 @@
+"# @param {String} s\n# @param {String} t\n# @return {Integer}\ndef find_permutation_difference(s, t)\n    \nend"

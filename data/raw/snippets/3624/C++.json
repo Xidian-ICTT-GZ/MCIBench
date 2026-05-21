@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<int> popcountDepth(vector<long long>& nums, vector<vector<long long>>& queries) {\n        \n    }\n};"

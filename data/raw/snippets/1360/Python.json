@@ -1,0 +1,1 @@
+"class Solution(object):\n    def daysBetweenDates(self, date1, date2):\n        \"\"\"\n        :type date1: str\n        :type date2: str\n        :rtype: int\n        \"\"\"\n        "

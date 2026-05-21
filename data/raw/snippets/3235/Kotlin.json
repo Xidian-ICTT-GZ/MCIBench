@@ -1,0 +1,1 @@
+"class Solution {\n    fun canReachCorner(xCorner: Int, yCorner: Int, circles: Array<IntArray>): Boolean {\n        \n    }\n}"

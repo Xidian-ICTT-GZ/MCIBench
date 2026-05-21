@@ -1,0 +1,1 @@
+"(define/contract (max-active-sections-after-trade s)\n  (-> string? exact-integer?)\n  )"

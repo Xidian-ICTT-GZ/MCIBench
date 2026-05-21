@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec minimum_increments(nums :: [integer], target :: [integer]) :: integer\n  def minimum_increments(nums, target) do\n    \n  end\nend"

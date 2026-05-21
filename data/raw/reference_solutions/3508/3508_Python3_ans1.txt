@@ -1,0 +1,39 @@
+class Router:
+    def __init__(self, memoryLimit):
+        self.memLimit = memoryLimit
+        self.length = 0
+        self.isExist = set()
+        self.sameDestQue = {}
+        self.que = []
+
+    def addPacket(self, source, destination, timestamp):
+        packet = (source, destination, timestamp)
+        if packet in self.isExist:
+            return False
+        if self.length == self.memLimit:
+            self.forwardPacket()
+        self.length += 1
+        self.que.append(packet)
+        if destination not in self.sameDestQue:
+            self.sameDestQue[destination] = SortedList()
+        self.sameDestQue[destination].add(timestamp)
+        self.isExist.add(packet)
+        return True
+
+    def forwardPacket(self):
+        data = []
+        if self.que:
+            packet = self.que.pop(0)
+            data = list(packet)
+            self.isExist.remove(packet)
+            self.sameDestQue[data[1]].remove(data[2])
+            self.length -= 1
+        return data
+
+    def getCount(self, destination, startTime, endTime):
+        if destination not in self.sameDestQue:
+            return 0
+        sl = self.sameDestQue[destination]
+        l = sl.bisect_left(startTime)
+        r = sl.bisect_right(endTime)
+        return r - l

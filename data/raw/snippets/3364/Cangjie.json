@@ -1,0 +1,1 @@
+"class Solution {\n    func minimumSumSubarray(nums: ArrayList<Int64>, l: Int64, r: Int64): Int64 {\n\n    }\n}"

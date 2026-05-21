@@ -1,0 +1,1 @@
+"-spec max_sliding_window(Nums :: [integer()], K :: integer()) -> [integer()].\nmax_sliding_window(Nums, K) ->\n  ."

@@ -1,0 +1,1 @@
+"# @param {Integer[]} plant_time\n# @param {Integer[]} grow_time\n# @return {Integer}\ndef earliest_full_bloom(plant_time, grow_time)\n    \nend"

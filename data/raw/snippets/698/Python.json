@@ -1,0 +1,1 @@
+"class Solution(object):\n    def canPartitionKSubsets(self, nums, k):\n        \"\"\"\n        :type nums: List[int]\n        :type k: int\n        :rtype: bool\n        \"\"\"\n        "

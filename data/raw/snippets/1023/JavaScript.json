@@ -1,0 +1,1 @@
+"/**\n * @param {string[]} queries\n * @param {string} pattern\n * @return {boolean[]}\n */\nvar camelMatch = function(queries, pattern) {\n    \n};"

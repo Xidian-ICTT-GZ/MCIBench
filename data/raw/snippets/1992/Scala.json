@@ -1,0 +1,1 @@
+"object Solution {\n    def findFarmland(land: Array[Array[Int]]): Array[Array[Int]] = {\n        \n    }\n}"

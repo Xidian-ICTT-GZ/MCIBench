@@ -1,0 +1,1 @@
+"class Solution {\n    func removeElement(_ nums: inout [Int], _ val: Int) -> Int {\n        \n    }\n}"

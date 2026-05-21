@@ -1,0 +1,1 @@
+"class Solution {\n    fun platesBetweenCandles(s: String, queries: Array<IntArray>): IntArray {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec best_hand(ranks :: [integer], suits :: [char]) :: String.t\n  def best_hand(ranks, suits) do\n    \n  end\nend"

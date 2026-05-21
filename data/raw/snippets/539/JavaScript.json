@@ -1,0 +1,1 @@
+"/**\n * @param {string[]} timePoints\n * @return {number}\n */\nvar findMinDifference = function(timePoints) {\n    \n};"

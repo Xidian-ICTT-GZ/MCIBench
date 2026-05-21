@@ -1,0 +1,1 @@
+"/**\n * @param {number[][]} firstList\n * @param {number[][]} secondList\n * @return {number[][]}\n */\nvar intervalIntersection = function(firstList, secondList) {\n    \n};"

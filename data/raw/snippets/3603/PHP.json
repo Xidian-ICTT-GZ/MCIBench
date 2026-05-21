@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $m\n     * @param Integer $n\n     * @param Integer[][] $waitCost\n     * @return Integer\n     */\n    function minCost($m, $n, $waitCost) {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"-spec smaller_numbers_than_current(Nums :: [integer()]) -> [integer()].\nsmaller_numbers_than_current(Nums) ->\n  ."

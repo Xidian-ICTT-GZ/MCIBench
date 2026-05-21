@@ -1,0 +1,1 @@
+"public class LRUCache {\n\n    public LRUCache(int capacity) {\n        \n    }\n    \n    public int Get(int key) {\n        \n    }\n    \n    public void Put(int key, int value) {\n        \n    }\n}\n\n/**\n * Your LRUCache object will be instantiated and called as such:\n * LRUCache obj = new LRUCache(capacity);\n * int param_1 = obj.Get(key);\n * obj.Put(key,value);\n */"

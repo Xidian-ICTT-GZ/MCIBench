@@ -1,0 +1,30 @@
+var checkIfPrerequisite = function(numCourses, prerequisites, queries) {
+    let g = new Array(numCourses).fill(0).map(() => new Array());
+    let vi = new Array(numCourses).fill(false); 
+    let isPre = new Array(numCourses).fill(0).map(() => new Array(numCourses).fill(false));
+    for (let p of prerequisites) {
+        g[p[0]].push(p[1]);
+    }
+    for (let i = 0; i < numCourses; ++i) {
+        dfs(g, isPre, vi, i);
+    }
+    res = [];
+    for (let query of queries) {
+        res.push(isPre[query[0]][query[1]]);
+    }
+    return res;
+};
+
+var dfs = function(g, isPre, vi, cur) {
+    if (vi[cur]) {
+        return;
+    }
+    vi[cur] = true;
+    for (let ne of g[cur]) {
+        dfs(g, isPre, vi, ne);
+        isPre[cur][ne] = true;
+        for (let i = 0; i < isPre.length; ++i) {
+            isPre[cur][i] = isPre[cur][i] | isPre[ne][i];
+        }
+    }
+}

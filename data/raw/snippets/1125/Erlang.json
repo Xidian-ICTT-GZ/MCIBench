@@ -1,0 +1,1 @@
+"-spec smallest_sufficient_team(Req_skills :: [unicode:unicode_binary()], People :: [[unicode:unicode_binary()]]) -> [integer()].\nsmallest_sufficient_team(Req_skills, People) ->\n  ."

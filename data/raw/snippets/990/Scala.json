@@ -1,0 +1,1 @@
+"object Solution {\n    def equationsPossible(equations: Array[String]): Boolean = {\n        \n    }\n}"

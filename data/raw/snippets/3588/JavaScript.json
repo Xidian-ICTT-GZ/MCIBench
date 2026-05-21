@@ -1,0 +1,1 @@
+"/**\n * @param {number[][]} coords\n * @return {number}\n */\nvar maxArea = function(coords) {\n    \n};"

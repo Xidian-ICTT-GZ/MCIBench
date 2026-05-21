@@ -1,0 +1,1 @@
+"class Solution {\n    fun bestHand(ranks: IntArray, suits: CharArray): String {\n        \n    }\n}"

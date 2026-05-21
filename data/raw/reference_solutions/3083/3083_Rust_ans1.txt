@@ -1,0 +1,12 @@
+impl Solution {
+    pub fn is_substring_present(s: String) -> bool {
+        let n = s.len();
+        for i in 0..(n - 1) {
+            let substr = &s[i..i+2].chars().rev().collect::<String>();
+            if s.contains(substr) {
+                return true
+            }
+        }
+        false
+    }
+}

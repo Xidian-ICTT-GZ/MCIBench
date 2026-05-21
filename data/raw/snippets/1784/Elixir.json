@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec check_ones_segment(s :: String.t) :: boolean\n  def check_ones_segment(s) do\n    \n  end\nend"

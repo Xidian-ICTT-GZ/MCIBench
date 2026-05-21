@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $graph\n     * @return Integer[]\n     */\n    function eventualSafeNodes($graph) {\n        \n    }\n}"

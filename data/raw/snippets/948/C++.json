@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int bagOfTokensScore(vector<int>& tokens, int power) {\n        \n    }\n};"

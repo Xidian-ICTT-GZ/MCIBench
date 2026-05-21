@@ -1,0 +1,1 @@
+"-spec has_increasing_subarrays(Nums :: [integer()], K :: integer()) -> boolean().\nhas_increasing_subarrays(Nums, K) ->\n  ."

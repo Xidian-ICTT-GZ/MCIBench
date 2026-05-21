@@ -1,0 +1,1 @@
+"class Solution(object):\n    def findWinningPlayer(self, skills, k):\n        \"\"\"\n        :type skills: List[int]\n        :type k: int\n        :rtype: int\n        \"\"\"\n        "

@@ -1,0 +1,1 @@
+"class Solution {\n    func findLadders(beginWord: String, endWord: String, wordList: ArrayList<String>): ArrayList<ArrayList<String>> {\n\n    }\n}"

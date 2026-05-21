@@ -1,0 +1,1 @@
+"class Solution:\n    def minimumScore(self, nums: List[int], edges: List[List[int]]) -> int:\n        "

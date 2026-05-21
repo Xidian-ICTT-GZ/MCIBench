@@ -1,0 +1,1 @@
+"class Solution(object):\n    def nthSuperUglyNumber(self, n, primes):\n        \"\"\"\n        :type n: int\n        :type primes: List[int]\n        :rtype: int\n        \"\"\"\n        "

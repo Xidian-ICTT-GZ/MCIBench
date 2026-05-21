@@ -1,0 +1,1 @@
+"public class Solution {\n    public long NumberOfPowerfulInt(long start, long finish, int limit, string s) {\n        \n    }\n}"

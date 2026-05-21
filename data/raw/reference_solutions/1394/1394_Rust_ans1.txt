@@ -1,0 +1,17 @@
+use std::collections::HashMap;
+
+impl Solution {
+    pub fn find_lucky(arr: Vec<i32>) -> i32 {
+        let mut m = HashMap::new();
+        for x in arr {
+            *m.entry(x).or_insert(0) += 1;
+        }
+        let mut ans = -1;
+        for (&key, &value) in m.iter() {
+            if key == value {
+                ans = ans.max(key);
+            }
+        }
+        ans
+    }
+}

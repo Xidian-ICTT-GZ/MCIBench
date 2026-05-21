@@ -1,0 +1,1 @@
+"class Solution(object):\n    def minimumLines(self, stockPrices):\n        \"\"\"\n        :type stockPrices: List[List[int]]\n        :rtype: int\n        \"\"\"\n        "

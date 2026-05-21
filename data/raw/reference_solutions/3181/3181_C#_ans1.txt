@@ -1,0 +1,15 @@
+public class Solution {
+    public int MaxTotalReward(int[] rewardValues) {
+        int n = rewardValues.Length;
+        Array.Sort(rewardValues);
+        if (n >= 2 && rewardValues[n - 2] == rewardValues[n - 1] - 1) {
+            return 2 * rewardValues[n - 1] - 1;
+        }
+        BigInteger f = BigInteger.One;
+        foreach (int x in rewardValues) {
+            BigInteger mask = (BigInteger.One << x) - BigInteger.One;
+            f |= (f & mask) << x;
+        }
+        return (int)f.GetBitLength() - 1;
+    }
+}

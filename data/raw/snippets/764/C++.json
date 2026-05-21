@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int orderOfLargestPlusSign(int n, vector<vector<int>>& mines) {\n        \n    }\n};"

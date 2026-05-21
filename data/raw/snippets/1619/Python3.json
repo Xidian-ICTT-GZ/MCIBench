@@ -1,0 +1,1 @@
+"class Solution:\n    def trimMean(self, arr: List[int]) -> float:\n        "

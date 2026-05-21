@@ -1,0 +1,1 @@
+"-spec minimum_right_shifts(Nums :: [integer()]) -> integer().\nminimum_right_shifts(Nums) ->\n  ."

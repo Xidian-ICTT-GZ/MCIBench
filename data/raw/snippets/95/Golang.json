@@ -1,0 +1,1 @@
+"/**\n * Definition for a binary tree node.\n * type TreeNode struct {\n *     Val int\n *     Left *TreeNode\n *     Right *TreeNode\n * }\n */\nfunc generateTrees(n int) []*TreeNode {\n    \n}"

@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @param {Integer[][]} trust\n# @return {Integer}\ndef find_judge(n, trust)\n    \nend"

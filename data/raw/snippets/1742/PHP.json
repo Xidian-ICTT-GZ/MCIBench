@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $lowLimit\n     * @param Integer $highLimit\n     * @return Integer\n     */\n    function countBalls($lowLimit, $highLimit) {\n        \n    }\n}"

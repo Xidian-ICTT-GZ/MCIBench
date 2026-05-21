@@ -1,0 +1,22 @@
+const long long mod = 1e9 + 7;
+
+static int cmp(const void *a, const void *b) {
+    long long x = *(long long *)a;
+    long long y = *(long long *)b;
+    return x <= y ? -1 : 1;
+}
+
+int sumDistance(int* nums, int numsSize, char * s, int d) {
+    int n = numsSize;
+    long long pos[n];
+    for (int i = 0; i < n; i++) {
+        pos[i] = s[i] == 'L' ? (long long) nums[i] - d : (long long) nums[i] + d;
+    }
+    qsort(pos, n, sizeof(long long), cmp);
+    long long res = 0;
+    for (int i = 1; i < n; i++) {
+        res += 1ll * (pos[i] - pos[i - 1]) * i % mod * (n - i) % mod;
+        res %= mod;
+    }
+    return res;
+}

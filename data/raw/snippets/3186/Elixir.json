@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec maximum_total_damage(power :: [integer]) :: integer\n  def maximum_total_damage(power) do\n    \n  end\nend"

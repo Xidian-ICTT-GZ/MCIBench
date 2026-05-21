@@ -1,0 +1,1 @@
+"class Solution:\n    def isToeplitzMatrix(self, matrix: List[List[int]]) -> bool:\n        "

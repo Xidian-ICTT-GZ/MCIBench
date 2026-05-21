@@ -1,0 +1,1 @@
+"-spec large_group_positions(S :: unicode:unicode_binary()) -> [[integer()]].\nlarge_group_positions(S) ->\n  ."

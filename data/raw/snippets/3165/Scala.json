@@ -1,0 +1,1 @@
+"object Solution {\n    def maximumSumSubsequence(nums: Array[Int], queries: Array[Array[Int]]): Int = {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec product_except_self(nums :: [integer]) :: [integer]\n  def product_except_self(nums) do\n    \n  end\nend"

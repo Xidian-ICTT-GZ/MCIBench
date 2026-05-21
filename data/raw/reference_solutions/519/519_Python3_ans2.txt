@@ -1,0 +1,29 @@
+class Solution:
+    def __init__(self, m: int, n: int):
+        self.m, self.n = m, n
+        self.total = m * n
+        self.bucketSize = math.floor(math.sqrt(m * n))
+        self.buckets = [set() for _ in range(0, self.total, self.bucketSize)]
+
+    def flip(self) -> List[int]:
+        x = random.randint(0, self.total - 1)
+        self.total -= 1
+        sumZero = 0
+        curr = 0
+
+        for i in range(len(self.buckets)):
+            if sumZero + self.bucketSize - len(self.buckets[i]) > x:
+                for j in range(self.bucketSize):
+                    if (curr + j) not in self.buckets[i]:
+                        if sumZero == x:
+                            self.buckets[i].add(curr + j)
+                            return [(curr + j) // self.n, (curr + j) % self.n]
+                        sumZero += 1
+            curr += self.bucketSize
+            sumZero += self.bucketSize - len(self.buckets[i])
+        return []
+        
+    def reset(self) -> None:
+        self.total = self.m * self.n
+        for i in range(len(self.buckets)):
+            self.buckets[i].clear()

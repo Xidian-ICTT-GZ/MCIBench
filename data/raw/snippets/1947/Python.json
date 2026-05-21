@@ -1,0 +1,1 @@
+"class Solution(object):\n    def maxCompatibilitySum(self, students, mentors):\n        \"\"\"\n        :type students: List[List[int]]\n        :type mentors: List[List[int]]\n        :rtype: int\n        \"\"\"\n        "

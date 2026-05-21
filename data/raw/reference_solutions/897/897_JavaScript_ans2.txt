@@ -1,0 +1,19 @@
+var increasingBST = function(root) {
+    const dummyNode = new TreeNode(-1);
+    let resNode = dummyNode;
+    const inorder = (node) => {
+        if (!node) {
+            return;
+        }
+        inorder(node.left);
+
+        
+        resNode.right = node;
+        node.left = null;
+        resNode = node;
+
+        inorder(node.right);
+    }
+    inorder(root);
+    return dummyNode.right;
+};

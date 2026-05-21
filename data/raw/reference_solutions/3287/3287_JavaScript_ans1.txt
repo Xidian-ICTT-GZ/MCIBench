@@ -1,0 +1,31 @@
+var maxValue = function(nums, k) {
+    function findORs(nums, k) {
+        const dp = [];
+        const prev = Array.from({ length: k + 1 }, () => new Set());
+        prev[0].add(0);
+
+        for (let i = 0; i < nums.length; i++) {
+            for (let j = Math.min(k - 1, i + 1); j >= 0; j--) {
+                for (const x of prev[j]) {
+                    prev[j + 1].add(x | nums[i]);
+                }
+            }
+            dp.push(new Set(prev[k]));
+        }
+        return dp;
+    }
+
+    const A = findORs(nums, k);
+    nums.reverse();
+    const B = findORs(nums, k);
+    let mx = 0;
+
+    for (let i = k - 1; i < nums.length - k; i++) {
+        for (const a of A[i]) {
+            for (const b of B[nums.length - i - 2]) {
+                mx = Math.max(mx, a ^ b);
+            }
+        }
+    }
+    return mx;
+};

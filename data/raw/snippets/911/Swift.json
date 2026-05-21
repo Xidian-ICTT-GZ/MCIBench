@@ -1,0 +1,1 @@
+"\nclass TopVotedCandidate {\n\n    init(_ persons: [Int], _ times: [Int]) {\n        \n    }\n    \n    func q(_ t: Int) -> Int {\n        \n    }\n}\n\n/**\n * Your TopVotedCandidate object will be instantiated and called as such:\n * let obj = TopVotedCandidate(persons, times)\n * let ret_1: Int = obj.q(t)\n */"

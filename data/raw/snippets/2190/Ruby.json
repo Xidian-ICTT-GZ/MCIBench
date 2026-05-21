@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @param {Integer} key\n# @return {Integer}\ndef most_frequent(nums, key)\n    \nend"

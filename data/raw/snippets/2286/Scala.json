@@ -1,0 +1,1 @@
+"class BookMyShow(_n: Int, _m: Int) {\n\n    def gather(k: Int, maxRow: Int): Array[Int] = {\n        \n    }\n\n    def scatter(k: Int, maxRow: Int): Boolean = {\n        \n    }\n\n}\n\n/**\n * Your BookMyShow object will be instantiated and called as such:\n * val obj = new BookMyShow(n, m)\n * val param_1 = obj.gather(k,maxRow)\n * val param_2 = obj.scatter(k,maxRow)\n */"

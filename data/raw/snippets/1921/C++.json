@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int eliminateMaximum(vector<int>& dist, vector<int>& speed) {\n        \n    }\n};"

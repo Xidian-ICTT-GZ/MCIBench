@@ -1,0 +1,1 @@
+"public class Solution {\n    public IList<int> TwoOutOfThree(int[] nums1, int[] nums2, int[] nums3) {\n        \n    }\n}"

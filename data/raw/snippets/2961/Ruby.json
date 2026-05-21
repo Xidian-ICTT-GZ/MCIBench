@@ -1,0 +1,1 @@
+"# @param {Integer[][]} variables\n# @param {Integer} target\n# @return {Integer[]}\ndef get_good_indices(variables, target)\n    \nend"

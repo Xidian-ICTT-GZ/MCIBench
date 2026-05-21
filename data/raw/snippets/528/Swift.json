@@ -1,0 +1,1 @@
+"\nclass Solution {\n\n    init(_ w: [Int]) {\n        \n    }\n    \n    func pickIndex() -> Int {\n        \n    }\n}\n\n/**\n * Your Solution object will be instantiated and called as such:\n * let obj = Solution(w)\n * let ret_1: Int = obj.pickIndex()\n */"

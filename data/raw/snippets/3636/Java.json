@@ -1,0 +1,1 @@
+"class Solution {\n    public int[] subarrayMajority(int[] nums, int[][] queries) {\n        \n    }\n}"

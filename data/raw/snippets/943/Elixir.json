@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec shortest_superstring(words :: [String.t]) :: String.t\n  def shortest_superstring(words) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"# @param {Integer[]} heights\n# @return {Integer}\ndef maximum_sum_of_heights(heights)\n    \nend"

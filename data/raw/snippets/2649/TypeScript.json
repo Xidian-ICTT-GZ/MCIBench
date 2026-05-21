@@ -1,0 +1,1 @@
+"type MultidimensionalArray = (MultidimensionalArray | number)[]\n\nfunction* inorderTraversal(arr: MultidimensionalArray): Generator<number, void, unknown> {\n    \n};\n\n/**\n * const gen = inorderTraversal([1, [2, 3]]);\n * gen.next().value; // 1\n * gen.next().value; // 2\n * gen.next().value; // 3\n */"

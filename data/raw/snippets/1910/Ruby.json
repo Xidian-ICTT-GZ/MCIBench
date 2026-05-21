@@ -1,0 +1,1 @@
+"# @param {String} s\n# @param {String} part\n# @return {String}\ndef remove_occurrences(s, part)\n    \nend"

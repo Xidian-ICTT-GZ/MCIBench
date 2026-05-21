@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $s\n     * @param String $t\n     * @param Integer $k\n     * @return Integer\n     */\n    function numberOfWays($s, $t, $k) {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} receiver\n * @param {number} k\n * @return {number}\n */\nvar getMaxFunctionValue = function(receiver, k) {\n    \n};"

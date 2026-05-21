@@ -1,0 +1,103 @@
+public class Solution {
+    const int T = 243, N = 5, M = 6;
+    int n, m, tot;
+    int[][] maskBits;
+    int[] ivCount;
+    int[] evCount;
+    int[] innerScore;
+    int[][] interScore;
+    int[][][][] d;
+    
+    static int[][] score = {
+        new int[]{0, 0, 0},
+        new int[]{0, -60, -10},
+        new int[]{0, -10, 40}
+    };
+
+    public int GetMaxGridHappiness(int m, int n, int introvertsCount, int extrovertsCount) {
+        this.n = n;
+        this.m = m;
+        
+        this.tot = (int) Math.Pow(3, n);
+        this.maskBits = new int[T][];
+        for (int i = 0; i < T; i++) {
+            this.maskBits[i] = new int[N];
+        }
+        this.ivCount = new int[T];
+        this.evCount = new int[T];
+        this.innerScore = new int[T];
+        this.interScore = new int[T][];
+        for (int i = 0; i < T; i++) {
+            this.interScore[i] = new int[T];
+        }
+        this.d = new int[N][][][];
+
+        InitData();
+        
+        for (int i = 0; i < N; i++) {
+            d[i] = new int[T][][];
+            for (int j = 0; j < T; j++) {
+                d[i][j] = new int[M + 1][];
+                for (int k = 0; k <= M; k++) {
+                    d[i][j][k] = new int[M + 1];
+                    Array.Fill(d[i][j][k], -1);
+                }
+            }
+        }
+        return DFS(0, 0, introvertsCount, extrovertsCount);
+    }
+
+    public void InitData() {
+        
+        for (int mask = 0; mask < tot; mask++) {
+            int maskTmp = mask;
+            for (int i = 0; i < n; i++) {
+                int x = maskTmp % 3;
+                maskBits[mask][i] = x;
+                maskTmp /= 3;
+                if (x == 1) {
+                    ivCount[mask]++;
+                    innerScore[mask] += 120;
+                } else if (x == 2) {
+                    evCount[mask]++;
+                    innerScore[mask] += 40;
+                }
+                if (i > 0) {
+                    innerScore[mask] += score[x][maskBits[mask][i - 1]];
+                }
+            }
+        }
+        
+        for (int i = 0; i < tot; i++) {
+            for (int j = 0; j < tot; j++) {
+                interScore[i][j] = 0;
+                for (int k = 0; k < n; k++) {
+                    interScore[i][j] += score[maskBits[i][k]][maskBits[j][k]];
+                }
+            }
+        }
+    }
+
+    public int DFS(int row, int premask, int iv, int ev) {
+        if (row == m || (iv == 0 && ev == 0)) {
+            return 0;
+        }
+        
+        if (d[row][premask][iv][ev] != -1) {
+            return d[row][premask][iv][ev];
+        }
+        
+        int res = 0;
+        for (int mask = 0; mask < tot; mask++) {
+            
+            if (ivCount[mask] > iv || evCount[mask] > ev) {
+                continue;
+            }
+            res = Math.Max(res, DFS(row + 1, mask, iv - ivCount[mask], ev - evCount[mask]) 
+                            + innerScore[mask] 
+                            + interScore[premask][mask]);
+        }
+        d[row][premask][iv][ev] = res;
+        return res;
+    }
+}

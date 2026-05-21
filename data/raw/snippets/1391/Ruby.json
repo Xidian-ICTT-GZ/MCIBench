@@ -1,0 +1,1 @@
+"# @param {Integer[][]} grid\n# @return {Boolean}\ndef has_valid_path(grid)\n    \nend"

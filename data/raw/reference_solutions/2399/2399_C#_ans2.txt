@@ -1,0 +1,13 @@
+public class Solution {
+    public bool CheckDistances(string s, int[] distance) {
+        int[] firstIndex = new int[26];
+        for (int i = 0; i < s.Length; i++) {
+            int idx = s[i] - 'a';
+            if (firstIndex[idx] != 0 && i - firstIndex[idx] != distance[idx]) {
+                return false;
+            }
+            firstIndex[idx] = i + 1;
+        }
+        return true;
+    }
+}

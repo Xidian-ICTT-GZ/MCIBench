@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $tasks\n     * @param Integer[] $workers\n     * @param Integer $pills\n     * @param Integer $strength\n     * @return Integer\n     */\n    function maxTaskAssign($tasks, $workers, $pills, $strength) {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec maximum_sum_subsequence(nums :: [integer], queries :: [[integer]]) :: integer\n  def maximum_sum_subsequence(nums, queries) do\n    \n  end\nend"

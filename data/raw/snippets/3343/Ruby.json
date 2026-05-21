@@ -1,0 +1,1 @@
+"# @param {String} num\n# @return {Integer}\ndef count_balanced_permutations(num)\n    \nend"

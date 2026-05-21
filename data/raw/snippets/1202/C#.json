@@ -1,0 +1,1 @@
+"public class Solution {\n    public string SmallestStringWithSwaps(string s, IList<IList<int>> pairs) {\n        \n    }\n}"

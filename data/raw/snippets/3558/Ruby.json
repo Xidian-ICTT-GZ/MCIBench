@@ -1,0 +1,1 @@
+"# @param {Integer[][]} edges\n# @return {Integer}\ndef assign_edge_weights(edges)\n    \nend"

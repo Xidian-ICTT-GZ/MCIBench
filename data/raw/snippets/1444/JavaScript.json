@@ -1,0 +1,1 @@
+"/**\n * @param {string[]} pizza\n * @param {number} k\n * @return {number}\n */\nvar ways = function(pizza, k) {\n    \n};"

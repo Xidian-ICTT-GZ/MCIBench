@@ -1,0 +1,1 @@
+"class Solution:\n    def countCompleteSubarrays(self, nums: List[int]) -> int:\n        "

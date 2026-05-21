@@ -1,0 +1,20 @@
+import heapq
+
+class NumberContainers:
+    def __init__(self):
+        self.nums = {}
+        self.heaps = {}
+
+    def change(self, index: int, number: int) -> None:
+        self.nums[index] = number
+        if number not in self.heaps:
+            self.heaps[number] = []
+        heapq.heappush(self.heaps[number], index)
+
+    def find(self, number: int) -> int:
+        if number not in self.heaps:
+            return -1
+        heap = self.heaps[number]
+        while heap and self.nums[heap[0]] != number:
+            heapq.heappop(heap)
+        return heap[0] if heap else -1

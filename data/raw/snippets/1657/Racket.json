@@ -1,0 +1,1 @@
+"(define/contract (close-strings word1 word2)\n  (-> string? string? boolean?)\n  )"

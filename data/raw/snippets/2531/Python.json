@@ -1,0 +1,1 @@
+"class Solution(object):\n    def isItPossible(self, word1, word2):\n        \"\"\"\n        :type word1: str\n        :type word2: str\n        :rtype: bool\n        \"\"\"\n        "

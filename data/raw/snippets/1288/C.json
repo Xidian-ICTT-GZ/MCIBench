@@ -1,0 +1,1 @@
+"int removeCoveredIntervals(int** intervals, int intervalsSize, int* intervalsColSize) {\n    \n}"

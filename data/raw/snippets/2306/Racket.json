@@ -1,0 +1,1 @@
+"(define/contract (distinct-names ideas)\n  (-> (listof string?) exact-integer?)\n  )"

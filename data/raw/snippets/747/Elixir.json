@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec dominant_index(nums :: [integer]) :: integer\n  def dominant_index(nums) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"class Solution {\n    func categorizeBox(_ length: Int, _ width: Int, _ height: Int, _ mass: Int) -> String {\n        \n    }\n}"

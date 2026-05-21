@@ -1,0 +1,1 @@
+"# @param {String[]} grid\n# @param {Integer} cat_jump\n# @param {Integer} mouse_jump\n# @return {Boolean}\ndef can_mouse_win(grid, cat_jump, mouse_jump)\n    \nend"

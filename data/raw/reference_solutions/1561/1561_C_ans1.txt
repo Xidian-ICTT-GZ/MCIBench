@@ -1,0 +1,15 @@
+int compare(const void* a, const void* b) {
+    return (*(int*)a - *(int*)b);
+}
+
+int maxCoins(int* piles, int pilesSize) {
+    qsort(piles, pilesSize, sizeof(int), compare);
+    int rounds = pilesSize / 3;
+    int coins = 0;
+    int index = pilesSize - 2;
+    for (int i = 0; i < rounds; i++) {
+        coins += piles[index];
+        index -= 2;
+    }
+    return coins;
+}

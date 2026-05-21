@@ -1,0 +1,1 @@
+"class Solution(object):\n    def bestCoordinate(self, towers, radius):\n        \"\"\"\n        :type towers: List[List[int]]\n        :type radius: int\n        :rtype: List[int]\n        \"\"\"\n        "

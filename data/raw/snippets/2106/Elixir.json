@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec max_total_fruits(fruits :: [[integer]], start_pos :: integer, k :: integer) :: integer\n  def max_total_fruits(fruits, start_pos, k) do\n    \n  end\nend"

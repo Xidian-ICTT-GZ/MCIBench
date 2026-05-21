@@ -1,0 +1,28 @@
+public class Solution {
+    public string RankTeams(string[] votes) {
+        int n = votes.Length;
+        
+        Dictionary<char, int[]> ranking = new Dictionary<char, int[]>();
+        foreach (char vid in votes[0]) {
+            ranking[vid] = new int[votes[0].Length];
+        }
+        
+        foreach (string vote in votes) {
+            for (int i = 0; i < vote.Length; ++i) {
+                ++ranking[vote[i]][i];
+            }
+        }
+        
+        var result = ranking.ToList();
+        
+        result.Sort((a, b) => {
+            for (int i = 0; i < a.Value.Length; ++i) {
+                if (a.Value[i] != b.Value[i]) {
+                    return b.Value[i].CompareTo(a.Value[i]);
+                }
+            }
+            return a.Key.CompareTo(b.Key);
+        });
+        return string.Concat(result.Select(r => r.Key));
+    }
+}

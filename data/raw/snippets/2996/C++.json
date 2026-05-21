@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int missingInteger(vector<int>& nums) {\n        \n    }\n};"

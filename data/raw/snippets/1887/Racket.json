@@ -1,0 +1,1 @@
+"(define/contract (reduction-operations nums)\n  (-> (listof exact-integer?) exact-integer?)\n  )"

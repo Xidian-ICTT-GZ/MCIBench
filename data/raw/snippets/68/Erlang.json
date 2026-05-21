@@ -1,0 +1,1 @@
+"-spec full_justify(Words :: [unicode:unicode_binary()], MaxWidth :: integer()) -> [unicode:unicode_binary()].\nfull_justify(Words, MaxWidth) ->\n  ."

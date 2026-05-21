@@ -1,0 +1,21 @@
+var minSkips = function(dist, speed, hoursBefore) {
+    const n = dist.length;
+    const f = new Array(n + 1).fill(0).map(() => new Array(n + 1).fill(Number.MAX_SAFE_INTEGER / 2));
+    f[0][0] = 0;
+    for (let i = 1; i <= n; i++) {
+        for (let j = 0; j <= i; j++) {
+            if (j !== i) {
+                f[i][j] = Math.min(f[i][j], Math.floor((f[i - 1][j] + dist[i - 1] - 1) / speed + 1) * speed);
+            }
+            if (j !== 0) {
+                f[i][j] = Math.min(f[i][j], f[i - 1][j - 1] + dist[i - 1]);
+            }
+        }
+    }
+    for (let j = 0; j <= n; j++) {
+        if (f[n][j] <= hoursBefore * speed) {
+            return j;
+        }
+    }
+    return -1;
+};

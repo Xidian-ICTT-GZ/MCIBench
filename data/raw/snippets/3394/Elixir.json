@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec check_valid_cuts(n :: integer, rectangles :: [[integer]]) :: boolean\n  def check_valid_cuts(n, rectangles) do\n    \n  end\nend"

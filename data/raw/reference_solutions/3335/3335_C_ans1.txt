@@ -1,0 +1,22 @@
+#define MOD 1000000007
+
+int lengthAfterTransformations(char* s, int t) {
+    int cnt[26] = {0};
+    for (int i = 0; s[i]; i++) {
+        cnt[s[i] - 'a']++;
+    }
+    for (int round = 0; round < t; round++) {
+        int nxt[26] = {0};
+        nxt[0] = cnt[25];
+        nxt[1] = (cnt[25] + cnt[0]) % MOD;
+        for (int i = 2; i < 26; i++) {
+            nxt[i] = cnt[i - 1];
+        }
+        memcpy(cnt, nxt, sizeof(cnt));
+    }
+    int ans = 0;
+    for (int i = 0; i < 26; i++) {
+        ans = (ans + cnt[i]) % MOD;
+    }
+    return ans;
+}

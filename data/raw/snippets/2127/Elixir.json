@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec maximum_invitations(favorite :: [integer]) :: integer\n  def maximum_invitations(favorite) do\n    \n  end\nend"

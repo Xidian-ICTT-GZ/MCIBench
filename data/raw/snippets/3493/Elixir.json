@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec number_of_components(properties :: [[integer]], k :: integer) :: integer\n  def number_of_components(properties, k) do\n    \n  end\nend"

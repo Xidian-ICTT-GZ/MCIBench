@@ -1,0 +1,15 @@
+var finalPrices = function(prices) {
+    const n = prices.length;
+    const ans = new Array(n).fill(0);
+    for (let i = 0; i < n; ++i) {
+        let discount = 0;
+        for (let j = i + 1; j < n; ++j) {
+            if(prices[j] <= prices[i]){
+                discount = prices[j];
+                break;
+            }
+        }
+        ans[i] = prices[i] - discount;
+    }
+    return ans;
+};

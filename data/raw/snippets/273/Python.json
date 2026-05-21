@@ -1,0 +1,1 @@
+"class Solution(object):\n    def numberToWords(self, num):\n        \"\"\"\n        :type num: int\n        :rtype: str\n        \"\"\"\n        "

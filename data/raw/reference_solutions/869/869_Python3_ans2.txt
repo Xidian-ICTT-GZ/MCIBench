@@ -1,0 +1,12 @@
+def countDigits(n: int) -> Tuple[int]:
+    cnt = [0] * 10
+    while n:
+        cnt[n % 10] += 1
+        n //= 10
+    return tuple(cnt)
+
+powerOf2Digits = {countDigits(1 << i) for i in range(30)}
+
+class Solution:
+    def reorderedPowerOf2(self, n: int) -> bool:
+        return countDigits(n) in powerOf2Digits

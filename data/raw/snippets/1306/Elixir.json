@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec can_reach(arr :: [integer], start :: integer) :: boolean\n  def can_reach(arr, start) do\n    \n  end\nend"

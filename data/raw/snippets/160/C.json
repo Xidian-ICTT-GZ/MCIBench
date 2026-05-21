@@ -1,0 +1,1 @@
+"/**\n * Definition for singly-linked list.\n * struct ListNode {\n *     int val;\n *     struct ListNode *next;\n * };\n */\nstruct ListNode *getIntersectionNode(struct ListNode *headA, struct ListNode *headB) {\n    \n}"

@@ -1,0 +1,1 @@
+"class Solution(object):\n    def isLongPressedName(self, name, typed):\n        \"\"\"\n        :type name: str\n        :type typed: str\n        :rtype: bool\n        \"\"\"\n        "

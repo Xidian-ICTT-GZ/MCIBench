@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int largestValsFromLabels(vector<int>& values, vector<int>& labels, int numWanted, int useLimit) {\n        \n    }\n};"

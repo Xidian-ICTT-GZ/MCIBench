@@ -1,0 +1,1 @@
+"class RLEIterator {\n\n  RLEIterator(List<int> encoding) {\n    \n  }\n  \n  int next(int n) {\n    \n  }\n}\n\n/**\n * Your RLEIterator object will be instantiated and called as such:\n * RLEIterator obj = RLEIterator(encoding);\n * int param1 = obj.next(n);\n */"

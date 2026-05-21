@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec score_of_string(s :: String.t) :: integer\n  def score_of_string(s) do\n    \n  end\nend"

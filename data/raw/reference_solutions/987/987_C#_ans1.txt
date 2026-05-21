@@ -1,0 +1,37 @@
+public class Solution {
+    public IList<IList<int>> VerticalTraversal(TreeNode root) {
+        List<Tuple<int, int, int>> nodes = new List<Tuple<int, int, int>>();
+        DFS(root, 0, 0, nodes);
+        nodes.Sort((a, b) => {
+            if (a.Item1 != b.Item1) {
+                return a.Item1 - b.Item1;
+            } else if (a.Item2 != b.Item2) {
+                return a.Item2 - b.Item2;
+            } else {
+                return a.Item3 - b.Item3;
+            }
+        });
+        IList<IList<int>> ans = new List<IList<int>>();
+        int size = 0;
+        int lastcol = int.MinValue;
+        foreach (Tuple<int, int, int> tuple in nodes) {
+            int col = tuple.Item1, row = tuple.Item2, value = tuple.Item3;
+            if (col != lastcol) {
+                lastcol = col;
+                ans.Add(new List<int>());
+                size++;
+            }
+            ans[size - 1].Add(value);
+        }
+        return ans;
+    }
+
+    public void DFS(TreeNode node, int row, int col, List<Tuple<int, int, int>> nodes) {
+        if (node == null) {
+            return;
+        }
+        nodes.Add(new Tuple<int, int, int>(col, row, node.val));
+        DFS(node.left, row + 1, col - 1, nodes);
+        DFS(node.right, row + 1, col + 1, nodes);
+    }
+}

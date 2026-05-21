@@ -1,0 +1,21 @@
+impl Solution {
+    pub fn maximum_count(nums: Vec<i32>) -> i32 {
+        fn lower_bound(nums: &Vec<i32>, val: i32) -> usize {
+            let mut l = 0;
+            let mut r = nums.len();
+            while l < r {
+                let m = (l + r) / 2;
+                if nums[m] >= val {
+                    r = m;
+                } else {
+                    l = m + 1;
+                }
+            }
+            l
+        }
+
+        let pos1 = lower_bound(&nums, 0);
+        let pos2 = lower_bound(&nums, 1);
+        pos1.max(nums.len() - pos2) as i32
+    }
+}

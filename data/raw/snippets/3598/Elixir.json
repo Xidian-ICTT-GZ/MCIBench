@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec longest_common_prefix(words :: [String.t]) :: [integer]\n  def longest_common_prefix(words) do\n    \n  end\nend"

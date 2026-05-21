@@ -1,0 +1,1 @@
+"class Solution(object):\n    def supersequences(self, words):\n        \"\"\"\n        :type words: List[str]\n        :rtype: List[List[int]]\n        \"\"\"\n        "

@@ -1,0 +1,38 @@
+typedef struct {
+    int key;
+    int value;
+} Pair;
+
+int maxFrequencyElements(int* nums, int numsSize) {
+    Pair* count = (Pair*)malloc(numsSize * sizeof(Pair));
+    int countSize = 0;
+    for (int i = 0; i < numsSize; i++) {
+        int found = 0;
+        for (int j = 0; j < countSize; j++) {
+            if (count[j].key == nums[i]) {
+                count[j].value++;
+                found = 1;
+                break;
+            }
+        }
+        if (!found) {
+            count[countSize].key = nums[i];
+            count[countSize].value = 1;
+            countSize++;
+        }
+    }
+    int maxf = 0;
+    for (int i = 0; i < countSize; i++) {
+        if (count[i].value > maxf) {
+            maxf = count[i].value;
+        }
+    }
+    int res = 0;
+    for (int i = 0; i < countSize; i++) {
+        if (count[i].value == maxf) {
+            res += maxf;
+        }
+    }
+    free(count);
+    return res;
+}

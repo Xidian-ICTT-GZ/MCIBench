@@ -1,0 +1,1 @@
+"# @param {Integer[][]} rooms\n# @return {Boolean}\ndef can_visit_all_rooms(rooms)\n    \nend"

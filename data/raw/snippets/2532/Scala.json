@@ -1,0 +1,1 @@
+"object Solution {\n    def findCrossingTime(n: Int, k: Int, time: Array[Array[Int]]): Int = {\n        \n    }\n}"

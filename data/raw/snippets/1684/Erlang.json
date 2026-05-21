@@ -1,0 +1,1 @@
+"-spec count_consistent_strings(Allowed :: unicode:unicode_binary(), Words :: [unicode:unicode_binary()]) -> integer().\ncount_consistent_strings(Allowed, Words) ->\n  ."

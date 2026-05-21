@@ -1,0 +1,1 @@
+"# @param {Integer[][]} move_time\n# @return {Integer}\ndef min_time_to_reach(move_time)\n    \nend"

@@ -1,0 +1,1 @@
+"class Solution:\n    def rearrangeBarcodes(self, barcodes: List[int]) -> List[int]:\n        "

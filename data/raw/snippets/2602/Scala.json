@@ -1,0 +1,1 @@
+"object Solution {\n    def minOperations(nums: Array[Int], queries: Array[Int]): List[Long] = {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec largest_triangle_area(points :: [[integer]]) :: float\n  def largest_triangle_area(points) do\n    \n  end\nend"

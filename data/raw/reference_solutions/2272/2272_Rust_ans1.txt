@@ -1,0 +1,35 @@
+use std::collections::HashMap;
+use std::cmp::{max, min};
+
+impl Solution {
+    pub fn largest_variance(s: String) -> i32 {
+        let mut pos: HashMap<char, Vec<usize>> = HashMap::new();
+        for (i, ch) in s.char_indices() {
+            pos.entry(ch).or_insert(Vec::new()).push(i);
+        }
+        let mut ans = 0;
+        for (&c0, pos0) in &pos {
+            for (&c1, pos1) in &pos {
+                if c0 != c1 {
+                    let mut i = 0;
+                    let mut j = 0;
+                    let mut f = 0;
+                    let mut g = i32::MIN;
+                    while i < pos0.len() || j < pos1.len() {
+                        if j == pos1.len() || (i < pos0.len() && pos0[i] < pos1[j]) {
+                            f = max(f, 0) + 1;
+                            g = g + 1;
+                            i += 1;
+                        } else {
+                            g = max(f, max(g, 0)) - 1;
+                            f = max(f, 0) - 1;
+                            j += 1;
+                        }
+                        ans = max(ans, g);
+                    }
+                }
+            }
+        }
+        ans
+    }
+}

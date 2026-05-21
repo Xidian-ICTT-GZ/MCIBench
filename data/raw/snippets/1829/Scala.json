@@ -1,0 +1,1 @@
+"object Solution {\n    def getMaximumXor(nums: Array[Int], maximumBit: Int): Array[Int] = {\n        \n    }\n}"

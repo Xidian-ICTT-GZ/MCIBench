@@ -1,0 +1,25 @@
+static int cmp(const void *a, const void *b) {
+    return *(int *)a - *(int *)b;
+}
+
+int minOperations(int* nums, int numsSize) {
+    qsort(nums, numsSize, sizeof(int), cmp);
+    int sortedUniqueNums[numsSize];
+    sortedUniqueNums[0] = nums[0];
+    int pos = 1;
+    for (int i = 1; i < numsSize; i++) {
+        if (nums[i] != nums[i - 1]) {
+            sortedUniqueNums[pos++] = nums[i];
+        }
+    }
+    int res = numsSize, j = 0;
+    for (int i = 0; i < pos; i++) {
+        int right = sortedUniqueNums[i] + numsSize - 1;
+        while (j < pos && sortedUniqueNums[j] <= right) {
+            res = fmin(res, numsSize - (j - i + 1));
+            j++;
+        }
+    }      
+
+    return res;
+}

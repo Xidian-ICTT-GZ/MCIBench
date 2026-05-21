@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @return {Boolean}\ndef is_possible_to_split(nums)\n    \nend"

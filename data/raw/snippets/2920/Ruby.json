@@ -1,0 +1,1 @@
+"# @param {Integer[][]} edges\n# @param {Integer[]} coins\n# @param {Integer} k\n# @return {Integer}\ndef maximum_points(edges, coins, k)\n    \nend"

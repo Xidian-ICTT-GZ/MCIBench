@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec get_skyline(buildings :: [[integer]]) :: [[integer]]\n  def get_skyline(buildings) do\n    \n  end\nend"

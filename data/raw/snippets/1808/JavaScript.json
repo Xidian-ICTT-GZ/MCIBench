@@ -1,0 +1,1 @@
+"/**\n * @param {number} primeFactors\n * @return {number}\n */\nvar maxNiceDivisors = function(primeFactors) {\n    \n};"

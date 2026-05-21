@@ -1,0 +1,1 @@
+"-spec is_bipartite(Graph :: [[integer()]]) -> boolean().\nis_bipartite(Graph) ->\n  ."

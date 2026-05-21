@@ -1,0 +1,1 @@
+"# @param {Integer[]} source\n# @param {Integer[]} target\n# @param {Integer[][]} allowed_swaps\n# @return {Integer}\ndef minimum_hamming_distance(source, target, allowed_swaps)\n    \nend"

@@ -1,0 +1,1 @@
+"class Solution:\n    def lexicographicallySmallestString(self, s: str) -> str:\n        "

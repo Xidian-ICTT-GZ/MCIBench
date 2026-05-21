@@ -1,0 +1,1 @@
+"(define/contract (longest-diverse-string a b c)\n  (-> exact-integer? exact-integer? exact-integer? string?)\n  )"

@@ -1,0 +1,118 @@
+typedef struct {
+    int index;
+    int value;
+} Pair;
+
+typedef struct Node {
+    Pair data;
+    struct Node *prev;
+    struct Node *next;
+} Node;
+
+typedef struct {
+    Node *head;
+    Node *tail;
+    int queueSize;
+} Dequeue;
+
+Node* createNode(int index, int value) {
+    Node *obj = (Node *)malloc(sizeof(Node));
+    obj->data.index = index;
+    obj->data.value = value;
+    obj->prev = NULL;
+    obj->next = NULL;
+    return obj;
+}
+
+Dequeue *createDequeue() {
+    Dequeue *obj = (Dequeue *)malloc(sizeof(Dequeue));
+    obj->head = NULL;
+    obj->tail = NULL;
+    obj->queueSize = 0;
+    return obj;
+}
+
+int isEmpty(Dequeue* q) {
+    return q->queueSize == 0;
+}
+
+void pushFront(Dequeue* q, int index, int value) {
+    Node *obj = createNode(index, value);
+    if (isEmpty(q)) {
+        q->head = q->tail = obj;
+    } else {
+        obj->next = q->head;
+        q->head->prev = obj;
+        q->head = obj;
+    }
+    q->queueSize++;
+}
+
+void popFront(Dequeue* q) {
+    if (!isEmpty(q)) {
+        q->head = q->head->next;
+        if (q->head != NULL) {
+            free(q->head->prev);
+            q->head->prev = NULL;
+        }
+        q->queueSize--;
+    }
+}
+
+void pushBack(Dequeue* q, int index, int value) {
+    Node *obj = createNode(index, value);
+    if (isEmpty(q)) {
+        q->head = q->tail = obj;
+    } else {
+        q->tail->next = obj;
+        obj->prev = q->tail;
+        q->tail = obj;
+    }
+    q->queueSize++;
+}
+
+void popBack(Dequeue* q) {
+    if (!isEmpty(q)) {
+        q->tail = q->tail->prev;
+        if (q->tail != NULL) {
+            free(q->tail->next);
+            q->tail->next = NULL;
+        }
+        q->queueSize--;
+    }
+}
+
+Pair peekFirst(Dequeue *q) {
+    return q->head->data;
+}
+
+Pair peekLast(Dequeue *q) {
+    return q->tail->data;
+}
+
+void freeDequeue(Dequeue* q) {
+    while (q->head->next) {
+        Node *node = q->head;
+        q->head = q->head->next;
+        free(node);
+    }
+    free(q);
+}
+
+int minimumCoins(int* prices, int pricesSize) {
+    Dequeue* queue = createDequeue();
+    pushFront(queue, pricesSize, 0);
+    for (int i = pricesSize - 1; i >= 0; i--) {
+        while (!isEmpty(queue) && peekLast(queue).index >= 2 * i + 3) {
+            popBack(queue);
+        }
+        int cur = peekLast(queue).value + prices[i];
+        while (!isEmpty(queue) && peekFirst(queue).value >= cur) {
+            popFront(queue);
+        }
+        pushFront(queue, i, cur);
+    }
+    int result = peekFirst(queue).value;
+    freeDequeue(queue);
+    return result;
+}

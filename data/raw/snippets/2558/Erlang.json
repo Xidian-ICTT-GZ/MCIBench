@@ -1,0 +1,1 @@
+"-spec pick_gifts(Gifts :: [integer()], K :: integer()) -> integer().\npick_gifts(Gifts, K) ->\n  ."

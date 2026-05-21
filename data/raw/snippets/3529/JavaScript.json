@@ -1,0 +1,1 @@
+"/**\n * @param {character[][]} grid\n * @param {string} pattern\n * @return {number}\n */\nvar countCells = function(grid, pattern) {\n    \n};"

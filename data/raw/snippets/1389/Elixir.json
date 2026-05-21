@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec create_target_array(nums :: [integer], index :: [integer]) :: [integer]\n  def create_target_array(nums, index) do\n    \n  end\nend"

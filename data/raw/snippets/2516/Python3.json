@@ -1,0 +1,1 @@
+"class Solution:\n    def takeCharacters(self, s: str, k: int) -> int:\n        "

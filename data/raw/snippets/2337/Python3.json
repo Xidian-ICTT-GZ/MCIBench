@@ -1,0 +1,1 @@
+"class Solution:\n    def canChange(self, start: str, target: str) -> bool:\n        "

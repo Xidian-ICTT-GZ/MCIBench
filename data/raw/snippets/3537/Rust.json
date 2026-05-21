@@ -1,0 +1,1 @@
+"impl Solution {\n    pub fn special_grid(n: i32) -> Vec<Vec<i32>> {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"# @param {Integer[]} arr\n# @param {Integer} k\n# @param {Integer} x\n# @return {Integer[]}\ndef find_closest_elements(arr, k, x)\n    \nend"

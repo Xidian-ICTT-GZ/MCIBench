@@ -1,0 +1,1 @@
+"(define/contract (distance-traveled mainTank additionalTank)\n  (-> exact-integer? exact-integer? exact-integer?)\n  )"

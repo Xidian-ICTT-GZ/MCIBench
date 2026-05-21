@@ -1,0 +1,1 @@
+"class Solution {\n    fun handleQuery(nums1: IntArray, nums2: IntArray, queries: Array<IntArray>): LongArray {\n        \n    }\n}"

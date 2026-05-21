@@ -1,0 +1,12 @@
+func maxCoins(piles []int) int {
+    sort.Ints(piles)
+    length := len(piles)
+    rounds := length / 3
+    coins := 0
+    index := length - 2
+    for i := 0; i < rounds; i++ {
+        coins += piles[index]
+        index -= 2
+    }
+    return coins
+}

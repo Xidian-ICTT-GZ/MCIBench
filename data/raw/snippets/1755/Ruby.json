@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @param {Integer} goal\n# @return {Integer}\ndef min_abs_difference(nums, goal)\n    \nend"

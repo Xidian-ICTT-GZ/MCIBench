@@ -1,0 +1,1 @@
+"class Solution {\n    fun maxSatisfied(customers: IntArray, grumpy: IntArray, minutes: Int): Int {\n        \n    }\n}"

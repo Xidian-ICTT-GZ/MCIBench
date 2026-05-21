@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @param {Integer[][]} edge_list\n# @param {Integer[][]} queries\n# @return {Boolean[]}\ndef distance_limited_paths_exist(n, edge_list, queries)\n    \nend"

@@ -1,0 +1,1 @@
+"object Solution {\n    def smallestSufficientTeam(req_skills: Array[String], people: List[List[String]]): Array[Int] = {\n        \n    }\n}"

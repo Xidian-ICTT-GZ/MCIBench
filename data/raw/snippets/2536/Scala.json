@@ -1,0 +1,1 @@
+"object Solution {\n    def rangeAddQueries(n: Int, queries: Array[Array[Int]]): Array[Array[Int]] = {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $board\n     * @return Integer\n     */\n    function slidingPuzzle($board) {\n        \n    }\n}"

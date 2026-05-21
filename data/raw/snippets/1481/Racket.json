@@ -1,0 +1,1 @@
+"(define/contract (find-least-num-of-unique-ints arr k)\n  (-> (listof exact-integer?) exact-integer? exact-integer?)\n  )"

@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<int> getCoprimes(vector<int>& nums, vector<vector<int>>& edges) {\n        \n    }\n};"

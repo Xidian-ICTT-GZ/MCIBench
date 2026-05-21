@@ -1,0 +1,1 @@
+"-spec unique_letter_string(S :: unicode:unicode_binary()) -> integer().\nunique_letter_string(S) ->\n  ."

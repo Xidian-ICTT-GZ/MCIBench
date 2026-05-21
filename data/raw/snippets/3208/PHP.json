@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $colors\n     * @param Integer $k\n     * @return Integer\n     */\n    function numberOfAlternatingGroups($colors, $k) {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"/**\n * Definition for singly-linked list.\n * public class ListNode {\n *     public int val;\n *     public ListNode next;\n *     public ListNode(int x) { val = x; }\n * }\n */\npublic class Solution {\n    public ListNode GetIntersectionNode(ListNode headA, ListNode headB) {\n        \n    }\n}"

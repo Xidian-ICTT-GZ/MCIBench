@@ -1,0 +1,60 @@
+typedef struct {
+    char *key;
+    struct TreeNode *val;
+    UT_hash_handle hh;
+} HashMapItem; 
+
+typedef struct {
+    void *key;
+    UT_hash_handle hh;
+} HashSetItem; 
+
+char* dfs(struct TreeNode* node, HashMapItem **seen, HashSetItem **repeat) {
+    if (!node) {
+        return "";
+    }
+    char *str1 = dfs(node->left, seen, repeat);
+    char *str2 = dfs(node->right, seen, repeat);
+    char *serial = (char *)malloc(sizeof(char *) * (8 + strlen(str1) + strlen(str2)));
+    sprintf(serial, "%d(%s)(%s)", node->val, str1, str2);
+    HashMapItem *pHashMapEntry = NULL;
+    HASH_FIND_STR(*seen, serial, pHashMapEntry);
+    if (pHashMapEntry) {
+        HashSetItem *pHashSetEntry = NULL;
+        HASH_FIND_PTR(*repeat, &(pHashMapEntry->val), pHashSetEntry);
+        if (pHashSetEntry == NULL) {
+            pHashSetEntry = (HashSetItem *)malloc(sizeof(HashSetItem));
+            pHashSetEntry->key = (void *)pHashMapEntry->val;
+            HASH_ADD_PTR(*repeat, key, pHashSetEntry);
+        }
+    } else {
+        pHashMapEntry = (HashMapItem *)malloc(sizeof(HashMapItem));
+        pHashMapEntry->key = serial;
+        pHashMapEntry->val = node;
+        HASH_ADD_STR(*seen, key, pHashMapEntry);
+    }
+    return serial;
+}
+
+struct TreeNode** findDuplicateSubtrees(struct TreeNode* root, int* returnSize){
+    HashMapItem *seen = NULL;
+    HashSetItem *repeat = NULL;
+    dfs(root, &seen, &repeat);
+
+    int count = HASH_COUNT(repeat), pos = 0;
+    struct TreeNode** ret = (struct TreeNode**)malloc(sizeof(struct TreeNode*) * count);
+    HashSetItem *cur, *tmp;
+    HASH_ITER(hh, repeat, cur, tmp) {
+        ret[pos++] = (struct TreeNode*)cur->key;
+        HASH_DEL(repeat, cur);
+        free(cur);            
+    }
+    *returnSize = count;
+    HashMapItem *curMap, *tmpMap;
+    HASH_ITER(hh, seen, curMap, tmpMap) {
+        HASH_DEL(seen, curMap);  
+        free(curMap->key);
+        free(curMap);             
+    }
+    return ret;
+}

@@ -1,0 +1,49 @@
+class Solution:
+    def find(self, uf: List[int], u: int) -> int:
+        if uf[u] == u:
+            return u
+        uf[u] = self.find(uf, uf[u])
+        return uf[u]
+
+    def merge(self, uf: List[int], u: int, v: int):
+        ru, rv = self.find(uf, u), self.find(uf, v)
+        uf[ru] = rv
+
+    def minMalwareSpread(self, graph: List[List[int]], initial: List[int]) -> int:
+        n = len(graph)
+        initialSet = [0] * n
+        for v in initial:
+            initialSet[v] = 1
+        uf = [i for i in range(n)]
+        for u in range(n):
+            if initialSet[u] == 1:
+                continue
+            for v in range(n):
+                if initialSet[v] == 1:
+                    continue
+                if graph[u][v] == 1:
+                    self.merge(uf, u, v)
+        infectedBy = [[] for _ in range(n)]
+        for v in initial:
+            infectedSet = [0] * n
+            for u in range (n):
+                if initialSet[u] == 1 or graph[u][v] == 0:
+                    continue
+                infectedSet[self.find(uf, u)] = 1
+            for u in range(n):
+                if infectedSet[u] == 1:
+                    infectedBy[u].append(v)
+
+        count = [0] * n
+        for u in range(n):
+            if len(infectedBy[u]) != 1:
+                continue
+            v = infectedBy[u][0]
+            for w in range(n):
+                if self.find(uf, w) == self.find(uf, u):
+                    count[v] += 1
+        res = initial[0]
+        for v in initial:
+            if count[v] > count[res] or (count[v] == count[res] and v < res):
+                res = v
+        return res

@@ -1,0 +1,28 @@
+class Solution:
+    def rotateTheBox(self, box: List[List[str]]) -> List[List[str]]:
+        m, n = len(box), len(box[0])
+
+        for i in range(m):
+            q = deque()
+            for j in range(n - 1, -1, -1):
+                if box[i][j] == "*":
+                    
+                    q.clear()
+                elif box[i][j] == "#":
+                    if q:
+                        
+                        pos = q.popleft()
+                        box[i][pos] = "#"
+                        box[i][j] = "."
+                        
+                        q.append(j)
+                else:
+                    
+                    q.append(j)
+
+        
+        ans = [[""] * m for _ in range(n)]
+        for i in range(m):
+            for j in range(n):
+                ans[j][m - i - 1] = box[i][j]
+        return ans

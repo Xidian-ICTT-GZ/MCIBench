@@ -1,0 +1,23 @@
+#define MAX(a, b) ((a) > (b) ? (a) : (b))
+#define MIN(a, b) ((a) < (b) ? (a) : (b))
+
+int beautySum(char * s) {
+    int res = 0, len = strlen(s);
+    for (int i = 0; i < len; i++) {
+        int cnt[26];
+        memset(cnt, 0, sizeof(cnt));
+        int maxFreq = 0;
+        for (int j = i; j < len; j++) {
+            cnt[s[j] - 'a']++;
+            maxFreq = MAX(maxFreq, cnt[s[j] - 'a']);
+            int minFreq = len;
+            for (int k = 0; k < 26; k++) {
+                if (cnt[k] > 0) {
+                    minFreq = MIN(minFreq, cnt[k]);
+                }
+            }
+            res += maxFreq - minFreq;
+        }
+    }
+    return res;
+}

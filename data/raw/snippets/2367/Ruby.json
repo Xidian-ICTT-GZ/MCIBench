@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @param {Integer} diff\n# @return {Integer}\ndef arithmetic_triplets(nums, diff)\n    \nend"

@@ -1,0 +1,1 @@
+"-spec superpalindromes_in_range(Left :: unicode:unicode_binary(), Right :: unicode:unicode_binary()) -> integer().\nsuperpalindromes_in_range(Left, Right) ->\n  ."

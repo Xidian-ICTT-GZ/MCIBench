@@ -1,0 +1,1 @@
+"(define/contract (distribute-candies candies num_people)\n  (-> exact-integer? exact-integer? (listof exact-integer?))\n  )"

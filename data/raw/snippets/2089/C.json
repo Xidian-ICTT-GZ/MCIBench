@@ -1,0 +1,1 @@
+"/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* targetIndices(int* nums, int numsSize, int target, int* returnSize) {\n    \n}"

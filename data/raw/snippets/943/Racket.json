@@ -1,0 +1,1 @@
+"(define/contract (shortest-superstring words)\n  (-> (listof string?) string?)\n  )"

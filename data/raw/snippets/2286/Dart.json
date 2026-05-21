@@ -1,0 +1,1 @@
+"class BookMyShow {\n\n  BookMyShow(int n, int m) {\n    \n  }\n  \n  List<int> gather(int k, int maxRow) {\n    \n  }\n  \n  bool scatter(int k, int maxRow) {\n    \n  }\n}\n\n/**\n * Your BookMyShow object will be instantiated and called as such:\n * BookMyShow obj = BookMyShow(n, m);\n * List<int> param1 = obj.gather(k,maxRow);\n * bool param2 = obj.scatter(k,maxRow);\n */"

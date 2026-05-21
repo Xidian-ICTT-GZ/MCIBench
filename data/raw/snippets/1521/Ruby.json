@@ -1,0 +1,1 @@
+"# @param {Integer[]} arr\n# @param {Integer} target\n# @return {Integer}\ndef closest_to_target(arr, target)\n    \nend"

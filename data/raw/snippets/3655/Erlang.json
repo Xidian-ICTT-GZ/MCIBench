@@ -1,0 +1,1 @@
+"-spec xor_after_queries(Nums :: [integer()], Queries :: [[integer()]]) -> integer().\nxor_after_queries(Nums, Queries) ->\n  ."

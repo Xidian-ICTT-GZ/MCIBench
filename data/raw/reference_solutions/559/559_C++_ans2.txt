@@ -1,0 +1,25 @@
+class Solution {
+public:
+    int maxDepth(Node* root) {
+        if (root == nullptr) {
+            return 0;
+        }
+        queue<Node *> qu;
+        qu.push(root);
+        int ans = 0;
+        while (!qu.empty()) {
+            int size = qu.size();
+            while (size > 0) {
+                Node * node = qu.front();
+                qu.pop();
+                vector<Node *> children = node->children;
+                for (auto child : children) {
+                    qu.push(child);
+                }
+                size--;
+            }
+            ans++;
+        }
+        return ans;
+    }
+};

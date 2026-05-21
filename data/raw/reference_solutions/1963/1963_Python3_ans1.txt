@@ -1,0 +1,10 @@
+class Solution:
+    def minSwaps(self, s: str) -> int:
+        cnt = mincnt = 0
+        for ch in s:
+            if ch == '[':
+                cnt += 1
+            else:
+                cnt -= 1
+                mincnt = min(mincnt, cnt)
+        return (-mincnt + 1) // 2

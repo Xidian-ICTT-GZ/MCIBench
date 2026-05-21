@@ -1,0 +1,1 @@
+"public class Solution {\n\n    public Solution(int m, int n) {\n        \n    }\n    \n    public int[] Flip() {\n        \n    }\n    \n    public void Reset() {\n        \n    }\n}\n\n/**\n * Your Solution object will be instantiated and called as such:\n * Solution obj = new Solution(m, n);\n * int[] param_1 = obj.Flip();\n * obj.Reset();\n */"

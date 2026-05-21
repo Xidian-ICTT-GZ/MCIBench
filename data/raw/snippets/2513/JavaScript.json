@@ -1,0 +1,1 @@
+"/**\n * @param {number} divisor1\n * @param {number} divisor2\n * @param {number} uniqueCnt1\n * @param {number} uniqueCnt2\n * @return {number}\n */\nvar minimizeSet = function(divisor1, divisor2, uniqueCnt1, uniqueCnt2) {\n    \n};"

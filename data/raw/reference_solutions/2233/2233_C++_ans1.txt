@@ -1,0 +1,18 @@
+class Solution {
+public:
+    int maximumProduct(vector<int>& nums, int k) {
+        int mod = 1000000007;
+        make_heap(nums.begin(), nums.end(), greater<int>());   
+        while (k--){
+            
+            pop_heap(nums.begin(), nums.end(), greater<int>());
+            ++nums.back();
+            push_heap(nums.begin(), nums.end(), greater<int>());
+        }
+        int res = 1;
+        for (int num: nums) {
+            res = (long long) num * res % mod;
+        }
+        return res;
+    }
+};

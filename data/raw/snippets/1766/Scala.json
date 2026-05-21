@@ -1,0 +1,1 @@
+"object Solution {\n    def getCoprimes(nums: Array[Int], edges: Array[Array[Int]]): Array[Int] = {\n        \n    }\n}"

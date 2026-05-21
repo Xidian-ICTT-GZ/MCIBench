@@ -1,0 +1,1 @@
+"/**\n * @param {string[]} queries\n * @param {string[]} words\n * @return {number[]}\n */\nvar numSmallerByFrequency = function(queries, words) {\n    \n};"

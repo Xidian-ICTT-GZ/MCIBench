@@ -1,0 +1,1 @@
+"class Solution(object):\n    def flipgame(self, fronts, backs):\n        \"\"\"\n        :type fronts: List[int]\n        :type backs: List[int]\n        :rtype: int\n        \"\"\"\n        "

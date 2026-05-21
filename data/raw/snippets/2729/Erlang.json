@@ -1,0 +1,1 @@
+"-spec is_fascinating(N :: integer()) -> boolean().\nis_fascinating(N) ->\n  ."

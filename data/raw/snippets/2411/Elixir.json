@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec smallest_subarrays(nums :: [integer]) :: [integer]\n  def smallest_subarrays(nums) do\n    \n  end\nend"

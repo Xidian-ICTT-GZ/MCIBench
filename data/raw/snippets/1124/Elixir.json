@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec longest_wpi(hours :: [integer]) :: integer\n  def longest_wpi(hours) do\n    \n  end\nend"

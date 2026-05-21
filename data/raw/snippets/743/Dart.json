@@ -1,0 +1,1 @@
+"class Solution {\n  int networkDelayTime(List<List<int>> times, int n, int k) {\n\n  }\n}"

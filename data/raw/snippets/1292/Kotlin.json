@@ -1,0 +1,1 @@
+"class Solution {\n    fun maxSideLength(mat: Array<IntArray>, threshold: Int): Int {\n        \n    }\n}"

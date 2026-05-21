@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @param {Integer[][]} edges\n# @param {Integer[]} restricted\n# @return {Integer}\ndef reachable_nodes(n, edges, restricted)\n    \nend"

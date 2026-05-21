@@ -1,0 +1,1 @@
+"class Solution:\n    def sumOfGoodSubsequences(self, nums: List[int]) -> int:\n        "

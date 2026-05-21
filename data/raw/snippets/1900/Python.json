@@ -1,0 +1,1 @@
+"class Solution(object):\n    def earliestAndLatest(self, n, firstPlayer, secondPlayer):\n        \"\"\"\n        :type n: int\n        :type firstPlayer: int\n        :type secondPlayer: int\n        :rtype: List[int]\n        \"\"\"\n        "

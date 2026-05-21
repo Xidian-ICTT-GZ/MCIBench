@@ -1,0 +1,1 @@
+"-spec distribute_candies(CandyType :: [integer()]) -> integer().\ndistribute_candies(CandyType) ->\n  ."

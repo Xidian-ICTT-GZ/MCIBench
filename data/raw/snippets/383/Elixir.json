@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec can_construct(ransom_note :: String.t, magazine :: String.t) :: boolean\n  def can_construct(ransom_note, magazine) do\n    \n  end\nend"

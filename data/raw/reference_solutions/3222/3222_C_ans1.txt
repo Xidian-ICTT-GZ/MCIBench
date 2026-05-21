@@ -1,0 +1,4 @@
+char* winningPlayer(int x, int y) {
+    int ops = fmin(x, y / 4);
+    return ops % 2 == 1 ? "Alice" : "Bob";
+}

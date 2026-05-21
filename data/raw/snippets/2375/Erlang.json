@@ -1,0 +1,1 @@
+"-spec smallest_number(Pattern :: unicode:unicode_binary()) -> unicode:unicode_binary().\nsmallest_number(Pattern) ->\n  ."

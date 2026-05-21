@@ -1,0 +1,28 @@
+static int cmp(const void *a, const void *b) {
+    return *(int *)a - *(int *)b;
+}
+
+int binarySearch(const int *arr, int lo, int hi, long long target) {
+    int res = hi + 1;
+    while (lo <= hi) {
+        int mid = lo + (hi - lo) / 2;
+        if (arr[mid] > target) {
+            res = mid;
+            hi = mid - 1;
+        } else {
+            lo = mid + 1;
+        }
+    }
+    return res;
+}
+
+int* successfulPairs(int* spells, int spellsSize, int* potions, int potionsSize, long long success, int* returnSize) {
+    qsort(potions, potionsSize, sizeof(int), cmp);
+    int *res = (int *)calloc(spellsSize, sizeof(int));
+    for (int i = 0; i < spellsSize; i++) {
+        long long t = (success - 1) / spells[i];
+        res[i] = potionsSize - binarySearch(potions, 0, potionsSize - 1, t);
+    }
+    *returnSize = spellsSize;
+    return res;
+}

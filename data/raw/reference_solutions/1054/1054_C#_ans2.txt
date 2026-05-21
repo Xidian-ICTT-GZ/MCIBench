@@ -1,0 +1,36 @@
+public class Solution {
+    public int[] RearrangeBarcodes(int[] barcodes) {
+        int length = barcodes.Length;
+        if (length < 2) {
+            return barcodes;
+        }
+
+        IDictionary<int, int> counts = new Dictionary<int, int>();
+        int maxCount = 0;
+        foreach (int b in barcodes) {
+            counts.TryAdd(b, 0);
+            counts[b]++;
+            maxCount = Math.Max(maxCount, counts[b]);
+        }
+
+        int evenIndex = 0;
+        int oddIndex = 1;
+        int halfLength = length / 2;
+        int[] res = new int[length];
+        foreach (KeyValuePair<int, int> pair in counts) {
+            int x = pair.Key;
+            int count = pair.Value;
+            while (count > 0 && count <= halfLength && oddIndex < length) {
+                res[oddIndex] = x;
+                count--;
+                oddIndex += 2;
+            }
+            while (count > 0) {
+                res[evenIndex] = x;
+                count--;
+                evenIndex += 2;
+            }
+        }
+        return res;
+    }
+}

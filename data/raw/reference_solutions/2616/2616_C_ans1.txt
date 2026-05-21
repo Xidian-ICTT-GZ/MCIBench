@@ -1,0 +1,32 @@
+int cmp(const void* a, const void* b) {
+    return (*(int*)a - *(int*)b);
+}
+
+int check(int* nums, int n, int p, int mx) {
+    int cnt = 0;
+    for (int i = 0; i < n - 1; ) {
+        if (nums[i + 1] - nums[i] <= mx) {
+            cnt++;
+            i += 2;
+        } else {
+            i++;
+        }
+    }
+    return cnt >= p;
+}
+
+int minimizeMax(int* nums, int numsSize, int p) {
+    qsort(nums, numsSize, sizeof(int), cmp);
+    int left = 0, right = nums[numsSize - 1] - nums[0];
+
+    while (left < right) {
+        int mid = (left + right) / 2;
+        if (check(nums, numsSize, p, mid)) {
+            right = mid;
+        } else {
+            left = mid + 1;
+        }
+    }
+
+    return left;
+}

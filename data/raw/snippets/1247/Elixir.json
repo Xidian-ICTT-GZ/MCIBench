@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec minimum_swap(s1 :: String.t, s2 :: String.t) :: integer\n  def minimum_swap(s1, s2) do\n    \n  end\nend"

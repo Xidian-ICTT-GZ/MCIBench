@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec min_edge_reversals(n :: integer, edges :: [[integer]]) :: [integer]\n  def min_edge_reversals(n, edges) do\n    \n  end\nend"

@@ -1,0 +1,9 @@
+var countPrefixes = function(words, s) {
+    let res = 0;
+    for (let word of words) {
+        if (s.startsWith(word)) {
+            res++;
+        }
+    }
+    return res;
+};

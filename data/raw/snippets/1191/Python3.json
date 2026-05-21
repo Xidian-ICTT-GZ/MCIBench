@@ -1,0 +1,1 @@
+"class Solution:\n    def kConcatenationMaxSum(self, arr: List[int], k: int) -> int:\n        "

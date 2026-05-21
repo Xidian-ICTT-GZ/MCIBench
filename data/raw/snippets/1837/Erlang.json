@@ -1,0 +1,1 @@
+"-spec sum_base(N :: integer(), K :: integer()) -> integer().\nsum_base(N, K) ->\n  ."

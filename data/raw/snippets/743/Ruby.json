@@ -1,0 +1,1 @@
+"# @param {Integer[][]} times\n# @param {Integer} n\n# @param {Integer} k\n# @return {Integer}\ndef network_delay_time(times, n, k)\n    \nend"

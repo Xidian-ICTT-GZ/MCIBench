@@ -1,0 +1,1 @@
+"object Solution {\n    def countPalindromePaths(parent: List[Int], s: String): Long = {\n        \n    }\n}"

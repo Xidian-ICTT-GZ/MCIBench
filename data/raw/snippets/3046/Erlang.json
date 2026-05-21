@@ -1,0 +1,1 @@
+"-spec is_possible_to_split(Nums :: [integer()]) -> boolean().\nis_possible_to_split(Nums) ->\n  ."

@@ -1,0 +1,54 @@
+struct ListNode *createListNode(int val) {
+    struct ListNode *obj = (struct ListNode *)malloc(sizeof(struct ListNode));
+    obj->val = val;
+    obj->next = NULL;
+    return obj;
+}
+
+void freeList(struct ListNode *list) {
+    while (list) {
+        struct ListNode *p = list;
+        list = list->next;
+    }
+}
+
+int maximumLength(char* s) {
+    int n = strlen(s);
+    struct ListNode *cnt[26];
+    for (int i = 0; i < 26; i++) {
+        cnt[i] = NULL;
+    }
+    for (int i = 0, j = 0; i < n; i = j) {
+        while (j < n && s[j] == s[i]) {
+            j++;
+        }
+        struct ListNode *node = createListNode(j - i);
+        node->next = cnt[s[i] - 'a'];
+        cnt[s[i] - 'a'] = node;
+    }
+    
+    int res = -1;
+    for (int i = 0; i < 26; i++) {
+        int lo = 1, hi = n - 2;
+        while (lo <= hi) {
+            int mid = (lo + hi) >> 1;
+            int count = 0;
+            for (struct ListNode *p = cnt[i]; p; p = p->next) {
+                if (p->val >= mid) {
+                    count += p->val - mid + 1;
+                }
+            }
+            if (count >= 3) {
+                res = fmax(res, mid);
+                lo = mid + 1;
+            } else {
+                hi = mid - 1;
+            }
+        }
+    }
+
+    for (int i = 0; i < 26; i++) {
+        free(cnt[i]);
+    }
+    return res;
+}

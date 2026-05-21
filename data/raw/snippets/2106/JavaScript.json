@@ -1,0 +1,1 @@
+"/**\n * @param {number[][]} fruits\n * @param {number} startPos\n * @param {number} k\n * @return {number}\n */\nvar maxTotalFruits = function(fruits, startPos, k) {\n    \n};"

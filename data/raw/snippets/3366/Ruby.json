@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @param {Integer} k\n# @param {Integer} op1\n# @param {Integer} op2\n# @return {Integer}\ndef min_array_sum(nums, k, op1, op2)\n    \nend"

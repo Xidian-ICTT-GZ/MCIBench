@@ -1,0 +1,1 @@
+"class Solution:\n    def kthPalindrome(self, queries: List[int], intLength: int) -> List[int]:\n        "

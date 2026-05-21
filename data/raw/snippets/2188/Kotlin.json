@@ -1,0 +1,1 @@
+"class Solution {\n    fun minimumFinishTime(tires: Array<IntArray>, changeTime: Int, numLaps: Int): Int {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec num_perms_di_sequence(s :: String.t) :: integer\n  def num_perms_di_sequence(s) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"class Solution:\n    def subarrayBitwiseORs(self, arr: List[int]) -> int:\n        "

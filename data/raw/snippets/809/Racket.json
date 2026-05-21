@@ -1,0 +1,1 @@
+"(define/contract (expressive-words s words)\n  (-> string? (listof string?) exact-integer?)\n  )"

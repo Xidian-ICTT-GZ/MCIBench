@@ -1,0 +1,1 @@
+"class Solution(object):\n    def xorQueries(self, arr, queries):\n        \"\"\"\n        :type arr: List[int]\n        :type queries: List[List[int]]\n        :rtype: List[int]\n        \"\"\"\n        "

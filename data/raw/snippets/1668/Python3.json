@@ -1,0 +1,1 @@
+"class Solution:\n    def maxRepeating(self, sequence: str, word: str) -> int:\n        "

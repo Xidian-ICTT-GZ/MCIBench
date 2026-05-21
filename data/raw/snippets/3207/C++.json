@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    long long maximumPoints(vector<int>& enemyEnergies, int currentEnergy) {\n        \n    }\n};"

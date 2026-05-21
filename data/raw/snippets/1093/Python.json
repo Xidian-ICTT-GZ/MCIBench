@@ -1,0 +1,1 @@
+"class Solution(object):\n    def sampleStats(self, count):\n        \"\"\"\n        :type count: List[int]\n        :rtype: List[float]\n        \"\"\"\n        "

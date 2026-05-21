@@ -1,0 +1,12 @@
+public class Solution {
+    public bool SearchMatrix(int[][] matrix, int target) {
+        foreach (int[] row in matrix) {
+            foreach (int element in row) {
+                if (element == target) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+}

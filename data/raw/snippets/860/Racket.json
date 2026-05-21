@@ -1,0 +1,1 @@
+"(define/contract (lemonade-change bills)\n  (-> (listof exact-integer?) boolean?)\n  )"

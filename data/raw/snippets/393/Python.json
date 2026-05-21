@@ -1,0 +1,1 @@
+"class Solution(object):\n    def validUtf8(self, data):\n        \"\"\"\n        :type data: List[int]\n        :rtype: bool\n        \"\"\"\n        "

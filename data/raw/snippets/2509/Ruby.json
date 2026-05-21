@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @param {Integer[][]} queries\n# @return {Integer[]}\ndef cycle_length_queries(n, queries)\n    \nend"

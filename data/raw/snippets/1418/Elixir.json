@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec display_table(orders :: [[String.t]]) :: [[String.t]]\n  def display_table(orders) do\n    \n  end\nend"

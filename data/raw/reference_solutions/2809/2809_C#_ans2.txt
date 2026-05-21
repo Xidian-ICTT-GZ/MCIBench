@@ -1,0 +1,30 @@
+public class Solution {
+    public int MinimumTime(IList<int> nums1, IList<int> nums2, int x) {
+        int n = nums1.Count, s1 = 0, s2 = 0;
+        int[] dp = new int[n + 1];
+        IList<IList<int>> nums = new List<IList<int>>();
+        for (int i = 0; i < n; i++) {
+            int a = nums1[i], b = nums2[i];
+            IList<int> list = new List<int>();
+            list.Add(b);
+            list.Add(a);
+            nums.Add(list);
+            s1 += a;
+            s2 += b;
+        }
+        ((List<IList<int>>) nums).Sort((a, b) => a[0] - b[0]);
+
+        for (int j = 1; j <= n; ++j) {
+            int b = nums[j - 1][0], a = nums[j - 1][1];
+            for (int i = j; i > 0; --i) {
+                dp[i] = Math.Max(dp[i], dp[i - 1] + i * b + a);
+            }
+        }
+        for (int i = 0; i <= n; i++) {
+            if (s2 * i + s1 - dp[i] <= x) {
+                return i;
+            }
+        }
+        return -1;
+    }
+}

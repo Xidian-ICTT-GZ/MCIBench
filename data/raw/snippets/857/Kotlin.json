@@ -1,0 +1,1 @@
+"class Solution {\n    fun mincostToHireWorkers(quality: IntArray, wage: IntArray, k: Int): Double {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"-spec advantage_count(Nums1 :: [integer()], Nums2 :: [integer()]) -> [integer()].\nadvantage_count(Nums1, Nums2) ->\n  ."

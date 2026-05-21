@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int minimumEffort(vector<vector<int>>& tasks) {\n        \n    }\n};"

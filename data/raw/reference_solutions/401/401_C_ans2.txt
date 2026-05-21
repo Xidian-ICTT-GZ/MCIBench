@@ -1,0 +1,14 @@
+char** readBinaryWatch(int turnedOn, int* returnSize) {
+    char** ans = malloc(sizeof(char*) * 12 * 60);
+    *returnSize = 0;
+    for (int i = 0; i < 1024; ++i) {
+        int h = i >> 6, m = i & 63;  
+        if (h < 12 && m < 60 && __builtin_popcount(i) == turnedOn) {
+            char* tmp = malloc(sizeof(char) * 6);
+            sprintf(tmp, "%d:%02d", h, m);
+            ans[(*returnSize)++] = tmp;
+        }
+    }
+
+    return ans;
+}

@@ -1,0 +1,1 @@
+"/**\n * @param {string[]} pieces\n * @param {number[][]} positions\n * @return {number}\n */\nvar countCombinations = function(pieces, positions) {\n    \n};"

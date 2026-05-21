@@ -1,0 +1,1 @@
+"/**\n * @param {number} num\n * @return {string}\n */\nvar convertToBase7 = function(num) {\n    \n};"

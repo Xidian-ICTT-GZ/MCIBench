@@ -1,0 +1,1 @@
+"(define/contract (find-peaks mountain)\n  (-> (listof exact-integer?) (listof exact-integer?))\n  )"

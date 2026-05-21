@@ -1,0 +1,48 @@
+class Solution:
+    def longestCommonSubpath(self, n: int, paths: List[List[int]]) -> int:
+        
+        
+        
+        mod = (10**9 + 7) * (10**9 + 9)
+
+        
+        
+        base = random.randint(10**6, 10**7)
+        
+        m = len(paths)
+        
+        left, right, ans = 1, len(min(paths, key=lambda p: len(p))), 0
+        while left <= right:
+            length = (left + right) // 2
+            mult = pow(base, length, mod)
+            s = set()
+            check = True
+
+            for i in range(m):
+                hashvalue = 0
+                
+                for j in range(length):
+                    hashvalue = (hashvalue * base + paths[i][j]) % mod
+
+                t = set()
+                
+                
+                if i == 0 or hashvalue in s:
+                    t.add(hashvalue)
+                
+                for j in range(length, len(paths[i])):
+                    hashvalue = (hashvalue * base - paths[i][j - length] * mult + paths[i][j]) % mod
+                    if i == 0 or hashvalue in s:
+                        t.add(hashvalue)
+                if not t:
+                    check = False
+                    break
+                s = t
+            
+            if check:
+                ans = length
+                left = length + 1
+            else:
+                right = length - 1
+        
+        return ans

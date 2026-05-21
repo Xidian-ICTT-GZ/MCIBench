@@ -1,0 +1,42 @@
+class Solution:
+    def possiblyEquals(self, s1: str, s2: str) -> bool:
+        m, n = len(s1), len(s2)
+        
+        @cache
+        def dfs(i: int, j: int, which: int, rest: int) -> bool:
+            if which == 0:
+                if j == n:
+                    return i == m and rest == 0
+                elif s2[j].isalpha():
+                    if rest == 0 and i != m and s1[i].isalpha():
+                        return (dfs(i + 1, j + 1, 0, 0) if s1[i] == s2[j] else False)
+                    else:
+                        return (dfs(i, j + 1, 0, rest - 1) if rest >= 1 else dfs(i, j + 1, 1, 1))
+                else:
+                    x, k = 0, j
+                    while k < n and s2[k].isdigit():
+                        x = x * 10 + int(s2[k])
+                        if (rest >= x and dfs(i, k + 1, 0, rest - x)) or (rest < x and dfs(i, k + 1, 1, x - rest)):
+                            return True
+                        k += 1
+                    return False
+            else:
+                if i == m:
+                    return j == n and rest == 0
+                elif s1[i].isalpha():
+                    if rest == 0 and j != n and s2[j].isalpha():
+                        return (dfs(i + 1, j + 1, 0, 0) if s1[i] == s2[j] else False)
+                    else:
+                        return (dfs(i + 1, j, 1, rest - 1) if rest >= 1 else dfs(i + 1, j, 0, 1))
+                else:
+                    x, k = 0, i
+                    while k < m and s1[k].isdigit():
+                        x = x * 10 + int(s1[k])
+                        if (rest >= x and dfs(k + 1, j, 1, rest - x)) or (rest < x and dfs(k + 1, j, 0, x - rest)):
+                            return True
+                        k += 1
+                    return False
+
+        ans = dfs(0, 0, 0, 0)
+        dfs.cache_clear()
+        return ans

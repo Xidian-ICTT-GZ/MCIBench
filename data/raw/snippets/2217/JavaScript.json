@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} queries\n * @param {number} intLength\n * @return {number[]}\n */\nvar kthPalindrome = function(queries, intLength) {\n    \n};"

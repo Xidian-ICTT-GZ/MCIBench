@@ -1,0 +1,92 @@
+#define MAX(a, b) ((a) > (b) ? (a) : (b))
+
+typedef struct {
+    int key;
+    UT_hash_handle hh;
+} HashItem; 
+
+HashItem *hashFindItem(HashItem **obj, int key) {
+    HashItem *pEntry = NULL;
+    HASH_FIND_INT(*obj, &key, pEntry);
+    return pEntry;
+}
+
+bool hashAddItem(HashItem **obj, int key) {
+    if (hashFindItem(obj, key)) {
+        return false;
+    }
+    HashItem *pEntry = (HashItem *)malloc(sizeof(HashItem));
+    pEntry->key = key;
+    HASH_ADD_INT(*obj, key, pEntry);
+    return true;
+}
+
+void hashFree(HashItem **obj) {
+    HashItem *curr = NULL, *tmp = NULL;
+    HASH_ITER(hh, *obj, curr, tmp) {
+        HASH_DEL(*obj, curr);  
+        free(curr);             
+    }
+}
+
+static inline bool valid(int n, int x, int y) {
+    return x >= 0 && x < n && y >= 0 && y < n;
+}
+
+const int d[5] = {0, -1, 0, 1, 0};
+
+static int dfs(const int** grid, int n, int x, int y, int** tag, int t) {
+    int res = 1;
+    tag[x][y] = t;
+    for (int i = 0; i < 4; i++) {
+        int x1 = x + d[i], y1 = y + d[i + 1];
+        if (valid(n, x1, y1) && grid[x1][y1] == 1 && tag[x1][y1] == 0) {
+            res += dfs(grid, n, x1, y1, tag, t);
+        }
+    }
+    return res;
+}
+
+int largestIsland(int** grid, int gridSize, int* gridColSize){
+    int n = gridSize, res = 0;
+    int **tag = (int **)malloc(sizeof(int *) * n);
+    for (int i = 0; i < n; i++) {
+        tag[i] = (int *)malloc(sizeof(int) * n);
+        memset(tag[i], 0, sizeof(int) * n);
+    }
+    int *area = (int *)malloc(sizeof(int) * (n * n + 1));
+    memset(area, 0, sizeof(int) * (n * n + 1));
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            if (grid[i][j] == 1 && tag[i][j] == 0) {
+                int t = i * n + j + 1;
+                area[t] = dfs(grid, n, i, j, tag, t);
+                res = MAX(res, area[t]);
+            }
+        }
+    }
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            if (grid[i][j] == 0) {
+                int z = 1;
+                HashItem *connected = NULL;
+                for (int k = 0; k < 4; k++) {
+                    int x = i + d[k], y = j + d[k + 1];
+                    if (!valid(n, x, y) || tag[x][y] == 0 || hashFindItem(&connected, tag[x][y])) {
+                        continue;
+                    }
+                    z += area[tag[x][y]];
+                    hashAddItem(&connected, tag[x][y]);
+                }
+                res = MAX(res, z);
+                hashFree(&connected);
+            }
+        }
+    }
+    free(area);
+    for (int i = 0; i < n; i++) {
+        free(tag[i]);
+    }
+    free(tag);
+    return res;
+}

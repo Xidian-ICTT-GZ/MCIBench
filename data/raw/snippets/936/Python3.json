@@ -1,0 +1,1 @@
+"class Solution:\n    def movesToStamp(self, stamp: str, target: str) -> List[int]:\n        "

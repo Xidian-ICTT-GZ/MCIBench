@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} queries\n * @param {number} m\n * @return {number[]}\n */\nvar processQueries = function(queries, m) {\n    \n};"

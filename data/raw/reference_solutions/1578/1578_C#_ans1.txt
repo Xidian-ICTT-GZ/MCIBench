@@ -1,0 +1,19 @@
+public class Solution {
+    public int MinCost(string colors, int[] neededTime) {
+        int i = 0, len = colors.Length;
+        int ret = 0;
+        while (i < len) {
+            char ch = colors[i];
+            int maxValue = 0;
+            int sum = 0;
+
+            while (i < len && colors[i] == ch) {
+                maxValue = Math.Max(maxValue, neededTime[i]);
+                sum += neededTime[i];
+                i++;
+            }
+            ret += sum - maxValue;
+        }
+        return ret;
+    }
+}

@@ -1,0 +1,111 @@
+typedef struct {
+    int key;
+    UT_hash_handle hh;
+} HashItem; 
+
+HashItem *hashFindItem(HashItem **obj, int key) {
+    HashItem *pEntry = NULL;
+    HASH_FIND_INT(*obj, &key, pEntry);
+    return pEntry;
+}
+
+bool hashAddItem(HashItem **obj, int key) {
+    if (hashFindItem(obj, key)) {
+        return false;
+    }
+    HashItem *pEntry = (HashItem *)malloc(sizeof(HashItem));
+    pEntry->key = key;
+    HASH_ADD_INT(*obj, key, pEntry);
+    return true;
+}
+
+void hashFree(HashItem **obj) {
+    HashItem *curr = NULL, *tmp = NULL;
+    HASH_ITER(hh, *obj, curr, tmp) {
+        HASH_DEL(*obj, curr);  
+        free(curr);
+    }
+}
+
+struct ListNode *creatListNode(int val) {
+    struct ListNode *obj = (struct ListNode *)malloc(sizeof(struct ListNode));
+    obj->val = val;
+    obj->next = NULL;
+    return obj;
+}
+
+static int cmp(const void *a, const void *b) {
+    return *(int *)a - *(int *)b;
+}
+
+void freeList(struct ListNode *list) {
+    while (list) {
+        struct ListNode *p = list;
+        list = list->next;
+        free(p);
+    }
+}
+
+int** getAncestors(int n, int** edges, int edgesSize, int* edgesColSize, int* returnSize, int** returnColumnSizes) {
+    HashItem *anc[n]; 
+    struct ListNode *e[n]; 
+    int indeg[n]; 
+
+    
+    for (int i = 0; i < n; i++) {
+        anc[i] = NULL;
+        e[i] = NULL;
+        indeg[i] = 0;
+    }
+    for (int i = 0; i <edgesSize; i++) {
+        int x = edges[i][0], y = edges[i][1];
+        struct ListNode *node = creatListNode(y);
+        node->next = e[x];
+        e[x] = node;
+        ++indeg[y];
+    }
+  
+    
+    int queue[n];
+    int head = 0, tail = 0;
+    for (int i = 0; i < n; ++i) {
+        if (!indeg[i]) {
+            queue[tail++] = i;
+        }
+    }
+    while (head != tail) {
+        int u = queue[head++];
+        for (struct ListNode *p = e[u]; p; p = p->next) {
+            int v = p->val;
+            
+            hashAddItem(&anc[v], u);
+            for (HashItem *pEntry = anc[u]; pEntry != NULL; pEntry = pEntry->hh.next) {
+                int i = pEntry->key;
+                hashAddItem(&anc[v], i);
+            }
+            --indeg[v];
+            if (!indeg[v]) {
+                queue[tail++] = v;
+            }
+        }
+    }
+
+    
+    *returnSize = n;
+    int **res = (int *)malloc(sizeof(int *) * n);
+    *returnColumnSizes = (int *)malloc(sizeof(int) * n);
+    for (int i = 0; i < n; ++i) {
+        int m = HASH_COUNT(anc[i]);
+        int pos = 0;
+        (*returnColumnSizes)[i] = m;
+        res[i] = (int *)malloc(sizeof(int) * m);
+        for (HashItem *pEntry = anc[i]; pEntry != NULL; pEntry = pEntry->hh.next) {
+            res[i][pos++] = pEntry->key;
+        }
+        qsort(res[i], m, sizeof(int), cmp);
+        hashFree(&anc[i]);
+        freeList(e[i]);
+    }
+
+    return res;
+}

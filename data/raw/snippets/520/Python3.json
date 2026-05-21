@@ -1,0 +1,1 @@
+"class Solution:\n    def detectCapitalUse(self, word: str) -> bool:\n        "

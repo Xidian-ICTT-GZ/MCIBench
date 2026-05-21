@@ -1,0 +1,1 @@
+"class Solution(object):\n    def distMoney(self, money, children):\n        \"\"\"\n        :type money: int\n        :type children: int\n        :rtype: int\n        \"\"\"\n        "

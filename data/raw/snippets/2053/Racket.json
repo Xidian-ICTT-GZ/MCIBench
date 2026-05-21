@@ -1,0 +1,1 @@
+"(define/contract (kth-distinct arr k)\n  (-> (listof string?) exact-integer? string?)\n  )"

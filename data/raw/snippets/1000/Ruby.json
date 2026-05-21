@@ -1,0 +1,1 @@
+"# @param {Integer[]} stones\n# @param {Integer} k\n# @return {Integer}\ndef merge_stones(stones, k)\n    \nend"

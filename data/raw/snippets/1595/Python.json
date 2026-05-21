@@ -1,0 +1,1 @@
+"class Solution(object):\n    def connectTwoGroups(self, cost):\n        \"\"\"\n        :type cost: List[List[int]]\n        :rtype: int\n        \"\"\"\n        "

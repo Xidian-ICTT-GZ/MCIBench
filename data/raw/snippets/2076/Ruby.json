@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @param {Integer[][]} restrictions\n# @param {Integer[][]} requests\n# @return {Boolean[]}\ndef friend_requests(n, restrictions, requests)\n    \nend"

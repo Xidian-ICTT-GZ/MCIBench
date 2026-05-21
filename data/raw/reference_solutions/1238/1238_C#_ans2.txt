@@ -1,0 +1,9 @@
+public class Solution {
+    public IList<int> CircularPermutation(int n, int start) {
+        IList<int> ret = new List<int>();
+        for (int i = 0; i < 1 << n; i++) {
+            ret.Add((i >> 1) ^ i ^ start);
+        }
+        return ret;
+    }
+}

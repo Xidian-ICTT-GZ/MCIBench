@@ -1,0 +1,1 @@
+"class Solution:\n    def distMoney(self, money: int, children: int) -> int:\n        "

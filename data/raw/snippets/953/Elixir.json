@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec is_alien_sorted(words :: [String.t], order :: String.t) :: boolean\n  def is_alien_sorted(words, order) do\n    \n  end\nend"

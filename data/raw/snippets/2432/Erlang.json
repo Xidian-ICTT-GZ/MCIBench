@@ -1,0 +1,1 @@
+"-spec hardest_worker(N :: integer(), Logs :: [[integer()]]) -> integer().\nhardest_worker(N, Logs) ->\n  ."

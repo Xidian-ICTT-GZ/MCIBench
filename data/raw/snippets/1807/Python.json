@@ -1,0 +1,1 @@
+"class Solution(object):\n    def evaluate(self, s, knowledge):\n        \"\"\"\n        :type s: str\n        :type knowledge: List[List[str]]\n        :rtype: str\n        \"\"\"\n        "

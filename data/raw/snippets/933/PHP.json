@@ -1,0 +1,1 @@
+"class RecentCounter {\n    /**\n     */\n    function __construct() {\n        \n    }\n  \n    /**\n     * @param Integer $t\n     * @return Integer\n     */\n    function ping($t) {\n        \n    }\n}\n\n/**\n * Your RecentCounter object will be instantiated and called as such:\n * $obj = RecentCounter();\n * $ret_1 = $obj->ping($t);\n */"

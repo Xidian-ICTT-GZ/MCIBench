@@ -1,0 +1,1 @@
+"import pandas as pd\n\ndef capitalize_content(user_content: pd.DataFrame) -> pd.DataFrame:\n    "

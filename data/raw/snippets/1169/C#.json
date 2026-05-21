@@ -1,0 +1,1 @@
+"public class Solution {\n    public IList<string> InvalidTransactions(string[] transactions) {\n        \n    }\n}"

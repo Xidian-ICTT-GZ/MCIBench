@@ -1,0 +1,1 @@
+"class Solution {\n    fun minPathCost(grid: Array<IntArray>, moveCost: Array<IntArray>): Int {\n        \n    }\n}"

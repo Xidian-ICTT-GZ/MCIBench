@@ -1,0 +1,1 @@
+"-spec make_string_good(S :: unicode:unicode_binary()) -> integer().\nmake_string_good(S) ->\n  ."

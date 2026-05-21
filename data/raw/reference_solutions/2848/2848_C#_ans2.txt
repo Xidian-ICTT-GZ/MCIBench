@@ -1,0 +1,23 @@
+public class Solution {
+    public int NumberOfPoints(IList<IList<int>> nums) {
+        int C = 0;
+        foreach (IList<int> interval in nums) {
+            C = Math.Max(C, interval[1]);
+        }
+
+        int[] diff = new int[C + 2];
+        foreach (IList<int> interval in nums) {
+            ++diff[interval[0]];
+            --diff[interval[1] + 1];
+        }
+
+        int ans = 0, count = 0;
+        for (int i = 1; i <= C; ++i) {
+            count += diff[i];
+            if (count > 0) {
+                ++ans;
+            }
+        }
+        return ans;
+    }
+}

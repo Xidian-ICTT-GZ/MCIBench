@@ -1,0 +1,1 @@
+"object Solution {\n    def validateStackSequences(pushed: Array[Int], popped: Array[Int]): Boolean = {\n        \n    }\n}"

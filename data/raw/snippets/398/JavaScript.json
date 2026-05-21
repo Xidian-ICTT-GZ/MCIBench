@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} nums\n */\nvar Solution = function(nums) {\n    \n};\n\n/** \n * @param {number} target\n * @return {number}\n */\nSolution.prototype.pick = function(target) {\n    \n};\n\n/** \n * Your Solution object will be instantiated and called as such:\n * var obj = new Solution(nums)\n * var param_1 = obj.pick(target)\n */"

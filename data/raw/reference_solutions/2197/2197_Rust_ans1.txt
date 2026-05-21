@@ -1,0 +1,22 @@
+impl Solution {
+    pub fn replace_non_coprimes(nums: Vec<i32>) -> Vec<i32> {
+        let mut ans = Vec::new();
+        for mut num in nums {
+            while let Some(&last) = ans.last() {
+                let g = Self::gcd(last, num);
+                if g > 1 {
+                    num = last / g * num;
+                    ans.pop();
+                } else {
+                    break;
+                }
+            }
+            ans.push(num);
+        }
+        ans
+    }
+
+    fn gcd(a: i32, b: i32) -> i32 {
+        if b == 0 { a } else { Self::gcd(b, a % b) }
+    }
+}

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec subsets_with_dup(nums :: [integer]) :: [[integer]]\n  def subsets_with_dup(nums) do\n    \n  end\nend"

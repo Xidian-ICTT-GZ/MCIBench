@@ -1,0 +1,1 @@
+"/**\n * @param {string[]} words\n * @return {string}\n */\nvar firstPalindrome = function(words) {\n    \n};"

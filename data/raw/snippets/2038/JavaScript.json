@@ -1,0 +1,1 @@
+"/**\n * @param {string} colors\n * @return {boolean}\n */\nvar winnerOfGame = function(colors) {\n    \n};"

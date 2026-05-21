@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    string findReplaceString(string s, vector<int>& indices, vector<string>& sources, vector<string>& targets) {\n        \n    }\n};"

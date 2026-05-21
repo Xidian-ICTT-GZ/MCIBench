@@ -1,0 +1,1 @@
+"# @param {Integer[]} stones\n# @return {Boolean}\ndef can_cross(stones)\n    \nend"

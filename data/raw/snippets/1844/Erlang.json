@@ -1,0 +1,1 @@
+"-spec replace_digits(S :: unicode:unicode_binary()) -> unicode:unicode_binary().\nreplace_digits(S) ->\n  ."

@@ -1,0 +1,1 @@
+"# @param {Integer[]} differences\n# @param {Integer} lower\n# @param {Integer} upper\n# @return {Integer}\ndef number_of_arrays(differences, lower, upper)\n    \nend"

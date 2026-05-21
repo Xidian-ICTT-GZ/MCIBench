@@ -1,0 +1,1 @@
+"-spec is_covered(Ranges :: [[integer()]], Left :: integer(), Right :: integer()) -> boolean().\nis_covered(Ranges, Left, Right) ->\n  ."

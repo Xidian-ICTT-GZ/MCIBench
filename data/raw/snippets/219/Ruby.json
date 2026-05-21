@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @param {Integer} k\n# @return {Boolean}\ndef contains_nearby_duplicate(nums, k)\n    \nend"

@@ -1,0 +1,1 @@
+"class Solution:\n    def minimizeArrayValue(self, nums: List[int]) -> int:\n        "

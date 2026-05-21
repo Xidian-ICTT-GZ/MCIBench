@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $rectangles\n     * @param Integer[][] $points\n     * @return Integer[]\n     */\n    function countRectangles($rectangles, $points) {\n        \n    }\n}"

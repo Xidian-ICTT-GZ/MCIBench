@@ -1,0 +1,1 @@
+"-spec can_measure_water(X :: integer(), Y :: integer(), Target :: integer()) -> boolean().\ncan_measure_water(X, Y, Target) ->\n  ."

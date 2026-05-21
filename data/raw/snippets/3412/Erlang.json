@@ -1,0 +1,1 @@
+"-spec calculate_score(S :: unicode:unicode_binary()) -> integer().\ncalculate_score(S) ->\n  ."

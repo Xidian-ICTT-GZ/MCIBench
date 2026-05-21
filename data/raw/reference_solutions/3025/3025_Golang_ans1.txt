@@ -1,0 +1,37 @@
+func numberOfPairs(points [][]int) int {
+    ans := 0
+    n := len(points)
+
+    for i := 0; i < n; i++ {
+        pointA := points[i]
+        for j := 0; j < n; j++ {
+            pointB := points[j]
+            if i == j || !(pointA[0] <= pointB[0] && pointA[1] >= pointB[1]) {
+                continue
+            }
+            if n == 2 {
+                ans++
+                continue
+            }
+
+            illegal := false
+            for k := 0; k < n; k++ {
+                if k == i || k == j {
+                    continue
+                }
+
+                pointTmp := points[k]
+                isXContained := pointTmp[0] >= pointA[0] && pointTmp[0] <= pointB[0]
+                isYContained := pointTmp[1] <= pointA[1] && pointTmp[1] >= pointB[1]
+                if isXContained && isYContained {
+                    illegal = true
+                    break
+                }
+            }
+            if !illegal {
+                ans++
+            }
+        }
+    }
+    return ans
+}

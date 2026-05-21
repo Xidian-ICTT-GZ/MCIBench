@@ -1,0 +1,1 @@
+"class Solution(object):\n    def canSeePersonsCount(self, heights):\n        \"\"\"\n        :type heights: List[int]\n        :rtype: List[int]\n        \"\"\"\n        "

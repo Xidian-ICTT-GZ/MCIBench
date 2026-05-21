@@ -1,0 +1,1 @@
+"class Solution(object):\n    def mergeArrays(self, nums1, nums2):\n        \"\"\"\n        :type nums1: List[List[int]]\n        :type nums2: List[List[int]]\n        :rtype: List[List[int]]\n        \"\"\"\n        "

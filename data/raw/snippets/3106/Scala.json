@@ -1,0 +1,1 @@
+"object Solution {\n    def getSmallestString(s: String, k: Int): String = {\n        \n    }\n}"

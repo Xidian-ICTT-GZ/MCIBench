@@ -1,0 +1,1 @@
+"/**\n * @param {number} total\n * @param {number} cost1\n * @param {number} cost2\n * @return {number}\n */\nvar waysToBuyPensPencils = function(total, cost1, cost2) {\n    \n};"

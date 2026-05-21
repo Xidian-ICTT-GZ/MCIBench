@@ -1,0 +1,1 @@
+"# @param {String} s\n# @param {Integer} k\n# @return {Integer}\ndef count_k_constraint_substrings(s, k)\n    \nend"

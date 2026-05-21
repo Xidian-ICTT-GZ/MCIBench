@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec find_answer(parent :: [integer], s :: String.t) :: [boolean]\n  def find_answer(parent, s) do\n    \n  end\nend"

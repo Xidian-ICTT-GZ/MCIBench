@@ -1,0 +1,1 @@
+"object Solution {\n    def change(amount: Int, coins: Array[Int]): Int = {\n        \n    }\n}"

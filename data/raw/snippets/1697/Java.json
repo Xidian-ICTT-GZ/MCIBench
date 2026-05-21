@@ -1,0 +1,1 @@
+"class Solution {\n    public boolean[] distanceLimitedPathsExist(int n, int[][] edgeList, int[][] queries) {\n        \n    }\n}"

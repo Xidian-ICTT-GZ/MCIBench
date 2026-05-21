@@ -1,0 +1,1 @@
+"# @param {Integer} max_time\n# @param {Integer[][]} edges\n# @param {Integer[]} passing_fees\n# @return {Integer}\ndef min_cost(max_time, edges, passing_fees)\n    \nend"

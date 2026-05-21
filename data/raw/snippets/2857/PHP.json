@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $coordinates\n     * @param Integer $k\n     * @return Integer\n     */\n    function countPairs($coordinates, $k) {\n        \n    }\n}"

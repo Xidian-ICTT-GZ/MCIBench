@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int minReorder(int n, vector<vector<int>>& connections) {\n        \n    }\n};"

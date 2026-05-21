@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int numberOfEmployeesWhoMetTarget(vector<int>& hours, int target) {\n        \n    }\n};"

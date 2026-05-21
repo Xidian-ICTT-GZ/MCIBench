@@ -1,0 +1,1 @@
+"class MyCalendar {\n    constructor() {\n        \n    }\n\n    book(startTime: number, endTime: number): boolean {\n        \n    }\n}\n\n/**\n * Your MyCalendar object will be instantiated and called as such:\n * var obj = new MyCalendar()\n * var param_1 = obj.book(startTime,endTime)\n */"

@@ -1,0 +1,1 @@
+"object Solution {\n    def getMaxGridHappiness(m: Int, n: Int, introvertsCount: Int, extrovertsCount: Int): Int = {\n        \n    }\n}"

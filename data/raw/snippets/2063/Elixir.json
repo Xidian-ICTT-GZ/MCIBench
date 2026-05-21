@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec count_vowels(word :: String.t) :: integer\n  def count_vowels(word) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int waysToBuildRooms(vector<int>& prevRoom) {\n        \n    }\n};"

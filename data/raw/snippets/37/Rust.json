@@ -1,0 +1,1 @@
+"impl Solution {\n    pub fn solve_sudoku(board: &mut Vec<Vec<char>>) {\n        \n    }\n}"

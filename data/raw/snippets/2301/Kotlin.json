@@ -1,0 +1,1 @@
+"class Solution {\n    fun matchReplacement(s: String, sub: String, mappings: Array<CharArray>): Boolean {\n        \n    }\n}"

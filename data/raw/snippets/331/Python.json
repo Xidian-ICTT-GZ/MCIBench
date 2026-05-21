@@ -1,0 +1,1 @@
+"class Solution(object):\n    def isValidSerialization(self, preorder):\n        \"\"\"\n        :type preorder: str\n        :rtype: bool\n        \"\"\"\n        "

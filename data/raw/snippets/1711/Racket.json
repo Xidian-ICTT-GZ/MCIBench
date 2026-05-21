@@ -1,0 +1,1 @@
+"(define/contract (count-pairs deliciousness)\n  (-> (listof exact-integer?) exact-integer?)\n  )"

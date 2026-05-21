@@ -1,0 +1,1 @@
+"public class Solution {\n    public long MinDamage(int power, int[] damage, int[] health) {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @param {Integer} k\n# @param {Integer} budget\n# @param {Integer[][]} composition\n# @param {Integer[]} stock\n# @param {Integer[]} cost\n# @return {Integer}\ndef max_number_of_alloys(n, k, budget, composition, stock, cost)\n    \nend"

@@ -1,0 +1,1 @@
+"class Solution:\n    def isAdditiveNumber(self, num: str) -> bool:\n        "

@@ -1,0 +1,1 @@
+"-spec perfect_pairs(Nums :: [integer()]) -> integer().\nperfect_pairs(Nums) ->\n  ."

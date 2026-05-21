@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} rolls\n * @param {number} k\n * @return {number}\n */\nvar shortestSequence = function(rolls, k) {\n    \n};"

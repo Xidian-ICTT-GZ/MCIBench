@@ -1,0 +1,1 @@
+"-spec spiral_order(Matrix :: [[integer()]]) -> [integer()].\nspiral_order(Matrix) ->\n  ."

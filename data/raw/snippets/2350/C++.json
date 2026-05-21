@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int shortestSequence(vector<int>& rolls, int k) {\n        \n    }\n};"

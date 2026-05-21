@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $skills\n     * @param Integer $k\n     * @return Integer\n     */\n    function findWinningPlayer($skills, $k) {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"class Solution {\n    fun distanceBetweenBusStops(distance: IntArray, start: Int, destination: Int): Int {\n        \n    }\n}"

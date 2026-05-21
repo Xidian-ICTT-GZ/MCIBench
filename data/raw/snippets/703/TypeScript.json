@@ -1,0 +1,1 @@
+"class KthLargest {\n    constructor(k: number, nums: number[]) {\n        \n    }\n\n    add(val: number): number {\n        \n    }\n}\n\n/**\n * Your KthLargest object will be instantiated and called as such:\n * var obj = new KthLargest(k, nums)\n * var param_1 = obj.add(val)\n */"

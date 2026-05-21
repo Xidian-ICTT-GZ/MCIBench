@@ -1,0 +1,1 @@
+"class Solution(object):\n    def isGoodArray(self, nums):\n        \"\"\"\n        :type nums: List[int]\n        :rtype: bool\n        \"\"\"\n        "

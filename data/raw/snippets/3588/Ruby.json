@@ -1,0 +1,1 @@
+"# @param {Integer[][]} coords\n# @return {Integer}\ndef max_area(coords)\n    \nend"

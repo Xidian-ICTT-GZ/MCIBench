@@ -1,0 +1,20 @@
+class Solution:
+    def waysToMakeFair(self, nums: List[int]) -> int:
+        res = odd1 = even1 = odd2 = even2 = 0
+        for i, num in enumerate(nums):
+            if i & 1:
+                odd2 += num
+            else:
+                even2 += num
+        for i, num in enumerate(nums):
+            if i & 1:
+                odd2 -= num
+            else:
+                even2 -= num
+            if odd1 + even2 == odd2 + even1:
+                res += 1
+            if i & 1:
+                odd1 += num
+            else:
+                even1 += num
+        return res

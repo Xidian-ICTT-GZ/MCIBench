@@ -1,0 +1,1 @@
+"public class Solution {\n    public int[] LongestRepeating(string s, string queryCharacters, int[] queryIndices) {\n        \n    }\n}"

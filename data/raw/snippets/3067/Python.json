@@ -1,0 +1,1 @@
+"class Solution(object):\n    def countPairsOfConnectableServers(self, edges, signalSpeed):\n        \"\"\"\n        :type edges: List[List[int]]\n        :type signalSpeed: int\n        :rtype: List[int]\n        \"\"\"\n        "

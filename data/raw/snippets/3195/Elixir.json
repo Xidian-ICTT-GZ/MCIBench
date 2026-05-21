@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec minimum_area(grid :: [[integer]]) :: integer\n  def minimum_area(grid) do\n    \n  end\nend"

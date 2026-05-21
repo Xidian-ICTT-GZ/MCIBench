@@ -1,0 +1,11 @@
+public class Solution {
+    public string GetSmallestString(int n, int k) {
+        StringBuilder ans = new StringBuilder();
+        for (int i = 1; i <= n; i++) {
+            int lower = Math.Max(1, k - (n - i) * 26);
+            k -= lower;
+            ans.Append((char) ('a' + lower - 1));
+        }
+        return ans.ToString();
+    }
+}

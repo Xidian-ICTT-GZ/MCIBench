@@ -1,0 +1,1 @@
+"/**\n * @param {number} n\n * @param {number[][]} edges\n * @param {number[]} price\n * @return {number}\n */\nvar maxOutput = function(n, edges, price) {\n    \n};"

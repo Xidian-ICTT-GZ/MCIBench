@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String[][] $tickets\n     * @return String[]\n     */\n    function findItinerary($tickets) {\n        \n    }\n}"

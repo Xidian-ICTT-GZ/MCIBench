@@ -1,0 +1,1 @@
+"-spec difference_of_sum(Nums :: [integer()]) -> integer().\ndifference_of_sum(Nums) ->\n  ."

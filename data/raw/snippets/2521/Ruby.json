@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @return {Integer}\ndef distinct_prime_factors(nums)\n    \nend"

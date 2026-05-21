@@ -1,0 +1,1 @@
+"class Solution {\n    public int maxFreq(String s, int maxLetters, int minSize, int maxSize) {\n        \n    }\n}"

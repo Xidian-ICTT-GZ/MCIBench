@@ -1,0 +1,1 @@
+"class Solution {\n  List<int> shortestDistanceAfterQueries(int n, List<List<int>> queries) {\n    \n  }\n}"

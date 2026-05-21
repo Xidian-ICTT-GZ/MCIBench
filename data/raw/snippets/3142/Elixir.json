@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec satisfies_conditions(grid :: [[integer]]) :: boolean\n  def satisfies_conditions(grid) do\n    \n  end\nend"

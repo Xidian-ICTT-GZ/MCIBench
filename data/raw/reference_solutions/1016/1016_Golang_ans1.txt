@@ -1,0 +1,28 @@
+func help(s string, k int, mi int, ma int) bool {
+    st := map[int]struct{}{}
+    t := 0
+    for r := 0; r < len(s); r++ {
+        t = (t << 1) + int(s[r] - '0')
+        if r >= k {
+            t -= int(s[r - k] - '0') << k
+        }
+        if r >= k - 1 && t >= mi && t <= ma {
+            st[t] = struct{}{}
+        }
+    }
+    return len(st) == ma - mi + 1
+}
+
+func queryString(s string, n int) bool {
+    if n == 1 {
+        return strings.Contains(s, "1")
+    }
+    k := 30
+    for (1 << k) >= n {
+        k--
+    }
+    if len(s) < (1 << (k - 1)) + k - 1 || len(s) < n - (1 << k) + k + 1 {
+        return false
+    }
+    return help(s, k, 1 << (k - 1), (1 << k) - 1) && help(s, k + 1, 1 << k, n)
+}

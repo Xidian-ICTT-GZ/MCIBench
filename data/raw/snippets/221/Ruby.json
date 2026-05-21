@@ -1,0 +1,1 @@
+"# @param {Character[][]} matrix\n# @return {Integer}\ndef maximal_square(matrix)\n    \nend"

@@ -1,0 +1,1 @@
+"class Solution(object):\n    def convertTemperature(self, celsius):\n        \"\"\"\n        :type celsius: float\n        :rtype: List[float]\n        \"\"\"\n        "

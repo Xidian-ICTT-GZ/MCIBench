@@ -1,0 +1,1 @@
+"(define/contract (can-cross stones)\n  (-> (listof exact-integer?) boolean?)\n  )"

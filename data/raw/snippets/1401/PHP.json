@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $radius\n     * @param Integer $xCenter\n     * @param Integer $yCenter\n     * @param Integer $x1\n     * @param Integer $y1\n     * @param Integer $x2\n     * @param Integer $y2\n     * @return Boolean\n     */\n    function checkOverlap($radius, $xCenter, $yCenter, $x1, $y1, $x2, $y2) {\n        \n    }\n}"

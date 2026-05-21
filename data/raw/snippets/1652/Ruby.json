@@ -1,0 +1,1 @@
+"# @param {Integer[]} code\n# @param {Integer} k\n# @return {Integer[]}\ndef decrypt(code, k)\n    \nend"

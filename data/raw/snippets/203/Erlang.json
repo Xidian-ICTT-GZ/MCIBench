@@ -1,0 +1,1 @@
+"%% Definition for singly-linked list.\n%%\n%% -record(list_node, {val = 0 :: integer(),\n%%                     next = null :: 'null' | #list_node{}}).\n\n-spec remove_elements(Head :: #list_node{} | null, Val :: integer()) -> #list_node{} | null.\nremove_elements(Head, Val) ->\n  ."

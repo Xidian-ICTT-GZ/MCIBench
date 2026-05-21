@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} nums\n * @param {number} threshold\n * @return {number}\n */\nvar validSubarraySize = function(nums, threshold) {\n    \n};"

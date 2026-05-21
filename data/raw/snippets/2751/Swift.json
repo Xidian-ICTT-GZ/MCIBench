@@ -1,0 +1,1 @@
+"class Solution {\n    func survivedRobotsHealths(_ positions: [Int], _ healths: [Int], _ directions: String) -> [Int] {\n        \n    }\n}"

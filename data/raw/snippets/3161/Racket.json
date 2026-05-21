@@ -1,0 +1,1 @@
+"(define/contract (get-results queries)\n  (-> (listof (listof exact-integer?)) (listof boolean?))\n  )"

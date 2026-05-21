@@ -1,0 +1,1 @@
+"# @param {Integer[]} a\n# @param {Integer[]} b\n# @return {Integer}\ndef max_score(a, b)\n    \nend"

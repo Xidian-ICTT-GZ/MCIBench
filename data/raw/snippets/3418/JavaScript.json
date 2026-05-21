@@ -1,0 +1,1 @@
+"/**\n * @param {number[][]} coins\n * @return {number}\n */\nvar maximumAmount = function(coins) {\n    \n};"

@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $timeSeries\n     * @param Integer $duration\n     * @return Integer\n     */\n    function findPoisonedDuration($timeSeries, $duration) {\n        \n    }\n}"

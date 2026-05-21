@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec minimize_max(nums :: [integer], p :: integer) :: integer\n  def minimize_max(nums, p) do\n    \n  end\nend"

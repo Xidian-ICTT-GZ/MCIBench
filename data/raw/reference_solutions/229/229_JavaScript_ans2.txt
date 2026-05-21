@@ -1,0 +1,44 @@
+var majorityElement = function(nums) {
+    let element1 = 0;
+    let element2 = 0;
+    let vote1 = 0;
+    let vote2 = 0;
+
+    for (const num of nums) {
+        if (vote1 > 0 && num === element1) { 
+            vote1++;
+        } else if (vote2 > 0 && num === element2) { 
+            vote2++;
+        } else if (vote1 === 0) { 
+            element1 = num;
+            vote1++;
+        } else if (vote2 === 0) { 
+            element2 = num;
+            vote2++;
+        } else { 
+            vote1--;
+            vote2--;
+        }
+    }
+
+    let cnt1 = 0;
+    let cnt2 = 0;
+    for (const num of nums) {
+        if (vote1 > 0 && num === element1) {
+            cnt1++;
+        }
+        if (vote2 > 0 && num === element2) {
+            cnt2++;
+        }
+    }
+    
+    const ans = [];
+    if (vote1 > 0 && cnt1 > Math.floor(nums.length / 3)) {
+        ans.push(element1);
+    }
+    if (vote2 > 0 && cnt2 > Math.floor(nums.length / 3)) {
+        ans.push(element2);
+    }
+
+    return ans;
+};

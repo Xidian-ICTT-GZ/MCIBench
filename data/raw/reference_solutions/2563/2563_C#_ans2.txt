@@ -1,0 +1,19 @@
+public class Solution {
+    public long CountFairPairs(int[] nums, int lower, int upper) {
+        Array.Sort(nums);
+        long ans = 0;
+        int left = nums.Length, right = nums.Length;
+        
+        for (int j = 0; j < nums.Length; ++j) {
+            while (right > 0 && nums[right - 1] > upper - nums[j]) {
+                right--;
+            }
+            while (left > 0 && nums[left - 1] >= lower - nums[j]) {
+                left--;
+            }
+            ans += Math.Min(right, j) - Math.Min(left, j);
+        }
+        
+        return ans;
+    }
+}

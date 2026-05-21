@@ -1,0 +1,1 @@
+"(define/contract (smallest-equivalent-string s1 s2 baseStr)\n  (-> string? string? string? string?)\n  )"

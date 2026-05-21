@@ -1,0 +1,32 @@
+class Solution {
+    public String tree2str(TreeNode root) {
+        StringBuffer ans = new StringBuffer();
+        Deque<TreeNode> stack = new ArrayDeque<TreeNode>();
+        stack.push(root);
+        Set<TreeNode> visited = new HashSet<TreeNode>();
+        while (!stack.isEmpty()) {
+            TreeNode node = stack.peek();
+            if (!visited.add(node)) {
+                if (node != root) {
+                    ans.append(")");
+                }
+                stack.pop();
+            } else {
+                if (node != root) {
+                    ans.append("(");
+                }
+                ans.append(node.val);
+                if (node.left == null && node.right != null) {
+                    ans.append("()");
+                }
+                if (node.right != null) {
+                    stack.push(node.right);
+                }
+                if (node.left != null) {
+                    stack.push(node.left);
+                }
+            }
+        }
+        return ans.toString();
+    }
+}

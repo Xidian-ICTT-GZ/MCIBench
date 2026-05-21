@@ -1,0 +1,1 @@
+"class Solution(object):\n    def isSumEqual(self, firstWord, secondWord, targetWord):\n        \"\"\"\n        :type firstWord: str\n        :type secondWord: str\n        :type targetWord: str\n        :rtype: bool\n        \"\"\"\n        "

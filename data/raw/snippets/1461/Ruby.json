@@ -1,0 +1,1 @@
+"# @param {String} s\n# @param {Integer} k\n# @return {Boolean}\ndef has_all_codes(s, k)\n    \nend"

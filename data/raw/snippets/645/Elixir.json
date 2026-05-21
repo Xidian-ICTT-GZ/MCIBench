@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec find_error_nums(nums :: [integer]) :: [integer]\n  def find_error_nums(nums) do\n    \n  end\nend"

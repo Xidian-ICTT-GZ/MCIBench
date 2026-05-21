@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec max_div_score(nums :: [integer], divisors :: [integer]) :: integer\n  def max_div_score(nums, divisors) do\n    \n  end\nend"

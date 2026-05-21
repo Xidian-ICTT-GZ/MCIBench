@@ -1,0 +1,1 @@
+"-spec number_of_special_chars(Word :: unicode:unicode_binary()) -> integer().\nnumber_of_special_chars(Word) ->\n  ."

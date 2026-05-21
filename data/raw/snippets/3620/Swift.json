@@ -1,0 +1,1 @@
+"class Solution {\n    func findMaxPathScore(_ edges: [[Int]], _ online: [Bool], _ k: Int) -> Int {\n        \n    }\n}"

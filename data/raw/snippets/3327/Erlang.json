@@ -1,0 +1,1 @@
+"-spec find_answer(Parent :: [integer()], S :: unicode:unicode_binary()) -> [boolean()].\nfind_answer(Parent, S) ->\n  ."

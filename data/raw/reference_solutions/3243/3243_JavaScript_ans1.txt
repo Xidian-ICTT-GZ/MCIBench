@@ -1,0 +1,29 @@
+var shortestDistanceAfterQueries = function(n, queries) {
+    let neighbors = new Array(n).fill().map(() => []);
+    for (let i = 0; i < n - 1; i++) {
+        neighbors[i].push(i + 1);
+    }
+    let res = [];
+    for (let i = 0; i < queries.length; i++) {
+        neighbors[queries[i][0]].push(queries[i][1]);
+        res.push(bfs(n, neighbors));
+    }
+    return res;
+};
+
+var bfs = function(n, neighbors) {
+    let dist = new Array(n).fill(-1);
+    dist[0] = 0;
+    let q = [0];
+    while (q.length > 0) {
+        let x = q.shift();
+        for (let y of neighbors[x]) {
+            if (dist[y] >= 0) {
+                continue;
+            }
+            q.push(y);
+            dist[y] = dist[x] + 1;
+        }
+    }
+    return dist[n - 1];
+};

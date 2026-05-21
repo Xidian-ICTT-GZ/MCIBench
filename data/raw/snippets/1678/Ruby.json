@@ -1,0 +1,1 @@
+"# @param {String} command\n# @return {String}\ndef interpret(command)\n    \nend"

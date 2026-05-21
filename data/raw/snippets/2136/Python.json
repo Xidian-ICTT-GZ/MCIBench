@@ -1,0 +1,1 @@
+"class Solution(object):\n    def earliestFullBloom(self, plantTime, growTime):\n        \"\"\"\n        :type plantTime: List[int]\n        :type growTime: List[int]\n        :rtype: int\n        \"\"\"\n        "

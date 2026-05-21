@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec maximum_white_tiles(tiles :: [[integer]], carpet_len :: integer) :: integer\n  def maximum_white_tiles(tiles, carpet_len) do\n    \n  end\nend"

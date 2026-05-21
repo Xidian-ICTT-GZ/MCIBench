@@ -1,0 +1,26 @@
+impl Solution {
+    pub fn minimum_time(time: Vec<i32>, total_trips: i32) -> i64 {
+        
+        let mut l = 1i64;
+        let mut r = total_trips as i64 * *time.iter().max().unwrap() as i64;
+        
+        while l < r {
+            let mid = l + (r - l) / 2;
+            if Self::check(mid, &time, total_trips) {
+                r = mid;
+            } else {
+                l = mid + 1;
+            }
+        }
+        l
+    }
+
+    
+    pub fn check(t: i64, time: &Vec<i32>, total_trips: i32) -> bool {
+        let mut cnt = 0i64;
+        for &period in time {
+            cnt += t / period as i64;
+        }
+        cnt >= total_trips as i64
+    }
+}

@@ -1,0 +1,1 @@
+"class Solution:\n    def decodeMessage(self, key: str, message: str) -> str:\n        "

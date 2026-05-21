@@ -1,0 +1,43 @@
+var minimumTotalPrice = function(n, edges, price, trips) {
+    const next = new Array(n).fill(0).map(() => new Array());
+    for (const edge of edges) {
+        next[edge[0]].push(edge[1]);
+        next[edge[1]].push(edge[0]);
+    }
+
+    const count = new Array(n).fill(0);
+    const dfs = function(node, parent, end) {
+        if (node == end) {
+            count[node]++;
+            return true;
+        }
+        for (const child of next[node]) {
+            if (child == parent) {
+                continue;
+            }
+            if (dfs(child, node, end)) {
+                count[node]++;
+                return true;
+            }
+        }
+        return false;
+    };
+
+    const dp = function(node, parent) {
+            let res = [price[node] * count[node], Math.floor(price[node] * count[node] / 2)];
+            for (const child of next[node]) {
+                if (child == parent) {
+                    continue;
+                }
+                const [x, y] = dp(child, node);
+                res[0] += Math.min(x, y); 
+                res[1] += x; 
+            }
+            return res;
+        };
+
+        for (const trip of trips) {
+            dfs(trip[0], -1, trip[1]);
+        }
+        return Math.min(...dp(0, -1));
+};

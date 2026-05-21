@@ -1,0 +1,1 @@
+"(define/contract (max-score s)\n  (-> string? exact-integer?)\n  )"

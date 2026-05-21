@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int countKSubsequencesWithMaxBeauty(string s, int k) {\n        \n    }\n};"

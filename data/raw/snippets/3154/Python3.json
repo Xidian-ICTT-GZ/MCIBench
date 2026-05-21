@@ -1,0 +1,1 @@
+"class Solution:\n    def waysToReachStair(self, k: int) -> int:\n        "

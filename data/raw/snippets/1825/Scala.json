@@ -1,0 +1,1 @@
+"class MKAverage(_m: Int, _k: Int) {\n\n    def addElement(num: Int): Unit = {\n        \n    }\n\n    def calculateMKAverage(): Int = {\n        \n    }\n\n}\n\n/**\n * Your MKAverage object will be instantiated and called as such:\n * val obj = new MKAverage(m, k)\n * obj.addElement(num)\n * val param_2 = obj.calculateMKAverage()\n */"

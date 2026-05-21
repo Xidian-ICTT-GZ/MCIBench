@@ -1,0 +1,43 @@
+const int dir[4][2] = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
+
+int closedIsland(int** grid, int gridSize, int* gridColSize) {
+    int m = gridSize;
+    int n = gridColSize[0];
+    int ans = 0;
+    int queue[m * n][2];
+            
+    for (int i = 0; i < m; i++) {
+        for (int j = 0; j < n; j++) {
+            if (grid[i][j] == 0) {
+                grid[i][j] = 1;
+                bool closed = true;
+                int head = 0, tail = 0;
+                queue[tail][0] = i;
+                queue[tail][1] = j;
+                tail++;
+                while (head != tail) {
+                    int cx = queue[head][0];
+                    int cy = queue[head][1];
+                    head++;
+                    if (cx == 0 || cy == 0 || cx == m - 1 || cy == n - 1) {
+                        closed = false;
+                    }
+                    for (int i = 0; i < 4; i++) {
+                        int nx = cx + dir[i][0];
+                        int ny = cy + dir[i][1];
+                        if (nx >= 0 && nx < m && ny >= 0 && ny < n && grid[nx][ny] == 0) {
+                            grid[nx][ny] = 1;
+                            queue[tail][0] = nx;
+                            queue[tail][1] = ny;
+                            tail++;
+                        }
+                    }
+                }
+                if (closed) {
+                    ans++;
+                }
+            }
+        }
+    }
+    return ans;
+}

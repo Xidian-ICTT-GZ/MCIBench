@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec valid_sequence(word1 :: String.t, word2 :: String.t) :: [integer]\n  def valid_sequence(word1, word2) do\n    \n  end\nend"

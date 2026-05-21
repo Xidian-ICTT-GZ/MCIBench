@@ -1,0 +1,1 @@
+"class Solution {\n    public boolean isCovered(int[][] ranges, int left, int right) {\n        \n    }\n}"

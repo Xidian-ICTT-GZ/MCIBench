@@ -1,0 +1,1 @@
+"class Solution:\n    def commonChars(self, words: List[str]) -> List[str]:\n        "

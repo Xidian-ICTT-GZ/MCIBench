@@ -1,0 +1,32 @@
+public class Solution {
+    public int beautifulSubsets(int[] nums, int k) {
+        Map<Integer, Map<Integer, Integer>> groups = new HashMap<>();
+        for (int a : nums) {
+            groups.computeIfAbsent(a % k, key -> new TreeMap<>()).merge(a, 1, Integer::sum);
+        }
+        int ans = 1;
+        for (Map.Entry<Integer, Map<Integer, Integer>> entry : groups.entrySet()) {
+            Map<Integer, Integer> g = entry.getValue();
+            int m = g.size();
+            int[][] f = new int[m][2];
+            f[0][0] = 1;
+            f[0][1] = (1 << g.get(g.keySet().iterator().next())) - 1;
+            int i = 1;
+            Iterator<Map.Entry<Integer, Integer>> it = g.entrySet().iterator();
+            Map.Entry<Integer, Integer> prev = it.next();
+            while (it.hasNext()) {
+                Map.Entry<Integer, Integer> curr = it.next();
+                f[i][0] = f[i - 1][0] + f[i - 1][1];
+                if (curr.getKey() - prev.getKey() == k) {
+                    f[i][1] = f[i - 1][0] * ((1 << curr.getValue()) - 1);
+                } else {
+                    f[i][1] = (f[i - 1][0] + f[i - 1][1]) * ((1 << curr.getValue()) - 1);
+                }
+                prev = curr;
+                i++;
+            }
+            ans *= f[m - 1][0] + f[m - 1][1];
+        }
+        return ans - 1;
+    }
+}

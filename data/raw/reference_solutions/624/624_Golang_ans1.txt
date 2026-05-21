@@ -1,0 +1,21 @@
+func maxDistance(arrays [][]int) int {
+    res := 0
+    n := len(arrays)
+    for i := 0; i < n - 1; i++ {
+        for j := 0; j < len(arrays[i]); j++ {
+            for k := i + 1; k < n; k++ {
+                for l := 0; l < len(arrays[k]); l++ {
+                    res = max(res, abs(arrays[i][j] - arrays[k][l]))
+                }
+            }
+        }
+    }
+    return res
+}
+
+func abs(x int) int {
+    if x < 0 {
+        return -x
+    }
+    return x
+}

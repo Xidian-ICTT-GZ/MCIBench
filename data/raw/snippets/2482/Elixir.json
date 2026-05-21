@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec ones_minus_zeros(grid :: [[integer]]) :: [[integer]]\n  def ones_minus_zeros(grid) do\n    \n  end\nend"

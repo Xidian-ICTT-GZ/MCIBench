@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<int> maximumBobPoints(int numArrows, vector<int>& aliceArrows) {\n        \n    }\n};"

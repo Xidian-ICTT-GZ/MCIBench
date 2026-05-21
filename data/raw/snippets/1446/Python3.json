@@ -1,0 +1,1 @@
+"class Solution:\n    def maxPower(self, s: str) -> int:\n        "

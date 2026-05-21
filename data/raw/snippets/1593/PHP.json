@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $s\n     * @return Integer\n     */\n    function maxUniqueSplit($s) {\n        \n    }\n}"

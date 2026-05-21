@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int countCharacters(vector<string>& words, string chars) {\n        \n    }\n};"

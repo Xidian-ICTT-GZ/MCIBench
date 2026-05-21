@@ -1,0 +1,1 @@
+"class Graph:\n\n    def __init__(self, n: int, edges: List[List[int]]):\n        \n\n    def addEdge(self, edge: List[int]) -> None:\n        \n\n    def shortestPath(self, node1: int, node2: int) -> int:\n        \n\n\n# Your Graph object will be instantiated and called as such:\n# obj = Graph(n, edges)\n# obj.addEdge(edge)\n# param_2 = obj.shortestPath(node1,node2)"

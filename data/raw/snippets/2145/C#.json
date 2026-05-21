@@ -1,0 +1,1 @@
+"public class Solution {\n    public int NumberOfArrays(int[] differences, int lower, int upper) {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $row\n     * @return Integer\n     */\n    function minSwapsCouples($row) {\n        \n    }\n}"

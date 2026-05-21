@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $vals\n     * @param Integer[] $par\n     * @return Integer\n     */\n    function goodSubtreeSum($vals, $par) {\n        \n    }\n}"

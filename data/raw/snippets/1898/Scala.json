@@ -1,0 +1,1 @@
+"object Solution {\n    def maximumRemovals(s: String, p: String, removable: Array[Int]): Int = {\n        \n    }\n}"

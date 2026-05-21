@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int largestOverlap(vector<vector<int>>& img1, vector<vector<int>>& img2) {\n        \n    }\n};"

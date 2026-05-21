@@ -1,0 +1,1 @@
+"class Solution(object):\n    def findHighAccessEmployees(self, access_times):\n        \"\"\"\n        :type access_times: List[List[str]]\n        :rtype: List[str]\n        \"\"\"\n        "

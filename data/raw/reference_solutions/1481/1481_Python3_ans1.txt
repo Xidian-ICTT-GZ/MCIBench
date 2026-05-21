@@ -1,0 +1,12 @@
+class Solution:
+    def findLeastNumOfUniqueInts(self, arr: List[int], k: int) -> int:
+        group = collections.Counter(arr)
+        freq = group.most_common()[::-1]
+        ans = len(freq)
+        for _, occ in freq:
+            if k >= occ:
+                ans -= 1
+                k -= occ
+            else:
+                break
+        return ans

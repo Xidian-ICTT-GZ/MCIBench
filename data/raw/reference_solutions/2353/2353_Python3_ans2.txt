@@ -1,0 +1,27 @@
+class FoodRatings:
+    def __init__(self, foods: List[str], cuisines: List[str], ratings: List[int]):
+        self.food_map = {}
+        self.rating_map = {}
+        self.n = len(foods)
+
+        for i in range(self.n):
+            food = foods[i]
+            cuisine = cuisines[i]
+            rating = ratings[i]
+            self.food_map[food] = (rating, cuisine)
+            if cuisine not in self.rating_map:
+                self.rating_map[cuisine] = []
+            heapq.heappush(self.rating_map[cuisine], (self.n - rating, food))
+
+    def changeRating(self, food: str, newRating: int) -> None:
+        rating, cuisine = self.food_map[food]
+        heapq.heappush(self.rating_map[cuisine], (self.n - newRating, food))
+        self.food_map[food] = (newRating, cuisine)
+
+    def highestRated(self, cuisine: str) -> str:
+        while self.rating_map[cuisine]:
+            rating, food = self.rating_map[cuisine][0]
+            if self.n - rating == self.food_map[food][0]:
+                return food
+            heapq.heappop(self.rating_map[cuisine])
+        return ""

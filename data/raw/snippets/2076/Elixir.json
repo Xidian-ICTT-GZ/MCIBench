@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec friend_requests(n :: integer, restrictions :: [[integer]], requests :: [[integer]]) :: [boolean]\n  def friend_requests(n, restrictions, requests) do\n    \n  end\nend"

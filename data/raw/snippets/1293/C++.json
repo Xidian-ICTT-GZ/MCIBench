@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int shortestPath(vector<vector<int>>& grid, int k) {\n        \n    }\n};"

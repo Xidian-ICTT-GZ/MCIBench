@@ -1,0 +1,1 @@
+"# @param {Integer[]} energy\n# @param {Integer} k\n# @return {Integer}\ndef maximum_energy(energy, k)\n    \nend"

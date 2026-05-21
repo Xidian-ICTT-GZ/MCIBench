@@ -1,0 +1,1 @@
+"object Solution {\n    def minDominoRotations(tops: Array[Int], bottoms: Array[Int]): Int = {\n        \n    }\n}"

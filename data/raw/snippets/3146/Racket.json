@@ -1,0 +1,1 @@
+"(define/contract (find-permutation-difference s t)\n  (-> string? string? exact-integer?)\n  )"

@@ -1,0 +1,30 @@
+var kthSmallestPrimeFraction = function(arr, k) {
+    const n = arr.length;
+    let left = 0.0, right = 1.0;
+    while (true) {
+        const mid = (left + right) / 2;
+        let i = -1, count = 0;
+        
+        let x = 0, y = 1;
+        
+        for (let j = 1; j < n; ++j) {
+            while (arr[i + 1] / arr[j] < mid) {
+                ++i;
+                if (arr[i] * y > arr[j] * x) {
+                    x = arr[i];
+                    y = arr[j];
+                }
+            }
+            count += i + 1;
+        }
+
+        if (count === k) {
+            return [x, y];
+        }
+        if (count < k) {
+            left = mid;
+        } else {
+            right = mid;
+        }
+    }
+};

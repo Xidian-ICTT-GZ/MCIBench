@@ -1,0 +1,1 @@
+"object Solution {\n    def countMatchingSubarrays(nums: Array[Int], pattern: Array[Int]): Int = {\n        \n    }\n}"

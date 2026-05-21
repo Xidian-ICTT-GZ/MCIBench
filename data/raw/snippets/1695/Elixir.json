@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec maximum_unique_subarray(nums :: [integer]) :: integer\n  def maximum_unique_subarray(nums) do\n    \n  end\nend"

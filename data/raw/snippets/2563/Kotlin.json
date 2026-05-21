@@ -1,0 +1,1 @@
+"class Solution {\n    fun countFairPairs(nums: IntArray, lower: Int, upper: Int): Long {\n        \n    }\n}"

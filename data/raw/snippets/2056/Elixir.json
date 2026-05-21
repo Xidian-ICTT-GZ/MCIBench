@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec count_combinations(pieces :: [String.t], positions :: [[integer]]) :: integer\n  def count_combinations(pieces, positions) do\n    \n  end\nend"

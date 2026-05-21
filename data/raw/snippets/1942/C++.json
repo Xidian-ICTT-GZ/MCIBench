@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int smallestChair(vector<vector<int>>& times, int targetFriend) {\n        \n    }\n};"

@@ -1,0 +1,1 @@
+"class Solution(object):\n    def minimumRemoval(self, beans):\n        \"\"\"\n        :type beans: List[int]\n        :rtype: int\n        \"\"\"\n        "

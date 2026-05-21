@@ -1,0 +1,1 @@
+"/**\n * @param {number} bottom\n * @param {number} top\n * @param {number[]} special\n * @return {number}\n */\nvar maxConsecutive = function(bottom, top, special) {\n    \n};"

@@ -1,0 +1,1 @@
+"class Solution(object):\n    def findThePrefixCommonArray(self, A, B):\n        \"\"\"\n        :type A: List[int]\n        :type B: List[int]\n        :rtype: List[int]\n        \"\"\"\n        "

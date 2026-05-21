@@ -1,0 +1,1 @@
+"class NeighborSum(grid: Array<IntArray>) {\n\n    fun adjacentSum(value: Int): Int {\n        \n    }\n\n    fun diagonalSum(value: Int): Int {\n        \n    }\n\n}\n\n/**\n * Your NeighborSum object will be instantiated and called as such:\n * var obj = NeighborSum(grid)\n * var param_1 = obj.adjacentSum(value)\n * var param_2 = obj.diagonalSum(value)\n */"

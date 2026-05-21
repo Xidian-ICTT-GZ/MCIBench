@@ -1,0 +1,1 @@
+"# @param {Integer[][]} grid\n# @return {Integer}\ndef minimum_operations_to_write_y(grid)\n    \nend"

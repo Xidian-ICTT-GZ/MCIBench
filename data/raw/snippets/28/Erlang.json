@@ -1,0 +1,1 @@
+"-spec str_str(Haystack :: unicode:unicode_binary(), Needle :: unicode:unicode_binary()) -> integer().\nstr_str(Haystack, Needle) ->\n  ."

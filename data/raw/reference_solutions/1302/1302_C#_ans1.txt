@@ -1,0 +1,23 @@
+public class Solution {
+    int maxLevel = -1;
+    int sum = 0;
+
+    public int DeepestLeavesSum(TreeNode root) {
+        DFS(root, 0);
+        return sum;
+    }
+
+    public void DFS(TreeNode node, int level) {
+        if (node == null) {
+            return;
+        }
+        if (level > maxLevel) {
+            maxLevel = level;
+            sum = node.val;
+        } else if (level == maxLevel) {
+            sum += node.val;
+        }
+        DFS(node.left, level + 1);
+        DFS(node.right, level + 1);
+    }
+}

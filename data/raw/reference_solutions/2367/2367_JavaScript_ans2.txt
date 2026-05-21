@@ -1,0 +1,13 @@
+var arithmeticTriplets = function(nums, diff) {
+    const set = new Set();
+    for (const x of nums) {
+        set.add(x);
+    }
+    let ans = 0;
+    for (const x of nums) {
+        if (set.has(x + diff) && set.has(x + 2 * diff)) {
+            ans++;
+        }
+    }
+    return ans;
+};

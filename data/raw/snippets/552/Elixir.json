@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec check_record(n :: integer) :: integer\n  def check_record(n) do\n    \n  end\nend"

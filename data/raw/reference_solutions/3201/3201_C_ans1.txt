@@ -1,0 +1,16 @@
+int maximumLength(int* nums, int numsSize) {
+    int res = 0;
+    int patterns[4][2] = {{0, 0}, {0, 1}, {1, 0}, {1, 1}};
+    for (int i = 0; i < 4; i++) {
+        int cnt = 0;
+        for (int j = 0; j < numsSize; j++) {
+            if (nums[j] % 2 == patterns[i][cnt % 2]) {
+                cnt++;
+            }
+        }
+        if (cnt > res) {
+            res = cnt;
+        }
+    }
+    return res;
+}

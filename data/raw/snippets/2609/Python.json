@@ -1,0 +1,1 @@
+"class Solution(object):\n    def findTheLongestBalancedSubstring(self, s):\n        \"\"\"\n        :type s: str\n        :rtype: int\n        \"\"\"\n        "

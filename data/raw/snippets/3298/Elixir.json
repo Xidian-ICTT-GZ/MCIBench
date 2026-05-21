@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec valid_substring_count(word1 :: String.t, word2 :: String.t) :: integer\n  def valid_substring_count(word1, word2) do\n    \n  end\nend"

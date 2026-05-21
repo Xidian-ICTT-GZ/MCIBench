@@ -1,0 +1,1 @@
+"-spec max_distance(Side :: integer(), Points :: [[integer()]], K :: integer()) -> integer().\nmax_distance(Side, Points, K) ->\n  ."

@@ -1,0 +1,1 @@
+"object Solution {\n    def canMouseWin(grid: Array[String], catJump: Int, mouseJump: Int): Boolean = {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"# @param {String} s\n# @param {Integer[]} spaces\n# @return {String}\ndef add_spaces(s, spaces)\n    \nend"

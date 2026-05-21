@@ -1,0 +1,1 @@
+"public class Solution {\n    public int[] ShortestAlternatingPaths(int n, int[][] redEdges, int[][] blueEdges) {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"(define/contract (nums-same-consec-diff n k)\n  (-> exact-integer? exact-integer? (listof exact-integer?))\n  )"

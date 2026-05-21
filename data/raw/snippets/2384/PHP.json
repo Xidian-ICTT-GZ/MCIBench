@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $num\n     * @return String\n     */\n    function largestPalindromic($num) {\n        \n    }\n}"

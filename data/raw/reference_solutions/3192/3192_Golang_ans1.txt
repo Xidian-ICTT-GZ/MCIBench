@@ -1,0 +1,9 @@
+func minOperations(nums []int) int {
+    operation := 0
+    for _, num := range nums {
+        if num == (operation%2) {
+            operation++
+        }
+    }
+    return operation
+}

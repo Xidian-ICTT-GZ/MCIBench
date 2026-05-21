@@ -1,0 +1,1 @@
+"/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nchar** findOcurrences(char* text, char* first, char* second, int* returnSize) {\n    \n}"

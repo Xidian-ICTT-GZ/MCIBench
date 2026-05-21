@@ -1,0 +1,1 @@
+"public class Solution {\n    public int NumOfMinutes(int n, int headID, int[] manager, int[] informTime) {\n        \n    }\n}"

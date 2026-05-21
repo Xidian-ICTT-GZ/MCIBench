@@ -1,0 +1,1 @@
+"/**\n * @param {number[][]} questions\n * @return {number}\n */\nvar mostPoints = function(questions) {\n    \n};"

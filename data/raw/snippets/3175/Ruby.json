@@ -1,0 +1,1 @@
+"# @param {Integer[]} skills\n# @param {Integer} k\n# @return {Integer}\ndef find_winning_player(skills, k)\n    \nend"

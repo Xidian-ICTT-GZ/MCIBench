@@ -1,0 +1,1 @@
+"/**\n * @param {number} m\n * @param {number} n\n * @param {number[][]} guards\n * @param {number[][]} walls\n * @return {number}\n */\nvar countUnguarded = function(m, n, guards, walls) {\n    \n};"

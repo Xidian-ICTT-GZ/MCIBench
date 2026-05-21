@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec maximum_happiness_sum(happiness :: [integer], k :: integer) :: integer\n  def maximum_happiness_sum(happiness, k) do\n    \n  end\nend"

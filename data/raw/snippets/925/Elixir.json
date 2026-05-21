@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec is_long_pressed_name(name :: String.t, typed :: String.t) :: boolean\n  def is_long_pressed_name(name, typed) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $coordinate1\n     * @param String $coordinate2\n     * @return Boolean\n     */\n    function checkTwoChessboards($coordinate1, $coordinate2) {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec max_substring_length(s :: String.t, k :: integer) :: boolean\n  def max_substring_length(s, k) do\n    \n  end\nend"

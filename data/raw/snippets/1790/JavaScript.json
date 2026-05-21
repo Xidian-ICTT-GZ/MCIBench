@@ -1,0 +1,1 @@
+"/**\n * @param {string} s1\n * @param {string} s2\n * @return {boolean}\n */\nvar areAlmostEqual = function(s1, s2) {\n    \n};"

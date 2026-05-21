@@ -1,0 +1,1 @@
+"class Solution:\n    def hasSameDigits(self, s: str) -> bool:\n        "

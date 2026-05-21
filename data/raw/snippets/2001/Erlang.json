@@ -1,0 +1,1 @@
+"-spec interchangeable_rectangles(Rectangles :: [[integer()]]) -> integer().\ninterchangeable_rectangles(Rectangles) ->\n  ."

@@ -1,0 +1,13 @@
+int subsetXORSum(int* nums, int numsSize) {
+    int res = 0;
+    for (int i = 0; i < (1 << numsSize); i++) {
+        int tmp = 0;
+        for (int j = 0; j < numsSize; j++) {
+            if (i & (1 << j)) {
+                tmp ^= nums[j];
+            }
+        }
+        res += tmp;
+    }
+    return res;
+}

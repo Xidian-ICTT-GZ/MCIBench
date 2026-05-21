@@ -1,0 +1,1 @@
+"class OrderedStream(n: Int) {\n\n    fun insert(idKey: Int, value: String): List<String> {\n        \n    }\n\n}\n\n/**\n * Your OrderedStream object will be instantiated and called as such:\n * var obj = OrderedStream(n)\n * var param_1 = obj.insert(idKey,value)\n */"

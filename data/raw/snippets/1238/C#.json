@@ -1,0 +1,1 @@
+"public class Solution {\n    public IList<int> CircularPermutation(int n, int start) {\n        \n    }\n}"

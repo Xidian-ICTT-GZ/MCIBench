@@ -1,0 +1,1 @@
+"impl Solution {\n    pub fn equations_possible(equations: Vec<String>) -> bool {\n        \n    }\n}"

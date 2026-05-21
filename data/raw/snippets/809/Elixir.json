@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec expressive_words(s :: String.t, words :: [String.t]) :: integer\n  def expressive_words(s, words) do\n    \n  end\nend"

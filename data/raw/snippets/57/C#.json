@@ -1,0 +1,1 @@
+"public class Solution {\n    public int[][] Insert(int[][] intervals, int[] newInterval) {\n        \n    }\n}"

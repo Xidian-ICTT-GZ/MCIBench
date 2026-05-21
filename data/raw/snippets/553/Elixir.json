@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec optimal_division(nums :: [integer]) :: String.t\n  def optimal_division(nums) do\n    \n  end\nend"

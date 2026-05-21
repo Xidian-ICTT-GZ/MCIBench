@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String[][] $access_times\n     * @return String[]\n     */\n    function findHighAccessEmployees($access_times) {\n        \n    }\n}"

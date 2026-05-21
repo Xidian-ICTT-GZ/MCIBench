@@ -1,0 +1,28 @@
+class Solution {
+    int headID;  
+    int[] manager;  
+    int[] informTime;  
+    Map<Integer, Integer> memo = new HashMap<Integer, Integer>();  
+
+    public int numOfMinutes(int n, int headID, int[] manager, int[] informTime) {
+        this.headID = headID;
+        this.manager = manager;
+        this.informTime = informTime;
+        int res = 0;  
+        for (int i = 0; i < n; i++) {
+            res = Math.max(res, dfs(i));  
+        }
+        return res;
+    }
+
+    public int dfs(int cur) {
+        if (cur == headID) {  
+            return 0;
+        }
+        if (!memo.containsKey(cur)) {  
+            int res = dfs(manager[cur]) + informTime[manager[cur]];  
+            memo.put(cur, res);  
+        }
+        return memo.get(cur);  
+    }
+}

@@ -1,0 +1,1 @@
+"\nclass RangeFreqQuery {\n\n    init(_ arr: [Int]) {\n        \n    }\n    \n    func query(_ left: Int, _ right: Int, _ value: Int) -> Int {\n        \n    }\n}\n\n/**\n * Your RangeFreqQuery object will be instantiated and called as such:\n * let obj = RangeFreqQuery(arr)\n * let ret_1: Int = obj.query(left, right, value)\n */"

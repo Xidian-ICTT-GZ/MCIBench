@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @param {Integer} max_distance\n# @param {Integer[][]} roads\n# @return {Integer}\ndef number_of_sets(n, max_distance, roads)\n    \nend"

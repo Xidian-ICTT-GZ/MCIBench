@@ -1,0 +1,1 @@
+"class Solution {\n    func getResults(queries: Array<Array<Int64>>): ArrayList<Bool> {\n\n    }\n}"

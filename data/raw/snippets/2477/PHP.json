@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $roads\n     * @param Integer $seats\n     * @return Integer\n     */\n    function minimumFuelCost($roads, $seats) {\n        \n    }\n}"

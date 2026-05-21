@@ -1,0 +1,1 @@
+"/**\n * Definition for a binary tree node.\n * struct TreeNode {\n *     int val;\n *     TreeNode *left;\n *     TreeNode *right;\n *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}\n * };\n */\nclass Solution {\npublic:\n    vector<int> distanceK(TreeNode* root, TreeNode* target, int k) {\n        \n    }\n};"

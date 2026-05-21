@@ -1,0 +1,34 @@
+impl Solution {
+    pub fn max_diff(num: i32) -> i32 {
+        
+        fn replace(s: &str, x: char, y: char) -> String {
+            s.chars().map(|c| if c == x { y } else { c }).collect()
+        }
+        let mut min_num = num.to_string();
+        let mut max_num = num.to_string();
+        
+        for digit in max_num.chars() {
+            if digit != '9' {
+                max_num = replace(&max_num, digit, '9');
+                break;
+            }
+        }
+        
+        
+        for (i, digit) in min_num.chars().enumerate() {
+            if i == 0 {
+                if digit != '1' {
+                    min_num = replace(&min_num, digit, '1');
+                    break;
+                }
+            } else {
+                if digit != '0' && digit != min_num.chars().nth(0).unwrap() {
+                    min_num = replace(&min_num, digit, '0');
+                    break;
+                }
+            }
+        }
+
+        max_num.parse::<i32>().unwrap() - min_num.parse::<i32>().unwrap()
+    }
+}

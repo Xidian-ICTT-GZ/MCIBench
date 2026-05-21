@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $piles\n     * @param Integer $k\n     * @return Integer\n     */\n    function minStoneSum($piles, $k) {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"class Solution {\n    func longestCommonSubpath(n: Int64, paths: Array<Array<Int64>>): Int64 {\n\n    }\n}"

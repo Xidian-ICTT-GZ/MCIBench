@@ -1,0 +1,35 @@
+func checkIfPrerequisite(numCourses int, prerequisites [][]int, queries [][]int) []bool {
+    g := make([][]int, numCourses)
+    vi := make([]bool, numCourses)
+    isPre := make([][]bool, numCourses)
+    for i := 0; i < numCourses; i++ {
+        isPre[i] = make([]bool, numCourses)
+        g[i] = []int{}
+    }
+    for _, p := range prerequisites {
+        g[p[0]] = append(g[p[0]], p[1])
+    }
+
+    for i := 0; i < numCourses; i++ {
+        dfs(g, isPre, vi, i)
+    }
+    res := []bool{}
+    for _, query := range queries {
+        res = append(res, isPre[query[0]][query[1]])
+    }
+    return res
+}
+
+func dfs(g [][]int, isPre [][]bool, vi []bool, cur int) {
+    if vi[cur] {
+        return
+    }
+    vi[cur] = true
+    for _, ne := range g[cur] {
+        dfs(g, isPre, vi, ne)
+        isPre[cur][ne] = true
+        for i := 0; i < len(isPre); i++ {
+            isPre[cur][i] = isPre[cur][i] || isPre[ne][i]
+        }
+    }
+}

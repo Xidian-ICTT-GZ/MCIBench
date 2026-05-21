@@ -1,0 +1,1 @@
+"class Solution {\n    func minWastedSpace(_ packages: [Int], _ boxes: [[Int]]) -> Int {\n        \n    }\n}"

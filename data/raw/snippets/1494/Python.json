@@ -1,0 +1,1 @@
+"class Solution(object):\n    def minNumberOfSemesters(self, n, relations, k):\n        \"\"\"\n        :type n: int\n        :type relations: List[List[int]]\n        :type k: int\n        :rtype: int\n        \"\"\"\n        "

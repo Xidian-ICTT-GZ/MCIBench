@@ -1,0 +1,12 @@
+func longestContinuousSubstring(s string) int {
+    res, cur := 1, 1
+    for i := 1; i < len(s); i++ {
+        if s[i] == s[i - 1] + byte(1) {
+            cur++
+        } else {
+            cur = 1
+        }
+        res = max(res, cur)
+    }
+    return res
+}

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec get_coprimes(nums :: [integer], edges :: [[integer]]) :: [integer]\n  def get_coprimes(nums, edges) do\n    \n  end\nend"

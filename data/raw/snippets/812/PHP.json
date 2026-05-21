@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $points\n     * @return Float\n     */\n    function largestTriangleArea($points) {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"class Solution(object):\n    def smallestSufficientTeam(self, req_skills, people):\n        \"\"\"\n        :type req_skills: List[str]\n        :type people: List[List[str]]\n        :rtype: List[int]\n        \"\"\"\n        "

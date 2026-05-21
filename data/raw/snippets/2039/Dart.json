@@ -1,0 +1,1 @@
+"class Solution {\n  int networkBecomesIdle(List<List<int>> edges, List<int> patience) {\n    \n  }\n}"

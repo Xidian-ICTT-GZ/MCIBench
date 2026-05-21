@@ -1,0 +1,1 @@
+"(define/contract (valid-partition nums)\n  (-> (listof exact-integer?) boolean?)\n  )"

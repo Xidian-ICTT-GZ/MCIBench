@@ -1,0 +1,1 @@
+"(define/contract (equations-possible equations)\n  (-> (listof string?) boolean?)\n  )"

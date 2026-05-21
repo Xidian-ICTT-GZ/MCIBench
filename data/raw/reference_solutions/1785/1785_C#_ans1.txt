@@ -1,0 +1,10 @@
+public class Solution {
+    public int MinElements(int[] nums, int limit, int goal) {
+        long sum = 0;
+        foreach (int x in nums) {
+            sum += x;
+        }
+        long diff = Math.Abs(sum - goal);
+        return (int) ((diff + limit - 1) / limit);
+    }
+}

@@ -1,0 +1,11 @@
+public class Solution {
+    public int MinimumDifference(int[] nums, int k) {
+        int n = nums.Length;
+        Array.Sort(nums);
+        int ans = int.MaxValue;
+        for (int i = 0; i + k - 1 < n; ++i) {
+            ans = Math.Min(ans, nums[i + k - 1] - nums[i]);
+        }
+        return ans;
+    }
+}

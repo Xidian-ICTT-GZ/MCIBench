@@ -1,0 +1,1 @@
+"# @param {Integer[]} arr\n# @return {Integer}\ndef peak_index_in_mountain_array(arr)\n    \nend"

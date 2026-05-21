@@ -1,0 +1,1 @@
+"class Solution {\n    func bestHand(ranks: Array<Int64>, suits: Array<Rune>): String {\n\n    }\n}"

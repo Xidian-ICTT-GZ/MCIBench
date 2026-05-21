@@ -1,0 +1,15 @@
+static int cmp(const void *pa, const void *pb) {
+    return *(int *)pa - *(int *)pb;
+}
+
+int getMaximumConsecutive(int* coins, int coinsSize) {
+    int res = 1;
+    qsort(coins, coinsSize, sizeof(int), cmp);
+    for (int i = 0; i < coinsSize; i++) {
+        if (coins[i] > res) {
+            break;
+        }
+        res += coins[i];
+    }
+    return res;
+}

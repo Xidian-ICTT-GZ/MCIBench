@@ -1,0 +1,1 @@
+"/**\n * @param {string} s\n * @param {string} t\n * @return {number}\n */\nvar minimumScore = function(s, t) {\n    \n};"

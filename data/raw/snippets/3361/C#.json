@@ -1,0 +1,1 @@
+"public class Solution {\n    public long ShiftDistance(string s, string t, int[] nextCost, int[] previousCost) {\n        \n    }\n}"

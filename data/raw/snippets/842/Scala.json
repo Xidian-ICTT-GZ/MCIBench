@@ -1,0 +1,1 @@
+"object Solution {\n    def splitIntoFibonacci(num: String): List[Int] = {\n        \n    }\n}"

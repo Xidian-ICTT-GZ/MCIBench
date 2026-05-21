@@ -1,0 +1,33 @@
+#define N 10
+
+bool isPseudoPalindrome(const int *counter) {
+    int odd = 0;
+    for (int i = 0; i < N; i++) {
+        if (counter[i] % 2 == 1) {
+            odd++;
+        }
+    }
+    return odd <= 1;
+}
+
+int dfs(struct TreeNode *root, int *counter) {
+    if (root == NULL) {
+        return 0;
+    }
+    counter[root->val]++;
+    int res = 0;
+    if (root->left == NULL && root->right == NULL) {
+        if (isPseudoPalindrome(counter)) {
+            res = 1;
+        }
+    } else {
+        res = dfs(root->left, counter) + dfs(root->right, counter);
+    }
+    counter[root->val]--;
+    return res;
+}
+
+int pseudoPalindromicPaths (struct TreeNode *root) {
+    int counter[N] = {0};
+    return dfs(root, counter);
+}

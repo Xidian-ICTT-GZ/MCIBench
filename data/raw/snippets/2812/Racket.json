@@ -1,0 +1,1 @@
+"(define/contract (maximum-safeness-factor grid)\n  (-> (listof (listof exact-integer?)) exact-integer?)\n\n  )"

@@ -1,0 +1,1 @@
+"class DataStream {\n    init(value: Int64, k: Int64) {\n\n    }\n    \n    func consec(num: Int64): Bool {\n\n    }\n}\n\n/**\n * Your DataStream object will be instantiated and called as such:\n * let obj: DataStream = DataStream(value, k)\n * let param_1 = obj.consec(num)\n */"

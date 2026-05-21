@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec magical_sum(m :: integer, k :: integer, nums :: [integer]) :: integer\n  def magical_sum(m, k, nums) do\n    \n  end\nend"

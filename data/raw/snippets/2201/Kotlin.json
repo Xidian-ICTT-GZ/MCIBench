@@ -1,0 +1,1 @@
+"class Solution {\n    fun digArtifacts(n: Int, artifacts: Array<IntArray>, dig: Array<IntArray>): Int {\n        \n    }\n}"

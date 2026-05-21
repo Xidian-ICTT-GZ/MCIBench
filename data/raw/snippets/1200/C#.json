@@ -1,0 +1,1 @@
+"public class Solution {\n    public IList<IList<int>> MinimumAbsDifference(int[] arr) {\n        \n    }\n}"

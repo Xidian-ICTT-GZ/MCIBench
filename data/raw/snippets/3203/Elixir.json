@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec minimum_diameter_after_merge(edges1 :: [[integer]], edges2 :: [[integer]]) :: integer\n  def minimum_diameter_after_merge(edges1, edges2) do\n    \n  end\nend"

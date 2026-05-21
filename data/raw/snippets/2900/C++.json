@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<string> getLongestSubsequence(vector<string>& words, vector<int>& groups) {\n        \n    }\n};"

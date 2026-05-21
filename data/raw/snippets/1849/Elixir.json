@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec split_string(s :: String.t) :: boolean\n  def split_string(s) do\n    \n  end\nend"

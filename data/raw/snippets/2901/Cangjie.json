@@ -1,0 +1,1 @@
+"class Solution {\n    func getWordsInLongestSubsequence(words: Array<String>, groups: Array<Int64>): ArrayList<String> {\n\n    }\n}"

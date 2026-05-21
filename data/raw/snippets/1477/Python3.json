@@ -1,0 +1,1 @@
+"class Solution:\n    def minSumOfLengths(self, arr: List[int], target: int) -> int:\n        "

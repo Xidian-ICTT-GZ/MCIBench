@@ -1,0 +1,1 @@
+"class Solution {\n    fun kthCharacter(k: Long, operations: IntArray): Char {\n        \n    }\n}"

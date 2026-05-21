@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @param {Integer} k\n# @param {Integer} max_changes\n# @return {Integer}\ndef minimum_moves(nums, k, max_changes)\n    \nend"

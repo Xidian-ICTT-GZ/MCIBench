@@ -1,0 +1,1 @@
+"/**\n * @param {number} maxChoosableInteger\n * @param {number} desiredTotal\n * @return {boolean}\n */\nvar canIWin = function(maxChoosableInteger, desiredTotal) {\n    \n};"

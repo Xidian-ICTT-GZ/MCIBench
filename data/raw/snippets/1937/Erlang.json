@@ -1,0 +1,1 @@
+"-spec max_points(Points :: [[integer()]]) -> integer().\nmax_points(Points) ->\n  ."

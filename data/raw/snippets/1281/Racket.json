@@ -1,0 +1,1 @@
+"(define/contract (subtract-product-and-sum n)\n  (-> exact-integer? exact-integer?)\n  )"

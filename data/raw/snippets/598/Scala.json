@@ -1,0 +1,1 @@
+"object Solution {\n    def maxCount(m: Int, n: Int, ops: Array[Array[Int]]): Int = {\n        \n    }\n}"

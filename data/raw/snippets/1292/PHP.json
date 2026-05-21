@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $mat\n     * @param Integer $threshold\n     * @return Integer\n     */\n    function maxSideLength($mat, $threshold) {\n        \n    }\n}"

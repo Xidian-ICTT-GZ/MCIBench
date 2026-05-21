@@ -1,0 +1,1 @@
+"-spec bulb_switch(N :: integer()) -> integer().\nbulb_switch(N) ->\n  ."

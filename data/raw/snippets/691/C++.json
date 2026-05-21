@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int minStickers(vector<string>& stickers, string target) {\n        \n    }\n};"

@@ -1,0 +1,22 @@
+class Solution {
+public:
+    bool canConstruct(string s, int k) {
+        
+        int right = s.size();
+        
+        unordered_map<char, int> occ;
+        for (char ch: s) {
+            ++occ[ch];
+        }
+        
+        int left = 0;
+        for (auto& [_, v]: occ) {
+            if (v % 2 == 1) {
+                ++left;
+            }
+        }
+        
+        left = max(left, 1);
+        return left <= k && k <= right;
+    }
+};

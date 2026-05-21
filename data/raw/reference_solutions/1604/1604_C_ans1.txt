@@ -1,0 +1,93 @@
+typedef struct {
+    char *key;
+    struct ListNode *val;
+    UT_hash_handle hh;
+} HashItem; 
+
+struct ListNode *creatListNode(int val) {
+    struct ListNode *obj = (struct ListNode *)malloc(sizeof(struct ListNode));
+    obj->val = val;
+    obj->next = NULL;
+    return obj;
+}
+
+HashItem *hashFindItem(HashItem **obj, const char * key) {
+    HashItem *pEntry = NULL;
+    HASH_FIND_STR(*obj, key, pEntry);
+    return pEntry;
+}
+
+bool hashAddItem(HashItem **obj, const char *key, int val) {
+    HashItem *pEntry = hashFindItem(obj, key);
+    if (!pEntry) {
+        pEntry = (HashItem *)malloc(sizeof(HashItem));
+        pEntry->key = key;
+        pEntry->val = NULL;
+        HASH_ADD_STR(*obj, key, pEntry);
+    } 
+    struct ListNode *node = creatListNode(val);
+    node->next = pEntry->val;
+    pEntry->val = node;
+    return true;
+}
+
+void freeList(struct ListNode *list) {
+    while (list) {
+        struct ListNode *curr = list;
+        list = list->next;
+        free(curr);
+    }
+}
+
+void hashFree(HashItem **obj) {
+    HashItem *curr = NULL, *tmp = NULL;
+    HASH_ITER(hh, *obj, curr, tmp) {
+        HASH_DEL(*obj, curr);
+        freeList(curr->val);
+        free(curr);             
+    }
+}
+
+static int cmp1(const void *pa, const void *pb) {
+    return *(int *)pa - *(int *)pb;
+}
+
+static int cmp2(const void *pa, const void *pb) {
+    return strcmp(*(char **)pa, *(char **)pb);
+}
+
+char ** alertNames(char ** keyName, int keyNameSize, char ** keyTime, int keyTimeSize, int* returnSize) {
+    HashItem *timeMap = NULL;
+    for (int i = 0; i < keyNameSize; i++) {
+        char *name = keyName[i];
+        char *time = keyTime[i];
+        int hour = (time[0] - '0') * 10 + (time[1] - '0');
+        int minute = (time[3] - '0') * 10 + (time[4] - '0');
+        hashAddItem(&timeMap, name, hour * 60 + minute);
+    }
+
+    char **res = (char **)malloc(sizeof(char *) * keyNameSize);
+    int pos = 0;
+    HashItem *curr = NULL, *temp = NULL;
+    int arr[keyNameSize];
+    HASH_ITER(hh, timeMap, curr, temp) {
+        int size = 0;
+        for (struct ListNode *node = curr->val; node; node = node->next) {
+            arr[size++] = node->val;
+        }
+        qsort(arr, size, sizeof(int), cmp1); 
+        for (int i = 2; i < size; i++) {
+            int time1 = arr[i - 2], time2 = arr[i];
+            int difference = time2 - time1;
+            if (difference <= 60) {
+                res[pos] = (char *)malloc(sizeof(char) * (strlen(curr->key) + 1));
+                strcpy(res[pos], curr->key);
+                pos++;
+                break;
+            }
+        }
+    }
+    qsort(res, pos, sizeof(char *), cmp2);
+    *returnSize = pos;
+    return res;
+}

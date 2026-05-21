@@ -1,0 +1,9 @@
+int countPrefixes(char** words, int wordsSize, char* s) {
+    int res = 0;
+    for (int i = 0; i < wordsSize; i++) {
+        if (strncmp(s, words[i], strlen(words[i])) == 0) {
+            res++;
+        }
+    }
+    return res;
+}

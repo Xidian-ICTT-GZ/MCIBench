@@ -1,0 +1,1 @@
+"(define/contract (min-cost-set-time startAt moveCost pushCost targetSeconds)\n  (-> exact-integer? exact-integer? exact-integer? exact-integer? exact-integer?)\n  )"

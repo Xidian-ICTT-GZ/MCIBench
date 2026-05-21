@@ -1,0 +1,1 @@
+"class Solution(object):\n    def rangeBitwiseAnd(self, left, right):\n        \"\"\"\n        :type left: int\n        :type right: int\n        :rtype: int\n        \"\"\"\n        "

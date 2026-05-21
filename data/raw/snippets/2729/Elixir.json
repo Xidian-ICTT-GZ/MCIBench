@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec is_fascinating(n :: integer) :: boolean\n  def is_fascinating(n) do\n    \n  end\nend"

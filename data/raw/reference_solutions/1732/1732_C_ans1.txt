@@ -1,0 +1,10 @@
+#define MAX(a, b) ((a) > (b) ? (a) : (b))
+
+int largestAltitude(int* gain, int gainSize){
+     int ans = 0, sum = 0;
+    for (int i = 0; i < gainSize; i++) {
+        sum += gain[i];
+        ans = MAX(ans, sum);
+    }
+    return ans;
+}

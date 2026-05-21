@@ -1,0 +1,37 @@
+int cmp(const void *a, const void *b) {
+    return *(int *)a - *(int *)b;
+}
+
+int binarySearch(const int *arr, int left, int right, int target) {
+    int res = right + 1;
+    while (left <= right) {
+        int mid = (left + right) >> 1;
+        if (arr[mid] >= target) {
+            res = mid;
+            right = mid - 1;
+        } else {
+            left = mid + 1;
+        }
+    }
+    return res;
+}
+
+int* fullBloomFlowers(int** flowers, int flowersSize, int* flowersColSize, int* people, int peopleSize, int* returnSize) {
+    int n = flowersSize;
+    int starts[n], ends[n];
+    for (int i = 0; i < n; ++i) {
+        starts[i] = flowers[i][0];
+        ends[i] = flowers[i][1];
+    }
+    qsort(starts, n, sizeof(int), cmp);
+    qsort(ends, n, sizeof(int), cmp);
+    int m = peopleSize;
+    int *ans = (int *)malloc(sizeof(int) * m);
+    for (int i = 0; i < m; ++i) {
+        int x = binarySearch(starts, 0, n - 1, people[i] + 1);
+        int y = binarySearch(ends, 0, n - 1, people[i]);
+        ans[i] = x - y;
+    }
+    *returnSize = m;
+    return ans;
+}

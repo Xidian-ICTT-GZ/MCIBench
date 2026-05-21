@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec shuffle(nums :: [integer], n :: integer) :: [integer]\n  def shuffle(nums, n) do\n    \n  end\nend"

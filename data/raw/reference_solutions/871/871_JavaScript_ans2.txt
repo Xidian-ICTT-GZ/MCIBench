@@ -1,0 +1,22 @@
+var minRefuelStops = function(target, startFuel, stations) {
+    const pq = new MaxPriorityQueue();
+    let ans = 0, prev = 0, fuel = startFuel;
+    const n = stations.length;
+    for (let i = 0; i <= n; i++) {
+        let curr = i < n ? stations[i][0] : target;
+        fuel -= curr - prev;
+        while (fuel < 0 && !pq.isEmpty()) {
+            fuel += pq.front().element;
+            pq.dequeue();
+            ans++;
+        }
+        if (fuel < 0) {
+            return -1;
+        }
+        if (i < n) {
+            pq.enqueue(stations[i][1], stations[i][1]);
+            prev = curr;
+        }
+    }
+    return ans;
+};

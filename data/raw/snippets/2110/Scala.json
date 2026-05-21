@@ -1,0 +1,1 @@
+"object Solution {\n    def getDescentPeriods(prices: Array[Int]): Long = {\n        \n    }\n}"

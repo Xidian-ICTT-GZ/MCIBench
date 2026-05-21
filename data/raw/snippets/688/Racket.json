@@ -1,0 +1,1 @@
+"(define/contract (knight-probability n k row column)\n  (-> exact-integer? exact-integer? exact-integer? exact-integer? flonum?)\n  )"

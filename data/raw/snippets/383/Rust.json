@@ -1,0 +1,1 @@
+"impl Solution {\n    pub fn can_construct(ransom_note: String, magazine: String) -> bool {\n        \n    }\n}"

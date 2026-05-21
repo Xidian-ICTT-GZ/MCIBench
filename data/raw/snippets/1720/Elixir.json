@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec decode(encoded :: [integer], first :: integer) :: [integer]\n  def decode(encoded, first) do\n    \n  end\nend"

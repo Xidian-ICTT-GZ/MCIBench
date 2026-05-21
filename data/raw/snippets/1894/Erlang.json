@@ -1,0 +1,1 @@
+"-spec chalk_replacer(Chalk :: [integer()], K :: integer()) -> integer().\nchalk_replacer(Chalk, K) ->\n  ."

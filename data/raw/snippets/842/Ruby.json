@@ -1,0 +1,1 @@
+"# @param {String} num\n# @return {Integer[]}\ndef split_into_fibonacci(num)\n    \nend"

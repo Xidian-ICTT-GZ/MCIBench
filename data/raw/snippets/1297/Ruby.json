@@ -1,0 +1,1 @@
+"# @param {String} s\n# @param {Integer} max_letters\n# @param {Integer} min_size\n# @param {Integer} max_size\n# @return {Integer}\ndef max_freq(s, max_letters, min_size, max_size)\n    \nend"

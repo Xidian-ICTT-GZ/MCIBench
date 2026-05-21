@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @param {Integer} target\n# @return {Integer}\ndef minimum_possible_sum(n, target)\n    \nend"

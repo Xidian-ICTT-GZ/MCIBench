@@ -1,0 +1,1 @@
+"/**\n * @param {string} word\n * @return {boolean}\n */\nvar equalFrequency = function(word) {\n    \n};"

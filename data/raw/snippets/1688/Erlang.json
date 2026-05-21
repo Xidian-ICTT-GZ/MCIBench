@@ -1,0 +1,1 @@
+"-spec number_of_matches(N :: integer()) -> integer().\nnumber_of_matches(N) ->\n  ."

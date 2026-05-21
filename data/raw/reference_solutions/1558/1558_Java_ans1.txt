@@ -1,0 +1,22 @@
+class Solution {
+    public int minOperations(int[] nums) {
+        int ret = 0, maxn = 0;
+        for (int num : nums) {
+            maxn = Math.max(maxn, num);
+            while (num != 0) {
+                if ((num & 1) != 0) {
+                    ret++;
+                }
+                num >>= 1;
+            }
+        }
+        if (maxn != 0) {
+            while (maxn != 0) {
+                ret++;
+                maxn >>= 1;
+            }
+            ret--;
+        }
+        return ret;
+    }
+}

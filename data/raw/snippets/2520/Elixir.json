@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec count_digits(num :: integer) :: integer\n  def count_digits(num) do\n    \n  end\nend"

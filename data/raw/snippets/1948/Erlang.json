@@ -1,0 +1,1 @@
+"-spec delete_duplicate_folder(Paths :: [[unicode:unicode_binary()]]) -> [[unicode:unicode_binary()]].\ndelete_duplicate_folder(Paths) ->\n  ."

@@ -1,0 +1,1 @@
+"class Solution {\n  int numOfMinutes(int n, int headID, List<int> manager, List<int> informTime) {\n    \n  }\n}"

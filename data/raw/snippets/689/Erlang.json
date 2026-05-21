@@ -1,0 +1,1 @@
+"-spec max_sum_of_three_subarrays(Nums :: [integer()], K :: integer()) -> [integer()].\nmax_sum_of_three_subarrays(Nums, K) ->\n  ."

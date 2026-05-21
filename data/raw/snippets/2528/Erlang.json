@@ -1,0 +1,1 @@
+"-spec max_power(Stations :: [integer()], R :: integer(), K :: integer()) -> integer().\nmax_power(Stations, R, K) ->\n  ."

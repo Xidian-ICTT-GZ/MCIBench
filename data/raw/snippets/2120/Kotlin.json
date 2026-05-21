@@ -1,0 +1,1 @@
+"class Solution {\n    fun executeInstructions(n: Int, startPos: IntArray, s: String): IntArray {\n        \n    }\n}"

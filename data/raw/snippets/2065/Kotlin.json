@@ -1,0 +1,1 @@
+"class Solution {\n    fun maximalPathQuality(values: IntArray, edges: Array<IntArray>, maxTime: Int): Int {\n        \n    }\n}"

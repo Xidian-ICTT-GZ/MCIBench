@@ -1,0 +1,1 @@
+"class Solution:\n    def maximumScoreAfterOperations(self, edges: List[List[int]], values: List[int]) -> int:\n        "

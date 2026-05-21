@@ -1,0 +1,1 @@
+"public class Solution {\n    public int[] MinimumTime(int n, int[][] edges, int[] disappear) {\n        \n    }\n}"

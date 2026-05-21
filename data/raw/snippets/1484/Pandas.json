@@ -1,0 +1,1 @@
+"import pandas as pd\n\ndef categorize_products(activities: pd.DataFrame) -> pd.DataFrame:\n    "

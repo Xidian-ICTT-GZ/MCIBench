@@ -1,0 +1,1 @@
+"(define/contract (winner-of-game colors)\n  (-> string? boolean?)\n  )"

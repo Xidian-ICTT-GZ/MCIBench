@@ -1,0 +1,15 @@
+use std::collections::HashMap;
+
+impl Solution {
+    pub fn num_rabbits(answers: Vec<i32>) -> i32 {
+        let mut count: HashMap<i32, i32> = HashMap::new();
+        for &y in &answers {
+            *count.entry(y).or_insert(0) += 1;
+        }
+        let mut ans = 0;
+        for (&y, &x) in &count {
+            ans += ((x + y) / (y + 1)) * (y + 1);
+        }
+        ans
+    }
+}

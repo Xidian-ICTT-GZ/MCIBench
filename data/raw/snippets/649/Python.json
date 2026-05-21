@@ -1,0 +1,1 @@
+"class Solution(object):\n    def predictPartyVictory(self, senate):\n        \"\"\"\n        :type senate: str\n        :rtype: str\n        \"\"\"\n        "

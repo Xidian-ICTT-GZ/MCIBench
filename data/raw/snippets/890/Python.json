@@ -1,0 +1,1 @@
+"class Solution(object):\n    def findAndReplacePattern(self, words, pattern):\n        \"\"\"\n        :type words: List[str]\n        :type pattern: str\n        :rtype: List[str]\n        \"\"\"\n        "

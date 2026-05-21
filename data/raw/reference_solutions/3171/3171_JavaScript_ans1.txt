@@ -1,0 +1,31 @@
+var minimumDifference = function(nums, k) {
+    const n = nums.length;
+    const bitsMaxPos = new Array(31).fill(-1);
+    let res = Number.MAX_SAFE_INTEGER;
+
+    for (let i = 0; i < n; i++) {
+        for (let j = 0; j <= 30; j++) {
+            if (nums[i] >> j & 1) {
+                bitsMaxPos[j] = i;
+            }
+        }
+        
+        const posToBit = [];
+        for (let j = 0; j <= 30; j++) {
+            if (bitsMaxPos[j] !== -1) {
+                posToBit.push([bitsMaxPos[j], j]);
+            }
+        }
+        
+        posToBit.sort((a, b) => b[0] - a[0]);
+        let val = 0, j = 0;
+        for (let j = 0, p = 0; j < posToBit.length; p = j) {
+            while (j < posToBit.length && posToBit[j][0] === posToBit[p][0]) {
+                val |= 1 << posToBit[j][1];
+                j++;
+            }
+            res = Math.min(res, Math.abs(val - k));
+        }
+    }
+    return res;
+};

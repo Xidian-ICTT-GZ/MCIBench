@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec vowel_strings(words :: [String.t], left :: integer, right :: integer) :: integer\n  def vowel_strings(words, left, right) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec can_change(start :: String.t, target :: String.t) :: boolean\n  def can_change(start, target) do\n    \n  end\nend"

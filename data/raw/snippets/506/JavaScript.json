@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} score\n * @return {string[]}\n */\nvar findRelativeRanks = function(score) {\n    \n};"

@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $bits\n     * @return Boolean\n     */\n    function isOneBitCharacter($bits) {\n        \n    }\n}"

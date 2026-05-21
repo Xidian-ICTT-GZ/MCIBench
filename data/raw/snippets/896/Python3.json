@@ -1,0 +1,1 @@
+"class Solution:\n    def isMonotonic(self, nums: List[int]) -> bool:\n        "

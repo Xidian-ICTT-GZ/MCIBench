@@ -1,0 +1,61 @@
+#define MAX(a, b) ((a) > (b) ? (a) : (b))
+
+int maximalNetworkRank(int n, int** roads, int roadsSize, int* roadsColSize) {
+    bool connect[n][n];
+    int degree[n];
+    memset(connect, 0, sizeof(connect));
+    memset(degree, 0, sizeof(degree));
+    for (int i = 0; i < roadsSize; i++) {
+        int x = roads[i][0], y = roads[i][1];
+        connect[x][y] = true;
+        connect[y][x] = true;
+        degree[x]++;
+        degree[y]++;
+    }
+
+    int first = -1, second = -2;
+    int firstArr[n], secondArr[n];
+    int firstArrSize = 0, secondArrSize = 0;
+    for (int i = 0; i < n; ++i) {
+        if (degree[i] > first) {
+            second = first;
+            secondArrSize = firstArrSize;
+            memcpy(secondArr, firstArr, sizeof(int) * firstArrSize);
+            first = degree[i];
+            firstArrSize = 0;
+            firstArr[firstArrSize++] = i;
+        } else if (degree[i] == first) {
+            firstArr[firstArrSize++] = i;
+        } else if (degree[i] > second){
+            secondArrSize = 0;
+            second = degree[i];
+            secondArr[secondArrSize++] = i;
+        } else if (degree[i] == second) {
+            secondArr[secondArrSize++] = i;
+        }
+    }
+    if (firstArrSize == 1) {
+        int u = firstArr[0];
+        for (int i = 0; i < secondArrSize; i++) {
+            int v = secondArr[i];
+            if (!connect[u][v]) {
+                return first + second;
+            }
+        }
+        return first + second - 1;
+    } else {
+        if (firstArrSize * (firstArrSize - 1) / 2 > roadsSize) {
+            return first * 2;
+        }
+        for (int i = 0; i < firstArrSize; i++) {
+            int u = firstArr[i];
+            for (int j = i + 1; j < firstArrSize; j++) {
+                int v = firstArr[j];
+                if (!connect[u][v]) {
+                    return first * 2;
+                }
+            }
+        }
+        return first * 2 - 1;
+    }        
+}

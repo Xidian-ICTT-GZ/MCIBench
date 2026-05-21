@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int countTriplets(vector<int>& arr) {\n        \n    }\n};"

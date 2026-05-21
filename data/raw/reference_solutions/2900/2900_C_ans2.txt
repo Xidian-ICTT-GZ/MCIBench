@@ -1,0 +1,11 @@
+char** getLongestSubsequence(char** words, int wordsSize, int* groups, int groupsSize, int* returnSize) {
+    char** ans = (char**)malloc(wordsSize * sizeof(char*));
+    int pos = 0;
+    for (int i = 0; i < wordsSize; i++) {
+        if (i == 0 || groups[i] != groups[i - 1]) {
+            ans[pos++] = words[i];
+        }
+    }
+    *returnSize = pos;
+    return ans;
+}

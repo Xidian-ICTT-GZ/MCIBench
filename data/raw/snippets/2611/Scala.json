@@ -1,0 +1,1 @@
+"object Solution {\n    def miceAndCheese(reward1: Array[Int], reward2: Array[Int], k: Int): Int = {\n        \n    }\n}"

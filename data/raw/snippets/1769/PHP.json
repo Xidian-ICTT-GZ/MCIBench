@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $boxes\n     * @return Integer[]\n     */\n    function minOperations($boxes) {\n        \n    }\n}"

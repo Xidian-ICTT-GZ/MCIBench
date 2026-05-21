@@ -1,0 +1,64 @@
+#define MAX_NODE_SIZE 10000
+
+typedef struct {
+    void * key;
+    int val;
+    UT_hash_handle hh; 
+} HashItem;
+
+void freeHash(HashItem ** obj) {
+    HashItem * curr = NULL, * next = NULL;
+    HASH_ITER(hh, *obj, curr, next) {
+        HASH_DEL(*obj, curr);
+        free(curr);
+    }
+}
+
+int* preorder(struct Node* root, int* returnSize) {
+    if (NULL == root) {
+        *returnSize = 0;
+        return NULL;
+    }
+    int * res = (int *)malloc(sizeof(int) * MAX_NODE_SIZE);
+    struct Node ** stack = (struct Node **)malloc(sizeof(struct Node *) * MAX_NODE_SIZE);
+    int pos = 0, top = 0;  
+
+    const struct Node * node = root;
+    HashItem * cnt = NULL;
+    HashItem * pEntry = NULL;
+    while (top != 0 || node != NULL) {
+        while (node != NULL) {
+            res[pos++] = node->val;
+            stack[top++] = node;
+            if (node->numChildren > 0) {
+                pEntry = (HashItem *)malloc(sizeof(HashItem));
+                pEntry->key = node;
+                pEntry->val = 0;
+                HASH_ADD_PTR(cnt, key, pEntry);
+                node = node->children[0];
+            } else {
+                node = NULL;
+            }
+        }
+        node = stack[top - 1];
+        int index = 0;
+        HASH_FIND_PTR(cnt, &node, pEntry);
+        if (pEntry != NULL) {
+            index = pEntry->val + 1;
+        }
+        if (index < node->numChildren) {
+            pEntry->val++;
+            node = node->children[index];
+        } else {
+            top--;
+            if (pEntry != NULL) {
+                HASH_DEL(cnt, pEntry);
+            }
+            node = NULL;
+        }
+    }
+    free(stack);
+    freeHash(&cnt);
+    *returnSize = pos;
+    return res;
+}

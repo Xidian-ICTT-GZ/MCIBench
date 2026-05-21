@@ -1,0 +1,1 @@
+"class Solution:\n    def canMakeSquare(self, grid: List[List[str]]) -> bool:\n        "

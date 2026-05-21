@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $a\n     * @param Integer $b\n     * @return Integer\n     */\n    function commonFactors($a, $b) {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec original_digits(s :: String.t) :: String.t\n  def original_digits(s) do\n    \n  end\nend"

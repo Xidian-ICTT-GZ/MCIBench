@@ -1,0 +1,1 @@
+"class Solution(object):\n    def findOriginalArray(self, changed):\n        \"\"\"\n        :type changed: List[int]\n        :rtype: List[int]\n        \"\"\"\n        "

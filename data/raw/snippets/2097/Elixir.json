@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec valid_arrangement(pairs :: [[integer]]) :: [[integer]]\n  def valid_arrangement(pairs) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"/**\n * @param {number[][]} properties\n * @param {number} k\n * @return {number}\n */\nvar numberOfComponents = function(properties, k) {\n    \n};"

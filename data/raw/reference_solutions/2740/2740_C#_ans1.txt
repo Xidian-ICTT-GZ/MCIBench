@@ -1,0 +1,10 @@
+public class Solution {
+    public int FindValueOfPartition(int[] nums) {
+        Array.Sort(nums);
+        int res = int.MaxValue;
+        for (int i = 1; i < nums.Length; i++) {
+            res = Math.Min(res, nums[i] - nums[i - 1]);
+        }
+        return res;
+    }
+}

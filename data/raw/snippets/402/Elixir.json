@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec remove_kdigits(num :: String.t, k :: integer) :: String.t\n  def remove_kdigits(num, k) do\n    \n  end\nend"

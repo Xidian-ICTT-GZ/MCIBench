@@ -1,0 +1,31 @@
+class Solution {
+    public long maximumValueSum(int[] nums, int k, int[][] edges) {
+        int n = nums.length;
+        List<Integer>[] g = new ArrayList[n];
+        Arrays.setAll(g, i -> new ArrayList<>());
+        for (int[] e : edges) {
+            int u = e[0], v = e[1];
+            g[u].add(v);
+            g[v].add(u);
+        }
+        return dfs(0, -1, g, nums, k)[0];
+    }
+
+    private long[] dfs(int u, int fa, List<Integer>[] g, int[] nums, int k) {
+        long f0 = 0, f1 = Long.MIN_VALUE;
+        for (int v : g[u]) {
+            if (v != fa) {
+                long[] res = dfs(v, u, g, nums, k);
+                long r0 = res[0], r1 = res[1];
+                long t = Math.max(f1 + r0, f0 + r1);
+                f0 = Math.max(f0 + r0, f1 + r1);
+                f1 = t;
+            }
+        }
+        long x = nums[u], y = nums[u] ^ k;
+        return new long[] {
+                Math.max(f0 + x, f1 + y),
+                Math.max(f1 + x, f0 + y)
+        };
+    }
+}

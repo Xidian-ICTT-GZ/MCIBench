@@ -1,0 +1,27 @@
+public class Solution {
+    private static final int INF = 0x3f3f3f3f;
+
+    public int minimumWhiteTiles(String floor, int numCarpets, int carpetLen) {
+        int n = floor.length();
+        int[] d = new int[n + 1];
+        int[] f = new int[n + 1];
+        Arrays.fill(d, INF);
+        Arrays.fill(f, INF);
+        d[0] = 0;
+        for (int i = 1; i <= n; i++) {
+            d[i] = d[i - 1] + (floor.charAt(i - 1) == '1' ? 1 : 0);
+        }
+        for (int j = 1; j <= numCarpets; j++) {
+            f[0] = 0;
+            for (int i = 1; i <= n; i++) {
+                f[i] = f[i - 1] + (floor.charAt(i - 1) == '1' ? 1 : 0);
+                f[i] = Math.min(f[i], d[Math.max(0, i - carpetLen)]);
+            }
+            int[] temp = d;
+            d = f;
+            f = temp;
+        }
+
+        return d[n];
+    }
+}

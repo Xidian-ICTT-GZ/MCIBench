@@ -1,0 +1,1 @@
+"-spec transpose(Matrix :: [[integer()]]) -> [[integer()]].\ntranspose(Matrix) ->\n  ."

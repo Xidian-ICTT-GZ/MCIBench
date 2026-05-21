@@ -1,0 +1,1 @@
+"public class Solution {\n    public int NumSubarrayBoundedMax(int[] nums, int left, int right) {\n        \n    }\n}"

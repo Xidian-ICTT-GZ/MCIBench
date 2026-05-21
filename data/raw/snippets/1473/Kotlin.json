@@ -1,0 +1,1 @@
+"class Solution {\n    fun minCost(houses: IntArray, cost: Array<IntArray>, m: Int, n: Int, target: Int): Int {\n        \n    }\n}"

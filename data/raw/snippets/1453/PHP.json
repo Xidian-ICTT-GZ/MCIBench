@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $darts\n     * @param Integer $r\n     * @return Integer\n     */\n    function numPoints($darts, $r) {\n        \n    }\n}"

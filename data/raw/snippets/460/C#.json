@@ -1,0 +1,1 @@
+"public class LFUCache {\n\n    public LFUCache(int capacity) {\n        \n    }\n    \n    public int Get(int key) {\n        \n    }\n    \n    public void Put(int key, int value) {\n        \n    }\n}\n\n/**\n * Your LFUCache object will be instantiated and called as such:\n * LFUCache obj = new LFUCache(capacity);\n * int param_1 = obj.Get(key);\n * obj.Put(key,value);\n */"

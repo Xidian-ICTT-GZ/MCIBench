@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $low\n     * @param String $high\n     * @return Integer\n     */\n    function countSteppingNumbers($low, $high) {\n        \n    }\n}"

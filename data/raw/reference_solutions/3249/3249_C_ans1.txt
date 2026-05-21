@@ -1,0 +1,73 @@
+typedef struct {
+    int *data;
+    int size;
+    int capacity;
+} Vector;
+
+Vector* createVector(int capacity) {
+    Vector* arr = (Vector*)malloc(sizeof(Vector));
+    arr->data = (int*)malloc(capacity * sizeof(int));
+    arr->size = 0;
+    arr->capacity = capacity;
+    return arr;
+}
+
+void append(Vector* arr, int value) {
+    if (arr->size == arr->capacity) {
+        arr->capacity *= 2;
+        arr->data = (int*)realloc(arr->data, arr->capacity * sizeof(int));
+    }
+    arr->data[arr->size++] = value;
+}
+
+void freeVector(Vector* arr) {
+    free(arr->data);
+    free(arr);
+}
+
+int dfs(int node, int parent, int *res, int *counts, Vector** g) {
+    int valid = 1;
+    int treeSize = 0;
+    int subTreeSize = 0;
+    for (int i = 0; i < counts[node]; i++) {
+        int child = g[node]->data[i];
+        if (child != parent) {
+            int size = dfs(child, node, res, counts, g);
+            if (subTreeSize == 0) {
+                subTreeSize = size;
+            } else if (size != subTreeSize) {
+                valid = 0;
+            }
+            treeSize += size;
+        }
+    }
+
+    if (valid) {
+        (*res)++;
+    }
+    return treeSize + 1;
+}
+
+int countGoodNodes(int** edges, int edgesSize, int* edgesColSize) {
+    int n = edgesSize + 1;
+    int *counts = (int *)calloc(n, sizeof(int));
+    int res = 0;
+    Vector* g[n];
+    for (int i = 0; i < n; i++) {
+        g[i] = createVector(2);
+    }
+    for (int i = 0; i < edgesSize; i++) {
+        int x = edges[i][0];
+        int y = edges[i][1];
+        counts[x]++;
+        counts[y]++;
+        append(g[x], y);
+        append(g[y], x);
+    }
+
+    dfs(0, -1, &res, counts, g);
+    for (int i = 0; i < n; i++) {
+        freeVector(g[i]);
+    }
+    return res;
+}

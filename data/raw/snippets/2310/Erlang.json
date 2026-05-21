@@ -1,0 +1,1 @@
+"-spec minimum_numbers(Num :: integer(), K :: integer()) -> integer().\nminimum_numbers(Num, K) ->\n  ."

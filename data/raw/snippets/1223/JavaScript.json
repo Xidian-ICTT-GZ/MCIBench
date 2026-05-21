@@ -1,0 +1,1 @@
+"/**\n * @param {number} n\n * @param {number[]} rollMax\n * @return {number}\n */\nvar dieSimulator = function(n, rollMax) {\n    \n};"

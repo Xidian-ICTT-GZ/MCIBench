@@ -1,0 +1,1 @@
+"class Solution:\n    def findThePrefixCommonArray(self, A: List[int], B: List[int]) -> List[int]:\n        "

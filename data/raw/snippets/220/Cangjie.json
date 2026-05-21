@@ -1,0 +1,1 @@
+"class Solution {\n    func containsNearbyAlmostDuplicate(nums: Array<Int64>, indexDiff: Int64, valueDiff: Int64): Bool {\n\n    }\n}"

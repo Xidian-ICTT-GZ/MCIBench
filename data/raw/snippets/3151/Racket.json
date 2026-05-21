@@ -1,0 +1,1 @@
+"(define/contract (is-array-special nums)\n  (-> (listof exact-integer?) boolean?)\n  )"

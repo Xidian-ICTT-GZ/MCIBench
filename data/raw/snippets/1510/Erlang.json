@@ -1,0 +1,1 @@
+"-spec winner_square_game(N :: integer()) -> boolean().\nwinner_square_game(N) ->\n  ."

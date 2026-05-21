@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec the_maximum_achievable_x(num :: integer, t :: integer) :: integer\n  def the_maximum_achievable_x(num, t) do\n    \n  end\nend"

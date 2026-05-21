@@ -1,0 +1,1 @@
+"# @param {Integer} k\n# @param {Integer[]} operations\n# @return {Character}\ndef kth_character(k, operations)\n    \nend"

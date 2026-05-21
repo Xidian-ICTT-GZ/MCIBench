@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec max_removals(source :: String.t, pattern :: String.t, target_indices :: [integer]) :: integer\n  def max_removals(source, pattern, target_indices) do\n    \n  end\nend"

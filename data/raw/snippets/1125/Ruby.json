@@ -1,0 +1,1 @@
+"# @param {String[]} req_skills\n# @param {String[][]} people\n# @return {Integer[]}\ndef smallest_sufficient_team(req_skills, people)\n    \nend"

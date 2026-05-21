@@ -1,0 +1,22 @@
+var BSTIterator = function(root) {
+    this.idx = 0;
+    this.arr = [];
+    this.inorderTraversal(root, this.arr);
+};
+
+BSTIterator.prototype.next = function() {
+    return this.arr[this.idx++];
+};
+
+BSTIterator.prototype.hasNext = function() {
+    return this.idx < this.arr.length;
+};
+
+BSTIterator.prototype.inorderTraversal = function(root, arr) {
+    if (!root) {
+        return;
+    }
+    this.inorderTraversal(root.left, arr);
+    arr.push(root.val);
+    this.inorderTraversal(root.right, arr);
+};

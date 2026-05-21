@@ -1,0 +1,1 @@
+"(define/contract (kth-smallest par vals queries)\n  (-> (listof exact-integer?) (listof exact-integer?) (listof (listof exact-integer?)) (listof exact-integer?))\n  )"

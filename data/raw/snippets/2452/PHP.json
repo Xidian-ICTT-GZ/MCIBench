@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String[] $queries\n     * @param String[] $dictionary\n     * @return String[]\n     */\n    function twoEditWords($queries, $dictionary) {\n        \n    }\n}"

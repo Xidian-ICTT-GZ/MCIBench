@@ -1,0 +1,41 @@
+bool parseBoolExpr(char * expression){
+    int n = strlen(expression);
+    char stack[n];
+    int top = 0;
+    for (int i = 0; i < n; i++) {
+        char c = expression[i];
+        if (c == ',') {
+            continue;
+        } else if (c != ')') {
+            stack[top++] = c;
+        } else {
+            int t = 0, f = 0;
+            while (stack[top - 1] != '(') {
+                char val = stack[top - 1];
+                top--;
+                if (val == 't') {
+                    t++;
+                } else {
+                    f++;
+                }
+            }
+            top--;
+            char op = stack[top - 1];
+            top--;
+            switch (op) {
+            case '!':
+                stack[top++] = f == 1 ? 't' : 'f';
+                break;
+            case '&':
+                stack[top++] = f == 0 ? 't' : 'f';
+                break;
+            case '|':
+                stack[top++] = t > 0 ? 't' : 'f';
+                break;
+            default:
+                break;
+            }
+        }
+    }
+    return stack[top - 1] == 't';
+}

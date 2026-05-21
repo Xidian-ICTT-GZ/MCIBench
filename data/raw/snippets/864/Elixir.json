@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec shortest_path_all_keys(grid :: [String.t]) :: integer\n  def shortest_path_all_keys(grid) do\n    \n  end\nend"

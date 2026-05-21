@@ -1,0 +1,50 @@
+public class Solution {
+    
+    int x;
+    TreeNode xParent;
+    int xDepth;
+    bool xFound = false;
+
+    
+    int y;
+    TreeNode yParent;
+    int yDepth;
+    bool yFound = false;
+
+    public bool IsCousins(TreeNode root, int x, int y) {
+        this.x = x;
+        this.y = y;
+        DFS(root, 0, null);
+        return xDepth == yDepth && xParent != yParent;
+    }
+
+    public void DFS(TreeNode node, int depth, TreeNode parent) {
+        if (node == null) {
+            return;
+        }
+
+        if (node.val == x) {
+            xParent = parent;
+            xDepth = depth;
+            xFound = true;
+        } else if (node.val == y) {
+            yParent = parent;
+            yDepth = depth;
+            yFound = true;
+        }
+
+        
+        
+        if (xFound && yFound) {
+            return;
+        }
+
+        DFS(node.left, depth + 1, node);
+
+        if (xFound && yFound) {
+            return;
+        }
+
+        DFS(node.right, depth + 1, node);
+    }
+}

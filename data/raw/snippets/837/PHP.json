@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $n\n     * @param Integer $k\n     * @param Integer $maxPts\n     * @return Float\n     */\n    function new21Game($n, $k, $maxPts) {\n        \n    }\n}"

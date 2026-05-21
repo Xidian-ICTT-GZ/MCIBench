@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @param {Integer[][]} rides\n# @return {Integer}\ndef max_taxi_earnings(n, rides)\n    \nend"

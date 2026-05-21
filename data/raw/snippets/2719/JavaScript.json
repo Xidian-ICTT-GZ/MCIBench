@@ -1,0 +1,1 @@
+"/**\n * @param {string} num1\n * @param {string} num2\n * @param {number} min_sum\n * @param {number} max_sum\n * @return {number}\n */\nvar count = function(num1, num2, min_sum, max_sum) {\n    \n};"

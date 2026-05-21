@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    string removeTrailingZeros(string num) {\n        \n    }\n};"

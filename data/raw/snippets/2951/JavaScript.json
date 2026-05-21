@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} mountain\n * @return {number[]}\n */\nvar findPeaks = function(mountain) {\n    \n};"

@@ -1,0 +1,1 @@
+"-spec equations_possible(Equations :: [unicode:unicode_binary()]) -> boolean().\nequations_possible(Equations) ->\n  ."

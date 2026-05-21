@@ -1,0 +1,1 @@
+"class Solution:\n    def makeEqual(self, words: List[str]) -> bool:\n        "

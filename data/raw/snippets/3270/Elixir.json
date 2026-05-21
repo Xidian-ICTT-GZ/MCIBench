@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec generate_key(num1 :: integer, num2 :: integer, num3 :: integer) :: integer\n  def generate_key(num1, num2, num3) do\n    \n  end\nend"

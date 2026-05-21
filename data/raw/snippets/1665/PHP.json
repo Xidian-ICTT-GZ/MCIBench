@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $tasks\n     * @return Integer\n     */\n    function minimumEffort($tasks) {\n        \n    }\n}"

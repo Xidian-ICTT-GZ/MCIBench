@@ -1,0 +1,1 @@
+"-spec count_quadruplets(Nums :: [integer()]) -> integer().\ncount_quadruplets(Nums) ->\n  ."

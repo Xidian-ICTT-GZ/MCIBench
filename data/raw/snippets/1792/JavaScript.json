@@ -1,0 +1,1 @@
+"/**\n * @param {number[][]} classes\n * @param {number} extraStudents\n * @return {number}\n */\nvar maxAverageRatio = function(classes, extraStudents) {\n    \n};"

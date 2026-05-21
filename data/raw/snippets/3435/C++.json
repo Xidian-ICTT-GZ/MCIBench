@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<vector<int>> supersequences(vector<string>& words) {\n        \n    }\n};"

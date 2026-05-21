@@ -1,0 +1,1 @@
+"class Solution(object):\n    def countSeniors(self, details):\n        \"\"\"\n        :type details: List[str]\n        :rtype: int\n        \"\"\"\n        "

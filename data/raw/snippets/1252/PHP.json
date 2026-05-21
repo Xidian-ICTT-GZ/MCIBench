@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $m\n     * @param Integer $n\n     * @param Integer[][] $indices\n     * @return Integer\n     */\n    function oddCells($m, $n, $indices) {\n        \n    }\n}"

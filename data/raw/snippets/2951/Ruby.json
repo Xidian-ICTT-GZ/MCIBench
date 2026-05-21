@@ -1,0 +1,1 @@
+"# @param {Integer[]} mountain\n# @return {Integer[]}\ndef find_peaks(mountain)\n    \nend"

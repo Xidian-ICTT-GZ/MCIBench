@@ -1,0 +1,90 @@
+void dfs(int u, int * dist, int * parent, const struct ListNode ** adj) {
+    for (struct ListNode * node = adj[u]; node; node = node->next) {
+        int v = node->val;
+        if (dist[v] < 0) {
+            dist[v] = dist[u] + 1;
+            parent[v] = u;
+            dfs(v, dist, parent, adj); 
+        }
+    }
+}
+
+int findLongestNode(int u, int * parent, const struct ListNode ** adj, int n) {
+    int * dist = (int *)malloc(sizeof(int) * n);
+    memset(dist, -1, sizeof(int) * n);
+    dist[u] = 0;
+    dfs(u, dist, parent, adj);
+    int maxdist = 0;
+    int node = -1;
+    for (int i = 0; i < n; i++) {
+        if (dist[i] > maxdist) {
+            maxdist = dist[i];
+            node = i;
+        }
+    }
+    free(dist);
+    return node;
+}
+
+int* findMinHeightTrees(int n, int** edges, int edgesSize, int* edgesColSize, int* returnSize){
+    int * res = NULL;
+    if (n == 1) {
+        res = (int *)malloc(sizeof(int));
+        *res = 0;
+        *returnSize = 1;
+        return res;
+    }
+
+    struct ListNode ** adj = (struct ListNode *)malloc(sizeof(struct ListNode *) * n);
+    for (int i = 0; i < n; i++) {
+        adj[i] = NULL;
+    }
+    for (int i = 0; i < edgesSize; i++) {
+        int u = edges[i][0];
+        int v = edges[i][1];
+        struct ListNode * node = (struct ListNode *)malloc(sizeof(struct ListNode));
+        node->val = u;
+        node->next = adj[v];
+        adj[v] = node;
+        node = (struct ListNode *)malloc(sizeof(struct ListNode));
+        node->val = v;
+        node->next = adj[u];
+        adj[u] = node;
+    }
+    
+    int * parent = (int *)malloc(sizeof(int) * n);
+    
+    int x = findLongestNode(0, parent, adj, n);
+    
+    int y = findLongestNode(x, parent, adj, n);
+    
+    int * path = (int *)malloc(sizeof(int) * n);
+    int pos = 0;
+    parent[x] = -1;
+    while (y != -1) {
+        path[pos++] = y;
+        y = parent[y];
+    }
+    if (pos % 2 == 0) {
+        res = (int *)malloc(sizeof(int) * 2);
+        res[0] = path[pos / 2 - 1];
+        res[1] = path[pos / 2];
+        *returnSize = 2;
+    } else {
+        res = (int *)malloc(sizeof(int));
+        *res = path[pos / 2];
+        *returnSize = 1;
+    }
+    free(path);
+    free(parent);
+    for (int i = 0; i < n; i++) {
+        struct ListNode * node = adj[i];
+        while (node) {
+            struct ListNode * curr = node;
+            node = curr->next;
+            free(curr);
+        }
+    }
+    free(adj);
+    return res;
+}

@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @param {Integer[][]} edges\n# @return {Integer}\ndef find_shortest_cycle(n, edges)\n    \nend"

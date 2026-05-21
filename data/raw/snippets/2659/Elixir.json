@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec count_operations_to_empty_array(nums :: [integer]) :: integer\n  def count_operations_to_empty_array(nums) do\n    \n  end\nend"

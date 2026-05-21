@@ -1,0 +1,1 @@
+"class Solution(object):\n    def maxStarSum(self, vals, edges, k):\n        \"\"\"\n        :type vals: List[int]\n        :type edges: List[List[int]]\n        :type k: int\n        :rtype: int\n        \"\"\"\n        "

@@ -1,0 +1,22 @@
+var numberOfPoints = function(nums) {
+    let C = 0;
+    for (const interval of nums) {
+        C = Math.max(C, interval[1]);
+    }
+
+    const diff = new Array(C + 2).fill(0);
+    for (const interval of nums) {
+        diff[interval[0]]++;
+        diff[interval[1] + 1]--;
+    }
+
+    let ans = 0, count = 0;
+    for (let i = 1; i <= C; i++) {
+        count += diff[i];
+        if (count > 0) {
+            ans++;
+        }
+    }
+
+    return ans;
+};

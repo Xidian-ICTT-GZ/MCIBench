@@ -1,0 +1,5 @@
+const int BIG = 1 << 30;
+
+bool isPowerOfTwo(int n) {
+    return n > 0 && BIG % n == 0;
+}

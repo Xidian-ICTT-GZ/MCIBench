@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @param {Integer} limit\n# @return {Integer}\ndef longest_subarray(nums, limit)\n    \nend"

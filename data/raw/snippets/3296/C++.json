@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    long long minNumberOfSeconds(int mountainHeight, vector<int>& workerTimes) {\n        \n    }\n};"

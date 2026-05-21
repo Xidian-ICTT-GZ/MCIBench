@@ -1,0 +1,1 @@
+"class Solution:\n    def countSeniors(self, details: List[str]) -> int:\n        "

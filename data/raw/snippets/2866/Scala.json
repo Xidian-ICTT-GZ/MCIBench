@@ -1,0 +1,1 @@
+"object Solution {\n    def maximumSumOfHeights(maxHeights: List[Int]): Long = {\n        \n    }\n}"

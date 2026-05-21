@@ -1,0 +1,1 @@
+"impl Solution {\n    pub fn min_integer(num: String, k: i32) -> String {\n        \n    }\n}"

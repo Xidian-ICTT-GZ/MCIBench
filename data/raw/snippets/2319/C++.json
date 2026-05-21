@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    bool checkXMatrix(vector<vector<int>>& grid) {\n        \n    }\n};"

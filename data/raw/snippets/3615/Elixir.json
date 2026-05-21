@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec max_len(n :: integer, edges :: [[integer]], label :: String.t) :: integer\n  def max_len(n, edges, label) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"class Solution:\n    def xorAfterQueries(self, nums: List[int], queries: List[List[int]]) -> int:\n        "

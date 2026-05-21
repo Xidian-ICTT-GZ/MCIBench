@@ -1,0 +1,1 @@
+"-spec find_champion(N :: integer(), Edges :: [[integer()]]) -> integer().\nfind_champion(N, Edges) ->\n  ."

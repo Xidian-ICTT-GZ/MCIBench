@@ -1,0 +1,1 @@
+"class Solution:\n    def eraseOverlapIntervals(self, intervals: List[List[int]]) -> int:\n        "

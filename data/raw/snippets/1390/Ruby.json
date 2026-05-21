@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @return {Integer}\ndef sum_four_divisors(nums)\n    \nend"

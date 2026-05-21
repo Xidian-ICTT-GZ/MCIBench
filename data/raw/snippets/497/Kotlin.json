@@ -1,0 +1,1 @@
+"class Solution(rects: Array<IntArray>) {\n\n    fun pick(): IntArray {\n        \n    }\n\n}\n\n/**\n * Your Solution object will be instantiated and called as such:\n * var obj = Solution(rects)\n * var param_1 = obj.pick()\n */"

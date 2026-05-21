@@ -1,0 +1,1 @@
+"# @param {String} path\n# @return {Boolean}\ndef is_path_crossing(path)\n    \nend"

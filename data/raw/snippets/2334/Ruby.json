@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @param {Integer} threshold\n# @return {Integer}\ndef valid_subarray_size(nums, threshold)\n    \nend"

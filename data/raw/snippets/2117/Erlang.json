@@ -1,0 +1,1 @@
+"-spec abbreviate_product(Left :: integer(), Right :: integer()) -> unicode:unicode_binary().\nabbreviate_product(Left, Right) ->\n  ."

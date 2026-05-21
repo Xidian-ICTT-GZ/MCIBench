@@ -1,0 +1,1 @@
+"class Solution:\n    def sortVowels(self, s: str) -> str:\n        "

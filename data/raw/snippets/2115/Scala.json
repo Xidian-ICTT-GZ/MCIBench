@@ -1,0 +1,1 @@
+"object Solution {\n    def findAllRecipes(recipes: Array[String], ingredients: List[List[String]], supplies: Array[String]): List[String] = {\n        \n    }\n}"

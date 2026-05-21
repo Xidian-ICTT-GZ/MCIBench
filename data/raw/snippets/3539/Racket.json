@@ -1,0 +1,1 @@
+"(define/contract (magical-sum m k nums)\n  (-> exact-integer? exact-integer? (listof exact-integer?) exact-integer?)\n  )"

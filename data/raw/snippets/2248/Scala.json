@@ -1,0 +1,1 @@
+"object Solution {\n    def intersection(nums: Array[Array[Int]]): List[Int] = {\n        \n    }\n}"

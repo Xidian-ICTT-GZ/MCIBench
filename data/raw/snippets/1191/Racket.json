@@ -1,0 +1,1 @@
+"(define/contract (k-concatenation-max-sum arr k)\n  (-> (listof exact-integer?) exact-integer? exact-integer?)\n  )"

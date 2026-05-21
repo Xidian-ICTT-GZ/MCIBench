@@ -1,0 +1,1 @@
+"class Solution:\n    def maximizeGreatness(self, nums: List[int]) -> int:\n        "

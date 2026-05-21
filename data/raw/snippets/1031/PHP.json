@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer $firstLen\n     * @param Integer $secondLen\n     * @return Integer\n     */\n    function maxSumTwoNoOverlap($nums, $firstLen, $secondLen) {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $circles\n     * @return Integer\n     */\n    function countLatticePoints($circles) {\n        \n    }\n}"

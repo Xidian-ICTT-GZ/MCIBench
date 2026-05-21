@@ -1,0 +1,1 @@
+"class Solution(object):\n    def hasGroupsSizeX(self, deck):\n        \"\"\"\n        :type deck: List[int]\n        :rtype: bool\n        \"\"\"\n        "

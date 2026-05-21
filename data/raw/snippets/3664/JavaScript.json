@@ -1,0 +1,1 @@
+"/**\n * @param {string[]} cards\n * @param {character} x\n * @return {number}\n */\nvar score = function(cards, x) {\n    \n};"

@@ -1,0 +1,1 @@
+"class Solution(object):\n    def removeBoxes(self, boxes):\n        \"\"\"\n        :type boxes: List[int]\n        :rtype: int\n        \"\"\"\n        "

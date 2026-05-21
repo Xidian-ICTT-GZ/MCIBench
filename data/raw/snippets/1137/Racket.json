@@ -1,0 +1,1 @@
+"(define/contract (tribonacci n)\n  (-> exact-integer? exact-integer?)\n  )"

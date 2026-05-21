@@ -1,0 +1,1 @@
+"class Solution(object):\n    def countOdds(self, low, high):\n        \"\"\"\n        :type low: int\n        :type high: int\n        :rtype: int\n        \"\"\"\n        "

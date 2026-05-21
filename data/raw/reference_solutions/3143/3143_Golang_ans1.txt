@@ -1,0 +1,32 @@
+func maxPointsInsideSquare(points [][]int, s string) int {
+    min1 := make([]int, 26)
+    for i := range min1 {
+        min1[i] = 1000000001
+    }
+    min2 := 1000000001
+    for i, ch := range s {
+        x, y := points[i][0], points[i][1]
+        j := int(ch - 'a')
+        d := max(abs(x), abs(y))
+        if d < min1[j] {
+            min2 = min(min2, min1[j])
+            min1[j] = d
+        } else if d < min2 {
+            min2 = d
+        }
+    }
+    res := 0
+    for _, d := range min1 {
+        if d < min2 {
+            res++
+        }
+    }
+    return res
+}
+
+func abs(a int) int {
+    if (a > 0) {
+        return a
+    }
+    return -a
+}

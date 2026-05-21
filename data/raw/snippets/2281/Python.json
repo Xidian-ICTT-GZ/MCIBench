@@ -1,0 +1,1 @@
+"class Solution(object):\n    def totalStrength(self, strength):\n        \"\"\"\n        :type strength: List[int]\n        :rtype: int\n        \"\"\"\n        "

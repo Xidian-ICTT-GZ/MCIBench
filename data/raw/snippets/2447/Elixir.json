@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec subarray_gcd(nums :: [integer], k :: integer) :: integer\n  def subarray_gcd(nums, k) do\n    \n  end\nend"

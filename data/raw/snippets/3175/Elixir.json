@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec find_winning_player(skills :: [integer], k :: integer) :: integer\n  def find_winning_player(skills, k) do\n    \n  end\nend"

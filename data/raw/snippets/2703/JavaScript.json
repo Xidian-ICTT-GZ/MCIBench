@@ -1,0 +1,1 @@
+"/**\n * @param {...(null|boolean|number|string|Array|Object)} args\n * @return {number}\n */\nvar argumentsLength = function(...args) {\n    \n};\n\n/**\n * argumentsLength(1, 2, 3); // 3\n */"

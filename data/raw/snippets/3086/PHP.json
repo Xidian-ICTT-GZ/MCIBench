@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer $k\n     * @param Integer $maxChanges\n     * @return Integer\n     */\n    function minimumMoves($nums, $k, $maxChanges) {\n        \n    }\n}"

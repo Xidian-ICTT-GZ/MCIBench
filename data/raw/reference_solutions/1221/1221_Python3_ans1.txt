@@ -1,0 +1,11 @@
+class Solution:
+    def balancedStringSplit(self, s: str) -> int:
+        ans, d = 0, 0
+        for ch in s:
+            if ch == 'L':
+                d += 1
+            else:
+                d -= 1
+            if d == 0:
+                ans += 1
+        return ans

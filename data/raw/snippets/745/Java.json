@@ -1,0 +1,1 @@
+"class WordFilter {\n\n    public WordFilter(String[] words) {\n        \n    }\n    \n    public int f(String pref, String suff) {\n        \n    }\n}\n\n/**\n * Your WordFilter object will be instantiated and called as such:\n * WordFilter obj = new WordFilter(words);\n * int param_1 = obj.f(pref,suff);\n */"

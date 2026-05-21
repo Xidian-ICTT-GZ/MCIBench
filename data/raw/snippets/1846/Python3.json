@@ -1,0 +1,1 @@
+"class Solution:\n    def maximumElementAfterDecrementingAndRearranging(self, arr: List[int]) -> int:\n        "

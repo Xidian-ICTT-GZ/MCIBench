@@ -1,0 +1,1 @@
+"/**\n * @param {number} m\n * @param {number} n\n * @param {number[]} hFences\n * @param {number[]} vFences\n * @return {number}\n */\nvar maximizeSquareArea = function(m, n, hFences, vFences) {\n    \n};"

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec sum_counts(nums :: [integer]) :: integer\n  def sum_counts(nums) do\n    \n  end\nend"

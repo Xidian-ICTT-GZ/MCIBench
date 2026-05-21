@@ -1,0 +1,68 @@
+typedef struct {
+    int key;
+    UT_hash_handle hh;
+} HashItem; 
+
+HashItem *hashFindItem(HashItem **obj, int key) {
+    HashItem *pEntry = NULL;
+    HASH_FIND_INT(*obj, &key, pEntry);
+    return pEntry;
+}
+
+bool hashAddItem(HashItem **obj, int key) {
+    if (hashFindItem(obj, key)) {
+        return false;
+    }
+    HashItem *pEntry = (HashItem *)malloc(sizeof(HashItem));
+    pEntry->key = key;
+    HASH_ADD_INT(*obj, key, pEntry);
+    return true;
+}
+
+void hashFree(HashItem **obj) {
+    HashItem *curr = NULL, *tmp = NULL;
+    HASH_ITER(hh, *obj, curr, tmp) {
+        HASH_DEL(*obj, curr);  
+        free(curr);
+    }
+}
+
+int minimumTeachings(int n, int** languages, int languagesSize, int* languagesColSize, 
+                    int** friendships, int friendshipsSize, int* friendshipsColSize) {
+    HashItem *cncon = NULL;
+    for (int i = 0; i < friendshipsSize; i++) {
+        HashItem *mp = NULL;
+        bool conm = false;
+        int person1 = friendships[i][0] - 1;
+        int person2 = friendships[i][1] - 1;
+        for (int j = 0; j < languagesColSize[person1]; j++) {
+            hashAddItem(&mp, languages[person1][j]);
+        }
+        for (int j = 0; j < languagesColSize[person2]; j++) {
+            if (hashFindItem(&mp, languages[person2][j])) {
+                conm = true;
+                break;
+            }
+        }
+        if (!conm) {
+            hashAddItem(&cncon, person1);
+            hashAddItem(&cncon, person2);
+        }
+        hashFree(&mp);        
+    }
+    
+    int max_cnt = 0;
+    int* cnt = (int*)calloc(n + 1, sizeof(int));
+    for (HashItem *pEntry = cncon; pEntry; pEntry = pEntry->hh.next) {
+        int person = pEntry->key;
+        for (int i = 0; i < languagesColSize[person]; i++) {
+            int lan = languages[person][i];
+            cnt[lan]++;
+            max_cnt = fmax(max_cnt, cnt[lan]);
+        }
+    }
+    
+    int ret = HASH_COUNT(cncon) - max_cnt;
+    hashFree(&cncon);
+    return ret;
+}

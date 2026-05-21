@@ -1,0 +1,1 @@
+"/**\n * @param {number[][]} edges\n * @param {number} signalSpeed\n * @return {number[]}\n */\nvar countPairsOfConnectableServers = function(edges, signalSpeed) {\n    \n};"

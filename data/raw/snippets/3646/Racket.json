@@ -1,0 +1,1 @@
+"(define/contract (special-palindrome n)\n  (-> exact-integer? exact-integer?)\n  )"

@@ -1,0 +1,1 @@
+"class Solution {\n    fun arithmeticTriplets(nums: IntArray, diff: Int): Int {\n        \n    }\n}"

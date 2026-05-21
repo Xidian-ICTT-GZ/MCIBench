@@ -1,0 +1,1 @@
+"class Solution {\n    fun possibleBipartition(n: Int, dislikes: Array<IntArray>): Boolean {\n        \n    }\n}"

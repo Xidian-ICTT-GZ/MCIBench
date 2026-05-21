@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int maxLen(int n, vector<vector<int>>& edges, string label) {\n        \n    }\n};"

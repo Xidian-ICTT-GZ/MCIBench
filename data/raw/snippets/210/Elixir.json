@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec find_order(num_courses :: integer, prerequisites :: [[integer]]) :: [integer]\n  def find_order(num_courses, prerequisites) do\n    \n  end\nend"

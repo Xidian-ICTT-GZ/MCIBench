@@ -1,0 +1,56 @@
+int dfs(int node, int parent, int f, int* coins, int k, int **children, int *childCount, int **memo) {
+    if (memo[node][f] != -1) {
+        return memo[node][f];
+    }
+    int res0 = (coins[node] >> f) - k;
+    int res1 = coins[node] >> (f + 1);
+    for (int i = 0; i < childCount[node]; ++i) {
+        int child = children[node][i];
+        if (child == parent) {
+            continue;
+        }
+        res0 += dfs(child, node, f, coins, k, children, childCount, memo);
+        if (f + 1 < 14) {
+            res1 += dfs(child, node, f + 1, coins, k, children, childCount, memo);
+        }
+    }
+    return memo[node][f] = fmax(res0, res1);
+}
+
+int maximumPoints(int **edges, int edgesSize, int *edgesColSize, int *coins, int coinsSize, int k) {
+    int* childCount = (int*)malloc(coinsSize * sizeof(int));
+    memset(childCount, 0, coinsSize * sizeof(int));
+    for (int i = 0; i < edgesSize; ++i) {
+        int u = edges[i][0];
+        int v = edges[i][1];
+        childCount[u]++;
+        childCount[v]++;
+    }
+
+    int** children = (int**)malloc(coinsSize * sizeof(int*));
+    for (int i = 0; i < coinsSize; ++i) {
+        children[i] = (int*)malloc(childCount[i] * sizeof(int));
+    }
+    memset(childCount, 0, coinsSize * sizeof(int));
+    for (int i = 0; i < edgesSize; ++i) {
+        int u = edges[i][0];
+        int v = edges[i][1];
+        children[u][childCount[u]++] = v;
+        children[v][childCount[v]++] = u;
+    }
+
+    int **memo = (int **)malloc(coinsSize * sizeof(int *));
+    for (int i = 0; i < coinsSize; i++) {
+        memo[i] = (int *)malloc(14 * sizeof(int));
+        memset(memo[i], -1, 14 * sizeof(int));
+    }
+    int result = dfs(0, -1, 0, coins, k, children, childCount, memo);
+    for (int i = 0; i < coinsSize; ++i) {
+        free(children[i]);
+        free(memo[i]);
+    }
+    free(children);
+    free(memo);
+    free(childCount);
+    return result;
+}

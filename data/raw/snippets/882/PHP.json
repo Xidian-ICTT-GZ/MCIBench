@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $edges\n     * @param Integer $maxMoves\n     * @param Integer $n\n     * @return Integer\n     */\n    function reachableNodes($edges, $maxMoves, $n) {\n        \n    }\n}"

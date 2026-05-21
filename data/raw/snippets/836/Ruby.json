@@ -1,0 +1,1 @@
+"# @param {Integer[]} rec1\n# @param {Integer[]} rec2\n# @return {Boolean}\ndef is_rectangle_overlap(rec1, rec2)\n    \nend"

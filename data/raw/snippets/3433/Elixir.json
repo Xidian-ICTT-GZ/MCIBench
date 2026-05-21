@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec count_mentions(number_of_users :: integer, events :: [[String.t]]) :: [integer]\n  def count_mentions(number_of_users, events) do\n    \n  end\nend"

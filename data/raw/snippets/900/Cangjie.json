@@ -1,0 +1,1 @@
+"class RLEIterator {\n    init(encoding: Array<Int64>) {\n\n    }\n    \n    func next(n: Int64): Int64 {\n\n    }\n}\n\n/**\n * Your RLEIterator object will be instantiated and called as such:\n * let obj: RLEIterator = RLEIterator(encoding)\n * let param_1 = obj.next(n)\n */"

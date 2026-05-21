@@ -1,0 +1,1 @@
+"-spec distance_traveled(MainTank :: integer(), AdditionalTank :: integer()) -> integer().\ndistance_traveled(MainTank, AdditionalTank) ->\n  ."

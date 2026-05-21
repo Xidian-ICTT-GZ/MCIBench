@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $lcp\n     * @return String\n     */\n    function findTheString($lcp) {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"class Solution:\n    def getHint(self, secret: str, guess: str) -> str:\n        "

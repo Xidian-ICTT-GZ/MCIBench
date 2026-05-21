@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec cut_off_tree(forest :: [[integer]]) :: integer\n  def cut_off_tree(forest) do\n    \n  end\nend"

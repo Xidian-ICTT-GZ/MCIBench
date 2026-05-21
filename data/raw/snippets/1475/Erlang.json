@@ -1,0 +1,1 @@
+"-spec final_prices(Prices :: [integer()]) -> [integer()].\nfinal_prices(Prices) ->\n  ."

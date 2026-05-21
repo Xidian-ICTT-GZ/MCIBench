@@ -1,0 +1,1 @@
+"class Solution:\n    def minStickers(self, stickers: List[str], target: str) -> int:\n        "

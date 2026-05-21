@@ -1,0 +1,1 @@
+"/**\n * @param {Array} arr\n * @return {Generator}\n */\nvar inorderTraversal = function*(arr) {\n    \n};\n\n/**\n * const gen = inorderTraversal([1, [2, 3]]);\n * gen.next().value; // 1\n * gen.next().value; // 2\n * gen.next().value; // 3\n */"

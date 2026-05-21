@@ -1,0 +1,1 @@
+"object Solution {\n    def numOfSubarrays(arr: Array[Int], k: Int, threshold: Int): Int = {\n        \n    }\n}"

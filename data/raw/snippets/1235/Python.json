@@ -1,0 +1,1 @@
+"class Solution(object):\n    def jobScheduling(self, startTime, endTime, profit):\n        \"\"\"\n        :type startTime: List[int]\n        :type endTime: List[int]\n        :type profit: List[int]\n        :rtype: int\n        \"\"\"\n        "

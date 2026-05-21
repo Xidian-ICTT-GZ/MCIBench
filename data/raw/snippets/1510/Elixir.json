@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec winner_square_game(n :: integer) :: boolean\n  def winner_square_game(n) do\n    \n  end\nend"

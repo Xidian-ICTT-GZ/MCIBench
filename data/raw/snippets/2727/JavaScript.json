@@ -1,0 +1,1 @@
+"/**\n * @param {Object|Array} obj\n * @return {boolean}\n */\nvar isEmpty = function(obj) {\n    \n};"

@@ -1,0 +1,14 @@
+public class Solution {
+    public int NumSubarrayBoundedMax(int[] nums, int left, int right) {
+        return Count(nums, right) - Count(nums, left - 1);
+    }
+
+    public int Count(int[] nums, int lower) {
+        int res = 0, cur = 0;
+        foreach (int x in nums) {
+            cur = x <= lower ? cur + 1 : 0;
+            res += cur;
+        }
+        return res;
+    }
+}

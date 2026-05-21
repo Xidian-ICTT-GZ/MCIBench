@@ -1,0 +1,1 @@
+"-spec max_score(S :: unicode:unicode_binary()) -> integer().\nmax_score(S) ->\n  ."

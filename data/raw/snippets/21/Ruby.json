@@ -1,0 +1,1 @@
+"# Definition for singly-linked list.\n# class ListNode\n#     attr_accessor :val, :next\n#     def initialize(val = 0, _next = nil)\n#         @val = val\n#         @next = _next\n#     end\n# end\n# @param {ListNode} list1\n# @param {ListNode} list2\n# @return {ListNode}\ndef merge_two_lists(list1, list2)\n    \nend"

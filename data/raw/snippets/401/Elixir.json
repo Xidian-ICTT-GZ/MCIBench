@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec read_binary_watch(turned_on :: integer) :: [String.t]\n  def read_binary_watch(turned_on) do\n    \n  end\nend"

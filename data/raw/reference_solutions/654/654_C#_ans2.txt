@@ -1,0 +1,33 @@
+public class Solution {
+    public TreeNode ConstructMaximumBinaryTree(int[] nums) {
+        int n = nums.Length;
+        Stack<int> stack = new Stack<int>();
+        int[] left = new int[n];
+        int[] right = new int[n];
+        Array.Fill(left, -1);
+        Array.Fill(right, -1);
+        TreeNode[] tree = new TreeNode[n];
+        for (int i = 0; i < n; ++i) {
+            tree[i] = new TreeNode(nums[i]);
+            while (stack.Count > 0 && nums[i] > nums[stack.Peek()]) {
+                right[stack.Pop()] = i;
+            }
+            if (stack.Count > 0) {
+                left[i] = stack.Peek();
+            }
+            stack.Push(i);
+        }
+
+        TreeNode root = null;
+        for (int i = 0; i < n; ++i) {
+            if (left[i] == -1 && right[i] == -1) {
+                root = tree[i];
+            } else if (right[i] == -1 || (left[i] != -1 && nums[left[i]] < nums[right[i]])) {
+                tree[left[i]].right = tree[i];
+            } else {
+                tree[right[i]].left = tree[i];
+            }
+        }
+        return root;
+    }
+}

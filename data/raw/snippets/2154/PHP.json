@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer $original\n     * @return Integer\n     */\n    function findFinalValue($nums, $original) {\n        \n    }\n}"

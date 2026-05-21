@@ -1,0 +1,13 @@
+import java.math.BigInteger;
+
+class Solution {
+    public int maxTotalReward(int[] rewardValues) {
+        Arrays.sort(rewardValues);
+        BigInteger f = BigInteger.ONE;
+        for (int x : rewardValues) {
+            BigInteger mask = BigInteger.ONE.shiftLeft(x).subtract(BigInteger.ONE);
+            f = f.or(f.and(mask).shiftLeft(x));
+        }
+        return f.bitLength() - 1;
+    }
+}

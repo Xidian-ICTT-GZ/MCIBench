@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec can_arrange(arr :: [integer], k :: integer) :: boolean\n  def can_arrange(arr, k) do\n    \n  end\nend"

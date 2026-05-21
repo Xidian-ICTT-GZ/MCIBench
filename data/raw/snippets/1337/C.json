@@ -1,0 +1,1 @@
+"/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* kWeakestRows(int** mat, int matSize, int* matColSize, int k, int* returnSize) {\n    \n}"

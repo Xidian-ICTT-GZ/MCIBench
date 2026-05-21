@@ -1,0 +1,1 @@
+"# @param {Integer[][]} boxes\n# @param {Integer} ports_count\n# @param {Integer} max_boxes\n# @param {Integer} max_weight\n# @return {Integer}\ndef box_delivering(boxes, ports_count, max_boxes, max_weight)\n    \nend"

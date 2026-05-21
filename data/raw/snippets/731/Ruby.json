@@ -1,0 +1,1 @@
+"class MyCalendarTwo\n    def initialize()\n        \n    end\n\n\n=begin\n    :type start_time: Integer\n    :type end_time: Integer\n    :rtype: Boolean\n=end\n    def book(start_time, end_time)\n        \n    end\n\n\nend\n\n# Your MyCalendarTwo object will be instantiated and called as such:\n# obj = MyCalendarTwo.new()\n# param_1 = obj.book(start_time, end_time)"

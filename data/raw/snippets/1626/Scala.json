@@ -1,0 +1,1 @@
+"object Solution {\n    def bestTeamScore(scores: Array[Int], ages: Array[Int]): Int = {\n        \n    }\n}"

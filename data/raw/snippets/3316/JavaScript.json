@@ -1,0 +1,1 @@
+"/**\n * @param {string} source\n * @param {string} pattern\n * @param {number[]} targetIndices\n * @return {number}\n */\nvar maxRemovals = function(source, pattern, targetIndices) {\n    \n};"

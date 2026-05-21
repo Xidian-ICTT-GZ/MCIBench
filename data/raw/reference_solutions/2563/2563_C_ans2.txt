@@ -1,0 +1,17 @@
+int cmp(const void* a, const void* b) { return (*(int*)a - *(int*)b); }
+
+long long countFairPairs(int* nums, int numsSize, int lower, int upper) {
+    qsort(nums, numsSize, sizeof(int), cmp);
+    long long ans = 0;
+    int left = numsSize, right = numsSize;
+    for (int j = 0; j < numsSize; ++j) {
+        while (right && nums[right - 1] > upper - nums[j]) {
+            right--;
+        }
+        while (left && nums[left - 1] >= lower - nums[j]) {
+            left--;
+        }
+        ans += fmin(right, j) - fmin(left, j);
+    }
+    return ans;
+}

@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @param {Integer} k\n# @param {Integer} multiplier\n# @return {Integer[]}\ndef get_final_state(nums, k, multiplier)\n    \nend"

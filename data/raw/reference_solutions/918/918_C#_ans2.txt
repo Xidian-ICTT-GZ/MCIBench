@@ -1,0 +1,20 @@
+public class Solution {
+    public int MaxSubarraySumCircular(int[] nums) {
+        int n = nums.Length;
+        int preMax = nums[0], maxRes = nums[0];
+        int preMin = nums[0], minRes = nums[0];
+        int sum = nums[0];
+        for (int i = 1; i < n; i++) {
+            preMax = Math.Max(preMax + nums[i], nums[i]);
+            maxRes = Math.Max(maxRes, preMax);
+            preMin = Math.Min(preMin + nums[i], nums[i]);
+            minRes = Math.Min(minRes, preMin);
+            sum += nums[i];
+        }
+        if (maxRes < 0) {
+            return maxRes;
+        } else {
+            return Math.Max(maxRes, sum - minRes);
+        }
+    }
+}

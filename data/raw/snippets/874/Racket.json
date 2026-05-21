@@ -1,0 +1,1 @@
+"(define/contract (robot-sim commands obstacles)\n  (-> (listof exact-integer?) (listof (listof exact-integer?)) exact-integer?)\n  )"

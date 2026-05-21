@@ -1,0 +1,1 @@
+"/**\n * The knows API is defined in the parent class VersionControl.\n *     func isBadVersion(_ version: Int) -> Bool{}\n */\n\nclass Solution : VersionControl {\n    func firstBadVersion(_ n: Int) -> Int {\n        \n    }\n}"

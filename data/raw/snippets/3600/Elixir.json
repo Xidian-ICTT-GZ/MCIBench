@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec max_stability(n :: integer, edges :: [[integer]], k :: integer) :: integer\n  def max_stability(n, edges, k) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"(define/contract (unhappy-friends n preferences pairs)\n  (-> exact-integer? (listof (listof exact-integer?)) (listof (listof exact-integer?)) exact-integer?)\n  )"

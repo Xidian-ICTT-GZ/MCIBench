@@ -1,0 +1,1 @@
+"class Solution(object):\n    def pickGifts(self, gifts, k):\n        \"\"\"\n        :type gifts: List[int]\n        :type k: int\n        :rtype: int\n        \"\"\"\n        "

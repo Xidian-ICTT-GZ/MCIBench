@@ -1,0 +1,1 @@
+"class Solution:\n    def search(self, nums: List[int], target: int) -> int:\n        "

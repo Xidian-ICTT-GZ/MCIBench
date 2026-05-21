@@ -1,0 +1,1 @@
+"class Solution:\n    def removeStars(self, s: str) -> str:\n        "

@@ -1,0 +1,1 @@
+"-spec continuous_subarrays(Nums :: [integer()]) -> integer().\ncontinuous_subarrays(Nums) ->\n  ."

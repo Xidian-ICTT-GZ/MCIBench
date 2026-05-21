@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int minNumberOperations(vector<int>& target) {\n        \n    }\n};"

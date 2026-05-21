@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec is_strictly_palindromic(n :: integer) :: boolean\n  def is_strictly_palindromic(n) do\n    \n  end\nend"

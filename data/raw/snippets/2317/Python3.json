@@ -1,0 +1,1 @@
+"class Solution:\n    def maximumXOR(self, nums: List[int]) -> int:\n        "

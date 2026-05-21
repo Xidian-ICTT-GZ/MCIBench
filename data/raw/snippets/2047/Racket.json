@@ -1,0 +1,1 @@
+"(define/contract (count-valid-words sentence)\n  (-> string? exact-integer?)\n  )"

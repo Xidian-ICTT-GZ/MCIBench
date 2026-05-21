@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec magical_string(n :: integer) :: integer\n  def magical_string(n) do\n    \n  end\nend"

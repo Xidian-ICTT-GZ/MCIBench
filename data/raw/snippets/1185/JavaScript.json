@@ -1,0 +1,1 @@
+"/**\n * @param {number} day\n * @param {number} month\n * @param {number} year\n * @return {string}\n */\nvar dayOfTheWeek = function(day, month, year) {\n    \n};"

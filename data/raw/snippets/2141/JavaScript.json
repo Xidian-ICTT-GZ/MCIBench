@@ -1,0 +1,1 @@
+"/**\n * @param {number} n\n * @param {number[]} batteries\n * @return {number}\n */\nvar maxRunTime = function(n, batteries) {\n    \n};"

@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @param {Integer} k\n# @return {Integer}\ndef k_inverse_pairs(n, k)\n    \nend"

@@ -1,0 +1,1 @@
+"-spec rearrange_characters(S :: unicode:unicode_binary(), Target :: unicode:unicode_binary()) -> integer().\nrearrange_characters(S, Target) ->\n  ."

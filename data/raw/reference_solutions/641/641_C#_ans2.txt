@@ -1,0 +1,97 @@
+public class MyCircularDeque {
+    private class DLinkListNode {
+        public int val;
+        public DLinkListNode prev, next;
+
+        public DLinkListNode(int val) {
+            this.val = val;
+        }
+    }
+
+    private DLinkListNode head, tail;
+    private int capacity;
+    private int size;
+
+    public MyCircularDeque(int k) {
+        capacity = k;
+        size = 0;
+    }
+
+    public bool InsertFront(int value) {
+        if (size == capacity) {
+            return false;
+        }
+        DLinkListNode node = new DLinkListNode(value);
+        if (size == 0) {
+            head = tail = node;
+        } else {
+            node.next = head;
+            head.prev = node;
+            head = node;
+        }
+        size++;
+        return true;
+    }
+
+    public bool InsertLast(int value) {
+        if (size == capacity) {
+            return false;
+        }
+        DLinkListNode node = new DLinkListNode(value);
+        if (size == 0) {
+            head = tail = node;
+        } else {
+            tail.next = node;
+            node.prev = tail;
+            tail = node;
+        }
+        size++;
+        return true;
+    }
+
+    public bool DeleteFront() {
+        if (size == 0) {
+            return false;
+        }
+        head = head.next;
+        if (head != null) {
+            head.prev = null;
+        }
+        size--;
+        return true;
+    }
+
+    public bool DeleteLast() {
+        if (size == 0) {
+            return false;
+        }
+        tail = tail.prev;
+        if (tail != null) {
+            tail.next = null;
+        }
+        size--;
+        return true;
+    }
+
+    public int GetFront() {
+        if (size == 0) {
+            return -1;
+        }
+        return head.val;
+    }
+
+    public int GetRear() {
+        if (size == 0) {
+            return -1;
+        }
+        return tail.val;
+    }
+
+    public bool IsEmpty() {
+        return size == 0;
+    }
+
+    public bool IsFull() {
+        return size == capacity;
+    }
+}

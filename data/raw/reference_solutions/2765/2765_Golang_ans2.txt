@@ -1,0 +1,19 @@
+func alternatingSubarray(nums []int) int {
+    res := -1
+    n := len(nums)
+    firstIndex := 0
+    for i := 1; i < n; i++ {
+        length := i - firstIndex + 1
+        if nums[i] - nums[firstIndex] == (length - 1) % 2 {
+            res = max(res, length)
+        } else {
+            if nums[i] - nums[i - 1] == 1 {
+                firstIndex = i - 1
+                res = max(res, 2)
+            } else {
+                firstIndex = i
+            }
+        }
+    }
+    return res
+}

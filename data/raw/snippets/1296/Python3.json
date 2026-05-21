@@ -1,0 +1,1 @@
+"class Solution:\n    def isPossibleDivide(self, nums: List[int], k: int) -> bool:\n        "

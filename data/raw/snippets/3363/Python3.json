@@ -1,0 +1,1 @@
+"class Solution:\n    def maxCollectedFruits(self, fruits: List[List[int]]) -> int:\n        "

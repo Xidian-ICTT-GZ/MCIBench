@@ -1,0 +1,1 @@
+"class Solution {\n    func minSpeedOnTime(dist: Array<Int64>, hour: Float64): Int64 {\n\n    }\n}"

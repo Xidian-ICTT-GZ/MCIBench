@@ -1,0 +1,27 @@
+public class Solution {
+    public Node Connect(Node root) {
+        if (root == null) {
+            return null;
+        }
+        Queue<Node> queue = new Queue<Node>();
+        queue.Enqueue(root);
+        while (queue.Count > 0) {
+            int n = queue.Count;
+            Node last = null;
+            for (int i = 1; i <= n; ++i) {
+                Node f = queue.Dequeue();
+                if (f.left != null) {
+                    queue.Enqueue(f.left);
+                }
+                if (f.right != null) {
+                    queue.Enqueue(f.right);
+                }
+                if (i != 1) {
+                    last.next = f;
+                }
+                last = f;
+            }
+        }
+        return root;
+    }
+}

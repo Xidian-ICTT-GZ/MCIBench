@@ -1,0 +1,1 @@
+"class Solution(object):\n    def partitionLabels(self, s):\n        \"\"\"\n        :type s: str\n        :rtype: List[int]\n        \"\"\"\n        "

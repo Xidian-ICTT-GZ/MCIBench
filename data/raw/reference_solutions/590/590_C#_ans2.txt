@@ -1,0 +1,36 @@
+public class Solution {
+    public IList<int> Postorder(Node root) {
+        IList<int> res = new List<int>();
+        if (root == null) {
+            return res;
+        }
+        Dictionary<Node, int> dictionary = new Dictionary<Node, int>();
+        Stack<Node> stack = new Stack<Node>();
+        Node node = root;
+        while (stack.Count > 0 || node != null) {
+            while (node != null) {
+                stack.Push(node);
+                IList<Node> childrenList = node.children;
+                if (childrenList != null && childrenList.Count > 0) {
+                    dictionary.Add(node, 0);
+                    node = childrenList[0];
+                } else {
+                    node = null;
+                }
+            }
+            node = stack.Peek();
+            int index = (dictionary.ContainsKey(node) ? dictionary[node] : -1) + 1;
+            IList<Node> children = node.children;
+            if (children != null && children.Count > index) {
+                dictionary[node] = index;
+                node = children[index];
+            } else {
+                res.Add(node.val);
+                stack.Pop();
+                dictionary.Remove(node);
+                node = null;
+            }
+        }
+        return res;
+    }
+}

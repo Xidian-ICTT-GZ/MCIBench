@@ -1,0 +1,1 @@
+"class Solution(object):\n    def minMalwareSpread(self, graph, initial):\n        \"\"\"\n        :type graph: List[List[int]]\n        :type initial: List[int]\n        :rtype: int\n        \"\"\"\n        "

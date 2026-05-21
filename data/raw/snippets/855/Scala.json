@@ -1,0 +1,1 @@
+"class ExamRoom(_n: Int) {\n\n    def seat(): Int = {\n        \n    }\n\n    def leave(p: Int): Unit = {\n        \n    }\n\n}\n\n/**\n * Your ExamRoom object will be instantiated and called as such:\n * val obj = new ExamRoom(n)\n * val param_1 = obj.seat()\n * obj.leave(p)\n */"

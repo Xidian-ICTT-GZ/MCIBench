@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    double frogPosition(int n, vector<vector<int>>& edges, int t, int target) {\n        \n    }\n};"

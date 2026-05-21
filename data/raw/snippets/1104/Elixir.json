@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec path_in_zig_zag_tree(label :: integer) :: [integer]\n  def path_in_zig_zag_tree(label) do\n    \n  end\nend"

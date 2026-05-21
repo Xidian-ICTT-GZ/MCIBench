@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec square_free_subsets(nums :: [integer]) :: integer\n  def square_free_subsets(nums) do\n    \n  end\nend"

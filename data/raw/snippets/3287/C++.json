@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int maxValue(vector<int>& nums, int k) {\n        \n    }\n};"

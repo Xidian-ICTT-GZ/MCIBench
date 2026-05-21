@@ -1,0 +1,1 @@
+"object Solution {\n    def minimumMoves(nums: Array[Int], k: Int, maxChanges: Int): Long = {\n        \n    }\n}"

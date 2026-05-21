@@ -1,0 +1,1 @@
+"-spec good_indices(Nums :: [integer()], K :: integer()) -> [integer()].\ngood_indices(Nums, K) ->\n  ."

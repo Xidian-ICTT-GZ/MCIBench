@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec is_ugly(n :: integer) :: boolean\n  def is_ugly(n) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"class DetectSquares {\npublic:\n    DetectSquares() {\n        \n    }\n    \n    void add(vector<int> point) {\n        \n    }\n    \n    int count(vector<int> point) {\n        \n    }\n};\n\n/**\n * Your DetectSquares object will be instantiated and called as such:\n * DetectSquares* obj = new DetectSquares();\n * obj->add(point);\n * int param_2 = obj->count(point);\n */"

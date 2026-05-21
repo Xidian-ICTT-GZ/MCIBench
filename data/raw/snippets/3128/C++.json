@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    long long numberOfRightTriangles(vector<vector<int>>& grid) {\n        \n    }\n};"

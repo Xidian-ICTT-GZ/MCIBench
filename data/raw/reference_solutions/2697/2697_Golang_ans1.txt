@@ -1,0 +1,13 @@
+func makeSmallestPalindrome(s string) string {
+    left, right := 0, len(s) - 1
+    t := []byte(s)
+    for left < right {
+        if s[left] != s[right] {
+            t[left] = min(s[left], s[right])
+            t[right] = t[left]
+        }
+        left++
+        right--
+    }
+    return string(t)
+}

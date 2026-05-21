@@ -1,0 +1,1 @@
+"object Solution {\n    def canConstruct(ransomNote: String, magazine: String): Boolean = {\n        \n    }\n}"

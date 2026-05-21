@@ -1,0 +1,1 @@
+"class Trie {\n\n  Trie() {\n    \n  }\n  \n  void insert(String word) {\n    \n  }\n  \n  bool search(String word) {\n    \n  }\n  \n  bool startsWith(String prefix) {\n    \n  }\n}\n\n/**\n * Your Trie object will be instantiated and called as such:\n * Trie obj = Trie();\n * obj.insert(word);\n * bool param2 = obj.search(word);\n * bool param3 = obj.startsWith(prefix);\n */"

@@ -1,0 +1,1 @@
+"-spec count_binary_substrings(S :: unicode:unicode_binary()) -> integer().\ncount_binary_substrings(S) ->\n  ."

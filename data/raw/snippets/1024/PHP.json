@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $clips\n     * @param Integer $time\n     * @return Integer\n     */\n    function videoStitching($clips, $time) {\n        \n    }\n}"

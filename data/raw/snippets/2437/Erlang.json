@@ -1,0 +1,1 @@
+"-spec count_time(Time :: unicode:unicode_binary()) -> integer().\ncount_time(Time) ->\n  ."

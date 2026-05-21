@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $ring\n     * @param String $key\n     * @return Integer\n     */\n    function findRotateSteps($ring, $key) {\n        \n    }\n}"

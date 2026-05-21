@@ -1,0 +1,1 @@
+"/**\n * @param {number} n\n * @param {number} k\n * @param {number} target\n * @return {number}\n */\nvar numRollsToTarget = function(n, k, target) {\n    \n};"

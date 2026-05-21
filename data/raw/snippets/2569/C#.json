@@ -1,0 +1,1 @@
+"public class Solution {\n    public long[] HandleQuery(int[] nums1, int[] nums2, int[][] queries) {\n        \n    }\n}"

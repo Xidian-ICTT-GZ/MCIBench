@@ -1,0 +1,1 @@
+"(define/contract (find-substring-in-wrapround-string s)\n  (-> string? exact-integer?)\n  )"

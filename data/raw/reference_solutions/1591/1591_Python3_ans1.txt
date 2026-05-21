@@ -1,0 +1,45 @@
+class Solution:
+    def isPrintable(self, targetGrid: List[List[int]]) -> bool:
+        COLOR = 61
+
+        m = len(targetGrid)
+        n = len(targetGrid[0])
+
+        up = [float("inf")] * COLOR
+        down = [0] * COLOR
+        left = [float("inf")] * COLOR
+        right = [0] * COLOR
+        occur = set()
+
+        for i, line in enumerate(targetGrid):
+            for j, color in enumerate(line):
+                occur.add(color)
+                up[color] = min(up[color], i)
+                down[color] = max(down[color], i)
+                left[color] = min(left[color], j)
+                right[color] = max(right[color], j)
+
+        g = [[0] * COLOR for _ in range(COLOR)]
+        indeg = [0] * COLOR
+        nodes = len(occur)
+        
+        for outside in occur:
+            for i in range(up[outside], down[outside] + 1):
+                for j in range(left[outside], right[outside] + 1):
+                    color = targetGrid[i][j]
+                    if outside != color and g[outside][color] == 0:
+                        g[outside][color] = 1
+                        indeg[color] += 1
+        
+        q = collections.deque([color for color in occur if indeg[color] == 0])
+
+        while q:
+            u = q.popleft()
+            nodes -= 1
+            for v in range(1, COLOR):
+                if g[u][v] == 1:
+                    indeg[v] -= 1
+                    if indeg[v] == 0:
+                        q.append(v)
+        
+        return nodes == 0

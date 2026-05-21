@@ -1,0 +1,1 @@
+"class ProductOfNumbers {\npublic:\n    ProductOfNumbers() {\n        \n    }\n    \n    void add(int num) {\n        \n    }\n    \n    int getProduct(int k) {\n        \n    }\n};\n\n/**\n * Your ProductOfNumbers object will be instantiated and called as such:\n * ProductOfNumbers* obj = new ProductOfNumbers();\n * obj->add(num);\n * int param_2 = obj->getProduct(k);\n */"

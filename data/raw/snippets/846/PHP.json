@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $hand\n     * @param Integer $groupSize\n     * @return Boolean\n     */\n    function isNStraightHand($hand, $groupSize) {\n        \n    }\n}"

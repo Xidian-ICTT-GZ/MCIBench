@@ -1,0 +1,59 @@
+const int dirs[4][2] = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
+int rows, columns;
+
+typedef struct point {
+    int x, y;
+} point;
+
+int longestIncreasingPath(int** matrix, int matrixSize, int* matrixColSize) {
+    if (matrixSize == 0 || matrixColSize[0] == 0) {
+        return 0;
+    }
+    rows = matrixSize;
+    columns = matrixColSize[0];
+
+    int** outdegrees = (int**)malloc(sizeof(int*) * rows);
+    for (int i = 0; i < rows; i++) {
+        outdegrees[i] = (int*)malloc(sizeof(int) * columns);
+        memset(outdegrees[i], 0, sizeof(int) * columns);
+    }
+    for (int i = 0; i < rows; ++i) {
+        for (int j = 0; j < columns; ++j) {
+            for (int k = 0; k < 4; ++k) {
+                int newRow = i + dirs[k][0], newColumn = j + dirs[k][1];
+                if (newRow >= 0 && newRow < rows && newColumn >= 0 && newColumn < columns && matrix[newRow][newColumn] > matrix[i][j]) {
+                    ++outdegrees[i][j];
+                }
+            }
+        }
+    }
+
+    point* q = (point*)malloc(sizeof(point) * rows * columns);
+    int l = 0, r = 0;
+    for (int i = 0; i < rows; ++i) {
+        for (int j = 0; j < columns; ++j) {
+            if (outdegrees[i][j] == 0) {
+                q[r++] = (point){i, j};
+            }
+        }
+    }
+    int ans = 0;
+    while (l < r) {
+        ++ans;
+        int size = r - l;
+        for (int i = 0; i < size; ++i) {
+            point cell = q[l++];
+            int row = cell.x, column = cell.y;
+            for (int k = 0; k < 4; ++k) {
+                int newRow = row + dirs[k][0], newColumn = column + dirs[k][1];
+                if (newRow >= 0 && newRow < rows && newColumn >= 0 && newColumn < columns && matrix[newRow][newColumn] < matrix[row][column]) {
+                    --outdegrees[newRow][newColumn];
+                    if (outdegrees[newRow][newColumn] == 0) {
+                        q[r++] = (point){newRow, newColumn};
+                    }
+                }
+            }
+        }
+    }
+    return ans;
+}

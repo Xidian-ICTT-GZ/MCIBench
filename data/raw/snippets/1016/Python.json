@@ -1,0 +1,1 @@
+"class Solution(object):\n    def queryString(self, s, n):\n        \"\"\"\n        :type s: str\n        :type n: int\n        :rtype: bool\n        \"\"\"\n        "

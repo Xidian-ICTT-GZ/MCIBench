@@ -1,0 +1,15 @@
+public class Solution {
+    public int FindTheWinner(int n, int k) {
+        Queue<int> queue = new Queue<int>();
+        for (int i = 1; i <= n; i++) {
+            queue.Enqueue(i);
+        }
+        while (queue.Count > 1) {
+            for (int i = 1; i < k; i++) {
+                queue.Enqueue(queue.Dequeue());
+            }
+            queue.Dequeue();
+        }
+        return queue.Peek();
+    }
+}

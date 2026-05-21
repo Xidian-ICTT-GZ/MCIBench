@@ -1,0 +1,1 @@
+"-spec maximum_bob_points(NumArrows :: integer(), AliceArrows :: [integer()]) -> [integer()].\nmaximum_bob_points(NumArrows, AliceArrows) ->\n  ."

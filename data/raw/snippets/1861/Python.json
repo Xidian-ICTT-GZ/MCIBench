@@ -1,0 +1,1 @@
+"class Solution(object):\n    def rotateTheBox(self, boxGrid):\n        \"\"\"\n        :type boxGrid: List[List[str]]\n        :rtype: List[List[str]]\n        \"\"\"\n        "

@@ -1,0 +1,42 @@
+public class Solution {
+    public string FractionToDecimal(int numerator, int denominator) {
+        long numeratorLong = (long) numerator;
+        long denominatorLong = (long) denominator;
+        if (numeratorLong % denominatorLong == 0) {
+            return (numeratorLong / denominatorLong).ToString();
+        }
+
+        StringBuilder sb = new StringBuilder();
+        if (numeratorLong < 0 ^ denominatorLong < 0) {
+            sb.Append('-');
+        }
+
+        
+        numeratorLong = Math.Abs(numeratorLong);
+        denominatorLong = Math.Abs(denominatorLong);
+        long integerPart = numeratorLong / denominatorLong;
+        sb.Append(integerPart);
+        sb.Append('.');
+
+        
+        StringBuilder fractionPart = new StringBuilder();
+        Dictionary<long, int> remainderIndexDic = new Dictionary<long, int>();
+        long remainder = numeratorLong % denominatorLong;
+        int index = 0;
+        while (remainder != 0 && !remainderIndexDic.ContainsKey(remainder)) {
+            remainderIndexDic.Add(remainder, index);
+            remainder *= 10;
+            fractionPart.Append(remainder / denominatorLong);
+            remainder %= denominatorLong;
+            index++;
+        }
+        if (remainder != 0) { 
+            int insertIndex = remainderIndexDic[remainder];
+            fractionPart.Insert(insertIndex, '(');
+            fractionPart.Append(')');
+        }
+        sb.Append(fractionPart.ToString());
+
+        return sb.ToString();
+    }
+}

@@ -1,0 +1,1 @@
+"-spec k_mirror(K :: integer(), N :: integer()) -> integer().\nk_mirror(K, N) ->\n  ."

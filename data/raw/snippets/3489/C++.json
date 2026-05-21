@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int minZeroArray(vector<int>& nums, vector<vector<int>>& queries) {\n        \n    }\n};"

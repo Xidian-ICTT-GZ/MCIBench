@@ -1,0 +1,1 @@
+"class Solution:\n    def countDays(self, days: int, meetings: List[List[int]]) -> int:\n        "

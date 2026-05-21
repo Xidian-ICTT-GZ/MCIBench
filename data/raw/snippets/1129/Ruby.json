@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @param {Integer[][]} red_edges\n# @param {Integer[][]} blue_edges\n# @return {Integer[]}\ndef shortest_alternating_paths(n, red_edges, blue_edges)\n    \nend"

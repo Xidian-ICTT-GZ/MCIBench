@@ -1,0 +1,25 @@
+int g_val;
+
+static inline int cmp1(const void *pa, const void *pb) {
+    int a = *(int *)pa;
+    int b = *(int *)pb;
+    if (abs(a - g_val) != abs(b - g_val)) {
+        return abs(a - g_val) - abs(b - g_val);
+    } else {
+        return a - b;
+    }
+}
+
+static inline int cmp2(const void *pa, const void *pb) {
+    return *(int *)pa - *(int *)pb;
+}
+
+int* findClosestElements(int* arr, int arrSize, int k, int x, int* returnSize) {
+    g_val = x;
+    qsort(arr, arrSize, sizeof(int), cmp1);
+    qsort(arr, k, sizeof(int), cmp2);
+    int *res = (int *)malloc(sizeof(int) * k);
+    memcpy(res, arr, sizeof(int) * k);
+    *returnSize = k;
+    return res;
+}

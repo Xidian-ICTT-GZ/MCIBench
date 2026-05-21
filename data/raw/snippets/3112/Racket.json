@@ -1,0 +1,1 @@
+"(define/contract (minimum-time n edges disappear)\n  (-> exact-integer? (listof (listof exact-integer?)) (listof exact-integer?) (listof exact-integer?))\n  )"

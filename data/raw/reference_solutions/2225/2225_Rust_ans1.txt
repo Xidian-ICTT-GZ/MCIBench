@@ -1,0 +1,22 @@
+use std::collections::HashMap;
+
+impl Solution {
+    pub fn find_winners(matches: Vec<Vec<i32>>) -> Vec<Vec<i32>> {
+        let mut freq = HashMap::new();
+        for match_ in matches {
+            let (winner, loser) = (match_[0], match_[1]);
+            freq.entry(winner).or_insert(0);
+            *freq.entry(loser).or_insert(0) += 1;
+        }
+
+        let mut ans = vec![Vec::new(), Vec::new()];
+        for (key, value) in freq {
+            if value < 2 {
+                ans[value as usize].push(key);
+            }
+        }
+        ans[0].sort_unstable();
+        ans[1].sort_unstable();
+        ans
+    }
+}

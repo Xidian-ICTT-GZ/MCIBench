@@ -1,0 +1,43 @@
+int* temp;
+int tempSize;
+
+int** ans;
+int* ansColumnSize;
+int ansSize;
+
+int accumulate(int* tmp, int tmpSize) {
+    int ret = 0;
+    for (int i = 0; i < tmpSize; ++i) {
+        ret += tmp[i];
+    }
+    return ret;
+}
+
+void dfs(int cur, int n, int k, int sum) {
+    if (tempSize + (n - cur + 1) < k || tempSize > k) {
+        return;
+    }
+    if (tempSize == k && accumulate(temp, tempSize) == sum) {
+        int* tmp = malloc(sizeof(int) * tempSize);
+        memcpy(tmp, temp, sizeof(int) * tempSize);
+        ans[ansSize] = tmp;
+        ansColumnSize[ansSize++] = tempSize;
+        return;
+    }
+    temp[tempSize++] = cur;
+    dfs(cur + 1, n, k, sum);
+    tempSize--;
+    dfs(cur + 1, n, k, sum);
+}
+
+int** combinationSum3(int k, int n, int* returnSize, int** returnColumnSizes) {
+    ansColumnSize = malloc(sizeof(int) * 2001);
+    temp = malloc(sizeof(int) * 2001);
+    ans = malloc(sizeof(int*) * 2001);
+    ansSize = tempSize = 0;
+
+    dfs(1, 9, k, n);
+    *returnSize = ansSize;
+    *returnColumnSizes = ansColumnSize;
+    return ans;
+}

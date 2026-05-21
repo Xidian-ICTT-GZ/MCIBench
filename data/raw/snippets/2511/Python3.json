@@ -1,0 +1,1 @@
+"class Solution:\n    def captureForts(self, forts: List[int]) -> int:\n        "

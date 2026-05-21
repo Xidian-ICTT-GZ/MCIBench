@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String[] $s\n     * @return NULL\n     */\n    function reverseString(&$s) {\n        \n    }\n}"

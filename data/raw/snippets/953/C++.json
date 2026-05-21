@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    bool isAlienSorted(vector<string>& words, string order) {\n        \n    }\n};"

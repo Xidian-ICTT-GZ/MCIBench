@@ -1,0 +1,1 @@
+"class ProductOfNumbers() {\n\n    fun add(num: Int) {\n        \n    }\n\n    fun getProduct(k: Int): Int {\n        \n    }\n\n}\n\n/**\n * Your ProductOfNumbers object will be instantiated and called as such:\n * var obj = ProductOfNumbers()\n * obj.add(num)\n * var param_2 = obj.getProduct(k)\n */"

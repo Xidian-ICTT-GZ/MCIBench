@@ -1,0 +1,1 @@
+"-spec longest_common_subsequence(Text1 :: unicode:unicode_binary(), Text2 :: unicode:unicode_binary()) -> integer().\nlongest_common_subsequence(Text1, Text2) ->\n  ."

@@ -1,0 +1,12 @@
+func beautifulSubarrays(nums []int) int64 {
+    cnt := make(map[int]int)
+    mask := 0
+    var ans int64 = 0
+    cnt[0] = 1
+    for _, x := range nums {
+        mask ^= x
+        ans += int64(cnt[mask])
+        cnt[mask]++
+    }
+    return ans
+}

@@ -1,0 +1,1 @@
+"(define/contract (check-zero-ones s)\n  (-> string? boolean?)\n  )"

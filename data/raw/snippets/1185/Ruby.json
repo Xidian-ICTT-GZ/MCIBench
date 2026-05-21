@@ -1,0 +1,1 @@
+"# @param {Integer} day\n# @param {Integer} month\n# @param {Integer} year\n# @return {String}\ndef day_of_the_week(day, month, year)\n    \nend"

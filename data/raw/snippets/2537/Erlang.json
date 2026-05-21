@@ -1,0 +1,1 @@
+"-spec count_good(Nums :: [integer()], K :: integer()) -> integer().\ncount_good(Nums, K) ->\n  ."

@@ -1,0 +1,1 @@
+"class Solution(object):\n    def isRobotBounded(self, instructions):\n        \"\"\"\n        :type instructions: str\n        :rtype: bool\n        \"\"\"\n        "

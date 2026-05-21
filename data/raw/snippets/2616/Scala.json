@@ -1,0 +1,1 @@
+"object Solution {\n    def minimizeMax(nums: Array[Int], p: Int): Int = {\n        \n    }\n}"

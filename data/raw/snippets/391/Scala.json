@@ -1,0 +1,1 @@
+"object Solution {\n    def isRectangleCover(rectangles: Array[Array[Int]]): Boolean = {\n        \n    }\n}"

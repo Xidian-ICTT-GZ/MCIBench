@@ -1,0 +1,1 @@
+"/**\n * Definition for a Node.\n * class Node(var _value: Int) {\n *   var value: Int = _value\n *   var left: Node = null\n *   var right: Node = null\n *   var next: Node = null\n * }\n */\n\nobject Solution {\n    def connect(root: Node): Node = {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"class Solution {\n    func numberOfPairs(nums1: Array<Int64>, nums2: Array<Int64>, diff: Int64): Int64 {\n\n    }\n}"

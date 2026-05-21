@@ -1,0 +1,1 @@
+"class Solution:\n    def mincostTickets(self, days: List[int], costs: List[int]) -> int:\n        "

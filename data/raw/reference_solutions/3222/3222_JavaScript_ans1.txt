@@ -1,0 +1,4 @@
+var winningPlayer = function(x, y) {
+    let ops = Math.min(x, y >> 2);
+    return ops % 2 == 1 ? "Alice" : "Bob";
+};

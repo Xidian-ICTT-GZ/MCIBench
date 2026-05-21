@@ -1,0 +1,1 @@
+"impl Solution {\n    pub fn winning_player_count(n: i32, pick: Vec<Vec<i32>>) -> i32 {\n        \n    }\n}"

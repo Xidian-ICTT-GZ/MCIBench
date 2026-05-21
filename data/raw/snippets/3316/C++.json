@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int maxRemovals(string source, string pattern, vector<int>& targetIndices) {\n        \n    }\n};"

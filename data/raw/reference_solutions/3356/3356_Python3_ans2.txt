@@ -1,0 +1,19 @@
+class Solution:
+    def minZeroArray(self, nums: List[int], queries: List[List[int]]) -> int:
+        n = len(nums)
+        deltaArray = [0] * (n + 1)
+        operations = 0
+        k = 0
+        for i in range(n):
+            num = nums[i]
+            operations += deltaArray[i]
+            while k < len(queries) and operations < num:
+                left, right, value = queries[k]
+                deltaArray[left] += value
+                deltaArray[right + 1] -= value
+                if left <= i <= right:
+                    operations += value
+                k += 1
+            if operations < num:
+                return -1
+        return k

@@ -1,0 +1,1 @@
+"object Solution {\n    def minIncrements(n: Int, cost: Array[Int]): Int = {\n        \n    }\n}"

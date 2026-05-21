@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec find_common_response(responses :: [[String.t]]) :: String.t\n  def find_common_response(responses) do\n    \n  end\nend"

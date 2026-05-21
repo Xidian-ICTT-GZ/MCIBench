@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $dividend\n     * @param Integer $divisor\n     * @return Integer\n     */\n    function divide($dividend, $divisor) {\n        \n    }\n}"

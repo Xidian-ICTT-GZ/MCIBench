@@ -1,0 +1,1 @@
+"object Solution {\n    def validSubstringCount(word1: String, word2: String): Long = {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec order_of_largest_plus_sign(n :: integer, mines :: [[integer]]) :: integer\n  def order_of_largest_plus_sign(n, mines) do\n    \n  end\nend"

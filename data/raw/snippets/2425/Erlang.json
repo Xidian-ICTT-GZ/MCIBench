@@ -1,0 +1,1 @@
+"-spec xor_all_nums(Nums1 :: [integer()], Nums2 :: [integer()]) -> integer().\nxor_all_nums(Nums1, Nums2) ->\n  ."

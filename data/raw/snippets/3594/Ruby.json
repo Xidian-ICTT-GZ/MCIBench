@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @param {Integer} k\n# @param {Integer} m\n# @param {Integer[]} time\n# @param {Float[]} mul\n# @return {Float}\ndef min_time(n, k, m, time, mul)\n    \nend"

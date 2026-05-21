@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @param {Integer[][]} relations\n# @param {Integer[]} time\n# @return {Integer}\ndef minimum_time(n, relations, time)\n    \nend"

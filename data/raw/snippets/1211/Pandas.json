@@ -1,0 +1,1 @@
+"import pandas as pd\n\ndef queries_stats(queries: pd.DataFrame) -> pd.DataFrame:\n    "
