@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec sum_of_the_digits_of_harshad_number(x :: integer) :: integer\n  def sum_of_the_digits_of_harshad_number(x) do\n    \n  end\nend"

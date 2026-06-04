@@ -1,1 +1,0 @@
-"class Solution(object):\n    def maxBalancedShipments(self, weight):\n        \"\"\"\n        :type weight: List[int]\n        :rtype: int\n        \"\"\"\n        "

@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec max_sub_array(nums :: [integer]) :: integer\n  def max_sub_array(nums) do\n    \n  end\nend"

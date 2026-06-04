@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} nums\n * @param {number} left\n * @param {number} right\n * @return {number}\n */\nvar numSubarrayBoundedMax = function(nums, left, right) {\n    \n};"

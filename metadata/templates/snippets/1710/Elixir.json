@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec maximum_units(box_types :: [[integer]], truck_size :: integer) :: integer\n  def maximum_units(box_types, truck_size) do\n    \n  end\nend"

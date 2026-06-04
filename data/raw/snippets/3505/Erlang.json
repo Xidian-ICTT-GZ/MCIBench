@@ -1,1 +1,0 @@
-"-spec min_operations(Nums :: [integer()], X :: integer(), K :: integer()) -> integer().\nmin_operations(Nums, X, K) ->\n  ."

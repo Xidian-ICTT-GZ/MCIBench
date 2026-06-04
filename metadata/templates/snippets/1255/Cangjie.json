@@ -1,0 +1,1 @@
+"class Solution {\n    func maxScoreWords(words: Array<String>, letters: Array<Rune>, score: Array<Int64>): Int64 {\n\n    }\n}"

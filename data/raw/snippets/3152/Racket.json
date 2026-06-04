@@ -1,1 +1,0 @@
-"(define/contract (is-array-special nums queries)\n  (-> (listof exact-integer?) (listof (listof exact-integer?)) (listof boolean?))\n  )"

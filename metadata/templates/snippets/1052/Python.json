@@ -1,0 +1,1 @@
+"class Solution(object):\n    def maxSatisfied(self, customers, grumpy, minutes):\n        \"\"\"\n        :type customers: List[int]\n        :type grumpy: List[int]\n        :type minutes: int\n        :rtype: int\n        \"\"\"\n        "

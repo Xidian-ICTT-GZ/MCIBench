@@ -1,1 +1,0 @@
-"(define/contract (count-k-constraint-substrings s k)\n  (-> string? exact-integer? exact-integer?)\n  )"

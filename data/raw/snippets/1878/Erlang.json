@@ -1,1 +1,0 @@
-"-spec get_biggest_three(Grid :: [[integer()]]) -> [integer()].\nget_biggest_three(Grid) ->\n  ."

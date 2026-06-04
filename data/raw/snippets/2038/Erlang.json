@@ -1,1 +1,0 @@
-"-spec winner_of_game(Colors :: unicode:unicode_binary()) -> boolean().\nwinner_of_game(Colors) ->\n  ."

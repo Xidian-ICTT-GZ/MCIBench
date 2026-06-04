@@ -1,1 +1,0 @@
-"(define/contract (find-the-string lcp)\n  (-> (listof (listof exact-integer?)) string?)\n  )"

@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec find_least_num_of_unique_ints(arr :: [integer], k :: integer) :: integer\n  def find_least_num_of_unique_ints(arr, k) do\n    \n  end\nend"

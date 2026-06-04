@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec mincost_tickets(days :: [integer], costs :: [integer]) :: integer\n  def mincost_tickets(days, costs) do\n    \n  end\nend"

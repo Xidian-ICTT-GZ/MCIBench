@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $stations\n     * @param Integer $r\n     * @param Integer $k\n     * @return Integer\n     */\n    function maxPower($stations, $r, $k) {\n        \n    }\n}"

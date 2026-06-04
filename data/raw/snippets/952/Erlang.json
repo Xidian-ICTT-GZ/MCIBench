@@ -1,1 +1,0 @@
-"-spec largest_component_size(Nums :: [integer()]) -> integer().\nlargest_component_size(Nums) ->\n  ."

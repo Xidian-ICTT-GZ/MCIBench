@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec resulting_string(s :: String.t) :: String.t\n  def resulting_string(s) do\n    \n  end\nend"

@@ -1,0 +1,10 @@
+public class Solution {
+    public int MaxCount(int m, int n, int[][] ops) {
+        int mina = m, minb = n;
+        foreach (int[] op in ops) {
+            mina = Math.Min(mina, op[0]);
+            minb = Math.Min(minb, op[1]);
+        }
+        return mina * minb;
+    }
+}

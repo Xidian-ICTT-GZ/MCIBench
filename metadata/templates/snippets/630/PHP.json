@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $courses\n     * @return Integer\n     */\n    function scheduleCourse($courses) {\n        \n    }\n}"

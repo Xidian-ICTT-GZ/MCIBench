@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $arr\n     * @param Integer[][] $queries\n     * @return Integer[]\n     */\n    function xorQueries($arr, $queries) {\n        \n    }\n}"

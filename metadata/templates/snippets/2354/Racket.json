@@ -1,0 +1,1 @@
+"(define/contract (count-excellent-pairs nums k)\n  (-> (listof exact-integer?) exact-integer? exact-integer?)\n  )"

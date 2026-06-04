@@ -1,1 +1,0 @@
-"class Solution:\n    def findItinerary(self, tickets: List[List[str]]) -> List[str]:\n        "

@@ -1,0 +1,1 @@
+"class Solution {\n    fun countCombinations(pieces: Array<String>, positions: Array<IntArray>): Int {\n        \n    }\n}"

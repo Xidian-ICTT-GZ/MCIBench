@@ -1,1 +1,0 @@
-"class Solution(object):\n    def displayTable(self, orders):\n        \"\"\"\n        :type orders: List[List[str]]\n        :rtype: List[List[str]]\n        \"\"\"\n        "

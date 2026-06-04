@@ -1,1 +1,0 @@
-"class Solution(object):\n    def countBalls(self, lowLimit, highLimit):\n        \"\"\"\n        :type lowLimit: int\n        :type highLimit: int\n        :rtype: int\n        \"\"\"\n        "

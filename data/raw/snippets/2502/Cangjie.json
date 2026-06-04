@@ -1,1 +1,0 @@
-"class Allocator {\n    init(n: Int64) {\n\n    }\n    \n    func allocate(size: Int64, mID: Int64): Int64 {\n\n    }\n    \n    func freeMemory(mID: Int64): Int64 {\n\n    }\n}\n\n/**\n * Your Allocator object will be instantiated and called as such:\n * let obj: Allocator = Allocator(n)\n * let param_1 = obj.allocate(size,mID)\n * let param_2 = obj.freeMemory(mID)\n */"

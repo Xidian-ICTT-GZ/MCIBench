@@ -1,0 +1,10 @@
+public class Solution {
+    public int AddMinimum(string word) {
+        int n = word.Length;
+        int res = word[0] - word[n - 1] + 2;
+        for (int i = 1; i < n; i++) {
+            res += (word[i] - word[i - 1] + 2) % 3;
+        }
+        return res;
+    }
+}

@@ -1,0 +1,1 @@
+"-spec trap_rain_water(HeightMap :: [[integer()]]) -> integer().\ntrap_rain_water(HeightMap) ->\n  ."

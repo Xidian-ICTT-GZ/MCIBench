@@ -1,1 +1,0 @@
-"-spec longest_increasing_path(Matrix :: [[integer()]]) -> integer().\nlongest_increasing_path(Matrix) ->\n  ."

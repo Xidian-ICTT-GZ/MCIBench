@@ -1,1 +1,0 @@
-"class Solution(object):\n    def maxProduct(self, nums, k, limit):\n        \"\"\"\n        :type nums: List[int]\n        :type k: int\n        :type limit: int\n        :rtype: int\n        \"\"\"\n        "

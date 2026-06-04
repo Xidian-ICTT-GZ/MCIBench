@@ -1,1 +1,0 @@
-"(define/contract (lexicographically-smallest-string s)\n  (-> string? string?)\n  )"

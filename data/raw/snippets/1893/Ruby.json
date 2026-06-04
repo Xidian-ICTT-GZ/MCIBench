@@ -1,1 +1,0 @@
-"# @param {Integer[][]} ranges\n# @param {Integer} left\n# @param {Integer} right\n# @return {Boolean}\ndef is_covered(ranges, left, right)\n    \nend"

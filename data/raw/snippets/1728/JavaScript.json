@@ -1,1 +1,0 @@
-"/**\n * @param {string[]} grid\n * @param {number} catJump\n * @param {number} mouseJump\n * @return {boolean}\n */\nvar canMouseWin = function(grid, catJump, mouseJump) {\n    \n};"

@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    vector<vector<int>> highestPeak(vector<vector<int>>& isWater) {\n        \n    }\n};"

@@ -1,1 +1,0 @@
-"-spec palindrome_pairs(Words :: [unicode:unicode_binary()]) -> [[integer()]].\npalindrome_pairs(Words) ->\n  ."

@@ -1,1 +1,0 @@
-"# @param {String} floor\n# @param {Integer} num_carpets\n# @param {Integer} carpet_len\n# @return {Integer}\ndef minimum_white_tiles(floor, num_carpets, carpet_len)\n    \nend"

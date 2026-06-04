@@ -1,1 +1,0 @@
-"class Solution(object):\n    def handleQuery(self, nums1, nums2, queries):\n        \"\"\"\n        :type nums1: List[int]\n        :type nums2: List[int]\n        :type queries: List[List[int]]\n        :rtype: List[int]\n        \"\"\"\n        "

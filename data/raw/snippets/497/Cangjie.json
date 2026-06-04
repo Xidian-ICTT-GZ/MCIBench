@@ -1,1 +1,0 @@
-"class Solution {\n    init(rects: Array<Array<Int64>>) {\n\n    }\n    \n    func pick(): Array<Int64> {\n\n    }\n}\n\n/**\n * Your Solution object will be instantiated and called as such:\n * let obj: Solution = Solution(rects)\n * let param_1 = obj.pick()\n */"

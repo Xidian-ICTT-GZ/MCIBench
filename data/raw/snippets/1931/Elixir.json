@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec color_the_grid(m :: integer, n :: integer) :: integer\n  def color_the_grid(m, n) do\n    \n  end\nend"

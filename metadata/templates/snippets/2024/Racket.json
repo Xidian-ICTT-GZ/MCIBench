@@ -1,0 +1,1 @@
+"(define/contract (max-consecutive-answers answerKey k)\n  (-> string? exact-integer? exact-integer?)\n  )"

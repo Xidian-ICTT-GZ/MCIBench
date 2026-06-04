@@ -1,0 +1,1 @@
+"(define/contract (equal-frequency word)\n  (-> string? boolean?)\n  )"

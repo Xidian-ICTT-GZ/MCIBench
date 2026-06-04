@@ -1,0 +1,50 @@
+class Solution:
+    def recoverArray(self, n: int, sums):
+        
+        
+        def dfs(n: int, sums: List[int]) -> List[int]:
+            
+            
+            if n == 1:
+                if sums[0] == 0:
+                    return [sums[1]]
+                if sums[1] == 0:
+                    return [sums[0]]
+                return []
+
+            d = sums[1] - sums[0]
+            
+            left = right = 0
+            s, t = list(), list()
+            
+            used = set()
+            while True:
+                
+                while left < (1 << n) and left in used:
+                    left += 1
+                if left == (1 << n):
+                    break
+                s.append(sums[left])
+                used.add(left)
+                
+                while right in used or sums[right] != sums[left] + d:
+                    right += 1
+                t.append(sums[right])
+                used.add(right)
+
+            
+            ans = dfs(n - 1, s)
+            if ans:
+                return ans + [d]
+
+            
+            ans = dfs(n - 1, t)
+            if ans:
+                return ans + [-d]
+            
+            
+            return []
+        
+        
+        sums.sort()
+        return dfs(n, sums)

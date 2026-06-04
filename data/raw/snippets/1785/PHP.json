@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer $limit\n     * @param Integer $goal\n     * @return Integer\n     */\n    function minElements($nums, $limit, $goal) {\n        \n    }\n}"

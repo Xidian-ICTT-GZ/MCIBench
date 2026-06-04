@@ -1,1 +1,0 @@
-"-spec is_circular_sentence(Sentence :: unicode:unicode_binary()) -> boolean().\nis_circular_sentence(Sentence) ->\n  ."

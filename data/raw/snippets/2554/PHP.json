@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $banned\n     * @param Integer $n\n     * @param Integer $maxSum\n     * @return Integer\n     */\n    function maxCount($banned, $n, $maxSum) {\n        \n    }\n}"

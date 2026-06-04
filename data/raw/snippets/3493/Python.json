@@ -1,1 +1,0 @@
-"class Solution(object):\n    def numberOfComponents(self, properties, k):\n        \"\"\"\n        :type properties: List[List[int]]\n        :type k: int\n        :rtype: int\n        \"\"\"\n        "

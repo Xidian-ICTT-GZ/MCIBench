@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    vector<int> smallestSufficientTeam(vector<string>& req_skills, vector<vector<string>>& people) {\n        \n    }\n};"

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec count_partitions(nums :: [integer], k :: integer) :: integer\n  def count_partitions(nums, k) do\n    \n  end\nend"

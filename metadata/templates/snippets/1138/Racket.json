@@ -1,0 +1,1 @@
+"(define/contract (alphabet-board-path target)\n  (-> string? string?)\n  )"

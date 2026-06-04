@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec minimum_total_price(n :: integer, edges :: [[integer]], price :: [integer], trips :: [[integer]]) :: integer\n  def minimum_total_price(n, edges, price, trips) do\n    \n  end\nend"

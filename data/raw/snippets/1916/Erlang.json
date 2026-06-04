@@ -1,1 +1,0 @@
-"-spec ways_to_build_rooms(PrevRoom :: [integer()]) -> integer().\nways_to_build_rooms(PrevRoom) ->\n  ."

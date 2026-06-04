@@ -1,1 +1,0 @@
-"(define/contract (get-lucky s k)\n  (-> string? exact-integer? exact-integer?)\n  )"

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec destroy_targets(nums :: [integer], space :: integer) :: integer\n  def destroy_targets(nums, space) do\n    \n  end\nend"

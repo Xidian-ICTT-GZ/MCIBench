@@ -1,1 +1,0 @@
-"-spec vowel_strings(Words :: [unicode:unicode_binary()], Queries :: [[integer()]]) -> [integer()].\nvowel_strings(Words, Queries) ->\n  ."

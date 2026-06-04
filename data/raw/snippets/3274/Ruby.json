@@ -1,1 +1,0 @@
-"# @param {String} coordinate1\n# @param {String} coordinate2\n# @return {Boolean}\ndef check_two_chessboards(coordinate1, coordinate2)\n    \nend"

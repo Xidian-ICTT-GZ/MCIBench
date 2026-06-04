@@ -1,0 +1,39 @@
+func max(a, b int) int {
+    if a < b {
+        return b
+    }
+    return a
+}
+
+func min(a, b int) int {
+    if a > b {
+        return b
+    }
+    return a
+}
+
+func minCapability(nums []int, k int) int {
+    lower, upper := nums[0], nums[0]
+    for _, x := range nums {
+        lower = min(lower, x)
+        upper = max(upper, x)
+    }
+
+    for lower <= upper {
+        middle := (lower + upper) / 2
+        count, visited := 0, false
+        for _, x := range nums {
+            if x <= middle && !visited {
+                count, visited = count + 1, true
+            } else {
+                visited = false
+            }
+        }
+        if count >= k {
+            upper = middle - 1
+        } else {
+            lower = middle + 1
+        }
+    }
+    return lower
+}

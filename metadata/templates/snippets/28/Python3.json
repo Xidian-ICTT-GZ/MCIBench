@@ -1,0 +1,1 @@
+"class Solution:\n    def strStr(self, haystack: str, needle: str) -> int:\n        "

@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec maximum_gap(nums :: [integer]) :: integer\n  def maximum_gap(nums) do\n    \n  end\nend"

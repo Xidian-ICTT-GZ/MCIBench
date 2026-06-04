@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec my_pow(x :: float, n :: integer) :: float\n  def my_pow(x, n) do\n    \n  end\nend"

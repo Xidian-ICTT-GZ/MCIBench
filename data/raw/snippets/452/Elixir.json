@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec find_min_arrow_shots(points :: [[integer]]) :: integer\n  def find_min_arrow_shots(points) do\n    \n  end\nend"

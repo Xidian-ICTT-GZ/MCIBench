@@ -1,0 +1,1 @@
+"(define/contract (num-squares n)\n  (-> exact-integer? exact-integer?)\n  )"

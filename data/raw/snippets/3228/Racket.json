@@ -1,1 +1,0 @@
-"(define/contract (max-operations s)\n  (-> string? exact-integer?)\n  )"

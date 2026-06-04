@@ -1,1 +1,0 @@
-"(define/contract (count-good-nodes edges)\n  (-> (listof (listof exact-integer?)) exact-integer?)\n  )"

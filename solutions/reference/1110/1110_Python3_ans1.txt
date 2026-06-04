@@ -1,0 +1,19 @@
+class Solution:
+    def delNodes(self, root: Optional[TreeNode], to_delete: List[int]) -> List[TreeNode]:
+        to_delete_set = set(to_delete)
+        roots = []
+        self.dfs(root, True, to_delete_set, roots)
+        return roots
+
+    def dfs(self, node: Optional[TreeNode], is_root: bool, to_delete_set: set[int], roots: List[TreeNode]) ->  Optional[TreeNode]:
+        if node == None:
+            return None
+        delete = node.val in to_delete_set
+        node.left = self.dfs(node.left, delete, to_delete_set, roots)
+        node.right = self.dfs(node.right, delete, to_delete_set, roots)
+        if delete:
+            return None
+        else:
+            if is_root:
+                roots.append(node)
+            return node

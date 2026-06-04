@@ -1,1 +1,0 @@
-"# @param {String} word\n# @param {Integer} k\n# @return {Integer}\ndef minimum_time_to_initial_state(word, k)\n    \nend"

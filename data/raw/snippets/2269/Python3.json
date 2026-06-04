@@ -1,1 +1,0 @@
-"class Solution:\n    def divisorSubstrings(self, num: int, k: int) -> int:\n        "

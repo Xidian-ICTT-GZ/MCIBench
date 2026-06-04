@@ -1,1 +1,0 @@
-"-spec minimum_rounds(Tasks :: [integer()]) -> integer().\nminimum_rounds(Tasks) ->\n  ."

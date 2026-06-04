@@ -1,0 +1,1 @@
+"# @param {Integer[][]} points\n# @param {String} s\n# @return {Integer}\ndef max_points_inside_square(points, s)\n    \nend"

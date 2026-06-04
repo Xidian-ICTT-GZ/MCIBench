@@ -1,0 +1,1 @@
+"-spec get_descent_periods(Prices :: [integer()]) -> integer().\nget_descent_periods(Prices) ->\n  ."

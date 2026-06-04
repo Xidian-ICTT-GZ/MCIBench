@@ -1,1 +1,0 @@
-"/**\n * @param {number[][]} img\n * @return {number[][]}\n */\nvar imageSmoother = function(img) {\n    \n};"

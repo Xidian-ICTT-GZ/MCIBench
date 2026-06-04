@@ -1,0 +1,30 @@
+class Solution:
+    def maximumLength(self, s: str) -> int:
+        n = len(s)
+        cnt = {}
+
+        i = 0
+        while i < n:
+            j = i
+            while j < n and s[j] == s[i]:
+                j += 1
+            if s[i] not in cnt:
+                cnt[s[i]] = []
+            cnt[s[i]].append(j - i)
+            i = j
+            
+        res = -1
+        for vec in cnt.values():
+            lo, hi = 1, n - 2
+            while lo <= hi:
+                mid = (lo + hi) // 2
+                count = 0
+                for x in vec:
+                    if x >= mid:
+                        count += x - mid + 1
+                if count >= 3:
+                    res = max(res, mid)
+                    lo = mid + 1
+                else:
+                    hi = mid - 1
+        return res

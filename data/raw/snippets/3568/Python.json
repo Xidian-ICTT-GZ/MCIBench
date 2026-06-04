@@ -1,1 +1,0 @@
-"class Solution(object):\n    def minMoves(self, classroom, energy):\n        \"\"\"\n        :type classroom: List[str]\n        :type energy: int\n        :rtype: int\n        \"\"\"\n        "

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec minimum_substrings_in_partition(s :: String.t) :: integer\n  def minimum_substrings_in_partition(s) do\n    \n  end\nend"

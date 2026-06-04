@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec add_digits(num :: integer) :: integer\n  def add_digits(num) do\n    \n  end\nend"

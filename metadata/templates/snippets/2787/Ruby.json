@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @param {Integer} x\n# @return {Integer}\ndef number_of_ways(n, x)\n    \nend"

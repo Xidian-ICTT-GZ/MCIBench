@@ -1,0 +1,1 @@
+"public class Solution {\n    public bool ValidateStackSequences(int[] pushed, int[] popped) {\n        \n    }\n}"

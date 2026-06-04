@@ -1,1 +1,0 @@
-"-spec largest_overlap(Img1 :: [[integer()]], Img2 :: [[integer()]]) -> integer().\nlargest_overlap(Img1, Img2) ->\n  ."

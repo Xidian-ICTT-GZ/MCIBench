@@ -1,0 +1,1 @@
+"(define/contract (count-subarrays nums k)\n  (-> (listof exact-integer?) exact-integer? exact-integer?)\n  )"

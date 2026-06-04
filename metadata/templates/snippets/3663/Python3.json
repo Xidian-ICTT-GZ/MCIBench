@@ -1,0 +1,1 @@
+"class Solution:\n    def getLeastFrequentDigit(self, n: int) -> int:\n        "

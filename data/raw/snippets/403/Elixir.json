@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec can_cross(stones :: [integer]) :: boolean\n  def can_cross(stones) do\n    \n  end\nend"

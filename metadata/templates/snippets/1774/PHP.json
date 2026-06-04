@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $baseCosts\n     * @param Integer[] $toppingCosts\n     * @param Integer $target\n     * @return Integer\n     */\n    function closestCost($baseCosts, $toppingCosts, $target) {\n        \n    }\n}"

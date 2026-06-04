@@ -1,8 +1,0 @@
-bool threeConsecutiveOdds(int* arr, int arrSize) {
-    for (int i = 0; i <= arrSize - 3; ++i) {
-        if ((arr[i] & 1) & (arr[i + 1] & 1) & (arr[i + 2] & 1)) {
-            return true;
-        }
-    }
-    return false;
-}

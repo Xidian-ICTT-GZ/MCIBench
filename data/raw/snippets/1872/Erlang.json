@@ -1,1 +1,0 @@
-"-spec stone_game_viii(Stones :: [integer()]) -> integer().\nstone_game_viii(Stones) ->\n  ."

@@ -1,0 +1,1 @@
+"/**\n * // This is the MountainArray's API interface.\n * // You should not implement it, or speculate about its implementation\n * class MountainArray {\n *      get(index: number): number {}\n *\n *      length(): number {}\n * }\n */\n\nfunction findInMountainArray(target: number, mountainArr: MountainArray) {\n\t\n};"

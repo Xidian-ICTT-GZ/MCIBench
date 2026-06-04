@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int maxCount(vector<int>& banned, int n, int maxSum) {\n        \n    }\n};"

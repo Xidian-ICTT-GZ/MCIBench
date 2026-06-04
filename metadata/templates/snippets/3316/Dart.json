@@ -1,0 +1,1 @@
+"class Solution {\n  int maxRemovals(String source, String pattern, List<int> targetIndices) {\n    \n  }\n}"

@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @param {Integer[][]} edges\n# @param {Integer} source\n# @param {Integer} destination\n# @return {Boolean}\ndef valid_path(n, edges, source, destination)\n    \nend"

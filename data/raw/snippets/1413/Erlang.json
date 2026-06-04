@@ -1,1 +1,0 @@
-"-spec min_start_value(Nums :: [integer()]) -> integer().\nmin_start_value(Nums) ->\n  ."

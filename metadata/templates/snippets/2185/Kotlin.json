@@ -1,0 +1,1 @@
+"class Solution {\n    fun prefixCount(words: Array<String>, pref: String): Int {\n        \n    }\n}"

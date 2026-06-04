@@ -1,1 +1,0 @@
-"class Solution:\n    def numberOfAlternatingGroups(self, colors: List[int]) -> int:\n        "

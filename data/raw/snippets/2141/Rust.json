@@ -1,1 +1,0 @@
-"impl Solution {\n    pub fn max_run_time(n: i32, batteries: Vec<i32>) -> i64 {\n        \n    }\n}"

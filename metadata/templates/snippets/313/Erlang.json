@@ -1,0 +1,1 @@
+"-spec nth_super_ugly_number(N :: integer(), Primes :: [integer()]) -> integer().\nnth_super_ugly_number(N, Primes) ->\n  ."

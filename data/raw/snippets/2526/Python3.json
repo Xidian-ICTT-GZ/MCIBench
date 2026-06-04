@@ -1,1 +1,0 @@
-"class DataStream:\n\n    def __init__(self, value: int, k: int):\n        \n\n    def consec(self, num: int) -> bool:\n        \n\n\n# Your DataStream object will be instantiated and called as such:\n# obj = DataStream(value, k)\n# param_1 = obj.consec(num)"

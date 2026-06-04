@@ -1,1 +1,0 @@
-"class Solution:\n    def groupThePeople(self, groupSizes: List[int]) -> List[List[int]]:\n        "

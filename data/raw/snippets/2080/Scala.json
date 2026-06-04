@@ -1,1 +1,0 @@
-"class RangeFreqQuery(_arr: Array[Int]) {\n\n    def query(left: Int, right: Int, value: Int): Int = {\n        \n    }\n\n}\n\n/**\n * Your RangeFreqQuery object will be instantiated and called as such:\n * val obj = new RangeFreqQuery(arr)\n * val param_1 = obj.query(left,right,value)\n */"

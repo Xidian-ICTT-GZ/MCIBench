@@ -1,0 +1,1 @@
+"-spec max_height_of_triangle(Red :: integer(), Blue :: integer()) -> integer().\nmax_height_of_triangle(Red, Blue) ->\n  ."

@@ -1,0 +1,13 @@
+var minimumTotal = function(triangle) {
+    const n = triangle.length;
+    const f = Array(n).fill(0).map(() => Array(n).fill(0));
+    f[0][0] = triangle[0][0];
+    for (let i = 1; i < n; ++i) {
+        f[i][0] = f[i - 1][0] + triangle[i][0];
+        for (let j = 1; j < i; ++j) {
+            f[i][j] = Math.min(f[i - 1][j - 1], f[i - 1][j]) + triangle[i][j];
+        }
+        f[i][i] = f[i - 1][i - 1] + triangle[i][i];
+    }
+    return Math.min(...f[n - 1]);
+};

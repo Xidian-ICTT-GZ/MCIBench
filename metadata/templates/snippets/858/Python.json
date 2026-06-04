@@ -1,0 +1,1 @@
+"class Solution(object):\n    def mirrorReflection(self, p, q):\n        \"\"\"\n        :type p: int\n        :type q: int\n        :rtype: int\n        \"\"\"\n        "

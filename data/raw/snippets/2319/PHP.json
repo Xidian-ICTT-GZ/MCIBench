@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[][] $grid\n     * @return Boolean\n     */\n    function checkXMatrix($grid) {\n        \n    }\n}"

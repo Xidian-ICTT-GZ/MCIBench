@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int minimumValueSum(vector<int>& nums, vector<int>& andValues) {\n        \n    }\n};"

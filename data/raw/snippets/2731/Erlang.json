@@ -1,1 +1,0 @@
-"-spec sum_distance(Nums :: [integer()], S :: unicode:unicode_binary(), D :: integer()) -> integer().\nsum_distance(Nums, S, D) ->\n  ."

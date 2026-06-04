@@ -1,0 +1,1 @@
+"class ExamRoom {\n\n    public ExamRoom(int n) {\n        \n    }\n    \n    public int seat() {\n        \n    }\n    \n    public void leave(int p) {\n        \n    }\n}\n\n/**\n * Your ExamRoom object will be instantiated and called as such:\n * ExamRoom obj = new ExamRoom(n);\n * int param_1 = obj.seat();\n * obj.leave(p);\n */"

@@ -1,0 +1,1 @@
+"/**\n * @param {number[][]} points\n * @param {number} angle\n * @param {number[]} location\n * @return {number}\n */\nvar visiblePoints = function(points, angle, location) {\n    \n};"

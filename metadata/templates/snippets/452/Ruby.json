@@ -1,0 +1,1 @@
+"# @param {Integer[][]} points\n# @return {Integer}\ndef find_min_arrow_shots(points)\n    \nend"

@@ -1,0 +1,54 @@
+public class Solution {
+    const int MOD = 1000000007;
+    IDictionary<int, int> reqDictionary = new Dictionary<int, int>();
+    long[][] dp;
+
+    public int NumberOfPermutations(int n, int[][] requirements) {
+        int maxCnt = 0;
+        reqDictionary.Add(0, 0);
+        foreach (int[] req in requirements) {
+            if (!reqDictionary.ContainsKey(req[0])) {
+                reqDictionary.Add(req[0], req[1]);
+            } else {
+                reqDictionary[req[0]] = req[1];
+            }
+            maxCnt = Math.Max(maxCnt, req[1]);
+        }
+        if (reqDictionary[0] != 0) {
+            return 0;
+        }
+
+        dp = new long[n][];
+        for (int i = 0; i < n; i++) {
+            dp[i] = new long[maxCnt + 1];
+            Array.Fill(dp[i], -1);
+        }
+
+        return (int) DFS(n - 1, reqDictionary[n - 1]);
+    }
+
+    public long DFS(int end, int cnt) {
+        if (cnt < 0) {
+            return 0;
+        }
+        if (end == 0) {
+            return 1;
+        }
+        if (dp[end][cnt] != -1) {
+            return dp[end][cnt];
+        }
+        if (reqDictionary.ContainsKey(end - 1)) {
+            int r = reqDictionary[end - 1];
+            if (r <= cnt && cnt <= end + r) {
+                return dp[end][cnt] = DFS(end - 1, r);
+            }
+            return 0;
+        } else {
+            if (cnt > end) {
+                return dp[end][cnt] = (DFS(end, cnt - 1) - DFS(end - 1, cnt - 1 - end) + DFS(end - 1, cnt) + MOD) % MOD;
+            } else {
+                return dp[end][cnt] = (DFS(end, cnt - 1) + DFS(end - 1, cnt)) % MOD;
+            }
+        }
+    }
+}

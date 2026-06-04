@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} nums\n * @param {number} indexDifference\n * @param {number} valueDifference\n * @return {number[]}\n */\nvar findIndices = function(nums, indexDifference, valueDifference) {\n    \n};"

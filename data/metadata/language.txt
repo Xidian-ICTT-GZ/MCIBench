@@ -1,8 +1,0 @@
-C 
-C++
-C#
-Java
-JavaScript
-Python3
-Golang
-Rust

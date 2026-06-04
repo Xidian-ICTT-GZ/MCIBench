@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    vector<vector<int>> intervalIntersection(vector<vector<int>>& firstList, vector<vector<int>>& secondList) {\n        \n    }\n};"

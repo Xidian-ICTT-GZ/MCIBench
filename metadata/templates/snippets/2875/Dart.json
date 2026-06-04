@@ -1,0 +1,1 @@
+"class Solution {\n  int minSizeSubarray(List<int> nums, int target) {\n    \n  }\n}"

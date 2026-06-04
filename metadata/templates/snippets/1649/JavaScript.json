@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} instructions\n * @return {number}\n */\nvar createSortedArray = function(instructions) {\n    \n};"

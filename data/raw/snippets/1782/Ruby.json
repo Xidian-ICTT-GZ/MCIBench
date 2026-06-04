@@ -1,1 +1,0 @@
-"# @param {Integer} n\n# @param {Integer[][]} edges\n# @param {Integer[]} queries\n# @return {Integer[]}\ndef count_pairs(n, edges, queries)\n    \nend"

@@ -1,0 +1,1 @@
+"(define/contract (digit-count num)\n  (-> string? boolean?)\n  )"

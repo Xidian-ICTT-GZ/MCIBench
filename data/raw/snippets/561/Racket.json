@@ -1,1 +1,0 @@
-"(define/contract (array-pair-sum nums)\n  (-> (listof exact-integer?) exact-integer?)\n  )"

@@ -1,0 +1,58 @@
+var countSubgraphsForEachDiameter = function(n, edges) {
+    const adj = new Array(n).fill(0);
+    for (let i = 0; i < n; i++) {
+        adj[i] = [];
+    }
+    for (const edge of edges) {
+        const x = edge[0] - 1;
+        const y = edge[1] - 1;
+        adj[x].push(y);
+        adj[y].push(x);
+    }
+
+    const ans = new Array(n - 1).fill(0);
+    for (let i = 1; i < (1 << n); i++) {
+        const x = 32 - numberOfLeadingZeros(i) - 1;
+        let mask = i;
+        let y = -1;
+        const queue = [x];
+        mask &= ~(1 << x);
+        while (queue.length) {
+            y = queue.shift();
+            for (const vertex of adj[y]) {
+                if ((mask & (1 << vertex)) !== 0) {
+                    mask &= ~(1 << vertex);
+                    queue.push(vertex);
+                }
+            }
+        }
+        if (mask === 0) {
+            const diameter = dfs(adj, -1, y, i);
+            if (diameter > 0) {
+                ans[diameter - 1]++;
+            }
+        }
+    }
+    return ans;
+}
+
+const dfs = (adj, parent, u, mask) => {
+    let depth = 0;
+    for (const v of adj[u]) {
+        if (v !== parent && (mask & (1 << v)) !== 0) {
+            depth = Math.max(depth, 1 + dfs(adj, u, v, mask));
+        }
+    }
+    return depth;
+}
+const numberOfLeadingZeros = (i) => {
+    if (i === 0)
+        return 32;
+    let n = 1;
+    if (i >>> 16 === 0) { n += 16; i <<= 16; }
+    if (i >>> 24 === 0) { n +=  8; i <<=  8; }
+    if (i >>> 28 === 0) { n +=  4; i <<=  4; }
+    if (i >>> 30 === 0) { n +=  2; i <<=  2; }
+    n -= i >>> 31;
+    return n;
+}

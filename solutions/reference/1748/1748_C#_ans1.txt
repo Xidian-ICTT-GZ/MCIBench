@@ -1,0 +1,19 @@
+public class Solution {
+    public int SumOfUnique(int[] nums) {
+        Dictionary<int, int> cnt = new Dictionary<int, int>();
+        foreach (int num in nums) {
+            if (!cnt.ContainsKey(num)) {
+                cnt.Add(num, 0);
+            }
+            ++cnt[num];
+        }
+        int ans = 0;
+        foreach (KeyValuePair<int, int> pair in cnt) {
+            int num = pair.Key, c = pair.Value;
+            if (c == 1) {
+                ans += num;
+            }
+        }
+        return ans;
+    }
+}

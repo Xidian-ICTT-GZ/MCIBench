@@ -1,0 +1,1 @@
+"object Solution {\n    def minimumScore(nums: Array[Int], edges: Array[Array[Int]]): Int = {\n        \n    }\n}"

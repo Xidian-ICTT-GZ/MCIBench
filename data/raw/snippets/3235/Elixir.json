@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec can_reach_corner(x_corner :: integer, y_corner :: integer, circles :: [[integer]]) :: boolean\n  def can_reach_corner(x_corner, y_corner, circles) do\n    \n  end\nend"

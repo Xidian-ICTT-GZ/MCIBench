@@ -1,0 +1,9 @@
+impl Solution {
+    pub fn number_game(mut nums: Vec<i32>) -> Vec<i32> {
+        nums.sort();
+        for i in (0..nums.len() - 1).step_by(2) {
+            nums.swap(i, i + 1);
+        }
+        nums
+    }
+}

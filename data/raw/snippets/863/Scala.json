@@ -1,1 +1,0 @@
-"/**\n * Definition for a binary tree node.\n * class TreeNode(var _value: Int) {\n *   var value: Int = _value\n *   var left: TreeNode = null\n *   var right: TreeNode = null\n * }\n */\nobject Solution {\n    def distanceK(root: TreeNode, target: TreeNode, k: Int): List[Int] = {\n        \n    }\n}"

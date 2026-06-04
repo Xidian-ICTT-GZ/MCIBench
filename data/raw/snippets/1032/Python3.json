@@ -1,1 +1,0 @@
-"class StreamChecker:\n\n    def __init__(self, words: List[str]):\n        \n\n    def query(self, letter: str) -> bool:\n        \n\n\n# Your StreamChecker object will be instantiated and called as such:\n# obj = StreamChecker(words)\n# param_1 = obj.query(letter)"

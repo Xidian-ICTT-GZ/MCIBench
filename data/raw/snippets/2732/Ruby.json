@@ -1,1 +1,0 @@
-"# @param {Integer[][]} grid\n# @return {Integer[]}\ndef good_subsetof_binary_matrix(grid)\n    \nend"

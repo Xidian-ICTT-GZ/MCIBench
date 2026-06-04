@@ -1,1 +1,0 @@
-"-spec sorted_squares(Nums :: [integer()]) -> [integer()].\nsorted_squares(Nums) ->\n  ."

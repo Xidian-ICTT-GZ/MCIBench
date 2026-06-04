@@ -1,0 +1,1 @@
+"object Solution {\n    def maxArrayValue(nums: Array[Int]): Long = {\n        \n    }\n}"

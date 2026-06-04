@@ -1,1 +1,0 @@
-"-spec count_palindromes(S :: unicode:unicode_binary()) -> integer().\ncount_palindromes(S) ->\n  ."

@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $deck\n     * @return Integer[]\n     */\n    function deckRevealedIncreasing($deck) {\n        \n    }\n}"

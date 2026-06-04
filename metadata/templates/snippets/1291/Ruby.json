@@ -1,0 +1,1 @@
+"# @param {Integer} low\n# @param {Integer} high\n# @return {Integer[]}\ndef sequential_digits(low, high)\n    \nend"

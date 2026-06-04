@@ -1,1 +1,0 @@
-"/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nchar** alertNames(char** keyName, int keyNameSize, char** keyTime, int keyTimeSize, int* returnSize) {\n    \n}"

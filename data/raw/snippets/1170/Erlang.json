@@ -1,1 +1,0 @@
-"-spec num_smaller_by_frequency(Queries :: [unicode:unicode_binary()], Words :: [unicode:unicode_binary()]) -> [integer()].\nnum_smaller_by_frequency(Queries, Words) ->\n  ."

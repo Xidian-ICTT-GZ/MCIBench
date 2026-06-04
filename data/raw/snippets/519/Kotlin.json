@@ -1,1 +1,0 @@
-"class Solution(m: Int, n: Int) {\n\n    fun flip(): IntArray {\n        \n    }\n\n    fun reset() {\n        \n    }\n\n}\n\n/**\n * Your Solution object will be instantiated and called as such:\n * var obj = Solution(m, n)\n * var param_1 = obj.flip()\n * obj.reset()\n */"

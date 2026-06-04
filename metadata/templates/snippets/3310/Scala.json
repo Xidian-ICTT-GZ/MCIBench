@@ -1,0 +1,1 @@
+"object Solution {\n    def remainingMethods(n: Int, k: Int, invocations: Array[Array[Int]]): List[Int] = {\n        \n    }\n}"

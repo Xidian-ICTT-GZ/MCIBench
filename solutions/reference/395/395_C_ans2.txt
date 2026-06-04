@@ -1,0 +1,38 @@
+int longestSubstring(char* s, int k) {
+    int ret = 0;
+    int n = strlen(s);
+    for (int t = 1; t <= 26; t++) {
+        int l = 0, r = 0;
+        int cnt[26];
+        memset(cnt, 0, sizeof(cnt));
+        int tot = 0;
+        int less = 0;
+        while (r < n) {
+            cnt[s[r] - 'a']++;
+            if (cnt[s[r] - 'a'] == 1) {
+                tot++;
+                less++;
+            }
+            if (cnt[s[r] - 'a'] == k) {
+                less--;
+            }
+
+            while (tot > t) {
+                cnt[s[l] - 'a']--;
+                if (cnt[s[l] - 'a'] == k - 1) {
+                    less++;
+                }
+                if (cnt[s[l] - 'a'] == 0) {
+                    tot--;
+                    less--;
+                }
+                l++;
+            }
+            if (less == 0) {
+                ret = fmax(ret, r - l + 1);
+            }
+            r++;
+        }
+    }
+    return ret;
+}

@@ -1,0 +1,1 @@
+"/**\n * @param {number} lowLimit\n * @param {number} highLimit\n * @return {number}\n */\nvar countBalls = function(lowLimit, highLimit) {\n    \n};"

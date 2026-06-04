@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[][] $edges\n     * @param Integer $k\n     * @return Integer\n     */\n    function maximizeSumOfWeights($edges, $k) {\n        \n    }\n}"

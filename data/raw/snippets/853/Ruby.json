@@ -1,1 +1,0 @@
-"# @param {Integer} target\n# @param {Integer[]} position\n# @param {Integer[]} speed\n# @return {Integer}\ndef car_fleet(target, position, speed)\n    \nend"

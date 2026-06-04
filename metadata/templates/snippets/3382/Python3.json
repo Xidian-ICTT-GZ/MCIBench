@@ -1,0 +1,1 @@
+"class Solution:\n    def maxRectangleArea(self, xCoord: List[int], yCoord: List[int]) -> int:\n        "

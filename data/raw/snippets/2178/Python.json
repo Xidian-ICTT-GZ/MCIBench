@@ -1,1 +1,0 @@
-"class Solution(object):\n    def maximumEvenSplit(self, finalSum):\n        \"\"\"\n        :type finalSum: int\n        :rtype: List[int]\n        \"\"\"\n        "

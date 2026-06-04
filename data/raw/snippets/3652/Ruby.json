@@ -1,1 +1,0 @@
-"# @param {Integer[]} prices\n# @param {Integer[]} strategy\n# @param {Integer} k\n# @return {Integer}\ndef max_profit(prices, strategy, k)\n    \nend"

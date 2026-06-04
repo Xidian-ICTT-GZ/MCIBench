@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer $n\n     * @param Integer[][] $lamps\n     * @param Integer[][] $queries\n     * @return Integer[]\n     */\n    function gridIllumination($n, $lamps, $queries) {\n        \n    }\n}"

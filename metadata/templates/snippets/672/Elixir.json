@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec flip_lights(n :: integer, presses :: integer) :: integer\n  def flip_lights(n, presses) do\n    \n  end\nend"

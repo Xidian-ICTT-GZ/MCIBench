@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec remove_trailing_zeros(num :: String.t) :: String.t\n  def remove_trailing_zeros(num) do\n    \n  end\nend"

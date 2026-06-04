@@ -1,0 +1,1 @@
+"class Solution {\n  List<bool> checkArithmeticSubarrays(List<int> nums, List<int> l, List<int> r) {\n    \n  }\n}"

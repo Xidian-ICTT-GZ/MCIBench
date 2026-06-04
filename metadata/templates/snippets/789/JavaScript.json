@@ -1,0 +1,1 @@
+"/**\n * @param {number[][]} ghosts\n * @param {number[]} target\n * @return {boolean}\n */\nvar escapeGhosts = function(ghosts, target) {\n    \n};"

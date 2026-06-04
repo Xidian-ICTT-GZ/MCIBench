@@ -1,0 +1,1 @@
+"-spec optimal_division(Nums :: [integer()]) -> unicode:unicode_binary().\noptimal_division(Nums) ->\n  ."

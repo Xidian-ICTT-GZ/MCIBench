@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    bool validateBinaryTreeNodes(int n, vector<int>& leftChild, vector<int>& rightChild) {\n        \n    }\n};"

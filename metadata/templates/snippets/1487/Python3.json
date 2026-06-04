@@ -1,0 +1,1 @@
+"class Solution:\n    def getFolderNames(self, names: List[str]) -> List[str]:\n        "

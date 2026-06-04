@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $cookies\n     * @param Integer $k\n     * @return Integer\n     */\n    function distributeCookies($cookies, $k) {\n        \n    }\n}"

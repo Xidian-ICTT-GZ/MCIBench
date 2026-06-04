@@ -1,1 +1,0 @@
-"# @param {Integer[]} receiver\n# @param {Integer} k\n# @return {Integer}\ndef get_max_function_value(receiver, k)\n    \nend"

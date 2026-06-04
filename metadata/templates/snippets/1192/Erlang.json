@@ -1,0 +1,1 @@
+"-spec critical_connections(N :: integer(), Connections :: [[integer()]]) -> [[integer()]].\ncritical_connections(N, Connections) ->\n  ."

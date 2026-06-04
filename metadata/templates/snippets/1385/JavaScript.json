@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} arr1\n * @param {number[]} arr2\n * @param {number} d\n * @return {number}\n */\nvar findTheDistanceValue = function(arr1, arr2, d) {\n    \n};"

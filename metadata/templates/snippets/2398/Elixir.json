@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec maximum_robots(charge_times :: [integer], running_costs :: [integer], budget :: integer) :: integer\n  def maximum_robots(charge_times, running_costs, budget) do\n    \n  end\nend"

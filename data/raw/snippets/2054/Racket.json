@@ -1,1 +1,0 @@
-"(define/contract (max-two-events events)\n  (-> (listof (listof exact-integer?)) exact-integer?)\n  )"

@@ -1,0 +1,54 @@
+const mod = 1_000_000_007
+
+func knightDialer(n int) int {
+    base := [][]int{
+        {0, 0, 0, 0, 1, 0, 1, 0, 0, 0},
+        {0, 0, 0, 0, 0, 0, 1, 0, 1, 0},
+        {0, 0, 0, 0, 0, 0, 0, 1, 0, 1},
+        {0, 0, 0, 0, 1, 0, 0, 0, 1, 0},
+        {1, 0, 0, 1, 0, 0, 0, 0, 0, 1},
+        {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+        {1, 1, 0, 0, 0, 0, 0, 1, 0, 0},
+        {0, 0, 1, 0, 0, 0, 1, 0, 0, 0},
+        {0, 1, 0, 1, 0, 0, 0, 0, 0, 0},
+        {0, 0, 1, 0, 1, 0, 0, 0, 0, 0},
+    }
+    res := [][]int{
+        {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
+    }
+    base2 := make([][]int, 10)
+    for i := 0; i < 10; i++ {
+        base2[i] = make([]int, 10)
+        base2[i][i] = 1
+    }
+    n--
+    for n > 0 {
+        if n & 1 == 1 {
+            base2 = mul(base2, base)
+        }
+        base = mul(base, base)
+        n >>= 1
+    }
+    res = mul(res, base2)
+    ret := 0
+    for _, x := range res[0] {
+        ret = (ret + x) % mod
+    }
+    return ret
+}
+
+func mul(lth, rth [][]int) [][]int {
+    rows, cols, inner := len(lth), len(rth[0]), len(lth[0])
+    res := make([][]int, rows)
+    for i := range res {
+        res[i] = make([]int, cols)
+    }
+    for k := 0; k < inner; k++ {
+        for i := 0; i < rows; i++ {
+            for j := 0; j < cols; j++ {
+                res[i][j] = (res[i][j] + lth[i][k] * rth[k][j] % mod) % mod
+            }
+        }
+    }
+    return res
+}

@@ -1,1 +1,0 @@
-"-spec count_pyramids(Grid :: [[integer()]]) -> integer().\ncount_pyramids(Grid) ->\n  ."

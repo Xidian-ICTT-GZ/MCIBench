@@ -1,0 +1,1 @@
+"-spec get_distances(Arr :: [integer()]) -> [integer()].\nget_distances(Arr) ->\n  ."

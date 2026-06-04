@@ -1,1 +1,0 @@
-"-spec my_sqrt(X :: integer()) -> integer().\nmy_sqrt(X) ->\n  ."

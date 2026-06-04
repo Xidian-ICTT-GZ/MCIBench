@@ -1,0 +1,1 @@
+"impl Solution {\n    pub fn prefix_count(words: Vec<String>, pref: String) -> i32 {\n        \n    }\n}"

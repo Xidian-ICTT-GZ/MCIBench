@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec number_of_powerful_int(start :: integer, finish :: integer, limit :: integer, s :: String.t) :: integer\n  def number_of_powerful_int(start, finish, limit, s) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"class Solution(object):\n    def maximumGain(self, s, x, y):\n        \"\"\"\n        :type s: str\n        :type x: int\n        :type y: int\n        :rtype: int\n        \"\"\"\n        "

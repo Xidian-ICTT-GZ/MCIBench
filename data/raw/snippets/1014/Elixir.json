@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec max_score_sightseeing_pair(values :: [integer]) :: integer\n  def max_score_sightseeing_pair(values) do\n    \n  end\nend"

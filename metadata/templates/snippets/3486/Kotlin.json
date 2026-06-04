@@ -1,0 +1,1 @@
+"class Solution {\n    fun longestSpecialPath(edges: Array<IntArray>, nums: IntArray): IntArray {\n        \n    }\n}"

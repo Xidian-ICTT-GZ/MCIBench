@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} arr\n * @param {Function} fn\n * @return {number[]}\n */\nvar map = function(arr, fn) {\n    \n};"

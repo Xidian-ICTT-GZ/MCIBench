@@ -1,1 +1,0 @@
-"-spec diagonal_sort(Mat :: [[integer()]]) -> [[integer()]].\ndiagonal_sort(Mat) ->\n  ."

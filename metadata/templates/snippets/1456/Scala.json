@@ -1,0 +1,1 @@
+"object Solution {\n    def maxVowels(s: String, k: Int): Int = {\n        \n    }\n}"

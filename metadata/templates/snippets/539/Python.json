@@ -1,0 +1,1 @@
+"class Solution(object):\n    def findMinDifference(self, timePoints):\n        \"\"\"\n        :type timePoints: List[str]\n        :rtype: int\n        \"\"\"\n        "

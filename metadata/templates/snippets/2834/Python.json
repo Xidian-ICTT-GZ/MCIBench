@@ -1,0 +1,1 @@
+"class Solution(object):\n    def minimumPossibleSum(self, n, target):\n        \"\"\"\n        :type n: int\n        :type target: int\n        :rtype: int\n        \"\"\"\n        "

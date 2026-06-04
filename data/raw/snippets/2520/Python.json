@@ -1,1 +1,0 @@
-"class Solution(object):\n    def countDigits(self, num):\n        \"\"\"\n        :type num: int\n        :rtype: int\n        \"\"\"\n        "

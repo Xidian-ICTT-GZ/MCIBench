@@ -1,1 +1,0 @@
-"class Solution:\n    def stableMountains(self, height: List[int], threshold: int) -> List[int]:\n        "

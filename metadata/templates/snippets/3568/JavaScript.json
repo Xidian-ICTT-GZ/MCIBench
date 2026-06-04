@@ -1,0 +1,1 @@
+"/**\n * @param {string[]} classroom\n * @param {number} energy\n * @return {number}\n */\nvar minMoves = function(classroom, energy) {\n    \n};"

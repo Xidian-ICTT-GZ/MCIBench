@@ -1,1 +1,0 @@
-"class TopVotedCandidate {\n    init(persons: Array<Int64>, times: Array<Int64>) {\n\n    }\n    \n    func q(t: Int64): Int64 {\n\n    }\n}\n\n/**\n * Your TopVotedCandidate object will be instantiated and called as such:\n * let obj: TopVotedCandidate = TopVotedCandidate(persons, times)\n * let param_1 = obj.q(t)\n */"

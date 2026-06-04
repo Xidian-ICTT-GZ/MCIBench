@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec h_index(citations :: [integer]) :: integer\n  def h_index(citations) do\n    \n  end\nend"

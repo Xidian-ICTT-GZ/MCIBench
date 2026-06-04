@@ -1,1 +1,0 @@
-"# @param {Integer[]} ranks\n# @param {Character[]} suits\n# @return {String}\ndef best_hand(ranks, suits)\n    \nend"

@@ -1,1 +1,0 @@
-"/**\n * @param {number[][]} groups\n * @param {number[]} nums\n * @return {boolean}\n */\nvar canChoose = function(groups, nums) {\n    \n};"

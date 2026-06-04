@@ -1,1 +1,0 @@
-"-spec count_black_blocks(M :: integer(), N :: integer(), Coordinates :: [[integer()]]) -> [integer()].\ncount_black_blocks(M, N, Coordinates) ->\n  ."

@@ -1,0 +1,1 @@
+"class Solution(object):\n    def threeConsecutiveOdds(self, arr):\n        \"\"\"\n        :type arr: List[int]\n        :rtype: bool\n        \"\"\"\n        "

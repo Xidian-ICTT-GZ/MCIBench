@@ -1,0 +1,1 @@
+"object Solution {\n    def maximumTastiness(price: Array[Int], k: Int): Int = {\n        \n    }\n}"

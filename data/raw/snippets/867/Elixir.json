@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec transpose(matrix :: [[integer]]) :: [[integer]]\n  def transpose(matrix) do\n    \n  end\nend"

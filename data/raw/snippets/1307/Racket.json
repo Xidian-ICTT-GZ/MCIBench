@@ -1,1 +1,0 @@
-"(define/contract (is-solvable words result)\n  (-> (listof string?) string? boolean?)\n  )"

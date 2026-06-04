@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    vector<int> shortestToChar(string s, char c) {\n        \n    }\n};"

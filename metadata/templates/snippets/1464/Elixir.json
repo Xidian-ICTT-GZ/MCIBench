@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec max_product(nums :: [integer]) :: integer\n  def max_product(nums) do\n    \n  end\nend"

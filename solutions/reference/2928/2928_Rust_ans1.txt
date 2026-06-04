@@ -1,0 +1,17 @@
+impl Solution {
+    pub fn distribute_candies(n: i32, limit: i32) -> i32 {
+        let mut ans = 0;
+
+        for i in 0..limit + 1 {
+            for j in 0..limit + 1 {
+                if i + j > n {
+                    break;
+                }
+                if n - i - j <= limit {
+                    ans += 1;
+                }
+            }
+        }
+        return ans;
+    }
+}

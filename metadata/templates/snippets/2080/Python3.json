@@ -1,0 +1,1 @@
+"class RangeFreqQuery:\n\n    def __init__(self, arr: List[int]):\n        \n\n    def query(self, left: int, right: int, value: int) -> int:\n        \n\n\n# Your RangeFreqQuery object will be instantiated and called as such:\n# obj = RangeFreqQuery(arr)\n# param_1 = obj.query(left,right,value)"

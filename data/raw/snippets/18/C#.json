@@ -1,1 +1,0 @@
-"public class Solution {\n    public IList<IList<int>> FourSum(int[] nums, int target) {\n        \n    }\n}"

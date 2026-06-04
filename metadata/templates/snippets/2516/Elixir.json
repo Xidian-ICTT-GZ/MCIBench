@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec take_characters(s :: String.t, k :: integer) :: integer\n  def take_characters(s, k) do\n    \n  end\nend"

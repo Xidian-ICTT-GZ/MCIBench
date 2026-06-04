@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec diagonal_sum(mat :: [[integer]]) :: integer\n  def diagonal_sum(mat) do\n    \n  end\nend"

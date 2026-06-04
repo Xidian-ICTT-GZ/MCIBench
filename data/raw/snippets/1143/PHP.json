@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String $text1\n     * @param String $text2\n     * @return Integer\n     */\n    function longestCommonSubsequence($text1, $text2) {\n        \n    }\n}"

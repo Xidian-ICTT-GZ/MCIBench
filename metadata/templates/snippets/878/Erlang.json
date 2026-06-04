@@ -1,0 +1,1 @@
+"-spec nth_magical_number(N :: integer(), A :: integer(), B :: integer()) -> integer().\nnth_magical_number(N, A, B) ->\n  ."

@@ -1,1 +1,0 @@
-"-spec magical_string(N :: integer()) -> integer().\nmagical_string(N) ->\n  ."

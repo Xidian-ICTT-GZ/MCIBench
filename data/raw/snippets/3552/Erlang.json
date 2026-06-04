@@ -1,1 +1,0 @@
-"-spec min_moves(Matrix :: [unicode:unicode_binary()]) -> integer().\nmin_moves(Matrix) ->\n  ."

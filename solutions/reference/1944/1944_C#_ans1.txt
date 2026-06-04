@@ -1,0 +1,20 @@
+public class Solution {
+    public int[] CanSeePersonsCount(int[] heights) {
+        int n = heights.Length;
+        Stack<int> stack = new Stack<int>();
+        int[] res = new int[n];
+
+        for (int i = n - 1; i >= 0; i--) {
+            int h = heights[i];
+            while (stack.Count > 0 && stack.Peek() < h) {
+                stack.Pop();
+                res[i]++;
+            }
+            if (stack.Count > 0) {
+                res[i]++;
+            }
+            stack.Push(h);
+        }
+        return res;
+    }
+}

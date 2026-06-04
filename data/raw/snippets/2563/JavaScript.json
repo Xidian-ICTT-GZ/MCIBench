@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} nums\n * @param {number} lower\n * @param {number} upper\n * @return {number}\n */\nvar countFairPairs = function(nums, lower, upper) {\n    \n};"

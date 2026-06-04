@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec diagonal_prime(nums :: [[integer]]) :: integer\n  def diagonal_prime(nums) do\n    \n  end\nend"

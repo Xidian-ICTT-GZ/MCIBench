@@ -1,0 +1,1 @@
+"class Solution:\n    def threeEqualParts(self, arr: List[int]) -> List[int]:\n        "

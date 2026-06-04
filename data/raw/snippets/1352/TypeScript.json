@@ -1,1 +1,0 @@
-"class ProductOfNumbers {\n    constructor() {\n        \n    }\n\n    add(num: number): void {\n        \n    }\n\n    getProduct(k: number): number {\n        \n    }\n}\n\n/**\n * Your ProductOfNumbers object will be instantiated and called as such:\n * var obj = new ProductOfNumbers()\n * obj.add(num)\n * var param_2 = obj.getProduct(k)\n */"

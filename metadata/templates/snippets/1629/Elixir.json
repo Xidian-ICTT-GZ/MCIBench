@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec slowest_key(release_times :: [integer], keys_pressed :: String.t) :: char\n  def slowest_key(release_times, keys_pressed) do\n    \n  end\nend"

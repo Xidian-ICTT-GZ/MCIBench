@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec decode_ciphertext(encoded_text :: String.t, rows :: integer) :: String.t\n  def decode_ciphertext(encoded_text, rows) do\n    \n  end\nend"

@@ -1,0 +1,14 @@
+static inline int max(int a, int b) {
+    return a > b ? a : b;
+}
+
+char * getSmallestString(int n, int k) {
+    char *ans = (char *)malloc(sizeof(char) * (n + 1));
+    for (int i = 1; i <= n; i++) {
+        int lower = max(1, k - (n - i) * 26);
+        k -= lower;
+        ans[i - 1] = 'a' + lower - 1;
+    }
+    ans[n] = '\0';
+    return ans;
+}

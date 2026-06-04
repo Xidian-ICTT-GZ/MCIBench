@@ -1,1 +1,0 @@
-"(define/contract (flipgame fronts backs)\n  (-> (listof exact-integer?) (listof exact-integer?) exact-integer?)\n  )"

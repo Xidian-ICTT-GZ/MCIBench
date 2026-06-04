@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $power\n     * @param Integer[] $damage\n     * @param Integer[] $health\n     * @return Integer\n     */\n    function minDamage($power, $damage, $health) {\n        \n    }\n}"

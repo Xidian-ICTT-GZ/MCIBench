@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec max_run_time(n :: integer, batteries :: [integer]) :: integer\n  def max_run_time(n, batteries) do\n    \n  end\nend"

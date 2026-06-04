@@ -1,1 +1,0 @@
-"class Solution:\n    def maximumPoints(self, enemyEnergies: List[int], currentEnergy: int) -> int:\n        "

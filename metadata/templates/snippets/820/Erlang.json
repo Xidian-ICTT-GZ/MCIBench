@@ -1,0 +1,1 @@
+"-spec minimum_length_encoding(Words :: [unicode:unicode_binary()]) -> integer().\nminimum_length_encoding(Words) ->\n  ."

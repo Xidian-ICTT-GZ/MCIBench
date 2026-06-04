@@ -1,0 +1,1 @@
+"class ExamRoom {\n    constructor(n: number) {\n        \n    }\n\n    seat(): number {\n        \n    }\n\n    leave(p: number): void {\n        \n    }\n}\n\n/**\n * Your ExamRoom object will be instantiated and called as such:\n * var obj = new ExamRoom(n)\n * var param_1 = obj.seat()\n * obj.leave(p)\n */"

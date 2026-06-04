@@ -1,0 +1,17 @@
+class Solution:
+    def queensAttacktheKing(self, queens: List[List[int]], king: List[int]) -> List[List[int]]:
+        def sgn(x: int) -> int:
+            return 1 if x > 0 else (0 if x == 0 else -1)
+        
+        candidates = defaultdict(lambda: (None, inf))
+        kx, ky = king
+
+        for qx, qy in queens:
+            x, y = qx - kx, qy - ky
+            if x == 0 or y == 0 or abs(x) == abs(y):
+                dx, dy = sgn(x), sgn(y)
+                if candidates[(dx, dy)][1] > abs(x) + abs(y):
+                    candidates[(dx, dy)] = ([qx, qy], abs(x) + abs(y))
+        
+        ans = [value[0] for value in candidates.values()]
+        return ans

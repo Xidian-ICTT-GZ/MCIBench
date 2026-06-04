@@ -1,0 +1,1 @@
+"class Solution:\n    def findLongestChain(self, pairs: List[List[int]]) -> int:\n        "

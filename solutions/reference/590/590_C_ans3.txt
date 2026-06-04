@@ -1,0 +1,48 @@
+#define MAX_NODE_SIZE 10000
+
+typedef struct {
+    void * key;
+    UT_hash_handle hh; 
+} HashItem;
+
+void freeHash(HashItem ** obj) {
+    HashItem * curr = NULL, * next = NULL;
+    HASH_ITER(hh, *obj, curr, next) {
+        HASH_DEL(*obj, curr);
+        free(curr);
+    }
+}
+
+int* postorder(struct Node* root, int* returnSize) {
+    if (NULL == root) {
+        *returnSize = 0;
+        return NULL;
+    }
+    int * res = (int *)malloc(sizeof(int) * MAX_NODE_SIZE);
+    struct Node ** stack = (struct Node **)malloc(sizeof(struct Node *) * MAX_NODE_SIZE);
+    int pos = 0, top = 0;  
+
+    stack[top++] = root;
+    HashItem * visited = NULL;
+    HashItem * pEntry = NULL;
+    while (top != 0) {
+        struct Node * node = stack[top - 1];
+        pEntry = NULL;
+        HASH_FIND_PTR(visited, &node, pEntry);
+        
+        if (node->numChildren == 0 || NULL != pEntry) {
+            res[pos++] = node->val;
+            top--;
+            continue;
+        }
+        for (int i = node->numChildren - 1; i >= 0; i--) {
+            stack[top++] = node->children[i];
+        }
+        pEntry = (HashItem *)malloc(sizeof(HashItem));
+        pEntry->key = node;
+        HASH_ADD_PTR(visited, key, pEntry);
+    }
+    free(stack);
+    *returnSize = pos;
+    return res;
+}

@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    vector<int> fullBloomFlowers(vector<vector<int>>& flowers, vector<int>& people) {\n        \n    }\n};"

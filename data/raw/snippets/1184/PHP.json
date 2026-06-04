@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $distance\n     * @param Integer $start\n     * @param Integer $destination\n     * @return Integer\n     */\n    function distanceBetweenBusStops($distance, $start, $destination) {\n        \n    }\n}"

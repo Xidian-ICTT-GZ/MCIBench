@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $data\n     * @return Boolean\n     */\n    function validUtf8($data) {\n        \n    }\n}"

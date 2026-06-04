@@ -1,0 +1,1 @@
+"/**\n * // This is the MountainArray's API interface.\n * // You should not implement it, or speculate about its implementation\n * class MountainArray {\n *   public:\n *     int get(int index);\n *     int length();\n * };\n */\n\nclass Solution {\npublic:\n    int findInMountainArray(int target, MountainArray &mountainArr) {\n        \n    }\n};"

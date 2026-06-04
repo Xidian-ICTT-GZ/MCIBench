@@ -1,0 +1,1 @@
+"class RangeFreqQuery(arr: IntArray) {\n\n    fun query(left: Int, right: Int, value: Int): Int {\n        \n    }\n\n}\n\n/**\n * Your RangeFreqQuery object will be instantiated and called as such:\n * var obj = RangeFreqQuery(arr)\n * var param_1 = obj.query(left,right,value)\n */"

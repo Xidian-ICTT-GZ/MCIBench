@@ -1,1 +1,0 @@
-"(define/contract (count-battleships board)\n  (-> (listof (listof char?)) exact-integer?)\n  )"

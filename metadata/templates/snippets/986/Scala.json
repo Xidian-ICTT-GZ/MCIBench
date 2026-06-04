@@ -1,0 +1,1 @@
+"object Solution {\n    def intervalIntersection(firstList: Array[Array[Int]], secondList: Array[Array[Int]]): Array[Array[Int]] = {\n        \n    }\n}"

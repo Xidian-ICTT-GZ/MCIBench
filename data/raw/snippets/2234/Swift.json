@@ -1,1 +1,0 @@
-"class Solution {\n    func maximumBeauty(_ flowers: [Int], _ newFlowers: Int, _ target: Int, _ full: Int, _ partial: Int) -> Int {\n        \n    }\n}"

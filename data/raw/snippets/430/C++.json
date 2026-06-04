@@ -1,1 +1,0 @@
-"/*\n// Definition for a Node.\nclass Node {\npublic:\n    int val;\n    Node* prev;\n    Node* next;\n    Node* child;\n};\n*/\n\nclass Solution {\npublic:\n    Node* flatten(Node* head) {\n        \n    }\n};"

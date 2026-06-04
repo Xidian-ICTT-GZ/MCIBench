@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec maximum_sum_of_heights(max_heights :: [integer]) :: integer\n  def maximum_sum_of_heights(max_heights) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec nearest_valid_point(x :: integer, y :: integer, points :: [[integer]]) :: integer\n  def nearest_valid_point(x, y, points) do\n    \n  end\nend"

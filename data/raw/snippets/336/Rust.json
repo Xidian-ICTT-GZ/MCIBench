@@ -1,1 +1,0 @@
-"impl Solution {\n    pub fn palindrome_pairs(words: Vec<String>) -> Vec<Vec<i32>> {\n        \n    }\n}"

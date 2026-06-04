@@ -1,0 +1,1 @@
+"(define/contract (two-city-sched-cost costs)\n  (-> (listof (listof exact-integer?)) exact-integer?)\n  )"

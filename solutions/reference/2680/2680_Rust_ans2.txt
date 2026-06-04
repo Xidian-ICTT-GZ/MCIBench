@@ -1,0 +1,16 @@
+impl Solution {
+    pub fn maximum_or(nums: Vec<i32>, k: i32) -> i64 {
+        let mut or_sum = 0i64;
+        let mut multi_bits = 0i64;
+        for &x in &nums {
+            multi_bits |= or_sum & (x as i64);
+            or_sum |= x as i64;
+        }
+        let mut res = 0;
+        for &x in &nums {
+            let val = x as i64;
+            res = res.max((or_sum ^ val) | (val << (k as i64)) | multi_bits);
+        }
+        res
+    }
+}

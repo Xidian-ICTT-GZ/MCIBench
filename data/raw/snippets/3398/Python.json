@@ -1,1 +1,0 @@
-"class Solution(object):\n    def minLength(self, s, numOps):\n        \"\"\"\n        :type s: str\n        :type numOps: int\n        :rtype: int\n        \"\"\"\n        "

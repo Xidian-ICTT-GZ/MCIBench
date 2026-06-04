@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec continuous_subarrays(nums :: [integer]) :: integer\n  def continuous_subarrays(nums) do\n\n  end\nend"

@@ -1,1 +1,0 @@
-"# @param {String[]} instructions\n# @param {Integer[]} values\n# @return {Integer}\ndef calculate_score(instructions, values)\n    \nend"

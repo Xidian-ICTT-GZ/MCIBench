@@ -1,0 +1,1 @@
+"class Solution {\n    fun countCells(grid: Array<CharArray>, pattern: String): Int {\n        \n    }\n}"

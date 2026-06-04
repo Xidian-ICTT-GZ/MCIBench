@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @param {Integer[][]} roads\n# @return {Integer}\ndef min_score(n, roads)\n    \nend"

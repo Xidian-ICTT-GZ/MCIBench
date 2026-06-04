@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} nums1\n * @param {number[]} nums2\n * @return {number}\n */\nvar addedInteger = function(nums1, nums2) {\n    \n};"

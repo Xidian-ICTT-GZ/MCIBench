@@ -1,0 +1,1 @@
+"class Solution(object):\n    def judgeSquareSum(self, c):\n        \"\"\"\n        :type c: int\n        :rtype: bool\n        \"\"\"\n        "

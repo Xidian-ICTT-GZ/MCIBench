@@ -1,1 +1,0 @@
-"class Solution(object):\n    def countConsistentStrings(self, allowed, words):\n        \"\"\"\n        :type allowed: str\n        :type words: List[str]\n        :rtype: int\n        \"\"\"\n        "

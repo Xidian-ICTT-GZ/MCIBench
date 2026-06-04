@@ -1,1 +1,0 @@
-"-spec subarrays_div_by_k(Nums :: [integer()], K :: integer()) -> integer().\nsubarrays_div_by_k(Nums, K) ->\n  ."

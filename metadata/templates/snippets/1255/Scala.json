@@ -1,0 +1,1 @@
+"object Solution {\n    def maxScoreWords(words: Array[String], letters: Array[Char], score: Array[Int]): Int = {\n        \n    }\n}"

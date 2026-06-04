@@ -1,0 +1,1 @@
+"class Solution:\n    def queryString(self, s: str, n: int) -> bool:\n        "

@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    vector<int> loudAndRich(vector<vector<int>>& richer, vector<int>& quiet) {\n        \n    }\n};"

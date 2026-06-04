@@ -1,0 +1,1 @@
+"/**\n * @param {number} low\n * @param {number} high\n * @return {number}\n */\nvar countSymmetricIntegers = function(low, high) {\n    \n};"

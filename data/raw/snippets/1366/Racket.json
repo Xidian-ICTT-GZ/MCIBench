@@ -1,1 +1,0 @@
-"(define/contract (rank-teams votes)\n  (-> (listof string?) string?)\n  )"

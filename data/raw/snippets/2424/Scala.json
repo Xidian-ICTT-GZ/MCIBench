@@ -1,1 +1,0 @@
-"class LUPrefix(_n: Int) {\n\n    def upload(video: Int): Unit = {\n        \n    }\n\n    def longest(): Int = {\n        \n    }\n\n}\n\n/**\n * Your LUPrefix object will be instantiated and called as such:\n * val obj = new LUPrefix(n)\n * obj.upload(video)\n * val param_2 = obj.longest()\n */"

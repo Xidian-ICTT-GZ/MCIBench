@@ -1,0 +1,1 @@
+"class Solution {\n    func isEscapePossible(_ blocked: [[Int]], _ source: [Int], _ target: [Int]) -> Bool {\n        \n    }\n}"

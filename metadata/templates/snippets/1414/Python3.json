@@ -1,0 +1,1 @@
+"class Solution:\n    def findMinFibonacciNumbers(self, k: int) -> int:\n        "

@@ -1,0 +1,1 @@
+"(define/contract (can-see-persons-count heights)\n  (-> (listof exact-integer?) (listof exact-integer?))\n  )"

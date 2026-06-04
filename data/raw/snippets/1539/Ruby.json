@@ -1,1 +1,0 @@
-"# @param {Integer[]} arr\n# @param {Integer} k\n# @return {Integer}\ndef find_kth_positive(arr, k)\n    \nend"

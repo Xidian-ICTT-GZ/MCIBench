@@ -1,0 +1,13 @@
+var maxSatisfaction = function(satisfaction) {
+    satisfaction.sort((a, b) => b - a);
+    let presum = 0, ans = 0;
+    for (si of satisfaction) {
+        if (presum + si > 0) {
+            presum += si;
+            ans += presum;
+        } else {
+            break;
+        }
+    }
+    return ans;
+};

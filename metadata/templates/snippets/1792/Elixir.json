@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec max_average_ratio(classes :: [[integer]], extra_students :: integer) :: float\n  def max_average_ratio(classes, extra_students) do\n    \n  end\nend"

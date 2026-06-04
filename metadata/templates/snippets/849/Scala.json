@@ -1,0 +1,1 @@
+"object Solution {\n    def maxDistToClosest(seats: Array[Int]): Int = {\n        \n    }\n}"

@@ -1,1 +1,0 @@
-"(define/contract (recover-order order friends)\n  (-> (listof exact-integer?) (listof exact-integer?) (listof exact-integer?))\n  )"

@@ -1,0 +1,1 @@
+"(define/contract (smallest-string s)\n  (-> string? string?)\n  )"

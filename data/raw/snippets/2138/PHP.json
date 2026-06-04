@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String $s\n     * @param Integer $k\n     * @param String $fill\n     * @return String[]\n     */\n    function divideString($s, $k, $fill) {\n        \n    }\n}"

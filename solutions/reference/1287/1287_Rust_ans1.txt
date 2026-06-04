@@ -1,0 +1,19 @@
+impl Solution {
+    pub fn find_special_integer(arr: Vec<i32>) -> i32 {
+        let n = arr.len();
+        let mut cur = arr[0];
+        let mut cnt = 0;
+        for &item in arr.iter() {
+            if item == cur {
+                cnt += 1;
+                if cnt * 4 > n {
+                    return cur;
+                }
+            } else {
+                cur = item;
+                cnt = 1;
+            }
+        }
+        -1
+    }
+}

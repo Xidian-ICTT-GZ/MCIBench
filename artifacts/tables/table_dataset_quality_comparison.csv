@@ -1,9 +1,0 @@
-language,reference_language_problems,reference_language_coverage,enhanced_language_problems,enhanced_language_coverage,covered_languages,reference_problem_count,enhanced_problem_count
-C++,1448,97.2%,1489,100.0%,1,10,0
-Python3,1353,90.9%,1489,100.0%,2,167,0
-Java,1339,89.9%,1486,99.8%,3,98,0
-JavaScript,1164,78.2%,1484,99.7%,4,81,1
-C,1121,75.3%,1474,99.0%,5,212,2
-C#,1015,68.2%,1487,99.9%,6,420,3
-Go,569,38.2%,1488,99.9%,7,169,17
-Rust,372,25.0%,1482,99.5%,8,332,1466

@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String $s\n     * @param String $c\n     * @return Integer[]\n     */\n    function shortestToChar($s, $c) {\n        \n    }\n}"

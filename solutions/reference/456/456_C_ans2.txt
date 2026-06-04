@@ -1,0 +1,65 @@
+int upper_bound(int* vec, int vecSize, int target) {
+    int low = 0, high = vecSize - 1;
+    if (vec[high] >= target) {
+        return -1;
+    }
+    while (low < high) {
+        int mid = (high - low) / 2 + low;
+        int num = vec[mid];
+        if (num >= target) {
+            low = mid + 1;
+        } else {
+            high = mid;
+        }
+    }
+    return low;
+}
+
+int lower_bound(int* vec, int vecSize, int target) {
+    int low = 0, high = vecSize - 1;
+    if (vec[low] <= target) {
+        return -1;
+    }
+    while (low < high) {
+        int mid = (high - low + 1) / 2 + low;
+        int num = vec[mid];
+        if (num <= target) {
+            high = mid - 1;
+        } else {
+            low = mid;
+        }
+    }
+    return low;
+}
+
+bool find132pattern(int* nums, int numsSize) {
+    int n = numsSize;
+    int candidate_i[n], top_i = 0;
+    int candidate_j[n], top_j = 0;
+    candidate_i[top_i++] = nums[0];
+    candidate_j[top_j++] = nums[0];
+
+    for (int k = 1; k < n; ++k) {
+        int it_i = upper_bound(candidate_i, top_i, nums[k]);
+        int it_j = lower_bound(candidate_j, top_j, nums[k]);
+        if (it_i != -1 && it_j != -1) {
+            if (it_i <= it_j) {
+                return true;
+            }
+        }
+
+        if (nums[k] < candidate_i[top_i - 1]) {
+            candidate_i[top_i++] = nums[k];
+            candidate_j[top_j++] = nums[k];
+        } else if (nums[k] > candidate_j[top_j - 1]) {
+            int last_i = candidate_i[top_i - 1];
+            while (top_j && nums[k] > candidate_j[top_j - 1]) {
+                top_j--, top_i--;
+            }
+            candidate_i[top_i++] = last_i;
+            candidate_j[top_j++] = nums[k];
+        }
+    }
+
+    return false;
+}

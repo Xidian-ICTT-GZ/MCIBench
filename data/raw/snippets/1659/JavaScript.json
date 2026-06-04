@@ -1,1 +1,0 @@
-"/**\n * @param {number} m\n * @param {number} n\n * @param {number} introvertsCount\n * @param {number} extrovertsCount\n * @return {number}\n */\nvar getMaxGridHappiness = function(m, n, introvertsCount, extrovertsCount) {\n    \n};"

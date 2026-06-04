@@ -1,1 +1,0 @@
-"# Definition for a Node.\n# class Node\n#     attr_accessor :val, :prev, :next, :child\n#     def initialize(val=nil, prev=nil, next_=nil, child=nil)\n#         @val = val\n#         @prev = prev\n#         @next = next_\n#         @child = child\n#     end\n# end\n\n# @param {Node} root\n# @return {Node}\ndef flatten(root)\n    \nend"

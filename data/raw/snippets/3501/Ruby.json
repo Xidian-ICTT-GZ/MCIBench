@@ -1,1 +1,0 @@
-"# @param {String} s\n# @param {Integer[][]} queries\n# @return {Integer[]}\ndef max_active_sections_after_trade(s, queries)\n    \nend"

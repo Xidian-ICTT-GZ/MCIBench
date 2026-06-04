@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    vector<int> movesToStamp(string stamp, string target) {\n        \n    }\n};"

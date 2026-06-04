@@ -1,0 +1,1 @@
+"class Solution {\n  int minimumFinishTime(List<List<int>> tires, int changeTime, int numLaps) {\n    \n  }\n}"

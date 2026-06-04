@@ -1,0 +1,89 @@
+public class Solution {
+    public int[] KWeakestRows(int[][] mat, int k) {
+        int m = mat.Length, n = mat[0].Length;
+        Tuple<int, int>[] power = new Tuple<int, int>[m];
+        for (int i = 0; i < m; ++i) {
+            int l = 0, r = n - 1, pos = -1;
+            while (l <= r) {
+                int mid = (l + r) / 2;
+                if (mat[i][mid] == 0) {
+                    r = mid - 1;
+                } else {
+                    pos = mid;
+                    l = mid + 1;
+                }
+            }
+            power[i] = new Tuple<int, int>(pos + 1, i);
+        }
+
+        Tuple<int, int>[] minimum = Helper.GetLeastNumbers(power, k);
+        Array.Sort(minimum);
+        int[] ans = new int[k];
+        for (int i = 0; i < k; ++i) {
+            ans[i] = minimum[i].Item2;
+        }
+        return ans;
+    }
+}
+
+class Helper {
+    static Random random = new Random();
+    
+    public static Tuple<int, int>[] GetLeastNumbers(Tuple<int, int>[] arr, int k) {
+        RandomizedSelected(arr, 0, arr.Length - 1, k);
+        Tuple<int, int>[] vec = new Tuple<int, int>[k];
+        for (int i = 0; i < k; ++i) {
+            vec[i] = arr[i];
+        }
+        return vec;
+    }
+
+    static void RandomizedSelected(Tuple<int, int>[] arr, int l, int r, int k) {
+        if (l >= r) {
+            return;
+        }
+        int pos = RandomizedPartition(arr, l, r);
+        int num = pos - l + 1;
+        if (k == num) {
+            return;
+        } else if (k < num) {
+            RandomizedSelected(arr, l, pos - 1, k);
+        } else {
+            RandomizedSelected(arr, pos + 1, r, k - num);
+        }
+    }
+
+    
+    static int RandomizedPartition(Tuple<int, int>[] nums, int l, int r) {
+        int i = random.Next(r - l + 1) + l;
+        Swap(nums, r, i);
+        return Partition(nums, l, r);
+    }
+
+    static int Partition(Tuple<int, int>[] nums, int l, int r) {
+        Tuple<int, int> pivot = nums[r];
+        int i = l - 1;
+        for (int j = l; j <= r - 1; ++j) {
+            if (Compare(nums[j], pivot) <= 0) {
+                i = i + 1;
+                Swap(nums, i, j);
+            }
+        }
+        Swap(nums, i + 1, r);
+        return i + 1;
+    }
+
+    static void Swap(Tuple<int, int>[] nums, int i, int j) {
+        Tuple<int, int> temp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = temp;
+    }
+
+    static int Compare(Tuple<int, int> pair, Tuple<int, int> pivot) {
+        if (pair.Item1 != pivot.Item1) {
+            return pair.Item1 - pivot.Item1;
+        } else {
+            return pair.Item2 - pivot.Item2;
+        }
+    }
+}

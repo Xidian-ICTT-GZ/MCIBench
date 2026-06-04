@@ -1,0 +1,46 @@
+var RangeFreqQuery = function(arr) {
+    
+    this.occurrence = {};
+    
+    for (let i = 0; i < arr.length; ++i) {
+        if (!this.occurrence[arr[i]]) {
+            this.occurrence[arr[i]] = [];
+        }
+        this.occurrence[arr[i]].push(i);
+    }
+};
+
+RangeFreqQuery.prototype.query = function(left, right, value) {
+    
+    const pos = this.occurrence[value] || [];
+    
+    const l = lowerBound(pos, left);
+    const r = upperBound(pos, right);
+    return r - l;
+};
+
+const lowerBound = (pos, target) => {
+    let low = 0, high = pos.length - 1;
+    while (low <= high) {
+        const mid = low + Math.floor((high - low) / 2);
+        if (pos[mid] < target) {
+            low = mid + 1;
+        } else {
+            high = mid - 1;
+        }
+    }
+    return low;
+}
+
+const upperBound = (pos, target) => {
+    let low = 0, high = pos.length - 1;
+    while (low <= high) {
+        const mid = low + Math.floor((high - low) / 2);
+        if (pos[mid] <= target) {
+            low = mid + 1;
+        } else {
+            high = mid - 1;
+        }
+    }
+    return low;
+}

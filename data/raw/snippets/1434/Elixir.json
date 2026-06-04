@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec number_ways(hats :: [[integer]]) :: integer\n  def number_ways(hats) do\n    \n  end\nend"

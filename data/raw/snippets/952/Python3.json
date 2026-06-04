@@ -1,1 +1,0 @@
-"class Solution:\n    def largestComponentSize(self, nums: List[int]) -> int:\n        "

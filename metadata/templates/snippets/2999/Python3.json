@@ -1,0 +1,1 @@
+"class Solution:\n    def numberOfPowerfulInt(self, start: int, finish: int, limit: int, s: str) -> int:\n        "

@@ -1,1 +1,0 @@
-"-spec check_palindrome_formation(A :: unicode:unicode_binary(), B :: unicode:unicode_binary()) -> boolean().\ncheck_palindrome_formation(A, B) ->\n  ."

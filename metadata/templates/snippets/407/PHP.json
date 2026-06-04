@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $heightMap\n     * @return Integer\n     */\n    function trapRainWater($heightMap) {\n        \n    }\n}"

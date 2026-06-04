@@ -1,1 +1,0 @@
-"impl Solution {\n    pub fn supersequences(words: Vec<String>) -> Vec<Vec<i32>> {\n        \n    }\n}"

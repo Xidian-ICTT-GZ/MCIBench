@@ -1,1 +1,0 @@
-"-spec get_good_indices(Variables :: [[integer()]], Target :: integer()) -> [integer()].\nget_good_indices(Variables, Target) ->\n  ."

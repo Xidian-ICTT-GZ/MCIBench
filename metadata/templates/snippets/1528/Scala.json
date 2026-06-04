@@ -1,0 +1,1 @@
+"object Solution {\n    def restoreString(s: String, indices: Array[Int]): String = {\n        \n    }\n}"

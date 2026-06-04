@@ -1,1 +1,0 @@
-"class Solution(object):\n    def distributeCookies(self, cookies, k):\n        \"\"\"\n        :type cookies: List[int]\n        :type k: int\n        :rtype: int\n        \"\"\"\n        "

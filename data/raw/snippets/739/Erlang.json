@@ -1,1 +1,0 @@
-"-spec daily_temperatures(Temperatures :: [integer()]) -> [integer()].\ndaily_temperatures(Temperatures) ->\n  ."

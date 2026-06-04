@@ -1,1 +1,0 @@
-"-spec smallest_beautiful_string(S :: unicode:unicode_binary(), K :: integer()) -> unicode:unicode_binary().\nsmallest_beautiful_string(S, K) ->\n  ."

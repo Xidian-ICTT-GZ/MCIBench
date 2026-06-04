@@ -1,1 +1,0 @@
-"class Solution(object):\n    def eatenApples(self, apples, days):\n        \"\"\"\n        :type apples: List[int]\n        :type days: List[int]\n        :rtype: int\n        \"\"\"\n        "

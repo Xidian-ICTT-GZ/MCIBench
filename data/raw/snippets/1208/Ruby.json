@@ -1,1 +1,0 @@
-"# @param {String} s\n# @param {String} t\n# @param {Integer} max_cost\n# @return {Integer}\ndef equal_substring(s, t, max_cost)\n    \nend"

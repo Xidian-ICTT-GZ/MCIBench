@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String[] $words\n     * @param String $target\n     * @return Integer\n     */\n    function minValidStrings($words, $target) {\n        \n    }\n}"

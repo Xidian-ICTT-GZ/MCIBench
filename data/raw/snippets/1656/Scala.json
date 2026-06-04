@@ -1,1 +1,0 @@
-"class OrderedStream(_n: Int) {\n\n    def insert(idKey: Int, value: String): List[String] = {\n        \n    }\n\n}\n\n/**\n * Your OrderedStream object will be instantiated and called as such:\n * val obj = new OrderedStream(n)\n * val param_1 = obj.insert(idKey,value)\n */"

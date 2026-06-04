@@ -1,1 +1,0 @@
-"-spec count_excellent_pairs(Nums :: [integer()], K :: integer()) -> integer().\ncount_excellent_pairs(Nums, K) ->\n  ."

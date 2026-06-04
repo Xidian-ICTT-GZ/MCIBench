@@ -1,0 +1,1 @@
+"(define/contract (critical-connections n connections)\n  (-> exact-integer? (listof (listof exact-integer?)) (listof (listof exact-integer?)))\n  )"

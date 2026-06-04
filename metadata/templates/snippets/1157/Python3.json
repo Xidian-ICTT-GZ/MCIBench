@@ -1,0 +1,1 @@
+"class MajorityChecker:\n\n    def __init__(self, arr: List[int]):\n        \n\n    def query(self, left: int, right: int, threshold: int) -> int:\n        \n\n\n# Your MajorityChecker object will be instantiated and called as such:\n# obj = MajorityChecker(arr)\n# param_1 = obj.query(left,right,threshold)"

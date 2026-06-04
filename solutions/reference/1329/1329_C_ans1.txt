@@ -1,0 +1,49 @@
+typedef struct {
+    int *arr;
+    int size;
+} Diagonal;
+
+int compare(const void *a, const void *b) {
+    return *(int*)b - *(int*)a;
+}
+
+int** diagonalSort(int** mat, int matSize, int* matColSize, int* returnSize, int** returnColumnSizes) {
+    int n = matSize;
+    int m = matColSize[0];
+    *returnSize = matSize;
+    *returnColumnSizes = matColSize;
+
+    Diagonal *diag = malloc((m + n) * sizeof(Diagonal));
+    for (int i = 0; i < m + n; i++) {
+        diag[i].arr = NULL;
+        diag[i].size = 0;
+    }
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < m; j++) {
+            int d = i - j + m;
+            diag[d].size++;
+            diag[d].arr = realloc(diag[d].arr, diag[d].size * sizeof(int));
+            diag[d].arr[diag[d].size - 1] = mat[i][j];
+        }
+    }
+
+    for (int i = 0; i < m + n; i++) {
+        if (diag[i].size > 0) {
+            qsort(diag[i].arr, diag[i].size, sizeof(int), compare);
+        }
+    }
+
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < m; j++) {
+            int d = i - j + m;
+            mat[i][j] = diag[d].arr[--diag[d].size];
+        }
+    }
+
+    for (int i = 0; i < m + n; i++) {
+        free(diag[i].arr);
+    }
+    free(diag);
+
+    return mat;
+}

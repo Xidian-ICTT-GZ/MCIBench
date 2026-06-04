@@ -1,0 +1,1 @@
+"class Solution:\n    def maxPossibleScore(self, start: List[int], d: int) -> int:\n        "

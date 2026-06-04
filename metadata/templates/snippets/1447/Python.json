@@ -1,0 +1,1 @@
+"class Solution(object):\n    def simplifiedFractions(self, n):\n        \"\"\"\n        :type n: int\n        :rtype: List[str]\n        \"\"\"\n        "

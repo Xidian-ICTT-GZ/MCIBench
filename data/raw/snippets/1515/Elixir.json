@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec get_min_dist_sum(positions :: [[integer]]) :: float\n  def get_min_dist_sum(positions) do\n    \n  end\nend"

@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String $word1\n     * @param String $word2\n     * @return Integer\n     */\n    function minDistance($word1, $word2) {\n        \n    }\n}"

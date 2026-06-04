@@ -1,0 +1,12 @@
+class Solution:
+    def minimizeResult(self, expression: str) -> str:
+        n = len(expression)
+        mid = expression.index("+")
+        best, ans = float("inf"), ""
+        for i in range(mid):
+            for j in range(mid + 1, n):
+                result = int(expression[:i] or 1) * (int(expression[i:mid]) + int(expression[mid+1:j+1])) * int(expression[j+1:] or 1)
+                if result < best:
+                    best = result
+                    ans = expression[:i] + "(" + expression[i:j+1] + ")" + expression[j+1:]
+        return ans

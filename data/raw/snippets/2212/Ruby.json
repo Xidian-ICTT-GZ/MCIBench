@@ -1,1 +1,0 @@
-"# @param {Integer} num_arrows\n# @param {Integer[]} alice_arrows\n# @return {Integer[]}\ndef maximum_bob_points(num_arrows, alice_arrows)\n    \nend"

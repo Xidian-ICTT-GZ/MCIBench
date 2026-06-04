@@ -1,0 +1,1 @@
+"-spec contains_cycle(Grid :: [[char()]]) -> boolean().\ncontains_cycle(Grid) ->\n  ."

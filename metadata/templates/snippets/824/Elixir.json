@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec to_goat_latin(sentence :: String.t) :: String.t\n  def to_goat_latin(sentence) do\n    \n  end\nend"

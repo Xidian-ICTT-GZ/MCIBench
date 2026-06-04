@@ -1,0 +1,29 @@
+public class Solution {
+    public int[] Intersect(int[] nums1, int[] nums2) {
+        if (nums1.Length > nums2.Length) {
+            return Intersect(nums2, nums1);
+        }
+
+        Dictionary<int, int> map = new Dictionary<int, int>();
+        foreach (int num in nums1) {
+            if (map.ContainsKey(num)) {
+                map[num]++;
+            } else {
+                map[num] = 1;
+            }
+        }
+
+        List<int> intersection = new List<int>();
+        foreach (int num in nums2) {
+            if (map.ContainsKey(num) && map[num] > 0) {
+                intersection.Add(num);
+                map[num]--;
+                if (map[num] == 0) {
+                    map.Remove(num);
+                }
+            }
+        }
+
+        return intersection.ToArray();
+    }
+}

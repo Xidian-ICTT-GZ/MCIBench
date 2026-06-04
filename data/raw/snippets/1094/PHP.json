@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[][] $trips\n     * @param Integer $capacity\n     * @return Boolean\n     */\n    function carPooling($trips, $capacity) {\n        \n    }\n}"

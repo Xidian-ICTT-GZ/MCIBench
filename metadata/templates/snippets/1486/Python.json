@@ -1,0 +1,1 @@
+"class Solution(object):\n    def xorOperation(self, n, start):\n        \"\"\"\n        :type n: int\n        :type start: int\n        :rtype: int\n        \"\"\"\n        "

@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    bool canCross(vector<int>& stones) {\n        \n    }\n};"

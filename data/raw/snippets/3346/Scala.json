@@ -1,1 +1,0 @@
-"object Solution {\n    def maxFrequency(nums: Array[Int], k: Int, numOperations: Int): Int = {\n        \n    }\n}"

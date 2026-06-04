@@ -1,1 +1,0 @@
-"(define/contract (k-similarity s1 s2)\n  (-> string? string? exact-integer?)\n  )"

@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String $target\n     * @param String[] $words\n     * @param Integer[] $costs\n     * @return Integer\n     */\n    function minimumCost($target, $words, $costs) {\n        \n    }\n}"

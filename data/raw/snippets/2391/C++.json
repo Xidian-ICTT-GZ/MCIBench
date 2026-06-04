@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    int garbageCollection(vector<string>& garbage, vector<int>& travel) {\n        \n    }\n};"

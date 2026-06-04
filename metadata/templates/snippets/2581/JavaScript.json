@@ -1,0 +1,1 @@
+"/**\n * @param {number[][]} edges\n * @param {number[][]} guesses\n * @param {number} k\n * @return {number}\n */\nvar rootCount = function(edges, guesses, k) {\n    \n};"

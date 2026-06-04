@@ -1,1 +1,0 @@
-"# @param {Integer} numerator\n# @param {Integer} denominator\n# @return {String}\ndef fraction_to_decimal(numerator, denominator)\n    \nend"

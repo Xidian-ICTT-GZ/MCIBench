@@ -1,0 +1,1 @@
+"-spec num_of_pairs(Nums :: [unicode:unicode_binary()], Target :: unicode:unicode_binary()) -> integer().\nnum_of_pairs(Nums, Target) ->\n  ."

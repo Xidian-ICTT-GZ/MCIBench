@@ -1,9 +1,0 @@
-var winningPlayerCount = function(n, pick) {
-    let cnt = Array.from({ length: n }, () => Array(11).fill(0)); 
-    pick.forEach(p => {
-        cnt[p[0]][p[1]]++;
-    });
-    return cnt.filter((player, i) => 
-        player.some((count, j) => count > i)
-    ).length;
-};

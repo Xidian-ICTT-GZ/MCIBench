@@ -1,1 +1,0 @@
-"-spec can_split_array(Nums :: [integer()], M :: integer()) -> boolean().\ncan_split_array(Nums, M) ->\n  ."

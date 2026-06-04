@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec can_reach(s :: String.t, min_jump :: integer, max_jump :: integer) :: boolean\n  def can_reach(s, min_jump, max_jump) do\n    \n  end\nend"

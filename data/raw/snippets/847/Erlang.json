@@ -1,1 +1,0 @@
-"-spec shortest_path_length(Graph :: [[integer()]]) -> integer().\nshortest_path_length(Graph) ->\n  ."

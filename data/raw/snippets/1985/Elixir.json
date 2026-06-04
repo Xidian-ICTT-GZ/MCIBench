@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec kth_largest_number(nums :: [String.t], k :: integer) :: String.t\n  def kth_largest_number(nums, k) do\n    \n  end\nend"

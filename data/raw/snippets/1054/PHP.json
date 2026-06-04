@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $barcodes\n     * @return Integer[]\n     */\n    function rearrangeBarcodes($barcodes) {\n        \n    }\n}"

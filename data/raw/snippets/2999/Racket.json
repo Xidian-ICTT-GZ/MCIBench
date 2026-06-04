@@ -1,1 +1,0 @@
-"(define/contract (number-of-powerful-int start finish limit s)\n  (-> exact-integer? exact-integer? exact-integer? string? exact-integer?)\n  )"

@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    vector<bool> areConnected(int n, int threshold, vector<vector<int>>& queries) {\n        \n    }\n};"

@@ -1,1 +1,0 @@
-"/**\n * The rand7() API is already defined for you.\n * var rand7 = function() {}\n * @return {number} a random integer in the range 1 to 7\n */\nvar rand10 = function() {\n    \n};"

@@ -1,1 +1,0 @@
-"-spec garden_no_adj(N :: integer(), Paths :: [[integer()]]) -> [integer()].\ngarden_no_adj(N, Paths) ->\n  ."

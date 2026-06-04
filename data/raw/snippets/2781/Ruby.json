@@ -1,1 +1,0 @@
-"# @param {String} word\n# @param {String[]} forbidden\n# @return {Integer}\ndef longest_valid_substring(word, forbidden)\n    \nend"

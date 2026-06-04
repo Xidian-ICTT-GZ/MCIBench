@@ -1,1 +1,0 @@
-"(define/contract (three-sum-multi arr target)\n  (-> (listof exact-integer?) exact-integer? exact-integer?)\n  )"

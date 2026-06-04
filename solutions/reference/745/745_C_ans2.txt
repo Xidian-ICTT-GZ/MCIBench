@@ -1,0 +1,108 @@
+#define MAX_STR_LEN 4
+#define MAX(a, b) ((a) > (b) ? (a) : (b))
+
+struct Trie;
+
+typedef struct HashItem {
+    int key;
+    struct Trie *val;
+    UT_hash_handle hh;
+} HashItem;
+
+typedef struct Trie {
+    HashItem *children;
+    int weight;
+} Trie;
+
+typedef struct {
+    Trie *trie;
+} WordFilter;
+
+WordFilter* wordFilterCreate(char ** words, int wordsSize) {
+    WordFilter *obj = (WordFilter *)malloc(sizeof(WordFilter));
+    obj->trie = (Trie *)malloc(sizeof(Trie));
+    obj->trie->children = NULL;
+    for (int i = 0; i < wordsSize; i++) {
+        char *word = words[i];
+        Trie *cur = obj->trie;
+        int m = strlen(word);
+        for (int j = 0; j < m; j++) {
+            Trie *tmp = cur;
+            for (int k = j; k < m; k++) {
+                int key = (word[k] << 8) + '#';
+                HashItem *pEntry = NULL;
+                HASH_FIND_INT(tmp->children, &key, pEntry);
+                if (NULL == pEntry) {
+                    pEntry = (HashItem *)malloc(sizeof(HashItem));
+                    pEntry->key = key;
+                    pEntry->val = (Trie *)malloc(sizeof(Trie));
+                    pEntry->val->children = NULL;
+                    HASH_ADD_INT(tmp->children, key, pEntry);
+                }
+                tmp = pEntry->val;
+                tmp->weight = i;
+            }
+            tmp = cur;
+            for (int k = j; k < m; k++) {
+                int key = ('#' << 8) + word[m - k - 1];
+                HashItem *pEntry = NULL;
+                HASH_FIND_INT(tmp->children, &key, pEntry);
+                if (NULL == pEntry) {
+                    pEntry = (HashItem *)malloc(sizeof(HashItem));
+                    pEntry->key = key;
+                    pEntry->val = (Trie *)malloc(sizeof(Trie));
+                    pEntry->val->children = NULL;
+                    HASH_ADD_INT(tmp->children, key, pEntry);
+                }
+                tmp = pEntry->val;
+                tmp->weight = i;
+            }
+            int key = (word[j] << 8) + word[m - j - 1];
+            HashItem *pEntry = NULL;
+            HASH_FIND_INT(cur->children, &key, pEntry);
+            if (NULL == pEntry) {
+                pEntry = (HashItem *)malloc(sizeof(HashItem));
+                pEntry->key = key;
+                pEntry->val = (Trie *)malloc(sizeof(Trie));
+                pEntry->val->children = NULL;
+                HASH_ADD_INT(cur->children, key, pEntry);
+            }
+            cur = pEntry->val;
+            cur->weight = i;
+        }
+    }
+    return obj;
+}
+
+int wordFilterF(WordFilter* obj, char * pref, char * suff) {
+    Trie *cur = obj->trie;
+    int prefSize = strlen(pref);
+    int suffSize = strlen(suff);
+    int m = MAX(prefSize, suffSize);
+    for (int i = 0; i < m; i++) {
+        char c1 = i < prefSize ? pref[i] : '#';
+        char c2 = i < suffSize ? suff[suffSize - 1 - i] : '#';
+        int key = (c1 << 8) + c2;
+        HashItem *pEntry = NULL;
+        HASH_FIND_INT(cur->children, &key, pEntry);
+        if (NULL == pEntry) {
+            return -1;
+        }
+        cur = pEntry->val;
+    }
+    return cur->weight;
+}
+
+void freeTrie(Trie *obj) {
+    HashItem *cur, *tmp;
+    HASH_ITER(hh, obj->children, cur, tmp) {
+        HASH_DEL(obj->children, cur);
+        freeTrie(cur->val);
+        free(cur);
+    }
+    free(obj);
+}
+
+void wordFilterFree(WordFilter* obj) {
+    freeTrie(obj->trie);
+}

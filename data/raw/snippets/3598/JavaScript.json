@@ -1,1 +1,0 @@
-"/**\n * @param {string[]} words\n * @return {number[]}\n */\nvar longestCommonPrefix = function(words) {\n    \n};"

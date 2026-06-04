@@ -1,1 +1,0 @@
-"/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* distributeCandies(int candies, int num_people, int* returnSize) {\n    \n}"

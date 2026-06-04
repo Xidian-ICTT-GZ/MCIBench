@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @param {Integer} lower\n# @param {Integer} upper\n# @return {Integer}\ndef count_fair_pairs(nums, lower, upper)\n    \nend"

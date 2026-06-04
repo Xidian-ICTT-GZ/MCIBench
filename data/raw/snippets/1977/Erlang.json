@@ -1,1 +1,0 @@
-"-spec number_of_combinations(Num :: unicode:unicode_binary()) -> integer().\nnumber_of_combinations(Num) ->\n  ."

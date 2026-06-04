@@ -1,1 +1,0 @@
-"public class Solution {\n    public IList<string> FindAllRecipes(string[] recipes, IList<IList<string>> ingredients, string[] supplies) {\n        \n    }\n}"

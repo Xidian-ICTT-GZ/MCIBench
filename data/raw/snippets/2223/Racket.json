@@ -1,1 +1,0 @@
-"(define/contract (sum-scores s)\n  (-> string? exact-integer?)\n  )"

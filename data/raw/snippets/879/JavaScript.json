@@ -1,1 +1,0 @@
-"/**\n * @param {number} n\n * @param {number} minProfit\n * @param {number[]} group\n * @param {number[]} profit\n * @return {number}\n */\nvar profitableSchemes = function(n, minProfit, group, profit) {\n    \n};"

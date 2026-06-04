@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $numerator\n     * @param Integer $denominator\n     * @return String\n     */\n    function fractionToDecimal($numerator, $denominator) {\n        \n    }\n}"

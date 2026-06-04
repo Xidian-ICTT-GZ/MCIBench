@@ -1,1 +1,0 @@
-"-spec replace_words(Dictionary :: [unicode:unicode_binary()], Sentence :: unicode:unicode_binary()) -> unicode:unicode_binary().\nreplace_words(Dictionary, Sentence) ->\n  ."

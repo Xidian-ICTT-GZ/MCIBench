@@ -1,0 +1,1 @@
+"class Solution {\n    func minSkips(_ dist: [Int], _ speed: Int, _ hoursBefore: Int) -> Int {\n        \n    }\n}"

@@ -1,1 +1,0 @@
-"class Solution {\n    func maxRemovals(_ source: String, _ pattern: String, _ targetIndices: [Int]) -> Int {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec has_groups_size_x(deck :: [integer]) :: boolean\n  def has_groups_size_x(deck) do\n    \n  end\nend"

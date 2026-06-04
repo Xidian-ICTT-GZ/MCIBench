@@ -1,1 +1,0 @@
-"-spec get_order(Tasks :: [[integer()]]) -> [integer()].\nget_order(Tasks) ->\n  ."

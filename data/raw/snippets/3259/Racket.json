@@ -1,1 +1,0 @@
-"(define/contract (max-energy-boost energyDrinkA energyDrinkB)\n  (-> (listof exact-integer?) (listof exact-integer?) exact-integer?)\n  )"

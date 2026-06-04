@@ -1,0 +1,40 @@
+#define MAX_NODE_SIZE 10000
+
+struct TreeNode* addOneRow(struct TreeNode* root, int val, int depth) {
+    struct TreeNode* node = NULL;
+    if (depth == 1) {
+        node = (struct TreeNode *)malloc(sizeof(struct TreeNode));
+        node->val = val;
+        node->left = root;
+        node->right = NULL;
+        return node;
+    }
+    struct TreeNode **queue = (struct TreeNode **)malloc(sizeof(struct TreeNode *) * MAX_NODE_SIZE);
+    int head = 0, tail = 0;
+    queue[tail++] = root;
+    for (int i = 1; i < depth - 1; i++) {
+        int sz = tail - head;
+        for (int j = 0; j < sz; j++) {
+            if (queue[head]->left != NULL) {
+                queue[tail++] = queue[head]->left;
+            }
+            if (queue[head]->right != NULL) {
+                queue[tail++] = queue[head]->right;
+            }
+            head++;
+        }
+    }
+    for (; head != tail; head++) {
+        node = (struct TreeNode *)malloc(sizeof(struct TreeNode));
+        node->val = val;
+        node->left = queue[head]->left;
+        node->right = NULL;
+        queue[head]->left = node;
+        node = (struct TreeNode *)malloc(sizeof(struct TreeNode));
+        node->val = val;
+        node->left = NULL;
+        node->right = queue[head]->right;
+        queue[head]->right = node;
+    }
+    return root;
+}

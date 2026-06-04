@@ -1,1 +1,0 @@
-"(define/contract (my-pow x n)\n  (-> flonum? exact-integer? flonum?)\n  )"

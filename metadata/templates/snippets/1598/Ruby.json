@@ -1,0 +1,1 @@
+"# @param {String[]} logs\n# @return {Integer}\ndef min_operations(logs)\n    \nend"

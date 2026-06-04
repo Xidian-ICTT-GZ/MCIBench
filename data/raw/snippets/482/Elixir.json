@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec license_key_formatting(s :: String.t, k :: integer) :: String.t\n  def license_key_formatting(s, k) do\n    \n  end\nend"

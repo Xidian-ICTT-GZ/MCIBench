@@ -1,1 +1,0 @@
-"class Solution {\n    fun findMaxPathScore(edges: Array<IntArray>, online: BooleanArray, k: Long): Int {\n        \n    }\n}"

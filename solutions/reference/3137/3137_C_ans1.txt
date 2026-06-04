@@ -1,0 +1,70 @@
+typedef struct {
+    int key;
+    int val;
+    UT_hash_handle hh;
+} HashItem; 
+
+HashItem *hashFindItem(HashItem **obj, int key) {
+    HashItem *pEntry = NULL;
+    HASH_FIND_INT(*obj, &key, pEntry);
+    return pEntry;
+}
+
+bool hashAddItem(HashItem **obj, int key, int val) {
+    if (hashFindItem(obj, key)) {
+        return false;
+    }
+    HashItem *pEntry = (HashItem *)malloc(sizeof(HashItem));
+    pEntry->key = key;
+    pEntry->val = val;
+    HASH_ADD_INT(*obj, key, pEntry);
+    return true;
+}
+
+bool hashSetItem(HashItem **obj, int key, int val) {
+    HashItem *pEntry = hashFindItem(obj, key);
+    if (!pEntry) {
+        hashAddItem(obj, key, val);
+    } else {
+        pEntry->val = val;
+    }
+    return true;
+}
+
+int hashGetItem(HashItem **obj, int key, int defaultVal) {
+    HashItem *pEntry = hashFindItem(obj, key);
+    if (!pEntry) {
+        return defaultVal;
+    }
+    return pEntry->val;
+}
+
+void hashFree(HashItem **obj) {
+    HashItem *curr = NULL, *tmp = NULL;
+    HASH_ITER(hh, *obj, curr, tmp) {
+        HASH_DEL(*obj, curr);  
+        free(curr);
+    }
+}
+
+int hash(char *s, int start, int end) {
+    long long base = 31;
+    long long mod = 1e9 + 7;
+    long long res = 0;
+    for (int i = start; i <= end; i++) {
+        res = (res * base + s[i] - 'a') % mod;
+    }
+    return res;
+}
+
+int minimumOperationsToMakeKPeriodic(char* word, int k) {
+    int n = strlen(word), res = INT_MAX;
+    HashItem *count = NULL;
+    for (int i = 0; i < n; i += k) {
+        int part = hash(word, i, i + k - 1);
+        hashSetItem(&count, part, hashGetItem(&count, part, 0) + 1);
+        res = fmin(res, n / k - hashGetItem(&count, part, 0));
+    }
+    hashFree(&count);
+    return res;
+}

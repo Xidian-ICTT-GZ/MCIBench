@@ -1,0 +1,1 @@
+"class Solution:\n    def numOfArrays(self, n: int, m: int, k: int) -> int:\n        "

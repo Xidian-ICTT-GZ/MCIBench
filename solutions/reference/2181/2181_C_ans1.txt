@@ -1,0 +1,24 @@
+struct ListNode* creatListNode(int val) {
+    struct ListNode* obj = (struct ListNode*)malloc(sizeof(struct ListNode));
+    obj->val = val;
+    obj->next = NULL;
+    return obj;
+}
+
+struct ListNode* mergeNodes(struct ListNode* head){
+    struct ListNode* dummy = creatListNode(0);
+    struct ListNode* tail = dummy;
+    
+    int total = 0;
+    for (struct ListNode* cur = head->next; cur; cur = cur->next) {
+        if (cur->val == 0) {
+            struct ListNode* node = creatListNode(total);
+            tail->next = node;
+            tail = tail->next;
+            total = 0;
+        } else {
+            total += cur->val;
+        }
+    }
+    return dummy->next;
+}

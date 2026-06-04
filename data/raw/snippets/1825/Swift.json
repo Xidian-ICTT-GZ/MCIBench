@@ -1,1 +1,0 @@
-"\nclass MKAverage {\n\n    init(_ m: Int, _ k: Int) {\n        \n    }\n    \n    func addElement(_ num: Int) {\n        \n    }\n    \n    func calculateMKAverage() -> Int {\n        \n    }\n}\n\n/**\n * Your MKAverage object will be instantiated and called as such:\n * let obj = MKAverage(m, k)\n * obj.addElement(num)\n * let ret_2: Int = obj.calculateMKAverage()\n */"

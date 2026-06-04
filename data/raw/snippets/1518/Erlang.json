@@ -1,1 +1,0 @@
-"-spec num_water_bottles(NumBottles :: integer(), NumExchange :: integer()) -> integer().\nnum_water_bottles(NumBottles, NumExchange) ->\n  ."

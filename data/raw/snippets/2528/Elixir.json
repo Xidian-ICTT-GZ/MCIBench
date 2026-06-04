@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec max_power(stations :: [integer], r :: integer, k :: integer) :: integer\n  def max_power(stations, r, k) do\n    \n  end\nend"

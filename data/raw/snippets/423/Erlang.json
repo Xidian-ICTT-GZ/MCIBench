@@ -1,1 +1,0 @@
-"-spec original_digits(S :: unicode:unicode_binary()) -> unicode:unicode_binary().\noriginal_digits(S) ->\n  ."

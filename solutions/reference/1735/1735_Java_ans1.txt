@@ -1,0 +1,44 @@
+class Solution {
+    private static final long MOD = 1_000_000_007;
+    private static final int MAXN = 10_014;
+    private static final int MAXM = 14;
+
+    public int[] waysToFillArray(int[][] queries) {
+        int[] ans = new int[MAXN];
+        long[][] comb = new long[MAXN][MAXM];
+        int len = 0;
+        comb[0][0] = 1;
+        for (int i = 1; i < MAXN; i++) {
+            comb[i][0] = 1;
+            for (int j = 1; j <= i && j < MAXM; j++) {
+                comb[i][j] = (comb[i - 1][j - 1] + comb[i - 1][j]) % MOD;
+            }
+        }
+
+        for (int[] q : queries) {
+            int n = q[0];
+            int k = q[1];
+            long tot = 1;
+
+            for (int i = 2; i * i <= k; i++) {
+                if (k % i == 0) {
+                    int cnt = 0;
+                    while (k % i == 0) {
+                        k /= i;
+                        cnt++;
+                    }
+                    tot = (tot * comb[n + cnt - 1][cnt]) % MOD;
+                }
+            }
+
+            
+            if (k > 1) {
+                tot = (tot * n) % MOD;
+            }
+
+            ans[len++]=(int)tot;
+        }
+
+        return Arrays.copyOf(ans, len);
+    }
+}

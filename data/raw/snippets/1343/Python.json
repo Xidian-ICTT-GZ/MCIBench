@@ -1,1 +1,0 @@
-"class Solution(object):\n    def numOfSubarrays(self, arr, k, threshold):\n        \"\"\"\n        :type arr: List[int]\n        :type k: int\n        :type threshold: int\n        :rtype: int\n        \"\"\"\n        "

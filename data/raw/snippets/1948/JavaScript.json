@@ -1,1 +1,0 @@
-"/**\n * @param {string[][]} paths\n * @return {string[][]}\n */\nvar deleteDuplicateFolder = function(paths) {\n    \n};"

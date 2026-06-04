@@ -1,1 +1,0 @@
-"/**\n * @param {number} startAt\n * @param {number} moveCost\n * @param {number} pushCost\n * @param {number} targetSeconds\n * @return {number}\n */\nvar minCostSetTime = function(startAt, moveCost, pushCost, targetSeconds) {\n    \n};"

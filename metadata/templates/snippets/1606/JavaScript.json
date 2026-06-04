@@ -1,0 +1,1 @@
+"/**\n * @param {number} k\n * @param {number[]} arrival\n * @param {number[]} load\n * @return {number[]}\n */\nvar busiestServers = function(k, arrival, load) {\n    \n};"

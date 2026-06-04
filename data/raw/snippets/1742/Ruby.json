@@ -1,1 +1,0 @@
-"# @param {Integer} low_limit\n# @param {Integer} high_limit\n# @return {Integer}\ndef count_balls(low_limit, high_limit)\n    \nend"

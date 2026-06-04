@@ -1,0 +1,1 @@
+"(define/contract (reverse-prefix word ch)\n  (-> string? char? string?)\n  )"

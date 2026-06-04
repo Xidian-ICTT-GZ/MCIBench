@@ -1,1 +1,0 @@
-"# @param {Integer[]} nums1\n# @param {Integer[]} nums2\n# @param {Integer} x\n# @return {Integer}\ndef minimum_time(nums1, nums2, x)\n    \nend"

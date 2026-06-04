@@ -1,1 +1,0 @@
-"# @param {Integer[]} nums1\n# @param {Integer[]} nums2\n# @return {Integer}\ndef xor_all_nums(nums1, nums2)\n    \nend"

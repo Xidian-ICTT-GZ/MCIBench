@@ -1,0 +1,1 @@
+"(define/contract (ladder-length beginWord endWord wordList)\n  (-> string? string? (listof string?) exact-integer?)\n  )"

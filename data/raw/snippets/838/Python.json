@@ -1,1 +1,0 @@
-"class Solution(object):\n    def pushDominoes(self, dominoes):\n        \"\"\"\n        :type dominoes: str\n        :rtype: str\n        \"\"\"\n        "

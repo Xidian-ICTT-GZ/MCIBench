@@ -1,0 +1,1 @@
+"public class Solution {\n    public int[] VowelStrings(string[] words, int[][] queries) {\n        \n    }\n}"

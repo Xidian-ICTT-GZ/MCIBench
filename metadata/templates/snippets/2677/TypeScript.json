@@ -1,0 +1,1 @@
+"type JSONValue = null | boolean | number | string | JSONValue[] | { [key: string]: JSONValue };\ntype Obj = Record<string, JSONValue> | Array<JSONValue>;\n\nfunction chunk(arr: Obj[], size: number): Obj[][] {\n    \n};"

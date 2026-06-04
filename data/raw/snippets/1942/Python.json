@@ -1,1 +1,0 @@
-"class Solution(object):\n    def smallestChair(self, times, targetFriend):\n        \"\"\"\n        :type times: List[List[int]]\n        :type targetFriend: int\n        :rtype: int\n        \"\"\"\n        "

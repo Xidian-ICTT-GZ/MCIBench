@@ -1,9 +1,0 @@
-func minimumOperationsToMakeKPeriodic(word string, k int) int {
-    n, res := len(word), math.MaxInt
-    count := map[string]int{}
-    for i := 0; i < n; i += k {
-        count[word[i: i + k]]++
-        res = min(res, n / k - count[word[i: i + k]])
-    }
-    return res
-}

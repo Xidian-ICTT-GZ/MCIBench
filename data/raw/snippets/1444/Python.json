@@ -1,1 +1,0 @@
-"class Solution(object):\n    def ways(self, pizza, k):\n        \"\"\"\n        :type pizza: List[str]\n        :type k: int\n        :rtype: int\n        \"\"\"\n        "

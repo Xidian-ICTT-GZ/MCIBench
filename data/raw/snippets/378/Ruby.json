@@ -1,1 +1,0 @@
-"# @param {Integer[][]} matrix\n# @param {Integer} k\n# @return {Integer}\ndef kth_smallest(matrix, k)\n    \nend"

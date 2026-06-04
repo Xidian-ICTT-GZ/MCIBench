@@ -1,0 +1,1 @@
+"-spec max_score(N :: integer(), K :: integer(), StayScore :: [[integer()]], TravelScore :: [[integer()]]) -> integer().\nmax_score(N, K, StayScore, TravelScore) ->\n  ."

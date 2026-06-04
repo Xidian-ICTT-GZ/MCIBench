@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec replace_elements(arr :: [integer]) :: [integer]\n  def replace_elements(arr) do\n    \n  end\nend"

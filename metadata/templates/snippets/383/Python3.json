@@ -1,0 +1,1 @@
+"class Solution:\n    def canConstruct(self, ransomNote: str, magazine: str) -> bool:\n        "

@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @param {Integer[]} queries\n# @param {Integer} x\n# @return {Integer[]}\ndef occurrences_of_element(nums, queries, x)\n    \nend"

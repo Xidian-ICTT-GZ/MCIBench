@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec min_interval(intervals :: [[integer]], queries :: [integer]) :: [integer]\n  def min_interval(intervals, queries) do\n    \n  end\nend"

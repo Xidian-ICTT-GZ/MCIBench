@@ -1,1 +1,0 @@
-"class Solution(object):\n    def makeTheIntegerZero(self, num1, num2):\n        \"\"\"\n        :type num1: int\n        :type num2: int\n        :rtype: int\n        \"\"\"\n        "

@@ -1,0 +1,1 @@
+"class Solution(object):\n    def distinctNames(self, ideas):\n        \"\"\"\n        :type ideas: List[str]\n        :rtype: int\n        \"\"\"\n        "

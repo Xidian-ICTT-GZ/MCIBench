@@ -1,1 +1,0 @@
-"\nclass Solution {\n\n    init(_ nums: [Int]) {\n        \n    }\n    \n    func reset() -> [Int] {\n        \n    }\n    \n    func shuffle() -> [Int] {\n        \n    }\n}\n\n/**\n * Your Solution object will be instantiated and called as such:\n * let obj = Solution(nums)\n * let ret_1: [Int] = obj.reset()\n * let ret_2: [Int] = obj.shuffle()\n */"

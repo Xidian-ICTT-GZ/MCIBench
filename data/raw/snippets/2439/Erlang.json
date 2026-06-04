@@ -1,1 +1,0 @@
-"-spec minimize_array_value(Nums :: [integer()]) -> integer().\nminimize_array_value(Nums) ->\n  ."

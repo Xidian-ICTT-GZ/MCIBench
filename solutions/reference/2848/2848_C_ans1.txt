@@ -1,0 +1,24 @@
+int numberOfPoints(int** nums, int numsSize, int* numsColSize){
+    int C = 0;
+    for (int i = 0; i < numsSize; i++) {
+        if (nums[i][1] > C) {
+            C = nums[i][1];
+        }
+    }
+
+    int count[C + 1];
+    memset(count, 0, sizeof(count));
+    for (int i = 0; i < numsSize; i++) {
+        for (int j = nums[i][0]; j <= nums[i][1]; j++) {
+            count[j]++;
+        }
+    }
+
+    int ans = 0;
+    for (int i = 1; i <= C; i++) {
+        if (count[i] > 0) {
+            ans++;
+        }
+    }
+    return ans;
+}

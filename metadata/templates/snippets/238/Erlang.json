@@ -1,0 +1,1 @@
+"-spec product_except_self(Nums :: [integer()]) -> [integer()].\nproduct_except_self(Nums) ->\n  ."

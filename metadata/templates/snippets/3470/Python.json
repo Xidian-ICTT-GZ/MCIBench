@@ -1,0 +1,1 @@
+"class Solution(object):\n    def permute(self, n, k):\n        \"\"\"\n        :type n: int\n        :type k: int\n        :rtype: List[int]\n        \"\"\"\n        "

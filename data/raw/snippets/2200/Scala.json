@@ -1,1 +1,0 @@
-"object Solution {\n    def findKDistantIndices(nums: Array[Int], key: Int, k: Int): List[Int] = {\n        \n    }\n}"

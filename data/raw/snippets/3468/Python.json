@@ -1,1 +1,0 @@
-"class Solution(object):\n    def countArrays(self, original, bounds):\n        \"\"\"\n        :type original: List[int]\n        :type bounds: List[List[int]]\n        :rtype: int\n        \"\"\"\n        "

@@ -1,0 +1,1 @@
+"(define/contract (mincost-to-hire-workers quality wage k)\n  (-> (listof exact-integer?) (listof exact-integer?) exact-integer? flonum?)\n  )"

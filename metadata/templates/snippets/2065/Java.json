@@ -1,0 +1,1 @@
+"class Solution {\n    public int maximalPathQuality(int[] values, int[][] edges, int maxTime) {\n        \n    }\n}"

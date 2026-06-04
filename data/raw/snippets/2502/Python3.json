@@ -1,1 +1,0 @@
-"class Allocator:\n\n    def __init__(self, n: int):\n        \n\n    def allocate(self, size: int, mID: int) -> int:\n        \n\n    def freeMemory(self, mID: int) -> int:\n        \n\n\n# Your Allocator object will be instantiated and called as such:\n# obj = Allocator(n)\n# param_1 = obj.allocate(size,mID)\n# param_2 = obj.freeMemory(mID)"

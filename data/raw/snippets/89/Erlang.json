@@ -1,1 +1,0 @@
-"-spec gray_code(N :: integer()) -> [integer()].\ngray_code(N) ->\n  ."

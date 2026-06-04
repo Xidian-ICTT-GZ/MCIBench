@@ -1,1 +1,0 @@
-"(define/contract (minimum-one-bit-operations n)\n  (-> exact-integer? exact-integer?)\n  )"

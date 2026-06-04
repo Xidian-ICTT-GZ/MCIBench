@@ -1,1 +1,0 @@
-"class Solution(object):\n    def minTravelTime(self, l, n, k, position, time):\n        \"\"\"\n        :type l: int\n        :type n: int\n        :type k: int\n        :type position: List[int]\n        :type time: List[int]\n        :rtype: int\n        \"\"\"\n        "

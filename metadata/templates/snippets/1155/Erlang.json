@@ -1,0 +1,1 @@
+"-spec num_rolls_to_target(N :: integer(), K :: integer(), Target :: integer()) -> integer().\nnum_rolls_to_target(N, K, Target) ->\n  ."

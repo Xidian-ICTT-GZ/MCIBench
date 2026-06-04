@@ -1,1 +1,0 @@
-"class Solution(object):\n    def findMaximumElegance(self, items, k):\n        \"\"\"\n        :type items: List[List[int]]\n        :type k: int\n        :rtype: int\n        \"\"\"\n        "

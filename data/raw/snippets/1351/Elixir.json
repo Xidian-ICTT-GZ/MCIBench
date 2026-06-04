@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec count_negatives(grid :: [[integer]]) :: integer\n  def count_negatives(grid) do\n    \n  end\nend"

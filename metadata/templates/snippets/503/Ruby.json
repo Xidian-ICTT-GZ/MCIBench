@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @return {Integer[]}\ndef next_greater_elements(nums)\n    \nend"

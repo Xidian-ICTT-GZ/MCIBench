@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String[] $board\n     * @return Integer[]\n     */\n    function pathsWithMaxScore($board) {\n        \n    }\n}"

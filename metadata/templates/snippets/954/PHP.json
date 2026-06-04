@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $arr\n     * @return Boolean\n     */\n    function canReorderDoubled($arr) {\n        \n    }\n}"

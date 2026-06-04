@@ -1,1 +1,0 @@
-"# @param {Integer[]} nums\n# @param {Integer} value\n# @return {Integer}\ndef find_smallest_integer(nums, value)\n    \nend"

@@ -1,1 +1,0 @@
-"class Solution:\n    def minMaxWeight(self, n: int, edges: List[List[int]], threshold: int) -> int:\n        "

@@ -1,1 +1,0 @@
-"-spec max_profit(N :: integer(), Edges :: [[integer()]], Score :: [integer()]) -> integer().\nmax_profit(N, Edges, Score) ->\n  ."

@@ -1,1 +1,0 @@
-"(define/contract (next-greater-elements nums)\n  (-> (listof exact-integer?) (listof exact-integer?))\n  )"

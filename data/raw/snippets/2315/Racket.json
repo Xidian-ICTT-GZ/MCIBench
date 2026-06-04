@@ -1,1 +1,0 @@
-"(define/contract (count-asterisks s)\n  (-> string? exact-integer?)\n  )"

@@ -1,1 +1,0 @@
-"-spec minimum_visited_cells(Grid :: [[integer()]]) -> integer().\nminimum_visited_cells(Grid) ->\n  ."

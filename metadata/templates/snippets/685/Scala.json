@@ -1,0 +1,1 @@
+"object Solution {\n    def findRedundantDirectedConnection(edges: Array[Array[Int]]): Array[Int] = {\n        \n    }\n}"

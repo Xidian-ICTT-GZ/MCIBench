@@ -1,1 +1,0 @@
-"(define/contract (count-hill-valley nums)\n  (-> (listof exact-integer?) exact-integer?)\n  )"

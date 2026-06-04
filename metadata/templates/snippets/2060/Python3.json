@@ -1,0 +1,1 @@
+"class Solution:\n    def possiblyEquals(self, s1: str, s2: str) -> bool:\n        "

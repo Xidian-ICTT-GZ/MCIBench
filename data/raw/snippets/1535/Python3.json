@@ -1,1 +1,0 @@
-"class Solution:\n    def getWinner(self, arr: List[int], k: int) -> int:\n        "

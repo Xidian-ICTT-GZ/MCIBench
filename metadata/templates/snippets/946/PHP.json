@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $pushed\n     * @param Integer[] $popped\n     * @return Boolean\n     */\n    function validateStackSequences($pushed, $popped) {\n        \n    }\n}"

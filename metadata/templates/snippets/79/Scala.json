@@ -1,0 +1,1 @@
+"object Solution {\n    def exist(board: Array[Array[Char]], word: String): Boolean = {\n        \n    }\n}"

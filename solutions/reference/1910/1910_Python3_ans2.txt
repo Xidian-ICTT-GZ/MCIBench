@@ -1,0 +1,30 @@
+class Solution:
+    def removeOccurrences(self, s: str, part: str) -> str:
+        m = len(part)
+        pi1 = [0] * m   
+        
+        j = 0
+        for i in range(1, m):
+            while j > 0 and part[i] != part[j]:
+                j = pi1[j-1]
+            if part[i] == part[j]:
+                j += 1
+            pi1[i] = j
+        
+        res = []
+        pi2 = [0]   
+        for ch in s:
+            
+            res.append(ch)
+            
+            j = pi2[-1]
+            while j > 0 and ch != part[j]:
+                j = pi1[j-1]
+            if ch == part[j]:
+                j += 1
+            pi2.append(j)
+            if j == m:
+                
+                pi2[-m:] = []
+                res[-m:] = []
+        return "".join(res)

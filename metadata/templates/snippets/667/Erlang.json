@@ -1,0 +1,1 @@
+"-spec construct_array(N :: integer(), K :: integer()) -> [integer()].\nconstruct_array(N, K) ->\n  ."

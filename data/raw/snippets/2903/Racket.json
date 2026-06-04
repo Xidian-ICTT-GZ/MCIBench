@@ -1,1 +1,0 @@
-"(define/contract (find-indices nums indexDifference valueDifference)\n  (-> (listof exact-integer?) exact-integer? exact-integer? (listof exact-integer?))\n  )"

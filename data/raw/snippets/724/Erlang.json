@@ -1,1 +1,0 @@
-"-spec pivot_index(Nums :: [integer()]) -> integer().\npivot_index(Nums) ->\n  ."

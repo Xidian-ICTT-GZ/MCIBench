@@ -1,0 +1,1 @@
+"/**\n * @param {number} n\n * @param {number[][]} reservedSeats\n * @return {number}\n */\nvar maxNumberOfFamilies = function(n, reservedSeats) {\n    \n};"

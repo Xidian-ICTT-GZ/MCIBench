@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} nums\n * @param {number} k\n * @param {number} limit\n * @return {number}\n */\nvar maxProduct = function(nums, k, limit) {\n    \n};"

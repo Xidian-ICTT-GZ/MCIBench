@@ -1,0 +1,1 @@
+"class Solution {\n    func numOfStrings(patterns: Array<String>, word: String): Int64 {\n\n    }\n}"

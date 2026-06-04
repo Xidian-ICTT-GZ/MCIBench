@@ -1,1 +1,0 @@
-"(define my-calendar%\n  (class object%\n    (super-new)\n    \n    (init-field)\n    \n    ; book : exact-integer? exact-integer? -> boolean?\n    (define/public (book start-time end-time)\n      )))\n\n;; Your my-calendar% object will be instantiated and called as such:\n;; (define obj (new my-calendar%))\n;; (define param_1 (send obj book start-time end-time))"

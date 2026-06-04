@@ -1,0 +1,1 @@
+"/**\n * @param {number} value\n * @param {number} k\n */\nvar DataStream = function(value, k) {\n    \n};\n\n/** \n * @param {number} num\n * @return {boolean}\n */\nDataStream.prototype.consec = function(num) {\n    \n};\n\n/** \n * Your DataStream object will be instantiated and called as such:\n * var obj = new DataStream(value, k)\n * var param_1 = obj.consec(num)\n */"

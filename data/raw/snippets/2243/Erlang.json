@@ -1,1 +1,0 @@
-"-spec digit_sum(S :: unicode:unicode_binary(), K :: integer()) -> unicode:unicode_binary().\ndigit_sum(S, K) ->\n  ."

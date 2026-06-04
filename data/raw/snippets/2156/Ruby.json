@@ -1,1 +1,0 @@
-"# @param {String} s\n# @param {Integer} power\n# @param {Integer} modulo\n# @param {Integer} k\n# @param {Integer} hash_value\n# @return {String}\ndef sub_str_hash(s, power, modulo, k, hash_value)\n    \nend"

@@ -1,0 +1,34 @@
+class Solution {
+    public String rankTeams(String[] votes) {
+        int n = votes.length;
+        
+        Map<Character, int[]> ranking = new HashMap<>();
+        for (char vid : votes[0].toCharArray()) {
+            ranking.put(vid, new int[votes[0].length()]);
+        }
+        
+        for (String vote : votes) {
+            for (int i = 0; i < vote.length(); ++i) {
+                ++ranking.get(vote.charAt(i))[i];
+            }
+        }
+
+        
+        List<Map.Entry<Character, int[]>> result = new ArrayList<>(ranking.entrySet());
+        
+        result.sort((a, b) -> {
+            for (int i = 0; i < a.getValue().length; i++) {
+                if (a.getValue()[i] != b.getValue()[i]) {
+                    return b.getValue()[i] - a.getValue()[i];
+                }
+            }
+            return a.getKey() - b.getKey();
+        });
+
+        StringBuilder ans = new StringBuilder();
+        for (Map.Entry<Character, int[]> entry : result) {
+            ans.append(entry.getKey());
+        }
+        return ans.toString();
+    }
+}

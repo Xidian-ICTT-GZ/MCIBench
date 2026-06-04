@@ -1,1 +1,0 @@
-"(define/contract (can-make-square grid)\n  (-> (listof (listof char?)) boolean?)\n  )"

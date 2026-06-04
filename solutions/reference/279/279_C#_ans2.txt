@@ -1,0 +1,31 @@
+public class Solution {
+    public int NumSquares(int n) {
+        if (IsPerfectSquare(n)) {
+            return 1;
+        }
+        if (CheckAnswer4(n)) {
+            return 4;
+        }
+        for (int i = 1; i * i <= n; i++) {
+            int j = n - i * i;
+            if (IsPerfectSquare(j)) {
+                return 2;
+            }
+        }
+        return 3;
+    }
+
+    
+    public bool IsPerfectSquare(int x) {
+        int y = (int) Math.Sqrt(x);
+        return y * y == x;
+    }
+
+    
+    public bool CheckAnswer4(int x) {
+        while (x % 4 == 0) {
+            x /= 4;
+        }
+        return x % 8 == 7;
+    }
+}

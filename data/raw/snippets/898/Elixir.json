@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec subarray_bitwise_o_rs(arr :: [integer]) :: integer\n  def subarray_bitwise_o_rs(arr) do\n    \n  end\nend"

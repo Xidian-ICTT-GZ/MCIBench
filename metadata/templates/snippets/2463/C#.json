@@ -1,0 +1,1 @@
+"public class Solution {\n    public long MinimumTotalDistance(IList<int> robot, int[][] factory) {\n        \n    }\n}"

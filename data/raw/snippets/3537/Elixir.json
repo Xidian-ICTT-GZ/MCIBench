@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec special_grid(n :: integer) :: [[integer]]\n  def special_grid(n) do\n    \n  end\nend"

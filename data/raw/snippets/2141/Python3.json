@@ -1,1 +1,0 @@
-"class Solution:\n    def maxRunTime(self, n: int, batteries: List[int]) -> int:\n        "

@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String[] $nums\n     * @param String $target\n     * @return Integer\n     */\n    function numOfPairs($nums, $target) {\n        \n    }\n}"

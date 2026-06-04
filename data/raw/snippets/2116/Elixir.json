@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec can_be_valid(s :: String.t, locked :: String.t) :: boolean\n  def can_be_valid(s, locked) do\n    \n  end\nend"

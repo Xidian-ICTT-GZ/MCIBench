@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec prime_sub_operation(nums :: [integer]) :: boolean\n  def prime_sub_operation(nums) do\n    \n  end\nend"

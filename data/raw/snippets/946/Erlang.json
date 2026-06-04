@@ -1,1 +1,0 @@
-"-spec validate_stack_sequences(Pushed :: [integer()], Popped :: [integer()]) -> boolean().\nvalidate_stack_sequences(Pushed, Popped) ->\n  ."

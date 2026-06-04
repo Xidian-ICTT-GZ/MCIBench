@@ -1,1 +1,0 @@
-"# @param {Integer[]} land_start_time\n# @param {Integer[]} land_duration\n# @param {Integer[]} water_start_time\n# @param {Integer[]} water_duration\n# @return {Integer}\ndef earliest_finish_time(land_start_time, land_duration, water_start_time, water_duration)\n    \nend"

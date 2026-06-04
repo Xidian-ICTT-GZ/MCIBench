@@ -1,1 +1,0 @@
-"# @param {Integer} low\n# @param {Integer} high\n# @param {Integer} zero\n# @param {Integer} one\n# @return {Integer}\ndef count_good_strings(low, high, zero, one)\n    \nend"

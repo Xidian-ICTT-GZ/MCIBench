@@ -1,0 +1,1 @@
+"-spec minimum_time(N :: integer(), Edges :: [[integer()]], Disappear :: [integer()]) -> [integer()].\nminimum_time(N, Edges, Disappear) ->\n  ."

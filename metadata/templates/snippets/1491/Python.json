@@ -1,0 +1,1 @@
+"class Solution(object):\n    def average(self, salary):\n        \"\"\"\n        :type salary: List[int]\n        :rtype: float\n        \"\"\"\n        "

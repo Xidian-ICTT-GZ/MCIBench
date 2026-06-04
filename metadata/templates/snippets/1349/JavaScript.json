@@ -1,0 +1,1 @@
+"/**\n * @param {character[][]} seats\n * @return {number}\n */\nvar maxStudents = function(seats) {\n    \n};"

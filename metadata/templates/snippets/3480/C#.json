@@ -1,0 +1,1 @@
+"public class Solution {\n    public long MaxSubarrays(int n, int[][] conflictingPairs) {\n        \n    }\n}"

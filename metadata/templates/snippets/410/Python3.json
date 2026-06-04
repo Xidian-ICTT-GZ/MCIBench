@@ -1,0 +1,1 @@
+"class Solution:\n    def splitArray(self, nums: List[int], k: int) -> int:\n        "

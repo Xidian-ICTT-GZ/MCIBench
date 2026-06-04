@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec color_the_array(n :: integer, queries :: [[integer]]) :: [integer]\n  def color_the_array(n, queries) do\n    \n  end\nend"

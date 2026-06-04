@@ -1,1 +1,0 @@
-"-spec is_self_crossing(Distance :: [integer()]) -> boolean().\nis_self_crossing(Distance) ->\n  ."

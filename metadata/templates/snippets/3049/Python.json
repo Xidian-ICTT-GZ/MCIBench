@@ -1,0 +1,1 @@
+"class Solution(object):\n    def earliestSecondToMarkIndices(self, nums, changeIndices):\n        \"\"\"\n        :type nums: List[int]\n        :type changeIndices: List[int]\n        :rtype: int\n        \"\"\"\n        "

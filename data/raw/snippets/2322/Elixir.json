@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec minimum_score(nums :: [integer], edges :: [[integer]]) :: integer\n  def minimum_score(nums, edges) do\n    \n  end\nend"

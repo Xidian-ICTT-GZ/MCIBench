@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[][] $grid\n     * @param Integer $row\n     * @param Integer $col\n     * @param Integer $color\n     * @return Integer[][]\n     */\n    function colorBorder($grid, $row, $col, $color) {\n        \n    }\n}"

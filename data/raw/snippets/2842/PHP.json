@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String $s\n     * @param Integer $k\n     * @return Integer\n     */\n    function countKSubsequencesWithMaxBeauty($s, $k) {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec max_target_nodes(edges1 :: [[integer]], edges2 :: [[integer]]) :: [integer]\n  def max_target_nodes(edges1, edges2) do\n    \n  end\nend"

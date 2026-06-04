@@ -1,1 +1,0 @@
-"class Solution(object):\n    def rangeSum(self, nums, n, left, right):\n        \"\"\"\n        :type nums: List[int]\n        :type n: int\n        :type left: int\n        :type right: int\n        :rtype: int\n        \"\"\"\n        "

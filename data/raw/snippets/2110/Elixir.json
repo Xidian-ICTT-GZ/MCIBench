@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec get_descent_periods(prices :: [integer]) :: integer\n  def get_descent_periods(prices) do\n    \n  end\nend"

@@ -1,1 +1,0 @@
-"-spec distance(Nums :: [integer()]) -> [integer()].\ndistance(Nums) ->\n  ."

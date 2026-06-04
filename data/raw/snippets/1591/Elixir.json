@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec is_printable(target_grid :: [[integer]]) :: boolean\n  def is_printable(target_grid) do\n    \n  end\nend"

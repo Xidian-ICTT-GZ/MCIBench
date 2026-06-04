@@ -1,1 +1,0 @@
-"# @param {Integer[]} arr\n# @param {Integer} target\n# @return {Integer}\ndef min_sum_of_lengths(arr, target)\n    \nend"

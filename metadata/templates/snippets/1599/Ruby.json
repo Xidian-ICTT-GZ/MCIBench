@@ -1,0 +1,1 @@
+"# @param {Integer[]} customers\n# @param {Integer} boarding_cost\n# @param {Integer} running_cost\n# @return {Integer}\ndef min_operations_max_profit(customers, boarding_cost, running_cost)\n    \nend"

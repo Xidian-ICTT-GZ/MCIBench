@@ -1,1 +1,0 @@
-"# @param {Integer[]} nums\n# @param {Integer[][]} queries\n# @return {Boolean[]}\ndef is_array_special(nums, queries)\n    \nend"

@@ -1,1 +1,0 @@
-"class Solution(object):\n    def stoneGameVI(self, aliceValues, bobValues):\n        \"\"\"\n        :type aliceValues: List[int]\n        :type bobValues: List[int]\n        :rtype: int\n        \"\"\"\n        "

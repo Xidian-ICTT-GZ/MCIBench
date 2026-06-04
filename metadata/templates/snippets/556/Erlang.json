@@ -1,0 +1,1 @@
+"-spec next_greater_element(N :: integer()) -> integer().\nnext_greater_element(N) ->\n  ."

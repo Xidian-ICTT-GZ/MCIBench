@@ -1,1 +1,0 @@
-"class Solution(object):\n    def numberOfWays(self, startPos, endPos, k):\n        \"\"\"\n        :type startPos: int\n        :type endPos: int\n        :type k: int\n        :rtype: int\n        \"\"\"\n        "

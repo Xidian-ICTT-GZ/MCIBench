@@ -1,1 +1,0 @@
-"(define/contract (tallest-billboard rods)\n  (-> (listof exact-integer?) exact-integer?)\n  )"

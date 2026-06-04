@@ -1,0 +1,1 @@
+"-spec cat_mouse_game(Graph :: [[integer()]]) -> integer().\ncat_mouse_game(Graph) ->\n  ."

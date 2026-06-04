@@ -1,0 +1,1 @@
+"class Solution {\n    func numberOfArrays(_ differences: [Int], _ lower: Int, _ upper: Int) -> Int {\n        \n    }\n}"

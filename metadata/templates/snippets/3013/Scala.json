@@ -1,0 +1,1 @@
+"object Solution {\n    def minimumCost(nums: Array[Int], k: Int, dist: Int): Long = {\n        \n    }\n}"

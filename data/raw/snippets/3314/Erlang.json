@@ -1,1 +1,0 @@
-"-spec min_bitwise_array(Nums :: [integer()]) -> [integer()].\nmin_bitwise_array(Nums) ->\n  ."

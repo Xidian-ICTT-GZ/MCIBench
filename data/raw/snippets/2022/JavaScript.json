@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} original\n * @param {number} m\n * @param {number} n\n * @return {number[][]}\n */\nvar construct2DArray = function(original, m, n) {\n    \n};"

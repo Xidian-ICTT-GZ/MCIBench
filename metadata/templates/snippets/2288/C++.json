@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    string discountPrices(string sentence, int discount) {\n        \n    }\n};"

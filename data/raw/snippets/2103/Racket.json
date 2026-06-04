@@ -1,1 +1,0 @@
-"(define/contract (count-points rings)\n  (-> string? exact-integer?)\n  )"

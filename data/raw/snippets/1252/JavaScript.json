@@ -1,1 +1,0 @@
-"/**\n * @param {number} m\n * @param {number} n\n * @param {number[][]} indices\n * @return {number}\n */\nvar oddCells = function(m, n, indices) {\n    \n};"

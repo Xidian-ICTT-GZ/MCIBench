@@ -1,0 +1,1 @@
+"class Solution {\n    public int maximumRobots(int[] chargeTimes, int[] runningCosts, long budget) {\n        \n    }\n}"

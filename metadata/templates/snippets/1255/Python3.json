@@ -1,0 +1,1 @@
+"class Solution:\n    def maxScoreWords(self, words: List[str], letters: List[str], score: List[int]) -> int:\n        "

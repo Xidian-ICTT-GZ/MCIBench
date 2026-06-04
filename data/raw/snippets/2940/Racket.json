@@ -1,1 +1,0 @@
-"(define/contract (leftmost-building-queries heights queries)\n  (-> (listof exact-integer?) (listof (listof exact-integer?)) (listof exact-integer?))\n  )"

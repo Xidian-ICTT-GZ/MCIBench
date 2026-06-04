@@ -1,0 +1,1 @@
+"-spec max_partitions_after_operations(S :: unicode:unicode_binary(), K :: integer()) -> integer().\nmax_partitions_after_operations(S, K) ->\n  ."

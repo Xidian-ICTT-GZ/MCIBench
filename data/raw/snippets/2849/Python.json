@@ -1,1 +1,0 @@
-"class Solution(object):\n    def isReachableAtTime(self, sx, sy, fx, fy, t):\n        \"\"\"\n        :type sx: int\n        :type sy: int\n        :type fx: int\n        :type fy: int\n        :type t: int\n        :rtype: bool\n        \"\"\"\n        "

@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} nums\n * @param {number[][]} operations\n * @return {number[]}\n */\nvar arrayChange = function(nums, operations) {\n    \n};"

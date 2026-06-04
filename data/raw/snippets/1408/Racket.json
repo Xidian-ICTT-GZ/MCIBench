@@ -1,1 +1,0 @@
-"(define/contract (string-matching words)\n  (-> (listof string?) (listof string?))\n  )"

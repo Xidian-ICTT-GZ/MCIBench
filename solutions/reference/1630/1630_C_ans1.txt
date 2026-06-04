@@ -1,0 +1,44 @@
+#define MAX(a, b) ((a) > (b) ? (a) : (b))
+#define MIN(a, b) ((a) < (b) ? (a) : (b))
+
+bool* checkArithmeticSubarrays(int* nums, int numsSize, int* l, int lSize, int* r, int rSize, int* returnSize){
+    int n = lSize;
+    bool *ans = (bool *)calloc(n, sizeof(bool));
+    int pos = 0;
+    for (int i = 0; i < n; ++i) {
+        int left = l[i], right = r[i];
+        int minv = INT_MAX, maxv = INT_MIN;
+        for (int j = left; j <= right; j++) {
+            minv = MIN(minv, nums[j]);
+            maxv = MAX(maxv, nums[j]);
+        }        
+        if (minv == maxv) {
+            ans[pos++] = true;
+            continue;
+        }
+        if ((maxv - minv) % (right - left) != 0) {
+            ans[pos++] = false;
+            continue;
+        }
+        
+        int d = (maxv - minv) / (right - left);
+        bool flag = true;
+        int seen[right - left + 1];
+        memset(seen, 0, sizeof(seen));
+        for (int j = left; j <= right; ++j) {
+            if ((nums[j] - minv) % d != 0) {
+                flag = false;
+                break;
+            }
+            int t = (nums[j] - minv) / d;
+            if (seen[t]) {
+                flag = false;
+                break;
+            }
+            seen[t] = true;
+        }
+        ans[pos++] = flag;
+    }
+    *returnSize = pos;
+    return ans;
+}

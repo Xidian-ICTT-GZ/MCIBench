@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec largest_altitude(gain :: [integer]) :: integer\n  def largest_altitude(gain) do\n    \n  end\nend"

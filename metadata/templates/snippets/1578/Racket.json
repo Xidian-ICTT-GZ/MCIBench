@@ -1,0 +1,1 @@
+"(define/contract (min-cost colors neededTime)\n  (-> string? (listof exact-integer?) exact-integer?)\n  )"

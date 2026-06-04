@@ -1,0 +1,24 @@
+impl Solution {
+    pub fn subsets_with_dup(nums: Vec<i32>) -> Vec<Vec<i32>> {
+        fn dfs(nums: &Vec<i32>, cur: usize, choose_pre: bool, t: &mut Vec<i32>, ans: &mut Vec<Vec<i32>>) {
+            if cur == nums.len() {
+                ans.push(t.clone());
+                return;
+            }
+            dfs(nums, cur + 1, false, t, ans);
+            if !choose_pre && cur > 0 && nums[cur] == nums[cur - 1] {
+                return;
+            }
+            t.push(nums[cur]);
+            dfs(nums, cur + 1, true, t, ans);
+            t.pop();
+        }
+
+        let mut nums = nums;
+        nums.sort();
+        let mut ans = vec![];
+        let mut t = vec![];
+        dfs(&nums, 0, false, &mut t, &mut ans);
+        ans
+    }
+}

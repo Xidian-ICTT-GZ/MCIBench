@@ -1,1 +1,0 @@
-"# @param {Integer} n\n# @param {Integer[][]} edges\n# @param {String} label\n# @return {Integer}\ndef max_len(n, edges, label)\n    \nend"

@@ -1,1 +1,0 @@
-"class Solution:\n    def bestClosingTime(self, customers: str) -> int:\n        "

@@ -1,1 +1,0 @@
-"class Solution:\n    def canBeTypedWords(self, text: str, brokenLetters: str) -> int:\n        "

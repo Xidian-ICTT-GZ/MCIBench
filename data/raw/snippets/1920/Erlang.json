@@ -1,1 +1,0 @@
-"-spec build_array(Nums :: [integer()]) -> [integer()].\nbuild_array(Nums) ->\n  ."

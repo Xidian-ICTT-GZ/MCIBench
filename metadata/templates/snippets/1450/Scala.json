@@ -1,0 +1,1 @@
+"object Solution {\n    def busyStudent(startTime: Array[Int], endTime: Array[Int], queryTime: Int): Int = {\n        \n    }\n}"

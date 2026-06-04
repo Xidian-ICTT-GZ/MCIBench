@@ -1,1 +1,0 @@
-"class Solution:\n    def stoneGameVI(self, aliceValues: List[int], bobValues: List[int]) -> int:\n        "

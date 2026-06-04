@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec most_frequent_prime(mat :: [[integer]]) :: integer\n  def most_frequent_prime(mat) do\n    \n  end\nend"

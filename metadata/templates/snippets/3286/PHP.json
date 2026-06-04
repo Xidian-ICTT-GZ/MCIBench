@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $grid\n     * @param Integer $health\n     * @return Boolean\n     */\n    function findSafeWalk($grid, $health) {\n        \n    }\n}"

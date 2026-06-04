@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} colors\n * @param {number[][]} queries\n * @return {number[]}\n */\nvar numberOfAlternatingGroups = function(colors, queries) {\n    \n};"

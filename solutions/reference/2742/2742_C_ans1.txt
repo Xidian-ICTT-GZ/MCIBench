@@ -1,0 +1,34 @@
+int min(int a, int b) {
+    return a < b ? a : b;
+}
+
+int paintWalls(int *cost, int costSize, int *time, int timeSize){
+    int n = costSize;
+    int *f = (int *)malloc((n * 2 + 1) * sizeof(int));
+    for (int i = 0; i <= 2 * n; i++) {
+        f[i] = INT_MAX / 2;
+    }
+    f[n] = 0;
+    for (int i = 0; i < n; ++i) {
+        int *g = (int *)malloc((n * 2 + 1) * sizeof(int));
+        for (int i = 0; i <= 2 * n; i++) {
+            g[i] = INT_MAX / 2;
+        }
+        for (int j = 0; j <= n * 2; ++j) {
+            
+            g[min(j + time[i], n * 2)] = min(g[min(j + time[i], n * 2)], f[j] + cost[i]);
+            
+            if (j > 0) {
+                g[j - 1] = min(g[j - 1], f[j]);
+            }
+        }
+        free(f);
+        f = g;
+    }
+    int res = INT_MAX;
+    for (int i = n; i <= 2 * n; i++) {
+        res = min(res, f[i]);
+    }
+    free(f);
+    return res;
+}

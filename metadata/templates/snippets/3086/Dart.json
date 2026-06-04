@@ -1,0 +1,1 @@
+"class Solution {\n  int minimumMoves(List<int> nums, int k, int maxChanges) {\n    \n  }\n}"

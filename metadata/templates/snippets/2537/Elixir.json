@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec count_good(nums :: [integer], k :: integer) :: integer\n  def count_good(nums, k) do\n    \n  end\nend"

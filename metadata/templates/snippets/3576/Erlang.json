@@ -1,0 +1,1 @@
+"-spec can_make_equal(Nums :: [integer()], K :: integer()) -> boolean().\ncan_make_equal(Nums, K) ->\n  ."

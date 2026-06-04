@@ -1,1 +1,0 @@
-"-spec is_solvable(Words :: [unicode:unicode_binary()], Result :: unicode:unicode_binary()) -> boolean().\nis_solvable(Words, Result) ->\n  ."

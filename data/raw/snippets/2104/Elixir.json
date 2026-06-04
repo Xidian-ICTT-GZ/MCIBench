@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec sub_array_ranges(nums :: [integer]) :: integer\n  def sub_array_ranges(nums) do\n    \n  end\nend"

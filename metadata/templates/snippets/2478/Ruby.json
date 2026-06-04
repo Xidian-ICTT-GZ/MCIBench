@@ -1,0 +1,1 @@
+"# @param {String} s\n# @param {Integer} k\n# @param {Integer} min_length\n# @return {Integer}\ndef beautiful_partitions(s, k, min_length)\n    \nend"

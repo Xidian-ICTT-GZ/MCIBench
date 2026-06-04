@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    bool isReachableAtTime(int sx, int sy, int fx, int fy, int t) {\n        \n    }\n};"

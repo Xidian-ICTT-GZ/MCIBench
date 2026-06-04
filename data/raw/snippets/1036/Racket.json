@@ -1,1 +1,0 @@
-"(define/contract (is-escape-possible blocked source target)\n  (-> (listof (listof exact-integer?)) (listof exact-integer?) (listof exact-integer?) boolean?)\n  )"

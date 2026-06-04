@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    string evaluate(string s, vector<vector<string>>& knowledge) {\n        \n    }\n};"

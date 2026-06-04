@@ -1,0 +1,29 @@
+var maxScoreWords = function(words, letters, score) {
+    let n = words.length, res = 0;
+    const count = new Array(26).fill(0);
+    for (const c of letters) {
+        count[c.charCodeAt() - 'a'.charCodeAt()]++;
+    }
+    for (let s = 1; s < (1 << n); s++) {
+        const wordCount = new Array(26).fill(0); 
+        for (let k = 0; k < n; k++) {
+            if ((s & (1 << k)) === 0) { 
+                continue;
+            }
+            for (let i = 0; i < words[k].length; i++) {
+                const c = words[k][i];
+                wordCount[c.charCodeAt() - 'a'.charCodeAt()]++;
+            }
+        }
+        let ok = true; 
+        let sum = 0; 
+        for (let i = 0; i < 26; i++) {
+            sum += score[i] * wordCount[i];
+            ok = ok && (wordCount[i] <= count[i]);
+        }
+        if (ok) {
+            res = Math.max(res, sum);
+        }
+    }
+    return res;
+};

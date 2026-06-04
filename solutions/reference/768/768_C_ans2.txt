@@ -1,0 +1,19 @@
+int maxChunksToSorted(int* arr, int arrSize){
+    int *stack = (int *)malloc(sizeof(int) * arrSize);
+    int top = 0;
+    for (int i = 0; i < arrSize; i++) {
+        int num = arr[i];
+        if (top == 0 || num >= stack[top - 1]) {
+            stack[top++] = num;
+        } else {
+            int mx = stack[top - 1];
+            top--;
+            while (top > 0 && stack[top - 1] > num) {
+                top--;
+            }
+            stack[top++] = mx;
+        }
+    }
+    free(stack);
+    return top;
+}

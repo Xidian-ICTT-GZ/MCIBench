@@ -1,0 +1,1 @@
+"-spec count_good_rectangles(Rectangles :: [[integer()]]) -> integer().\ncount_good_rectangles(Rectangles) ->\n  ."

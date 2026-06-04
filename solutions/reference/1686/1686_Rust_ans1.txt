@@ -1,0 +1,21 @@
+impl Solution {
+    pub fn stone_game_vi(alice_values: Vec<i32>, bob_values: Vec<i32>) -> i32 {
+        let mut values: Vec<Vec<i32>> = alice_values
+        .into_iter()
+        .zip(bob_values)
+        .map(|(a, b)| vec![a + b, a, b])
+        .collect();
+
+        values.sort_by(|a, b| b[0].cmp(&a[0]));
+        let alice_sum: i32 = values.iter().step_by(2).map(|value| value[1]).sum();
+        let bob_sum: i32 = values.iter().skip(1).step_by(2).map(|value| value[2]).sum();
+
+        if alice_sum > bob_sum {
+            1
+        } else if alice_sum == bob_sum {
+            0
+        } else {
+            -1
+        }
+    }
+}

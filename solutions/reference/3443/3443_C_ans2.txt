@@ -1,0 +1,22 @@
+int maxDistance(char* s, int k) {
+    int latitude = 0, longitude = 0, ans = 0;
+    int n = strlen(s);
+    for (int i = 0; i < n; i++) {
+        switch (s[i]) {
+            case 'N':
+                latitude++;
+                break;
+            case 'S':
+                latitude--;
+                break;
+            case 'E':
+                longitude++;
+                break;
+            case 'W':
+                longitude--;
+                break;
+        }
+        ans = fmax(ans, fmin(abs(latitude) + abs(longitude) + k * 2, i + 1));
+    }
+    return ans;
+}

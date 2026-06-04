@@ -1,1 +1,0 @@
-"-spec queens_attackthe_king(Queens :: [[integer()]], King :: [integer()]) -> [[integer()]].\nqueens_attackthe_king(Queens, King) ->\n  ."

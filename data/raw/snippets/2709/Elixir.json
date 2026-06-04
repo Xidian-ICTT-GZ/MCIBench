@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec can_traverse_all_pairs(nums :: [integer]) :: boolean\n  def can_traverse_all_pairs(nums) do\n    \n  end\nend"

@@ -1,1 +1,0 @@
-"class Solution:\n    def minimumJumps(self, forbidden: List[int], a: int, b: int, x: int) -> int:\n        "

@@ -1,1 +1,0 @@
-"/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* executeInstructions(int n, int* startPos, int startPosSize, char* s, int* returnSize) {\n    \n}"

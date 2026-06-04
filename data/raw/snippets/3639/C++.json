@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    int minTime(string s, vector<int>& order, int k) {\n        \n    }\n};"

@@ -1,1 +1,0 @@
-"public class FreqStack {\n\n    public FreqStack() {\n        \n    }\n    \n    public void Push(int val) {\n        \n    }\n    \n    public int Pop() {\n        \n    }\n}\n\n/**\n * Your FreqStack object will be instantiated and called as such:\n * FreqStack obj = new FreqStack();\n * obj.Push(val);\n * int param_2 = obj.Pop();\n */"

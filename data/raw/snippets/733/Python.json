@@ -1,1 +1,0 @@
-"class Solution(object):\n    def floodFill(self, image, sr, sc, color):\n        \"\"\"\n        :type image: List[List[int]]\n        :type sr: int\n        :type sc: int\n        :type color: int\n        :rtype: List[List[int]]\n        \"\"\"\n        "

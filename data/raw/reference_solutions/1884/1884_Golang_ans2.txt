@@ -1,3 +1,0 @@
-func twoEggDrop(n int) int {
-    return int(math.Ceil((-1 + math.Sqrt(1 + 8 * float64(n))) / 2))
-}

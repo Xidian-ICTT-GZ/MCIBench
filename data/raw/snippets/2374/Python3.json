@@ -1,1 +1,0 @@
-"class Solution:\n    def edgeScore(self, edges: List[int]) -> int:\n        "

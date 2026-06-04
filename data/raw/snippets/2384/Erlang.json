@@ -1,1 +1,0 @@
-"-spec largest_palindromic(Num :: unicode:unicode_binary()) -> unicode:unicode_binary().\nlargest_palindromic(Num) ->\n  ."

@@ -1,0 +1,34 @@
+const int MAX_NODE_SIZE = 16384;
+
+struct TreeNode* reverseOddLevels(struct TreeNode* root) {
+    struct TreeNode* queue[MAX_NODE_SIZE];
+    struct TreeNode* arr[MAX_NODE_SIZE];
+    int arrSize = 0;
+    int head = 0, tail = 0;
+    bool isOdd = false;
+
+    queue[tail++] = root;
+    while (head != tail) {
+        int sz = tail - head;
+        int arrSize = 0;
+        for (int i = 0; i < sz; i++) {
+            struct TreeNode *node = queue[head++];
+            if (isOdd) {
+                arr[i] = node;
+            }
+            if (node->left) {
+                queue[tail++] = node->left;
+                queue[tail++] = node->right;
+            }
+        }
+        if (isOdd) {
+            for (int l = 0, r = sz - 1; l < r; l++, r--) {
+                int tmp = arr[l]->val;
+                arr[l]->val = arr[r]->val;
+                arr[r]->val = tmp;
+            }
+        }            
+        isOdd ^= true;
+    }
+    return root;
+}

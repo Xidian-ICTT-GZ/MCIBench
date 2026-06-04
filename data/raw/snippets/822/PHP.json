@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $fronts\n     * @param Integer[] $backs\n     * @return Integer\n     */\n    function flipgame($fronts, $backs) {\n        \n    }\n}"

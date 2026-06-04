@@ -1,1 +1,0 @@
-"class Solution(object):\n    def solveQueries(self, nums, queries):\n        \"\"\"\n        :type nums: List[int]\n        :type queries: List[int]\n        :rtype: List[int]\n        \"\"\"\n        "

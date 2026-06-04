@@ -1,0 +1,19 @@
+int flipgame(int* fronts, int frontsSize, int* backs, int backsSize){
+    int res = 3000, n = backsSize;
+    bool same[2001];
+    memset(same, false, sizeof(same));
+    for (int i = 0; i < n; i++) {
+        if (fronts[i] == backs[i]) {
+            same[fronts[i]] = true;
+        }
+    }
+    for (int i = 0; i < n; ++i) {
+        if (fronts[i] < res && !same[fronts[i]]) {
+            res = fronts[i];
+        }
+        if (backs[i] < res && !same[backs[i]]) {
+            res = backs[i];
+        }
+    }
+    return res % 3000;
+}

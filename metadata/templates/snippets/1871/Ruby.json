@@ -1,0 +1,1 @@
+"# @param {String} s\n# @param {Integer} min_jump\n# @param {Integer} max_jump\n# @return {Boolean}\ndef can_reach(s, min_jump, max_jump)\n    \nend"

@@ -1,0 +1,80 @@
+typedef struct {
+    char *key;
+    int val;
+    UT_hash_handle hh;
+} HashItem;
+
+HashItem *hashFindItem(HashItem **obj, char *key) {
+    HashItem *pEntry = NULL;
+    HASH_FIND_STR(*obj, key, pEntry);
+    return pEntry;
+}
+
+bool hashAddItem(HashItem **obj, char *key, int val) {
+    if (hashFindItem(obj, key)) {
+        return false;
+    }
+    HashItem *pEntry = (HashItem *)malloc(sizeof(HashItem));
+    pEntry->key = (char *)calloc(sizeof(char), strlen(key) + 1);
+    strcpy(pEntry->key, key);
+    pEntry->val = val;
+    HASH_ADD_STR(*obj, key, pEntry);
+    return true;
+}
+
+bool hashSetItem(HashItem **obj, const char *key, int val) {
+    HashItem *pEntry = hashFindItem(obj, key);
+    if (!pEntry) {
+        hashAddItem(obj, key, val);
+    } else {
+        pEntry->val = val;
+    }
+    return true;
+}
+
+int hashGetItem(HashItem **obj, char *key, int defaultVal) {
+    HashItem *pEntry = hashFindItem(obj, key);
+    if (!pEntry) {
+        return defaultVal;
+    }
+    return pEntry->val;
+}
+
+void hashFree(HashItem **obj) {
+    HashItem *curr = NULL, *tmp = NULL;
+    HASH_ITER(hh, *obj, curr, tmp) {
+        HASH_DEL(*obj, curr);  
+        free(curr->key);
+        free(curr);             
+    }
+}
+
+char ** getFolderNames(char ** names, int namesSize, int* returnSize) {
+    HashItem *index = NULL;
+    char **res = (char **)calloc(sizeof(char *), namesSize);
+    int pos = 0;
+    for (int i = 0; i < namesSize; i++) {
+        if (!hashFindItem(&index, names[i])) {
+            res[pos] = (char *)calloc(sizeof(char), strlen(names[i]) + 1);
+            strcpy(res[pos], names[i]);
+            pos++;
+            hashAddItem(&index, names[i], 1);
+        } else {
+            int k = hashGetItem(&index, names[i], 0);
+            char str[strlen(names[i]) + 16];
+            sprintf(str, "%s(%d)", names[i], k);
+            while (hashFindItem(&index, str)) {
+                k++;
+                sprintf(str, "%s(%d)", names[i], k);
+            }
+            res[pos] = (char *)calloc(sizeof(char), strlen(str) + 1);
+            strcpy(res[pos], str);
+            pos++;
+            hashSetItem(&index, names[i], k + 1);
+            hashAddItem(&index, str, 1);
+        }
+    }
+    *returnSize = pos;
+    hashFree(&index);
+    return res;
+}

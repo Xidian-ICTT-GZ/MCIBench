@@ -1,1 +1,0 @@
-"-spec max_points(Grid :: [[integer()]], Queries :: [integer()]) -> [integer()].\nmax_points(Grid, Queries) ->\n  ."

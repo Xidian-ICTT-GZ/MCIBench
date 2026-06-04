@@ -1,0 +1,1 @@
+"public class Solution {\n    public bool[] PathExistenceQueries(int n, int[] nums, int maxDiff, int[][] queries) {\n        \n    }\n}"

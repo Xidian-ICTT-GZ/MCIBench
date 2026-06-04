@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec count_routes(locations :: [integer], start :: integer, finish :: integer, fuel :: integer) :: integer\n  def count_routes(locations, start, finish, fuel) do\n    \n  end\nend"

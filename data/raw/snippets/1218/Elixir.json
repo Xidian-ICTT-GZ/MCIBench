@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec longest_subsequence(arr :: [integer], difference :: integer) :: integer\n  def longest_subsequence(arr, difference) do\n    \n  end\nend"

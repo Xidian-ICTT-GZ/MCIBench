@@ -1,1 +1,0 @@
-"/**\n * @param {Array} arr\n * @param {Function} fn\n * @return {Array}\n */\nvar sortBy = function(arr, fn) {\n    \n};"

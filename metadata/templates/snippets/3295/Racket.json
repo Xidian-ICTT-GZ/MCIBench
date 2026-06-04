@@ -1,0 +1,1 @@
+"(define/contract (report-spam message bannedWords)\n  (-> (listof string?) (listof string?) boolean?)\n  )"

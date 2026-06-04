@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec plates_between_candles(s :: String.t, queries :: [[integer]]) :: [integer]\n  def plates_between_candles(s, queries) do\n    \n  end\nend"

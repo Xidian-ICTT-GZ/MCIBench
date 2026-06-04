@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String $digits\n     * @return String[]\n     */\n    function letterCombinations($digits) {\n        \n    }\n}"

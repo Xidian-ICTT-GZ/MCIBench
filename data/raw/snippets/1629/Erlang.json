@@ -1,1 +1,0 @@
-"-spec slowest_key(ReleaseTimes :: [integer()], KeysPressed :: unicode:unicode_binary()) -> char().\nslowest_key(ReleaseTimes, KeysPressed) ->\n  ."

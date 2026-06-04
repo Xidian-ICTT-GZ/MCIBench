@@ -1,0 +1,75 @@
+impl Solution {
+    pub fn moves_to_chessboard(board: Vec<Vec<i32>>) -> i32 {
+        let n = board.len();
+
+        
+        let mut row_mask = 0;
+        let mut col_mask = 0;
+        for i in 0..n {
+            row_mask |= board[0][i] << i;
+            col_mask |= board[i][0] << i;
+        }
+
+        let reverse_row_mask = ((1 << n) - 1) ^ row_mask;
+        let reverse_col_mask = ((1 << n) - 1) ^ col_mask;
+        let mut row_cnt = 0;
+        let mut col_cnt = 0;
+
+        for i in 0..n {
+            let mut curr_row_mask = 0;
+            let mut curr_col_mask = 0;
+            for j in 0..n {
+                curr_row_mask |= board[i][j] << j;
+                curr_col_mask |= board[j][i] << j;
+            }
+
+            
+            if (curr_row_mask != row_mask && curr_row_mask != reverse_row_mask) || 
+            (curr_col_mask != col_mask && curr_col_mask != reverse_col_mask) {
+                return -1;
+            }
+
+            if curr_row_mask == row_mask {
+                row_cnt += 1; 
+            }
+            if curr_col_mask == col_mask {
+                col_cnt += 1; 
+            }
+        }
+
+        fn get_moves(mask: usize, count: i32, n: usize) -> i32 {
+            let ones = mask.count_ones() as i32;
+            if n % 2 == 1 {
+                
+                if (n as i32 - 2 * ones).abs() != 1 || (n as i32 - 2 * count).abs() != 1 {
+                    return -1;
+                }
+                if ones == (n / 2) as i32 {
+                    
+                    return (n as i32 / 2) - (mask & 0xAAAAAAAA).count_ones() as i32;
+                } else {
+                    
+                    return ((n as i32 + 1) / 2) - (mask & 0x55555555).count_ones() as i32;
+                }
+            } else {
+                
+                if ones != (n / 2) as i32 || count != (n / 2) as i32 {
+                    return -1;
+                }
+                
+                let count0 = (n as i32 / 2) - (mask & 0xAAAAAAAA).count_ones() as i32;
+                
+                let count1 = (n as i32 / 2) - (mask & 0x55555555).count_ones() as i32;
+                return std::cmp::min(count0, count1);
+            }
+        }
+
+        let row_moves = get_moves(row_mask as usize, row_cnt, n);
+        let col_moves = get_moves(col_mask as usize, col_cnt, n);
+        if row_moves == -1 || col_moves == -1 {
+            return -1;
+        } else {
+            return row_moves + col_moves;
+        }
+    }
+}

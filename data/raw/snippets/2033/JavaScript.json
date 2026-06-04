@@ -1,1 +1,0 @@
-"/**\n * @param {number[][]} grid\n * @param {number} x\n * @return {number}\n */\nvar minOperations = function(grid, x) {\n    \n};"

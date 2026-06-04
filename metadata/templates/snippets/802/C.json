@@ -1,0 +1,1 @@
+"/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* eventualSafeNodes(int** graph, int graphSize, int* graphColSize, int* returnSize) {\n    \n}"

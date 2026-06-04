@@ -1,1 +1,0 @@
-"class Solution:\n    def checkDistances(self, s: str, distance: List[int]) -> bool:\n        "

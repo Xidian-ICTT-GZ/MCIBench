@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    string smallestNumber(string num, long long t) {\n        \n    }\n};"

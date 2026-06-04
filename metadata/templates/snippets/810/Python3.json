@@ -1,0 +1,1 @@
+"class Solution:\n    def xorGame(self, nums: List[int]) -> bool:\n        "

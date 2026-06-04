@@ -1,0 +1,1 @@
+"(define/contract (minimum-moves nums k maxChanges)\n  (-> (listof exact-integer?) exact-integer? exact-integer? exact-integer?)\n  )"

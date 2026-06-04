@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    int minimumBoxes(vector<int>& apple, vector<int>& capacity) {\n        \n    }\n};"

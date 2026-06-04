@@ -1,1 +1,0 @@
-"-spec restore_array(AdjacentPairs :: [[integer()]]) -> [integer()].\nrestore_array(AdjacentPairs) ->\n  ."

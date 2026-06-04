@@ -1,1 +1,0 @@
-"\nclass StockSpanner {\n\n    init() {\n        \n    }\n    \n    func next(_ price: Int) -> Int {\n        \n    }\n}\n\n/**\n * Your StockSpanner object will be instantiated and called as such:\n * let obj = StockSpanner()\n * let ret_1: Int = obj.next(price)\n */"

@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec perfect_pairs(nums :: [integer]) :: integer\n  def perfect_pairs(nums) do\n    \n  end\nend"

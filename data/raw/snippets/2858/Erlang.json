@@ -1,1 +1,0 @@
-"-spec min_edge_reversals(N :: integer(), Edges :: [[integer()]]) -> [integer()].\nmin_edge_reversals(N, Edges) ->\n  ."

@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $citations\n     * @return Integer\n     */\n    function hIndex($citations) {\n        \n    }\n}"

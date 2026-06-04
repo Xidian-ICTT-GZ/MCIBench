@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $groups\n     * @param Integer[] $elements\n     * @return Integer[]\n     */\n    function assignElements($groups, $elements) {\n        \n    }\n}"

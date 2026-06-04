@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $word1\n     * @param String $word2\n     * @return String\n     */\n    function largestMerge($word1, $word2) {\n        \n    }\n}"

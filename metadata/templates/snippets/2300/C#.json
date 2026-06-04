@@ -1,0 +1,1 @@
+"public class Solution {\n    public int[] SuccessfulPairs(int[] spells, int[] potions, long success) {\n        \n    }\n}"

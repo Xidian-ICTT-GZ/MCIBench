@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec busiest_servers(k :: integer, arrival :: [integer], load :: [integer]) :: [integer]\n  def busiest_servers(k, arrival, load) do\n    \n  end\nend"

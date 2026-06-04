@@ -1,1 +1,0 @@
-"public class Solution {\n    public double[] CalcEquation(IList<IList<string>> equations, double[] values, IList<IList<string>> queries) {\n        \n    }\n}"

@@ -1,1 +1,0 @@
-"/* The isBadVersion API is defined in the parent class VersionControl.\n      def isBadVersion(version: Int): Boolean = {} */\n\nclass Solution extends VersionControl {\n    def firstBadVersion(n: Int): Int = {\n        \n    }\n}"

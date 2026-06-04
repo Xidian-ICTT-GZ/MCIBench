@@ -1,0 +1,1 @@
+"-spec colored_cells(N :: integer()) -> integer().\ncolored_cells(N) ->\n  ."

@@ -1,1 +1,0 @@
-"class Solution:\n    def minArraySum(self, nums: List[int], k: int) -> int:\n        "

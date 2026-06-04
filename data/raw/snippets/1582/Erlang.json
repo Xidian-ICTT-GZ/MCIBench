@@ -1,1 +1,0 @@
-"-spec num_special(Mat :: [[integer()]]) -> integer().\nnum_special(Mat) ->\n  ."

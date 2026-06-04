@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    long long minTime(vector<int>& skill, vector<int>& mana) {\n        \n    }\n};"

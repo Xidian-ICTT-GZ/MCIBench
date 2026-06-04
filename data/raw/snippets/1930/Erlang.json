@@ -1,1 +1,0 @@
-"-spec count_palindromic_subsequence(S :: unicode:unicode_binary()) -> integer().\ncount_palindromic_subsequence(S) ->\n  ."

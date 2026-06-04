@@ -1,1 +1,0 @@
-"object Solution {\n    def distanceBetweenBusStops(distance: Array[Int], start: Int, destination: Int): Int = {\n        \n    }\n}"

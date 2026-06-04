@@ -1,0 +1,1 @@
+"public class Solution {\n    public int GetMaxGridHappiness(int m, int n, int introvertsCount, int extrovertsCount) {\n        \n    }\n}"

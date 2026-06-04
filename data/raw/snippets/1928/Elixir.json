@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec min_cost(max_time :: integer, edges :: [[integer]], passing_fees :: [integer]) :: integer\n  def min_cost(max_time, edges, passing_fees) do\n    \n  end\nend"

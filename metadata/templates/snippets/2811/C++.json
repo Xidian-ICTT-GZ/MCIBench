@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    bool canSplitArray(vector<int>& nums, int m) {\n        \n    }\n};"

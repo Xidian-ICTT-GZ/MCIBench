@@ -1,1 +1,0 @@
-"object Solution {\n    def shiftDistance(s: String, t: String, nextCost: Array[Int], previousCost: Array[Int]): Long = {\n        \n    }\n}"

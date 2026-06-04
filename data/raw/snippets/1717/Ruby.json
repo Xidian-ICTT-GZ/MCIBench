@@ -1,1 +1,0 @@
-"# @param {String} s\n# @param {Integer} x\n# @param {Integer} y\n# @return {Integer}\ndef maximum_gain(s, x, y)\n    \nend"

@@ -1,1 +1,0 @@
-"-spec max_sum(Grid :: [[integer()]]) -> integer().\nmax_sum(Grid) ->\n  ."

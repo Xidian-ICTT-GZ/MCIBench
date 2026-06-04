@@ -1,1 +1,0 @@
-"/**\n * @param {number} k\n * @param {number} n\n * @return {number[][]}\n */\nvar combinationSum3 = function(k, n) {\n    \n};"

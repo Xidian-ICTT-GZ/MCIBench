@@ -1,0 +1,1 @@
+"impl Solution {\n    pub fn min_cost(houses: Vec<i32>, cost: Vec<Vec<i32>>, m: i32, n: i32, target: i32) -> i32 {\n        \n    }\n}"

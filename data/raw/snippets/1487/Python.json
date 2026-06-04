@@ -1,1 +1,0 @@
-"class Solution(object):\n    def getFolderNames(self, names):\n        \"\"\"\n        :type names: List[str]\n        :rtype: List[str]\n        \"\"\"\n        "

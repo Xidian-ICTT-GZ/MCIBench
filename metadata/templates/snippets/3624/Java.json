@@ -1,0 +1,1 @@
+"class Solution {\n    public int[] popcountDepth(long[] nums, long[][] queries) {\n        \n    }\n}"

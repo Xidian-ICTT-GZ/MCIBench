@@ -1,0 +1,1 @@
+"# @param {Integer[][]} coordinates\n# @return {Boolean}\ndef check_straight_line(coordinates)\n    \nend"

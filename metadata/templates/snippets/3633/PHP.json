@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $landStartTime\n     * @param Integer[] $landDuration\n     * @param Integer[] $waterStartTime\n     * @param Integer[] $waterDuration\n     * @return Integer\n     */\n    function earliestFinishTime($landStartTime, $landDuration, $waterStartTime, $waterDuration) {\n        \n    }\n}"

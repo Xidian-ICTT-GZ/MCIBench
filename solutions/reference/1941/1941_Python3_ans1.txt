@@ -1,0 +1,7 @@
+from collections import Counter
+
+class Solution:
+    def areOccurrencesEqual(self, s: str) -> bool:
+        freq = Counter(s)   
+        occ = len(s) // len(freq)    
+        return all(v == occ for v in freq.values())

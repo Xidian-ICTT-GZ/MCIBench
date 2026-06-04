@@ -1,1 +1,0 @@
-"class Solution:\n    def earliestSecondToMarkIndices(self, nums: List[int], changeIndices: List[int]) -> int:\n        "

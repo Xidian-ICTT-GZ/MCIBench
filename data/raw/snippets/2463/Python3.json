@@ -1,1 +1,0 @@
-"class Solution:\n    def minimumTotalDistance(self, robot: List[int], factory: List[List[int]]) -> int:\n        "

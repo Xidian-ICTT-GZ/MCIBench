@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec number_of_weak_characters(properties :: [[integer]]) :: integer\n  def number_of_weak_characters(properties) do\n    \n  end\nend"

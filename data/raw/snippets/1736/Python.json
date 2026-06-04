@@ -1,1 +1,0 @@
-"class Solution(object):\n    def maximumTime(self, time):\n        \"\"\"\n        :type time: str\n        :rtype: str\n        \"\"\"\n        "

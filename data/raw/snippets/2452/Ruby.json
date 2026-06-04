@@ -1,1 +1,0 @@
-"# @param {String[]} queries\n# @param {String[]} dictionary\n# @return {String[]}\ndef two_edit_words(queries, dictionary)\n    \nend"

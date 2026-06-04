@@ -1,1 +1,0 @@
-"-spec h_index(Citations :: [integer()]) -> integer().\nh_index(Citations) ->\n  ."

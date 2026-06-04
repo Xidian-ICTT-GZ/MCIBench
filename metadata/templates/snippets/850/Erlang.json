@@ -1,0 +1,1 @@
+"-spec rectangle_area(Rectangles :: [[integer()]]) -> integer().\nrectangle_area(Rectangles) ->\n  ."

@@ -1,0 +1,1 @@
+"-spec can_partition_grid(Grid :: [[integer()]]) -> boolean().\ncan_partition_grid(Grid) ->\n  ."

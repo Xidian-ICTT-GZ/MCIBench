@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec second_highest(s :: String.t) :: integer\n  def second_highest(s) do\n    \n  end\nend"

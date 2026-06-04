@@ -1,1 +1,0 @@
-"-spec max_walls(Robots :: [integer()], Distance :: [integer()], Walls :: [integer()]) -> integer().\nmax_walls(Robots, Distance, Walls) ->\n  ."

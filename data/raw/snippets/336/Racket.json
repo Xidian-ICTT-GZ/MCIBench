@@ -1,1 +1,0 @@
-"(define/contract (palindrome-pairs words)\n  (-> (listof string?) (listof (listof exact-integer?)))\n  )"

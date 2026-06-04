@@ -1,0 +1,1 @@
+"class Solution(object):\n    def twoEditWords(self, queries, dictionary):\n        \"\"\"\n        :type queries: List[str]\n        :type dictionary: List[str]\n        :rtype: List[str]\n        \"\"\"\n        "

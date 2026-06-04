@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec winning_player(x :: integer, y :: integer) :: String.t\n  def winning_player(x, y) do\n    \n  end\nend"

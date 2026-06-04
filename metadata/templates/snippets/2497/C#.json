@@ -1,0 +1,1 @@
+"public class Solution {\n    public int MaxStarSum(int[] vals, int[][] edges, int k) {\n        \n    }\n}"

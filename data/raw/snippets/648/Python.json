@@ -1,1 +1,0 @@
-"class Solution(object):\n    def replaceWords(self, dictionary, sentence):\n        \"\"\"\n        :type dictionary: List[str]\n        :type sentence: str\n        :rtype: str\n        \"\"\"\n        "

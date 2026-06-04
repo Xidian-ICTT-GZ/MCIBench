@@ -1,0 +1,1 @@
+"class Solution(object):\n    def openLock(self, deadends, target):\n        \"\"\"\n        :type deadends: List[str]\n        :type target: str\n        :rtype: int\n        \"\"\"\n        "

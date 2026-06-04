@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    string smallestStringWithSwaps(string s, vector<vector<int>>& pairs) {\n        \n    }\n};"

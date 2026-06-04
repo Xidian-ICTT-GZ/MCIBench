@@ -1,0 +1,17 @@
+public class Solution {
+    public int[] MaxSumOfOneSubarray(int[] nums, int k) {
+        int[] ans = new int[1];
+        int sum1 = 0, maxSum1 = 0;
+        for (int i = 0; i < nums.Length; ++i) {
+            sum1 += nums[i];
+            if (i >= k - 1) {
+                if (sum1 > maxSum1) {
+                    maxSum1 = sum1;
+                    ans[0] = i - k + 1;
+                }
+                sum1 -= nums[i - k + 1];
+            }
+        }
+        return ans;
+    }
+}

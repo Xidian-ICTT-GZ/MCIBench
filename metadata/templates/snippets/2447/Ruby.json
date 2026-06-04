@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @param {Integer} k\n# @return {Integer}\ndef subarray_gcd(nums, k)\n    \nend"

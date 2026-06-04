@@ -1,0 +1,17 @@
+var minPathCost = function(grid, moveCost) {
+    let m = grid.length, n = grid[0].length;
+    let dp = new Array(2).fill(0).map(() => new Array(n));
+    dp[0] = Array.from(grid[0]);
+    let cur = 0;
+    for (let i = 1; i < m; i++) {
+        let next = 1 - cur;
+        for (let j = 0; j < n; j++) {
+            dp[next][j] = Infinity;
+            for (let k = 0; k < n; k++) {
+                dp[next][j] = Math.min(dp[next][j], dp[cur][k] + moveCost[grid[i - 1][k]][j] + grid[i][j]);
+            }
+        }
+        cur = next;
+    }
+    return Math.min(...dp[cur]);
+};

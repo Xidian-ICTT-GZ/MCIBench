@@ -1,1 +1,0 @@
-"(define/contract (update-board board click)\n  (-> (listof (listof char?)) (listof exact-integer?) (listof (listof char?)))\n  )"

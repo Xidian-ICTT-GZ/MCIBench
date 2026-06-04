@@ -1,0 +1,1 @@
+"class Solution {\n    func stringIndices(wordsContainer: Array<String>, wordsQuery: Array<String>): Array<Int64> {\n\n    }\n}"

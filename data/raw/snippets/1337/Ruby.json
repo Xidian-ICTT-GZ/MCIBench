@@ -1,1 +1,0 @@
-"# @param {Integer[][]} mat\n# @param {Integer} k\n# @return {Integer[]}\ndef k_weakest_rows(mat, k)\n    \nend"

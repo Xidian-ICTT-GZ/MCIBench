@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer $n\n     * @param Integer[][] $flights\n     * @param Integer $src\n     * @param Integer $dst\n     * @param Integer $k\n     * @return Integer\n     */\n    function findCheapestPrice($n, $flights, $src, $dst, $k) {\n        \n    }\n}"

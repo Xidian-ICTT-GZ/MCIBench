@@ -1,1 +1,0 @@
-"/**\n * @param {number[][]} books\n * @param {number} shelfWidth\n * @return {number}\n */\nvar minHeightShelves = function(books, shelfWidth) {\n    \n};"

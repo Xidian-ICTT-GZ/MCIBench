@@ -1,0 +1,1 @@
+"class Solution(object):\n    def findAllRecipes(self, recipes, ingredients, supplies):\n        \"\"\"\n        :type recipes: List[str]\n        :type ingredients: List[List[str]]\n        :type supplies: List[str]\n        :rtype: List[str]\n        \"\"\"\n        "

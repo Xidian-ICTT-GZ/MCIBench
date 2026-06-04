@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec find_circle_num(is_connected :: [[integer]]) :: integer\n  def find_circle_num(is_connected) do\n    \n  end\nend"

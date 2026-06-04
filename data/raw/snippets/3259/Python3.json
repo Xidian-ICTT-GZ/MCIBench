@@ -1,1 +1,0 @@
-"class Solution:\n    def maxEnergyBoost(self, energyDrinkA: List[int], energyDrinkB: List[int]) -> int:\n        "

@@ -1,0 +1,1 @@
+"(define/contract (max-height-of-triangle red blue)\n  (-> exact-integer? exact-integer? exact-integer?)\n  )"

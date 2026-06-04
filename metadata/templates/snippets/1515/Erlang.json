@@ -1,0 +1,1 @@
+"-spec get_min_dist_sum(Positions :: [[integer()]]) -> float().\nget_min_dist_sum(Positions) ->\n  ."

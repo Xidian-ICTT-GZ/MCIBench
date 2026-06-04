@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec number_of_submatrices(grid :: [[char]]) :: integer\n  def number_of_submatrices(grid) do\n    \n  end\nend"

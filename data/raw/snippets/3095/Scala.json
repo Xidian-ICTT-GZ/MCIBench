@@ -1,1 +1,0 @@
-"object Solution {\n    def minimumSubarrayLength(nums: Array[Int], k: Int): Int = {\n        \n    }\n}"

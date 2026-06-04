@@ -1,0 +1,1 @@
+"-spec convert(S :: unicode:unicode_binary(), NumRows :: integer()) -> unicode:unicode_binary().\nconvert(S, NumRows) ->\n  ."

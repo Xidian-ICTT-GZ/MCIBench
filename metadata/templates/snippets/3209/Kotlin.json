@@ -1,0 +1,1 @@
+"class Solution {\n    fun countSubarrays(nums: IntArray, k: Int): Long {\n        \n    }\n}"

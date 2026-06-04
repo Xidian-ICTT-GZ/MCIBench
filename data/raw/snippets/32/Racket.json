@@ -1,1 +1,0 @@
-"(define/contract (longest-valid-parentheses s)\n  (-> string? exact-integer?)\n  )"

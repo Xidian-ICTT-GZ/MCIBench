@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec reverse(x :: integer) :: integer\n  def reverse(x) do\n    \n  end\nend"

@@ -1,1 +1,0 @@
-"-spec longest_str_chain(Words :: [unicode:unicode_binary()]) -> integer().\nlongest_str_chain(Words) ->\n  ."

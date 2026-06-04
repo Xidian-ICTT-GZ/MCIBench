@@ -1,1 +1,0 @@
-"/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* movesToStamp(char* stamp, char* target, int* returnSize) {\n    \n}"

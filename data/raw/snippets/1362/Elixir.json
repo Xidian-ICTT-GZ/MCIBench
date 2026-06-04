@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec closest_divisors(num :: integer) :: [integer]\n  def closest_divisors(num) do\n    \n  end\nend"

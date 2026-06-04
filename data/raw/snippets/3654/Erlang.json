@@ -1,1 +1,0 @@
-"-spec min_array_sum(Nums :: [integer()], K :: integer()) -> integer().\nmin_array_sum(Nums, K) ->\n  ."

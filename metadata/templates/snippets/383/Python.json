@@ -1,0 +1,1 @@
+"class Solution(object):\n    def canConstruct(self, ransomNote, magazine):\n        \"\"\"\n        :type ransomNote: str\n        :type magazine: str\n        :rtype: bool\n        \"\"\"\n        "

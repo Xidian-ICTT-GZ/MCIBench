@@ -1,1 +1,0 @@
-"-spec can_traverse_all_pairs(Nums :: [integer()]) -> boolean().\ncan_traverse_all_pairs(Nums) ->\n  ."

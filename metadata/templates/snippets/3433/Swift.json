@@ -1,0 +1,1 @@
+"class Solution {\n    func countMentions(_ numberOfUsers: Int, _ events: [[String]]) -> [Int] {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"-spec check_ones_segment(S :: unicode:unicode_binary()) -> boolean().\ncheck_ones_segment(S) ->\n  ."

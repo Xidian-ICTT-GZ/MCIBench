@@ -1,1 +1,0 @@
-"(define/contract (has-groups-size-x deck)\n  (-> (listof exact-integer?) boolean?)\n  )"

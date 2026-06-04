@@ -1,0 +1,1 @@
+"-spec count_submatrices(Grid :: [[integer()]], K :: integer()) -> integer().\ncount_submatrices(Grid, K) ->\n  ."

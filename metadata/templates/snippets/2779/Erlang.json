@@ -1,0 +1,1 @@
+"-spec maximum_beauty(Nums :: [integer()], K :: integer()) -> integer().\nmaximum_beauty(Nums, K) ->\n  ."

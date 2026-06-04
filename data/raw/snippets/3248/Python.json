@@ -1,1 +1,0 @@
-"class Solution(object):\n    def finalPositionOfSnake(self, n, commands):\n        \"\"\"\n        :type n: int\n        :type commands: List[str]\n        :rtype: int\n        \"\"\"\n        "

@@ -1,1 +1,0 @@
-"object Solution {\n    def maxScore(n: Int, k: Int, stayScore: Array[Array[Int]], travelScore: Array[Array[Int]]): Int = {\n        \n    }\n}"

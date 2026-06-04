@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec car_fleet(target :: integer, position :: [integer], speed :: [integer]) :: integer\n  def car_fleet(target, position, speed) do\n    \n  end\nend"

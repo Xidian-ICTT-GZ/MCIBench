@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec are_sentences_similar(sentence1 :: String.t, sentence2 :: String.t) :: boolean\n  def are_sentences_similar(sentence1, sentence2) do\n    \n  end\nend"

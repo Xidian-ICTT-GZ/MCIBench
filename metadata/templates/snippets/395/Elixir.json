@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec longest_substring(s :: String.t, k :: integer) :: integer\n  def longest_substring(s, k) do\n    \n  end\nend"

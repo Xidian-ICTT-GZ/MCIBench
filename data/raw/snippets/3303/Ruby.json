@@ -1,1 +1,0 @@
-"# @param {String} s\n# @param {String} pattern\n# @return {Integer}\ndef min_starting_index(s, pattern)\n    \nend"

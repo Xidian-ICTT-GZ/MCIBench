@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<int> countPoints(vector<vector<int>>& points, vector<vector<int>>& queries) {\n        \n    }\n};"

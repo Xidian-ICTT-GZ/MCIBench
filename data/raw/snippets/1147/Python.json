@@ -1,1 +1,0 @@
-"class Solution(object):\n    def longestDecomposition(self, text):\n        \"\"\"\n        :type text: str\n        :rtype: int\n        \"\"\"\n        "

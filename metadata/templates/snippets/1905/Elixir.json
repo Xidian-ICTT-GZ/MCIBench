@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec count_sub_islands(grid1 :: [[integer]], grid2 :: [[integer]]) :: integer\n  def count_sub_islands(grid1, grid2) do\n    \n  end\nend"

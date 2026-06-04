@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec pick_gifts(gifts :: [integer], k :: integer) :: integer\n  def pick_gifts(gifts, k) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"class NumArray {\n\n  NumArray(List<int> nums) {\n    \n  }\n  \n  int sumRange(int left, int right) {\n    \n  }\n}\n\n/**\n * Your NumArray object will be instantiated and called as such:\n * NumArray obj = NumArray(nums);\n * int param1 = obj.sumRange(left,right);\n */"

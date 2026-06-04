@@ -1,1 +1,0 @@
-"# @param {Integer[]} arr\n# @param {Integer[]} brr\n# @param {Integer} k\n# @return {Integer}\ndef min_cost(arr, brr, k)\n    \nend"

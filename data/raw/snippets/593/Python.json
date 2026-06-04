@@ -1,1 +1,0 @@
-"class Solution(object):\n    def validSquare(self, p1, p2, p3, p4):\n        \"\"\"\n        :type p1: List[int]\n        :type p2: List[int]\n        :type p3: List[int]\n        :type p4: List[int]\n        :rtype: bool\n        \"\"\"\n        "

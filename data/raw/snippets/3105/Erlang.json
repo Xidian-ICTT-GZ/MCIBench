@@ -1,1 +1,0 @@
-"-spec longest_monotonic_subarray(Nums :: [integer()]) -> integer().\nlongest_monotonic_subarray(Nums) ->\n  ."

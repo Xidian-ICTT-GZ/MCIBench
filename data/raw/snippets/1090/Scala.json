@@ -1,1 +1,0 @@
-"object Solution {\n    def largestValsFromLabels(values: Array[Int], labels: Array[Int], numWanted: Int, useLimit: Int): Int = {\n        \n    }\n}"

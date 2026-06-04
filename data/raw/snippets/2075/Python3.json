@@ -1,1 +1,0 @@
-"class Solution:\n    def decodeCiphertext(self, encodedText: str, rows: int) -> str:\n        "

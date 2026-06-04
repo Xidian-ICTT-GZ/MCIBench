@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer $lo\n     * @param Integer $hi\n     * @param Integer $k\n     * @return Integer\n     */\n    function getKth($lo, $hi, $k) {\n        \n    }\n}"

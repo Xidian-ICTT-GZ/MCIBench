@@ -1,6 +1,0 @@
-public class Solution {
-    public int MaximizeSum(int[] nums, int k) {
-        int m = nums.Max();
-        return (2 * m + k - 1) * k / 2;
-    }
-}

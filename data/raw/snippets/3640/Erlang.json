@@ -1,1 +1,0 @@
-"-spec max_sum_trionic(Nums :: [integer()]) -> integer().\nmax_sum_trionic(Nums) ->\n  ."

@@ -1,1 +1,0 @@
-"object Solution {\n    def containsNearbyAlmostDuplicate(nums: Array[Int], indexDiff: Int, valueDiff: Int): Boolean = {\n        \n    }\n}"

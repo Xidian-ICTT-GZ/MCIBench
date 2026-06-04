@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    bool equationsPossible(vector<string>& equations) {\n        \n    }\n};"

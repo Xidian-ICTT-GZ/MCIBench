@@ -1,0 +1,1 @@
+"public class Solution {\n    public int MinMutation(string startGene, string endGene, string[] bank) {\n        \n    }\n}"

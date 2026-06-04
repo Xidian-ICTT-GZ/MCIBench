@@ -1,1 +1,0 @@
-"class Solution:\n    def gardenNoAdj(self, n: int, paths: List[List[int]]) -> List[int]:\n        "

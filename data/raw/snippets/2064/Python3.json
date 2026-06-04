@@ -1,1 +1,0 @@
-"class Solution:\n    def minimizedMaximum(self, n: int, quantities: List[int]) -> int:\n        "

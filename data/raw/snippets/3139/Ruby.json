@@ -1,1 +1,0 @@
-"# @param {Integer[]} nums\n# @param {Integer} cost1\n# @param {Integer} cost2\n# @return {Integer}\ndef min_cost_to_equalize_array(nums, cost1, cost2)\n    \nend"

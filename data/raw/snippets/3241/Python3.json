@@ -1,1 +1,0 @@
-"class Solution:\n    def timeTaken(self, edges: List[List[int]]) -> List[int]:\n        "

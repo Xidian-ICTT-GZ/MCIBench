@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int maximalPathQuality(vector<int>& values, vector<vector<int>>& edges, int maxTime) {\n        \n    }\n};"

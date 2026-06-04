@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $pairs\n     * @return Integer\n     */\n    function findLongestChain($pairs) {\n        \n    }\n}"

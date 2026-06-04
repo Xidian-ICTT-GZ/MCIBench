@@ -1,0 +1,1 @@
+"/**\n * @param {string} source\n * @param {string} target\n * @param {string[]} original\n * @param {string[]} changed\n * @param {number[]} cost\n * @return {number}\n */\nvar minimumCost = function(source, target, original, changed, cost) {\n    \n};"

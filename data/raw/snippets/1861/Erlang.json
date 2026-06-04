@@ -1,1 +1,0 @@
-"-spec rotate_the_box(BoxGrid :: [[char()]]) -> [[char()]].\nrotate_the_box(BoxGrid) ->\n  ."

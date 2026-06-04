@@ -1,0 +1,1 @@
+"class Solution(object):\n    def longestAlternatingSubarray(self, nums, threshold):\n        \"\"\"\n        :type nums: List[int]\n        :type threshold: int\n        :rtype: int\n        \"\"\"\n        "

@@ -1,1 +1,0 @@
-"(define/contract (shortest-beautiful-substring s k)\n  (-> string? exact-integer? string?)\n  )"

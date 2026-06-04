@@ -1,0 +1,1 @@
+"impl Solution {\n    pub fn min_moves(classroom: Vec<String>, energy: i32) -> i32 {\n        \n    }\n}"

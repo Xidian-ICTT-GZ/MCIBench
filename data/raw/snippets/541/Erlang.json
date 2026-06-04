@@ -1,1 +1,0 @@
-"-spec reverse_str(S :: unicode:unicode_binary(), K :: integer()) -> unicode:unicode_binary().\nreverse_str(S, K) ->\n  ."

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec number_of_paths(grid :: [[integer]], k :: integer) :: integer\n  def number_of_paths(grid, k) do\n    \n  end\nend"

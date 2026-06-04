@@ -1,1 +1,0 @@
-"class Solution(object):\n    def smallestSubsequence(self, s, k, letter, repetition):\n        \"\"\"\n        :type s: str\n        :type k: int\n        :type letter: str\n        :type repetition: int\n        :rtype: str\n        \"\"\"\n        "

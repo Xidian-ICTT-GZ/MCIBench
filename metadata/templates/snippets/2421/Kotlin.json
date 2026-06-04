@@ -1,0 +1,1 @@
+"class Solution {\n    fun numberOfGoodPaths(vals: IntArray, edges: Array<IntArray>): Int {\n        \n    }\n}"

@@ -1,1 +1,0 @@
-"class Solution(object):\n    def countMatches(self, items, ruleKey, ruleValue):\n        \"\"\"\n        :type items: List[List[str]]\n        :type ruleKey: str\n        :type ruleValue: str\n        :rtype: int\n        \"\"\"\n        "

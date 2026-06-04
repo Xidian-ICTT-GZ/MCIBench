@@ -1,0 +1,1 @@
+"class Solution(object):\n    def superPow(self, a, b):\n        \"\"\"\n        :type a: int\n        :type b: List[int]\n        :rtype: int\n        \"\"\"\n        "

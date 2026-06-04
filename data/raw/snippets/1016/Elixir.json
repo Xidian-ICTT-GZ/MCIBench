@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec query_string(s :: String.t, n :: integer) :: boolean\n  def query_string(s, n) do\n    \n  end\nend"

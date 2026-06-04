@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec sum_of_beauties(nums :: [integer]) :: integer\n  def sum_of_beauties(nums) do\n    \n  end\nend"

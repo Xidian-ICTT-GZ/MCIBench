@@ -1,1 +1,0 @@
-"# @param {Integer[]} row_sum\n# @param {Integer[]} col_sum\n# @return {Integer[][]}\ndef restore_matrix(row_sum, col_sum)\n    \nend"

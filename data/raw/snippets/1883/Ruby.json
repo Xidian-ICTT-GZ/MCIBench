@@ -1,1 +1,0 @@
-"# @param {Integer[]} dist\n# @param {Integer} speed\n# @param {Integer} hours_before\n# @return {Integer}\ndef min_skips(dist, speed, hours_before)\n    \nend"

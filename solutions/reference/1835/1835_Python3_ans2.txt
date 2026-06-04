@@ -1,0 +1,5 @@
+class Solution:
+    def getXORSum(self, arr1: List[int], arr2: List[int]) -> int:
+        tot1 = reduce(xor, arr1)
+        tot2 = reduce(xor, arr2)
+        return tot1 & tot2

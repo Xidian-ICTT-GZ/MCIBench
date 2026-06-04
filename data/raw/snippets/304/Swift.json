@@ -1,1 +1,0 @@
-"\nclass NumMatrix {\n\n    init(_ matrix: [[Int]]) {\n        \n    }\n    \n    func sumRegion(_ row1: Int, _ col1: Int, _ row2: Int, _ col2: Int) -> Int {\n        \n    }\n}\n\n/**\n * Your NumMatrix object will be instantiated and called as such:\n * let obj = NumMatrix(matrix)\n * let ret_1: Int = obj.sumRegion(row1, col1, row2, col2)\n */"

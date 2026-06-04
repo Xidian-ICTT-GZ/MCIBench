@@ -1,1 +1,0 @@
-"class Solution:\n    def isPrintable(self, targetGrid: List[List[int]]) -> bool:\n        "

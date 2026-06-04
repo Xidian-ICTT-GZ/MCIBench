@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String[] $names\n     * @param Integer[] $heights\n     * @return String[]\n     */\n    function sortPeople($names, $heights) {\n        \n    }\n}"

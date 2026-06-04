@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $s\n     * @param Integer $x\n     * @param Integer $y\n     * @return Integer\n     */\n    function maximumGain($s, $x, $y) {\n        \n    }\n}"

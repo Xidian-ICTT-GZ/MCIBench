@@ -1,0 +1,1 @@
+"-spec group_strings(Words :: [unicode:unicode_binary()]) -> [integer()].\ngroup_strings(Words) ->\n  ."

@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec grid_illumination(n :: integer, lamps :: [[integer]], queries :: [[integer]]) :: [integer]\n  def grid_illumination(n, lamps, queries) do\n    \n  end\nend"

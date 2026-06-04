@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec palindrome_partition(s :: String.t, k :: integer) :: integer\n  def palindrome_partition(s, k) do\n    \n  end\nend"

@@ -1,1 +1,0 @@
-"/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* recoverArray(int n, int* sums, int sumsSize, int* returnSize) {\n    \n}"

@@ -1,1 +1,0 @@
-"/**\n * @param {character[][]} board\n * @param {number} rMove\n * @param {number} cMove\n * @param {character} color\n * @return {boolean}\n */\nvar checkMove = function(board, rMove, cMove, color) {\n    \n};"

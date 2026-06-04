@@ -1,0 +1,13 @@
+class Solution:
+    def numberOfWays(self, s: str) -> int:
+        n = len(s)
+        n1 = s.count('1')   
+        res = 0   
+        cnt = 0   
+        for i in range(n):
+            if s[i] == '1':
+                res += (i - cnt) * (n - n1 - i + cnt)
+                cnt += 1
+            else:
+                res += cnt * (n1 - cnt)
+        return res

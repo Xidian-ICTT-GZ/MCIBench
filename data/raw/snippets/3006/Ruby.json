@@ -1,1 +1,0 @@
-"# @param {String} s\n# @param {String} a\n# @param {String} b\n# @param {Integer} k\n# @return {Integer[]}\ndef beautiful_indices(s, a, b, k)\n    \nend"

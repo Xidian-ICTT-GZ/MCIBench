@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $n\n     * @param Integer[][] $edges\n     * @param Integer[] $disappear\n     * @return Integer[]\n     */\n    function minimumTime($n, $edges, $disappear) {\n        \n    }\n}"

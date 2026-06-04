@@ -1,1 +1,0 @@
-"-spec can_construct(S :: unicode:unicode_binary(), K :: integer()) -> boolean().\ncan_construct(S, K) ->\n  ."

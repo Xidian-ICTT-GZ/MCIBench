@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int goodSubtreeSum(vector<int>& vals, vector<int>& par) {\n        \n    }\n};"

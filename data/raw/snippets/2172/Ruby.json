@@ -1,1 +1,0 @@
-"# @param {Integer[]} nums\n# @param {Integer} num_slots\n# @return {Integer}\ndef maximum_and_sum(nums, num_slots)\n    \nend"

@@ -1,0 +1,1 @@
+"class Solution(object):\n    def maximizeSquareHoleArea(self, n, m, hBars, vBars):\n        \"\"\"\n        :type n: int\n        :type m: int\n        :type hBars: List[int]\n        :type vBars: List[int]\n        :rtype: int\n        \"\"\"\n        "

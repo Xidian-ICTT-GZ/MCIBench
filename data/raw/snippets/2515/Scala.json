@@ -1,1 +1,0 @@
-"object Solution {\n    def closestTarget(words: Array[String], target: String, startIndex: Int): Int = {\n        \n    }\n}"

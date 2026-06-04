@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String $s\n     * @param Integer[] $indices\n     * @return String\n     */\n    function restoreString($s, $indices) {\n        \n    }\n}"

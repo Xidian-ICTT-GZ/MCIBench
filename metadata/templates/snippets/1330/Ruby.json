@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @return {Integer}\ndef max_value_after_reverse(nums)\n    \nend"

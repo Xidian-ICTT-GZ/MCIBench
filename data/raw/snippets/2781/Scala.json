@@ -1,1 +1,0 @@
-"object Solution {\n    def longestValidSubstring(word: String, forbidden: List[String]): Int = {\n        \n    }\n}"

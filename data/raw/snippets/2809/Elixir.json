@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec minimum_time(nums1 :: [integer], nums2 :: [integer], x :: integer) :: integer\n  def minimum_time(nums1, nums2, x) do\n    \n  end\nend"

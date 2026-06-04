@@ -1,0 +1,1 @@
+"public class Solution {\n    public IList<bool> AreConnected(int n, int threshold, int[][] queries) {\n        \n    }\n}"

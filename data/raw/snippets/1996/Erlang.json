@@ -1,1 +1,0 @@
-"-spec number_of_weak_characters(Properties :: [[integer()]]) -> integer().\nnumber_of_weak_characters(Properties) ->\n  ."

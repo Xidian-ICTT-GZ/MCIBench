@@ -1,1 +1,0 @@
-"class Solution:\n    def checkWays(self, pairs: List[List[int]]) -> int:\n        "

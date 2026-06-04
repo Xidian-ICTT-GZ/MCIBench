@@ -1,1 +1,0 @@
-"/**\n * @param {string} text\n * @param {string} brokenLetters\n * @return {number}\n */\nvar canBeTypedWords = function(text, brokenLetters) {\n    \n};"

@@ -1,1 +1,0 @@
-"-spec longest_arith_seq_length(Nums :: [integer()]) -> integer().\nlongest_arith_seq_length(Nums) ->\n  ."

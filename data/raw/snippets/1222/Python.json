@@ -1,1 +1,0 @@
-"class Solution(object):\n    def queensAttacktheKing(self, queens, king):\n        \"\"\"\n        :type queens: List[List[int]]\n        :type king: List[int]\n        :rtype: List[List[int]]\n        \"\"\"\n        "

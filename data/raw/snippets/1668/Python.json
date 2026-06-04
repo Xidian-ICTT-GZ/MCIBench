@@ -1,1 +1,0 @@
-"class Solution(object):\n    def maxRepeating(self, sequence, word):\n        \"\"\"\n        :type sequence: str\n        :type word: str\n        :rtype: int\n        \"\"\"\n        "

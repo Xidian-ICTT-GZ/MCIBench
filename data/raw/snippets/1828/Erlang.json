@@ -1,1 +1,0 @@
-"-spec count_points(Points :: [[integer()]], Queries :: [[integer()]]) -> [integer()].\ncount_points(Points, Queries) ->\n  ."

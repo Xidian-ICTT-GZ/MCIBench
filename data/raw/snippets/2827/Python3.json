@@ -1,1 +1,0 @@
-"class Solution:\n    def numberOfBeautifulIntegers(self, low: int, high: int, k: int) -> int:\n        "

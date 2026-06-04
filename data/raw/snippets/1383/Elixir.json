@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec max_performance(n :: integer, speed :: [integer], efficiency :: [integer], k :: integer) :: integer\n  def max_performance(n, speed, efficiency, k) do\n    \n  end\nend"

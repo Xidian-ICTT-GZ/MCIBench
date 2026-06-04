@@ -1,1 +1,0 @@
-"-spec num_tile_possibilities(Tiles :: unicode:unicode_binary()) -> integer().\nnum_tile_possibilities(Tiles) ->\n  ."

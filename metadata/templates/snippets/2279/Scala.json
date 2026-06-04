@@ -1,0 +1,1 @@
+"object Solution {\n    def maximumBags(capacity: Array[Int], rocks: Array[Int], additionalRocks: Int): Int = {\n        \n    }\n}"

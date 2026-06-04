@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec get_min_swaps(num :: String.t, k :: integer) :: integer\n  def get_min_swaps(num, k) do\n    \n  end\nend"

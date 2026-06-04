@@ -1,1 +1,0 @@
-"-spec corp_flight_bookings(Bookings :: [[integer()]], N :: integer()) -> [integer()].\ncorp_flight_bookings(Bookings, N) ->\n  ."

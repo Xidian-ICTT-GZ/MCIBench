@@ -1,0 +1,1 @@
+"class Solution {\n    fun intervalIntersection(firstList: Array<IntArray>, secondList: Array<IntArray>): Array<IntArray> {\n        \n    }\n}"

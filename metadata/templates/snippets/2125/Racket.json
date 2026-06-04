@@ -1,0 +1,1 @@
+"(define/contract (number-of-beams bank)\n  (-> (listof string?) exact-integer?)\n  )"

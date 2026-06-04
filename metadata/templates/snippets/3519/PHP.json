@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $l\n     * @param String $r\n     * @param Integer $b\n     * @return Integer\n     */\n    function countNumbers($l, $r, $b) {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"-spec second_highest(S :: unicode:unicode_binary()) -> integer().\nsecond_highest(S) ->\n  ."

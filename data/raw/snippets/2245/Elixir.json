@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec max_trailing_zeros(grid :: [[integer]]) :: integer\n  def max_trailing_zeros(grid) do\n    \n  end\nend"

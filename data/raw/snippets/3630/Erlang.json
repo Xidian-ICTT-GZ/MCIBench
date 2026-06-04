@@ -1,1 +1,0 @@
-"-spec maximize_xor_and_xor(Nums :: [integer()]) -> integer().\nmaximize_xor_and_xor(Nums) ->\n  ."

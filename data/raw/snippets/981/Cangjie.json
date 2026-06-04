@@ -1,1 +1,0 @@
-"class TimeMap {\n    init() {\n\n    }\n    \n    func set(key: String, value: String, timestamp: Int64): Unit {\n\n    }\n    \n    func get(key: String, timestamp: Int64): String {\n\n    }\n}\n\n/**\n * Your TimeMap object will be instantiated and called as such:\n * let obj: TimeMap = TimeMap()\n * obj.set(key,value,timestamp)\n * let param_2 = obj.get(key,timestamp)\n */"

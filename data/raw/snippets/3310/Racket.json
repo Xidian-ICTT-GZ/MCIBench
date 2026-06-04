@@ -1,1 +1,0 @@
-"(define/contract (remaining-methods n k invocations)\n  (-> exact-integer? exact-integer? (listof (listof exact-integer?)) (listof exact-integer?))\n  )"

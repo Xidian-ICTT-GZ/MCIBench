@@ -1,1 +1,0 @@
-"class Solution(object):\n    def checkArithmeticSubarrays(self, nums, l, r):\n        \"\"\"\n        :type nums: List[int]\n        :type l: List[int]\n        :type r: List[int]\n        :rtype: List[bool]\n        \"\"\"\n        "

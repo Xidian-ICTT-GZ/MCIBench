@@ -1,1 +1,0 @@
-"class Solution(object):\n    def minMutation(self, startGene, endGene, bank):\n        \"\"\"\n        :type startGene: str\n        :type endGene: str\n        :type bank: List[str]\n        :rtype: int\n        \"\"\"\n        "

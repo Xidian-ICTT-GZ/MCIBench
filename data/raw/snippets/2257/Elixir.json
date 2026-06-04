@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec count_unguarded(m :: integer, n :: integer, guards :: [[integer]], walls :: [[integer]]) :: integer\n  def count_unguarded(m, n, guards, walls) do\n    \n  end\nend"

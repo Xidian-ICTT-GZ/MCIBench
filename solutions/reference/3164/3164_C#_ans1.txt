@@ -1,0 +1,31 @@
+public class Solution {
+    public long NumberOfPairs(int[] nums1, int[] nums2, int k) {
+        Dictionary<int, int> count = new Dictionary<int, int>();
+        Dictionary<int, int> count2 = new Dictionary<int, int>();
+        int max1 = 0;
+        foreach (int num in nums1) {
+            if (count.ContainsKey(num)) {
+                count[num]++;
+            } else {
+                count[num] = 1;
+            }
+            max1 = Math.Max(max1, num);
+        }
+        foreach (int num in nums2) {
+            if (count2.ContainsKey(num)) {
+                count2[num]++;
+            } else {
+                count2[num] = 1;
+            }
+        }
+        long res = 0;
+        foreach (int a in count2.Keys) {
+            for (int b = a * k; b <= max1; b += a * k) {
+                if (count.ContainsKey(b)) {
+                    res += 1l * count[b] * count2[a];
+                }
+            }
+        }
+        return res;
+    }
+}

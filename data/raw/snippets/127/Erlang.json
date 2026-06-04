@@ -1,1 +1,0 @@
-"-spec ladder_length(BeginWord :: unicode:unicode_binary(), EndWord :: unicode:unicode_binary(), WordList :: [unicode:unicode_binary()]) -> integer().\nladder_length(BeginWord, EndWord, WordList) ->\n  ."

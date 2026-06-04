@@ -1,1 +1,0 @@
-"class Solution:\n    def maximumInvitations(self, favorite: List[int]) -> int:\n        "

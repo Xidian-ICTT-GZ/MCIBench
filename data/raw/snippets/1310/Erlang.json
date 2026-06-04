@@ -1,1 +1,0 @@
-"-spec xor_queries(Arr :: [integer()], Queries :: [[integer()]]) -> [integer()].\nxor_queries(Arr, Queries) ->\n  ."

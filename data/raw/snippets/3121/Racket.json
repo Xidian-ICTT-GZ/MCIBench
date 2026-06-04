@@ -1,1 +1,0 @@
-"(define/contract (number-of-special-chars word)\n  (-> string? exact-integer?)\n  )"

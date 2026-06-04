@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec permute(nums :: [integer]) :: [[integer]]\n  def permute(nums) do\n    \n  end\nend"

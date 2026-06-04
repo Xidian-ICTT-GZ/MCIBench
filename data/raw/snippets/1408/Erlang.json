@@ -1,1 +1,0 @@
-"-spec string_matching(Words :: [unicode:unicode_binary()]) -> [unicode:unicode_binary()].\nstring_matching(Words) ->\n  ."

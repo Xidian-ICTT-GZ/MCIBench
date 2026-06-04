@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer $n\n     * @return String[]\n     */\n    function fizzBuzz($n) {\n        \n    }\n}"

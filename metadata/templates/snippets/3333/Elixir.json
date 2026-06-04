@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec possible_string_count(word :: String.t, k :: integer) :: integer\n  def possible_string_count(word, k) do\n    \n  end\nend"

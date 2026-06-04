@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} edges\n * @param {number} node1\n * @param {number} node2\n * @return {number}\n */\nvar closestMeetingNode = function(edges, node1, node2) {\n    \n};"

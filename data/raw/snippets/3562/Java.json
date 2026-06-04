@@ -1,1 +1,0 @@
-"class Solution {\n    public int maxProfit(int n, int[] present, int[] future, int[][] hierarchy, int budget) {\n        \n    }\n}"

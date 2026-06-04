@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec longest_valid_substring(word :: String.t, forbidden :: [String.t]) :: integer\n  def longest_valid_substring(word, forbidden) do\n    \n  end\nend"

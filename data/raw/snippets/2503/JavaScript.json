@@ -1,1 +1,0 @@
-"/**\n * @param {number[][]} grid\n * @param {number[]} queries\n * @return {number[]}\n */\nvar maxPoints = function(grid, queries) {\n    \n};"

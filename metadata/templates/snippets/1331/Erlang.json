@@ -1,0 +1,1 @@
+"-spec array_rank_transform(Arr :: [integer()]) -> [integer()].\narray_rank_transform(Arr) ->\n  ."

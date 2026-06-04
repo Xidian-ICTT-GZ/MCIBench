@@ -1,1 +1,0 @@
-"class Solution:\n    def minimumCost(self, nums: List[int], k: int, dist: int) -> int:\n        "

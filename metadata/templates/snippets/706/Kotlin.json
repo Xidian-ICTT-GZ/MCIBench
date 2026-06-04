@@ -1,0 +1,1 @@
+"class MyHashMap() {\n\n    fun put(key: Int, value: Int) {\n        \n    }\n\n    fun get(key: Int): Int {\n        \n    }\n\n    fun remove(key: Int) {\n        \n    }\n\n}\n\n/**\n * Your MyHashMap object will be instantiated and called as such:\n * var obj = MyHashMap()\n * obj.put(key,value)\n * var param_2 = obj.get(key)\n * obj.remove(key)\n */"

@@ -1,0 +1,70 @@
+bool isLess(int *a, int *b) {
+    return a[0] < b[0] || (a[0] == b[0] && a[1] < b[1]);
+}
+
+void swap(int *a, int *b) {
+    int tmp = a[0];
+    a[0] = b[0];
+    b[0] = tmp;
+    tmp = a[1];
+    a[1] = b[1];
+    b[1] = tmp;
+}
+
+bool nextPermutation(int **arr, int arrSize) {
+    int p = -1;
+    for (int i = 0; i < arrSize - 1; i++) {
+        if (isLess(arr[i], arr[i + 1])) {
+            p = i;
+        }
+    }
+    if (p == -1) {
+        return false;
+    }
+    int q = -1;
+    for (int j = p + 1; j < arrSize; j++) {
+        if (isLess(arr[p], arr[j])) {
+            q = j;
+        }
+    }
+    swap(arr[p], arr[q]);
+    int i = p + 1, j = arrSize - 1;
+    while (i < j) {
+        swap(arr[i], arr[j]);
+        i++;
+        j--;
+    }
+    return true;
+}
+
+int minimumMoves(int** grid, int gridSize, int* gridColSize){
+    int *more[9], *less[9];
+    int moreSize = 0, lessSize = 0;
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++) {
+            if (grid[i][j] > 1) {
+                for (int k = 0; k < grid[i][j] - 1; k++) {
+                    more[moreSize] = (int *)malloc(sizeof(int) * 2);
+                    more[moreSize][0] = i;
+                    more[moreSize][1] = j;
+                    moreSize++;
+                }
+            } else if (grid[i][j] == 0) {
+                less[lessSize] = (int *)malloc(sizeof(int) * 2);
+                less[lessSize][0] = i;
+                less[lessSize][1] = j;
+                lessSize++;
+            }
+        }
+    }
+
+    int ans = INT_MAX;
+    do {
+        int steps = 0;
+        for (int i = 0; i < moreSize; i++) {
+            steps += abs(less[i][0] - more[i][0]) + abs(less[i][1] - more[i][1]);
+        }
+        ans = fmin(ans, steps);
+    } while (nextPermutation(more, moreSize));        
+    return ans;
+}

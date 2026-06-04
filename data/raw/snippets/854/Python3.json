@@ -1,1 +1,0 @@
-"class Solution:\n    def kSimilarity(self, s1: str, s2: str) -> int:\n        "

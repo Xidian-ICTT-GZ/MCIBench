@@ -1,0 +1,1 @@
+"class Solution {\n  int minimumCost(String source, String target, List<String> original, List<String> changed, List<int> cost) {\n    \n  }\n}"

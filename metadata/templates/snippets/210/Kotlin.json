@@ -1,0 +1,1 @@
+"class Solution {\n    fun findOrder(numCourses: Int, prerequisites: Array<IntArray>): IntArray {\n        \n    }\n}"

@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $obstacles\n     * @return Integer[]\n     */\n    function longestObstacleCourseAtEachPosition($obstacles) {\n        \n    }\n}"

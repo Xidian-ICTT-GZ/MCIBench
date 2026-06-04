@@ -1,1 +1,0 @@
-"# @param {Integer[]} nums\n# @param {Integer} space\n# @return {Integer}\ndef destroy_targets(nums, space)\n    \nend"

@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String[] $strs\n     * @param Integer $m\n     * @param Integer $n\n     * @return Integer\n     */\n    function findMaxForm($strs, $m, $n) {\n        \n    }\n}"

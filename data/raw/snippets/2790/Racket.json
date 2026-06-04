@@ -1,1 +1,0 @@
-"(define/contract (max-increasing-groups usageLimits)\n  (-> (listof exact-integer?) exact-integer?)\n  )"

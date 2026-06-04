@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec find_crossing_time(n :: integer, k :: integer, time :: [[integer]]) :: integer\n  def find_crossing_time(n, k, time) do\n    \n  end\nend"

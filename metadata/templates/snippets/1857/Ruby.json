@@ -1,0 +1,1 @@
+"# @param {String} colors\n# @param {Integer[][]} edges\n# @return {Integer}\ndef largest_path_value(colors, edges)\n    \nend"

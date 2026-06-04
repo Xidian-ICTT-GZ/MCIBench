@@ -1,0 +1,17 @@
+class Solution:
+    def numOfMinutes(self, n: int, headID: int, manager: List[int], informTime: List[int]) -> int:
+        
+        g = collections.defaultdict(list)
+        for i in range(n):
+            g[manager[i]].append(i)
+        
+        def dfs(cur):
+            res = 0
+            
+            for ne in g[cur]:
+                res = max(res, dfs(ne))
+            
+            return informTime[cur] + res
+        
+        
+        return dfs(headID)

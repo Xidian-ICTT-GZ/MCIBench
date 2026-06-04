@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec third_max(nums :: [integer]) :: integer\n  def third_max(nums) do\n    \n  end\nend"

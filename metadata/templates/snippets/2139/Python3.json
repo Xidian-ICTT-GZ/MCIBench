@@ -1,0 +1,1 @@
+"class Solution:\n    def minMoves(self, target: int, maxDoubles: int) -> int:\n        "

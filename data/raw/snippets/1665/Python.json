@@ -1,1 +1,0 @@
-"class Solution(object):\n    def minimumEffort(self, tasks):\n        \"\"\"\n        :type tasks: List[List[int]]\n        :rtype: int\n        \"\"\"\n        "

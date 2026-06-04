@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec prime_palindrome(n :: integer) :: integer\n  def prime_palindrome(n) do\n    \n  end\nend"

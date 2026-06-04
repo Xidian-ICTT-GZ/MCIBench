@@ -1,1 +1,0 @@
-"# @param {Integer[]} nums1\n# @param {Integer[]} nums2\n# @param {Integer} k1\n# @param {Integer} k2\n# @return {Integer}\ndef min_sum_square_diff(nums1, nums2, k1, k2)\n    \nend"

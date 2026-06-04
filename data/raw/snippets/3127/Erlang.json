@@ -1,1 +1,0 @@
-"-spec can_make_square(Grid :: [[char()]]) -> boolean().\ncan_make_square(Grid) ->\n  ."

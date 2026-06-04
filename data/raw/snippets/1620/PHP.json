@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[][] $towers\n     * @param Integer $radius\n     * @return Integer[]\n     */\n    function bestCoordinate($towers, $radius) {\n        \n    }\n}"

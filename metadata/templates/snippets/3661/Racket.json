@@ -1,0 +1,1 @@
+"(define/contract (max-walls robots distance walls)\n  (-> (listof exact-integer?) (listof exact-integer?) (listof exact-integer?) exact-integer?)\n  )"

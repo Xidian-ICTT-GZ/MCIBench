@@ -1,0 +1,1 @@
+"(define/contract (stone-game piles)\n  (-> (listof exact-integer?) boolean?)\n  )"

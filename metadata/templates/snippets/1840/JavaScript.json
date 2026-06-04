@@ -1,0 +1,1 @@
+"/**\n * @param {number} n\n * @param {number[][]} restrictions\n * @return {number}\n */\nvar maxBuilding = function(n, restrictions) {\n    \n};"

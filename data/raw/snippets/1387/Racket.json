@@ -1,1 +1,0 @@
-"(define/contract (get-kth lo hi k)\n  (-> exact-integer? exact-integer? exact-integer? exact-integer?)\n  )"

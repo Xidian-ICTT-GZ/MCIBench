@@ -1,0 +1,1 @@
+"-spec count_distinct(Nums :: [integer()], K :: integer(), P :: integer()) -> integer().\ncount_distinct(Nums, K, P) ->\n  ."

@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String $s\n     * @param String $t\n     * @return Integer\n     */\n    function numDistinct($s, $t) {\n        \n    }\n}"

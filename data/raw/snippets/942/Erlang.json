@@ -1,1 +1,0 @@
-"-spec di_string_match(S :: unicode:unicode_binary()) -> [integer()].\ndi_string_match(S) ->\n  ."

@@ -1,1 +1,0 @@
-"class Solution(object):\n    def validateStackSequences(self, pushed, popped):\n        \"\"\"\n        :type pushed: List[int]\n        :type popped: List[int]\n        :rtype: bool\n        \"\"\"\n        "

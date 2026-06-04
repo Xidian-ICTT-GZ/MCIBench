@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} nums\n * @param {number} firstLen\n * @param {number} secondLen\n * @return {number}\n */\nvar maxSumTwoNoOverlap = function(nums, firstLen, secondLen) {\n    \n};"

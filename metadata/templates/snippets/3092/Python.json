@@ -1,0 +1,1 @@
+"class Solution(object):\n    def mostFrequentIDs(self, nums, freq):\n        \"\"\"\n        :type nums: List[int]\n        :type freq: List[int]\n        :rtype: List[int]\n        \"\"\"\n        "

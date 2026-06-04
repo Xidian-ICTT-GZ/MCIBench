@@ -1,1 +1,0 @@
-"class Solution:\n    def beautifulPartitions(self, s: str, k: int, minLength: int) -> int:\n        "

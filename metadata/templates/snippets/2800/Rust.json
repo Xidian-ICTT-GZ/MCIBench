@@ -1,0 +1,1 @@
+"impl Solution {\n    pub fn minimum_string(a: String, b: String, c: String) -> String {\n        \n    }\n}"

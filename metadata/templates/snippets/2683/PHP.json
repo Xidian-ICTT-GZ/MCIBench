@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $derived\n     * @return Boolean\n     */\n    function doesValidArrayExist($derived) {\n        \n    }\n}"

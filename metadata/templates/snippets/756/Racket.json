@@ -1,0 +1,1 @@
+"(define/contract (pyramid-transition bottom allowed)\n  (-> string? (listof string?) boolean?)\n  )"

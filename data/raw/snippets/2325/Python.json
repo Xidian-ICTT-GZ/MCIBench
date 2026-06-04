@@ -1,1 +1,0 @@
-"class Solution(object):\n    def decodeMessage(self, key, message):\n        \"\"\"\n        :type key: str\n        :type message: str\n        :rtype: str\n        \"\"\"\n        "

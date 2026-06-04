@@ -1,1 +1,0 @@
-"-spec num_of_minutes(N :: integer(), HeadID :: integer(), Manager :: [integer()], InformTime :: [integer()]) -> integer().\nnum_of_minutes(N, HeadID, Manager, InformTime) ->\n  ."

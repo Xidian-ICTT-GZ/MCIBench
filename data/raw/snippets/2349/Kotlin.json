@@ -1,1 +1,0 @@
-"class NumberContainers() {\n\n    fun change(index: Int, number: Int) {\n        \n    }\n\n    fun find(number: Int): Int {\n        \n    }\n\n}\n\n/**\n * Your NumberContainers object will be instantiated and called as such:\n * var obj = NumberContainers()\n * obj.change(index,number)\n * var param_2 = obj.find(number)\n */"

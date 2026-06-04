@@ -1,0 +1,192 @@
+#define MIN_QUEUE_SIZE 64
+
+typedef struct Element {
+    int data[2];
+} Element;
+
+typedef bool (*compare)(const void *, const void *);
+
+typedef struct PriorityQueue {
+    Element *arr;
+    int capacity;
+    int queueSize;
+    compare lessFunc;
+} PriorityQueue;
+
+Element *createElement(int x, int y) {
+    Element *obj = (Element *)malloc(sizeof(Element));
+    obj->data[0] = x;
+    obj->data[1] = y;
+    return obj;
+}
+
+static bool less(const void *a, const void *b) {
+    Element *e1 = (Element *)a;
+    Element *e2 = (Element *)b;
+    return e1->data[0] > e2->data[0];
+}
+
+static bool greater(const void *a, const void *b) {
+    Element *e1 = (Element *)a;
+    Element *e2 = (Element *)b;
+    return e1->data[0] < e2->data[0];
+}
+
+static void memswap(void *m1, void *m2, size_t size){
+    unsigned char *a = (unsigned char*)m1;
+    unsigned char *b = (unsigned char*)m2;
+    while (size--) {
+        *b ^= *a ^= *b ^= *a;
+        a++;
+        b++;
+    }
+}
+
+static void swap(Element *arr, int i, int j) {
+    memswap(&arr[i], &arr[j], sizeof(Element));
+}
+
+static void down(Element *arr, int size, int i, compare cmpFunc) {
+    for (int k = 2 * i + 1; k < size; k = 2 * k + 1) {
+        if (k + 1 < size && cmpFunc(&arr[k], &arr[k + 1])) {
+            k++;
+        }
+        if (cmpFunc(&arr[k], &arr[(k - 1) / 2])) {
+            break;
+        }
+        swap(arr, k, (k - 1) / 2);
+    }
+}
+
+PriorityQueue *createPriorityQueue(compare cmpFunc) {
+    PriorityQueue *obj = (PriorityQueue *)malloc(sizeof(PriorityQueue));
+    obj->capacity = MIN_QUEUE_SIZE;
+    obj->arr = (Element *)malloc(sizeof(Element) * obj->capacity);
+    obj->queueSize = 0;
+    obj->lessFunc = cmpFunc;
+    return obj;
+}
+
+void heapfiy(PriorityQueue *obj) {
+    for (int i = obj->queueSize / 2 - 1; i >= 0; i--) {
+        down(obj->arr, obj->queueSize, i, obj->lessFunc);
+    }
+}
+
+void enQueue(PriorityQueue *obj, Element *e) {
+    
+    if (obj->queueSize == obj->capacity) {
+        obj->capacity *= 2;
+        Element *mem = (Element *)malloc(sizeof(Element) * obj->capacity);
+        memcpy(mem, obj->arr, sizeof(Element) * obj->queueSize);
+        free(obj->arr);
+        obj->arr = mem;
+    }
+    memcpy(&obj->arr[obj->queueSize], e, sizeof(Element));
+    for (int i = obj->queueSize; i > 0 && obj->lessFunc(&obj->arr[(i - 1) / 2], &obj->arr[i]); i = (i - 1) / 2) {
+        swap(obj->arr, i, (i - 1) / 2);
+    }
+    obj->queueSize++;
+}
+
+Element* deQueue(PriorityQueue *obj) {
+    swap(obj->arr, 0, obj->queueSize - 1);
+    down(obj->arr, obj->queueSize - 1, 0, obj->lessFunc);
+    Element *e =  &obj->arr[obj->queueSize - 1];
+    obj->queueSize--;
+    return e;
+}
+
+bool isEmpty(const PriorityQueue *obj) {
+    return obj->queueSize == 0;
+}
+
+Element* front(const PriorityQueue *obj) {
+    if (obj->queueSize == 0) {
+        return NULL;
+    } else {
+        return &obj->arr[0];
+    }
+}
+
+void clear(PriorityQueue *obj) {
+    obj->queueSize = 0;
+}
+
+int size(const PriorityQueue *obj) {
+    return obj->queueSize;
+}
+
+void freeQueue(PriorityQueue *obj) {
+    free(obj->arr);
+    free(obj);
+}
+
+typedef struct Edge {
+    int node;
+    int length;
+    struct Edge *next;
+} Edge;
+
+Edge *createEdge(int node, int length) {
+    Edge *obj = (Edge *)malloc(sizeof(Edge));
+    obj->node = node;
+    obj->length = length;
+    return obj;
+}
+
+void freeList(Edge *list) {
+    while (list) {
+        Edge *p = list;
+        list = list->next;
+        free(p);
+    }
+}
+
+int* minimumTime(int n, int** edges, int edgesSize, int* edgesColSize, int* disappear, int disappearSize, int* returnSize) {
+    Edge *adj[n];
+    for (int i = 0; i < n; i++) {
+        adj[i] = NULL;
+    }
+    for (int i = 0; i < edgesSize; i++) {
+        int u = edges[i][0], v = edges[i][1], length = edges[i][2];
+        Edge *ev = createEdge(v, length);
+        ev->next = adj[u];
+        adj[u] = ev;
+        Edge *eu = createEdge(u, length);
+        eu->next = adj[v];
+        adj[v] = eu;
+    }
+
+    PriorityQueue *pq = createPriorityQueue(less);
+    Element e;
+    e.data[0] = 0;
+    e.data[1] = 0;
+    enQueue(pq, &e);
+    int *answer = (int *)malloc(sizeof(int) * n);
+    for (int i = 0; i < n; i++) {
+        answer[i] = -1;
+    }
+    answer[0] = 0;
+    while (!isEmpty(pq)) {
+        Element *p = front(pq);
+        int t = p->data[0];
+        int u = p->data[1];
+        deQueue(pq);
+        if (t != answer[u]) {
+            continue;
+        }
+        for (struct Edge *p = adj[u]; p; p = p->next) {
+            int v = p->node, length = p->length;
+            if (t + length < disappear[v] && (answer[v] == -1 || t + length < answer[v])) {
+                e.data[0] = t + length;
+                e.data[1] = v;
+                enQueue(pq, &e);
+                answer[v] = t + length;
+            }
+        }
+    }
+    *returnSize = n;
+    freeQueue(pq);
+    return answer;
+}

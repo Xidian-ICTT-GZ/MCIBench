@@ -1,1 +1,0 @@
-"-spec can_be_equal(Target :: [integer()], Arr :: [integer()]) -> boolean().\ncan_be_equal(Target, Arr) ->\n  ."

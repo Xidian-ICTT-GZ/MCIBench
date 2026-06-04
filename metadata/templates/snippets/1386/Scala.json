@@ -1,0 +1,1 @@
+"object Solution {\n    def maxNumberOfFamilies(n: Int, reservedSeats: Array[Array[Int]]): Int = {\n        \n    }\n}"

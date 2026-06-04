@@ -1,0 +1,1 @@
+"class Solution:\n    def findLongestWord(self, s: str, dictionary: List[str]) -> str:\n        "

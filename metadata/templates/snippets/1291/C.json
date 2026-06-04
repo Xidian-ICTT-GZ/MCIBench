@@ -1,0 +1,1 @@
+"/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* sequentialDigits(int low, int high, int* returnSize) {\n    \n}"

@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer $num1\n     * @param Integer $num2\n     * @param Integer $num3\n     * @return Integer\n     */\n    function generateKey($num1, $num2, $num3) {\n        \n    }\n}"

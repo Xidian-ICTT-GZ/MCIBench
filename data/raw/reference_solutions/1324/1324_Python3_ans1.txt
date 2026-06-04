@@ -1,9 +1,0 @@
-class Solution:
-    def printVertically(self, s: str) -> List[str]:
-        words = s.split()
-        maxlen = max(len(word) for word in words)
-        ans = list()
-        for i in range(maxlen):
-            concat = "".join([word[i] if i < len(word) else " " for word in words])
-            ans.append(concat.rstrip())
-        return ans

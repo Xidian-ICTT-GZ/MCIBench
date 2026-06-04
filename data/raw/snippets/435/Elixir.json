@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec erase_overlap_intervals(intervals :: [[integer]]) :: integer\n  def erase_overlap_intervals(intervals) do\n    \n  end\nend"

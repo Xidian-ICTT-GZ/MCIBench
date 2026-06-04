@@ -1,0 +1,1 @@
+"impl Solution {\n    pub fn get_maximum_consecutive(coins: Vec<i32>) -> i32 {\n        \n    }\n}"

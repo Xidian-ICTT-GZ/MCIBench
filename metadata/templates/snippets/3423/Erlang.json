@@ -1,0 +1,1 @@
+"-spec max_adjacent_distance(Nums :: [integer()]) -> integer().\nmax_adjacent_distance(Nums) ->\n  ."

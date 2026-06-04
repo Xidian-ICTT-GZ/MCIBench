@@ -1,1 +1,0 @@
-"# @param {String} message\n# @param {Integer} limit\n# @return {String[]}\ndef split_message(message, limit)\n    \nend"

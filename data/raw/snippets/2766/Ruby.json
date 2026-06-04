@@ -1,1 +1,0 @@
-"# @param {Integer[]} nums\n# @param {Integer[]} move_from\n# @param {Integer[]} move_to\n# @return {Integer[]}\ndef relocate_marbles(nums, move_from, move_to)\n    \nend"

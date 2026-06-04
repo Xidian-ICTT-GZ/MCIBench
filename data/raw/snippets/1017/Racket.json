@@ -1,1 +1,0 @@
-"(define/contract (base-neg2 n)\n  (-> exact-integer? string?)\n  )"

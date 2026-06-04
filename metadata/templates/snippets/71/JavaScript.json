@@ -1,0 +1,1 @@
+"/**\n * @param {string} path\n * @return {string}\n */\nvar simplifyPath = function(path) {\n    \n};"

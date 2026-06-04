@@ -1,0 +1,1 @@
+"-spec max_building(N :: integer(), Restrictions :: [[integer()]]) -> integer().\nmax_building(N, Restrictions) ->\n  ."

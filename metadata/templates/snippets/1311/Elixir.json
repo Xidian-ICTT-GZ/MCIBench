@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec watched_videos_by_friends(watched_videos :: [[String.t]], friends :: [[integer]], id :: integer, level :: integer) :: [String.t]\n  def watched_videos_by_friends(watched_videos, friends, id, level) do\n    \n  end\nend"

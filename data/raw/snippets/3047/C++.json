@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    long long largestSquareArea(vector<vector<int>>& bottomLeft, vector<vector<int>>& topRight) {\n        \n    }\n};"

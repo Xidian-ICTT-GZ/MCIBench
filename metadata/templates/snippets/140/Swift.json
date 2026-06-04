@@ -1,0 +1,1 @@
+"class Solution {\n    func wordBreak(_ s: String, _ wordDict: [String]) -> [String] {\n        \n    }\n}"

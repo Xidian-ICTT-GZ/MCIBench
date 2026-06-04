@@ -1,0 +1,1 @@
+"(define/contract (check-prime-frequency nums)\n  (-> (listof exact-integer?) boolean?)\n  )"

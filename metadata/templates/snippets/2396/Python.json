@@ -1,0 +1,1 @@
+"class Solution(object):\n    def isStrictlyPalindromic(self, n):\n        \"\"\"\n        :type n: int\n        :rtype: bool\n        \"\"\"\n        "

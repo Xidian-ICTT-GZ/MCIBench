@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec max_task_assign(tasks :: [integer], workers :: [integer], pills :: integer, strength :: integer) :: integer\n  def max_task_assign(tasks, workers, pills, strength) do\n    \n  end\nend"

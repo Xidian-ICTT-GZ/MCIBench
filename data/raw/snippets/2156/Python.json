@@ -1,1 +1,0 @@
-"class Solution(object):\n    def subStrHash(self, s, power, modulo, k, hashValue):\n        \"\"\"\n        :type s: str\n        :type power: int\n        :type modulo: int\n        :type k: int\n        :type hashValue: int\n        :rtype: str\n        \"\"\"\n        "

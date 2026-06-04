@@ -1,0 +1,20 @@
+public class Solution {
+    public IList<int> Postorder(Node root) {
+        IList<int> res = new List<int>();
+        if (root == null) {
+            return res;
+        }
+
+        Stack<Node> stack = new Stack<Node>();
+        stack.Push(root);
+        while (stack.Count > 0) {
+            Node node = stack.Pop();
+            res.Add(node.val);
+            foreach (Node item in node.children) {
+                stack.Push(item);
+            }
+        }
+        ((List<int>) res).Reverse();
+        return res;
+    }
+}

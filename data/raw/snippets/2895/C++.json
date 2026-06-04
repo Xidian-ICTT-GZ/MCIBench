@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    int minProcessingTime(vector<int>& processorTime, vector<int>& tasks) {\n        \n    }\n};"

@@ -1,1 +1,0 @@
-"/**\n * @param {number} startValue\n * @param {number} target\n * @return {number}\n */\nvar brokenCalc = function(startValue, target) {\n    \n};"

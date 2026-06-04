@@ -1,0 +1,1 @@
+"class Solution:\n    def checkRecord(self, n: int) -> int:\n        "

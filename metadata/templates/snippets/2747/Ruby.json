@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @param {Integer[][]} logs\n# @param {Integer} x\n# @param {Integer[]} queries\n# @return {Integer[]}\ndef count_servers(n, logs, x, queries)\n    \nend"

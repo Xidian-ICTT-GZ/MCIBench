@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec evaluate(s :: String.t, knowledge :: [[String.t]]) :: String.t\n  def evaluate(s, knowledge) do\n    \n  end\nend"

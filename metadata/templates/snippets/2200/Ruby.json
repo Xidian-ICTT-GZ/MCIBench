@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @param {Integer} key\n# @param {Integer} k\n# @return {Integer[]}\ndef find_k_distant_indices(nums, key, k)\n    \nend"

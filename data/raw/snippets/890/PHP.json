@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String[] $words\n     * @param String $pattern\n     * @return String[]\n     */\n    function findAndReplacePattern($words, $pattern) {\n        \n    }\n}"

@@ -1,1 +1,0 @@
-"# @param {Integer[]} apple\n# @param {Integer[]} capacity\n# @return {Integer}\ndef minimum_boxes(apple, capacity)\n    \nend"

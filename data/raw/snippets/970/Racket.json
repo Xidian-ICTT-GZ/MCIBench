@@ -1,1 +1,0 @@
-"(define/contract (powerful-integers x y bound)\n  (-> exact-integer? exact-integer? exact-integer? (listof exact-integer?))\n  )"

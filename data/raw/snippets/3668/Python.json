@@ -1,1 +1,0 @@
-"class Solution(object):\n    def recoverOrder(self, order, friends):\n        \"\"\"\n        :type order: List[int]\n        :type friends: List[int]\n        :rtype: List[int]\n        \"\"\"\n        "

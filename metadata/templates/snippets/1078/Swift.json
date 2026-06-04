@@ -1,0 +1,1 @@
+"class Solution {\n    func findOcurrences(_ text: String, _ first: String, _ second: String) -> [String] {\n        \n    }\n}"

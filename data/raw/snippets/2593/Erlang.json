@@ -1,1 +1,0 @@
-"-spec find_score(Nums :: [integer()]) -> integer().\nfind_score(Nums) ->\n  ."

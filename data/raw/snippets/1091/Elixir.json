@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec shortest_path_binary_matrix(grid :: [[integer]]) :: integer\n  def shortest_path_binary_matrix(grid) do\n    \n  end\nend"

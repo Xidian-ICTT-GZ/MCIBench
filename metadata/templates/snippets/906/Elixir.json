@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec superpalindromes_in_range(left :: String.t, right :: String.t) :: integer\n  def superpalindromes_in_range(left, right) do\n    \n  end\nend"

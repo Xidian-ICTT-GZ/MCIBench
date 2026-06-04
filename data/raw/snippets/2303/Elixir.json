@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec calculate_tax(brackets :: [[integer]], income :: integer) :: float\n  def calculate_tax(brackets, income) do\n    \n  end\nend"

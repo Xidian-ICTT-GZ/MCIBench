@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<int> getConcatenation(vector<int>& nums) {\n        \n    }\n};"

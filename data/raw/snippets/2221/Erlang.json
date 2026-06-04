@@ -1,1 +1,0 @@
-"-spec triangular_sum(Nums :: [integer()]) -> integer().\ntriangular_sum(Nums) ->\n  ."

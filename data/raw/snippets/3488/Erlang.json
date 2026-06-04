@@ -1,1 +1,0 @@
-"-spec solve_queries(Nums :: [integer()], Queries :: [integer()]) -> [integer()].\nsolve_queries(Nums, Queries) ->\n  ."

@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int minDominoRotations(vector<int>& tops, vector<int>& bottoms) {\n        \n    }\n};"

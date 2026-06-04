@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec max_good_number(nums :: [integer]) :: integer\n  def max_good_number(nums) do\n    \n  end\nend"

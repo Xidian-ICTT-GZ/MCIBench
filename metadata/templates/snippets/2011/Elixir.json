@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec final_value_after_operations(operations :: [String.t]) :: integer\n  def final_value_after_operations(operations) do\n    \n  end\nend"

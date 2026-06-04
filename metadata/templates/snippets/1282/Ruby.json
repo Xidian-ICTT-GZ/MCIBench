@@ -1,0 +1,1 @@
+"# @param {Integer[]} group_sizes\n# @return {Integer[][]}\ndef group_the_people(group_sizes)\n    \nend"

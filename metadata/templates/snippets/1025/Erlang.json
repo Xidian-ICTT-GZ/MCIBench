@@ -1,0 +1,1 @@
+"-spec divisor_game(N :: integer()) -> boolean().\ndivisor_game(N) ->\n  ."

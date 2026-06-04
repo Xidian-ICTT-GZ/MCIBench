@@ -1,1 +1,0 @@
-"-spec concatenated_divisibility(Nums :: [integer()], K :: integer()) -> [integer()].\nconcatenated_divisibility(Nums, K) ->\n  ."

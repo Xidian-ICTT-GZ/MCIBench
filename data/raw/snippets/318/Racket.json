@@ -1,1 +1,0 @@
-"(define/contract (max-product words)\n  (-> (listof string?) exact-integer?)\n  )"

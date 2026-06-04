@@ -1,1 +1,0 @@
-"\"\"\"\n# Definition for a Node.\nclass Node(object):\n    def __init__(self, val=0, left=None, right=None, next=None):\n        self.val = val\n        self.left = left\n        self.right = right\n        self.next = next\n\"\"\"\n\nclass Solution(object):\n    def connect(self, root):\n        \"\"\"\n        :type root: Node\n        :rtype: Node\n        \"\"\"\n        "

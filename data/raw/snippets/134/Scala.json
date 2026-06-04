@@ -1,1 +1,0 @@
-"object Solution {\n    def canCompleteCircuit(gas: Array[Int], cost: Array[Int]): Int = {\n        \n    }\n}"

@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $apple\n     * @param Integer[] $capacity\n     * @return Integer\n     */\n    function minimumBoxes($apple, $capacity) {\n        \n    }\n}"

@@ -1,1 +1,0 @@
-"# @param {Integer[][]} rooms\n# @param {Integer[][]} queries\n# @return {Integer[]}\ndef closest_room(rooms, queries)\n    \nend"

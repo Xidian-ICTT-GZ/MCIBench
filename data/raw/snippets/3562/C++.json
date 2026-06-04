@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    int maxProfit(int n, vector<int>& present, vector<int>& future, vector<vector<int>>& hierarchy, int budget) {\n        \n    }\n};"

@@ -1,0 +1,1 @@
+"-spec count_matches(Items :: [[unicode:unicode_binary()]], RuleKey :: unicode:unicode_binary(), RuleValue :: unicode:unicode_binary()) -> integer().\ncount_matches(Items, RuleKey, RuleValue) ->\n  ."

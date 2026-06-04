@@ -1,1 +1,0 @@
-"class Solution(object):\n    def maximumSumOfHeights(self, maxHeights):\n        \"\"\"\n        :type maxHeights: List[int]\n        :rtype: int\n        \"\"\"\n        "

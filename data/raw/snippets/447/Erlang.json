@@ -1,1 +1,0 @@
-"-spec number_of_boomerangs(Points :: [[integer()]]) -> integer().\nnumber_of_boomerangs(Points) ->\n  ."

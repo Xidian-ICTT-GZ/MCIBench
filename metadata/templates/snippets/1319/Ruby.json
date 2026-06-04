@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @param {Integer[][]} connections\n# @return {Integer}\ndef make_connected(n, connections)\n    \nend"

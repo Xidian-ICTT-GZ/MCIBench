@@ -1,1 +1,0 @@
-"# @param {String[]} code\n# @param {String[]} business_line\n# @param {Boolean[]} is_active\n# @return {String[]}\ndef validate_coupons(code, business_line, is_active)\n    \nend"

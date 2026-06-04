@@ -1,1 +1,0 @@
-"impl Solution {\n    pub fn is_prefix_of_word(sentence: String, search_word: String) -> i32 {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"class Solution(object):\n    def latestTimeCatchTheBus(self, buses, passengers, capacity):\n        \"\"\"\n        :type buses: List[int]\n        :type passengers: List[int]\n        :type capacity: int\n        :rtype: int\n        \"\"\"\n        "

@@ -1,0 +1,29 @@
+var maxScore = function(grid) {
+    const m = grid.length;
+    const n = grid[0].length;
+    const prerow = Array.from({ length: m }, () => Array(n).fill(0));
+    const precol = Array.from({ length: m }, () => Array(n).fill(0));
+    const f = Array.from({ length: m }, () => Array(n).fill(Number.MIN_SAFE_INTEGER));
+    let ans = Number.MIN_SAFE_INTEGER;
+
+    for (let i = 0; i < m; i++) {
+        for (let j = 0; j < n; j++) {
+            if (i > 0) {
+                f[i][j] = Math.max(f[i][j], grid[i][j] + precol[i - 1][j]);
+            }
+            if (j > 0) {
+                f[i][j] = Math.max(f[i][j], grid[i][j] + prerow[i][j - 1]);
+            }
+            ans = Math.max(ans, f[i][j]);
+            prerow[i][j] = precol[i][j] = Math.max(f[i][j], 0) - grid[i][j];
+            if (i > 0) {
+                precol[i][j] = Math.max(precol[i][j], precol[i - 1][j]);
+            }
+            if (j > 0) {
+                prerow[i][j] = Math.max(prerow[i][j], prerow[i][j - 1]);
+            }
+        }
+    }
+
+    return ans;
+};

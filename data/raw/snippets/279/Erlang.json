@@ -1,1 +1,0 @@
-"-spec num_squares(N :: integer()) -> integer().\nnum_squares(N) ->\n  ."

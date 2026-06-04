@@ -1,1 +1,0 @@
-"class Solution(object):\n    def findDuplicate(self, paths):\n        \"\"\"\n        :type paths: List[str]\n        :rtype: List[List[str]]\n        \"\"\"\n        "

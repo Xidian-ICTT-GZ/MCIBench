@@ -1,0 +1,1 @@
+"-spec num_of_subsequences(S :: unicode:unicode_binary()) -> integer().\nnum_of_subsequences(S) ->\n  ."

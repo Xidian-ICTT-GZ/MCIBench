@@ -1,1 +1,0 @@
-"# @param {Integer} purchase_amount\n# @return {Integer}\ndef account_balance_after_purchase(purchase_amount)\n    \nend"

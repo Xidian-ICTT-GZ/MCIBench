@@ -1,1 +1,0 @@
-"# @param {Integer[][]} piles\n# @param {Integer} k\n# @return {Integer}\ndef max_value_of_coins(piles, k)\n    \nend"

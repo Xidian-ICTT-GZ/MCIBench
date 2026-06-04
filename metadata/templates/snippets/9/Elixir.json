@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec is_palindrome(x :: integer) :: boolean\n  def is_palindrome(x) do\n    \n  end\nend"

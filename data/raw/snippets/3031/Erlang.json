@@ -1,1 +1,0 @@
-"-spec minimum_time_to_initial_state(Word :: unicode:unicode_binary(), K :: integer()) -> integer().\nminimum_time_to_initial_state(Word, K) ->\n  ."

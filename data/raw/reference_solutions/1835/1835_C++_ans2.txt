@@ -1,8 +1,0 @@
-class Solution {
-public:
-    int getXORSum(vector<int>& arr1, vector<int>& arr2) {
-        int tot1 = accumulate(arr1.begin(), arr1.end(), 0, bit_xor<int>());
-        int tot2 = accumulate(arr2.begin(), arr2.end(), 0, bit_xor<int>());
-        return tot1 & tot2;
-    }
-};

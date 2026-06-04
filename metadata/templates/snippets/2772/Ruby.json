@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @param {Integer} k\n# @return {Boolean}\ndef check_array(nums, k)\n    \nend"

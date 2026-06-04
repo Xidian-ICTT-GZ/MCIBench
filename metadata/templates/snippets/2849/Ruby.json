@@ -1,0 +1,1 @@
+"# @param {Integer} sx\n# @param {Integer} sy\n# @param {Integer} fx\n# @param {Integer} fy\n# @param {Integer} t\n# @return {Boolean}\ndef is_reachable_at_time(sx, sy, fx, fy, t)\n    \nend"

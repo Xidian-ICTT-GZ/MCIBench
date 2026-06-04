@@ -1,1 +1,0 @@
-"-spec combination_sum(Candidates :: [integer()], Target :: integer()) -> [[integer()]].\ncombination_sum(Candidates, Target) ->\n  ."

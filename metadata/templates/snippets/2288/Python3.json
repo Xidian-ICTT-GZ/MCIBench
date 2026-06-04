@@ -1,0 +1,1 @@
+"class Solution:\n    def discountPrices(self, sentence: str, discount: int) -> str:\n        "

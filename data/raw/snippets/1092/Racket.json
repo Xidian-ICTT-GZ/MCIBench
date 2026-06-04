@@ -1,1 +1,0 @@
-"(define/contract (shortest-common-supersequence str1 str2)\n  (-> string? string? string?)\n  )"

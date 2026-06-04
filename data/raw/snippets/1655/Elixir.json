@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec can_distribute(nums :: [integer], quantity :: [integer]) :: boolean\n  def can_distribute(nums, quantity) do\n    \n  end\nend"

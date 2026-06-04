@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $cost\n     * @param Integer[] $time\n     * @return Integer\n     */\n    function paintWalls($cost, $time) {\n        \n    }\n}"

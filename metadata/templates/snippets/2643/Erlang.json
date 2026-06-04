@@ -1,0 +1,1 @@
+"-spec row_and_maximum_ones(Mat :: [[integer()]]) -> [integer()].\nrow_and_maximum_ones(Mat) ->\n  ."

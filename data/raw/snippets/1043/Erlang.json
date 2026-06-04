@@ -1,1 +1,0 @@
-"-spec max_sum_after_partitioning(Arr :: [integer()], K :: integer()) -> integer().\nmax_sum_after_partitioning(Arr, K) ->\n  ."

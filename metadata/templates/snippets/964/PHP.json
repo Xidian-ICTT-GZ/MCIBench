@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $x\n     * @param Integer $target\n     * @return Integer\n     */\n    function leastOpsExpressTarget($x, $target) {\n        \n    }\n}"

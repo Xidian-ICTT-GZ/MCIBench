@@ -1,0 +1,1 @@
+"class Solution(object):\n    def buildArray(self, target, n):\n        \"\"\"\n        :type target: List[int]\n        :type n: int\n        :rtype: List[str]\n        \"\"\"\n        "

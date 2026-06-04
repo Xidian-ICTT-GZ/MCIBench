@@ -1,0 +1,1 @@
+"class Solution(object):\n    def countTestedDevices(self, batteryPercentages):\n        \"\"\"\n        :type batteryPercentages: List[int]\n        :rtype: int\n        \"\"\"\n        "

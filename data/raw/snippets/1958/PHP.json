@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String[][] $board\n     * @param Integer $rMove\n     * @param Integer $cMove\n     * @param String $color\n     * @return Boolean\n     */\n    function checkMove($board, $rMove, $cMove, $color) {\n        \n    }\n}"

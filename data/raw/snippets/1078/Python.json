@@ -1,1 +1,0 @@
-"class Solution(object):\n    def findOcurrences(self, text, first, second):\n        \"\"\"\n        :type text: str\n        :type first: str\n        :type second: str\n        :rtype: List[str]\n        \"\"\"\n        "

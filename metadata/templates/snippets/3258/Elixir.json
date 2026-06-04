@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec count_k_constraint_substrings(s :: String.t, k :: integer) :: integer\n  def count_k_constraint_substrings(s, k) do\n    \n  end\nend"

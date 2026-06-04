@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $items1\n     * @param Integer[][] $items2\n     * @return Integer[][]\n     */\n    function mergeSimilarItems($items1, $items2) {\n        \n    }\n}"

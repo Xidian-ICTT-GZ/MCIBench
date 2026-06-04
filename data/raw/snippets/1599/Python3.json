@@ -1,1 +1,0 @@
-"class Solution:\n    def minOperationsMaxProfit(self, customers: List[int], boardingCost: int, runningCost: int) -> int:\n        "

@@ -1,0 +1,1 @@
+"-spec min_time_to_reach(MoveTime :: [[integer()]]) -> integer().\nmin_time_to_reach(MoveTime) ->\n  ."

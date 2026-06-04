@@ -1,1 +1,0 @@
-"class Solution(object):\n    def new21Game(self, n, k, maxPts):\n        \"\"\"\n        :type n: int\n        :type k: int\n        :type maxPts: int\n        :rtype: float\n        \"\"\"\n        "

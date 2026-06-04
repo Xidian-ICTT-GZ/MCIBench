@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String $num\n     * @param Integer $k\n     * @return Integer\n     */\n    function getMinSwaps($num, $k) {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec count_largest_group(n :: integer) :: integer\n  def count_largest_group(n) do\n    \n  end\nend"

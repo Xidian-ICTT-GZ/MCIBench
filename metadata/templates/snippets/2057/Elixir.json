@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec smallest_equal(nums :: [integer]) :: integer\n  def smallest_equal(nums) do\n    \n  end\nend"

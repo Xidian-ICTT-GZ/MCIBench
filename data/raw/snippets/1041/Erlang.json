@@ -1,1 +1,0 @@
-"-spec is_robot_bounded(Instructions :: unicode:unicode_binary()) -> boolean().\nis_robot_bounded(Instructions) ->\n  ."

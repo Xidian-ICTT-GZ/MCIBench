@@ -1,0 +1,1 @@
+"public class Solution {\n    public bool FindSafeWalk(IList<IList<int>> grid, int health) {\n        \n    }\n}"

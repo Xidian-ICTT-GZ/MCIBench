@@ -1,0 +1,1 @@
+"(define/contract (count-good-arrays n m k)\n  (-> exact-integer? exact-integer? exact-integer? exact-integer?)\n  )"

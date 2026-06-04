@@ -1,1 +1,0 @@
-"-spec monkey_move(N :: integer()) -> integer().\nmonkey_move(N) ->\n  ."

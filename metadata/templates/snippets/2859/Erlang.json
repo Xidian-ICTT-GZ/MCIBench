@@ -1,0 +1,1 @@
+"-spec sum_indices_with_k_set_bits(Nums :: [integer()], K :: integer()) -> integer().\nsum_indices_with_k_set_bits(Nums, K) ->\n  ."

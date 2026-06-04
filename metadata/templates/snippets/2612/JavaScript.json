@@ -1,0 +1,1 @@
+"/**\n * @param {number} n\n * @param {number} p\n * @param {number[]} banned\n * @param {number} k\n * @return {number[]}\n */\nvar minReverseOperations = function(n, p, banned, k) {\n    \n};"

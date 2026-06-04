@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    long long totalCost(vector<int>& costs, int k, int candidates) {\n        \n    }\n};"

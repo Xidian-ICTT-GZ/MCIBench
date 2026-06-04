@@ -1,1 +1,0 @@
-"# @param {Integer[][]} tiles\n# @param {Integer} carpet_len\n# @return {Integer}\ndef maximum_white_tiles(tiles, carpet_len)\n    \nend"

@@ -1,0 +1,1 @@
+"class Solution {\n    func smallestStringWithSwaps(s: String, pairs: ArrayList<ArrayList<Int64>>): String {\n\n    }\n}"

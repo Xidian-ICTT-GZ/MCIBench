@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    long long countFairPairs(vector<int>& nums, int lower, int upper) {\n        \n    }\n};"

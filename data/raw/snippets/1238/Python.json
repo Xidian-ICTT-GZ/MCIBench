@@ -1,1 +1,0 @@
-"class Solution(object):\n    def circularPermutation(self, n, start):\n        \"\"\"\n        :type n: int\n        :type start: int\n        :rtype: List[int]\n        \"\"\"\n        "

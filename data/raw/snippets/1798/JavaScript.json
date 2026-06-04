@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} coins\n * @return {number}\n */\nvar getMaximumConsecutive = function(coins) {\n    \n};"

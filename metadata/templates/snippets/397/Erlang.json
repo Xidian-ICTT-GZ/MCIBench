@@ -1,0 +1,1 @@
+"-spec integer_replacement(N :: integer()) -> integer().\ninteger_replacement(N) ->\n  ."

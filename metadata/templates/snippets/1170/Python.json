@@ -1,0 +1,1 @@
+"class Solution(object):\n    def numSmallerByFrequency(self, queries, words):\n        \"\"\"\n        :type queries: List[str]\n        :type words: List[str]\n        :rtype: List[int]\n        \"\"\"\n        "

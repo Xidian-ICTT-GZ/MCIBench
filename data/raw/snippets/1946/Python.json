@@ -1,1 +1,0 @@
-"class Solution(object):\n    def maximumNumber(self, num, change):\n        \"\"\"\n        :type num: str\n        :type change: List[int]\n        :rtype: str\n        \"\"\"\n        "

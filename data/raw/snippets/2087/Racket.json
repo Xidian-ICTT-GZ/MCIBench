@@ -1,1 +1,0 @@
-"(define/contract (min-cost startPos homePos rowCosts colCosts)\n  (-> (listof exact-integer?) (listof exact-integer?) (listof exact-integer?) (listof exact-integer?) exact-integer?)\n  )"

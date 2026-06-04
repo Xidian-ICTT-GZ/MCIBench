@@ -1,0 +1,1 @@
+"class Solution(object):\n    def findClosestElements(self, arr, k, x):\n        \"\"\"\n        :type arr: List[int]\n        :type k: int\n        :type x: int\n        :rtype: List[int]\n        \"\"\"\n        "

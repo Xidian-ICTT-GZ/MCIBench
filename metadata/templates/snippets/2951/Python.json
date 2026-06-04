@@ -1,0 +1,1 @@
+"class Solution(object):\n    def findPeaks(self, mountain):\n        \"\"\"\n        :type mountain: List[int]\n        :rtype: List[int]\n        \"\"\"\n        "

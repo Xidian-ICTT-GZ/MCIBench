@@ -1,0 +1,1 @@
+"-spec nth_ugly_number(N :: integer()) -> integer().\nnth_ugly_number(N) ->\n  ."

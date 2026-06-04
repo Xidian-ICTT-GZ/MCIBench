@@ -1,0 +1,1 @@
+"-spec divisor_substrings(Num :: integer(), K :: integer()) -> integer().\ndivisor_substrings(Num, K) ->\n  ."

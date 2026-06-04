@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $n\n     * @param Integer $maxValue\n     * @return Integer\n     */\n    function idealArrays($n, $maxValue) {\n        \n    }\n}"

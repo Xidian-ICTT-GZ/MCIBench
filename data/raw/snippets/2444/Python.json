@@ -1,1 +1,0 @@
-"class Solution(object):\n    def countSubarrays(self, nums, minK, maxK):\n        \"\"\"\n        :type nums: List[int]\n        :type minK: int\n        :type maxK: int\n        :rtype: int\n        \"\"\"\n        "

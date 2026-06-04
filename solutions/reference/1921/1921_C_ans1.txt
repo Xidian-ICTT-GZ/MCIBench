@@ -1,0 +1,18 @@
+static int cmp(const void *a, const void *b) {
+    return *(int *)a - *(int *)b;
+}
+
+int eliminateMaximum(int* dist, int distSize, int* speed, int speedSize) {
+    int n = distSize;
+    int arrivalTimes[n];
+    for (int i = 0; i < n; i++) {
+        arrivalTimes[i] = (dist[i] - 1) / speed[i] + 1;
+    }
+    qsort(arrivalTimes, n, sizeof(int), cmp);
+    for (int i = 0; i < n; i++) {
+        if (arrivalTimes[i] <= i) {
+            return i;
+        }
+    }
+    return n;
+}

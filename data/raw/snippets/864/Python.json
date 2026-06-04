@@ -1,1 +1,0 @@
-"class Solution(object):\n    def shortestPathAllKeys(self, grid):\n        \"\"\"\n        :type grid: List[str]\n        :rtype: int\n        \"\"\"\n        "

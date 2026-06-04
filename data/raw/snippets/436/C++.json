@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    vector<int> findRightInterval(vector<vector<int>>& intervals) {\n        \n    }\n};"

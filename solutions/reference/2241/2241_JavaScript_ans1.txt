@@ -1,0 +1,29 @@
+var ATM = function() {
+    this.cnt = [0, 0, 0, 0, 0]; 
+    this.value = [20, 50, 100, 200, 500]; 
+};
+
+ATM.prototype.deposit = function(banknotesCount) {
+    for (let i = 0; i < 5; ++i) {
+        this.cnt[i] += banknotesCount[i];
+    }
+};
+
+ATM.prototype.withdraw = function(amount) {
+    let res = new Array(5).fill(0);
+    
+    for (let i = 4; i >= 0; --i) {
+        res[i] = Math.min(this.cnt[i], Math.floor(amount / this.value[i]));
+        amount -= res[i] * this.value[i];
+    }
+    if (amount > 0) {
+        
+        return [-1];
+    } else {
+        
+        for (let i = 0; i < 5; ++i) {
+            this.cnt[i] -= res[i];
+        }
+        return res;
+    }
+};

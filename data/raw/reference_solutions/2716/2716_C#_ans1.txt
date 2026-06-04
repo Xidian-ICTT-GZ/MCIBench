@@ -1,9 +1,0 @@
-public class Solution {
-    public int MinimizedStringLength(string s) {
-        int mask = 0;
-        foreach (char c in s) {
-            mask |= 1 << (c - 'a');
-        }
-        return BitOperations.PopCount((uint)mask);
-    }
-}

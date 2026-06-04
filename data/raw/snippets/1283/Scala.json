@@ -1,1 +1,0 @@
-"object Solution {\n    def smallestDivisor(nums: Array[Int], threshold: Int): Int = {\n        \n    }\n}"

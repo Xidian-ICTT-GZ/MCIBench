@@ -1,1 +1,0 @@
-"-spec two_edit_words(Queries :: [unicode:unicode_binary()], Dictionary :: [unicode:unicode_binary()]) -> [unicode:unicode_binary()].\ntwo_edit_words(Queries, Dictionary) ->\n  ."

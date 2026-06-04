@@ -1,1 +1,0 @@
-"class Solution:\n    def maxValue(self, n: int, index: int, maxSum: int) -> int:\n        "

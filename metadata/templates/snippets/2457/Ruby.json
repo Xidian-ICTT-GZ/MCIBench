@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @param {Integer} target\n# @return {Integer}\ndef make_integer_beautiful(n, target)\n    \nend"

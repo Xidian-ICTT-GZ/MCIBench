@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec decompress_rl_elist(nums :: [integer]) :: [integer]\n  def decompress_rl_elist(nums) do\n    \n  end\nend"

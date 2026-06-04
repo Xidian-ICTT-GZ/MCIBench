@@ -1,0 +1,1 @@
+"/**\n * @param {number} mass\n * @param {number[]} asteroids\n * @return {boolean}\n */\nvar asteroidsDestroyed = function(mass, asteroids) {\n    \n};"

@@ -1,0 +1,1 @@
+"/**\n * @param {number} n\n * @param {number[][]} logs\n * @return {number}\n */\nvar hardestWorker = function(n, logs) {\n    \n};"

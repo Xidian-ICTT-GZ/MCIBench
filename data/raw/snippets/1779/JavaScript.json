@@ -1,1 +1,0 @@
-"/**\n * @param {number} x\n * @param {number} y\n * @param {number[][]} points\n * @return {number}\n */\nvar nearestValidPoint = function(x, y, points) {\n    \n};"

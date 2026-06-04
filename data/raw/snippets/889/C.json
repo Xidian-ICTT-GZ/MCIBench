@@ -1,1 +1,0 @@
-"/**\n * Definition for a binary tree node.\n * struct TreeNode {\n *     int val;\n *     struct TreeNode *left;\n *     struct TreeNode *right;\n * };\n */\nstruct TreeNode* constructFromPrePost(int* preorder, int preorderSize, int* postorder, int postorderSize) {\n    \n}"

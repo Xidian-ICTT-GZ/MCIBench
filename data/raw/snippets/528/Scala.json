@@ -1,1 +1,0 @@
-"class Solution(_w: Array[Int]) {\n\n    def pickIndex(): Int = {\n        \n    }\n\n}\n\n/**\n * Your Solution object will be instantiated and called as such:\n * val obj = new Solution(w)\n * val param_1 = obj.pickIndex()\n */"

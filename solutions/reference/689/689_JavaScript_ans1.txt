@@ -1,0 +1,15 @@
+var maxSumOfOneSubarray = function(nums, k) {
+    let ans = [];
+    let sum1 = 0, maxSum1 = 0;
+    for (let i = 0; i < nums.length; ++i) {
+        sum1 += nums[i];
+        if (i >= k - 1) {
+            if (sum1 > maxSum1) {
+                maxSum1 = sum1;
+                ans = [i - k + 1];
+            }
+            sum1 -= nums[i - k + 1];
+        }
+    }
+    return ans;
+};

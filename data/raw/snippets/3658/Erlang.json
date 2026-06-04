@@ -1,1 +1,0 @@
-"-spec gcd_of_odd_even_sums(N :: integer()) -> integer().\ngcd_of_odd_even_sums(N) ->\n  ."

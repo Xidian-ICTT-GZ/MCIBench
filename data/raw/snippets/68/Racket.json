@@ -1,1 +1,0 @@
-"(define/contract (full-justify words maxWidth)\n  (-> (listof string?) exact-integer? (listof string?))\n  )"

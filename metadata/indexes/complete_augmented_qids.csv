@@ -1,0 +1,1467 @@
+qid,difficulty,tags,url
+1,Easy,Array|Hash Table,https://leetcode.com/problems/two-sum
+3,Medium,Hash Table|String|Sliding Window,https://leetcode.cn/problems/longest-substring-without-repeating-characters
+4,Hard,Array|Binary Search|Divide and Conquer,https://leetcode.cn/problems/median-of-two-sorted-arrays
+5,Medium,Two Pointers|String|Dynamic Programming,https://leetcode.cn/problems/longest-palindromic-substring
+6,Medium,String,https://leetcode.cn/problems/zigzag-conversion
+7,Medium,Math,https://leetcode.cn/problems/reverse-integer
+8,Medium,String,https://leetcode.cn/problems/string-to-integer-atoi
+9,Easy,Math,https://leetcode.cn/problems/palindrome-number
+10,Hard,String|Dynamic Programming|Recursion,https://leetcode.cn/problems/regular-expression-matching
+12,Medium,Hash Table|Math|String,https://leetcode.cn/problems/integer-to-roman
+13,Easy,Hash Table|Math|String,https://leetcode.cn/problems/roman-to-integer
+14,Easy,Array|String|Trie,https://leetcode.cn/problems/longest-common-prefix
+15,Medium,Array|Two Pointers|Sorting,https://leetcode.cn/problems/3sum
+16,Medium,Array|Two Pointers|Sorting,https://leetcode.cn/problems/3sum-closest
+18,Medium,Array|Two Pointers|Sorting,https://leetcode.cn/problems/4sum
+20,Easy,String|Stack,https://leetcode.cn/problems/valid-parentheses
+22,Medium,String|Dynamic Programming|Backtracking,https://leetcode.cn/problems/generate-parentheses
+23,Hard,Linked List|Divide and Conquer|Heap (Priority Queue)|Merge Sort,https://leetcode.cn/problems/merge-k-sorted-lists
+26,Easy,Array|Two Pointers,https://leetcode.cn/problems/remove-duplicates-from-sorted-array
+27,Easy,Array|Two Pointers,https://leetcode.cn/problems/remove-element
+28,Easy,Two Pointers|String|String Matching,https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string
+29,Medium,Math|Bit Manipulation,https://leetcode.cn/problems/divide-two-integers
+30,Hard,Hash Table|String|Sliding Window,https://leetcode.cn/problems/substring-with-concatenation-of-all-words
+31,Medium,Array|Two Pointers,https://leetcode.cn/problems/next-permutation
+32,Hard,String|Dynamic Programming|Stack,https://leetcode.cn/problems/longest-valid-parentheses
+33,Medium,Array|Binary Search,https://leetcode.cn/problems/search-in-rotated-sorted-array
+34,Medium,Array|Binary Search,https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array
+35,Easy,Array|Binary Search,https://leetcode.cn/problems/search-insert-position
+38,Medium,String,https://leetcode.cn/problems/count-and-say
+39,Medium,Array|Backtracking,https://leetcode.cn/problems/combination-sum
+40,Medium,Array|Backtracking,https://leetcode.cn/problems/combination-sum-ii
+41,Hard,Array|Hash Table,https://leetcode.cn/problems/first-missing-positive
+43,Medium,Math|String|Simulation,https://leetcode.cn/problems/multiply-strings
+44,Hard,String|Dynamic Programming|Greedy|Recursion,https://leetcode.cn/problems/wildcard-matching
+45,Medium,Array|Dynamic Programming|Greedy,https://leetcode.cn/problems/jump-game-ii
+46,Medium,Array|Backtracking,https://leetcode.cn/problems/permutations
+47,Medium,Array|Backtracking|Sorting,https://leetcode.cn/problems/permutations-ii
+49,Medium,Array|Hash Table|String|Sorting,https://leetcode.cn/problems/group-anagrams
+50,Medium,Math|Recursion,https://leetcode.cn/problems/powx-n
+53,Medium,Array|Divide and Conquer|Dynamic Programming,https://leetcode.cn/problems/maximum-subarray
+55,Medium,Array|Dynamic Programming|Greedy,https://leetcode.cn/problems/jump-game
+56,Medium,Array|Sorting,https://leetcode.cn/problems/merge-intervals
+57,Medium,Array,https://leetcode.cn/problems/insert-interval
+58,Easy,String,https://leetcode.cn/problems/length-of-last-word
+60,Hard,Math|Recursion,https://leetcode.cn/problems/permutation-sequence
+65,Hard,String,https://leetcode.cn/problems/valid-number
+66,Easy,Array|Math,https://leetcode.cn/problems/plus-one
+67,Easy,Math|String|Bit Manipulation|Simulation,https://leetcode.cn/problems/add-binary
+68,Hard,Array|String|Simulation,https://leetcode.cn/problems/text-justification
+69,Easy,Math|Binary Search,https://leetcode.cn/problems/sqrtx
+70,Easy,Math|Dynamic Programming|Memoization,https://leetcode.cn/problems/climbing-stairs
+71,Medium,String|Stack,https://leetcode.cn/problems/simplify-path
+72,Medium,String|Dynamic Programming,https://leetcode.cn/problems/edit-distance
+75,Medium,Array|Two Pointers|Sorting,https://leetcode.cn/problems/sort-colors
+76,Hard,Hash Table|String|Sliding Window,https://leetcode.cn/problems/minimum-window-substring
+77,Medium,Backtracking,https://leetcode.cn/problems/combinations
+78,Medium,Array|Backtracking|Bit Manipulation,https://leetcode.cn/problems/subsets
+80,Medium,Array|Two Pointers,https://leetcode.cn/problems/remove-duplicates-from-sorted-array-ii
+81,Medium,Array|Binary Search,https://leetcode.cn/problems/search-in-rotated-sorted-array-ii
+87,Hard,String|Dynamic Programming,https://leetcode.cn/problems/scramble-string
+88,Easy,Array|Two Pointers|Sorting,https://leetcode.cn/problems/merge-sorted-array
+89,Medium,Math|Backtracking|Bit Manipulation,https://leetcode.cn/problems/gray-code
+90,Medium,Array|Backtracking|Bit Manipulation,https://leetcode.cn/problems/subsets-ii
+91,Medium,String|Dynamic Programming,https://leetcode.cn/problems/decode-ways
+93,Medium,String|Backtracking,https://leetcode.cn/problems/restore-ip-addresses
+115,Hard,String|Dynamic Programming,https://leetcode.cn/problems/distinct-subsequences
+120,Medium,Array|Dynamic Programming,https://leetcode.cn/problems/triangle
+122,Medium,Array|Dynamic Programming|Greedy,https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-ii
+123,Hard,Array|Dynamic Programming,https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-iii
+125,Easy,Two Pointers|String,https://leetcode.cn/problems/valid-palindrome
+127,Hard,Hash Table|String|Breadth-First Search,https://leetcode.cn/problems/word-ladder
+128,Medium,Array|Hash Table|Union-Find,https://leetcode.cn/problems/longest-consecutive-sequence
+131,Medium,String|Dynamic Programming|Backtracking,https://leetcode.cn/problems/palindrome-partitioning
+132,Hard,String|Dynamic Programming,https://leetcode.cn/problems/palindrome-partitioning-ii
+134,Medium,Array|Greedy,https://leetcode.cn/problems/gas-station
+135,Hard,Array|Greedy,https://leetcode.cn/problems/candy
+136,Easy,Array|Bit Manipulation,https://leetcode.cn/problems/single-number
+137,Medium,Array|Bit Manipulation,https://leetcode.cn/problems/single-number-ii
+139,Medium,Array|Hash Table|String|Dynamic Programming|Trie|Memoization,https://leetcode.cn/problems/word-break
+140,Hard,Array|Hash Table|String|Dynamic Programming|Backtracking|Trie|Memoization,https://leetcode.cn/problems/word-break-ii
+146,Medium,Hash Table|Linked List|Design|Doubly-Linked List,https://leetcode.cn/problems/lru-cache
+150,Medium,Array|Math|Stack,https://leetcode.cn/problems/evaluate-reverse-polish-notation
+151,Medium,Two Pointers|String,https://leetcode.cn/problems/reverse-words-in-a-string
+152,Medium,Array|Dynamic Programming,https://leetcode.cn/problems/maximum-product-subarray
+153,Medium,Array|Binary Search,https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array
+154,Hard,Array|Binary Search,https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array-ii
+155,Medium,Stack|Design,https://leetcode.cn/problems/min-stack
+162,Medium,Array|Binary Search,https://leetcode.cn/problems/find-peak-element
+164,Medium,Array|Sorting|Bucket Sort|Radix Sort,https://leetcode.cn/problems/maximum-gap
+165,Medium,Two Pointers|String,https://leetcode.cn/problems/compare-version-numbers
+166,Medium,Hash Table|Math|String,https://leetcode.cn/problems/fraction-to-recurring-decimal
+167,Medium,Array|Two Pointers|Binary Search,https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted
+168,Easy,Math|String,https://leetcode.cn/problems/excel-sheet-column-title
+169,Easy,Array|Hash Table|Divide and Conquer|Sorting|Counting,https://leetcode.cn/problems/majority-element
+171,Easy,Math|String,https://leetcode.cn/problems/excel-sheet-column-number
+172,Medium,Math,https://leetcode.cn/problems/factorial-trailing-zeroes
+179,Medium,Array|String|Greedy|Sorting,https://leetcode.cn/problems/largest-number
+187,Medium,Hash Table|String|Bit Manipulation|Sliding Window|Rolling Hash|Hash Function,https://leetcode.cn/problems/repeated-dna-sequences
+188,Hard,Array|Dynamic Programming,https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-iv
+189,Medium,Array|Math|Two Pointers,https://leetcode.cn/problems/rotate-array
+190,Easy,Divide and Conquer|Bit Manipulation,https://leetcode.cn/problems/reverse-bits
+191,Easy,Divide and Conquer|Bit Manipulation,https://leetcode.cn/problems/number-of-1-bits
+198,Medium,Array|Dynamic Programming,https://leetcode.cn/problems/house-robber
+201,Medium,Bit Manipulation,https://leetcode.cn/problems/bitwise-and-of-numbers-range
+204,Medium,Array|Math|Enumeration|Number Theory,https://leetcode.cn/problems/count-primes
+205,Easy,Hash Table|String,https://leetcode.cn/problems/isomorphic-strings
+207,Medium,Depth-First Search|Breadth-First Search|Graph Theory|Topological Sort,https://leetcode.cn/problems/course-schedule
+208,Medium,Hash Table|String|Design|Trie,https://leetcode.cn/problems/implement-trie-prefix-tree
+209,Medium,Array|Binary Search|Sliding Window|Prefix Sum,https://leetcode.cn/problems/minimum-size-subarray-sum
+210,Medium,Depth-First Search|Breadth-First Search|Graph Theory|Topological Sort,https://leetcode.cn/problems/course-schedule-ii
+211,Medium,String|Depth-First Search|Design|Trie,https://leetcode.cn/problems/design-add-and-search-words-data-structure
+213,Medium,Array|Dynamic Programming,https://leetcode.cn/problems/house-robber-ii
+214,Hard,String|Rolling Hash|String Matching|Hash Function,https://leetcode.cn/problems/shortest-palindrome
+215,Medium,Array|Divide and Conquer|Sorting|Heap (Priority Queue)|Quickselect,https://leetcode.cn/problems/kth-largest-element-in-an-array
+216,Medium,Array|Backtracking,https://leetcode.cn/problems/combination-sum-iii
+217,Easy,Array|Hash Table|Sorting,https://leetcode.cn/problems/contains-duplicate
+219,Easy,Array|Hash Table|Sliding Window,https://leetcode.cn/problems/contains-duplicate-ii
+220,Hard,Array|Sliding Window|Sorting|Bucket Sort|Ordered Set,https://leetcode.cn/problems/contains-duplicate-iii
+224,Hard,Math|String|Stack|Recursion,https://leetcode.cn/problems/basic-calculator
+225,Easy,Stack|Design|Queue,https://leetcode.cn/problems/implement-stack-using-queues
+227,Medium,Math|String|Stack,https://leetcode.cn/problems/basic-calculator-ii
+228,Easy,Array,https://leetcode.cn/problems/summary-ranges
+229,Medium,Array|Hash Table|Sorting|Counting,https://leetcode.cn/problems/majority-element-ii
+231,Easy,Math|Bit Manipulation|Recursion,https://leetcode.cn/problems/power-of-two
+232,Easy,Stack|Design|Queue,https://leetcode.cn/problems/implement-queue-using-stacks
+233,Hard,Math|Dynamic Programming|Recursion,https://leetcode.cn/problems/number-of-digit-one
+238,Medium,Array|Prefix Sum,https://leetcode.cn/problems/product-of-array-except-self
+239,Hard,Array|Queue|Sliding Window|Heap (Priority Queue)|Monotonic Queue,https://leetcode.cn/problems/sliding-window-maximum
+241,Medium,Math|String|Dynamic Programming|Recursion|Memoization,https://leetcode.cn/problems/different-ways-to-add-parentheses
+242,Easy,Hash Table|String|Sorting,https://leetcode.cn/problems/valid-anagram
+258,Easy,Math|Simulation|Number Theory,https://leetcode.cn/problems/add-digits
+260,Medium,Array|Bit Manipulation,https://leetcode.cn/problems/single-number-iii
+263,Easy,Math,https://leetcode.cn/problems/ugly-number
+264,Medium,Hash Table|Math|Dynamic Programming|Heap (Priority Queue),https://leetcode.cn/problems/ugly-number-ii
+268,Easy,Array|Hash Table|Math|Binary Search|Bit Manipulation|Sorting,https://leetcode.cn/problems/missing-number
+273,Hard,Math|String|Recursion,https://leetcode.cn/problems/integer-to-english-words
+274,Medium,Array|Sorting|Counting Sort,https://leetcode.cn/problems/h-index
+275,Medium,Array|Binary Search,https://leetcode.cn/problems/h-index-ii
+278,Easy,Binary Search|Interactive,https://leetcode.cn/problems/first-bad-version
+279,Medium,Math|Dynamic Programming|Breadth-First Search,https://leetcode.cn/problems/perfect-squares
+282,Hard,Math|String|Backtracking,https://leetcode.cn/problems/expression-add-operators
+283,Easy,Array|Two Pointers,https://leetcode.cn/problems/move-zeroes
+287,Medium,Array|Two Pointers|Binary Search|Bit Manipulation,https://leetcode.cn/problems/find-the-duplicate-number
+290,Easy,Hash Table|String,https://leetcode.cn/problems/word-pattern
+292,Easy,Math|Brainteaser|Game Theory,https://leetcode.cn/problems/nim-game
+295,Hard,Two Pointers|Design|Sorting|Heap (Priority Queue)|Data Stream,https://leetcode.cn/problems/find-median-from-data-stream
+299,Medium,Hash Table|String|Counting,https://leetcode.cn/problems/bulls-and-cows
+300,Medium,Array|Binary Search|Dynamic Programming,https://leetcode.cn/problems/longest-increasing-subsequence
+301,Hard,String|Backtracking|Breadth-First Search,https://leetcode.cn/problems/remove-invalid-parentheses
+303,Easy,Array|Design|Prefix Sum,https://leetcode.cn/problems/range-sum-query-immutable
+306,Medium,String|Backtracking,https://leetcode.cn/problems/additive-number
+307,Medium,Array|Divide and Conquer|Design|Binary Indexed Tree|Segment Tree,https://leetcode.cn/problems/range-sum-query-mutable
+309,Medium,Array|Dynamic Programming,https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-cooldown
+312,Hard,Array|Dynamic Programming,https://leetcode.cn/problems/burst-balloons
+313,Medium,Array|Math|Dynamic Programming,https://leetcode.cn/problems/super-ugly-number
+315,Hard,Array|Binary Search|Divide and Conquer|Binary Indexed Tree|Segment Tree|Merge Sort|Ordered Set,https://leetcode.cn/problems/count-of-smaller-numbers-after-self
+316,Medium,String|Stack|Greedy|Monotonic Stack,https://leetcode.cn/problems/remove-duplicate-letters
+318,Medium,Array|String|Bit Manipulation,https://leetcode.cn/problems/maximum-product-of-word-lengths
+321,Hard,Array|Two Pointers|Stack|Greedy|Monotonic Stack,https://leetcode.cn/problems/create-maximum-number
+322,Medium,Array|Dynamic Programming|Breadth-First Search,https://leetcode.cn/problems/coin-change
+324,Medium,Array|Divide and Conquer|Greedy|Sorting|Quickselect,https://leetcode.cn/problems/wiggle-sort-ii
+326,Easy,Math|Recursion,https://leetcode.cn/problems/power-of-three
+327,Hard,Array|Binary Search|Divide and Conquer|Binary Indexed Tree|Segment Tree|Merge Sort|Ordered Set,https://leetcode.cn/problems/count-of-range-sum
+330,Hard,Array|Greedy,https://leetcode.cn/problems/patching-array
+334,Medium,Array|Greedy,https://leetcode.cn/problems/increasing-triplet-subsequence
+338,Easy,Dynamic Programming|Bit Manipulation,https://leetcode.cn/problems/counting-bits
+341,Medium,Stack|Tree|Depth-First Search|Design|Queue|Iterator,https://leetcode.cn/problems/flatten-nested-list-iterator
+342,Easy,Math|Bit Manipulation|Recursion,https://leetcode.cn/problems/power-of-four
+343,Medium,Math|Dynamic Programming,https://leetcode.cn/problems/integer-break
+344,Easy,Two Pointers|String,https://leetcode.cn/problems/reverse-string
+345,Easy,Two Pointers|String,https://leetcode.cn/problems/reverse-vowels-of-a-string
+347,Medium,Array|Hash Table|Divide and Conquer|Sorting|Heap (Priority Queue)|Bucket Sort|Counting|Quickselect,https://leetcode.cn/problems/top-k-frequent-elements
+349,Easy,Array|Hash Table|Two Pointers|Binary Search|Sorting,https://leetcode.cn/problems/intersection-of-two-arrays
+350,Easy,Array|Hash Table|Two Pointers|Binary Search|Sorting,https://leetcode.cn/problems/intersection-of-two-arrays-ii
+352,Hard,Hash Table|Binary Search|Union-Find|Design|Data Stream|Ordered Set,https://leetcode.cn/problems/data-stream-as-disjoint-intervals
+354,Hard,Array|Binary Search|Dynamic Programming|Sorting,https://leetcode.cn/problems/russian-doll-envelopes
+355,Medium,Hash Table|Linked List|Design|Heap (Priority Queue),https://leetcode.cn/problems/design-twitter
+357,Medium,Math|Dynamic Programming|Backtracking,https://leetcode.cn/problems/count-numbers-with-unique-digits
+365,Medium,Math|Depth-First Search|Breadth-First Search,https://leetcode.cn/problems/water-and-jug-problem
+367,Easy,Math|Binary Search,https://leetcode.cn/problems/valid-perfect-square
+368,Medium,Array|Math|Dynamic Programming|Sorting,https://leetcode.cn/problems/largest-divisible-subset
+371,Medium,Math|Bit Manipulation,https://leetcode.cn/problems/sum-of-two-integers
+372,Medium,Math|Divide and Conquer,https://leetcode.cn/problems/super-pow
+373,Medium,Array|Heap (Priority Queue),https://leetcode.cn/problems/find-k-pairs-with-smallest-sums
+374,Easy,Binary Search|Interactive,https://leetcode.cn/problems/guess-number-higher-or-lower
+376,Medium,Array|Dynamic Programming|Greedy,https://leetcode.cn/problems/wiggle-subsequence
+377,Medium,Array|Dynamic Programming,https://leetcode.cn/problems/combination-sum-iv
+378,Medium,Array|Binary Search|Sorting|Heap (Priority Queue)|Matrix,https://leetcode.cn/problems/kth-smallest-element-in-a-sorted-matrix
+380,Medium,Array|Hash Table|Math|Design|Randomized,https://leetcode.cn/problems/insert-delete-getrandom-o1
+381,Hard,Array|Hash Table|Math|Design|Randomized,https://leetcode.cn/problems/insert-delete-getrandom-o1-duplicates-allowed
+383,Easy,Hash Table|String|Counting,https://leetcode.cn/problems/ransom-note
+384,Medium,Array|Math|Design|Randomized,https://leetcode.cn/problems/shuffle-an-array
+385,Medium,String|Stack|Depth-First Search,https://leetcode.cn/problems/mini-parser
+386,Medium,Depth-First Search|Trie,https://leetcode.cn/problems/lexicographical-numbers
+387,Easy,Hash Table|String|Queue|Counting,https://leetcode.cn/problems/first-unique-character-in-a-string
+389,Easy,Hash Table|String|Bit Manipulation|Sorting,https://leetcode.cn/problems/find-the-difference
+390,Medium,Math|Recursion,https://leetcode.cn/problems/elimination-game
+392,Easy,Two Pointers|String|Dynamic Programming,https://leetcode.cn/problems/is-subsequence
+393,Medium,Array|Bit Manipulation,https://leetcode.cn/problems/utf-8-validation
+394,Medium,String|Stack|Recursion,https://leetcode.cn/problems/decode-string
+395,Medium,Hash Table|String|Divide and Conquer|Sliding Window,https://leetcode.cn/problems/longest-substring-with-at-least-k-repeating-characters
+396,Medium,Array|Math|Dynamic Programming,https://leetcode.cn/problems/rotate-function
+397,Medium,Dynamic Programming|Greedy|Bit Manipulation|Memoization,https://leetcode.cn/problems/integer-replacement
+398,Medium,Hash Table|Math|Reservoir Sampling|Randomized,https://leetcode.cn/problems/random-pick-index
+399,Medium,Array|String|Depth-First Search|Breadth-First Search|Union-Find|Graph Theory|Shortest Path,https://leetcode.cn/problems/evaluate-division
+400,Medium,Math|Binary Search,https://leetcode.cn/problems/nth-digit
+402,Medium,String|Stack|Greedy|Monotonic Stack,https://leetcode.cn/problems/remove-k-digits
+403,Hard,Array|Dynamic Programming,https://leetcode.cn/problems/frog-jump
+405,Easy,Math|String|Bit Manipulation,https://leetcode.cn/problems/convert-a-number-to-hexadecimal
+406,Medium,Array|Binary Indexed Tree|Segment Tree|Sorting,https://leetcode.cn/problems/queue-reconstruction-by-height
+409,Easy,Hash Table|String|Greedy,https://leetcode.cn/problems/longest-palindrome
+410,Hard,Array|Binary Search|Dynamic Programming|Greedy|Prefix Sum,https://leetcode.cn/problems/split-array-largest-sum
+412,Easy,Math|String|Simulation,https://leetcode.cn/problems/fizz-buzz
+413,Medium,Array|Dynamic Programming|Sliding Window,https://leetcode.cn/problems/arithmetic-slices
+414,Easy,Array|Sorting,https://leetcode.cn/problems/third-maximum-number
+415,Easy,Math|String|Simulation,https://leetcode.cn/problems/add-strings
+416,Medium,Array|Dynamic Programming,https://leetcode.cn/problems/partition-equal-subset-sum
+420,Hard,String|Greedy|Heap (Priority Queue),https://leetcode.cn/problems/strong-password-checker
+421,Medium,Array|Hash Table|Bit Manipulation|Trie,https://leetcode.cn/problems/maximum-xor-of-two-numbers-in-an-array
+423,Medium,Hash Table|Math|String,https://leetcode.cn/problems/reconstruct-original-digits-from-english
+424,Medium,Hash Table|String|Sliding Window,https://leetcode.cn/problems/longest-repeating-character-replacement
+432,Hard,Hash Table|Linked List|Design|Doubly-Linked List,https://leetcode.cn/problems/all-oone-data-structure
+433,Medium,Hash Table|String|Breadth-First Search,https://leetcode.cn/problems/minimum-genetic-mutation
+434,Easy,String,https://leetcode.cn/problems/number-of-segments-in-a-string
+435,Medium,Array|Dynamic Programming|Greedy|Sorting,https://leetcode.cn/problems/non-overlapping-intervals
+436,Medium,Array|Binary Search|Sorting,https://leetcode.cn/problems/find-right-interval
+438,Medium,Hash Table|String|Sliding Window,https://leetcode.cn/problems/find-all-anagrams-in-a-string
+440,Hard,Trie,https://leetcode.cn/problems/k-th-smallest-in-lexicographical-order
+442,Medium,Array|Hash Table|Sorting,https://leetcode.cn/problems/find-all-duplicates-in-an-array
+443,Medium,Two Pointers|String,https://leetcode.cn/problems/string-compression
+446,Hard,Array|Dynamic Programming,https://leetcode.cn/problems/arithmetic-slices-ii-subsequence
+447,Medium,Array|Hash Table|Math,https://leetcode.cn/problems/number-of-boomerangs
+448,Easy,Array|Hash Table,https://leetcode.cn/problems/find-all-numbers-disappeared-in-an-array
+449,Medium,String|Tree|Depth-First Search|Breadth-First Search|Design|Binary Search Tree|Binary Tree,https://leetcode.cn/problems/serialize-and-deserialize-bst
+451,Medium,Hash Table|String|Sorting|Heap (Priority Queue)|Bucket Sort|Counting,https://leetcode.cn/problems/sort-characters-by-frequency
+452,Medium,Array|Greedy|Sorting,https://leetcode.cn/problems/minimum-number-of-arrows-to-burst-balloons
+453,Medium,Array|Math,https://leetcode.cn/problems/minimum-moves-to-equal-array-elements
+454,Medium,Array|Hash Table,https://leetcode.cn/problems/4sum-ii
+455,Easy,Array|Two Pointers|Greedy|Sorting,https://leetcode.cn/problems/assign-cookies
+456,Medium,Array|Binary Search|Stack|Monotonic Stack|Ordered Set,https://leetcode.cn/problems/132-pattern
+458,Hard,Math|Dynamic Programming|Combinatorics,https://leetcode.cn/problems/poor-pigs
+459,Easy,String|String Matching,https://leetcode.cn/problems/repeated-substring-pattern
+460,Hard,Hash Table|Linked List|Design|Doubly-Linked List,https://leetcode.cn/problems/lfu-cache
+461,Easy,Bit Manipulation,https://leetcode.cn/problems/hamming-distance
+462,Medium,Array|Math|Sorting,https://leetcode.cn/problems/minimum-moves-to-equal-array-elements-ii
+464,Medium,Math|Dynamic Programming|Bit Manipulation|Memoization|Game Theory|Bitmask,https://leetcode.cn/problems/can-i-win
+466,Hard,Two Pointers|String|Dynamic Programming,https://leetcode.cn/problems/count-the-repetitions
+467,Medium,String|Dynamic Programming,https://leetcode.cn/problems/unique-substrings-in-wraparound-string
+468,Medium,String,https://leetcode.cn/problems/validate-ip-address
+470,Medium,Math|Rejection Sampling|Randomized|Probability and Statistics,https://leetcode.cn/problems/implement-rand10-using-rand7
+472,Hard,Array|String|Dynamic Programming|Depth-First Search|Trie|Sorting,https://leetcode.cn/problems/concatenated-words
+474,Medium,Array|String|Dynamic Programming,https://leetcode.cn/problems/ones-and-zeroes
+475,Medium,Array|Two Pointers|Binary Search|Sorting,https://leetcode.cn/problems/heaters
+476,Easy,Bit Manipulation,https://leetcode.cn/problems/number-complement
+477,Medium,Array|Math|Bit Manipulation,https://leetcode.cn/problems/total-hamming-distance
+478,Medium,Math|Geometry|Rejection Sampling|Randomized,https://leetcode.cn/problems/generate-random-point-in-a-circle
+479,Hard,Math|Enumeration,https://leetcode.cn/problems/largest-palindrome-product
+480,Hard,Array|Hash Table|Sliding Window|Heap (Priority Queue),https://leetcode.cn/problems/sliding-window-median
+481,Medium,Two Pointers|String,https://leetcode.cn/problems/magical-string
+482,Easy,String,https://leetcode.cn/problems/license-key-formatting
+483,Hard,Math|Binary Search,https://leetcode.cn/problems/smallest-good-base
+485,Easy,Array,https://leetcode.cn/problems/max-consecutive-ones
+486,Medium,Array|Math|Dynamic Programming|Recursion|Game Theory,https://leetcode.cn/problems/predict-the-winner
+491,Medium,Array|Hash Table|Backtracking|Bit Manipulation,https://leetcode.cn/problems/non-decreasing-subsequences
+492,Easy,Math,https://leetcode.cn/problems/construct-the-rectangle
+493,Hard,Array|Binary Search|Divide and Conquer|Binary Indexed Tree|Segment Tree|Merge Sort|Ordered Set,https://leetcode.cn/problems/reverse-pairs
+494,Medium,Array|Dynamic Programming|Backtracking,https://leetcode.cn/problems/target-sum
+495,Easy,Array|Simulation,https://leetcode.cn/problems/teemo-attacking
+496,Easy,Array|Hash Table|Stack|Monotonic Stack,https://leetcode.cn/problems/next-greater-element-i
+502,Hard,Array|Greedy|Sorting|Heap (Priority Queue),https://leetcode.cn/problems/ipo
+503,Medium,Array|Stack|Monotonic Stack,https://leetcode.cn/problems/next-greater-element-ii
+504,Easy,Math|String,https://leetcode.cn/problems/base-7
+506,Easy,Array|Sorting|Heap (Priority Queue),https://leetcode.cn/problems/relative-ranks
+507,Easy,Math,https://leetcode.cn/problems/perfect-number
+509,Easy,Math|Dynamic Programming|Recursion|Memoization,https://leetcode.cn/problems/fibonacci-number
+516,Medium,String|Dynamic Programming,https://leetcode.cn/problems/longest-palindromic-subsequence
+517,Hard,Array|Greedy,https://leetcode.cn/problems/super-washing-machines
+518,Medium,Array|Dynamic Programming,https://leetcode.cn/problems/coin-change-ii
+519,Medium,Hash Table|Math|Reservoir Sampling|Randomized,https://leetcode.cn/problems/random-flip-matrix
+520,Easy,String,https://leetcode.cn/problems/detect-capital
+521,Easy,String,https://leetcode.cn/problems/longest-uncommon-subsequence-i
+522,Medium,Array|Hash Table|Two Pointers|String|Sorting,https://leetcode.cn/problems/longest-uncommon-subsequence-ii
+523,Medium,Array|Hash Table|Math|Prefix Sum,https://leetcode.cn/problems/continuous-subarray-sum
+524,Medium,Array|Two Pointers|String|Sorting,https://leetcode.cn/problems/longest-word-in-dictionary-through-deleting
+525,Medium,Array|Hash Table|Prefix Sum,https://leetcode.cn/problems/contiguous-array
+526,Medium,Array|Dynamic Programming|Backtracking|Bit Manipulation|Bitmask,https://leetcode.cn/problems/beautiful-arrangement
+528,Medium,Array|Math|Binary Search|Prefix Sum|Randomized,https://leetcode.cn/problems/random-pick-with-weight
+532,Medium,Array|Hash Table|Two Pointers|Binary Search|Sorting,https://leetcode.cn/problems/k-diff-pairs-in-an-array
+535,Medium,Hash Table|String|Design|Hash Function,https://leetcode.cn/problems/encode-and-decode-tinyurl
+537,Medium,Math|String|Simulation,https://leetcode.cn/problems/complex-number-multiplication
+539,Medium,Array|Math|String|Sorting,https://leetcode.cn/problems/minimum-time-difference
+540,Medium,Array|Binary Search,https://leetcode.cn/problems/single-element-in-a-sorted-array
+541,Easy,Two Pointers|String,https://leetcode.cn/problems/reverse-string-ii
+546,Hard,Array|Dynamic Programming|Memoization,https://leetcode.cn/problems/remove-boxes
+551,Easy,String,https://leetcode.cn/problems/student-attendance-record-i
+552,Hard,Dynamic Programming,https://leetcode.cn/problems/student-attendance-record-ii
+553,Medium,Array|Math|Dynamic Programming,https://leetcode.cn/problems/optimal-division
+556,Medium,Math|Two Pointers|String,https://leetcode.cn/problems/next-greater-element-iii
+557,Easy,Two Pointers|String,https://leetcode.cn/problems/reverse-words-in-a-string-iii
+560,Medium,Array|Hash Table|Prefix Sum,https://leetcode.cn/problems/subarray-sum-equals-k
+561,Easy,Array|Greedy|Sorting|Counting Sort,https://leetcode.cn/problems/array-partition
+564,Hard,Math|String,https://leetcode.cn/problems/find-the-closest-palindrome
+565,Medium,Array|Depth-First Search,https://leetcode.cn/problems/array-nesting
+567,Medium,Hash Table|Two Pointers|String|Sliding Window,https://leetcode.cn/problems/permutation-in-string
+575,Easy,Array|Hash Table,https://leetcode.cn/problems/distribute-candies
+581,Medium,Array|Two Pointers|Stack|Greedy|Sorting|Monotonic Stack,https://leetcode.cn/problems/shortest-unsorted-continuous-subarray
+583,Medium,String|Dynamic Programming,https://leetcode.cn/problems/delete-operation-for-two-strings
+591,Hard,String|Stack,https://leetcode.cn/problems/tag-validator
+592,Medium,Math|String|Simulation,https://leetcode.cn/problems/fraction-addition-and-subtraction
+593,Medium,Math|Geometry,https://leetcode.cn/problems/valid-square
+599,Easy,Array|Hash Table|String,https://leetcode.cn/problems/minimum-index-sum-of-two-lists
+600,Hard,Dynamic Programming,https://leetcode.cn/problems/non-negative-integers-without-consecutive-ones
+605,Easy,Array|Greedy,https://leetcode.cn/problems/can-place-flowers
+611,Medium,Array|Two Pointers|Binary Search|Greedy|Sorting,https://leetcode.cn/problems/valid-triangle-number
+621,Medium,Array|Hash Table|Greedy|Sorting|Heap (Priority Queue)|Counting,https://leetcode.cn/problems/task-scheduler
+622,Medium,Array|Linked List|Design|Queue,https://leetcode.cn/problems/design-circular-queue
+624,Medium,Array|Greedy,https://leetcode.cn/problems/maximum-distance-in-arrays
+628,Easy,Array|Math|Sorting,https://leetcode.cn/problems/maximum-product-of-three-numbers
+629,Hard,Dynamic Programming,https://leetcode.cn/problems/k-inverse-pairs-array
+630,Hard,Array|Greedy|Sorting|Heap (Priority Queue),https://leetcode.cn/problems/course-schedule-iii
+632,Hard,Array|Hash Table|Greedy|Sliding Window|Sorting|Heap (Priority Queue),https://leetcode.cn/problems/smallest-range-covering-elements-from-k-lists
+633,Medium,Math|Two Pointers|Binary Search,https://leetcode.cn/problems/sum-of-square-numbers
+638,Medium,Array|Dynamic Programming|Backtracking|Bit Manipulation|Memoization|Bitmask,https://leetcode.cn/problems/shopping-offers
+639,Hard,String|Dynamic Programming,https://leetcode.cn/problems/decode-ways-ii
+640,Medium,Math|String|Simulation,https://leetcode.cn/problems/solve-the-equation
+641,Medium,Array|Linked List|Design|Queue,https://leetcode.cn/problems/design-circular-deque
+643,Easy,Array|Sliding Window,https://leetcode.cn/problems/maximum-average-subarray-i
+645,Easy,Array|Hash Table|Bit Manipulation|Sorting,https://leetcode.cn/problems/set-mismatch
+646,Medium,Array|Dynamic Programming|Greedy|Sorting,https://leetcode.cn/problems/maximum-length-of-pair-chain
+647,Medium,Two Pointers|String|Dynamic Programming,https://leetcode.cn/problems/palindromic-substrings
+648,Medium,Array|Hash Table|String|Trie,https://leetcode.cn/problems/replace-words
+649,Medium,String|Greedy|Queue,https://leetcode.cn/problems/dota2-senate
+650,Medium,Math|Dynamic Programming,https://leetcode.cn/problems/2-keys-keyboard
+657,Easy,String|Simulation,https://leetcode.cn/problems/robot-return-to-origin
+658,Medium,Array|Two Pointers|Binary Search|Sliding Window|Sorting|Heap (Priority Queue),https://leetcode.cn/problems/find-k-closest-elements
+659,Medium,Array|Hash Table|Greedy|Heap (Priority Queue),https://leetcode.cn/problems/split-array-into-consecutive-subsequences
+664,Hard,String|Dynamic Programming,https://leetcode.cn/problems/strange-printer
+665,Medium,Array,https://leetcode.cn/problems/non-decreasing-array
+667,Medium,Array|Math,https://leetcode.cn/problems/beautiful-arrangement-ii
+670,Medium,Math|Greedy,https://leetcode.cn/problems/maximum-swap
+672,Medium,Math|Bit Manipulation|Depth-First Search|Breadth-First Search,https://leetcode.cn/problems/bulb-switcher-ii
+673,Medium,Array|Dynamic Programming|Binary Indexed Tree|Segment Tree,https://leetcode.cn/problems/number-of-longest-increasing-subsequence
+674,Easy,Array,https://leetcode.cn/problems/longest-continuous-increasing-subsequence
+676,Medium,Hash Table|String|Depth-First Search|Design|Trie,https://leetcode.cn/problems/implement-magic-dictionary
+677,Medium,Hash Table|String|Design|Trie,https://leetcode.cn/problems/map-sum-pairs
+678,Medium,String|Dynamic Programming|Stack|Greedy,https://leetcode.cn/problems/valid-parenthesis-string
+679,Hard,Array|Math|Backtracking,https://leetcode.cn/problems/24-game
+680,Easy,Two Pointers|String|Greedy,https://leetcode.cn/problems/valid-palindrome-ii
+682,Easy,Array|Stack|Simulation,https://leetcode.cn/problems/baseball-game
+686,Medium,String|String Matching,https://leetcode.cn/problems/repeated-string-match
+689,Hard,Array|Dynamic Programming|Sliding Window|Prefix Sum,https://leetcode.cn/problems/maximum-sum-of-3-non-overlapping-subarrays
+691,Hard,Array|Hash Table|String|Dynamic Programming|Backtracking|Bit Manipulation|Memoization|Bitmask,https://leetcode.cn/problems/stickers-to-spell-word
+692,Medium,Array|Hash Table|String|Trie|Sorting|Heap (Priority Queue)|Bucket Sort|Counting,https://leetcode.cn/problems/top-k-frequent-words
+693,Easy,Bit Manipulation,https://leetcode.cn/problems/binary-number-with-alternating-bits
+696,Easy,Two Pointers|String,https://leetcode.cn/problems/count-binary-substrings
+697,Easy,Array|Hash Table,https://leetcode.cn/problems/degree-of-an-array
+698,Medium,Array|Dynamic Programming|Backtracking|Bit Manipulation|Memoization|Bitmask,https://leetcode.cn/problems/partition-to-k-equal-sum-subsets
+703,Easy,Tree|Design|Binary Search Tree|Heap (Priority Queue)|Binary Tree|Data Stream,https://leetcode.cn/problems/kth-largest-element-in-a-stream
+704,Easy,Array|Binary Search,https://leetcode.cn/problems/binary-search
+705,Easy,Array|Hash Table|Linked List|Design|Hash Function,https://leetcode.cn/problems/design-hashset
+706,Easy,Array|Hash Table|Linked List|Design|Hash Function,https://leetcode.cn/problems/design-hashmap
+707,Medium,Linked List|Design,https://leetcode.cn/problems/design-linked-list
+709,Easy,String,https://leetcode.cn/problems/to-lower-case
+710,Hard,Array|Hash Table|Math|Binary Search|Sorting|Randomized,https://leetcode.cn/problems/random-pick-with-blacklist
+712,Medium,String|Dynamic Programming,https://leetcode.cn/problems/minimum-ascii-delete-sum-for-two-strings
+713,Medium,Array|Binary Search|Sliding Window|Prefix Sum,https://leetcode.cn/problems/subarray-product-less-than-k
+714,Medium,Array|Dynamic Programming|Greedy,https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-transaction-fee
+715,Hard,Design|Segment Tree|Ordered Set,https://leetcode.cn/problems/range-module
+717,Easy,Array,https://leetcode.cn/problems/1-bit-and-2-bit-characters
+718,Medium,Array|Binary Search|Dynamic Programming|Sliding Window|Rolling Hash|Hash Function,https://leetcode.cn/problems/maximum-length-of-repeated-subarray
+719,Hard,Array|Two Pointers|Binary Search|Sorting,https://leetcode.cn/problems/find-k-th-smallest-pair-distance
+720,Medium,Array|Hash Table|String|Trie|Sorting,https://leetcode.cn/problems/longest-word-in-dictionary
+721,Medium,Array|Hash Table|String|Depth-First Search|Breadth-First Search|Union-Find|Sorting,https://leetcode.cn/problems/accounts-merge
+722,Medium,Array|String,https://leetcode.cn/problems/remove-comments
+724,Easy,Array|Prefix Sum,https://leetcode.cn/problems/find-pivot-index
+726,Hard,Hash Table|String|Stack|Sorting,https://leetcode.cn/problems/number-of-atoms
+728,Easy,Math,https://leetcode.cn/problems/self-dividing-numbers
+729,Medium,Array|Binary Search|Design|Segment Tree|Ordered Set,https://leetcode.cn/problems/my-calendar-i
+730,Hard,String|Dynamic Programming,https://leetcode.cn/problems/count-different-palindromic-subsequences
+731,Medium,Array|Binary Search|Design|Segment Tree|Prefix Sum|Ordered Set,https://leetcode.cn/problems/my-calendar-ii
+732,Hard,Binary Search|Design|Segment Tree|Prefix Sum|Ordered Set,https://leetcode.cn/problems/my-calendar-iii
+735,Medium,Array|Stack|Simulation,https://leetcode.cn/problems/asteroid-collision
+736,Hard,Hash Table|String|Stack|Recursion,https://leetcode.cn/problems/parse-lisp-expression
+738,Medium,Math|Greedy,https://leetcode.cn/problems/monotone-increasing-digits
+739,Medium,Array|Stack|Monotonic Stack,https://leetcode.cn/problems/daily-temperatures
+740,Medium,Array|Hash Table|Dynamic Programming,https://leetcode.cn/problems/delete-and-earn
+744,Easy,Array|Binary Search,https://leetcode.cn/problems/find-smallest-letter-greater-than-target
+745,Hard,Array|Hash Table|String|Design|Trie,https://leetcode.cn/problems/prefix-and-suffix-search
+746,Easy,Array|Dynamic Programming,https://leetcode.cn/problems/min-cost-climbing-stairs
+747,Easy,Array|Sorting,https://leetcode.cn/problems/largest-number-at-least-twice-of-others
+748,Easy,Array|Hash Table|String,https://leetcode.cn/problems/shortest-completing-word
+752,Medium,Array|Hash Table|String|Breadth-First Search,https://leetcode.cn/problems/open-the-lock
+753,Hard,String|Depth-First Search|Graph Theory|Eulerian Circuit,https://leetcode.cn/problems/cracking-the-safe
+754,Medium,Math|Binary Search,https://leetcode.cn/problems/reach-a-number
+757,Hard,Array|Greedy|Sorting,https://leetcode.cn/problems/set-intersection-size-at-least-two
+761,Hard,String|Divide and Conquer|Sorting,https://leetcode.cn/problems/special-binary-string
+762,Easy,Math|Bit Manipulation,https://leetcode.cn/problems/prime-number-of-set-bits-in-binary-representation
+763,Medium,Hash Table|Two Pointers|String|Greedy,https://leetcode.cn/problems/partition-labels
+765,Hard,Greedy|Depth-First Search|Breadth-First Search|Union-Find|Graph Theory,https://leetcode.cn/problems/couples-holding-hands
+767,Medium,Hash Table|String|Greedy|Sorting|Heap (Priority Queue)|Counting,https://leetcode.cn/problems/reorganize-string
+768,Hard,Array|Stack|Greedy|Sorting|Monotonic Stack,https://leetcode.cn/problems/max-chunks-to-make-sorted-ii
+769,Medium,Array|Stack|Greedy|Sorting|Monotonic Stack,https://leetcode.cn/problems/max-chunks-to-make-sorted
+771,Easy,Hash Table|String,https://leetcode.cn/problems/jewels-and-stones
+775,Medium,Array|Math,https://leetcode.cn/problems/global-and-local-inversions
+777,Medium,Two Pointers|String,https://leetcode.cn/problems/swap-adjacent-in-lr-string
+779,Medium,Math|Bit Manipulation|Recursion,https://leetcode.cn/problems/k-th-symbol-in-grammar
+780,Hard,Math,https://leetcode.cn/problems/reaching-points
+781,Medium,Array|Hash Table|Math|Greedy,https://leetcode.cn/problems/rabbits-in-forest
+784,Medium,String|Backtracking|Bit Manipulation,https://leetcode.cn/problems/letter-case-permutation
+786,Medium,Array|Two Pointers|Binary Search|Sorting|Heap (Priority Queue),https://leetcode.cn/problems/k-th-smallest-prime-fraction
+788,Medium,Math|Dynamic Programming,https://leetcode.cn/problems/rotated-digits
+789,Medium,Array|Math,https://leetcode.cn/problems/escape-the-ghosts
+791,Medium,Hash Table|String|Sorting,https://leetcode.cn/problems/custom-sort-string
+792,Medium,Array|Hash Table|String|Binary Search|Dynamic Programming|Trie|Sorting,https://leetcode.cn/problems/number-of-matching-subsequences
+793,Hard,Math|Binary Search,https://leetcode.cn/problems/preimage-size-of-factorial-zeroes-function
+795,Medium,Array|Two Pointers,https://leetcode.cn/problems/number-of-subarrays-with-bounded-maximum
+796,Easy,String|String Matching,https://leetcode.cn/problems/rotate-string
+798,Hard,Array|Prefix Sum,https://leetcode.cn/problems/smallest-rotation-with-highest-score
+801,Hard,Array|Dynamic Programming,https://leetcode.cn/problems/minimum-swaps-to-make-sequences-increasing
+803,Hard,Array|Union-Find|Matrix,https://leetcode.cn/problems/bricks-falling-when-hit
+804,Easy,Array|Hash Table|String,https://leetcode.cn/problems/unique-morse-code-words
+805,Hard,Array|Hash Table|Math|Dynamic Programming|Bit Manipulation|Bitmask,https://leetcode.cn/problems/split-array-with-same-average
+806,Easy,Array|String,https://leetcode.cn/problems/number-of-lines-to-write-string
+808,Medium,Math|Dynamic Programming|Probability and Statistics,https://leetcode.cn/problems/soup-servings
+809,Medium,Array|Two Pointers|String,https://leetcode.cn/problems/expressive-words
+810,Hard,Array|Math|Bit Manipulation|Brainteaser|Game Theory,https://leetcode.cn/problems/chalkboard-xor-game
+811,Medium,Array|Hash Table|String|Counting,https://leetcode.cn/problems/subdomain-visit-count
+813,Medium,Array|Dynamic Programming|Prefix Sum,https://leetcode.cn/problems/largest-sum-of-averages
+815,Hard,Array|Hash Table|Breadth-First Search,https://leetcode.cn/problems/bus-routes
+816,Medium,String|Backtracking|Enumeration,https://leetcode.cn/problems/ambiguous-coordinates
+819,Easy,Array|Hash Table|String|Counting,https://leetcode.cn/problems/most-common-word
+820,Medium,Array|Hash Table|String|Trie,https://leetcode.cn/problems/short-encoding-of-words
+821,Easy,Array|Two Pointers|String,https://leetcode.cn/problems/shortest-distance-to-a-character
+822,Medium,Array|Hash Table,https://leetcode.cn/problems/card-flipping-game
+823,Medium,Array|Hash Table|Dynamic Programming|Sorting,https://leetcode.cn/problems/binary-trees-with-factors
+824,Easy,String,https://leetcode.cn/problems/goat-latin
+825,Medium,Array|Two Pointers|Binary Search|Sorting,https://leetcode.cn/problems/friends-of-appropriate-ages
+826,Medium,Array|Two Pointers|Binary Search|Greedy|Sorting,https://leetcode.cn/problems/most-profit-assigning-work
+827,Hard,Array|Depth-First Search|Breadth-First Search|Union-Find|Matrix,https://leetcode.cn/problems/making-a-large-island
+828,Hard,Hash Table|String|Dynamic Programming,https://leetcode.cn/problems/count-unique-characters-of-all-substrings-of-a-given-string
+829,Hard,Math|Enumeration,https://leetcode.cn/problems/consecutive-numbers-sum
+830,Easy,String,https://leetcode.cn/problems/positions-of-large-groups
+831,Medium,String,https://leetcode.cn/problems/masking-personal-information
+832,Easy,Array|Two Pointers|Bit Manipulation|Matrix|Simulation,https://leetcode.cn/problems/flipping-an-image
+836,Easy,Math|Geometry,https://leetcode.cn/problems/rectangle-overlap
+837,Medium,Math|Dynamic Programming|Sliding Window|Probability and Statistics,https://leetcode.cn/problems/new-21-game
+839,Hard,Array|Hash Table|String|Depth-First Search|Breadth-First Search|Union-Find,https://leetcode.cn/problems/similar-string-groups
+841,Medium,Depth-First Search|Breadth-First Search|Graph Theory,https://leetcode.cn/problems/keys-and-rooms
+842,Medium,String|Backtracking,https://leetcode.cn/problems/split-array-into-fibonacci-sequence
+844,Easy,Two Pointers|String|Stack|Simulation,https://leetcode.cn/problems/backspace-string-compare
+845,Medium,Array|Two Pointers|Dynamic Programming|Enumeration,https://leetcode.cn/problems/longest-mountain-in-array
+846,Medium,Array|Hash Table|Greedy|Sorting,https://leetcode.cn/problems/hand-of-straights
+851,Medium,Array|Depth-First Search|Graph Theory|Topological Sort,https://leetcode.cn/problems/loud-and-rich
+852,Medium,Array|Binary Search,https://leetcode.cn/problems/peak-index-in-a-mountain-array
+854,Hard,Hash Table|String|Breadth-First Search,https://leetcode.cn/problems/k-similar-strings
+855,Medium,Design|Heap (Priority Queue)|Ordered Set,https://leetcode.cn/problems/exam-room
+856,Medium,String|Stack,https://leetcode.cn/problems/score-of-parentheses
+857,Hard,Array|Greedy|Sorting|Heap (Priority Queue),https://leetcode.cn/problems/minimum-cost-to-hire-k-workers
+859,Easy,Hash Table|String,https://leetcode.cn/problems/buddy-strings
+860,Easy,Array|Greedy,https://leetcode.cn/problems/lemonade-change
+862,Hard,Array|Binary Search|Queue|Sliding Window|Heap (Priority Queue)|Prefix Sum|Monotonic Queue,https://leetcode.cn/problems/shortest-subarray-with-sum-at-least-k
+868,Easy,Bit Manipulation,https://leetcode.cn/problems/binary-gap
+869,Medium,Hash Table|Math|Sorting|Counting|Enumeration,https://leetcode.cn/problems/reordered-power-of-2
+870,Medium,Array|Two Pointers|Greedy|Sorting,https://leetcode.cn/problems/advantage-shuffle
+871,Hard,Array|Dynamic Programming|Greedy|Heap (Priority Queue),https://leetcode.cn/problems/minimum-number-of-refueling-stops
+873,Medium,Array|Hash Table|Dynamic Programming,https://leetcode.cn/problems/length-of-longest-fibonacci-subsequence
+874,Medium,Array|Hash Table|Simulation,https://leetcode.cn/problems/walking-robot-simulation
+875,Medium,Array|Binary Search,https://leetcode.cn/problems/koko-eating-bananas
+877,Medium,Array|Math|Dynamic Programming|Game Theory,https://leetcode.cn/problems/stone-game
+878,Hard,Math|Binary Search,https://leetcode.cn/problems/nth-magical-number
+879,Hard,Array|Dynamic Programming,https://leetcode.cn/problems/profitable-schemes
+881,Medium,Array|Two Pointers|Greedy|Sorting,https://leetcode.cn/problems/boats-to-save-people
+884,Easy,Hash Table|String|Counting,https://leetcode.cn/problems/uncommon-words-from-two-sentences
+886,Medium,Depth-First Search|Breadth-First Search|Union-Find|Graph Theory,https://leetcode.cn/problems/possible-bipartition
+887,Hard,Math|Binary Search|Dynamic Programming,https://leetcode.cn/problems/super-egg-drop
+888,Easy,Array|Hash Table|Binary Search|Sorting,https://leetcode.cn/problems/fair-candy-swap
+890,Medium,Array|Hash Table|String,https://leetcode.cn/problems/find-and-replace-pattern
+891,Hard,Array|Math|Sorting,https://leetcode.cn/problems/sum-of-subsequence-widths
+895,Hard,Hash Table|Stack|Design|Ordered Set,https://leetcode.cn/problems/maximum-frequency-stack
+896,Easy,Array,https://leetcode.cn/problems/monotonic-array
+899,Hard,Math|String|Sorting,https://leetcode.cn/problems/orderly-queue
+901,Medium,Stack|Design|Monotonic Stack|Data Stream,https://leetcode.cn/problems/online-stock-span
+902,Hard,Array|Math|String|Binary Search|Dynamic Programming,https://leetcode.cn/problems/numbers-at-most-n-given-digit-set
+904,Medium,Array|Hash Table|Sliding Window,https://leetcode.cn/problems/fruit-into-baskets
+905,Easy,Array|Two Pointers|Sorting,https://leetcode.cn/problems/sort-array-by-parity
+907,Medium,Array|Dynamic Programming|Stack|Monotonic Stack,https://leetcode.cn/problems/sum-of-subarray-minimums
+908,Easy,Array|Math,https://leetcode.cn/problems/smallest-range-i
+910,Medium,Array|Math|Greedy|Sorting,https://leetcode.cn/problems/smallest-range-ii
+911,Medium,Array|Hash Table|Binary Search|Design,https://leetcode.cn/problems/online-election
+912,Medium,Array|Divide and Conquer|Sorting|Heap (Priority Queue)|Merge Sort|Bucket Sort|Radix Sort|Counting Sort,https://leetcode.cn/problems/sort-an-array
+914,Easy,Array|Hash Table|Math|Counting|Number Theory,https://leetcode.cn/problems/x-of-a-kind-in-a-deck-of-cards
+917,Easy,Two Pointers|String,https://leetcode.cn/problems/reverse-only-letters
+918,Medium,Array|Divide and Conquer|Dynamic Programming|Queue|Monotonic Queue,https://leetcode.cn/problems/maximum-sum-circular-subarray
+921,Medium,String|Stack|Greedy,https://leetcode.cn/problems/minimum-add-to-make-parentheses-valid
+922,Easy,Array|Two Pointers|Sorting,https://leetcode.cn/problems/sort-array-by-parity-ii
+924,Hard,Array|Hash Table|Depth-First Search|Breadth-First Search|Union-Find|Graph Theory,https://leetcode.cn/problems/minimize-malware-spread
+925,Easy,Two Pointers|String,https://leetcode.cn/problems/long-pressed-name
+926,Medium,String|Dynamic Programming,https://leetcode.cn/problems/flip-string-to-monotone-increasing
+927,Hard,Array|Math,https://leetcode.cn/problems/three-equal-parts
+928,Hard,Array|Hash Table|Depth-First Search|Breadth-First Search|Union-Find|Graph Theory,https://leetcode.cn/problems/minimize-malware-spread-ii
+929,Easy,Array|Hash Table|String,https://leetcode.cn/problems/unique-email-addresses
+930,Medium,Array|Hash Table|Sliding Window|Prefix Sum,https://leetcode.cn/problems/binary-subarrays-with-sum
+933,Easy,Design|Queue|Data Stream,https://leetcode.cn/problems/number-of-recent-calls
+934,Medium,Array|Depth-First Search|Breadth-First Search|Matrix,https://leetcode.cn/problems/shortest-bridge
+937,Medium,Array|String|Sorting,https://leetcode.cn/problems/reorder-data-in-log-files
+940,Hard,String|Dynamic Programming,https://leetcode.cn/problems/distinct-subsequences-ii
+942,Easy,Array|Two Pointers|String|Greedy,https://leetcode.cn/problems/di-string-match
+944,Easy,Array|String,https://leetcode.cn/problems/delete-columns-to-make-sorted
+945,Medium,Array|Greedy|Sorting|Counting,https://leetcode.cn/problems/minimum-increment-to-make-array-unique
+946,Medium,Array|Stack|Simulation,https://leetcode.cn/problems/validate-stack-sequences
+947,Medium,Hash Table|Depth-First Search|Union-Find|Graph Theory,https://leetcode.cn/problems/most-stones-removed-with-same-row-or-column
+953,Easy,Array|Hash Table|String,https://leetcode.cn/problems/verifying-an-alien-dictionary
+954,Medium,Array|Hash Table|Greedy|Sorting,https://leetcode.cn/problems/array-of-doubled-pairs
+961,Easy,Array|Hash Table,https://leetcode.cn/problems/n-repeated-element-in-size-2n-array
+966,Medium,Array|Hash Table|String,https://leetcode.cn/problems/vowel-spellchecker
+969,Medium,Array|Two Pointers|Greedy|Sorting,https://leetcode.cn/problems/pancake-sorting
+970,Medium,Hash Table|Math|Enumeration,https://leetcode.cn/problems/powerful-integers
+974,Medium,Array|Hash Table|Prefix Sum,https://leetcode.cn/problems/subarray-sums-divisible-by-k
+976,Easy,Array|Math|Greedy|Sorting,https://leetcode.cn/problems/largest-perimeter-triangle
+977,Easy,Array|Two Pointers|Sorting,https://leetcode.cn/problems/squares-of-a-sorted-array
+978,Medium,Array|Dynamic Programming|Sliding Window,https://leetcode.cn/problems/longest-turbulent-subarray
+981,Medium,Hash Table|String|Binary Search|Design,https://leetcode.cn/problems/time-based-key-value-store
+982,Hard,Array|Hash Table|Bit Manipulation,https://leetcode.cn/problems/triples-with-bitwise-and-equal-to-zero
+983,Medium,Array|Dynamic Programming,https://leetcode.cn/problems/minimum-cost-for-tickets
+989,Easy,Array|Math,https://leetcode.cn/problems/add-to-array-form-of-integer
+990,Medium,Array|String|Union-Find|Graph Theory,https://leetcode.cn/problems/satisfiability-of-equality-equations
+992,Hard,Array|Hash Table|Sliding Window|Counting,https://leetcode.cn/problems/subarrays-with-k-different-integers
+995,Hard,Array|Bit Manipulation|Queue|Sliding Window|Prefix Sum,https://leetcode.cn/problems/minimum-number-of-k-consecutive-bit-flips
+997,Easy,Array|Hash Table|Graph Theory,https://leetcode.cn/problems/find-the-town-judge
+1000,Hard,Array|Dynamic Programming|Prefix Sum,https://leetcode.cn/problems/minimum-cost-to-merge-stones
+1002,Easy,Array|Hash Table|String,https://leetcode.cn/problems/find-common-characters
+1003,Medium,String|Stack,https://leetcode.cn/problems/check-if-word-is-valid-after-substitutions
+1004,Medium,Array|Binary Search|Sliding Window|Prefix Sum,https://leetcode.cn/problems/max-consecutive-ones-iii
+1005,Easy,Array|Greedy|Sorting,https://leetcode.cn/problems/maximize-sum-of-array-after-k-negations
+1006,Medium,Math|Stack|Simulation,https://leetcode.cn/problems/clumsy-factorial
+1009,Easy,Bit Manipulation,https://leetcode.cn/problems/complement-of-base-10-integer
+1010,Medium,Array|Hash Table|Counting,https://leetcode.cn/problems/pairs-of-songs-with-total-durations-divisible-by-60
+1011,Medium,Array|Binary Search,https://leetcode.cn/problems/capacity-to-ship-packages-within-d-days
+1012,Hard,Math|Dynamic Programming,https://leetcode.cn/problems/numbers-with-repeated-digits
+1013,Easy,Array|Greedy,https://leetcode.cn/problems/partition-array-into-three-parts-with-equal-sum
+1014,Medium,Array|Dynamic Programming,https://leetcode.cn/problems/best-sightseeing-pair
+1016,Medium,Hash Table|String|Bit Manipulation|Sliding Window,https://leetcode.cn/problems/binary-string-with-substrings-representing-1-to-n
+1017,Medium,Math,https://leetcode.cn/problems/convert-to-base-2
+1018,Easy,Array|Bit Manipulation,https://leetcode.cn/problems/binary-prefix-divisible-by-5
+1021,Easy,String|Stack,https://leetcode.cn/problems/remove-outermost-parentheses
+1023,Medium,Array|Two Pointers|String|Trie|String Matching,https://leetcode.cn/problems/camelcase-matching
+1024,Medium,Array|Dynamic Programming|Greedy,https://leetcode.cn/problems/video-stitching
+1025,Easy,Math|Dynamic Programming|Brainteaser|Game Theory,https://leetcode.cn/problems/divisor-game
+1027,Medium,Array|Hash Table|Binary Search|Dynamic Programming,https://leetcode.cn/problems/longest-arithmetic-subsequence
+1030,Easy,Array|Math|Geometry|Sorting|Matrix,https://leetcode.cn/problems/matrix-cells-in-distance-order
+1031,Medium,Array|Dynamic Programming|Sliding Window,https://leetcode.cn/problems/maximum-sum-of-two-non-overlapping-subarrays
+1032,Hard,Array|String|Design|Trie|Data Stream,https://leetcode.cn/problems/stream-of-characters
+1033,Medium,Math|Brainteaser,https://leetcode.cn/problems/moving-stones-until-consecutive
+1034,Medium,Array|Depth-First Search|Breadth-First Search|Matrix,https://leetcode.cn/problems/coloring-a-border
+1036,Hard,Array|Hash Table|Depth-First Search|Breadth-First Search,https://leetcode.cn/problems/escape-a-large-maze
+1037,Easy,Array|Math|Geometry,https://leetcode.cn/problems/valid-boomerang
+1040,Medium,Array|Math|Sliding Window|Sorting,https://leetcode.cn/problems/moving-stones-until-consecutive-ii
+1041,Medium,Math|String|Simulation,https://leetcode.cn/problems/robot-bounded-in-circle
+1042,Medium,Depth-First Search|Breadth-First Search|Graph Theory,https://leetcode.cn/problems/flower-planting-with-no-adjacent
+1043,Medium,Array|Dynamic Programming,https://leetcode.cn/problems/partition-array-for-maximum-sum
+1046,Easy,Array|Heap (Priority Queue),https://leetcode.cn/problems/last-stone-weight
+1047,Easy,String|Stack,https://leetcode.cn/problems/remove-all-adjacent-duplicates-in-string
+1048,Medium,Array|Hash Table|Two Pointers|String|Dynamic Programming|Sorting,https://leetcode.cn/problems/longest-string-chain
+1049,Medium,Array|Dynamic Programming,https://leetcode.cn/problems/last-stone-weight-ii
+1051,Easy,Array|Sorting|Counting Sort,https://leetcode.cn/problems/height-checker
+1052,Medium,Array|Sliding Window,https://leetcode.cn/problems/grumpy-bookstore-owner
+1053,Medium,Array|Greedy,https://leetcode.cn/problems/previous-permutation-with-one-swap
+1054,Medium,Array|Hash Table|Greedy|Sorting|Heap (Priority Queue)|Counting,https://leetcode.cn/problems/distant-barcodes
+1061,Medium,String|Union-Find,https://leetcode.cn/problems/lexicographically-smallest-equivalent-string
+1071,Easy,Math|String,https://leetcode.cn/problems/greatest-common-divisor-of-strings
+1072,Medium,Array|Hash Table|Matrix,https://leetcode.cn/problems/flip-columns-for-maximum-number-of-equal-rows
+1073,Medium,Array|Math,https://leetcode.cn/problems/adding-two-negabinary-numbers
+1078,Easy,String,https://leetcode.cn/problems/occurrences-after-bigram
+1079,Medium,Hash Table|String|Backtracking|Counting,https://leetcode.cn/problems/letter-tile-possibilities
+1081,Medium,String|Stack|Greedy|Monotonic Stack,https://leetcode.cn/problems/smallest-subsequence-of-distinct-characters
+1089,Easy,Array|Two Pointers,https://leetcode.cn/problems/duplicate-zeros
+1090,Medium,Array|Hash Table|Greedy|Sorting|Counting,https://leetcode.cn/problems/largest-values-from-labels
+1092,Hard,String|Dynamic Programming,https://leetcode.cn/problems/shortest-common-supersequence
+1093,Medium,Array|Math|Probability and Statistics,https://leetcode.cn/problems/statistics-from-a-large-sample
+1094,Medium,Array|Sorting|Heap (Priority Queue)|Simulation|Prefix Sum,https://leetcode.cn/problems/car-pooling
+1095,Hard,Array|Binary Search|Interactive,https://leetcode.cn/problems/find-in-mountain-array
+1096,Hard,Hash Table|String|Backtracking|Stack|Breadth-First Search|Sorting,https://leetcode.cn/problems/brace-expansion-ii
+1103,Easy,Math|Simulation,https://leetcode.cn/problems/distribute-candies-to-people
+1106,Hard,String|Stack|Recursion,https://leetcode.cn/problems/parsing-a-boolean-expression
+1108,Easy,String,https://leetcode.cn/problems/defanging-an-ip-address
+1109,Medium,Array|Prefix Sum,https://leetcode.cn/problems/corporate-flight-bookings
+1111,Medium,String|Stack,https://leetcode.cn/problems/maximum-nesting-depth-of-two-valid-parentheses-strings
+1122,Easy,Array|Hash Table|Sorting|Counting Sort,https://leetcode.cn/problems/relative-sort-array
+1124,Medium,Array|Hash Table|Stack|Monotonic Stack|Prefix Sum,https://leetcode.cn/problems/longest-well-performing-interval
+1125,Hard,Array|Dynamic Programming|Bit Manipulation|Bitmask,https://leetcode.cn/problems/smallest-sufficient-team
+1128,Easy,Array|Hash Table|Counting,https://leetcode.cn/problems/number-of-equivalent-domino-pairs
+1129,Medium,Breadth-First Search|Graph Theory,https://leetcode.cn/problems/shortest-path-with-alternating-colors
+1137,Easy,Math|Dynamic Programming|Memoization,https://leetcode.cn/problems/n-th-tribonacci-number
+1139,Medium,Array|Dynamic Programming|Matrix,https://leetcode.cn/problems/largest-1-bordered-square
+1140,Medium,Array|Math|Dynamic Programming|Prefix Sum|Game Theory,https://leetcode.cn/problems/stone-game-ii
+1143,Medium,String|Dynamic Programming,https://leetcode.cn/problems/longest-common-subsequence
+1144,Medium,Array|Greedy,https://leetcode.cn/problems/decrease-elements-to-make-array-zigzag
+1146,Medium,Array|Hash Table|Binary Search|Design,https://leetcode.cn/problems/snapshot-array
+1147,Hard,Two Pointers|String|Dynamic Programming|Greedy|Rolling Hash|Hash Function,https://leetcode.cn/problems/longest-chunked-palindrome-decomposition
+1154,Easy,Math|String,https://leetcode.cn/problems/day-of-the-year
+1155,Medium,Dynamic Programming,https://leetcode.cn/problems/number-of-dice-rolls-with-target-sum
+1156,Medium,Hash Table|String|Sliding Window,https://leetcode.cn/problems/swap-for-longest-repeated-character-substring
+1157,Hard,Array|Binary Search|Design|Binary Indexed Tree|Segment Tree,https://leetcode.cn/problems/online-majority-element-in-subarray
+1160,Easy,Array|Hash Table|String|Counting,https://leetcode.cn/problems/find-words-that-can-be-formed-by-characters
+1163,Hard,Two Pointers|String,https://leetcode.cn/problems/last-substring-in-lexicographical-order
+1170,Medium,Array|Hash Table|String|Binary Search|Sorting,https://leetcode.cn/problems/compare-strings-by-frequency-of-the-smallest-character
+1172,Hard,Hash Table|Stack|Design|Heap (Priority Queue),https://leetcode.cn/problems/dinner-plate-stacks
+1175,Easy,Math,https://leetcode.cn/problems/prime-arrangements
+1177,Medium,Array|Hash Table|String|Bit Manipulation|Prefix Sum,https://leetcode.cn/problems/can-make-palindrome-from-substring
+1178,Hard,Array|Hash Table|String|Bit Manipulation|Trie,https://leetcode.cn/problems/number-of-valid-words-for-each-puzzle
+1185,Easy,Math,https://leetcode.cn/problems/day-of-the-week
+1186,Medium,Array|Dynamic Programming,https://leetcode.cn/problems/maximum-subarray-sum-with-one-deletion
+1187,Hard,Array|Binary Search|Dynamic Programming|Sorting,https://leetcode.cn/problems/make-array-strictly-increasing
+1190,Medium,String|Stack,https://leetcode.cn/problems/reverse-substrings-between-each-pair-of-parentheses
+1200,Easy,Array|Sorting,https://leetcode.cn/problems/minimum-absolute-difference
+1202,Medium,Array|Hash Table|String|Depth-First Search|Breadth-First Search|Union-Find|Sorting,https://leetcode.cn/problems/smallest-string-with-swaps
+1207,Easy,Array|Hash Table,https://leetcode.cn/problems/unique-number-of-occurrences
+1208,Medium,String|Binary Search|Sliding Window|Prefix Sum,https://leetcode.cn/problems/get-equal-substrings-within-budget
+1218,Medium,Array|Hash Table|Dynamic Programming,https://leetcode.cn/problems/longest-arithmetic-subsequence-of-given-difference
+1219,Medium,Array|Backtracking|Matrix,https://leetcode.cn/problems/path-with-maximum-gold
+1220,Hard,Dynamic Programming,https://leetcode.cn/problems/count-vowels-permutation
+1221,Easy,String|Greedy|Counting,https://leetcode.cn/problems/split-a-string-in-balanced-strings
+1223,Hard,Array|Dynamic Programming,https://leetcode.cn/problems/dice-roll-simulation
+1224,Hard,Array|Hash Table,https://leetcode.cn/problems/maximum-equal-frequency
+1227,Medium,Math|Dynamic Programming|Brainteaser|Probability and Statistics,https://leetcode.cn/problems/airplane-seat-assignment-probability
+1233,Medium,Array|String|Depth-First Search|Trie,https://leetcode.cn/problems/remove-sub-folders-from-the-filesystem
+1234,Medium,String|Sliding Window,https://leetcode.cn/problems/replace-the-substring-for-balanced-string
+1237,Medium,Math|Two Pointers|Binary Search|Interactive,https://leetcode.cn/problems/find-positive-integer-solution-for-a-given-equation
+1238,Medium,Math|Backtracking|Bit Manipulation,https://leetcode.cn/problems/circular-permutation-in-binary-representation
+1239,Medium,Array|String|Backtracking|Bit Manipulation,https://leetcode.cn/problems/maximum-length-of-a-concatenated-string-with-unique-characters
+1247,Medium,Math|String|Greedy,https://leetcode.cn/problems/minimum-swaps-to-make-strings-equal
+1248,Medium,Array|Hash Table|Math|Sliding Window|Prefix Sum,https://leetcode.cn/problems/count-number-of-nice-subarrays
+1250,Hard,Array|Math|Number Theory,https://leetcode.cn/problems/check-if-it-is-a-good-array
+1253,Medium,Array|Greedy|Matrix,https://leetcode.cn/problems/reconstruct-a-2-row-binary-matrix
+1255,Hard,Array|Hash Table|String|Dynamic Programming|Backtracking|Bit Manipulation|Counting|Bitmask,https://leetcode.cn/problems/maximum-score-words-formed-by-letters
+1262,Medium,Array|Dynamic Programming|Greedy|Sorting,https://leetcode.cn/problems/greatest-sum-divisible-by-three
+1269,Hard,Dynamic Programming,https://leetcode.cn/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps
+1276,Medium,Math,https://leetcode.cn/problems/number-of-burgers-with-no-waste-of-ingredients
+1277,Medium,Array|Dynamic Programming|Matrix,https://leetcode.cn/problems/count-square-submatrices-with-all-ones
+1278,Hard,String|Dynamic Programming,https://leetcode.cn/problems/palindrome-partitioning-iii
+1281,Easy,Math,https://leetcode.cn/problems/subtract-the-product-and-sum-of-digits-of-an-integer
+1282,Medium,Array|Hash Table|Greedy,https://leetcode.cn/problems/group-the-people-given-the-group-size-they-belong-to
+1286,Medium,String|Backtracking|Design|Iterator,https://leetcode.cn/problems/iterator-for-combination
+1287,Easy,Array,https://leetcode.cn/problems/element-appearing-more-than-25-in-sorted-array
+1288,Medium,Array|Sorting,https://leetcode.cn/problems/remove-covered-intervals
+1291,Medium,Enumeration,https://leetcode.cn/problems/sequential-digits
+1295,Easy,Array|Math,https://leetcode.cn/problems/find-numbers-with-even-number-of-digits
+1296,Medium,Array|Hash Table|Greedy|Sorting,https://leetcode.cn/problems/divide-array-in-sets-of-k-consecutive-numbers
+1297,Medium,Hash Table|String|Sliding Window,https://leetcode.cn/problems/maximum-number-of-occurrences-of-a-substring
+1298,Hard,Array|Breadth-First Search|Graph Theory,https://leetcode.cn/problems/maximum-candies-you-can-get-from-boxes
+1299,Easy,Array,https://leetcode.cn/problems/replace-elements-with-greatest-element-on-right-side
+1300,Medium,Array|Binary Search|Sorting,https://leetcode.cn/problems/sum-of-mutated-array-closest-to-target
+1301,Hard,Array|Dynamic Programming|Matrix,https://leetcode.cn/problems/number-of-paths-with-max-score
+1304,Easy,Array|Math,https://leetcode.cn/problems/find-n-unique-integers-sum-up-to-zero
+1306,Medium,Array|Depth-First Search|Breadth-First Search,https://leetcode.cn/problems/jump-game-iii
+1309,Easy,String,https://leetcode.cn/problems/decrypt-string-from-alphabet-to-integer-mapping
+1310,Medium,Array|Bit Manipulation|Prefix Sum,https://leetcode.cn/problems/xor-queries-of-a-subarray
+1312,Hard,String|Dynamic Programming,https://leetcode.cn/problems/minimum-insertion-steps-to-make-a-string-palindrome
+1313,Easy,Array,https://leetcode.cn/problems/decompress-run-length-encoded-list
+1314,Medium,Array|Matrix|Prefix Sum,https://leetcode.cn/problems/matrix-block-sum
+1316,Hard,String|Trie|Rolling Hash|Hash Function,https://leetcode.cn/problems/distinct-echo-substrings
+1317,Easy,Math,https://leetcode.cn/problems/convert-integer-to-the-sum-of-two-no-zero-integers
+1323,Easy,Math|Greedy,https://leetcode.cn/problems/maximum-69-number
+1324,Medium,Array|String|Simulation,https://leetcode.cn/problems/print-words-vertically
+1328,Medium,String|Greedy,https://leetcode.cn/problems/break-a-palindrome
+1330,Hard,Array|Math|Greedy,https://leetcode.cn/problems/reverse-subarray-to-maximize-array-value
+1331,Easy,Array|Hash Table|Sorting,https://leetcode.cn/problems/rank-transform-of-an-array
+1332,Easy,Two Pointers|String,https://leetcode.cn/problems/remove-palindromic-subsequences
+1333,Medium,Array|Sorting,https://leetcode.cn/problems/filter-restaurants-by-vegan-friendly-price-and-distance
+1337,Easy,Array|Binary Search|Sorting|Heap (Priority Queue)|Matrix,https://leetcode.cn/problems/the-k-weakest-rows-in-a-matrix
+1338,Medium,Array|Hash Table|Greedy|Sorting|Heap (Priority Queue),https://leetcode.cn/problems/reduce-array-size-to-the-half
+1342,Easy,Math|Bit Manipulation,https://leetcode.cn/problems/number-of-steps-to-reduce-a-number-to-zero
+1345,Hard,Array|Hash Table|Breadth-First Search,https://leetcode.cn/problems/jump-game-iv
+1356,Easy,Array|Bit Manipulation|Sorting|Counting,https://leetcode.cn/problems/sort-integers-by-the-number-of-1-bits
+1357,Medium,Array|Hash Table|Design,https://leetcode.cn/problems/apply-discount-every-n-orders
+1359,Hard,Math|Dynamic Programming|Combinatorics,https://leetcode.cn/problems/count-all-valid-pickup-and-delivery-options
+1363,Hard,Array|Math|Dynamic Programming|Greedy|Sorting,https://leetcode.cn/problems/largest-multiple-of-three
+1365,Easy,Array|Hash Table|Sorting|Counting Sort,https://leetcode.cn/problems/how-many-numbers-are-smaller-than-the-current-number
+1366,Medium,Array|Hash Table|String|Sorting|Counting,https://leetcode.cn/problems/rank-teams-by-votes
+1370,Easy,Hash Table|String|Counting,https://leetcode.cn/problems/increasing-decreasing-string
+1371,Medium,Hash Table|String|Bit Manipulation|Prefix Sum,https://leetcode.cn/problems/find-the-longest-substring-containing-vowels-in-even-counts
+1374,Easy,String,https://leetcode.cn/problems/generate-a-string-with-characters-that-have-odd-counts
+1375,Medium,Array,https://leetcode.cn/problems/number-of-times-binary-string-is-prefix-aligned
+1380,Easy,Array|Matrix,https://leetcode.cn/problems/lucky-numbers-in-a-matrix
+1381,Medium,Array|Stack|Design,https://leetcode.cn/problems/design-a-stack-with-increment-operation
+1385,Easy,Array|Two Pointers|Binary Search|Sorting,https://leetcode.cn/problems/find-the-distance-value-between-two-arrays
+1387,Medium,Dynamic Programming|Memoization|Sorting,https://leetcode.cn/problems/sort-integers-by-the-power-value
+1389,Easy,Array|Simulation,https://leetcode.cn/problems/create-target-array-in-the-given-order
+1390,Medium,Array|Math,https://leetcode.cn/problems/four-divisors
+1392,Hard,String|Rolling Hash|String Matching|Hash Function,https://leetcode.cn/problems/longest-happy-prefix
+1394,Easy,Array|Hash Table|Counting,https://leetcode.cn/problems/find-lucky-integer-in-an-array
+1395,Medium,Array|Dynamic Programming|Binary Indexed Tree|Segment Tree,https://leetcode.cn/problems/count-number-of-teams
+1396,Medium,Hash Table|String|Design,https://leetcode.cn/problems/design-underground-system
+1397,Hard,String|Dynamic Programming|String Matching,https://leetcode.cn/problems/find-all-good-strings
+1399,Easy,Hash Table|Math|Counting,https://leetcode.cn/problems/count-largest-group
+1400,Medium,Hash Table|String|Greedy|Counting,https://leetcode.cn/problems/construct-k-palindrome-strings
+1402,Hard,Array|Dynamic Programming|Greedy|Sorting,https://leetcode.cn/problems/reducing-dishes
+1403,Easy,Array|Greedy|Sorting,https://leetcode.cn/problems/minimum-subsequence-in-non-increasing-order
+1404,Medium,String|Bit Manipulation|Simulation,https://leetcode.cn/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one
+1405,Medium,String|Greedy|Heap (Priority Queue),https://leetcode.cn/problems/longest-happy-string
+1406,Hard,Array|Math|Dynamic Programming|Game Theory,https://leetcode.cn/problems/stone-game-iii
+1408,Easy,Array|String|String Matching,https://leetcode.cn/problems/string-matching-in-an-array
+1409,Medium,Array|Binary Indexed Tree|Simulation,https://leetcode.cn/problems/queries-on-a-permutation-with-key
+1410,Medium,Hash Table|String,https://leetcode.cn/problems/html-entity-parser
+1413,Easy,Array|Prefix Sum,https://leetcode.cn/problems/minimum-value-to-get-positive-step-by-step-sum
+1414,Medium,Math|Greedy,https://leetcode.cn/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k
+1416,Hard,String|Dynamic Programming,https://leetcode.cn/problems/restore-the-array
+1417,Easy,String,https://leetcode.cn/problems/reformat-the-string
+1418,Medium,Array|Hash Table|String|Sorting|Ordered Set,https://leetcode.cn/problems/display-table-of-food-orders-in-a-restaurant
+1419,Medium,String|Counting,https://leetcode.cn/problems/minimum-number-of-frogs-croaking
+1422,Easy,String|Prefix Sum,https://leetcode.cn/problems/maximum-score-after-splitting-a-string
+1423,Medium,Array|Sliding Window|Prefix Sum,https://leetcode.cn/problems/maximum-points-you-can-obtain-from-cards
+1425,Hard,Array|Dynamic Programming|Queue|Sliding Window|Heap (Priority Queue)|Monotonic Queue,https://leetcode.cn/problems/constrained-subsequence-sum
+1431,Easy,Array,https://leetcode.cn/problems/kids-with-the-greatest-number-of-candies
+1432,Medium,Math|Greedy,https://leetcode.cn/problems/max-difference-you-can-get-from-changing-an-integer
+1433,Medium,String|Greedy|Sorting,https://leetcode.cn/problems/check-if-a-string-can-break-another-string
+1434,Hard,Array|Dynamic Programming|Bit Manipulation|Bitmask,https://leetcode.cn/problems/number-of-ways-to-wear-different-hats-to-each-other
+1436,Easy,Array|Hash Table|String,https://leetcode.cn/problems/destination-city
+1438,Medium,Array|Queue|Sliding Window|Heap (Priority Queue)|Ordered Set|Monotonic Queue,https://leetcode.cn/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit
+1439,Hard,Array|Binary Search|Heap (Priority Queue)|Matrix,https://leetcode.cn/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows
+1441,Medium,Array|Stack|Simulation,https://leetcode.cn/problems/build-an-array-with-stack-operations
+1442,Medium,Array|Hash Table|Math|Bit Manipulation|Prefix Sum,https://leetcode.cn/problems/count-triplets-that-can-form-two-arrays-of-equal-xor
+1446,Easy,String,https://leetcode.cn/problems/consecutive-characters
+1447,Medium,Math|String|Number Theory,https://leetcode.cn/problems/simplified-fractions
+1449,Hard,Array|Dynamic Programming,https://leetcode.cn/problems/form-largest-integer-with-digits-that-add-up-to-target
+1450,Easy,Array,https://leetcode.cn/problems/number-of-students-doing-homework-at-a-given-time
+1455,Easy,Two Pointers|String|String Matching,https://leetcode.cn/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence
+1456,Medium,String|Sliding Window,https://leetcode.cn/problems/maximum-number-of-vowels-in-a-substring-of-given-length
+1458,Hard,Array|Dynamic Programming,https://leetcode.cn/problems/max-dot-product-of-two-subsequences
+1460,Easy,Array|Hash Table|Sorting,https://leetcode.cn/problems/make-two-arrays-equal-by-reversing-subarrays
+1461,Medium,Hash Table|String|Bit Manipulation|Rolling Hash|Hash Function,https://leetcode.cn/problems/check-if-a-string-contains-all-binary-codes-of-size-k
+1464,Easy,Array|Sorting|Heap (Priority Queue),https://leetcode.cn/problems/maximum-product-of-two-elements-in-an-array
+1470,Easy,Array,https://leetcode.cn/problems/shuffle-the-array
+1472,Medium,Array|Linked List|Stack|Design|Doubly-Linked List|Data Stream,https://leetcode.cn/problems/design-browser-history
+1473,Hard,Array|Dynamic Programming,https://leetcode.cn/problems/paint-house-iii
+1475,Easy,Array|Stack|Monotonic Stack,https://leetcode.cn/problems/final-prices-with-a-special-discount-in-a-shop
+1480,Easy,Array|Prefix Sum,https://leetcode.cn/problems/running-sum-of-1d-array
+1481,Medium,Array|Hash Table|Greedy|Sorting|Counting,https://leetcode.cn/problems/least-number-of-unique-integers-after-k-removals
+1482,Medium,Array|Binary Search,https://leetcode.cn/problems/minimum-number-of-days-to-make-m-bouquets
+1486,Easy,Math|Bit Manipulation,https://leetcode.cn/problems/xor-operation-in-an-array
+1487,Medium,Array|Hash Table|String,https://leetcode.cn/problems/making-file-names-unique
+1491,Easy,Array|Sorting,https://leetcode.cn/problems/average-salary-excluding-the-minimum-and-maximum-salary
+1492,Medium,Math|Number Theory,https://leetcode.cn/problems/the-kth-factor-of-n
+1493,Medium,Array|Dynamic Programming|Sliding Window,https://leetcode.cn/problems/longest-subarray-of-1s-after-deleting-one-element
+1497,Medium,Array|Hash Table|Counting,https://leetcode.cn/problems/check-if-array-pairs-are-divisible-by-k
+1498,Medium,Array|Two Pointers|Binary Search|Sorting,https://leetcode.cn/problems/number-of-subsequences-that-satisfy-the-given-sum-condition
+1499,Hard,Array|Queue|Sliding Window|Heap (Priority Queue)|Monotonic Queue,https://leetcode.cn/problems/max-value-of-equation
+1502,Easy,Array|Sorting,https://leetcode.cn/problems/can-make-arithmetic-progression-from-sequence
+1507,Easy,String,https://leetcode.cn/problems/reformat-date
+1508,Medium,Array|Two Pointers|Binary Search|Sorting|Prefix Sum,https://leetcode.cn/problems/range-sum-of-sorted-subarray-sums
+1509,Medium,Array|Greedy|Sorting,https://leetcode.cn/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves
+1510,Hard,Math|Dynamic Programming|Game Theory,https://leetcode.cn/problems/stone-game-iv
+1512,Easy,Array|Hash Table|Math|Counting,https://leetcode.cn/problems/number-of-good-pairs
+1513,Medium,Math|String,https://leetcode.cn/problems/number-of-substrings-with-only-1s
+1520,Hard,Hash Table|String|Greedy|Sorting,https://leetcode.cn/problems/maximum-number-of-non-overlapping-substrings
+1523,Easy,Math,https://leetcode.cn/problems/count-odd-numbers-in-an-interval-range
+1524,Medium,Array|Math|Dynamic Programming|Prefix Sum,https://leetcode.cn/problems/number-of-sub-arrays-with-odd-sum
+1525,Medium,Hash Table|String|Dynamic Programming|Bit Manipulation,https://leetcode.cn/problems/number-of-good-ways-to-split-a-string
+1526,Hard,Array|Dynamic Programming|Stack|Greedy|Monotonic Stack,https://leetcode.cn/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array
+1529,Medium,String|Greedy,https://leetcode.cn/problems/minimum-suffix-flips
+1531,Hard,String|Dynamic Programming,https://leetcode.cn/problems/string-compression-ii
+1534,Easy,Array|Enumeration,https://leetcode.cn/problems/count-good-triplets
+1535,Medium,Array|Simulation,https://leetcode.cn/problems/find-the-winner-of-an-array-game
+1539,Easy,Array|Binary Search,https://leetcode.cn/problems/kth-missing-positive-number
+1540,Medium,Hash Table|String,https://leetcode.cn/problems/can-convert-string-in-k-moves
+1541,Medium,String|Stack|Greedy,https://leetcode.cn/problems/minimum-insertions-to-balance-a-parentheses-string
+1542,Hard,Hash Table|String|Bit Manipulation,https://leetcode.cn/problems/find-longest-awesome-substring
+1544,Easy,String|Stack,https://leetcode.cn/problems/make-the-string-great
+1545,Medium,String|Recursion|Simulation,https://leetcode.cn/problems/find-kth-bit-in-nth-binary-string
+1550,Easy,Array,https://leetcode.cn/problems/three-consecutive-odds
+1551,Medium,Math,https://leetcode.cn/problems/minimum-operations-to-make-array-equal
+1553,Hard,Dynamic Programming|Memoization,https://leetcode.cn/problems/minimum-number-of-days-to-eat-n-oranges
+1556,Easy,String,https://leetcode.cn/problems/thousand-separator
+1561,Medium,Array|Math|Greedy|Sorting|Game Theory,https://leetcode.cn/problems/maximum-number-of-coins-you-can-get
+1562,Medium,Array|Hash Table|Binary Search|Simulation,https://leetcode.cn/problems/find-latest-group-of-size-m
+1563,Hard,Array|Math|Dynamic Programming|Game Theory,https://leetcode.cn/problems/stone-game-v
+1566,Easy,Array|Enumeration,https://leetcode.cn/problems/detect-pattern-of-length-m-repeated-k-or-more-times
+1567,Medium,Array|Dynamic Programming|Greedy,https://leetcode.cn/problems/maximum-length-of-subarray-with-positive-product
+1573,Medium,Math|String,https://leetcode.cn/problems/number-of-ways-to-split-a-string
+1574,Medium,Array|Two Pointers|Binary Search|Stack|Monotonic Stack,https://leetcode.cn/problems/shortest-subarray-to-be-removed-to-make-array-sorted
+1575,Hard,Array|Dynamic Programming|Memoization,https://leetcode.cn/problems/count-all-possible-routes
+1576,Easy,String,https://leetcode.cn/problems/replace-all-s-to-avoid-consecutive-repeating-characters
+1577,Medium,Array|Hash Table|Math|Two Pointers,https://leetcode.cn/problems/number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers
+1583,Medium,Array|Simulation,https://leetcode.cn/problems/count-unhappy-friends
+1585,Hard,String|Greedy|Sorting,https://leetcode.cn/problems/check-if-string-is-transformable-with-substring-sort-operations
+1588,Easy,Array|Math|Prefix Sum,https://leetcode.cn/problems/sum-of-all-odd-length-subarrays
+1589,Medium,Array|Greedy|Sorting|Prefix Sum,https://leetcode.cn/problems/maximum-sum-obtained-of-any-permutation
+1590,Medium,Array|Hash Table|Prefix Sum,https://leetcode.cn/problems/make-sum-divisible-by-p
+1592,Easy,String,https://leetcode.cn/problems/rearrange-spaces-between-words
+1593,Medium,Hash Table|String|Backtracking,https://leetcode.cn/problems/split-a-string-into-the-max-number-of-unique-substrings
+1600,Medium,Hash Table|Tree|Depth-First Search|Design,https://leetcode.cn/problems/throne-inheritance
+1603,Easy,Design|Simulation|Counting,https://leetcode.cn/problems/design-parking-system
+1604,Medium,Array|Hash Table|String|Sorting,https://leetcode.cn/problems/alert-using-same-key-card-three-or-more-times-in-a-one-hour-period
+1605,Medium,Array|Greedy|Matrix,https://leetcode.cn/problems/find-valid-matrix-given-row-and-column-sums
+1608,Easy,Array|Binary Search|Sorting,https://leetcode.cn/problems/special-array-with-x-elements-greater-than-or-equal-x
+1611,Hard,Math|Dynamic Programming|Bit Manipulation|Recursion|Memoization,https://leetcode.cn/problems/minimum-one-bit-operations-to-make-integers-zero
+1614,Easy,String|Stack,https://leetcode.cn/problems/maximum-nesting-depth-of-the-parentheses
+1616,Medium,Two Pointers|String,https://leetcode.cn/problems/split-two-strings-to-make-palindrome
+1619,Easy,Array|Sorting,https://leetcode.cn/problems/mean-of-array-after-removing-some-elements
+1624,Easy,Hash Table|String,https://leetcode.cn/problems/largest-substring-between-two-equal-characters
+1626,Medium,Array|Dynamic Programming|Sorting,https://leetcode.cn/problems/best-team-with-no-conflicts
+1629,Easy,Array|String,https://leetcode.cn/problems/slowest-key
+1630,Medium,Array|Hash Table|Sorting,https://leetcode.cn/problems/arithmetic-subarrays
+1636,Easy,Array|Hash Table|Sorting,https://leetcode.cn/problems/sort-array-by-increasing-frequency
+1638,Medium,Hash Table|String|Dynamic Programming|Enumeration,https://leetcode.cn/problems/count-substrings-that-differ-by-one-character
+1640,Easy,Array|Hash Table,https://leetcode.cn/problems/check-array-formation-through-concatenation
+1641,Medium,Math|Dynamic Programming|Combinatorics,https://leetcode.cn/problems/count-sorted-vowel-strings
+1646,Easy,Array|Simulation,https://leetcode.cn/problems/get-maximum-in-generated-array
+1652,Easy,Array|Sliding Window,https://leetcode.cn/problems/defuse-the-bomb
+1653,Medium,String|Dynamic Programming|Stack,https://leetcode.cn/problems/minimum-deletions-to-make-string-balanced
+1654,Medium,Array|Hash Table|Breadth-First Search,https://leetcode.cn/problems/minimum-jumps-to-reach-home
+1657,Medium,Hash Table|String|Sorting|Counting,https://leetcode.cn/problems/determine-if-two-strings-are-close
+1658,Medium,Array|Hash Table|Binary Search|Sliding Window|Prefix Sum,https://leetcode.cn/problems/minimum-operations-to-reduce-x-to-zero
+1662,Easy,Array|String,https://leetcode.cn/problems/check-if-two-string-arrays-are-equivalent
+1663,Medium,String|Greedy,https://leetcode.cn/problems/smallest-string-with-a-given-numeric-value
+1664,Medium,Array|Prefix Sum,https://leetcode.cn/problems/ways-to-make-a-fair-array
+1668,Easy,String|Dynamic Programming|String Matching,https://leetcode.cn/problems/maximum-repeating-substring
+1670,Medium,Array|Linked List|Design|Queue|Doubly-Linked List|Data Stream,https://leetcode.cn/problems/design-front-middle-back-queue
+1671,Hard,Array|Binary Search|Dynamic Programming|Greedy,https://leetcode.cn/problems/minimum-number-of-removals-to-make-mountain-array
+1672,Easy,Array|Matrix,https://leetcode.cn/problems/richest-customer-wealth
+1673,Medium,Array|Stack|Greedy|Monotonic Stack,https://leetcode.cn/problems/find-the-most-competitive-subsequence
+1678,Easy,String,https://leetcode.cn/problems/goal-parser-interpretation
+1681,Hard,Array|Hash Table|Dynamic Programming|Bit Manipulation|Bitmask,https://leetcode.cn/problems/minimum-incompatibility
+1684,Easy,Array|Hash Table|String|Bit Manipulation|Counting,https://leetcode.cn/problems/count-the-number-of-consistent-strings
+1686,Medium,Array|Math|Greedy|Sorting|Heap (Priority Queue)|Game Theory,https://leetcode.cn/problems/stone-game-vi
+1687,Hard,Array|Dynamic Programming|Segment Tree|Queue|Heap (Priority Queue)|Prefix Sum|Monotonic Queue,https://leetcode.cn/problems/delivering-boxes-from-storage-to-ports
+1688,Easy,Math|Simulation,https://leetcode.cn/problems/count-of-matches-in-tournament
+1690,Medium,Array|Math|Dynamic Programming|Game Theory,https://leetcode.cn/problems/stone-game-vii
+1694,Easy,String,https://leetcode.cn/problems/reformat-phone-number
+1695,Medium,Array|Hash Table|Sliding Window,https://leetcode.cn/problems/maximum-erasure-value
+1696,Medium,Array|Dynamic Programming|Queue|Heap (Priority Queue)|Monotonic Queue,https://leetcode.cn/problems/jump-game-vi
+1700,Easy,Array|Stack|Queue|Simulation,https://leetcode.cn/problems/number-of-students-unable-to-eat-lunch
+1702,Medium,String|Greedy,https://leetcode.cn/problems/maximum-binary-string-after-change
+1703,Hard,Array|Greedy|Sliding Window|Prefix Sum,https://leetcode.cn/problems/minimum-adjacent-swaps-for-k-consecutive-ones
+1704,Easy,String|Counting,https://leetcode.cn/problems/determine-if-string-halves-are-alike
+1705,Medium,Array|Greedy|Heap (Priority Queue),https://leetcode.cn/problems/maximum-number-of-eaten-apples
+1707,Hard,Array|Bit Manipulation|Trie,https://leetcode.cn/problems/maximum-xor-with-an-element-from-array
+1710,Easy,Array|Greedy|Sorting,https://leetcode.cn/problems/maximum-units-on-a-truck
+1711,Medium,Array|Hash Table,https://leetcode.cn/problems/count-good-meals
+1713,Hard,Array|Hash Table|Binary Search|Greedy,https://leetcode.cn/problems/minimum-operations-to-make-a-subsequence
+1716,Easy,Math,https://leetcode.cn/problems/calculate-money-in-leetcode-bank
+1717,Medium,String|Stack|Greedy,https://leetcode.cn/problems/maximum-score-from-removing-substrings
+1720,Easy,Array|Bit Manipulation,https://leetcode.cn/problems/decode-xored-array
+1723,Hard,Array|Dynamic Programming|Backtracking|Bit Manipulation|Bitmask,https://leetcode.cn/problems/find-minimum-time-to-finish-all-jobs
+1725,Easy,Array,https://leetcode.cn/problems/number-of-rectangles-that-can-form-the-largest-square
+1726,Medium,Array|Hash Table|Counting,https://leetcode.cn/problems/tuple-with-same-product
+1732,Easy,Array|Prefix Sum,https://leetcode.cn/problems/find-the-highest-altitude
+1733,Medium,Array|Hash Table|Greedy,https://leetcode.cn/problems/minimum-number-of-people-to-teach
+1734,Medium,Array|Bit Manipulation,https://leetcode.cn/problems/decode-xored-permutation
+1735,Hard,Array|Math|Dynamic Programming|Combinatorics|Number Theory,https://leetcode.cn/problems/count-ways-to-make-array-with-product
+1736,Easy,String|Greedy,https://leetcode.cn/problems/latest-time-by-replacing-hidden-digits
+1738,Medium,Array|Divide and Conquer|Bit Manipulation|Sorting|Heap (Priority Queue)|Matrix|Prefix Sum|Quickselect,https://leetcode.cn/problems/find-kth-largest-xor-coordinate-value
+1742,Easy,Hash Table|Math|Counting,https://leetcode.cn/problems/maximum-number-of-balls-in-a-box
+1743,Medium,Array|Hash Table|Depth-First Search,https://leetcode.cn/problems/restore-the-array-from-adjacent-pairs
+1744,Medium,Array|Prefix Sum,https://leetcode.cn/problems/can-you-eat-your-favorite-candy-on-your-favorite-day
+1745,Hard,String|Dynamic Programming,https://leetcode.cn/problems/palindrome-partitioning-iv
+1748,Easy,Array|Hash Table|Counting,https://leetcode.cn/problems/sum-of-unique-elements
+1749,Medium,Array|Dynamic Programming,https://leetcode.cn/problems/maximum-absolute-sum-of-any-subarray
+1750,Medium,Two Pointers|String,https://leetcode.cn/problems/minimum-length-of-string-after-deleting-similar-ends
+1752,Easy,Array,https://leetcode.cn/problems/check-if-array-is-sorted-and-rotated
+1753,Medium,Math|Greedy|Heap (Priority Queue),https://leetcode.cn/problems/maximum-score-from-removing-stones
+1754,Medium,Two Pointers|String|Greedy,https://leetcode.cn/problems/largest-merge-of-two-strings
+1758,Easy,String,https://leetcode.cn/problems/minimum-changes-to-make-alternating-binary-string
+1759,Medium,Math|String,https://leetcode.cn/problems/count-number-of-homogenous-substrings
+1760,Medium,Array|Binary Search,https://leetcode.cn/problems/minimum-limit-of-balls-in-a-bag
+1763,Easy,Hash Table|String|Divide and Conquer|Bit Manipulation|Sliding Window,https://leetcode.cn/problems/longest-nice-substring
+1764,Medium,Array|Two Pointers|Greedy|String Matching,https://leetcode.cn/problems/form-array-by-concatenating-subarrays-of-another-array
+1768,Easy,Two Pointers|String,https://leetcode.cn/problems/merge-strings-alternately
+1769,Medium,Array|String|Prefix Sum,https://leetcode.cn/problems/minimum-number-of-operations-to-move-all-balls-to-each-box
+1773,Easy,Array|String,https://leetcode.cn/problems/count-items-matching-a-rule
+1774,Medium,Array|Dynamic Programming|Backtracking,https://leetcode.cn/problems/closest-dessert-cost
+1775,Medium,Array|Hash Table|Greedy|Counting,https://leetcode.cn/problems/equal-sum-arrays-with-minimum-number-of-operations
+1779,Easy,Array,https://leetcode.cn/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate
+1780,Medium,Math,https://leetcode.cn/problems/check-if-number-is-a-sum-of-powers-of-three
+1781,Medium,Hash Table|String|Counting,https://leetcode.cn/problems/sum-of-beauty-of-all-substrings
+1784,Easy,String,https://leetcode.cn/problems/check-if-binary-string-has-at-most-one-segment-of-ones
+1785,Medium,Array|Greedy,https://leetcode.cn/problems/minimum-elements-to-add-to-form-a-given-sum
+1787,Hard,Array|Hash Table|Dynamic Programming|Bit Manipulation|Counting,https://leetcode.cn/problems/make-the-xor-of-all-segments-equal-to-zero
+1790,Easy,Hash Table|String|Counting,https://leetcode.cn/problems/check-if-one-string-swap-can-make-strings-equal
+1792,Medium,Array|Greedy|Heap (Priority Queue),https://leetcode.cn/problems/maximum-average-pass-ratio
+1793,Hard,Array|Two Pointers|Binary Search|Stack|Monotonic Stack,https://leetcode.cn/problems/maximum-score-of-a-good-subarray
+1796,Easy,Hash Table|String,https://leetcode.cn/problems/second-largest-digit-in-a-string
+1798,Medium,Array|Greedy|Sorting,https://leetcode.cn/problems/maximum-number-of-consecutive-values-you-can-make
+1799,Hard,Array|Math|Dynamic Programming|Backtracking|Bit Manipulation|Number Theory|Bitmask,https://leetcode.cn/problems/maximize-score-after-n-operations
+1800,Easy,Array,https://leetcode.cn/problems/maximum-ascending-subarray-sum
+1802,Medium,Math|Binary Search|Greedy,https://leetcode.cn/problems/maximum-value-at-a-given-index-in-a-bounded-array
+1803,Hard,Array|Bit Manipulation|Trie,https://leetcode.cn/problems/count-pairs-with-xor-in-a-range
+1805,Easy,Hash Table|String,https://leetcode.cn/problems/number-of-different-integers-in-a-string
+1806,Medium,Array|Math|Simulation,https://leetcode.cn/problems/minimum-number-of-operations-to-reinitialize-a-permutation
+1807,Medium,Array|Hash Table|String,https://leetcode.cn/problems/evaluate-the-bracket-pairs-of-a-string
+1813,Medium,Array|Two Pointers|String,https://leetcode.cn/problems/sentence-similarity-iii
+1814,Medium,Array|Hash Table|Math|Counting,https://leetcode.cn/problems/count-nice-pairs-in-an-array
+1815,Hard,Array|Dynamic Programming|Bit Manipulation|Memoization|Bitmask,https://leetcode.cn/problems/maximum-number-of-groups-getting-fresh-donuts
+1816,Easy,Array|String,https://leetcode.cn/problems/truncate-sentence
+1817,Medium,Array|Hash Table,https://leetcode.cn/problems/finding-the-users-active-minutes
+1818,Medium,Array|Binary Search|Sorting|Ordered Set,https://leetcode.cn/problems/minimum-absolute-sum-difference
+1822,Easy,Array|Math,https://leetcode.cn/problems/sign-of-the-product-of-an-array
+1827,Easy,Array|Greedy,https://leetcode.cn/problems/minimum-operations-to-make-the-array-increasing
+1829,Medium,Array|Bit Manipulation|Prefix Sum,https://leetcode.cn/problems/maximum-xor-for-each-query
+1830,Hard,Hash Table|Math|String|Combinatorics|Counting,https://leetcode.cn/problems/minimum-number-of-operations-to-make-string-sorted
+1832,Easy,Hash Table|String,https://leetcode.cn/problems/check-if-the-sentence-is-pangram
+1833,Medium,Array|Greedy|Sorting|Counting Sort,https://leetcode.cn/problems/maximum-ice-cream-bars
+1834,Medium,Array|Sorting|Heap (Priority Queue),https://leetcode.cn/problems/single-threaded-cpu
+1835,Hard,Array|Math|Bit Manipulation,https://leetcode.cn/problems/find-xor-sum-of-all-pairs-bitwise-and
+1837,Easy,Math,https://leetcode.cn/problems/sum-of-digits-in-base-k
+1838,Medium,Array|Binary Search|Greedy|Sliding Window|Sorting|Prefix Sum,https://leetcode.cn/problems/frequency-of-the-most-frequent-element
+1839,Medium,String|Sliding Window,https://leetcode.cn/problems/longest-substring-of-all-vowels-in-order
+1844,Easy,String,https://leetcode.cn/problems/replace-all-digits-with-characters
+1845,Medium,Design|Heap (Priority Queue),https://leetcode.cn/problems/seat-reservation-manager
+1846,Medium,Array|Greedy|Sorting,https://leetcode.cn/problems/maximum-element-after-decreasing-and-rearranging
+1848,Easy,Array,https://leetcode.cn/problems/minimum-distance-to-the-target-element
+1849,Medium,String|Backtracking|Enumeration,https://leetcode.cn/problems/splitting-a-string-into-descending-consecutive-values
+1850,Medium,Two Pointers|String|Greedy,https://leetcode.cn/problems/minimum-adjacent-swaps-to-reach-the-kth-smallest-number
+1851,Hard,Array|Binary Search|Sweep Line|Sorting|Heap (Priority Queue),https://leetcode.cn/problems/minimum-interval-to-include-each-query
+1854,Easy,Array|Counting|Prefix Sum,https://leetcode.cn/problems/maximum-population-year
+1855,Medium,Array|Two Pointers|Binary Search,https://leetcode.cn/problems/maximum-distance-between-a-pair-of-values
+1856,Medium,Array|Stack|Monotonic Stack|Prefix Sum,https://leetcode.cn/problems/maximum-subarray-min-product
+1859,Easy,String|Sorting,https://leetcode.cn/problems/sorting-the-sentence
+1860,Medium,Math|Simulation,https://leetcode.cn/problems/incremental-memory-leak
+1862,Hard,Array|Math|Binary Search|Counting|Enumeration|Prefix Sum,https://leetcode.cn/problems/sum-of-floored-pairs
+1863,Easy,Array|Math|Backtracking|Bit Manipulation|Combinatorics|Enumeration,https://leetcode.cn/problems/sum-of-all-subset-xor-totals
+1864,Medium,String|Greedy,https://leetcode.cn/problems/minimum-number-of-swaps-to-make-the-binary-string-alternating
+1865,Medium,Array|Hash Table|Design,https://leetcode.cn/problems/finding-pairs-with-a-certain-sum
+1866,Hard,Math|Dynamic Programming|Combinatorics,https://leetcode.cn/problems/number-of-ways-to-rearrange-sticks-with-k-sticks-visible
+1869,Easy,String,https://leetcode.cn/problems/longer-contiguous-segments-of-ones-than-zeros
+1870,Medium,Array|Binary Search,https://leetcode.cn/problems/minimum-speed-to-arrive-on-time
+1871,Medium,String|Dynamic Programming|Sliding Window|Prefix Sum,https://leetcode.cn/problems/jump-game-vii
+1872,Hard,Array|Math|Dynamic Programming|Prefix Sum|Game Theory,https://leetcode.cn/problems/stone-game-viii
+1876,Easy,Hash Table|String|Sliding Window|Counting,https://leetcode.cn/problems/substrings-of-size-three-with-distinct-characters
+1877,Medium,Array|Two Pointers|Greedy|Sorting,https://leetcode.cn/problems/minimize-maximum-pair-sum-in-array
+1879,Hard,Array|Dynamic Programming|Bit Manipulation|Bitmask,https://leetcode.cn/problems/minimum-xor-sum-of-two-arrays
+1880,Easy,String,https://leetcode.cn/problems/check-if-word-equals-summation-of-two-words
+1881,Medium,String|Greedy,https://leetcode.cn/problems/maximum-value-after-insertion
+1882,Medium,Array|Heap (Priority Queue),https://leetcode.cn/problems/process-tasks-using-servers
+1883,Hard,Array|Dynamic Programming,https://leetcode.cn/problems/minimum-skips-to-arrive-at-meeting-on-time
+1884,Medium,Math|Dynamic Programming,https://leetcode.cn/problems/egg-drop-with-2-eggs-and-n-floors
+1887,Medium,Array|Sorting,https://leetcode.cn/problems/reduction-operations-to-make-the-array-elements-equal
+1888,Medium,String|Dynamic Programming|Sliding Window,https://leetcode.cn/problems/minimum-number-of-flips-to-make-the-binary-string-alternating
+1889,Hard,Array|Binary Search|Sorting|Prefix Sum,https://leetcode.cn/problems/minimum-space-wasted-from-packaging
+1893,Easy,Array|Hash Table|Prefix Sum,https://leetcode.cn/problems/check-if-all-the-integers-in-a-range-are-covered
+1894,Medium,Array|Binary Search|Simulation|Prefix Sum,https://leetcode.cn/problems/find-the-student-that-will-replace-the-chalk
+1897,Easy,Hash Table|String|Counting,https://leetcode.cn/problems/redistribute-characters-to-make-all-strings-equal
+1898,Medium,Array|Two Pointers|String|Binary Search,https://leetcode.cn/problems/maximum-number-of-removable-characters
+1899,Medium,Array|Greedy,https://leetcode.cn/problems/merge-triplets-to-form-target-triplet
+1900,Hard,Dynamic Programming|Memoization,https://leetcode.cn/problems/the-earliest-and-latest-rounds-where-players-compete
+1903,Easy,Math|String|Greedy,https://leetcode.cn/problems/largest-odd-number-in-string
+1904,Medium,Math|String,https://leetcode.cn/problems/the-number-of-full-rounds-you-have-played
+1906,Medium,Array|Prefix Sum,https://leetcode.cn/problems/minimum-absolute-difference-queries
+1909,Easy,Array,https://leetcode.cn/problems/remove-one-element-to-make-the-array-strictly-increasing
+1910,Medium,String|Stack|Simulation,https://leetcode.cn/problems/remove-all-occurrences-of-a-substring
+1911,Medium,Array|Dynamic Programming,https://leetcode.cn/problems/maximum-alternating-subsequence-sum
+1913,Easy,Array|Sorting,https://leetcode.cn/problems/maximum-product-difference-between-two-pairs
+1915,Medium,Hash Table|String|Bit Manipulation|Prefix Sum,https://leetcode.cn/problems/number-of-wonderful-substrings
+1920,Easy,Array|Simulation,https://leetcode.cn/problems/build-array-from-permutation
+1921,Medium,Array|Greedy|Sorting,https://leetcode.cn/problems/eliminate-maximum-number-of-monsters
+1922,Medium,Math|Recursion,https://leetcode.cn/problems/count-good-numbers
+1923,Hard,Array|Binary Search|Rolling Hash|Suffix Array|Hash Function,https://leetcode.cn/problems/longest-common-subpath
+1925,Easy,Math|Enumeration,https://leetcode.cn/problems/count-square-sum-triples
+1927,Medium,Math|String|Greedy|Game Theory,https://leetcode.cn/problems/sum-game
+1929,Easy,Array|Simulation,https://leetcode.cn/problems/concatenation-of-array
+1930,Medium,Hash Table|String|Bit Manipulation|Prefix Sum,https://leetcode.cn/problems/unique-length-3-palindromic-subsequences
+1935,Easy,Hash Table|String,https://leetcode.cn/problems/maximum-number-of-words-you-can-type
+1936,Medium,Array|Greedy,https://leetcode.cn/problems/add-minimum-number-of-rungs
+1941,Easy,Hash Table|String|Counting,https://leetcode.cn/problems/check-if-all-characters-have-equal-number-of-occurrences
+1942,Medium,Array|Hash Table|Heap (Priority Queue),https://leetcode.cn/problems/the-number-of-the-smallest-unoccupied-chair
+1945,Easy,String|Simulation,https://leetcode.cn/problems/sum-of-digits-of-string-after-convert
+1946,Medium,Array|String|Greedy,https://leetcode.cn/problems/largest-number-after-mutating-substring
+1947,Medium,Array|Dynamic Programming|Backtracking|Bit Manipulation|Bitmask,https://leetcode.cn/problems/maximum-compatibility-score-sum
+1952,Easy,Math|Enumeration|Number Theory,https://leetcode.cn/problems/three-divisors
+1953,Medium,Array|Greedy,https://leetcode.cn/problems/maximum-number-of-weeks-for-which-you-can-work
+1955,Hard,Array|Dynamic Programming,https://leetcode.cn/problems/count-number-of-special-subsequences
+1957,Easy,String,https://leetcode.cn/problems/delete-characters-to-make-fancy-string
+1959,Medium,Array|Dynamic Programming|Prefix Sum,https://leetcode.cn/problems/minimum-total-space-wasted-with-k-resizing-operations
+1961,Easy,Array|Two Pointers|String,https://leetcode.cn/problems/check-if-string-is-a-prefix-of-array
+1962,Medium,Array|Greedy|Heap (Priority Queue),https://leetcode.cn/problems/remove-stones-to-minimize-the-total
+1963,Medium,Two Pointers|String|Stack|Greedy,https://leetcode.cn/problems/minimum-number-of-swaps-to-make-the-string-balanced
+1964,Hard,Array|Binary Search|Binary Indexed Tree,https://leetcode.cn/problems/find-the-longest-valid-obstacle-course-at-each-position
+1967,Easy,Array|String,https://leetcode.cn/problems/number-of-strings-that-appear-as-substrings-in-word
+1968,Medium,Array|Greedy|Sorting,https://leetcode.cn/problems/array-with-elements-not-equal-to-average-of-neighbors
+1969,Medium,Math|Greedy|Recursion,https://leetcode.cn/problems/minimum-non-zero-product-of-the-array-elements
+1979,Easy,Array|Math|Number Theory,https://leetcode.cn/problems/find-greatest-common-divisor-of-array
+1980,Medium,Array|Hash Table|String|Backtracking,https://leetcode.cn/problems/find-unique-binary-string
+1982,Hard,Array|Hash Table|Sorting|Counting,https://leetcode.cn/problems/find-array-given-subset-sums
+1984,Easy,Array|Sliding Window|Sorting,https://leetcode.cn/problems/minimum-difference-between-highest-and-lowest-of-k-scores
+1985,Medium,Array|String|Divide and Conquer|Sorting|Heap (Priority Queue)|Quickselect,https://leetcode.cn/problems/find-the-kth-largest-integer-in-the-array
+1986,Medium,Array|Dynamic Programming|Backtracking|Bit Manipulation|Bitmask,https://leetcode.cn/problems/minimum-number-of-work-sessions-to-finish-the-tasks
+1987,Hard,String|Dynamic Programming,https://leetcode.cn/problems/number-of-unique-good-subsequences
+1991,Easy,Array|Prefix Sum,https://leetcode.cn/problems/find-the-middle-index-in-array
+1994,Hard,Array|Hash Table|Math|Dynamic Programming|Bit Manipulation|Counting|Number Theory|Bitmask,https://leetcode.cn/problems/the-number-of-good-subsets
+1995,Easy,Array|Hash Table|Enumeration,https://leetcode.cn/problems/count-special-quadruplets
+1996,Medium,Array|Stack|Greedy|Sorting|Monotonic Stack,https://leetcode.cn/problems/the-number-of-weak-characters-in-the-game
+1997,Medium,Array|Dynamic Programming,https://leetcode.cn/problems/first-day-where-you-have-been-in-all-the-rooms
+2000,Easy,Two Pointers|String|Stack,https://leetcode.cn/problems/reverse-prefix-of-word
+2006,Easy,Array|Hash Table|Counting,https://leetcode.cn/problems/count-number-of-pairs-with-absolute-difference-k
+2007,Medium,Array|Hash Table|Greedy|Sorting,https://leetcode.cn/problems/find-original-array-from-doubled-array
+2008,Medium,Array|Hash Table|Binary Search|Dynamic Programming|Sorting,https://leetcode.cn/problems/maximum-earnings-from-taxi
+2009,Hard,Array|Hash Table|Binary Search|Sliding Window,https://leetcode.cn/problems/minimum-number-of-operations-to-make-array-continuous
+2011,Easy,Array|String|Simulation,https://leetcode.cn/problems/final-value-of-variable-after-performing-operations
+2012,Medium,Array,https://leetcode.cn/problems/sum-of-beauty-in-the-array
+2016,Easy,Array,https://leetcode.cn/problems/maximum-difference-between-increasing-elements
+2024,Medium,String|Binary Search|Sliding Window|Prefix Sum,https://leetcode.cn/problems/maximize-the-confusion-of-an-exam
+2027,Easy,String|Greedy,https://leetcode.cn/problems/minimum-moves-to-convert-string
+2028,Medium,Array|Math|Simulation,https://leetcode.cn/problems/find-missing-observations
+2029,Medium,Array|Math|Greedy|Counting|Game Theory,https://leetcode.cn/problems/stone-game-ix
+2032,Easy,Array|Hash Table|Bit Manipulation,https://leetcode.cn/problems/two-out-of-three
+2037,Easy,Array|Greedy|Sorting|Counting Sort,https://leetcode.cn/problems/minimum-number-of-moves-to-seat-everyone
+2038,Medium,Math|String|Greedy|Game Theory,https://leetcode.cn/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color
+2040,Hard,Array|Binary Search,https://leetcode.cn/problems/kth-smallest-product-of-two-sorted-arrays
+2043,Medium,Array|Hash Table|Design|Simulation,https://leetcode.cn/problems/simple-bank-system
+2044,Medium,Array|Backtracking|Bit Manipulation|Enumeration,https://leetcode.cn/problems/count-number-of-maximum-bitwise-or-subsets
+2047,Easy,String,https://leetcode.cn/problems/number-of-valid-words-in-a-sentence
+2048,Medium,Hash Table|Math|Backtracking|Counting|Enumeration,https://leetcode.cn/problems/next-greater-numerically-balanced-number
+2053,Easy,Array|Hash Table|String|Counting,https://leetcode.cn/problems/kth-distinct-string-in-an-array
+2057,Easy,Array,https://leetcode.cn/problems/smallest-index-with-equal-value
+2059,Medium,Array|Breadth-First Search,https://leetcode.cn/problems/minimum-operations-to-convert-number
+2060,Hard,String|Dynamic Programming,https://leetcode.cn/problems/check-if-an-original-string-exists-given-two-encoded-strings
+2062,Easy,Hash Table|String,https://leetcode.cn/problems/count-vowel-substrings-of-a-string
+2063,Medium,Math|String|Dynamic Programming|Combinatorics,https://leetcode.cn/problems/vowels-of-all-substrings
+2064,Medium,Array|Binary Search|Greedy,https://leetcode.cn/problems/minimized-maximum-of-products-distributed-to-any-store
+2068,Easy,Hash Table|String|Counting,https://leetcode.cn/problems/check-whether-two-strings-are-almost-equivalent
+2070,Medium,Array|Binary Search|Sorting,https://leetcode.cn/problems/most-beautiful-item-for-each-query
+2071,Hard,Array|Two Pointers|Binary Search|Greedy|Queue|Sorting|Monotonic Queue,https://leetcode.cn/problems/maximum-number-of-tasks-you-can-assign
+2073,Easy,Array|Queue|Simulation,https://leetcode.cn/problems/time-needed-to-buy-tickets
+2076,Hard,Union-Find|Graph Theory,https://leetcode.cn/problems/process-restricted-friend-requests
+2079,Medium,Array|Simulation,https://leetcode.cn/problems/watering-plants
+2080,Medium,Array|Hash Table|Binary Search|Design|Segment Tree,https://leetcode.cn/problems/range-frequency-queries
+2081,Hard,Math|Enumeration,https://leetcode.cn/problems/sum-of-k-mirror-numbers
+2085,Easy,Array|Hash Table|String|Counting,https://leetcode.cn/problems/count-common-words-with-one-occurrence
+2089,Easy,Array|Binary Search|Sorting,https://leetcode.cn/problems/find-target-indices-after-sorting-array
+2091,Medium,Array|Greedy,https://leetcode.cn/problems/removing-minimum-and-maximum-from-array
+2094,Easy,Array|Hash Table|Recursion|Sorting|Enumeration,https://leetcode.cn/problems/finding-3-digit-even-numbers
+2099,Easy,Array|Hash Table|Sorting|Heap (Priority Queue),https://leetcode.cn/problems/find-subsequence-of-length-k-with-the-largest-sum
+2100,Medium,Array|Dynamic Programming|Prefix Sum,https://leetcode.cn/problems/find-good-days-to-rob-the-bank
+2104,Medium,Array|Stack|Monotonic Stack,https://leetcode.cn/problems/sum-of-subarray-ranges
+2105,Medium,Array|Two Pointers|Simulation,https://leetcode.cn/problems/watering-plants-ii
+2108,Easy,Array|Two Pointers|String,https://leetcode.cn/problems/find-first-palindromic-string-in-the-array
+2109,Medium,Array|Two Pointers|String|Simulation,https://leetcode.cn/problems/adding-spaces-to-a-string
+2110,Medium,Array|Math|Two Pointers|Dynamic Programming|Sliding Window,https://leetcode.cn/problems/number-of-smooth-descent-periods-of-a-stock
+2111,Hard,Array|Binary Search,https://leetcode.cn/problems/minimum-operations-to-make-the-array-k-increasing
+2114,Easy,Array|String,https://leetcode.cn/problems/maximum-number-of-words-found-in-sentences
+2115,Medium,Array|Hash Table|String|Graph Theory|Topological Sort,https://leetcode.cn/problems/find-all-possible-recipes-from-given-supplies
+2119,Easy,Math,https://leetcode.cn/problems/a-number-after-a-double-reversal
+2121,Medium,Array|Hash Table|Prefix Sum,https://leetcode.cn/problems/intervals-between-identical-elements
+2122,Hard,Array|Hash Table|Two Pointers|Sorting|Enumeration,https://leetcode.cn/problems/recover-the-original-array
+2124,Easy,String,https://leetcode.cn/problems/check-if-all-as-appears-before-all-bs
+2126,Medium,Array|Greedy|Sorting,https://leetcode.cn/problems/destroying-asteroids
+2129,Easy,String,https://leetcode.cn/problems/capitalize-the-title
+2131,Medium,Array|Hash Table|String|Greedy|Counting,https://leetcode.cn/problems/longest-palindrome-by-concatenating-two-letter-words
+2134,Medium,Array|Sliding Window,https://leetcode.cn/problems/minimum-swaps-to-group-all-1s-together-ii
+2135,Medium,Array|Hash Table|String|Bit Manipulation|Sorting,https://leetcode.cn/problems/count-words-obtained-after-adding-a-letter
+2138,Easy,String|Simulation,https://leetcode.cn/problems/divide-a-string-into-groups-of-size-k
+2139,Medium,Math|Greedy,https://leetcode.cn/problems/minimum-moves-to-reach-target-score
+2140,Medium,Array|Dynamic Programming,https://leetcode.cn/problems/solving-questions-with-brainpower
+2144,Easy,Array|Greedy|Sorting,https://leetcode.cn/problems/minimum-cost-of-buying-candies-with-discount
+2145,Medium,Array|Prefix Sum,https://leetcode.cn/problems/count-the-hidden-sequences
+2148,Easy,Array|Sorting|Counting,https://leetcode.cn/problems/count-elements-with-strictly-smaller-and-greater-elements
+2149,Medium,Array|Two Pointers|Simulation,https://leetcode.cn/problems/rearrange-array-elements-by-sign
+2150,Medium,Array|Hash Table|Counting,https://leetcode.cn/problems/find-all-lonely-numbers-in-the-array
+2154,Easy,Array|Hash Table|Sorting|Simulation,https://leetcode.cn/problems/keep-multiplying-found-values-by-two
+2155,Medium,Array,https://leetcode.cn/problems/all-divisions-with-the-highest-score-of-a-binary-array
+2157,Hard,Array|Hash Table|String|Bit Manipulation|Union-Find,https://leetcode.cn/problems/groups-of-strings
+2160,Easy,Math|Greedy|Sorting,https://leetcode.cn/problems/minimum-sum-of-four-digit-number-after-splitting-digits
+2161,Medium,Array|Two Pointers|Simulation,https://leetcode.cn/problems/partition-array-according-to-given-pivot
+2163,Hard,Array|Dynamic Programming|Heap (Priority Queue),https://leetcode.cn/problems/minimum-difference-in-sums-after-removal-of-elements
+2164,Easy,Array|Sorting,https://leetcode.cn/problems/sort-even-and-odd-indices-independently
+2165,Medium,Math|Sorting,https://leetcode.cn/problems/smallest-value-of-the-rearranged-number
+2166,Medium,Array|Hash Table|String|Design,https://leetcode.cn/problems/design-bitset
+2167,Hard,String|Dynamic Programming,https://leetcode.cn/problems/minimum-time-to-remove-all-cars-containing-illegal-goods
+2169,Easy,Math|Simulation,https://leetcode.cn/problems/count-operations-to-obtain-zero
+2170,Medium,Array|Hash Table|Greedy|Counting,https://leetcode.cn/problems/minimum-operations-to-make-the-array-alternating
+2171,Medium,Array|Greedy|Sorting|Enumeration|Prefix Sum,https://leetcode.cn/problems/removing-minimum-number-of-magic-beans
+2172,Hard,Array|Dynamic Programming|Bit Manipulation|Bitmask,https://leetcode.cn/problems/maximum-and-sum-of-array
+2176,Easy,Array,https://leetcode.cn/problems/count-equal-and-divisible-pairs-in-an-array
+2177,Medium,Math|Simulation,https://leetcode.cn/problems/find-three-consecutive-integers-that-sum-to-a-given-number
+2178,Medium,Math|Backtracking|Greedy,https://leetcode.cn/problems/maximum-split-of-positive-even-integers
+2179,Hard,Array|Binary Search|Divide and Conquer|Binary Indexed Tree|Segment Tree|Merge Sort|Ordered Set,https://leetcode.cn/problems/count-good-triplets-in-an-array
+2180,Easy,Math|Simulation,https://leetcode.cn/problems/count-integers-with-even-digit-sum
+2182,Medium,Hash Table|String|Greedy|Heap (Priority Queue)|Counting,https://leetcode.cn/problems/construct-string-with-repeat-limit
+2185,Easy,Array|String|String Matching,https://leetcode.cn/problems/counting-words-with-a-given-prefix
+2187,Medium,Array|Binary Search,https://leetcode.cn/problems/minimum-time-to-complete-trips
+2188,Hard,Array|Dynamic Programming,https://leetcode.cn/problems/minimum-time-to-finish-the-race
+2190,Easy,Array|Hash Table|Counting,https://leetcode.cn/problems/most-frequent-number-following-key-in-an-array
+2191,Medium,Array|Sorting,https://leetcode.cn/problems/sort-the-jumbled-numbers
+2195,Medium,Array|Math|Greedy|Sorting,https://leetcode.cn/problems/append-k-integers-with-minimal-sum
+2197,Hard,Array|Math|Stack|Number Theory,https://leetcode.cn/problems/replace-non-coprime-numbers-in-array
+2200,Easy,Array|Two Pointers,https://leetcode.cn/problems/find-all-k-distant-indices-in-an-array
+2202,Medium,Array|Greedy,https://leetcode.cn/problems/maximize-the-topmost-element-after-k-moves
+2206,Easy,Array|Hash Table|Bit Manipulation|Counting,https://leetcode.cn/problems/divide-array-into-equal-pairs
+2207,Medium,String|Greedy|Prefix Sum,https://leetcode.cn/problems/maximize-number-of-subsequences-in-a-string
+2208,Medium,Array|Greedy|Heap (Priority Queue),https://leetcode.cn/problems/minimum-operations-to-halve-array-sum
+2210,Easy,Array,https://leetcode.cn/problems/count-hills-and-valleys-in-an-array
+2215,Easy,Array|Hash Table,https://leetcode.cn/problems/find-the-difference-of-two-arrays
+2216,Medium,Array|Stack|Greedy,https://leetcode.cn/problems/minimum-deletions-to-make-array-beautiful
+2217,Medium,Array|Math,https://leetcode.cn/problems/find-palindrome-with-fixed-length
+2220,Easy,Bit Manipulation,https://leetcode.cn/problems/minimum-bit-flips-to-convert-number
+2222,Medium,String|Dynamic Programming|Prefix Sum,https://leetcode.cn/problems/number-of-ways-to-select-buildings
+2224,Easy,String|Greedy,https://leetcode.cn/problems/minimum-number-of-operations-to-convert-time
+2225,Medium,Array|Hash Table|Sorting|Counting,https://leetcode.cn/problems/find-players-with-zero-or-one-losses
+2226,Medium,Array|Binary Search,https://leetcode.cn/problems/maximum-candies-allocated-to-k-children
+2227,Hard,Array|Hash Table|String|Design|Trie,https://leetcode.cn/problems/encrypt-and-decrypt-strings
+2231,Easy,Sorting|Heap (Priority Queue),https://leetcode.cn/problems/largest-number-after-digit-swaps-by-parity
+2232,Medium,String|Enumeration,https://leetcode.cn/problems/minimize-result-by-adding-parentheses-to-expression
+2233,Medium,Array|Greedy|Heap (Priority Queue),https://leetcode.cn/problems/maximum-product-after-k-increments
+2234,Hard,Array|Two Pointers|Binary Search|Greedy|Sorting|Enumeration|Prefix Sum,https://leetcode.cn/problems/maximum-total-beauty-of-the-gardens
+2235,Easy,Math,https://leetcode.cn/problems/add-two-integers
+2239,Easy,Array,https://leetcode.cn/problems/find-closest-number-to-zero
+2240,Medium,Math|Enumeration,https://leetcode.cn/problems/number-of-ways-to-buy-pens-and-pencils
+2241,Medium,Array|Greedy|Design,https://leetcode.cn/problems/design-an-atm-machine
+2243,Easy,String|Simulation,https://leetcode.cn/problems/calculate-digit-sum-of-a-string
+2244,Medium,Array|Hash Table|Greedy|Counting,https://leetcode.cn/problems/minimum-rounds-to-complete-all-tasks
+2248,Easy,Array|Hash Table|Sorting|Counting,https://leetcode.cn/problems/intersection-of-multiple-arrays
+2255,Easy,Array|String,https://leetcode.cn/problems/count-prefixes-of-a-given-string
+2259,Easy,String|Greedy|Enumeration,https://leetcode.cn/problems/remove-digit-from-number-to-maximize-result
+2261,Medium,Array|Hash Table|Trie|Rolling Hash|Hash Function|Enumeration,https://leetcode.cn/problems/k-divisible-elements-subarrays
+2264,Easy,String,https://leetcode.cn/problems/largest-3-same-digit-number-in-string
+2269,Easy,Math|String|Sliding Window,https://leetcode.cn/problems/find-the-k-beauty-of-a-number
+2270,Medium,Array|Prefix Sum,https://leetcode.cn/problems/number-of-ways-to-split-array
+2272,Hard,Hash Table|String|Dynamic Programming|Enumeration,https://leetcode.cn/problems/substring-with-largest-variance
+2273,Easy,Array|Hash Table|String|Sorting,https://leetcode.cn/problems/find-resultant-array-after-removing-anagrams
+2274,Medium,Array|Sorting,https://leetcode.cn/problems/maximum-consecutive-floors-without-special-floors
+2275,Medium,Array|Hash Table|Bit Manipulation|Counting,https://leetcode.cn/problems/largest-combination-with-bitwise-and-greater-than-zero
+2276,Hard,Design|Segment Tree|Ordered Set,https://leetcode.cn/problems/count-integers-in-intervals
+2278,Easy,String,https://leetcode.cn/problems/percentage-of-letter-in-string
+2283,Easy,Hash Table|String|Counting,https://leetcode.cn/problems/check-if-number-has-equal-digit-count-and-digit-value
+2286,Hard,Binary Search|Design|Binary Indexed Tree|Segment Tree,https://leetcode.cn/problems/booking-concert-tickets-in-groups
+2287,Easy,Hash Table|String|Counting,https://leetcode.cn/problems/rearrange-characters-to-make-target-string
+2288,Medium,String,https://leetcode.cn/problems/apply-discount-to-prices
+2294,Medium,Array|Greedy|Sorting,https://leetcode.cn/problems/partition-array-such-that-maximum-difference-is-k
+2296,Hard,Linked List|String|Stack|Design|Simulation|Doubly-Linked List,https://leetcode.cn/problems/design-a-text-editor
+2299,Easy,String,https://leetcode.cn/problems/strong-password-checker-ii
+2300,Medium,Array|Two Pointers|Binary Search|Sorting,https://leetcode.cn/problems/successful-pairs-of-spells-and-potions
+2302,Hard,Array|Binary Search|Sliding Window|Prefix Sum,https://leetcode.cn/problems/count-subarrays-with-score-less-than-k
+2303,Easy,Array|Simulation,https://leetcode.cn/problems/calculate-amount-paid-in-taxes
+2306,Hard,Array|Hash Table|String|Bit Manipulation|Enumeration,https://leetcode.cn/problems/naming-a-company
+2309,Easy,Hash Table|String|Enumeration,https://leetcode.cn/problems/greatest-english-letter-in-upper-and-lower-case
+2310,Medium,Math|Dynamic Programming|Greedy|Enumeration,https://leetcode.cn/problems/sum-of-numbers-with-units-digit-k
+2311,Medium,String|Dynamic Programming|Greedy|Memoization,https://leetcode.cn/problems/longest-binary-subsequence-less-than-or-equal-to-k
+2315,Easy,String,https://leetcode.cn/problems/count-asterisks
+2327,Medium,Dynamic Programming|Queue|Simulation,https://leetcode.cn/problems/number-of-people-aware-of-a-secret
+2332,Medium,Array|Two Pointers|Binary Search|Sorting,https://leetcode.cn/problems/the-latest-time-to-catch-a-bus
+2335,Easy,Array|Greedy|Sorting|Heap (Priority Queue),https://leetcode.cn/problems/minimum-amount-of-time-to-fill-cups
+2336,Medium,Hash Table|Design|Heap (Priority Queue)|Ordered Set,https://leetcode.cn/problems/smallest-number-in-infinite-set
+2337,Medium,Two Pointers|String,https://leetcode.cn/problems/move-pieces-to-obtain-a-string
+2338,Hard,Math|Dynamic Programming|Combinatorics|Number Theory,https://leetcode.cn/problems/count-the-number-of-ideal-arrays
+2341,Easy,Array|Hash Table|Counting,https://leetcode.cn/problems/maximum-number-of-pairs-in-array
+2342,Medium,Array|Hash Table|Sorting|Heap (Priority Queue),https://leetcode.cn/problems/max-sum-of-a-pair-with-equal-sum-of-digits
+2347,Easy,Array|Hash Table|Counting,https://leetcode.cn/problems/best-poker-hand
+2348,Medium,Array|Math,https://leetcode.cn/problems/number-of-zero-filled-subarrays
+2349,Medium,Hash Table|Design|Heap (Priority Queue)|Ordered Set,https://leetcode.cn/problems/design-a-number-container-system
+2351,Easy,Hash Table|String|Bit Manipulation|Counting,https://leetcode.cn/problems/first-letter-to-appear-twice
+2353,Medium,Array|Hash Table|String|Design|Heap (Priority Queue)|Ordered Set,https://leetcode.cn/problems/design-a-food-rating-system
+2357,Easy,Array|Hash Table|Greedy|Sorting|Heap (Priority Queue)|Simulation,https://leetcode.cn/problems/make-array-zero-by-subtracting-equal-amounts
+2363,Easy,Array|Hash Table|Sorting|Ordered Set,https://leetcode.cn/problems/merge-similar-items
+2364,Medium,Array|Hash Table|Math|Counting,https://leetcode.cn/problems/count-number-of-bad-pairs
+2367,Easy,Array|Hash Table|Two Pointers|Enumeration,https://leetcode.cn/problems/number-of-arithmetic-triplets
+2369,Medium,Array|Dynamic Programming,https://leetcode.cn/problems/check-if-there-is-a-valid-partition-for-the-array
+2376,Hard,Math|Dynamic Programming,https://leetcode.cn/problems/count-special-integers
+2379,Easy,String|Sliding Window,https://leetcode.cn/problems/minimum-recolors-to-get-k-consecutive-black-blocks
+2383,Easy,Array|Greedy,https://leetcode.cn/problems/minimum-hours-of-training-to-win-a-competition
+2386,Hard,Array|Sorting|Heap (Priority Queue),https://leetcode.cn/problems/find-the-k-sum-of-an-array
+2389,Easy,Array|Binary Search|Greedy|Sorting|Prefix Sum,https://leetcode.cn/problems/longest-subsequence-with-limited-sum
+2390,Medium,String|Stack|Simulation,https://leetcode.cn/problems/removing-stars-from-a-string
+2391,Medium,Array|String|Prefix Sum,https://leetcode.cn/problems/minimum-amount-of-time-to-collect-garbage
+2395,Easy,Array|Hash Table,https://leetcode.cn/problems/find-subarrays-with-equal-sum
+2398,Hard,Array|Binary Search|Queue|Sliding Window|Heap (Priority Queue)|Prefix Sum|Monotonic Queue,https://leetcode.cn/problems/maximum-number-of-robots-within-budget
+2399,Easy,Array|Hash Table|String,https://leetcode.cn/problems/check-distances-between-same-letters
+2404,Easy,Array|Hash Table|Counting,https://leetcode.cn/problems/most-frequent-even-element
+2409,Easy,Math|String,https://leetcode.cn/problems/count-days-spent-together
+2410,Medium,Array|Two Pointers|Greedy|Sorting,https://leetcode.cn/problems/maximum-matching-of-players-with-trainers
+2411,Medium,Array|Binary Search|Bit Manipulation|Sliding Window,https://leetcode.cn/problems/smallest-subarrays-with-maximum-bitwise-or
+2412,Hard,Array|Greedy|Sorting,https://leetcode.cn/problems/minimum-money-required-before-transactions
+2413,Easy,Math|Number Theory,https://leetcode.cn/problems/smallest-even-multiple
+2414,Medium,String,https://leetcode.cn/problems/length-of-the-longest-alphabetical-continuous-substring
+2418,Easy,Array|Hash Table|String|Sorting,https://leetcode.cn/problems/sort-the-people
+2419,Medium,Array|Bit Manipulation|Brainteaser,https://leetcode.cn/problems/longest-subarray-with-maximum-bitwise-and
+2420,Medium,Array|Dynamic Programming|Prefix Sum,https://leetcode.cn/problems/find-all-good-indices
+2423,Easy,Hash Table|String|Counting,https://leetcode.cn/problems/remove-letter-to-equalize-frequency
+2427,Easy,Math|Enumeration|Number Theory,https://leetcode.cn/problems/number-of-common-factors
+2432,Easy,Array,https://leetcode.cn/problems/the-employee-that-worked-on-the-longest-task
+2434,Medium,Hash Table|String|Stack|Greedy,https://leetcode.cn/problems/using-a-robot-to-print-the-lexicographically-smallest-string
+2437,Easy,String|Enumeration,https://leetcode.cn/problems/number-of-valid-clock-times
+2438,Medium,Array|Bit Manipulation|Prefix Sum,https://leetcode.cn/problems/range-product-queries-of-powers
+2441,Easy,Array|Hash Table|Two Pointers|Sorting,https://leetcode.cn/problems/largest-positive-integer-that-exists-with-its-negative
+2444,Hard,Array|Queue|Sliding Window|Monotonic Queue,https://leetcode.cn/problems/count-subarrays-with-fixed-bounds
+2446,Easy,Array|String,https://leetcode.cn/problems/determine-if-two-events-have-conflict
+2451,Easy,Array|Hash Table|String,https://leetcode.cn/problems/odd-string-difference
+2454,Hard,Array|Binary Search|Stack|Sorting|Heap (Priority Queue)|Monotonic Stack,https://leetcode.cn/problems/next-greater-element-iv
+2455,Easy,Array|Math,https://leetcode.cn/problems/average-value-of-even-numbers-that-are-divisible-by-three
+2460,Easy,Array|Two Pointers|Simulation,https://leetcode.cn/problems/apply-operations-to-an-array
+2462,Medium,Array|Two Pointers|Heap (Priority Queue)|Simulation,https://leetcode.cn/problems/total-cost-to-hire-k-workers
+2465,Easy,Array|Hash Table|Two Pointers|Sorting,https://leetcode.cn/problems/number-of-distinct-averages
+2469,Easy,Math,https://leetcode.cn/problems/convert-the-temperature
+2475,Easy,Array|Hash Table|Sorting,https://leetcode.cn/problems/number-of-unequal-triplets-in-array
+2485,Easy,Math|Prefix Sum,https://leetcode.cn/problems/find-the-pivot-integer
+2488,Hard,Array|Hash Table|Prefix Sum,https://leetcode.cn/problems/count-subarrays-with-median-k
+2490,Easy,String,https://leetcode.cn/problems/circular-sentence
+2496,Easy,Array|String,https://leetcode.cn/problems/maximum-value-of-a-string-in-an-array
+2502,Medium,Array|Hash Table|Design|Simulation,https://leetcode.cn/problems/design-memory-allocator
+2506,Easy,Array|Hash Table|String|Bit Manipulation|Counting,https://leetcode.cn/problems/count-pairs-of-similar-strings
+2511,Easy,Array|Two Pointers,https://leetcode.cn/problems/maximum-enemy-forts-that-can-be-captured
+2512,Medium,Array|Hash Table|String|Sorting|Heap (Priority Queue),https://leetcode.cn/problems/reward-top-k-students
+2516,Medium,Hash Table|String|Sliding Window,https://leetcode.cn/problems/take-k-of-each-character-from-left-and-right
+2517,Medium,Array|Binary Search|Greedy|Sorting,https://leetcode.cn/problems/maximum-tastiness-of-candy-basket
+2520,Easy,Math,https://leetcode.cn/problems/count-the-digits-that-divide-a-number
+2525,Easy,Math,https://leetcode.cn/problems/categorize-box-according-to-criteria
+2529,Easy,Array|Binary Search|Counting,https://leetcode.cn/problems/maximum-count-of-positive-integer-and-negative-integer
+2530,Medium,Array|Greedy|Heap (Priority Queue),https://leetcode.cn/problems/maximal-score-after-applying-k-operations
+2535,Easy,Array|Math,https://leetcode.cn/problems/difference-between-element-sum-and-digit-sum-of-an-array
+2537,Medium,Array|Hash Table|Sliding Window,https://leetcode.cn/problems/count-the-number-of-good-subarrays
+2544,Easy,Math,https://leetcode.cn/problems/alternating-digit-sum
+2549,Easy,Array|Hash Table|Math|Simulation,https://leetcode.cn/problems/count-distinct-numbers-on-board
+2552,Hard,Array|Dynamic Programming|Binary Indexed Tree|Enumeration|Prefix Sum,https://leetcode.cn/problems/count-increasing-quadruplets
+2555,Medium,Array|Binary Search|Sliding Window,https://leetcode.cn/problems/maximize-win-from-two-segments
+2558,Easy,Array|Heap (Priority Queue)|Simulation,https://leetcode.cn/problems/take-gifts-from-the-richest-pile
+2559,Medium,Array|String|Prefix Sum,https://leetcode.cn/problems/count-vowel-strings-in-ranges
+2560,Medium,Array|Binary Search|Dynamic Programming|Greedy,https://leetcode.cn/problems/house-robber-iv
+2561,Hard,Array|Hash Table|Greedy|Sort,https://leetcode.cn/problems/rearranging-fruits
+2562,Easy,Array|Two Pointers|Simulation,https://leetcode.cn/problems/find-the-array-concatenation-value
+2563,Medium,Array|Two Pointers|Binary Search|Sorting,https://leetcode.cn/problems/count-the-number-of-fair-pairs
+2566,Easy,Math|Greedy,https://leetcode.cn/problems/maximum-difference-by-remapping-a-digit
+2569,Hard,Array|Segment Tree,https://leetcode.cn/problems/handling-sum-queries-after-update
+2575,Medium,Array|Math|String,https://leetcode.cn/problems/find-the-divisibility-array-of-a-string
+2576,Medium,Array|Two Pointers|Binary Search|Greedy|Sorting,https://leetcode.cn/problems/find-the-maximum-number-of-marked-indices
+2578,Easy,Math|Greedy|Sorting,https://leetcode.cn/problems/split-with-minimum-sum
+2580,Medium,Array|Sorting,https://leetcode.cn/problems/count-ways-to-group-overlapping-ranges
+2582,Easy,Math|Simulation,https://leetcode.cn/problems/pass-the-pillow
+2586,Easy,Array|String|Counting,https://leetcode.cn/problems/count-the-number-of-vowel-strings-in-range
+2588,Medium,Array|Hash Table|Bit Manipulation|Prefix Sum,https://leetcode.cn/problems/count-the-number-of-beautiful-subarrays
+2589,Hard,Array|Binary Search|Stack|Greedy|Sorting,https://leetcode.cn/problems/minimum-time-to-complete-all-tasks
+2591,Easy,Math|Greedy,https://leetcode.cn/problems/distribute-money-to-maximum-children
+2594,Medium,Array|Binary Search,https://leetcode.cn/problems/minimum-time-to-repair-cars
+2595,Easy,Bit Manipulation,https://leetcode.cn/problems/number-of-even-and-odd-bits
+2597,Medium,Array|Hash Table|Math|Dynamic Programming|Backtracking|Sorting|Combinatorics,https://leetcode.cn/problems/the-number-of-beautiful-subsets
+2600,Easy,Math|Greedy,https://leetcode.cn/problems/k-items-with-the-maximum-sum
+2605,Easy,Array|Hash Table|Enumeration,https://leetcode.cn/problems/form-smallest-number-from-two-digit-arrays
+2609,Easy,String,https://leetcode.cn/problems/find-the-longest-balanced-substring-of-a-binary-string
+2610,Medium,Array|Hash Table,https://leetcode.cn/problems/convert-an-array-into-a-2d-array-with-conditions
+2611,Medium,Array|Greedy|Sorting|Heap (Priority Queue),https://leetcode.cn/problems/mice-and-cheese
+2612,Hard,Array|Hash Table|Breadth-First Search|Union-Find|Ordered Set,https://leetcode.cn/problems/minimum-reverse-operations
+2616,Medium,Array|Binary Search|Dynamic Programming|Greedy|Sorting,https://leetcode.cn/problems/minimize-the-maximum-difference-of-pairs
+2643,Easy,Array|Matrix,https://leetcode.cn/problems/row-with-maximum-ones
+2644,Easy,Array,https://leetcode.cn/problems/find-the-maximum-divisibility-score
+2645,Medium,String|Dynamic Programming|Stack|Greedy,https://leetcode.cn/problems/minimum-additions-to-make-valid-string
+2651,Easy,Math,https://leetcode.cn/problems/calculate-delayed-arrival-time
+2652,Easy,Math,https://leetcode.cn/problems/sum-multiples
+2656,Easy,Array|Greedy,https://leetcode.cn/problems/maximum-sum-with-exactly-k-elements
+2660,Easy,Array|Simulation,https://leetcode.cn/problems/determine-the-winner-of-a-bowling-game
+2663,Hard,String|Greedy,https://leetcode.cn/problems/lexicographically-smallest-beautiful-string
+2670,Easy,Array|Hash Table,https://leetcode.cn/problems/find-the-distinct-difference-array
+2671,Medium,Hash Table|Design,https://leetcode.cn/problems/frequency-tracker
+2678,Easy,Array|String,https://leetcode.cn/problems/number-of-senior-citizens
+2679,Medium,Array|Sorting|Heap (Priority Queue)|Matrix|Simulation,https://leetcode.cn/problems/sum-in-a-matrix
+2680,Medium,Array|Greedy|Bit Manipulation|Prefix Sum,https://leetcode.cn/problems/maximum-or
+2681,Hard,Array|Math|Dynamic Programming|Sorting|Prefix Sum,https://leetcode.cn/problems/power-of-heroes
+2682,Easy,Array|Hash Table|Simulation,https://leetcode.cn/problems/find-the-losers-of-the-circular-game
+2696,Easy,String|Stack|Simulation,https://leetcode.cn/problems/minimum-string-length-after-removing-substrings
+2697,Easy,Two Pointers|String|Greedy,https://leetcode.cn/problems/lexicographically-smallest-palindrome
+2698,Medium,Math|Backtracking,https://leetcode.cn/problems/find-the-punishment-number-of-an-integer
+2706,Easy,Array|Greedy|Sorting,https://leetcode.cn/problems/buy-two-chocolates
+2707,Medium,Array|Hash Table|String|Dynamic Programming|Trie,https://leetcode.cn/problems/extra-characters-in-a-string
+2708,Medium,Array|Dynamic Programming|Backtracking|Greedy|Bit Manipulation|Sorting|Enumeration,https://leetcode.cn/problems/maximum-strength-of-a-group
+2710,Easy,String,https://leetcode.cn/problems/remove-trailing-zeros-from-a-string
+2712,Medium,String|Dynamic Programming|Greedy,https://leetcode.cn/problems/minimum-cost-to-make-all-characters-equal
+2716,Easy,Hash Table|String,https://leetcode.cn/problems/minimize-string-length
+2717,Easy,Array|Simulation,https://leetcode.cn/problems/semi-ordered-permutation
+2719,Hard,Math|String|Dynamic Programming,https://leetcode.cn/problems/count-of-integers
+2731,Medium,Array|Brainteaser|Sorting|Prefix Sum,https://leetcode.cn/problems/movement-of-robots
+2732,Hard,Array|Hash Table|Bit Manipulation|Matrix,https://leetcode.cn/problems/find-a-good-subset-of-the-matrix
+2734,Medium,String|Greedy,https://leetcode.cn/problems/lexicographically-smallest-string-after-substring-operation
+2735,Medium,Array|Enumeration,https://leetcode.cn/problems/collecting-chocolates
+2736,Hard,Array|Binary Search|Stack|Binary Indexed Tree|Segment Tree|Sorting|Monotonic Stack,https://leetcode.cn/problems/maximum-sum-queries
+2739,Easy,Math|Simulation,https://leetcode.cn/problems/total-distance-traveled
+2740,Medium,Array|Sorting,https://leetcode.cn/problems/find-the-value-of-the-partition
+2741,Medium,Array|Dynamic Programming|Bit Manipulation|Bitmask,https://leetcode.cn/problems/special-permutations
+2742,Hard,Array|Dynamic Programming,https://leetcode.cn/problems/painting-the-walls
+2744,Easy,Array|Hash Table|String|Simulation,https://leetcode.cn/problems/find-maximum-number-of-string-pairs
+2748,Easy,Array|Hash Table|Math|Counting|Number Theory,https://leetcode.cn/problems/number-of-beautiful-pairs
+2749,Medium,Bit Manipulation|Brainteaser|Enumeration,https://leetcode.cn/problems/minimum-operations-to-make-the-integer-zero
+2760,Easy,Array|Sliding Window,https://leetcode.cn/problems/longest-even-odd-subarray-with-threshold
+2765,Easy,Array|Enumeration,https://leetcode.cn/problems/longest-alternating-subarray
+2766,Medium,Array|Hash Table|Sorting|Simulation,https://leetcode.cn/problems/relocate-marbles
+2769,Easy,Math,https://leetcode.cn/problems/find-the-maximum-achievable-number
+2779,Medium,Array|Binary Search|Sliding Window|Sorting,https://leetcode.cn/problems/maximum-beauty-of-an-array-after-applying-operation
+2785,Medium,String|Sorting,https://leetcode.cn/problems/sort-vowels-in-a-string
+2786,Medium,Array|Dynamic Programming,https://leetcode.cn/problems/visit-array-positions-to-maximize-score
+2787,Medium,Dynamic Programming,https://leetcode.cn/problems/ways-to-express-an-integer-as-sum-of-powers
+2788,Easy,Array|String,https://leetcode.cn/problems/split-strings-by-separator
+2789,Medium,Array|Greedy,https://leetcode.cn/problems/largest-element-in-an-array-after-merge-operations
+2798,Easy,Array,https://leetcode.cn/problems/number-of-employees-who-met-the-target
+2799,Medium,Array|Hash Table|Sliding Window,https://leetcode.cn/problems/count-complete-subarrays-in-an-array
+2806,Easy,Math,https://leetcode.cn/problems/account-balance-after-rounded-purchase
+2808,Medium,Array|Hash Table,https://leetcode.cn/problems/minimum-seconds-to-equalize-a-circular-array
+2809,Hard,Array|Dynamic Programming|Sorting,https://leetcode.cn/problems/minimum-time-to-make-array-sum-at-most-x
+2810,Easy,String|Simulation,https://leetcode.cn/problems/faulty-keyboard
+2813,Hard,Array|Hash Table|Stack|Greedy|Sorting|Heap (Priority Queue),https://leetcode.cn/problems/maximum-elegance-of-a-k-length-subsequence
+2824,Easy,Array|Two Pointers|Binary Search|Sorting,https://leetcode.cn/problems/count-pairs-whose-sum-is-less-than-target
+2828,Easy,Array|String,https://leetcode.cn/problems/check-if-a-string-is-an-acronym-of-words
+2829,Medium,Math|Greedy,https://leetcode.cn/problems/determine-the-minimum-sum-of-a-k-avoiding-array
+2831,Medium,Array|Hash Table|Binary Search|Sliding Window,https://leetcode.cn/problems/find-the-longest-equal-subarray
+2834,Medium,Math|Greedy,https://leetcode.cn/problems/find-the-minimum-possible-sum-of-a-beautiful-array
+2843,Easy,Math|Enumeration,https://leetcode.cn/problems/count-symmetric-integers
+2844,Medium,Math|String|Greedy|Enumeration,https://leetcode.cn/problems/minimum-operations-to-make-a-special-number
+2845,Medium,Array|Hash Table|Prefix Sum,https://leetcode.cn/problems/count-of-interesting-subarrays
+2848,Easy,Array|Hash Table|Prefix Sum,https://leetcode.cn/problems/points-that-intersect-with-cars
+2859,Easy,Array|Bit Manipulation,https://leetcode.cn/problems/sum-of-values-at-indices-with-k-set-bits
+2860,Medium,Array|Sorting|Enumeration,https://leetcode.cn/problems/happy-students
+2861,Medium,Array|Binary Search,https://leetcode.cn/problems/maximum-number-of-alloys
+2864,Easy,Math|String|Greedy,https://leetcode.cn/problems/maximum-odd-binary-number
+2865,Medium,Array|Stack|Monotonic Stack,https://leetcode.cn/problems/beautiful-towers-i
+2866,Medium,Array|Stack|Monotonic Stack,https://leetcode.cn/problems/beautiful-towers-ii
+2873,Easy,Array,https://leetcode.cn/problems/maximum-value-of-an-ordered-triplet-i
+2874,Medium,Array,https://leetcode.cn/problems/maximum-value-of-an-ordered-triplet-ii
+2894,Easy,Math,https://leetcode.cn/problems/divisible-and-non-divisible-sums-difference
+2900,Easy,Array|String|Dynamic Programming|Greedy,https://leetcode.cn/problems/longest-unequal-adjacent-groups-subsequence-i
+2901,Medium,Array|String|Dynamic Programming,https://leetcode.cn/problems/longest-unequal-adjacent-groups-subsequence-ii
+2903,Easy,Array|Two Pointers,https://leetcode.cn/problems/find-indices-with-index-and-value-difference-i
+2908,Easy,Array,https://leetcode.cn/problems/minimum-sum-of-mountain-triplets-i
+2917,Easy,Array|Bit Manipulation,https://leetcode.cn/problems/find-the-k-or-of-an-array
+2918,Medium,Array|Greedy,https://leetcode.cn/problems/minimum-equal-sum-of-two-arrays-after-replacing-zeros
+2923,Easy,Array|Matrix,https://leetcode.cn/problems/find-champion-i
+2928,Easy,Math|Combinatorics|Enumeration,https://leetcode.cn/problems/distribute-candies-among-children-i
+2929,Medium,Math|Combinatorics|Enumeration,https://leetcode.cn/problems/distribute-candies-among-children-ii
+2931,Hard,Array|Greedy|Sorting|Heap (Priority Queue)|Matrix,https://leetcode.cn/problems/maximum-spending-after-buying-items
+2938,Medium,Two Pointers|String|Greedy,https://leetcode.cn/problems/separate-black-and-white-balls
+2940,Hard,Array|Binary Search|Stack|Binary Indexed Tree|Segment Tree|Heap (Priority Queue)|Monotonic Stack,https://leetcode.cn/problems/find-building-where-alice-and-bob-can-meet
+2942,Easy,Array|String,https://leetcode.cn/problems/find-words-containing-character
+2944,Medium,Array|Dynamic Programming|Queue|Heap (Priority Queue)|Monotonic Queue,https://leetcode.cn/problems/minimum-number-of-coins-for-fruits
+2951,Easy,Array|Enumeration,https://leetcode.cn/problems/find-the-peaks
+2952,Medium,Array|Greedy|Sorting,https://leetcode.cn/problems/minimum-number-of-coins-to-be-added
+2960,Easy,Array|Simulation|Counting,https://leetcode.cn/problems/count-tested-devices-after-test-operations
+2961,Medium,Array|Math|Simulation,https://leetcode.cn/problems/double-modular-exponentiation
+2962,Medium,Array|Sliding Window,https://leetcode.cn/problems/count-subarrays-where-max-element-appears-at-least-k-times
+2965,Easy,Array|Hash Table|Math|Matrix,https://leetcode.cn/problems/find-missing-and-repeated-values
+2966,Medium,Array|Greedy|Sorting,https://leetcode.cn/problems/divide-array-into-arrays-with-max-difference
+2970,Easy,Array|Two Pointers|Binary Search|Enumeration,https://leetcode.cn/problems/count-the-number-of-incremovable-subarrays-i
+2972,Hard,Array|Two Pointers|Binary Search,https://leetcode.cn/problems/count-the-number-of-incremovable-subarrays-ii
+2974,Easy,Array|Sorting|Heap (Priority Queue)|Simulation,https://leetcode.cn/problems/minimum-number-game
+2981,Medium,Hash Table|String|Binary Search|Sliding Window|Counting,https://leetcode.cn/problems/find-longest-special-substring-that-occurs-thrice-i
+2982,Medium,Hash Table|String|Binary Search|Sliding Window|Counting,https://leetcode.cn/problems/find-longest-special-substring-that-occurs-thrice-ii
+2999,Hard,Math|String|Dynamic Programming,https://leetcode.cn/problems/count-the-number-of-powerful-integers
+3000,Easy,Array,https://leetcode.cn/problems/maximum-area-of-longest-diagonal-rectangle
+3005,Easy,Array|Hash Table|Counting,https://leetcode.cn/problems/count-elements-with-maximum-frequency
+3007,Medium,Math|Binary Search|Dynamic Programming|Bit Manipulation,https://leetcode.cn/problems/maximum-number-that-sum-of-the-prices-is-less-than-or-equal-to-k
+3011,Medium,Array|Bit Manipulation|Sorting,https://leetcode.cn/problems/find-if-array-can-be-sorted
+3019,Easy,String,https://leetcode.cn/problems/number-of-changing-keys
+3024,Easy,Array|Math|Sorting,https://leetcode.cn/problems/type-of-triangle
+3038,Easy,Array|Simulation,https://leetcode.cn/problems/maximum-number-of-operations-with-the-same-score-i
+3040,Medium,Array|Dynamic Programming|Memoization,https://leetcode.cn/problems/maximum-number-of-operations-with-the-same-score-ii
+3046,Easy,Array|Hash Table|Counting,https://leetcode.cn/problems/split-the-array
+3065,Easy,Array,https://leetcode.cn/problems/minimum-operations-to-exceed-threshold-value-i
+3066,Medium,Array|Heap (Priority Queue)|Simulation,https://leetcode.cn/problems/minimum-operations-to-exceed-threshold-value-ii
+3072,Hard,Array|Binary Indexed Tree|Segment Tree|Simulation,https://leetcode.cn/problems/distribute-elements-into-two-arrays-ii
+3083,Easy,Hash Table|String,https://leetcode.cn/problems/existence-of-a-substring-in-a-string-and-its-reverse
+3085,Medium,Hash Table|String|Greedy|Sorting|Counting,https://leetcode.cn/problems/minimum-deletions-to-make-string-k-special
+3086,Hard,Array|Greedy|Sliding Window|Prefix Sum,https://leetcode.cn/problems/minimum-moves-to-pick-k-ones
+3095,Easy,Array|Bit Manipulation|Sliding Window,https://leetcode.cn/problems/shortest-subarray-with-or-at-least-k-i
+3096,Medium,Array|Prefix Sum,https://leetcode.cn/problems/minimum-levels-to-gain-more-points
+3097,Medium,Array|Bit Manipulation|Sliding Window,https://leetcode.cn/problems/shortest-subarray-with-or-at-least-k-ii
+3098,Hard,Array|Dynamic Programming|Sorting,https://leetcode.cn/problems/find-the-sum-of-subsequence-powers
+3099,Easy,Math,https://leetcode.cn/problems/harshad-number
+3101,Medium,Array|Math,https://leetcode.cn/problems/count-alternating-subarrays
+3102,Hard,Array|Math|Geometry|Sorting|Ordered Set,https://leetcode.cn/problems/minimize-manhattan-distances
+3106,Medium,String|Greedy,https://leetcode.cn/problems/lexicographically-smallest-string-after-operations-with-constraint
+3110,Easy,String,https://leetcode.cn/problems/score-of-a-string
+3115,Medium,Array|Math|Number Theory,https://leetcode.cn/problems/maximum-prime-difference
+3117,Hard,Array|Binary Search|Dynamic Programming|Bit Manipulation|Segment Tree|Queue,https://leetcode.cn/problems/minimum-sum-of-values-by-dividing-array
+3127,Easy,Array|Matrix|Enumeration,https://leetcode.cn/problems/make-a-square-with-the-same-color
+3128,Medium,Array|Hash Table|Math|Combinatorics|Counting,https://leetcode.cn/problems/right-triangles
+3129,Medium,Dynamic Programming|Prefix Sum,https://leetcode.cn/problems/find-all-possible-stable-binary-arrays-i
+3130,Hard,Dynamic Programming|Prefix Sum,https://leetcode.cn/problems/find-all-possible-stable-binary-arrays-ii
+3131,Easy,Array,https://leetcode.cn/problems/find-the-integer-added-to-array-i
+3132,Medium,Array|Two Pointers|Sorting|Enumeration,https://leetcode.cn/problems/find-the-integer-added-to-array-ii
+3133,Medium,Bit Manipulation,https://leetcode.cn/problems/minimum-array-end
+3134,Hard,Array|Hash Table|Binary Search|Sliding Window,https://leetcode.cn/problems/find-the-median-of-the-uniqueness-array
+3136,Easy,String,https://leetcode.cn/problems/valid-word
+3137,Medium,Hash Table|String|Counting,https://leetcode.cn/problems/minimum-number-of-operations-to-make-word-k-periodic
+3138,Medium,Hash Table|String|Counting,https://leetcode.cn/problems/minimum-length-of-anagram-concatenation
+3144,Medium,Hash Table|String|Dynamic Programming|Counting,https://leetcode.cn/problems/minimum-substring-partition-of-equal-character-frequency
+3145,Hard,Array|Binary Search|Bit Manipulation,https://leetcode.cn/problems/find-products-of-elements-of-big-array
+3146,Easy,Hash Table|String,https://leetcode.cn/problems/permutation-difference-between-two-strings
+3151,Easy,Array,https://leetcode.cn/problems/special-array-i
+3152,Medium,Array|Binary Search|Prefix Sum,https://leetcode.cn/problems/special-array-ii
+3153,Medium,Array|Hash Table|Math|Counting,https://leetcode.cn/problems/sum-of-digit-differences-of-all-pairs
+3154,Hard,Math|Dynamic Programming|Bit Manipulation|Memoization|Combinatorics,https://leetcode.cn/problems/find-number-of-ways-to-reach-the-k-th-stair
+3158,Easy,Array|Hash Table|Bit Manipulation,https://leetcode.cn/problems/find-the-xor-of-numbers-which-appear-twice
+3159,Medium,Array|Hash Table,https://leetcode.cn/problems/find-occurrences-of-an-element-in-an-array
+3162,Easy,Array|Hash Table,https://leetcode.cn/problems/find-the-number-of-good-pairs-i
+3164,Medium,Array|Hash Table,https://leetcode.cn/problems/find-the-number-of-good-pairs-ii
+3165,Hard,Array|Divide and Conquer|Dynamic Programming|Segment Tree,https://leetcode.cn/problems/maximum-sum-of-subsequence-with-non-adjacent-elements
+3169,Medium,Array|Sorting,https://leetcode.cn/problems/count-days-without-meetings
+3170,Medium,Hash Table|String|Stack|Greedy|Heap (Priority Queue),https://leetcode.cn/problems/lexicographically-minimum-string-after-removing-stars
+3171,Hard,Array|Binary Search|Bit Manipulation|Segment Tree,https://leetcode.cn/problems/find-subarray-with-bitwise-or-closest-to-k
+3174,Easy,String|Stack|Simulation,https://leetcode.cn/problems/clear-digits
+3175,Medium,Array|Simulation,https://leetcode.cn/problems/find-the-first-player-to-win-k-games-in-a-row
+3176,Medium,Array|Hash Table|Dynamic Programming,https://leetcode.cn/problems/find-the-maximum-length-of-a-good-subsequence-i
+3177,Hard,Array|Hash Table|Dynamic Programming,https://leetcode.cn/problems/find-the-maximum-length-of-a-good-subsequence-ii
+3180,Medium,Array|Dynamic Programming,https://leetcode.cn/problems/maximum-total-reward-using-operations-i
+3184,Easy,Array|Hash Table|Counting,https://leetcode.cn/problems/count-pairs-that-form-a-complete-day-i
+3185,Medium,Array|Hash Table|Counting,https://leetcode.cn/problems/count-pairs-that-form-a-complete-day-ii
+3191,Medium,Array|Bit Manipulation|Queue|Sliding Window|Prefix Sum,https://leetcode.cn/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i
+3192,Medium,Array|Dynamic Programming|Greedy,https://leetcode.cn/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-ii
+3193,Hard,Array|Dynamic Programming,https://leetcode.cn/problems/count-the-number-of-inversions
+3194,Easy,Array|Two Pointers|Sorting,https://leetcode.cn/problems/minimum-average-of-smallest-and-largest-elements
+3201,Medium,Array|Dynamic Programming,https://leetcode.cn/problems/find-the-maximum-length-of-valid-subsequence-i
+3202,Medium,Array|Dynamic Programming,https://leetcode.cn/problems/find-the-maximum-length-of-valid-subsequence-ii
+3211,Medium,String|Backtracking|Bit Manipulation,https://leetcode.cn/problems/generate-binary-strings-without-adjacent-zeros
+3216,Easy,String|Greedy,https://leetcode.cn/problems/lexicographically-smallest-string-after-a-swap
+3222,Easy,Math|Simulation|Game Theory,https://leetcode.cn/problems/find-the-winning-player-in-coin-game
+3226,Easy,Bit Manipulation,https://leetcode.cn/problems/number-of-bit-changes-to-make-two-integers-equal
+3227,Medium,Math|String|Brainteaser|Game Theory,https://leetcode.cn/problems/vowels-game-in-a-string
+3232,Easy,Array|Math,https://leetcode.cn/problems/find-if-digit-game-can-be-won
+3233,Medium,Array|Math|Number Theory,https://leetcode.cn/problems/find-the-count-of-numbers-which-are-not-special
+3238,Easy,Array|Hash Table|Counting,https://leetcode.cn/problems/find-the-number-of-winning-players
+3248,Easy,Array|String|Simulation,https://leetcode.cn/problems/snake-in-matrix
+3250,Hard,Array|Math|Dynamic Programming|Combinatorics|Prefix Sum,https://leetcode.cn/problems/find-the-count-of-monotonic-pairs-i
+3251,Hard,Array|Math|Dynamic Programming|Combinatorics|Prefix Sum,https://leetcode.cn/problems/find-the-count-of-monotonic-pairs-ii
+3254,Medium,Array|Sliding Window,https://leetcode.cn/problems/find-the-power-of-k-size-subarrays-i
+3255,Medium,Array|Sliding Window,https://leetcode.cn/problems/find-the-power-of-k-size-subarrays-ii
+3258,Easy,String|Sliding Window,https://leetcode.cn/problems/count-substrings-that-satisfy-k-constraint-i
+3259,Medium,Array|Dynamic Programming,https://leetcode.cn/problems/maximum-energy-boost-from-two-drinks
+3261,Hard,Array|String|Binary Search|Sliding Window|Prefix Sum,https://leetcode.cn/problems/count-substrings-that-satisfy-k-constraint-ii
+3264,Easy,Array|Math|Heap (Priority Queue)|Simulation,https://leetcode.cn/problems/final-array-state-after-k-multiplication-operations-i
+3266,Hard,Array|Heap (Priority Queue)|Simulation,https://leetcode.cn/problems/final-array-state-after-k-multiplication-operations-ii
+3270,Easy,Math,https://leetcode.cn/problems/find-the-key-of-the-numbers
+3272,Hard,Hash Table|Math|Combinatorics|Enumeration,https://leetcode.cn/problems/find-the-count-of-good-integers
+3280,Easy,Math|String,https://leetcode.cn/problems/convert-date-to-binary
+3285,Easy,Array,https://leetcode.cn/problems/find-indices-of-stable-mountains
+3287,Hard,Array|Dynamic Programming|Bit Manipulation,https://leetcode.cn/problems/find-the-maximum-sequence-value-of-array
+3291,Medium,Array|String|Binary Search|Dynamic Programming|Greedy|Trie|Segment Tree|Rolling Hash|String Matching|Hash Function,https://leetcode.cn/problems/minimum-number-of-valid-strings-to-form-target-i
+3292,Hard,Array|String|Binary Search|Dynamic Programming|Greedy|Segment Tree|Rolling Hash|String Matching|Hash Function,https://leetcode.cn/problems/minimum-number-of-valid-strings-to-form-target-ii
+3297,Medium,Hash Table|String|Sliding Window,https://leetcode.cn/problems/count-substrings-that-can-be-rearranged-to-contain-a-string-i
+3298,Hard,Hash Table|String|Sliding Window,https://leetcode.cn/problems/count-substrings-that-can-be-rearranged-to-contain-a-string-ii
+3304,Easy,Math|Bit Manipulation|Recursion|Simulation,https://leetcode.cn/problems/find-the-k-th-character-in-string-game-i
+3305,Medium,Hash Table|String|Sliding Window,https://leetcode.cn/problems/count-of-substrings-containing-every-vowel-and-k-consonants-i
+3306,Medium,Hash Table|String|Sliding Window,https://leetcode.cn/problems/count-of-substrings-containing-every-vowel-and-k-consonants-ii
+3307,Hard,Math|Bit Manipulation|Recursion,https://leetcode.cn/problems/find-the-k-th-character-in-string-game-ii
+3330,Easy,String,https://leetcode.cn/problems/find-the-original-typed-string-i
+3333,Hard,String|Dynamic Programming|Prefix Sum,https://leetcode.cn/problems/find-the-original-typed-string-ii
+3335,Medium,Hash Table|Math|String|Dynamic Programming|Counting,https://leetcode.cn/problems/total-characters-in-string-after-transformations-i
+3337,Hard,Hash Table|Math|String|Dynamic Programming|Counting,https://leetcode.cn/problems/total-characters-in-string-after-transformations-ii
+3340,Easy,String,https://leetcode.cn/problems/check-balanced-string
+3341,Medium,Array|Graph Theory|Heap (Priority Queue)|Matrix|Shortest Path,https://leetcode.cn/problems/find-minimum-time-to-reach-last-room-i
+3342,Medium,Array|Graph Theory|Heap (Priority Queue)|Matrix|Shortest Path,https://leetcode.cn/problems/find-minimum-time-to-reach-last-room-ii
+3343,Hard,Math|String|Dynamic Programming|Combinatorics,https://leetcode.cn/problems/count-number-of-balanced-permutations
+3355,Medium,Array|Prefix Sum,https://leetcode.cn/problems/zero-array-transformation-i
+3356,Medium,Array|Two Pointers|Binary Search|Prefix Sum,https://leetcode.cn/problems/zero-array-transformation-ii
+3362,Medium,Array|Two Pointers|Greedy|Sorting|Heap (Priority Queue)|Prefix Sum,https://leetcode.cn/problems/zero-array-transformation-iii
+3375,Easy,Array|Hash Table,https://leetcode.cn/problems/minimum-operations-to-make-array-values-equal-to-k
+3392,Easy,Array,https://leetcode.cn/problems/count-subarrays-of-length-three-with-a-condition
+3396,Easy,Array|Hash Table,https://leetcode.cn/problems/minimum-number-of-operations-to-make-elements-in-array-distinct
+3403,Medium,Two Pointers|String|Enumeration,https://leetcode.cn/problems/find-the-lexicographically-largest-string-from-the-box-i
+3405,Hard,Math|Combinatorics,https://leetcode.cn/problems/count-the-number-of-arrays-with-k-matching-adjacent-elements
+3408,Medium,Hash Table|Design|Heap (Priority Queue)|Ordered Set,https://leetcode.cn/problems/design-task-manager
+3423,Easy,Array,https://leetcode.cn/problems/maximum-difference-between-adjacent-elements-in-a-circular-array
+3442,Easy,Hash Table|String|Counting,https://leetcode.cn/problems/maximum-difference-between-even-and-odd-frequency-i
+3443,Medium,Hash Table|Math|String|Counting,https://leetcode.cn/problems/maximum-manhattan-distance-after-k-changes
+3445,Hard,String|Sliding Window|Enumeration|Prefix Sum,https://leetcode.cn/problems/maximum-difference-between-even-and-odd-frequency-ii
+3477,Easy,Array|Binary Search|Segment Tree|Simulation|Ordered Set,https://leetcode.cn/problems/fruits-into-baskets-ii
+3479,Medium,Array|Binary Search|Segment Tree|Ordered Set,https://leetcode.cn/problems/fruits-into-baskets-iii
+3480,Hard,Array|Segment Tree|Enumeration|Prefix Sum,https://leetcode.cn/problems/maximize-subarrays-after-removing-one-conflicting-pair
+3484,Medium,Array|Hash Table|String|Design|Matrix,https://leetcode.cn/problems/design-spreadsheet
+3487,Easy,Array|Hash Table|Greedy,https://leetcode.cn/problems/maximum-unique-subarray-sum-after-deletion
+3495,Hard,Array|Math|Bit Manipulation,https://leetcode.cn/problems/minimum-operations-to-make-array-elements-zero
+3508,Medium,Array|Hash Table|Binary Search|Design|Queue|Ordered Set,https://leetcode.cn/problems/implement-router
+3516,Easy,Math,https://leetcode.cn/problems/find-closest-person
+3541,Easy,Hash Table|String|Counting,https://leetcode.cn/problems/find-most-frequent-vowel-and-consonant

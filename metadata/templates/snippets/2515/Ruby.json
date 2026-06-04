@@ -1,0 +1,1 @@
+"# @param {String[]} words\n# @param {String} target\n# @param {Integer} start_index\n# @return {Integer}\ndef closest_target(words, target, start_index)\n    \nend"

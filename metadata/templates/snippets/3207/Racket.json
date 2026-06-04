@@ -1,0 +1,1 @@
+"(define/contract (maximum-points enemyEnergies currentEnergy)\n  (-> (listof exact-integer?) exact-integer? exact-integer?)\n  )"

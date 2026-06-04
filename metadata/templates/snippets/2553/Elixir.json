@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec separate_digits(nums :: [integer]) :: [integer]\n  def separate_digits(nums) do\n    \n  end\nend"

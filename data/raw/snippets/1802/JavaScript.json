@@ -1,1 +1,0 @@
-"/**\n * @param {number} n\n * @param {number} index\n * @param {number} maxSum\n * @return {number}\n */\nvar maxValue = function(n, index, maxSum) {\n    \n};"

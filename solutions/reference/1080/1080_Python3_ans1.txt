@@ -1,0 +1,16 @@
+class Solution:
+    def sufficientSubset(self, root: Optional[TreeNode], limit: int) -> Optional[TreeNode]:
+        def checkSufficientLeaf(node, sum, limit):
+            if node == None:
+                return False
+            if node.left == None and node.right == None:
+                return node.val + sum >= limit
+            haveSufficientLeft = checkSufficientLeaf(node.left, sum + node.val, limit)
+            haveSufficientRight = checkSufficientLeaf(node.right, sum + node.val, limit)
+            if not haveSufficientLeft:
+                node.left = None
+            if not haveSufficientRight:
+                node.right = None
+            return haveSufficientLeft or haveSufficientRight
+        haveSufficient = checkSufficientLeaf(root, 0, limit)
+        return  root if haveSufficient else None

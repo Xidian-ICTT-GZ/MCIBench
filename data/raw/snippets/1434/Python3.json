@@ -1,1 +1,0 @@
-"class Solution:\n    def numberWays(self, hats: List[List[int]]) -> int:\n        "

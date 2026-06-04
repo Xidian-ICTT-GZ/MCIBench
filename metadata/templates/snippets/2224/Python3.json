@@ -1,0 +1,1 @@
+"class Solution:\n    def convertTime(self, current: str, correct: str) -> int:\n        "

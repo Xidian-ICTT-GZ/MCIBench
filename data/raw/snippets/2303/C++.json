@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    double calculateTax(vector<vector<int>>& brackets, int income) {\n        \n    }\n};"

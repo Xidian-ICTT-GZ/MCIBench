@@ -1,0 +1,1 @@
+"class Solution {\n    fun kthDistinct(arr: Array<String>, k: Int): String {\n        \n    }\n}"

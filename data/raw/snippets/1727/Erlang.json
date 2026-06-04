@@ -1,1 +1,0 @@
-"-spec largest_submatrix(Matrix :: [[integer()]]) -> integer().\nlargest_submatrix(Matrix) ->\n  ."

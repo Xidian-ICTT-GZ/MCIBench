@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec valid_utf8(data :: [integer]) :: boolean\n  def valid_utf8(data) do\n    \n  end\nend"

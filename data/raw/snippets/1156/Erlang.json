@@ -1,1 +1,0 @@
-"-spec max_rep_opt1(Text :: unicode:unicode_binary()) -> integer().\nmax_rep_opt1(Text) ->\n  ."

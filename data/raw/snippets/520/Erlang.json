@@ -1,1 +1,0 @@
-"-spec detect_capital_use(Word :: unicode:unicode_binary()) -> boolean().\ndetect_capital_use(Word) ->\n  ."

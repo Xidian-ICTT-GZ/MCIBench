@@ -1,0 +1,14 @@
+int minimumLevels(int* possible, int possibleSize) {
+    int tot = 0;
+    for (int i = 0; i < possibleSize; i++) {
+        tot += possible[i] == 1 ? 1 : -1;
+    }
+    int pre = 0;
+    for (int i = 0; i < possibleSize - 1; i++) {
+        pre += possible[i] == 1 ? 1 : -1;
+        if (2 * pre > tot) {
+            return i + 1;
+        }
+    }
+    return -1;
+}

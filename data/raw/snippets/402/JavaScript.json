@@ -1,1 +1,0 @@
-"/**\n * @param {string} num\n * @param {number} k\n * @return {string}\n */\nvar removeKdigits = function(num, k) {\n    \n};"

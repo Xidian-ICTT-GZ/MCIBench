@@ -1,1 +1,0 @@
-"(define/contract (is-possible-to-rearrange s t k)\n  (-> string? string? exact-integer? boolean?)\n  )"

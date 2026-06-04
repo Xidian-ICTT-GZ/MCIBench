@@ -1,1 +1,0 @@
-"class Solution(object):\n    def brokenCalc(self, startValue, target):\n        \"\"\"\n        :type startValue: int\n        :type target: int\n        :rtype: int\n        \"\"\"\n        "

@@ -1,0 +1,1 @@
+"# @param {Integer[][]} score\n# @param {Integer} k\n# @return {Integer[][]}\ndef sort_the_students(score, k)\n    \nend"

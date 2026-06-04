@@ -1,1 +1,0 @@
-"-spec minimum_obstacles(Grid :: [[integer()]]) -> integer().\nminimum_obstacles(Grid) ->\n  ."

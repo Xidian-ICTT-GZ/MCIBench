@@ -1,1 +1,0 @@
-"-spec maximize_win(PrizePositions :: [integer()], K :: integer()) -> integer().\nmaximize_win(PrizePositions, K) ->\n  ."

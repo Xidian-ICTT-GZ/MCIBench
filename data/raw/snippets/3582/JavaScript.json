@@ -1,1 +1,0 @@
-"/**\n * @param {string} caption\n * @return {string}\n */\nvar generateTag = function(caption) {\n    \n};"

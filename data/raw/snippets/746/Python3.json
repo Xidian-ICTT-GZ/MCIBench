@@ -1,1 +1,0 @@
-"class Solution:\n    def minCostClimbingStairs(self, cost: List[int]) -> int:\n        "

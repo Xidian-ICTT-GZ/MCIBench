@@ -1,0 +1,16 @@
+func removeZeroSumSublists(head *ListNode) *ListNode {
+    dummy := &ListNode{Val: 0}
+    dummy.Next = head
+    seen := map[int]*ListNode{}
+    prefix := 0
+    for node := dummy; node != nil; node = node.Next {
+        prefix += node.Val
+        seen[prefix] = node
+    }
+    prefix = 0
+    for node := dummy; node != nil; node = node.Next {
+        prefix += node.Val
+        node.Next = seen[prefix].Next
+    }
+    return dummy.Next
+}

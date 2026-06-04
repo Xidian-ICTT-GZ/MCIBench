@@ -1,1 +1,0 @@
-"class Solution(object):\n    def makeSubKSumEqual(self, arr, k):\n        \"\"\"\n        :type arr: List[int]\n        :type k: int\n        :rtype: int\n        \"\"\"\n        "

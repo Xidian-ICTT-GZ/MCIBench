@@ -1,0 +1,1 @@
+"/**\n * Example:\n * var ti = Node(5)\n * var v = ti.`val`\n * Definition for a Node.\n * class Node(var `val`: Int) {\n *     var next: Node? = null\n *     var random: Node? = null\n * }\n */\n\nclass Solution {\n    fun copyRandomList(node: Node?): Node? {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"(define/contract (count-of-atoms formula)\n  (-> string? string?)\n  )"

@@ -1,0 +1,1 @@
+"class Solution:\n    def concatenatedBinary(self, n: int) -> int:\n        "

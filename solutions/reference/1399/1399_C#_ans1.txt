@@ -1,0 +1,27 @@
+public class Solution {
+    public int CountLargestGroup(int n) {
+        var hashMap = new Dictionary<int, int>();
+        int maxValue = 0;
+        for (int i = 1; i <= n; ++i) {
+            int key = 0, i0 = i;
+            while (i0 > 0) {
+                key += i0 % 10;
+                i0 /= 10;
+            }
+            if (hashMap.ContainsKey(key)) {
+                hashMap[key]++;
+            } else {
+                hashMap[key] = 1;
+            }
+            maxValue = Math.Max(maxValue, hashMap[key]);
+        }
+
+        int count = 0;
+        foreach (var value in hashMap.Values) {
+            if (value == maxValue) {
+                count++;
+            }
+        }
+        return count;
+    }
+}

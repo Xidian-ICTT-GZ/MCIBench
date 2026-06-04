@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec subarrays_div_by_k(nums :: [integer], k :: integer) :: integer\n  def subarrays_div_by_k(nums, k) do\n    \n  end\nend"

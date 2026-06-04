@@ -1,1 +1,0 @@
-"-spec reduction_operations(Nums :: [integer()]) -> integer().\nreduction_operations(Nums) ->\n  ."

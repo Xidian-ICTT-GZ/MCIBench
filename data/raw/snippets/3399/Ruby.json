@@ -1,1 +1,0 @@
-"# @param {String} s\n# @param {Integer} num_ops\n# @return {Integer}\ndef min_length(s, num_ops)\n    \nend"

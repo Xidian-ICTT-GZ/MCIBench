@@ -1,1 +1,0 @@
-"class DetectSquares {\n\n  DetectSquares() {\n    \n  }\n  \n  void add(List<int> point) {\n    \n  }\n  \n  int count(List<int> point) {\n    \n  }\n}\n\n/**\n * Your DetectSquares object will be instantiated and called as such:\n * DetectSquares obj = DetectSquares();\n * obj.add(point);\n * int param2 = obj.count(point);\n */"

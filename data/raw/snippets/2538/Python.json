@@ -1,1 +1,0 @@
-"class Solution(object):\n    def maxOutput(self, n, edges, price):\n        \"\"\"\n        :type n: int\n        :type edges: List[List[int]]\n        :type price: List[int]\n        :rtype: int\n        \"\"\"\n        "

@@ -1,0 +1,1 @@
+"# @param {String[]} classroom\n# @param {Integer} energy\n# @return {Integer}\ndef min_moves(classroom, energy)\n    \nend"

@@ -1,0 +1,1 @@
+"class Solution {\n    public List<Long> minOperations(int[] nums, int[] queries) {\n        \n    }\n}"

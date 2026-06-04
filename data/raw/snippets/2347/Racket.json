@@ -1,1 +1,0 @@
-"(define/contract (best-hand ranks suits)\n  (-> (listof exact-integer?) (listof char?) string?)\n  )"

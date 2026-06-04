@@ -1,0 +1,36 @@
+double dfs(const int **G, const int *GColSize, bool *visited, int i, int t, int target) {
+    int nxt = i == 1 ? GColSize[i] : GColSize[i] - 1;
+    if (t == 0 || nxt == 0) {
+        return i == target ? 1.0 : 0.0;
+    }
+    visited[i] = true;
+    double ans = 0.0;
+    for (int k = 0; k < GColSize[i]; k++) {
+        int j = G[i][k];
+        if (!visited[j]) {
+            ans += dfs(G, GColSize, visited, j, t - 1, target);
+        }
+    }
+    return ans / nxt;
+}
+
+double frogPosition(int n, int** edges, int edgesSize, int* edgesColSize, int t, int target) {
+    int *G[n + 1];
+    int GColSize[n + 1];
+    memset(GColSize, 0, sizeof(GColSize));
+    for (int i = 1; i <= n; i++) {
+        G[i] = (int *)calloc(n + 1, sizeof(int));
+    }
+    for (int i = 0; i < edgesSize; ++i) {
+        int from = edges[i][0], to = edges[i][1];
+        G[from][GColSize[from]++] = to;
+        G[to][GColSize[to]++] = from;
+    }
+    bool visited[n + 1];
+    memset(visited, 0, sizeof(visited));
+    double ret = dfs(G, GColSize, visited, 1, t, target);
+    for (int i = 1; i <= n; i++) {
+        free(G[i]);
+    }
+    return ret;
+}

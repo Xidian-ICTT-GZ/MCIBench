@@ -1,1 +1,0 @@
-"/**\n * @param {number} n\n * @param {number[][]} edges\n * @param {number[][]} queries\n * @return {number[]}\n */\nvar findMedian = function(n, edges, queries) {\n    \n};"

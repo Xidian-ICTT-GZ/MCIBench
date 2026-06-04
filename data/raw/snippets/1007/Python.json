@@ -1,1 +1,0 @@
-"class Solution(object):\n    def minDominoRotations(self, tops, bottoms):\n        \"\"\"\n        :type tops: List[int]\n        :type bottoms: List[int]\n        :rtype: int\n        \"\"\"\n        "

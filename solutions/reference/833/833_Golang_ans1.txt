@@ -1,0 +1,42 @@
+func findReplaceString(s string, indices []int, sources []string, targets []string) string {
+    n, m := len(s), len(indices)
+
+    ops := make([][]int, m)
+    for i := 0; i < m; i++ {
+        ops[i] = []int{i, indices[i]}
+    }
+    sort.Slice(ops, func(i int, j int) bool {
+        return ops[i][1] < ops[j][1]
+    })
+
+    ans := ""
+    pt := 0
+    for i := 0; i < n; {
+        for pt < m && indices[ops[pt][0]] < i {
+            pt++
+        }
+        succeed := false
+        for pt < m && indices[ops[pt][0]] == i {
+            if s[i : i + min(len(sources[ops[pt][0]]), n - i)] == sources[ops[pt][0]] {
+                succeed = true
+                break
+            }
+            pt++
+        }
+        if succeed {
+            ans += targets[ops[pt][0]]
+            i += len(sources[ops[pt][0]])
+        } else {
+            ans += string(s[i])
+            i++
+        }
+    }
+    return ans
+}
+
+func min(x int, y int) int {
+    if x > y {
+        return y
+    }
+    return x
+}

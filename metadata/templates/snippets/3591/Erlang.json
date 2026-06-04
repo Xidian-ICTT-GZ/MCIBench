@@ -1,0 +1,1 @@
+"-spec check_prime_frequency(Nums :: [integer()]) -> boolean().\ncheck_prime_frequency(Nums) ->\n  ."

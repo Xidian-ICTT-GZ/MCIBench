@@ -1,1 +1,0 @@
-"(define/contract (is-perfect-square num)\n  (-> exact-integer? boolean?)\n  )"

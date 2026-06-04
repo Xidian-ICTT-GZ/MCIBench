@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec partition_array(nums :: [integer], k :: integer) :: integer\n  def partition_array(nums, k) do\n    \n  end\nend"

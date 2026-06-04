@@ -1,1 +1,0 @@
-"class Solution {\n    func checkMove(board: Array<Array<Rune>>, rMove: Int64, cMove: Int64, color: Rune): Bool {\n\n    }\n}"

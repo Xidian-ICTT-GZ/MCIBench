@@ -1,1 +1,0 @@
-"class Solution:\n    def shortestBeautifulSubstring(self, s: str, k: int) -> str:\n        "

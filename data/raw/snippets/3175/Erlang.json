@@ -1,1 +1,0 @@
-"-spec find_winning_player(Skills :: [integer()], K :: integer()) -> integer().\nfind_winning_player(Skills, K) ->\n  ."

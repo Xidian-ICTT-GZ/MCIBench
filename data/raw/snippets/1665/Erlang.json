@@ -1,1 +1,0 @@
-"-spec minimum_effort(Tasks :: [[integer()]]) -> integer().\nminimum_effort(Tasks) ->\n  ."

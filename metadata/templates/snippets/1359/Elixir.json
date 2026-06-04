@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec count_orders(n :: integer) :: integer\n  def count_orders(n) do\n    \n  end\nend"

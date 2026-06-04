@@ -1,0 +1,1 @@
+"class Solution:\n    def relocateMarbles(self, nums: List[int], moveFrom: List[int], moveTo: List[int]) -> List[int]:\n        "

@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec increasing_triplet(nums :: [integer]) :: boolean\n  def increasing_triplet(nums) do\n    \n  end\nend"

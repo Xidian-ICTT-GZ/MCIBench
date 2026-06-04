@@ -1,0 +1,1 @@
+"import pandas as pd\n\ndef price_at_given_date(products: pd.DataFrame) -> pd.DataFrame:\n    "

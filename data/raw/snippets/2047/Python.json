@@ -1,1 +1,0 @@
-"class Solution(object):\n    def countValidWords(self, sentence):\n        \"\"\"\n        :type sentence: str\n        :rtype: int\n        \"\"\"\n        "

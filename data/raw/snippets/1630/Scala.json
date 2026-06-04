@@ -1,1 +1,0 @@
-"object Solution {\n    def checkArithmeticSubarrays(nums: Array[Int], l: Array[Int], r: Array[Int]): List[Boolean] = {\n        \n    }\n}"

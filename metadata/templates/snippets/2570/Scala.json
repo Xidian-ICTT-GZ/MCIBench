@@ -1,0 +1,1 @@
+"object Solution {\n    def mergeArrays(nums1: Array[Array[Int]], nums2: Array[Array[Int]]): Array[Array[Int]] = {\n        \n    }\n}"

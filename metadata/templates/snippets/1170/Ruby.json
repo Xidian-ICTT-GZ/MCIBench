@@ -1,0 +1,1 @@
+"# @param {String[]} queries\n# @param {String[]} words\n# @return {Integer[]}\ndef num_smaller_by_frequency(queries, words)\n    \nend"

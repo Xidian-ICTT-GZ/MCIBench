@@ -1,0 +1,1 @@
+"# @param {String} word\n# @return {Integer}\ndef remove_almost_equal_characters(word)\n    \nend"

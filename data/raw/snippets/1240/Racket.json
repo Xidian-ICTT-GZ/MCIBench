@@ -1,1 +1,0 @@
-"(define/contract (tiling-rectangle n m)\n  (-> exact-integer? exact-integer? exact-integer?)\n  )"

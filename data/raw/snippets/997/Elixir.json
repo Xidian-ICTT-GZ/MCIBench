@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec find_judge(n :: integer, trust :: [[integer]]) :: integer\n  def find_judge(n, trust) do\n    \n  end\nend"

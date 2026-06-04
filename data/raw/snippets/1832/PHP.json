@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String $sentence\n     * @return Boolean\n     */\n    function checkIfPangram($sentence) {\n        \n    }\n}"

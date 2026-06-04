@@ -1,1 +1,0 @@
-"-spec longest_palindrome(Words :: [unicode:unicode_binary()]) -> integer().\nlongest_palindrome(Words) ->\n  ."

@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec closest_primes(left :: integer, right :: integer) :: [integer]\n  def closest_primes(left, right) do\n    \n  end\nend"

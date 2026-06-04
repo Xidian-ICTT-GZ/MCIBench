@@ -1,0 +1,1 @@
+"-spec find_valid_split(Nums :: [integer()]) -> integer().\nfind_valid_split(Nums) ->\n  ."

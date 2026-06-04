@@ -1,0 +1,1 @@
+"class Solution {\n    constructor(m: number, n: number) {\n        \n    }\n\n    flip(): number[] {\n        \n    }\n\n    reset(): void {\n        \n    }\n}\n\n/**\n * Your Solution object will be instantiated and called as such:\n * var obj = new Solution(m, n)\n * var param_1 = obj.flip()\n * obj.reset()\n */"

@@ -1,1 +1,0 @@
-"class Solution(object):\n    def missingRolls(self, rolls, mean, n):\n        \"\"\"\n        :type rolls: List[int]\n        :type mean: int\n        :type n: int\n        :rtype: List[int]\n        \"\"\"\n        "

@@ -1,1 +1,0 @@
-"# @param {Integer} n\n# @param {Integer} k\n# @param {Integer[][]} invocations\n# @return {Integer[]}\ndef remaining_methods(n, k, invocations)\n    \nend"

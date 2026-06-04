@@ -1,1 +1,0 @@
-"-spec number_of_good_paths(Vals :: [integer()], Edges :: [[integer()]]) -> integer().\nnumber_of_good_paths(Vals, Edges) ->\n  ."

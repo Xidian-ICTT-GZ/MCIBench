@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} cookies\n * @param {number} k\n * @return {number}\n */\nvar distributeCookies = function(cookies, k) {\n    \n};"

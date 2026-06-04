@@ -1,1 +1,0 @@
-"class Solution(object):\n    def destroyTargets(self, nums, space):\n        \"\"\"\n        :type nums: List[int]\n        :type space: int\n        :rtype: int\n        \"\"\"\n        "

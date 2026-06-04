@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} banned\n * @param {number} n\n * @param {number} maxSum\n * @return {number}\n */\nvar maxCount = function(banned, n, maxSum) {\n    \n};"

@@ -1,0 +1,1 @@
+"class Solution {\n  int numSubarraysWithSum(List<int> nums, int goal) {\n    \n  }\n}"

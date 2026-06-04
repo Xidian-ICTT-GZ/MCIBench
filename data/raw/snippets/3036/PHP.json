@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer[] $pattern\n     * @return Integer\n     */\n    function countMatchingSubarrays($nums, $pattern) {\n        \n    }\n}"

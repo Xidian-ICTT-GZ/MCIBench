@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $jobDifficulty\n     * @param Integer $d\n     * @return Integer\n     */\n    function minDifficulty($jobDifficulty, $d) {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $possible\n     * @return Integer\n     */\n    function minimumLevels($possible) {\n        \n    }\n}"

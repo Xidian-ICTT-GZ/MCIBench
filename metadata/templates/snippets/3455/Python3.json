@@ -1,0 +1,1 @@
+"class Solution:\n    def shortestMatchingSubstring(self, s: str, p: str) -> int:\n        "

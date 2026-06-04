@@ -1,1 +1,0 @@
-"-spec beautiful_numbers(L :: integer(), R :: integer()) -> integer().\nbeautiful_numbers(L, R) ->\n  ."

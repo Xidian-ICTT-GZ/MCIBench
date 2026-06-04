@@ -1,0 +1,1 @@
+"class Solution {\n    fun orderOfLargestPlusSign(n: Int, mines: Array<IntArray>): Int {\n        \n    }\n}"

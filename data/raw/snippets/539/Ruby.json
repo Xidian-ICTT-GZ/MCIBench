@@ -1,1 +1,0 @@
-"# @param {String[]} time_points\n# @return {Integer}\ndef find_min_difference(time_points)\n    \nend"

@@ -1,0 +1,18 @@
+int minKBitFlips(int* nums, int numsSize, int k) {
+    int ans = 0, revCnt = 0;
+    for (int i = 0; i < numsSize; ++i) {
+        if (i >= k && nums[i - k] > 1) {
+            revCnt ^= 1;
+            nums[i - k] -= 2;  
+        }
+        if (nums[i] == revCnt) {
+            if (i + k > numsSize) {
+                return -1;
+            }
+            ++ans;
+            revCnt ^= 1;
+            nums[i] += 2;
+        }
+    }
+    return ans;
+}

@@ -1,0 +1,1 @@
+"class Solution:\n    def memLeak(self, memory1: int, memory2: int) -> List[int]:\n        "

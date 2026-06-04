@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec max_output(n :: integer, edges :: [[integer]], price :: [integer]) :: integer\n  def max_output(n, edges, price) do\n    \n  end\nend"

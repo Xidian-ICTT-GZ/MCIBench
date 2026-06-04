@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec most_popular_creator(creators :: [String.t], ids :: [String.t], views :: [integer]) :: [[String.t]]\n  def most_popular_creator(creators, ids, views) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"class Solution(object):\n    def escapeGhosts(self, ghosts, target):\n        \"\"\"\n        :type ghosts: List[List[int]]\n        :type target: List[int]\n        :rtype: bool\n        \"\"\"\n        "

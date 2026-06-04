@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec divisibility_array(word :: String.t, m :: integer) :: [integer]\n  def divisibility_array(word, m) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"class LFUCache(_capacity: Int) {\n\n    def get(key: Int): Int = {\n        \n    }\n\n    def put(key: Int, value: Int): Unit = {\n        \n    }\n\n}\n\n/**\n * Your LFUCache object will be instantiated and called as such:\n * val obj = new LFUCache(capacity)\n * val param_1 = obj.get(key)\n * obj.put(key,value)\n */"

@@ -1,1 +1,0 @@
-"-spec min_moves(Nums :: [integer()], Limit :: integer()) -> integer().\nmin_moves(Nums, Limit) ->\n  ."

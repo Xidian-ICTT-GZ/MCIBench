@@ -1,1 +1,0 @@
-"object Solution {\n    def maxSumRangeQuery(nums: Array[Int], requests: Array[Array[Int]]): Int = {\n        \n    }\n}"

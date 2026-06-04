@@ -1,0 +1,1 @@
+"-spec number_of_pairs(Nums :: [integer()]) -> [integer()].\nnumber_of_pairs(Nums) ->\n  ."

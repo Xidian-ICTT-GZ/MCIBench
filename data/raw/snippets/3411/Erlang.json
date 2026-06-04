@@ -1,1 +1,0 @@
-"-spec max_length(Nums :: [integer()]) -> integer().\nmax_length(Nums) ->\n  ."

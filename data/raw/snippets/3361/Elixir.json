@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec shift_distance(s :: String.t, t :: String.t, next_cost :: [integer], previous_cost :: [integer]) :: integer\n  def shift_distance(s, t, next_cost, previous_cost) do\n    \n  end\nend"

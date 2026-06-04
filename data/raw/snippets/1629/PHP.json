@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $releaseTimes\n     * @param String $keysPressed\n     * @return String\n     */\n    function slowestKey($releaseTimes, $keysPressed) {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"class Solution {\n  int countMatchingSubarrays(List<int> nums, List<int> pattern) {\n    \n  }\n}"

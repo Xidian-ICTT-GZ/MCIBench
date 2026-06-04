@@ -1,1 +1,0 @@
-"object Solution {\n    def hasIncreasingSubarrays(nums: List[Int], k: Int): Boolean = {\n        \n    }\n}"

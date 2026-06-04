@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} nums\n * @param {number} value\n * @return {number}\n */\nvar findSmallestInteger = function(nums, value) {\n    \n};"

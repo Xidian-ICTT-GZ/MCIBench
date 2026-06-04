@@ -1,1 +1,0 @@
-"class Solution:\n    def peopleAwareOfSecret(self, n: int, delay: int, forget: int) -> int:\n        "

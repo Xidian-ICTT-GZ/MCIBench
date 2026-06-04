@@ -9,6 +9,7 @@ env/
 .env
 .env.*
 !.env.example
+!.env.prod.example
 
 # Local credentials and cookies
 Cookies.txt
@@ -37,19 +38,34 @@ Thumbs.db
 *.bak
 
 # Local-only agent and project notes
-docs/
 _archive/
+docs/analysis/output/
+docs/analysis/output.zip
 
-# Heavy raw experiment outputs are kept outside the main GitHub repository.
-artifacts/derived_data/generation_results.csv
-artifacts/derived_data/translation_results.csv
-artifacts/figures
-artifacts/output/
-artifacts/output.zip
+# Expanded experiment outputs. Keep archives and placeholders.
+generation/code/**
+generation/submissions/**
+translation/code/**
+translation/submissions/**
 
-# Ignore raw experiment folders, keep compressed archive
-experiments/translation/code/
-experiments/translation/submissions/
+# Large raw CSVs. Keep compressed records.
+generation/records/generation_results.csv
+translation/records/translation_results.csv
 
-experiments/generation/code/
-experiments/generation/submissions/
+# Dashboard runtime data and build outputs.
+dashboard/rawdata/
+dashboard/packages/server/data/**
+dashboard/volumes/backend-data/**
+dashboard/packages/server/config/config.yaml
+dashboard/packages/server/mcibench-server*
+dashboard/packages/server/server*
+dashboard/packages/web/node_modules/
+dashboard/packages/web/dist/
+dashboard/packages/web/.env
+dashboard/packages/web/.env.local
+dashboard/packages/web/.env.*.local
+dashboard/**/*.db
+dashboard/**/*.db-journal
+dashboard/**/*.db-wal
+dashboard/**/*.db-shm
+dashboard/**/*.exe

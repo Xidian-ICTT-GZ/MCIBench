@@ -1,1 +1,0 @@
-"(define/contract (max-nice-divisors primeFactors)\n  (-> exact-integer? exact-integer?)\n\n  )"

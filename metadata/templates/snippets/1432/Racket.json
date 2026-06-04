@@ -1,0 +1,1 @@
+"(define/contract (max-diff num)\n  (-> exact-integer? exact-integer?)\n  )"

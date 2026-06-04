@@ -1,0 +1,1 @@
+"class Solution(object):\n    def ladderLength(self, beginWord, endWord, wordList):\n        \"\"\"\n        :type beginWord: str\n        :type endWord: str\n        :type wordList: List[str]\n        :rtype: int\n        \"\"\"\n        "

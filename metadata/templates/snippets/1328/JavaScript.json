@@ -1,0 +1,1 @@
+"/**\n * @param {string} palindrome\n * @return {string}\n */\nvar breakPalindrome = function(palindrome) {\n    \n};"

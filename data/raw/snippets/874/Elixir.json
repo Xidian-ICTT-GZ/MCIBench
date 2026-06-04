@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec robot_sim(commands :: [integer], obstacles :: [[integer]]) :: integer\n  def robot_sim(commands, obstacles) do\n    \n  end\nend"

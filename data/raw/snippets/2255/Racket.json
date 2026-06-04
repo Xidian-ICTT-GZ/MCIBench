@@ -1,1 +1,0 @@
-"(define/contract (count-prefixes words s)\n  (-> (listof string?) string? exact-integer?)\n  )"

@@ -1,0 +1,1 @@
+"class Solution(_radius: Double, _x_center: Double, _y_center: Double) {\n\n    def randPoint(): Array[Double] = {\n        \n    }\n\n}\n\n/**\n * Your Solution object will be instantiated and called as such:\n * val obj = new Solution(radius, x_center, y_center)\n * val param_1 = obj.randPoint()\n */"

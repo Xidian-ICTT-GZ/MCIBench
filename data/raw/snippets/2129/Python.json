@@ -1,1 +1,0 @@
-"class Solution(object):\n    def capitalizeTitle(self, title):\n        \"\"\"\n        :type title: str\n        :rtype: str\n        \"\"\"\n        "

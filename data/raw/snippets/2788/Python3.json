@@ -1,1 +1,0 @@
-"class Solution:\n    def splitWordsBySeparator(self, words: List[str], separator: str) -> List[str]:\n        "

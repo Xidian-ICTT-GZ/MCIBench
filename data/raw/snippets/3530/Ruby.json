@@ -1,1 +1,0 @@
-"# @param {Integer} n\n# @param {Integer[][]} edges\n# @param {Integer[]} score\n# @return {Integer}\ndef max_profit(n, edges, score)\n    \nend"

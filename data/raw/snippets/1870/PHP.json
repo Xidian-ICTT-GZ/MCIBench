@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $dist\n     * @param Float $hour\n     * @return Integer\n     */\n    function minSpeedOnTime($dist, $hour) {\n        \n    }\n}"

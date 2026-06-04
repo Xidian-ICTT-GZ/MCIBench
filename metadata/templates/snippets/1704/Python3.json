@@ -1,0 +1,1 @@
+"class Solution:\n    def halvesAreAlike(self, s: str) -> bool:\n        "

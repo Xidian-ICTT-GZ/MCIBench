@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} encoding\n */\nvar RLEIterator = function(encoding) {\n    \n};\n\n/** \n * @param {number} n\n * @return {number}\n */\nRLEIterator.prototype.next = function(n) {\n    \n};\n\n/** \n * Your RLEIterator object will be instantiated and called as such:\n * var obj = new RLEIterator(encoding)\n * var param_1 = obj.next(n)\n */"

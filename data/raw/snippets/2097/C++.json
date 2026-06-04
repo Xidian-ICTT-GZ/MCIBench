@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    vector<vector<int>> validArrangement(vector<vector<int>>& pairs) {\n        \n    }\n};"

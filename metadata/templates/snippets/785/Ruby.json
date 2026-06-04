@@ -1,0 +1,1 @@
+"# @param {Integer[][]} graph\n# @return {Boolean}\ndef is_bipartite(graph)\n    \nend"

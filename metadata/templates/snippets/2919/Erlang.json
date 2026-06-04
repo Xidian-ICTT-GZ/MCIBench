@@ -1,0 +1,1 @@
+"-spec min_increment_operations(Nums :: [integer()], K :: integer()) -> integer().\nmin_increment_operations(Nums, K) ->\n  ."

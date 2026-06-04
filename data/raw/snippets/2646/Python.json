@@ -1,1 +1,0 @@
-"class Solution(object):\n    def minimumTotalPrice(self, n, edges, price, trips):\n        \"\"\"\n        :type n: int\n        :type edges: List[List[int]]\n        :type price: List[int]\n        :type trips: List[List[int]]\n        :rtype: int\n        \"\"\"\n        "

@@ -1,9 +1,0 @@
-var countTestedDevices = function(batteryPercentages) {
-    let need = 0;
-    for (let battery of batteryPercentages) {
-        if (battery > need) {
-            need++;
-        }
-    }
-    return need;
-};

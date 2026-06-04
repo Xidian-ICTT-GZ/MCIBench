@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $houses\n     * @param Integer[] $heaters\n     * @return Integer\n     */\n    function findRadius($houses, $heaters) {\n        \n    }\n}"

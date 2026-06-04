@@ -1,0 +1,7 @@
+var splitWordsBySeparator = function(words, separator) {
+    let res = [];
+    for (let word of words) {
+        res.push(...word.split(separator).filter((sub) => sub.length != 0));
+    }
+    return res;
+};

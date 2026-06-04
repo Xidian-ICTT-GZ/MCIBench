@@ -1,0 +1,1 @@
+"(define/contract (die-simulator n rollMax)\n  (-> exact-integer? (listof exact-integer?) exact-integer?)\n  )"

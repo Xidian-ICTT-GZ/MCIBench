@@ -1,1 +1,0 @@
-"-spec knight_dialer(N :: integer()) -> integer().\nknight_dialer(N) ->\n  ."

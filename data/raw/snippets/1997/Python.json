@@ -1,1 +1,0 @@
-"class Solution(object):\n    def firstDayBeenInAllRooms(self, nextVisit):\n        \"\"\"\n        :type nextVisit: List[int]\n        :rtype: int\n        \"\"\"\n        "

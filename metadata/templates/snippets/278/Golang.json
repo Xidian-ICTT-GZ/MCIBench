@@ -1,0 +1,1 @@
+"/** \n * Forward declaration of isBadVersion API.\n * @param   version   your guess about first bad version\n * @return \t \t      true if current version is bad \n *\t\t\t          false if current version is good\n * func isBadVersion(version int) bool;\n */\n\nfunc firstBadVersion(n int) int {\n    \n}"

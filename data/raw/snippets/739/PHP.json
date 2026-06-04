@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $temperatures\n     * @return Integer[]\n     */\n    function dailyTemperatures($temperatures) {\n        \n    }\n}"

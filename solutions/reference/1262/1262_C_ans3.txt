@@ -1,0 +1,12 @@
+int maxSumDivThree(int* nums, int numsSize) {
+    int f[3] = {0, INT_MIN, INT_MIN};
+    int g[3] = {0};
+    for (int j = 0; j < numsSize; j++) {
+        memcpy(g, f, sizeof(f));
+        for (int i = 0; i < 3; i++) {
+            g[(i + nums[j] % 3) % 3] = fmax(g[(i + nums[j] % 3) % 3], f[i] + nums[j]);
+        }
+        memcpy(f, g, sizeof(f));
+    }
+    return f[0];
+}

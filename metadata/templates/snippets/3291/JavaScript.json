@@ -1,0 +1,1 @@
+"/**\n * @param {string[]} words\n * @param {string} target\n * @return {number}\n */\nvar minValidStrings = function(words, target) {\n    \n};"

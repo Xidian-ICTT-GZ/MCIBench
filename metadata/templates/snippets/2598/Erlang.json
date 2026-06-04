@@ -1,0 +1,1 @@
+"-spec find_smallest_integer(Nums :: [integer()], Value :: integer()) -> integer().\nfind_smallest_integer(Nums, Value) ->\n  ."

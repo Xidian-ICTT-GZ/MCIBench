@@ -1,0 +1,32 @@
+class NestedIterator {
+private:
+    
+    stack<pair<vector<NestedInteger>::iterator, vector<NestedInteger>::iterator>> stk;
+
+public:
+    NestedIterator(vector<NestedInteger> &nestedList) {
+        stk.emplace(nestedList.begin(), nestedList.end());
+    }
+
+    int next() {
+        
+        return stk.top().first++->getInteger();
+    }
+
+    bool hasNext() {
+        while (!stk.empty()) {
+            auto &p = stk.top();
+            if (p.first == p.second) { 
+                stk.pop();
+                continue;
+            }
+            if (p.first->isInteger()) {
+                return true;
+            }
+            
+            auto &lst = p.first++->getList();
+            stk.emplace(lst.begin(), lst.end());
+        }
+        return false;
+    }
+};

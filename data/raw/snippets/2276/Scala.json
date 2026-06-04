@@ -1,1 +1,0 @@
-"class CountIntervals() {\n\n    def add(left: Int, right: Int): Unit = {\n        \n    }\n\n    def count(): Int = {\n        \n    }\n\n}\n\n/**\n * Your CountIntervals object will be instantiated and called as such:\n * val obj = new CountIntervals()\n * obj.add(left,right)\n * val param_2 = obj.count()\n */"

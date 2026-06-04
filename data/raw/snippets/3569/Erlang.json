@@ -1,1 +1,0 @@
-"-spec maximum_count(Nums :: [integer()], Queries :: [[integer()]]) -> [integer()].\nmaximum_count(Nums, Queries) ->\n  ."

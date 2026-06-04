@@ -1,0 +1,1 @@
+"class Solution {\n    func arithmeticTriplets(_ nums: [Int], _ diff: Int) -> Int {\n        \n    }\n}"

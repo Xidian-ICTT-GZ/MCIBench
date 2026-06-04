@@ -1,1 +1,0 @@
-"-spec max_removal(Nums :: [integer()], Queries :: [[integer()]]) -> integer().\nmax_removal(Nums, Queries) ->\n  ."

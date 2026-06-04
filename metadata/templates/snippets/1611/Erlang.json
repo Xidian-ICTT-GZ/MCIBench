@@ -1,0 +1,1 @@
+"-spec minimum_one_bit_operations(N :: integer()) -> integer().\nminimum_one_bit_operations(N) ->\n  ."

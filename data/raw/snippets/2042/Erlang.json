@@ -1,1 +1,0 @@
-"-spec are_numbers_ascending(S :: unicode:unicode_binary()) -> boolean().\nare_numbers_ascending(S) ->\n  ."

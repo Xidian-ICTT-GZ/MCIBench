@@ -1,0 +1,40 @@
+class Solution:
+    MOD = 10**9 + 7
+    
+    def mul(self, lth: list[list[int]], rth: list[list[int]]) -> list[list[int]]:
+        rows, cols, inner_dim = len(lth), len(rth[0]), len(lth[0])
+        res = [[0] * cols for _ in range(rows)]
+        
+        for k in range(inner_dim):
+            for i in range(rows):
+                for j in range(cols):
+                    res[i][j] = (res[i][j] + lth[i][k] * rth[k][j] % self.MOD) % self.MOD
+        return res
+    
+    def knightDialer(self, n: int) -> int:
+        base = [
+            [0, 0, 0, 0, 1, 0, 1, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 1, 0, 1, 0],
+            [0, 0, 0, 0, 0, 0, 0, 1, 0, 1],
+            [0, 0, 0, 0, 1, 0, 0, 0, 1, 0],
+            [1, 0, 0, 1, 0, 0, 0, 0, 0, 1],
+            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [1, 1, 0, 0, 0, 0, 0, 1, 0, 0],
+            [0, 0, 1, 0, 0, 0, 1, 0, 0, 0],
+            [0, 1, 0, 1, 0, 0, 0, 0, 0, 0],
+            [0, 0, 1, 0, 1, 0, 0, 0, 0, 0]
+        ]
+        
+        res = [[1] * 10]
+        
+        base2 = [[1 if i == j else 0 for j in range(10)] for i in range(10)]
+        
+        n -= 1
+        while n > 0:
+            if n & 1:
+                base2 = self.mul(base2, base)
+            base = self.mul(base, base)
+            n >>= 1
+        
+        res = self.mul(res, base2)
+        return sum(res[0]) % self.MOD

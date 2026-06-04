@@ -1,0 +1,14 @@
+func getSmallestString(s string, k int) string {
+    runes := []rune(s)
+	for i := 0; i < len(runes); i++ {
+		dis := min(int(runes[i] - 'a'), int('z' - runes[i] + 1))
+		if dis <= k {
+			runes[i] = 'a'
+			k -= dis
+		} else {
+			runes[i] = rune(int(runes[i]) - k)
+			break
+		}
+	}
+	return string(runes)
+}

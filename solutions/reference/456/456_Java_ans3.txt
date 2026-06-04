@@ -1,0 +1,68 @@
+class Solution {
+    public boolean find132pattern(int[] nums) {
+        int n = nums.length;
+        List<Integer> candidateI = new ArrayList<Integer>();
+        candidateI.add(nums[0]);
+        List<Integer> candidateJ = new ArrayList<Integer>();
+        candidateJ.add(nums[0]);
+
+        for (int k = 1; k < n; ++k) {
+            int idxI = binarySearchFirst(candidateI, nums[k]);
+            int idxJ = binarySearchLast(candidateJ, nums[k]);
+            if (idxI >= 0 && idxJ >= 0) {
+                if (idxI <= idxJ) {
+                    return true;
+                }
+            }
+            
+            if (nums[k] < candidateI.get(candidateI.size() - 1)) {
+                candidateI.add(nums[k]);
+                candidateJ.add(nums[k]);
+            } else if (nums[k] > candidateJ.get(candidateJ.size() - 1)) {
+                int lastI = candidateI.get(candidateI.size() - 1);
+                while (!candidateJ.isEmpty() && nums[k] > candidateJ.get(candidateJ.size() - 1)) {
+                    candidateI.remove(candidateI.size() - 1);
+                    candidateJ.remove(candidateJ.size() - 1);
+                }
+                candidateI.add(lastI);
+                candidateJ.add(nums[k]);
+            }
+        }
+
+        return false;
+    }
+
+    public int binarySearchFirst(List<Integer> candidate, int target) {
+        int low = 0, high = candidate.size() - 1;
+        if (candidate.get(high) >= target) {
+            return -1;
+        }
+        while (low < high) {
+            int mid = (high - low) / 2 + low;
+            int num = candidate.get(mid);
+            if (num >= target) {
+                low = mid + 1;
+            } else {
+                high = mid;
+            }
+        }
+        return low;
+    }
+
+    public int binarySearchLast(List<Integer> candidate, int target) {
+        int low = 0, high = candidate.size() - 1;
+        if (candidate.get(low) <= target) {
+            return -1;
+        }
+        while (low < high) {
+            int mid = (high - low + 1) / 2 + low;
+            int num = candidate.get(mid);
+            if (num <= target) {
+                high = mid - 1;
+            } else {
+                low = mid;
+            }
+        }
+        return low;
+    }
+}

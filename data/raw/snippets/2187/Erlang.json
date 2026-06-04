@@ -1,1 +1,0 @@
-"-spec minimum_time(Time :: [integer()], TotalTrips :: integer()) -> integer().\nminimum_time(Time, TotalTrips) ->\n  ."

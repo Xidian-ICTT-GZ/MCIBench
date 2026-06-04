@@ -1,1 +1,0 @@
-"class Solution(object):\n    def kthCharacter(self, k):\n        \"\"\"\n        :type k: int\n        :rtype: str\n        \"\"\"\n        "

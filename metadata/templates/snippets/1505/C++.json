@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    string minInteger(string num, int k) {\n        \n    }\n};"

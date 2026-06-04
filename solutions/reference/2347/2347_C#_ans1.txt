@@ -1,0 +1,25 @@
+public class Solution {
+    public string BestHand(int[] ranks, char[] suits) {
+        ISet<char> suitsSet = new HashSet<char>();
+        foreach (char suit in suits) {
+            suitsSet.Add(suit);
+        }
+        if (suitsSet.Count == 1) {
+            return "Flush";
+        }
+        IDictionary<int, int> h = new Dictionary<int, int>();
+        foreach (int rank in ranks) {
+            h.TryAdd(rank, 0);
+            h[rank]++;
+        }
+        if (h.Count == 5) {
+            return "High Card";
+        }
+        foreach (KeyValuePair<int, int> pair in h) {
+            if (pair.Value > 2) {
+                return "Three of a Kind";
+            }
+        }
+        return "Pair";
+    }
+}

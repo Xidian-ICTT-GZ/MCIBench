@@ -1,1 +1,0 @@
-"class Solution(object):\n    def maximumHappinessSum(self, happiness, k):\n        \"\"\"\n        :type happiness: List[int]\n        :type k: int\n        :rtype: int\n        \"\"\"\n        "

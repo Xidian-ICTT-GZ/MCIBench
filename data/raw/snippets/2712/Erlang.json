@@ -1,1 +1,0 @@
-"-spec minimum_cost(S :: unicode:unicode_binary()) -> integer().\nminimum_cost(S) ->\n  ."

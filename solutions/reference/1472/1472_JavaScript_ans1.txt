@@ -1,0 +1,20 @@
+var BrowserHistory = function(homepage) {
+    this.urls = [homepage];
+    this.currIndex = 0;
+};
+
+BrowserHistory.prototype.visit = function(url) {
+    this.urls = this.urls.slice(0, this.currIndex + 1);
+    this.urls.push(url);
+    this.currIndex++;
+};
+
+BrowserHistory.prototype.back = function(steps) {
+    this.currIndex = Math.max(this.currIndex - steps, 0);
+    return this.urls[this.currIndex];
+};
+
+BrowserHistory.prototype.forward = function(steps) {
+    this.currIndex = Math.min(this.currIndex + steps, this.urls.length - 1);
+    return this.urls[this.currIndex];
+};

@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} dist\n * @param {number} speed\n * @param {number} hoursBefore\n * @return {number}\n */\nvar minSkips = function(dist, speed, hoursBefore) {\n    \n};"

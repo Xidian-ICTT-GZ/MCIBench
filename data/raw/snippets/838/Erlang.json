@@ -1,1 +1,0 @@
-"-spec push_dominoes(Dominoes :: unicode:unicode_binary()) -> unicode:unicode_binary().\npush_dominoes(Dominoes) ->\n  ."

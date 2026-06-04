@@ -1,0 +1,1 @@
+"# @param {String} sentence\n# @param {Integer} discount\n# @return {String}\ndef discount_prices(sentence, discount)\n    \nend"

@@ -1,0 +1,13 @@
+public class Solution {
+    public int FindMaxK(int[] nums) {
+        int k = -1;
+        foreach (int x in nums) {
+            foreach (int y in nums) {
+                if (-x == y) {
+                    k = Math.Max(k, x);
+                }
+            }
+        }
+        return k;
+    }
+}

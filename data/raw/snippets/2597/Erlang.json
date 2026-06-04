@@ -1,1 +1,0 @@
-"-spec beautiful_subsets(Nums :: [integer()], K :: integer()) -> integer().\nbeautiful_subsets(Nums, K) ->\n  ."

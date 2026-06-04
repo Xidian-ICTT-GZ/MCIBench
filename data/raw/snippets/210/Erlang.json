@@ -1,1 +1,0 @@
-"-spec find_order(NumCourses :: integer(), Prerequisites :: [[integer()]]) -> [integer()].\nfind_order(NumCourses, Prerequisites) ->\n  ."

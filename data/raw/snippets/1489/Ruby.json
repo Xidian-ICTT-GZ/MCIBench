@@ -1,1 +1,0 @@
-"# @param {Integer} n\n# @param {Integer[][]} edges\n# @return {Integer[][]}\ndef find_critical_and_pseudo_critical_edges(n, edges)\n    \nend"

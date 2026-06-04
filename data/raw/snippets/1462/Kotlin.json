@@ -1,1 +1,0 @@
-"class Solution {\n    fun checkIfPrerequisite(numCourses: Int, prerequisites: Array<IntArray>, queries: Array<IntArray>): List<Boolean> {\n        \n    }\n}"

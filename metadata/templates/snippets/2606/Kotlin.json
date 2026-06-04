@@ -1,0 +1,1 @@
+"class Solution {\n    fun maximumCostSubstring(s: String, chars: String, vals: IntArray): Int {\n        \n    }\n}"

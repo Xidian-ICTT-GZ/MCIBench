@@ -1,1 +1,0 @@
-"/**\n * @param {string} date1\n * @param {string} date2\n * @return {number}\n */\nvar daysBetweenDates = function(date1, date2) {\n    \n};"

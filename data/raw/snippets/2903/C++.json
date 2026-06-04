@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    vector<int> findIndices(vector<int>& nums, int indexDifference, int valueDifference) {\n        \n    }\n};"

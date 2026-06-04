@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer $start\n     * @param Integer $goal\n     * @return Integer\n     */\n    function minBitFlips($start, $goal) {\n        \n    }\n}"

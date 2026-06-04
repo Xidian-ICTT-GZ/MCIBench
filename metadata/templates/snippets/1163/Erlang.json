@@ -1,0 +1,1 @@
+"-spec last_substring(S :: unicode:unicode_binary()) -> unicode:unicode_binary().\nlast_substring(S) ->\n  ."

@@ -1,1 +1,0 @@
-"-spec get_skyline(Buildings :: [[integer()]]) -> [[integer()]].\nget_skyline(Buildings) ->\n  ."

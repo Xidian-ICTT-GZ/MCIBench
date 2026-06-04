@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec abbreviate_product(left :: integer, right :: integer) :: String.t\n  def abbreviate_product(left, right) do\n    \n  end\nend"

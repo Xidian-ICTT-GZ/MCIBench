@@ -1,1 +1,0 @@
-"-spec min_domino_rotations(Tops :: [integer()], Bottoms :: [integer()]) -> integer().\nmin_domino_rotations(Tops, Bottoms) ->\n  ."

@@ -1,1 +1,0 @@
-"-spec count_balls(LowLimit :: integer(), HighLimit :: integer()) -> integer().\ncount_balls(LowLimit, HighLimit) ->\n  ."

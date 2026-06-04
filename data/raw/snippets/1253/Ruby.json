@@ -1,1 +1,0 @@
-"# @param {Integer} upper\n# @param {Integer} lower\n# @param {Integer[]} colsum\n# @return {Integer[][]}\ndef reconstruct_matrix(upper, lower, colsum)\n    \nend"

@@ -1,1 +1,0 @@
-"# Definition for a binary tree node.\n# class TreeNode\n#     attr_accessor :val, :left, :right\n#     def initialize(val)\n#         @val = val\n#         @left, @right = nil, nil\n#     end\n# end\n# @param {TreeNode} root\n# @param {TreeNode} target\n# @param {Integer} k\n# @return {Integer[]}\ndef distance_k(root, target, k)\n    \nend"

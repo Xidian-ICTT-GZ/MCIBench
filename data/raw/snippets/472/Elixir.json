@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec find_all_concatenated_words_in_a_dict(words :: [String.t]) :: [String.t]\n  def find_all_concatenated_words_in_a_dict(words) do\n    \n  end\nend"

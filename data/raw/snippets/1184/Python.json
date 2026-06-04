@@ -1,1 +1,0 @@
-"class Solution(object):\n    def distanceBetweenBusStops(self, distance, start, destination):\n        \"\"\"\n        :type distance: List[int]\n        :type start: int\n        :type destination: int\n        :rtype: int\n        \"\"\"\n        "

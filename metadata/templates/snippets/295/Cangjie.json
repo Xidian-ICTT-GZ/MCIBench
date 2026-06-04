@@ -1,0 +1,1 @@
+"class MedianFinder {\n    init() {\n\n    }\n    \n    func addNum(num: Int64): Unit {\n\n    }\n    \n    func findMedian(): Float64 {\n\n    }\n}\n\n/**\n * Your MedianFinder object will be instantiated and called as such:\n * let obj: MedianFinder = MedianFinder()\n * obj.addNum(num)\n * let param_2 = obj.findMedian()\n */"

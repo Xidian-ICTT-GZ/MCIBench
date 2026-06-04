@@ -1,1 +1,0 @@
-"# @param {Integer[][]} edges\n# @param {Integer[][]} queries\n# @return {Integer[]}\ndef assign_edge_weights(edges, queries)\n    \nend"

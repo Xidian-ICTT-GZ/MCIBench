@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec word_break(s :: String.t, word_dict :: [String.t]) :: [String.t]\n  def word_break(s, word_dict) do\n    \n  end\nend"

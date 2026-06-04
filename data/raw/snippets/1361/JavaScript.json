@@ -1,1 +1,0 @@
-"/**\n * @param {number} n\n * @param {number[]} leftChild\n * @param {number[]} rightChild\n * @return {boolean}\n */\nvar validateBinaryTreeNodes = function(n, leftChild, rightChild) {\n    \n};"

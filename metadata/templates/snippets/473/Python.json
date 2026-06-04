@@ -1,0 +1,1 @@
+"class Solution(object):\n    def makesquare(self, matchsticks):\n        \"\"\"\n        :type matchsticks: List[int]\n        :rtype: bool\n        \"\"\"\n        "

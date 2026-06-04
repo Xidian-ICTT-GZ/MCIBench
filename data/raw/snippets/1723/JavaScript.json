@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} jobs\n * @param {number} k\n * @return {number}\n */\nvar minimumTimeRequired = function(jobs, k) {\n    \n};"

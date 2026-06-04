@@ -1,1 +1,0 @@
-"-spec make_integer_beautiful(N :: integer(), Target :: integer()) -> integer().\nmake_integer_beautiful(N, Target) ->\n  ."

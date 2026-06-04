@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec max_compatibility_sum(students :: [[integer]], mentors :: [[integer]]) :: integer\n  def max_compatibility_sum(students, mentors) do\n    \n  end\nend"

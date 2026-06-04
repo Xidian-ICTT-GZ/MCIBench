@@ -1,1 +1,0 @@
-"class Solution(object):\n    def numRollsToTarget(self, n, k, target):\n        \"\"\"\n        :type n: int\n        :type k: int\n        :type target: int\n        :rtype: int\n        \"\"\"\n        "

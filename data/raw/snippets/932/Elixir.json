@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec beautiful_array(n :: integer) :: [integer]\n  def beautiful_array(n) do\n    \n  end\nend"

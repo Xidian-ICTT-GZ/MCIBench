@@ -1,1 +1,0 @@
-"-spec find_the_difference(S :: unicode:unicode_binary(), T :: unicode:unicode_binary()) -> char().\nfind_the_difference(S, T) ->\n  ."

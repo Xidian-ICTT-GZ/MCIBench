@@ -1,1 +1,0 @@
-"-spec kth_smallest(Mat :: [[integer()]], K :: integer()) -> integer().\nkth_smallest(Mat, K) ->\n  ."

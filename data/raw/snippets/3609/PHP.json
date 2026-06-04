@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer $sx\n     * @param Integer $sy\n     * @param Integer $tx\n     * @param Integer $ty\n     * @return Integer\n     */\n    function minMoves($sx, $sy, $tx, $ty) {\n        \n    }\n}"

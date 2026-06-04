@@ -1,0 +1,1 @@
+"public class Solution {\n    public bool CanReach(string s, int minJump, int maxJump) {\n        \n    }\n}"

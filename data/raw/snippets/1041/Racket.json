@@ -1,1 +1,0 @@
-"(define/contract (is-robot-bounded instructions)\n  (-> string? boolean?)\n  )"

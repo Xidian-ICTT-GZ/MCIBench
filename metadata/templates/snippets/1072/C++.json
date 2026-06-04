@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int maxEqualRowsAfterFlips(vector<vector<int>>& matrix) {\n        \n    }\n};"

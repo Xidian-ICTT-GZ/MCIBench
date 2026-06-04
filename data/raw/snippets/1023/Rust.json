@@ -1,1 +1,0 @@
-"impl Solution {\n    pub fn camel_match(queries: Vec<String>, pattern: String) -> Vec<bool> {\n        \n    }\n}"

@@ -1,1 +1,0 @@
-"(define/contract (punishment-number n)\n  (-> exact-integer? exact-integer?)\n  )"

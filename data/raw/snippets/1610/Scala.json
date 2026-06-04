@@ -1,1 +1,0 @@
-"object Solution {\n    def visiblePoints(points: List[List[Int]], angle: Int, location: List[Int]): Int = {\n        \n    }\n}"

@@ -1,1 +1,0 @@
-"/**\n * @param {string} word1\n * @param {string} word2\n * @return {number[]}\n */\nvar validSequence = function(word1, word2) {\n    \n};"

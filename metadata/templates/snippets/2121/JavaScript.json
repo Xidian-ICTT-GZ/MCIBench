@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} arr\n * @return {number[]}\n */\nvar getDistances = function(arr) {\n    \n};"

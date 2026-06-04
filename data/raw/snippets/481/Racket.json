@@ -1,1 +1,0 @@
-"(define/contract (magical-string n)\n  (-> exact-integer? exact-integer?)\n  )"

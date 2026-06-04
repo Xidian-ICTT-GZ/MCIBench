@@ -1,1 +1,0 @@
-"class Solution(object):\n    def maxIncreasingGroups(self, usageLimits):\n        \"\"\"\n        :type usageLimits: List[int]\n        :rtype: int\n        \"\"\"\n        "

@@ -1,1 +1,0 @@
-"# @param {Integer[]} tops\n# @param {Integer[]} bottoms\n# @return {Integer}\ndef min_domino_rotations(tops, bottoms)\n    \nend"

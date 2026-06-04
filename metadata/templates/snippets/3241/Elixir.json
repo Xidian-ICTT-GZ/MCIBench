@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec time_taken(edges :: [[integer]]) :: [integer]\n  def time_taken(edges) do\n    \n  end\nend"

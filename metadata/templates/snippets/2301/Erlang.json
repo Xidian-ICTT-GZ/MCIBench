@@ -1,0 +1,1 @@
+"-spec match_replacement(S :: unicode:unicode_binary(), Sub :: unicode:unicode_binary(), Mappings :: [[char()]]) -> boolean().\nmatch_replacement(S, Sub, Mappings) ->\n  ."

@@ -1,1 +1,0 @@
-"# @param {String} secret\n# @param {String} guess\n# @return {String}\ndef get_hint(secret, guess)\n    \nend"

@@ -1,1 +1,0 @@
-"-spec prime_palindrome(N :: integer()) -> integer().\nprime_palindrome(N) ->\n  ."

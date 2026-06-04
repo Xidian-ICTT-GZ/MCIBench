@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String $initialCurrency\n     * @param String[][] $pairs1\n     * @param Float[] $rates1\n     * @param String[][] $pairs2\n     * @param Float[] $rates2\n     * @return Float\n     */\n    function maxAmount($initialCurrency, $pairs1, $rates1, $pairs2, $rates2) {\n        \n    }\n}"

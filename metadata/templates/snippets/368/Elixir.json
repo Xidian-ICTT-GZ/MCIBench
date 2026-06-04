@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec largest_divisible_subset(nums :: [integer]) :: [integer]\n  def largest_divisible_subset(nums) do\n    \n  end\nend"

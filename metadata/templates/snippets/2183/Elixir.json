@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec count_pairs(nums :: [integer], k :: integer) :: integer\n  def count_pairs(nums, k) do\n    \n  end\nend"

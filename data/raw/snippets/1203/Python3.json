@@ -1,1 +1,0 @@
-"class Solution:\n    def sortItems(self, n: int, m: int, group: List[int], beforeItems: List[List[int]]) -> List[int]:\n        "

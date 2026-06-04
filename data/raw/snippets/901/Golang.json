@@ -1,1 +1,0 @@
-"type StockSpanner struct {\n    \n}\n\n\nfunc Constructor() StockSpanner {\n    \n}\n\n\nfunc (this *StockSpanner) Next(price int) int {\n    \n}\n\n\n/**\n * Your StockSpanner object will be instantiated and called as such:\n * obj := Constructor();\n * param_1 := obj.Next(price);\n */"

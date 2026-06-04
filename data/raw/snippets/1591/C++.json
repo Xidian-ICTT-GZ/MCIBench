@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    bool isPrintable(vector<vector<int>>& targetGrid) {\n        \n    }\n};"

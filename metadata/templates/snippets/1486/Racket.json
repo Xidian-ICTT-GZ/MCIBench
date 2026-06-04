@@ -1,0 +1,1 @@
+"(define/contract (xor-operation n start)\n  (-> exact-integer? exact-integer? exact-integer?)\n  )"

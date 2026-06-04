@@ -1,1 +1,0 @@
-"(define/contract (is-interleave s1 s2 s3)\n  (-> string? string? string? boolean?)\n  )"

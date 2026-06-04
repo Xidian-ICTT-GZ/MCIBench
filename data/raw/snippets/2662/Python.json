@@ -1,1 +1,0 @@
-"class Solution(object):\n    def minimumCost(self, start, target, specialRoads):\n        \"\"\"\n        :type start: List[int]\n        :type target: List[int]\n        :type specialRoads: List[List[int]]\n        :rtype: int\n        \"\"\"\n        "

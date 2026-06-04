@@ -1,1 +1,0 @@
-"# @param {Integer[][]} brackets\n# @param {Integer} income\n# @return {Float}\ndef calculate_tax(brackets, income)\n    \nend"

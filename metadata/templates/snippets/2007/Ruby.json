@@ -1,0 +1,1 @@
+"# @param {Integer[]} changed\n# @return {Integer[]}\ndef find_original_array(changed)\n    \nend"

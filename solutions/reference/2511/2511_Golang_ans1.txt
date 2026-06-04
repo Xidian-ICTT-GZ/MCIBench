@@ -1,0 +1,19 @@
+func captureForts(forts []int) int {
+    ans, pre := 0, -1
+    for i, fort := range forts {
+        if fort == -1 || fort == 1 {
+            if pre >= 0 && forts[pre] != fort {
+                ans = max(ans, i - pre - 1)
+            }
+            pre = i
+        }
+    }
+    return ans
+}
+
+func max(a int, b int) int {
+    if a > b {
+        return a
+    }
+    return b
+}

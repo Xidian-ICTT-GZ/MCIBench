@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    bool haveConflict(vector<string>& event1, vector<string>& event2) {\n        \n    }\n};"

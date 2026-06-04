@@ -1,1 +1,0 @@
-"class Solution:\n    def findMaximumElegance(self, items: List[List[int]], k: int) -> int:\n        "

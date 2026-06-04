@@ -1,0 +1,26 @@
+impl Solution {
+    pub fn judge_square_sum(mut c: i32) -> bool {
+        for base in 2..=((c as f64).sqrt() as i32) {
+            
+            if c % base != 0 {
+                continue;
+            }
+
+            
+            let mut exp = 0;
+            while c % base == 0 {
+                c /= base;
+                exp += 1;
+            }
+
+            
+            if base % 4 == 3 && exp % 2 != 0 {
+                return false;
+            }
+        }
+
+        
+        
+        c % 4 != 3
+    }
+}

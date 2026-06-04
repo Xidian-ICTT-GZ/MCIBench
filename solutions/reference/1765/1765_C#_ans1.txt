@@ -1,0 +1,32 @@
+public class Solution {
+    int[][] dirs = {new int[]{-1, 0}, new int[]{1, 0}, new int[]{0, -1}, new int[]{0, 1}};
+
+    public int[][] HighestPeak(int[][] isWater) {
+        int m = isWater.Length, n = isWater[0].Length;
+        int[][] ans = new int[m][];
+        for (int i = 0; i < m; ++i) {
+            ans[i] = new int[n];
+            Array.Fill(ans[i], -1); 
+        }
+        Queue<Tuple<int, int>> queue = new Queue<Tuple<int, int>>();
+        for (int i = 0; i < m; ++i) {
+            for (int j = 0; j < n; ++j) {
+                if (isWater[i][j] == 1) {
+                    ans[i][j] = 0;
+                    queue.Enqueue(new Tuple<int, int>(i, j)); 
+                }
+            }
+        }
+        while (queue.Count > 0) {
+            Tuple<int, int> p = queue.Dequeue();
+            foreach (int[] dir in dirs) {
+                int x = p.Item1 + dir[0], y = p.Item2 + dir[1];
+                if (0 <= x && x < m && 0 <= y && y < n && ans[x][y] == -1) {
+                    ans[x][y] = ans[p.Item1][p.Item2] + 1;
+                    queue.Enqueue(new Tuple<int, int>(x, y));
+                }
+            }
+        }
+        return ans;
+    }
+}

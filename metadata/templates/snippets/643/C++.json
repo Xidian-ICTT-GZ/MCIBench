@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    double findMaxAverage(vector<int>& nums, int k) {\n        \n    }\n};"

@@ -1,1 +1,0 @@
-"(define/contract (check-distances s distance)\n  (-> string? (listof exact-integer?) boolean?)\n  )"

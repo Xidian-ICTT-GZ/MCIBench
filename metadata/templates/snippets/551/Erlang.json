@@ -1,0 +1,1 @@
+"-spec check_record(S :: unicode:unicode_binary()) -> boolean().\ncheck_record(S) ->\n  ."

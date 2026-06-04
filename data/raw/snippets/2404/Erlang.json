@@ -1,1 +1,0 @@
-"-spec most_frequent_even(Nums :: [integer()]) -> integer().\nmost_frequent_even(Nums) ->\n  ."

@@ -1,0 +1,1 @@
+"object Solution {\n    def dayOfTheWeek(day: Int, month: Int, year: Int): String = {\n        \n    }\n}"

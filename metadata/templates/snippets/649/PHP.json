@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $senate\n     * @return String\n     */\n    function predictPartyVictory($senate) {\n        \n    }\n}"

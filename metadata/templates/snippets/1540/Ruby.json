@@ -1,0 +1,1 @@
+"# @param {String} s\n# @param {String} t\n# @param {Integer} k\n# @return {Boolean}\ndef can_convert_string(s, t, k)\n    \nend"

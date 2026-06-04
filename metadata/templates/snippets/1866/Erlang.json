@@ -1,0 +1,1 @@
+"-spec rearrange_sticks(N :: integer(), K :: integer()) -> integer().\nrearrange_sticks(N, K) ->\n  ."

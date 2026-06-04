@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int kConcatenationMaxSum(vector<int>& arr, int k) {\n        \n    }\n};"

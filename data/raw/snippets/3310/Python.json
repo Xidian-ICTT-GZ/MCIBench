@@ -1,1 +1,0 @@
-"class Solution(object):\n    def remainingMethods(self, n, k, invocations):\n        \"\"\"\n        :type n: int\n        :type k: int\n        :type invocations: List[List[int]]\n        :rtype: List[int]\n        \"\"\"\n        "

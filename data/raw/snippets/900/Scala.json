@@ -1,1 +1,0 @@
-"class RLEIterator(_encoding: Array[Int]) {\n\n    def next(n: Int): Int = {\n        \n    }\n\n}\n\n/**\n * Your RLEIterator object will be instantiated and called as such:\n * val obj = new RLEIterator(encoding)\n * val param_1 = obj.next(n)\n */"

@@ -1,0 +1,1 @@
+"impl Solution {\n    pub fn is_transformable(s: String, t: String) -> bool {\n        \n    }\n}"

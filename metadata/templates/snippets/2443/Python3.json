@@ -1,0 +1,1 @@
+"class Solution:\n    def sumOfNumberAndReverse(self, num: int) -> bool:\n        "

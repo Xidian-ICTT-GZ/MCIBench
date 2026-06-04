@@ -1,1 +1,0 @@
-"class Solution:\n    def arithmeticTriplets(self, nums: List[int], diff: int) -> int:\n        "

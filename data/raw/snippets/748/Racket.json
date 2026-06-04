@@ -1,1 +1,0 @@
-"(define/contract (shortest-completing-word licensePlate words)\n  (-> string? (listof string?) string?)\n  )"

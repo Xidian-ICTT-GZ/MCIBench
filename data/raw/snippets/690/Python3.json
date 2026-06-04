@@ -1,1 +1,0 @@
-"\"\"\"\n# Definition for Employee.\nclass Employee:\n    def __init__(self, id: int, importance: int, subordinates: List[int]):\n        self.id = id\n        self.importance = importance\n        self.subordinates = subordinates\n\"\"\"\n\nclass Solution:\n    def getImportance(self, employees: List['Employee'], id: int) -> int:\n        "

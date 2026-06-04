@@ -1,1 +1,0 @@
-"(define/contract (max-score-sightseeing-pair values)\n  (-> (listof exact-integer?) exact-integer?)\n  )"

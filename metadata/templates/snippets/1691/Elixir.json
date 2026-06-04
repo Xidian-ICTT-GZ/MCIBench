@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec max_height(cuboids :: [[integer]]) :: integer\n  def max_height(cuboids) do\n    \n  end\nend"

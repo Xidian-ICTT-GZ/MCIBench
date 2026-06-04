@@ -1,0 +1,1 @@
+"(define/contract (max-average-ratio classes extraStudents)\n  (-> (listof (listof exact-integer?)) exact-integer? flonum?)\n  )"

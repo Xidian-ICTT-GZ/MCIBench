@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $groupSizes\n     * @return Integer[][]\n     */\n    function groupThePeople($groupSizes) {\n        \n    }\n}"

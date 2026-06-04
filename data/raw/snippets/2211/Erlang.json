@@ -1,1 +1,0 @@
-"-spec count_collisions(Directions :: unicode:unicode_binary()) -> integer().\ncount_collisions(Directions) ->\n  ."

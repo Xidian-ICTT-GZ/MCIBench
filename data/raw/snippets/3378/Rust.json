@@ -1,1 +1,0 @@
-"impl Solution {\n    pub fn count_components(nums: Vec<i32>, threshold: i32) -> i32 {\n        \n    }\n}"

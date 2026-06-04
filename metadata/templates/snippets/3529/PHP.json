@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String[][] $grid\n     * @param String $pattern\n     * @return Integer\n     */\n    function countCells($grid, $pattern) {\n        \n    }\n}"

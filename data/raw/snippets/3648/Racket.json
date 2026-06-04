@@ -1,1 +1,0 @@
-"(define/contract (min-sensors n m k)\n  (-> exact-integer? exact-integer? exact-integer? exact-integer?)\n  )"

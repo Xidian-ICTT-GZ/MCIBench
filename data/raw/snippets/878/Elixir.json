@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec nth_magical_number(n :: integer, a :: integer, b :: integer) :: integer\n  def nth_magical_number(n, a, b) do\n    \n  end\nend"

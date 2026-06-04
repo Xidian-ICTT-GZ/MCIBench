@@ -1,1 +1,0 @@
-"-spec asteroid_collision(Asteroids :: [integer()]) -> [integer()].\nasteroid_collision(Asteroids) ->\n  ."

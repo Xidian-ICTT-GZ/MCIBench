@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec maximize_the_profit(n :: integer, offers :: [[integer]]) :: integer\n  def maximize_the_profit(n, offers) do\n    \n  end\nend"

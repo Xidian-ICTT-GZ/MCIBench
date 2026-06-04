@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int sortPermutation(vector<int>& nums) {\n        \n    }\n};"

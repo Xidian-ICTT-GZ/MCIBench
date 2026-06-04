@@ -1,1 +1,0 @@
-"-spec count_operations_to_empty_array(Nums :: [integer()]) -> integer().\ncount_operations_to_empty_array(Nums) ->\n  ."

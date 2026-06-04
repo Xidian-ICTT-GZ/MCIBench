@@ -1,1 +1,0 @@
-"object Solution {\n    def countKConstraintSubstrings(s: String, k: Int): Int = {\n        \n    }\n}"

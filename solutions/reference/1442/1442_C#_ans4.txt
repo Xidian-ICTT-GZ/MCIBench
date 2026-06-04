@@ -1,0 +1,26 @@
+public class Solution {
+    public int CountTriplets(int[] arr) {
+        int n = arr.Length;
+        Dictionary<int, int> cnt = new Dictionary<int, int>();
+        Dictionary<int, int> total = new Dictionary<int, int>();
+        int ans = 0, s = 0;
+        for (int k = 0; k < n; ++k) {
+            int val = arr[k];
+            if (cnt.ContainsKey(s ^ val)) {
+                ans += cnt[s ^ val] * k - total[s ^ val];
+            }
+            if (!cnt.ContainsKey(s)) {
+                cnt.Add(s, 1);
+            } else {
+                ++cnt[s];
+            }
+            if (!total.ContainsKey(s)) {
+                total.Add(s, k);
+            } else {
+                total[s] += k;
+            }
+            s ^= val;
+        }
+        return ans;
+    }
+}

@@ -1,1 +1,0 @@
-"class Solution {\n    public long[] countKConstraintSubstrings(String s, int k, int[][] queries) {\n        \n    }\n}"

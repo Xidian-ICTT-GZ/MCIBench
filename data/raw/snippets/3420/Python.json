@@ -1,1 +1,0 @@
-"class Solution(object):\n    def countNonDecreasingSubarrays(self, nums, k):\n        \"\"\"\n        :type nums: List[int]\n        :type k: int\n        :rtype: int\n        \"\"\"\n        "

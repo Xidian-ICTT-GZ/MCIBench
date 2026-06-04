@@ -1,1 +1,0 @@
-"-spec minimum_deletions(Word :: unicode:unicode_binary(), K :: integer()) -> integer().\nminimum_deletions(Word, K) ->\n  ."

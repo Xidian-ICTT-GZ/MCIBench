@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec predict_the_winner(nums :: [integer]) :: boolean\n  def predict_the_winner(nums) do\n    \n  end\nend"

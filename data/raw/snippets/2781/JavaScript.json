@@ -1,1 +1,0 @@
-"/**\n * @param {string} word\n * @param {string[]} forbidden\n * @return {number}\n */\nvar longestValidSubstring = function(word, forbidden) {\n    \n};"

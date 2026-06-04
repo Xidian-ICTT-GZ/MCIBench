@@ -1,0 +1,1 @@
+"(define/contract (equal-substring s t maxCost)\n  (-> string? string? exact-integer? exact-integer?)\n  )"

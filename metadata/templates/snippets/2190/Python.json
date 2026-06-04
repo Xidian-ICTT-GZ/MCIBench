@@ -1,0 +1,1 @@
+"class Solution(object):\n    def mostFrequent(self, nums, key):\n        \"\"\"\n        :type nums: List[int]\n        :type key: int\n        :rtype: int\n        \"\"\"\n        "

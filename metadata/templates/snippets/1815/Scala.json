@@ -1,0 +1,1 @@
+"object Solution {\n    def maxHappyGroups(batchSize: Int, groups: Array[Int]): Int = {\n        \n    }\n}"

@@ -1,1 +1,0 @@
-"/**\n * @param {number} n\n * @param {number} delay\n * @param {number} forget\n * @return {number}\n */\nvar peopleAwareOfSecret = function(n, delay, forget) {\n    \n};"

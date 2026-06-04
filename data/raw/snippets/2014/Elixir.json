@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec longest_subsequence_repeated_k(s :: String.t, k :: integer) :: String.t\n  def longest_subsequence_repeated_k(s, k) do\n    \n  end\nend"

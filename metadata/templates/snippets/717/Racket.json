@@ -1,0 +1,1 @@
+"(define/contract (is-one-bit-character bits)\n  (-> (listof exact-integer?) boolean?)\n  )"

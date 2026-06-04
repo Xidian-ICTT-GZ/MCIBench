@@ -1,1 +1,0 @@
-"-spec max_selected_elements(Nums :: [integer()]) -> integer().\nmax_selected_elements(Nums) ->\n  ."

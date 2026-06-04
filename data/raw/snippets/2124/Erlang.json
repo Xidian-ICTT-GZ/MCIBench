@@ -1,1 +1,0 @@
-"-spec check_string(S :: unicode:unicode_binary()) -> boolean().\ncheck_string(S) ->\n  ."

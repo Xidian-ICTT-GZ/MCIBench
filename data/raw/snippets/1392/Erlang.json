@@ -1,1 +1,0 @@
-"-spec longest_prefix(S :: unicode:unicode_binary()) -> unicode:unicode_binary().\nlongest_prefix(S) ->\n  ."

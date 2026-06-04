@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $rooms\n     * @param Integer[][] $queries\n     * @return Integer[]\n     */\n    function closestRoom($rooms, $queries) {\n        \n    }\n}"

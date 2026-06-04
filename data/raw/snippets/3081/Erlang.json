@@ -1,1 +1,0 @@
-"-spec minimize_string_value(S :: unicode:unicode_binary()) -> unicode:unicode_binary().\nminimize_string_value(S) ->\n  ."

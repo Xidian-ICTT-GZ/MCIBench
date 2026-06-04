@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec check_divisibility(n :: integer) :: boolean\n  def check_divisibility(n) do\n    \n  end\nend"

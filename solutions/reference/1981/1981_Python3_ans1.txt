@@ -1,0 +1,17 @@
+class Solution:
+    def minimizeTheDifference(self, mat: List[List[int]], target: int) -> int:
+        m, n = len(mat), len(mat[0])
+        
+        f = {0}
+        for i in range(m):
+            best = max(mat[i])
+            g = set()
+            for x in mat[i]:
+                for j in f:
+                    g.add(j + x)
+            f = g
+        
+        ans = float("inf")
+        for x in f:
+            ans = min(ans, abs(x - target))
+        return ans

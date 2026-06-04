@@ -1,0 +1,1 @@
+"-spec largest_sum_of_averages(Nums :: [integer()], K :: integer()) -> float().\nlargest_sum_of_averages(Nums, K) ->\n  ."

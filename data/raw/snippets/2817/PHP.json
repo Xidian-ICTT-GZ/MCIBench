@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer $x\n     * @return Integer\n     */\n    function minAbsoluteDifference($nums, $x) {\n        \n    }\n}"

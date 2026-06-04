@@ -1,1 +1,0 @@
-"-spec max_product_difference(Nums :: [integer()]) -> integer().\nmax_product_difference(Nums) ->\n  ."

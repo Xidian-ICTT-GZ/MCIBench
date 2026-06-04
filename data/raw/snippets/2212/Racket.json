@@ -1,1 +1,0 @@
-"(define/contract (maximum-bob-points numArrows aliceArrows)\n  (-> exact-integer? (listof exact-integer?) (listof exact-integer?))\n  )"

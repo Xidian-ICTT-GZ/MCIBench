@@ -1,0 +1,1 @@
+"class Solution:\n    def goodSubtreeSum(self, vals: List[int], par: List[int]) -> int:\n        "

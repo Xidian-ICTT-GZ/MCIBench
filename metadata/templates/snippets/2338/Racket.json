@@ -1,0 +1,1 @@
+"(define/contract (ideal-arrays n maxValue)\n  (-> exact-integer? exact-integer? exact-integer?)\n  )"

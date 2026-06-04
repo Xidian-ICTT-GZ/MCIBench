@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $points\n     * @param Integer $k\n     * @return Integer[][]\n     */\n    function kClosest($points, $k) {\n        \n    }\n}"

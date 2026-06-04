@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec three_sum_multi(arr :: [integer], target :: integer) :: integer\n  def three_sum_multi(arr, target) do\n    \n  end\nend"

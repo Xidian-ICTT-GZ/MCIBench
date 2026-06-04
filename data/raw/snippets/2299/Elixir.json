@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec strong_password_checker_ii(password :: String.t) :: boolean\n  def strong_password_checker_ii(password) do\n    \n  end\nend"

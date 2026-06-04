@@ -1,0 +1,23 @@
+class Solution:
+    def getDistances(self, arr: List[int]) -> List[int]:
+        n = len(arr)
+        res = [0] * n   
+        total = defaultdict(int)   
+        cnt = defaultdict(int)   
+        
+        for i in range(n):
+            val = arr[i]
+            if val in cnt:
+                res[i] += i * cnt[val] - total[val]
+            total[val] += i
+            cnt[val] += 1
+        
+        total.clear()
+        cnt.clear()
+        for i in range(n - 1, -1, -1):
+            val = arr[i]
+            if val in cnt:
+                res[i] += total[val] - i * cnt[val] 
+            total[val] += i
+            cnt[val] += 1
+        return res

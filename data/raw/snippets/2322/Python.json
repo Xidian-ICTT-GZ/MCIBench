@@ -1,1 +1,0 @@
-"class Solution(object):\n    def minimumScore(self, nums, edges):\n        \"\"\"\n        :type nums: List[int]\n        :type edges: List[List[int]]\n        :rtype: int\n        \"\"\"\n        "

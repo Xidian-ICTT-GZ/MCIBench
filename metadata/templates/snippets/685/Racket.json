@@ -1,0 +1,1 @@
+"(define/contract (find-redundant-directed-connection edges)\n  (-> (listof (listof exact-integer?)) (listof exact-integer?))\n  )"

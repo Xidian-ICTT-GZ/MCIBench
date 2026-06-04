@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String $current\n     * @param String $correct\n     * @return Integer\n     */\n    function convertTime($current, $correct) {\n        \n    }\n}"

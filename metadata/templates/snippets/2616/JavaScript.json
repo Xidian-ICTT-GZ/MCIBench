@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} nums\n * @param {number} p\n * @return {number}\n */\nvar minimizeMax = function(nums, p) {\n    \n};"

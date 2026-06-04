@@ -1,1 +1,0 @@
-"/**\n * @param {number} n\n * @param {number} goal\n * @param {number} k\n * @return {number}\n */\nvar numMusicPlaylists = function(n, goal, k) {\n    \n};"

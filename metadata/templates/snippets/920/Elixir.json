@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec num_music_playlists(n :: integer, goal :: integer, k :: integer) :: integer\n  def num_music_playlists(n, goal, k) do\n    \n  end\nend"

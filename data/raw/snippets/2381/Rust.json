@@ -1,1 +1,0 @@
-"impl Solution {\n    pub fn shifting_letters(s: String, shifts: Vec<Vec<i32>>) -> String {\n        \n    }\n}"

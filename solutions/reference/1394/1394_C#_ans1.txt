@@ -1,0 +1,19 @@
+public class Solution {
+    public int FindLucky(int[] arr) {
+        Dictionary<int, int> m = new Dictionary<int, int>();
+        foreach (int x in arr) {
+            if (m.ContainsKey(x)) {
+                m[x]++;
+            } else {
+                m[x] = 1;
+            }
+        }
+        int ans = -1;
+        foreach (var kvp in m) {
+            if (kvp.Key == kvp.Value) {
+                ans = Math.Max(ans, kvp.Key);
+            }
+        }
+        return ans;
+    }
+}

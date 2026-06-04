@@ -1,0 +1,1 @@
+"# @param {Integer} x\n# @param {Integer} y\n# @param {Integer} bound\n# @return {Integer[]}\ndef powerful_integers(x, y, bound)\n    \nend"

@@ -1,1 +1,0 @@
-"-spec split_painting(Segments :: [[integer()]]) -> [[integer()]].\nsplit_painting(Segments) ->\n  ."

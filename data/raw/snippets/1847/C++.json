@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    vector<int> closestRoom(vector<vector<int>>& rooms, vector<vector<int>>& queries) {\n        \n    }\n};"

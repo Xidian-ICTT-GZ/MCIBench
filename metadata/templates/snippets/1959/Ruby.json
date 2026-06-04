@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @param {Integer} k\n# @return {Integer}\ndef min_space_wasted_k_resizing(nums, k)\n    \nend"

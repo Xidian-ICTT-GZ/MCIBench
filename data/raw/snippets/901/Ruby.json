@@ -1,1 +1,0 @@
-"class StockSpanner\n    def initialize()\n        \n    end\n\n\n=begin\n    :type price: Integer\n    :rtype: Integer\n=end\n    def next(price)\n        \n    end\n\n\nend\n\n# Your StockSpanner object will be instantiated and called as such:\n# obj = StockSpanner.new()\n# param_1 = obj.next(price)"

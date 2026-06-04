@@ -1,1 +1,0 @@
-"class Solution(object):\n    def minStoneSum(self, piles, k):\n        \"\"\"\n        :type piles: List[int]\n        :type k: int\n        :rtype: int\n        \"\"\"\n        "

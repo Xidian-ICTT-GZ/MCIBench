@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $distance\n     * @return Boolean\n     */\n    function isSelfCrossing($distance) {\n        \n    }\n}"

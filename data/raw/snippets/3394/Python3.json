@@ -1,1 +1,0 @@
-"class Solution:\n    def checkValidCuts(self, n: int, rectangles: List[List[int]]) -> bool:\n        "

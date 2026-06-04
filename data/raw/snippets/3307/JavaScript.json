@@ -1,1 +1,0 @@
-"/**\n * @param {number} k\n * @param {number[]} operations\n * @return {character}\n */\nvar kthCharacter = function(k, operations) {\n    \n};"

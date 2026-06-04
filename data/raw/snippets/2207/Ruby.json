@@ -1,1 +1,0 @@
-"# @param {String} text\n# @param {String} pattern\n# @return {Integer}\ndef maximum_subsequence_count(text, pattern)\n    \nend"

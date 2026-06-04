@@ -1,0 +1,28 @@
+void recoverTree(struct TreeNode* root) {
+    struct TreeNode** stk = (struct TreeNode**)malloc(0);
+    int stk_top = 0;
+    struct TreeNode* x = NULL;
+    struct TreeNode* y = NULL;
+    struct TreeNode* pred = NULL;
+
+    while (stk_top > 0 || root != NULL) {
+        while (root != NULL) {
+            stk_top++;
+            stk = (struct TreeNode**)realloc(stk, sizeof(struct TreeNode*) * stk_top);
+            stk[stk_top - 1] = root;
+            root = root->left;
+        }
+        root = stk[--stk_top];
+        if (pred != NULL && root->val < pred->val) {
+            y = root;
+            if (x == NULL) {
+                x = pred;
+            } else
+                break;
+        }
+        pred = root;
+        root = root->right;
+    }
+    int t = x->val;
+    x->val = y->val, y->val = t;
+}

@@ -1,1 +1,0 @@
-"-spec count_subarrays(Nums :: [integer()]) -> integer().\ncount_subarrays(Nums) ->\n  ."

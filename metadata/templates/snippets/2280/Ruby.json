@@ -1,0 +1,1 @@
+"# @param {Integer[][]} stock_prices\n# @return {Integer}\ndef minimum_lines(stock_prices)\n    \nend"

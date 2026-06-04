@@ -1,1 +1,0 @@
-"# @param {Integer[][]} restaurants\n# @param {Integer} vegan_friendly\n# @param {Integer} max_price\n# @param {Integer} max_distance\n# @return {Integer[]}\ndef filter_restaurants(restaurants, vegan_friendly, max_price, max_distance)\n    \nend"

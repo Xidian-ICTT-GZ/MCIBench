@@ -1,0 +1,1 @@
+"# @param {Integer[][]} matrix\n# @return {Integer}\ndef count_squares(matrix)\n    \nend"

@@ -1,0 +1,1 @@
+"class Solution(object):\n    def maxSizeSlices(self, slices):\n        \"\"\"\n        :type slices: List[int]\n        :rtype: int\n        \"\"\"\n        "

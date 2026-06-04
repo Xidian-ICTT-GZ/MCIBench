@@ -1,1 +1,0 @@
-"class Solution:\n    def findOcurrences(self, text: str, first: str, second: str) -> List[str]:\n        "

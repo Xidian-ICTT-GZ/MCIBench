@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} bloomDay\n * @param {number} m\n * @param {number} k\n * @return {number}\n */\nvar minDays = function(bloomDay, m, k) {\n    \n};"

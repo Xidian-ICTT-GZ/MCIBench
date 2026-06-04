@@ -1,1 +1,0 @@
-"/**\n * @param {number[][]} heights\n * @return {number}\n */\nvar minimumEffortPath = function(heights) {\n    \n};"

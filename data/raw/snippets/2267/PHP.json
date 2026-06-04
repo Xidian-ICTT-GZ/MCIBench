@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String[][] $grid\n     * @return Boolean\n     */\n    function hasValidPath($grid) {\n        \n    }\n}"

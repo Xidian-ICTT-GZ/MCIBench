@@ -1,0 +1,22 @@
+public class Spreadsheet {
+    private Dictionary<string, int> cellValues = new Dictionary<string, int>();
+
+    public Spreadsheet(int size) {}
+
+    public void SetCell(string cell, int value) {
+        cellValues[cell] = value;
+    }
+
+    public void ResetCell(string cell) {
+        cellValues.Remove(cell);
+    }
+
+    public int GetValue(string formula) {
+        int i = formula.IndexOf('+');
+        string cell1 = formula.Substring(1, i - 1);
+        string cell2 = formula.Substring(i + 1);
+        int val1 = char.IsLetter(cell1[0]) ? cellValues.GetValueOrDefault(cell1) : int.Parse(cell1);
+        int val2 = char.IsLetter(cell2[0]) ? cellValues.GetValueOrDefault(cell2) : int.Parse(cell2);
+        return val1 + val2;
+    }
+}

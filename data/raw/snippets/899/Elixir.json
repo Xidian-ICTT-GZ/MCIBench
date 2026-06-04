@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec orderly_queue(s :: String.t, k :: integer) :: String.t\n  def orderly_queue(s, k) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"-spec most_frequent_prime(Mat :: [[integer()]]) -> integer().\nmost_frequent_prime(Mat) ->\n  ."

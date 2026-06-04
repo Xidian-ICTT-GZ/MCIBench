@@ -1,1 +1,0 @@
-"/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* closestPrimes(int left, int right, int* returnSize) {\n    \n}"

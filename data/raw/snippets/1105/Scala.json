@@ -1,1 +1,0 @@
-"object Solution {\n    def minHeightShelves(books: Array[Array[Int]], shelfWidth: Int): Int = {\n        \n    }\n}"

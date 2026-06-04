@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec array_rank_transform(arr :: [integer]) :: [integer]\n  def array_rank_transform(arr) do\n    \n  end\nend"

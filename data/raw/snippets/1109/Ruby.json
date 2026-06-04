@@ -1,1 +1,0 @@
-"# @param {Integer[][]} bookings\n# @param {Integer} n\n# @return {Integer[]}\ndef corp_flight_bookings(bookings, n)\n    \nend"

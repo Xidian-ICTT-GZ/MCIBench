@@ -1,1 +1,0 @@
-"-spec count_words(Words1 :: [unicode:unicode_binary()], Words2 :: [unicode:unicode_binary()]) -> integer().\ncount_words(Words1, Words2) ->\n  ."

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec longest_palindrome(s :: String.t) :: String.t\n  def longest_palindrome(s) do\n    \n  end\nend"

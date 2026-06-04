@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec min_taps(n :: integer, ranges :: [integer]) :: integer\n  def min_taps(n, ranges) do\n    \n  end\nend"

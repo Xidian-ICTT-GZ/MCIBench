@@ -1,1 +1,0 @@
-"/**\n * The rand7() API is already defined in the parent class SolBase.\n * func rand7() -> Int = {}\n * @return a random integer in the range 1 to 7\n */\nclass Solution : SolBase {\n    func rand10() -> Int {\n        \n    }\n}"

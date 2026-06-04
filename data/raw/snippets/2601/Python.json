@@ -1,1 +1,0 @@
-"class Solution(object):\n    def primeSubOperation(self, nums):\n        \"\"\"\n        :type nums: List[int]\n        :rtype: bool\n        \"\"\"\n        "

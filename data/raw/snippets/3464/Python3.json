@@ -1,1 +1,0 @@
-"class Solution:\n    def maxDistance(self, side: int, points: List[List[int]], k: int) -> int:\n        "

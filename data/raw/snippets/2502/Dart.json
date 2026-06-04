@@ -1,1 +1,0 @@
-"class Allocator {\n\n  Allocator(int n) {\n    \n  }\n  \n  int allocate(int size, int mID) {\n    \n  }\n  \n  int freeMemory(int mID) {\n    \n  }\n}\n\n/**\n * Your Allocator object will be instantiated and called as such:\n * Allocator obj = Allocator(n);\n * int param1 = obj.allocate(size,mID);\n * int param2 = obj.freeMemory(mID);\n */"

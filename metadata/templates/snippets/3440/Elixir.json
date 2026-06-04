@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec max_free_time(event_time :: integer, start_time :: [integer], end_time :: [integer]) :: integer\n  def max_free_time(event_time, start_time, end_time) do\n    \n  end\nend"

@@ -1,1 +1,0 @@
-"object Solution {\n    def kthSmallest(par: Array[Int], vals: Array[Int], queries: Array[Array[Int]]): Array[Int] = {\n        \n    }\n}"

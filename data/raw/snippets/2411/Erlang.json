@@ -1,1 +1,0 @@
-"-spec smallest_subarrays(Nums :: [integer()]) -> [integer()].\nsmallest_subarrays(Nums) ->\n  ."

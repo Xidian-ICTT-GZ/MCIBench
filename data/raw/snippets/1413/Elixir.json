@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec min_start_value(nums :: [integer]) :: integer\n  def min_start_value(nums) do\n    \n  end\nend"

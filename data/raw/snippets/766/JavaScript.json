@@ -1,1 +1,0 @@
-"/**\n * @param {number[][]} matrix\n * @return {boolean}\n */\nvar isToeplitzMatrix = function(matrix) {\n    \n};"

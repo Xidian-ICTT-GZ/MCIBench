@@ -1,1 +1,0 @@
-"-spec arrange_coins(N :: integer()) -> integer().\narrange_coins(N) ->\n  ."

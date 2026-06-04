@@ -1,1 +1,0 @@
-"-spec super_pow(A :: integer(), B :: [integer()]) -> integer().\nsuper_pow(A, B) ->\n  ."

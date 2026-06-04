@@ -1,1 +1,0 @@
-"-spec k_inverse_pairs(N :: integer(), K :: integer()) -> integer().\nk_inverse_pairs(N, K) ->\n  ."

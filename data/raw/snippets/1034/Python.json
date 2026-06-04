@@ -1,1 +1,0 @@
-"class Solution(object):\n    def colorBorder(self, grid, row, col, color):\n        \"\"\"\n        :type grid: List[List[int]]\n        :type row: int\n        :type col: int\n        :type color: int\n        :rtype: List[List[int]]\n        \"\"\"\n        "

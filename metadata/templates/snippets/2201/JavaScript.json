@@ -1,0 +1,1 @@
+"/**\n * @param {number} n\n * @param {number[][]} artifacts\n * @param {number[][]} dig\n * @return {number}\n */\nvar digArtifacts = function(n, artifacts, dig) {\n    \n};"

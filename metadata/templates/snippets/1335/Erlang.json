@@ -1,0 +1,1 @@
+"-spec min_difficulty(JobDifficulty :: [integer()], D :: integer()) -> integer().\nmin_difficulty(JobDifficulty, D) ->\n  ."

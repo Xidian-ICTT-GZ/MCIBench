@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    vector<string> findOcurrences(string text, string first, string second) {\n        \n    }\n};"

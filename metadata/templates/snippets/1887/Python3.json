@@ -1,0 +1,1 @@
+"class Solution:\n    def reductionOperations(self, nums: List[int]) -> int:\n        "

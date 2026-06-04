@@ -1,1 +1,0 @@
-"(define/contract (percentage-letter s letter)\n  (-> string? char? exact-integer?)\n  )"

@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} coins\n * @param {number[][]} edges\n * @return {number}\n */\nvar collectTheCoins = function(coins, edges) {\n    \n};"

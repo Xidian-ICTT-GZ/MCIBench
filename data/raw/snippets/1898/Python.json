@@ -1,1 +1,0 @@
-"class Solution(object):\n    def maximumRemovals(self, s, p, removable):\n        \"\"\"\n        :type s: str\n        :type p: str\n        :type removable: List[int]\n        :rtype: int\n        \"\"\"\n        "

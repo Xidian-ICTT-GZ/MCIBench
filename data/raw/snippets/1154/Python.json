@@ -1,1 +1,0 @@
-"class Solution(object):\n    def dayOfYear(self, date):\n        \"\"\"\n        :type date: str\n        :rtype: int\n        \"\"\"\n        "

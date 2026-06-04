@@ -1,1 +1,0 @@
-"-spec build_matrix(K :: integer(), RowConditions :: [[integer()]], ColConditions :: [[integer()]]) -> [[integer()]].\nbuild_matrix(K, RowConditions, ColConditions) ->\n  ."

@@ -1,0 +1,1 @@
+"-spec monotone_increasing_digits(N :: integer()) -> integer().\nmonotone_increasing_digits(N) ->\n  ."

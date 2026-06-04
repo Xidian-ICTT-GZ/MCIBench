@@ -1,0 +1,17 @@
+void dfs(struct TreeNode *root1, struct TreeNode *root2, bool isOdd) {
+    if (!root1) {
+        return;
+    }
+    if (isOdd) {
+        int tmp = root1->val;
+        root1->val = root2->val;
+        root2->val = tmp;
+    }
+    dfs(root1->left, root2->right, !isOdd);
+    dfs(root1->right, root2->left, !isOdd);
+}
+
+struct TreeNode* reverseOddLevels(struct TreeNode* root) {
+    dfs(root->left, root->right, true);
+    return root;
+}

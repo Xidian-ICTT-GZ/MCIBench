@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec next_greatest_letter(letters :: [char], target :: char) :: char\n  def next_greatest_letter(letters, target) do\n    \n  end\nend"

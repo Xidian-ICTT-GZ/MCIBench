@@ -1,0 +1,13 @@
+int twoEggDrop(int n) {
+    int f[n + 1];
+    for (int i = 0; i <= n; i++) {
+        f[i] = INT_MAX / 2;
+    }
+    f[0] = 0;
+    for (int i = 1; i <= n; i++) {
+        for (int k = 1; k <= i; k++) {
+            f[i] = fmin(f[i], fmax(k - 1, f[i - k]) + 1);
+        }
+    }
+    return f[n];
+}

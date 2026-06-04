@@ -1,1 +1,0 @@
-"# @param {String} key\n# @param {String} message\n# @return {String}\ndef decode_message(key, message)\n    \nend"

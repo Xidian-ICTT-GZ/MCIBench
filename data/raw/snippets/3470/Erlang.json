@@ -1,1 +1,0 @@
-"-spec permute(N :: integer(), K :: integer()) -> [integer()].\npermute(N, K) ->\n  ."

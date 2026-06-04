@@ -1,0 +1,1 @@
+"class Solution(object):\n    def containVirus(self, isInfected):\n        \"\"\"\n        :type isInfected: List[List[int]]\n        :rtype: int\n        \"\"\"\n        "

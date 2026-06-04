@@ -1,1 +1,0 @@
-"class Solution(object):\n    def passThePillow(self, n, time):\n        \"\"\"\n        :type n: int\n        :type time: int\n        :rtype: int\n        \"\"\"\n        "

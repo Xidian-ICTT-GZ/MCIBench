@@ -1,0 +1,1 @@
+"(define/contract (find-lucky arr)\n  (-> (listof exact-integer?) exact-integer?)\n  )"

@@ -1,1 +1,0 @@
-"-spec max_sum_submatrix(Matrix :: [[integer()]], K :: integer()) -> integer().\nmax_sum_submatrix(Matrix, K) ->\n  ."

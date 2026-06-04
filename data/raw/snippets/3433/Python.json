@@ -1,1 +1,0 @@
-"class Solution(object):\n    def countMentions(self, numberOfUsers, events):\n        \"\"\"\n        :type numberOfUsers: int\n        :type events: List[List[str]]\n        :rtype: List[int]\n        \"\"\"\n        "

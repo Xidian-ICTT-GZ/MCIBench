@@ -1,0 +1,1 @@
+"(define/contract (nth-ugly-number n)\n  (-> exact-integer? exact-integer?)\n  )"

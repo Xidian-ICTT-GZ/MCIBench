@@ -1,0 +1,15 @@
+static int cmp(const void *pa, const void *pb) {
+    return *(int *)pa - *(int *)pb;
+}
+
+int unequalTriplets(int* nums, int numsSize) {
+    qsort(nums, numsSize, sizeof(int), cmp);
+    int res = 0, n = numsSize;
+    for (int i = 0, j = 0; i < n; i = j) {
+        while (j < n && nums[j] == nums[i]) {
+            j++;
+        }
+        res += i * (j - i) * (n - j);
+    }
+    return res;
+}

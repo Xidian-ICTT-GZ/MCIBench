@@ -1,1 +1,0 @@
-"-spec strange_printer(S :: unicode:unicode_binary()) -> integer().\nstrange_printer(S) ->\n  ."

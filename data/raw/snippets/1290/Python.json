@@ -1,1 +1,0 @@
-"# Definition for singly-linked list.\n# class ListNode(object):\n#     def __init__(self, val=0, next=None):\n#         self.val = val\n#         self.next = next\nclass Solution(object):\n    def getDecimalValue(self, head):\n        \"\"\"\n        :type head: Optional[ListNode]\n        :rtype: int\n        \"\"\"\n        "

@@ -1,1 +1,0 @@
-"(define/contract (find-integers n)\n  (-> exact-integer? exact-integer?)\n  )"

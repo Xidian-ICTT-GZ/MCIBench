@@ -1,0 +1,1 @@
+"-spec get_strongest(Arr :: [integer()], K :: integer()) -> [integer()].\nget_strongest(Arr, K) ->\n  ."

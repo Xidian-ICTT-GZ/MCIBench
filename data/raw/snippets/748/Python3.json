@@ -1,1 +1,0 @@
-"class Solution:\n    def shortestCompletingWord(self, licensePlate: str, words: List[str]) -> str:\n        "

@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<vector<int>> mergeArrays(vector<vector<int>>& nums1, vector<vector<int>>& nums2) {\n        \n    }\n};"

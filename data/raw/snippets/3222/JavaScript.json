@@ -1,1 +1,0 @@
-"/**\n * @param {number} x\n * @param {number} y\n * @return {string}\n */\nvar winningPlayer = function(x, y) {\n    \n};"

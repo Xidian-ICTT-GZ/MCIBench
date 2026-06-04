@@ -1,0 +1,1 @@
+"class Solution(object):\n    def deleteDuplicateFolder(self, paths):\n        \"\"\"\n        :type paths: List[List[str]]\n        :rtype: List[List[str]]\n        \"\"\"\n        "

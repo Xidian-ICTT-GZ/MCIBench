@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec smallest_chair(times :: [[integer]], target_friend :: integer) :: integer\n  def smallest_chair(times, target_friend) do\n    \n  end\nend"

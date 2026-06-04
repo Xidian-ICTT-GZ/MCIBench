@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String[] $cpdomains\n     * @return String[]\n     */\n    function subdomainVisits($cpdomains) {\n        \n    }\n}"

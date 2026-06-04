@@ -1,0 +1,1 @@
+"-spec reverse_bits(N :: integer()) -> integer().\nreverse_bits(N) ->\n  ."

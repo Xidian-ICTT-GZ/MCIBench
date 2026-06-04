@@ -1,1 +1,0 @@
-"class Solution(object):\n    def canSplitArray(self, nums, m):\n        \"\"\"\n        :type nums: List[int]\n        :type m: int\n        :rtype: bool\n        \"\"\"\n        "

@@ -1,0 +1,1 @@
+"# @param {String} first_word\n# @param {String} second_word\n# @param {String} target_word\n# @return {Boolean}\ndef is_sum_equal(first_word, second_word, target_word)\n    \nend"

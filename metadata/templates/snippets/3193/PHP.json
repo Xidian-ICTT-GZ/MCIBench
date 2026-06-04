@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $n\n     * @param Integer[][] $requirements\n     * @return Integer\n     */\n    function numberOfPermutations($n, $requirements) {\n        \n    }\n}"

@@ -1,1 +1,0 @@
-"class Solution(object):\n    def minMovesToCaptureTheQueen(self, a, b, c, d, e, f):\n        \"\"\"\n        :type a: int\n        :type b: int\n        :type c: int\n        :type d: int\n        :type e: int\n        :type f: int\n        :rtype: int\n        \"\"\"\n        "

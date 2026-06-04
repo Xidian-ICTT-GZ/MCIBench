@@ -1,0 +1,1 @@
+"/**\n * @param {number[][]} edges\n * @param {number} bob\n * @param {number[]} amount\n * @return {number}\n */\nvar mostProfitablePath = function(edges, bob, amount) {\n    \n};"

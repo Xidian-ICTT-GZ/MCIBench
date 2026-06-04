@@ -1,1 +1,0 @@
-"# @param {Integer[]} fruits\n# @param {Integer[]} baskets\n# @return {Integer}\ndef num_of_unplaced_fruits(fruits, baskets)\n    \nend"

@@ -1,0 +1,1 @@
+"object Solution {\n    def getHint(secret: String, guess: String): String = {\n        \n    }\n}"

@@ -1,1 +1,0 @@
-"(define/contract (get-sum a b)\n  (-> exact-integer? exact-integer? exact-integer?)\n  )"

@@ -1,0 +1,1 @@
+"# @param {String} caption\n# @return {String}\ndef min_cost_good_caption(caption)\n    \nend"

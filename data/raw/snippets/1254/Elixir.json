@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec closed_island(grid :: [[integer]]) :: integer\n  def closed_island(grid) do\n    \n  end\nend"

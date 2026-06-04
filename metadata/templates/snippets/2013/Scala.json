@@ -1,0 +1,1 @@
+"class DetectSquares() {\n\n    def add(point: Array[Int]): Unit = {\n        \n    }\n\n    def count(point: Array[Int]): Int = {\n        \n    }\n\n}\n\n/**\n * Your DetectSquares object will be instantiated and called as such:\n * val obj = new DetectSquares()\n * obj.add(point)\n * val param_2 = obj.count(point)\n */"

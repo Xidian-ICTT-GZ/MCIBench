@@ -1,1 +1,0 @@
-"class Solution {\n    func maxKDivisibleComponents(n: Int64, edges: Array<Array<Int64>>, values: Array<Int64>, k: Int64): Int64 {\n\n    }\n}"

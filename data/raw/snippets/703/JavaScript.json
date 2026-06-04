@@ -1,1 +1,0 @@
-"/**\n * @param {number} k\n * @param {number[]} nums\n */\nvar KthLargest = function(k, nums) {\n    \n};\n\n/** \n * @param {number} val\n * @return {number}\n */\nKthLargest.prototype.add = function(val) {\n    \n};\n\n/** \n * Your KthLargest object will be instantiated and called as such:\n * var obj = new KthLargest(k, nums)\n * var param_1 = obj.add(val)\n */"

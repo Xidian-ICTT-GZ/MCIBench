@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $word\n     * @param String $ch\n     * @return String\n     */\n    function reversePrefix($word, $ch) {\n        \n    }\n}"

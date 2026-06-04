@@ -1,1 +1,0 @@
-"-spec merge(Intervals :: [[integer()]]) -> [[integer()]].\nmerge(Intervals) ->\n  ."

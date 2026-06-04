@@ -1,1 +1,0 @@
-"public class MyCalendarThree {\n\n    public MyCalendarThree() {\n        \n    }\n    \n    public int Book(int startTime, int endTime) {\n        \n    }\n}\n\n/**\n * Your MyCalendarThree object will be instantiated and called as such:\n * MyCalendarThree obj = new MyCalendarThree();\n * int param_1 = obj.Book(startTime,endTime);\n */"

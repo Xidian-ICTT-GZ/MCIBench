@@ -1,1 +1,0 @@
-"-spec maximum_energy(Energy :: [integer()], K :: integer()) -> integer().\nmaximum_energy(Energy, K) ->\n  ."

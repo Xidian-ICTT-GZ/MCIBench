@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec is_possible_divide(nums :: [integer], k :: integer) :: boolean\n  def is_possible_divide(nums, k) do\n    \n  end\nend"

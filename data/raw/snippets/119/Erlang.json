@@ -1,1 +1,0 @@
-"-spec get_row(RowIndex :: integer()) -> [integer()].\nget_row(RowIndex) ->\n  ."

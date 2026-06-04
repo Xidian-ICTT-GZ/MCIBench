@@ -1,1 +1,0 @@
-"-spec count_servers(N :: integer(), Logs :: [[integer()]], X :: integer(), Queries :: [integer()]) -> [integer()].\ncount_servers(N, Logs, X, Queries) ->\n  ."

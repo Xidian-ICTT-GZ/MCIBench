@@ -1,1 +1,0 @@
-"# @param {String} begin_word\n# @param {String} end_word\n# @param {String[]} word_list\n# @return {String[][]}\ndef find_ladders(begin_word, end_word, word_list)\n    \nend"

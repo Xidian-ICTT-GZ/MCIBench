@@ -1,0 +1,1 @@
+"-spec word_pattern(Pattern :: unicode:unicode_binary(), S :: unicode:unicode_binary()) -> boolean().\nword_pattern(Pattern, S) ->\n  ."

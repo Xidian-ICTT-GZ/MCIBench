@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int earliestFullBloom(vector<int>& plantTime, vector<int>& growTime) {\n        \n    }\n};"

@@ -1,1 +1,0 @@
-"class Solution {\n    func calcEquation(equations: ArrayList<ArrayList<String>>, values: Array<Float64>, queries: ArrayList<ArrayList<String>>): Array<Float64> {\n\n    }\n}"

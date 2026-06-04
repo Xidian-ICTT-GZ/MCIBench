@@ -1,1 +1,0 @@
-"class Solution:\n    def makeStringsEqual(self, s: str, target: str) -> bool:\n        "

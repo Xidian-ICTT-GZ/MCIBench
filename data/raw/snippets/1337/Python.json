@@ -1,1 +1,0 @@
-"class Solution(object):\n    def kWeakestRows(self, mat, k):\n        \"\"\"\n        :type mat: List[List[int]]\n        :type k: int\n        :rtype: List[int]\n        \"\"\"\n        "

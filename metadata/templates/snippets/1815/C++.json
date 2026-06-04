@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int maxHappyGroups(int batchSize, vector<int>& groups) {\n        \n    }\n};"

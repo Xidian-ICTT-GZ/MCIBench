@@ -1,0 +1,1 @@
+"(define/contract (count-palindrome-paths parent s)\n  (-> (listof exact-integer?) string? exact-integer?)\n  )"

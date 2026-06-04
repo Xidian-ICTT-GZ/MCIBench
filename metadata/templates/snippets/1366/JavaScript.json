@@ -1,0 +1,1 @@
+"/**\n * @param {string[]} votes\n * @return {string}\n */\nvar rankTeams = function(votes) {\n    \n};"

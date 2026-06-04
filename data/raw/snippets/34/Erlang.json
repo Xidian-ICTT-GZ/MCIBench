@@ -1,1 +1,0 @@
-"-spec search_range(Nums :: [integer()], Target :: integer()) -> [integer()].\nsearch_range(Nums, Target) ->\n  ."

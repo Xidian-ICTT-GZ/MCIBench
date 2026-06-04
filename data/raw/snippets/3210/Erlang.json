@@ -1,1 +1,0 @@
-"-spec get_encrypted_string(S :: unicode:unicode_binary(), K :: integer()) -> unicode:unicode_binary().\nget_encrypted_string(S, K) ->\n  ."

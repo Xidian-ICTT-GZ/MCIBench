@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $low\n     * @param Integer $high\n     * @param Integer $zero\n     * @param Integer $one\n     * @return Integer\n     */\n    function countGoodStrings($low, $high, $zero, $one) {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"class Solution {\n  String smallestStringWithSwaps(String s, List<List<int>> pairs) {\n    \n  }\n}"

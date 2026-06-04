@@ -1,0 +1,1 @@
+"class Solution:\n    def mergeStones(self, stones: List[int], k: int) -> int:\n        "

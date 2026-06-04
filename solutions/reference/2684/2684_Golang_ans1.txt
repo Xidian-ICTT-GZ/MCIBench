@@ -1,0 +1,24 @@
+func maxMoves(grid [][]int) int {
+    m, n := len(grid), len(grid[0])
+    q := make(map[int]bool)
+    q2 := make(map[int]bool)
+
+    for i := 0; i < m; i++ {
+        q[i] = true
+    }
+    for j := 1; j < n; j++ {
+        q2 = make(map[int]bool)
+        for i := range q {
+            for i2 := i - 1; i2 <= i+1; i2++ {
+                if 0 <= i2 && i2 < m && grid[i][j-1] < grid[i2][j] {
+                    q2[i2] = true
+                }
+            }
+        }
+        q = q2
+        if len(q) == 0 {
+            return j - 1
+        }
+    }
+    return n - 1
+}

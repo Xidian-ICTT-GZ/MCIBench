@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec shifting_letters(s :: String.t, shifts :: [[integer]]) :: String.t\n  def shifting_letters(s, shifts) do\n    \n  end\nend"

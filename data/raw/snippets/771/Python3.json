@@ -1,1 +1,0 @@
-"class Solution:\n    def numJewelsInStones(self, jewels: str, stones: str) -> int:\n        "

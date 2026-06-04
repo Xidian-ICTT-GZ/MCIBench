@@ -1,1 +1,0 @@
-"class Solution(object):\n    def bestHand(self, ranks, suits):\n        \"\"\"\n        :type ranks: List[int]\n        :type suits: List[str]\n        :rtype: str\n        \"\"\"\n        "

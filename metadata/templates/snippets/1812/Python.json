@@ -1,0 +1,1 @@
+"class Solution(object):\n    def squareIsWhite(self, coordinates):\n        \"\"\"\n        :type coordinates: str\n        :rtype: bool\n        \"\"\"\n        "

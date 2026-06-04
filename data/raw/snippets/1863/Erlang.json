@@ -1,1 +1,0 @@
-"-spec subset_xor_sum(Nums :: [integer()]) -> integer().\nsubset_xor_sum(Nums) ->\n  ."

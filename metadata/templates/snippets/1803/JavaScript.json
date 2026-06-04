@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} nums\n * @param {number} low\n * @param {number} high\n * @return {number}\n */\nvar countPairs = function(nums, low, high) {\n    \n};"

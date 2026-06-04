@@ -1,0 +1,1 @@
+"# @param {String} s\n# @param {String[]} words\n# @return {Boolean}\ndef is_prefix_string(s, words)\n    \nend"

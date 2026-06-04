@@ -1,1 +1,0 @@
-"-spec clumsy(N :: integer()) -> integer().\nclumsy(N) ->\n  ."

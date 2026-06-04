@@ -1,0 +1,1 @@
+"class Solution:\n    def splitArraySameAverage(self, nums: List[int]) -> bool:\n        "

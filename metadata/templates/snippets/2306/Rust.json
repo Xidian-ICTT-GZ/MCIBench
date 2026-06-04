@@ -1,0 +1,1 @@
+"impl Solution {\n    pub fn distinct_names(ideas: Vec<String>) -> i64 {\n        \n    }\n}"

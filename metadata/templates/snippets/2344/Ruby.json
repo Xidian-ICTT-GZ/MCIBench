@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @param {Integer[]} nums_divide\n# @return {Integer}\ndef min_operations(nums, nums_divide)\n    \nend"

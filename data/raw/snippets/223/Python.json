@@ -1,1 +1,0 @@
-"class Solution(object):\n    def computeArea(self, ax1, ay1, ax2, ay2, bx1, by1, bx2, by2):\n        \"\"\"\n        :type ax1: int\n        :type ay1: int\n        :type ax2: int\n        :type ay2: int\n        :type bx1: int\n        :type by1: int\n        :type bx2: int\n        :type by2: int\n        :rtype: int\n        \"\"\"\n        "

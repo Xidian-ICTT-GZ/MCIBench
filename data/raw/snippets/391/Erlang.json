@@ -1,1 +1,0 @@
-"-spec is_rectangle_cover(Rectangles :: [[integer()]]) -> boolean().\nis_rectangle_cover(Rectangles) ->\n  ."

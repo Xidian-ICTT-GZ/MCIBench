@@ -1,1 +1,0 @@
-"/**\n * @param {character[][]} grid\n * @return {number}\n */\nvar numberOfSubmatrices = function(grid) {\n    \n};"

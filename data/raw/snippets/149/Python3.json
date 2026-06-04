@@ -1,1 +1,0 @@
-"class Solution:\n    def maxPoints(self, points: List[List[int]]) -> int:\n        "

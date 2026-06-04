@@ -1,0 +1,1 @@
+"(define/contract (validate-stack-sequences pushed popped)\n  (-> (listof exact-integer?) (listof exact-integer?) boolean?)\n  )"

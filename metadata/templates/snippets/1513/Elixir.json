@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec num_sub(s :: String.t) :: integer\n  def num_sub(s) do\n    \n  end\nend"

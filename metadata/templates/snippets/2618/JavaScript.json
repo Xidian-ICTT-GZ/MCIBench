@@ -1,0 +1,1 @@
+"/**\n * @param {*} obj\n * @param {*} classFunction\n * @return {boolean}\n */\nvar checkIfInstanceOf = function(obj, classFunction) {\n    \n};\n\n/**\n * checkIfInstanceOf(new Date(), Date); // true\n */"

@@ -1,1 +1,0 @@
-"(define/contract (hamming-weight n)\n  (-> exact-integer? exact-integer?)\n  )"

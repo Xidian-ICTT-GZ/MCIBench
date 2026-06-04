@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer $n\n     * @param Integer $k\n     * @param Integer $target\n     * @return Integer\n     */\n    function numRollsToTarget($n, $k, $target) {\n        \n    }\n}"

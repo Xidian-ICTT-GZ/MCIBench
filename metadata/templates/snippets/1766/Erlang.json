@@ -1,0 +1,1 @@
+"-spec get_coprimes(Nums :: [integer()], Edges :: [[integer()]]) -> [integer()].\nget_coprimes(Nums, Edges) ->\n  ."

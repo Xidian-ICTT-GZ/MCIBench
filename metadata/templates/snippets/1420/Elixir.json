@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec num_of_arrays(n :: integer, m :: integer, k :: integer) :: integer\n  def num_of_arrays(n, m, k) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"class Solution:\n    def find132pattern(self, nums: List[int]) -> bool:\n        "

@@ -1,1 +1,0 @@
-"-spec max_len(N :: integer(), Edges :: [[integer()]], Label :: unicode:unicode_binary()) -> integer().\nmax_len(N, Edges, Label) ->\n  ."

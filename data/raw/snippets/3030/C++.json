@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    vector<vector<int>> resultGrid(vector<vector<int>>& image, int threshold) {\n        \n    }\n};"

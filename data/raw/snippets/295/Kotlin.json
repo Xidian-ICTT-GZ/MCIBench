@@ -1,1 +1,0 @@
-"class MedianFinder() {\n\n    fun addNum(num: Int) {\n        \n    }\n\n    fun findMedian(): Double {\n        \n    }\n\n}\n\n/**\n * Your MedianFinder object will be instantiated and called as such:\n * var obj = MedianFinder()\n * obj.addNum(num)\n * var param_2 = obj.findMedian()\n */"

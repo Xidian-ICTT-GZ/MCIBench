@@ -1,1 +1,0 @@
-"class MyCalendarThree() {\n\n    def book(startTime: Int, endTime: Int): Int = {\n        \n    }\n\n}\n\n/**\n * Your MyCalendarThree object will be instantiated and called as such:\n * val obj = new MyCalendarThree()\n * val param_1 = obj.book(startTime,endTime)\n */"

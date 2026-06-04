@@ -1,0 +1,1 @@
+"class Solution(object):\n    def uniquePathsWithObstacles(self, obstacleGrid):\n        \"\"\"\n        :type obstacleGrid: List[List[int]]\n        :rtype: int\n        \"\"\"\n        "

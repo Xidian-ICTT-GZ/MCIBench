@@ -1,1 +1,0 @@
-"-spec matrix_sum(Nums :: [[integer()]]) -> integer().\nmatrix_sum(Nums) ->\n  ."

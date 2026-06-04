@@ -1,0 +1,1 @@
+"-spec min_changes(Nums :: [integer()], K :: integer()) -> integer().\nmin_changes(Nums, K) ->\n  ."

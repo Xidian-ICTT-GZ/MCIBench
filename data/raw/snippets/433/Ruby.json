@@ -1,1 +1,0 @@
-"# @param {String} start_gene\n# @param {String} end_gene\n# @param {String[]} bank\n# @return {Integer}\ndef min_mutation(start_gene, end_gene, bank)\n    \nend"

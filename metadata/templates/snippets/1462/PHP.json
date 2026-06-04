@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $numCourses\n     * @param Integer[][] $prerequisites\n     * @param Integer[][] $queries\n     * @return Boolean[]\n     */\n    function checkIfPrerequisite($numCourses, $prerequisites, $queries) {\n        \n    }\n}"

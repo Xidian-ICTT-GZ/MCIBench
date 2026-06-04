@@ -1,1 +1,0 @@
-"/**\n * Definition for a QuadTree node.\n * type Node struct {\n *     Val bool\n *     IsLeaf bool\n *     TopLeft *Node\n *     TopRight *Node\n *     BottomLeft *Node\n *     BottomRight *Node\n * }\n */\n\nfunc construct(grid [][]int) *Node {\n    \n}"

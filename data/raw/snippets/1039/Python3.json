@@ -1,1 +1,0 @@
-"class Solution:\n    def minScoreTriangulation(self, values: List[int]) -> int:\n        "

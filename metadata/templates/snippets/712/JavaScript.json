@@ -1,0 +1,1 @@
+"/**\n * @param {string} s1\n * @param {string} s2\n * @return {number}\n */\nvar minimumDeleteSum = function(s1, s2) {\n    \n};"

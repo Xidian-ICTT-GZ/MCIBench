@@ -1,0 +1,1 @@
+"(define/contract (replace-digits s)\n  (-> string? string?)\n  )"

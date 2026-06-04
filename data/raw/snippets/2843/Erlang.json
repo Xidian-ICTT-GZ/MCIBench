@@ -1,1 +1,0 @@
-"-spec count_symmetric_integers(Low :: integer(), High :: integer()) -> integer().\ncount_symmetric_integers(Low, High) ->\n  ."

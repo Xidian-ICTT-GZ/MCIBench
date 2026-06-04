@@ -1,0 +1,1 @@
+"# @param {Integer[][]} points\n# @return {Float}\ndef min_area_free_rect(points)\n    \nend"

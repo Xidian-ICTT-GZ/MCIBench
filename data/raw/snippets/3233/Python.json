@@ -1,1 +1,0 @@
-"class Solution(object):\n    def nonSpecialCount(self, l, r):\n        \"\"\"\n        :type l: int\n        :type r: int\n        :rtype: int\n        \"\"\"\n        "

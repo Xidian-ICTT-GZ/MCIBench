@@ -1,1 +1,0 @@
-"# @param {Integer[]} cells\n# @param {Integer} n\n# @return {Integer[]}\ndef prison_after_n_days(cells, n)\n    \nend"

@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer $steps\n     * @param Integer $arrLen\n     * @return Integer\n     */\n    function numWays($steps, $arrLen) {\n        \n    }\n}"

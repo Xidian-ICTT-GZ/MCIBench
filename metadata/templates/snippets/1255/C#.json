@@ -1,0 +1,1 @@
+"public class Solution {\n    public int MaxScoreWords(string[] words, char[] letters, int[] score) {\n        \n    }\n}"

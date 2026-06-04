@@ -1,1 +1,0 @@
-"-spec check_divisibility(N :: integer()) -> boolean().\ncheck_divisibility(N) ->\n  ."

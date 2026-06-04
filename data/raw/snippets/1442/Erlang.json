@@ -1,1 +1,0 @@
-"-spec count_triplets(Arr :: [integer()]) -> integer().\ncount_triplets(Arr) ->\n  ."

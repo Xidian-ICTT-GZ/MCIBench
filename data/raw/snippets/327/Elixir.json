@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec count_range_sum(nums :: [integer], lower :: integer, upper :: integer) :: integer\n  def count_range_sum(nums, lower, upper) do\n    \n  end\nend"

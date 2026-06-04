@@ -1,0 +1,61 @@
+typedef struct {
+    char *key;
+    UT_hash_handle hh;
+} HashItem; 
+
+HashItem *hashFindItem(HashItem **obj, const char *key) {
+    HashItem *pEntry = NULL;
+    HASH_FIND_STR(*obj, key, pEntry);
+    return pEntry;
+}
+
+bool hashAddItem(HashItem **obj, const char* key) {
+    if (hashFindItem(obj, key)) {
+        return false;
+    }
+    HashItem *pEntry = (HashItem *)malloc(sizeof(HashItem));
+    pEntry->key = key;
+    HASH_ADD_STR(*obj, key, pEntry);
+    return true;
+}
+
+void hashFree(HashItem **obj) {
+    HashItem *curr = NULL, *tmp = NULL;
+    HASH_ITER(hh, *obj, curr, tmp) {
+        HASH_DEL(*obj, curr);  
+        free(curr->key);
+        free(curr);             
+    }
+}
+
+int numDifferentIntegers(char * word) {
+    HashItem *s = NULL;
+    int n = strlen(word), p1 = 0, p2;
+    while (true) {
+        while (p1 < n && !isdigit(word[p1])) {
+            p1++;
+        }
+        if (p1 == n) {
+            break;
+        }
+        p2 = p1;
+        while (p2 < n && isdigit(word[p2])) {
+            p2++;
+        }
+        while (p2 - p1 > 1 && word[p1] == '0') { 
+            p1++;
+        }
+        char *str = (char *)malloc(sizeof(char) * (p2 - p1 + 1));
+        strncpy(str, word + p1, p2 - p1);
+        str[p2 - p1] = '\0';
+        if (hashFindItem(&s, str) == NULL) {
+            hashAddItem(&s, str);
+        } else {
+            free(str);
+        }
+        p1 = p2;
+    }
+    int ret = HASH_COUNT(s);
+    hashFree(&s);
+    return ret;
+}

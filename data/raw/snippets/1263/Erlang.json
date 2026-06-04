@@ -1,1 +1,0 @@
-"-spec min_push_box(Grid :: [[char()]]) -> integer().\nmin_push_box(Grid) ->\n  ."

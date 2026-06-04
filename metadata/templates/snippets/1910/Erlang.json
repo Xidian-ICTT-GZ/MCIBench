@@ -1,0 +1,1 @@
+"-spec remove_occurrences(S :: unicode:unicode_binary(), Part :: unicode:unicode_binary()) -> unicode:unicode_binary().\nremove_occurrences(S, Part) ->\n  ."

@@ -1,0 +1,1 @@
+"class Solution(object):\n    def corpFlightBookings(self, bookings, n):\n        \"\"\"\n        :type bookings: List[List[int]]\n        :type n: int\n        :rtype: List[int]\n        \"\"\"\n        "

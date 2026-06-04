@@ -1,0 +1,1 @@
+"# @param {Integer} k\n# @return {Integer}\ndef smallest_repunit_div_by_k(k)\n    \nend"

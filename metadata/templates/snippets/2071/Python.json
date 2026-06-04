@@ -1,0 +1,1 @@
+"class Solution(object):\n    def maxTaskAssign(self, tasks, workers, pills, strength):\n        \"\"\"\n        :type tasks: List[int]\n        :type workers: List[int]\n        :type pills: int\n        :type strength: int\n        :rtype: int\n        \"\"\"\n        "

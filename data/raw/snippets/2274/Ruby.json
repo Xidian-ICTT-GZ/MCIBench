@@ -1,1 +1,0 @@
-"# @param {Integer} bottom\n# @param {Integer} top\n# @param {Integer[]} special\n# @return {Integer}\ndef max_consecutive(bottom, top, special)\n    \nend"

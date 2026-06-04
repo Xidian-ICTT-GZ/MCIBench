@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $time\n     * @return Integer\n     */\n    function countTime($time) {\n        \n    }\n}"

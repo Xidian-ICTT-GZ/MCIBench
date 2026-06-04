@@ -1,0 +1,1 @@
+"-spec longest_consecutive(Nums :: [integer()]) -> integer().\nlongest_consecutive(Nums) ->\n  ."

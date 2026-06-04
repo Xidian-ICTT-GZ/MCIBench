@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} vals\n * @param {number[][]} edges\n * @param {number} k\n * @return {number}\n */\nvar maxStarSum = function(vals, edges, k) {\n    \n};"

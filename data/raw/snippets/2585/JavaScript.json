@@ -1,1 +1,0 @@
-"/**\n * @param {number} target\n * @param {number[][]} types\n * @return {number}\n */\nvar waysToReachTarget = function(target, types) {\n    \n};"

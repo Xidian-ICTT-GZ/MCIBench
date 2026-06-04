@@ -1,1 +1,0 @@
-"/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nlong long* sumOfThree(long long num, int* returnSize) {\n    \n}"

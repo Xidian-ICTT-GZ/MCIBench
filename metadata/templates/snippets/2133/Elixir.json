@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec check_valid(matrix :: [[integer]]) :: boolean\n  def check_valid(matrix) do\n    \n  end\nend"

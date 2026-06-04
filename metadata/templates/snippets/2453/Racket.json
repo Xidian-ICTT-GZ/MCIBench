@@ -1,0 +1,1 @@
+"(define/contract (destroy-targets nums space)\n  (-> (listof exact-integer?) exact-integer? exact-integer?)\n  )"

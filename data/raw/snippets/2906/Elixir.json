@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec construct_product_matrix(grid :: [[integer]]) :: [[integer]]\n  def construct_product_matrix(grid) do\n    \n  end\nend"

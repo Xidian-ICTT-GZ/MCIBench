@@ -1,0 +1,1 @@
+"class Solution(object):\n    def superpalindromesInRange(self, left, right):\n        \"\"\"\n        :type left: str\n        :type right: str\n        :rtype: int\n        \"\"\"\n        "

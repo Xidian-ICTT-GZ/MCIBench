@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec first_day_been_in_all_rooms(next_visit :: [integer]) :: integer\n  def first_day_been_in_all_rooms(next_visit) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"object Solution {\n    def removeSubfolders(folder: Array[String]): List[String] = {\n        \n    }\n}"

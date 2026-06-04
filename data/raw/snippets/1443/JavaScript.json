@@ -1,1 +1,0 @@
-"/**\n * @param {number} n\n * @param {number[][]} edges\n * @param {boolean[]} hasApple\n * @return {number}\n */\nvar minTime = function(n, edges, hasApple) {\n    \n};"

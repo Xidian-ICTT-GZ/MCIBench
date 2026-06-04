@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String $stamp\n     * @param String $target\n     * @return Integer[]\n     */\n    function movesToStamp($stamp, $target) {\n        \n    }\n}"

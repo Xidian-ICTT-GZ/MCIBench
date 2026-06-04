@@ -1,1 +1,0 @@
-"# @param {Integer} n\n# @param {Integer[][]} edges\n# @return {Integer[]}\ndef sum_of_distances_in_tree(n, edges)\n    \nend"

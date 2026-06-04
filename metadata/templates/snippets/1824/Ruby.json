@@ -1,0 +1,1 @@
+"# @param {Integer[]} obstacles\n# @return {Integer}\ndef min_side_jumps(obstacles)\n    \nend"

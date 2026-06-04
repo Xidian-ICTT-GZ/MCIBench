@@ -1,0 +1,1 @@
+"(define/contract (reverse-parentheses s)\n  (-> string? string?)\n  )"

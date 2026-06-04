@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    long long matrixSumQueries(int n, vector<vector<int>>& queries) {\n        \n    }\n};"

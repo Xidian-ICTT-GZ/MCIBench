@@ -1,0 +1,1 @@
+"class SmallestInfiniteSet() {\n\n    def popSmallest(): Int = {\n        \n    }\n\n    def addBack(num: Int): Unit = {\n        \n    }\n\n}\n\n/**\n * Your SmallestInfiniteSet object will be instantiated and called as such:\n * val obj = new SmallestInfiniteSet()\n * val param_1 = obj.popSmallest()\n * obj.addBack(num)\n */"

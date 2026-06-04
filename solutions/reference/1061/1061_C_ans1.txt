@@ -1,0 +1,49 @@
+typedef struct {
+    int* parent;
+} UnionFind;
+
+UnionFind* createUnionFind(int n) {
+    UnionFind* uf = malloc(sizeof(UnionFind));
+    uf->parent = malloc(n * sizeof(int));
+    for (int i = 0; i < n; i++) {
+        uf->parent[i] = i;
+    }
+    return uf;
+}
+
+int find(UnionFind* uf, int x) {
+    if (uf->parent[x] != x) {
+        uf->parent[x] = find(uf, uf->parent[x]);
+    }
+    return uf->parent[x];
+}
+
+void unite(UnionFind* uf, int x, int y) {
+    x = find(uf, x);
+    y = find(uf, y);
+    if (x == y) return;
+    if (x > y) {
+        int tmp = x; 
+        x = y; 
+        y = tmp;
+    }
+    
+    uf->parent[y] = x;
+}
+
+void freeUnionFind(UnionFind* uf) {
+    free(uf->parent);
+    free(uf);
+}
+
+char* smallestEquivalentString(char* s1, char* s2, char* baseStr) {
+    UnionFind* uf = createUnionFind(26);
+    for (int i = 0; s1[i]; i++) {
+        unite(uf, s1[i] - 'a', s2[i] - 'a');
+    }
+    for (int i = 0; baseStr[i]; i++) {
+        baseStr[i] = 'a' + find(uf, baseStr[i] - 'a');
+    }
+    freeUnionFind(uf);
+    return baseStr;
+}

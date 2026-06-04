@@ -1,0 +1,1 @@
+"object Solution {\n    def countPairs(nums: Array[Int], low: Int, high: Int): Int = {\n        \n    }\n}"

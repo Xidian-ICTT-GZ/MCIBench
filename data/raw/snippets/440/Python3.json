@@ -1,1 +1,0 @@
-"class Solution:\n    def findKthNumber(self, n: int, k: int) -> int:\n        "

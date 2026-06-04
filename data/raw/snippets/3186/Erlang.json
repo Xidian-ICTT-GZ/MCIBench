@@ -1,1 +1,0 @@
-"-spec maximum_total_damage(Power :: [integer()]) -> integer().\nmaximum_total_damage(Power) ->\n  ."

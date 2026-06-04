@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[][] $richer\n     * @param Integer[] $quiet\n     * @return Integer[]\n     */\n    function loudAndRich($richer, $quiet) {\n        \n    }\n}"

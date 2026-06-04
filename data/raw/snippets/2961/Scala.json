@@ -1,1 +1,0 @@
-"object Solution {\n    def getGoodIndices(variables: Array[Array[Int]], target: Int): List[Int] = {\n        \n    }\n}"

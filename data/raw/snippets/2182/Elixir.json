@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec repeat_limited_string(s :: String.t, repeat_limit :: integer) :: String.t\n  def repeat_limited_string(s, repeat_limit) do\n    \n  end\nend"

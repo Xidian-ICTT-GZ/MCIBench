@@ -1,1 +1,0 @@
-"object Solution {\n    def longestAlternatingSubarray(nums: Array[Int], threshold: Int): Int = {\n        \n    }\n}"

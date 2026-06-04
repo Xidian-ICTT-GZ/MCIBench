@@ -1,9 +1,0 @@
-class Solution {
-    public int minimizedStringLength(String s) {
-        int mask = 0;
-        for (var c : s.toCharArray()) {
-            mask |= 1 << (c - 'a');
-        }
-        return Integer.bitCount(mask);
-    }
-}

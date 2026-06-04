@@ -1,1 +1,0 @@
-"class Solution {\n    func buildMatrix(_ k: Int, _ rowConditions: [[Int]], _ colConditions: [[Int]]) -> [[Int]] {\n        \n    }\n}"

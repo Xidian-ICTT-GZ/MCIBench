@@ -1,1 +1,0 @@
-"class Solution(object):\n    def findSafeWalk(self, grid, health):\n        \"\"\"\n        :type grid: List[List[int]]\n        :type health: int\n        :rtype: bool\n        \"\"\"\n        "

@@ -1,1 +1,0 @@
-"class Solution(object):\n    def groupThePeople(self, groupSizes):\n        \"\"\"\n        :type groupSizes: List[int]\n        :rtype: List[List[int]]\n        \"\"\"\n        "

@@ -1,1 +1,0 @@
-"-spec find_the_city(N :: integer(), Edges :: [[integer()]], DistanceThreshold :: integer()) -> integer().\nfind_the_city(N, Edges, DistanceThreshold) ->\n  ."

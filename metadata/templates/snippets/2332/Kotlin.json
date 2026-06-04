@@ -1,0 +1,1 @@
+"class Solution {\n    fun latestTimeCatchTheBus(buses: IntArray, passengers: IntArray, capacity: Int): Int {\n        \n    }\n}"

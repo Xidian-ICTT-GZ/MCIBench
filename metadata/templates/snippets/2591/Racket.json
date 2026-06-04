@@ -1,0 +1,1 @@
+"(define/contract (dist-money money children)\n  (-> exact-integer? exact-integer? exact-integer?)\n  )"

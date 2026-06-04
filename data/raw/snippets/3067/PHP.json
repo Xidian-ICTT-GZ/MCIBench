@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[][] $edges\n     * @param Integer $signalSpeed\n     * @return Integer[]\n     */\n    function countPairsOfConnectableServers($edges, $signalSpeed) {\n        \n    }\n}"

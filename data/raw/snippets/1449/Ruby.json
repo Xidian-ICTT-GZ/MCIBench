@@ -1,1 +1,0 @@
-"# @param {Integer[]} cost\n# @param {Integer} target\n# @return {String}\ndef largest_number(cost, target)\n    \nend"

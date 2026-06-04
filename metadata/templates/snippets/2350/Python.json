@@ -1,0 +1,1 @@
+"class Solution(object):\n    def shortestSequence(self, rolls, k):\n        \"\"\"\n        :type rolls: List[int]\n        :type k: int\n        :rtype: int\n        \"\"\"\n        "

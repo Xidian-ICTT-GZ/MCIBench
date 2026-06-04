@@ -1,1 +1,0 @@
-"(define/contract (min-time-to-type word)\n  (-> string? exact-integer?)\n  )"

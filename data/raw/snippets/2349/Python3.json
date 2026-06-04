@@ -1,1 +1,0 @@
-"class NumberContainers:\n\n    def __init__(self):\n        \n\n    def change(self, index: int, number: int) -> None:\n        \n\n    def find(self, number: int) -> int:\n        \n\n\n# Your NumberContainers object will be instantiated and called as such:\n# obj = NumberContainers()\n# obj.change(index,number)\n# param_2 = obj.find(number)"

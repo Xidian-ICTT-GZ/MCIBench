@@ -1,1 +1,0 @@
-"class Solution(object):\n    def customSortString(self, order, s):\n        \"\"\"\n        :type order: str\n        :type s: str\n        :rtype: str\n        \"\"\"\n        "

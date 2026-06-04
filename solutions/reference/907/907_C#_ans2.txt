@@ -1,0 +1,19 @@
+public class Solution {
+    public int SumSubarrayMins(int[] arr) {
+        int n = arr.Length;
+        long ans = 0;
+        const int MOD = 1000000007;
+        Stack<int> monoStack = new Stack<int>();
+        int[] dp = new int[n];
+        for (int i = 0; i < n; i++) {
+            while (monoStack.Count > 0 && arr[monoStack.Peek()] > arr[i]) {
+                monoStack.Pop();
+            }
+            int k = monoStack.Count == 0 ? (i + 1) : (i - monoStack.Peek());
+            dp[i] = k * arr[i] + (monoStack.Count == 0 ? 0 : dp[i - k]);
+            ans = (ans + dp[i]) % MOD;
+            monoStack.Push(i);
+        }
+        return (int) ans;
+    }
+}

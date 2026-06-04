@@ -1,0 +1,25 @@
+public class Solution {
+    IList<string> res = new List<string>();
+    int n;
+
+    public IList<string> ValidStrings(int n) {
+        this.n = n;
+        DFS(new StringBuilder());
+        return res;
+    }
+
+    public void DFS(StringBuilder sb) {
+        if (sb.Length == n) {
+            res.Add(sb.ToString());
+        } else {
+            if (sb.Length == 0 || sb[sb.Length - 1] == '1') {
+                sb.Append('0');
+                DFS(sb);
+                sb.Length--;
+            }
+            sb.Append('1');
+            DFS(sb);
+            sb.Length--;
+        }
+    }
+}

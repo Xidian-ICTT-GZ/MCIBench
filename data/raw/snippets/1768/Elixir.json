@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec merge_alternately(word1 :: String.t, word2 :: String.t) :: String.t\n  def merge_alternately(word1, word2) do\n    \n  end\nend"

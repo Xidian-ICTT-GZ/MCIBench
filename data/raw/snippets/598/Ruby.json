@@ -1,1 +1,0 @@
-"# @param {Integer} m\n# @param {Integer} n\n# @param {Integer[][]} ops\n# @return {Integer}\ndef max_count(m, n, ops)\n    \nend"

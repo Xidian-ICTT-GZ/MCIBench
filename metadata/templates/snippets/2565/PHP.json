@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $s\n     * @param String $t\n     * @return Integer\n     */\n    function minimumScore($s, $t) {\n        \n    }\n}"

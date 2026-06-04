@@ -1,0 +1,18 @@
+var maximumSum = function(nums) {
+    const dict = new Map();
+    let res = -1;
+    for (const i of nums) {
+        let digitsSum = 0, temp = i;
+        while (temp > 0) {
+            digitsSum += temp % 10;
+            temp = Math.floor(temp / 10);
+        }
+        if (dict.has(digitsSum)) {
+            res = Math.max(res, dict.get(digitsSum) + i)
+            dict.set(digitsSum, Math.max(dict.get(digitsSum), i));
+        } else {
+            dict.set(digitsSum, i);
+        }
+    }
+    return res;
+};

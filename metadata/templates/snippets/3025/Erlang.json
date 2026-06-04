@@ -1,0 +1,1 @@
+"-spec number_of_pairs(Points :: [[integer()]]) -> integer().\nnumber_of_pairs(Points) ->\n  ."

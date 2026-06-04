@@ -1,0 +1,1 @@
+"class Solution:\n    def checkDivisibility(self, n: int) -> bool:\n        "

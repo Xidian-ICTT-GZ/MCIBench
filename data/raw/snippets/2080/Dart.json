@@ -1,1 +1,0 @@
-"class RangeFreqQuery {\n\n  RangeFreqQuery(List<int> arr) {\n    \n  }\n  \n  int query(int left, int right, int value) {\n    \n  }\n}\n\n/**\n * Your RangeFreqQuery object will be instantiated and called as such:\n * RangeFreqQuery obj = RangeFreqQuery(arr);\n * int param1 = obj.query(left,right,value);\n */"

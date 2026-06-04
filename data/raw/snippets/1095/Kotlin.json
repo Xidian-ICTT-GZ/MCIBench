@@ -1,1 +1,0 @@
-"/**\n * // This is MountainArray's API interface.\n * // You should not implement it, or speculate about its implementation\n * class MountainArray {\n *     fun get(index: Int): Int {}\n *     fun length(): Int {}\n * }\n */\n\nclass Solution {\n    fun findInMountainArray(target: Int, mountainArr: MountainArray): Int {\n        \n    }\n}"

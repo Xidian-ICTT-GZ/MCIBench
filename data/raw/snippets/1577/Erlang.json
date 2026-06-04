@@ -1,1 +1,0 @@
-"-spec num_triplets(Nums1 :: [integer()], Nums2 :: [integer()]) -> integer().\nnum_triplets(Nums1, Nums2) ->\n  ."

@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    long long maximizeSumOfWeights(vector<vector<int>>& edges, int k) {\n        \n    }\n};"

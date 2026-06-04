@@ -1,1 +1,0 @@
-"class Solution:\n    def isTransformable(self, s: str, t: str) -> bool:\n        "

@@ -1,0 +1,1 @@
+"class Solution(object):\n    def minimumIndex(self, nums):\n        \"\"\"\n        :type nums: List[int]\n        :rtype: int\n        \"\"\"\n        "

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec median_sliding_window(nums :: [integer], k :: integer) :: [float]\n  def median_sliding_window(nums, k) do\n    \n  end\nend"

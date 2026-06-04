@@ -1,0 +1,1 @@
+"class Solution {\n  int findShortestCycle(int n, List<List<int>> edges) {\n    \n  }\n}"

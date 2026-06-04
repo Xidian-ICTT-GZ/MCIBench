@@ -1,1 +1,0 @@
-"# @param {Integer[]} nums\n# @param {Integer[]} l\n# @param {Integer[]} r\n# @return {Boolean[]}\ndef check_arithmetic_subarrays(nums, l, r)\n    \nend"

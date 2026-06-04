@@ -1,1 +1,0 @@
-"/**\n * @param {number[][]} grid\n * @param {number[]} pricing\n * @param {number[]} start\n * @param {number} k\n * @return {number[][]}\n */\nvar highestRankedKItems = function(grid, pricing, start, k) {\n    \n};"

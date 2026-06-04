@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec stable_mountains(height :: [integer], threshold :: integer) :: [integer]\n  def stable_mountains(height, threshold) do\n    \n  end\nend"

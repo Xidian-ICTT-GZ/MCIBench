@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $flowerbed\n     * @param Integer $n\n     * @return Boolean\n     */\n    function canPlaceFlowers($flowerbed, $n) {\n        \n    }\n}"

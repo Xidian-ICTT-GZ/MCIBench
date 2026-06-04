@@ -1,1 +1,0 @@
-"object Solution {\n    def survivedRobotsHealths(positions: Array[Int], healths: Array[Int], directions: String): List[Int] = {\n        \n    }\n}"

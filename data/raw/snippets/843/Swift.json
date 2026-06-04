@@ -1,1 +1,0 @@
-"/**\n * // This is the Master's API interface.\n * // You should not implement it, or speculate about its implementation\n * class Master {\n *     public func guess(word: String) -> Int {}\n * }\n */\nclass Solution {\n    func findSecretWord(_ words: [String], _ master: Master) {\n        \n    }\n}"

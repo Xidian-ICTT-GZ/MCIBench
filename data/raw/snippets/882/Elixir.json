@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec reachable_nodes(edges :: [[integer]], max_moves :: integer, n :: integer) :: integer\n  def reachable_nodes(edges, max_moves, n) do\n    \n  end\nend"

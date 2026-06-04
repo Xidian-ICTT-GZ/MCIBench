@@ -1,0 +1,1 @@
+"(define/contract (process-queries c connections queries)\n  (-> exact-integer? (listof (listof exact-integer?)) (listof (listof exact-integer?)) (listof exact-integer?))\n  )"

@@ -1,1 +1,0 @@
-"# @param {Integer[]} vals\n# @param {Integer[][]} edges\n# @return {Integer}\ndef number_of_good_paths(vals, edges)\n    \nend"

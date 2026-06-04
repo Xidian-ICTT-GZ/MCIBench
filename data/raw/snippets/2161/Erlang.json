@@ -1,1 +1,0 @@
-"-spec pivot_array(Nums :: [integer()], Pivot :: integer()) -> [integer()].\npivot_array(Nums, Pivot) ->\n  ."

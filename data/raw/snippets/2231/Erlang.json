@@ -1,1 +1,0 @@
-"-spec largest_integer(Num :: integer()) -> integer().\nlargest_integer(Num) ->\n  ."

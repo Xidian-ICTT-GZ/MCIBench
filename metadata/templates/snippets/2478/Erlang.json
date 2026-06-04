@@ -1,0 +1,1 @@
+"-spec beautiful_partitions(S :: unicode:unicode_binary(), K :: integer(), MinLength :: integer()) -> integer().\nbeautiful_partitions(S, K, MinLength) ->\n  ."

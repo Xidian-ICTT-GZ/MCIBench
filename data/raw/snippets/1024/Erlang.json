@@ -1,1 +1,0 @@
-"-spec video_stitching(Clips :: [[integer()]], Time :: integer()) -> integer().\nvideo_stitching(Clips, Time) ->\n  ."

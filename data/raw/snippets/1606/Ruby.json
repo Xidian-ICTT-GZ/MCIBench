@@ -1,1 +1,0 @@
-"# @param {Integer} k\n# @param {Integer[]} arrival\n# @param {Integer[]} load\n# @return {Integer[]}\ndef busiest_servers(k, arrival, load)\n    \nend"

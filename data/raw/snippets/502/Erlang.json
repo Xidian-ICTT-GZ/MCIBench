@@ -1,1 +1,0 @@
-"-spec find_maximized_capital(K :: integer(), W :: integer(), Profits :: [integer()], Capital :: [integer()]) -> integer().\nfind_maximized_capital(K, W, Profits, Capital) ->\n  ."

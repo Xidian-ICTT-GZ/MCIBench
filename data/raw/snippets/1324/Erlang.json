@@ -1,1 +1,0 @@
-"-spec print_vertically(S :: unicode:unicode_binary()) -> [unicode:unicode_binary()].\nprint_vertically(S) ->\n  ."

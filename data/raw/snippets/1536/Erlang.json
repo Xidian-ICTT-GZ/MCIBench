@@ -1,1 +1,0 @@
-"-spec min_swaps(Grid :: [[integer()]]) -> integer().\nmin_swaps(Grid) ->\n  ."

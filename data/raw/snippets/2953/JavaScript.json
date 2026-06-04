@@ -1,1 +1,0 @@
-"/**\n * @param {string} word\n * @param {number} k\n * @return {number}\n */\nvar countCompleteSubstrings = function(word, k) {\n    \n};"

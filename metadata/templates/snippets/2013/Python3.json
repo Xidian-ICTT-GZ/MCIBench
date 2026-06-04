@@ -1,0 +1,1 @@
+"class DetectSquares:\n\n    def __init__(self):\n        \n\n    def add(self, point: List[int]) -> None:\n        \n\n    def count(self, point: List[int]) -> int:\n        \n\n\n# Your DetectSquares object will be instantiated and called as such:\n# obj = DetectSquares()\n# obj.add(point)\n# param_2 = obj.count(point)"

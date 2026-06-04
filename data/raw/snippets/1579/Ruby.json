@@ -1,1 +1,0 @@
-"# @param {Integer} n\n# @param {Integer[][]} edges\n# @return {Integer}\ndef max_num_edges_to_remove(n, edges)\n    \nend"

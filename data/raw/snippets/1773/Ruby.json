@@ -1,1 +1,0 @@
-"# @param {String[][]} items\n# @param {String} rule_key\n# @param {String} rule_value\n# @return {Integer}\ndef count_matches(items, rule_key, rule_value)\n    \nend"

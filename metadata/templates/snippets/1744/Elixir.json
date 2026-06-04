@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec can_eat(candies_count :: [integer], queries :: [[integer]]) :: [boolean]\n  def can_eat(candies_count, queries) do\n    \n  end\nend"

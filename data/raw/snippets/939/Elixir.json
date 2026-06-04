@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec min_area_rect(points :: [[integer]]) :: integer\n  def min_area_rect(points) do\n    \n  end\nend"

@@ -1,1 +1,0 @@
-"impl Solution {\n    pub fn min_cost(m: i32, n: i32, wait_cost: Vec<Vec<i32>>) -> i64 {\n        \n    }\n}"

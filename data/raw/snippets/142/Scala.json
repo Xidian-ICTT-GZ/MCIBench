@@ -1,1 +1,0 @@
-"/**\n * Definition for singly-linked list.\n * class ListNode(var _x: Int = 0) {\n *   var next: ListNode = null\n *   var x: Int = _x\n * }\n */\n\nobject Solution {\n    def detectCycle(head: ListNode): ListNode = {\n        \n    }\n}"

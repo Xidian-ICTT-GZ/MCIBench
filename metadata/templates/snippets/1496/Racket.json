@@ -1,0 +1,1 @@
+"(define/contract (is-path-crossing path)\n  (-> string? boolean?)\n  )"

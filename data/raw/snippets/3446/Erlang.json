@@ -1,1 +1,0 @@
-"-spec sort_matrix(Grid :: [[integer()]]) -> [[integer()]].\nsort_matrix(Grid) ->\n  ."

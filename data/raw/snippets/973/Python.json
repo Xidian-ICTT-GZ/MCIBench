@@ -1,1 +1,0 @@
-"class Solution(object):\n    def kClosest(self, points, k):\n        \"\"\"\n        :type points: List[List[int]]\n        :type k: int\n        :rtype: List[List[int]]\n        \"\"\"\n        "

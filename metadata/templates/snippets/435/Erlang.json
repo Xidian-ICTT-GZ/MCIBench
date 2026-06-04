@@ -1,0 +1,1 @@
+"-spec erase_overlap_intervals(Intervals :: [[integer()]]) -> integer().\nerase_overlap_intervals(Intervals) ->\n  ."

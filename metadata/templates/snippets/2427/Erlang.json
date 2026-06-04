@@ -1,0 +1,1 @@
+"-spec common_factors(A :: integer(), B :: integer()) -> integer().\ncommon_factors(A, B) ->\n  ."

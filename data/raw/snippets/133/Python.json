@@ -1,1 +1,0 @@
-"\"\"\"\n# Definition for a Node.\nclass Node(object):\n    def __init__(self, val = 0, neighbors = None):\n        self.val = val\n        self.neighbors = neighbors if neighbors is not None else []\n\"\"\"\n\nclass Solution(object):\n    def cloneGraph(self, node):\n        \"\"\"\n        :type node: Node\n        :rtype: Node\n        \"\"\"\n        "

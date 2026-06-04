@@ -1,1 +1,0 @@
-"class Solution(object):\n    def minimumBuckets(self, hamsters):\n        \"\"\"\n        :type hamsters: str\n        :rtype: int\n        \"\"\"\n        "

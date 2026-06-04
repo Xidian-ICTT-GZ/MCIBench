@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer $k\n     * @param Integer[] $operations\n     * @return String\n     */\n    function kthCharacter($k, $operations) {\n        \n    }\n}"

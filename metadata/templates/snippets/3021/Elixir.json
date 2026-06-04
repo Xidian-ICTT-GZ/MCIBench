@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec flower_game(n :: integer, m :: integer) :: integer\n  def flower_game(n, m) do\n    \n  end\nend"

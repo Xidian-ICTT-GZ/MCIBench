@@ -1,0 +1,1 @@
+"-spec gcd_sort(Nums :: [integer()]) -> boolean().\ngcd_sort(Nums) ->\n  ."

@@ -1,1 +1,0 @@
-"object Solution {\n    def maxFreeTime(eventTime: Int, k: Int, startTime: Array[Int], endTime: Array[Int]): Int = {\n        \n    }\n}"

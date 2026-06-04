@@ -1,1 +1,0 @@
-"# Definition for a Node.\n# class Node\n#     attr_accessor :val, :neighbors\n#     def initialize(val = 0, neighbors = nil)\n#\t\t  @val = val\n#\t\t  neighbors = [] if neighbors.nil?\n#         @neighbors = neighbors\n#     end\n# end\n\n# @param {Node} node\n# @return {Node}\ndef cloneGraph(node)\n    \nend"

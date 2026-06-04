@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @param {Integer[][]} edges\n# @return {Boolean[]}\ndef find_answer(n, edges)\n    \nend"

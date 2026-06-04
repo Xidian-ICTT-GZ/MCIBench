@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @param {Integer} k\n# @return {Integer}\ndef subarrays_div_by_k(nums, k)\n    \nend"

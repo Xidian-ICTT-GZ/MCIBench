@@ -1,1 +1,0 @@
-"-spec has_trailing_zeros(Nums :: [integer()]) -> boolean().\nhas_trailing_zeros(Nums) ->\n  ."

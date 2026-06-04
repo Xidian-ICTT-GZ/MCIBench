@@ -1,1 +1,0 @@
-"-spec hit_bricks(Grid :: [[integer()]], Hits :: [[integer()]]) -> [integer()].\nhit_bricks(Grid, Hits) ->\n  ."

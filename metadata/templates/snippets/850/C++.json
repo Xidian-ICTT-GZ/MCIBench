@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int rectangleArea(vector<vector<int>>& rectangles) {\n        \n    }\n};"

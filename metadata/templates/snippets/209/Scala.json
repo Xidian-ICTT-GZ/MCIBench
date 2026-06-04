@@ -1,0 +1,1 @@
+"object Solution {\n    def minSubArrayLen(target: Int, nums: Array[Int]): Int = {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"class Solution(object):\n    def garbageCollection(self, garbage, travel):\n        \"\"\"\n        :type garbage: List[str]\n        :type travel: List[int]\n        :rtype: int\n        \"\"\"\n        "

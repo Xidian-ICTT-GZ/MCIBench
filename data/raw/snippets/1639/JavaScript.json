@@ -1,1 +1,0 @@
-"/**\n * @param {string[]} words\n * @param {string} target\n * @return {number}\n */\nvar numWays = function(words, target) {\n    \n};"

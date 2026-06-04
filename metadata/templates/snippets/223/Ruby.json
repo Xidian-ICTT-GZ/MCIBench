@@ -1,0 +1,1 @@
+"# @param {Integer} ax1\n# @param {Integer} ay1\n# @param {Integer} ax2\n# @param {Integer} ay2\n# @param {Integer} bx1\n# @param {Integer} by1\n# @param {Integer} bx2\n# @param {Integer} by2\n# @return {Integer}\ndef compute_area(ax1, ay1, ax2, ay2, bx1, by1, bx2, by2)\n    \nend"

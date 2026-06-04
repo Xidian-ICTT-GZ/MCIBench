@@ -1,0 +1,1 @@
+"(define/contract (max-power s)\n  (-> string? exact-integer?)\n  )"

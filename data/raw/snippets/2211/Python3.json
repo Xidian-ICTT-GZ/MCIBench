@@ -1,1 +1,0 @@
-"class Solution:\n    def countCollisions(self, directions: str) -> int:\n        "

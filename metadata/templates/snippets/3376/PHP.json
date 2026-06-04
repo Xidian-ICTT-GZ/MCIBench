@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $strength\n     * @param Integer $k\n     * @return Integer\n     */\n    function findMinimumTime($strength, $k) {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @param {Integer[]} speed\n# @param {Integer[]} efficiency\n# @param {Integer} k\n# @return {Integer}\ndef max_performance(n, speed, efficiency, k)\n    \nend"

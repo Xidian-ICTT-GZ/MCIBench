@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String $s\n     * @param Integer $maxLetters\n     * @param Integer $minSize\n     * @param Integer $maxSize\n     * @return Integer\n     */\n    function maxFreq($s, $maxLetters, $minSize, $maxSize) {\n        \n    }\n}"

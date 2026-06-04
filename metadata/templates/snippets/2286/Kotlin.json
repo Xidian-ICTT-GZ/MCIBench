@@ -1,0 +1,1 @@
+"class BookMyShow(n: Int, m: Int) {\n\n    fun gather(k: Int, maxRow: Int): IntArray {\n        \n    }\n\n    fun scatter(k: Int, maxRow: Int): Boolean {\n        \n    }\n\n}\n\n/**\n * Your BookMyShow object will be instantiated and called as such:\n * var obj = BookMyShow(n, m)\n * var param_1 = obj.gather(k,maxRow)\n * var param_2 = obj.scatter(k,maxRow)\n */"

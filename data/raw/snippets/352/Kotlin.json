@@ -1,1 +1,0 @@
-"class SummaryRanges() {\n\n    fun addNum(value: Int) {\n        \n    }\n\n    fun getIntervals(): Array<IntArray> {\n        \n    }\n\n}\n\n/**\n * Your SummaryRanges object will be instantiated and called as such:\n * var obj = SummaryRanges()\n * obj.addNum(value)\n * var param_2 = obj.getIntervals()\n */"

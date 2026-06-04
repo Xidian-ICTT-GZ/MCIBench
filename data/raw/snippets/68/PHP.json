@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String[] $words\n     * @param Integer $maxWidth\n     * @return String[]\n     */\n    function fullJustify($words, $maxWidth) {\n        \n    }\n}"

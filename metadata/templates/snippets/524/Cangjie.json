@@ -1,0 +1,1 @@
+"class Solution {\n    func findLongestWord(s: String, dictionary: ArrayList<String>): String {\n\n    }\n}"

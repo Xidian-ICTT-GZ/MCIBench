@@ -1,0 +1,1 @@
+"-spec repeated_character(S :: unicode:unicode_binary()) -> char().\nrepeated_character(S) ->\n  ."

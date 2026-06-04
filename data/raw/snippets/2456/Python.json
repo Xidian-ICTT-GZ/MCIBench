@@ -1,1 +1,0 @@
-"class Solution(object):\n    def mostPopularCreator(self, creators, ids, views):\n        \"\"\"\n        :type creators: List[str]\n        :type ids: List[str]\n        :type views: List[int]\n        :rtype: List[List[str]]\n        \"\"\"\n        "

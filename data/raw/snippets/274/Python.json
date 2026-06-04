@@ -1,1 +1,0 @@
-"class Solution(object):\n    def hIndex(self, citations):\n        \"\"\"\n        :type citations: List[int]\n        :rtype: int\n        \"\"\"\n        "

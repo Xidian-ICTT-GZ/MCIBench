@@ -1,1 +1,0 @@
-"-spec count_restricted_paths(N :: integer(), Edges :: [[integer()]]) -> integer().\ncount_restricted_paths(N, Edges) ->\n  ."

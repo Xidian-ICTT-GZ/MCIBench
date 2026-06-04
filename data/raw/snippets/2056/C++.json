@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    int countCombinations(vector<string>& pieces, vector<vector<int>>& positions) {\n        \n    }\n};"

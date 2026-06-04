@@ -1,1 +1,0 @@
-"# @param {String} allowed\n# @param {String[]} words\n# @return {Integer}\ndef count_consistent_strings(allowed, words)\n    \nend"

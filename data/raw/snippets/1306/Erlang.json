@@ -1,1 +1,0 @@
-"-spec can_reach(Arr :: [integer()], Start :: integer()) -> boolean().\ncan_reach(Arr, Start) ->\n  ."

@@ -1,1 +1,0 @@
-"# @param {Integer[]} order\n# @param {Integer[]} friends\n# @return {Integer[]}\ndef recover_order(order, friends)\n    \nend"

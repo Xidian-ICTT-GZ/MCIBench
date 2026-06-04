@@ -1,1 +1,0 @@
-"-spec solution_init_(W :: [integer()]) -> any().\nsolution_init_(W) ->\n  .\n\n-spec solution_pick_index() -> integer().\nsolution_pick_index() ->\n  .\n\n\n%% Your functions will be called as such:\n%% solution_init_(W),\n%% Param_1 = solution_pick_index(),\n\n%% solution_init_ will be called before every test case, in which you can do some necessary initializations."

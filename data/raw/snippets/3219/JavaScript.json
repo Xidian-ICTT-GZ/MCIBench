@@ -1,1 +1,0 @@
-"/**\n * @param {number} m\n * @param {number} n\n * @param {number[]} horizontalCut\n * @param {number[]} verticalCut\n * @return {number}\n */\nvar minimumCost = function(m, n, horizontalCut, verticalCut) {\n    \n};"

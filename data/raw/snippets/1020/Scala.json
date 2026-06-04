@@ -1,1 +1,0 @@
-"object Solution {\n    def numEnclaves(grid: Array[Array[Int]]): Int = {\n        \n    }\n}"

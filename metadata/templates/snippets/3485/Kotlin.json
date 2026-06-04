@@ -1,0 +1,1 @@
+"class Solution {\n    fun longestCommonPrefix(words: Array<String>, k: Int): IntArray {\n        \n    }\n}"

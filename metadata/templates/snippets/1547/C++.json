@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int minCost(int n, vector<int>& cuts) {\n        \n    }\n};"

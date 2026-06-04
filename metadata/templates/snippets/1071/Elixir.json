@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec gcd_of_strings(str1 :: String.t, str2 :: String.t) :: String.t\n  def gcd_of_strings(str1, str2) do\n    \n  end\nend"

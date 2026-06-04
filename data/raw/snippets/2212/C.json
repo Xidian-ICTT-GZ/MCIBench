@@ -1,1 +1,0 @@
-"/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* maximumBobPoints(int numArrows, int* aliceArrows, int aliceArrowsSize, int* returnSize) {\n    \n}"

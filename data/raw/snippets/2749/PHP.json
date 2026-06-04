@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer $num1\n     * @param Integer $num2\n     * @return Integer\n     */\n    function makeTheIntegerZero($num1, $num2) {\n        \n    }\n}"

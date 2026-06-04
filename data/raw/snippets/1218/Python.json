@@ -1,1 +1,0 @@
-"class Solution(object):\n    def longestSubsequence(self, arr, difference):\n        \"\"\"\n        :type arr: List[int]\n        :type difference: int\n        :rtype: int\n        \"\"\"\n        "

@@ -1,0 +1,42 @@
+public class Solution {
+    public int CountPaths(int n, int[][] roads) {
+        int mod = 1000000007;
+        IList<Tuple<int, int>>[] e = new IList<Tuple<int, int>>[n];
+        for (int i = 0; i < n; i++) {
+            e[i] = new List<Tuple<int, int>>();
+        }
+        foreach (int[] road in roads) {
+            int x = road[0], y = road[1], t = road[2];
+            e[x].Add(new Tuple<int, int>(y, t));
+            e[y].Add(new Tuple<int, int>(x, t));
+        }
+        long[] dis = new long[n];
+        Array.Fill(dis, long.MaxValue);
+        int[] ways = new int[n];
+
+        PriorityQueue<Tuple<long, int>, long> pq = new PriorityQueue<Tuple<long, int>, long>();
+        pq.Enqueue(new Tuple<long, int>(0, 0), 0);
+        dis[0] = 0;
+        ways[0] = 1;
+
+        while (pq.Count > 0) {
+            Tuple<long, int> tuple = pq.Dequeue();
+            long t = tuple.Item1;
+            int u = tuple.Item2;
+            if (t > dis[u]) {
+                continue;
+            }
+            foreach (Tuple<int, int> next in e[u]) {
+                int v = next.Item1, w = next.Item2;
+                if (t + w < dis[v]) {
+                    dis[v] = t + w;
+                    ways[v] = ways[u];
+                    pq.Enqueue(new Tuple<long, int>(t + w, v), t + w);
+                } else if (t + w == dis[v]) {
+                    ways[v] = (ways[u] + ways[v]) % mod;
+                }
+            }
+        }
+        return ways[n - 1];
+    }
+}

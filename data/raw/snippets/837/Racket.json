@@ -1,1 +1,0 @@
-"(define/contract (new21-game n k maxPts)\n  (-> exact-integer? exact-integer? exact-integer? flonum?)\n  )"

@@ -1,1 +1,0 @@
-"/**\n * @param {number} mountainHeight\n * @param {number[]} workerTimes\n * @return {number}\n */\nvar minNumberOfSeconds = function(mountainHeight, workerTimes) {\n    \n};"

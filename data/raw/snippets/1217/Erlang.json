@@ -1,1 +1,0 @@
-"-spec min_cost_to_move_chips(Position :: [integer()]) -> integer().\nmin_cost_to_move_chips(Position) ->\n  ."

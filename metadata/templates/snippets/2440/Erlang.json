@@ -1,0 +1,1 @@
+"-spec component_value(Nums :: [integer()], Edges :: [[integer()]]) -> integer().\ncomponent_value(Nums, Edges) ->\n  ."

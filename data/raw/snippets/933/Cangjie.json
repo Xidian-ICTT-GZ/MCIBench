@@ -1,1 +1,0 @@
-"class RecentCounter {\n    init() {\n\n    }\n    \n    func ping(t: Int64): Int64 {\n\n    }\n}\n\n/**\n * Your RecentCounter object will be instantiated and called as such:\n * let obj: RecentCounter = RecentCounter()\n * let param_1 = obj.ping(t)\n */"

@@ -1,1 +1,0 @@
-"-spec count_and_say(N :: integer()) -> unicode:unicode_binary().\ncount_and_say(N) ->\n  ."

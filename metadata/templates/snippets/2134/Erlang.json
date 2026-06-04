@@ -1,0 +1,1 @@
+"-spec min_swaps(Nums :: [integer()]) -> integer().\nmin_swaps(Nums) ->\n  ."

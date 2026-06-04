@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec min_sum_of_lengths(arr :: [integer], target :: integer) :: integer\n  def min_sum_of_lengths(arr, target) do\n    \n  end\nend"

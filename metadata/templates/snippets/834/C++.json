@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<int> sumOfDistancesInTree(int n, vector<vector<int>>& edges) {\n        \n    }\n};"

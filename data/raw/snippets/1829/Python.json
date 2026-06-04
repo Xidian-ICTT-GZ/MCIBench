@@ -1,1 +1,0 @@
-"class Solution(object):\n    def getMaximumXor(self, nums, maximumBit):\n        \"\"\"\n        :type nums: List[int]\n        :type maximumBit: int\n        :rtype: List[int]\n        \"\"\"\n        "

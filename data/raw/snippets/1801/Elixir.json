@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec get_number_of_backlog_orders(orders :: [[integer]]) :: integer\n  def get_number_of_backlog_orders(orders) do\n    \n  end\nend"

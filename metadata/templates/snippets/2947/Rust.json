@@ -1,0 +1,1 @@
+"impl Solution {\n    pub fn beautiful_substrings(s: String, k: i32) -> i32 {\n        \n    }\n}"

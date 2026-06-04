@@ -1,1 +1,0 @@
-"/** Encodes a URL to a shortened URL. */\nchar* encode(char* longUrl) {\n    \n}\n\n/** Decodes a shortened URL to its original URL. */\nchar* decode(char* shortUrl) {\n    \n}\n\n// Your functions will be called as such:\n// char* s = encode(s);\n// decode(s);"

@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<int> relocateMarbles(vector<int>& nums, vector<int>& moveFrom, vector<int>& moveTo) {\n        \n    }\n};"

@@ -1,1 +1,0 @@
-"class Solution:\n    def hasMatch(self, s: str, p: str) -> bool:\n        "

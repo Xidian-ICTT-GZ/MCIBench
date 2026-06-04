@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer $divisor1\n     * @param Integer $divisor2\n     * @param Integer $uniqueCnt1\n     * @param Integer $uniqueCnt2\n     * @return Integer\n     */\n    function minimizeSet($divisor1, $divisor2, $uniqueCnt1, $uniqueCnt2) {\n        \n    }\n}"

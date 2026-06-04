@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[][] $tires\n     * @param Integer $changeTime\n     * @param Integer $numLaps\n     * @return Integer\n     */\n    function minimumFinishTime($tires, $changeTime, $numLaps) {\n        \n    }\n}"

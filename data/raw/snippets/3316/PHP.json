@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String $source\n     * @param String $pattern\n     * @param Integer[] $targetIndices\n     * @return Integer\n     */\n    function maxRemovals($source, $pattern, $targetIndices) {\n        \n    }\n}"

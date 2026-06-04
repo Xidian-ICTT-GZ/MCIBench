@@ -1,0 +1,1 @@
+"-spec maximum_and_sum(Nums :: [integer()], NumSlots :: integer()) -> integer().\nmaximum_and_sum(Nums, NumSlots) ->\n  ."

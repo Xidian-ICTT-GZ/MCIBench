@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} nums\n * @param {number[]} pattern\n * @return {number}\n */\nvar countMatchingSubarrays = function(nums, pattern) {\n    \n};"

@@ -1,1 +1,0 @@
-"-spec shortest_path(Grid :: [[integer()]], K :: integer()) -> integer().\nshortest_path(Grid, K) ->\n  ."

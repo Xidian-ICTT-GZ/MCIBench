@@ -1,8 +1,0 @@
-class Solution:
-    def mostCompetitive(self, nums: List[int], k: int) -> List[int]:
-        res = []
-        for i, x in enumerate(nums):
-            while len(res) > 0 and len(nums) - i + len(res) > k and res[-1] > x:
-                res.pop()
-            res.append(x)
-        return res[:k]

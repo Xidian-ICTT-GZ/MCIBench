@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $xCoord\n     * @param Integer[] $yCoord\n     * @return Integer\n     */\n    function maxRectangleArea($xCoord, $yCoord) {\n        \n    }\n}"

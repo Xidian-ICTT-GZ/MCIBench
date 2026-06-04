@@ -1,1 +1,0 @@
-"class Solution(object):\n    def champagneTower(self, poured, query_row, query_glass):\n        \"\"\"\n        :type poured: int\n        :type query_row: int\n        :type query_glass: int\n        :rtype: float\n        \"\"\"\n        "

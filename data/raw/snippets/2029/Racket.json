@@ -1,1 +1,0 @@
-"(define/contract (stone-game-ix stones)\n  (-> (listof exact-integer?) boolean?)\n  )"

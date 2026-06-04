@@ -1,1 +1,0 @@
-"/**\n * @param {string} sentence\n * @param {string} searchWord\n * @return {number}\n */\nvar isPrefixOfWord = function(sentence, searchWord) {\n    \n};"

@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec find_closest(x :: integer, y :: integer, z :: integer) :: integer\n  def find_closest(x, y, z) do\n    \n  end\nend"

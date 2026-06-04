@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    int getMinDistance(vector<int>& nums, int target, int start) {\n        \n    }\n};"

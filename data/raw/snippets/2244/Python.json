@@ -1,1 +1,0 @@
-"class Solution(object):\n    def minimumRounds(self, tasks):\n        \"\"\"\n        :type tasks: List[int]\n        :rtype: int\n        \"\"\"\n        "

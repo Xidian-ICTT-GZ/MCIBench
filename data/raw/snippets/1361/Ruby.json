@@ -1,1 +1,0 @@
-"# @param {Integer} n\n# @param {Integer[]} left_child\n# @param {Integer[]} right_child\n# @return {Boolean}\ndef validate_binary_tree_nodes(n, left_child, right_child)\n    \nend"

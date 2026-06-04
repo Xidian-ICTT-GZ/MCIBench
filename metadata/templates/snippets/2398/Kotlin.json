@@ -1,0 +1,1 @@
+"class Solution {\n    fun maximumRobots(chargeTimes: IntArray, runningCosts: IntArray, budget: Long): Int {\n        \n    }\n}"

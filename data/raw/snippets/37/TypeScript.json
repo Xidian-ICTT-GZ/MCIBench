@@ -1,1 +1,0 @@
-"/**\n Do not return anything, modify board in-place instead.\n */\nfunction solveSudoku(board: string[][]): void {\n    \n};"

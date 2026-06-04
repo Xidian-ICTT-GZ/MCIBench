@@ -1,0 +1,24 @@
+# Server
+packages/server/data/*.db
+packages/server/data/*.db-journal
+packages/server/config/config.yaml
+packages/server/mcibench-server.exe
+packages/server/server.exe
+
+# Web
+packages/web/node_modules/
+packages/web/dist/
+packages/web/.env
+packages/web/.env.local
+packages/web/.env.*.local
+
+# Data (Sensitive/Large)
+rawdata/
+
+# Logs and System
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.exe

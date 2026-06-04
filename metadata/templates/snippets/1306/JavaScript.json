@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} arr\n * @param {number} start\n * @return {boolean}\n */\nvar canReach = function(arr, start) {\n    \n};"

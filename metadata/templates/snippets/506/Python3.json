@@ -1,0 +1,1 @@
+"class Solution:\n    def findRelativeRanks(self, score: List[int]) -> List[str]:\n        "

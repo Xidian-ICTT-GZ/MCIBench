@@ -1,0 +1,1 @@
+"-spec find_min_arrow_shots(Points :: [[integer()]]) -> integer().\nfind_min_arrow_shots(Points) ->\n  ."

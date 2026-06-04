@@ -1,0 +1,13 @@
+var customSortString = function(order, s) {
+    const val = new Array(26).fill(0);
+    for (let i = 0; i < order.length; ++i) {
+        val[order[i].charCodeAt() - 'a'.charCodeAt()] = i + 1;
+    }
+    const arr = new Array(s.length).fill(0).map((_, i) => s[i]);
+    arr.sort((c0, c1) => val[c0.charCodeAt() - 'a'.charCodeAt()] - val[c1.charCodeAt() - 'a'.charCodeAt()])
+    let ans = '';
+    for (let i = 0; i < s.length; ++i) {
+        ans += arr[i];
+    }
+    return ans;
+};

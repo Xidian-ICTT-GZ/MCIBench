@@ -1,1 +1,0 @@
-"class Solution(object):\n    def minHeightShelves(self, books, shelfWidth):\n        \"\"\"\n        :type books: List[List[int]]\n        :type shelfWidth: int\n        :rtype: int\n        \"\"\"\n        "

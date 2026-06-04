@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec min_reorder(n :: integer, connections :: [[integer]]) :: integer\n  def min_reorder(n, connections) do\n    \n  end\nend"

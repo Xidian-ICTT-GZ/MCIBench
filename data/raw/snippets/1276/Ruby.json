@@ -1,1 +1,0 @@
-"# @param {Integer} tomato_slices\n# @param {Integer} cheese_slices\n# @return {Integer[]}\ndef num_of_burgers(tomato_slices, cheese_slices)\n    \nend"

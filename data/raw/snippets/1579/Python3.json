@@ -1,1 +1,0 @@
-"class Solution:\n    def maxNumEdgesToRemove(self, n: int, edges: List[List[int]]) -> int:\n        "

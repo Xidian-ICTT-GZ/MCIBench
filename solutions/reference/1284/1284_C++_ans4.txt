@@ -1,0 +1,50 @@
+class Solution {
+private:
+    static constexpr int dirs[5][2] = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}, {0, 0}};
+
+public:
+    void convert(vector<vector<int>>& mat, int m, int n, int i, int j) {
+        for (int k = 0; k < 5; ++k) {
+            int i0 = i + dirs[k][0], j0 = j + dirs[k][1];
+            if (i0 >= 0 && i0 < m && j0 >= 0 && j0 < n) {
+                mat[i0][j0] ^= 1;
+            }
+        }
+    }
+
+    int minFlips(vector<vector<int>>& mat) {
+        int m = mat.size(), n = mat[0].size();
+        int ans = 1e9;
+        for (int bin = 0; bin < (1 << n); ++bin) {
+            vector<vector<int>> mat_copy = mat;
+            int flip_cnt = 0;
+            for (int j = 0; j < n; ++j) {
+                if (bin & (1 << j)) {
+                    ++flip_cnt;
+                    convert(mat_copy, m, n, 0, j);
+                }
+            }
+
+            for (int i = 1; i < m; ++i) {
+                for (int j = 0; j < n; ++j) {
+                    if (mat_copy[i - 1][j] == 1) {
+                        ++flip_cnt;
+                        convert(mat_copy, m, n, i, j);
+                    }
+                }
+            }
+
+            bool flag = true;
+            for (int j = 0; j < n; ++j) {
+                if (mat_copy[m - 1][j] != 0) {
+                    flag = false;
+                    break;
+                }
+            }
+            if (flag) {
+                ans = min(ans, flip_cnt);
+            }
+        }
+        return (ans != 1e9 ? ans : -1);
+    }
+};

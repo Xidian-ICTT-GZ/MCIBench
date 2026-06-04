@@ -1,0 +1,1 @@
+"(define/contract (lexical-order n)\n  (-> exact-integer? (listof exact-integer?))\n  )"

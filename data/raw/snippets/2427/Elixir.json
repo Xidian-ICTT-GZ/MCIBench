@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec common_factors(a :: integer, b :: integer) :: integer\n  def common_factors(a, b) do\n    \n  end\nend"

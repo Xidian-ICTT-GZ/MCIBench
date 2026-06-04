@@ -1,0 +1,1 @@
+"# @param {Integer[][]} positions\n# @return {Float}\ndef get_min_dist_sum(positions)\n    \nend"

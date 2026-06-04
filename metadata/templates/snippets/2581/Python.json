@@ -1,0 +1,1 @@
+"class Solution(object):\n    def rootCount(self, edges, guesses, k):\n        \"\"\"\n        :type edges: List[List[int]]\n        :type guesses: List[List[int]]\n        :type k: int\n        :rtype: int\n        \"\"\"\n        "

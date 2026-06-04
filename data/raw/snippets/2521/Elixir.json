@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec distinct_prime_factors(nums :: [integer]) :: integer\n  def distinct_prime_factors(nums) do\n    \n  end\nend"

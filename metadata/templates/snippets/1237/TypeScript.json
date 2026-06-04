@@ -1,0 +1,1 @@
+"/**\n * // This is the CustomFunction's API interface.\n * // You should not implement it, or speculate about its implementation\n * class CustomFunction {\n *      f(x: number, y: number): number {}\n * }\n */\n\nfunction findSolution(customfunction: CustomFunction, z: number): number[][] {\n\t\n};"

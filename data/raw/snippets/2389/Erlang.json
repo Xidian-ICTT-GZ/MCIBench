@@ -1,1 +1,0 @@
-"-spec answer_queries(Nums :: [integer()], Queries :: [integer()]) -> [integer()].\nanswer_queries(Nums, Queries) ->\n  ."

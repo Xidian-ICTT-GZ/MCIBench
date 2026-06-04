@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} arr\n * @param {number[][]} pieces\n * @return {boolean}\n */\nvar canFormArray = function(arr, pieces) {\n    \n};"

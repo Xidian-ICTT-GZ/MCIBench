@@ -1,1 +1,0 @@
-"class Solution(object):\n    def removeAnagrams(self, words):\n        \"\"\"\n        :type words: List[str]\n        :rtype: List[str]\n        \"\"\"\n        "

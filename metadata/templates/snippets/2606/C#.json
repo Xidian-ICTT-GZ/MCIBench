@@ -1,0 +1,1 @@
+"public class Solution {\n    public int MaximumCostSubstring(string s, string chars, int[] vals) {\n        \n    }\n}"

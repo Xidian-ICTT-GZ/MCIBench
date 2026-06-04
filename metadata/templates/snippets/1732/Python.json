@@ -1,0 +1,1 @@
+"class Solution(object):\n    def largestAltitude(self, gain):\n        \"\"\"\n        :type gain: List[int]\n        :rtype: int\n        \"\"\"\n        "

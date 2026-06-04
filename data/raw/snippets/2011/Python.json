@@ -1,1 +1,0 @@
-"class Solution(object):\n    def finalValueAfterOperations(self, operations):\n        \"\"\"\n        :type operations: List[str]\n        :rtype: int\n        \"\"\"\n        "

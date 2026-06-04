@@ -1,1 +1,0 @@
-"(define/contract (digit-sum s k)\n  (-> string? exact-integer? string?)\n  )"

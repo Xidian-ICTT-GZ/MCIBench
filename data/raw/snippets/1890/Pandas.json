@@ -1,1 +1,0 @@
-"import pandas as pd\n\ndef latest_login(logins: pd.DataFrame) -> pd.DataFrame:\n    "

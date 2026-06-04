@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} time\n * @return {number}\n */\nvar numPairsDivisibleBy60 = function(time) {\n    \n};"

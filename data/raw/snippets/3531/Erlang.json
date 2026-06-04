@@ -1,1 +1,0 @@
-"-spec count_covered_buildings(N :: integer(), Buildings :: [[integer()]]) -> integer().\ncount_covered_buildings(N, Buildings) ->\n  ."

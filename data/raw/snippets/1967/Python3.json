@@ -1,1 +1,0 @@
-"class Solution:\n    def numOfStrings(self, patterns: List[str], word: str) -> int:\n        "

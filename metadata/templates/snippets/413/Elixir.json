@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec number_of_arithmetic_slices(nums :: [integer]) :: integer\n  def number_of_arithmetic_slices(nums) do\n    \n  end\nend"

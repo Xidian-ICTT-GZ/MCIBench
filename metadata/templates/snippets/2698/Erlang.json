@@ -1,0 +1,1 @@
+"-spec punishment_number(N :: integer()) -> integer().\npunishment_number(N) ->\n  ."

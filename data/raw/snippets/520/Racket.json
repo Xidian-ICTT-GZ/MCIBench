@@ -1,1 +1,0 @@
-"(define/contract (detect-capital-use word)\n  (-> string? boolean?)\n  )"

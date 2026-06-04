@@ -1,0 +1,32 @@
+impl Solution {
+    pub fn sort_vowels(s: String) -> String {
+        let vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'];
+        let mut cnt = vec![-1; 58];
+        for &ch in &vowels {
+            let idx = (ch as u8 - b'A') as usize;
+            cnt[idx] = 0;
+        }
+        
+        for ch in s.chars() {
+            let idx = (ch as u8 - b'A') as usize;
+            if cnt[idx] != -1 {
+                cnt[idx] += 1;
+            }
+        }
+        
+        let mut res: Vec<char> = s.chars().collect();
+        let mut idx = 0;
+        for ch in res.iter_mut() {
+            let pos = (*ch as u8 - b'A') as usize;
+            if cnt[pos] != -1 {
+                while cnt[idx] <= 0 {
+                    idx += 1;
+                }
+                *ch = (idx as u8 + b'A') as char;
+                cnt[idx] -= 1;
+            }
+        }
+        
+        res.into_iter().collect()
+    }
+}

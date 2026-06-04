@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec xor_after_queries(nums :: [integer], queries :: [[integer]]) :: integer\n  def xor_after_queries(nums, queries) do\n    \n  end\nend"

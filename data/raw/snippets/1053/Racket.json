@@ -1,1 +1,0 @@
-"(define/contract (prev-perm-opt1 arr)\n  (-> (listof exact-integer?) (listof exact-integer?))\n  )"

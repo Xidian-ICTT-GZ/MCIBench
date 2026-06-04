@@ -1,0 +1,24 @@
+int minimumArea(int** grid, int gridSize, int* gridColSize) {
+    int n = gridSize, m = gridColSize[0];
+    int min_i = n, max_i = 0;
+    int min_j = m, max_j = 0;
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < m; j++) {
+            if (grid[i][j] == 1) {
+                if (i < min_i) {
+                    min_i = i;
+                }
+                if (i > max_i) {
+                    max_i = i;
+                }
+                if (j < min_j) {
+                    min_j = j;
+                }
+                if (j > max_j) {
+                    max_j = j;
+                }
+            }
+        }
+    }
+    return (max_i - min_i + 1) * (max_j - min_j + 1);
+}

@@ -1,1 +1,0 @@
-"# @param {String[]} deadends\n# @param {String} target\n# @return {Integer}\ndef open_lock(deadends, target)\n    \nend"

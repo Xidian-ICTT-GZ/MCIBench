@@ -1,0 +1,1 @@
+"class Solution(object):\n    def defangIPaddr(self, address):\n        \"\"\"\n        :type address: str\n        :rtype: str\n        \"\"\"\n        "

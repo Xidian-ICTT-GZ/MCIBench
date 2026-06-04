@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    long long numOfSubsequences(string s) {\n        \n    }\n};"

@@ -1,1 +1,0 @@
-"class Solution(object):\n    def findSpecialInteger(self, arr):\n        \"\"\"\n        :type arr: List[int]\n        :rtype: int\n        \"\"\"\n        "

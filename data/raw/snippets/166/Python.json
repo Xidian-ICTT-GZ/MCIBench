@@ -1,1 +1,0 @@
-"class Solution(object):\n    def fractionToDecimal(self, numerator, denominator):\n        \"\"\"\n        :type numerator: int\n        :type denominator: int\n        :rtype: str\n        \"\"\"\n        "

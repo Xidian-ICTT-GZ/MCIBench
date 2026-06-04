@@ -1,0 +1,1 @@
+"(define/contract (most-profitable-path edges bob amount)\n  (-> (listof (listof exact-integer?)) exact-integer? (listof exact-integer?) exact-integer?)\n  )"

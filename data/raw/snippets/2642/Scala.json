@@ -1,1 +1,0 @@
-"class Graph(_n: Int, _edges: Array[Array[Int]]) {\n\n    def addEdge(edge: Array[Int]): Unit = {\n        \n    }\n\n    def shortestPath(node1: Int, node2: Int): Int = {\n        \n    }\n\n}\n\n/**\n * Your Graph object will be instantiated and called as such:\n * val obj = new Graph(n, edges)\n * obj.addEdge(edge)\n * val param_2 = obj.shortestPath(node1,node2)\n */"

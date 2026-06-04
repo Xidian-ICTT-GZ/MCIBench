@@ -1,1 +1,0 @@
-"(define/contract (convert-temperature celsius)\n  (-> flonum? (listof flonum?))\n  )"

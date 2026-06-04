@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec two_edit_words(queries :: [String.t], dictionary :: [String.t]) :: [String.t]\n  def two_edit_words(queries, dictionary) do\n    \n  end\nend"

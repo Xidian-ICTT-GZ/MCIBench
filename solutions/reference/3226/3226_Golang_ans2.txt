@@ -1,0 +1,7 @@
+func minChanges(n int, k int) int {
+    if (n & k) == k {
+        return bits.OnesCount(uint(n ^ k))
+    } else {
+        return -1
+    }
+}

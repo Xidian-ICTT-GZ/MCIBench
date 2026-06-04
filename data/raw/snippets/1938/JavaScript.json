@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} parents\n * @param {number[][]} queries\n * @return {number[]}\n */\nvar maxGeneticDifference = function(parents, queries) {\n    \n};"

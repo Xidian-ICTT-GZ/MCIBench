@@ -1,1 +1,0 @@
-"/**\n * @param {number} numberOfUsers\n * @param {string[][]} events\n * @return {number[]}\n */\nvar countMentions = function(numberOfUsers, events) {\n    \n};"

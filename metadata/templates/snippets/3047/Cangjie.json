@@ -1,0 +1,1 @@
+"class Solution {\n    func largestSquareArea(bottomLeft: Array<Array<Int64>>, topRight: Array<Array<Int64>>): Int64 {\n\n    }\n}"

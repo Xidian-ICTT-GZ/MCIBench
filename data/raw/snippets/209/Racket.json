@@ -1,1 +1,0 @@
-"(define/contract (min-sub-array-len target nums)\n  (-> exact-integer? (listof exact-integer?) exact-integer?)\n  )"

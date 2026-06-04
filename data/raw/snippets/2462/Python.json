@@ -1,1 +1,0 @@
-"class Solution(object):\n    def totalCost(self, costs, k, candidates):\n        \"\"\"\n        :type costs: List[int]\n        :type k: int\n        :type candidates: int\n        :rtype: int\n        \"\"\"\n        "

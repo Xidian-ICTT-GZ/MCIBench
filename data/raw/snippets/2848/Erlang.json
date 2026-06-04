@@ -1,1 +1,0 @@
-"-spec number_of_points(Nums :: [[integer()]]) -> integer().\nnumber_of_points(Nums) ->\n  ."

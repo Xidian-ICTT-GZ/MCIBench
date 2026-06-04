@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec get_least_frequent_digit(n :: integer) :: integer\n  def get_least_frequent_digit(n) do\n    \n  end\nend"

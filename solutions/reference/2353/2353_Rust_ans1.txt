@@ -1,0 +1,57 @@
+use std::collections::{HashMap, BTreeSet};
+
+struct FoodRatings {
+    food_map: HashMap<String, (i32, String)>,
+    rating_map: HashMap<String, BTreeSet<(i32, String)>>,
+    n: usize,
+}
+
+impl FoodRatings {
+
+    fn new(foods: Vec<String>, cuisines: Vec<String>, ratings: Vec<i32>) -> Self {
+        let n = foods.len();
+        let mut food_map = HashMap::new();
+        let mut rating_map = HashMap::new();
+
+        for i in 0..n {
+            let food = foods[i].clone();
+            let cuisine = cuisines[i].clone();
+            let rating = ratings[i];
+            food_map.insert(food.clone(), (rating, cuisine.clone()));
+            rating_map
+                .entry(cuisine)
+                .or_insert_with(BTreeSet::new)
+                .insert((n as i32 - rating, food));
+        }
+
+        Self {
+            food_map,
+            rating_map,
+            n,
+        }
+    }
+    
+    fn change_rating(&mut self, food: String, new_rating: i32) {
+        if let Some((old_rating, cuisine)) = self.food_map.get(&food) {
+            let old_rating = *old_rating;
+            let cuisine = cuisine.clone();
+            self.rating_map
+                .get_mut(&cuisine)
+                .unwrap()
+                .remove(&(self.n as i32 - old_rating, food.clone()));
+            self.rating_map
+                .get_mut(&cuisine)
+                .unwrap()
+                .insert((self.n as i32 - new_rating, food.clone()));
+            self.food_map.insert(food, (new_rating, cuisine));
+        }
+    }
+    
+    fn highest_rated(&self, cuisine: String) -> String {
+        self.rating_map
+            .get(&cuisine)
+            .and_then(|set| set.iter().next())
+            .map(|(_, food)| food.clone())
+            .unwrap()
+    }
+}

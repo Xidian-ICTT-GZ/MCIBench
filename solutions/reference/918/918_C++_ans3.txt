@@ -1,0 +1,21 @@
+class Solution {
+public:
+    int maxSubarraySumCircular(vector<int>& nums) {
+        int n = nums.size();
+        deque<pair<int, int>> q;
+        int pre = nums[0], res = nums[0];
+        q.push_back({0, pre});
+        for (int i = 1; i < 2 * n; i++) {
+            while (!q.empty() && q.front().first < i - n) {
+                q.pop_front();
+            }
+            pre += nums[i % n];
+            res = max(res, pre - q.front().second);
+            while (!q.empty() && q.back().second >= pre) {
+                q.pop_back();
+            }
+            q.push_back({i, pre});
+        }
+        return res;
+    }
+};

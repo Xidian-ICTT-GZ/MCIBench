@@ -1,0 +1,1 @@
+"-spec maximize_greatness(Nums :: [integer()]) -> integer().\nmaximize_greatness(Nums) ->\n  ."

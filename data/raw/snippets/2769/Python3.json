@@ -1,1 +1,0 @@
-"class Solution:\n    def theMaximumAchievableX(self, num: int, t: int) -> int:\n        "

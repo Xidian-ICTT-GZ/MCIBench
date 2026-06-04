@@ -1,0 +1,1 @@
+"class Solution:\n    def validateStackSequences(self, pushed: List[int], popped: List[int]) -> bool:\n        "

@@ -1,0 +1,39 @@
+#define MAX(a, b) ((a) > (b) ? (a) : (b))
+
+int getSquaredDistance(const int *coordinate, const int *tower) {
+    return (tower[0] - coordinate[0]) * (tower[0] - coordinate[0]) + \
+           (tower[1] - coordinate[1]) * (tower[1] - coordinate[1]);
+}
+
+int* bestCoordinate(int** towers, int towersSize, int* towersColSize, int radius, int* returnSize) {
+    int xMax = INT_MIN, yMax = INT_MIN;
+    for (int i = 0; i < towersSize; i++) {
+        int x = towers[i][0], y = towers[i][1];
+        xMax = MAX(xMax, x);
+        yMax = MAX(yMax, y);
+    }
+    int cx = 0, cy = 0;
+    int maxQuality = 0;
+    for (int x = 0; x <= xMax; x++) {
+        for (int y = 0; y <= yMax; y++) {
+            int coordinate[2] = {x, y};
+            int quality = 0;
+            for (int i = 0; i < towersSize; i++) {
+                int squaredDistance = getSquaredDistance(coordinate, towers[i]);
+                if (squaredDistance <= radius * radius) {
+                    double distance = sqrt((double)squaredDistance);
+                    quality += floor((double)towers[i][2] / (1 + distance));
+                }
+            }
+            if (quality > maxQuality) {
+                cx = x;
+                cy = y;
+                maxQuality = quality;
+            }
+        }
+    }
+    int *ans = (int *)malloc(sizeof(int) * 2);
+    ans[0] = cx, ans[1] = cy;
+    *returnSize = 2;
+    return ans;
+}

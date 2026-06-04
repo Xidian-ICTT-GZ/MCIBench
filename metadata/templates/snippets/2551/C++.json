@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    long long putMarbles(vector<int>& weights, int k) {\n        \n    }\n};"

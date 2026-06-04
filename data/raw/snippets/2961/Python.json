@@ -1,1 +1,0 @@
-"class Solution(object):\n    def getGoodIndices(self, variables, target):\n        \"\"\"\n        :type variables: List[List[int]]\n        :type target: int\n        :rtype: List[int]\n        \"\"\"\n        "

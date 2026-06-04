@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec minimum_refill(plants :: [integer], capacity_a :: integer, capacity_b :: integer) :: integer\n  def minimum_refill(plants, capacity_a, capacity_b) do\n    \n  end\nend"

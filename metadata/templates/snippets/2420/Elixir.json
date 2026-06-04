@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec good_indices(nums :: [integer], k :: integer) :: [integer]\n  def good_indices(nums, k) do\n    \n  end\nend"

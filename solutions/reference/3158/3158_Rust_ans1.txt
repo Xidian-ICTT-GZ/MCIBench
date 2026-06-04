@@ -1,0 +1,17 @@
+use std::collections::HashSet;
+
+impl Solution {
+    pub fn duplicate_numbers_xor(nums: Vec<i32>) -> i32 {
+        let mut cnt = HashSet::new();
+        let mut res = 0;
+        
+        for num in nums {
+            if cnt.contains(&num) {
+                res ^= num;
+            } else {
+                cnt.insert(num);
+            }
+        }
+        res
+    }
+}

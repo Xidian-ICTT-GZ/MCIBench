@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    bool exist(vector<vector<char>>& board, string word) {\n        \n    }\n};"

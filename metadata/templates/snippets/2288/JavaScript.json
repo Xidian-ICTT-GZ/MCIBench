@@ -1,0 +1,1 @@
+"/**\n * @param {string} sentence\n * @param {number} discount\n * @return {string}\n */\nvar discountPrices = function(sentence, discount) {\n    \n};"

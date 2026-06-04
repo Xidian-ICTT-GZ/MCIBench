@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @param {Integer} k\n# @return {Integer}\ndef value_after_k_seconds(n, k)\n    \nend"

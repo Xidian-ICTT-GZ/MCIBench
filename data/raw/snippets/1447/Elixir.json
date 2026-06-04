@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec simplified_fractions(n :: integer) :: [String.t]\n  def simplified_fractions(n) do\n    \n  end\nend"

@@ -1,1 +1,0 @@
-"class Solution:\n    def hIndex(self, citations: List[int]) -> int:\n        "

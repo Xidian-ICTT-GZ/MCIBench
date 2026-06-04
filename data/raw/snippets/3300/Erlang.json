@@ -1,1 +1,0 @@
-"-spec min_element(Nums :: [integer()]) -> integer().\nmin_element(Nums) ->\n  ."

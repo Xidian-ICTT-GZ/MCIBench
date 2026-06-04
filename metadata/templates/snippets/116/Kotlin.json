@@ -1,0 +1,1 @@
+"/**\n * Definition for a Node.\n * class Node(var `val`: Int) {\n *     var left: Node? = null\n *     var right: Node? = null\n *     var next: Node? = null\n * }\n */\n\nclass Solution {\n    fun connect(root: Node?): Node? {\n        \n    }\n}"

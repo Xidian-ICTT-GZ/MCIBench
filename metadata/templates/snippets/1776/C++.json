@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<double> getCollisionTimes(vector<vector<int>>& cars) {\n        \n    }\n};"

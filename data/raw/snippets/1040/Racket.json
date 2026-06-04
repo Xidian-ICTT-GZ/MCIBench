@@ -1,1 +1,0 @@
-"(define/contract (num-moves-stones-ii stones)\n  (-> (listof exact-integer?) (listof exact-integer?))\n  )"

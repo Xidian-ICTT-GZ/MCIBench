@@ -1,0 +1,1 @@
+"(define/contract (day-of-the-week day month year)\n  (-> exact-integer? exact-integer? exact-integer? string?)\n  )"

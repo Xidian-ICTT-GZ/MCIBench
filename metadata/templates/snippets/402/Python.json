@@ -1,0 +1,1 @@
+"class Solution(object):\n    def removeKdigits(self, num, k):\n        \"\"\"\n        :type num: str\n        :type k: int\n        :rtype: str\n        \"\"\"\n        "

@@ -1,0 +1,1 @@
+"class Solution {\n    func divideString(s: String, k: Int64, fill: Rune): Array<String> {\n\n    }\n}"

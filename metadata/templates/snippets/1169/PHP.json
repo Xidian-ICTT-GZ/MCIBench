@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String[] $transactions\n     * @return String[]\n     */\n    function invalidTransactions($transactions) {\n        \n    }\n}"

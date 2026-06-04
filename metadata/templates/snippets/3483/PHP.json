@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $digits\n     * @return Integer\n     */\n    function totalNumbers($digits) {\n        \n    }\n}"

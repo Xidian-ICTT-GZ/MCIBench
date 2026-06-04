@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    vector<int> xorQueries(vector<int>& arr, vector<vector<int>>& queries) {\n        \n    }\n};"

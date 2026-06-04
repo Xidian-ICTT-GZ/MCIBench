@@ -1,1 +1,0 @@
-"/**\n * @param {number} n\n * @param {number[][]} dislikes\n * @return {boolean}\n */\nvar possibleBipartition = function(n, dislikes) {\n    \n};"

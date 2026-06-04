@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec majority_element(nums :: [integer]) :: [integer]\n  def majority_element(nums) do\n    \n  end\nend"

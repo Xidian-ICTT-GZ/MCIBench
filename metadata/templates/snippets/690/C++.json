@@ -1,0 +1,1 @@
+"/*\n// Definition for Employee.\nclass Employee {\npublic:\n    int id;\n    int importance;\n    vector<int> subordinates;\n};\n*/\n\nclass Solution {\npublic:\n    int getImportance(vector<Employee*> employees, int id) {\n        \n    }\n};"

@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec smallest_repunit_div_by_k(k :: integer) :: integer\n  def smallest_repunit_div_by_k(k) do\n    \n  end\nend"

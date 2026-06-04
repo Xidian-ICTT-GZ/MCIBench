@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} rolls\n * @param {number} mean\n * @param {number} n\n * @return {number[]}\n */\nvar missingRolls = function(rolls, mean, n) {\n    \n};"

@@ -1,0 +1,1 @@
+"-spec minimum_weight(Edges :: [[integer()]], Queries :: [[integer()]]) -> [integer()].\nminimum_weight(Edges, Queries) ->\n  ."

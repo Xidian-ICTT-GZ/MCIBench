@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec count_and_say(n :: integer) :: String.t\n  def count_and_say(n) do\n    \n  end\nend"

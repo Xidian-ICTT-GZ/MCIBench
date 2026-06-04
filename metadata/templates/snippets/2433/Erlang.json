@@ -1,0 +1,1 @@
+"-spec find_array(Pref :: [integer()]) -> [integer()].\nfind_array(Pref) ->\n  ."

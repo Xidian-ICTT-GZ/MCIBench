@@ -1,1 +1,0 @@
-"class Solution {\n    fun findCriticalAndPseudoCriticalEdges(n: Int, edges: Array<IntArray>): List<List<Int>> {\n        \n    }\n}"

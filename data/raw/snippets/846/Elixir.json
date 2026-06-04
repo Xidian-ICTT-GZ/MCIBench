@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec is_n_straight_hand(hand :: [integer], group_size :: integer) :: boolean\n  def is_n_straight_hand(hand, group_size) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"class Solution {\n    fun beautifulPartitions(s: String, k: Int, minLength: Int): Int {\n        \n    }\n}"

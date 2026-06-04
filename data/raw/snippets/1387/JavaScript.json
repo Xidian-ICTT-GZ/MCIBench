@@ -1,1 +1,0 @@
-"/**\n * @param {number} lo\n * @param {number} hi\n * @param {number} k\n * @return {number}\n */\nvar getKth = function(lo, hi, k) {\n    \n};"

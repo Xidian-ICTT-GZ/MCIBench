@@ -1,1 +1,0 @@
-"# @param {Integer} n\n# @param {Integer} w\n# @param {Integer} max_weight\n# @return {Integer}\ndef max_containers(n, w, max_weight)\n    \nend"

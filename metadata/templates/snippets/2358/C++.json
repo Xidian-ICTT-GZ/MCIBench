@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int maximumGroups(vector<int>& grades) {\n        \n    }\n};"

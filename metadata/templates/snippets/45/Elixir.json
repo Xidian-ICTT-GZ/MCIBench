@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec jump(nums :: [integer]) :: integer\n  def jump(nums) do\n    \n  end\nend"

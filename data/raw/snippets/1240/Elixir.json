@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec tiling_rectangle(n :: integer, m :: integer) :: integer\n  def tiling_rectangle(n, m) do\n    \n  end\nend"

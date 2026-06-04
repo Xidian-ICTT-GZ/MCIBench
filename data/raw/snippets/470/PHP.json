@@ -1,1 +1,0 @@
-"/*\n * The rand7() API is already defined for you.\n * @return a random integer in the range 1 to 7\n * function rand7();\n*/\n\nclass Solution {\n    /**\n     * @param \n     * @return Integer\n     */\n    function rand10() {\n        \n    }\n}"

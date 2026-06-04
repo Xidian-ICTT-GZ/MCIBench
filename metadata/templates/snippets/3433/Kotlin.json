@@ -1,0 +1,1 @@
+"class Solution {\n    fun countMentions(numberOfUsers: Int, events: List<List<String>>): IntArray {\n        \n    }\n}"

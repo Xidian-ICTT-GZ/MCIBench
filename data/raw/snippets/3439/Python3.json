@@ -1,1 +1,0 @@
-"class Solution:\n    def maxFreeTime(self, eventTime: int, k: int, startTime: List[int], endTime: List[int]) -> int:\n        "

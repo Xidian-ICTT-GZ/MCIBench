@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $vals\n     * @param Integer[][] $edges\n     * @param Integer $k\n     * @return Integer\n     */\n    function maxStarSum($vals, $edges, $k) {\n        \n    }\n}"

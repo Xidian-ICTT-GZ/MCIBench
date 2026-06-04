@@ -1,1 +1,0 @@
-"/**\n * @param {number} n\n * @param {number[][]} connections\n * @return {number}\n */\nvar minReorder = function(n, connections) {\n    \n};"

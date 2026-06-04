@@ -1,1 +1,0 @@
-"%% Definition for a binary tree node.\n%%\n%% -record(tree_node, {val = 0 :: integer(),\n%%                     left = null  :: 'null' | #tree_node{},\n%%                     right = null :: 'null' | #tree_node{}}).\n\n-spec count_pairs(Root :: #tree_node{} | null, Distance :: integer()) -> integer().\ncount_pairs(Root, Distance) ->\n  ."

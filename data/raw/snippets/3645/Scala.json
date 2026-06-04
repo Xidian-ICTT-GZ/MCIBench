@@ -1,1 +1,0 @@
-"object Solution {\n    def maxTotal(value: Array[Int], limit: Array[Int]): Long = {\n        \n    }\n}"

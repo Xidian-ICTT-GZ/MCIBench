@@ -1,1 +1,0 @@
-"class RecentCounter() {\n\n    fun ping(t: Int): Int {\n        \n    }\n\n}\n\n/**\n * Your RecentCounter object will be instantiated and called as such:\n * var obj = RecentCounter()\n * var param_1 = obj.ping(t)\n */"

@@ -1,0 +1,1 @@
+"class Solution {\n    fun findWordsContaining(words: Array<String>, x: Char): List<Int> {\n        \n    }\n}"

@@ -1,1 +1,0 @@
-"class Solution {\n    func countUnguarded(_ m: Int, _ n: Int, _ guards: [[Int]], _ walls: [[Int]]) -> Int {\n        \n    }\n}"

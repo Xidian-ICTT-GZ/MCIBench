@@ -1,1 +1,0 @@
-"# @param {Integer} divisor1\n# @param {Integer} divisor2\n# @param {Integer} unique_cnt1\n# @param {Integer} unique_cnt2\n# @return {Integer}\ndef minimize_set(divisor1, divisor2, unique_cnt1, unique_cnt2)\n    \nend"

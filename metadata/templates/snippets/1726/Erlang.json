@@ -1,0 +1,1 @@
+"-spec tuple_same_product(Nums :: [integer()]) -> integer().\ntuple_same_product(Nums) ->\n  ."

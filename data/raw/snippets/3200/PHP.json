@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer $red\n     * @param Integer $blue\n     * @return Integer\n     */\n    function maxHeightOfTriangle($red, $blue) {\n        \n    }\n}"

@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec clumsy(n :: integer) :: integer\n  def clumsy(n) do\n    \n  end\nend"

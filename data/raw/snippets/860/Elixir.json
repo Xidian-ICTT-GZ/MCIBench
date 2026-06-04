@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec lemonade_change(bills :: [integer]) :: boolean\n  def lemonade_change(bills) do\n    \n  end\nend"

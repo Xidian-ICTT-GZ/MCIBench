@@ -1,1 +1,0 @@
-"(define/contract (convert-to-base7 num)\n  (-> exact-integer? string?)\n  )"

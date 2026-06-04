@@ -1,0 +1,13 @@
+var maximumUniqueSubarray = function(nums) {
+    const n = nums.length;
+    const psum = new Array(n + 1).fill(0);
+    const cnt = new Map();
+    let ans = 0, pre = 0;
+    for (let i = 0; i < n; ++i) {
+        psum[i + 1] = psum[i] + nums[i];
+        pre = Math.max(pre, cnt.get(nums[i]) || 0);
+        ans = Math.max(ans, psum[i + 1] - psum[pre]);
+        cnt.set(nums[i], i + 1);
+    }
+    return ans;
+};

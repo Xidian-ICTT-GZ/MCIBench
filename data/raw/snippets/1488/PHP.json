@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $rains\n     * @return Integer[]\n     */\n    function avoidFlood($rains) {\n        \n    }\n}"

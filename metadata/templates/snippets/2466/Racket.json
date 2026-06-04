@@ -1,0 +1,1 @@
+"(define/contract (count-good-strings low high zero one)\n  (-> exact-integer? exact-integer? exact-integer? exact-integer? exact-integer?)\n  )"

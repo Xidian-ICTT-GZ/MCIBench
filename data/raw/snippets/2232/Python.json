@@ -1,1 +1,0 @@
-"class Solution(object):\n    def minimizeResult(self, expression):\n        \"\"\"\n        :type expression: str\n        :rtype: str\n        \"\"\"\n        "

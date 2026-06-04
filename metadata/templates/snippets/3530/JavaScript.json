@@ -1,0 +1,1 @@
+"/**\n * @param {number} n\n * @param {number[][]} edges\n * @param {number[]} score\n * @return {number}\n */\nvar maxProfit = function(n, edges, score) {\n    \n};"

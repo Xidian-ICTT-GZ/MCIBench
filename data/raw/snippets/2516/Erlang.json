@@ -1,1 +1,0 @@
-"-spec take_characters(S :: unicode:unicode_binary(), K :: integer()) -> integer().\ntake_characters(S, K) ->\n  ."

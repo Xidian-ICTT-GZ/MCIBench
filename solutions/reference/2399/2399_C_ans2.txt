@@ -1,0 +1,13 @@
+bool checkDistances(char * s, int* distance, int distanceSize) {
+    int n = strlen(s);
+    int firstIndex[26];
+    memset(firstIndex, 0, sizeof(firstIndex));
+    for (int i = 0; i < n; i++) {
+        int idx = s[i] - 'a';
+        if (firstIndex[idx] && i - firstIndex[idx] != distance[idx]) {
+            return false;
+        }
+        firstIndex[idx] = i + 1;
+    }
+    return true;
+}

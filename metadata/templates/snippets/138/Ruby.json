@@ -1,0 +1,1 @@
+"# Definition for Node.\n# class Node\n#     attr_accessor :val, :next, :random\n#     def initialize(val = 0)\n#         @val = val\n#\t\t  @next = nil\n#\t\t  @random = nil\n#     end\n# end\n\n# @param {Node} node\n# @return {Node}\ndef copyRandomList(head)\n    \nend"

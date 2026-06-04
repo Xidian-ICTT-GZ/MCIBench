@@ -1,1 +1,0 @@
-"-spec minimum_abs_difference(Arr :: [integer()]) -> [[integer()]].\nminimum_abs_difference(Arr) ->\n  ."

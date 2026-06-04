@@ -1,1 +1,0 @@
-"-spec max_value(N :: unicode:unicode_binary(), X :: integer()) -> unicode:unicode_binary().\nmax_value(N, X) ->\n  ."

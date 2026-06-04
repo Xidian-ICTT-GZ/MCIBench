@@ -1,1 +1,0 @@
-"-spec minimum_cost(Target :: unicode:unicode_binary(), Words :: [unicode:unicode_binary()], Costs :: [integer()]) -> integer().\nminimum_cost(Target, Words, Costs) ->\n  ."

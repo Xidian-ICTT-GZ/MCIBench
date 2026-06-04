@@ -1,1 +1,0 @@
-"/**\n * @param {number[][]} mat\n * @param {number[][]} target\n * @return {boolean}\n */\nvar findRotation = function(mat, target) {\n    \n};"

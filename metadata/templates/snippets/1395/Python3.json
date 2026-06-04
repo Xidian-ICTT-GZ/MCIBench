@@ -1,0 +1,1 @@
+"class Solution:\n    def numTeams(self, rating: List[int]) -> int:\n        "

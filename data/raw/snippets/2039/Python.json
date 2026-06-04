@@ -1,1 +1,0 @@
-"class Solution(object):\n    def networkBecomesIdle(self, edges, patience):\n        \"\"\"\n        :type edges: List[List[int]]\n        :type patience: List[int]\n        :rtype: int\n        \"\"\"\n        "

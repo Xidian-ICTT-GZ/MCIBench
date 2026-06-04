@@ -1,3 +1,0 @@
-var flowerGame = function(n, m) {
-    return Math.floor(m * n / 2);
-};

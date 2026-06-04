@@ -1,0 +1,1 @@
+"-spec num_splits(S :: unicode:unicode_binary()) -> integer().\nnum_splits(S) ->\n  ."

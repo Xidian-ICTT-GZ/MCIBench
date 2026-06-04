@@ -1,1 +1,0 @@
-"-spec is_acronym(Words :: [unicode:unicode_binary()], S :: unicode:unicode_binary()) -> boolean().\nis_acronym(Words, S) ->\n  ."

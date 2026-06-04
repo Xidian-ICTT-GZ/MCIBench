@@ -1,0 +1,1 @@
+"-spec find_words(Board :: [[char()]], Words :: [unicode:unicode_binary()]) -> [unicode:unicode_binary()].\nfind_words(Board, Words) ->\n  ."

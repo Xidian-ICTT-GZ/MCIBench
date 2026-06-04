@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec remaining_methods(n :: integer, k :: integer, invocations :: [[integer]]) :: [integer]\n  def remaining_methods(n, k, invocations) do\n    \n  end\nend"

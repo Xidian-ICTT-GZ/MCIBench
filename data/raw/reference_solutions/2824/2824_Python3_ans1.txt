@@ -1,3 +1,0 @@
-class Solution:
-    def countPairs(self, nums: List[int], target: int) -> int:
-        return sum(x + y < target for x, y in combinations(nums, 2))

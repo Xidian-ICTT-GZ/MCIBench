@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec first_uniq_char(s :: String.t) :: integer\n  def first_uniq_char(s) do\n    \n  end\nend"

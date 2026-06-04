@@ -1,0 +1,1 @@
+"-spec can_finish(NumCourses :: integer(), Prerequisites :: [[integer()]]) -> boolean().\ncan_finish(NumCourses, Prerequisites) ->\n  ."

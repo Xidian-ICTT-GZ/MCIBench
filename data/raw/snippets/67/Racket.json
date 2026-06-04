@@ -1,1 +1,0 @@
-"(define/contract (add-binary a b)\n  (-> string? string? string?)\n  )"

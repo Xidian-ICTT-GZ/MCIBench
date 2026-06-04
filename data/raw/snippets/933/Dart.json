@@ -1,1 +1,0 @@
-"class RecentCounter {\n\n  RecentCounter() {\n    \n  }\n  \n  int ping(int t) {\n    \n  }\n}\n\n/**\n * Your RecentCounter object will be instantiated and called as such:\n * RecentCounter obj = RecentCounter();\n * int param1 = obj.ping(t);\n */"

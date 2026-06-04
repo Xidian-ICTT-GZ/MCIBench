@@ -1,1 +1,0 @@
-"class Solution(object):\n    def isCircularSentence(self, sentence):\n        \"\"\"\n        :type sentence: str\n        :rtype: bool\n        \"\"\"\n        "

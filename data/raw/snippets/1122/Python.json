@@ -1,1 +1,0 @@
-"class Solution(object):\n    def relativeSortArray(self, arr1, arr2):\n        \"\"\"\n        :type arr1: List[int]\n        :type arr2: List[int]\n        :rtype: List[int]\n        \"\"\"\n        "

@@ -1,0 +1,1 @@
+"class Solution {\n    fun countKConstraintSubstrings(s: String, k: Int, queries: Array<IntArray>): LongArray {\n        \n    }\n}"

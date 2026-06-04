@@ -1,1 +1,0 @@
-"-spec sum_imbalance_numbers(Nums :: [integer()]) -> integer().\nsum_imbalance_numbers(Nums) ->\n  ."

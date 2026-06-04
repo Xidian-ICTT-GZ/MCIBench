@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec arithmetic_triplets(nums :: [integer], diff :: integer) :: integer\n  def arithmetic_triplets(nums, diff) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"# @param {String} s\n# @param {Integer} k\n# @return {Boolean}\ndef max_substring_length(s, k)\n    \nend"

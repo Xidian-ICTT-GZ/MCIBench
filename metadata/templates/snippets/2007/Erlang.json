@@ -1,0 +1,1 @@
+"-spec find_original_array(Changed :: [integer()]) -> [integer()].\nfind_original_array(Changed) ->\n  ."

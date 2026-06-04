@@ -1,1 +1,0 @@
-"type TopVotedCandidate struct {\n    \n}\n\n\nfunc Constructor(persons []int, times []int) TopVotedCandidate {\n    \n}\n\n\nfunc (this *TopVotedCandidate) Q(t int) int {\n    \n}\n\n\n/**\n * Your TopVotedCandidate object will be instantiated and called as such:\n * obj := Constructor(persons, times);\n * param_1 := obj.Q(t);\n */"

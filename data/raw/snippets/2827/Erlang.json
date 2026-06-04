@@ -1,1 +1,0 @@
-"-spec number_of_beautiful_integers(Low :: integer(), High :: integer(), K :: integer()) -> integer().\nnumber_of_beautiful_integers(Low, High, K) ->\n  ."

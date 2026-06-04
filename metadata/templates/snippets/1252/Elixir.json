@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec odd_cells(m :: integer, n :: integer, indices :: [[integer]]) :: integer\n  def odd_cells(m, n, indices) do\n    \n  end\nend"

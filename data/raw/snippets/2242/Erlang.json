@@ -1,1 +1,0 @@
-"-spec maximum_score(Scores :: [integer()], Edges :: [[integer()]]) -> integer().\nmaximum_score(Scores, Edges) ->\n  ."

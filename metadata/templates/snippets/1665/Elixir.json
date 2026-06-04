@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec minimum_effort(tasks :: [[integer]]) :: integer\n  def minimum_effort(tasks) do\n    \n  end\nend"

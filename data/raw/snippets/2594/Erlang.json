@@ -1,1 +1,0 @@
-"-spec repair_cars(Ranks :: [integer()], Cars :: integer()) -> integer().\nrepair_cars(Ranks, Cars) ->\n  ."

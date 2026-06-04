@@ -1,1 +1,0 @@
-"-spec time_taken(Edges :: [[integer()]]) -> [integer()].\ntime_taken(Edges) ->\n  ."

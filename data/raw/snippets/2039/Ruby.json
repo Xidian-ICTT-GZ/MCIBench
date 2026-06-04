@@ -1,1 +1,0 @@
-"# @param {Integer[][]} edges\n# @param {Integer[]} patience\n# @return {Integer}\ndef network_becomes_idle(edges, patience)\n    \nend"

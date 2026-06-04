@@ -1,1 +1,0 @@
-"-spec reordered_power_of2(N :: integer()) -> boolean().\nreordered_power_of2(N) ->\n  ."

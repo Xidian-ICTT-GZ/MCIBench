@@ -1,1 +1,0 @@
-"(define/contract (longest-palindrome s t)\n  (-> string? string? exact-integer?)\n  )"

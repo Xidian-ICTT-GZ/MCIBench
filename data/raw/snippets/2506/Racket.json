@@ -1,1 +1,0 @@
-"(define/contract (similar-pairs words)\n  (-> (listof string?) exact-integer?)\n  )"

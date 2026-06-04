@@ -1,1 +1,0 @@
-"# @param {Integer[]} values\n# @param {Integer[][]} edges\n# @param {Integer} max_time\n# @return {Integer}\ndef maximal_path_quality(values, edges, max_time)\n    \nend"

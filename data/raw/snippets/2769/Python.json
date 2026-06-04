@@ -1,1 +1,0 @@
-"class Solution(object):\n    def theMaximumAchievableX(self, num, t):\n        \"\"\"\n        :type num: int\n        :type t: int\n        :rtype: int\n        \"\"\"\n        "

@@ -1,0 +1,22 @@
+class Solution:
+    def superEggDrop(self, k: int, n: int) -> int:
+        
+        dp = list(range(n + 1))
+        dp2 = [0] * (n + 1)
+        for k in range(2, k + 1):
+            
+            x = 1
+            for m in range(1, n + 1):
+                
+                
+                
+                
+                while x < m and max(dp[x - 1], dp2[m - x]) >= max(dp[x], dp2[m - x - 1]):
+                    x += 1
+
+                
+                dp2[m] = 1 + max(dp[x - 1], dp2[m - x])
+
+            dp = dp2[:]
+
+        return dp[-1]

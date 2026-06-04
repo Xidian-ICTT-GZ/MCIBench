@@ -1,0 +1,44 @@
+type NeighborSum struct {
+    grid [][]int
+    pos  map[int][2]int
+}
+
+var dirs = [2][4][2]int{
+    {{-1, 0}, {1, 0}, {0, -1}, {0, 1}}, 
+    {{-1, -1}, {-1, 1}, {1, -1}, {1, 1}},
+}
+
+func Constructor(grid [][]int) NeighborSum {
+    this := NeighborSum {
+        grid: grid,
+        pos:  make(map[int][2]int),
+    }
+    for i := range grid {
+        for j := range grid[0] {
+            this.pos[grid[i][j]] = [2]int{i, j}
+        }
+    }
+
+    return this
+}
+
+func (this *NeighborSum) AdjacentSum(value int) int {
+    return this.getSum(value, 0)
+}
+
+func (this *NeighborSum) DiagonalSum(value int) int {
+    return this.getSum(value, 1)
+}
+
+func (this *NeighborSum) getSum(value, idx int) int {
+    pos := this.pos[value]
+    x, y := pos[0], pos[1]
+    sum := 0
+    for _, dir := range dirs[idx] {
+        nx, ny := x + dir[0], y + dir[1]
+        if nx >= 0 && nx < len(this.grid) && ny >= 0 && ny < len(this.grid[0]) {
+            sum += this.grid[nx][ny]
+        }
+    }
+    return sum
+}

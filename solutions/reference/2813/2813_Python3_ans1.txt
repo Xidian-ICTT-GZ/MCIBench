@@ -1,0 +1,18 @@
+class Solution:
+    def findMaximumElegance(self, items: List[List[int]], k: int) -> int:
+        items.sort(key = lambda item: -item[0])
+        categorySet = set()
+        res, profit = 0, 0
+        st = []
+        for i, item in enumerate(items):
+            if i < k:
+                profit += item[0]
+                if item[1] in categorySet:
+                    st.append(item[0])
+                else:
+                    categorySet.add(item[1])
+            elif item[1] not in categorySet and len(st) > 0:
+                profit += item[0] - st.pop()
+                categorySet.add(item[1])
+            res = max(res, profit + len(categorySet) * len(categorySet))
+        return res

@@ -1,1 +1,0 @@
-"impl Solution {\n    pub fn dig_artifacts(n: i32, artifacts: Vec<Vec<i32>>, dig: Vec<Vec<i32>>) -> i32 {\n        \n    }\n}"

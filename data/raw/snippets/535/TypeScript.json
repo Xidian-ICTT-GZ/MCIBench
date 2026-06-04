@@ -1,1 +1,0 @@
-"/**\n * Encodes a URL to a shortened URL.\n */\nfunction encode(longUrl: string): string {\n\t\n};\n\n/**\n * Decodes a shortened URL to its original URL.\n */\nfunction decode(shortUrl: string): string {\n\t\n};\n\n/**\n * Your functions will be called as such:\n * decode(encode(strs));\n */"

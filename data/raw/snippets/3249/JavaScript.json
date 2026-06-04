@@ -1,1 +1,0 @@
-"/**\n * @param {number[][]} edges\n * @return {number}\n */\nvar countGoodNodes = function(edges) {\n    \n};"

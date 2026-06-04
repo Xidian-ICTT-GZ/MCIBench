@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec minimize_string_value(s :: String.t) :: String.t\n  def minimize_string_value(s) do\n    \n  end\nend"

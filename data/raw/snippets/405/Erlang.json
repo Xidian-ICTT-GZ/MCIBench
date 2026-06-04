@@ -1,1 +1,0 @@
-"-spec to_hex(Num :: integer()) -> unicode:unicode_binary().\nto_hex(Num) ->\n  ."

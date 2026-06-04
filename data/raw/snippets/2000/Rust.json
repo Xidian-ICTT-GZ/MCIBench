@@ -1,1 +1,0 @@
-"impl Solution {\n    pub fn reverse_prefix(word: String, ch: char) -> String {\n        \n    }\n}"

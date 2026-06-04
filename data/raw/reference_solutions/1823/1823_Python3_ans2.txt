@@ -1,3 +1,0 @@
-class Solution:
-    def findTheWinner(self, n: int, k: int) -> int:
-        return 1 if n == 1 else (k + self.findTheWinner(n - 1, k) - 1) % n + 1

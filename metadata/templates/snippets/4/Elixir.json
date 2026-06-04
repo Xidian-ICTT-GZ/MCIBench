@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec find_median_sorted_arrays(nums1 :: [integer], nums2 :: [integer]) :: float\n  def find_median_sorted_arrays(nums1, nums2) do\n    \n  end\nend"

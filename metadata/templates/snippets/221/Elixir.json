@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec maximal_square(matrix :: [[char]]) :: integer\n  def maximal_square(matrix) do\n    \n  end\nend"

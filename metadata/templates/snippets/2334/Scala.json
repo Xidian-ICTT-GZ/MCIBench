@@ -1,0 +1,1 @@
+"object Solution {\n    def validSubarraySize(nums: Array[Int], threshold: Int): Int = {\n        \n    }\n}"

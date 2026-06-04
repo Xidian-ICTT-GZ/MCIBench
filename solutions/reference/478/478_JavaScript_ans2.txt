@@ -1,0 +1,12 @@
+var Solution = function(radius, x_center, y_center) {
+    this.xc = x_center;
+    this.yc = y_center;
+    this.r = radius;
+};
+
+Solution.prototype.randPoint = function() {
+    const u = Math.random();
+    const theta = Math.random() * 2 * Math.PI;
+    const r = Math.sqrt(u);
+    return [this.xc + r * Math.cos(theta) * this.r, this.yc + r * Math.sin(theta) * this.r];
+};

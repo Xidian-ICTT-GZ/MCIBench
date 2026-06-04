@@ -1,1 +1,0 @@
-"/**\n * @param {string} s\n * @param {number[][]} shifts\n * @return {string}\n */\nvar shiftingLetters = function(s, shifts) {\n    \n};"

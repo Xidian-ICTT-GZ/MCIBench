@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec fib(n :: integer) :: integer\n  def fib(n) do\n    \n  end\nend"

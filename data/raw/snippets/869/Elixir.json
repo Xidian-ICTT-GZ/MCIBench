@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec reordered_power_of2(n :: integer) :: boolean\n  def reordered_power_of2(n) do\n    \n  end\nend"

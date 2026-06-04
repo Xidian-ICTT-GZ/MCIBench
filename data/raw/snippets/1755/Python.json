@@ -1,1 +1,0 @@
-"class Solution(object):\n    def minAbsDifference(self, nums, goal):\n        \"\"\"\n        :type nums: List[int]\n        :type goal: int\n        :rtype: int\n        \"\"\"\n        "

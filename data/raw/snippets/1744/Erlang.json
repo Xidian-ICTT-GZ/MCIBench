@@ -1,1 +1,0 @@
-"-spec can_eat(CandiesCount :: [integer()], Queries :: [[integer()]]) -> [boolean()].\ncan_eat(CandiesCount, Queries) ->\n  ."

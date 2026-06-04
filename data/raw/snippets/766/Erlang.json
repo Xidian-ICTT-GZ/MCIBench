@@ -1,1 +1,0 @@
-"-spec is_toeplitz_matrix(Matrix :: [[integer()]]) -> boolean().\nis_toeplitz_matrix(Matrix) ->\n  ."

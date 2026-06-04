@@ -1,1 +1,0 @@
-"-spec largest_triangle_area(Points :: [[integer()]]) -> float().\nlargest_triangle_area(Points) ->\n  ."

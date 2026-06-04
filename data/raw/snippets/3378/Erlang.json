@@ -1,1 +1,0 @@
-"-spec count_components(Nums :: [integer()], Threshold :: integer()) -> integer().\ncount_components(Nums, Threshold) ->\n  ."

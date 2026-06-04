@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @param {Integer[]} sums\n# @return {Integer[]}\ndef recover_array(n, sums)\n    \nend"

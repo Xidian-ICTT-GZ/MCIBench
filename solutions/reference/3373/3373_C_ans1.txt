@@ -1,0 +1,58 @@
+int dfs(int node, int parent, int depth, int** children, int* childrenColSize, int* color) {
+    int res = 1 - depth % 2;
+    color[node] = depth % 2;
+    for (int i = 0; i < childrenColSize[node]; i++) {
+        int child = children[node][i];
+        if (child == parent) continue;
+        res += dfs(child, node, depth + 1, children, childrenColSize, color);
+    }
+    return res;
+}
+
+int* build(int** edges, int edgesSize, int* color) {
+    int n = edgesSize + 1;
+    int** children = (int**)malloc(n * sizeof(int*));
+    int* childrenColSize = (int*)calloc(n, sizeof(int));
+    for (int i = 0; i < edgesSize; i++) {
+        childrenColSize[edges[i][0]]++;
+        childrenColSize[edges[i][1]]++;
+    }
+    for (int i = 0; i < n; i++) {
+        children[i] = (int*)malloc(childrenColSize[i] * sizeof(int));
+        childrenColSize[i] = 0;
+    }
+    for (int i = 0; i < edgesSize; i++) {
+        int u = edges[i][0], v = edges[i][1];
+        children[u][childrenColSize[u]++] = v;
+        children[v][childrenColSize[v]++] = u;
+    }
+    int res = dfs(0, -1, 0, children, childrenColSize, color);
+    int* result = (int*)malloc(2 * sizeof(int));
+    result[0] = res;
+    result[1] = n - res;
+    for (int i = 0; i < n; i++) {
+        free(children[i]);
+    }
+    free(children);
+    free(childrenColSize);
+    return result;
+}
+
+int* maxTargetNodes(int** edges1, int edges1Size, int* edges1ColSize, int** edges2, int edges2Size, int* edges2ColSize, int* returnSize) {
+    int n = edges1Size + 1;
+    int m = edges2Size + 1;
+    int* color1 = (int*)calloc(n, sizeof(int));
+    int* color2 = (int*)calloc(m, sizeof(int));
+    int* count1 = build(edges1, edges1Size, color1);
+    int* count2 = build(edges2, edges2Size, color2);
+    int* res = (int*)malloc(n * sizeof(int));
+    for (int i = 0; i < n; i++) {
+        res[i] = count1[color1[i]] + (count2[0] > count2[1] ? count2[0] : count2[1]);
+    }
+    *returnSize = n;
+    free(color1);
+    free(color2);
+    free(count1);
+    free(count2);
+    return res;
+}

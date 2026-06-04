@@ -1,0 +1,1 @@
+"-spec maximum_strength(Nums :: [integer()], K :: integer()) -> integer().\nmaximum_strength(Nums, K) ->\n  ."

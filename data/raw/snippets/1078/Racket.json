@@ -1,1 +1,0 @@
-"(define/contract (find-ocurrences text first second)\n  (-> string? string? string? (listof string?))\n  )"

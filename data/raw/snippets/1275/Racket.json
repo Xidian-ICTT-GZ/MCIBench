@@ -1,1 +1,0 @@
-"(define/contract (tictactoe moves)\n  (-> (listof (listof exact-integer?)) string?)\n  )"

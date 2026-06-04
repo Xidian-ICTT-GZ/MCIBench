@@ -1,0 +1,1 @@
+"# @param {Integer} number_of_users\n# @param {String[][]} events\n# @return {Integer[]}\ndef count_mentions(number_of_users, events)\n    \nend"

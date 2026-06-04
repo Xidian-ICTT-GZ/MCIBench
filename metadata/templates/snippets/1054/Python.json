@@ -1,0 +1,1 @@
+"class Solution(object):\n    def rearrangeBarcodes(self, barcodes):\n        \"\"\"\n        :type barcodes: List[int]\n        :rtype: List[int]\n        \"\"\"\n        "

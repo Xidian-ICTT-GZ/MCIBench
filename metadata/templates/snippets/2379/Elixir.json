@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec minimum_recolors(blocks :: String.t, k :: integer) :: integer\n  def minimum_recolors(blocks, k) do\n    \n  end\nend"

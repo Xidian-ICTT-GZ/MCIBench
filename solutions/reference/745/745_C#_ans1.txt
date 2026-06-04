@@ -1,0 +1,23 @@
+public class WordFilter {
+    Dictionary<string, int> dictionary;
+
+    public WordFilter(string[] words) {
+        dictionary = new Dictionary<string, int>();
+        for (int i = words.Length - 1; i >= 0; i--) {
+            string word = words[i];
+            int m = word.Length;
+            for (int prefixLength = 1; prefixLength <= m; prefixLength++) {
+                for (int suffixLength = 1; suffixLength <= m; suffixLength++) {
+                    dictionary.TryAdd(word.Substring(0, prefixLength) + "#" + word.Substring(m - suffixLength), i);
+                }
+            }
+        }
+    }
+
+    public int F(string pref, string suff) {
+        if (dictionary.ContainsKey(pref + "#" + suff)) {
+            return dictionary[pref + "#" + suff];
+        }
+        return -1;
+    }
+}

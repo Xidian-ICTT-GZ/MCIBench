@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec minimum_distance(points :: [[integer]]) :: integer\n  def minimum_distance(points) do\n    \n  end\nend"

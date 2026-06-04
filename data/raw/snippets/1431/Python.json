@@ -1,1 +1,0 @@
-"class Solution(object):\n    def kidsWithCandies(self, candies, extraCandies):\n        \"\"\"\n        :type candies: List[int]\n        :type extraCandies: int\n        :rtype: List[bool]\n        \"\"\"\n        "

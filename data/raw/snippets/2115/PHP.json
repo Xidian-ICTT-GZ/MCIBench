@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String[] $recipes\n     * @param String[][] $ingredients\n     * @param String[] $supplies\n     * @return String[]\n     */\n    function findAllRecipes($recipes, $ingredients, $supplies) {\n        \n    }\n}"

@@ -1,1 +1,0 @@
-"-spec square_free_subsets(Nums :: [integer()]) -> integer().\nsquare_free_subsets(Nums) ->\n  ."

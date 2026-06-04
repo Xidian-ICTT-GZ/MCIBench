@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer $num\n     * @return Integer[]\n     */\n    function closestDivisors($num) {\n        \n    }\n}"

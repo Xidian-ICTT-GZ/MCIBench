@@ -1,0 +1,1 @@
+"# @param {Integer[]} instructions\n# @return {Integer}\ndef create_sorted_array(instructions)\n    \nend"

@@ -1,1 +1,0 @@
-"# @param {String[]} cards\n# @param {Character} x\n# @return {Integer}\ndef score(cards, x)\n    \nend"

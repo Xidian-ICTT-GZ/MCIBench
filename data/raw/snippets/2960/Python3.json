@@ -1,1 +1,0 @@
-"class Solution:\n    def countTestedDevices(self, batteryPercentages: List[int]) -> int:\n        "

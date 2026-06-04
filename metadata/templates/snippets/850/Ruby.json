@@ -1,0 +1,1 @@
+"# @param {Integer[][]} rectangles\n# @return {Integer}\ndef rectangle_area(rectangles)\n    \nend"

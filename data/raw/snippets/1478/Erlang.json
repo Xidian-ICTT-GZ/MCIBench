@@ -1,1 +1,0 @@
-"-spec min_distance(Houses :: [integer()], K :: integer()) -> integer().\nmin_distance(Houses, K) ->\n  ."

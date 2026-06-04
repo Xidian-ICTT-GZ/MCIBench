@@ -1,1 +1,0 @@
-"class Solution(object):\n    def allCellsDistOrder(self, rows, cols, rCenter, cCenter):\n        \"\"\"\n        :type rows: int\n        :type cols: int\n        :type rCenter: int\n        :type cCenter: int\n        :rtype: List[List[int]]\n        \"\"\"\n        "

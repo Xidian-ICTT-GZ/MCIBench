@@ -1,1 +1,0 @@
-"-spec valid_path(N :: integer(), Edges :: [[integer()]], Source :: integer(), Destination :: integer()) -> boolean().\nvalid_path(N, Edges, Source, Destination) ->\n  ."

@@ -1,0 +1,23 @@
+func countBeautifulPairs(nums []int) int {
+    res := 0
+    cnt := make([]int, 10)
+    for _, x := range nums {
+        for y := 1; y < 10; y++ {
+            if gcd(x % 10, y) == 1 {
+                res += cnt[y]
+            }
+        }
+        for x >= 10 {
+            x /= 10
+        }
+        cnt[x]++
+    }
+    return res
+}
+
+func gcd(a, b int) int {
+    for b != 0 {
+        a, b = b, a % b
+    }
+    return a
+}

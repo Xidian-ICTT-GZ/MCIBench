@@ -1,0 +1,1 @@
+"/**\n * @param {string[]} code\n * @param {string[]} businessLine\n * @param {boolean[]} isActive\n * @return {string[]}\n */\nvar validateCoupons = function(code, businessLine, isActive) {\n    \n};"

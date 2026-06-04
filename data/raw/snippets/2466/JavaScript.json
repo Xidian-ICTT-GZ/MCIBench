@@ -1,1 +1,0 @@
-"/**\n * @param {number} low\n * @param {number} high\n * @param {number} zero\n * @param {number} one\n * @return {number}\n */\nvar countGoodStrings = function(low, high, zero, one) {\n    \n};"

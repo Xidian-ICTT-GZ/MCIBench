@@ -1,1 +1,0 @@
-"# @param {String} initial_currency\n# @param {String[][]} pairs1\n# @param {Float[]} rates1\n# @param {String[][]} pairs2\n# @param {Float[]} rates2\n# @return {Float}\ndef max_amount(initial_currency, pairs1, rates1, pairs2, rates2)\n    \nend"

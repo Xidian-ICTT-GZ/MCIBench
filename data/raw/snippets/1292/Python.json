@@ -1,1 +1,0 @@
-"class Solution(object):\n    def maxSideLength(self, mat, threshold):\n        \"\"\"\n        :type mat: List[List[int]]\n        :type threshold: int\n        :rtype: int\n        \"\"\"\n        "

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec least_bricks(wall :: [[integer]]) :: integer\n  def least_bricks(wall) do\n    \n  end\nend"

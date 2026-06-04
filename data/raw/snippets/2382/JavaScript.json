@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} nums\n * @param {number[]} removeQueries\n * @return {number[]}\n */\nvar maximumSegmentSum = function(nums, removeQueries) {\n    \n};"

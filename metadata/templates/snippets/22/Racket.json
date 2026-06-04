@@ -1,0 +1,1 @@
+"(define/contract (generate-parenthesis n)\n  (-> exact-integer? (listof string?))\n  )"

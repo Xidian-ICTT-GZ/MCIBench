@@ -1,0 +1,1 @@
+"class DataStream(_value: Int, _k: Int) {\n\n    def consec(num: Int): Boolean = {\n        \n    }\n\n}\n\n/**\n * Your DataStream object will be instantiated and called as such:\n * val obj = new DataStream(value, k)\n * val param_1 = obj.consec(num)\n */"

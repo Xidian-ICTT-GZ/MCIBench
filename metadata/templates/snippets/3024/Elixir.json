@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec triangle_type(nums :: [integer]) :: String.t\n  def triangle_type(nums) do\n    \n  end\nend"

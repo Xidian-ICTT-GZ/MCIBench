@@ -1,1 +1,0 @@
-"-spec judge_circle(Moves :: unicode:unicode_binary()) -> boolean().\njudge_circle(Moves) ->\n  ."

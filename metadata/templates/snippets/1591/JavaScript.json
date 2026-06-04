@@ -1,0 +1,1 @@
+"/**\n * @param {number[][]} targetGrid\n * @return {boolean}\n */\nvar isPrintable = function(targetGrid) {\n    \n};"

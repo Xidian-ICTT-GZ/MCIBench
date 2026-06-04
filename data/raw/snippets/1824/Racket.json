@@ -1,1 +1,0 @@
-"(define/contract (min-side-jumps obstacles)\n  (-> (listof exact-integer?) exact-integer?)\n  )"

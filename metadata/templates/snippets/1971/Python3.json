@@ -1,0 +1,1 @@
+"class Solution:\n    def validPath(self, n: int, edges: List[List[int]], source: int, destination: int) -> bool:\n        "

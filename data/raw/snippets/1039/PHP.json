@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $values\n     * @return Integer\n     */\n    function minScoreTriangulation($values) {\n        \n    }\n}"

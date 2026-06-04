@@ -1,1 +1,0 @@
-"/**\n * // This is the Master's API interface.\n * // You should not implement it, or speculate about its implementation\n * struct Master;\n * impl Master {\n *     fn guess(word:String)->int;\n * };\n */\n\nimpl Solution {\n    pub fn find_secret_word(words: Vec<String>, master: &Master) {\n        \n    }\n}"

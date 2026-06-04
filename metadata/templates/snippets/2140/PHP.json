@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $questions\n     * @return Integer\n     */\n    function mostPoints($questions) {\n        \n    }\n}"

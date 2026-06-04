@@ -1,0 +1,26 @@
+use std::rc::Rc;
+use std::cell::RefCell;
+
+impl Solution {
+    pub fn all_possible_fbt(n: i32) -> Vec<Option<Rc<RefCell<TreeNode>>>> {
+        let mut full_binary_trees: Vec<Option<Rc<RefCell<TreeNode>>>> = Vec::new();
+        if n % 2 == 0 {
+            return full_binary_trees;
+        }
+        if n == 1 {
+            full_binary_trees.push(Some(Rc::new(RefCell::new(TreeNode::new(0)))));
+            return full_binary_trees;
+        }
+        for i in (1..n).step_by(2) {
+            let left_subtrees = Self::all_possible_fbt(i);
+            let right_subtrees = Self::all_possible_fbt(n - 1 - i);
+            for left_subtree in left_subtrees {
+                for right_subtree in right_subtrees.clone() {
+                    let root = Rc::new(RefCell::new(TreeNode { val: 0, left: left_subtree.clone(), right: right_subtree.clone()}));
+                    full_binary_trees.push(Some(root.clone()));
+                }
+            }
+        }
+        full_binary_trees
+    }
+}

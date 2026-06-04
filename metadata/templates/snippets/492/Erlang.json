@@ -1,0 +1,1 @@
+"-spec construct_rectangle(Area :: integer()) -> [integer()].\nconstruct_rectangle(Area) ->\n  ."

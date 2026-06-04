@@ -1,0 +1,1 @@
+"class Solution:\n    def canMakePalindromeQueries(self, s: str, queries: List[List[int]]) -> List[bool]:\n        "

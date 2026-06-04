@@ -1,1 +1,0 @@
-"(define/contract (convert s numRows)\n  (-> string? exact-integer? string?)\n  )"

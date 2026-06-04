@@ -1,1 +1,0 @@
-"-spec distinct_averages(Nums :: [integer()]) -> integer().\ndistinct_averages(Nums) ->\n  ."

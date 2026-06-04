@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    bool canPartitionGrid(vector<vector<int>>& grid) {\n        \n    }\n};"

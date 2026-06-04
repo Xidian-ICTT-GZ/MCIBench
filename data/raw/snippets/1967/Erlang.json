@@ -1,1 +1,0 @@
-"-spec num_of_strings(Patterns :: [unicode:unicode_binary()], Word :: unicode:unicode_binary()) -> integer().\nnum_of_strings(Patterns, Word) ->\n  ."

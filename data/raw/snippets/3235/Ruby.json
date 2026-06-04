@@ -1,1 +1,0 @@
-"# @param {Integer} x_corner\n# @param {Integer} y_corner\n# @param {Integer[][]} circles\n# @return {Boolean}\ndef can_reach_corner(x_corner, y_corner, circles)\n    \nend"

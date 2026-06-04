@@ -1,0 +1,26 @@
+var numOfMinutes = function(n, headID, manager, informTime) {
+    
+    let res = 0;
+    const memo = new Map();
+    
+    const dfs = (cur) => {
+        
+        if (cur === headID) {
+            return 0;
+        }
+        
+        if (!memo.has(cur)) {
+            const res = dfs(manager[cur]) + informTime[manager[cur]];
+            
+            memo.set(cur, res);
+        }
+        
+        return memo.get(cur);
+    }
+    
+    for (let i = 0; i < n; i++) {
+        res = Math.max(res, dfs(i));
+    }
+    
+    return res;
+}

@@ -1,1 +1,0 @@
-"# @param {Integer[]} buses\n# @param {Integer[]} passengers\n# @param {Integer} capacity\n# @return {Integer}\ndef latest_time_catch_the_bus(buses, passengers, capacity)\n    \nend"

@@ -1,0 +1,1 @@
+"class StockSpanner(object):\n\n    def __init__(self):\n        \n\n    def next(self, price):\n        \"\"\"\n        :type price: int\n        :rtype: int\n        \"\"\"\n        \n\n\n# Your StockSpanner object will be instantiated and called as such:\n# obj = StockSpanner()\n# param_1 = obj.next(price)"

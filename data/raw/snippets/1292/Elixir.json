@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec max_side_length(mat :: [[integer]], threshold :: integer) :: integer\n  def max_side_length(mat, threshold) do\n    \n  end\nend"

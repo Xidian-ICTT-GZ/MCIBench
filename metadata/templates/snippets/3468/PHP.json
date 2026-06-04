@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $original\n     * @param Integer[][] $bounds\n     * @return Integer\n     */\n    function countArrays($original, $bounds) {\n        \n    }\n}"

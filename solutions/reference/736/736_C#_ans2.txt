@@ -1,0 +1,128 @@
+public class Solution {
+    Dictionary<string, Stack<int>> scope = new Dictionary<string, Stack<int>>();
+
+    public int Evaluate(string expression) {
+        Stack<Stack<string>> vars = new Stack<Stack<string>>();
+        int start = 0, n = expression.Length;
+        Stack<Expr> stack = new Stack<Expr>();
+        Expr cur = new Expr(ExprStatus.VALUE);
+        while (start < n) {
+            if (expression[start] == ' ') {
+                start++; 
+                continue;
+            }
+            if (expression[start] == '(') {
+                start++; 
+                stack.Push(cur);
+                cur = new Expr(ExprStatus.NONE);
+                continue;
+            }
+            StringBuilder sb = new StringBuilder();
+            if (expression[start] == ')') { 
+                start++; 
+                if (cur.status == ExprStatus.LET2) {
+                    sb = new StringBuilder(cur.value.ToString());
+                    foreach (string var in vars.Peek()) { 
+                        scope[var].Pop();
+                    }
+                    vars.Pop();
+                } else if (cur.status == ExprStatus.ADD2) {
+                    sb = new StringBuilder((cur.e1 + cur.e2).ToString());
+                } else {
+                    sb = new StringBuilder((cur.e1 * cur.e2).ToString());
+                }
+                cur = stack.Pop(); 
+            } else {
+                while (start < n && expression[start] != ' ' && expression[start] != ')') {
+                    sb.Append(expression[start]);
+                    start++;
+                }
+            }
+            string token = sb.ToString();
+            switch (cur.status.ToString()) {
+            case "VALUE":
+                cur.value = int.Parse(token);
+                cur.status = ExprStatus.DONE;
+                break;
+            case "NONE":
+                if ("let".Equals(token)) {
+                    cur.status = ExprStatus.LET;
+                    vars.Push(new Stack<string>()); 
+                } else if ("add".Equals(token)) {
+                    cur.status = ExprStatus.ADD;
+                } else if ("mult".Equals(token)) {
+                    cur.status = ExprStatus.MULT;
+                }
+                break;
+            case "LET":
+                if (expression[start] == ')') { 
+                    cur.value = CalculateToken(token);
+                    cur.status = ExprStatus.LET2;
+                } else {
+                    cur.var = token;
+                    vars.Peek().Push(token); 
+                    cur.status = ExprStatus.LET1;
+                }
+                break;
+            case "LET1":
+                if (!scope.ContainsKey(cur.var)) {
+                    scope.Add(cur.var, new Stack<int>());
+                }
+                scope[cur.var].Push(CalculateToken(token));
+                cur.status = ExprStatus.LET;
+                break;
+            case "ADD":
+                cur.e1 = CalculateToken(token);
+                cur.status = ExprStatus.ADD1;
+                break;
+            case "ADD1":
+                cur.e2 = CalculateToken(token);
+                cur.status = ExprStatus.ADD2;
+                break;
+            case "MULT":
+                cur.e1 = CalculateToken(token);
+                cur.status = ExprStatus.MULT1;
+                break;
+            case "MULT1":
+                cur.e2 = CalculateToken(token);
+                cur.status = ExprStatus.MULT2;
+                break;
+            }
+        }
+        return cur.value;
+    }
+
+    public int CalculateToken(string token) {
+        if (char.IsLower(token[0])) {
+            return scope[token].Peek();
+        } else {
+            return int.Parse(token);
+        }
+    }
+}
+
+public enum ExprStatus {
+    VALUE,     
+    NONE,      
+    LET,       
+    LET1,      
+    LET2,      
+    ADD,       
+    ADD1,      
+    ADD2,      
+    MULT,      
+    MULT1,     
+    MULT2,     
+    DONE       
+}
+
+public class Expr {
+    public ExprStatus status;
+    public string var; 
+    public int value; 
+    public int e1, e2; 
+
+    public Expr(ExprStatus s) {
+        status = s;
+    }
+}

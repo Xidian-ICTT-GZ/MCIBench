@@ -1,0 +1,1 @@
+"object Solution {\n    def reconstructQueue(people: Array[Array[Int]]): Array[Array[Int]] = {\n        \n    }\n}"

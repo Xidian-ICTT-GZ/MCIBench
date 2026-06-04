@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec reverse_str(s :: String.t, k :: integer) :: String.t\n  def reverse_str(s, k) do\n    \n  end\nend"

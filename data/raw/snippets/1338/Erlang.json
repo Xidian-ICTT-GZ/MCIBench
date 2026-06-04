@@ -1,1 +1,0 @@
-"-spec min_set_size(Arr :: [integer()]) -> integer().\nmin_set_size(Arr) ->\n  ."

@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer $minK\n     * @param Integer $maxK\n     * @return Integer\n     */\n    function countSubarrays($nums, $minK, $maxK) {\n        \n    }\n}"

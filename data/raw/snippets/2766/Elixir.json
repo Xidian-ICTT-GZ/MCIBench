@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec relocate_marbles(nums :: [integer], move_from :: [integer], move_to :: [integer]) :: [integer]\n  def relocate_marbles(nums, move_from, move_to) do\n    \n  end\nend"

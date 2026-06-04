@@ -1,1 +1,0 @@
-"-spec find_kth_number(N :: integer(), K :: integer()) -> integer().\nfind_kth_number(N, K) ->\n  ."

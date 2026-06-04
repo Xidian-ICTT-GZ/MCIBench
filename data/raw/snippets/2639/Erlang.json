@@ -1,1 +1,0 @@
-"-spec find_column_width(Grid :: [[integer()]]) -> [integer()].\nfind_column_width(Grid) ->\n  ."

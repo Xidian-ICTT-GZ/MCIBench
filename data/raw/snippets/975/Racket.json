@@ -1,1 +1,0 @@
-"(define/contract (odd-even-jumps arr)\n  (-> (listof exact-integer?) exact-integer?)\n  )"

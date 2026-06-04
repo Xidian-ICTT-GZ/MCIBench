@@ -1,0 +1,31 @@
+public class Solution {
+    int[] nums;
+    int[] original;
+
+    public Solution(int[] nums) {
+        this.nums = nums;
+        this.original = new int[nums.Length];
+        Array.Copy(nums, original, nums.Length);
+    }
+    
+    public int[] Reset() {
+        Array.Copy(original, nums, nums.Length);
+        return nums;
+    }
+    
+    public int[] Shuffle() {
+        int[] shuffled = new int[nums.Length];
+        IList<int> list = new List<int>();
+        for (int i = 0; i < nums.Length; ++i) {
+            list.Add(nums[i]);
+        }
+        Random random = new Random();
+        for (int i = 0; i < nums.Length; ++i) {
+            int j = random.Next(list.Count);
+            shuffled[i] = list[j];
+            list.Remove(list[j]);
+        }
+        Array.Copy(shuffled, nums, nums.Length);
+        return nums;
+    }
+}

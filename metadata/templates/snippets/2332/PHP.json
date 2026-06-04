@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $buses\n     * @param Integer[] $passengers\n     * @param Integer $capacity\n     * @return Integer\n     */\n    function latestTimeCatchTheBus($buses, $passengers, $capacity) {\n        \n    }\n}"

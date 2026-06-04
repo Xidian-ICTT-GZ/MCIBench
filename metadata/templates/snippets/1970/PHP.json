@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $row\n     * @param Integer $col\n     * @param Integer[][] $cells\n     * @return Integer\n     */\n    function latestDayToCross($row, $col, $cells) {\n        \n    }\n}"

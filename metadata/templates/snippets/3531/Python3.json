@@ -1,0 +1,1 @@
+"class Solution:\n    def countCoveredBuildings(self, n: int, buildings: List[List[int]]) -> int:\n        "

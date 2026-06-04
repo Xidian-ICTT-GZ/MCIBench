@@ -1,1 +1,0 @@
-"-spec stone_game_iii(StoneValue :: [integer()]) -> unicode:unicode_binary().\nstone_game_iii(StoneValue) ->\n  ."

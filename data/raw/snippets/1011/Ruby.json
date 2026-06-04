@@ -1,1 +1,0 @@
-"# @param {Integer[]} weights\n# @param {Integer} days\n# @return {Integer}\ndef ship_within_days(weights, days)\n    \nend"

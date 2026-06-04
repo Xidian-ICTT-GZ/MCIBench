@@ -1,0 +1,24 @@
+public class Solution {
+    public int[] ShortestDistanceAfterQueries(int n, int[][] queries) {
+        int[] roads = new int[n];
+        for (int i = 0; i < n; i++) {
+            roads[i] = i + 1;
+        }
+        int[] res = new int[queries.Length];
+        int dist = n - 1;
+        for (int i = 0; i < queries.Length; i++) {
+            int k = roads[queries[i][0]];
+            while (k != -1 && k < queries[i][1]) {
+                if(k < queries[i][1]){
+                    roads[queries[i][0]] = queries[i][1];
+                }
+                int t = roads[k];
+                roads[k] = -1;
+                k = t;
+                dist--;
+            }
+            res[i] = dist;
+        }
+        return res;
+    }
+}

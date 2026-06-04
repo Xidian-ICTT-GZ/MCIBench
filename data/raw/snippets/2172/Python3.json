@@ -1,1 +1,0 @@
-"class Solution:\n    def maximumANDSum(self, nums: List[int], numSlots: int) -> int:\n        "

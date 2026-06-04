@@ -1,1 +1,0 @@
-"/**\n * @param {number} days\n * @param {number[][]} meetings\n * @return {number}\n */\nvar countDays = function(days, meetings) {\n    \n};"

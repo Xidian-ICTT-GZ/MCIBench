@@ -1,1 +1,0 @@
-"-spec k_length_apart(Nums :: [integer()], K :: integer()) -> boolean().\nk_length_apart(Nums, K) ->\n  ."

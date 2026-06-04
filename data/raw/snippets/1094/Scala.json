@@ -1,1 +1,0 @@
-"object Solution {\n    def carPooling(trips: Array[Array[Int]], capacity: Int): Boolean = {\n        \n    }\n}"

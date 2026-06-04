@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec most_common_word(paragraph :: String.t, banned :: [String.t]) :: String.t\n  def most_common_word(paragraph, banned) do\n    \n  end\nend"

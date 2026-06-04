@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec maximal_rectangle(matrix :: [[char]]) :: integer\n  def maximal_rectangle(matrix) do\n    \n  end\nend"

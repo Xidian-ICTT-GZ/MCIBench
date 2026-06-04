@@ -1,0 +1,1 @@
+"public class NumMatrix {\n\n    public NumMatrix(int[][] matrix) {\n        \n    }\n    \n    public int SumRegion(int row1, int col1, int row2, int col2) {\n        \n    }\n}\n\n/**\n * Your NumMatrix object will be instantiated and called as such:\n * NumMatrix obj = new NumMatrix(matrix);\n * int param_1 = obj.SumRegion(row1,col1,row2,col2);\n */"

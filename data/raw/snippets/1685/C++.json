@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    vector<int> getSumAbsoluteDifferences(vector<int>& nums) {\n        \n    }\n};"

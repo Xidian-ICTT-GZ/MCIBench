@@ -1,0 +1,1 @@
+"class Solution:\n    def eventualSafeNodes(self, graph: List[List[int]]) -> List[int]:\n        "

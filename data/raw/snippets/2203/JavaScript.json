@@ -1,1 +1,0 @@
-"/**\n * @param {number} n\n * @param {number[][]} edges\n * @param {number} src1\n * @param {number} src2\n * @param {number} dest\n * @return {number}\n */\nvar minimumWeight = function(n, edges, src1, src2, dest) {\n    \n};"

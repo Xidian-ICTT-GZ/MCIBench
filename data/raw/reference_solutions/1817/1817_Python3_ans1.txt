@@ -1,9 +1,0 @@
-class Solution:
-    def findingUsersActiveMinutes(self, logs: List[List[int]], k: int) -> List[int]:
-        mp = defaultdict(set)
-        for i, t in logs:
-            mp[i].add(t)
-        ans = [0] * k
-        for s in mp.values():
-            ans[len(s) - 1] += 1
-        return ans

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec reachable_nodes(n :: integer, edges :: [[integer]], restricted :: [integer]) :: integer\n  def reachable_nodes(n, edges, restricted) do\n    \n  end\nend"

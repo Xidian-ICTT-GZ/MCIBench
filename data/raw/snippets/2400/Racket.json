@@ -1,1 +1,0 @@
-"(define/contract (number-of-ways startPos endPos k)\n  (-> exact-integer? exact-integer? exact-integer? exact-integer?)\n  )"

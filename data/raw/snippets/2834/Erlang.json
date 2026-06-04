@@ -1,1 +1,0 @@
-"-spec minimum_possible_sum(N :: integer(), Target :: integer()) -> integer().\nminimum_possible_sum(N, Target) ->\n  ."

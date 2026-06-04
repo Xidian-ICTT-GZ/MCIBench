@@ -1,1 +1,0 @@
-"import pandas as pd\n\ndef article_views(views: pd.DataFrame) -> pd.DataFrame:\n    "

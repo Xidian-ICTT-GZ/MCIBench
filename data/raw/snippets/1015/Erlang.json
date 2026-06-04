@@ -1,1 +1,0 @@
-"-spec smallest_repunit_div_by_k(K :: integer()) -> integer().\nsmallest_repunit_div_by_k(K) ->\n  ."

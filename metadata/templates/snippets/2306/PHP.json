@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String[] $ideas\n     * @return Integer\n     */\n    function distinctNames($ideas) {\n        \n    }\n}"

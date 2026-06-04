@@ -1,1 +1,0 @@
-"(define/contract (min-moves target maxDoubles)\n  (-> exact-integer? exact-integer? exact-integer?)\n  )"

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec max_satisfied(customers :: [integer], grumpy :: [integer], minutes :: integer) :: integer\n  def max_satisfied(customers, grumpy, minutes) do\n    \n  end\nend"

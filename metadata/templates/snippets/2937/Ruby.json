@@ -1,0 +1,1 @@
+"# @param {String} s1\n# @param {String} s2\n# @param {String} s3\n# @return {Integer}\ndef find_minimum_operations(s1, s2, s3)\n    \nend"

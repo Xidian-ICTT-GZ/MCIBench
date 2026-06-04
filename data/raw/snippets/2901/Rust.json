@@ -1,1 +1,0 @@
-"impl Solution {\n    pub fn get_words_in_longest_subsequence(words: Vec<String>, groups: Vec<i32>) -> Vec<String> {\n        \n    }\n}"

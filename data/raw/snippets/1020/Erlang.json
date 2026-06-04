@@ -1,1 +1,0 @@
-"-spec num_enclaves(Grid :: [[integer()]]) -> integer().\nnum_enclaves(Grid) ->\n  ."

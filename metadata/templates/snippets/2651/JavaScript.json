@@ -1,0 +1,1 @@
+"/**\n * @param {number} arrivalTime\n * @param {number} delayedTime\n * @return {number}\n */\nvar findDelayedArrivalTime = function(arrivalTime, delayedTime) {\n    \n};"

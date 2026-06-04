@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<int> constructArray(int n, int k) {\n        \n    }\n};"

@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} cells\n * @param {number} n\n * @return {number[]}\n */\nvar prisonAfterNDays = function(cells, n) {\n    \n};"

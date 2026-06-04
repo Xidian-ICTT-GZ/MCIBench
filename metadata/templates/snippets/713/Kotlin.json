@@ -1,0 +1,1 @@
+"class Solution {\n    fun numSubarrayProductLessThanK(nums: IntArray, k: Int): Int {\n        \n    }\n}"

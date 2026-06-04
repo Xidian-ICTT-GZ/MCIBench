@@ -1,1 +1,0 @@
-"class Solution(object):\n    def minimumTime(self, n, relations, time):\n        \"\"\"\n        :type n: int\n        :type relations: List[List[int]]\n        :type time: List[int]\n        :rtype: int\n        \"\"\"\n        "

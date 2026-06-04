@@ -1,0 +1,1 @@
+"class Solution:\n    def minimumFuelCost(self, roads: List[List[int]], seats: int) -> int:\n        "

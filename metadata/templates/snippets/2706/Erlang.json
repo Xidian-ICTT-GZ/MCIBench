@@ -1,0 +1,1 @@
+"-spec buy_choco(Prices :: [integer()], Money :: integer()) -> integer().\nbuy_choco(Prices, Money) ->\n  ."

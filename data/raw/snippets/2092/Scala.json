@@ -1,1 +1,0 @@
-"object Solution {\n    def findAllPeople(n: Int, meetings: Array[Array[Int]], firstPerson: Int): List[Int] = {\n        \n    }\n}"

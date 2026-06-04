@@ -1,0 +1,1 @@
+"/**\n * @param {Array<Function>} functions\n * @return {Promise<any>}\n */\nvar promiseAll = function(functions) {\n    \n};\n\n/**\n * const promise = promiseAll([() => new Promise(res => res(42))])\n * promise.then(console.log); // [42]\n */"

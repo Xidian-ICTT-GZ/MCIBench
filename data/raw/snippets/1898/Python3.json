@@ -1,1 +1,0 @@
-"class Solution:\n    def maximumRemovals(self, s: str, p: str, removable: List[int]) -> int:\n        "

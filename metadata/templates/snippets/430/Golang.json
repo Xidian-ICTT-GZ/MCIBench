@@ -1,0 +1,1 @@
+"/**\n * Definition for a Node.\n * type Node struct {\n *     Val int\n *     Prev *Node\n *     Next *Node\n *     Child *Node\n * }\n */\n\nfunc flatten(root *Node) *Node {\n    \n}"

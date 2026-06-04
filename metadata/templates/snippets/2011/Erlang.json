@@ -1,0 +1,1 @@
+"-spec final_value_after_operations(Operations :: [unicode:unicode_binary()]) -> integer().\nfinal_value_after_operations(Operations) ->\n  ."

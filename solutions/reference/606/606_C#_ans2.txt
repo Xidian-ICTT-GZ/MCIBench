@@ -1,0 +1,32 @@
+public class Solution {
+    public string Tree2str(TreeNode root) {
+        StringBuilder ans = new StringBuilder();
+        Stack<TreeNode> stack = new Stack<TreeNode>();
+        stack.Push(root);
+        ISet<TreeNode> visited = new HashSet<TreeNode>();
+        while (stack.Count > 0) {
+            TreeNode node = stack.Peek();
+            if (!visited.Add(node)) {
+                if (node != root) {
+                    ans.Append(")");
+                }
+                stack.Pop();
+            } else {
+                if (node != root) {
+                    ans.Append("(");
+                }
+                ans.Append(node.val);
+                if (node.left == null && node.right != null) {
+                    ans.Append("()");
+                }
+                if (node.right != null) {
+                    stack.Push(node.right);
+                }
+                if (node.left != null) {
+                    stack.Push(node.left);
+                }
+            }
+        }
+        return ans.ToString();
+    }
+}

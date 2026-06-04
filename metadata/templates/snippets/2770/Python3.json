@@ -1,0 +1,1 @@
+"class Solution:\n    def maximumJumps(self, nums: List[int], target: int) -> int:\n        "

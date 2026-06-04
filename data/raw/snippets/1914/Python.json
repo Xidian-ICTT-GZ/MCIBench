@@ -1,1 +1,0 @@
-"class Solution(object):\n    def rotateGrid(self, grid, k):\n        \"\"\"\n        :type grid: List[List[int]]\n        :type k: int\n        :rtype: List[List[int]]\n        \"\"\"\n        "

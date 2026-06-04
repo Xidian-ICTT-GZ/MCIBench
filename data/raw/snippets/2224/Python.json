@@ -1,1 +1,0 @@
-"class Solution(object):\n    def convertTime(self, current, correct):\n        \"\"\"\n        :type current: str\n        :type correct: str\n        :rtype: int\n        \"\"\"\n        "

@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int maximalSquare(vector<vector<char>>& matrix) {\n        \n    }\n};"

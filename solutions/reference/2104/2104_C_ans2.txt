@@ -1,0 +1,101 @@
+typedef struct {
+    int * stBuff;
+    int stSize;
+    int stTop;
+} Stack;
+
+void initStack(Stack * obj, int stSize) {
+    obj->stBuff = (int *)malloc(sizeof(int) * stSize);
+    obj->stSize = stSize;
+    obj->stTop = 0;
+}
+
+static inline bool pushStack(Stack * obj, int val) {
+    if (obj->stTop == obj->stSize) {
+        return false;
+    }
+    obj->stBuff[obj->stTop++] = val;
+    return true;
+}
+
+static inline int popStack(Stack * obj) {
+    if (obj->stTop == 0) {
+        return -1;
+    }
+    int res =  obj->stBuff[obj->stTop - 1];
+    obj->stTop--;
+    return res;
+}
+
+
+static inline bool isEmptyStack(const Stack * obj) {
+    return obj->stTop == 0;
+}
+
+static inline int topStack(const Stack * obj) {
+    if (obj->stTop == 0) {
+        return -1;
+    }
+    return obj->stBuff[obj->stTop - 1]; 
+}
+
+static inline bool clearStack(Stack * obj) {
+    obj->stTop = 0;
+    return true;
+}
+
+static inline void freeStack(Stack * obj) {
+    free(obj->stBuff);
+}
+
+long long subArrayRanges(int* nums, int numsSize){
+    int * minLeft = (int *)malloc(sizeof(int) * numsSize);
+    int * minRight = (int *)malloc(sizeof(int) * numsSize);
+    int * maxLeft = (int *)malloc(sizeof(int) * numsSize);
+    int * maxRight = (int *)malloc(sizeof(int) * numsSize);
+    Stack minStack, maxStack;
+    initStack(&minStack, numsSize);
+    initStack(&maxStack, numsSize);
+    for (int i = 0; i < numsSize; i++) {
+        while (!isEmptyStack(&minStack) && nums[topStack(&minStack)] > nums[i]) {
+            popStack(&minStack);
+        }
+        minLeft[i] = isEmptyStack(&minStack) ? -1 : topStack(&minStack);
+        pushStack(&minStack, i);
+        
+        
+        
+        while (!isEmptyStack(&maxStack) && nums[topStack(&maxStack)] <= nums[i]) { 
+            popStack(&maxStack);
+        }
+        maxLeft[i] = isEmptyStack(&maxStack) ? -1 : topStack(&maxStack);
+        pushStack(&maxStack, i);
+    }
+    clearStack(&minStack);
+    clearStack(&maxStack);
+    for (int i = numsSize - 1; i >= 0; i--) {
+        
+        
+        while (!isEmptyStack(&minStack) && nums[topStack(&minStack)] >= nums[i]) { 
+            popStack(&minStack);
+        }
+        minRight[i] = isEmptyStack(&minStack) ? numsSize : topStack(&minStack);
+        pushStack(&minStack, i);
+
+        while (!isEmptyStack(&maxStack) && nums[topStack(&maxStack)] < nums[i]) { 
+            popStack(&maxStack);
+        }
+        maxRight[i] = isEmptyStack(&maxStack) ? numsSize : topStack(&maxStack);
+        pushStack(&maxStack, i);
+    }
+    freeStack(&minStack);
+    freeStack(&maxStack);
+
+    long long sumMax = 0, sumMin = 0;
+    for (int i = 0; i < numsSize; i++) {
+        sumMax += (long long)(maxRight[i] - i) * (i - maxLeft[i]) * nums[i];
+        sumMin += (long long)(minRight[i] - i) * (i - minLeft[i]) * nums[i];
+    }
+    
+    return sumMax - sumMin;
+}

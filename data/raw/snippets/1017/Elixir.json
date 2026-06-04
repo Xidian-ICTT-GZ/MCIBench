@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec base_neg2(n :: integer) :: String.t\n  def base_neg2(n) do\n    \n  end\nend"

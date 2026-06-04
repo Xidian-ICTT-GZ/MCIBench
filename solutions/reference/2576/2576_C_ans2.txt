@@ -1,0 +1,20 @@
+int compare(const void* a, const void* b) {
+    return (*(int*)a - *(int*)b);
+}
+
+int maxNumOfMarkedIndices(int* nums, int numsSize){
+    qsort(nums, numsSize, sizeof(int), compare);
+    int n = numsSize;
+    int m = n / 2;
+    int res = 0;
+    for (int i = 0, j = m; i < m && j < n; i++) {
+        while (j < n && 2 * nums[i] > nums[j]) {
+            j++;
+        }
+        if (j < n) {
+            res += 2;
+            j++;
+        }
+    }
+    return res;
+}

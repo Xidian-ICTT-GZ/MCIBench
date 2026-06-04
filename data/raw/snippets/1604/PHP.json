@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String[] $keyName\n     * @param String[] $keyTime\n     * @return String[]\n     */\n    function alertNames($keyName, $keyTime) {\n        \n    }\n}"

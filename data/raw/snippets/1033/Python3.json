@@ -1,1 +1,0 @@
-"class Solution:\n    def numMovesStones(self, a: int, b: int, c: int) -> List[int]:\n        "

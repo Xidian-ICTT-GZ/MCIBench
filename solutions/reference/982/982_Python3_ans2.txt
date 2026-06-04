@@ -1,0 +1,15 @@
+class Solution:
+    def countTriplets(self, nums: List[int]) -> int:
+        cnt = Counter((x & y) for x in nums for y in nums)
+        
+        ans = 0
+        for x in nums:
+            sub = x = x ^ 0xffff
+            while True:
+                if sub in cnt:
+                    ans += cnt[sub]
+                if sub == 0:
+                    break
+                sub = (sub - 1) & x
+        
+        return ans

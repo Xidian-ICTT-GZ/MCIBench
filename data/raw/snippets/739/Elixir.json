@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec daily_temperatures(temperatures :: [integer]) :: [integer]\n  def daily_temperatures(temperatures) do\n    \n  end\nend"

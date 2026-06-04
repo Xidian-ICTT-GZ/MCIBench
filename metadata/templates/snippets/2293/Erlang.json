@@ -1,0 +1,1 @@
+"-spec min_max_game(Nums :: [integer()]) -> integer().\nmin_max_game(Nums) ->\n  ."

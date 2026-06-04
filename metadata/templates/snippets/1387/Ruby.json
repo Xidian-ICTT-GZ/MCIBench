@@ -1,0 +1,1 @@
+"# @param {Integer} lo\n# @param {Integer} hi\n# @param {Integer} k\n# @return {Integer}\ndef get_kth(lo, hi, k)\n    \nend"

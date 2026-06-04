@@ -1,0 +1,1 @@
+"# @param {Integer[][]} edges1\n# @param {Integer[][]} edges2\n# @return {Integer[]}\ndef max_target_nodes(edges1, edges2)\n    \nend"

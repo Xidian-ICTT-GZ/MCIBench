@@ -1,0 +1,1 @@
+"class Solution(object):\n    def characterReplacement(self, s, k):\n        \"\"\"\n        :type s: str\n        :type k: int\n        :rtype: int\n        \"\"\"\n        "

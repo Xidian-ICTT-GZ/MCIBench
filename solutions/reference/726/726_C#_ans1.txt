@@ -1,0 +1,79 @@
+public class Solution {
+    int i, n;
+    string formula;
+
+    public string CountOfAtoms(string formula) {
+        this.i = 0;
+        this.n = formula.Length;
+        this.formula = formula;
+        Stack<Dictionary<string, int>> stack = new Stack<Dictionary<string, int>>();
+        stack.Push(new Dictionary<string, int>());
+        while (i < n) {
+            char ch = formula[i];
+            if (ch == '(') {
+                i++;
+                stack.Push(new Dictionary<string, int>()); 
+            } else if (ch == ')') {
+                i++;
+                int num = ParseNum(); 
+                Dictionary<string, int> popDictionary = stack.Pop(); 
+                Dictionary<string, int> topDictionary = stack.Peek();
+                foreach (KeyValuePair<string, int> pair in popDictionary) {
+                    string atom = pair.Key;
+                    int v = pair.Value;
+                    
+                    if (topDictionary.ContainsKey(atom)) {
+                        topDictionary[atom] += v * num;
+                    } else {
+                        topDictionary.Add(atom, v * num);
+                    }
+                }
+            } else {
+                string atom = ParseAtom();
+                int num = ParseNum();
+                Dictionary<string, int> topDictionary = stack.Peek();
+                
+                if (topDictionary.ContainsKey(atom)) {
+                    topDictionary[atom] += num;
+                } else {
+                    topDictionary.Add(atom, num);
+                }
+            }
+        }
+
+        Dictionary<string, int> dictionary = stack.Pop();
+        List<KeyValuePair<string, int>> pairs = new List<KeyValuePair<string, int>>(dictionary);
+        pairs.Sort((p1, p2) => p1.Key.CompareTo(p2.Key));
+
+        StringBuilder sb = new StringBuilder();
+        foreach (KeyValuePair<string, int> pair in pairs) {
+            string atom = pair.Key;
+            int count = pair.Value;
+            sb.Append(atom);
+            if (count > 1) {
+                sb.Append(count);
+            }
+        }
+        return sb.ToString();
+    }
+
+    public string ParseAtom() {
+        StringBuilder sb = new StringBuilder();
+        sb.Append(formula[i++]); 
+        while (i < n && char.IsLower(formula[i])) {
+            sb.Append(formula[i++]); 
+        }
+        return sb.ToString();
+    }
+
+    public int ParseNum() {
+        if (i == n || !char.IsNumber(formula[i])) {
+            return 1; 
+        }
+        int num = 0;
+        while (i < n && char.IsNumber(formula[i])) {
+            num = num * 10 + formula[i++] - '0'; 
+        }
+        return num;
+    }
+}

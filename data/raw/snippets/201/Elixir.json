@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec range_bitwise_and(left :: integer, right :: integer) :: integer\n  def range_bitwise_and(left, right) do\n    \n  end\nend"

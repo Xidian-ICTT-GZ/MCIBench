@@ -1,1 +1,0 @@
-"class Solution {\n    func maximalPathQuality(_ values: [Int], _ edges: [[Int]], _ maxTime: Int) -> Int {\n        \n    }\n}"

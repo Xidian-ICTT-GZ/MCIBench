@@ -1,1 +1,0 @@
-"class Solution(object):\n    def minElements(self, nums, limit, goal):\n        \"\"\"\n        :type nums: List[int]\n        :type limit: int\n        :type goal: int\n        :rtype: int\n        \"\"\"\n        "

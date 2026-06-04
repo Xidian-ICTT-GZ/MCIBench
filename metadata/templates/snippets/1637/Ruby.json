@@ -1,0 +1,1 @@
+"# @param {Integer[][]} points\n# @return {Integer}\ndef max_width_of_vertical_area(points)\n    \nend"

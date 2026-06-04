@@ -1,1 +1,0 @@
-"object Solution {\n    def mincostTickets(days: Array[Int], costs: Array[Int]): Int = {\n        \n    }\n}"

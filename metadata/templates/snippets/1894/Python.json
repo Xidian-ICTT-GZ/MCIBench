@@ -1,0 +1,1 @@
+"class Solution(object):\n    def chalkReplacer(self, chalk, k):\n        \"\"\"\n        :type chalk: List[int]\n        :type k: int\n        :rtype: int\n        \"\"\"\n        "

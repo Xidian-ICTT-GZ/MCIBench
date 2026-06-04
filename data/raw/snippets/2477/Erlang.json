@@ -1,1 +1,0 @@
-"-spec minimum_fuel_cost(Roads :: [[integer()]], Seats :: integer()) -> integer().\nminimum_fuel_cost(Roads, Seats) ->\n  ."

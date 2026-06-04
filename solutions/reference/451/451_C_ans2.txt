@@ -1,0 +1,54 @@
+#define HASH_FIND_CHAR(head, findint, out) HASH_FIND(hh, head, findint, sizeof(char), out)
+#define HASH_ADD_CHAR(head, intfield, add) HASH_ADD(hh, head, intfield, sizeof(char), add)
+
+struct HashTable {
+    char key;
+    int val;
+    UT_hash_handle hh;
+};
+
+char* frequencySort(char* s) {
+    struct HashTable* hashTable = NULL;
+    int maxFreq = 0;
+    int length = strlen(s);
+    for (int i = 0; i < length; i++) {
+        struct HashTable* tmp;
+        HASH_FIND_CHAR(hashTable, &s[i], tmp);
+        if (tmp == NULL) {
+            tmp = malloc(sizeof(struct HashTable));
+            tmp->key = s[i], tmp->val = 1;
+            HASH_ADD_CHAR(hashTable, key, tmp);
+            maxFreq = fmax(maxFreq, 1);
+        } else {
+            maxFreq = fmax(maxFreq, ++tmp->val);
+        }
+    }
+    char* buckets[maxFreq + 1];
+    int bucketsSize[maxFreq + 1];
+    memset(bucketsSize, 0, sizeof(bucketsSize));
+    int retSize = 0;
+    struct HashTable *tmp, *iter;
+    HASH_ITER(hh, hashTable, iter, tmp) {
+        bucketsSize[iter->val]++;
+        retSize += iter->val;
+    }
+    for (int i = 1; i <= maxFreq; i++) {
+        buckets[i] = malloc(sizeof(char) * bucketsSize[i]);
+    }
+    memset(bucketsSize, 0, sizeof(bucketsSize));
+    HASH_ITER(hh, hashTable, iter, tmp) {
+        buckets[iter->val][bucketsSize[iter->val]++] = iter->key;
+    }
+    char* ret = malloc(sizeof(char) * (retSize + 1));
+    retSize = 0;
+    for (int i = maxFreq; i > 0; i--) {
+        char* bucket = buckets[i];
+        for (int j = 0; j < bucketsSize[i]; j++) {
+            for (int k = 0; k < i; k++) {
+                ret[retSize++] = bucket[j];
+            }
+        }
+    }
+    ret[retSize] = '\0';
+    return ret;
+}

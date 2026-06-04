@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer $n\n     * @param Integer[][] $edges\n     * @param Integer $source\n     * @param Integer $destination\n     * @return Boolean\n     */\n    function validPath($n, $edges, $source, $destination) {\n        \n    }\n}"

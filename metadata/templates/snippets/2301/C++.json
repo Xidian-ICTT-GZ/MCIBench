@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    bool matchReplacement(string s, string sub, vector<vector<char>>& mappings) {\n        \n    }\n};"

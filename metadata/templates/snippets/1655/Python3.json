@@ -1,0 +1,1 @@
+"class Solution:\n    def canDistribute(self, nums: List[int], quantity: List[int]) -> bool:\n        "

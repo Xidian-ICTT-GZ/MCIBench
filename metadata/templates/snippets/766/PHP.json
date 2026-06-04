@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $matrix\n     * @return Boolean\n     */\n    function isToeplitzMatrix($matrix) {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"/**\n * @param {number[][]} tasks\n * @return {number}\n */\nvar minimumEffort = function(tasks) {\n    \n};"

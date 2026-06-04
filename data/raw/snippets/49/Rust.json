@@ -1,1 +1,0 @@
-"impl Solution {\n    pub fn group_anagrams(strs: Vec<String>) -> Vec<Vec<String>> {\n        \n    }\n}"

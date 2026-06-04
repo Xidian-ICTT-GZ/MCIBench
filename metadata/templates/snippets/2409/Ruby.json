@@ -1,0 +1,1 @@
+"# @param {String} arrive_alice\n# @param {String} leave_alice\n# @param {String} arrive_bob\n# @param {String} leave_bob\n# @return {Integer}\ndef count_days_together(arrive_alice, leave_alice, arrive_bob, leave_bob)\n    \nend"

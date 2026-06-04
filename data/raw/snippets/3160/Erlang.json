@@ -1,1 +1,0 @@
-"-spec query_results(Limit :: integer(), Queries :: [[integer()]]) -> [integer()].\nquery_results(Limit, Queries) ->\n  ."

@@ -1,0 +1,1 @@
+"class Solution:\n    def isCircularSentence(self, sentence: str) -> bool:\n        "

@@ -1,0 +1,1 @@
+"-spec longest_alternating_subarray(Nums :: [integer()], Threshold :: integer()) -> integer().\nlongest_alternating_subarray(Nums, Threshold) ->\n  ."

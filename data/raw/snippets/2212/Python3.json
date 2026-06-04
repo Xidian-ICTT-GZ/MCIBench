@@ -1,1 +1,0 @@
-"class Solution:\n    def maximumBobPoints(self, numArrows: int, aliceArrows: List[int]) -> List[int]:\n        "

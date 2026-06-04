@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int componentValue(vector<int>& nums, vector<vector<int>>& edges) {\n        \n    }\n};"

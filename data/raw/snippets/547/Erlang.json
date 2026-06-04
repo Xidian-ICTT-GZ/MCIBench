@@ -1,1 +1,0 @@
-"-spec find_circle_num(IsConnected :: [[integer()]]) -> integer().\nfind_circle_num(IsConnected) ->\n  ."

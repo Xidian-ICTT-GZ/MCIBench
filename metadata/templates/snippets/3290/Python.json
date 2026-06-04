@@ -1,0 +1,1 @@
+"class Solution(object):\n    def maxScore(self, a, b):\n        \"\"\"\n        :type a: List[int]\n        :type b: List[int]\n        :rtype: int\n        \"\"\"\n        "

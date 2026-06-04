@@ -1,1 +1,0 @@
-"class Solution(object):\n    def possibleStringCount(self, word):\n        \"\"\"\n        :type word: str\n        :rtype: int\n        \"\"\"\n        "

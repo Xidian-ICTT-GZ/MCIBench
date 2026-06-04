@@ -1,1 +1,0 @@
-"type SeatManager struct {\n    \n}\n\n\nfunc Constructor(n int) SeatManager {\n    \n}\n\n\nfunc (this *SeatManager) Reserve() int {\n    \n}\n\n\nfunc (this *SeatManager) Unreserve(seatNumber int)  {\n    \n}\n\n\n/**\n * Your SeatManager object will be instantiated and called as such:\n * obj := Constructor(n);\n * param_1 := obj.Reserve();\n * obj.Unreserve(seatNumber);\n */"

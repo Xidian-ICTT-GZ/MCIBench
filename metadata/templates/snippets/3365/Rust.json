@@ -1,0 +1,1 @@
+"impl Solution {\n    pub fn is_possible_to_rearrange(s: String, t: String, k: i32) -> bool {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"-spec matrix_reshape(Mat :: [[integer()]], R :: integer(), C :: integer()) -> [[integer()]].\nmatrix_reshape(Mat, R, C) ->\n  ."

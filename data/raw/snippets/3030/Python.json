@@ -1,1 +1,0 @@
-"class Solution(object):\n    def resultGrid(self, image, threshold):\n        \"\"\"\n        :type image: List[List[int]]\n        :type threshold: int\n        :rtype: List[List[int]]\n        \"\"\"\n        "

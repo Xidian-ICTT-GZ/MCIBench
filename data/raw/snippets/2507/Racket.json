@@ -1,1 +1,0 @@
-"(define/contract (smallest-value n)\n  (-> exact-integer? exact-integer?)\n  )"

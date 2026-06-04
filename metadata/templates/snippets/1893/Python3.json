@@ -1,0 +1,1 @@
+"class Solution:\n    def isCovered(self, ranges: List[List[int]], left: int, right: int) -> bool:\n        "

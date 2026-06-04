@@ -1,0 +1,1 @@
+"-spec beautiful_subarrays(Nums :: [integer()]) -> integer().\nbeautiful_subarrays(Nums) ->\n  ."

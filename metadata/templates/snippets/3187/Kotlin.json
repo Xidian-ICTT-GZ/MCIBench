@@ -1,0 +1,1 @@
+"class Solution {\n    fun countOfPeaks(nums: IntArray, queries: Array<IntArray>): List<Int> {\n        \n    }\n}"

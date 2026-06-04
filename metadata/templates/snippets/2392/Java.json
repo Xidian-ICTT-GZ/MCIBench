@@ -1,0 +1,1 @@
+"class Solution {\n    public int[][] buildMatrix(int k, int[][] rowConditions, int[][] colConditions) {\n        \n    }\n}"

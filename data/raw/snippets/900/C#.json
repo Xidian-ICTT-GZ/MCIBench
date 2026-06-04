@@ -1,1 +1,0 @@
-"public class RLEIterator {\n\n    public RLEIterator(int[] encoding) {\n        \n    }\n    \n    public int Next(int n) {\n        \n    }\n}\n\n/**\n * Your RLEIterator object will be instantiated and called as such:\n * RLEIterator obj = new RLEIterator(encoding);\n * int param_1 = obj.Next(n);\n */"

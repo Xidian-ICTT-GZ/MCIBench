@@ -1,0 +1,1 @@
+"(define/contract (maximum-happiness-sum happiness k)\n  (-> (listof exact-integer?) exact-integer? exact-integer?)\n  )"

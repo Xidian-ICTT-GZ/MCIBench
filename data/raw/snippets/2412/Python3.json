@@ -1,1 +1,0 @@
-"class Solution:\n    def minimumMoney(self, transactions: List[List[int]]) -> int:\n        "

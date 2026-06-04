@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    long long maxRunTime(int n, vector<int>& batteries) {\n        \n    }\n};"

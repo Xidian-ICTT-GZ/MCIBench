@@ -1,0 +1,1 @@
+"# This is MountainArray's API interface.\n# You should not implement it, or speculate about its implementation\n# class MountainArray\n#    def get(index):\n#       \n#    end\n#\n#    def length()\n#\t\t\n#\t end\n# end\n\n# @param {int} int\n# @param {MountainArray} mountain_arr\n# @return {int}\ndef findInMountainArray(target, mountainArr)\n    \nend"

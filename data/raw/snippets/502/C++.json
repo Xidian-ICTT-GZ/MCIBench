@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    int findMaximizedCapital(int k, int w, vector<int>& profits, vector<int>& capital) {\n        \n    }\n};"

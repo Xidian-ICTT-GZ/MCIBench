@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $s\n     * @param String[] $words\n     * @return Boolean\n     */\n    function isPrefixString($s, $words) {\n        \n    }\n}"

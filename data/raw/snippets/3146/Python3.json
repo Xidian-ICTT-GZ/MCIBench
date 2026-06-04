@@ -1,1 +1,0 @@
-"class Solution:\n    def findPermutationDifference(self, s: str, t: str) -> int:\n        "

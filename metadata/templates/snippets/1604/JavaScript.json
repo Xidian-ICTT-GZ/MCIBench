@@ -1,0 +1,1 @@
+"/**\n * @param {string[]} keyName\n * @param {string[]} keyTime\n * @return {string[]}\n */\nvar alertNames = function(keyName, keyTime) {\n    \n};"

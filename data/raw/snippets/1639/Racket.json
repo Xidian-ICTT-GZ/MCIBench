@@ -1,1 +1,0 @@
-"(define/contract (num-ways words target)\n  (-> (listof string?) string? exact-integer?)\n  )"

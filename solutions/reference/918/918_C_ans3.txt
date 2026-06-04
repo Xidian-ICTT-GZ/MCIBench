@@ -1,0 +1,23 @@
+int maxSubarraySumCircular(int* nums, int numsSize) {
+    int n = numsSize;
+    int deque[n * 2][2];
+    int pre = nums[0], res = nums[0];
+    int head = 0, tail = 0;
+    deque[tail][0] = 0;
+    deque[tail][1] = pre;
+    tail++;
+    for (int i = 1; i < 2 * n; i++) {
+        while (head != tail && deque[head][0] < i - n) {
+            head++;
+        }
+        pre += nums[i % n];
+        res = fmax(res, pre - deque[head][1]);
+        while (head != tail && deque[tail - 1][1] >= pre) {
+            tail--;
+        }
+        deque[tail][0] = i;
+        deque[tail][1] = pre;
+        tail++;
+    }
+    return res;
+}

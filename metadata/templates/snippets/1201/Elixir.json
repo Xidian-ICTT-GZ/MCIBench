@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec nth_ugly_number(n :: integer, a :: integer, b :: integer, c :: integer) :: integer\n  def nth_ugly_number(n, a, b, c) do\n    \n  end\nend"

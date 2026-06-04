@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec second_minimum(n :: integer, edges :: [[integer]], time :: integer, change :: integer) :: integer\n  def second_minimum(n, edges, time, change) do\n    \n  end\nend"

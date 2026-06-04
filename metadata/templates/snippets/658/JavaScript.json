@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} arr\n * @param {number} k\n * @param {number} x\n * @return {number[]}\n */\nvar findClosestElements = function(arr, k, x) {\n    \n};"

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec max_subarray_length(nums :: [integer], k :: integer) :: integer\n  def max_subarray_length(nums, k) do\n    \n  end\nend"

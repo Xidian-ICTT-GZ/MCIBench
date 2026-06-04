@@ -1,0 +1,1 @@
+"/**\n * @param {string[]} words\n */\nvar WordFilter = function(words) {\n    \n};\n\n/** \n * @param {string} pref \n * @param {string} suff\n * @return {number}\n */\nWordFilter.prototype.f = function(pref, suff) {\n    \n};\n\n/** \n * Your WordFilter object will be instantiated and called as such:\n * var obj = new WordFilter(words)\n * var param_1 = obj.f(pref,suff)\n */"

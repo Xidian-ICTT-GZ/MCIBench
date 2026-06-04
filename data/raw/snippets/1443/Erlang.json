@@ -1,1 +1,0 @@
-"-spec min_time(N :: integer(), Edges :: [[integer()]], HasApple :: [boolean()]) -> integer().\nmin_time(N, Edges, HasApple) ->\n  ."

@@ -1,1 +1,0 @@
-"-spec get_maximum_gold(Grid :: [[integer()]]) -> integer().\nget_maximum_gold(Grid) ->\n  ."

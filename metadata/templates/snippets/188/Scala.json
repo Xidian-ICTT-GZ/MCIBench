@@ -1,0 +1,1 @@
+"object Solution {\n    def maxProfit(k: Int, prices: Array[Int]): Int = {\n        \n    }\n}"

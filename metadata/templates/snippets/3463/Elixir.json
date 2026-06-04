@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec has_same_digits(s :: String.t) :: boolean\n  def has_same_digits(s) do\n    \n  end\nend"

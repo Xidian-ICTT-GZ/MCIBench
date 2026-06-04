@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec paint_walls(cost :: [integer], time :: [integer]) :: integer\n  def paint_walls(cost, time) do\n    \n  end\nend"

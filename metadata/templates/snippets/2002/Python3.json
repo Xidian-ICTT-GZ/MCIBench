@@ -1,0 +1,1 @@
+"class Solution:\n    def maxProduct(self, s: str) -> int:\n        "

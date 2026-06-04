@@ -1,0 +1,6 @@
+public class Solution {
+    public bool IsPerfectSquare(int num) {
+        int x = (int) Math.Sqrt(num);
+        return x * x == num;
+    }
+}

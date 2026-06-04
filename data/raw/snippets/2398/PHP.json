@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $chargeTimes\n     * @param Integer[] $runningCosts\n     * @param Integer $budget\n     * @return Integer\n     */\n    function maximumRobots($chargeTimes, $runningCosts, $budget) {\n        \n    }\n}"

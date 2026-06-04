@@ -1,1 +1,0 @@
-"class Solution(object):\n    def makeEqual(self, words):\n        \"\"\"\n        :type words: List[str]\n        :rtype: bool\n        \"\"\"\n        "

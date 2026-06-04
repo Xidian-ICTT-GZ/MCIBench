@@ -1,0 +1,1 @@
+"import pandas as pd\n\ndef count_salary_categories(accounts: pd.DataFrame) -> pd.DataFrame:\n    "

@@ -1,1 +1,0 @@
-"/**\n * Definition for a binary tree node.\n * struct TreeNode {\n *     int val;\n *     TreeNode *left;\n *     TreeNode *right;\n *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}\n * };\n */\n\nclass Solution {\npublic:\n    TreeNode* getTargetCopy(TreeNode* original, TreeNode* cloned, TreeNode* target) {\n        \n    }\n};"

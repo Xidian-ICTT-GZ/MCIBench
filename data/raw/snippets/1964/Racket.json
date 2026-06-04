@@ -1,1 +1,0 @@
-"(define/contract (longest-obstacle-course-at-each-position obstacles)\n  (-> (listof exact-integer?) (listof exact-integer?))\n  )"

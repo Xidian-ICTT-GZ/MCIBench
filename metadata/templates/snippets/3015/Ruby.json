@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @param {Integer} x\n# @param {Integer} y\n# @return {Integer[]}\ndef count_of_pairs(n, x, y)\n    \nend"

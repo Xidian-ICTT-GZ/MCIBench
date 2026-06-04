@@ -1,1 +1,0 @@
-"# @param {Integer[]} nums\n# @param {Integer} k\n# @return {Boolean}\ndef k_length_apart(nums, k)\n    \nend"

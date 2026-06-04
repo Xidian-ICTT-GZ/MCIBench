@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec count_covered_buildings(n :: integer, buildings :: [[integer]]) :: integer\n  def count_covered_buildings(n, buildings) do\n    \n  end\nend"

@@ -1,1 +1,0 @@
-"# @param {Integer} n\n# @param {Integer[][]} queries\n# @return {Integer[]}\ndef product_queries(n, queries)\n    \nend"

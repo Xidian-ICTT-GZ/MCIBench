@@ -1,1 +1,0 @@
-"-spec valid_utf8(Data :: [integer()]) -> boolean().\nvalid_utf8(Data) ->\n  ."

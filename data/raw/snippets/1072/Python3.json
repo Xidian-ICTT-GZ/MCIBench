@@ -1,1 +1,0 @@
-"class Solution:\n    def maxEqualRowsAfterFlips(self, matrix: List[List[int]]) -> int:\n        "

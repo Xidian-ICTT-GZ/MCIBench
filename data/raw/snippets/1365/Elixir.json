@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec smaller_numbers_than_current(nums :: [integer]) :: [integer]\n  def smaller_numbers_than_current(nums) do\n    \n  end\nend"

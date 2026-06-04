@@ -1,0 +1,11 @@
+class Solution:
+    def convertTime(self, current: str, correct: str) -> int:
+        time1 = int(current[:2]) * 60 + int(current[3:])
+        time2 = int(correct[:2]) * 60 + int(correct[3:])
+        diff = time2 - time1   
+        res = 0
+        
+        for t in [60, 15, 5, 1]:
+            res += diff // t
+            diff %= t
+        return res

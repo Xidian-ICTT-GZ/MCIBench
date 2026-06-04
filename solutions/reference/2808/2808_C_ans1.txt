@@ -1,0 +1,77 @@
+typedef struct {
+    int key;
+    struct ListNode *val;
+    UT_hash_handle hh;
+} HashItem; 
+
+struct ListNode *createListNode(int val) {
+    struct ListNode *obj = (struct ListNode *)malloc(sizeof(struct ListNode));
+    obj->val = val;
+    obj->next = NULL;
+    return obj;
+}
+
+void freeList(struct ListNode *list) {
+    while (list) {
+        struct ListNode *cur = list;
+        list = list->next;
+        free(cur);
+    }
+}
+
+HashItem *hashFindItem(HashItem **obj, int key) {
+    HashItem *pEntry = NULL;
+    HASH_FIND_INT(*obj, &key, pEntry);
+    return pEntry;
+}
+
+bool hashAddVal(HashItem **obj, int key, int val) {
+    HashItem *pEntry = NULL;
+    HASH_FIND_INT(*obj, &key, pEntry);
+    if (pEntry) {
+        struct ListNode *node = createListNode(val);
+        node->next = pEntry->val;
+        pEntry->val = node;
+    } else {
+        HashItem *pEntry = (HashItem *)malloc(sizeof(HashItem));
+        pEntry->key = key;
+        pEntry->val = createListNode(val);
+        HASH_ADD_INT(*obj, key, pEntry);
+    }
+    return true;
+}
+
+void hashFree(HashItem **obj) {
+    HashItem *curr = NULL, *tmp = NULL;
+    HASH_ITER(hh, *obj, curr, tmp) {
+        HASH_DEL(*obj, curr);  
+        freeList(curr->val);
+        free(curr);
+    }
+}
+
+int minimumSeconds(int* nums, int numsSize) {
+    HashItem *mp = NULL;
+    int res = numsSize;
+    for (int i = 0; i < numsSize; ++i) {
+        hashAddVal(&mp, nums[i], i);
+    }
+    for (HashItem *pEntry = mp; pEntry; pEntry = pEntry->hh.next) {
+        struct ListNode *pre = pEntry->val;
+        int first = pre->val;     
+        int mx = 0;
+        if (pre->next == NULL) {
+            mx = numsSize;
+        }
+        for (struct ListNode *cur = pre->next; cur; cur = cur->next) {
+            mx = fmax(mx, pre->val - cur->val);
+            pre = cur;
+            if (cur->next == NULL) {
+                mx = fmax(mx, numsSize + cur->val - first);
+            }
+        }
+        res = fmin(res, mx / 2);
+    }
+    hashFree(&mp);
+    return res;
+}

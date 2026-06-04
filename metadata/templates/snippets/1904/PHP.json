@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $loginTime\n     * @param String $logoutTime\n     * @return Integer\n     */\n    function numberOfRounds($loginTime, $logoutTime) {\n        \n    }\n}"

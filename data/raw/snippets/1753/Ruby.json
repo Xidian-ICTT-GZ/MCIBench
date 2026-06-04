@@ -1,1 +1,0 @@
-"# @param {Integer} a\n# @param {Integer} b\n# @param {Integer} c\n# @return {Integer}\ndef maximum_score(a, b, c)\n    \nend"

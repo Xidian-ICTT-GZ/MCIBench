@@ -1,0 +1,1 @@
+"object Solution {\n    def maxStarSum(vals: Array[Int], edges: Array[Array[Int]], k: Int): Int = {\n        \n    }\n}"

@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec account_balance_after_purchase(purchase_amount :: integer) :: integer\n  def account_balance_after_purchase(purchase_amount) do\n    \n  end\nend"

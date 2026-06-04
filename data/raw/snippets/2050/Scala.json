@@ -1,1 +1,0 @@
-"object Solution {\n    def minimumTime(n: Int, relations: Array[Array[Int]], time: Array[Int]): Int = {\n        \n    }\n}"

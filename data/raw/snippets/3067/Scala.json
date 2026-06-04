@@ -1,1 +1,0 @@
-"object Solution {\n    def countPairsOfConnectableServers(edges: Array[Array[Int]], signalSpeed: Int): Array[Int] = {\n        \n    }\n}"

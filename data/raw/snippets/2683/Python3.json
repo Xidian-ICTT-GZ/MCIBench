@@ -1,1 +1,0 @@
-"class Solution:\n    def doesValidArrayExist(self, derived: List[int]) -> bool:\n        "

@@ -1,1 +1,0 @@
-"class Solution(object):\n    def findWordsContaining(self, words, x):\n        \"\"\"\n        :type words: List[str]\n        :type x: str\n        :rtype: List[int]\n        \"\"\"\n        "

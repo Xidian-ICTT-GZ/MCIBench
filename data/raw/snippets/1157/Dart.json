@@ -1,1 +1,0 @@
-"class MajorityChecker {\n\n  MajorityChecker(List<int> arr) {\n    \n  }\n  \n  int query(int left, int right, int threshold) {\n    \n  }\n}\n\n/**\n * Your MajorityChecker object will be instantiated and called as such:\n * MajorityChecker obj = MajorityChecker(arr);\n * int param1 = obj.query(left,right,threshold);\n */"

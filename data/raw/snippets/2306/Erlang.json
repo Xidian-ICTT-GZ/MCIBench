@@ -1,1 +1,0 @@
-"-spec distinct_names(Ideas :: [unicode:unicode_binary()]) -> integer().\ndistinct_names(Ideas) ->\n  ."

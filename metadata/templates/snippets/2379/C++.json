@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int minimumRecolors(string blocks, int k) {\n        \n    }\n};"

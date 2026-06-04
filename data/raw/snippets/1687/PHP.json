@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[][] $boxes\n     * @param Integer $portsCount\n     * @param Integer $maxBoxes\n     * @param Integer $maxWeight\n     * @return Integer\n     */\n    function boxDelivering($boxes, $portsCount, $maxBoxes, $maxWeight) {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"-spec longest_cycle(Edges :: [integer()]) -> integer().\nlongest_cycle(Edges) ->\n  ."

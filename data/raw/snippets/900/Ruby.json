@@ -1,1 +1,0 @@
-"class RLEIterator\n\n=begin\n    :type encoding: Integer[]\n=end\n    def initialize(encoding)\n        \n    end\n\n\n=begin\n    :type n: Integer\n    :rtype: Integer\n=end\n    def next(n)\n        \n    end\n\n\nend\n\n# Your RLEIterator object will be instantiated and called as such:\n# obj = RLEIterator.new(encoding)\n# param_1 = obj.next(n)"

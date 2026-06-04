@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} forbidden\n * @param {number} a\n * @param {number} b\n * @param {number} x\n * @return {number}\n */\nvar minimumJumps = function(forbidden, a, b, x) {\n    \n};"

@@ -1,0 +1,1 @@
+"(define/contract (is-alien-sorted words order)\n  (-> (listof string?) string? boolean?)\n  )"

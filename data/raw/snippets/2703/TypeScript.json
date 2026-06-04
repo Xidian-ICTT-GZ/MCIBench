@@ -1,1 +1,0 @@
-"type JSONValue = null | boolean | number | string | JSONValue[] | { [key: string]: JSONValue };\n\nfunction argumentsLength(...args: JSONValue[]): number {\n    \n};\n\n/**\n * argumentsLength(1, 2, 3); // 3\n */"

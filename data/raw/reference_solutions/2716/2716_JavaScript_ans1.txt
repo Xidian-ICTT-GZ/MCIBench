@@ -1,7 +1,0 @@
-var minimizedStringLength = function(s) {
-    let mask = 0;
-    for (let c of s) {
-        mask |= 1 << (c.charCodeAt(0) - 'a'.charCodeAt(0));
-    }
-    return mask.toString(2).split('0').join('').length;
-};

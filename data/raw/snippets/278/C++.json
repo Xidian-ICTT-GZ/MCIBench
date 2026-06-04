@@ -1,1 +1,0 @@
-"// The API isBadVersion is defined for you.\n// bool isBadVersion(int version);\n\nclass Solution {\npublic:\n    int firstBadVersion(int n) {\n        \n    }\n};"

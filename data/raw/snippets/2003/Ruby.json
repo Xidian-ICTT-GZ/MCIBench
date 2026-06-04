@@ -1,1 +1,0 @@
-"# @param {Integer[]} parents\n# @param {Integer[]} nums\n# @return {Integer[]}\ndef smallest_missing_value_subtree(parents, nums)\n    \nend"

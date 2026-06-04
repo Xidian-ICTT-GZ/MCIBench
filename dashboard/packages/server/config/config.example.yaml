@@ -1,0 +1,9 @@
+server:
+  port: 8080
+  mode: debug  # debug / release
+
+database:
+  path: ./data/mcibench.db
+
+web:
+  dist_path: ""            # set to ../web/dist to serve frontend and API from one backend port

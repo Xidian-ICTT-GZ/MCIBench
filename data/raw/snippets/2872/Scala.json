@@ -1,1 +1,0 @@
-"object Solution {\n    def maxKDivisibleComponents(n: Int, edges: Array[Array[Int]], values: Array[Int], k: Int): Int = {\n        \n    }\n}"

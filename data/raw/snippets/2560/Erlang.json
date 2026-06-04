@@ -1,1 +1,0 @@
-"-spec min_capability(Nums :: [integer()], K :: integer()) -> integer().\nmin_capability(Nums, K) ->\n  ."

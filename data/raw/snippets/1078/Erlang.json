@@ -1,1 +1,0 @@
-"-spec find_ocurrences(Text :: unicode:unicode_binary(), First :: unicode:unicode_binary(), Second :: unicode:unicode_binary()) -> [unicode:unicode_binary()].\nfind_ocurrences(Text, First, Second) ->\n  ."

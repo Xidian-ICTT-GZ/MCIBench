@@ -1,1 +1,0 @@
-"-spec smallest_distance_pair(Nums :: [integer()], K :: integer()) -> integer().\nsmallest_distance_pair(Nums, K) ->\n  ."

@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} spells\n * @param {number[]} potions\n * @param {number} success\n * @return {number[]}\n */\nvar successfulPairs = function(spells, potions, success) {\n    \n};"

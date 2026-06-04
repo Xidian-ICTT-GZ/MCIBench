@@ -1,0 +1,1 @@
+"#    This is Master's API interface.\n#    You should not implement it, or speculate about its implementation\n#\n# class Master\n# =begin\n#     :type word: String\n#     :rtype: Integer\n# =end\n#     def guess(word)\n#         ...\n#     end\n# end\n#\n\n# @param {String[]} words\n# @param {Master} master\n# @return {Void}\ndef find_secret_word(words, master)\n    \nend"

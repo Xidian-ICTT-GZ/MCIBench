@@ -1,0 +1,1 @@
+"class Solution:\n    def countBeautifulPairs(self, nums: List[int]) -> int:\n        "

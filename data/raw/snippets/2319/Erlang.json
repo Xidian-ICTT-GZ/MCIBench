@@ -1,1 +1,0 @@
-"-spec check_x_matrix(Grid :: [[integer()]]) -> boolean().\ncheck_x_matrix(Grid) ->\n  ."

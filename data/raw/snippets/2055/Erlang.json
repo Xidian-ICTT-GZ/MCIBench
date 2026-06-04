@@ -1,1 +1,0 @@
-"-spec plates_between_candles(S :: unicode:unicode_binary(), Queries :: [[integer()]]) -> [integer()].\nplates_between_candles(S, Queries) ->\n  ."

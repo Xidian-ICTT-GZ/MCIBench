@@ -1,0 +1,27 @@
+class Solution:
+    def convert(self, mat, m, n, i, j):
+        for di, dj in [(-1, 0), (1, 0), (0, -1), (0, 1), (0, 0)]:
+            i0, j0 = i + di, j + dj
+            if 0 <= i0 < m and 0 <= j0 < n:
+                mat[i0][j0] ^= 1
+
+    def minFlips(self, mat: List[List[int]]) -> int:
+        m, n = len(mat), len(mat[0])
+        ans = 1e9
+        for binary in range(0, 1 << n):
+            mat_copy = [line[:] for line in mat]
+            flip_cnt = 0
+            for j in range(n):
+                if binary & (1 << j):
+                    flip_cnt += 1
+                    self.convert(mat_copy, m, n, 0, j)
+
+            for i in range(1, m):
+                for j in range(n):
+                    if mat_copy[i - 1][j] == 1:
+                        flip_cnt += 1
+                        self.convert(mat_copy, m, n, i, j)
+
+            if all(mat_copy[m - 1][j] == 0 for j in range(n)):
+                ans = min(ans, flip_cnt)
+        return ans if ans != 10**9 else -1

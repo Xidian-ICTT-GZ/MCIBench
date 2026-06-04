@@ -1,0 +1,1 @@
+"import pandas as pd\n\ndef users_percentage(users: pd.DataFrame, register: pd.DataFrame) -> pd.DataFrame:\n    "

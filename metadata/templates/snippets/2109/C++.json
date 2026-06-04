@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    string addSpaces(string s, vector<int>& spaces) {\n        \n    }\n};"

@@ -1,1 +1,0 @@
-"-spec max_kelements(Nums :: [integer()], K :: integer()) -> integer().\nmax_kelements(Nums, K) ->\n  ."

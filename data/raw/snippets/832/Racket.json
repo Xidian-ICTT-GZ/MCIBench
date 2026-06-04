@@ -1,1 +1,0 @@
-"(define/contract (flip-and-invert-image image)\n  (-> (listof (listof exact-integer?)) (listof (listof exact-integer?)))\n  )"

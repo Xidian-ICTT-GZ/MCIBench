@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec check_ways(pairs :: [[integer]]) :: integer\n  def check_ways(pairs) do\n    \n  end\nend"

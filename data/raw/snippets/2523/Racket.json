@@ -1,1 +1,0 @@
-"(define/contract (closest-primes left right)\n  (-> exact-integer? exact-integer? (listof exact-integer?))\n  )"

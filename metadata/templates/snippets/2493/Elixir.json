@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec magnificent_sets(n :: integer, edges :: [[integer]]) :: integer\n  def magnificent_sets(n, edges) do\n    \n  end\nend"

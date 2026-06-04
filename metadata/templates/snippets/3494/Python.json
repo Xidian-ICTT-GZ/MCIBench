@@ -1,0 +1,1 @@
+"class Solution(object):\n    def minTime(self, skill, mana):\n        \"\"\"\n        :type skill: List[int]\n        :type mana: List[int]\n        :rtype: int\n        \"\"\"\n        "

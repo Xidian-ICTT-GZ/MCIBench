@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} chalk\n * @param {number} k\n * @return {number}\n */\nvar chalkReplacer = function(chalk, k) {\n    \n};"

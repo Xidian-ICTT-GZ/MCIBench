@@ -1,1 +1,0 @@
-"-spec min_flips(A :: integer(), B :: integer(), C :: integer()) -> integer().\nmin_flips(A, B, C) ->\n  ."

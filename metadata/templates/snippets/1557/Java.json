@@ -1,0 +1,1 @@
+"class Solution {\n    public List<Integer> findSmallestSetOfVertices(int n, List<List<Integer>> edges) {\n        \n    }\n}"

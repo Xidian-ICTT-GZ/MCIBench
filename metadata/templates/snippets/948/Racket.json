@@ -1,0 +1,1 @@
+"(define/contract (bag-of-tokens-score tokens power)\n  (-> (listof exact-integer?) exact-integer? exact-integer?)\n  )"

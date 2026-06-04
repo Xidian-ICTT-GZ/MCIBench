@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int minimumSubstringsInPartition(string s) {\n        \n    }\n};"

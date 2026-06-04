@@ -1,0 +1,1 @@
+"# @param {Integer[][]} edges\n# @return {Integer}\ndef count_good_nodes(edges)\n    \nend"

@@ -1,1 +1,0 @@
-"-spec closest_meeting_node(Edges :: [integer()], Node1 :: integer(), Node2 :: integer()) -> integer().\nclosest_meeting_node(Edges, Node1, Node2) ->\n  ."

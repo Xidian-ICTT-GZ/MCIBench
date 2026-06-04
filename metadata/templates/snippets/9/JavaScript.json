@@ -1,0 +1,1 @@
+"/**\n * @param {number} x\n * @return {boolean}\n */\nvar isPalindrome = function(x) {\n    \n};"

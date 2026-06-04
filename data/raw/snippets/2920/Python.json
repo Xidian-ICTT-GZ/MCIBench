@@ -1,1 +1,0 @@
-"class Solution(object):\n    def maximumPoints(self, edges, coins, k):\n        \"\"\"\n        :type edges: List[List[int]]\n        :type coins: List[int]\n        :type k: int\n        :rtype: int\n        \"\"\"\n        "

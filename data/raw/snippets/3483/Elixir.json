@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec total_numbers(digits :: [integer]) :: integer\n  def total_numbers(digits) do\n    \n  end\nend"

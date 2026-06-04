@@ -1,1 +1,0 @@
-"class Solution:\n    def countRectangles(self, rectangles: List[List[int]], points: List[List[int]]) -> List[int]:\n        "

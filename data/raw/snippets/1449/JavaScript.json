@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} cost\n * @param {number} target\n * @return {string}\n */\nvar largestNumber = function(cost, target) {\n    \n};"

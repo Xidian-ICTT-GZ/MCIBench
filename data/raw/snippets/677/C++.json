@@ -1,1 +1,0 @@
-"class MapSum {\npublic:\n    MapSum() {\n        \n    }\n    \n    void insert(string key, int val) {\n        \n    }\n    \n    int sum(string prefix) {\n        \n    }\n};\n\n/**\n * Your MapSum object will be instantiated and called as such:\n * MapSum* obj = new MapSum();\n * obj->insert(key,val);\n * int param_2 = obj->sum(prefix);\n */"

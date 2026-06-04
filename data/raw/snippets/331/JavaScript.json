@@ -1,1 +1,0 @@
-"/**\n * @param {string} preorder\n * @return {boolean}\n */\nvar isValidSerialization = function(preorder) {\n    \n};"

@@ -1,0 +1,1 @@
+"class Solution:\n    def isSelfCrossing(self, distance: List[int]) -> bool:\n        "

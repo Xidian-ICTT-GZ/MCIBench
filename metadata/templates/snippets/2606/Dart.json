@@ -1,0 +1,1 @@
+"class Solution {\n  int maximumCostSubstring(String s, String chars, List<int> vals) {\n    \n  }\n}"

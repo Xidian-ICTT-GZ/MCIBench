@@ -1,1 +1,0 @@
-"-spec delete_greatest_value(Grid :: [[integer()]]) -> integer().\ndelete_greatest_value(Grid) ->\n  ."

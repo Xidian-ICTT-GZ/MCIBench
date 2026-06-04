@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec max_subarrays(n :: integer, conflicting_pairs :: [[integer]]) :: integer\n  def max_subarrays(n, conflicting_pairs) do\n    \n  end\nend"

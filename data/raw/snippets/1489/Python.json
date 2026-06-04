@@ -1,1 +1,0 @@
-"class Solution(object):\n    def findCriticalAndPseudoCriticalEdges(self, n, edges):\n        \"\"\"\n        :type n: int\n        :type edges: List[List[int]]\n        :rtype: List[List[int]]\n        \"\"\"\n        "

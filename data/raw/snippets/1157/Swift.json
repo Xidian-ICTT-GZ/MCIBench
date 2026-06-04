@@ -1,1 +1,0 @@
-"\nclass MajorityChecker {\n\n    init(_ arr: [Int]) {\n        \n    }\n    \n    func query(_ left: Int, _ right: Int, _ threshold: Int) -> Int {\n        \n    }\n}\n\n/**\n * Your MajorityChecker object will be instantiated and called as such:\n * let obj = MajorityChecker(arr)\n * let ret_1: Int = obj.query(left, right, threshold)\n */"

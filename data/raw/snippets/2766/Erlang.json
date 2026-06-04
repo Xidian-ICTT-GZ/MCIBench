@@ -1,1 +1,0 @@
-"-spec relocate_marbles(Nums :: [integer()], MoveFrom :: [integer()], MoveTo :: [integer()]) -> [integer()].\nrelocate_marbles(Nums, MoveFrom, MoveTo) ->\n  ."

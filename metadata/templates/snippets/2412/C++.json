@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    long long minimumMoney(vector<vector<int>>& transactions) {\n        \n    }\n};"

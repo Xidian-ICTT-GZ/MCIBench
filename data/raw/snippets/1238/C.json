@@ -1,1 +1,0 @@
-"/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* circularPermutation(int n, int start, int* returnSize) {\n    \n}"

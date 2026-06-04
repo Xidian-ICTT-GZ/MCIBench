@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    bool containsPattern(vector<int>& arr, int m, int k) {\n        \n    }\n};"

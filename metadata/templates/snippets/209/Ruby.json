@@ -1,0 +1,1 @@
+"# @param {Integer} target\n# @param {Integer[]} nums\n# @return {Integer}\ndef min_sub_array_len(target, nums)\n    \nend"

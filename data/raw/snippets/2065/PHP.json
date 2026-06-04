@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $values\n     * @param Integer[][] $edges\n     * @param Integer $maxTime\n     * @return Integer\n     */\n    function maximalPathQuality($values, $edges, $maxTime) {\n        \n    }\n}"

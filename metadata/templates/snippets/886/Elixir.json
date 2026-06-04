@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec possible_bipartition(n :: integer, dislikes :: [[integer]]) :: boolean\n  def possible_bipartition(n, dislikes) do\n    \n  end\nend"

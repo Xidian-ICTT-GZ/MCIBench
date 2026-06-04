@@ -1,0 +1,1 @@
+"(define/contract (string-hash s k)\n  (-> string? exact-integer? string?)\n  )"

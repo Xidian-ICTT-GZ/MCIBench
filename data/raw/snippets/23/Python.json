@@ -1,1 +1,0 @@
-"# Definition for singly-linked list.\n# class ListNode(object):\n#     def __init__(self, val=0, next=None):\n#         self.val = val\n#         self.next = next\nclass Solution(object):\n    def mergeKLists(self, lists):\n        \"\"\"\n        :type lists: List[Optional[ListNode]]\n        :rtype: Optional[ListNode]\n        \"\"\"\n        "

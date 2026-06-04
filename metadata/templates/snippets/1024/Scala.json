@@ -1,0 +1,1 @@
+"object Solution {\n    def videoStitching(clips: Array[Array[Int]], time: Int): Int = {\n        \n    }\n}"

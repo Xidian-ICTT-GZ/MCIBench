@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec can_split_array(nums :: [integer], m :: integer) :: boolean\n  def can_split_array(nums, m) do\n    \n  end\nend"

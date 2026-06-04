@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    int beautifulPartitions(string s, int k, int minLength) {\n        \n    }\n};"

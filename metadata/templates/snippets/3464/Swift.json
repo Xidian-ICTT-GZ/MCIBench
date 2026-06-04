@@ -1,0 +1,1 @@
+"class Solution {\n    func maxDistance(_ side: Int, _ points: [[Int]], _ k: Int) -> Int {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"interface Array<T> {\n    snail(rowsCount: number, colsCount: number): number[][];\n}\n\n\nArray.prototype.snail = function(rowsCount: number, colsCount: number): number[][] {\n    \n}\n\n/**\n * const arr = [1,2,3,4];\n * arr.snail(1,4); // [[1,2,3,4]]\n */"

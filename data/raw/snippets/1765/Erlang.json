@@ -1,1 +1,0 @@
-"-spec highest_peak(IsWater :: [[integer()]]) -> [[integer()]].\nhighest_peak(IsWater) ->\n  ."

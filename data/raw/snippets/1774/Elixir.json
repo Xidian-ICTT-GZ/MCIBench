@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec closest_cost(base_costs :: [integer], topping_costs :: [integer], target :: integer) :: integer\n  def closest_cost(base_costs, topping_costs, target) do\n    \n  end\nend"

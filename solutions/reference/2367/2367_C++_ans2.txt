@@ -1,0 +1,16 @@
+class Solution {
+public:
+    int arithmeticTriplets(vector<int>& nums, int diff) {
+        unordered_set<int> hashSet;
+        for (int x : nums) {
+            hashSet.emplace(x);
+        }
+        int ans = 0;
+        for (int x : nums) {
+            if (hashSet.count(x + diff) && hashSet.count(x + 2 * diff)) {
+                ans++;
+            }
+        }
+        return ans;
+    }
+};

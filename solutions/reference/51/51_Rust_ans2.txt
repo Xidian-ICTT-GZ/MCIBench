@@ -1,0 +1,54 @@
+impl Solution {
+    pub fn solve_n_queens(n: i32) -> Vec<Vec<String>> {
+        let mut solutions = Vec::new();
+        let mut queens = vec![-1; n as usize];
+        let row = vec![".".to_string(); n as usize];
+
+        fn generate_board(queens: &Vec<i32>, n: usize, row: &Vec<String>) -> Vec<String> {
+            let mut board = Vec::new();
+            for &q in queens.iter() {
+                let mut r = row.clone();
+                r[q as usize] = "Q".to_string();
+                board.push(r.join(""));
+            }
+            board
+        }
+
+        fn solve(
+            row: usize,
+            columns: usize,
+            diagonals1: usize,
+            diagonals2: usize,
+            n: usize,
+            queens: &mut Vec<i32>,
+            solutions: &mut Vec<Vec<String>>,
+            row_pattern: &Vec<String>,
+        ) {
+            if row == n {
+                let board = generate_board(queens, n, row_pattern);
+                solutions.push(board);
+            } else {
+                let mut available_positions = ((1 << n) - 1) & !(columns | diagonals1 | diagonals2);
+                while available_positions != 0 {
+                    let position = available_positions & available_positions.wrapping_neg();
+                    available_positions &= available_positions - 1;
+                    let column = position.trailing_zeros() as usize;
+                    queens[row] = column as i32;
+                    solve(
+                        row + 1,
+                        columns | position,
+                        (diagonals1 | position) << 1,
+                        (diagonals2 | position) >> 1,
+                        n,
+                        queens,
+                        solutions,
+                        row_pattern,
+                    );
+                }
+            }
+        }
+
+        solve(0, 0, 0, 0, n as usize, &mut queens, &mut solutions, &row);
+        solutions
+    }
+}

@@ -1,1 +1,0 @@
-"class Solution(object):\n    def countPalindromePaths(self, parent, s):\n        \"\"\"\n        :type parent: List[int]\n        :type s: str\n        :rtype: int\n        \"\"\"\n        "

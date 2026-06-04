@@ -1,0 +1,7 @@
+class Solution:
+    def minStartValue(self, nums: List[int]) -> int:
+        accSum, accSumMin = 0, 0
+        for num in nums:
+            accSum += num
+            accSumMin = min(accSumMin, accSum)
+        return -accSumMin + 1

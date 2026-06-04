@@ -1,1 +1,0 @@
-"-spec minimum_deviation(Nums :: [integer()]) -> integer().\nminimum_deviation(Nums) ->\n  ."

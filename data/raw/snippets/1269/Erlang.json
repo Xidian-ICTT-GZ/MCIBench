@@ -1,1 +1,0 @@
-"-spec num_ways(Steps :: integer(), ArrLen :: integer()) -> integer().\nnum_ways(Steps, ArrLen) ->\n  ."

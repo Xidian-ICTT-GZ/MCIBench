@@ -1,0 +1,25 @@
+public class Solution {
+    public bool EqualFrequency(string word) {
+        int[] charCount = new int[26];
+        foreach (char c in word) {
+            charCount[c - 'a']++;
+        }
+        for (int i = 0; i < 26; i++) {
+            if (charCount[i] == 0) {
+                continue;
+            }
+            charCount[i]--;
+            HashSet<int> frequency = new HashSet<int>();
+            foreach (int f in charCount) {
+                if (f > 0) {
+                    frequency.Add(f);
+                }
+            }
+            if (frequency.Count == 1) {
+                return true;
+            }
+            charCount[i]++;
+        }
+        return false;
+    }
+}

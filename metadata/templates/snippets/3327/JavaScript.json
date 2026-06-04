@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} parent\n * @param {string} s\n * @return {boolean[]}\n */\nvar findAnswer = function(parent, s) {\n    \n};"

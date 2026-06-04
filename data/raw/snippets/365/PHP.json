@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer $x\n     * @param Integer $y\n     * @param Integer $target\n     * @return Boolean\n     */\n    function canMeasureWater($x, $y, $target) {\n        \n    }\n}"

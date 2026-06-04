@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec count_beautiful_pairs(nums :: [integer]) :: integer\n  def count_beautiful_pairs(nums) do\n    \n  end\nend"

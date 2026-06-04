@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} source\n * @param {number[]} target\n * @param {number[][]} allowedSwaps\n * @return {number}\n */\nvar minimumHammingDistance = function(source, target, allowedSwaps) {\n    \n};"

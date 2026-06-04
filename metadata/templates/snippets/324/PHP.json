@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @return NULL\n     */\n    function wiggleSort(&$nums) {\n        \n    }\n}"

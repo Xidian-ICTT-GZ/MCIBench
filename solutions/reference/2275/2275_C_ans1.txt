@@ -1,0 +1,18 @@
+int maxlen(int* candidates, int candidatesSize, int k) {
+    int res = 0;
+    for (int i = 0; i < candidatesSize; ++i) {
+        if (candidates[i] & (1 << k)) {
+            ++res;
+        }
+    }
+    return res;
+}
+
+int largestCombination(int* candidates, int candidatesSize) {
+    int res = 0;
+    for (int i = 0; i < 24; ++i) {
+        
+        res = fmax(res, maxlen(candidates, candidatesSize, i));
+    }
+    return res;
+}

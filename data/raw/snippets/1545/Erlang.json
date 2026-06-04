@@ -1,1 +1,0 @@
-"-spec find_kth_bit(N :: integer(), K :: integer()) -> char().\nfind_kth_bit(N, K) ->\n  ."

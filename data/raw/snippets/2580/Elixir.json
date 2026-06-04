@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec count_ways(ranges :: [[integer]]) :: integer\n  def count_ways(ranges) do\n    \n  end\nend"

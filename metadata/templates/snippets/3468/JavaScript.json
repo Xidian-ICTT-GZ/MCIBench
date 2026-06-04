@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} original\n * @param {number[][]} bounds\n * @return {number}\n */\nvar countArrays = function(original, bounds) {\n    \n};"

@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} nums\n * @return {boolean}\n */\nvar isIdealPermutation = function(nums) {\n    \n};"

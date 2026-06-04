@@ -1,1 +1,0 @@
-"class Solution(object):\n    def isPrintable(self, targetGrid):\n        \"\"\"\n        :type targetGrid: List[List[int]]\n        :rtype: bool\n        \"\"\"\n        "

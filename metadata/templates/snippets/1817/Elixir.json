@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec finding_users_active_minutes(logs :: [[integer]], k :: integer) :: [integer]\n  def finding_users_active_minutes(logs, k) do\n    \n  end\nend"

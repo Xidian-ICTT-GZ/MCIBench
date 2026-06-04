@@ -1,0 +1,1 @@
+"class Graph(n: Int, edges: Array<IntArray>) {\n\n    fun addEdge(edge: IntArray) {\n        \n    }\n\n    fun shortestPath(node1: Int, node2: Int): Int {\n        \n    }\n\n}\n\n/**\n * Your Graph object will be instantiated and called as such:\n * var obj = Graph(n, edges)\n * obj.addEdge(edge)\n * var param_2 = obj.shortestPath(node1,node2)\n */"

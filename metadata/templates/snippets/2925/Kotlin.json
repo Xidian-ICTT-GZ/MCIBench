@@ -1,0 +1,1 @@
+"class Solution {\n    fun maximumScoreAfterOperations(edges: Array<IntArray>, values: IntArray): Long {\n        \n    }\n}"

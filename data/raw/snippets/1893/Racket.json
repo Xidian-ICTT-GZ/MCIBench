@@ -1,1 +1,0 @@
-"(define/contract (is-covered ranges left right)\n  (-> (listof (listof exact-integer?)) exact-integer? exact-integer? boolean?)\n  )"

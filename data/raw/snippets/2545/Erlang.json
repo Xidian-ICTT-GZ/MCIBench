@@ -1,1 +1,0 @@
-"-spec sort_the_students(Score :: [[integer()]], K :: integer()) -> [[integer()]].\nsort_the_students(Score, K) ->\n  ."

@@ -1,1 +1,0 @@
-"-spec max_weight(N :: integer(), Edges :: [[integer()]], K :: integer(), T :: integer()) -> integer().\nmax_weight(N, Edges, K, T) ->\n  ."

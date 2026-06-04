@@ -1,0 +1,1 @@
+"object Solution {\n    def numPoints(darts: Array[Array[Int]], r: Int): Int = {\n        \n    }\n}"

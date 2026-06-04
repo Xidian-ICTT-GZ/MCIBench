@@ -1,1 +1,0 @@
-"class Solution(object):\n    def minMovesToSeat(self, seats, students):\n        \"\"\"\n        :type seats: List[int]\n        :type students: List[int]\n        :rtype: int\n        \"\"\"\n        "

@@ -1,1 +1,0 @@
-"class Solution {\n    func findReplaceString(_ s: String, _ indices: [Int], _ sources: [String], _ targets: [String]) -> String {\n        \n    }\n}"

@@ -1,1 +1,0 @@
-"class Solution(object):\n    def tictactoe(self, moves):\n        \"\"\"\n        :type moves: List[List[int]]\n        :rtype: str\n        \"\"\"\n        "

@@ -1,0 +1,1 @@
+"class Solution(object):\n    def minRectanglesToCoverPoints(self, points, w):\n        \"\"\"\n        :type points: List[List[int]]\n        :type w: int\n        :rtype: int\n        \"\"\"\n        "

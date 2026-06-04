@@ -1,1 +1,0 @@
-"/**\n * @param {number} columnNumber\n * @return {string}\n */\nvar convertToTitle = function(columnNumber) {\n    \n};"

@@ -1,1 +1,0 @@
-"class TopVotedCandidate {\n\n  TopVotedCandidate(List<int> persons, List<int> times) {\n    \n  }\n  \n  int q(int t) {\n    \n  }\n}\n\n/**\n * Your TopVotedCandidate object will be instantiated and called as such:\n * TopVotedCandidate obj = TopVotedCandidate(persons, times);\n * int param1 = obj.q(t);\n */"

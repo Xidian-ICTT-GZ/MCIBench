@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    int countGoodStrings(int low, int high, int zero, int one) {\n        \n    }\n};"

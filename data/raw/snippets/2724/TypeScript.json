@@ -1,1 +1,0 @@
-"type JSONValue = null | boolean | number | string | JSONValue[] | { [key: string]: JSONValue };\ntype Fn = (value: JSONValue) => number\n\nfunction sortBy(arr: JSONValue[], fn: Fn): JSONValue[] {\n    \n};"

@@ -1,0 +1,1 @@
+"/**\n * @param {number[][]} darts\n * @param {number} r\n * @return {number}\n */\nvar numPoints = function(darts, r) {\n    \n};"

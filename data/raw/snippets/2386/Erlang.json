@@ -1,1 +1,0 @@
-"-spec k_sum(Nums :: [integer()], K :: integer()) -> integer().\nk_sum(Nums, K) ->\n  ."

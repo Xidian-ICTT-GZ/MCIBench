@@ -1,1 +1,0 @@
-"class Solution(object):\n    def maxEnergyBoost(self, energyDrinkA, energyDrinkB):\n        \"\"\"\n        :type energyDrinkA: List[int]\n        :type energyDrinkB: List[int]\n        :rtype: int\n        \"\"\"\n        "

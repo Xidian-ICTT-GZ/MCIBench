@@ -1,0 +1,15 @@
+public class Solution {
+    public string ConvertToTitle(int columnNumber) {
+        StringBuilder sb = new StringBuilder();
+        while (columnNumber != 0) {
+            columnNumber--;
+            sb.Append((char)(columnNumber % 26 + 'A'));
+            columnNumber /= 26;
+        }
+        StringBuilder columnTitle = new StringBuilder();
+        for (int i = sb.Length - 1; i >= 0; i--) {
+            columnTitle.Append(sb[i]);
+        }
+        return columnTitle.ToString();
+    }
+}

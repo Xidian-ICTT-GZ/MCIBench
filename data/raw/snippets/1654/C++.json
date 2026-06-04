@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    int minimumJumps(vector<int>& forbidden, int a, int b, int x) {\n        \n    }\n};"

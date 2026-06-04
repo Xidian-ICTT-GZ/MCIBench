@@ -1,1 +1,0 @@
-"%% Definition for a binary tree node.\n%%\n%% -record(tree_node, {val = 0 :: integer(),\n%%                     left = null  :: 'null' | #tree_node{},\n%%                     right = null :: 'null' | #tree_node{}}).\n\n-spec merge_trees(Root1 :: #tree_node{} | null, Root2 :: #tree_node{} | null) -> #tree_node{} | null.\nmerge_trees(Root1, Root2) ->\n  ."

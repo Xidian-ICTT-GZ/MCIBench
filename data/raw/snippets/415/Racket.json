@@ -1,1 +1,0 @@
-"(define/contract (add-strings num1 num2)\n  (-> string? string? string?)\n  )"

@@ -1,0 +1,1 @@
+"object Solution {\n    def unhappyFriends(n: Int, preferences: Array[Array[Int]], pairs: Array[Array[Int]]): Int = {\n        \n    }\n}"

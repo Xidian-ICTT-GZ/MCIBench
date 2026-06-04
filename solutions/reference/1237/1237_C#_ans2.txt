@@ -1,0 +1,21 @@
+public class Solution {
+    public IList<IList<int>> FindSolution(CustomFunction customfunction, int z) {
+        IList<IList<int>> res = new List<IList<int>>();
+        for (int x = 1; x <= 1000; x++) {
+            int yleft = 1, yright = 1000;
+            while (yleft <= yright) {
+                int ymiddle = (yleft + yright) / 2;
+                if (customfunction.f(x, ymiddle) == z) {
+                    res.Add(new List<int> {x, ymiddle});
+                    break;
+                }
+                if (customfunction.f(x, ymiddle) > z) {
+                    yright = ymiddle - 1;
+                } else {
+                    yleft = ymiddle + 1;
+                }
+            }
+        }
+        return res;
+    }
+}

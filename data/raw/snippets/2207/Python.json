@@ -1,1 +1,0 @@
-"class Solution(object):\n    def maximumSubsequenceCount(self, text, pattern):\n        \"\"\"\n        :type text: str\n        :type pattern: str\n        :rtype: int\n        \"\"\"\n        "

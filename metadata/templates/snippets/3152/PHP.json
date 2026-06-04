@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer[][] $queries\n     * @return Boolean[]\n     */\n    function isArraySpecial($nums, $queries) {\n        \n    }\n}"

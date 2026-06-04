@@ -1,0 +1,18 @@
+func garbageCollection(garbage []string, travel []int) int {
+    distance := make(map[rune]int)
+    res := 0
+    curDis := 0
+    for i, item := range garbage {
+        res += len(item)
+        if i > 0 {
+            curDis += travel[i - 1]
+        }
+        for _, c := range item {
+            distance[c] = curDis
+        }
+    }
+    for _, v := range distance {
+        res += v
+    }
+    return res
+}

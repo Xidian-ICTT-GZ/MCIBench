@@ -1,0 +1,1 @@
+"# @param {String} s\n# @param {Integer} k\n# @return {Integer}\ndef take_characters(s, k)\n    \nend"

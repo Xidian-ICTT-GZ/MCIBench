@@ -1,1 +1,0 @@
-"class Solution(object):\n    def numberOfBeautifulIntegers(self, low, high, k):\n        \"\"\"\n        :type low: int\n        :type high: int\n        :type k: int\n        :rtype: int\n        \"\"\"\n        "

@@ -1,1 +1,0 @@
-"-spec maximum_gain(S :: unicode:unicode_binary(), X :: integer(), Y :: integer()) -> integer().\nmaximum_gain(S, X, Y) ->\n  ."

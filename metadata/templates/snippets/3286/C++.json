@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    bool findSafeWalk(vector<vector<int>>& grid, int health) {\n        \n    }\n};"

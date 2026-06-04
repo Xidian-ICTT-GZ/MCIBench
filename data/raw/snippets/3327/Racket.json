@@ -1,1 +1,0 @@
-"(define/contract (find-answer parent s)\n  (-> (listof exact-integer?) string? (listof boolean?))\n  )"

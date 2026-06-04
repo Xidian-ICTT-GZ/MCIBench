@@ -1,0 +1,1 @@
+"-spec longest_substring(S :: unicode:unicode_binary(), K :: integer()) -> integer().\nlongest_substring(S, K) ->\n  ."

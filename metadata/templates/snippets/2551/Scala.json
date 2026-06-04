@@ -1,0 +1,1 @@
+"object Solution {\n    def putMarbles(weights: Array[Int], k: Int): Long = {\n        \n    }\n}"

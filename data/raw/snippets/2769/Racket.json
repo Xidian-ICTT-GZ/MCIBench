@@ -1,1 +1,0 @@
-"(define/contract (the-maximum-achievable-x num t)\n  (-> exact-integer? exact-integer? exact-integer?)\n  )"

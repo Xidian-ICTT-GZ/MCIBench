@@ -1,0 +1,1 @@
+"# @param {String[]} folder\n# @return {String[]}\ndef remove_subfolders(folder)\n    \nend"

@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec best_coordinate(towers :: [[integer]], radius :: integer) :: [integer]\n  def best_coordinate(towers, radius) do\n    \n  end\nend"

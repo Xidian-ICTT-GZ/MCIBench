@@ -1,1 +1,0 @@
-"-spec max_increasing_cells(Mat :: [[integer()]]) -> integer().\nmax_increasing_cells(Mat) ->\n  ."

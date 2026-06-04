@@ -1,1 +1,0 @@
-"-spec shortest_superstring(Words :: [unicode:unicode_binary()]) -> unicode:unicode_binary().\nshortest_superstring(Words) ->\n  ."

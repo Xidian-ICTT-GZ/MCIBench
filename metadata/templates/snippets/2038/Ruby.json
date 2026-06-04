@@ -1,0 +1,1 @@
+"# @param {String} colors\n# @return {Boolean}\ndef winner_of_game(colors)\n    \nend"

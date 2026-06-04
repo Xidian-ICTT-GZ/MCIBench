@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    long long numberOfWeeks(vector<int>& milestones) {\n        \n    }\n};"

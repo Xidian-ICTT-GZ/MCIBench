@@ -1,1 +1,0 @@
-"-spec rob(Nums :: [integer()]) -> integer().\nrob(Nums) ->\n  ."

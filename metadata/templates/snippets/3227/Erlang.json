@@ -1,0 +1,1 @@
+"-spec does_alice_win(S :: unicode:unicode_binary()) -> boolean().\ndoes_alice_win(S) ->\n  ."

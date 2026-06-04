@@ -1,1 +1,0 @@
-"-spec beautiful_splits(Nums :: [integer()]) -> integer().\nbeautiful_splits(Nums) ->\n  ."

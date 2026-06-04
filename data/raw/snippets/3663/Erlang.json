@@ -1,1 +1,0 @@
-"-spec get_least_frequent_digit(N :: integer()) -> integer().\nget_least_frequent_digit(N) ->\n  ."

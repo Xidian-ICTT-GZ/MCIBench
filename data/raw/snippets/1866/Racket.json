@@ -1,1 +1,0 @@
-"(define/contract (rearrange-sticks n k)\n  (-> exact-integer? exact-integer? exact-integer?)\n  )"

@@ -1,1 +1,0 @@
-"-spec loud_and_rich(Richer :: [[integer()]], Quiet :: [integer()]) -> [integer()].\nloud_and_rich(Richer, Quiet) ->\n  ."

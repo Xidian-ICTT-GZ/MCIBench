@@ -1,0 +1,17 @@
+class Solution {
+    public long countFairPairs(int[] nums, int lower, int upper) {
+        Arrays.sort(nums);
+        long ans = 0;
+        int left = nums.length, right = nums.length;
+        for (int j = 0; j < nums.length; ++j) {
+            while (right > 0 && nums[right - 1] > upper - nums[j]) {
+                right--;
+            }
+            while (left > 0 && nums[left - 1] >= lower - nums[j]) {
+                left--;
+            }
+            ans += Math.min(right, j) - Math.min(left, j);
+        }
+        return ans;
+    }
+}

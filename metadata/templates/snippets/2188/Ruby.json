@@ -1,0 +1,1 @@
+"# @param {Integer[][]} tires\n# @param {Integer} change_time\n# @param {Integer} num_laps\n# @return {Integer}\ndef minimum_finish_time(tires, change_time, num_laps)\n    \nend"

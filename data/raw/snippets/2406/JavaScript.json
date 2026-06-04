@@ -1,1 +1,0 @@
-"/**\n * @param {number[][]} intervals\n * @return {number}\n */\nvar minGroups = function(intervals) {\n    \n};"

@@ -1,0 +1,1 @@
+"object Solution {\n    def checkEqualPartitions(nums: Array[Int], target: Long): Boolean = {\n        \n    }\n}"

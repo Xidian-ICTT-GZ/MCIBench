@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec lexicographically_smallest_string(s :: String.t) :: String.t\n  def lexicographically_smallest_string(s) do\n    \n  end\nend"

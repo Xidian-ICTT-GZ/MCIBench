@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec count_subgraphs_for_each_diameter(n :: integer, edges :: [[integer]]) :: [integer]\n  def count_subgraphs_for_each_diameter(n, edges) do\n    \n  end\nend"

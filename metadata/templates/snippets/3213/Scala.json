@@ -1,0 +1,1 @@
+"object Solution {\n    def minimumCost(target: String, words: Array[String], costs: Array[Int]): Int = {\n        \n    }\n}"

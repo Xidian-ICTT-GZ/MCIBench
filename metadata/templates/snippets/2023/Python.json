@@ -1,0 +1,1 @@
+"class Solution(object):\n    def numOfPairs(self, nums, target):\n        \"\"\"\n        :type nums: List[str]\n        :type target: str\n        :rtype: int\n        \"\"\"\n        "

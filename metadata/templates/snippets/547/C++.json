@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int findCircleNum(vector<vector<int>>& isConnected) {\n        \n    }\n};"

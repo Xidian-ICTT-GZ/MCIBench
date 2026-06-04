@@ -1,0 +1,1 @@
+"(define/contract (num-factored-binary-trees arr)\n  (-> (listof exact-integer?) exact-integer?)\n  )"

@@ -1,0 +1,1 @@
+"class Solution(object):\n    def decodeCiphertext(self, encodedText, rows):\n        \"\"\"\n        :type encodedText: str\n        :type rows: int\n        :rtype: str\n        \"\"\"\n        "

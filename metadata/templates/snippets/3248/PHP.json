@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $n\n     * @param String[] $commands\n     * @return Integer\n     */\n    function finalPositionOfSnake($n, $commands) {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec maximum_population(logs :: [[integer]]) :: integer\n  def maximum_population(logs) do\n    \n  end\nend"

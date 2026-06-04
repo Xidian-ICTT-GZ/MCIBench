@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    int lengthOfLIS(vector<int>& nums, int k) {\n        \n    }\n};"

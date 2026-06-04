@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $encoded\n     * @return Integer[]\n     */\n    function decode($encoded) {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"class Solution(object):\n    def percentageLetter(self, s, letter):\n        \"\"\"\n        :type s: str\n        :type letter: str\n        :rtype: int\n        \"\"\"\n        "

@@ -1,1 +1,0 @@
-"class Solution(object):\n    def areSimilar(self, mat, k):\n        \"\"\"\n        :type mat: List[List[int]]\n        :type k: int\n        :rtype: bool\n        \"\"\"\n        "

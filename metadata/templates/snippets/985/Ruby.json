@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @param {Integer[][]} queries\n# @return {Integer[]}\ndef sum_even_after_queries(nums, queries)\n    \nend"

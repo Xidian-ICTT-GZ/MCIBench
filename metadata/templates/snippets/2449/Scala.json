@@ -1,0 +1,1 @@
+"object Solution {\n    def makeSimilar(nums: Array[Int], target: Array[Int]): Long = {\n        \n    }\n}"

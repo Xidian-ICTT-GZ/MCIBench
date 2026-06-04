@@ -1,1 +1,0 @@
-"class MyCalendar() {\n\n    fun book(startTime: Int, endTime: Int): Boolean {\n        \n    }\n\n}\n\n/**\n * Your MyCalendar object will be instantiated and called as such:\n * var obj = MyCalendar()\n * var param_1 = obj.book(startTime,endTime)\n */"

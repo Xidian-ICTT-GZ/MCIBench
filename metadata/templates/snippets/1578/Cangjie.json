@@ -1,0 +1,1 @@
+"class Solution {\n    func minCost(colors: String, neededTime: Array<Int64>): Int64 {\n\n    }\n}"

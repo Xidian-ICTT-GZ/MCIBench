@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec score_of_students(s :: String.t, answers :: [integer]) :: integer\n  def score_of_students(s, answers) do\n    \n  end\nend"

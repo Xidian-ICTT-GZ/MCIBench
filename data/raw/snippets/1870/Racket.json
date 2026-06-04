@@ -1,1 +1,0 @@
-"(define/contract (min-speed-on-time dist hour)\n  (-> (listof exact-integer?) flonum? exact-integer?)\n  )"

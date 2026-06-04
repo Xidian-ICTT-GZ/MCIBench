@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec missing_number(nums :: [integer]) :: integer\n  def missing_number(nums) do\n    \n  end\nend"

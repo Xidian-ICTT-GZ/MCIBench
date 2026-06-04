@@ -1,1 +1,0 @@
-"# @param {Character[][]} board\n# @param {Integer[]} click\n# @return {Character[][]}\ndef update_board(board, click)\n    \nend"

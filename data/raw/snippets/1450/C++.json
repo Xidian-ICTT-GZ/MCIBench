@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    int busyStudent(vector<int>& startTime, vector<int>& endTime, int queryTime) {\n        \n    }\n};"

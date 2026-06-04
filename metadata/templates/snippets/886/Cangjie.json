@@ -1,0 +1,1 @@
+"class Solution {\n    func possibleBipartition(n: Int64, dislikes: Array<Array<Int64>>): Bool {\n\n    }\n}"

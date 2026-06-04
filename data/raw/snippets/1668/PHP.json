@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String $sequence\n     * @param String $word\n     * @return Integer\n     */\n    function maxRepeating($sequence, $word) {\n        \n    }\n}"

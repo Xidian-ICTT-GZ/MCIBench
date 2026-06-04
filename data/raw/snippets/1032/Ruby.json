@@ -1,1 +1,0 @@
-"class StreamChecker\n\n=begin\n    :type words: String[]\n=end\n    def initialize(words)\n        \n    end\n\n\n=begin\n    :type letter: Character\n    :rtype: Boolean\n=end\n    def query(letter)\n        \n    end\n\n\nend\n\n# Your StreamChecker object will be instantiated and called as such:\n# obj = StreamChecker.new(words)\n# param_1 = obj.query(letter)"

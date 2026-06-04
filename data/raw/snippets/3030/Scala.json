@@ -1,1 +1,0 @@
-"object Solution {\n    def resultGrid(image: Array[Array[Int]], threshold: Int): Array[Array[Int]] = {\n        \n    }\n}"

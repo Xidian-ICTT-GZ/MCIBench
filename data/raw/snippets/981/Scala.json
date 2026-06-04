@@ -1,1 +1,0 @@
-"class TimeMap() {\n\n    def set(key: String, value: String, timestamp: Int): Unit = {\n        \n    }\n\n    def get(key: String, timestamp: Int): String = {\n        \n    }\n\n}\n\n/**\n * Your TimeMap object will be instantiated and called as such:\n * val obj = new TimeMap()\n * obj.set(key,value,timestamp)\n * val param_2 = obj.get(key,timestamp)\n */"

@@ -1,1 +1,0 @@
-"# @param {String} s\n# @param {Integer[][]} queries\n# @return {Integer[][]}\ndef substring_xor_queries(s, queries)\n    \nend"

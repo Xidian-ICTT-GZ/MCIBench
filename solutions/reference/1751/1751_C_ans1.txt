@@ -1,0 +1,37 @@
+int compare(const void *a, const void *b) {
+    return (*(int**)a)[1] - (*(int**)b)[1];
+}
+
+int lower_bound(int** events, int n, int target) {
+    int left = 0, right = n;
+    while (left < right) {
+        int mid = (left + right) / 2;
+        if (events[mid][1] < target) {
+            left = mid + 1;
+        } else {
+            right = mid;
+        }
+    }
+    return left;
+}
+
+int maxValue(int** events, int eventsSize, int* eventsColSize, int k) {
+    qsort(events, eventsSize, sizeof(int*), compare);
+    int** dp = malloc((eventsSize + 1) * sizeof(int*));
+    for (int i = 0; i <= eventsSize; i++) {
+        dp[i] = calloc(k + 1, sizeof(int));
+    }
+    for (int i = 0; i < eventsSize; i++) {
+        int p = lower_bound(events, eventsSize, events[i][0]);
+        for (int j = 1; j <= k; j++) {
+            dp[i + 1][j] = fmax(dp[i][j], dp[p][j - 1] + events[i][2]);
+        }
+    }
+    int res = dp[eventsSize][k];
+    for (int i = 0; i <= eventsSize; i++) {
+        free(dp[i]);
+    }
+    free(dp);
+
+    return res;
+}

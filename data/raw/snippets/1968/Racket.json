@@ -1,1 +1,0 @@
-"(define/contract (rearrange-array nums)\n  (-> (listof exact-integer?) (listof exact-integer?))\n  )"

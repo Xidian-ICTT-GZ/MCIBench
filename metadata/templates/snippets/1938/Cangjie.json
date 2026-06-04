@@ -1,0 +1,1 @@
+"class Solution {\n    func maxGeneticDifference(parents: Array<Int64>, queries: Array<Array<Int64>>): Array<Int64> {\n\n    }\n}"

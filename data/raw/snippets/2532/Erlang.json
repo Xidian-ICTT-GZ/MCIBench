@@ -1,1 +1,0 @@
-"-spec find_crossing_time(N :: integer(), K :: integer(), Time :: [[integer()]]) -> integer().\nfind_crossing_time(N, K, Time) ->\n  ."

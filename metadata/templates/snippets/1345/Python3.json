@@ -1,0 +1,1 @@
+"class Solution:\n    def minJumps(self, arr: List[int]) -> int:\n        "

@@ -1,0 +1,28 @@
+var dir4 = [][2]int{{1, 1}, {1, -1}, {-1, -1}, {-1, 1}}
+
+func allCellsDistOrder(rows, cols, rCenter, cCenter int) [][]int {
+    ans := make([][]int, 1, rows*cols)
+    ans[0] = []int{rCenter, cCenter}
+    maxDist := max(rCenter, rows-1-rCenter) + max(cCenter, cols-1-cCenter)
+    row, col := rCenter, cCenter
+    for dist := 1; dist <= maxDist; dist++ {
+        row--
+        for i, dir := range dir4 {
+            for i%2 == 0 && row != rCenter || i%2 == 1 && col != cCenter {
+                if 0 <= row && row < rows && 0 <= col && col < cols {
+                    ans = append(ans, []int{row, col})
+                }
+                row += dir[0]
+                col += dir[1]
+            }
+        }
+    }
+    return ans
+}
+
+func max(a, b int) int {
+    if a > b {
+        return a
+    }
+    return b
+}

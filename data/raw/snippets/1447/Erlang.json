@@ -1,1 +1,0 @@
-"-spec simplified_fractions(N :: integer()) -> [unicode:unicode_binary()].\nsimplified_fractions(N) ->\n  ."

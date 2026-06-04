@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec build_array(nums :: [integer]) :: [integer]\n  def build_array(nums) do\n    \n  end\nend"

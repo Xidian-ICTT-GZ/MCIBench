@@ -1,1 +1,0 @@
-"(define/contract (find-intersection-values nums1 nums2)\n  (-> (listof exact-integer?) (listof exact-integer?) (listof exact-integer?))\n  )"

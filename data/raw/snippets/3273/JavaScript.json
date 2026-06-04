@@ -1,1 +1,0 @@
-"/**\n * @param {number} power\n * @param {number[]} damage\n * @param {number[]} health\n * @return {number}\n */\nvar minDamage = function(power, damage, health) {\n    \n};"

@@ -1,1 +1,0 @@
-"-spec average_waiting_time(Customers :: [[integer()]]) -> float().\naverage_waiting_time(Customers) ->\n  ."

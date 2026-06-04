@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec is_monotonic(nums :: [integer]) :: boolean\n  def is_monotonic(nums) do\n    \n  end\nend"

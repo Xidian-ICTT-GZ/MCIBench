@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec min_time(n :: integer, edges :: [[integer]], has_apple :: [boolean]) :: integer\n  def min_time(n, edges, has_apple) do\n    \n  end\nend"

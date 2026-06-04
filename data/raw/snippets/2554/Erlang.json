@@ -1,1 +1,0 @@
-"-spec max_count(Banned :: [integer()], N :: integer(), MaxSum :: integer()) -> integer().\nmax_count(Banned, N, MaxSum) ->\n  ."

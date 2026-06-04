@@ -1,1 +1,0 @@
-"class TopVotedCandidate:\n\n    def __init__(self, persons: List[int], times: List[int]):\n        \n\n    def q(self, t: int) -> int:\n        \n\n\n# Your TopVotedCandidate object will be instantiated and called as such:\n# obj = TopVotedCandidate(persons, times)\n# param_1 = obj.q(t)"

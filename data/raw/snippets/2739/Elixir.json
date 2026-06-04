@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec distance_traveled(main_tank :: integer, additional_tank :: integer) :: integer\n  def distance_traveled(main_tank, additional_tank) do\n    \n  end\nend"

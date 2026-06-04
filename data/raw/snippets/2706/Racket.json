@@ -1,1 +1,0 @@
-"(define/contract (buy-choco prices money)\n  (-> (listof exact-integer?) exact-integer? exact-integer?)\n  )"

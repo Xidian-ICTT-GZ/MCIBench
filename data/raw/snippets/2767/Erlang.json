@@ -1,1 +1,0 @@
-"-spec minimum_beautiful_substrings(S :: unicode:unicode_binary()) -> integer().\nminimum_beautiful_substrings(S) ->\n  ."

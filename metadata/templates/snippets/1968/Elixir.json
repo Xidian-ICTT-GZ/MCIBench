@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec rearrange_array(nums :: [integer]) :: [integer]\n  def rearrange_array(nums) do\n    \n  end\nend"

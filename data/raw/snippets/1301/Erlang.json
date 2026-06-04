@@ -1,1 +1,0 @@
-"-spec paths_with_max_score(Board :: [unicode:unicode_binary()]) -> [integer()].\npaths_with_max_score(Board) ->\n  ."

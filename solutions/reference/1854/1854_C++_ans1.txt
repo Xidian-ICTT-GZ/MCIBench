@@ -1,0 +1,25 @@
+class Solution {
+private:
+    static constexpr int offset = 1950;   
+    
+public:
+    int maximumPopulation(vector<vector<int>>& logs) {
+        vector<int> delta(101, 0);   
+        for (auto&& log: logs) {
+            ++delta[log[0]-offset];
+            --delta[log[1]-offset];
+        }
+        int mx = 0;   
+        int res = 0;   
+        int curr = 0;   
+        
+        for (int i = 0; i < 101; ++i){
+            curr += delta[i];
+            if (curr > mx){
+                mx = curr;
+                res = i;
+            }
+        }
+        return res + offset;   
+    }
+};

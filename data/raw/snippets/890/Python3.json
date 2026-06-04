@@ -1,1 +1,0 @@
-"class Solution:\n    def findAndReplacePattern(self, words: List[str], pattern: str) -> List[str]:\n        "

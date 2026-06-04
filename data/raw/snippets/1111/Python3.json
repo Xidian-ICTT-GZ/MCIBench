@@ -1,1 +1,0 @@
-"class Solution:\n    def maxDepthAfterSplit(self, seq: str) -> List[int]:\n        "

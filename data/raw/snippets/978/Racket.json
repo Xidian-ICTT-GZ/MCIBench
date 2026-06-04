@@ -1,1 +1,0 @@
-"(define/contract (max-turbulence-size arr)\n  (-> (listof exact-integer?) exact-integer?)\n  )"

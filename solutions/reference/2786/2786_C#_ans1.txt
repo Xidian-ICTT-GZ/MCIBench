@@ -1,0 +1,14 @@
+public class Solution {
+    public long MaxScore(int[] nums, int x) {
+        long res = nums[0];
+        long[] dp = {int.MinValue, int.MinValue};
+        dp[nums[0] % 2] = nums[0];
+        for (int i = 1; i < nums.Length; i++) {
+            int parity = (int) (nums[i] % 2);
+            long cur = Math.Max(dp[parity] + nums[i], dp[1 - parity] - x + nums[i]);
+            res = Math.Max(res, cur);
+            dp[parity] = Math.Max(dp[parity], cur);
+        }
+        return res;
+    }
+}

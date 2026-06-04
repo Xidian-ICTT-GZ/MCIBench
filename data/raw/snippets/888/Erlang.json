@@ -1,1 +1,0 @@
-"-spec fair_candy_swap(AliceSizes :: [integer()], BobSizes :: [integer()]) -> [integer()].\nfair_candy_swap(AliceSizes, BobSizes) ->\n  ."

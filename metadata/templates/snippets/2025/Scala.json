@@ -1,0 +1,1 @@
+"object Solution {\n    def waysToPartition(nums: Array[Int], k: Int): Int = {\n        \n    }\n}"

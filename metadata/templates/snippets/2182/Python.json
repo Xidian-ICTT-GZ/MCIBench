@@ -1,0 +1,1 @@
+"class Solution(object):\n    def repeatLimitedString(self, s, repeatLimit):\n        \"\"\"\n        :type s: str\n        :type repeatLimit: int\n        :rtype: str\n        \"\"\"\n        "

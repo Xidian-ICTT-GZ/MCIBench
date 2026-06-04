@@ -1,0 +1,1 @@
+"(define/contract (minimize-xor num1 num2)\n  (-> exact-integer? exact-integer? exact-integer?)\n  )"

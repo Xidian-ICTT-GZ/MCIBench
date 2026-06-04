@@ -1,0 +1,18 @@
+public class MyCalendar {
+    IList<Tuple<int, int>> booked;
+
+    public MyCalendar() {
+        booked = new List<Tuple<int, int>>();
+    }
+
+    public bool Book(int start, int end) {
+        foreach (Tuple<int, int> tuple in booked) {
+            int l = tuple.Item1, r = tuple.Item2;
+            if (l < end && start < r) {
+                return false;
+            }
+        }
+        booked.Add(new Tuple<int, int>(start, end));
+        return true;
+    }
+}

@@ -1,1 +1,0 @@
-"class Solution:\n    def numberOfGoodPartitions(self, nums: List[int]) -> int:\n        "

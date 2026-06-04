@@ -1,1 +1,0 @@
-"/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* gcdValues(int* nums, int numsSize, long long* queries, int queriesSize, int* returnSize) {\n    \n}"

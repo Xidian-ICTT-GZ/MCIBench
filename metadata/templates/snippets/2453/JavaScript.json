@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} nums\n * @param {number} space\n * @return {number}\n */\nvar destroyTargets = function(nums, space) {\n    \n};"

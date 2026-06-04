@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec is_one_bit_character(bits :: [integer]) :: boolean\n  def is_one_bit_character(bits) do\n    \n  end\nend"

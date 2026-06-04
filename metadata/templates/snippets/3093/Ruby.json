@@ -1,0 +1,1 @@
+"# @param {String[]} words_container\n# @param {String[]} words_query\n# @return {Integer[]}\ndef string_indices(words_container, words_query)\n    \nend"

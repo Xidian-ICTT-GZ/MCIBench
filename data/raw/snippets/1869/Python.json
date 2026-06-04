@@ -1,1 +1,0 @@
-"class Solution(object):\n    def checkZeroOnes(self, s):\n        \"\"\"\n        :type s: str\n        :rtype: bool\n        \"\"\"\n        "

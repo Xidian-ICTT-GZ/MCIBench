@@ -1,1 +1,0 @@
-"(define/contract (xor-game nums)\n  (-> (listof exact-integer?) boolean?)\n  )"

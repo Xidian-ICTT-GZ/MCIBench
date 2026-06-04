@@ -1,0 +1,1 @@
+"public class Solution {\n    public IList<IList<int>> AllPathsSourceTarget(int[][] graph) {\n        \n    }\n}"

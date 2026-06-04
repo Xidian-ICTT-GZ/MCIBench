@@ -1,1 +1,0 @@
-"class Solution(object):\n    def maxCandies(self, status, candies, keys, containedBoxes, initialBoxes):\n        \"\"\"\n        :type status: List[int]\n        :type candies: List[int]\n        :type keys: List[List[int]]\n        :type containedBoxes: List[List[int]]\n        :type initialBoxes: List[int]\n        :rtype: int\n        \"\"\"\n        "

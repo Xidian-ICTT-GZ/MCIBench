@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} arr\n * @param {number} k\n * @param {number} threshold\n * @return {number}\n */\nvar numOfSubarrays = function(arr, k, threshold) {\n    \n};"

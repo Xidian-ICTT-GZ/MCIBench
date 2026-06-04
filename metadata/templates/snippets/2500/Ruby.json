@@ -1,0 +1,1 @@
+"# @param {Integer[][]} grid\n# @return {Integer}\ndef delete_greatest_value(grid)\n    \nend"

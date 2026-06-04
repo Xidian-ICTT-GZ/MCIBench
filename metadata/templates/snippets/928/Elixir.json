@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec min_malware_spread(graph :: [[integer]], initial :: [integer]) :: integer\n  def min_malware_spread(graph, initial) do\n    \n  end\nend"

@@ -1,1 +1,0 @@
-"-spec minimum_pushes(Word :: unicode:unicode_binary()) -> integer().\nminimum_pushes(Word) ->\n  ."

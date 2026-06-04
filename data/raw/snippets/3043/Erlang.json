@@ -1,1 +1,0 @@
-"-spec longest_common_prefix(Arr1 :: [integer()], Arr2 :: [integer()]) -> integer().\nlongest_common_prefix(Arr1, Arr2) ->\n  ."

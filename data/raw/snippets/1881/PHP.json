@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String $n\n     * @param Integer $x\n     * @return String\n     */\n    function maxValue($n, $x) {\n        \n    }\n}"

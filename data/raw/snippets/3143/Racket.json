@@ -1,1 +1,0 @@
-"(define/contract (max-points-inside-square points s)\n  (-> (listof (listof exact-integer?)) string? exact-integer?)\n  )"

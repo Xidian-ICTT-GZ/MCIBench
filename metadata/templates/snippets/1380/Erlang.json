@@ -1,0 +1,1 @@
+"-spec lucky_numbers(Matrix :: [[integer()]]) -> [integer()].\nlucky_numbers(Matrix) ->\n  ."

@@ -1,0 +1,1 @@
+"-spec good_subsetof_binary_matrix(Grid :: [[integer()]]) -> [integer()].\ngood_subsetof_binary_matrix(Grid) ->\n  ."

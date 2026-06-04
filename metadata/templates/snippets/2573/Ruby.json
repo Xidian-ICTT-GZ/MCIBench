@@ -1,0 +1,1 @@
+"# @param {Integer[][]} lcp\n# @return {String}\ndef find_the_string(lcp)\n    \nend"

@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    vector<vector<string>> suggestedProducts(vector<string>& products, string searchWord) {\n        \n    }\n};"

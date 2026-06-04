@@ -1,1 +1,0 @@
-"class Solution(object):\n    def closestDivisors(self, num):\n        \"\"\"\n        :type num: int\n        :rtype: List[int]\n        \"\"\"\n        "

@@ -1,1 +1,0 @@
-"(define/contract (seconds-to-remove-occurrences s)\n  (-> string? exact-integer?)\n  )"

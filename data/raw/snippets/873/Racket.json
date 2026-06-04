@@ -1,1 +1,0 @@
-"(define/contract (len-longest-fib-subseq arr)\n  (-> (listof exact-integer?) exact-integer?)\n  )"

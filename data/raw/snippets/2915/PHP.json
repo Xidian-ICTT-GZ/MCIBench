@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer $target\n     * @return Integer\n     */\n    function lengthOfLongestSubsequence($nums, $target) {\n        \n    }\n}"

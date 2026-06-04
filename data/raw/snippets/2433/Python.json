@@ -1,1 +1,0 @@
-"class Solution(object):\n    def findArray(self, pref):\n        \"\"\"\n        :type pref: List[int]\n        :rtype: List[int]\n        \"\"\"\n        "

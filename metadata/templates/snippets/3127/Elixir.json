@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec can_make_square(grid :: [[char]]) :: boolean\n  def can_make_square(grid) do\n    \n  end\nend"

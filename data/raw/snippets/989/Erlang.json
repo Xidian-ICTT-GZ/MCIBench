@@ -1,1 +1,0 @@
-"-spec add_to_array_form(Num :: [integer()], K :: integer()) -> [integer()].\nadd_to_array_form(Num, K) ->\n  ."

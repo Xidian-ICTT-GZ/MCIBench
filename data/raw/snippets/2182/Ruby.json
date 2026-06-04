@@ -1,1 +1,0 @@
-"# @param {String} s\n# @param {Integer} repeat_limit\n# @return {String}\ndef repeat_limited_string(s, repeat_limit)\n    \nend"

@@ -1,1 +1,0 @@
-"class Solution(object):\n    def findLatestStep(self, arr, m):\n        \"\"\"\n        :type arr: List[int]\n        :type m: int\n        :rtype: int\n        \"\"\"\n        "

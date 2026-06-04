@@ -1,1 +1,0 @@
-"(define/contract (maximum-xor-product a b n)\n  (-> exact-integer? exact-integer? exact-integer? exact-integer?)\n  )"

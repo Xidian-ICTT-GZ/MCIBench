@@ -1,1 +1,0 @@
-"\nclass MyCalendarThree {\n\n    init() {\n        \n    }\n    \n    func book(_ startTime: Int, _ endTime: Int) -> Int {\n        \n    }\n}\n\n/**\n * Your MyCalendarThree object will be instantiated and called as such:\n * let obj = MyCalendarThree()\n * let ret_1: Int = obj.book(startTime, endTime)\n */"

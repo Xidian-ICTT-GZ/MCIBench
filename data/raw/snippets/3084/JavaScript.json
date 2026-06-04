@@ -1,1 +1,0 @@
-"/**\n * @param {string} s\n * @param {character} c\n * @return {number}\n */\nvar countSubstrings = function(s, c) {\n    \n};"

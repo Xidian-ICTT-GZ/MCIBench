@@ -1,1 +1,0 @@
-"class Solution(object):\n    def minArraySum(self, nums, k, op1, op2):\n        \"\"\"\n        :type nums: List[int]\n        :type k: int\n        :type op1: int\n        :type op2: int\n        :rtype: int\n        \"\"\"\n        "

@@ -1,0 +1,1 @@
+"(define/contract (can-be-valid s locked)\n  (-> string? string? boolean?)\n  )"

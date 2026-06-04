@@ -1,1 +1,0 @@
-"class Solution(object):\n    def findCommonResponse(self, responses):\n        \"\"\"\n        :type responses: List[List[str]]\n        :rtype: str\n        \"\"\"\n        "

@@ -1,0 +1,1 @@
+"class Solution(object):\n    def longestWPI(self, hours):\n        \"\"\"\n        :type hours: List[int]\n        :rtype: int\n        \"\"\"\n        "

@@ -1,0 +1,1 @@
+"class Solution:\n    def accountBalanceAfterPurchase(self, purchaseAmount: int) -> int:\n        "

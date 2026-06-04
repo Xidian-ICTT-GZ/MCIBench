@@ -1,1 +1,0 @@
-"(define/contract (largest-triangle-area points)\n  (-> (listof (listof exact-integer?)) flonum?)\n  )"

@@ -1,0 +1,1 @@
+"class Solution(object):\n    def removeSubfolders(self, folder):\n        \"\"\"\n        :type folder: List[str]\n        :rtype: List[str]\n        \"\"\"\n        "

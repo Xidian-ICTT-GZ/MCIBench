@@ -1,1 +1,0 @@
-"class Solution(object):\n    def generateKey(self, num1, num2, num3):\n        \"\"\"\n        :type num1: int\n        :type num2: int\n        :type num3: int\n        :rtype: int\n        \"\"\"\n        "

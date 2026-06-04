@@ -1,1 +1,0 @@
-"-spec count_valid_selections(Nums :: [integer()]) -> integer().\ncount_valid_selections(Nums) ->\n  ."

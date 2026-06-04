@@ -1,1 +1,0 @@
-"class FreqStack:\n\n    def __init__(self):\n        \n\n    def push(self, val: int) -> None:\n        \n\n    def pop(self) -> int:\n        \n\n\n# Your FreqStack object will be instantiated and called as such:\n# obj = FreqStack()\n# obj.push(val)\n# param_2 = obj.pop()"

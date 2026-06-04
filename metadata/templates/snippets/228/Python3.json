@@ -1,0 +1,1 @@
+"class Solution:\n    def summaryRanges(self, nums: List[int]) -> List[str]:\n        "

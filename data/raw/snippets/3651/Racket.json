@@ -1,1 +1,0 @@
-"(define/contract (min-cost grid k)\n  (-> (listof (listof exact-integer?)) exact-integer? exact-integer?)\n  )"

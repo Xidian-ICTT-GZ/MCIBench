@@ -1,1 +1,0 @@
-"interface Array<T> {\n    groupBy(fn: (item: T) => string): Record<string, T[]>\n}\n\n\nArray.prototype.groupBy = function(fn) {\n    \n}\n\n/**\n * [1,2,3].groupBy(String) // {\"1\":[1],\"2\":[2],\"3\":[3]}\n */"

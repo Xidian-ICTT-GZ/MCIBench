@@ -1,0 +1,22 @@
+class Solution:
+    def countRectangles(self, rectangles: List[List[int]], points: List[List[int]]) -> List[int]:
+        n = len(points)
+        res = [0] * n   
+        p = defaultdict(list)   
+        for i in range(n):
+            p[points[i][1]].append((points[i][0], i))
+        
+        def lengths(y: int):
+            res = []
+            for l, h in rectangles:
+                if h >= y:
+                    res.append(l)
+            return sorted(res)
+        
+        
+        for h, plist in p.items():
+            llist = lengths(h)
+            for x, idx in plist:
+                
+                res[idx] = len(llist) - bisect.bisect_left(llist, x)
+        return res

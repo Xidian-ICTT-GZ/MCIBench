@@ -1,0 +1,12 @@
+class Solution:
+    def removeNodes(self, head: Optional[ListNode]) -> Optional[ListNode]:
+        st = []
+        while head is not None:
+            st.append(head)
+            head = head.next
+        while st:
+            if head is None or st[-1].val >= head.val:
+                st[-1].next = head
+                head = st[-1]
+            st.pop()
+        return head

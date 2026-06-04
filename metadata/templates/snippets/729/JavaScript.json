@@ -1,0 +1,1 @@
+"\nvar MyCalendar = function() {\n    \n};\n\n/** \n * @param {number} startTime \n * @param {number} endTime\n * @return {boolean}\n */\nMyCalendar.prototype.book = function(startTime, endTime) {\n    \n};\n\n/** \n * Your MyCalendar object will be instantiated and called as such:\n * var obj = new MyCalendar()\n * var param_1 = obj.book(startTime,endTime)\n */"

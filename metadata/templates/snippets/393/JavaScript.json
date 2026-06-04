@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} data\n * @return {boolean}\n */\nvar validUtf8 = function(data) {\n    \n};"

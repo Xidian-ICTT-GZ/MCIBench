@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec max_walls(robots :: [integer], distance :: [integer], walls :: [integer]) :: integer\n  def max_walls(robots, distance, walls) do\n    \n  end\nend"

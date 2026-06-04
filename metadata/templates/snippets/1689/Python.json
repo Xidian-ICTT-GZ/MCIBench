@@ -1,0 +1,1 @@
+"class Solution(object):\n    def minPartitions(self, n):\n        \"\"\"\n        :type n: str\n        :rtype: int\n        \"\"\"\n        "

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec num_subarrays_with_sum(nums :: [integer], goal :: integer) :: integer\n  def num_subarrays_with_sum(nums, goal) do\n    \n  end\nend"

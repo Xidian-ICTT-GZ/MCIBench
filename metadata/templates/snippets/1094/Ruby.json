@@ -1,0 +1,1 @@
+"# @param {Integer[][]} trips\n# @param {Integer} capacity\n# @return {Boolean}\ndef car_pooling(trips, capacity)\n    \nend"

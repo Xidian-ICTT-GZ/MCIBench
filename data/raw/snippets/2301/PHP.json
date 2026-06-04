@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String $s\n     * @param String $sub\n     * @param String[][] $mappings\n     * @return Boolean\n     */\n    function matchReplacement($s, $sub, $mappings) {\n        \n    }\n}"

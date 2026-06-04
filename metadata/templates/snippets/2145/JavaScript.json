@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} differences\n * @param {number} lower\n * @param {number} upper\n * @return {number}\n */\nvar numberOfArrays = function(differences, lower, upper) {\n    \n};"

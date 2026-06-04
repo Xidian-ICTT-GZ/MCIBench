@@ -1,0 +1,17 @@
+var mergeNodes = function(head) {
+    const dummy = new ListNode();
+    let tail = dummy;
+    let total = 0;
+    for (let cur = head.next; cur !== null; cur = cur.next) {
+        if (cur.val === 0) {
+            const node = new ListNode(total);
+            tail.next = node;
+            tail = tail.next;
+            total = 0;
+        } else {
+            total += cur.val;
+        }
+    }
+
+    return dummy.next;
+};

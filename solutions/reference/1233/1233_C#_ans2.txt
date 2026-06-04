@@ -1,0 +1,53 @@
+public class Solution {
+    public IList<string> RemoveSubfolders(string[] folder) {
+        Trie root = new Trie();
+        for (int i = 0; i < folder.Length; ++i) {
+            IList<string> path = Split(folder[i]);
+            Trie cur = root;
+            foreach (string name in path) {
+                cur.children.TryAdd(name, new Trie());
+                cur = cur.children[name];
+            }
+            cur.reference = i;
+        }
+
+        IList<string> ans = new List<string>();
+        DFS(folder, ans, root);
+        return ans;
+    }
+
+    public IList<string> Split(string s) {
+        IList<string> ret = new List<string>();
+        StringBuilder cur = new StringBuilder();
+        foreach (char ch in s) {
+            if (ch == '/') {
+                ret.Add(cur.ToString());
+                cur.Length = 0;
+            } else {
+                cur.Append(ch);
+            }
+        }
+        ret.Add(cur.ToString());
+        return ret;
+    }
+
+    public void DFS(string[] folder, IList<string> ans, Trie cur) {
+        if (cur.reference != -1) {
+            ans.Add(folder[cur.reference]);
+            return;
+        }
+        foreach (Trie child in cur.children.Values) {
+            DFS(folder, ans, child);
+        }
+    }
+}
+
+public class Trie {
+    public int reference;
+    public IDictionary<string, Trie> children;
+
+    public Trie() {
+        reference = -1;
+        children = new Dictionary<string, Trie>();
+    }
+}

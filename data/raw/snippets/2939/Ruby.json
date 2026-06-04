@@ -1,1 +1,0 @@
-"# @param {Integer} a\n# @param {Integer} b\n# @param {Integer} n\n# @return {Integer}\ndef maximum_xor_product(a, b, n)\n    \nend"

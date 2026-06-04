@@ -1,0 +1,1 @@
+"# @param {String[]} pieces\n# @param {Integer[][]} positions\n# @return {Integer}\ndef count_combinations(pieces, positions)\n    \nend"

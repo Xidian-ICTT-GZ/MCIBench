@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    int numSubarraysWithSum(vector<int>& nums, int goal) {\n        \n    }\n};"

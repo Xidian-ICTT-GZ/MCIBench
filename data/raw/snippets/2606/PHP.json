@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String $s\n     * @param String $chars\n     * @param Integer[] $vals\n     * @return Integer\n     */\n    function maximumCostSubstring($s, $chars, $vals) {\n        \n    }\n}"

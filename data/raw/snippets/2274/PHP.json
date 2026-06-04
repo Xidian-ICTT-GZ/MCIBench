@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer $bottom\n     * @param Integer $top\n     * @param Integer[] $special\n     * @return Integer\n     */\n    function maxConsecutive($bottom, $top, $special) {\n        \n    }\n}"

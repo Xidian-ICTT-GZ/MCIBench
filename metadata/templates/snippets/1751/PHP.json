@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $events\n     * @param Integer $k\n     * @return Integer\n     */\n    function maxValue($events, $k) {\n        \n    }\n}"

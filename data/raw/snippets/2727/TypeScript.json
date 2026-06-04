@@ -1,1 +1,0 @@
-"type JSONValue = null | boolean | number | string | JSONValue[] | { [key: string]: JSONValue };\ntype Obj = Record<string, JSONValue> | JSONValue[]\n\nfunction isEmpty(obj: Obj): boolean {\n    \n};"

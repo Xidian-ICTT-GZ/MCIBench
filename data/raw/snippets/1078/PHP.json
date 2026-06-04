@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String $text\n     * @param String $first\n     * @param String $second\n     * @return String[]\n     */\n    function findOcurrences($text, $first, $second) {\n        \n    }\n}"

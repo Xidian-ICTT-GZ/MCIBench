@@ -1,1 +1,0 @@
-"# @param {String} str1\n# @param {String} str2\n# @return {String}\ndef gcd_of_strings(str1, str2)\n    \nend"

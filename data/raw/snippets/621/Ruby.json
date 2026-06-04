@@ -1,1 +1,0 @@
-"# @param {Character[]} tasks\n# @param {Integer} n\n# @return {Integer}\ndef least_interval(tasks, n)\n    \nend"

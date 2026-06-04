@@ -1,1 +1,0 @@
-"class Solution(object):\n    def arrangeCoins(self, n):\n        \"\"\"\n        :type n: int\n        :rtype: int\n        \"\"\"\n        "

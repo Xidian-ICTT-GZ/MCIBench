@@ -1,1 +1,0 @@
-"/**\n * @param {number} numerator\n * @param {number} denominator\n * @return {string}\n */\nvar fractionToDecimal = function(numerator, denominator) {\n    \n};"

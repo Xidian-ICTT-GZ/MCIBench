@@ -1,1 +1,0 @@
-"class Solution:\n    def minTimeToReach(self, moveTime: List[List[int]]) -> int:\n        "

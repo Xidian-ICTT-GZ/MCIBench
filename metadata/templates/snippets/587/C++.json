@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<vector<int>> outerTrees(vector<vector<int>>& trees) {\n        \n    }\n};"

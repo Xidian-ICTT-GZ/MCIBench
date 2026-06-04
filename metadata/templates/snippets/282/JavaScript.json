@@ -1,0 +1,1 @@
+"/**\n * @param {string} num\n * @param {number} target\n * @return {string[]}\n */\nvar addOperators = function(num, target) {\n    \n};"

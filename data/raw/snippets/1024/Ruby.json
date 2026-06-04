@@ -1,1 +1,0 @@
-"# @param {Integer[][]} clips\n# @param {Integer} time\n# @return {Integer}\ndef video_stitching(clips, time)\n    \nend"

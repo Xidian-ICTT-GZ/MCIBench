@@ -1,1 +1,0 @@
-"class Solution(object):\n    def isEscapePossible(self, blocked, source, target):\n        \"\"\"\n        :type blocked: List[List[int]]\n        :type source: List[int]\n        :type target: List[int]\n        :rtype: bool\n        \"\"\"\n        "

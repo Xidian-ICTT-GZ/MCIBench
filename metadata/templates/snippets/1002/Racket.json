@@ -1,0 +1,1 @@
+"(define/contract (common-chars words)\n  (-> (listof string?) (listof string?))\n  )"

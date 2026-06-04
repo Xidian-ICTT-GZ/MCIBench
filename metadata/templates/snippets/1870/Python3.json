@@ -1,0 +1,1 @@
+"class Solution:\n    def minSpeedOnTime(self, dist: List[int], hour: float) -> int:\n        "

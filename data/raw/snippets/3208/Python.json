@@ -1,1 +1,0 @@
-"class Solution(object):\n    def numberOfAlternatingGroups(self, colors, k):\n        \"\"\"\n        :type colors: List[int]\n        :type k: int\n        :rtype: int\n        \"\"\"\n        "

@@ -1,0 +1,1 @@
+"class Solution(object):\n    def distanceSum(self, m, n, k):\n        \"\"\"\n        :type m: int\n        :type n: int\n        :type k: int\n        :rtype: int\n        \"\"\"\n        "

@@ -1,1 +1,0 @@
-"/**\n * @param {number} n\n * @param {number[]} sick\n * @return {number}\n */\nvar numberOfSequence = function(n, sick) {\n    \n};"

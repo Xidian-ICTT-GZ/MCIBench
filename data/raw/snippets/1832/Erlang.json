@@ -1,1 +1,0 @@
-"-spec check_if_pangram(Sentence :: unicode:unicode_binary()) -> boolean().\ncheck_if_pangram(Sentence) ->\n  ."

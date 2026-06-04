@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec asteroids_destroyed(mass :: integer, asteroids :: [integer]) :: boolean\n  def asteroids_destroyed(mass, asteroids) do\n    \n  end\nend"

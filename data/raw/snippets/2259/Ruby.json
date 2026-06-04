@@ -1,1 +1,0 @@
-"# @param {String} number\n# @param {Character} digit\n# @return {String}\ndef remove_digit(number, digit)\n    \nend"

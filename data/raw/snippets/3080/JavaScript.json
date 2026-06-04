@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} nums\n * @param {number[][]} queries\n * @return {number[]}\n */\nvar unmarkedSumArray = function(nums, queries) {\n    \n};"

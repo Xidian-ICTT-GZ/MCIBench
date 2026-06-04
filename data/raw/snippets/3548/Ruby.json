@@ -1,1 +1,0 @@
-"# @param {Integer[][]} grid\n# @return {Boolean}\ndef can_partition_grid(grid)\n    \nend"

@@ -1,0 +1,1 @@
+"class Solution(object):\n    def bestClosingTime(self, customers):\n        \"\"\"\n        :type customers: str\n        :rtype: int\n        \"\"\"\n        "

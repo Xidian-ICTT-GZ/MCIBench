@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $gas\n     * @param Integer[] $cost\n     * @return Integer\n     */\n    function canCompleteCircuit($gas, $cost) {\n        \n    }\n}"

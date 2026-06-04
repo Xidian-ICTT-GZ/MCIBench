@@ -1,1 +1,0 @@
-"(define/contract (accounts-merge accounts)\n  (-> (listof (listof string?)) (listof (listof string?)))\n  )"

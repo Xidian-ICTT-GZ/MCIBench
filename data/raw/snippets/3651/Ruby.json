@@ -1,1 +1,0 @@
-"# @param {Integer[][]} grid\n# @param {Integer} k\n# @return {Integer}\ndef min_cost(grid, k)\n    \nend"

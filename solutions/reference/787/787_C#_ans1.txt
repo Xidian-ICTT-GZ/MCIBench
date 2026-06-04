@@ -1,0 +1,23 @@
+public class Solution {
+    public int FindCheapestPrice(int n, int[][] flights, int src, int dst, int k) {
+        const int INF = 10000 * 101 + 1;
+        int[,] f = new int[k + 2, n];
+        for (int i = 0; i < k + 2; ++i) {
+            for (int j = 0; j < n; ++j) {
+                f[i, j] = INF;
+            }
+        }
+        f[0, src] = 0;
+        for (int t = 1; t <= k + 1; ++t) {
+            foreach (int[] flight in flights) {
+                int j = flight[0], i = flight[1], cost = flight[2];
+                f[t, i] = Math.Min(f[t, i], f[t - 1, j] + cost);
+            }
+        }
+        int ans = INF;
+        for (int t = 1; t <= k + 1; ++t) {
+            ans = Math.Min(ans, f[t, dst]);
+        }
+        return ans == INF ? -1 : ans;
+    }
+}

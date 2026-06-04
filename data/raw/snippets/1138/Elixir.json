@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec alphabet_board_path(target :: String.t) :: String.t\n  def alphabet_board_path(target) do\n    \n  end\nend"

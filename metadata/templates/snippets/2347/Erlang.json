@@ -1,0 +1,1 @@
+"-spec best_hand(Ranks :: [integer()], Suits :: [char()]) -> unicode:unicode_binary().\nbest_hand(Ranks, Suits) ->\n  ."

@@ -1,1 +1,0 @@
-"class Solution(object):\n    def findDelayedArrivalTime(self, arrivalTime, delayedTime):\n        \"\"\"\n        :type arrivalTime: int\n        :type delayedTime: int\n        :rtype: int\n        \"\"\"\n        "

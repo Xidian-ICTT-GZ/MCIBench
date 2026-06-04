@@ -1,1 +1,0 @@
-"/**\n * @param {character[][]} grid\n * @return {boolean}\n */\nvar hasValidPath = function(grid) {\n    \n};"

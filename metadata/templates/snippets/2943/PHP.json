@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $n\n     * @param Integer $m\n     * @param Integer[] $hBars\n     * @param Integer[] $vBars\n     * @return Integer\n     */\n    function maximizeSquareHoleArea($n, $m, $hBars, $vBars) {\n        \n    }\n}"

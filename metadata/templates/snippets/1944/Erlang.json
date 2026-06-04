@@ -1,0 +1,1 @@
+"-spec can_see_persons_count(Heights :: [integer()]) -> [integer()].\ncan_see_persons_count(Heights) ->\n  ."

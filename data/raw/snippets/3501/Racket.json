@@ -1,1 +1,0 @@
-"(define/contract (max-active-sections-after-trade s queries)\n  (-> string? (listof (listof exact-integer?)) (listof exact-integer?))\n  )"

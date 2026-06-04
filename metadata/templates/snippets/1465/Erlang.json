@@ -1,0 +1,1 @@
+"-spec max_area(H :: integer(), W :: integer(), HorizontalCuts :: [integer()], VerticalCuts :: [integer()]) -> integer().\nmax_area(H, W, HorizontalCuts, VerticalCuts) ->\n  ."

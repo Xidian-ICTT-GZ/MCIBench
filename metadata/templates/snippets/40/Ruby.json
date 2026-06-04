@@ -1,0 +1,1 @@
+"# @param {Integer[]} candidates\n# @param {Integer} target\n# @return {Integer[][]}\ndef combination_sum2(candidates, target)\n    \nend"

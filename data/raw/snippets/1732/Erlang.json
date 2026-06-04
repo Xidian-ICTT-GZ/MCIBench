@@ -1,1 +1,0 @@
-"-spec largest_altitude(Gain :: [integer()]) -> integer().\nlargest_altitude(Gain) ->\n  ."

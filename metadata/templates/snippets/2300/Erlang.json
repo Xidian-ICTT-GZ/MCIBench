@@ -1,0 +1,1 @@
+"-spec successful_pairs(Spells :: [integer()], Potions :: [integer()], Success :: integer()) -> [integer()].\nsuccessful_pairs(Spells, Potions, Success) ->\n  ."

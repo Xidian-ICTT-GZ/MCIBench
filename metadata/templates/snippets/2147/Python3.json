@@ -1,0 +1,1 @@
+"class Solution:\n    def numberOfWays(self, corridor: str) -> int:\n        "

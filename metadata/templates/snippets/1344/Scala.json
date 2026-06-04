@@ -1,0 +1,1 @@
+"object Solution {\n    def angleClock(hour: Int, minutes: Int): Double = {\n        \n    }\n}"

@@ -1,1 +1,0 @@
-"class Solution(object):\n    def maxRepOpt1(self, text):\n        \"\"\"\n        :type text: str\n        :rtype: int\n        \"\"\"\n        "

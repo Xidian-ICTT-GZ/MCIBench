@@ -1,1 +1,0 @@
-"-spec min_non_zero_product(P :: integer()) -> integer().\nmin_non_zero_product(P) ->\n  ."

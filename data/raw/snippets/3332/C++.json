@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    int maxScore(int n, int k, vector<vector<int>>& stayScore, vector<vector<int>>& travelScore) {\n        \n    }\n};"

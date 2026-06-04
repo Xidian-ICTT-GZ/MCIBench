@@ -1,1 +1,0 @@
-"-spec fill_cups(Amount :: [integer()]) -> integer().\nfill_cups(Amount) ->\n  ."

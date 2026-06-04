@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec add_negabinary(arr1 :: [integer], arr2 :: [integer]) :: [integer]\n  def add_negabinary(arr1, arr2) do\n    \n  end\nend"

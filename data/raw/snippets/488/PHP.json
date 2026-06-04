@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String $board\n     * @param String $hand\n     * @return Integer\n     */\n    function findMinStep($board, $hand) {\n        \n    }\n}"

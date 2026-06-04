@@ -1,0 +1,1 @@
+"/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* popcountDepth(long long* nums, int numsSize, long long** queries, int queriesSize, int* queriesColSize, int* returnSize) {\n    \n}"

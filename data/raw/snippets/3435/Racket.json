@@ -1,1 +1,0 @@
-"(define/contract (supersequences words)\n  (-> (listof string?) (listof (listof exact-integer?)))\n  )"

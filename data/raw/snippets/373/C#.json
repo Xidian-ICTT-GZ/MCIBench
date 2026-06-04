@@ -1,1 +1,0 @@
-"public class Solution {\n    public IList<IList<int>> KSmallestPairs(int[] nums1, int[] nums2, int k) {\n        \n    }\n}"

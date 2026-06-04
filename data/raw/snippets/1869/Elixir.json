@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec check_zero_ones(s :: String.t) :: boolean\n  def check_zero_ones(s) do\n    \n  end\nend"

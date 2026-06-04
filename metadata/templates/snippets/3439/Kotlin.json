@@ -1,0 +1,1 @@
+"class Solution {\n    fun maxFreeTime(eventTime: Int, k: Int, startTime: IntArray, endTime: IntArray): Int {\n        \n    }\n}"

@@ -1,0 +1,78 @@
+struct ListNode *createListNode(int val) {
+    struct ListNode *obj = (struct ListNode *)malloc(sizeof(struct ListNode));
+    obj->val = val;
+    obj->next = NULL;
+    return obj;
+}
+
+void freeList(struct ListNode *list) {
+    while (list) {
+        struct ListNode *p = list;
+        list = list->next;
+        free(p);
+    }
+}
+
+int calc(int part1, int part2, int part3) {
+    return fmax(part1, fmax(part2, part3)) - fmin(part1, fmin(part2, part3));
+}
+
+void dfs(int x, int fa, int* nums, struct ListNode** adj, int* sum, int* in, int* out, int* cnt) {
+    in[x] = (*cnt)++;
+    sum[x] = nums[x];
+    for (struct ListNode *p = adj[x]; p != NULL; p = p->next) {
+        int y = p->val;
+        if (y == fa) {
+            continue;
+        }
+        dfs(y, x, nums, adj, sum, in, out, cnt);
+        sum[x] ^= sum[y];
+    }
+    out[x] = *cnt;
+}
+
+int minimumScore(int* nums, int numsSize, int** edges, int edgesSize, int* edgesColSize) {
+    struct ListNode *adj[numsSize];
+    for (int i = 0; i < numsSize; i++) {
+        adj[i] = NULL;
+    }
+    for (int i = 0; i < edgesSize; i++) {
+        int u = edges[i][0];
+        int v = edges[i][1];
+        struct ListNode *nodeu = createListNode(u);
+        nodeu->next = adj[v];
+        adj[v] = nodeu;
+        struct ListNode *nodev = createListNode(v);
+        nodev->next = adj[u];
+        adj[u] = nodev;
+    }
+
+    int* sum = (int*)calloc(numsSize, sizeof(int));
+    int* in = (int*)calloc(numsSize, sizeof(int));
+    int* out = (int*)calloc(numsSize, sizeof(int));
+    int cnt = 0;
+
+    dfs(0, -1, nums, adj, sum, in, out, &cnt);
+
+    int res = INT_MAX;
+    for (int u = 1; u < numsSize; u++) {
+        for (int v = u + 1; v < numsSize; v++) {
+            if (in[v] > in[u] && in[v] < out[u]) {
+                res = fmin(res, calc(sum[0] ^ sum[u], sum[u] ^ sum[v], sum[v]));
+            } else if (in[u] > in[v] && in[u] < out[v]) {
+                res = fmin(res, calc(sum[0] ^ sum[v], sum[v] ^ sum[u], sum[u]));
+            } else {
+                res = fmin(res, calc(sum[0] ^ sum[u] ^ sum[v], sum[u], sum[v]));
+            }
+        }
+    }
+
+    for (int i = 0; i < numsSize; i++) {
+        freeList(adj[i]);
+    }
+    free(sum);
+    free(in);
+    free(out);
+
+    return res;
+}

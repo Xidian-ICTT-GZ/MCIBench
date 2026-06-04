@@ -1,1 +1,0 @@
-"class Solution(object):\n    def maxPower(self, stations, r, k):\n        \"\"\"\n        :type stations: List[int]\n        :type r: int\n        :type k: int\n        :rtype: int\n        \"\"\"\n        "

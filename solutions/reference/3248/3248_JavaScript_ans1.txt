@@ -1,0 +1,15 @@
+var finalPositionOfSnake = function(n, commands) {
+    let ans = 0;
+    for (const c of commands) {
+        if (c[0] === 'U') {
+            ans -= n;
+        } else if (c[0] === 'D') {
+            ans += n;
+        } else if (c[0] === 'L') {
+            ans--;
+        } else {
+            ans++;
+        }
+    }
+    return ans;
+};

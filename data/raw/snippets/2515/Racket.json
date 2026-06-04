@@ -1,1 +1,0 @@
-"(define/contract (closest-target words target startIndex)\n  (-> (listof string?) string? exact-integer? exact-integer?)\n  )"

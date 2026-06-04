@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec is_good_array(nums :: [integer]) :: boolean\n  def is_good_array(nums) do\n    \n  end\nend"

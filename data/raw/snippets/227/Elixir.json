@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec calculate(s :: String.t) :: integer\n  def calculate(s) do\n    \n  end\nend"

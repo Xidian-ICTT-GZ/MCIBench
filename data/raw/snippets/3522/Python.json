@@ -1,1 +1,0 @@
-"class Solution(object):\n    def calculateScore(self, instructions, values):\n        \"\"\"\n        :type instructions: List[str]\n        :type values: List[int]\n        :rtype: int\n        \"\"\"\n        "

@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec popcount_depth(nums :: [integer], queries :: [[integer]]) :: [integer]\n  def popcount_depth(nums, queries) do\n    \n  end\nend"

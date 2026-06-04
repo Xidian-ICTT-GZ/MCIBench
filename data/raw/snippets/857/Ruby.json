@@ -1,1 +1,0 @@
-"# @param {Integer[]} quality\n# @param {Integer[]} wage\n# @param {Integer} k\n# @return {Float}\ndef mincost_to_hire_workers(quality, wage, k)\n    \nend"

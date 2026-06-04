@@ -1,1 +1,0 @@
-"/*\n// Definition for a Node.\nclass Node {\n    int val;\n    Node next;\n    Node random;\n\n    public Node(int val) {\n        this.val = val;\n        this.next = null;\n        this.random = null;\n    }\n}\n*/\n\nclass Solution {\n    public Node copyRandomList(Node head) {\n        \n    }\n}"

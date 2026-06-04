@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[][] $points\n     * @return Boolean\n     */\n    function isBoomerang($points) {\n        \n    }\n}"

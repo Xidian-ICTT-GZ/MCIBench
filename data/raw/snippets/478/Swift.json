@@ -1,1 +1,0 @@
-"\nclass Solution {\n\n    init(_ radius: Double, _ x_center: Double, _ y_center: Double) {\n        \n    }\n    \n    func randPoint() -> [Double] {\n        \n    }\n}\n\n/**\n * Your Solution object will be instantiated and called as such:\n * let obj = Solution(radius, x_center, y_center)\n * let ret_1: [Double] = obj.randPoint()\n */"

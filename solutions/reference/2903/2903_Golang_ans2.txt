@@ -1,0 +1,19 @@
+func findIndices(nums []int, indexDifference int, valueDifference int) []int {
+    minIndex, maxIndex := 0, 0
+    for j := indexDifference; j < len(nums); j++ {
+        i := j - indexDifference
+        if nums[i] < nums[minIndex] {
+            minIndex = i
+        }
+        if nums[j] - nums[minIndex] >= valueDifference {
+            return []int{minIndex, j}
+        }
+        if nums[i] > nums[maxIndex] {
+            maxIndex = i
+        }
+        if nums[maxIndex] - nums[j] >= valueDifference {
+            return []int{maxIndex, j}
+        }
+    }
+    return []int{-1, -1}
+}

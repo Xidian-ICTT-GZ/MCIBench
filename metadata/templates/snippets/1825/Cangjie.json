@@ -1,0 +1,1 @@
+"class MKAverage {\n    init(m: Int64, k: Int64) {\n\n    }\n    \n    func addElement(num: Int64): Unit {\n\n    }\n    \n    func calculateMKAverage(): Int64 {\n\n    }\n}\n\n/**\n * Your MKAverage object will be instantiated and called as such:\n * let obj: MKAverage = MKAverage(m, k)\n * obj.addElement(num)\n * let param_2 = obj.calculateMKAverage()\n */"

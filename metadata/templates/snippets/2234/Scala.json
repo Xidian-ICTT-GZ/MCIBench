@@ -1,0 +1,1 @@
+"object Solution {\n    def maximumBeauty(flowers: Array[Int], newFlowers: Long, target: Int, full: Int, partial: Int): Long = {\n        \n    }\n}"

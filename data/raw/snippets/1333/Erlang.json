@@ -1,1 +1,0 @@
-"-spec filter_restaurants(Restaurants :: [[integer()]], VeganFriendly :: integer(), MaxPrice :: integer(), MaxDistance :: integer()) -> [integer()].\nfilter_restaurants(Restaurants, VeganFriendly, MaxPrice, MaxDistance) ->\n  ."

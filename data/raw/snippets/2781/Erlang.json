@@ -1,1 +1,0 @@
-"-spec longest_valid_substring(Word :: unicode:unicode_binary(), Forbidden :: [unicode:unicode_binary()]) -> integer().\nlongest_valid_substring(Word, Forbidden) ->\n  ."

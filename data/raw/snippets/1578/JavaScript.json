@@ -1,1 +1,0 @@
-"/**\n * @param {string} colors\n * @param {number[]} neededTime\n * @return {number}\n */\nvar minCost = function(colors, neededTime) {\n    \n};"

@@ -1,1 +1,0 @@
-"(define/contract (first-palindrome words)\n  (-> (listof string?) string?)\n  )"

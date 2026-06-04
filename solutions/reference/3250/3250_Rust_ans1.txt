@@ -1,0 +1,23 @@
+impl Solution {
+    pub fn count_of_pairs(nums: Vec<i32>) -> i32 {
+        let n = nums.len();
+        let mut dp = vec![vec![0; 51]; n];
+        let modulo = 1000000007;
+
+        for v in 0..=nums[0] {
+            dp[0][v as usize] = 1;
+        }
+
+        for i in 1..n {
+            for v2 in 0..=nums[i] {
+                for v1 in 0..=v2 {
+                    if nums[i - 1] - v1 >= nums[i] - v2 {
+                        dp[i][v2 as usize] = (dp[i][v2 as usize] + dp[i - 1][v1 as usize]) % modulo;
+                    }
+                }
+            }
+        }
+
+        dp[n - 1].iter().fold(0, |res, &v| (res + v) % modulo)
+    }
+}

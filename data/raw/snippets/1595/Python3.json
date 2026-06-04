@@ -1,1 +1,0 @@
-"class Solution:\n    def connectTwoGroups(self, cost: List[List[int]]) -> int:\n        "

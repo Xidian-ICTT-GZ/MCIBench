@@ -1,0 +1,12 @@
+class Solution:
+    def countWords(self, words1: List[str], words2: List[str]) -> int:
+        
+        freq1 = Counter(words1)
+        freq2 = Counter(words2)
+
+        
+        res = 0
+        for w in freq1:
+            if freq1[w] == 1 and freq2[w] == 1:
+                res += 1
+        return res

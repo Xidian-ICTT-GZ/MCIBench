@@ -1,0 +1,1 @@
+"class Solution:\n    def distributeCandies(self, candyType: List[int]) -> int:\n        "

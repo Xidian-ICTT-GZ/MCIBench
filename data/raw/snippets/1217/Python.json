@@ -1,1 +1,0 @@
-"class Solution(object):\n    def minCostToMoveChips(self, position):\n        \"\"\"\n        :type position: List[int]\n        :rtype: int\n        \"\"\"\n        "

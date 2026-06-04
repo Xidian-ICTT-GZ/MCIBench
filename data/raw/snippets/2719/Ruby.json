@@ -1,1 +1,0 @@
-"# @param {String} num1\n# @param {String} num2\n# @param {Integer} min_sum\n# @param {Integer} max_sum\n# @return {Integer}\ndef count(num1, num2, min_sum, max_sum)\n    \nend"

@@ -1,0 +1,1 @@
+"-spec die_simulator(N :: integer(), RollMax :: [integer()]) -> integer().\ndie_simulator(N, RollMax) ->\n  ."

@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    vector<int> relativeSortArray(vector<int>& arr1, vector<int>& arr2) {\n        \n    }\n};"

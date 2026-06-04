@@ -1,1 +1,0 @@
-"class Solution:\n    def popcountDepth(self, nums: List[int], queries: List[List[int]]) -> List[int]:\n        "

@@ -1,1 +1,0 @@
-"-spec total_hamming_distance(Nums :: [integer()]) -> integer().\ntotal_hamming_distance(Nums) ->\n  ."

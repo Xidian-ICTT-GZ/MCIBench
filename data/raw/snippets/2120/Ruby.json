@@ -1,1 +1,0 @@
-"# @param {Integer} n\n# @param {Integer[]} start_pos\n# @param {String} s\n# @return {Integer[]}\ndef execute_instructions(n, start_pos, s)\n    \nend"

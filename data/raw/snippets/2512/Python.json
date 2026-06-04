@@ -1,1 +1,0 @@
-"class Solution(object):\n    def topStudents(self, positive_feedback, negative_feedback, report, student_id, k):\n        \"\"\"\n        :type positive_feedback: List[str]\n        :type negative_feedback: List[str]\n        :type report: List[str]\n        :type student_id: List[int]\n        :type k: int\n        :rtype: List[int]\n        \"\"\"\n        "

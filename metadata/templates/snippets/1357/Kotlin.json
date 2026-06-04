@@ -1,0 +1,1 @@
+"class Cashier(n: Int, discount: Int, products: IntArray, prices: IntArray) {\n\n    fun getBill(product: IntArray, amount: IntArray): Double {\n        \n    }\n\n}\n\n/**\n * Your Cashier object will be instantiated and called as such:\n * var obj = Cashier(n, discount, products, prices)\n * var param_1 = obj.getBill(product,amount)\n */"

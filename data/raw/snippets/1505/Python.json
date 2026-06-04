@@ -1,1 +1,0 @@
-"class Solution(object):\n    def minInteger(self, num, k):\n        \"\"\"\n        :type num: str\n        :type k: int\n        :rtype: str\n        \"\"\"\n        "

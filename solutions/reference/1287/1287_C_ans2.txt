@@ -1,0 +1,26 @@
+int binarySearch(int *arr, int length, int target) {
+    int lo = 0, hi = length - 1;
+    int res = length;
+    while (lo <= hi) {
+        int mid = (lo + hi) / 2;
+        if (arr[mid] >= target) {
+            res = mid;
+            hi = mid - 1;
+        } else {
+            lo = mid + 1;
+        }
+    }
+    return res;
+}
+
+int findSpecialInteger(int* arr, int arrSize) {
+    int span = arrSize / 4 + 1;
+    for (int i = 0; i < arrSize; i += span) {
+        int start = binarySearch(arr, arrSize, arr[i]);
+        int end = binarySearch(arr, arrSize, arr[i] + 1);
+        if (end - start >= span) {
+            return arr[i];
+        }
+    }
+    return -1;
+}

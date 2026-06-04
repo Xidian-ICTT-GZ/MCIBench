@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec largest_rectangle_area(heights :: [integer]) :: integer\n  def largest_rectangle_area(heights) do\n    \n  end\nend"

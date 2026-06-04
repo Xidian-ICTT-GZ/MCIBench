@@ -1,1 +1,0 @@
-"class LFUCache(capacity: Int) {\n\n    fun get(key: Int): Int {\n        \n    }\n\n    fun put(key: Int, value: Int) {\n        \n    }\n\n}\n\n/**\n * Your LFUCache object will be instantiated and called as such:\n * var obj = LFUCache(capacity)\n * var param_1 = obj.get(key)\n * obj.put(key,value)\n */"

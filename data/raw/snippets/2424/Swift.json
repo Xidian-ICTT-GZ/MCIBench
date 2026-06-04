@@ -1,1 +1,0 @@
-"\nclass LUPrefix {\n\n    init(_ n: Int) {\n        \n    }\n    \n    func upload(_ video: Int) {\n        \n    }\n    \n    func longest() -> Int {\n        \n    }\n}\n\n/**\n * Your LUPrefix object will be instantiated and called as such:\n * let obj = LUPrefix(n)\n * obj.upload(video)\n * let ret_2: Int = obj.longest()\n */"

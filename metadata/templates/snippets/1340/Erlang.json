@@ -1,0 +1,1 @@
+"-spec max_jumps(Arr :: [integer()], D :: integer()) -> integer().\nmax_jumps(Arr, D) ->\n  ."

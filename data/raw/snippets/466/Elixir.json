@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec get_max_repetitions(s1 :: String.t, n1 :: integer, s2 :: String.t, n2 :: integer) :: integer\n  def get_max_repetitions(s1, n1, s2, n2) do\n    \n  end\nend"

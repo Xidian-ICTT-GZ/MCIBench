@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} nums\n * @return {number}\n */\nvar maxProductDifference = function(nums) {\n    \n};"

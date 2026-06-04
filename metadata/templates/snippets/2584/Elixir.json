@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec find_valid_split(nums :: [integer]) :: integer\n  def find_valid_split(nums) do\n    \n  end\nend"

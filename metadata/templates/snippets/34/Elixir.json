@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec search_range(nums :: [integer], target :: integer) :: [integer]\n  def search_range(nums, target) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"class Solution(object):\n    def countRoutes(self, locations, start, finish, fuel):\n        \"\"\"\n        :type locations: List[int]\n        :type start: int\n        :type finish: int\n        :type fuel: int\n        :rtype: int\n        \"\"\"\n        "

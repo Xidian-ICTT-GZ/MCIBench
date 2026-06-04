@@ -1,0 +1,1 @@
+"# @param {Integer[]} asteroids\n# @return {Integer[]}\ndef asteroid_collision(asteroids)\n    \nend"

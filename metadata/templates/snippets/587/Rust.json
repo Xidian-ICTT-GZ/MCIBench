@@ -1,0 +1,1 @@
+"impl Solution {\n    pub fn outer_trees(trees: Vec<Vec<i32>>) -> Vec<Vec<i32>> {\n        \n    }\n}"

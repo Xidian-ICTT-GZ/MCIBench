@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec number_of_sequence(n :: integer, sick :: [integer]) :: integer\n  def number_of_sequence(n, sick) do\n    \n  end\nend"

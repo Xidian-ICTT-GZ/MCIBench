@@ -1,1 +1,0 @@
-"-spec minimum_finish_time(Tires :: [[integer()]], ChangeTime :: integer(), NumLaps :: integer()) -> integer().\nminimum_finish_time(Tires, ChangeTime, NumLaps) ->\n  ."

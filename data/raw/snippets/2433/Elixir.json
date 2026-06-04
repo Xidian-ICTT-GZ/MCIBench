@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec find_array(pref :: [integer]) :: [integer]\n  def find_array(pref) do\n    \n  end\nend"

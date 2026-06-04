@@ -1,0 +1,5 @@
+public class Solution {
+    public int DistanceTraveled(int mainTank, int additionalTank) {
+        return 10 * (mainTank + Math.Min((mainTank - 1) / 4, additionalTank));
+    }
+}

@@ -1,0 +1,1 @@
+"class MyHashMap() {\n\n    def put(key: Int, value: Int): Unit = {\n        \n    }\n\n    def get(key: Int): Int = {\n        \n    }\n\n    def remove(key: Int): Unit = {\n        \n    }\n\n}\n\n/**\n * Your MyHashMap object will be instantiated and called as such:\n * val obj = new MyHashMap()\n * obj.put(key,value)\n * val param_2 = obj.get(key)\n * obj.remove(key)\n */"

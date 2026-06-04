@@ -1,0 +1,31 @@
+public class MapSum {
+    Dictionary<string, int> dictionary;
+    Dictionary<string, int> prefixDictionary;
+
+    public MapSum() {
+        dictionary = new Dictionary<string, int>();
+        prefixDictionary = new Dictionary<string, int>();
+    }
+    
+    public void Insert(string key, int val) {
+        int delta = val;
+        if (dictionary.ContainsKey(key)) {
+            delta -= dictionary[key];
+            dictionary[key] = val;
+        } else {
+            dictionary.Add(key, val);
+        }
+        for (int i = 1; i <= key.Length; ++i) {
+            string currprefix = key.Substring(0, i);
+            if (prefixDictionary.ContainsKey(currprefix)) {
+                prefixDictionary[currprefix] += delta;
+            } else {
+                prefixDictionary.Add(currprefix, delta);
+            }
+        }
+    }
+    
+    public int Sum(string prefix) {
+        return prefixDictionary.ContainsKey(prefix) ? prefixDictionary[prefix] : 0;
+    }
+}

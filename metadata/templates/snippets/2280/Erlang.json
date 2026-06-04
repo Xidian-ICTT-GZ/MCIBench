@@ -1,0 +1,1 @@
+"-spec minimum_lines(StockPrices :: [[integer()]]) -> integer().\nminimum_lines(StockPrices) ->\n  ."

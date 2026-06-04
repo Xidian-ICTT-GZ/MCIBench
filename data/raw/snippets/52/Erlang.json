@@ -1,1 +1,0 @@
-"-spec total_n_queens(N :: integer()) -> integer().\ntotal_n_queens(N) ->\n  ."

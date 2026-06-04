@@ -1,0 +1,1 @@
+"class Solution {\n    fun transpose(matrix: Array<IntArray>): Array<IntArray> {\n        \n    }\n}"

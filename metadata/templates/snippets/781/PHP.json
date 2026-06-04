@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $answers\n     * @return Integer\n     */\n    function numRabbits($answers) {\n        \n    }\n}"

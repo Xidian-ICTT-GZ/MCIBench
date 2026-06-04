@@ -1,1 +1,0 @@
-"(define recent-counter%\n  (class object%\n    (super-new)\n    \n    (init-field)\n    \n    ; ping : exact-integer? -> exact-integer?\n    (define/public (ping t)\n      )))\n\n;; Your recent-counter% object will be instantiated and called as such:\n;; (define obj (new recent-counter%))\n;; (define param_1 (send obj ping t))"

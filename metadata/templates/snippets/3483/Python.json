@@ -1,0 +1,1 @@
+"class Solution(object):\n    def totalNumbers(self, digits):\n        \"\"\"\n        :type digits: List[int]\n        :rtype: int\n        \"\"\"\n        "

@@ -1,0 +1,49 @@
+public class Solution {
+    Random random = new Random();
+
+    public int KthLargestValue(int[][] matrix, int k) {
+        int m = matrix.Length, n = matrix[0].Length;
+        int[,] pre = new int[m + 1, n + 1];
+        List<int> results = new List<int>();
+        for (int i = 1; i <= m; ++i) {
+            for (int j = 1; j <= n; ++j) {
+                pre[i, j] = pre[i - 1, j] ^ pre[i, j - 1] ^ pre[i - 1, j - 1] ^ matrix[i - 1][j - 1];
+                results.Add(pre[i, j]);
+            }
+        }
+
+        NthElement(results, 0, k - 1, results.Count - 1);
+        return results[k - 1];
+    }
+
+    public void NthElement(List<int> results, int left, int kth, int right) {
+        if (left == right) {
+            return;
+        }
+        int pivot = random.Next(left, right + 1);
+        Swap(results, pivot, right);
+        
+        int sepl = left - 1, sepr = left - 1;
+        for (int i = left; i <= right; i++) {
+            if (results[i] > results[right]) {
+                Swap(results, ++sepr, i);
+                Swap(results, ++sepl, sepr);
+            } else if (results[i] == results[right]) {
+                Swap(results, ++sepr, i);
+            }
+        }
+        if (sepl < left + kth && left + kth <= sepr) {
+            return;
+        } else if (left + kth <= sepl) {
+            NthElement(results, left, kth, sepl);
+        } else {
+            NthElement(results, sepr + 1, kth - (sepr - left + 1), right);
+        }
+    }
+
+    public void Swap(List<int> results, int index1, int index2) {
+        int temp = results[index1];
+        results[index1] = results[index2];
+        results[index2] = temp;
+    }
+}

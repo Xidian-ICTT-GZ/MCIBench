@@ -1,1 +1,0 @@
-"-spec count_paths(N :: integer(), Roads :: [[integer()]]) -> integer().\ncount_paths(N, Roads) ->\n  ."

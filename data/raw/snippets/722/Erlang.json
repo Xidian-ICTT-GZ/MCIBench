@@ -1,1 +1,0 @@
-"-spec remove_comments(Source :: [unicode:unicode_binary()]) -> [unicode:unicode_binary()].\nremove_comments(Source) ->\n  ."

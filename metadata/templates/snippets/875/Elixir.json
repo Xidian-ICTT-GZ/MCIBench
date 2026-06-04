@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec min_eating_speed(piles :: [integer], h :: integer) :: integer\n  def min_eating_speed(piles, h) do\n    \n  end\nend"

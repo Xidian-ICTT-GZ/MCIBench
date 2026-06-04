@@ -1,0 +1,1 @@
+"class Solution(object):\n    def minEatingSpeed(self, piles, h):\n        \"\"\"\n        :type piles: List[int]\n        :type h: int\n        :rtype: int\n        \"\"\"\n        "

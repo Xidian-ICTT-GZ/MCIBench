@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String[] $pizza\n     * @param Integer $k\n     * @return Integer\n     */\n    function ways($pizza, $k) {\n        \n    }\n}"

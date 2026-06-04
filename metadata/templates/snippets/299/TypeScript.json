@@ -1,0 +1,1 @@
+"function getHint(secret: string, guess: string): string {\n    \n};"

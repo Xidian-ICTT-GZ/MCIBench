@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String[] $creators\n     * @param String[] $ids\n     * @param Integer[] $views\n     * @return String[][]\n     */\n    function mostPopularCreator($creators, $ids, $views) {\n        \n    }\n}"

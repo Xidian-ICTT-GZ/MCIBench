@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec largest_magic_square(grid :: [[integer]]) :: integer\n  def largest_magic_square(grid) do\n    \n  end\nend"

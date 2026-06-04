@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $triangle\n     * @return Integer\n     */\n    function minimumTotal($triangle) {\n        \n    }\n}"

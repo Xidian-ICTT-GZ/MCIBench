@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    long long calculateScore(vector<string>& instructions, vector<int>& values) {\n        \n    }\n};"

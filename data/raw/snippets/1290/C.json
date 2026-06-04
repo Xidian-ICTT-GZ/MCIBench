@@ -1,1 +1,0 @@
-"/**\n * Definition for singly-linked list.\n * struct ListNode {\n *     int val;\n *     struct ListNode *next;\n * };\n */\nint getDecimalValue(struct ListNode* head) {\n    \n}"

@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer $n\n     * @param String $s1\n     * @param String $s2\n     * @param String $evil\n     * @return Integer\n     */\n    function findGoodStrings($n, $s1, $s2, $evil) {\n        \n    }\n}"

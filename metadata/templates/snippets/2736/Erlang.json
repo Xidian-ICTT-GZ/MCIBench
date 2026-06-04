@@ -1,0 +1,1 @@
+"-spec maximum_sum_queries(Nums1 :: [integer()], Nums2 :: [integer()], Queries :: [[integer()]]) -> [integer()].\nmaximum_sum_queries(Nums1, Nums2, Queries) ->\n  ."

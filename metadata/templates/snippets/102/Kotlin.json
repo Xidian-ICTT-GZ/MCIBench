@@ -1,0 +1,1 @@
+"/**\n * Example:\n * var ti = TreeNode(5)\n * var v = ti.`val`\n * Definition for a binary tree node.\n * class TreeNode(var `val`: Int) {\n *     var left: TreeNode? = null\n *     var right: TreeNode? = null\n * }\n */\nclass Solution {\n    fun levelOrder(root: TreeNode?): List<List<Int>> {\n        \n    }\n}"

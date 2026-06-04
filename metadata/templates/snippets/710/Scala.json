@@ -1,0 +1,1 @@
+"class Solution(_n: Int, _blacklist: Array[Int]) {\n\n    def pick(): Int = {\n        \n    }\n\n}\n\n/**\n * Your Solution object will be instantiated and called as such:\n * val obj = new Solution(n, blacklist)\n * val param_1 = obj.pick()\n */"

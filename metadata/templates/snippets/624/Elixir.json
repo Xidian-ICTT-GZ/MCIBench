@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec max_distance(arrays :: [[integer]]) :: integer\n  def max_distance(arrays) do\n    \n  end\nend"

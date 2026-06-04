@@ -1,0 +1,46 @@
+class AuthenticationManager:
+    def __init__(self, timeToLive: int):
+        self.ttl = timeToLive
+        self.head = Node(-1)
+        self.tail = Node(-1)
+        self.head.next = self.tail
+        self.tail.prev = self.head
+        self.map = {}
+
+    def generate(self, tokenId: str, currentTime: int) -> None:
+        node = Node(currentTime + self.ttl, tokenId)
+        self.map[tokenId] = node
+        last = self.tail.prev
+        last.next = node
+        node.prev = last
+        self.tail.prev = node
+        node.next = self.tail
+
+    def renew(self, tokenId: str, currentTime: int) -> None:
+        if tokenId in self.map and self.map[tokenId].expire > currentTime:
+            node = self.map[tokenId]
+            prev = node.prev
+            next = node.next
+            prev.next = next
+            next.prev = prev
+            node.expire = currentTime + self.ttl
+            last = self.tail.prev
+            last.next = node
+            node.prev = last
+            self.tail.prev = node
+            node.next = self.tail
+        
+    def countUnexpiredTokens(self, currentTime: int) -> int:
+        while self.head.next.expire != -1 and self.head.next.expire <= currentTime:
+            node = self.head.next
+            self.map.pop(node.key)
+            self.head.next = node.next
+            node.next.prev = self.head
+        return len(self.map)
+
+class Node:
+    def __init__(self, val=0, key=None, prev=None, next=None):
+        self.expire = val
+        self.key = key
+        self.prev = prev
+        self.next = next

@@ -1,1 +1,0 @@
-"-spec min_difference(N :: integer(), K :: integer()) -> [integer()].\nmin_difference(N, K) ->\n  ."

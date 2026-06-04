@@ -1,1 +1,0 @@
-"class Solution(object):\n    def furthestBuilding(self, heights, bricks, ladders):\n        \"\"\"\n        :type heights: List[int]\n        :type bricks: int\n        :type ladders: int\n        :rtype: int\n        \"\"\"\n        "

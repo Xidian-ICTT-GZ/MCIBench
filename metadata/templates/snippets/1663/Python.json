@@ -1,0 +1,1 @@
+"class Solution(object):\n    def getSmallestString(self, n, k):\n        \"\"\"\n        :type n: int\n        :type k: int\n        :rtype: str\n        \"\"\"\n        "

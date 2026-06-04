@@ -1,1 +1,0 @@
-"class Solution(object):\n    def wordCount(self, startWords, targetWords):\n        \"\"\"\n        :type startWords: List[str]\n        :type targetWords: List[str]\n        :rtype: int\n        \"\"\"\n        "

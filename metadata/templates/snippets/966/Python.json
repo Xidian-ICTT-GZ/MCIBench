@@ -1,0 +1,1 @@
+"class Solution(object):\n    def spellchecker(self, wordlist, queries):\n        \"\"\"\n        :type wordlist: List[str]\n        :type queries: List[str]\n        :rtype: List[str]\n        \"\"\"\n        "

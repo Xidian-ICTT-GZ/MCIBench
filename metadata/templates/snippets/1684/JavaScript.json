@@ -1,0 +1,1 @@
+"/**\n * @param {string} allowed\n * @param {string[]} words\n * @return {number}\n */\nvar countConsistentStrings = function(allowed, words) {\n    \n};"

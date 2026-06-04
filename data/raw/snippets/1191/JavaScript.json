@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} arr\n * @param {number} k\n * @return {number}\n */\nvar kConcatenationMaxSum = function(arr, k) {\n    \n};"

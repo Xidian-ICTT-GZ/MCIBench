@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    bool isEscapePossible(vector<vector<int>>& blocked, vector<int>& source, vector<int>& target) {\n        \n    }\n};"

@@ -1,1 +1,0 @@
-"-spec min_operations(Nums :: [integer()], NumsDivide :: [integer()]) -> integer().\nmin_operations(Nums, NumsDivide) ->\n  ."

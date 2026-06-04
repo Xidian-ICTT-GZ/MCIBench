@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $date\n     * @return Integer\n     */\n    function dayOfYear($date) {\n        \n    }\n}"

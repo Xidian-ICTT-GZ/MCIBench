@@ -1,1 +1,0 @@
-"(define/contract (strong-password-checker-ii password)\n  (-> string? boolean?)\n  )"

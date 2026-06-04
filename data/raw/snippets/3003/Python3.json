@@ -1,1 +1,0 @@
-"class Solution:\n    def maxPartitionsAfterOperations(self, s: str, k: int) -> int:\n        "

@@ -1,0 +1,1 @@
+"class Solution(object):\n    def canReach(self, s, minJump, maxJump):\n        \"\"\"\n        :type s: str\n        :type minJump: int\n        :type maxJump: int\n        :rtype: bool\n        \"\"\"\n        "

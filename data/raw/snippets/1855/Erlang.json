@@ -1,1 +1,0 @@
-"-spec max_distance(Nums1 :: [integer()], Nums2 :: [integer()]) -> integer().\nmax_distance(Nums1, Nums2) ->\n  ."

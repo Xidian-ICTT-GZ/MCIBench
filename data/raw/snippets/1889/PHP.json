@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $packages\n     * @param Integer[][] $boxes\n     * @return Integer\n     */\n    function minWastedSpace($packages, $boxes) {\n        \n    }\n}"

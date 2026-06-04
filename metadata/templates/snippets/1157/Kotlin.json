@@ -1,0 +1,1 @@
+"class MajorityChecker(arr: IntArray) {\n\n    fun query(left: Int, right: Int, threshold: Int): Int {\n        \n    }\n\n}\n\n/**\n * Your MajorityChecker object will be instantiated and called as such:\n * var obj = MajorityChecker(arr)\n * var param_1 = obj.query(left,right,threshold)\n */"

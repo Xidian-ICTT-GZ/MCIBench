@@ -1,0 +1,1 @@
+"# @param {String[]} queries\n# @param {String} pattern\n# @return {Boolean[]}\ndef camel_match(queries, pattern)\n    \nend"

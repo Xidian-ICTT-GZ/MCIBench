@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    int countRestrictedPaths(int n, vector<vector<int>>& edges) {\n        \n    }\n};"

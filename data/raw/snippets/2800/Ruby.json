@@ -1,1 +1,0 @@
-"# @param {String} a\n# @param {String} b\n# @param {String} c\n# @return {String}\ndef minimum_string(a, b, c)\n    \nend"

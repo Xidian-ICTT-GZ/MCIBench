@@ -1,1 +1,0 @@
-"(define/contract (find-restaurant list1 list2)\n  (-> (listof string?) (listof string?) (listof string?))\n  )"

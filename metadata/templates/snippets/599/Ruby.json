@@ -1,0 +1,1 @@
+"# @param {String[]} list1\n# @param {String[]} list2\n# @return {String[]}\ndef find_restaurant(list1, list2)\n    \nend"

@@ -1,1 +1,0 @@
-"import pandas as pd\n\ndef count_followers(followers: pd.DataFrame) -> pd.DataFrame:\n    "

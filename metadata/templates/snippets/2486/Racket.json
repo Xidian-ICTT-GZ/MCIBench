@@ -1,0 +1,1 @@
+"(define/contract (append-characters s t)\n  (-> string? string? exact-integer?)\n  )"

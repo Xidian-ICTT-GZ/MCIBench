@@ -1,1 +1,0 @@
-"# \"\"\"\n# This is Master's API interface.\n# You should not implement it, or speculate about its implementation\n# \"\"\"\n# class Master:\n#     def guess(self, word: str) -> int:\n\nclass Solution:\n    def findSecretWord(self, words: List[str], master: 'Master') -> None:\n        "

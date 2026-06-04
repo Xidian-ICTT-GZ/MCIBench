@@ -1,0 +1,12 @@
+func maximumTripletValue(nums []int) int64 {
+    n := len(nums)
+    var res int64 = 0
+    for k := 2; k < n; k++ {
+        m := nums[0]
+        for j := 1; j < k; j++ {
+            res = max(res, int64(m - nums[j]) * int64(nums[k]))
+            m = max(m, nums[j])
+        }
+    }
+    return res
+}

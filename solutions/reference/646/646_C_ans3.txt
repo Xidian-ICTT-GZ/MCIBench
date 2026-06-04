@@ -1,0 +1,15 @@
+static inline int cmp(const void *pa, const void *pb) {
+    return (*(int **)pa)[1] - (*(int **)pb)[1];
+}
+
+int findLongestChain(int** pairs, int pairsSize, int* pairsColSize){
+    int curr = INT_MIN, res = 0;
+    qsort(pairs, pairsSize, sizeof(int *), cmp);
+    for (int i = 0; i < pairsSize; i++) {
+        if (curr < pairs[i][0]) {
+            curr = pairs[i][1];
+            res += 1;
+        }
+    }
+    return res;
+}

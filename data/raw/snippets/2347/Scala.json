@@ -1,1 +1,0 @@
-"object Solution {\n    def bestHand(ranks: Array[Int], suits: Array[Char]): String = {\n        \n    }\n}"

@@ -1,0 +1,17 @@
+public class Solution {
+    public int MissingNumber(int[] nums) {
+        ISet<int> set = new HashSet<int>();
+        int n = nums.Length;
+        for (int i = 0; i < n; i++) {
+            set.Add(nums[i]);
+        }
+        int missing = -1;
+        for (int i = 0; i <= n; i++) {
+            if (!set.Contains(i)) {
+                missing = i;
+                break;
+            }
+        }
+        return missing;
+    }
+}

@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec minimum_abs_difference(arr :: [integer]) :: [[integer]]\n  def minimum_abs_difference(arr) do\n    \n  end\nend"

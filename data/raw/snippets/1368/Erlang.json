@@ -1,1 +1,0 @@
-"-spec min_cost(Grid :: [[integer()]]) -> integer().\nmin_cost(Grid) ->\n  ."

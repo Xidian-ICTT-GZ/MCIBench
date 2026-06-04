@@ -1,1 +1,0 @@
-"class Solution(object):\n    def closestRoom(self, rooms, queries):\n        \"\"\"\n        :type rooms: List[List[int]]\n        :type queries: List[List[int]]\n        :rtype: List[int]\n        \"\"\"\n        "

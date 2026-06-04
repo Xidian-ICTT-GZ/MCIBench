@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    bool checkValid(vector<vector<int>>& matrix) {\n        \n    }\n};"

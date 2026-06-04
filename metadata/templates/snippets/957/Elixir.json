@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec prison_after_n_days(cells :: [integer], n :: integer) :: [integer]\n  def prison_after_n_days(cells, n) do\n    \n  end\nend"

@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec square_is_white(coordinates :: String.t) :: boolean\n  def square_is_white(coordinates) do\n    \n  end\nend"

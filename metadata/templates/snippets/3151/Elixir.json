@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec is_array_special(nums :: [integer]) :: boolean\n  def is_array_special(nums) do\n    \n  end\nend"

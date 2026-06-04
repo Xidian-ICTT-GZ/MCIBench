@@ -1,1 +1,0 @@
-"class SummaryRanges {\n    init() {\n\n    }\n    \n    func addNum(value: Int64): Unit {\n\n    }\n    \n    func getIntervals(): Array<Array<Int64>> {\n\n    }\n}\n\n/**\n * Your SummaryRanges object will be instantiated and called as such:\n * let obj: SummaryRanges = SummaryRanges()\n * obj.addNum(value)\n * let param_2 = obj.getIntervals()\n */"

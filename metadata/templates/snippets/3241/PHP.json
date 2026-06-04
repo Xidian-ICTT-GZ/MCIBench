@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $edges\n     * @return Integer[]\n     */\n    function timeTaken($edges) {\n        \n    }\n}"

@@ -1,1 +1,0 @@
-"class RangeFreqQuery {\n    constructor(arr: number[]) {\n        \n    }\n\n    query(left: number, right: number, value: number): number {\n        \n    }\n}\n\n/**\n * Your RangeFreqQuery object will be instantiated and called as such:\n * var obj = new RangeFreqQuery(arr)\n * var param_1 = obj.query(left,right,value)\n */"

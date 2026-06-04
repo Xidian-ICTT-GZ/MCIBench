@@ -1,1 +1,0 @@
-"# @param {Character[][]} board\n# @param {String} word\n# @return {Boolean}\ndef exist(board, word)\n    \nend"

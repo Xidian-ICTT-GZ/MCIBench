@@ -1,1 +1,0 @@
-"# @param {Integer[][]} points\n# @param {Integer[][]} queries\n# @return {Integer[]}\ndef count_points(points, queries)\n    \nend"

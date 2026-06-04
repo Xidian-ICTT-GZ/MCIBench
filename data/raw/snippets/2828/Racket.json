@@ -1,1 +1,0 @@
-"(define/contract (is-acronym words s)\n  (-> (listof string?) string? boolean?)\n  )"

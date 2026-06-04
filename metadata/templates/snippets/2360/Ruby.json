@@ -1,0 +1,1 @@
+"# @param {Integer[]} edges\n# @return {Integer}\ndef longest_cycle(edges)\n    \nend"

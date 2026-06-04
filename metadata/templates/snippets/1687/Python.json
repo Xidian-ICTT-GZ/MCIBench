@@ -1,0 +1,1 @@
+"class Solution(object):\n    def boxDelivering(self, boxes, portsCount, maxBoxes, maxWeight):\n        \"\"\"\n        :type boxes: List[List[int]]\n        :type portsCount: int\n        :type maxBoxes: int\n        :type maxWeight: int\n        :rtype: int\n        \"\"\"\n        "

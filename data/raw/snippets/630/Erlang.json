@@ -1,1 +1,0 @@
-"-spec schedule_course(Courses :: [[integer()]]) -> integer().\nschedule_course(Courses) ->\n  ."

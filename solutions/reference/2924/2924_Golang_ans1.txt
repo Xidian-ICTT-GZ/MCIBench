@@ -1,0 +1,17 @@
+func findChampion(n int, edges [][]int) int {
+    degree := make([]int, n)
+    for _, e := range edges {
+        degree[e[1]]++
+    }
+    champion := -1
+    for i, d := range degree {
+        if d == 0 {
+            if champion == -1 {
+                champion = i
+            } else {
+                return -1
+            }
+        }
+    }
+    return champion
+}

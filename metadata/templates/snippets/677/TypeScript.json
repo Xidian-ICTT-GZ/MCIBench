@@ -1,0 +1,1 @@
+"class MapSum {\n    constructor() {\n        \n    }\n\n    insert(key: string, val: number): void {\n        \n    }\n\n    sum(prefix: string): number {\n        \n    }\n}\n\n/**\n * Your MapSum object will be instantiated and called as such:\n * var obj = new MapSum()\n * obj.insert(key,val)\n * var param_2 = obj.sum(prefix)\n */"

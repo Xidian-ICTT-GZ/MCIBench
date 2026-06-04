@@ -1,0 +1,1 @@
+"class Solution {\n    fun escapeGhosts(ghosts: Array<IntArray>, target: IntArray): Boolean {\n        \n    }\n}"

@@ -1,1 +1,0 @@
-"class FreqStack {\n    init() {\n\n    }\n    \n    func push(val: Int64): Unit {\n\n    }\n    \n    func pop(): Int64 {\n\n    }\n}\n\n/**\n * Your FreqStack object will be instantiated and called as such:\n * let obj: FreqStack = FreqStack()\n * obj.push(val)\n * let param_2 = obj.pop()\n */"

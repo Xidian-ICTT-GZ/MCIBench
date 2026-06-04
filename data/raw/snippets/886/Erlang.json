@@ -1,1 +1,0 @@
-"-spec possible_bipartition(N :: integer(), Dislikes :: [[integer()]]) -> boolean().\npossible_bipartition(N, Dislikes) ->\n  ."

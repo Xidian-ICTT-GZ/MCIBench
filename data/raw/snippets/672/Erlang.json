@@ -1,1 +1,0 @@
-"-spec flip_lights(N :: integer(), Presses :: integer()) -> integer().\nflip_lights(N, Presses) ->\n  ."

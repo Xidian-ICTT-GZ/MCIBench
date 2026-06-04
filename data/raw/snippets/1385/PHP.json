@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $arr1\n     * @param Integer[] $arr2\n     * @param Integer $d\n     * @return Integer\n     */\n    function findTheDistanceValue($arr1, $arr2, $d) {\n        \n    }\n}"

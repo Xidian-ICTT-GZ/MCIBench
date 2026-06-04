@@ -1,1 +1,0 @@
-"class CountIntervals:\n\n    def __init__(self):\n        \n\n    def add(self, left: int, right: int) -> None:\n        \n\n    def count(self) -> int:\n        \n\n\n# Your CountIntervals object will be instantiated and called as such:\n# obj = CountIntervals()\n# obj.add(left,right)\n# param_2 = obj.count()"

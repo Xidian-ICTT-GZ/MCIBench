@@ -1,1 +1,0 @@
-"(define/contract (makesquare matchsticks)\n  (-> (listof exact-integer?) boolean?)\n  )"

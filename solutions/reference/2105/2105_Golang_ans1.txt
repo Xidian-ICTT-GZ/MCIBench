@@ -1,0 +1,33 @@
+func minimumRefill(plants []int, capacityA int, capacityB int) int {
+    res := 0   
+    n := len(plants)  
+    posa, posb := 0, n - 1  
+    vala, valb := capacityA, capacityB  
+    
+    for posa < posb {
+        if vala < plants[posa] {
+            res++
+            vala = capacityA - plants[posa]
+        } else {
+            vala -= plants[posa]
+        }
+        posa++
+        if valb < plants[posb] {
+            res++
+            valb = capacityB - plants[posb]
+        } else {
+            valb -= plants[posb]
+        }
+        posb--
+    }
+    
+    if posa == posb {
+        if vala >= valb && vala < plants[posa] {
+            res++
+        }
+        if vala < valb && valb < plants[posb] {
+            res++
+        }
+    }
+    return res
+}

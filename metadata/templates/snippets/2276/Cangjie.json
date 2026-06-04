@@ -1,0 +1,1 @@
+"class CountIntervals {\n    init() {\n\n    }\n    \n    func add(left: Int64, right: Int64): Unit {\n\n    }\n    \n    func count(): Int64 {\n\n    }\n}\n\n/**\n * Your CountIntervals object will be instantiated and called as such:\n * let obj: CountIntervals = CountIntervals()\n * obj.add(left,right)\n * let param_2 = obj.count()\n */"

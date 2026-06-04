@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @param {Integer[][]} requirements\n# @return {Integer}\ndef number_of_permutations(n, requirements)\n    \nend"

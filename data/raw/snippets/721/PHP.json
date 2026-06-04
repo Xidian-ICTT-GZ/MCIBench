@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String[][] $accounts\n     * @return String[][]\n     */\n    function accountsMerge($accounts) {\n        \n    }\n}"

@@ -1,1 +1,0 @@
-"(define/contract (make-string-sorted s)\n  (-> string? exact-integer?)\n  )"

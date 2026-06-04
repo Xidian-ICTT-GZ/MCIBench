@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec max_points(grid :: [[integer]], queries :: [integer]) :: [integer]\n  def max_points(grid, queries) do\n    \n  end\nend"

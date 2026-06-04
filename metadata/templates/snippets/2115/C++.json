@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<string> findAllRecipes(vector<string>& recipes, vector<vector<string>>& ingredients, vector<string>& supplies) {\n        \n    }\n};"

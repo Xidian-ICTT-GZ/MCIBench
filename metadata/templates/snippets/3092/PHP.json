@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer[] $freq\n     * @return Integer[]\n     */\n    function mostFrequentIDs($nums, $freq) {\n        \n    }\n}"

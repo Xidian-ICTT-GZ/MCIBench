@@ -1,1 +1,0 @@
-"/**\n * @param {number} steps\n * @param {number} arrLen\n * @return {number}\n */\nvar numWays = function(steps, arrLen) {\n    \n};"

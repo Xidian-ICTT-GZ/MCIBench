@@ -1,0 +1,1 @@
+"class Solution {\n    fun maxActiveSectionsAfterTrade(s: String, queries: Array<IntArray>): List<Int> {\n        \n    }\n}"

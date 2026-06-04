@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String $floor\n     * @param Integer $numCarpets\n     * @param Integer $carpetLen\n     * @return Integer\n     */\n    function minimumWhiteTiles($floor, $numCarpets, $carpetLen) {\n        \n    }\n}"

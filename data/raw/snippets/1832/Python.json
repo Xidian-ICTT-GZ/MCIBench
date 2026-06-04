@@ -1,1 +1,0 @@
-"class Solution(object):\n    def checkIfPangram(self, sentence):\n        \"\"\"\n        :type sentence: str\n        :rtype: bool\n        \"\"\"\n        "

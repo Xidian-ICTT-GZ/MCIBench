@@ -1,0 +1,1 @@
+"object Solution {\n    def getFinalState(nums: Array[Int], k: Int, multiplier: Int): Array[Int] = {\n        \n    }\n}"

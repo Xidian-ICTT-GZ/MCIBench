@@ -1,0 +1,29 @@
+int minCost(int maxTime, int** edges, int edgesSize, int* edgesColSize, int* passingFees, int passingFeesSize) {
+    int n = passingFeesSize;
+    int f[maxTime + 1][n];
+    for (int i = 0; i <= maxTime; i++) {
+        for (int j = 0; j < n; j++) {
+            f[i][j] = INT_MAX;
+        }
+    }
+    f[0][0] = passingFees[0];
+    for (int t = 1; t <= maxTime; t++) {
+        for (int k = 0; k < edgesSize; k++) {
+            int i = edges[k][0], j = edges[k][1], cost = edges[k][2];
+            if (cost <= t) {
+                if (f[t - cost][j] != INT_MAX) {
+                    f[t][i] = fmin(f[t][i], f[t - cost][j] + passingFees[i]);
+                }
+                if (f[t - cost][i] != INT_MAX) {
+                    f[t][j] = fmin(f[t][j], f[t - cost][i] + passingFees[j]);
+                }
+            }
+        }
+    }
+
+    int ans = INT_MAX;
+    for (int t = 1; t <= maxTime; t++) {
+        ans = fmin(ans, f[t][n - 1]);
+    }
+    return ans == INT_MAX ? -1 : ans;
+}

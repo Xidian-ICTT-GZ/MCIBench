@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec largest_path_value(colors :: String.t, edges :: [[integer]]) :: integer\n  def largest_path_value(colors, edges) do\n    \n  end\nend"

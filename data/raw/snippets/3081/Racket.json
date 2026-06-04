@@ -1,1 +1,0 @@
-"(define/contract (minimize-string-value s)\n  (-> string? string?)\n  )"

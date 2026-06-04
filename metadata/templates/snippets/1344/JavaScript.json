@@ -1,0 +1,1 @@
+"/**\n * @param {number} hour\n * @param {number} minutes\n * @return {number}\n */\nvar angleClock = function(hour, minutes) {\n    \n};"

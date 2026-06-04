@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} nums\n * @param {number} m\n * @return {boolean}\n */\nvar canSplitArray = function(nums, m) {\n    \n};"

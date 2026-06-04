@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} nums\n * @param {number} k\n * @param {number} op1\n * @param {number} op2\n * @return {number}\n */\nvar minArraySum = function(nums, k, op1, op2) {\n    \n};"

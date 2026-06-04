@@ -1,1 +1,0 @@
-"-spec maximum_value_sum(Nums :: [integer()], K :: integer(), Edges :: [[integer()]]) -> integer().\nmaximum_value_sum(Nums, K, Edges) ->\n  ."

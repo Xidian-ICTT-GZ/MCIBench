@@ -1,1 +1,0 @@
-"class NumberContainers {\n    constructor() {\n        \n    }\n\n    change(index: number, number: number): void {\n        \n    }\n\n    find(number: number): number {\n        \n    }\n}\n\n/**\n * Your NumberContainers object will be instantiated and called as such:\n * var obj = new NumberContainers()\n * obj.change(index,number)\n * var param_2 = obj.find(number)\n */"

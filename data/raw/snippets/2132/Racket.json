@@ -1,1 +1,0 @@
-"(define/contract (possible-to-stamp grid stampHeight stampWidth)\n  (-> (listof (listof exact-integer?)) exact-integer? exact-integer? boolean?)\n  )"

@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<vector<int>> allPathsSourceTarget(vector<vector<int>>& graph) {\n        \n    }\n};"

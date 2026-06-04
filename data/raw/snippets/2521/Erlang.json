@@ -1,1 +1,0 @@
-"-spec distinct_prime_factors(Nums :: [integer()]) -> integer().\ndistinct_prime_factors(Nums) ->\n  ."

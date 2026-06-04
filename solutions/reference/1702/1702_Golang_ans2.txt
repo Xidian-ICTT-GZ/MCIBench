@@ -1,0 +1,11 @@
+func maximumBinaryString(binary string) string {
+    n := len(binary)
+    i := strings.Index(binary, "0")
+    if i < 0 {
+        return binary
+    }
+    zeros := strings.Count(binary, "0")
+    s := []rune(strings.Repeat("1", n))
+    s[i + zeros - 1] = '0'
+    return string(s)
+}

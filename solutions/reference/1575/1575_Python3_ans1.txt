@@ -1,0 +1,20 @@
+class Solution:
+    def countRoutes(self, locations: List[int], start: int, finish: int, fuel: int) -> int:
+        n = len(locations)
+        
+        @lru_cache(None)
+        def dfs(pos, rest):
+            if abs(locations[pos] - locations[finish]) > rest:
+                return 0
+                
+            ans = 0
+            for i, loc in enumerate(locations):
+                if pos != i:
+                    cost = abs(locations[pos] - loc)
+                    if cost <= rest:
+                        ans += dfs(i, rest - cost)
+            if pos == finish:
+                ans += 1
+            return ans % 1000000007
+                        
+        return dfs(start, fuel)

@@ -1,0 +1,1 @@
+"class Solution(object):\n    def isSolvable(self, words, result):\n        \"\"\"\n        :type words: List[str]\n        :type result: str\n        :rtype: bool\n        \"\"\"\n        "

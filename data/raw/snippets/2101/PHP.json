@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[][] $bombs\n     * @return Integer\n     */\n    function maximumDetonation($bombs) {\n        \n    }\n}"

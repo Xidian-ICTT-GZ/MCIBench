@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec maximum_weight(intervals :: [[integer]]) :: [integer]\n  def maximum_weight(intervals) do\n    \n  end\nend"

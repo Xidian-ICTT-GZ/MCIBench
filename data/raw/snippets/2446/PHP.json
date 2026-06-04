@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String[] $event1\n     * @param String[] $event2\n     * @return Boolean\n     */\n    function haveConflict($event1, $event2) {\n        \n    }\n}"

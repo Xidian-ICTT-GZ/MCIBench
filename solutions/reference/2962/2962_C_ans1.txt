@@ -1,0 +1,27 @@
+long long countSubarrays(int* nums, int n, int k) {
+    int mx = INT_MIN;
+    for (int i = 0; i < n; i++) {
+        if (nums[i] > mx) {
+            mx = nums[i];
+        }
+    }
+
+    int pos[100005];
+    int pSize = 0;
+    pos[pSize++] = -1;
+    for (int i = 0; i < n; i++) {
+        if (nums[i] == mx) {
+            pos[pSize++] = i;
+        }
+    }
+
+    int left = 1, right = k;
+    long long ans = 0;
+    while (right < pSize) {
+        ans += (long long)(pos[left] - pos[left - 1]) * (n - pos[right]);
+        left++;
+        right++;
+    }
+
+    return ans;
+}

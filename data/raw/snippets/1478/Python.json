@@ -1,1 +1,0 @@
-"class Solution(object):\n    def minDistance(self, houses, k):\n        \"\"\"\n        :type houses: List[int]\n        :type k: int\n        :rtype: int\n        \"\"\"\n        "

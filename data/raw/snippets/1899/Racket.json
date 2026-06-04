@@ -1,1 +1,0 @@
-"(define/contract (merge-triplets triplets target)\n  (-> (listof (listof exact-integer?)) (listof exact-integer?) boolean?)\n  )"

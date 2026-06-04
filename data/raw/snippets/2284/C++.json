@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    string largestWordCount(vector<string>& messages, vector<string>& senders) {\n        \n    }\n};"

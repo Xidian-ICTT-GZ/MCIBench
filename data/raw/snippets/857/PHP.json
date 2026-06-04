@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $quality\n     * @param Integer[] $wage\n     * @param Integer $k\n     * @return Float\n     */\n    function mincostToHireWorkers($quality, $wage, $k) {\n        \n    }\n}"

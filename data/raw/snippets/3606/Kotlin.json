@@ -1,1 +1,0 @@
-"class Solution {\n    fun validateCoupons(code: Array<String>, businessLine: Array<String>, isActive: BooleanArray): List<String> {\n        \n    }\n}"

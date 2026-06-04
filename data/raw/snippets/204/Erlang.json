@@ -1,1 +1,0 @@
-"-spec count_primes(N :: integer()) -> integer().\ncount_primes(N) ->\n  ."

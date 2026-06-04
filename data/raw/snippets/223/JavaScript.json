@@ -1,1 +1,0 @@
-"/**\n * @param {number} ax1\n * @param {number} ay1\n * @param {number} ax2\n * @param {number} ay2\n * @param {number} bx1\n * @param {number} by1\n * @param {number} bx2\n * @param {number} by2\n * @return {number}\n */\nvar computeArea = function(ax1, ay1, ax2, ay2, bx1, by1, bx2, by2) {\n    \n};"

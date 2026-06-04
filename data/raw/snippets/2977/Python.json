@@ -1,1 +1,0 @@
-"class Solution(object):\n    def minimumCost(self, source, target, original, changed, cost):\n        \"\"\"\n        :type source: str\n        :type target: str\n        :type original: List[str]\n        :type changed: List[str]\n        :type cost: List[int]\n        :rtype: int\n        \"\"\"\n        "

@@ -1,0 +1,1 @@
+"class Solution:\n    def maxProfit(self, n: int, edges: List[List[int]], score: List[int]) -> int:\n        "

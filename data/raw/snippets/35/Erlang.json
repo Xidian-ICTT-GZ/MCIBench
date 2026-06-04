@@ -1,1 +1,0 @@
-"-spec search_insert(Nums :: [integer()], Target :: integer()) -> integer().\nsearch_insert(Nums, Target) ->\n  ."

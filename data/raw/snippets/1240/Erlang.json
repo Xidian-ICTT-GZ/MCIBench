@@ -1,1 +1,0 @@
-"-spec tiling_rectangle(N :: integer(), M :: integer()) -> integer().\ntiling_rectangle(N, M) ->\n  ."

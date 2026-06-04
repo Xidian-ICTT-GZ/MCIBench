@@ -1,0 +1,1 @@
+"-spec number_of_sequence(N :: integer(), Sick :: [integer()]) -> integer().\nnumber_of_sequence(N, Sick) ->\n  ."

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec find_min_fibonacci_numbers(k :: integer) :: integer\n  def find_min_fibonacci_numbers(k) do\n    \n  end\nend"

@@ -1,1 +1,0 @@
-"-spec special_triplets(Nums :: [integer()]) -> integer().\nspecial_triplets(Nums) ->\n  ."

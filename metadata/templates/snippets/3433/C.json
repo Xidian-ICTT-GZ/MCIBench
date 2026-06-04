@@ -1,0 +1,1 @@
+"/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* countMentions(int numberOfUsers, char*** events, int eventsSize, int* eventsColSize, int* returnSize) {\n    \n}"

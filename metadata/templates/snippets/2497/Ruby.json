@@ -1,0 +1,1 @@
+"# @param {Integer[]} vals\n# @param {Integer[][]} edges\n# @param {Integer} k\n# @return {Integer}\ndef max_star_sum(vals, edges, k)\n    \nend"

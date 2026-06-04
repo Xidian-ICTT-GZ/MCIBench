@@ -1,0 +1,1 @@
+"-spec kth_grammar(N :: integer(), K :: integer()) -> integer().\nkth_grammar(N, K) ->\n  ."

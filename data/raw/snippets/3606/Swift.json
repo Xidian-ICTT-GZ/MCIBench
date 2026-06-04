@@ -1,1 +1,0 @@
-"class Solution {\n    func validateCoupons(_ code: [String], _ businessLine: [String], _ isActive: [Bool]) -> [String] {\n        \n    }\n}"

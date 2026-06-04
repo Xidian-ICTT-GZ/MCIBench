@@ -1,1 +1,0 @@
-"class Solution:\n    def lexicalOrder(self, n: int) -> List[int]:\n        "

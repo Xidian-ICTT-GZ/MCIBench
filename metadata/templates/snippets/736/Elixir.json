@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec evaluate(expression :: String.t) :: integer\n  def evaluate(expression) do\n    \n  end\nend"

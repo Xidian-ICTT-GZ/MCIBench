@@ -1,1 +1,0 @@
-"/**\n * @param {number[][]} items1\n * @param {number[][]} items2\n * @return {number[][]}\n */\nvar mergeSimilarItems = function(items1, items2) {\n    \n};"

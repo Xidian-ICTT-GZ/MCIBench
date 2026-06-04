@@ -1,0 +1,1 @@
+"# @param {Integer[][]} rectangles\n# @param {Integer[][]} points\n# @return {Integer[]}\ndef count_rectangles(rectangles, points)\n    \nend"

@@ -1,1 +1,0 @@
-"/**\n * Definition for singly-linked list.\n * struct ListNode {\n *     int val;\n *     struct ListNode *next;\n * };\n */\nstruct ListNode* removeNthFromEnd(struct ListNode* head, int n) {\n    \n}"

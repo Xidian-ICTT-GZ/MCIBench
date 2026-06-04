@@ -1,1 +1,0 @@
-"# @param {String} sentence\n# @return {Boolean}\ndef is_circular_sentence(sentence)\n    \nend"

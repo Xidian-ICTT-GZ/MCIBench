@@ -1,1 +1,0 @@
-"object Solution {\n    def kthLargestNumber(nums: Array[String], k: Int): String = {\n        \n    }\n}"

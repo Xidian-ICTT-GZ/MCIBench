@@ -1,0 +1,1 @@
+"object Solution {\n    def minimumTime(time: Array[Int], totalTrips: Int): Long = {\n        \n    }\n}"

@@ -1,1 +1,0 @@
-"# @param {Integer[]} positions\n# @param {Integer[]} healths\n# @param {String} directions\n# @return {Integer[]}\ndef survived_robots_healths(positions, healths, directions)\n    \nend"

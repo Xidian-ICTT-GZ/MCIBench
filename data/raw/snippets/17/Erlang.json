@@ -1,1 +1,0 @@
-"-spec letter_combinations(Digits :: unicode:unicode_binary()) -> [unicode:unicode_binary()].\nletter_combinations(Digits) ->\n  ."

@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $locations\n     * @param Integer $start\n     * @param Integer $finish\n     * @param Integer $fuel\n     * @return Integer\n     */\n    function countRoutes($locations, $start, $finish, $fuel) {\n        \n    }\n}"

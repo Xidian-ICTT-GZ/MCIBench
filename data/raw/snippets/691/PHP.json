@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String[] $stickers\n     * @param String $target\n     * @return Integer\n     */\n    function minStickers($stickers, $target) {\n        \n    }\n}"

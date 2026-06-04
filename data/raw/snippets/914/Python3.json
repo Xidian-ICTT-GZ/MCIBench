@@ -1,1 +1,0 @@
-"class Solution:\n    def hasGroupsSizeX(self, deck: List[int]) -> bool:\n        "

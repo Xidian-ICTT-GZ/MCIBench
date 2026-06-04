@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    int minimumTime(int n, vector<vector<int>>& relations, vector<int>& time) {\n        \n    }\n};"

@@ -1,0 +1,1 @@
+"-spec product_queries(N :: integer(), Queries :: [[integer()]]) -> [integer()].\nproduct_queries(N, Queries) ->\n  ."

@@ -1,0 +1,12 @@
+func maximum69Number(num int) int {
+    digitBase := int(math.Pow10(int(math.Log10(float64(num)))))
+    for digitBase > 0 {
+        if (num / digitBase) % 10 == 6 {
+            num += 3 * digitBase
+            return num
+        }
+        digitBase /= 10
+    }
+    
+    return num
+}

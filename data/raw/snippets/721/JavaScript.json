@@ -1,1 +1,0 @@
-"/**\n * @param {string[][]} accounts\n * @return {string[][]}\n */\nvar accountsMerge = function(accounts) {\n    \n};"

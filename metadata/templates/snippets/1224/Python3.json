@@ -1,0 +1,1 @@
+"class Solution:\n    def maxEqualFreq(self, nums: List[int]) -> int:\n        "

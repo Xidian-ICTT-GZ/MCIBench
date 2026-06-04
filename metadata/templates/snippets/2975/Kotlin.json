@@ -1,0 +1,1 @@
+"class Solution {\n    fun maximizeSquareArea(m: Int, n: Int, hFences: IntArray, vFences: IntArray): Int {\n        \n    }\n}"

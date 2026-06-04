@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String[][] $favoriteCompanies\n     * @return Integer[]\n     */\n    function peopleIndexes($favoriteCompanies) {\n        \n    }\n}"

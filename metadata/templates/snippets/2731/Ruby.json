@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @param {String} s\n# @param {Integer} d\n# @return {Integer}\ndef sum_distance(nums, s, d)\n    \nend"

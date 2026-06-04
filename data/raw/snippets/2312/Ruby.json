@@ -1,1 +1,0 @@
-"# @param {Integer} m\n# @param {Integer} n\n# @param {Integer[][]} prices\n# @return {Integer}\ndef selling_wood(m, n, prices)\n    \nend"

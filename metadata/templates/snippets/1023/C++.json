@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<bool> camelMatch(vector<string>& queries, string pattern) {\n        \n    }\n};"

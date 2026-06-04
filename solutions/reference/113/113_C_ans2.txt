@@ -1,0 +1,88 @@
+int** ret;
+int retSize;
+int* retColSize;
+
+int* path;
+int pathSize;
+
+typedef struct {
+    struct TreeNode* key;
+    struct TreeNode* val;
+    UT_hash_handle hh;
+} hashTable;
+
+hashTable* parent;
+
+void insertHashTable(struct TreeNode* x, struct TreeNode* y) {
+    hashTable* rec = malloc(sizeof(hashTable));
+    rec->key = x;
+    rec->val = y;
+    HASH_ADD_PTR(parent, key, rec);
+}
+
+struct TreeNode* queryHashTable(struct TreeNode* x) {
+    hashTable* rec;
+    HASH_FIND_PTR(parent, &x, rec);
+    return rec->val;
+}
+
+void getPath(struct TreeNode* node) {
+    int* tmp = malloc(sizeof(int) * 2001);
+    int tmpSize = 0;
+    while (node != NULL) {
+        tmp[tmpSize++] = node->val;
+        node = queryHashTable(node);
+    }
+    for (int i = 0; i < tmpSize / 2; i++) {
+        int t = tmp[i];
+        tmp[i] = tmp[tmpSize - 1 - i], tmp[tmpSize - 1 - i] = t;
+    }
+    ret[retSize] = tmp;
+    retColSize[retSize++] = tmpSize;
+}
+
+int** pathSum(struct TreeNode* root, int targetSum, int* returnSize, int** returnColumnSizes) {
+    ret = malloc(sizeof(int*) * 2001);
+    retColSize = malloc(sizeof(int) * 2001);
+    path = malloc(sizeof(int) * 2001);
+    retSize = pathSize = 0;
+    parent = NULL;
+    insertHashTable(root, NULL);
+
+    if (root == NULL) {
+        *returnColumnSizes = retColSize;
+        *returnSize = retSize;
+        return ret;
+    }
+
+    struct TreeNode* que_node[10001];
+    int que_sum[10001];
+    int left = 0, right = 0;
+    que_node[right] = root;
+    que_sum[right++] = 0;
+
+    while (left < right) {
+        struct TreeNode* node = que_node[left];
+        int rec = que_sum[left++] + node->val;
+        if (node->left == NULL && node->right == NULL) {
+            if (rec == targetSum) {
+                getPath(node);
+            }
+        } else {
+            if (node->left != NULL) {
+                insertHashTable(node->left, node);
+                que_node[right] = node->left;
+                que_sum[right++] = rec;
+            }
+            if (node->right != NULL) {
+                insertHashTable(node->right, node);
+                que_node[right] = node->right;
+                que_sum[right++] = rec;
+            }
+        }
+    }
+
+    *returnColumnSizes = retColSize;
+    *returnSize = retSize;
+    return ret;
+}

@@ -1,1 +1,0 @@
-"class Solution:\n    def isPathCrossing(self, path: str) -> bool:\n        "

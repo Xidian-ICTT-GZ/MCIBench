@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec maximum_strong_pair_xor(nums :: [integer]) :: integer\n  def maximum_strong_pair_xor(nums) do\n    \n  end\nend"

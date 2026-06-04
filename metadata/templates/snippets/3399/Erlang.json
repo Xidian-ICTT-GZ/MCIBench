@@ -1,0 +1,1 @@
+"-spec min_length(S :: unicode:unicode_binary(), NumOps :: integer()) -> integer().\nmin_length(S, NumOps) ->\n  ."

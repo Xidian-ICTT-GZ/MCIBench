@@ -1,1 +1,0 @@
-"class Solution(object):\n    def bagOfTokensScore(self, tokens, power):\n        \"\"\"\n        :type tokens: List[int]\n        :type power: int\n        :rtype: int\n        \"\"\"\n        "

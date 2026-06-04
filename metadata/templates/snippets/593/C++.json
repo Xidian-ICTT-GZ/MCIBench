@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    bool validSquare(vector<int>& p1, vector<int>& p2, vector<int>& p3, vector<int>& p4) {\n        \n    }\n};"

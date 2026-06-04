@@ -1,1 +1,0 @@
-"(define/contract (maximum-number num change)\n  (-> string? (listof exact-integer?) string?)\n  )"

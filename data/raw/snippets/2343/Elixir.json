@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec smallest_trimmed_numbers(nums :: [String.t], queries :: [[integer]]) :: [integer]\n  def smallest_trimmed_numbers(nums, queries) do\n    \n  end\nend"

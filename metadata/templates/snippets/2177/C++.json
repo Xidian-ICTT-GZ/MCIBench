@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<long long> sumOfThree(long long num) {\n        \n    }\n};"

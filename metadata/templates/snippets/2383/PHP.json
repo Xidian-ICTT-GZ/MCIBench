@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $initialEnergy\n     * @param Integer $initialExperience\n     * @param Integer[] $energy\n     * @param Integer[] $experience\n     * @return Integer\n     */\n    function minNumberOfHours($initialEnergy, $initialExperience, $energy, $experience) {\n        \n    }\n}"

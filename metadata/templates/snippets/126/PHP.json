@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $beginWord\n     * @param String $endWord\n     * @param String[] $wordList\n     * @return String[][]\n     */\n    function findLadders($beginWord, $endWord, $wordList) {\n        \n    }\n}"

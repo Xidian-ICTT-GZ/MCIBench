@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String[] $classroom\n     * @param Integer $energy\n     * @return Integer\n     */\n    function minMoves($classroom, $energy) {\n        \n    }\n}"

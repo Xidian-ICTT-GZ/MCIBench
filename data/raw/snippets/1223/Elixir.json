@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec die_simulator(n :: integer, roll_max :: [integer]) :: integer\n  def die_simulator(n, roll_max) do\n    \n  end\nend"

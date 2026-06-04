@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $weight\n     * @return Integer\n     */\n    function maxBalancedShipments($weight) {\n        \n    }\n}"

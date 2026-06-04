@@ -1,1 +1,0 @@
-"# @param {Integer} n\n# @param {Integer[]} roll_max\n# @return {Integer}\ndef die_simulator(n, roll_max)\n    \nend"

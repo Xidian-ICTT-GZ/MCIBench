@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $nextVisit\n     * @return Integer\n     */\n    function firstDayBeenInAllRooms($nextVisit) {\n        \n    }\n}"

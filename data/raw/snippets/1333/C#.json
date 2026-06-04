@@ -1,1 +1,0 @@
-"public class Solution {\n    public IList<int> FilterRestaurants(int[][] restaurants, int veganFriendly, int maxPrice, int maxDistance) {\n        \n    }\n}"

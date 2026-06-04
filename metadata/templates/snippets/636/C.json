@@ -1,0 +1,1 @@
+"/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* exclusiveTime(int n, char** logs, int logsSize, int* returnSize) {\n    \n}"

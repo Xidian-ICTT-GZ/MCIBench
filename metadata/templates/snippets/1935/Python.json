@@ -1,0 +1,1 @@
+"class Solution(object):\n    def canBeTypedWords(self, text, brokenLetters):\n        \"\"\"\n        :type text: str\n        :type brokenLetters: str\n        :rtype: int\n        \"\"\"\n        "

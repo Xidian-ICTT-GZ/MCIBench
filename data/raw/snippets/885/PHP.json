@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer $rows\n     * @param Integer $cols\n     * @param Integer $rStart\n     * @param Integer $cStart\n     * @return Integer[][]\n     */\n    function spiralMatrixIII($rows, $cols, $rStart, $cStart) {\n        \n    }\n}"

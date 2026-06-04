@@ -1,0 +1,29 @@
+class Solution {
+public:
+    vector<int> vec;
+
+    void inorderTraversal(TreeNode *node) {
+        if (node == nullptr) {
+            return;
+        }
+        inorderTraversal(node->left);
+        vec.push_back(node->val);
+        inorderTraversal(node->right);
+    }
+
+    bool findTarget(TreeNode *root, int k) {
+        inorderTraversal(root);
+        int left = 0, right = vec.size() - 1;
+        while (left < right) {
+            if (vec[left] + vec[right] == k) {
+                return true;
+            }
+            if (vec[left] + vec[right] < k) {
+                left++;
+            } else {
+                right--;
+            }
+        }
+        return false;
+    }
+};

@@ -1,0 +1,1 @@
+"class Solution(object):\n    def maxIceCream(self, costs, coins):\n        \"\"\"\n        :type costs: List[int]\n        :type coins: int\n        :rtype: int\n        \"\"\"\n        "

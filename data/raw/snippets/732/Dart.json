@@ -1,1 +1,0 @@
-"class MyCalendarThree {\n\n  MyCalendarThree() {\n    \n  }\n  \n  int book(int startTime, int endTime) {\n    \n  }\n}\n\n/**\n * Your MyCalendarThree object will be instantiated and called as such:\n * MyCalendarThree obj = MyCalendarThree();\n * int param1 = obj.book(startTime,endTime);\n */"

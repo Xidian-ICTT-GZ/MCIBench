@@ -1,1 +1,0 @@
-"(define/contract (get-biggest-three grid)\n  (-> (listof (listof exact-integer?)) (listof exact-integer?))\n  )"

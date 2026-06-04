@@ -1,1 +1,0 @@
-"/**\n * @param {string} text\n * @param {string} pattern\n * @return {number}\n */\nvar maximumSubsequenceCount = function(text, pattern) {\n    \n};"

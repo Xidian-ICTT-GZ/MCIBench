@@ -1,0 +1,49 @@
+public class Solution {
+    public bool EqualFrequency(string word) {
+        int[] charCount = new int[26];
+        foreach (char c in word) {
+            charCount[c - 'a'] += 1;
+        }
+        Dictionary<int, int> freqCount = new Dictionary<int, int>();
+        foreach (int c in charCount) {
+            if (c > 0) {
+                if (freqCount.ContainsKey(c)) {
+                    freqCount[c] += 1;
+                } else {
+                    freqCount.Add(c, 1);
+                }
+            }
+        }
+        foreach (int c in charCount) {
+            if (c == 0) {
+                continue;
+            }
+            freqCount[c] -= 1;
+            if (freqCount[c] == 0) {
+                freqCount.Remove(c);
+            }
+            if (c - 1 > 0) {
+                if (freqCount.ContainsKey(c - 1)) {
+                    freqCount[c - 1] += 1;
+                } else {
+                    freqCount.Add(c - 1, 1);
+                }
+            }
+            if (freqCount.Count == 1) {
+                return true;
+            }
+            if (c - 1 > 0) {
+                freqCount[c - 1] -= 1;
+                if (freqCount[c - 1] == 0) {
+                    freqCount.Remove(c - 1);
+                }
+            }
+            if (freqCount.ContainsKey(c)) {
+                freqCount[c] += 1;
+            } else {
+                freqCount.Add(c, 1);
+            }
+        }
+        return false;
+    }
+}

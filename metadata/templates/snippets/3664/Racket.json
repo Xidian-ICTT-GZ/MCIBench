@@ -1,0 +1,1 @@
+"(define/contract (score cards x)\n  (-> (listof string?) char? exact-integer?)\n  )"

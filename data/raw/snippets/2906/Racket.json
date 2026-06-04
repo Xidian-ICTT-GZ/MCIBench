@@ -1,1 +1,0 @@
-"(define/contract (construct-product-matrix grid)\n  (-> (listof (listof exact-integer?)) (listof (listof exact-integer?)))\n  )"

@@ -1,1 +1,0 @@
-"-spec distribute_cookies(Cookies :: [integer()], K :: integer()) -> integer().\ndistribute_cookies(Cookies, K) ->\n  ."

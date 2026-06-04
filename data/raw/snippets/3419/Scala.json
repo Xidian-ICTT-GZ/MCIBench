@@ -1,1 +1,0 @@
-"object Solution {\n    def minMaxWeight(n: Int, edges: Array[Array[Int]], threshold: Int): Int = {\n        \n    }\n}"

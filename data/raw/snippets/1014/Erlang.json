@@ -1,1 +1,0 @@
-"-spec max_score_sightseeing_pair(Values :: [integer()]) -> integer().\nmax_score_sightseeing_pair(Values) ->\n  ."

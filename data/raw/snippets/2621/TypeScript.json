@@ -1,1 +1,0 @@
-"async function sleep(millis: number): Promise<void> {\n    \n}\n\n\n/** \n * let t = Date.now()\n * sleep(100).then(() => console.log(Date.now() - t)) // 100\n */"

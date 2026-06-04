@@ -1,1 +1,0 @@
-"-spec max_moves(Grid :: [[integer()]]) -> integer().\nmax_moves(Grid) ->\n  ."

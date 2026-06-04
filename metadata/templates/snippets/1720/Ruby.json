@@ -1,0 +1,1 @@
+"# @param {Integer[]} encoded\n# @param {Integer} first\n# @return {Integer[]}\ndef decode(encoded, first)\n    \nend"

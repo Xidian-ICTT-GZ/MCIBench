@@ -1,1 +1,0 @@
-"-spec matrix_block_sum(Mat :: [[integer()]], K :: integer()) -> [[integer()]].\nmatrix_block_sum(Mat, K) ->\n  ."

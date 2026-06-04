@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec max_rectangle_area(x_coord :: [integer], y_coord :: [integer]) :: integer\n  def max_rectangle_area(x_coord, y_coord) do\n    \n  end\nend"

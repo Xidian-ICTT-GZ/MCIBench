@@ -1,0 +1,1 @@
+"public class Solution {\n    public IList<IList<int>> GetAncestors(int n, int[][] edges) {\n        \n    }\n}"

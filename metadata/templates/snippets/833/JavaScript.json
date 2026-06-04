@@ -1,0 +1,1 @@
+"/**\n * @param {string} s\n * @param {number[]} indices\n * @param {string[]} sources\n * @param {string[]} targets\n * @return {string}\n */\nvar findReplaceString = function(s, indices, sources, targets) {\n    \n};"

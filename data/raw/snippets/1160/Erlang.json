@@ -1,1 +1,0 @@
-"-spec count_characters(Words :: [unicode:unicode_binary()], Chars :: unicode:unicode_binary()) -> integer().\ncount_characters(Words, Chars) ->\n  ."

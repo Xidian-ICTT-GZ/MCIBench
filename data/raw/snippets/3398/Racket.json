@@ -1,1 +1,0 @@
-"(define/contract (min-length s numOps)\n  (-> string? exact-integer? exact-integer?)\n  )"

@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $m\n     * @param Integer $n\n     * @param Integer[][] $guards\n     * @param Integer[][] $walls\n     * @return Integer\n     */\n    function countUnguarded($m, $n, $guards, $walls) {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"-spec add_negabinary(Arr1 :: [integer()], Arr2 :: [integer()]) -> [integer()].\nadd_negabinary(Arr1, Arr2) ->\n  ."

@@ -1,0 +1,1 @@
+"class Solution:\n    def sumOfBeauties(self, nums: List[int]) -> int:\n        "

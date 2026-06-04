@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    vector<int> assignTasks(vector<int>& servers, vector<int>& tasks) {\n        \n    }\n};"

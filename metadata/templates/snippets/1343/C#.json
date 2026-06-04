@@ -1,0 +1,1 @@
+"public class Solution {\n    public int NumOfSubarrays(int[] arr, int k, int threshold) {\n        \n    }\n}"

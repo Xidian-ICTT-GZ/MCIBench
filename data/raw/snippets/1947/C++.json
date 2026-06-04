@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    int maxCompatibilitySum(vector<vector<int>>& students, vector<vector<int>>& mentors) {\n        \n    }\n};"

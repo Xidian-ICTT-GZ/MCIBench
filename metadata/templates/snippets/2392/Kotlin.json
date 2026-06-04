@@ -1,0 +1,1 @@
+"class Solution {\n    fun buildMatrix(k: Int, rowConditions: Array<IntArray>, colConditions: Array<IntArray>): Array<IntArray> {\n        \n    }\n}"

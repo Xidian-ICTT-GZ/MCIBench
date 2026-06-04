@@ -1,1 +1,0 @@
-"-spec minimal_k_sum(Nums :: [integer()], K :: integer()) -> integer().\nminimal_k_sum(Nums, K) ->\n  ."

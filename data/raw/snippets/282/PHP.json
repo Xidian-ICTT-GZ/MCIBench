@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String $num\n     * @param Integer $target\n     * @return String[]\n     */\n    function addOperators($num, $target) {\n        \n    }\n}"

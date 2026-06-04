@@ -1,0 +1,1 @@
+"object Solution {\n    def countConsistentStrings(allowed: String, words: Array[String]): Int = {\n        \n    }\n}"

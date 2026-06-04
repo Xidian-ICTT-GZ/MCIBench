@@ -1,0 +1,1 @@
+"class Solution:\n    def appealSum(self, s: str) -> int:\n        "

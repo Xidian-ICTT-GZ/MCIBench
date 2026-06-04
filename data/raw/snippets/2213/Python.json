@@ -1,1 +1,0 @@
-"class Solution(object):\n    def longestRepeating(self, s, queryCharacters, queryIndices):\n        \"\"\"\n        :type s: str\n        :type queryCharacters: str\n        :type queryIndices: List[int]\n        :rtype: List[int]\n        \"\"\"\n        "

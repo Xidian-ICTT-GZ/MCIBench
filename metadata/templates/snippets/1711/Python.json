@@ -1,0 +1,1 @@
+"class Solution(object):\n    def countPairs(self, deliciousness):\n        \"\"\"\n        :type deliciousness: List[int]\n        :rtype: int\n        \"\"\"\n        "

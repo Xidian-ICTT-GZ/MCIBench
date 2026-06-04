@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[][] $classes\n     * @param Integer $extraStudents\n     * @return Float\n     */\n    function maxAverageRatio($classes, $extraStudents) {\n        \n    }\n}"

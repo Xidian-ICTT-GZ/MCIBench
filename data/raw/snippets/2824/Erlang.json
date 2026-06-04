@@ -1,1 +1,0 @@
-"-spec count_pairs(Nums :: [integer()], Target :: integer()) -> integer().\ncount_pairs(Nums, Target) ->\n  ."

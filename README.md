@@ -1,92 +1,96 @@
-# MCIBench: Benchmarking Multilingual Code Intelligence of Large Language Models
+# MCIBench: Benchmarking Multilingual Code Intelligence
 
 [English](README.en.md) | [中文](README.zh.md)
 
-MCIBench is a multilingual code intelligence benchmark for evaluating large language models on problem-aligned code generation and directed code translation. It emphasizes same-problem multilingual evaluation: models are evaluated on the same programming problems across multiple mainstream programming languages, and accepted programs can be analyzed for functional correctness, runtime, and memory usage.
-
-## Benchmark Overview
-
-| Item | Count |
-|---|---:|
-| Problems | 1,489 |
-| Languages | 8 |
-| Generation qid-language slots | 11,912 |
-| Directed translation language pairs | 56 |
-| Translation task problems | 100 |
-| Original reference-complete problems across all 8 languages | 332 |
-| Augmented complete problems using accepted experimental solutions | 1,466 |
-
-The 8 languages are `C`, `C++`, `C#`, `Java`, `JavaScript`, `Python3`, `Golang`, and `Rust`.
-
-## Tasks and Metrics
-
-MCIBench contains two tasks:
-
-1. Multilingual code generation: generate a solution for each problem in each target language.
-2. Directed code translation: translate a correct source-language solution into another target language.
-
-The main evaluation metrics are functional correctness, `pass@k`, failure type, runtime, and memory usage.
-
-## Supported Models
-
-The benchmark was evaluated using:
-
-- Advanced LLMs: GPT-4o, GLM-4, DeepSeek-v3.2, Claude-3-5-haiku, Qwen3-coder-480B-a35b-instruct
-- Qwen3 scaling series: Qwen3-1.7B, Qwen3-4B, Qwen3-8B, Qwen3-14B, Qwen3-32B
+MCIBench is a multilingual code intelligence benchmark for problem-aligned code generation and directed code translation. It preserves prompts, model outputs, executable submissions, execution status, failure type, runtime, memory usage, and derived pass@k artifacts.
 
 ## Repository Layout
 
 ```text
 MCIBench/
-  data/
-    raw/
-      descriptions/             # LeetCode problem statements organized by qid
-      reference_solutions/      # Reference solutions organized by qid and language
-      snippets/                 # Per-problem, per-language interface snippets
-    metadata/                   # Task ids, languages, language pairs, tags, URLs, and qid mappings
-    indexes/                    # Task indexes and coverage indexes
-
-  artifacts/
-    derived_data/               # Aggregated CSV files and coverage summaries
-    tables/                     # CSV tables used in analysis and reporting
-
-  experiments/
-    generation/
-      submissions.tgz           # Compressed raw generation submissions
-    translation/
-      submissions.tgz           # Compressed raw translation submissions
-
-  Scripts/
-
-  README.md
-  README.en.md
-  README.zh.md
-  .gitignore
+  metadata/       # problems, tags, difficulty labels, templates, indexes
+  solutions/      # reference and execution-validated solutions
+  generation/     # generation outputs, submissions archive, execution records
+  translation/    # translation outputs, submissions archive, execution records
+  scripts/        # evaluation, reproduction, analysis, archive sync scripts
+  dashboard/      # online interface implementation
+  docs/           # README material, tutorial notes, figures, tables, schemas
 ```
 
-## Important Index Files
+## Core Data
 
-| File | Meaning |
+| Path | Content |
 |---|---|
-| `data/indexes/generation_task_qids.txt` | 1,489 generation task qids |
-| `data/indexes/translation_task_qids.txt` | 100 translation-task qids |
-| `data/indexes/translation_task_qids.csv` | Translation qids with difficulty, tags, and URL |
-| `data/indexes/complete_reference_qids.txt` | 332 qids with original reference solutions in all 8 languages |
-| `data/indexes/complete_reference_qids.csv` | Complete original-reference qids with metadata |
-| `data/indexes/complete_augmented_qids.txt` | 1,466 qids complete after adding accepted experimental solutions |
-| `data/indexes/complete_augmented_qids.csv` | Augmented-complete qids with metadata |
-| `data/indexes/incomplete_augmented_qids.csv` | Remaining qids and missing languages after augmentation |
+| `metadata/GenCode_ids.txt` | 1,489 generation task qids |
+| `metadata/TransCode_targ_ids.txt` | 100 translation task qids |
+| `metadata/language.txt` | 8 benchmark languages |
+| `metadata/language_pairs.txt` | 56 directed translation pairs |
+| `metadata/problems/descriptions/` | Chinese and English problem statements |
+| `metadata/templates/snippets/` | Per-problem, per-language interface templates |
+| `solutions/reference/` | Reference solutions grouped by qid |
+| `docs/derived_data/generation_passk.csv` | Generation pass@1 through pass@5 |
+| `docs/derived_data/translation_passk.csv` | Translation pass@1 through pass@5 |
+| `generation/records/generation_results.csv.tgz` | Compressed generation execution records |
+| `translation/records/translation_results.csv.tgz` | Compressed translation execution records |
 
-## Core Data Products
+## Restore Local Archives
 
-| File | Content |
-|---|---|
-| `artifacts/derived_data/generation_passk.csv` | Generation pass@1 through pass@5 by model, qid, and language |
-| `artifacts/derived_data/translation_passk.csv` | Translation pass@1 through pass@5 by model, qid, source language, and target language |
-| `artifacts/derived_data/dataset_quality_summary.csv` | Reference and augmented language-coverage summary |
-| `artifacts/derived_data/dataset_quality_problem_detail.csv` | Per-qid coverage details and missing languages |
-| `artifacts/tables/table_dataset_quality_comparison.csv` | Dataset coverage comparison table |
+Expanded output folders are ignored by Git. Restore the local runtime folders from tracked archives:
 
-## Coverage Interpretation
+```bash
+python scripts/sync_archives.py
+```
 
-`Accepted` in LeetCode submission JSON is the functional correctness signal. The augmented coverage files combine original reference solutions and accepted experimental solutions into one solution pool. Single-model accuracy is reported through `generation_passk.csv` and `translation_passk.csv`.
+This extracts:
+
+```text
+generation/submissions/
+translation/submissions/
+generation/records/generation_results.csv
+translation/records/translation_results.csv
+```
+
+The generated code folders `generation/code/` and `translation/code/` are local provenance folders. Keep them in place when rebuilding the dashboard database from raw outputs.
+
+## Dashboard
+
+Restore the released dashboard SQLite database:
+
+```bash
+cd dashboard
+python scripts/restore_database.py
+```
+
+Run with Docker:
+
+```bash
+docker compose -f docker-compose.prod.yml up -d --build
+```
+
+Run locally:
+
+```bash
+cd packages/server
+cp config/config.example.yaml config/config.yaml
+go run cmd/server/main.go
+```
+
+```bash
+cd dashboard/packages/web
+npm install
+npm run dev
+```
+
+Dashboard details are in [dashboard/README.md](dashboard/README.md).
+
+## Analysis Scripts
+
+Use the repository root as the working directory:
+
+```bash
+python scripts/analyze_dataset_quality.py
+python scripts/generate_paper_artifacts.py
+python scripts/render_dataset_quality_table.py
+```
+
+The scripts resolve the new layout through `scripts/layout.py`.

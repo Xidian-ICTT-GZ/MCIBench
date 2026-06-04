@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @param {Integer[][]} edges\n# @param {Integer[]} values\n# @param {Integer} k\n# @return {Integer}\ndef max_k_divisible_components(n, edges, values, k)\n    \nend"

@@ -1,0 +1,1 @@
+"-spec max_sum_distinct_triplet(X :: [integer()], Y :: [integer()]) -> integer().\nmax_sum_distinct_triplet(X, Y) ->\n  ."

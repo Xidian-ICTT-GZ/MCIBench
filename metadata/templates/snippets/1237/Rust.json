@@ -1,0 +1,1 @@
+"/*\n * // This is the custom function interface.\n * // You should not implement it, or speculate about its implementation\n * struct CustomFunction;\n * impl CustomFunction {\n *    pub fn f(x:i32,y:i32)->i32{}\n * }\n */\n\nimpl Solution {\n    pub fn find_solution(customfunction: &CustomFunction, z: i32) -> Vec<Vec<i32>> {\n\t\n    }\n}"

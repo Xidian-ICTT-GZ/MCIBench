@@ -1,7 +1,0 @@
-class Solution:
-    def pivotInteger(self, n: int) -> int:
-        t = (n * n + n) // 2
-        x = int(t ** 0.5)
-        if x * x == t:
-            return x
-        return -1

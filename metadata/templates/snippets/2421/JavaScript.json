@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} vals\n * @param {number[][]} edges\n * @return {number}\n */\nvar numberOfGoodPaths = function(vals, edges) {\n    \n};"

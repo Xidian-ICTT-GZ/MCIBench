@@ -1,0 +1,1 @@
+"class Solution(object):\n    def longestString(self, x, y, z):\n        \"\"\"\n        :type x: int\n        :type y: int\n        :type z: int\n        :rtype: int\n        \"\"\"\n        "

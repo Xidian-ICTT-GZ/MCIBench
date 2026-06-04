@@ -1,1 +1,0 @@
-"# @param {Integer[][]} edges\n# @param {Boolean[]} online\n# @param {Integer} k\n# @return {Integer}\ndef find_max_path_score(edges, online, k)\n    \nend"

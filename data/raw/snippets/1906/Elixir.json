@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec min_difference(nums :: [integer], queries :: [[integer]]) :: [integer]\n  def min_difference(nums, queries) do\n    \n  end\nend"

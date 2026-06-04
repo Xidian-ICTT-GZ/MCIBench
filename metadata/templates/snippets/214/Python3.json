@@ -1,0 +1,1 @@
+"class Solution:\n    def shortestPalindrome(self, s: str) -> str:\n        "

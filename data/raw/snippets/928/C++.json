@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    int minMalwareSpread(vector<vector<int>>& graph, vector<int>& initial) {\n        \n    }\n};"

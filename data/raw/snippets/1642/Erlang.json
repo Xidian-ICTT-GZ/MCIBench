@@ -1,1 +1,0 @@
-"-spec furthest_building(Heights :: [integer()], Bricks :: integer(), Ladders :: integer()) -> integer().\nfurthest_building(Heights, Bricks, Ladders) ->\n  ."

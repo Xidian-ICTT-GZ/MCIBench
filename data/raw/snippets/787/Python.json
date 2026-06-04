@@ -1,1 +1,0 @@
-"class Solution(object):\n    def findCheapestPrice(self, n, flights, src, dst, k):\n        \"\"\"\n        :type n: int\n        :type flights: List[List[int]]\n        :type src: int\n        :type dst: int\n        :type k: int\n        :rtype: int\n        \"\"\"\n        "

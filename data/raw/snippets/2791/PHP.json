@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $parent\n     * @param String $s\n     * @return Integer\n     */\n    function countPalindromePaths($parent, $s) {\n        \n    }\n}"

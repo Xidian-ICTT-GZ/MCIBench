@@ -1,0 +1,49 @@
+public class Solution {
+    static int[] check = {0, 0, 1, -1, -1, 1, 1, -1, 0, 1};
+    int[,,] memo = new int[5, 2, 2];
+    IList<int> digits = new List<int>();
+
+    public int RotatedDigits(int n) {
+        while (n != 0) {
+            digits.Add(n % 10);
+            n /= 10;
+        }
+        for (int i = 0, j = digits.Count - 1; i < j; ++i, --j) {
+            int temp = digits[i];
+            digits[i] = digits[j];
+            digits[j] = temp;
+        }
+
+        for (int i = 0; i < 5; ++i) {
+            for (int j = 0; j < 2; ++j) {
+                for (int k = 0; k < 2; ++k) {
+                    memo[i, j, k] = -1;
+                }
+            }
+        }
+
+        int ans = DFS(0, 1, 0);
+        return ans;
+    }
+
+    public int DFS(int pos, int bound, int diff) {
+        if (pos == digits.Count) {
+            return diff;
+        }
+        if (memo[pos, bound, diff] != -1) {
+            return memo[pos, bound, diff];
+        }
+
+        int ret = 0;
+        for (int i = 0; i <= (bound != 0 ? digits[pos] : 9); ++i) {
+            if (check[i] != -1) {
+                ret += DFS(
+                    pos + 1,
+                    bound != 0 && i == digits[pos] ? 1 : 0,
+                    diff != 0 || check[i] == 1 ? 1 : 0
+                );
+            }
+        }
+        return memo[pos, bound, diff] = ret;
+    }
+}

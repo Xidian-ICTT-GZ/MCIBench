@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $s1\n     * @param String $s2\n     * @param String $baseStr\n     * @return String\n     */\n    function smallestEquivalentString($s1, $s2, $baseStr) {\n        \n    }\n}"

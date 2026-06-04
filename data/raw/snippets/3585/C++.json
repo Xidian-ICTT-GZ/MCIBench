@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    vector<int> findMedian(int n, vector<vector<int>>& edges, vector<vector<int>>& queries) {\n        \n    }\n};"

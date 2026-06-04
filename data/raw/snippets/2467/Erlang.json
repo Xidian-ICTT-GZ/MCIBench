@@ -1,1 +1,0 @@
-"-spec most_profitable_path(Edges :: [[integer()]], Bob :: integer(), Amount :: [integer()]) -> integer().\nmost_profitable_path(Edges, Bob, Amount) ->\n  ."

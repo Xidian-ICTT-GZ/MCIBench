@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec num_water_bottles(num_bottles :: integer, num_exchange :: integer) :: integer\n  def num_water_bottles(num_bottles, num_exchange) do\n    \n  end\nend"

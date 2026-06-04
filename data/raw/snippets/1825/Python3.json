@@ -1,1 +1,0 @@
-"class MKAverage:\n\n    def __init__(self, m: int, k: int):\n        \n\n    def addElement(self, num: int) -> None:\n        \n\n    def calculateMKAverage(self) -> int:\n        \n\n\n# Your MKAverage object will be instantiated and called as such:\n# obj = MKAverage(m, k)\n# obj.addElement(num)\n# param_2 = obj.calculateMKAverage()"

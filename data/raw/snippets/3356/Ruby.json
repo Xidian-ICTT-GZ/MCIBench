@@ -1,1 +1,0 @@
-"# @param {Integer[]} nums\n# @param {Integer[][]} queries\n# @return {Integer}\ndef min_zero_array(nums, queries)\n    \nend"

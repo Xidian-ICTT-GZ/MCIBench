@@ -1,1 +1,0 @@
-"(define/contract (network-becomes-idle edges patience)\n  (-> (listof (listof exact-integer?)) (listof exact-integer?) exact-integer?)\n  )"

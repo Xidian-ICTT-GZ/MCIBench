@@ -1,1 +1,0 @@
-"-spec break_palindrome(Palindrome :: unicode:unicode_binary()) -> unicode:unicode_binary().\nbreak_palindrome(Palindrome) ->\n  ."

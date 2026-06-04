@@ -1,1 +1,0 @@
-"-spec count_of_peaks(Nums :: [integer()], Queries :: [[integer()]]) -> [integer()].\ncount_of_peaks(Nums, Queries) ->\n  ."

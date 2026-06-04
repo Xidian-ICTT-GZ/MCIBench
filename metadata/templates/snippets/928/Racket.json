@@ -1,0 +1,1 @@
+"(define/contract (min-malware-spread graph initial)\n  (-> (listof (listof exact-integer?)) (listof exact-integer?) exact-integer?)\n  )"

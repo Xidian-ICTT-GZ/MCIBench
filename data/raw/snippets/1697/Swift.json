@@ -1,1 +1,0 @@
-"class Solution {\n    func distanceLimitedPathsExist(_ n: Int, _ edgeList: [[Int]], _ queries: [[Int]]) -> [Bool] {\n        \n    }\n}"

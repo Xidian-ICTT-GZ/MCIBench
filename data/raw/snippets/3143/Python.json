@@ -1,1 +1,0 @@
-"class Solution(object):\n    def maxPointsInsideSquare(self, points, s):\n        \"\"\"\n        :type points: List[List[int]]\n        :type s: str\n        :rtype: int\n        \"\"\"\n        "

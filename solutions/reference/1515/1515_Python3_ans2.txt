@@ -1,0 +1,29 @@
+class Solution:
+    def getMinDistSum(self, positions: List[List[int]]) -> float:
+        dirs = [(-1, 0), (1, 0), (0, -1), (0, 1)]
+
+        eps = 1e-7
+        step = 1.0
+        decay = 0.5
+
+        n = len(positions)
+
+        x = sum(pos[0] for pos in positions) / n
+        y = sum(pos[1] for pos in positions) / n
+        
+        
+        getDist = lambda xc, yc: sum(((x - xc) ** 2 + (y - yc) ** 2) ** 0.5 for x, y in positions)
+        
+        while step > eps:
+            modified = False
+            for dx, dy in dirs:
+                xNext = x + step * dx
+                yNext = y + step * dy
+                if getDist(xNext, yNext) < getDist(x, y):
+                    x, y = xNext, yNext
+                    modified = True
+                    break
+            if not modified:
+                step *= (1.0 - decay)
+
+        return getDist(x, y)

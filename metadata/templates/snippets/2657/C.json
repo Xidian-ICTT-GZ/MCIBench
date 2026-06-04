@@ -1,0 +1,1 @@
+"/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* findThePrefixCommonArray(int* A, int ASize, int* B, int BSize, int* returnSize) {\n    \n}"

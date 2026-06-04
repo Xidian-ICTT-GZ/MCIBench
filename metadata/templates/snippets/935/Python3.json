@@ -1,0 +1,1 @@
+"class Solution:\n    def knightDialer(self, n: int) -> int:\n        "

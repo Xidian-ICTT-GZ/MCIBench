@@ -1,0 +1,1 @@
+"-spec calculate_minimum_hp(Dungeon :: [[integer()]]) -> integer().\ncalculate_minimum_hp(Dungeon) ->\n  ."

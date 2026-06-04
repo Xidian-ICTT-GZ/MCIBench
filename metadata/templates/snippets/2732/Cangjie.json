@@ -1,0 +1,1 @@
+"class Solution {\n    func goodSubsetofBinaryMatrix(grid: Array<Array<Int64>>): ArrayList<Int64> {\n\n    }\n}"

@@ -1,1 +1,0 @@
-"(define/contract (least-interval tasks n)\n  (-> (listof char?) exact-integer? exact-integer?)\n  )"

@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $n\n     * @param Integer[] $leftChild\n     * @param Integer[] $rightChild\n     * @return Boolean\n     */\n    function validateBinaryTreeNodes($n, $leftChild, $rightChild) {\n        \n    }\n}"

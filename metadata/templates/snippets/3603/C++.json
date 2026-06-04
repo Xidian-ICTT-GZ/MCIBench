@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    long long minCost(int m, int n, vector<vector<int>>& waitCost) {\n        \n    }\n};"

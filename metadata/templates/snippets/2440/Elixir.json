@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec component_value(nums :: [integer], edges :: [[integer]]) :: integer\n  def component_value(nums, edges) do\n    \n  end\nend"

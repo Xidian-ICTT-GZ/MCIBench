@@ -1,1 +1,0 @@
-"# @param {Integer[]} nums\n# @param {Integer} index_diff\n# @param {Integer} value_diff\n# @return {Boolean}\ndef contains_nearby_almost_duplicate(nums, index_diff, value_diff)\n    \nend"

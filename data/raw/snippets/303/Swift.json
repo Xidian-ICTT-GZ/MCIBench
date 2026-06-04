@@ -1,1 +1,0 @@
-"\nclass NumArray {\n\n    init(_ nums: [Int]) {\n        \n    }\n    \n    func sumRange(_ left: Int, _ right: Int) -> Int {\n        \n    }\n}\n\n/**\n * Your NumArray object will be instantiated and called as such:\n * let obj = NumArray(nums)\n * let ret_1: Int = obj.sumRange(left, right)\n */"

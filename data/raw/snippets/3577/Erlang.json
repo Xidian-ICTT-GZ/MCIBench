@@ -1,1 +1,0 @@
-"-spec count_permutations(Complexity :: [integer()]) -> integer().\ncount_permutations(Complexity) ->\n  ."

@@ -1,0 +1,1 @@
+"/* The isBadVersion API is defined in the parent class VersionControl.\n      public function isBadVersion($version){} */\n\nclass Solution extends VersionControl {\n    /**\n     * @param Integer $n\n     * @return Integer\n     */\n    function firstBadVersion($n) {\n        \n    }\n}"

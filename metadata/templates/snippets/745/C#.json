@@ -1,0 +1,1 @@
+"public class WordFilter {\n\n    public WordFilter(string[] words) {\n        \n    }\n    \n    public int F(string pref, string suff) {\n        \n    }\n}\n\n/**\n * Your WordFilter object will be instantiated and called as such:\n * WordFilter obj = new WordFilter(words);\n * int param_1 = obj.F(pref,suff);\n */"

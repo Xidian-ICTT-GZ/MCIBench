@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} nums\n * @param {number} x\n * @return {number}\n */\nvar minCost = function(nums, x) {\n    \n};"

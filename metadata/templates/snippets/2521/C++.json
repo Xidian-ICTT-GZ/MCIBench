@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int distinctPrimeFactors(vector<int>& nums) {\n        \n    }\n};"

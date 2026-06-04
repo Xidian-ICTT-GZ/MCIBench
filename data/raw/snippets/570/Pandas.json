@@ -1,1 +1,0 @@
-"import pandas as pd\n\ndef find_managers(employee: pd.DataFrame) -> pd.DataFrame:\n    "

@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int boxDelivering(vector<vector<int>>& boxes, int portsCount, int maxBoxes, int maxWeight) {\n        \n    }\n};"

@@ -1,0 +1,1 @@
+"-spec count_routes(Locations :: [integer()], Start :: integer(), Finish :: integer(), Fuel :: integer()) -> integer().\ncount_routes(Locations, Start, Finish, Fuel) ->\n  ."

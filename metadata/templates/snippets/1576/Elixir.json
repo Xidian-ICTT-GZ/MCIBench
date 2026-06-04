@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec modify_string(s :: String.t) :: String.t\n  def modify_string(s) do\n    \n  end\nend"

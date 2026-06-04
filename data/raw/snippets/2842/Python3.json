@@ -1,1 +1,0 @@
-"class Solution:\n    def countKSubsequencesWithMaxBeauty(self, s: str, k: int) -> int:\n        "

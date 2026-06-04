@@ -1,1 +1,0 @@
-"# @param {Integer[]} charge_times\n# @param {Integer[]} running_costs\n# @param {Integer} budget\n# @return {Integer}\ndef maximum_robots(charge_times, running_costs, budget)\n    \nend"

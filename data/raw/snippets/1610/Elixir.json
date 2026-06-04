@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec visible_points(points :: [[integer]], angle :: integer, location :: [integer]) :: integer\n  def visible_points(points, angle, location) do\n    \n  end\nend"

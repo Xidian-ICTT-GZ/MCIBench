@@ -1,1 +1,0 @@
-"(define/contract (categorize-box length width height mass)\n  (-> exact-integer? exact-integer? exact-integer? exact-integer? string?)\n  )"

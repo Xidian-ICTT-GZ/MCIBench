@@ -1,1 +1,0 @@
-"-spec create_sorted_array(Instructions :: [integer()]) -> integer().\ncreate_sorted_array(Instructions) ->\n  ."

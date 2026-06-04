@@ -1,0 +1,1 @@
+"/**\n * @param {number[][]} boxTypes\n * @param {number} truckSize\n * @return {number}\n */\nvar maximumUnits = function(boxTypes, truckSize) {\n    \n};"

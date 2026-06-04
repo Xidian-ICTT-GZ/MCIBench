@@ -1,0 +1,1 @@
+"(define/contract (can-transform start result)\n  (-> string? string? boolean?)\n  )"

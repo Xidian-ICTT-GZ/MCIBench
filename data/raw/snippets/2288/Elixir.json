@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec discount_prices(sentence :: String.t, discount :: integer) :: String.t\n  def discount_prices(sentence, discount) do\n    \n  end\nend"

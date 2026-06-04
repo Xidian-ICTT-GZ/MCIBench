@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    int findCrossingTime(int n, int k, vector<vector<int>>& time) {\n        \n    }\n};"

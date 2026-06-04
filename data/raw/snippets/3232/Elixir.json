@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec can_alice_win(nums :: [integer]) :: boolean\n  def can_alice_win(nums) do\n    \n  end\nend"

@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String $word\n     * @param Integer $m\n     * @return Integer[]\n     */\n    function divisibilityArray($word, $m) {\n        \n    }\n}"

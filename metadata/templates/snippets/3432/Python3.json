@@ -1,0 +1,1 @@
+"class Solution:\n    def countPartitions(self, nums: List[int]) -> int:\n        "

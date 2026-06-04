@@ -1,1 +1,0 @@
-"-spec mincost_tickets(Days :: [integer()], Costs :: [integer()]) -> integer().\nmincost_tickets(Days, Costs) ->\n  ."

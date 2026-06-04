@@ -1,0 +1,1 @@
+"object Solution {\n    def findTheLongestBalancedSubstring(s: String): Int = {\n        \n    }\n}"

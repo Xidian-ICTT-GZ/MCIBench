@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec find_poisoned_duration(time_series :: [integer], duration :: integer) :: integer\n  def find_poisoned_duration(time_series, duration) do\n    \n  end\nend"

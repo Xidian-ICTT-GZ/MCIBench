@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String $s\n     * @param String $letter\n     * @return Integer\n     */\n    function percentageLetter($s, $letter) {\n        \n    }\n}"

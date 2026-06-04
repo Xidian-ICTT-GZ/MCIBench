@@ -1,0 +1,9 @@
+int* circularPermutation(int n, int start, int* returnSize){
+    int ret_size = 1 << n;
+    int *ret = (int *)malloc(ret_size * sizeof(int));
+    for (int i = 0; i < ret_size; i++) {
+        ret[i] = (i >> 1) ^ i ^ start;
+    }
+    *returnSize = ret_size;
+    return ret;
+}

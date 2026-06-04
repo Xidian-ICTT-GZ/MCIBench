@@ -1,1 +1,0 @@
-"class WordFilter {\n    init(words: Array<String>) {\n\n    }\n    \n    func f(pref: String, suff: String): Int64 {\n\n    }\n}\n\n/**\n * Your WordFilter object will be instantiated and called as such:\n * let obj: WordFilter = WordFilter(words)\n * let param_1 = obj.f(pref,suff)\n */"

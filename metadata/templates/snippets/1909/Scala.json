@@ -1,0 +1,1 @@
+"object Solution {\n    def canBeIncreasing(nums: Array[Int]): Boolean = {\n        \n    }\n}"

@@ -1,1 +1,0 @@
-"class Solution:\n    def simplifiedFractions(self, n: int) -> List[str]:\n        "

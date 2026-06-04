@@ -1,0 +1,1 @@
+"(define/contract (clear-digits s)\n  (-> string? string?)\n  )"

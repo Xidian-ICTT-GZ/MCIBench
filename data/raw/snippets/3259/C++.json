@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    long long maxEnergyBoost(vector<int>& energyDrinkA, vector<int>& energyDrinkB) {\n        \n    }\n};"

@@ -1,1 +1,0 @@
-"-spec ways_to_partition(Nums :: [integer()], K :: integer()) -> integer().\nways_to_partition(Nums, K) ->\n  ."

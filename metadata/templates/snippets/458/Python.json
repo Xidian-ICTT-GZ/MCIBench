@@ -1,0 +1,1 @@
+"class Solution(object):\n    def poorPigs(self, buckets, minutesToDie, minutesToTest):\n        \"\"\"\n        :type buckets: int\n        :type minutesToDie: int\n        :type minutesToTest: int\n        :rtype: int\n        \"\"\"\n        "

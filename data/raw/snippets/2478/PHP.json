@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String $s\n     * @param Integer $k\n     * @param Integer $minLength\n     * @return Integer\n     */\n    function beautifulPartitions($s, $k, $minLength) {\n        \n    }\n}"

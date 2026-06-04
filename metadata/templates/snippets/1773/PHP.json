@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String[][] $items\n     * @param String $ruleKey\n     * @param String $ruleValue\n     * @return Integer\n     */\n    function countMatches($items, $ruleKey, $ruleValue) {\n        \n    }\n}"

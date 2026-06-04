@@ -1,0 +1,60 @@
+public class Solution {
+    int[] zd;
+
+    public int[] LeftmostBuildingQueries(int[] heights, int[][] queries) {
+        int n = heights.Length;
+        zd = new int[n * 4];
+        Build(1, n, 1, heights);
+
+        int m = queries.Length;
+        int[] ans = new int[m];
+        for (int i = 0; i < m; i++) {
+            int a = queries[i][0];
+            int b = queries[i][1];
+            if (a > b) {
+                int temp = a;
+                a = b;
+                b = temp;
+            }
+
+            if (a == b || heights[a] < heights[b]) {
+                ans[i] = b;
+                continue;
+            }
+
+            ans[i] = Query(b + 1, heights[a], 1, n, 1) - 1;
+        }
+        return ans;
+    }
+
+    public void Build(int l, int r, int rt, int[] heights) {
+        if (l == r) {
+            zd[rt] = heights[l - 1];
+            return;
+        }
+
+        int mid = (l + r) >> 1;
+        Build(l, mid, rt << 1, heights);
+        Build(mid + 1, r, rt << 1 | 1, heights);
+        zd[rt] = Math.Max(zd[rt << 1], zd[rt << 1 | 1]);
+    }
+
+    public int Query(int pos, int val, int l, int r, int rt) {
+        if (val >= zd[rt]) {
+            return 0;
+        }
+
+        if (l == r) {
+            return l;
+        }
+
+        int mid = (l + r) >> 1;
+        if (pos <= mid) {
+            int res = Query(pos, val, l, mid, rt << 1);
+            if (res != 0) {
+                return res;
+            }
+        }
+        return Query(pos, val, mid + 1, r, rt << 1 | 1);
+    }
+}

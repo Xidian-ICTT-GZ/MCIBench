@@ -1,1 +1,0 @@
-"-spec balanced_string(S :: unicode:unicode_binary()) -> integer().\nbalanced_string(S) ->\n  ."

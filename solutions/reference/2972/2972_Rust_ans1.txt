@@ -1,0 +1,31 @@
+impl Solution {
+    pub fn incremovable_subarray_count(nums: Vec<i32>) -> i64 {
+        let mut ans: i64 = 0;
+        let length = nums.len();
+        let mut l = 0;
+
+        while l < length - 1 {
+            if nums[l] >= nums[l + 1] {
+                break;
+            }
+            l += 1;
+        }
+
+        if l == length - 1 {
+            return length as i64 * (length as i64 + 1) / 2;
+        }
+        ans += l as i64 + 2;
+        for r in (1..length).rev() {
+            if r < length - 1 && nums[r] >= nums[r + 1] {
+                break;
+            }
+
+            while l as i32 >= 0 && nums[l] >= nums[r] {
+                l -= 1;
+            }
+            ans += l as i64 + 2;
+        }
+
+        return ans;
+    }
+}

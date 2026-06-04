@@ -1,1 +1,0 @@
-"class Solution(object):\n    def areSentencesSimilar(self, sentence1, sentence2):\n        \"\"\"\n        :type sentence1: str\n        :type sentence2: str\n        :rtype: bool\n        \"\"\"\n        "

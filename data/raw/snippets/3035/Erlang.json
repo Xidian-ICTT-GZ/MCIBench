@@ -1,1 +1,0 @@
-"-spec max_palindromes_after_operations(Words :: [unicode:unicode_binary()]) -> integer().\nmax_palindromes_after_operations(Words) ->\n  ."

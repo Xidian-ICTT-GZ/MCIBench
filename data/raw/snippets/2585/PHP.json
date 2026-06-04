@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer $target\n     * @param Integer[][] $types\n     * @return Integer\n     */\n    function waysToReachTarget($target, $types) {\n        \n    }\n}"

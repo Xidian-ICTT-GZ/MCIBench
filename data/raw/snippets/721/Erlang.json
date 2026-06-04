@@ -1,1 +1,0 @@
-"-spec accounts_merge(Accounts :: [[unicode:unicode_binary()]]) -> [[unicode:unicode_binary()]].\naccounts_merge(Accounts) ->\n  ."

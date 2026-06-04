@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec prev_perm_opt1(arr :: [integer]) :: [integer]\n  def prev_perm_opt1(arr) do\n    \n  end\nend"

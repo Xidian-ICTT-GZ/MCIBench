@@ -1,0 +1,1 @@
+"impl Solution {\n    pub fn people_indexes(favorite_companies: Vec<Vec<String>>) -> Vec<i32> {\n        \n    }\n}"

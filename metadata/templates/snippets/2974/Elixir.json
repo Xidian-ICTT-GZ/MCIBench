@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec number_game(nums :: [integer]) :: [integer]\n  def number_game(nums) do\n    \n  end\nend"

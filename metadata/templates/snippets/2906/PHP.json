@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $grid\n     * @return Integer[][]\n     */\n    function constructProductMatrix($grid) {\n        \n    }\n}"

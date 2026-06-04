@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec good_subtree_sum(vals :: [integer], par :: [integer]) :: integer\n  def good_subtree_sum(vals, par) do\n    \n  end\nend"

@@ -1,0 +1,14 @@
+long long maximumOr(int *nums, int numsSize, int k) {
+    long long orSum = 0;
+    long long multiBits = 0;
+    for (int i = 0; i < numsSize; i++) {
+        multiBits |= nums[i] & orSum;
+        orSum |= nums[i];
+    }
+
+    long long res = 0;
+    for (int i = 0; i < numsSize; i++) {
+        res = fmax(res, (orSum ^ nums[i]) | ((long long)nums[i] << k) | multiBits);
+    }
+    return res;
+}

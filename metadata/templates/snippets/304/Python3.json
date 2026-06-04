@@ -1,0 +1,1 @@
+"class NumMatrix:\n\n    def __init__(self, matrix: List[List[int]]):\n        \n\n    def sumRegion(self, row1: int, col1: int, row2: int, col2: int) -> int:\n        \n\n\n# Your NumMatrix object will be instantiated and called as such:\n# obj = NumMatrix(matrix)\n# param_1 = obj.sumRegion(row1,col1,row2,col2)"

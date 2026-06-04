@@ -1,1 +1,0 @@
-"-spec reorganize_string(S :: unicode:unicode_binary()) -> unicode:unicode_binary().\nreorganize_string(S) ->\n  ."

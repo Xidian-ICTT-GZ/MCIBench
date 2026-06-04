@@ -1,0 +1,1 @@
+"-spec count_prefix_suffix_pairs(Words :: [unicode:unicode_binary()]) -> integer().\ncount_prefix_suffix_pairs(Words) ->\n  ."

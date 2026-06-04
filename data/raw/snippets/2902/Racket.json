@@ -1,1 +1,0 @@
-"(define/contract (count-sub-multisets nums l r)\n  (-> (listof exact-integer?) exact-integer? exact-integer? exact-integer?)\n  )"

@@ -1,8 +1,0 @@
-func winningPlayer(x int, y int) string {
-    ops := min(x, y / 4)
-    if ops % 2 == 1 {
-        return "Alice"
-    } else {
-        return "Bob"
-    }
-}

@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec maximum_set_size(nums1 :: [integer], nums2 :: [integer]) :: integer\n  def maximum_set_size(nums1, nums2) do\n    \n  end\nend"

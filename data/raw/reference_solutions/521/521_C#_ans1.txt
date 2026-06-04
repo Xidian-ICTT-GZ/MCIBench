@@ -1,5 +1,0 @@
-public class Solution {
-    public int FindLUSlength(string a, string b) {
-        return !a.Equals(b) ? Math.Max(a.Length, b.Length) : -1;
-    }
-}

@@ -1,1 +1,0 @@
-"class SORTracker {\n\n  SORTracker() {\n    \n  }\n  \n  void add(String name, int score) {\n    \n  }\n  \n  String get() {\n    \n  }\n}\n\n/**\n * Your SORTracker object will be instantiated and called as such:\n * SORTracker obj = SORTracker();\n * obj.add(name,score);\n * String param2 = obj.get();\n */"

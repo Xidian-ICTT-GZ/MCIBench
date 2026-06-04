@@ -1,1 +1,0 @@
-"# @param {Integer} target_x\n# @param {Integer} target_y\n# @return {Boolean}\ndef is_reachable(target_x, target_y)\n    \nend"

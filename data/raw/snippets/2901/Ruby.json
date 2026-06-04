@@ -1,1 +1,0 @@
-"# @param {String[]} words\n# @param {Integer[]} groups\n# @return {String[]}\ndef get_words_in_longest_subsequence(words, groups)\n    \nend"

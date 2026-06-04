@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec check_valid_string(s :: String.t) :: boolean\n  def check_valid_string(s) do\n    \n  end\nend"

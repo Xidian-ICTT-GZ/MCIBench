@@ -1,0 +1,1 @@
+"# @param {Integer[][]} grid\n# @return {Integer[]}\ndef find_column_width(grid)\n    \nend"

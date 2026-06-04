@@ -1,0 +1,1 @@
+"/**\n * @param {string} password\n * @return {boolean}\n */\nvar strongPasswordCheckerII = function(password) {\n    \n};"

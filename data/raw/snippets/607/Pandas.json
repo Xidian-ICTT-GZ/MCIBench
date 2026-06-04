@@ -1,1 +1,0 @@
-"import pandas as pd\n\ndef sales_person(sales_person: pd.DataFrame, company: pd.DataFrame, orders: pd.DataFrame) -> pd.DataFrame:\n    "

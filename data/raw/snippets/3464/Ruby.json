@@ -1,1 +1,0 @@
-"# @param {Integer} side\n# @param {Integer[][]} points\n# @param {Integer} k\n# @return {Integer}\ndef max_distance(side, points, k)\n    \nend"

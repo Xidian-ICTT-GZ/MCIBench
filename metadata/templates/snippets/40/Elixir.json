@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec combination_sum2(candidates :: [integer], target :: integer) :: [[integer]]\n  def combination_sum2(candidates, target) do\n    \n  end\nend"

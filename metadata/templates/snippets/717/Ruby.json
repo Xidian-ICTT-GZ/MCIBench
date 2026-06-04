@@ -1,0 +1,1 @@
+"# @param {Integer[]} bits\n# @return {Boolean}\ndef is_one_bit_character(bits)\n    \nend"

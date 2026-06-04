@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    int mostProfitablePath(vector<vector<int>>& edges, int bob, vector<int>& amount) {\n        \n    }\n};"

@@ -1,1 +1,0 @@
-"(define/contract (ways pizza k)\n  (-> (listof string?) exact-integer? exact-integer?)\n  )"

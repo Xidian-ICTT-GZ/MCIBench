@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    vector<long long> countKConstraintSubstrings(string s, int k, vector<vector<int>>& queries) {\n        \n    }\n};"

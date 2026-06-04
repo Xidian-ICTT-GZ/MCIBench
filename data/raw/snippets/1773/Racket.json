@@ -1,1 +1,0 @@
-"(define/contract (count-matches items ruleKey ruleValue)\n  (-> (listof (listof string?)) string? string? exact-integer?)\n  )"

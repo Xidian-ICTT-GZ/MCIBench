@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[][] $points\n     * @return Integer\n     */\n    function minAreaRect($points) {\n        \n    }\n}"

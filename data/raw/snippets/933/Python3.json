@@ -1,1 +1,0 @@
-"class RecentCounter:\n\n    def __init__(self):\n        \n\n    def ping(self, t: int) -> int:\n        \n\n\n# Your RecentCounter object will be instantiated and called as such:\n# obj = RecentCounter()\n# param_1 = obj.ping(t)"

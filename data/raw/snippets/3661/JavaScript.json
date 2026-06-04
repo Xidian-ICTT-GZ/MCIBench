@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} robots\n * @param {number[]} distance\n * @param {number[]} walls\n * @return {number}\n */\nvar maxWalls = function(robots, distance, walls) {\n    \n};"

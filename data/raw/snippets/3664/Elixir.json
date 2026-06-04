@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec score(cards :: [String.t], x :: char) :: integer\n  def score(cards, x) do\n    \n  end\nend"

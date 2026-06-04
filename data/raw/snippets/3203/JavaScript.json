@@ -1,1 +1,0 @@
-"/**\n * @param {number[][]} edges1\n * @param {number[][]} edges2\n * @return {number}\n */\nvar minimumDiameterAfterMerge = function(edges1, edges2) {\n    \n};"

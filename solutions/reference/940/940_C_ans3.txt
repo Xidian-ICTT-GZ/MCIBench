@@ -1,0 +1,14 @@
+const int mod = 1e9 + 7;
+
+int distinctSubseqII(char * s) {
+    int g[26];
+    memset(g, 0, sizeof(g));
+    int n = strlen(s), total = 0;
+    for (int i = 0; i < n; ++i) {
+        int oi = s[i] - 'a';
+        int prev = g[oi];
+        g[oi] = (total + 1) % mod;
+        total = ((total + g[oi] - prev) % mod + mod) % mod;
+    }
+    return total;
+}

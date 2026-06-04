@@ -1,0 +1,1 @@
+"class Solution(object):\n    def snakesAndLadders(self, board):\n        \"\"\"\n        :type board: List[List[int]]\n        :rtype: int\n        \"\"\"\n        "

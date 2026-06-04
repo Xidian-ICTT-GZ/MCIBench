@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec num_ways(steps :: integer, arr_len :: integer) :: integer\n  def num_ways(steps, arr_len) do\n    \n  end\nend"

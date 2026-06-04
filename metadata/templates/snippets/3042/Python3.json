@@ -1,0 +1,1 @@
+"class Solution:\n    def countPrefixSuffixPairs(self, words: List[str]) -> int:\n        "

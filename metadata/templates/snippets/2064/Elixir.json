@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec minimized_maximum(n :: integer, quantities :: [integer]) :: integer\n  def minimized_maximum(n, quantities) do\n    \n  end\nend"

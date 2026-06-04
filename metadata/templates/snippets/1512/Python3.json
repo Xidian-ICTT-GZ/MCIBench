@@ -1,0 +1,1 @@
+"class Solution:\n    def numIdenticalPairs(self, nums: List[int]) -> int:\n        "

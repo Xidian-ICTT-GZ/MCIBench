@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<int> twoSum(vector<int>& numbers, int target) {\n        \n    }\n};"

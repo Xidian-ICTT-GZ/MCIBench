@@ -1,1 +1,0 @@
-"# @param {Integer} n\n# @param {Integer[][]} mines\n# @return {Integer}\ndef order_of_largest_plus_sign(n, mines)\n    \nend"

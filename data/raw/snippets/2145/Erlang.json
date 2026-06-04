@@ -1,1 +1,0 @@
-"-spec number_of_arrays(Differences :: [integer()], Lower :: integer(), Upper :: integer()) -> integer().\nnumber_of_arrays(Differences, Lower, Upper) ->\n  ."

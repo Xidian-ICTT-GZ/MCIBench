@@ -1,1 +1,0 @@
-"-spec max_area_of_island(Grid :: [[integer()]]) -> integer().\nmax_area_of_island(Grid) ->\n  ."

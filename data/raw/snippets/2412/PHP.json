@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[][] $transactions\n     * @return Integer\n     */\n    function minimumMoney($transactions) {\n        \n    }\n}"

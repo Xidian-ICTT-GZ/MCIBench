@@ -1,1 +1,0 @@
-"-spec to_lower_case(S :: unicode:unicode_binary()) -> unicode:unicode_binary().\nto_lower_case(S) ->\n  ."

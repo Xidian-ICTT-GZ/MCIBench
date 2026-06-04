@@ -1,0 +1,1 @@
+"class Solution(object):\n    def rankTeams(self, votes):\n        \"\"\"\n        :type votes: List[str]\n        :rtype: str\n        \"\"\"\n        "

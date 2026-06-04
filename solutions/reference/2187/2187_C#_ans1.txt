@@ -1,0 +1,26 @@
+public class Solution {
+    public long MinimumTime(int[] time, int totalTrips) {
+        
+        bool Check(long t) {
+            long cnt = 0;
+            foreach (int period in time) {
+                cnt += t / period;
+            }
+            return cnt >= totalTrips;
+        }
+
+        
+        long l = 1;
+        long r = (long) totalTrips * time.Max();
+        
+        while (l < r) {
+            long mid = l + (r - l) / 2;
+            if (Check(mid)) {
+                r = mid;
+            } else {
+                l = mid + 1;
+            }
+        }
+        return l;
+    }
+}

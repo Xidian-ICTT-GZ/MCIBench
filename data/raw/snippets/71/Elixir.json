@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec simplify_path(path :: String.t) :: String.t\n  def simplify_path(path) do\n    \n  end\nend"

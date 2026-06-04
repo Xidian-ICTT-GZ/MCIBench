@@ -1,1 +1,0 @@
-"-spec minimum_seconds(Nums :: [integer()]) -> integer().\nminimum_seconds(Nums) ->\n  ."

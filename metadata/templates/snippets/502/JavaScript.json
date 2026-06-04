@@ -1,0 +1,1 @@
+"/**\n * @param {number} k\n * @param {number} w\n * @param {number[]} profits\n * @param {number[]} capital\n * @return {number}\n */\nvar findMaximizedCapital = function(k, w, profits, capital) {\n    \n};"

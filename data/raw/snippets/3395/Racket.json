@@ -1,1 +1,0 @@
-"(define/contract (subsequences-with-middle-mode nums)\n  (-> (listof exact-integer?) exact-integer?)\n  )"

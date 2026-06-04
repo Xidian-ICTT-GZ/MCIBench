@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String[] $queries\n     * @param String[] $words\n     * @return Integer[]\n     */\n    function numSmallerByFrequency($queries, $words) {\n        \n    }\n}"

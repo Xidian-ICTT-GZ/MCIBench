@@ -1,0 +1,9 @@
+class Solution {
+private:
+    static constexpr int BIG = 1 << 30;
+
+public:
+    bool isPowerOfTwo(int n) {
+        return n > 0 && BIG % n == 0;
+    }
+};

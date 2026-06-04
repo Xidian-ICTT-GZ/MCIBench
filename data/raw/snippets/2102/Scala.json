@@ -1,1 +1,0 @@
-"class SORTracker() {\n\n    def add(name: String, score: Int): Unit = {\n        \n    }\n\n    def get(): String = {\n        \n    }\n\n}\n\n/**\n * Your SORTracker object will be instantiated and called as such:\n * val obj = new SORTracker()\n * obj.add(name,score)\n * val param_2 = obj.get()\n */"

@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec max_value(n :: integer, index :: integer, max_sum :: integer) :: integer\n  def max_value(n, index, max_sum) do\n    \n  end\nend"

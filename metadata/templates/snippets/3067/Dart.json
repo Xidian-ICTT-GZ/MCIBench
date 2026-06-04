@@ -1,0 +1,1 @@
+"class Solution {\n  List<int> countPairsOfConnectableServers(List<List<int>> edges, int signalSpeed) {\n    \n  }\n}"

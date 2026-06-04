@@ -1,1 +1,0 @@
-"(define/contract (is-valid-sudoku board)\n  (-> (listof (listof char?)) boolean?)\n  )"

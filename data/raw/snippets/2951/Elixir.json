@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec find_peaks(mountain :: [integer]) :: [integer]\n  def find_peaks(mountain) do\n    \n  end\nend"

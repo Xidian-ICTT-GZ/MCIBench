@@ -1,1 +1,0 @@
-"class Solution:\n    def maximumSumOfHeights(self, heights: List[int]) -> int:\n        "

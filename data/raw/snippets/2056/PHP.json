@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String[] $pieces\n     * @param Integer[][] $positions\n     * @return Integer\n     */\n    function countCombinations($pieces, $positions) {\n        \n    }\n}"

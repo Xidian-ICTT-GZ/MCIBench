@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String $num\n     * @param Integer[] $change\n     * @return String\n     */\n    function maximumNumber($num, $change) {\n        \n    }\n}"

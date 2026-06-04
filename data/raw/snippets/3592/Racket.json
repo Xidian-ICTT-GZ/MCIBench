@@ -1,1 +1,0 @@
-"(define/contract (find-coins numWays)\n  (-> (listof exact-integer?) (listof exact-integer?))\n  )"

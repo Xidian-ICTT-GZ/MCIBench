@@ -1,0 +1,13 @@
+public class Solution {
+    public int MaximumBeauty(int[] nums, int k) {
+        int res = 0, n = nums.Length;
+        Array.Sort(nums);
+        for (int i = 0, j = 0; i < n; i++) {
+            while (nums[i] - 2 * k > nums[j]) {
+                j++;
+            }
+            res = Math.Max(res, i - j + 1);
+        }
+        return res;
+    }
+}

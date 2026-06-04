@@ -1,1 +1,0 @@
-"-spec is_boomerang(Points :: [[integer()]]) -> boolean().\nis_boomerang(Points) ->\n  ."

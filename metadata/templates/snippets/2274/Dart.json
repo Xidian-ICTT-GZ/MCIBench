@@ -1,0 +1,1 @@
+"class Solution {\n  int maxConsecutive(int bottom, int top, List<int> special) {\n    \n  }\n}"

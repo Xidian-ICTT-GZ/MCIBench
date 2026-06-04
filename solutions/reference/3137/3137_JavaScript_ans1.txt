@@ -1,0 +1,14 @@
+var minimumOperationsToMakeKPeriodic = function(word, k) {
+    let n = word.length;
+    let res = Infinity;
+    let count = new Map();
+    for (let i = 0; i < n; i += k) {
+        let part = word.slice(i, i + k);
+        if (!count.has(part)) {
+            count.set(part, 0);
+        }
+        count.set(part, count.get(part) + 1);
+        res = Math.min(res, n / k - count.get(part));
+    }
+    return res;
+};

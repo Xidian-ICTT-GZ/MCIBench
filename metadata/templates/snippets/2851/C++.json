@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int numberOfWays(string s, string t, long long k) {\n        \n    }\n};"

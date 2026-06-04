@@ -1,1 +1,0 @@
-"object Solution {\n    def gcdValues(nums: Array[Int], queries: Array[Long]): Array[Int] = {\n        \n    }\n}"

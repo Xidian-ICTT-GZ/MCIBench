@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int minimumSumSubarray(vector<int>& nums, int l, int r) {\n        \n    }\n};"

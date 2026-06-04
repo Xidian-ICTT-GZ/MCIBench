@@ -1,0 +1,1 @@
+"object Solution {\n    def findRotation(mat: Array[Array[Int]], target: Array[Array[Int]]): Boolean = {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec halves_are_alike(s :: String.t) :: boolean\n  def halves_are_alike(s) do\n    \n  end\nend"

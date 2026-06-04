@@ -1,0 +1,1 @@
+"class Solution(object):\n    def shortestCompletingWord(self, licensePlate, words):\n        \"\"\"\n        :type licensePlate: str\n        :type words: List[str]\n        :rtype: str\n        \"\"\"\n        "

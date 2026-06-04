@@ -1,0 +1,11 @@
+class Solution:
+    def canConstruct(self, s: str, k: int) -> bool:
+        
+        right = len(s)
+        
+        occ = collections.Counter(s)
+        
+        left = sum(1 for _, v in occ.items() if v % 2 == 1)
+        
+        left = max(left, 1)
+        return left <= k <= right

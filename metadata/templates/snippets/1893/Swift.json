@@ -1,0 +1,1 @@
+"class Solution {\n    func isCovered(_ ranges: [[Int]], _ left: Int, _ right: Int) -> Bool {\n        \n    }\n}"

@@ -1,1 +1,0 @@
-"class Solution(object):\n    def countSubTrees(self, n, edges, labels):\n        \"\"\"\n        :type n: int\n        :type edges: List[List[int]]\n        :type labels: str\n        :rtype: List[int]\n        \"\"\"\n        "

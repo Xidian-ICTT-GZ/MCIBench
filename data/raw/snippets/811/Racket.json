@@ -1,1 +1,0 @@
-"(define/contract (subdomain-visits cpdomains)\n  (-> (listof string?) (listof string?))\n  )"

@@ -1,0 +1,1 @@
+"/**\n * @param {Array} arr1\n * @param {Array} arr2\n * @return {Array}\n */\nvar join = function(arr1, arr2) {\n    \n};"

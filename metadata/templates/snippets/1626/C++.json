@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int bestTeamScore(vector<int>& scores, vector<int>& ages) {\n        \n    }\n};"

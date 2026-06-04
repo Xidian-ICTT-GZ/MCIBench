@@ -1,0 +1,1 @@
+"(define/contract (circular-array-loop nums)\n  (-> (listof exact-integer?) boolean?)\n  )"

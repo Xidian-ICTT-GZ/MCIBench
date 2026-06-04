@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec max_num_of_substrings(s :: String.t) :: [String.t]\n  def max_num_of_substrings(s) do\n    \n  end\nend"

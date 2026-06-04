@@ -1,0 +1,9 @@
+var numWaterBottles = function(numBottles, numExchange) {
+    let bottle = numBottles, ans = numBottles;
+    while (bottle >= numExchange) {
+        bottle -= numExchange;
+        ++ans;
+        ++bottle;
+    }
+    return ans;
+};

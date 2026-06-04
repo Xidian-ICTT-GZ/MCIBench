@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec divide_array(nums :: [integer], k :: integer) :: [[integer]]\n  def divide_array(nums, k) do\n    \n  end\nend"

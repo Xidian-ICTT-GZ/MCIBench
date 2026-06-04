@@ -1,0 +1,1 @@
+"-spec largest_rectangle_area(Heights :: [integer()]) -> integer().\nlargest_rectangle_area(Heights) ->\n  ."

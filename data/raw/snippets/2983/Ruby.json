@@ -1,1 +1,0 @@
-"# @param {String} s\n# @param {Integer[][]} queries\n# @return {Boolean[]}\ndef can_make_palindrome_queries(s, queries)\n    \nend"

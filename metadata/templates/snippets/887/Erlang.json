@@ -1,0 +1,1 @@
+"-spec super_egg_drop(K :: integer(), N :: integer()) -> integer().\nsuper_egg_drop(K, N) ->\n  ."

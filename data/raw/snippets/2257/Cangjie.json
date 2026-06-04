@@ -1,1 +1,0 @@
-"class Solution {\n    func countUnguarded(m: Int64, n: Int64, guards: Array<Array<Int64>>, walls: Array<Array<Int64>>): Int64 {\n\n    }\n}"

@@ -1,0 +1,1 @@
+"class Solution {\n    fun removeDigit(number: String, digit: Char): String {\n        \n    }\n}"

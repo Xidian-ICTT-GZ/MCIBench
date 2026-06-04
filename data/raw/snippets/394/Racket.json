@@ -1,1 +1,0 @@
-"(define/contract (decode-string s)\n  (-> string? string?)\n  )"

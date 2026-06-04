@@ -1,0 +1,1 @@
+"object Solution {\n    def countDistinct(nums: Array[Int], k: Int, p: Int): Int = {\n        \n    }\n}"

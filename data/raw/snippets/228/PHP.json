@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @return String[]\n     */\n    function summaryRanges($nums) {\n        \n    }\n}"

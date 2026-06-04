@@ -1,1 +1,0 @@
-"class Solution(object):\n    def getWordsInLongestSubsequence(self, words, groups):\n        \"\"\"\n        :type words: List[str]\n        :type groups: List[int]\n        :rtype: List[str]\n        \"\"\"\n        "

@@ -1,1 +1,0 @@
-"class Solution(object):\n    def reachableNodes(self, n, edges, restricted):\n        \"\"\"\n        :type n: int\n        :type edges: List[List[int]]\n        :type restricted: List[int]\n        :rtype: int\n        \"\"\"\n        "

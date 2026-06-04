@@ -1,0 +1,19 @@
+bool areNumbersAscending(char * s) {
+    int pre = 0, pos = 0;
+    while (s[pos] != '\0') {
+        if (isdigit(s[pos])) {
+            int cur = 0;
+            while (s[pos] != '\0' && isdigit(s[pos])) {
+                cur = cur * 10 + s[pos] - '0';
+                pos++;
+            }
+            if (cur <= pre) {
+                return false;
+            }
+            pre = cur;
+        } else {
+            pos++;
+        }
+    }
+    return true;
+}

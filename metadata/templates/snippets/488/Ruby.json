@@ -1,0 +1,1 @@
+"# @param {String} board\n# @param {String} hand\n# @return {Integer}\ndef find_min_step(board, hand)\n    \nend"

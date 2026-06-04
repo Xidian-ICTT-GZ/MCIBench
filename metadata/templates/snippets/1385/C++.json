@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int findTheDistanceValue(vector<int>& arr1, vector<int>& arr2, int d) {\n        \n    }\n};"

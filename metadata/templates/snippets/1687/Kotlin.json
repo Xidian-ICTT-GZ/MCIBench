@@ -1,0 +1,1 @@
+"class Solution {\n    fun boxDelivering(boxes: Array<IntArray>, portsCount: Int, maxBoxes: Int, maxWeight: Int): Int {\n        \n    }\n}"

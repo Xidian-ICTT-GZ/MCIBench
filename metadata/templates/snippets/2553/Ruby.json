@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @return {Integer[]}\ndef separate_digits(nums)\n    \nend"

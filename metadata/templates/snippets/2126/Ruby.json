@@ -1,0 +1,1 @@
+"# @param {Integer} mass\n# @param {Integer[]} asteroids\n# @return {Boolean}\ndef asteroids_destroyed(mass, asteroids)\n    \nend"

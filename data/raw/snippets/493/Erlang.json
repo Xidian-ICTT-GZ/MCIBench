@@ -1,1 +1,0 @@
-"-spec reverse_pairs(Nums :: [integer()]) -> integer().\nreverse_pairs(Nums) ->\n  ."

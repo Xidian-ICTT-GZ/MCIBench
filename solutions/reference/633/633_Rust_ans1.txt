@@ -1,0 +1,14 @@
+impl Solution {
+    pub fn judge_square_sum(c: i32) -> bool {
+        for a in 0..=((c as f64).sqrt() as i32) {
+            let b_squared = c - a * a;
+            if b_squared >= 0 {
+                let b = (b_squared as f64).sqrt();
+                if b.fract() == 0.0 {
+                    return true;
+                }
+            }
+        }
+        false
+    }
+}

@@ -1,1 +1,0 @@
-"# @param {Integer[][]} points\n# @param {Integer} w\n# @return {Integer}\ndef min_rectangles_to_cover_points(points, w)\n    \nend"

@@ -1,1 +1,0 @@
-"-spec busy_student(StartTime :: [integer()], EndTime :: [integer()], QueryTime :: integer()) -> integer().\nbusy_student(StartTime, EndTime, QueryTime) ->\n  ."

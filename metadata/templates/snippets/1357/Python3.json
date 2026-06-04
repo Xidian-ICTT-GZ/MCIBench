@@ -1,0 +1,1 @@
+"class Cashier:\n\n    def __init__(self, n: int, discount: int, products: List[int], prices: List[int]):\n        \n\n    def getBill(self, product: List[int], amount: List[int]) -> float:\n        \n\n\n# Your Cashier object will be instantiated and called as such:\n# obj = Cashier(n, discount, products, prices)\n# param_1 = obj.getBill(product,amount)"

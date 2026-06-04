@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec box_delivering(boxes :: [[integer]], ports_count :: integer, max_boxes :: integer, max_weight :: integer) :: integer\n  def box_delivering(boxes, ports_count, max_boxes, max_weight) do\n    \n  end\nend"

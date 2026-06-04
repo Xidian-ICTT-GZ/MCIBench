@@ -1,1 +1,0 @@
-"class Solution(object):\n    def modifiedGraphEdges(self, n, edges, source, destination, target):\n        \"\"\"\n        :type n: int\n        :type edges: List[List[int]]\n        :type source: int\n        :type destination: int\n        :type target: int\n        :rtype: List[List[int]]\n        \"\"\"\n        "

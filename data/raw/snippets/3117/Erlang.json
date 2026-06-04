@@ -1,1 +1,0 @@
-"-spec minimum_value_sum(Nums :: [integer()], AndValues :: [integer()]) -> integer().\nminimum_value_sum(Nums, AndValues) ->\n  ."

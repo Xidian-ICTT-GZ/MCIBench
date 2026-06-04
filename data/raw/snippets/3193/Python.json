@@ -1,1 +1,0 @@
-"class Solution(object):\n    def numberOfPermutations(self, n, requirements):\n        \"\"\"\n        :type n: int\n        :type requirements: List[List[int]]\n        :rtype: int\n        \"\"\"\n        "

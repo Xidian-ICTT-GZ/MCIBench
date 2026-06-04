@@ -1,0 +1,1 @@
+"-spec find_right_interval(Intervals :: [[integer()]]) -> [integer()].\nfind_right_interval(Intervals) ->\n  ."

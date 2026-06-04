@@ -1,1 +1,0 @@
-"class Solution(object):\n    def prefixCount(self, words, pref):\n        \"\"\"\n        :type words: List[str]\n        :type pref: str\n        :rtype: int\n        \"\"\"\n        "

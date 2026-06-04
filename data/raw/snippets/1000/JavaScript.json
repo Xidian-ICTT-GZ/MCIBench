@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} stones\n * @param {number} k\n * @return {number}\n */\nvar mergeStones = function(stones, k) {\n    \n};"

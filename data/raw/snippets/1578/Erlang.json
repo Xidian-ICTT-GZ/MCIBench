@@ -1,1 +1,0 @@
-"-spec min_cost(Colors :: unicode:unicode_binary(), NeededTime :: [integer()]) -> integer().\nmin_cost(Colors, NeededTime) ->\n  ."

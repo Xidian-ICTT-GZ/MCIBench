@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec is_reachable_at_time(sx :: integer, sy :: integer, fx :: integer, fy :: integer, t :: integer) :: boolean\n  def is_reachable_at_time(sx, sy, fx, fy, t) do\n    \n  end\nend"

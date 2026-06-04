@@ -1,0 +1,1 @@
+"-spec check_record(N :: integer()) -> integer().\ncheck_record(N) ->\n  ."

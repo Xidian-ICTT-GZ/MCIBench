@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $nums1\n     * @param Integer[] $nums2\n     * @param Integer $diff\n     * @return Integer\n     */\n    function numberOfPairs($nums1, $nums2, $diff) {\n        \n    }\n}"

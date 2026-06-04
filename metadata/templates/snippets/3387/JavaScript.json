@@ -1,0 +1,1 @@
+"/**\n * @param {string} initialCurrency\n * @param {string[][]} pairs1\n * @param {number[]} rates1\n * @param {string[][]} pairs2\n * @param {number[]} rates2\n * @return {number}\n */\nvar maxAmount = function(initialCurrency, pairs1, rates1, pairs2, rates2) {\n    \n};"

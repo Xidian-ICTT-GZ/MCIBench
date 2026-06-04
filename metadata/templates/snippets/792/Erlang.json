@@ -1,0 +1,1 @@
+"-spec num_matching_subseq(S :: unicode:unicode_binary(), Words :: [unicode:unicode_binary()]) -> integer().\nnum_matching_subseq(S, Words) ->\n  ."

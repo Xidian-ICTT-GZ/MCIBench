@@ -1,0 +1,1 @@
+"class Solution(object):\n    def colorTheGrid(self, m, n):\n        \"\"\"\n        :type m: int\n        :type n: int\n        :rtype: int\n        \"\"\"\n        "

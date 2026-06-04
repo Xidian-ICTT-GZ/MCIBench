@@ -1,1 +1,0 @@
-"object Solution {\n    def validateCoupons(code: Array[String], businessLine: Array[String], isActive: Array[Boolean]): List[String] = {\n        \n    }\n}"

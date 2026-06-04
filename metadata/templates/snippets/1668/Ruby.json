@@ -1,0 +1,1 @@
+"# @param {String} sequence\n# @param {String} word\n# @return {Integer}\ndef max_repeating(sequence, word)\n    \nend"

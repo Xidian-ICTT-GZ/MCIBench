@@ -1,0 +1,1 @@
+"-spec check_distances(S :: unicode:unicode_binary(), Distance :: [integer()]) -> boolean().\ncheck_distances(S, Distance) ->\n  ."

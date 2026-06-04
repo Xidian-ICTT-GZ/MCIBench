@@ -1,1 +1,0 @@
-"object Solution {\n    def countGoodTriplets(arr: Array[Int], a: Int, b: Int, c: Int): Int = {\n        \n    }\n}"

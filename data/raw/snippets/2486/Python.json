@@ -1,1 +1,0 @@
-"class Solution(object):\n    def appendCharacters(self, s, t):\n        \"\"\"\n        :type s: str\n        :type t: str\n        :rtype: int\n        \"\"\"\n        "

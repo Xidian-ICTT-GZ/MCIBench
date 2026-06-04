@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec is_trionic(nums :: [integer]) :: boolean\n  def is_trionic(nums) do\n    \n  end\nend"

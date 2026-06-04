@@ -1,1 +1,0 @@
-"/**\n * @param {string} start\n * @param {string} target\n * @return {boolean}\n */\nvar canChange = function(start, target) {\n    \n};"

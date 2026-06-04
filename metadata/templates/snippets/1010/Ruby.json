@@ -1,0 +1,1 @@
+"# @param {Integer[]} time\n# @return {Integer}\ndef num_pairs_divisible_by60(time)\n    \nend"

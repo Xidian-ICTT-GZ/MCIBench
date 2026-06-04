@@ -1,1 +1,0 @@
-"(define/contract (min-length-after-removals nums)\n  (-> (listof exact-integer?) exact-integer?)\n  )"

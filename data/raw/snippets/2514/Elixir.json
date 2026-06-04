@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec count_anagrams(s :: String.t) :: integer\n  def count_anagrams(s) do\n    \n  end\nend"

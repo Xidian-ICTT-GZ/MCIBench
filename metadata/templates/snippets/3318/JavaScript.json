@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} nums\n * @param {number} k\n * @param {number} x\n * @return {number[]}\n */\nvar findXSum = function(nums, k, x) {\n    \n};"

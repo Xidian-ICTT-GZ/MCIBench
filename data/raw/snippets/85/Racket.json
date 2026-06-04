@@ -1,1 +1,0 @@
-"(define/contract (maximal-rectangle matrix)\n  (-> (listof (listof char?)) exact-integer?)\n  )"

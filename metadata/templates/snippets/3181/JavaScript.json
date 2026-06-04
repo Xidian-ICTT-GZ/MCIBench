@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} rewardValues\n * @return {number}\n */\nvar maxTotalReward = function(rewardValues) {\n    \n};"

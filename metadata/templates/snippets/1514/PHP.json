@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $n\n     * @param Integer[][] $edges\n     * @param Float[] $succProb\n     * @param Integer $start_node\n     * @param Integer $end_node\n     * @return Float\n     */\n    function maxProbability($n, $edges, $succProb, $start_node, $end_node) {\n        \n    }\n}"

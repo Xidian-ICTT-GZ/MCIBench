@@ -1,0 +1,49 @@
+class TextEditor {
+    private Deque<Character> left;
+    private Deque<Character> right;
+
+    public TextEditor() {
+        left = new ArrayDeque<>();
+        right = new ArrayDeque<>();
+    }
+
+    public void addText(String text) {
+        for (char c : text.toCharArray()) {
+            left.addLast(c);
+        }
+    }
+
+    public int deleteText(int k) {
+        int count = Math.min(k, left.size());
+        for (int i = 0; i < count; i++) {
+            left.removeLast();
+        }
+        return count;
+    }
+
+    public String cursorLeft(int k) {
+        int move = Math.min(k, left.size());
+        for (int i = 0; i < move; i++) {
+            right.addLast(left.removeLast());
+        }
+        return getLeftText();
+    }
+
+    public String cursorRight(int k) {
+        int move = Math.min(k, right.size());
+        for (int i = 0; i < move; i++) {
+            left.addLast(right.removeLast());
+        }
+        return getLeftText();
+    }
+
+    private String getLeftText() {
+        StringBuilder sb = new StringBuilder();
+        int count = Math.min(10, left.size());
+        Iterator<Character> it = left.descendingIterator();
+        while (count-- > 0) {
+            sb.append(it.next());
+        }
+        return sb.reverse().toString();
+    }
+}

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec minimum_levels(possible :: [integer]) :: integer\n  def minimum_levels(possible) do\n    \n  end\nend"

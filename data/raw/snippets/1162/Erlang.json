@@ -1,1 +1,0 @@
-"-spec max_distance(Grid :: [[integer()]]) -> integer().\nmax_distance(Grid) ->\n  ."

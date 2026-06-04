@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec minimum_card_pickup(cards :: [integer]) :: integer\n  def minimum_card_pickup(cards) do\n    \n  end\nend"

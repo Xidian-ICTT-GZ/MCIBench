@@ -1,1 +1,0 @@
-"(define solution%\n  (class object%\n    (super-new)\n    \n    ; rects : (listof (listof exact-integer?))\n    (init-field\n      rects)\n    \n    ; pick : -> (listof exact-integer?)\n    (define/public (pick)\n      )))\n\n;; Your solution% object will be instantiated and called as such:\n;; (define obj (new solution% [rects rects]))\n;; (define param_1 (send obj pick))"

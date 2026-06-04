@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[][] $restaurants\n     * @param Integer $veganFriendly\n     * @param Integer $maxPrice\n     * @param Integer $maxDistance\n     * @return Integer[]\n     */\n    function filterRestaurants($restaurants, $veganFriendly, $maxPrice, $maxDistance) {\n        \n    }\n}"

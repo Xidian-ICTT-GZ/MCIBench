@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int countMatchingSubarrays(vector<int>& nums, vector<int>& pattern) {\n        \n    }\n};"

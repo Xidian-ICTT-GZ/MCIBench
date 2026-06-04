@@ -1,0 +1,1 @@
+"-spec has_special_substring(S :: unicode:unicode_binary(), K :: integer()) -> boolean().\nhas_special_substring(S, K) ->\n  ."

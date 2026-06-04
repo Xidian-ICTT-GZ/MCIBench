@@ -1,0 +1,1 @@
+"class Solution(object):\n    def minCostSetTime(self, startAt, moveCost, pushCost, targetSeconds):\n        \"\"\"\n        :type startAt: int\n        :type moveCost: int\n        :type pushCost: int\n        :type targetSeconds: int\n        :rtype: int\n        \"\"\"\n        "

@@ -1,0 +1,1 @@
+"class Solution {\n    fun minSizeSubarray(nums: IntArray, target: Int): Int {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"class Solution {\n    public long countInterestingSubarrays(List<Integer> nums, int modulo, int k) {\n        \n    }\n}"

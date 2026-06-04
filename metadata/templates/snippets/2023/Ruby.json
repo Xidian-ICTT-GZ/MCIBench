@@ -1,0 +1,1 @@
+"# @param {String[]} nums\n# @param {String} target\n# @return {Integer}\ndef num_of_pairs(nums, target)\n    \nend"

@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    long long getMaxFunctionValue(vector<int>& receiver, long long k) {\n        \n    }\n};"

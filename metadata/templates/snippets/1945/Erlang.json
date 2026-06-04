@@ -1,0 +1,1 @@
+"-spec get_lucky(S :: unicode:unicode_binary(), K :: integer()) -> integer().\nget_lucky(S, K) ->\n  ."

@@ -1,0 +1,1 @@
+"-spec min_taps(N :: integer(), Ranges :: [integer()]) -> integer().\nmin_taps(N, Ranges) ->\n  ."

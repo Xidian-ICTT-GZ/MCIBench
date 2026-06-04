@@ -1,0 +1,1 @@
+"class Solution:\n    def buyChoco(self, prices: List[int], money: int) -> int:\n        "

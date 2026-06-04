@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @param {Integer[][]} languages\n# @param {Integer[][]} friendships\n# @return {Integer}\ndef minimum_teachings(n, languages, friendships)\n    \nend"

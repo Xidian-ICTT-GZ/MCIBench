@@ -1,0 +1,1 @@
+"/**\n * @param {string} val\n * @return {Object}\n */\nvar expect = function(val) {\n    \n};\n\n/**\n * expect(5).toBe(5); // true\n * expect(5).notToBe(5); // throws \"Equal\"\n */"

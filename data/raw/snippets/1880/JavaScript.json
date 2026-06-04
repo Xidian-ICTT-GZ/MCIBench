@@ -1,1 +1,0 @@
-"/**\n * @param {string} firstWord\n * @param {string} secondWord\n * @param {string} targetWord\n * @return {boolean}\n */\nvar isSumEqual = function(firstWord, secondWord, targetWord) {\n    \n};"

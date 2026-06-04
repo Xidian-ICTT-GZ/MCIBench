@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec k_inverse_pairs(n :: integer, k :: integer) :: integer\n  def k_inverse_pairs(n, k) do\n    \n  end\nend"

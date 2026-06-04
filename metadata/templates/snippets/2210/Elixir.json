@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec count_hill_valley(nums :: [integer]) :: integer\n  def count_hill_valley(nums) do\n    \n  end\nend"

@@ -1,1 +1,0 @@
-"(define/contract (generate-tag caption)\n  (-> string? string?)\n  )"

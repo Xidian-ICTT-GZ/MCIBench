@@ -1,0 +1,1 @@
+"class Solution(object):\n    def maxAverageRatio(self, classes, extraStudents):\n        \"\"\"\n        :type classes: List[List[int]]\n        :type extraStudents: int\n        :rtype: float\n        \"\"\"\n        "

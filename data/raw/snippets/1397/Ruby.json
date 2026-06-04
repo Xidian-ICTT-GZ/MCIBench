@@ -1,1 +1,0 @@
-"# @param {Integer} n\n# @param {String} s1\n# @param {String} s2\n# @param {String} evil\n# @return {Integer}\ndef find_good_strings(n, s1, s2, evil)\n    \nend"

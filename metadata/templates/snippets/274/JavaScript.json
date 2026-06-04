@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} citations\n * @return {number}\n */\nvar hIndex = function(citations) {\n    \n};"

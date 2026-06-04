@@ -1,1 +1,0 @@
-"-spec minimum_index(Nums :: [integer()]) -> integer().\nminimum_index(Nums) ->\n  ."

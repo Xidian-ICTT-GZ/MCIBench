@@ -1,0 +1,1 @@
+"-spec longest_word(Words :: [unicode:unicode_binary()]) -> unicode:unicode_binary().\nlongest_word(Words) ->\n  ."

@@ -1,1 +1,0 @@
-"# @param {Integer[][]} grid\n# @param {Integer[]} pricing\n# @param {Integer[]} start\n# @param {Integer} k\n# @return {Integer[][]}\ndef highest_ranked_k_items(grid, pricing, start, k)\n    \nend"

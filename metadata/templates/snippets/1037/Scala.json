@@ -1,0 +1,1 @@
+"object Solution {\n    def isBoomerang(points: Array[Array[Int]]): Boolean = {\n        \n    }\n}"

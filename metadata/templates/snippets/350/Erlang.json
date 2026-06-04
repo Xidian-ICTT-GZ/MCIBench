@@ -1,0 +1,1 @@
+"-spec intersect(Nums1 :: [integer()], Nums2 :: [integer()]) -> [integer()].\nintersect(Nums1, Nums2) ->\n  ."

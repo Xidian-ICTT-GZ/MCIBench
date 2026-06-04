@@ -1,1 +1,0 @@
-"-spec min_increments(N :: integer(), Cost :: [integer()]) -> integer().\nmin_increments(N, Cost) ->\n  ."

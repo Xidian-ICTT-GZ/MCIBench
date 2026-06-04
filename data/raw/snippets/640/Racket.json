@@ -1,1 +1,0 @@
-"(define/contract (solve-equation equation)\n  (-> string? string?)\n  )"

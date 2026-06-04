@@ -1,1 +1,0 @@
-"class Solution:\n    def numSubarrayBoundedMax(self, nums: List[int], left: int, right: int) -> int:\n        "

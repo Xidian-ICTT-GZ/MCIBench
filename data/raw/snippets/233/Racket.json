@@ -1,1 +1,0 @@
-"(define/contract (count-digit-one n)\n  (-> exact-integer? exact-integer?)\n  )"

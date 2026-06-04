@@ -1,0 +1,1 @@
+"class Solution:\n    def findIntegers(self, n: int) -> int:\n        "

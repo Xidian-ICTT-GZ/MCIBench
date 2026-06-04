@@ -1,1 +1,0 @@
-"class Solution(object):\n    def numberOfLines(self, widths, s):\n        \"\"\"\n        :type widths: List[int]\n        :type s: str\n        :rtype: List[int]\n        \"\"\"\n        "

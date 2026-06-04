@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    int maximalRectangle(vector<vector<char>>& matrix) {\n        \n    }\n};"

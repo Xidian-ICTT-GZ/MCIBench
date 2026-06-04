@@ -1,1 +1,0 @@
-"# @param {Integer} n\n# @param {Integer} m\n# @param {Integer} k\n# @return {Integer}\ndef count_good_arrays(n, m, k)\n    \nend"

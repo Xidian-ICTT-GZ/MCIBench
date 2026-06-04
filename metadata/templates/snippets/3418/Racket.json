@@ -1,0 +1,1 @@
+"(define/contract (maximum-amount coins)\n  (-> (listof (listof exact-integer?)) exact-integer?)\n  )"

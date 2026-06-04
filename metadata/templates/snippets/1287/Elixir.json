@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec find_special_integer(arr :: [integer]) :: integer\n  def find_special_integer(arr) do\n    \n  end\nend"

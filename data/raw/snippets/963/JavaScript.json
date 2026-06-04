@@ -1,1 +1,0 @@
-"/**\n * @param {number[][]} points\n * @return {number}\n */\nvar minAreaFreeRect = function(points) {\n    \n};"

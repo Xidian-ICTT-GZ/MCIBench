@@ -1,0 +1,44 @@
+func maximumDetonation(bombs [][]int) int {
+    n := len(bombs)
+    
+    isConnected := func(u, v int) bool {
+        dx := bombs[u][0] - bombs[v][0]
+        dy := bombs[u][1] - bombs[v][1]
+        return int64(bombs[u][2]*bombs[u][2]) >= int64(dx*dx+dy*dy)
+    }
+
+    
+    edges := make(map[int][]int)
+    for i := 0; i < n; i++ {
+        for j := 0; j < n; j++ {
+            if i != j && isConnected(i, j) {
+                edges[i] = append(edges[i], j)
+            }
+        }
+    }
+    res := 0 
+    for i := 0; i < n; i++ {
+        
+        visited := make([]int, n)
+        cnt := 1
+        q := []int{}
+        q = append(q, i)
+        visited[i] = 1
+        for len(q) > 0 {
+            cidx := q[0]
+            q = q[1:]
+            for _, nidx := range edges[cidx] {
+                if visited[nidx] != 0 {
+                    continue
+                }
+                cnt++
+                q = append(q, nidx)
+                visited[nidx] = 1
+            }
+        }
+        if cnt > res {
+            res = cnt
+        }
+    }
+    return res
+}

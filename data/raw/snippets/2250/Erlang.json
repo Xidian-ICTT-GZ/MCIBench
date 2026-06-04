@@ -1,1 +1,0 @@
-"-spec count_rectangles(Rectangles :: [[integer()]], Points :: [[integer()]]) -> [integer()].\ncount_rectangles(Rectangles, Points) ->\n  ."

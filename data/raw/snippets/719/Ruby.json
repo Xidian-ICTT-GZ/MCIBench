@@ -1,1 +1,0 @@
-"# @param {Integer[]} nums\n# @param {Integer} k\n# @return {Integer}\ndef smallest_distance_pair(nums, k)\n    \nend"

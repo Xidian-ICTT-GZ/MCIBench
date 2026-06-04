@@ -1,1 +1,0 @@
-"class Solution(object):\n    def compareVersion(self, version1, version2):\n        \"\"\"\n        :type version1: str\n        :type version2: str\n        :rtype: int\n        \"\"\"\n        "

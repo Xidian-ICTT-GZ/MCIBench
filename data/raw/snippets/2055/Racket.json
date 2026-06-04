@@ -1,1 +1,0 @@
-"(define/contract (plates-between-candles s queries)\n  (-> string? (listof (listof exact-integer?)) (listof exact-integer?))\n  )"

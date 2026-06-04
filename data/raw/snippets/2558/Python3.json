@@ -1,1 +1,0 @@
-"class Solution:\n    def pickGifts(self, gifts: List[int], k: int) -> int:\n        "

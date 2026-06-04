@@ -1,1 +1,0 @@
-"(define/contract (min-operations-queries n edges queries)\n  (-> exact-integer? (listof (listof exact-integer?)) (listof (listof exact-integer?)) (listof exact-integer?))\n  )"

@@ -1,1 +1,0 @@
-"class Solution(object):\n    def countInterestingSubarrays(self, nums, modulo, k):\n        \"\"\"\n        :type nums: List[int]\n        :type modulo: int\n        :type k: int\n        :rtype: int\n        \"\"\"\n        "

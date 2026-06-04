@@ -1,0 +1,1 @@
+"# @param {Integer} memory1\n# @param {Integer} memory2\n# @return {Integer[]}\ndef mem_leak(memory1, memory2)\n    \nend"

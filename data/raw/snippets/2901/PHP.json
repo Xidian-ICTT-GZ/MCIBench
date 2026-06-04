@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String[] $words\n     * @param Integer[] $groups\n     * @return String[]\n     */\n    function getWordsInLongestSubsequence($words, $groups) {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"object Solution {\n    def rootCount(edges: Array[Array[Int]], guesses: Array[Array[Int]], k: Int): Int = {\n        \n    }\n}"

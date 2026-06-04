@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec restore_string(s :: String.t, indices :: [integer]) :: String.t\n  def restore_string(s, indices) do\n    \n  end\nend"

@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec compressed_string(word :: String.t) :: String.t\n  def compressed_string(word) do\n    \n  end\nend"

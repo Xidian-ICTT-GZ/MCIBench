@@ -1,1 +1,0 @@
-"(define/contract (calculate-tax brackets income)\n  (-> (listof (listof exact-integer?)) exact-integer? flonum?)\n  )"

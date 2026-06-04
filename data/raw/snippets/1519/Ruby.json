@@ -1,1 +1,0 @@
-"# @param {Integer} n\n# @param {Integer[][]} edges\n# @param {String} labels\n# @return {Integer[]}\ndef count_sub_trees(n, edges, labels)\n    \nend"

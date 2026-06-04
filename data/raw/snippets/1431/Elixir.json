@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec kids_with_candies(candies :: [integer], extra_candies :: integer) :: [boolean]\n  def kids_with_candies(candies, extra_candies) do\n    \n  end\nend"

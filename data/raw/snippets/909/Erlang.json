@@ -1,1 +1,0 @@
-"-spec snakes_and_ladders(Board :: [[integer()]]) -> integer().\nsnakes_and_ladders(Board) ->\n  ."

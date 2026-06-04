@@ -1,1 +1,0 @@
-"-spec reverse_submatrix(Grid :: [[integer()]], X :: integer(), Y :: integer(), K :: integer()) -> [[integer()]].\nreverse_submatrix(Grid, X, Y, K) ->\n  ."

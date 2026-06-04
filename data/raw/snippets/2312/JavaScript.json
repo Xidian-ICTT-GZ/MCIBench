@@ -1,1 +1,0 @@
-"/**\n * @param {number} m\n * @param {number} n\n * @param {number[][]} prices\n * @return {number}\n */\nvar sellingWood = function(m, n, prices) {\n    \n};"

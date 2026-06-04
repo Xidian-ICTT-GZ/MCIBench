@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    double knightProbability(int n, int k, int row, int column) {\n        \n    }\n};"

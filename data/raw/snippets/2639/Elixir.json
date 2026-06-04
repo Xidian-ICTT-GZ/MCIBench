@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec find_column_width(grid :: [[integer]]) :: [integer]\n  def find_column_width(grid) do\n    \n  end\nend"

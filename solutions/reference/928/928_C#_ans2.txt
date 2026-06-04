@@ -1,0 +1,78 @@
+public class Solution {
+    public int MinMalwareSpread(int[][] graph, int[] initial) {
+        int n = graph.Length;
+        bool[] initialSet = new bool[n];
+        foreach (int v in initial) {
+            initialSet[v] = true;
+        }
+        int[] uf = new int[n];
+        for (int i = 0; i < n; i++) {
+            uf[i] = i;
+        }
+        for (int u = 0; u < n; u++) {
+            if (initialSet[u]) {
+                continue;
+            }
+            for (int v = 0; v < n; v++) {
+                if (initialSet[v]) {
+                    continue;
+                }
+                if (graph[u][v] == 1) {
+                    Merge(uf, u, v);
+                }
+            }
+        }
+
+        IList<int>[] infectedBy = new IList<int>[n];
+        for (int i = 0; i < n; i++) {
+            infectedBy[i] = new List<int>();
+        }
+        foreach (int v in initial) {
+            bool[] infectedSet = new bool[n];
+            for (int u = 0; u < n; u++) {
+                if (initialSet[u] || graph[u][v] == 0) {
+                    continue;
+                }
+                infectedSet[Find(uf, u)] = true;
+            }
+            for (int u = 0; u < n; u++) {
+                if (infectedSet[u]) {
+                    infectedBy[u].Add(v);
+                }
+            }
+        }
+
+        int[] count = new int[n];
+        for (int u = 0; u < n; u++) {
+            if (infectedBy[u].Count != 1) {
+                continue;
+            }
+            int v = infectedBy[u][0];
+            for (int w = 0; w < n; w++) {
+                if (Find(uf, w) == Find(uf, u)) {
+                    count[v]++;
+                }
+            }
+        }
+        int res = initial[0];
+        foreach (int v in initial) {
+            if (count[v] > count[res] || count[v] == count[res] && v < res) {
+                res = v;
+            }
+        }
+        return res;
+    }
+
+    public int Find(int[] uf, int u) {
+        if (uf[u] == u) {
+            return u;
+        }
+        uf[u] = Find(uf, uf[u]);
+        return uf[u];
+    }
+
+    public void Merge(int[] uf, int u, int v) {
+        int ru = Find(uf, u), rv = Find(uf, v);
+        uf[ru] = rv;
+    }
+}

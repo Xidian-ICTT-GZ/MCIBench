@@ -1,1 +1,0 @@
-"class Solution(object):\n    def addSpaces(self, s, spaces):\n        \"\"\"\n        :type s: str\n        :type spaces: List[int]\n        :rtype: str\n        \"\"\"\n        "

@@ -1,1 +1,0 @@
-"/**\n * @param {number[][]} boxes\n * @param {number} portsCount\n * @param {number} maxBoxes\n * @param {number} maxWeight\n * @return {number}\n */\nvar boxDelivering = function(boxes, portsCount, maxBoxes, maxWeight) {\n    \n};"

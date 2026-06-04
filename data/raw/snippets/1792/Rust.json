@@ -1,1 +1,0 @@
-"impl Solution {\n    pub fn max_average_ratio(classes: Vec<Vec<i32>>, extra_students: i32) -> f64 {\n        \n    }\n}"

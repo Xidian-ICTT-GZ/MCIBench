@@ -1,1 +1,0 @@
-"/**\n * @param {number} n\n * @param {number[][]} edges\n * @param {number[]} restricted\n * @return {number}\n */\nvar reachableNodes = function(n, edges, restricted) {\n    \n};"

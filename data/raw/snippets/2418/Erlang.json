@@ -1,1 +1,0 @@
-"-spec sort_people(Names :: [unicode:unicode_binary()], Heights :: [integer()]) -> [unicode:unicode_binary()].\nsort_people(Names, Heights) ->\n  ."

@@ -1,0 +1,1 @@
+"/**\n * @param {number} n\n * @param {number} headID\n * @param {number[]} manager\n * @param {number[]} informTime\n * @return {number}\n */\nvar numOfMinutes = function(n, headID, manager, informTime) {\n    \n};"

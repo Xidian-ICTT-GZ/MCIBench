@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String[] $sentences\n     * @return Integer\n     */\n    function mostWordsFound($sentences) {\n        \n    }\n}"

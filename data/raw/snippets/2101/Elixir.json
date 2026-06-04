@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec maximum_detonation(bombs :: [[integer]]) :: integer\n  def maximum_detonation(bombs) do\n    \n  end\nend"

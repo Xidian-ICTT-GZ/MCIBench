@@ -1,0 +1,1 @@
+"class Solution:\n    def nearestValidPoint(self, x: int, y: int, points: List[List[int]]) -> int:\n        "

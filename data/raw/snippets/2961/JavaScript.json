@@ -1,1 +1,0 @@
-"/**\n * @param {number[][]} variables\n * @param {number} target\n * @return {number[]}\n */\nvar getGoodIndices = function(variables, target) {\n    \n};"

@@ -1,1 +1,0 @@
-"-spec num_rabbits(Answers :: [integer()]) -> integer().\nnum_rabbits(Answers) ->\n  ."

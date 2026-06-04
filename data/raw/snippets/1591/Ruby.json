@@ -1,1 +1,0 @@
-"# @param {Integer[][]} target_grid\n# @return {Boolean}\ndef is_printable(target_grid)\n    \nend"

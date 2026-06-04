@@ -1,0 +1,1 @@
+"class Solution:\n    def entityParser(self, text: str) -> str:\n        "

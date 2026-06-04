@@ -1,0 +1,13 @@
+int buyChoco(int* prices, int pricesSize, int money) {
+    int fi = INT_MAX, se = INT_MAX;
+    for (int i = 0; i < pricesSize; i++) {
+        int price = prices[i];
+        if (price < fi) {
+            se = fi;
+            fi = price;
+        } else if (price < se) {
+            se = price;
+        }
+    }
+    return money < fi + se ? money : money - fi - se;
+}

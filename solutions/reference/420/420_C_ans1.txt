@@ -1,0 +1,84 @@
+#define MAX(a, b) ((a) > (b) ? (a) : (b))
+#define MIN(a, b) ((a) < (b) ? (a) : (b))
+
+int strongPasswordChecker(char * password) {
+    int n = strlen(password);
+    bool has_lower = false, has_upper = false, has_digit = false;
+    for (int i = 0; i < n; i++) {
+        if (islower(password[i])) {
+            has_lower = true;
+        } else if (isupper(password[i])) {
+            has_upper = true;
+        } else if (isdigit(password[i])) {
+            has_digit = true;
+        }
+    }
+    int categories = has_lower + has_upper + has_digit;
+
+    if (n < 6) {
+        return MAX(6 - n, 3 - categories);
+    } else if (n <= 20) {
+        int replace = 0;
+        int cnt = 0;
+        char cur = '#';
+
+        for (int i = 0; i < n; i++) {
+            if (password[i] == cur) {
+                ++cnt;
+            } else {
+                replace += cnt / 3;
+                cnt = 1;
+                cur = password[i];
+            }
+        }
+        replace += cnt / 3;
+        return MAX(replace, 3 - categories);
+    } else {
+        
+        int replace = 0, remove = n - 20;
+        
+        int rm2 = 0;
+        int cnt = 0;
+        char cur = '#';
+
+        for (int i = 0; i < n; i++) {
+            if (password[i] == cur) {
+                ++cnt;
+            } else {
+                if (remove > 0 && cnt >= 3) {
+                    if (cnt % 3 == 0) {
+                        
+                        --remove;
+                        --replace;
+                    } else if (cnt % 3 == 1) {
+                        
+                        ++rm2;
+                    }
+                    
+                }
+                replace += cnt / 3;
+                cnt = 1;
+                cur = password[i];
+            }
+        }
+        if (remove > 0 && cnt >= 3) {
+            if (cnt % 3 == 0) {
+                --remove;
+                --replace;
+            } else if (cnt % 3 == 1) {
+                ++rm2;
+            }
+        }
+        replace += cnt / 3;
+
+        
+        int use2 = MIN(MIN(replace, rm2), remove / 2);
+        replace -= use2;
+        remove -= use2 * 2;
+        
+        int use3 = MIN(replace, remove / 3);
+        replace -= use3;
+        remove -= use3 * 3;
+        return (n - 20) + MAX(replace, 3 - categories);
+    }
+}

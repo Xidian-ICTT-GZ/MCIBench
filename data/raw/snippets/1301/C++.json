@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    vector<int> pathsWithMaxScore(vector<string>& board) {\n        \n    }\n};"

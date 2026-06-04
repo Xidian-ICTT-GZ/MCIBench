@@ -1,1 +1,0 @@
-"class Solution {\n    func longestRepeating(_ s: String, _ queryCharacters: String, _ queryIndices: [Int]) -> [Int] {\n        \n    }\n}"

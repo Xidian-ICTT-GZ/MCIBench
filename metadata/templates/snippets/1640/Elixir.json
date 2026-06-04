@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec can_form_array(arr :: [integer], pieces :: [[integer]]) :: boolean\n  def can_form_array(arr, pieces) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"-spec diagonal_sum(Mat :: [[integer()]]) -> integer().\ndiagonal_sum(Mat) ->\n  ."

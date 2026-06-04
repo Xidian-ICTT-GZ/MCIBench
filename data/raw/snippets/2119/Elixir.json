@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec is_same_after_reversals(num :: integer) :: boolean\n  def is_same_after_reversals(num) do\n    \n  end\nend"

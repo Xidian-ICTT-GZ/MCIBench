@@ -1,1 +1,0 @@
-"-spec ways_to_reach_target(Target :: integer(), Types :: [[integer()]]) -> integer().\nways_to_reach_target(Target, Types) ->\n  ."

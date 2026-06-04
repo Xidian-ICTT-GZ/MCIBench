@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec pivot_array(nums :: [integer], pivot :: integer) :: [integer]\n  def pivot_array(nums, pivot) do\n    \n  end\nend"

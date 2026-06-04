@@ -1,0 +1,16 @@
+impl Solution {
+    pub fn jump(nums: Vec<i32>) -> i32 {
+        let mut position = nums.len() - 1;
+        let mut steps = 0;
+        while position > 0 {
+            for i in 0..position {
+                if i + nums[i] as usize >= position {
+                    position = i;
+                    steps += 1;
+                    break;
+                }
+            }
+        }
+        steps
+    }
+}

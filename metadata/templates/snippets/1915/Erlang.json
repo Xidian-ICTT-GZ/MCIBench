@@ -1,0 +1,1 @@
+"-spec wonderful_substrings(Word :: unicode:unicode_binary()) -> integer().\nwonderful_substrings(Word) ->\n  ."

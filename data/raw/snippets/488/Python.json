@@ -1,1 +1,0 @@
-"class Solution(object):\n    def findMinStep(self, board, hand):\n        \"\"\"\n        :type board: str\n        :type hand: str\n        :rtype: int\n        \"\"\"\n        "

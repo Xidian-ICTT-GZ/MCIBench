@@ -1,1 +1,0 @@
-"object Solution {\n    def findHighAccessEmployees(access_times: List[List[String]]): List[String] = {\n        \n    }\n}"

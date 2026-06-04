@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec fair_candy_swap(alice_sizes :: [integer], bob_sizes :: [integer]) :: [integer]\n  def fair_candy_swap(alice_sizes, bob_sizes) do\n    \n  end\nend"

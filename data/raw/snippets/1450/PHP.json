@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $startTime\n     * @param Integer[] $endTime\n     * @param Integer $queryTime\n     * @return Integer\n     */\n    function busyStudent($startTime, $endTime, $queryTime) {\n        \n    }\n}"

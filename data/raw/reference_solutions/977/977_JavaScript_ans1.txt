@@ -1,8 +1,0 @@
-var sortedSquares = function(nums) {
-    let ans = [];
-    for (let num of nums) {
-        ans.push(num * num);
-    }
-    ans.sort((a, b) => a - b);
-    return ans;
-};

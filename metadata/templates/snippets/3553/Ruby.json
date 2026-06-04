@@ -1,0 +1,1 @@
+"# @param {Integer[][]} edges\n# @param {Integer[][]} queries\n# @return {Integer[]}\ndef minimum_weight(edges, queries)\n    \nend"

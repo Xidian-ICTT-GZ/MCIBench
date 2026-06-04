@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String[] $nums\n     * @param Integer $k\n     * @return String\n     */\n    function kthLargestNumber($nums, $k) {\n        \n    }\n}"

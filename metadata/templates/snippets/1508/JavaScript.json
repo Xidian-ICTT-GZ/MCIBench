@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} nums\n * @param {number} n\n * @param {number} left\n * @param {number} right\n * @return {number}\n */\nvar rangeSum = function(nums, n, left, right) {\n    \n};"

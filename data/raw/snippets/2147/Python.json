@@ -1,1 +1,0 @@
-"class Solution(object):\n    def numberOfWays(self, corridor):\n        \"\"\"\n        :type corridor: str\n        :rtype: int\n        \"\"\"\n        "

@@ -1,1 +1,0 @@
-"class Solution {\n    fun kthSmallest(par: IntArray, vals: IntArray, queries: Array<IntArray>): IntArray {\n        \n    }\n}"

@@ -1,1 +1,0 @@
-"(define/contract (valid-tic-tac-toe board)\n  (-> (listof string?) boolean?)\n  )"

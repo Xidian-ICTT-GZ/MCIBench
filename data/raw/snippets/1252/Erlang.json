@@ -1,1 +1,0 @@
-"-spec odd_cells(M :: integer(), N :: integer(), Indices :: [[integer()]]) -> integer().\nodd_cells(M, N, Indices) ->\n  ."

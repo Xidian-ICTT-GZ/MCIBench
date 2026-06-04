@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[][] $grid\n     * @param Integer[][] $hits\n     * @return Integer[]\n     */\n    function hitBricks($grid, $hits) {\n        \n    }\n}"

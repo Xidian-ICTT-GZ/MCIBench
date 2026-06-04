@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $maxHeights\n     * @return Integer\n     */\n    function maximumSumOfHeights($maxHeights) {\n        \n    }\n}"

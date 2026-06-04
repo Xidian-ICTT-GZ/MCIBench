@@ -1,0 +1,1 @@
+"object Solution {\n    def arithmeticTriplets(nums: Array[Int], diff: Int): Int = {\n        \n    }\n}"

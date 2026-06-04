@@ -1,1 +1,0 @@
-"-spec merge_similar_items(Items1 :: [[integer()]], Items2 :: [[integer()]]) -> [[integer()]].\nmerge_similar_items(Items1, Items2) ->\n  ."

@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec matrix_sum_queries(n :: integer, queries :: [[integer]]) :: integer\n  def matrix_sum_queries(n, queries) do\n    \n  end\nend"

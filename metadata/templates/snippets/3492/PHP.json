@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $n\n     * @param Integer $w\n     * @param Integer $maxWeight\n     * @return Integer\n     */\n    function maxContainers($n, $w, $maxWeight) {\n        \n    }\n}"

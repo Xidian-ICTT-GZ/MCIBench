@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} nums1\n * @param {number[]} nums2\n * @param {number[][]} queries\n * @return {number[]}\n */\nvar maximumSumQueries = function(nums1, nums2, queries) {\n    \n};"

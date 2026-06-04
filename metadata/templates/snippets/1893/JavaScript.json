@@ -1,0 +1,1 @@
+"/**\n * @param {number[][]} ranges\n * @param {number} left\n * @param {number} right\n * @return {boolean}\n */\nvar isCovered = function(ranges, left, right) {\n    \n};"

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec maximum_score(nums :: [integer], k :: integer) :: integer\n  def maximum_score(nums, k) do\n    \n  end\nend"

@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $apples\n     * @param Integer[] $days\n     * @return Integer\n     */\n    function eatenApples($apples, $days) {\n        \n    }\n}"

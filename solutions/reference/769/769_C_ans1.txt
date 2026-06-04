@@ -1,0 +1,12 @@
+#define MAX(a, b) ((a) > (b) ? (a) : (b))
+
+int maxChunksToSorted(int* arr, int arrSize) {
+    int m = 0, res = 0;
+    for (int i = 0; i < arrSize; i++) {
+        m = MAX(m, arr[i]);
+        if (m == i) {
+            res++;
+        }
+    }
+    return res;
+}

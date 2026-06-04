@@ -1,0 +1,1 @@
+"class Solution {\n    fun minimumWeight(edges: Array<IntArray>, queries: Array<IntArray>): IntArray {\n        \n    }\n}"

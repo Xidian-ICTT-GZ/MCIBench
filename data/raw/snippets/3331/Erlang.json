@@ -1,1 +1,0 @@
-"-spec find_subtree_sizes(Parent :: [integer()], S :: unicode:unicode_binary()) -> [integer()].\nfind_subtree_sizes(Parent, S) ->\n  ."

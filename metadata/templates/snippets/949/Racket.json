@@ -1,0 +1,1 @@
+"(define/contract (largest-time-from-digits arr)\n  (-> (listof exact-integer?) string?)\n  )"

@@ -1,0 +1,1 @@
+"class Solution(object):\n    def numJewelsInStones(self, jewels, stones):\n        \"\"\"\n        :type jewels: str\n        :type stones: str\n        :rtype: int\n        \"\"\"\n        "

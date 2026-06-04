@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec check_palindrome_formation(a :: String.t, b :: String.t) :: boolean\n  def check_palindrome_formation(a, b) do\n    \n  end\nend"

@@ -1,1 +1,0 @@
-"class Solution(object):\n    def shortestToChar(self, s, c):\n        \"\"\"\n        :type s: str\n        :type c: str\n        :rtype: List[int]\n        \"\"\"\n        "

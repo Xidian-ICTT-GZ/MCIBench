@@ -1,1 +1,0 @@
-"class Solution {\n    fun containsNearbyAlmostDuplicate(nums: IntArray, indexDiff: Int, valueDiff: Int): Boolean {\n        \n    }\n}"

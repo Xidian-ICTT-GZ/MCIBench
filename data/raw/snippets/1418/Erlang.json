@@ -1,1 +1,0 @@
-"-spec display_table(Orders :: [[unicode:unicode_binary()]]) -> [[unicode:unicode_binary()]].\ndisplay_table(Orders) ->\n  ."

@@ -1,0 +1,1 @@
+"(define/contract (str-str haystack needle)\n  (-> string? string? exact-integer?)\n  )"

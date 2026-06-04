@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String $s\n     * @param String $pattern\n     * @return Integer\n     */\n    function minStartingIndex($s, $pattern) {\n        \n    }\n}"

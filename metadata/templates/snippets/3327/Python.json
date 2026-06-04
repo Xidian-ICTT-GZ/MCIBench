@@ -1,0 +1,1 @@
+"class Solution(object):\n    def findAnswer(self, parent, s):\n        \"\"\"\n        :type parent: List[int]\n        :type s: str\n        :rtype: List[bool]\n        \"\"\"\n        "

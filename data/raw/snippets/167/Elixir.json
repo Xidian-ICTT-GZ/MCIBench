@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec two_sum(numbers :: [integer], target :: integer) :: [integer]\n  def two_sum(numbers, target) do\n    \n  end\nend"

@@ -1,0 +1,20 @@
+var maxTaxiEarnings = function(n, rides) {
+    const dp = new Array(n + 1).fill(0);
+    const rideMap = new Map();
+    for (const ride of rides) {
+        if (rideMap.has(ride[1])) {
+            rideMap.set(ride[1], [...rideMap.get(ride[1]), ride])
+        } else {
+            rideMap.set(ride[1], [ride]);
+        }
+    }
+    for (let i = 1; i <= n; i++) {
+        dp[i] = dp[i - 1];
+        if (rideMap.has(i)) {
+            for (const ride of rideMap.get(i)) {
+                dp[i] = Math.max(dp[i], dp[ride[0]] + ride[1] - ride[0] + ride[2]);
+            }
+        }
+    }
+    return dp[n];
+};

@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec count_words(words1 :: [String.t], words2 :: [String.t]) :: integer\n  def count_words(words1, words2) do\n    \n  end\nend"

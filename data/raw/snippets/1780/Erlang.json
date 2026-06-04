@@ -1,1 +1,0 @@
-"-spec check_powers_of_three(N :: integer()) -> boolean().\ncheck_powers_of_three(N) ->\n  ."

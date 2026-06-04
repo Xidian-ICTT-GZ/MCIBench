@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec possible_to_stamp(grid :: [[integer]], stamp_height :: integer, stamp_width :: integer) :: boolean\n  def possible_to_stamp(grid, stamp_height, stamp_width) do\n    \n  end\nend"

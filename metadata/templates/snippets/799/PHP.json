@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $poured\n     * @param Integer $query_row\n     * @param Integer $query_glass\n     * @return Float\n     */\n    function champagneTower($poured, $query_row, $query_glass) {\n        \n    }\n}"

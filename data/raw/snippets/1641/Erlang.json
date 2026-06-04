@@ -1,1 +1,0 @@
-"-spec count_vowel_strings(N :: integer()) -> integer().\ncount_vowel_strings(N) ->\n  ."

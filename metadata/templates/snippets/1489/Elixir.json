@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec find_critical_and_pseudo_critical_edges(n :: integer, edges :: [[integer]]) :: [[integer]]\n  def find_critical_and_pseudo_critical_edges(n, edges) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"# @param {Integer} initial_energy\n# @param {Integer} initial_experience\n# @param {Integer[]} energy\n# @param {Integer[]} experience\n# @return {Integer}\ndef min_number_of_hours(initial_energy, initial_experience, energy, experience)\n    \nend"

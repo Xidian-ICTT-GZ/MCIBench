@@ -1,0 +1,1 @@
+"(define/contract (maximum-bags capacity rocks additionalRocks)\n  (-> (listof exact-integer?) (listof exact-integer?) exact-integer? exact-integer?)\n  )"

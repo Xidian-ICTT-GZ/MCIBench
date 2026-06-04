@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec remove_almost_equal_characters(word :: String.t) :: integer\n  def remove_almost_equal_characters(word) do\n    \n  end\nend"

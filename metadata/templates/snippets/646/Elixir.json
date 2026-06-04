@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec find_longest_chain(pairs :: [[integer]]) :: integer\n  def find_longest_chain(pairs) do\n    \n  end\nend"

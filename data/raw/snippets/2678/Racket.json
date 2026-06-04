@@ -1,1 +1,0 @@
-"(define/contract (count-seniors details)\n  (-> (listof string?) exact-integer?)\n  )"

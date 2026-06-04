@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec find_median(n :: integer, edges :: [[integer]], queries :: [[integer]]) :: [integer]\n  def find_median(n, edges, queries) do\n    \n  end\nend"

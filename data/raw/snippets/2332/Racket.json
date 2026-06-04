@@ -1,1 +1,0 @@
-"(define/contract (latest-time-catch-the-bus buses passengers capacity)\n  (-> (listof exact-integer?) (listof exact-integer?) exact-integer? exact-integer?)\n  )"

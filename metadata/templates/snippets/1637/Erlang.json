@@ -1,0 +1,1 @@
+"-spec max_width_of_vertical_area(Points :: [[integer()]]) -> integer().\nmax_width_of_vertical_area(Points) ->\n  ."

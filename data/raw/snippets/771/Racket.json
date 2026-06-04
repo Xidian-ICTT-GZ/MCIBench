@@ -1,1 +1,0 @@
-"(define/contract (num-jewels-in-stones jewels stones)\n  (-> string? string? exact-integer?)\n  )"

@@ -1,0 +1,1 @@
+"class Solution(object):\n    def maxNumberOfAlloys(self, n, k, budget, composition, stock, cost):\n        \"\"\"\n        :type n: int\n        :type k: int\n        :type budget: int\n        :type composition: List[List[int]]\n        :type stock: List[int]\n        :type cost: List[int]\n        :rtype: int\n        \"\"\"\n        "

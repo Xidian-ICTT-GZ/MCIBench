@@ -1,0 +1,31 @@
+public class Solution {
+    public int CountCompleteSubarrays(int[] nums) {
+        int res = 0;
+        Dictionary<int, int> cnt = new Dictionary<int, int>();
+        int n = nums.Length;
+        int right = 0;
+        int distinct = new HashSet<int>(nums).Count;
+        
+        for (int left = 0; left < n; left++) {
+            if (left > 0) {
+                int remove = nums[left - 1];
+                cnt[remove]--;
+                if (cnt[remove] == 0) {
+                    cnt.Remove(remove);
+                }
+            }
+            while (right < n && cnt.Count < distinct) {
+                int add = nums[right];
+                if (!cnt.ContainsKey(add)) {
+                    cnt[add] = 0;
+                }
+                cnt[add]++;
+                right++;
+            }
+            if (cnt.Count == distinct) {
+                res += (n - right + 1);
+            }
+        }
+        return res;
+    }
+}

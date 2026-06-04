@@ -1,0 +1,1 @@
+"class Solution {\n    func asteroidsDestroyed(_ mass: Int, _ asteroids: [Int]) -> Bool {\n        \n    }\n}"

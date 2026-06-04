@@ -1,1 +1,0 @@
-"(define/contract (gcd-sort nums)\n  (-> (listof exact-integer?) boolean?)\n  )"

@@ -1,1 +1,0 @@
-"/**\n Do not return anything, modify board in-place instead.\n */\nfunction gameOfLife(board: number[][]): void {\n    \n};"

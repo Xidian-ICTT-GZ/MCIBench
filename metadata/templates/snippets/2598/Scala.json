@@ -1,0 +1,1 @@
+"object Solution {\n    def findSmallestInteger(nums: Array[Int], value: Int): Int = {\n        \n    }\n}"

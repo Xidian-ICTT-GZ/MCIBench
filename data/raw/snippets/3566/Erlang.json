@@ -1,1 +1,0 @@
-"-spec check_equal_partitions(Nums :: [integer()], Target :: integer()) -> boolean().\ncheck_equal_partitions(Nums, Target) ->\n  ."

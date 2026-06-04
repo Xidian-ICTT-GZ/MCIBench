@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} cost\n * @param {number[]} time\n * @return {number}\n */\nvar paintWalls = function(cost, time) {\n    \n};"

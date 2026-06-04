@@ -1,1 +1,0 @@
-"# @param {String[]} words\n# @param {Integer[][]} queries\n# @return {Integer[]}\ndef vowel_strings(words, queries)\n    \nend"

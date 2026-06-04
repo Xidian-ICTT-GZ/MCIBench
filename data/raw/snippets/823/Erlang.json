@@ -1,1 +1,0 @@
-"-spec num_factored_binary_trees(Arr :: [integer()]) -> integer().\nnum_factored_binary_trees(Arr) ->\n  ."

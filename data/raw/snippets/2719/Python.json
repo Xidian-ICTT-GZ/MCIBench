@@ -1,1 +1,0 @@
-"class Solution(object):\n    def count(self, num1, num2, min_sum, max_sum):\n        \"\"\"\n        :type num1: str\n        :type num2: str\n        :type min_sum: int\n        :type max_sum: int\n        :rtype: int\n        \"\"\"\n        "

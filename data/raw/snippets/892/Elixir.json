@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec surface_area(grid :: [[integer]]) :: integer\n  def surface_area(grid) do\n    \n  end\nend"

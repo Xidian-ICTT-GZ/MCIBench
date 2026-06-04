@@ -1,0 +1,1 @@
+"object Solution {\n    def isValidSudoku(board: Array[Array[Char]]): Boolean = {\n        \n    }\n}"

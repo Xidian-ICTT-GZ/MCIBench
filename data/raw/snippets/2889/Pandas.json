@@ -1,1 +1,0 @@
-"import pandas as pd\n\ndef pivotTable(weather: pd.DataFrame) -> pd.DataFrame:\n    "

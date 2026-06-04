@@ -1,1 +1,0 @@
-"class Solution(object):\n    def putMarbles(self, weights, k):\n        \"\"\"\n        :type weights: List[int]\n        :type k: int\n        :rtype: int\n        \"\"\"\n        "

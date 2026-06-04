@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    int countTestedDevices(vector<int>& batteryPercentages) {\n        \n    }\n};"

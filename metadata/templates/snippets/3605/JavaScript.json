@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} nums\n * @param {number} maxC\n * @return {number}\n */\nvar minStable = function(nums, maxC) {\n    \n};"

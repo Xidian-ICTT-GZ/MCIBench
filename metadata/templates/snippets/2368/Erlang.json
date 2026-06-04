@@ -1,0 +1,1 @@
+"-spec reachable_nodes(N :: integer(), Edges :: [[integer()]], Restricted :: [integer()]) -> integer().\nreachable_nodes(N, Edges, Restricted) ->\n  ."

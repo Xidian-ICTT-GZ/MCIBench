@@ -1,0 +1,1 @@
+"class SeatManager {\n    constructor(n: number) {\n        \n    }\n\n    reserve(): number {\n        \n    }\n\n    unreserve(seatNumber: number): void {\n        \n    }\n}\n\n/**\n * Your SeatManager object will be instantiated and called as such:\n * var obj = new SeatManager(n)\n * var param_1 = obj.reserve()\n * obj.unreserve(seatNumber)\n */"

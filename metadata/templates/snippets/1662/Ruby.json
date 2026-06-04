@@ -1,0 +1,1 @@
+"# @param {String[]} word1\n# @param {String[]} word2\n# @return {Boolean}\ndef array_strings_are_equal(word1, word2)\n    \nend"

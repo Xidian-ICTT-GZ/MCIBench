@@ -1,1 +1,0 @@
-"-spec repeated_n_times(Nums :: [integer()]) -> integer().\nrepeated_n_times(Nums) ->\n  ."

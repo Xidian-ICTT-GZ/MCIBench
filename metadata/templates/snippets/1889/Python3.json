@@ -1,0 +1,1 @@
+"class Solution:\n    def minWastedSpace(self, packages: List[int], boxes: List[List[int]]) -> int:\n        "

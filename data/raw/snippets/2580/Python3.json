@@ -1,1 +1,0 @@
-"class Solution:\n    def countWays(self, ranges: List[List[int]]) -> int:\n        "

@@ -1,0 +1,26 @@
+impl Solution {
+    pub fn number_of_pairs(mut points: Vec<Vec<i32>>) -> i32 {
+        let mut ans = 0;
+        points.sort_by(|a, b| a[0].cmp(&b[0]).then(b[1].cmp(&a[1])));
+
+        for i in 0..points.len() - 1 {
+            let point_a = &points[i];
+            let mut x_min = point_a[0] - 1;
+            let x_max = i32::MAX;
+            let mut y_min = i32::MIN;
+            let y_max = point_a[1] + 1;
+
+            for j in i + 1..points.len() {
+                let point_b = &points[j];
+
+                if point_b[0] > x_min && point_b[0] < x_max &&
+                   point_b[1] > y_min && point_b[1] < y_max {
+                    ans += 1;
+                    x_min = point_b[0];
+                    y_min = point_b[1];
+                }
+            }
+        }
+        ans
+    }
+}

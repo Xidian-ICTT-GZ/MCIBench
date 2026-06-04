@@ -1,0 +1,1 @@
+"class Solution {\n    fun spiralOrder(matrix: Array<IntArray>): List<Int> {\n        \n    }\n}"

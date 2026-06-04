@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec prefix_count(words :: [String.t], pref :: String.t) :: integer\n  def prefix_count(words, pref) do\n    \n  end\nend"

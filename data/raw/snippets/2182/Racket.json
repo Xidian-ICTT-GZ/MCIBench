@@ -1,1 +1,0 @@
-"(define/contract (repeat-limited-string s repeatLimit)\n  (-> string? exact-integer? string?)\n  )"

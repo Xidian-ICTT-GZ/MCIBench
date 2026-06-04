@@ -1,1 +1,0 @@
-"# Definition for singly-linked list.\n# class ListNode\n#     attr_accessor :val, :next\n#     def initialize(val)\n#         @val = val\n#         @next = nil\n#     end\n# end\n\n# @param {ListNode} headA\n# @param {ListNode} headB\n# @return {ListNode}\ndef getIntersectionNode(headA, headB)\n    \nend"

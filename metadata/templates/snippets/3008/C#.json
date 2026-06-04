@@ -1,0 +1,1 @@
+"public class Solution {\n    public IList<int> BeautifulIndices(string s, string a, string b, int k) {\n        \n    }\n}"

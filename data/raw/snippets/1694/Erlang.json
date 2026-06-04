@@ -1,1 +1,0 @@
-"-spec reformat_number(Number :: unicode:unicode_binary()) -> unicode:unicode_binary().\nreformat_number(Number) ->\n  ."

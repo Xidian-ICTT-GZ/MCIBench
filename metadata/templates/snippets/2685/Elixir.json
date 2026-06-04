@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec count_complete_components(n :: integer, edges :: [[integer]]) :: integer\n  def count_complete_components(n, edges) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec shopping_offers(price :: [integer], special :: [[integer]], needs :: [integer]) :: integer\n  def shopping_offers(price, special, needs) do\n    \n  end\nend"

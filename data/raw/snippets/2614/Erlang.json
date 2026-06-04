@@ -1,1 +1,0 @@
-"-spec diagonal_prime(Nums :: [[integer()]]) -> integer().\ndiagonal_prime(Nums) ->\n  ."

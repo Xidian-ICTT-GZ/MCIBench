@@ -1,0 +1,26 @@
+class Solution:
+    def findReplaceString(self, s: str, indices: List[int], sources: List[str], targets: List[str]) -> str:
+        n, m = len(s), len(indices)
+
+        ops = list(range(m))
+        ops.sort(key=lambda x: indices[x])
+
+        ans = list()
+        i = pt = 0
+        while i < n:
+            while pt < m and indices[ops[pt]] < i:
+                pt += 1
+            succeed = False
+            while pt < m and indices[ops[pt]] == i:
+                if s[i:i + len(sources[ops[pt]])] == sources[ops[pt]]:
+                    succeed = True
+                    break
+                pt += 1
+            if succeed:
+                ans.append(targets[ops[pt]])
+                i += len(sources[ops[pt]])
+            else:
+                ans.append(s[i])
+                i += 1
+
+        return "".join(ans)

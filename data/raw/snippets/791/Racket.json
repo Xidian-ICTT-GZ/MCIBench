@@ -1,1 +1,0 @@
-"(define/contract (custom-sort-string order s)\n  (-> string? string? string?)\n  )"

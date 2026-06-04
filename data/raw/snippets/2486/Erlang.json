@@ -1,1 +1,0 @@
-"-spec append_characters(S :: unicode:unicode_binary(), T :: unicode:unicode_binary()) -> integer().\nappend_characters(S, T) ->\n  ."

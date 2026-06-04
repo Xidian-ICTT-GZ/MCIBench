@@ -1,1 +1,0 @@
-"impl Solution {\n    pub fn moves_to_stamp(stamp: String, target: String) -> Vec<i32> {\n        \n    }\n}"

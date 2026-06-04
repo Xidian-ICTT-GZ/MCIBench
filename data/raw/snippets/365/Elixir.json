@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec can_measure_water(x :: integer, y :: integer, target :: integer) :: boolean\n  def can_measure_water(x, y, target) do\n    \n  end\nend"

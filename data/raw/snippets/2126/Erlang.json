@@ -1,1 +1,0 @@
-"-spec asteroids_destroyed(Mass :: integer(), Asteroids :: [integer()]) -> boolean().\nasteroids_destroyed(Mass, Asteroids) ->\n  ."

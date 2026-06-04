@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[][] $grid\n     * @return Integer\n     */\n    function largest1BorderedSquare($grid) {\n        \n    }\n}"

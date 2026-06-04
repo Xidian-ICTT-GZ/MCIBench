@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec closest_target(words :: [String.t], target :: String.t, start_index :: integer) :: integer\n  def closest_target(words, target, start_index) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<int> distributeCandies(int candies, int num_people) {\n        \n    }\n};"

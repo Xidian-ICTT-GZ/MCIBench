@@ -1,1 +1,0 @@
-"# @param {Integer} target\n# @param {Integer[][]} types\n# @return {Integer}\ndef ways_to_reach_target(target, types)\n    \nend"

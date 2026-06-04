@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    long long zeroFilledSubarray(vector<int>& nums) {\n        \n    }\n};"

@@ -1,1 +1,0 @@
-"-spec len_of_v_diagonal(Grid :: [[integer()]]) -> integer().\nlen_of_v_diagonal(Grid) ->\n  ."

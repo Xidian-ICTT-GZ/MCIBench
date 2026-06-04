@@ -1,1 +1,0 @@
-"-spec full_bloom_flowers(Flowers :: [[integer()]], People :: [integer()]) -> [integer()].\nfull_bloom_flowers(Flowers, People) ->\n  ."

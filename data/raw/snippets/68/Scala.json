@@ -1,1 +1,0 @@
-"object Solution {\n    def fullJustify(words: Array[String], maxWidth: Int): List[String] = {\n        \n    }\n}"

@@ -1,1 +1,0 @@
-"-spec change(Amount :: integer(), Coins :: [integer()]) -> integer().\nchange(Amount, Coins) ->\n  ."

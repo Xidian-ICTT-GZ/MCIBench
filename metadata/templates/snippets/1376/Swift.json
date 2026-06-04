@@ -1,0 +1,1 @@
+"class Solution {\n    func numOfMinutes(_ n: Int, _ headID: Int, _ manager: [Int], _ informTime: [Int]) -> Int {\n        \n    }\n}"

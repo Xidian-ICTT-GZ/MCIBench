@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec minimum_average(nums :: [integer]) :: float\n  def minimum_average(nums) do\n    \n  end\nend"

@@ -1,1 +1,0 @@
-"(define/contract (max-width-ramp nums)\n  (-> (listof exact-integer?) exact-integer?)\n  )"

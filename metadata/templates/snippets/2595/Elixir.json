@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec even_odd_bit(n :: integer) :: [integer]\n  def even_odd_bit(n) do\n    \n  end\nend"

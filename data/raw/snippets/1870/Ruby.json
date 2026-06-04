@@ -1,1 +1,0 @@
-"# @param {Integer[]} dist\n# @param {Float} hour\n# @return {Integer}\ndef min_speed_on_time(dist, hour)\n    \nend"

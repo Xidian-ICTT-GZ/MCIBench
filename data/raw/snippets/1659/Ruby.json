@@ -1,1 +1,0 @@
-"# @param {Integer} m\n# @param {Integer} n\n# @param {Integer} introverts_count\n# @param {Integer} extroverts_count\n# @return {Integer}\ndef get_max_grid_happiness(m, n, introverts_count, extroverts_count)\n    \nend"

@@ -1,0 +1,1 @@
+"(define/contract (hit-bricks grid hits)\n  (-> (listof (listof exact-integer?)) (listof (listof exact-integer?)) (listof exact-integer?))\n  )"

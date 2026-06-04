@@ -1,0 +1,17 @@
+var countWays = function(nums) {
+    const n = nums.length;
+    let res = 0;
+    nums.sort((a, b) => a - b);
+    for (let k = 0; k <= n; k++) {
+        
+        if (k > 0 && nums[k - 1] >= k) {
+            continue
+        }
+        
+        if (k < n && nums[k] <= k) {
+            continue;
+        }
+        res++
+    }
+    return res;
+};

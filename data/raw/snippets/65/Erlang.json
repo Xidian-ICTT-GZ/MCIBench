@@ -1,1 +1,0 @@
-"-spec is_number(S :: unicode:unicode_binary()) -> boolean().\nis_number(S) ->\n  ."

@@ -1,0 +1,1 @@
+"class ZeroEvenOdd {\nprivate:\n    int n;\n\npublic:\n    ZeroEvenOdd(int n) {\n        this->n = n;\n    }\n\n    // printNumber(x) outputs \"x\", where x is an integer.\n    void zero(function<void(int)> printNumber) {\n        \n    }\n\n    void even(function<void(int)> printNumber) {\n        \n    }\n\n    void odd(function<void(int)> printNumber) {\n        \n    }\n};"

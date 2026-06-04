@@ -1,0 +1,28 @@
+var canBeValid = function(s, locked) {
+    let n = s.length;
+    let mx = 0;   
+    let mn = 0;   
+    for (let i = 0; i < n; ++i) {
+        if (locked[i] === '1') {
+            
+            let diff;
+            if (s[i] === '(') {
+                diff = 1;
+            } else {
+                diff = -1;
+            }
+            mx += diff;
+            mn = Math.max(mn + diff, (i + 1) % 2);
+        } else {
+            
+            ++mx;
+            mn = Math.max(mn - 1, (i + 1) % 2);
+        }
+        if (mx < mn) {
+            
+            return false;
+        }
+    }
+    
+    return mn === 0;
+};

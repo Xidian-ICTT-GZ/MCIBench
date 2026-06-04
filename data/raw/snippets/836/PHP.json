@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $rec1\n     * @param Integer[] $rec2\n     * @return Boolean\n     */\n    function isRectangleOverlap($rec1, $rec2) {\n        \n    }\n}"

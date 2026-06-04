@@ -1,0 +1,59 @@
+use std::collections::{HashMap, VecDeque};
+use std::i32::MAX as INT_MAX;
+
+impl Solution {
+    pub fn num_buses_to_destination(routes: Vec<Vec<i32>>, source: i32, target: i32) -> i32 {
+        if source == target {
+            return 0;
+        }
+
+        let n = routes.len();
+        let mut edge = vec![vec![false; n]; n];
+        let mut rec: HashMap<i32, Vec<usize>> = HashMap::new();
+        for i in 0..n {
+            for &site in &routes[i] {
+                if !rec.contains_key(&site) {
+                    rec.insert(site, Vec::new());
+                }
+                for &j in rec.get(&site).unwrap() {
+                    edge[i][j] = true;
+                    edge[j][i] = true;
+                }
+                rec.get_mut(&site).unwrap().push(i);
+            }
+        }
+
+        let mut dis = vec![-1; n];
+        let mut queue = VecDeque::new();
+
+        if let Some(buses) = rec.get(&source) {
+            for &bus in buses {
+                dis[bus] = 1;
+                queue.push_back(bus);
+            }
+        }
+        while let Some(x) = queue.pop_front() {
+            for y in 0..n {
+                if edge[x][y] && dis[y] == -1 {
+                    dis[y] = dis[x] + 1;
+                    queue.push_back(y);
+                }
+            }
+        }
+
+        let mut ret = INT_MAX;
+        if let Some(buses) = rec.get(&target) {
+            for &bus in buses {
+                if dis[bus] != -1 {
+                    ret = ret.min(dis[bus]);
+                }
+            }
+        }
+
+        if ret == INT_MAX {
+            -1
+        } else {
+            ret
+        }
+    }
+}

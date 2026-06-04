@@ -1,0 +1,1 @@
+"# @param {Integer} target\n# @param {Integer} max_doubles\n# @return {Integer}\ndef min_moves(target, max_doubles)\n    \nend"

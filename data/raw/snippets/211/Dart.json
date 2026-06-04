@@ -1,1 +1,0 @@
-"class WordDictionary {\n\n  WordDictionary() {\n    \n  }\n  \n  void addWord(String word) {\n    \n  }\n  \n  bool search(String word) {\n    \n  }\n}\n\n/**\n * Your WordDictionary object will be instantiated and called as such:\n * WordDictionary obj = WordDictionary();\n * obj.addWord(word);\n * bool param2 = obj.search(word);\n */"

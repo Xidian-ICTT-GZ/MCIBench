@@ -1,1 +1,0 @@
-"-spec has_valid_path(Grid :: [[integer()]]) -> boolean().\nhas_valid_path(Grid) ->\n  ."

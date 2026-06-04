@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int kItemsWithMaximumSum(int numOnes, int numZeros, int numNegOnes, int k) {\n        \n    }\n};"

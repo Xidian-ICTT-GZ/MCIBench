@@ -1,1 +1,0 @@
-"(define/contract (are-numbers-ascending s)\n  (-> string? boolean?)\n  )"

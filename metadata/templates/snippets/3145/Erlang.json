@@ -1,0 +1,1 @@
+"-spec find_products_of_elements(Queries :: [[integer()]]) -> [integer()].\nfind_products_of_elements(Queries) ->\n  ."

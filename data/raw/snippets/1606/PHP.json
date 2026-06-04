@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer $k\n     * @param Integer[] $arrival\n     * @param Integer[] $load\n     * @return Integer[]\n     */\n    function busiestServers($k, $arrival, $load) {\n        \n    }\n}"

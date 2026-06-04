@@ -1,1 +1,0 @@
-"-spec climb_stairs(N :: integer()) -> integer().\nclimb_stairs(N) ->\n  ."

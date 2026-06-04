@@ -1,0 +1,1 @@
+"-spec capture_forts(Forts :: [integer()]) -> integer().\ncapture_forts(Forts) ->\n  ."

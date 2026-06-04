@@ -1,1 +1,0 @@
-"class Solution(object):\n    def validateBinaryTreeNodes(self, n, leftChild, rightChild):\n        \"\"\"\n        :type n: int\n        :type leftChild: List[int]\n        :type rightChild: List[int]\n        :rtype: bool\n        \"\"\"\n        "

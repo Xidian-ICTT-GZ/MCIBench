@@ -1,0 +1,1 @@
+"# @param {Integer[][]} board\n# @return {Integer}\ndef sliding_puzzle(board)\n    \nend"

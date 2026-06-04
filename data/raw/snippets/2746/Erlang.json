@@ -1,1 +1,0 @@
-"-spec minimize_concatenated_length(Words :: [unicode:unicode_binary()]) -> integer().\nminimize_concatenated_length(Words) ->\n  ."

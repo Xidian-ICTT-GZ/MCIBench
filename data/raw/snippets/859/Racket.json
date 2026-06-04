@@ -1,1 +1,0 @@
-"(define/contract (buddy-strings s goal)\n  (-> string? string? boolean?)\n  )"

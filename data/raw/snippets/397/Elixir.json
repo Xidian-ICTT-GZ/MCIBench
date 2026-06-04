@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec integer_replacement(n :: integer) :: integer\n  def integer_replacement(n) do\n    \n  end\nend"

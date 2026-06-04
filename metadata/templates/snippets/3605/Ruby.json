@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @param {Integer} max_c\n# @return {Integer}\ndef min_stable(nums, max_c)\n    \nend"

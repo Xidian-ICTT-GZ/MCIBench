@@ -1,0 +1,1 @@
+"class Solution:\n    def convert(self, s: str, numRows: int) -> str:\n        "

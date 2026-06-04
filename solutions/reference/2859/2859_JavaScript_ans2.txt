@@ -1,0 +1,16 @@
+var sumIndicesWithKSetBits = function(nums, k) {
+    const bitCount = (x) => {
+        x = (x & 0b0101010101) + ((x & 0b1010101010) >> 1);
+        x = ((x & 0b0011001100) >> 2) + (x & 0b1100110011);
+        x = (x >> 8) + ((x >> 4) & 0b1111) + (x & 0b1111);
+        return x;
+    }
+
+    let ans = 0;
+    for (let i = 0; i < nums.length; ++i) {
+        if (bitCount(i) == k) {
+            ans += nums[i];
+        }
+    }
+    return ans;
+};

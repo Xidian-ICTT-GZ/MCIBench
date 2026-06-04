@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec pass_the_pillow(n :: integer, time :: integer) :: integer\n  def pass_the_pillow(n, time) do\n    \n  end\nend"

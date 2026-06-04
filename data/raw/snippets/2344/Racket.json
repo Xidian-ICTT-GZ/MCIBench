@@ -1,1 +1,0 @@
-"(define/contract (min-operations nums numsDivide)\n  (-> (listof exact-integer?) (listof exact-integer?) exact-integer?)\n  )"

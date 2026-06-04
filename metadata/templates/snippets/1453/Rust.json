@@ -1,0 +1,1 @@
+"impl Solution {\n    pub fn num_points(darts: Vec<Vec<i32>>, r: i32) -> i32 {\n        \n    }\n}"

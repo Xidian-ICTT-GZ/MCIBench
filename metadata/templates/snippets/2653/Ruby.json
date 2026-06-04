@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @param {Integer} k\n# @param {Integer} x\n# @return {Integer[]}\ndef get_subarray_beauty(nums, k, x)\n    \nend"

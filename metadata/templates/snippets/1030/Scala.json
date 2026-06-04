@@ -1,0 +1,1 @@
+"object Solution {\n    def allCellsDistOrder(rows: Int, cols: Int, rCenter: Int, cCenter: Int): Array[Array[Int]] = {\n        \n    }\n}"

@@ -1,1 +1,0 @@
-"/**\n * Definition for singly-linked list.\n * struct ListNode {\n *     int val;\n *     struct ListNode *next;\n * };\n */\nstruct ListNode* partition(struct ListNode* head, int x) {\n    \n}"

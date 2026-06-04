@@ -1,1 +1,0 @@
-"-spec running_sum(Nums :: [integer()]) -> [integer()].\nrunning_sum(Nums) ->\n  ."

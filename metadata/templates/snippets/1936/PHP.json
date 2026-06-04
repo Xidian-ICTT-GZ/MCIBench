@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $rungs\n     * @param Integer $dist\n     * @return Integer\n     */\n    function addRungs($rungs, $dist) {\n        \n    }\n}"

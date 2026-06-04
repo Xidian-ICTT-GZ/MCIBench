@@ -1,0 +1,71 @@
+use std::cmp::{max, min};
+impl Solution {
+    fn calc(a: i32, b: i32, c: i32) -> i32 {
+        max(a, max(b, c)) - min(a, min(b, c))
+    }
+
+    pub fn minimum_score(nums: Vec<i32>, edges: Vec<Vec<i32>>) -> i32 {
+        let n = nums.len();
+        let mut sum = vec![0; n];
+        let mut tin = vec![0; n];
+        let mut tout = vec![0; n];
+        let mut adj = vec![vec![]; n];
+        let mut cnt = 0;
+
+        for e in edges {
+            let u = e[0];
+            let v = e[1];
+            adj[u as usize].push(v as usize);
+            adj[v as usize].push(u as usize);
+        }
+
+        fn dfs(
+            x: usize,
+            fa: usize,
+            cnt: &mut i32,
+            nums: &Vec<i32>,
+            sum: &mut Vec<i32>,
+            tin: &mut Vec<i32>,
+            tout: &mut Vec<i32>,
+            adj: &Vec<Vec<usize>>,
+        ) {
+            tin[x] = *cnt;
+            *cnt += 1;
+            sum[x] = nums[x];
+            for &y in &adj[x] {
+                if y == fa {
+                    continue;
+                }
+                dfs(y, x, cnt, nums, sum, tin, tout, adj);
+                sum[x] ^= sum[y];
+            }
+            tout[x] = *cnt;
+        }
+
+        dfs(0, usize::MAX, &mut cnt, &nums, &mut sum, &mut tin, &mut tout, &adj);
+
+        let mut res = i32::MAX;
+        for u in 1..n {
+            for v in (u + 1)..n {
+                if tin[v] > tin[u] && tin[v] < tout[u] {
+                    let a = sum[0] ^ sum[u];
+                    let b = sum[u] ^ sum[v];
+                    let c = sum[v];
+                    res = min(res, Self::calc(a, b, c));
+                } else if tin[u] > tin[v] && tin[u] < tout[v] {
+                    let a = sum[0] ^ sum[v];
+                    let b = sum[v] ^ sum[u];
+                    let c = sum[u];
+                    res = min(res, Self::calc(a, b, c));
+                } else {
+                    let a = sum[0] ^ sum[u] ^ sum[v];
+                    let b = sum[u];
+                    let c = sum[v];
+                    res = min(res, Self::calc(a, b, c));
+                }
+            }
+        }
+
+        res
+    }
+}

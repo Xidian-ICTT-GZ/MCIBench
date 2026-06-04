@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String $s\n     * @param Integer $numRows\n     * @return String\n     */\n    function convert($s, $numRows) {\n        \n    }\n}"

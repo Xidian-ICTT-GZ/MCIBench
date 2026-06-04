@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} scores\n * @param {number[]} ages\n * @return {number}\n */\nvar bestTeamScore = function(scores, ages) {\n    \n};"

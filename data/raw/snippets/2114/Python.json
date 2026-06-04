@@ -1,1 +1,0 @@
-"class Solution(object):\n    def mostWordsFound(self, sentences):\n        \"\"\"\n        :type sentences: List[str]\n        :rtype: int\n        \"\"\"\n        "

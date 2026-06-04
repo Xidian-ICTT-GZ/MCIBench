@@ -1,1 +1,0 @@
-"/**\n * @param {string} coordinate1\n * @param {string} coordinate2\n * @return {boolean}\n */\nvar checkTwoChessboards = function(coordinate1, coordinate2) {\n    \n};"

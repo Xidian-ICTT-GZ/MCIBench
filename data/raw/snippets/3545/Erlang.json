@@ -1,1 +1,0 @@
-"-spec min_deletion(S :: unicode:unicode_binary(), K :: integer()) -> integer().\nmin_deletion(S, K) ->\n  ."

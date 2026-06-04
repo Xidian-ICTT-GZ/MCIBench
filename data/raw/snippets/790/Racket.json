@@ -1,1 +1,0 @@
-"(define/contract (num-tilings n)\n  (-> exact-integer? exact-integer?)\n  )"

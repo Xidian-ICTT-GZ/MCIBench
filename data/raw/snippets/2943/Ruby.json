@@ -1,1 +1,0 @@
-"# @param {Integer} n\n# @param {Integer} m\n# @param {Integer[]} h_bars\n# @param {Integer[]} v_bars\n# @return {Integer}\ndef maximize_square_hole_area(n, m, h_bars, v_bars)\n    \nend"

@@ -1,1 +1,0 @@
-"(define/contract (can-be-equal target arr)\n  (-> (listof exact-integer?) (listof exact-integer?) boolean?)\n  )"

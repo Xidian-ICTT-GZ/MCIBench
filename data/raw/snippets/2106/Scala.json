@@ -1,1 +1,0 @@
-"object Solution {\n    def maxTotalFruits(fruits: Array[Array[Int]], startPos: Int, k: Int): Int = {\n        \n    }\n}"

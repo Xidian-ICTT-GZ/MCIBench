@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[][] $trees\n     * @return Integer[][]\n     */\n    function outerTrees($trees) {\n        \n    }\n}"

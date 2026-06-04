@@ -1,0 +1,1 @@
+"class Solution(object):\n    def getMaxGridHappiness(self, m, n, introvertsCount, extrovertsCount):\n        \"\"\"\n        :type m: int\n        :type n: int\n        :type introvertsCount: int\n        :type extrovertsCount: int\n        :rtype: int\n        \"\"\"\n        "

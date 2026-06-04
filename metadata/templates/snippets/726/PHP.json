@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $formula\n     * @return String\n     */\n    function countOfAtoms($formula) {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"object Solution {\n    def longestPalindrome(s: String, t: String): Int = {\n        \n    }\n}"

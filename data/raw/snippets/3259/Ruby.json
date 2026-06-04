@@ -1,1 +1,0 @@
-"# @param {Integer[]} energy_drink_a\n# @param {Integer[]} energy_drink_b\n# @return {Integer}\ndef max_energy_boost(energy_drink_a, energy_drink_b)\n    \nend"

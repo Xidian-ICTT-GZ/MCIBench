@@ -1,0 +1,1 @@
+"(define/contract (minimum-pair-removal nums)\n  (-> (listof exact-integer?) exact-integer?)\n  )"

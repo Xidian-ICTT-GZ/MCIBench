@@ -1,0 +1,1 @@
+"# @param {Integer} hour\n# @param {Integer} minutes\n# @return {Float}\ndef angle_clock(hour, minutes)\n    \nend"

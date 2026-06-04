@@ -1,1 +1,0 @@
-"class Solution(object):\n    def getDescentPeriods(self, prices):\n        \"\"\"\n        :type prices: List[int]\n        :rtype: int\n        \"\"\"\n        "

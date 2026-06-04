@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec find_delayed_arrival_time(arrival_time :: integer, delayed_time :: integer) :: integer\n  def find_delayed_arrival_time(arrival_time, delayed_time) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"-spec count_triples(N :: integer()) -> integer().\ncount_triples(N) ->\n  ."

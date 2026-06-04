@@ -1,1 +1,0 @@
-"class Solution(object):\n    def canChoose(self, groups, nums):\n        \"\"\"\n        :type groups: List[List[int]]\n        :type nums: List[int]\n        :rtype: bool\n        \"\"\"\n        "

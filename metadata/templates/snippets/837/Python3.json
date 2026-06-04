@@ -1,0 +1,1 @@
+"class Solution:\n    def new21Game(self, n: int, k: int, maxPts: int) -> float:\n        "

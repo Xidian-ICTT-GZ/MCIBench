@@ -1,0 +1,1 @@
+"class Solution:\n    def wateringPlants(self, plants: List[int], capacity: int) -> int:\n        "

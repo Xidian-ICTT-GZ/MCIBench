@@ -1,0 +1,37 @@
+class Solution {
+public:
+    vector<int> rightSideView(TreeNode* root) {
+        unordered_map<int, int> rightmostValueAtDepth;
+        int max_depth = -1;
+
+        queue<TreeNode*> nodeQueue;
+        queue<int> depthQueue;
+        nodeQueue.push(root);
+        depthQueue.push(0);
+
+        while (!nodeQueue.empty()) {
+            TreeNode* node = nodeQueue.front();nodeQueue.pop();
+            int depth = depthQueue.front();depthQueue.pop();
+
+            if (node != NULL) {
+            	
+                max_depth = max(max_depth, depth);
+
+                
+                rightmostValueAtDepth[depth] =  node -> val;
+
+                nodeQueue.push(node -> left);
+                nodeQueue.push(node -> right);
+                depthQueue.push(depth + 1);
+                depthQueue.push(depth + 1);
+            }
+        }
+
+        vector<int> rightView;
+        for (int depth = 0; depth <= max_depth; ++depth) {
+            rightView.push_back(rightmostValueAtDepth[depth]);
+        }
+
+        return rightView;
+    }
+};

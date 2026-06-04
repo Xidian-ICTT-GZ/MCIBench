@@ -1,0 +1,1 @@
+"class Solution:\n    def dayOfYear(self, date: str) -> int:\n        "

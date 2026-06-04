@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    int minExtraChar(string s, vector<string>& dictionary) {\n        \n    }\n};"

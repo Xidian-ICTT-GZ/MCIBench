@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<int> longestRepeating(string s, string queryCharacters, vector<int>& queryIndices) {\n        \n    }\n};"

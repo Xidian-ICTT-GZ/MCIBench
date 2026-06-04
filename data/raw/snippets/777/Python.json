@@ -1,1 +1,0 @@
-"class Solution(object):\n    def canTransform(self, start, result):\n        \"\"\"\n        :type start: str\n        :type result: str\n        :rtype: bool\n        \"\"\"\n        "

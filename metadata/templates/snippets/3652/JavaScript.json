@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} prices\n * @param {number[]} strategy\n * @param {number} k\n * @return {number}\n */\nvar maxProfit = function(prices, strategy, k) {\n    \n};"

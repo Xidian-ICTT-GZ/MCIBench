@@ -1,1 +1,0 @@
-"-spec clear_digits(S :: unicode:unicode_binary()) -> unicode:unicode_binary().\nclear_digits(S) ->\n  ."

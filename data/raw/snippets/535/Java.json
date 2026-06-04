@@ -1,1 +1,0 @@
-"public class Codec {\n\n    // Encodes a URL to a shortened URL.\n    public String encode(String longUrl) {\n        \n    }\n\n    // Decodes a shortened URL to its original URL.\n    public String decode(String shortUrl) {\n        \n    }\n}\n\n// Your Codec object will be instantiated and called as such:\n// Codec codec = new Codec();\n// codec.decode(codec.encode(url));"

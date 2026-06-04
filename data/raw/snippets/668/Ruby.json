@@ -1,1 +1,0 @@
-"# @param {Integer} m\n# @param {Integer} n\n# @param {Integer} k\n# @return {Integer}\ndef find_kth_number(m, n, k)\n    \nend"

@@ -1,1 +1,0 @@
-"(define/contract (nth-person-gets-nth-seat n)\n  (-> exact-integer? flonum?)\n  )"

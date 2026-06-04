@@ -1,1 +1,0 @@
-"(define/contract (deck-revealed-increasing deck)\n  (-> (listof exact-integer?) (listof exact-integer?))\n  )"

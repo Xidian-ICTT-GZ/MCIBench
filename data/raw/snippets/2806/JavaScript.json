@@ -1,1 +1,0 @@
-"/**\n * @param {number} purchaseAmount\n * @return {number}\n */\nvar accountBalanceAfterPurchase = function(purchaseAmount) {\n    \n};"

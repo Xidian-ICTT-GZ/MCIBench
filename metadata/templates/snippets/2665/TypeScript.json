@@ -1,0 +1,1 @@
+"type Counter = {\n    increment: () => number,\n    decrement: () => number,\n    reset: () => number,\n}\n\nfunction createCounter(init: number): Counter {\n    \n};\n\n/**\n * const counter = createCounter(5)\n * counter.increment(); // 6\n * counter.reset(); // 5\n * counter.decrement(); // 4\n */"

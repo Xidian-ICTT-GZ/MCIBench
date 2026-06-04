@@ -1,0 +1,1 @@
+"# @param {String} path\n# @return {String}\ndef simplify_path(path)\n    \nend"

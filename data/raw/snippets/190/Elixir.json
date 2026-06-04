@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec reverse_bits(n :: integer) :: integer\n  def reverse_bits(n) do\n    \n  end\nend"

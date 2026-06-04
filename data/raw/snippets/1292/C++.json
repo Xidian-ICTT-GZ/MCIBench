@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    int maxSideLength(vector<vector<int>>& mat, int threshold) {\n        \n    }\n};"

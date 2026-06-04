@@ -1,0 +1,1 @@
+"public class Solution {\n    public long CountSubarrays(int[] nums, int minK, int maxK) {\n        \n    }\n}"

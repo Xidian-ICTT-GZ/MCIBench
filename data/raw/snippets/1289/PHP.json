@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[][] $grid\n     * @return Integer\n     */\n    function minFallingPathSum($grid) {\n        \n    }\n}"

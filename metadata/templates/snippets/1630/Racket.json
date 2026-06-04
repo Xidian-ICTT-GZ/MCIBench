@@ -1,0 +1,1 @@
+"(define/contract (check-arithmetic-subarrays nums l r)\n  (-> (listof exact-integer?) (listof exact-integer?) (listof exact-integer?) (listof boolean?))\n  )"

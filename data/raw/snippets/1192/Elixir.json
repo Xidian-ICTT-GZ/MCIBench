@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec critical_connections(n :: integer, connections :: [[integer]]) :: [[integer]]\n  def critical_connections(n, connections) do\n    \n  end\nend"

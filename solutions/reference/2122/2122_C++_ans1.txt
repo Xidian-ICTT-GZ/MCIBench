@@ -1,0 +1,40 @@
+class Solution {
+public:
+    vector<int> recoverArray(vector<int>& nums) {
+        int n = nums.size();
+        sort(nums.begin(), nums.end());
+        for (int i = 1; i < n; ++i) {
+            if (nums[i] == nums[0] || (nums[i] - nums[0]) % 2 != 0) {
+                continue;
+            }
+            
+            vector<int> used(n);
+            used[0] = used[i] = true;
+            int k = (nums[i] - nums[0]) / 2;
+            vector<int> ans;
+            ans.push_back(nums[0] + k);
+            
+            int left = 0, right = i;
+            for (int j = 2; j + j <= n; ++j) {
+                while (used[left]) {
+                    ++left;
+                }
+                while (right < n && (used[right] || nums[right] - nums[left] != k * 2)) {
+                    ++right;
+                }
+                if (right == n) {
+                    break;
+                }
+                ans.push_back(nums[left] + k);
+                used[left] = used[right] = true;
+            }
+            
+            if (ans.size() == n / 2) {
+                return ans;
+            }
+        }
+        
+        
+        return {};
+    }
+};

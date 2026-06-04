@@ -1,0 +1,1 @@
+"/**\n * Definition for a Node.\n * class Node(var `val`: Int) {\n *     var children: List<Node?> = listOf()\n * }\n */\n\nclass Solution {\n    fun postorder(root: Node?): List<Int> {\n        \n    }\n}"

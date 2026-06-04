@@ -1,1 +1,0 @@
-"-spec min_extra_char(S :: unicode:unicode_binary(), Dictionary :: [unicode:unicode_binary()]) -> integer().\nmin_extra_char(S, Dictionary) ->\n  ."

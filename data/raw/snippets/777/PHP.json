@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String $start\n     * @param String $result\n     * @return Boolean\n     */\n    function canTransform($start, $result) {\n        \n    }\n}"

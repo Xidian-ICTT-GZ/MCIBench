@@ -1,0 +1,1 @@
+"class CountIntervals() {\n\n    fun add(left: Int, right: Int) {\n        \n    }\n\n    fun count(): Int {\n        \n    }\n\n}\n\n/**\n * Your CountIntervals object will be instantiated and called as such:\n * var obj = CountIntervals()\n * obj.add(left,right)\n * var param_2 = obj.count()\n */"

@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $plants\n     * @param Integer $capacityA\n     * @param Integer $capacityB\n     * @return Integer\n     */\n    function minimumRefill($plants, $capacityA, $capacityB) {\n        \n    }\n}"

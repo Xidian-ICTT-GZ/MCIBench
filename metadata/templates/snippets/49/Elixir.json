@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec group_anagrams(strs :: [String.t]) :: [[String.t]]\n  def group_anagrams(strs) do\n    \n  end\nend"

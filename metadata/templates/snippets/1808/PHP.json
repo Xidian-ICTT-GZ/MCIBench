@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $primeFactors\n     * @return Integer\n     */\n    function maxNiceDivisors($primeFactors) {\n        \n    }\n}"

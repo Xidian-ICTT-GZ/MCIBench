@@ -1,0 +1,1 @@
+"public class Solution {\n    public bool MergeTriplets(int[][] triplets, int[] target) {\n        \n    }\n}"

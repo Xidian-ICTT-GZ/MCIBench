@@ -1,1 +1,0 @@
-"-spec halves_are_alike(S :: unicode:unicode_binary()) -> boolean().\nhalves_are_alike(S) ->\n  ."

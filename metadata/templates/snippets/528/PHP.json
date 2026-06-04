@@ -1,0 +1,1 @@
+"class Solution {\n    /**\n     * @param Integer[] $w\n     */\n    function __construct($w) {\n        \n    }\n  \n    /**\n     * @return Integer\n     */\n    function pickIndex() {\n        \n    }\n}\n\n/**\n * Your Solution object will be instantiated and called as such:\n * $obj = Solution($w);\n * $ret_1 = $obj->pickIndex();\n */"

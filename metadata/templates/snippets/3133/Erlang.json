@@ -1,0 +1,1 @@
+"-spec min_end(N :: integer(), X :: integer()) -> integer().\nmin_end(N, X) ->\n  ."

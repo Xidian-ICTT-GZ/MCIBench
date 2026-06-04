@@ -1,1 +1,0 @@
-"/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nbool* areConnected(int n, int threshold, int** queries, int queriesSize, int* queriesColSize, int* returnSize) {\n    \n}"

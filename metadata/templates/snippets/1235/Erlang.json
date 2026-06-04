@@ -1,0 +1,1 @@
+"-spec job_scheduling(StartTime :: [integer()], EndTime :: [integer()], Profit :: [integer()]) -> integer().\njob_scheduling(StartTime, EndTime, Profit) ->\n  ."

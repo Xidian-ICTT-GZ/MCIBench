@@ -1,1 +1,0 @@
-"(define/contract (asteroids-destroyed mass asteroids)\n  (-> exact-integer? (listof exact-integer?) boolean?)\n  )"

@@ -1,0 +1,33 @@
+class Solution:
+    def getCoprimes(self, nums: List[int], edges: List[List[int]]) -> List[int]:
+        n = len(nums)
+        
+        gcds = [[] for _ in range(51)]
+        tmp = [[] for _ in range(51)]
+        ans = [-1] * n
+        dep = [-1] * n 
+        g = [[] for _ in range(n)]
+
+        def dfs(x: int, depth: int):
+            dep[x] = depth
+            for val in gcds[nums[x]]:
+                if not tmp[val]:
+                    continue
+                las = tmp[val][-1]
+                if ans[x] == -1 or dep[las] > dep[ans[x]]:
+                    ans[x] = las
+            tmp[nums[x]].append(x)
+            for val in g[x]:
+                if dep[val] == -1: 
+                    dfs(val, depth + 1)
+            tmp[nums[x]].pop()
+
+        for i in range(1, 51):
+            for j in range(1, 51):
+                if math.gcd(i, j) == 1:
+                    gcds[i].append(j)
+        for x, y in edges:
+            g[x].append(y)
+            g[y].append(x)
+        dfs(0, 1)
+        return ans

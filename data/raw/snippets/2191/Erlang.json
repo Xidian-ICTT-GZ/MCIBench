@@ -1,1 +1,0 @@
-"-spec sort_jumbled(Mapping :: [integer()], Nums :: [integer()]) -> [integer()].\nsort_jumbled(Mapping, Nums) ->\n  ."

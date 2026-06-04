@@ -1,0 +1,1 @@
+"function createHelloWorld() {\n    \n    return function(...args): string {\n        \n    };\n};\n\n/**\n * const f = createHelloWorld();\n * f(); // \"Hello World\"\n */"

@@ -1,1 +1,0 @@
-"class TopVotedCandidate(_persons: Array[Int], _times: Array[Int]) {\n\n    def q(t: Int): Int = {\n        \n    }\n\n}\n\n/**\n * Your TopVotedCandidate object will be instantiated and called as such:\n * val obj = new TopVotedCandidate(persons, times)\n * val param_1 = obj.q(t)\n */"

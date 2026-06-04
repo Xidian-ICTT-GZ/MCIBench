@@ -1,1 +1,0 @@
-"/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nchar** splitMessage(char* message, int limit, int* returnSize) {\n    \n}"

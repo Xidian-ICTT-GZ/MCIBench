@@ -1,1 +1,0 @@
-"-spec count_arrangement(N :: integer()) -> integer().\ncount_arrangement(N) ->\n  ."

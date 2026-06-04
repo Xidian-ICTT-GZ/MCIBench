@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[][] $rectangles\n     * @return Boolean\n     */\n    function isRectangleCover($rectangles) {\n        \n    }\n}"

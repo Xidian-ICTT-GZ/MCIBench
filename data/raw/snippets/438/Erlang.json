@@ -1,1 +1,0 @@
-"-spec find_anagrams(S :: unicode:unicode_binary(), P :: unicode:unicode_binary()) -> [integer()].\nfind_anagrams(S, P) ->\n  ."

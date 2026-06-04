@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[][] $coords\n     * @return Integer\n     */\n    function maxArea($coords) {\n        \n    }\n}"

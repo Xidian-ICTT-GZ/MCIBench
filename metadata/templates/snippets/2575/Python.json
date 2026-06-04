@@ -1,0 +1,1 @@
+"class Solution(object):\n    def divisibilityArray(self, word, m):\n        \"\"\"\n        :type word: str\n        :type m: int\n        :rtype: List[int]\n        \"\"\"\n        "

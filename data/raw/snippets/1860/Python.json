@@ -1,1 +1,0 @@
-"class Solution(object):\n    def memLeak(self, memory1, memory2):\n        \"\"\"\n        :type memory1: int\n        :type memory2: int\n        :rtype: List[int]\n        \"\"\"\n        "

@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $parents\n     * @return Integer\n     */\n    function countHighestScoreNodes($parents) {\n        \n    }\n}"

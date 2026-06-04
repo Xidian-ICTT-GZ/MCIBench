@@ -1,1 +1,0 @@
-"class Solution(object):\n    def filterRestaurants(self, restaurants, veganFriendly, maxPrice, maxDistance):\n        \"\"\"\n        :type restaurants: List[List[int]]\n        :type veganFriendly: int\n        :type maxPrice: int\n        :type maxDistance: int\n        :rtype: List[int]\n        \"\"\"\n        "

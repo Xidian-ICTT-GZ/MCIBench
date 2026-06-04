@@ -1,1 +1,0 @@
-"-spec added_integer(Nums1 :: [integer()], Nums2 :: [integer()]) -> integer().\nadded_integer(Nums1, Nums2) ->\n  ."

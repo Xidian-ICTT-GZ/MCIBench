@@ -1,1 +1,0 @@
-"class Solution:\n    def smallestNumber(self, num: str, t: int) -> str:\n        "

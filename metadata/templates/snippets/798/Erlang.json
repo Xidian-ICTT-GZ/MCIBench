@@ -1,0 +1,1 @@
+"-spec best_rotation(Nums :: [integer()]) -> integer().\nbest_rotation(Nums) ->\n  ."

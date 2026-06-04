@@ -1,1 +1,0 @@
-"(define/contract (is-printable targetGrid)\n  (-> (listof (listof exact-integer?)) boolean?)\n  )"

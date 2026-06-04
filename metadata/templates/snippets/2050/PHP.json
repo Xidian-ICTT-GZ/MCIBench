@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $n\n     * @param Integer[][] $relations\n     * @param Integer[] $time\n     * @return Integer\n     */\n    function minimumTime($n, $relations, $time) {\n        \n    }\n}"

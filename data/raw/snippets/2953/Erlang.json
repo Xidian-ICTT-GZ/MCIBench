@@ -1,1 +1,0 @@
-"-spec count_complete_substrings(Word :: unicode:unicode_binary(), K :: integer()) -> integer().\ncount_complete_substrings(Word, K) ->\n  ."

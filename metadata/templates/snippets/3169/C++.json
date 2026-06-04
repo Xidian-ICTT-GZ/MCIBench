@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int countDays(int days, vector<vector<int>>& meetings) {\n        \n    }\n};"

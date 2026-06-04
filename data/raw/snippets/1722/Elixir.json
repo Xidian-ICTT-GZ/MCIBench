@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec minimum_hamming_distance(source :: [integer], target :: [integer], allowed_swaps :: [[integer]]) :: integer\n  def minimum_hamming_distance(source, target, allowed_swaps) do\n    \n  end\nend"

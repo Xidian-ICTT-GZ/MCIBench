@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec max_balanced_shipments(weight :: [integer]) :: integer\n  def max_balanced_shipments(weight) do\n    \n  end\nend"

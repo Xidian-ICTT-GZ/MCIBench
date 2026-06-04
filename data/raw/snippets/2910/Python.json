@@ -1,1 +1,0 @@
-"class Solution(object):\n    def minGroupsForValidAssignment(self, balls):\n        \"\"\"\n        :type balls: List[int]\n        :rtype: int\n        \"\"\"\n        "

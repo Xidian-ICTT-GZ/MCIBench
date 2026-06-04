@@ -1,0 +1,1 @@
+"(define/contract (build-matrix k rowConditions colConditions)\n  (-> exact-integer? (listof (listof exact-integer?)) (listof (listof exact-integer?)) (listof (listof exact-integer?)))\n  )"

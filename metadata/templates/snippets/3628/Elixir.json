@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec num_of_subsequences(s :: String.t) :: integer\n  def num_of_subsequences(s) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec camel_match(queries :: [String.t], pattern :: String.t) :: [boolean]\n  def camel_match(queries, pattern) do\n    \n  end\nend"

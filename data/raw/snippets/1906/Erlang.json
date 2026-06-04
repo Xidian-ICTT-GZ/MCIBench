@@ -1,1 +1,0 @@
-"-spec min_difference(Nums :: [integer()], Queries :: [[integer()]]) -> [integer()].\nmin_difference(Nums, Queries) ->\n  ."

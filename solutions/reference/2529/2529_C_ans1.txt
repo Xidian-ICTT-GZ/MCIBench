@@ -1,0 +1,12 @@
+int maximumCount(int* nums, int numsSize) {
+    int pos = 0, neg = 0;
+    for (int i = 0; i < numsSize; i++) {
+        int num = nums[i];
+        if (num > 0) {
+            pos++;
+        } else if (num < 0) {
+            neg++;
+        }
+    }
+    return fmax(pos, neg);
+}

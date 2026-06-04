@@ -1,1 +1,0 @@
-"-spec categorize_box(Length :: integer(), Width :: integer(), Height :: integer(), Mass :: integer()) -> unicode:unicode_binary().\ncategorize_box(Length, Width, Height, Mass) ->\n  ."

@@ -1,1 +1,0 @@
-"-spec powerful_integers(X :: integer(), Y :: integer(), Bound :: integer()) -> [integer()].\npowerful_integers(X, Y, Bound) ->\n  ."

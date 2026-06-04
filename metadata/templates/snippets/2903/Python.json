@@ -1,0 +1,1 @@
+"class Solution(object):\n    def findIndices(self, nums, indexDifference, valueDifference):\n        \"\"\"\n        :type nums: List[int]\n        :type indexDifference: int\n        :type valueDifference: int\n        :rtype: List[int]\n        \"\"\"\n        "

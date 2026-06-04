@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec subtree_inversion_sum(edges :: [[integer]], nums :: [integer], k :: integer) :: integer\n  def subtree_inversion_sum(edges, nums, k) do\n    \n  end\nend"

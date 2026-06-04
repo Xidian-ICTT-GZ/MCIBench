@@ -1,0 +1,1 @@
+"-spec result_grid(Image :: [[integer()]], Threshold :: integer()) -> [[integer()]].\nresult_grid(Image, Threshold) ->\n  ."

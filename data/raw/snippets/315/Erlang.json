@@ -1,1 +1,0 @@
-"-spec count_smaller(Nums :: [integer()]) -> [integer()].\ncount_smaller(Nums) ->\n  ."

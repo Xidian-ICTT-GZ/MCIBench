@@ -1,0 +1,1 @@
+"-spec has_groups_size_x(Deck :: [integer()]) -> boolean().\nhas_groups_size_x(Deck) ->\n  ."

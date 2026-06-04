@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec min_side_jumps(obstacles :: [integer]) :: integer\n  def min_side_jumps(obstacles) do\n    \n  end\nend"

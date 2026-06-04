@@ -1,0 +1,1 @@
+"# @param {Integer[][]} coins\n# @return {Integer}\ndef maximum_amount(coins)\n    \nend"

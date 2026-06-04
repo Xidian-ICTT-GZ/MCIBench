@@ -1,1 +1,0 @@
-"/**\n * // Definition for a _Node.\n * function _Node(val,prev,next,child) {\n *    this.val = val;\n *    this.prev = prev;\n *    this.next = next;\n *    this.child = child;\n * };\n */\n\n/**\n * @param {_Node} head\n * @return {_Node}\n */\nvar flatten = function(head) {\n    \n};"

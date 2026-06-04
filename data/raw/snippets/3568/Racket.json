@@ -1,1 +1,0 @@
-"(define/contract (min-moves classroom energy)\n  (-> (listof string?) exact-integer? exact-integer?)\n  )"

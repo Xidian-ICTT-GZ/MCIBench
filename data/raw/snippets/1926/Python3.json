@@ -1,1 +1,0 @@
-"class Solution:\n    def nearestExit(self, maze: List[List[str]], entrance: List[int]) -> int:\n        "

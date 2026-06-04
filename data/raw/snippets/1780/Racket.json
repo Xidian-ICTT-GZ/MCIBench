@@ -1,1 +1,0 @@
-"(define/contract (check-powers-of-three n)\n  (-> exact-integer? boolean?)\n  )"

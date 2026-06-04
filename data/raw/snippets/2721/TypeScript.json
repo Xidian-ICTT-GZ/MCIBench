@@ -1,1 +1,0 @@
-"type Fn<T> = () => Promise<T>\n\nfunction promiseAll<T>(functions: Fn<T>[]): Promise<T[]> {\n    \n};\n\n/**\n * const promise = promiseAll([() => new Promise(res => res(42))])\n * promise.then(console.log); // [42]\n */"

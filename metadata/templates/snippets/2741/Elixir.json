@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec special_perm(nums :: [integer]) :: integer\n  def special_perm(nums) do\n    \n  end\nend"

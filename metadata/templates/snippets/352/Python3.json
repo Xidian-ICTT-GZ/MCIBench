@@ -1,0 +1,1 @@
+"class SummaryRanges:\n\n    def __init__(self):\n        \n\n    def addNum(self, value: int) -> None:\n        \n\n    def getIntervals(self) -> List[List[int]]:\n        \n\n\n# Your SummaryRanges object will be instantiated and called as such:\n# obj = SummaryRanges()\n# obj.addNum(value)\n# param_2 = obj.getIntervals()"

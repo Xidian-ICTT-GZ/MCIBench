@@ -1,0 +1,49 @@
+#define MAX(a, b) ((a) > (b) ? (a) : (b))
+
+static int cmp(const void *pa, const void *pb) {
+    if (((int *)pa)[0] == ((int *)pb)[0]) {
+        return ((int *)pa)[1] - ((int *)pb)[1];
+    }
+    return ((int *)pa)[0] - ((int *)pb)[0];
+}
+
+int lowbit(int x) {
+    return x & (-x);
+}
+
+void update(int i, int val, int *t, int max_age) {
+    for (; i <= max_age; i += lowbit(i)) {
+        t[i] = MAX(t[i], val);
+    }
+}
+
+int query(int i, const int *t) {
+    int ret = 0;
+    for (; i > 0; i -= lowbit(i)) {
+        ret = MAX(ret, t[i]);
+    }
+    return ret;
+}
+
+int bestTeamScore(int* scores, int scoresSize, int* ages, int agesSize) {
+    int max_age = 0;
+    for (int i = 0; i < agesSize; i++) {
+        max_age = MAX(max_age, ages[i]);
+    }
+    int t[max_age + 1];
+    memset(t, 0, sizeof(t));
+    int res = 0;
+    int people[scoresSize][2];
+    int peopleSize = scoresSize;
+    for (int i = 0; i < scoresSize; ++i) {
+        people[i][0] = scores[i];
+        people[i][1] = ages[i];
+    }
+    qsort(people, peopleSize, sizeof(people[0]), cmp);
+    for (int i = 0; i < peopleSize; ++i) {
+        int score = people[i][0], age = people[i][1], cur = score + query(age, t);
+        update(age, cur, t, max_age);
+        res = MAX(res, cur);
+    }
+    return res;
+}

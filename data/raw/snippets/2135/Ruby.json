@@ -1,1 +1,0 @@
-"# @param {String[]} start_words\n# @param {String[]} target_words\n# @return {Integer}\ndef word_count(start_words, target_words)\n    \nend"

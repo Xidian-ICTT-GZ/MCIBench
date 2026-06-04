@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    int equalSubstring(string s, string t, int maxCost) {\n        \n    }\n};"

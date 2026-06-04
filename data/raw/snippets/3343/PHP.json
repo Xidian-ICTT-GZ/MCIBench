@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String $num\n     * @return Integer\n     */\n    function countBalancedPermutations($num) {\n        \n    }\n}"

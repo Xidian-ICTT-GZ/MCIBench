@@ -1,1 +1,0 @@
-"-spec count_of_substrings(Word :: unicode:unicode_binary(), K :: integer()) -> integer().\ncount_of_substrings(Word, K) ->\n  ."

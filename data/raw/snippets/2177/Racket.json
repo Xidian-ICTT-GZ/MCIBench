@@ -1,1 +1,0 @@
-"(define/contract (sum-of-three num)\n  (-> exact-integer? (listof exact-integer?))\n  )"

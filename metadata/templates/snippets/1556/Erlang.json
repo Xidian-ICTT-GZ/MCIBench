@@ -1,0 +1,1 @@
+"-spec thousand_separator(N :: integer()) -> unicode:unicode_binary().\nthousand_separator(N) ->\n  ."

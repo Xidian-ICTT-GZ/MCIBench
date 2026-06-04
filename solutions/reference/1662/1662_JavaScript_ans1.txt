@@ -1,0 +1,11 @@
+var arrayStringsAreEqual = function(word1, word2) {
+    return join(word1) === join(word2);
+}
+
+const join = (words) => {
+    let ret = '';
+    for (const s of words) {
+        ret += s;
+    }
+    return ret;
+};

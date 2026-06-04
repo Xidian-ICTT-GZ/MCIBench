@@ -1,1 +1,0 @@
-"(define/contract (min-window s t)\n  (-> string? string? string?)\n  )"

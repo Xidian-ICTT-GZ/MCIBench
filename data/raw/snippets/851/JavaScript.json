@@ -1,1 +1,0 @@
-"/**\n * @param {number[][]} richer\n * @param {number[]} quiet\n * @return {number[]}\n */\nvar loudAndRich = function(richer, quiet) {\n    \n};"

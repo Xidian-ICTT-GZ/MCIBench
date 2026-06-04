@@ -1,1 +1,0 @@
-"(define/contract (find-permutation nums)\n  (-> (listof exact-integer?) (listof exact-integer?))\n  )"

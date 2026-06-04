@@ -1,0 +1,21 @@
+bool canSortArray(int* nums, int numsSize) {
+    int lastCnt = 0;
+    int lastGroupMax = 0;
+    int curGroupMax = 0;
+
+    for (int i = 0; i < numsSize; i++) {
+        int num = nums[i];
+        int curCnt = __builtin_popcount(num);
+        if (curCnt == lastCnt) {
+            curGroupMax = fmax(curGroupMax, num);
+        } else {
+            lastCnt = curCnt;
+            lastGroupMax = curGroupMax;
+            curGroupMax = num;
+        }
+        if (num < lastGroupMax) {
+            return false;
+        }
+    }
+    return true;
+}

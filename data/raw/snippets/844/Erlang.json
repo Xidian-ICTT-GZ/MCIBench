@@ -1,1 +1,0 @@
-"-spec backspace_compare(S :: unicode:unicode_binary(), T :: unicode:unicode_binary()) -> boolean().\nbackspace_compare(S, T) ->\n  ."

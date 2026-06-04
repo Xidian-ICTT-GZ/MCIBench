@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    int largestPathValue(string colors, vector<vector<int>>& edges) {\n        \n    }\n};"

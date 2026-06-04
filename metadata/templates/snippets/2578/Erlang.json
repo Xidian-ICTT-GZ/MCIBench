@@ -1,0 +1,1 @@
+"-spec split_num(Num :: integer()) -> integer().\nsplit_num(Num) ->\n  ."

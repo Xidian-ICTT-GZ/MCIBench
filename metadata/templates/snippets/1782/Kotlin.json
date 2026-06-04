@@ -1,0 +1,1 @@
+"class Solution {\n    fun countPairs(n: Int, edges: Array<IntArray>, queries: IntArray): IntArray {\n        \n    }\n}"

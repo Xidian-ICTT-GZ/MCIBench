@@ -1,1 +1,0 @@
-"-spec count_of_pairs(N :: integer(), X :: integer(), Y :: integer()) -> [integer()].\ncount_of_pairs(N, X, Y) ->\n  ."

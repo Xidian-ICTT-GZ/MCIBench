@@ -1,1 +1,0 @@
-"class Solution(object):\n    def latestDayToCross(self, row, col, cells):\n        \"\"\"\n        :type row: int\n        :type col: int\n        :type cells: List[List[int]]\n        :rtype: int\n        \"\"\"\n        "

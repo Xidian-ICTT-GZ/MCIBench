@@ -1,0 +1,27 @@
+public class Solution {
+    public int MaxDistance(int[] position, int m) {
+        Array.Sort(position);
+        int left = 1, right = position[position.Length - 1] - position[0], ans = -1;
+        while (left <= right) {
+            int mid = (left + right) / 2;
+            if (Check(mid, position, m)) {
+                ans = mid;
+                left = mid + 1;
+            } else {
+                right = mid - 1;
+            }
+        }
+        return ans;
+    }
+
+    public bool Check(int x, int[] position, int m) {
+        int pre = position[0], cnt = 1;
+        for (int i = 1; i < position.Length; i++) {
+            if (position[i] - pre >= x) {
+                pre = position[i];
+                cnt++;
+            }
+        }
+        return cnt >= m;
+    }
+}

@@ -1,1 +1,0 @@
-"-spec count_anagrams(S :: unicode:unicode_binary()) -> integer().\ncount_anagrams(S) ->\n  ."

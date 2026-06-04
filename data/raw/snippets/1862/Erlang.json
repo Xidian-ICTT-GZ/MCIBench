@@ -1,1 +1,0 @@
-"-spec sum_of_floored_pairs(Nums :: [integer()]) -> integer().\nsum_of_floored_pairs(Nums) ->\n  ."

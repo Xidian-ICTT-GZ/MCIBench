@@ -1,0 +1,1 @@
+"(define/contract (smaller-numbers-than-current nums)\n  (-> (listof exact-integer?) (listof exact-integer?))\n  )"

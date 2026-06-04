@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    bool isPossibleToRearrange(string s, string t, int k) {\n        \n    }\n};"

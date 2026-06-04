@@ -1,1 +1,0 @@
-"-spec best_coordinate(Towers :: [[integer()]], Radius :: integer()) -> [integer()].\nbest_coordinate(Towers, Radius) ->\n  ."

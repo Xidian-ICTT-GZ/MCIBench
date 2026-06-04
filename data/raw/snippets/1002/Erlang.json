@@ -1,1 +1,0 @@
-"-spec common_chars(Words :: [unicode:unicode_binary()]) -> [unicode:unicode_binary()].\ncommon_chars(Words) ->\n  ."

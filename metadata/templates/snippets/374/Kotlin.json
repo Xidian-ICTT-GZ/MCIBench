@@ -1,0 +1,1 @@
+"/** \n * The API guess is defined in the parent class.\n * @param  num   your guess\n * @return \t     -1 if num is higher than the picked number\n *\t\t\t      1 if num is lower than the picked number\n *               otherwise return 0\n * fun guess(num:Int):Int {}\n */\n\nclass Solution:GuessGame() {\n    override fun guessNumber(n:Int):Int {\n        \n    }\n}"

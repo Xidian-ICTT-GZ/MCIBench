@@ -1,0 +1,1 @@
+"class Solution:\n    def maximumSegmentSum(self, nums: List[int], removeQueries: List[int]) -> List[int]:\n        "

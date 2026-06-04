@@ -1,1 +1,0 @@
-"# @param {Integer} n\n# @param {Integer} first_player\n# @param {Integer} second_player\n# @return {Integer[]}\ndef earliest_and_latest(n, first_player, second_player)\n    \nend"

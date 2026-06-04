@@ -1,0 +1,20 @@
+var countOfPairs = function(nums) {
+    const n = nums.length;
+    const dp = Array(n).fill(0).map(() => Array(51).fill(0));
+    const mod = 10 ** 9 + 7;
+    for (let v = 0; v <= nums[0]; v++) {
+        dp[0][v] = 1;
+    }
+
+    for (let i = 1; i < n; i++) {
+        for (let v2 = 0; v2 <= nums[i]; v2++) {
+            for (let v1 = 0; v1 <= v2; v1++) {
+                if (nums[i - 1] - v1 >= nums[i] - v2) {
+                    dp[i][v2] = (dp[i][v2] + dp[i - 1][v1]) % mod;
+                }
+            }
+        }
+    }
+
+    return dp[n - 1].reduce((sum, v) => (sum + v) % mod, 0);
+};

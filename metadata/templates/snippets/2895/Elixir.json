@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec min_processing_time(processor_time :: [integer], tasks :: [integer]) :: integer\n  def min_processing_time(processor_time, tasks) do\n    \n  end\nend"

@@ -1,0 +1,30 @@
+public class NumberContainers {
+    private Dictionary<int,int> nums;
+    private Dictionary<int, SortedSet<int>> us;
+
+    public NumberContainers() {
+        nums = new Dictionary<int,int>();
+        us = new Dictionary<int, SortedSet<int>>();
+    }
+
+    public void Change(int index, int number) {
+        int prev = nums.ContainsKey(index) ? nums[index] : 0;
+        if (prev != 0) {
+            if (us.TryGetValue(prev, out var set)) {
+                set.Remove(index);
+            }
+        }
+        if (!us.ContainsKey(number)) {
+            us[number] = new SortedSet<int>();
+        }
+        us[number].Add(index);
+        nums[index] = number;
+    }
+
+    public int Find(int number) {
+        if (!us.TryGetValue(number, out var set) || set.Count == 0) {
+            return -1;
+        }
+        return set.Min;
+    }
+}

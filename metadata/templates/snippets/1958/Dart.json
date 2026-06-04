@@ -1,0 +1,1 @@
+"class Solution {\n  bool checkMove(List<List<String>> board, int rMove, int cMove, String color) {\n    \n  }\n}"

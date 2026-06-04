@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec best_rotation(nums :: [integer]) :: integer\n  def best_rotation(nums) do\n    \n  end\nend"

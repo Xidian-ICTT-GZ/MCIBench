@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String[][] $equations\n     * @param Float[] $values\n     * @param String[][] $queries\n     * @return Float[]\n     */\n    function calcEquation($equations, $values, $queries) {\n        \n    }\n}"

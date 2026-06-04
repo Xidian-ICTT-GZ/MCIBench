@@ -1,1 +1,0 @@
-"object Solution {\n    def numberOfPowerfulInt(start: Long, finish: Long, limit: Int, s: String): Long = {\n        \n    }\n}"

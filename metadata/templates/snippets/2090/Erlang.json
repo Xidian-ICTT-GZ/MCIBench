@@ -1,0 +1,1 @@
+"-spec get_averages(Nums :: [integer()], K :: integer()) -> [integer()].\nget_averages(Nums, K) ->\n  ."

@@ -1,1 +1,0 @@
-"class Solution(object):\n    def checkTwoChessboards(self, coordinate1, coordinate2):\n        \"\"\"\n        :type coordinate1: str\n        :type coordinate2: str\n        :rtype: bool\n        \"\"\"\n        "

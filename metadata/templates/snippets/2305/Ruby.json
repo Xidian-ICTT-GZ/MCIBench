@@ -1,0 +1,1 @@
+"# @param {Integer[]} cookies\n# @param {Integer} k\n# @return {Integer}\ndef distribute_cookies(cookies, k)\n    \nend"

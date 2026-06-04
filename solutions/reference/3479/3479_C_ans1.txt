@@ -1,0 +1,40 @@
+int numOfUnplacedFruits(int* fruits, int fruitsSize, int* baskets, int basketsSize) {
+    int n = basketsSize;
+    int m = (int)sqrt(n);
+    int section = (n + m - 1) / m;
+    int count = 0;
+    int* maxV = (int*)calloc(section, sizeof(int));
+
+    for (int i = 0; i < n; i++) {
+        int block = i / m;
+        maxV[block] = maxV[block] > baskets[i] ? maxV[block] : baskets[i];
+    }
+
+    for (int j = 0; j < fruitsSize; j++) {
+        int fruit = fruits[j];
+        int unset = 1;
+        for (int sec = 0; sec < section; sec++) {
+            if (maxV[sec] < fruit) {
+                continue;
+            }
+            int choose = 0;
+            maxV[sec] = 0;
+            for (int i = 0; i < m; i++) {
+                int pos = sec * m + i;
+                if (pos < n && baskets[pos] >= fruit && !choose) {
+                    baskets[pos] = 0;
+                    choose = 1;
+                }
+                if (pos < n) {
+                    maxV[sec] = maxV[sec] > baskets[pos] ? maxV[sec] : baskets[pos];
+                }
+            }
+            unset = 0;
+            break;
+        }
+        count += unset;
+    }
+
+    free(maxV);
+    return count;
+}

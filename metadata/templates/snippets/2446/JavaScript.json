@@ -1,0 +1,1 @@
+"/**\n * @param {string[]} event1\n * @param {string[]} event2\n * @return {boolean}\n */\nvar haveConflict = function(event1, event2) {\n    \n};"

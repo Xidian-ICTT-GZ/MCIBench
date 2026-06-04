@@ -1,0 +1,1 @@
+"(define/contract (kth-character k)\n  (-> exact-integer? char?)\n  )"

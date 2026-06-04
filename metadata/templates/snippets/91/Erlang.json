@@ -1,0 +1,1 @@
+"-spec num_decodings(S :: unicode:unicode_binary()) -> integer().\nnum_decodings(S) ->\n  ."

@@ -1,0 +1,1 @@
+"class StreamChecker(_words: Array[String]) {\n\n    def query(letter: Char): Boolean = {\n        \n    }\n\n}\n\n/**\n * Your StreamChecker object will be instantiated and called as such:\n * val obj = new StreamChecker(words)\n * val param_1 = obj.query(letter)\n */"

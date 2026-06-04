@@ -1,1 +1,0 @@
-"-spec num_special_equiv_groups(Words :: [unicode:unicode_binary()]) -> integer().\nnum_special_equiv_groups(Words) ->\n  ."

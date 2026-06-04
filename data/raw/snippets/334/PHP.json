@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @return Boolean\n     */\n    function increasingTriplet($nums) {\n        \n    }\n}"

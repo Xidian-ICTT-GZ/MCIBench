@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    long long maximumBeauty(vector<int>& flowers, long long newFlowers, int target, int full, int partial) {\n        \n    }\n};"

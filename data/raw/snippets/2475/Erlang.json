@@ -1,1 +1,0 @@
-"-spec unequal_triplets(Nums :: [integer()]) -> integer().\nunequal_triplets(Nums) ->\n  ."

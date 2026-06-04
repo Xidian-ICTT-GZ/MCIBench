@@ -1,1 +1,0 @@
-"# @param {Integer[]} fronts\n# @param {Integer[]} backs\n# @return {Integer}\ndef flipgame(fronts, backs)\n    \nend"

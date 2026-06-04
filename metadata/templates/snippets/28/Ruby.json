@@ -1,0 +1,1 @@
+"# @param {String} haystack\n# @param {String} needle\n# @return {Integer}\ndef str_str(haystack, needle)\n    \nend"

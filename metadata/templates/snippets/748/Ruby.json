@@ -1,0 +1,1 @@
+"# @param {String} license_plate\n# @param {String[]} words\n# @return {String}\ndef shortest_completing_word(license_plate, words)\n    \nend"

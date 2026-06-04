@@ -1,0 +1,1 @@
+"class Solution {\n    func findAllPeople(_ n: Int, _ meetings: [[Int]], _ firstPerson: Int) -> [Int] {\n        \n    }\n}"

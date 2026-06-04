@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int maxMoves(int kx, int ky, vector<vector<int>>& positions) {\n        \n    }\n};"

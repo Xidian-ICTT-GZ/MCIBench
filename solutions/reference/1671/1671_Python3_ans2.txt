@@ -1,0 +1,25 @@
+class Solution:
+    def minimumMountainRemovals(self, nums: List[int]) -> int:
+        pre = self.getLISArray(nums)
+        suf = self.getLISArray(nums[::-1])[::-1]
+        ans = 0
+
+        for pre_i, suf_i in zip(pre, suf):
+            if pre_i > 1 and suf_i > 1:
+                ans = max(ans, pre_i + suf_i - 1)
+        
+        return len(nums) - ans
+
+    def getLISArray(self, nums: List[int]) -> List[int]:
+        dp, seq = list(), list()
+
+        for i, num in enumerate(nums):
+            it = bisect_left(seq, num)
+            if it == len(seq):
+                seq.append(num)
+                dp.append(len(seq))
+            else:
+                seq[it] = num
+                dp.append(it + 1)
+
+        return dp

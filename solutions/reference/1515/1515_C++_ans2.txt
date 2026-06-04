@@ -1,0 +1,49 @@
+class Solution {
+private:
+    static constexpr int dirs[4][2] = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
+
+public:
+    double getMinDistSum(vector<vector<int>>& positions) {
+        double eps = 1e-7;
+        double step = 1;
+        double decay = 0.5;
+        
+        int n = positions.size();
+        
+        double x = 0.0, y = 0.0;
+        for (const auto& pos: positions) {
+            x += pos[0];
+            y += pos[1];
+        }
+        x /= n;
+        y /= n;
+        
+        
+        auto getDist = [&](double xc, double yc) {
+            double ans = 0;
+            for (const auto& pos: positions) {
+                ans += sqrt((pos[0] - xc) * (pos[0] - xc) + (pos[1] - yc) * (pos[1] - yc));
+            }
+            return ans;
+        };
+        
+        while (step > eps) {
+            bool modified = false;
+            for (int i = 0; i < 4; ++i) {
+                double xNext = x + step * dirs[i][0];
+                double yNext = y + step * dirs[i][1];
+                if (getDist(xNext, yNext) < getDist(x, y)) {
+                    x = xNext;
+                    y = yNext;
+                    modified = true;
+                    break;
+                }
+            }
+            if (!modified) {
+                step *= (1.0 - decay);
+            }
+        }
+        
+        return getDist(x, y);
+    }
+};

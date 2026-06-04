@@ -1,1 +1,0 @@
-"class ATM() {\n\n    def deposit(banknotesCount: Array[Int]): Unit = {\n        \n    }\n\n    def withdraw(amount: Int): Array[Int] = {\n        \n    }\n\n}\n\n/**\n * Your ATM object will be instantiated and called as such:\n * val obj = new ATM()\n * obj.deposit(banknotesCount)\n * val param_2 = obj.withdraw(amount)\n */"

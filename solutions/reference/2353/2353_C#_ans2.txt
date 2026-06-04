@@ -1,0 +1,50 @@
+public class FoodRatings {
+    private Dictionary<string, (int Rating, string Cuisine)> foodMap;
+    private Dictionary<string, PriorityQueue<(string Food, int Rating), (int Rating, string Food)>> ratingMap;
+    private int n;
+
+    public FoodRatings(string[] foods, string[] cuisines, int[] ratings) {
+        n = foods.Length;
+        foodMap = new Dictionary<string, (int Rating, string Cuisine)>();
+        ratingMap = new Dictionary<string, PriorityQueue<(string Food, int Rating), (int Rating, string Food)>>();
+
+        for (int i = 0; i < n; i++) {
+            string food = foods[i];
+            string cuisine = cuisines[i];
+            int rating = ratings[i];
+            foodMap[food] = (rating, cuisine);
+            if (!ratingMap.ContainsKey(cuisine)) {
+                ratingMap[cuisine] = new PriorityQueue<(string Food, int Rating), (int Rating, string Food)>(
+                    Comparer<(int Rating, string Food)>.Create((a, b) => {
+                        if (a.Rating != b.Rating) {
+                            return b.Rating.CompareTo(a.Rating);
+                        }
+                        return a.Food.CompareTo(b.Food);
+                    })
+                );
+            }
+            ratingMap[cuisine].Enqueue((food, rating), (rating, food));
+        }
+    }
+    
+    public void ChangeRating(string food, int newRating) {
+        var (oldRating, cuisine) = foodMap[food];
+        ratingMap[cuisine].Enqueue((food, newRating), (newRating, food));
+        foodMap[food] = (newRating, cuisine);
+    }
+    
+    public string HighestRated(string cuisine) {
+        var q = ratingMap[cuisine];
+        while (q.Count > 0) {
+            var top = q.Peek();
+            string food = top.Food;
+            int rating = top.Rating;
+            if (foodMap[food].Rating == rating) {
+                return food;
+            }
+            q.Dequeue();
+        }
+
+        return "";
+    }
+}

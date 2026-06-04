@@ -1,0 +1,1 @@
+"(define/contract (camel-match queries pattern)\n  (-> (listof string?) string? (listof boolean?))\n  )"

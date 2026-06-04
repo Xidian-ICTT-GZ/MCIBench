@@ -1,0 +1,1 @@
+"-spec is_possible_to_cut_path(Grid :: [[integer()]]) -> boolean().\nis_possible_to_cut_path(Grid) ->\n  ."

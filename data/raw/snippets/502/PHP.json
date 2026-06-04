@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer $k\n     * @param Integer $w\n     * @param Integer[] $profits\n     * @param Integer[] $capital\n     * @return Integer\n     */\n    function findMaximizedCapital($k, $w, $profits, $capital) {\n        \n    }\n}"

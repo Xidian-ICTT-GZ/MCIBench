@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec split_array_same_average(nums :: [integer]) :: boolean\n  def split_array_same_average(nums) do\n    \n  end\nend"

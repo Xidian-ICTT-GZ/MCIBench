@@ -1,1 +1,0 @@
-"-spec longest_square_streak(Nums :: [integer()]) -> integer().\nlongest_square_streak(Nums) ->\n  ."

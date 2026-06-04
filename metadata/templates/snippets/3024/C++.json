@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    string triangleType(vector<int>& nums) {\n        \n    }\n};"

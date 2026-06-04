@@ -1,0 +1,1 @@
+"-spec smallest_subsequence(S :: unicode:unicode_binary(), K :: integer(), Letter :: char(), Repetition :: integer()) -> unicode:unicode_binary().\nsmallest_subsequence(S, K, Letter, Repetition) ->\n  ."

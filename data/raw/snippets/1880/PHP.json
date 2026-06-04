@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String $firstWord\n     * @param String $secondWord\n     * @param String $targetWord\n     * @return Boolean\n     */\n    function isSumEqual($firstWord, $secondWord, $targetWord) {\n        \n    }\n}"

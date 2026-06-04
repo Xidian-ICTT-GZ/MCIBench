@@ -1,1 +1,0 @@
-"/**\n * @param {string} s\n * @param {string} target\n * @return {number}\n */\nvar rearrangeCharacters = function(s, target) {\n    \n};"

@@ -1,1 +1,0 @@
-"class Solution:\n    def findCircleNum(self, isConnected: List[List[int]]) -> int:\n        "

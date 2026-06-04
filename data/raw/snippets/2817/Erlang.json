@@ -1,1 +1,0 @@
-"-spec min_absolute_difference(Nums :: [integer()], X :: integer()) -> integer().\nmin_absolute_difference(Nums, X) ->\n  ."

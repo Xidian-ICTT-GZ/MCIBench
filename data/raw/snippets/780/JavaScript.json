@@ -1,1 +1,0 @@
-"/**\n * @param {number} sx\n * @param {number} sy\n * @param {number} tx\n * @param {number} ty\n * @return {boolean}\n */\nvar reachingPoints = function(sx, sy, tx, ty) {\n    \n};"

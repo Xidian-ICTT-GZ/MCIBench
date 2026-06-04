@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $players\n     * @param Integer[] $trainers\n     * @return Integer\n     */\n    function matchPlayersAndTrainers($players, $trainers) {\n        \n    }\n}"

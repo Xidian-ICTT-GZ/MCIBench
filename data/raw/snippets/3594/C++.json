@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    double minTime(int n, int k, int m, vector<int>& time, vector<double>& mul) {\n        \n    }\n};"

@@ -1,0 +1,1 @@
+"import pandas as pd\n\ndef count_unique_subjects(teacher: pd.DataFrame) -> pd.DataFrame:\n    "

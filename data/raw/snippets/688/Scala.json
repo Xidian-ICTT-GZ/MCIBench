@@ -1,1 +1,0 @@
-"object Solution {\n    def knightProbability(n: Int, k: Int, row: Int, column: Int): Double = {\n        \n    }\n}"

@@ -1,1 +1,0 @@
-"class Solution:\n    def removeBoxes(self, boxes: List[int]) -> int:\n        "

@@ -1,1 +1,0 @@
-"class Solution {\n    fun relocateMarbles(nums: IntArray, moveFrom: IntArray, moveTo: IntArray): List<Int> {\n        \n    }\n}"

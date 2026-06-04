@@ -1,1 +1,0 @@
-"class Solution(object):\n    def isPossible(self, target):\n        \"\"\"\n        :type target: List[int]\n        :rtype: bool\n        \"\"\"\n        "

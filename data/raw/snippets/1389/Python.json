@@ -1,1 +1,0 @@
-"class Solution(object):\n    def createTargetArray(self, nums, index):\n        \"\"\"\n        :type nums: List[int]\n        :type index: List[int]\n        :rtype: List[int]\n        \"\"\"\n        "

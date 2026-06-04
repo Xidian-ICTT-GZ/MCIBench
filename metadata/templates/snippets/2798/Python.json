@@ -1,0 +1,1 @@
+"class Solution(object):\n    def numberOfEmployeesWhoMetTarget(self, hours, target):\n        \"\"\"\n        :type hours: List[int]\n        :type target: int\n        :rtype: int\n        \"\"\"\n        "

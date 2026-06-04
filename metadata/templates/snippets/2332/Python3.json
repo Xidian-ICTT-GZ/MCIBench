@@ -1,0 +1,1 @@
+"class Solution:\n    def latestTimeCatchTheBus(self, buses: List[int], passengers: List[int], capacity: int) -> int:\n        "

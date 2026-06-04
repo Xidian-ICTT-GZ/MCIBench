@@ -1,0 +1,1 @@
+"class Solution {\n    fun maximumRemovals(s: String, p: String, removable: IntArray): Int {\n        \n    }\n}"

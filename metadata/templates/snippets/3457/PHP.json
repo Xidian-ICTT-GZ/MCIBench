@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $pizzas\n     * @return Integer\n     */\n    function maxWeight($pizzas) {\n        \n    }\n}"

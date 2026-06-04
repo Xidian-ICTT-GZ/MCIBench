@@ -1,0 +1,1 @@
+"(define/contract (interpret command)\n  (-> string? string?)\n  )"

@@ -1,1 +1,0 @@
-"-spec max_collected_fruits(Fruits :: [[integer()]]) -> integer().\nmax_collected_fruits(Fruits) ->\n  ."

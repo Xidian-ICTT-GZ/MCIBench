@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    int reachableNodes(vector<vector<int>>& edges, int maxMoves, int n) {\n        \n    }\n};"

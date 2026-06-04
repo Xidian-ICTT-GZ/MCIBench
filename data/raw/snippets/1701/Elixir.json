@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec average_waiting_time(customers :: [[integer]]) :: float\n  def average_waiting_time(customers) do\n    \n  end\nend"

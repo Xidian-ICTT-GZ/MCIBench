@@ -1,1 +1,0 @@
-"object Solution {\n    def maxProfit(prices: Array[Int], strategy: Array[Int], k: Int): Long = {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<int> baseUnitConversions(vector<vector<int>>& conversions) {\n        \n    }\n};"

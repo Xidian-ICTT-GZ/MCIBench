@@ -1,1 +1,0 @@
-"/**\n * @param {number[][]} grid1\n * @param {number[][]} grid2\n * @return {number}\n */\nvar countSubIslands = function(grid1, grid2) {\n    \n};"

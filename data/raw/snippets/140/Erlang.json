@@ -1,1 +1,0 @@
-"-spec word_break(S :: unicode:unicode_binary(), WordDict :: [unicode:unicode_binary()]) -> [unicode:unicode_binary()].\nword_break(S, WordDict) ->\n  ."

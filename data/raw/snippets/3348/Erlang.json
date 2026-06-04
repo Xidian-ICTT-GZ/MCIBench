@@ -1,1 +1,0 @@
-"-spec smallest_number(Num :: unicode:unicode_binary(), T :: integer()) -> unicode:unicode_binary().\nsmallest_number(Num, T) ->\n  ."

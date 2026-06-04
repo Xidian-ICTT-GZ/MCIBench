@@ -1,0 +1,1 @@
+"(define/contract (product-except-self nums)\n  (-> (listof exact-integer?) (listof exact-integer?))\n  )"

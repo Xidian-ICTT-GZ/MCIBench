@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec smallest_good_base(n :: String.t) :: String.t\n  def smallest_good_base(n) do\n    \n  end\nend"

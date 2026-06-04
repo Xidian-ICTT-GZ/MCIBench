@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec minimum_boxes(apple :: [integer], capacity :: [integer]) :: integer\n  def minimum_boxes(apple, capacity) do\n    \n  end\nend"

@@ -1,1 +1,0 @@
-"# @param {Integer[]} nums\n# @param {Integer} n\n# @param {Integer} left\n# @param {Integer} right\n# @return {Integer}\ndef range_sum(nums, n, left, right)\n    \nend"

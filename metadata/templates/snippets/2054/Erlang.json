@@ -1,0 +1,1 @@
+"-spec max_two_events(Events :: [[integer()]]) -> integer().\nmax_two_events(Events) ->\n  ."

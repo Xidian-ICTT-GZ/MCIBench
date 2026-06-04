@@ -1,0 +1,1 @@
+"# @param {Integer[]} heights\n# @param {Integer[][]} queries\n# @return {Integer[]}\ndef leftmost_building_queries(heights, queries)\n    \nend"

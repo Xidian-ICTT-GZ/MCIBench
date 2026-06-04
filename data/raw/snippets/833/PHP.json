@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String $s\n     * @param Integer[] $indices\n     * @param String[] $sources\n     * @param String[] $targets\n     * @return String\n     */\n    function findReplaceString($s, $indices, $sources, $targets) {\n        \n    }\n}"

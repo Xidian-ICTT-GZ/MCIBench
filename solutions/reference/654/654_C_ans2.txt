@@ -1,0 +1,40 @@
+struct TreeNode* constructMaximumBinaryTree(int* nums, int numsSize) {
+    int *stack = (int *)malloc(sizeof(int) * numsSize);
+    int *left = (int *)malloc(sizeof(int) * numsSize);
+    int *right = (int *)malloc(sizeof(int) * numsSize);
+    memset(left, -1, sizeof(int) * numsSize);
+    memset(right, -1, sizeof(int) * numsSize);
+    struct TreeNode** tree = (struct TreeNode **)malloc(sizeof(struct TreeNode*) * numsSize);
+    int top = 0;
+    for (int i = 0; i < numsSize; ++i) {
+        tree[i] = (struct TreeNode*)malloc(sizeof(struct TreeNode));
+        tree[i]->val = nums[i];
+        tree[i]->left = NULL;
+        tree[i]->right = NULL;
+        while (top > 0 && nums[i] > nums[stack[top - 1]]) {
+            right[stack[top - 1]] = i;
+            top--;
+        }
+        if (top > 0) {
+            left[i] = stack[top - 1];
+        }
+        stack[top++] = i;
+    }
+
+    struct TreeNode* root = NULL;
+    for (int i = 0; i < numsSize; ++i) {
+        if (left[i] == -1 && right[i] == -1) {
+            root = tree[i];
+        }
+        else if (right[i] == -1 || (left[i] != -1 && nums[left[i]] < nums[right[i]])) {
+            tree[left[i]]->right = tree[i];
+        }
+        else {
+            tree[right[i]]->left = tree[i];
+        }
+    }
+    free(left);
+    free(right);
+    free(stack);
+    return root;
+}

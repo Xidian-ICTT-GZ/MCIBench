@@ -1,1 +1,0 @@
-"-spec get_probability(Balls :: [integer()]) -> float().\nget_probability(Balls) ->\n  ."

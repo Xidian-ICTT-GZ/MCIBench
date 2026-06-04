@@ -1,0 +1,1 @@
+"/**\n * @param {number[][]} blocked\n * @param {number[]} source\n * @param {number[]} target\n * @return {boolean}\n */\nvar isEscapePossible = function(blocked, source, target) {\n    \n};"

@@ -1,0 +1,1 @@
+"# @param {Integer[]} deck\n# @return {Integer[]}\ndef deck_revealed_increasing(deck)\n    \nend"

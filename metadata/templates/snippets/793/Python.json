@@ -1,0 +1,1 @@
+"class Solution(object):\n    def preimageSizeFZF(self, k):\n        \"\"\"\n        :type k: int\n        :rtype: int\n        \"\"\"\n        "

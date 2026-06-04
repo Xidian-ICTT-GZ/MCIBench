@@ -1,1 +1,0 @@
-"-spec decode_ciphertext(EncodedText :: unicode:unicode_binary(), Rows :: integer()) -> unicode:unicode_binary().\ndecode_ciphertext(EncodedText, Rows) ->\n  ."

@@ -1,1 +1,0 @@
-"-spec substring_xor_queries(S :: unicode:unicode_binary(), Queries :: [[integer()]]) -> [[integer()]].\nsubstring_xor_queries(S, Queries) ->\n  ."

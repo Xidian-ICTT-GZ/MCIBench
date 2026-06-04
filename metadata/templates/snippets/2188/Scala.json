@@ -1,0 +1,1 @@
+"object Solution {\n    def minimumFinishTime(tires: Array[Array[Int]], changeTime: Int, numLaps: Int): Int = {\n        \n    }\n}"

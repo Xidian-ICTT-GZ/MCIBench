@@ -1,1 +1,0 @@
-"(define/contract (remove-outer-parentheses s)\n  (-> string? string?)\n  )"

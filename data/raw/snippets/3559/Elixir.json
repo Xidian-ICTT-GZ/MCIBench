@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec assign_edge_weights(edges :: [[integer]], queries :: [[integer]]) :: [integer]\n  def assign_edge_weights(edges, queries) do\n    \n  end\nend"

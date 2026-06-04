@@ -1,0 +1,1 @@
+"# The is_bad_version API is already defined for you.\n# @param {Integer} version\n# @return {boolean} whether the version is bad\n# def is_bad_version(version):\n\n# @param {Integer} n\n# @return {Integer}\ndef first_bad_version(n)\n    \nend"

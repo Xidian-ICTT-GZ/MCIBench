@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec check(nums :: [integer]) :: boolean\n  def check(nums) do\n    \n  end\nend"

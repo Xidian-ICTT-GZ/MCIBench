@@ -1,0 +1,1 @@
+"-spec minimum_teachings(N :: integer(), Languages :: [[integer()]], Friendships :: [[integer()]]) -> integer().\nminimum_teachings(N, Languages, Friendships) ->\n  ."

@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String[] $words\n     * @param String[] $puzzles\n     * @return Integer[]\n     */\n    function findNumOfValidWords($words, $puzzles) {\n        \n    }\n}"

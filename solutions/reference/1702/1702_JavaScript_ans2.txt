@@ -1,0 +1,11 @@
+var maximumBinaryString = function(binary) {
+    const n = binary.length;
+    const i = binary.indexOf('0');
+    if (i < 0) {
+        return binary;
+    }
+    const zeros = binary.split('0').length - 1;
+    const s = Array(n).fill('1');
+    s[i + zeros - 1] = '0';
+    return s.join('');
+};

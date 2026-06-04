@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int maxEnvelopes(vector<vector<int>>& envelopes) {\n        \n    }\n};"

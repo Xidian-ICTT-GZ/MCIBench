@@ -1,0 +1,1 @@
+"class Solution:\n    def minimumTime(self, time: List[int], totalTrips: int) -> int:\n        "

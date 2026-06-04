@@ -1,0 +1,1 @@
+"class Solution {\n    fun nthSuperUglyNumber(n: Int, primes: IntArray): Int {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $eventTime\n     * @param Integer[] $startTime\n     * @param Integer[] $endTime\n     * @return Integer\n     */\n    function maxFreeTime($eventTime, $startTime, $endTime) {\n        \n    }\n}"

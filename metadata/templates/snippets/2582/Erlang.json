@@ -1,0 +1,1 @@
+"-spec pass_the_pillow(N :: integer(), Time :: integer()) -> integer().\npass_the_pillow(N, Time) ->\n  ."

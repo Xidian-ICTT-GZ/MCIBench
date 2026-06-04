@@ -1,1 +1,0 @@
-"# @param {Integer} n\n# @param {Integer[][]} roads\n# @return {Integer}\ndef count_paths(n, roads)\n    \nend"

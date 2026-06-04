@@ -1,1 +1,0 @@
-"-spec partition(S :: unicode:unicode_binary()) -> [[unicode:unicode_binary()]].\npartition(S) ->\n  ."

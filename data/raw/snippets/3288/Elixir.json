@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec max_path_length(coordinates :: [[integer]], k :: integer) :: integer\n  def max_path_length(coordinates, k) do\n    \n  end\nend"

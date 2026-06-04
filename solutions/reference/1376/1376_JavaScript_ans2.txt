@@ -1,0 +1,32 @@
+var numOfMinutes = function(n, headID, manager, informTime) {
+    
+    const g = new Map();
+    for (let i = 0; i < n; i++) {
+        if (!g.has(manager[i])) {
+            g.set(manager[i], []);
+        }
+        g.get(manager[i]).push(i);
+    }
+    
+    const queue = [];
+    queue.push([headID, 0]);
+
+    
+    let res = 0;
+
+    
+    while (queue.length) {
+        const arr = queue.shift();
+        const tmpId = arr[0], val = arr[1];
+        if (!g.has(tmpId)) {
+            
+            res = Math.max(res, val);
+        } else {
+            
+            for (const ne of g.get(tmpId)) {
+                queue.push([ne, val + informTime[tmpId]]);
+            }
+        }
+    }
+    return res;
+}

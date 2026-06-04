@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int minimumSum(vector<vector<int>>& grid) {\n        \n    }\n};"

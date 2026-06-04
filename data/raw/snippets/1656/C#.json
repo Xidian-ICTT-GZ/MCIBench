@@ -1,1 +1,0 @@
-"public class OrderedStream {\n\n    public OrderedStream(int n) {\n        \n    }\n    \n    public IList<string> Insert(int idKey, string value) {\n        \n    }\n}\n\n/**\n * Your OrderedStream object will be instantiated and called as such:\n * OrderedStream obj = new OrderedStream(n);\n * IList<string> param_1 = obj.Insert(idKey,value);\n */"

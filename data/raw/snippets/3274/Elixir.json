@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec check_two_chessboards(coordinate1 :: String.t, coordinate2 :: String.t) :: boolean\n  def check_two_chessboards(coordinate1, coordinate2) do\n    \n  end\nend"

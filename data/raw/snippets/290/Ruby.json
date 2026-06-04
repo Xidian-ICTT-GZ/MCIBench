@@ -1,1 +1,0 @@
-"# @param {String} pattern\n# @param {String} s\n# @return {Boolean}\ndef word_pattern(pattern, s)\n    \nend"

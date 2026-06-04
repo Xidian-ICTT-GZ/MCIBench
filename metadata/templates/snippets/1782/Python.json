@@ -1,0 +1,1 @@
+"class Solution(object):\n    def countPairs(self, n, edges, queries):\n        \"\"\"\n        :type n: int\n        :type edges: List[List[int]]\n        :type queries: List[int]\n        :rtype: List[int]\n        \"\"\"\n        "

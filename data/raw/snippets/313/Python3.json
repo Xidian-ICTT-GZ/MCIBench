@@ -1,1 +1,0 @@
-"class Solution:\n    def nthSuperUglyNumber(self, n: int, primes: List[int]) -> int:\n        "

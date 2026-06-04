@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String[] $strs\n     * @return String[][]\n     */\n    function groupAnagrams($strs) {\n        \n    }\n}"

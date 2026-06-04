@@ -1,0 +1,1 @@
+"impl Solution {\n    pub fn find_itinerary(tickets: Vec<Vec<String>>) -> Vec<String> {\n        \n    }\n}"

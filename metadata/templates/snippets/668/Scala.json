@@ -1,0 +1,1 @@
+"object Solution {\n    def findKthNumber(m: Int, n: Int, k: Int): Int = {\n        \n    }\n}"

@@ -1,1 +1,0 @@
-"(define/contract (can-finish numCourses prerequisites)\n  (-> exact-integer? (listof (listof exact-integer?)) boolean?)\n  )"

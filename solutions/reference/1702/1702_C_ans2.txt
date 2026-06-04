@@ -1,0 +1,19 @@
+char* maximumBinaryString(char* binary) {
+    int n = strlen(binary);
+    int i;
+    for (i = 0; i < n && binary[i] != '0'; i++);
+    if (i == n) {
+        return binary;
+    }
+    char *s = malloc(n + 1);
+    int zeros = 0;
+    for (int j = 0; j < n; j++) {
+        s[j] = '1';
+        if (binary[j] == '0') {
+            zeros++;
+        }
+    }
+    s[i + zeros - 1] = '0';
+    s[n] = '\0';
+    return s;
+}

@@ -1,0 +1,1 @@
+"-spec hamming_weight(N :: integer()) -> integer().\nhamming_weight(N) ->\n  ."

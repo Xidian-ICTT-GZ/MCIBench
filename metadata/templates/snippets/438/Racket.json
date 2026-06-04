@@ -1,0 +1,1 @@
+"(define/contract (find-anagrams s p)\n  (-> string? string? (listof exact-integer?))\n  )"

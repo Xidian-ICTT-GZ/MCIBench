@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $tasks\n     * @param Integer $sessionTime\n     * @return Integer\n     */\n    function minSessions($tasks, $sessionTime) {\n        \n    }\n}"

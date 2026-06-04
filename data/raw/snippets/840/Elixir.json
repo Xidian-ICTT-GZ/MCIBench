@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec num_magic_squares_inside(grid :: [[integer]]) :: integer\n  def num_magic_squares_inside(grid) do\n    \n  end\nend"

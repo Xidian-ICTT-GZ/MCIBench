@@ -1,1 +1,0 @@
-"# @param {String[]} words\n# @param {Integer} left\n# @param {Integer} right\n# @return {Integer}\ndef vowel_strings(words, left, right)\n    \nend"

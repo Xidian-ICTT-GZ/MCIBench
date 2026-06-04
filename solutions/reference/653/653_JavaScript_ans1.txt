@@ -1,0 +1,14 @@
+var findTarget = function(root, k) {
+    const set = new Set();
+    const helper = (root, k) => {
+        if (!root) {
+            return false;
+        }
+        if (set.has(k - root.val)) {
+            return true;
+        }
+        set.add(root.val);
+        return helper(root.left, k) || helper(root.right, k);
+    }
+    return helper(root, k);
+};

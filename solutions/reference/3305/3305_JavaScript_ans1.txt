@@ -1,0 +1,20 @@
+var countOfSubstrings = function(word, k) {
+    const vowels = new Set(['a', 'e', 'i', 'o', 'u']);
+    let n = word.length;
+    let res = 0;
+    for (let i = 0; i < n; i++) {
+        let occur = new Set();
+        let consonants = 0;
+        for (let j = i; j < n; j++) {
+            if (vowels.has(word[j])) {
+                occur.add(word[j]);
+            } else {
+                consonants++;
+            }
+            if (occur.size === 5 && consonants === k) {
+                res++;
+            }
+        }
+    }
+    return res;
+};

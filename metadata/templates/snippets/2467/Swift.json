@@ -1,0 +1,1 @@
+"class Solution {\n    func mostProfitablePath(_ edges: [[Int]], _ bob: Int, _ amount: [Int]) -> Int {\n        \n    }\n}"

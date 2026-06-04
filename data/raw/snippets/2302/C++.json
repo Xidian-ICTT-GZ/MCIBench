@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    long long countSubarrays(vector<int>& nums, long long k) {\n        \n    }\n};"

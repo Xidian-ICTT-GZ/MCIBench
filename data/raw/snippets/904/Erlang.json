@@ -1,1 +1,0 @@
-"-spec total_fruit(Fruits :: [integer()]) -> integer().\ntotal_fruit(Fruits) ->\n  ."

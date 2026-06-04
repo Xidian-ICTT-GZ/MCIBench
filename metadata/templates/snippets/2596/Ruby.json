@@ -1,0 +1,1 @@
+"# @param {Integer[][]} grid\n# @return {Boolean}\ndef check_valid_grid(grid)\n    \nend"

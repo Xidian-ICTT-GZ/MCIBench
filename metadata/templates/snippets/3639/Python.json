@@ -1,0 +1,1 @@
+"class Solution(object):\n    def minTime(self, s, order, k):\n        \"\"\"\n        :type s: str\n        :type order: List[int]\n        :type k: int\n        :rtype: int\n        \"\"\"\n        "

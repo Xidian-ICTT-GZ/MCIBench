@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[][] $grid\n     * @param Integer[] $queries\n     * @return Integer[]\n     */\n    function maxPoints($grid, $queries) {\n        \n    }\n}"

@@ -1,1 +1,0 @@
-"class Solution(object):\n    def minimumAddedCoins(self, coins, target):\n        \"\"\"\n        :type coins: List[int]\n        :type target: int\n        :rtype: int\n        \"\"\"\n        "

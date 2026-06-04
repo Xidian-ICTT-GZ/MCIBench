@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec find_the_city(n :: integer, edges :: [[integer]], distance_threshold :: integer) :: integer\n  def find_the_city(n, edges, distance_threshold) do\n    \n  end\nend"

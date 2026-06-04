@@ -1,0 +1,1 @@
+"(define/contract (array-change nums operations)\n  (-> (listof exact-integer?) (listof (listof exact-integer?)) (listof exact-integer?))\n  )"

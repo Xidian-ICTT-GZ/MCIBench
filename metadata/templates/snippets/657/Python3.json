@@ -1,0 +1,1 @@
+"class Solution:\n    def judgeCircle(self, moves: str) -> bool:\n        "

@@ -1,1 +1,0 @@
-"impl Solution {\n    pub fn pyramid_transition(bottom: String, allowed: Vec<String>) -> bool {\n        \n    }\n}"

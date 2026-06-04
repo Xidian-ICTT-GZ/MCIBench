@@ -1,1 +1,0 @@
-"class Solution(object):\n    def minimumWeight(self, n, edges, src1, src2, dest):\n        \"\"\"\n        :type n: int\n        :type edges: List[List[int]]\n        :type src1: int\n        :type src2: int\n        :type dest: int\n        :rtype: int\n        \"\"\"\n        "

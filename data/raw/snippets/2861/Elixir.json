@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec max_number_of_alloys(n :: integer, k :: integer, budget :: integer, composition :: [[integer]], stock :: [integer], cost :: [integer]) :: integer\n  def max_number_of_alloys(n, k, budget, composition, stock, cost) do\n    \n  end\nend"

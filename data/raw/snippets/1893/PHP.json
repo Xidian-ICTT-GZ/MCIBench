@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[][] $ranges\n     * @param Integer $left\n     * @param Integer $right\n     * @return Boolean\n     */\n    function isCovered($ranges, $left, $right) {\n        \n    }\n}"

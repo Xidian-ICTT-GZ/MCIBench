@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int wordCount(vector<string>& startWords, vector<string>& targetWords) {\n        \n    }\n};"

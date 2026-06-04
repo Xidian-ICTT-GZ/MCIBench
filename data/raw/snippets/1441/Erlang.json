@@ -1,1 +1,0 @@
-"-spec build_array(Target :: [integer()], N :: integer()) -> [unicode:unicode_binary()].\nbuild_array(Target, N) ->\n  ."

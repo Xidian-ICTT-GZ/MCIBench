@@ -1,1 +1,0 @@
-"(define/contract (has-increasing-subarrays nums k)\n  (-> (listof exact-integer?) exact-integer? boolean?)\n  )"

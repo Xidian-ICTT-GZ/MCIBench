@@ -1,0 +1,1 @@
+"# @param {String} s\n# @param {Integer} t\n# @return {Integer}\ndef length_after_transformations(s, t)\n    \nend"

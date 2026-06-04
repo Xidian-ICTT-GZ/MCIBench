@@ -1,0 +1,12 @@
+func numJewelsInStones(jewels string, stones string) int {
+    jewelsCount := 0
+    for _, s := range stones {
+        for _, j := range jewels {
+            if s == j {
+                jewelsCount++
+                break
+            }
+        }
+    }
+    return jewelsCount
+}

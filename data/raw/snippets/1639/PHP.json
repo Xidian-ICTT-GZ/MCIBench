@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String[] $words\n     * @param String $target\n     * @return Integer\n     */\n    function numWays($words, $target) {\n        \n    }\n}"

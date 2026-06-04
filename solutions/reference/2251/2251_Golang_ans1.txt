@@ -1,0 +1,32 @@
+func fullBloomFlowers(flowers [][]int, people []int) []int {
+    cnt := make(map[int]int)
+    for _, flower := range flowers {
+        cnt[flower[0]] += 1
+        cnt[flower[1] + 1] -= 1
+    }
+    
+    arr := [][]int{}
+    indices := [][]int{}
+    for key, val := range cnt {
+        arr = append(arr, []int{key, val})
+    }
+    for i, p := range people {
+        indices = append(indices, []int{p, i})
+    }
+    sort.Slice(arr, func(i, j int) bool {
+        return arr[i][0] < arr[j][0]
+    })
+    sort.Slice(indices, func(i, j int) bool {
+        return indices[i][0] < indices[j][0]
+    })
+    j, curr := 0, 0
+    ans := make([]int, len(people))
+    for _, p := range indices {
+        for j < len(arr) && arr[j][0] <= p[0] {
+            curr += arr[j][1]
+            j += 1
+        }
+        ans[p[1]] = curr
+    }
+    return ans
+}

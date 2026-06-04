@@ -1,0 +1,1 @@
+"# @param {Integer} steps\n# @param {Integer} arr_len\n# @return {Integer}\ndef num_ways(steps, arr_len)\n    \nend"

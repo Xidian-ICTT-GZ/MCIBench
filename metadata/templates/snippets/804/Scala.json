@@ -1,0 +1,1 @@
+"object Solution {\n    def uniqueMorseRepresentations(words: Array[String]): Int = {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"(define/contract (min-patches nums n)\n  (-> (listof exact-integer?) exact-integer? exact-integer?)\n  )"

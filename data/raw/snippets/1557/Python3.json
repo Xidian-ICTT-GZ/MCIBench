@@ -1,1 +1,0 @@
-"class Solution:\n    def findSmallestSetOfVertices(self, n: int, edges: List[List[int]]) -> List[int]:\n        "

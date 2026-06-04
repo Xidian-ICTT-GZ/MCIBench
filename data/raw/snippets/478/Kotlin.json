@@ -1,1 +1,0 @@
-"class Solution(radius: Double, x_center: Double, y_center: Double) {\n\n    fun randPoint(): DoubleArray {\n        \n    }\n\n}\n\n/**\n * Your Solution object will be instantiated and called as such:\n * var obj = Solution(radius, x_center, y_center)\n * var param_1 = obj.randPoint()\n */"

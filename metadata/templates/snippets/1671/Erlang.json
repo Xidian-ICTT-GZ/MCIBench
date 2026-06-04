@@ -1,0 +1,1 @@
+"-spec minimum_mountain_removals(Nums :: [integer()]) -> integer().\nminimum_mountain_removals(Nums) ->\n  ."

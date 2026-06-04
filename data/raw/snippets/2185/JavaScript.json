@@ -1,1 +1,0 @@
-"/**\n * @param {string[]} words\n * @param {string} pref\n * @return {number}\n */\nvar prefixCount = function(words, pref) {\n    \n};"

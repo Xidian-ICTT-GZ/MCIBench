@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec arrange_coins(n :: integer) :: integer\n  def arrange_coins(n) do\n    \n  end\nend"

@@ -1,1 +1,0 @@
-"# @param {Integer[]} nums\n# @param {Integer[]} and_values\n# @return {Integer}\ndef minimum_value_sum(nums, and_values)\n    \nend"

@@ -1,1 +1,0 @@
-"-spec maximum_profit(Prices :: [integer()], K :: integer()) -> integer().\nmaximum_profit(Prices, K) ->\n  ."

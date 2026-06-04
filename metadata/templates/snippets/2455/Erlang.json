@@ -1,0 +1,1 @@
+"-spec average_value(Nums :: [integer()]) -> integer().\naverage_value(Nums) ->\n  ."

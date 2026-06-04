@@ -1,0 +1,1 @@
+"class Solution {\n    fun criticalConnections(n: Int, connections: List<List<Int>>): List<List<Int>> {\n        \n    }\n}"

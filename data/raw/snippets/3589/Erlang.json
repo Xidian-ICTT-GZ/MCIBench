@@ -1,1 +1,0 @@
-"-spec prime_subarray(Nums :: [integer()], K :: integer()) -> integer().\nprime_subarray(Nums, K) ->\n  ."

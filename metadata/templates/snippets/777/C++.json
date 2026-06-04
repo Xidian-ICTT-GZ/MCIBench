@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    bool canTransform(string start, string result) {\n        \n    }\n};"

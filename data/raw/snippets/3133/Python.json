@@ -1,1 +1,0 @@
-"class Solution(object):\n    def minEnd(self, n, x):\n        \"\"\"\n        :type n: int\n        :type x: int\n        :rtype: int\n        \"\"\"\n        "

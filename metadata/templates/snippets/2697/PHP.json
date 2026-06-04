@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $s\n     * @return String\n     */\n    function makeSmallestPalindrome($s) {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"-spec odd_even_jumps(Arr :: [integer()]) -> integer().\nodd_even_jumps(Arr) ->\n  ."

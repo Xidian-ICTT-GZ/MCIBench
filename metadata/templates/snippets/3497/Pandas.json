@@ -1,0 +1,1 @@
+"import pandas as pd\n\ndef analyze_subscription_conversion(user_activity: pd.DataFrame) -> pd.DataFrame:\n    "

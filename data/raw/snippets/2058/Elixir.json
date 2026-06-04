@@ -1,1 +1,0 @@
-"# Definition for singly-linked list.\n#\n# defmodule ListNode do\n#   @type t :: %__MODULE__{\n#           val: integer,\n#           next: ListNode.t() | nil\n#         }\n#   defstruct val: 0, next: nil\n# end\n\ndefmodule Solution do\n  @spec nodes_between_critical_points(head :: ListNode.t | nil) :: [integer]\n  def nodes_between_critical_points(head) do\n    \n  end\nend"

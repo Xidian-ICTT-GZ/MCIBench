@@ -1,0 +1,19 @@
+public class Solution {
+    public int CountTriplets(int[] nums) {
+        int[] cnt = new int[1 << 16];
+        foreach (int x in nums) {
+            foreach (int y in nums) {
+                ++cnt[x & y];
+            }
+        }
+        int ans = 0;
+        foreach (int x in nums) {
+            int y = x ^ 0xffff;
+            for (int sub = y; sub != 0; sub = (sub - 1) & y) {
+                ans += cnt[sub];
+            }
+            ans += cnt[0];
+        }
+        return ans;
+    }
+}

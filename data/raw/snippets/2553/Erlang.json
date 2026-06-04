@@ -1,1 +1,0 @@
-"-spec separate_digits(Nums :: [integer()]) -> [integer()].\nseparate_digits(Nums) ->\n  ."

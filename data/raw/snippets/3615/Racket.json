@@ -1,1 +1,0 @@
-"(define/contract (max-len n edges label)\n  (-> exact-integer? (listof (listof exact-integer?)) string? exact-integer?)\n  )"

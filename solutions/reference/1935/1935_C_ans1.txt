@@ -1,0 +1,25 @@
+int canBeTypedWords(char* text, char* brokenLetters) {
+    bool broken[26] = {false};   
+    for (int i = 0; brokenLetters[i]; i++) {
+        broken[brokenLetters[i] - 'a'] = true;
+    }
+    int res = 0;   
+    bool flag = true;   
+    for (int i = 0; text[i]; i++) {
+        if (text[i] == ' ') {
+            
+            if (flag) {
+                ++res;
+            }
+            flag = true;
+        } else if (broken[text[i] - 'a']) {
+            
+            flag = false;
+        }
+    }
+    
+    if (flag) {
+        ++res;
+    }
+    return res;
+}

@@ -1,1 +1,0 @@
-"class Solution:\n    def maxTrailingZeros(self, grid: List[List[int]]) -> int:\n        "

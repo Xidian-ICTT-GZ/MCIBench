@@ -1,1 +1,0 @@
-"type Solution struct {\n    \n}\n\n\nfunc Constructor(rects [][]int) Solution {\n    \n}\n\n\nfunc (this *Solution) Pick() []int {\n    \n}\n\n\n/**\n * Your Solution object will be instantiated and called as such:\n * obj := Constructor(rects);\n * param_1 := obj.Pick();\n */"

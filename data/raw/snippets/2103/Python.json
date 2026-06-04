@@ -1,1 +1,0 @@
-"class Solution(object):\n    def countPoints(self, rings):\n        \"\"\"\n        :type rings: str\n        :rtype: int\n        \"\"\"\n        "

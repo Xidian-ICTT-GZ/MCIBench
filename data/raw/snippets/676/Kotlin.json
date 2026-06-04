@@ -1,1 +1,0 @@
-"class MagicDictionary() {\n\n    fun buildDict(dictionary: Array<String>) {\n        \n    }\n\n    fun search(searchWord: String): Boolean {\n        \n    }\n\n}\n\n/**\n * Your MagicDictionary object will be instantiated and called as such:\n * var obj = MagicDictionary()\n * obj.buildDict(dictionary)\n * var param_2 = obj.search(searchWord)\n */"

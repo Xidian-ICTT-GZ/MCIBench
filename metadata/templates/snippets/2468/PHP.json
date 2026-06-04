@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $message\n     * @param Integer $limit\n     * @return String[]\n     */\n    function splitMessage($message, $limit) {\n        \n    }\n}"

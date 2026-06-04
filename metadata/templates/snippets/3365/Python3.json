@@ -1,0 +1,1 @@
+"class Solution:\n    def isPossibleToRearrange(self, s: str, t: str, k: int) -> bool:\n        "

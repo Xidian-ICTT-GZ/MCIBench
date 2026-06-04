@@ -1,1 +1,0 @@
-"type LUPrefix struct {\n    \n}\n\n\nfunc Constructor(n int) LUPrefix {\n    \n}\n\n\nfunc (this *LUPrefix) Upload(video int)  {\n    \n}\n\n\nfunc (this *LUPrefix) Longest() int {\n    \n}\n\n\n/**\n * Your LUPrefix object will be instantiated and called as such:\n * obj := Constructor(n);\n * obj.Upload(video);\n * param_2 := obj.Longest();\n */"

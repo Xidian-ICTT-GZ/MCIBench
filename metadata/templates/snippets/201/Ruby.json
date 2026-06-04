@@ -1,0 +1,1 @@
+"# @param {Integer} left\n# @param {Integer} right\n# @return {Integer}\ndef range_bitwise_and(left, right)\n    \nend"

@@ -1,0 +1,1 @@
+"import pandas as pd\n\ndef get_average_time(activity: pd.DataFrame) -> pd.DataFrame:\n    "

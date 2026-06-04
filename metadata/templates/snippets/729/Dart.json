@@ -1,0 +1,1 @@
+"class MyCalendar {\n\n  MyCalendar() {\n    \n  }\n  \n  bool book(int startTime, int endTime) {\n    \n  }\n}\n\n/**\n * Your MyCalendar object will be instantiated and called as such:\n * MyCalendar obj = MyCalendar();\n * bool param1 = obj.book(startTime,endTime);\n */"

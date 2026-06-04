@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String[][] $maze\n     * @param Integer[] $entrance\n     * @return Integer\n     */\n    function nearestExit($maze, $entrance) {\n        \n    }\n}"

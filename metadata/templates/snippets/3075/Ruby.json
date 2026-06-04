@@ -1,0 +1,1 @@
+"# @param {Integer[]} happiness\n# @param {Integer} k\n# @return {Integer}\ndef maximum_happiness_sum(happiness, k)\n    \nend"

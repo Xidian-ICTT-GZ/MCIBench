@@ -1,0 +1,1 @@
+"# @param {String[]} source\n# @return {String[]}\ndef remove_comments(source)\n    \nend"

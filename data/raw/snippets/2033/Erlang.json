@@ -1,1 +1,0 @@
-"-spec min_operations(Grid :: [[integer()]], X :: integer()) -> integer().\nmin_operations(Grid, X) ->\n  ."

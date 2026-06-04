@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec k_mirror(k :: integer, n :: integer) :: integer\n  def k_mirror(k, n) do\n    \n  end\nend"

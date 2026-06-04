@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec distance_limited_paths_exist(n :: integer, edge_list :: [[integer]], queries :: [[integer]]) :: [boolean]\n  def distance_limited_paths_exist(n, edge_list, queries) do\n    \n  end\nend"

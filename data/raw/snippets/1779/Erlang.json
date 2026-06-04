@@ -1,1 +1,0 @@
-"-spec nearest_valid_point(X :: integer(), Y :: integer(), Points :: [[integer()]]) -> integer().\nnearest_valid_point(X, Y, Points) ->\n  ."

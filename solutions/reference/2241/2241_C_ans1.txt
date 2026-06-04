@@ -1,0 +1,48 @@
+typedef struct {
+    long long cnt[5];   
+    long long value[5]; 
+} ATM;
+
+ATM* aTMCreate() {
+    ATM *atm = (ATM *)malloc(sizeof(ATM));
+    memset(atm, 0, sizeof(ATM));
+    atm->value[0] = 20;
+    atm->value[1] = 50;
+    atm->value[2] = 100;
+    atm->value[3] = 200;
+    atm->value[4] = 500;
+    return atm;
+}
+
+void aTMDeposit(ATM* obj, int* banknotesCount, int banknotesCountSize) {
+    for (int i = 0; i < 5; ++i) {
+        obj->cnt[i] += banknotesCount[i];
+    }
+}
+
+int* aTMWithdraw(ATM* obj, int amount, int* retSize) {
+    int *res = malloc(sizeof(int) * 5);
+    *retSize = 5;
+    
+    for (int i = 4; i >= 0; --i) {
+        res[i] = fmin(obj->cnt[i], amount / obj->value[i]);
+        amount -= res[i] * obj->value[i];
+    }
+    if (amount) {
+        
+        res = malloc(sizeof(int));
+        *retSize = 1;
+        res[0] = -1;
+        return res;
+    } else {
+        
+        for (int i = 0; i < 5; ++i) {
+            obj->cnt[i] -= res[i];
+        }
+        return res;
+    }
+}
+
+void aTMFree(ATM* obj) {
+    free(obj);
+}

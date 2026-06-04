@@ -1,0 +1,1 @@
+"class Solution {\n    fun longestValidSubstring(word: String, forbidden: List<String>): Int {\n        \n    }\n}"

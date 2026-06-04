@@ -1,1 +1,0 @@
-"-spec grid_illumination(N :: integer(), Lamps :: [[integer()]], Queries :: [[integer()]]) -> [integer()].\ngrid_illumination(N, Lamps, Queries) ->\n  ."

@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[][] $board\n     * @return Integer\n     */\n    function movesToChessboard($board) {\n        \n    }\n}"

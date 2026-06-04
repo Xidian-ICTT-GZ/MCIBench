@@ -1,0 +1,1 @@
+"class Solution:\n    def longestSemiRepetitiveSubstring(self, s: str) -> int:\n        "

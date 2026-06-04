@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<vector<char>> updateBoard(vector<vector<char>>& board, vector<int>& click) {\n        \n    }\n};"

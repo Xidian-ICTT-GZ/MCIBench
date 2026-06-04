@@ -1,1 +1,0 @@
-"-spec button_with_longest_time(Events :: [[integer()]]) -> integer().\nbutton_with_longest_time(Events) ->\n  ."

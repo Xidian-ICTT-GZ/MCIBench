@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer $key\n     * @param Integer $k\n     * @return Integer[]\n     */\n    function findKDistantIndices($nums, $key, $k) {\n        \n    }\n}"

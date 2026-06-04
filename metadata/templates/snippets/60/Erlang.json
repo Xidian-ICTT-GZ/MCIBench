@@ -1,0 +1,1 @@
+"-spec get_permutation(N :: integer(), K :: integer()) -> unicode:unicode_binary().\nget_permutation(N, K) ->\n  ."

@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    int closestCost(vector<int>& baseCosts, vector<int>& toppingCosts, int target) {\n        \n    }\n};"

@@ -1,0 +1,25 @@
+int* shortestDistanceAfterQueries(int n, int** queries, int queriesSize,
+                                  int* queriesColSize, int* returnSize) {
+    int* roads = (int*)malloc(n * sizeof(int));
+    for (int i = 0; i < n; i++) {
+        roads[i] = i + 1;
+    }
+    int* res = (int*)malloc(queriesSize * sizeof(int));
+    *returnSize = queriesSize;
+    int dist = n - 1;
+    for (int i = 0; i < queriesSize; i++) {
+        int k = roads[queries[i][0]];
+        while (k != -1 && k < queries[i][1]) {
+            if (k < queries[i][1]) {
+                roads[queries[i][0]] = queries[i][1];
+            }
+            int t = roads[k];
+            roads[k] = -1;
+            k = t;
+            dist--;
+        }
+        res[i] = dist;
+    }
+    free(roads);
+    return res;
+}

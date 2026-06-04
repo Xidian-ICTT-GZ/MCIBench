@@ -1,1 +1,0 @@
-"-spec latest_day_to_cross(Row :: integer(), Col :: integer(), Cells :: [[integer()]]) -> integer().\nlatest_day_to_cross(Row, Col, Cells) ->\n  ."

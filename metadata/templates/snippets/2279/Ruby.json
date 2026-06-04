@@ -1,0 +1,1 @@
+"# @param {Integer[]} capacity\n# @param {Integer[]} rocks\n# @param {Integer} additional_rocks\n# @return {Integer}\ndef maximum_bags(capacity, rocks, additional_rocks)\n    \nend"

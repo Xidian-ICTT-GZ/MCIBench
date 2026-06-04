@@ -1,1 +1,0 @@
-"(define/contract (sort-jumbled mapping nums)\n  (-> (listof exact-integer?) (listof exact-integer?) (listof exact-integer?))\n  )"

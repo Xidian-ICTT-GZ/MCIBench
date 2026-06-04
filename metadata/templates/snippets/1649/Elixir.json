@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec create_sorted_array(instructions :: [integer]) :: integer\n  def create_sorted_array(instructions) do\n    \n  end\nend"

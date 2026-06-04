@@ -1,1 +1,0 @@
-"(define/contract (get-ancestors n edges)\n  (-> exact-integer? (listof (listof exact-integer?)) (listof (listof exact-integer?)))\n  )"

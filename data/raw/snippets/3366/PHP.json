@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer $k\n     * @param Integer $op1\n     * @param Integer $op2\n     * @return Integer\n     */\n    function minArraySum($nums, $k, $op1, $op2) {\n        \n    }\n}"

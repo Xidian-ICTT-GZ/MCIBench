@@ -1,1 +1,0 @@
-"-spec remove_boxes(Boxes :: [integer()]) -> integer().\nremove_boxes(Boxes) ->\n  ."

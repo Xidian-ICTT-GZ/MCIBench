@@ -1,0 +1,1 @@
+"# @param {String} s\n# @param {Character} c\n# @return {Integer[]}\ndef shortest_to_char(s, c)\n    \nend"

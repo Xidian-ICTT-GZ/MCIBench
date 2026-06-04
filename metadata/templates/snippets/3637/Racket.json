@@ -1,0 +1,1 @@
+"(define/contract (is-trionic nums)\n  (-> (listof exact-integer?) boolean?)\n  )"

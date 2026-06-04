@@ -1,1 +1,0 @@
-"-spec special_grid(N :: integer()) -> [[integer()]].\nspecial_grid(N) ->\n  ."

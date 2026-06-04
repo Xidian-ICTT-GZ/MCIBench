@@ -1,0 +1,1 @@
+"# @param {Integer[]} commands\n# @param {Integer[][]} obstacles\n# @return {Integer}\ndef robot_sim(commands, obstacles)\n    \nend"

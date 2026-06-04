@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} order\n * @param {number[]} friends\n * @return {number[]}\n */\nvar recoverOrder = function(order, friends) {\n    \n};"

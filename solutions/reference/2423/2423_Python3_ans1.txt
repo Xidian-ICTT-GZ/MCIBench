@@ -1,0 +1,13 @@
+class Solution:
+    def equalFrequency(self, word: str) -> bool:
+        charCount = [0] * 26
+        for c in word:
+            charCount[ord(c) - ord('a')] += 1
+        for i in range(26):
+            if charCount[i] == 0: continue
+            charCount[i] -= 1
+            frequency = set(f for f in charCount if f > 0)
+            if len(frequency) == 1:
+                return True
+            charCount[i] += 1
+        return False

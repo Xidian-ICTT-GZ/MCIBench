@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec remove_occurrences(s :: String.t, part :: String.t) :: String.t\n  def remove_occurrences(s, part) do\n    \n  end\nend"

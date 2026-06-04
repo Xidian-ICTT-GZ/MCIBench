@@ -1,1 +1,0 @@
-"# @param {String} start\n# @param {String} target\n# @return {Boolean}\ndef can_change(start, target)\n    \nend"

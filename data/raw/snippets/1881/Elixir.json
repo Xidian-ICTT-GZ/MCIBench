@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec max_value(n :: String.t, x :: integer) :: String.t\n  def max_value(n, x) do\n    \n  end\nend"

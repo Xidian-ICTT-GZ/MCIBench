@@ -1,0 +1,1 @@
+"class Solution(object):\n    def profitableSchemes(self, n, minProfit, group, profit):\n        \"\"\"\n        :type n: int\n        :type minProfit: int\n        :type group: List[int]\n        :type profit: List[int]\n        :rtype: int\n        \"\"\"\n        "

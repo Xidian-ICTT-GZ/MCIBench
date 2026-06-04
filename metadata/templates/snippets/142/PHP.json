@@ -1,0 +1,1 @@
+"/**\n * Definition for a singly-linked list.\n * class ListNode {\n *     public $val = 0;\n *     public $next = null;\n *     function __construct($val) { $this->val = $val; }\n * }\n */\n\nclass Solution {\n    /**\n     * @param ListNode $head\n     * @return ListNode\n     */\n    function detectCycle($head) {\n        \n    }\n}"

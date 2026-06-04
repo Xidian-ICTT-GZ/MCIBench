@@ -1,1 +1,0 @@
-"-spec parse_bool_expr(Expression :: unicode:unicode_binary()) -> boolean().\nparse_bool_expr(Expression) ->\n  ."

@@ -1,1 +1,0 @@
-"-spec is_rectangle_overlap(Rec1 :: [integer()], Rec2 :: [integer()]) -> boolean().\nis_rectangle_overlap(Rec1, Rec2) ->\n  ."

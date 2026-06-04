@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec seconds_to_remove_occurrences(s :: String.t) :: integer\n  def seconds_to_remove_occurrences(s) do\n    \n  end\nend"

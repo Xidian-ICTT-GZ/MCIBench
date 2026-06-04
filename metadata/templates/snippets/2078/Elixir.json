@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec max_distance(colors :: [integer]) :: integer\n  def max_distance(colors) do\n    \n  end\nend"

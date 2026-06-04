@@ -1,0 +1,1 @@
+"/**\n * @param {string} s\n * @param {string} chars\n * @param {number[]} vals\n * @return {number}\n */\nvar maximumCostSubstring = function(s, chars, vals) {\n    \n};"

@@ -1,1 +1,0 @@
-"-spec constrained_subset_sum(Nums :: [integer()], K :: integer()) -> integer().\nconstrained_subset_sum(Nums, K) ->\n  ."

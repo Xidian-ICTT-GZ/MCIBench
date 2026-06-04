@@ -1,1 +1,0 @@
-"class Solution(object):\n    def countNumbers(self, l, r, b):\n        \"\"\"\n        :type l: str\n        :type r: str\n        :type b: int\n        :rtype: int\n        \"\"\"\n        "

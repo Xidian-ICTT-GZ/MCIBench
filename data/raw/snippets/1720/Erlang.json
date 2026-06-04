@@ -1,1 +1,0 @@
-"-spec decode(Encoded :: [integer()], First :: integer()) -> [integer()].\ndecode(Encoded, First) ->\n  ."

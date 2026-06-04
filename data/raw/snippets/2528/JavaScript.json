@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} stations\n * @param {number} r\n * @param {number} k\n * @return {number}\n */\nvar maxPower = function(stations, r, k) {\n    \n};"

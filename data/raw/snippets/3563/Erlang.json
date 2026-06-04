@@ -1,1 +1,0 @@
-"-spec lexicographically_smallest_string(S :: unicode:unicode_binary()) -> unicode:unicode_binary().\nlexicographically_smallest_string(S) ->\n  ."

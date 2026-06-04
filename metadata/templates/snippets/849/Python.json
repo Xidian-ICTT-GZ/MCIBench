@@ -1,0 +1,1 @@
+"class Solution(object):\n    def maxDistToClosest(self, seats):\n        \"\"\"\n        :type seats: List[int]\n        :rtype: int\n        \"\"\"\n        "

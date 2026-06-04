@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec find_products_of_elements(queries :: [[integer]]) :: [integer]\n  def find_products_of_elements(queries) do\n    \n  end\nend"

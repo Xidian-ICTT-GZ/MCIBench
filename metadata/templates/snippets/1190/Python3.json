@@ -1,0 +1,1 @@
+"class Solution:\n    def reverseParentheses(self, s: str) -> str:\n        "

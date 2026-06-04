@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $s\n     * @param String $goal\n     * @return Boolean\n     */\n    function rotateString($s, $goal) {\n        \n    }\n}"

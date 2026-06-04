@@ -1,0 +1,1 @@
+"# @param {String} caption\n# @return {String}\ndef generate_tag(caption)\n    \nend"

@@ -1,1 +1,0 @@
-"object Solution {\n    def getCollisionTimes(cars: Array[Array[Int]]): Array[Double] = {\n        \n    }\n}"

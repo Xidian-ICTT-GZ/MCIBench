@@ -1,1 +1,0 @@
-"-spec range_bitwise_and(Left :: integer(), Right :: integer()) -> integer().\nrange_bitwise_and(Left, Right) ->\n  ."

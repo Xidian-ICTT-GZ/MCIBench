@@ -1,0 +1,1 @@
+"(define/contract (count-house-placements n)\n  (-> exact-integer? exact-integer?)\n  )"

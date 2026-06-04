@@ -1,1 +1,0 @@
-"class NumArray {\n    constructor(nums: number[]) {\n        \n    }\n\n    sumRange(left: number, right: number): number {\n        \n    }\n}\n\n/**\n * Your NumArray object will be instantiated and called as such:\n * var obj = new NumArray(nums)\n * var param_1 = obj.sumRange(left,right)\n */"

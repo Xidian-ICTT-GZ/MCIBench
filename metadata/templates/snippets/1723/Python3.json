@@ -1,0 +1,1 @@
+"class Solution:\n    def minimumTimeRequired(self, jobs: List[int], k: int) -> int:\n        "

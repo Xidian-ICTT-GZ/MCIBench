@@ -1,1 +1,0 @@
-"-spec find_substring_in_wrapround_string(S :: unicode:unicode_binary()) -> integer().\nfind_substring_in_wrapround_string(S) ->\n  ."

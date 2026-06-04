@@ -1,0 +1,1 @@
+"class Solution:\n    def flipgame(self, fronts: List[int], backs: List[int]) -> int:\n        "

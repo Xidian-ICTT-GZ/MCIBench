@@ -1,1 +1,0 @@
-"(define/contract (divisor-game n)\n  (-> exact-integer? boolean?)\n  )"

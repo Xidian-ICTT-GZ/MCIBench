@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<int> restoreArray(vector<vector<int>>& adjacentPairs) {\n        \n    }\n};"

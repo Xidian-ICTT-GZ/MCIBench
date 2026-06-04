@@ -1,0 +1,15 @@
+class Solution:
+    def paintWalls(self, cost: List[int], time: List[int]) -> int:
+        n = len(cost)
+        f = [inf] * (n * 2 + 1)
+        f[n] = 0
+        for (cost_i, time_i) in zip(cost, time):
+            g = [inf] * (n * 2 + 1)
+            for j in range(n * 2 + 1):
+                
+                g[min(j + time_i, n * 2)] = min(g[min(j + time_i, n * 2)], f[j] + cost_i)
+                
+                if j > 0:
+                    g[j - 1] = min(g[j - 1], f[j])
+            f = g
+        return min(f[n:])

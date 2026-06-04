@@ -1,0 +1,1 @@
+"class Solution(object):\n    def vowelStrings(self, words, queries):\n        \"\"\"\n        :type words: List[str]\n        :type queries: List[List[int]]\n        :rtype: List[int]\n        \"\"\"\n        "

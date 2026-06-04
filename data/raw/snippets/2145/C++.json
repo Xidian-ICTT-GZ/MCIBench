@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    int numberOfArrays(vector<int>& differences, int lower, int upper) {\n        \n    }\n};"

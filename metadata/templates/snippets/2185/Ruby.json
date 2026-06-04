@@ -1,0 +1,1 @@
+"# @param {String[]} words\n# @param {String} pref\n# @return {Integer}\ndef prefix_count(words, pref)\n    \nend"

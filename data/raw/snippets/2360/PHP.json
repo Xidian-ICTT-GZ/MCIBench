@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $edges\n     * @return Integer\n     */\n    function longestCycle($edges) {\n        \n    }\n}"

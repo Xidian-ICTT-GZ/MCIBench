@@ -1,0 +1,1 @@
+"class Solution {\n  bool isCovered(List<List<int>> ranges, int left, int right) {\n    \n  }\n}"

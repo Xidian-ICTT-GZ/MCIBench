@@ -1,1 +1,0 @@
-"object Solution {\n    def minCost(colors: String, neededTime: Array[Int]): Int = {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"/**\n * @param {number} n\n * @param {number} k\n * @return {number}\n */\nvar findKthNumber = function(n, k) {\n    \n};"

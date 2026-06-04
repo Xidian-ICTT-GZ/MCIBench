@@ -1,1 +1,0 @@
-"class Solution(object):\n    def numOfStrings(self, patterns, word):\n        \"\"\"\n        :type patterns: List[str]\n        :type word: str\n        :rtype: int\n        \"\"\"\n        "

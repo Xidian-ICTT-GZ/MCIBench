@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec push_dominoes(dominoes :: String.t) :: String.t\n  def push_dominoes(dominoes) do\n    \n  end\nend"

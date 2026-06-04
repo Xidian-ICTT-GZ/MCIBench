@@ -1,0 +1,1 @@
+"/**\n * @param {string} command\n * @return {string}\n */\nvar interpret = function(command) {\n    \n};"

@@ -1,1 +1,0 @@
-"-spec supersequences(Words :: [unicode:unicode_binary()]) -> [[integer()]].\nsupersequences(Words) ->\n  ."

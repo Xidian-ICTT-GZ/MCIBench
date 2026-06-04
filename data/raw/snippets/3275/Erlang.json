@@ -1,1 +1,0 @@
-"-spec results_array(Queries :: [[integer()]], K :: integer()) -> [integer()].\nresults_array(Queries, K) ->\n  ."

@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec num_of_burgers(tomato_slices :: integer, cheese_slices :: integer) :: [integer]\n  def num_of_burgers(tomato_slices, cheese_slices) do\n    \n  end\nend"

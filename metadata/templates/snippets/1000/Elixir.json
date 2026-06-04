@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec merge_stones(stones :: [integer], k :: integer) :: integer\n  def merge_stones(stones, k) do\n    \n  end\nend"

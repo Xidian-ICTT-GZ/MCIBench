@@ -1,0 +1,1 @@
+"(define/contract (min-characters a b)\n  (-> string? string? exact-integer?)\n  )"

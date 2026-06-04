@@ -1,1 +1,0 @@
-"-spec highest_ranked_k_items(Grid :: [[integer()]], Pricing :: [integer()], Start :: [integer()], K :: integer()) -> [[integer()]].\nhighest_ranked_k_items(Grid, Pricing, Start, K) ->\n  ."

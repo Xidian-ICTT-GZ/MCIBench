@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec peak_index_in_mountain_array(arr :: [integer]) :: integer\n  def peak_index_in_mountain_array(arr) do\n    \n  end\nend"

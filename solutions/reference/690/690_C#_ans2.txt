@@ -1,0 +1,21 @@
+class Solution {
+    public int GetImportance(IList<Employee> employees, int id) {
+        Dictionary<int, Employee> dictionary = new Dictionary<int, Employee>();
+        foreach (Employee employee in employees) {
+            dictionary.Add(employee.id, employee);
+        }
+        int total = 0;
+        Queue<int> queue = new Queue<int>();
+        queue.Enqueue(id);
+        while (queue.Count > 0) {
+            int curId = queue.Dequeue();
+            Employee employee = dictionary[curId];
+            total += employee.importance;
+            IList<int> subordinates = employee.subordinates;
+            foreach (int subId in subordinates) {
+                queue.Enqueue(subId);
+            }
+        }
+        return total;
+    }
+}

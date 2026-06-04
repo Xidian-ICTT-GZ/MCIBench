@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $tiles\n     * @param Integer $carpetLen\n     * @return Integer\n     */\n    function maximumWhiteTiles($tiles, $carpetLen) {\n        \n    }\n}"

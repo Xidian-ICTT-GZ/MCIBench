@@ -1,0 +1,21 @@
+class Solution:
+    def minFallingPathSum(self, grid: List[List[int]]) -> int:
+        first_min_sum, second_min_sum = 0, 0
+        first_min_index = -1
+        for i in range(len(grid)):
+            cur_first_min_sum, cur_second_min_sum = 10**9, 10**9
+            cur_first_min_index = -1
+            for j in range(len(grid)):
+                cur_sum = grid[i][j]
+                if j != first_min_index:
+                    cur_sum += first_min_sum
+                else:
+                    cur_sum += second_min_sum
+                if cur_sum < cur_first_min_sum:
+                    cur_second_min_sum, cur_first_min_sum = cur_first_min_sum, cur_sum
+                    cur_first_min_index = j
+                elif cur_sum < cur_second_min_sum:
+                    cur_second_min_sum = cur_sum
+            first_min_sum, second_min_sum = cur_first_min_sum, cur_second_min_sum
+            first_min_index = cur_first_min_index
+        return first_min_sum

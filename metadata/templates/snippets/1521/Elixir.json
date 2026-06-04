@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec closest_to_target(arr :: [integer], target :: integer) :: integer\n  def closest_to_target(arr, target) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"class Solution(object):\n    def maxStudents(self, seats):\n        \"\"\"\n        :type seats: List[List[str]]\n        :rtype: int\n        \"\"\"\n        "

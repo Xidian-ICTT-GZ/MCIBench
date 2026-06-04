@@ -1,1 +1,0 @@
-"(define/contract (convert-time current correct)\n  (-> string? string? exact-integer?)\n  )"

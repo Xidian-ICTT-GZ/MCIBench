@@ -1,1 +1,0 @@
-"class Solution:\n    def countOfSubstrings(self, word: str, k: int) -> int:\n        "

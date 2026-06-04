@@ -1,1 +1,0 @@
-"object Solution {\n    def isPrefixString(s: String, words: Array[String]): Boolean = {\n        \n    }\n}"

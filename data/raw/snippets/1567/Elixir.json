@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec get_max_len(nums :: [integer]) :: integer\n  def get_max_len(nums) do\n    \n  end\nend"

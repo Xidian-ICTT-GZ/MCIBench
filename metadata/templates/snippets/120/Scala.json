@@ -1,0 +1,1 @@
+"object Solution {\n    def minimumTotal(triangle: List[List[Int]]): Int = {\n        \n    }\n}"

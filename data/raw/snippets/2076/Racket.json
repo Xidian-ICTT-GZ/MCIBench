@@ -1,1 +1,0 @@
-"(define/contract (friend-requests n restrictions requests)\n  (-> exact-integer? (listof (listof exact-integer?)) (listof (listof exact-integer?)) (listof boolean?))\n  )"

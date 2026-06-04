@@ -1,0 +1,21 @@
+var countSubarrays = function(nums, minK, maxK) {
+    let res = 0;
+    let border = -1, last_min = -1, last_max = -1;
+    for (let i = 0; i < nums.length; i++) {
+        if (nums[i] < minK || nums[i] > maxK) {
+            last_max = -1;
+            last_min = -1;
+            border = i;
+        }
+        if (nums[i] === minK) {
+            last_min = i;
+        }
+        if (nums[i] === maxK) {
+            last_max = i;
+        }
+        if (last_min !== -1 && last_max !== -1) {
+            res += Math.min(last_min, last_max) - border;
+        }
+    }
+    return res;
+};

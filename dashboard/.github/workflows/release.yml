@@ -1,0 +1,101 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*' # Trigger on tags like v1.0.0
+
+permissions:
+  contents: write
+  packages: write
+
+jobs:
+  build-server:
+    name: Build Server
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        goos: [linux]
+        goarch: [amd64, arm64]
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.25'
+
+      - name: Build Binary
+        working-directory: packages/server
+        env:
+          GOOS: ${{ matrix.goos }}
+          GOARCH: ${{ matrix.goarch }}
+          CGO_ENABLED: 1 
+        run: |
+          go build -v -ldflags="-s -w" -o mcibench-server-${{ matrix.goos }}-${{ matrix.goarch }} ./cmd/server/main.go
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: server-${{ matrix.goos }}-${{ matrix.goarch }}
+          path: packages/server/mcibench-server-*
+
+  build-web:
+    name: Build Frontend
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        working-directory: packages/web
+        run: npm ci
+
+      - name: Build
+        working-directory: packages/web
+        run: npm run build-only
+
+      - name: Zip Dist
+        working-directory: packages/web
+        run: zip -r ../../dist.zip dist
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: frontend-dist
+          path: dist.zip
+
+  create-release:
+    name: Create Release
+    needs: [build-server, build-web]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        
+      - name: Download Server Artifacts
+        uses: actions/download-artifact@v4
+        with:
+          pattern: server-*
+          merge-multiple: true
+
+      - name: Download Frontend Artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: frontend-dist
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: |
+            mcibench-server-*
+            dist.zip
+          draft: false
+          prerelease: false
+          generate_release_notes: true

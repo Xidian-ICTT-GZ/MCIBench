@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec make_integer_beautiful(n :: integer, target :: integer) :: integer\n  def make_integer_beautiful(n, target) do\n    \n  end\nend"

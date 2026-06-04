@@ -1,1 +1,0 @@
-"(define/contract (most-popular-creator creators ids views)\n  (-> (listof string?) (listof string?) (listof exact-integer?) (listof (listof string?)))\n  )"

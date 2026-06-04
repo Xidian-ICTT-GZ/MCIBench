@@ -1,0 +1,1 @@
+"class Solution:\n    def score(self, cards: List[str], x: str) -> int:\n        "

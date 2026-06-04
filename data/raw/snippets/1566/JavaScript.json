@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} arr\n * @param {number} m\n * @param {number} k\n * @return {boolean}\n */\nvar containsPattern = function(arr, m, k) {\n    \n};"

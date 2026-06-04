@@ -1,1 +1,0 @@
-"-spec is_strictly_palindromic(N :: integer()) -> boolean().\nis_strictly_palindromic(N) ->\n  ."

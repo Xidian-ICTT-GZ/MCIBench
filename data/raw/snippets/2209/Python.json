@@ -1,1 +1,0 @@
-"class Solution(object):\n    def minimumWhiteTiles(self, floor, numCarpets, carpetLen):\n        \"\"\"\n        :type floor: str\n        :type numCarpets: int\n        :type carpetLen: int\n        :rtype: int\n        \"\"\"\n        "

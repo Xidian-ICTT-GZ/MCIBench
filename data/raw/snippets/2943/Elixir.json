@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec maximize_square_hole_area(n :: integer, m :: integer, h_bars :: [integer], v_bars :: [integer]) :: integer\n  def maximize_square_hole_area(n, m, h_bars, v_bars) do\n    \n  end\nend"

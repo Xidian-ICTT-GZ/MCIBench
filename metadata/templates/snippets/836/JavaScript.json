@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} rec1\n * @param {number[]} rec2\n * @return {boolean}\n */\nvar isRectangleOverlap = function(rec1, rec2) {\n    \n};"

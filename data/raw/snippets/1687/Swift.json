@@ -1,1 +1,0 @@
-"class Solution {\n    func boxDelivering(_ boxes: [[Int]], _ portsCount: Int, _ maxBoxes: Int, _ maxWeight: Int) -> Int {\n        \n    }\n}"

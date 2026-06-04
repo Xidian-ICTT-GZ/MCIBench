@@ -1,1 +1,0 @@
-"# @param {Integer[]} nums1\n# @param {Integer[]} nums2\n# @return {Float}\ndef find_median_sorted_arrays(nums1, nums2)\n    \nend"

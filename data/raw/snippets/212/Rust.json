@@ -1,1 +1,0 @@
-"impl Solution {\n    pub fn find_words(board: Vec<Vec<char>>, words: Vec<String>) -> Vec<String> {\n        \n    }\n}"

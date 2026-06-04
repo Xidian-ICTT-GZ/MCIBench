@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec count_components(nums :: [integer], threshold :: integer) :: integer\n  def count_components(nums, threshold) do\n    \n  end\nend"

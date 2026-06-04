@@ -1,0 +1,1 @@
+"class Solution:\n    def numberOfCombinations(self, num: str) -> int:\n        "

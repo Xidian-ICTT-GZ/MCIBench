@@ -1,1 +1,0 @@
-"class MyCalendarThree(object):\n\n    def __init__(self):\n        \n\n    def book(self, startTime, endTime):\n        \"\"\"\n        :type startTime: int\n        :type endTime: int\n        :rtype: int\n        \"\"\"\n        \n\n\n# Your MyCalendarThree object will be instantiated and called as such:\n# obj = MyCalendarThree()\n# param_1 = obj.book(startTime,endTime)"

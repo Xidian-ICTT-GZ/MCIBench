@@ -1,1 +1,0 @@
-"public class RecentCounter {\n\n    public RecentCounter() {\n        \n    }\n    \n    public int Ping(int t) {\n        \n    }\n}\n\n/**\n * Your RecentCounter object will be instantiated and called as such:\n * RecentCounter obj = new RecentCounter();\n * int param_1 = obj.Ping(t);\n */"

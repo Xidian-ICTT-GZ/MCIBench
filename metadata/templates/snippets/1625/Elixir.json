@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec find_lex_smallest_string(s :: String.t, a :: integer, b :: integer) :: String.t\n  def find_lex_smallest_string(s, a, b) do\n    \n  end\nend"

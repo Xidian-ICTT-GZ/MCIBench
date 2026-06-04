@@ -1,1 +1,0 @@
-"-spec min_cost(StartPos :: [integer()], HomePos :: [integer()], RowCosts :: [integer()], ColCosts :: [integer()]) -> integer().\nmin_cost(StartPos, HomePos, RowCosts, ColCosts) ->\n  ."

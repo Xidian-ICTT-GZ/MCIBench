@@ -1,0 +1,50 @@
+#include <math.h>
+#include <stdbool.h>
+#include <string.h>
+
+double getDist(int** positions, int positionsSize, double xc, double yc) {
+    double ans = 0;
+    for (int i = 0; i < positionsSize; i++) {
+        int* pos = positions[i];
+        ans += sqrt((pos[0] - xc) * (pos[0] - xc) + (pos[1] - yc) * (pos[1] - yc));
+    }
+    return ans;
+};
+
+const int dirs[4][2] = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
+
+double getMinDistSum(int** positions, int positionsSize, int* positionsColSize) {
+    double eps = 1e-7;
+    double step = 1;
+    double decay = 0.5;
+
+    int batchSize = positionsSize;
+
+    double x = 0.0, y = 0.0;
+    for (int i = 0; i < positionsSize; i++) {
+        int* pos = positions[i];
+        x += pos[0];
+        y += pos[1];
+    }
+    x /= positionsSize;
+    y /= positionsSize;
+
+    while (step > eps) {
+        bool modified = false;
+        for (int i = 0; i < 4; ++i) {
+            double xNext = x + step * dirs[i][0];
+            double yNext = y + step * dirs[i][1];
+            if (getDist(positions, positionsSize, xNext, yNext) < getDist(positions, positionsSize, x, y)) {
+                x = xNext;
+                y = yNext;
+                modified = true;
+                break;
+            }
+        }
+        if (!modified) {
+            step *= (1.0 - decay);
+        }
+    }
+
+    return getDist(positions, positionsSize, x, y);
+}

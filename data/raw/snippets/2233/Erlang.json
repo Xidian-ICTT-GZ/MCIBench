@@ -1,1 +1,0 @@
-"-spec maximum_product(Nums :: [integer()], K :: integer()) -> integer().\nmaximum_product(Nums, K) ->\n  ."

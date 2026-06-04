@@ -1,0 +1,1 @@
+"/**\n * @param {string[]} equations\n * @return {boolean}\n */\nvar equationsPossible = function(equations) {\n    \n};"

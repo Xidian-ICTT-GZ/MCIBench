@@ -1,1 +1,0 @@
-"-spec min_changes(S :: unicode:unicode_binary()) -> integer().\nmin_changes(S) ->\n  ."

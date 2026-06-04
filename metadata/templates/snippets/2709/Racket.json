@@ -1,0 +1,1 @@
+"(define/contract (can-traverse-all-pairs nums)\n  (-> (listof exact-integer?) boolean?)\n  )"

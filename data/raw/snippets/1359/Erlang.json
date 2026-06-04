@@ -1,1 +1,0 @@
-"-spec count_orders(N :: integer()) -> integer().\ncount_orders(N) ->\n  ."

@@ -1,0 +1,1 @@
+"class Solution {\n    func smallestSufficientTeam(req_skills: Array<String>, people: ArrayList<ArrayList<String>>): Array<Int64> {\n\n    }\n}"

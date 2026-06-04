@@ -1,1 +1,0 @@
-"(define/contract (max-substrings word)\n  (-> string? exact-integer?)\n  )"

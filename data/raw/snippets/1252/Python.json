@@ -1,1 +1,0 @@
-"class Solution(object):\n    def oddCells(self, m, n, indices):\n        \"\"\"\n        :type m: int\n        :type n: int\n        :type indices: List[List[int]]\n        :rtype: int\n        \"\"\"\n        "

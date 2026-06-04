@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String $s\n     * @param String $queryCharacters\n     * @param Integer[] $queryIndices\n     * @return Integer[]\n     */\n    function longestRepeating($s, $queryCharacters, $queryIndices) {\n        \n    }\n}"

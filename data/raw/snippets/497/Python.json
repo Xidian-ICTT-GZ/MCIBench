@@ -1,1 +1,0 @@
-"class Solution(object):\n\n    def __init__(self, rects):\n        \"\"\"\n        :type rects: List[List[int]]\n        \"\"\"\n        \n\n    def pick(self):\n        \"\"\"\n        :rtype: List[int]\n        \"\"\"\n        \n\n\n# Your Solution object will be instantiated and called as such:\n# obj = Solution(rects)\n# param_1 = obj.pick()"

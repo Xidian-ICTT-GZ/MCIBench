@@ -1,0 +1,12 @@
+class Solution {
+public:
+    int countTestedDevices(vector<int>& batteryPercentages) {
+        int need = 0;
+        for (int battery : batteryPercentages) {
+            if (battery > need) {
+                need++;
+            }
+        }
+        return need;
+    }
+};

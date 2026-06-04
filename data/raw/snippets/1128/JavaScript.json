@@ -1,1 +1,0 @@
-"/**\n * @param {number[][]} dominoes\n * @return {number}\n */\nvar numEquivDominoPairs = function(dominoes) {\n    \n};"

@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[][] $img1\n     * @param Integer[][] $img2\n     * @return Integer\n     */\n    function largestOverlap($img1, $img2) {\n        \n    }\n}"

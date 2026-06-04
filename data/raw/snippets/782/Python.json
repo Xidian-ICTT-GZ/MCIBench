@@ -1,1 +1,0 @@
-"class Solution(object):\n    def movesToChessboard(self, board):\n        \"\"\"\n        :type board: List[List[int]]\n        :rtype: int\n        \"\"\"\n        "

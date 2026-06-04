@@ -1,1 +1,0 @@
-"# @param {String[]} transactions\n# @return {String[]}\ndef invalid_transactions(transactions)\n    \nend"

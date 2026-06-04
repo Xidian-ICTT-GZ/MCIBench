@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec basic_calculator_iv(expression :: String.t, evalvars :: [String.t], evalints :: [integer]) :: [String.t]\n  def basic_calculator_iv(expression, evalvars, evalints) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $startGene\n     * @param String $endGene\n     * @param String[] $bank\n     * @return Integer\n     */\n    function minMutation($startGene, $endGene, $bank) {\n        \n    }\n}"

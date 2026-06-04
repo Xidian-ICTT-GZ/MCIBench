@@ -1,1 +1,0 @@
-"/**\n * @param {number} celsius\n * @return {number[]}\n */\nvar convertTemperature = function(celsius) {\n    \n};"

@@ -1,1 +1,0 @@
-"class Solution(object):\n    def checkPalindromeFormation(self, a, b):\n        \"\"\"\n        :type a: str\n        :type b: str\n        :rtype: bool\n        \"\"\"\n        "

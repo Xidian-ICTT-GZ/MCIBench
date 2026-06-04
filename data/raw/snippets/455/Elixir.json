@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec find_content_children(g :: [integer], s :: [integer]) :: integer\n  def find_content_children(g, s) do\n    \n  end\nend"

@@ -1,1 +1,0 @@
-"# @param {String} s\n# @param {Integer[]} indices\n# @return {String}\ndef restore_string(s, indices)\n    \nend"

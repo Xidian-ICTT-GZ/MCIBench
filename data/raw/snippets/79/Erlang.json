@@ -1,1 +1,0 @@
-"-spec exist(Board :: [[char()]], Word :: unicode:unicode_binary()) -> boolean().\nexist(Board, Word) ->\n  ."

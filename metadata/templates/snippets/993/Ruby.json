@@ -1,0 +1,1 @@
+"# Definition for a binary tree node.\n# class TreeNode\n#     attr_accessor :val, :left, :right\n#     def initialize(val = 0, left = nil, right = nil)\n#         @val = val\n#         @left = left\n#         @right = right\n#     end\n# end\n# @param {TreeNode} root\n# @param {Integer} x\n# @param {Integer} y\n# @return {Boolean}\ndef is_cousins(root, x, y)\n    \nend"

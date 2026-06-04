@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec network_becomes_idle(edges :: [[integer]], patience :: [integer]) :: integer\n  def network_becomes_idle(edges, patience) do\n    \n  end\nend"

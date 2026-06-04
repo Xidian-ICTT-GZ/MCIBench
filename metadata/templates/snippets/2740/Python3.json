@@ -1,0 +1,1 @@
+"class Solution:\n    def findValueOfPartition(self, nums: List[int]) -> int:\n        "

@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec num_enclaves(grid :: [[integer]]) :: integer\n  def num_enclaves(grid) do\n    \n  end\nend"

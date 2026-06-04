@@ -1,1 +1,0 @@
-"-spec find_shortest_cycle(N :: integer(), Edges :: [[integer()]]) -> integer().\nfind_shortest_cycle(N, Edges) ->\n  ."

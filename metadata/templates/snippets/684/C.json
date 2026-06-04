@@ -1,0 +1,1 @@
+"/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* findRedundantConnection(int** edges, int edgesSize, int* edgesColSize, int* returnSize) {\n    \n}"

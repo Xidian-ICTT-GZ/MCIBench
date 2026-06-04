@@ -1,0 +1,1 @@
+"class Solution {\n    fun minMutation(startGene: String, endGene: String, bank: Array<String>): Int {\n        \n    }\n}"

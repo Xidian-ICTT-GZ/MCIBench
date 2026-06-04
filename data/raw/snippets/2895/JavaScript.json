@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} processorTime\n * @param {number[]} tasks\n * @return {number}\n */\nvar minProcessingTime = function(processorTime, tasks) {\n    \n};"

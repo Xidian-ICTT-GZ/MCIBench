@@ -1,1 +1,0 @@
-"/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* getRow(int rowIndex, int* returnSize) {\n    \n}"

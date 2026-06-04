@@ -1,1 +1,0 @@
-"-spec title_to_number(ColumnTitle :: unicode:unicode_binary()) -> integer().\ntitle_to_number(ColumnTitle) ->\n  ."

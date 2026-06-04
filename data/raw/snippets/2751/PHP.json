@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $positions\n     * @param Integer[] $healths\n     * @param String $directions\n     * @return Integer[]\n     */\n    function survivedRobotsHealths($positions, $healths, $directions) {\n        \n    }\n}"

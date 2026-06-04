@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[][] $variables\n     * @param Integer $target\n     * @return Integer[]\n     */\n    function getGoodIndices($variables, $target) {\n        \n    }\n}"

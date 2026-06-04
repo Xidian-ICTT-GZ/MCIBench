@@ -1,1 +1,0 @@
-"# @param {Integer[]} stations\n# @param {Integer} r\n# @param {Integer} k\n# @return {Integer}\ndef max_power(stations, r, k)\n    \nend"

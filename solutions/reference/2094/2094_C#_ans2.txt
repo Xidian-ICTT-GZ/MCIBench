@@ -1,0 +1,33 @@
+public class Solution {
+    public int[] FindEvenNumbers(int[] digits) {
+        List<int> res = new List<int>();
+        Dictionary<int, int> freq = new Dictionary<int, int>();
+        
+        foreach (int d in digits) {
+            freq[d] = freq.ContainsKey(d) ? freq[d] + 1 : 1;
+        }
+        
+        for (int i = 100; i < 1000; i += 2) {
+            Dictionary<int, int> freq1 = new Dictionary<int, int>();
+            int num = i;
+            
+            while (num > 0) {
+                int d = num % 10;
+                freq1[d] = freq1.ContainsKey(d) ? freq1[d] + 1 : 1;
+                num /= 10;
+            }
+            
+            bool isValid = true;
+            foreach (var entry in freq1) {
+                if (!freq.ContainsKey(entry.Key) || freq[entry.Key] < entry.Value) {
+                    isValid = false;
+                    break;
+                }
+            }
+            if (isValid) {
+                res.Add(i);
+            }
+        }
+        return res.ToArray();
+    }
+}

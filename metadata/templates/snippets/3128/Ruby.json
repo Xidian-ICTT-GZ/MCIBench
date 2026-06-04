@@ -1,0 +1,1 @@
+"# @param {Integer[][]} grid\n# @return {Integer}\ndef number_of_right_triangles(grid)\n    \nend"

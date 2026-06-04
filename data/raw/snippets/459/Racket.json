@@ -1,1 +1,0 @@
-"(define/contract (repeated-substring-pattern s)\n  (-> string? boolean?)\n  )"

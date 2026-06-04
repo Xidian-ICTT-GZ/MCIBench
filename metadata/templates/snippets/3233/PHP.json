@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $l\n     * @param Integer $r\n     * @return Integer\n     */\n    function nonSpecialCount($l, $r) {\n        \n    }\n}"

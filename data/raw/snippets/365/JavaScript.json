@@ -1,1 +1,0 @@
-"/**\n * @param {number} x\n * @param {number} y\n * @param {number} target\n * @return {boolean}\n */\nvar canMeasureWater = function(x, y, target) {\n    \n};"

@@ -1,0 +1,1 @@
+"-spec car_pooling(Trips :: [[integer()]], Capacity :: integer()) -> boolean().\ncar_pooling(Trips, Capacity) ->\n  ."

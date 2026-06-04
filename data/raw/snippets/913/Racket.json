@@ -1,1 +1,0 @@
-"(define/contract (cat-mouse-game graph)\n  (-> (listof (listof exact-integer?)) exact-integer?)\n  )"

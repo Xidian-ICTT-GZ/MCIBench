@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} tops\n * @param {number[]} bottoms\n * @return {number}\n */\nvar minDominoRotations = function(tops, bottoms) {\n    \n};"

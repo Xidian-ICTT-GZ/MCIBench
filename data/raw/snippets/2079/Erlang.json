@@ -1,1 +1,0 @@
-"-spec watering_plants(Plants :: [integer()], Capacity :: integer()) -> integer().\nwatering_plants(Plants, Capacity) ->\n  ."

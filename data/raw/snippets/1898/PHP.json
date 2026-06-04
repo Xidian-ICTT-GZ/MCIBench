@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String $s\n     * @param String $p\n     * @param Integer[] $removable\n     * @return Integer\n     */\n    function maximumRemovals($s, $p, $removable) {\n        \n    }\n}"

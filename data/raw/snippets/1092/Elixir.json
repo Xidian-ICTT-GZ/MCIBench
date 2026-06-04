@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec shortest_common_supersequence(str1 :: String.t, str2 :: String.t) :: String.t\n  def shortest_common_supersequence(str1, str2) do\n    \n  end\nend"

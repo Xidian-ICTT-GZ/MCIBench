@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String $paragraph\n     * @param String[] $banned\n     * @return String\n     */\n    function mostCommonWord($paragraph, $banned) {\n        \n    }\n}"

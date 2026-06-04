@@ -1,1 +1,0 @@
-"# @param {Integer} rows\n# @param {Integer} cols\n# @param {Integer} r_start\n# @param {Integer} c_start\n# @return {Integer[][]}\ndef spiral_matrix_iii(rows, cols, r_start, c_start)\n    \nend"

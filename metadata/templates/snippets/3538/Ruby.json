@@ -1,0 +1,1 @@
+"# @param {Integer} l\n# @param {Integer} n\n# @param {Integer} k\n# @param {Integer[]} position\n# @param {Integer[]} time\n# @return {Integer}\ndef min_travel_time(l, n, k, position, time)\n    \nend"

@@ -1,1 +1,0 @@
-"-spec visible_points(Points :: [[integer()]], Angle :: integer(), Location :: [integer()]) -> integer().\nvisible_points(Points, Angle, Location) ->\n  ."

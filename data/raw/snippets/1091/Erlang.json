@@ -1,1 +1,0 @@
-"-spec shortest_path_binary_matrix(Grid :: [[integer()]]) -> integer().\nshortest_path_binary_matrix(Grid) ->\n  ."

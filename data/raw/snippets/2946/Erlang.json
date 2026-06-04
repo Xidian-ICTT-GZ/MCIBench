@@ -1,1 +1,0 @@
-"-spec are_similar(Mat :: [[integer()]], K :: integer()) -> boolean().\nare_similar(Mat, K) ->\n  ."

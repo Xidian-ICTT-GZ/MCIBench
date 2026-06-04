@@ -1,0 +1,1 @@
+"-spec min_sum_of_lengths(Arr :: [integer()], Target :: integer()) -> integer().\nmin_sum_of_lengths(Arr, Target) ->\n  ."

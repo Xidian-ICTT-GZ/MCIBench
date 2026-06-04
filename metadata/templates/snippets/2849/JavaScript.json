@@ -1,0 +1,1 @@
+"/**\n * @param {number} sx\n * @param {number} sy\n * @param {number} fx\n * @param {number} fy\n * @param {number} t\n * @return {boolean}\n */\nvar isReachableAtTime = function(sx, sy, fx, fy, t) {\n    \n};"

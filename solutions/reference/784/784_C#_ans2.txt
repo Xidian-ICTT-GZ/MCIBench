@@ -1,0 +1,21 @@
+public class Solution {
+    public IList<string> LetterCasePermutation(string s) {
+        IList<string> ans = new List<string>();
+        DFS(s.ToCharArray(), 0, ans);
+        return ans;
+    }
+
+    public void DFS(char[] arr, int pos, IList<string> res) {
+        while (pos < arr.Length && char.IsDigit(arr[pos])) {
+            pos++;
+        }
+        if (pos == arr.Length) {
+            res.Add(new string(arr));
+            return;
+        }
+        arr[pos] = (char) (arr[pos] ^ 32);
+        DFS(arr, pos + 1, res);
+        arr[pos] = (char) (arr[pos] ^ 32);
+        DFS(arr, pos + 1, res);
+    }
+}

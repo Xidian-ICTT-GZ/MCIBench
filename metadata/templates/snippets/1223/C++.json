@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int dieSimulator(int n, vector<int>& rollMax) {\n        \n    }\n};"

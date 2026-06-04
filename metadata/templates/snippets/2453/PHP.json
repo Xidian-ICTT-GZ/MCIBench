@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer $space\n     * @return Integer\n     */\n    function destroyTargets($nums, $space) {\n        \n    }\n}"

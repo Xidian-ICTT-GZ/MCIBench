@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Float $celsius\n     * @return Float[]\n     */\n    function convertTemperature($celsius) {\n        \n    }\n}"

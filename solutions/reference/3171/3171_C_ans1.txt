@@ -1,0 +1,40 @@
+static int cmp(const void *a, const void *b) {
+    return ((int*)b)[0] - ((int *)a)[0];
+}
+
+int minimumDifference(int* nums, int numsSize, int k) {
+    int bits_max_pos[31];
+    for (int i = 0; i < 31; i++) {
+        bits_max_pos[i] = -1;
+    }
+
+    int res = INT_MAX;
+    for (int i = 0; i < numsSize; i++) {
+        for (int j = 0; j <= 30; j++) {
+            if (nums[i] >> j & 1) {
+                bits_max_pos[j] = i;
+            }
+        }
+    
+        int pos_to_bit[31][2];
+        int size = 0;
+        for (int j = 0; j <= 30; j++) {
+            if (bits_max_pos[j] != -1) {
+                pos_to_bit[size][0] = bits_max_pos[j];
+                pos_to_bit[size][1] = j;
+                size++;
+            }
+        }
+        
+        qsort(pos_to_bit, size, sizeof(pos_to_bit[0]), cmp); 
+        int val = 0;
+        for (int j = 0, p = 0; j < size; p = j) {
+            while (j < size && pos_to_bit[j][0] == pos_to_bit[p][0]) {
+                val |= 1 << pos_to_bit[j][1];
+                j++;
+            }
+            res = fmin(res, abs(val - k));
+        }
+    }
+    return res;
+}

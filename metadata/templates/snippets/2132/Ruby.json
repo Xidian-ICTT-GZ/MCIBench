@@ -1,0 +1,1 @@
+"# @param {Integer[][]} grid\n# @param {Integer} stamp_height\n# @param {Integer} stamp_width\n# @return {Boolean}\ndef possible_to_stamp(grid, stamp_height, stamp_width)\n    \nend"

@@ -1,1 +1,0 @@
-"-spec minimum_average_difference(Nums :: [integer()]) -> integer().\nminimum_average_difference(Nums) ->\n  ."

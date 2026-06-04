@@ -1,0 +1,46 @@
+public class Solution {
+    public IList<int> MajorityElement(int[] nums) {
+        int element1 = 0;
+        int element2 = 0;
+        int vote1 = 0;
+        int vote2 = 0;
+
+        foreach (int num in nums) {
+            if (vote1 > 0 && num == element1) { 
+                vote1++;
+            } else if (vote2 > 0 && num == element2) { 
+                vote2++;
+            } else if (vote1 == 0) { 
+                element1 = num;
+                vote1++;
+            } else if (vote2 == 0) { 
+                element2 = num;
+                vote2++;
+            } else { 
+                vote1--;
+                vote2--;
+            }
+        }
+
+        int cnt1 = 0;
+        int cnt2 = 0;
+        foreach (int num in nums) {
+            if (vote1 > 0 && num == element1) {
+                cnt1++;
+            }
+            if (vote2 > 0 && num == element2) {
+                cnt2++;
+            }
+        }
+        
+        IList<int> ans = new List<int>();
+        if (vote1 > 0 && cnt1 > nums.Length / 3) {
+            ans.Add(element1);
+        }
+        if (vote2 > 0 && cnt2 > nums.Length / 3) {
+            ans.Add(element2);
+        }
+
+        return ans;
+    }
+}

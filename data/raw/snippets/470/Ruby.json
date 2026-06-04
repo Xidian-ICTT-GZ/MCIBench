@@ -1,1 +1,0 @@
-"# The rand7() API is already defined for you.\n# def rand7()\n# @return {Integer} a random integer in the range 1 to 7\n\ndef rand10()\n    \nend"

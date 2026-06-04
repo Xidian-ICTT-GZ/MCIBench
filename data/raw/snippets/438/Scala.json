@@ -1,1 +1,0 @@
-"object Solution {\n    def findAnagrams(s: String, p: String): List[Int] = {\n        \n    }\n}"

@@ -1,1 +1,0 @@
-"(define/contract (grid-illumination n lamps queries)\n  (-> exact-integer? (listof (listof exact-integer?)) (listof (listof exact-integer?)) (listof exact-integer?))\n  )"

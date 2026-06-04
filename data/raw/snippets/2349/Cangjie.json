@@ -1,1 +1,0 @@
-"class NumberContainers {\n    init() {\n\n    }\n    \n    func change(index: Int64, number: Int64): Unit {\n\n    }\n    \n    func find(number: Int64): Int64 {\n\n    }\n}\n\n/**\n * Your NumberContainers object will be instantiated and called as such:\n * let obj: NumberContainers = NumberContainers()\n * obj.change(index,number)\n * let param_2 = obj.find(number)\n */"

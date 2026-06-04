@@ -1,1 +1,0 @@
-"class Solution(object):\n    def findMinimumOperations(self, s1, s2, s3):\n        \"\"\"\n        :type s1: str\n        :type s2: str\n        :type s3: str\n        :rtype: int\n        \"\"\"\n        "

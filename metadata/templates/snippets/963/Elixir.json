@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec min_area_free_rect(points :: [[integer]]) :: float\n  def min_area_free_rect(points) do\n    \n  end\nend"

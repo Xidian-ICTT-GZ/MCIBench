@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    long long minimumTotalDistance(vector<int>& robot, vector<vector<int>>& factory) {\n        \n    }\n};"

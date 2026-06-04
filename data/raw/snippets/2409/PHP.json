@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String $arriveAlice\n     * @param String $leaveAlice\n     * @param String $arriveBob\n     * @param String $leaveBob\n     * @return Integer\n     */\n    function countDaysTogether($arriveAlice, $leaveAlice, $arriveBob, $leaveBob) {\n        \n    }\n}"

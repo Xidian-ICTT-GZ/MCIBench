@@ -1,1 +1,0 @@
-"(define/contract (num-teams rating)\n  (-> (listof exact-integer?) exact-integer?)\n  )"

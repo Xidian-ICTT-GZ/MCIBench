@@ -1,1 +1,0 @@
-"class Solution:\n    def findMaxValueOfEquation(self, points: List[List[int]], k: int) -> int:\n        "

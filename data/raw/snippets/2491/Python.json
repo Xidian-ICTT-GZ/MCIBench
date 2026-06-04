@@ -1,1 +1,0 @@
-"class Solution(object):\n    def dividePlayers(self, skill):\n        \"\"\"\n        :type skill: List[int]\n        :rtype: int\n        \"\"\"\n        "

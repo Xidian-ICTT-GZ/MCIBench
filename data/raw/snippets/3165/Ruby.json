@@ -1,1 +1,0 @@
-"# @param {Integer[]} nums\n# @param {Integer[][]} queries\n# @return {Integer}\ndef maximum_sum_subsequence(nums, queries)\n    \nend"

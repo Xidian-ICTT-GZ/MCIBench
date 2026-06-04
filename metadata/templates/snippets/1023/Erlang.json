@@ -1,0 +1,1 @@
+"-spec camel_match(Queries :: [unicode:unicode_binary()], Pattern :: unicode:unicode_binary()) -> [boolean()].\ncamel_match(Queries, Pattern) ->\n  ."

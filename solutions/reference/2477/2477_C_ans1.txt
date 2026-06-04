@@ -1,0 +1,52 @@
+typedef struct ListNode ListNode;
+
+ListNode *createListNode(int val) {
+    ListNode *obj = (ListNode *)malloc(sizeof(ListNode));
+    obj->val = val;
+    obj->next = NULL;
+    return obj;
+}
+
+void freeList(ListNode *list) {
+    while (list) {
+        ListNode *cur = list;
+        list = list->next;
+        free(cur);
+    }
+}
+
+int dfs(int cur, int fa, int seats, long long *res, const ListNode **g) {
+    int peopleSum = 1;
+    for (ListNode *node = g[cur]; node; node = node->next) {
+        int ne = node->val;
+        if (ne != fa) {
+            int peopleCnt = dfs(ne, cur, seats, res, g);
+            peopleSum += peopleCnt;
+            *res += (peopleCnt + seats - 1) / seats;
+        }
+    }
+    return peopleSum;
+}
+
+long long minimumFuelCost(int** roads, int roadsSize, int* roadsColSize, int seats) {
+    ListNode **g = (ListNode **)calloc(roadsSize + 1, sizeof(ListNode *));
+    memset(g, 0, sizeof(ListNode *) * (roadsSize + 1));
+    for (int i = 0; i < roadsSize; i++) {
+        int x = roads[i][0];
+        int y = roads[i][1];
+        ListNode *nodex = createListNode(x);
+        ListNode *nodey = createListNode(y);
+        nodex->next = g[y];
+        g[y] = nodex;
+        nodey->next = g[x];
+        g[x] = nodey;
+    }
+   
+    long long res = 0;
+    dfs(0, -1, seats, &res, g);
+    for (int i = 0; i <= roadsSize; i++) {
+        freeList(g[i]);
+    }
+    free(g);
+    return res;
+}

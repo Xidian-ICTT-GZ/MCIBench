@@ -1,0 +1,1 @@
+"class Solution(object):\n    def criticalConnections(self, n, connections):\n        \"\"\"\n        :type n: int\n        :type connections: List[List[int]]\n        :rtype: List[List[int]]\n        \"\"\"\n        "

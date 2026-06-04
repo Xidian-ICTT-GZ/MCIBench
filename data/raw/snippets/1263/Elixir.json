@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec min_push_box(grid :: [[char]]) :: integer\n  def min_push_box(grid) do\n    \n  end\nend"

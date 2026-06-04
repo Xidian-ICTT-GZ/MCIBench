@@ -1,1 +1,0 @@
-"# @param {Integer[][]} intervals\n# @param {Integer[]} queries\n# @return {Integer[]}\ndef min_interval(intervals, queries)\n    \nend"

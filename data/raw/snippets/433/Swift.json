@@ -1,1 +1,0 @@
-"class Solution {\n    func minMutation(_ startGene: String, _ endGene: String, _ bank: [String]) -> Int {\n        \n    }\n}"

@@ -1,1 +1,0 @@
-"-spec minimum_cost(M :: integer(), N :: integer(), HorizontalCut :: [integer()], VerticalCut :: [integer()]) -> integer().\nminimum_cost(M, N, HorizontalCut, VerticalCut) ->\n  ."

@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $security\n     * @param Integer $time\n     * @return Integer[]\n     */\n    function goodDaysToRobBank($security, $time) {\n        \n    }\n}"

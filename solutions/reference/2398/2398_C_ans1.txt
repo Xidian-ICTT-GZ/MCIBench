@@ -1,0 +1,22 @@
+int maximumRobots(int* chargeTimes, int chargeTimesSize, int* runningCosts, int runningCostsSize, long long budget) {
+    int res = 0, n = chargeTimesSize;
+    long long runningCostSum = 0;
+    int* q = (int*)malloc(sizeof(int) * n), qf = 0, qb = 0;
+    for (int i = 0, j = 0; i < n; i++) {
+        runningCostSum += runningCosts[i];
+        while (qb > qf && chargeTimes[q[qb - 1]] <= chargeTimes[i]) {
+            qb--;
+        }
+        q[qb++] = i;
+        while (j <= i && (i - j + 1) * runningCostSum + chargeTimes[q[qf]] > budget) {
+            if (qb > qf && q[qf] == j) {
+                qf++;
+            }
+            runningCostSum -= runningCosts[j];
+            j++;
+        }
+        res = fmax(res, i - j + 1);
+    }
+    free(q);
+    return res;
+}

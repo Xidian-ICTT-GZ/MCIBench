@@ -1,1 +1,0 @@
-"# Encodes a URL to a shortened URL.\n#\n# @param {string} longUrl\n# @return {string}\ndef encode(longUrl)\n    \nend\n\n# Decodes a shortened URL to its original URL.\n#\n# @param {string} shortUrl\n# @return {string}\ndef decode(shortUrl)\n    \nend\n\n\n# Your functions will be called as such:\n# decode(encode(url))"

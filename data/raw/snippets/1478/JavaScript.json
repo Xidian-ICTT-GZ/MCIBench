@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} houses\n * @param {number} k\n * @return {number}\n */\nvar minDistance = function(houses, k) {\n    \n};"

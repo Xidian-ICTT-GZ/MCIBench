@@ -1,0 +1,1 @@
+"(define/contract (spellchecker wordlist queries)\n  (-> (listof string?) (listof string?) (listof string?))\n  )"

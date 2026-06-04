@@ -1,1 +1,0 @@
-"-spec find_median_sorted_arrays(Nums1 :: [integer()], Nums2 :: [integer()]) -> float().\nfind_median_sorted_arrays(Nums1, Nums2) ->\n  ."

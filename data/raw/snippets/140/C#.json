@@ -1,1 +1,0 @@
-"public class Solution {\n    public IList<string> WordBreak(string s, IList<string> wordDict) {\n        \n    }\n}"

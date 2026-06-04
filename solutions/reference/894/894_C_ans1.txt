@@ -1,0 +1,69 @@
+typedef struct Node {
+    struct TreeNode* val;
+    struct Node *next;
+} Node;
+
+struct TreeNode* createTreeNode(int val, struct TreeNode* pLeft, struct TreeNode* pRight) {
+    struct TreeNode* obj = (struct TreeNode*)malloc(sizeof(struct TreeNode));
+    obj->val = val;
+    obj->left = pLeft;
+    obj->right = pRight;
+    return obj;
+}
+
+Node *createNode(struct TreeNode* val) {
+    Node *obj = (Node *)malloc(sizeof(Node));
+    obj->val = val;
+    obj->next = NULL;
+    return obj;
+}
+
+void freeList(Node *list) {
+    while (list) {
+        Node *p = list;
+        list = list->next;
+        free(p);
+    }
+}
+
+struct TreeNode** allPossibleFBT(int n, int* returnSize) {
+    struct TreeNode** fullBinaryTrees = NULL;
+    if (n % 2 == 0) {
+        *returnSize = 0;
+        return fullBinaryTrees;
+    }
+    if (n == 1) {
+        fullBinaryTrees = (struct TreeNode**)malloc(sizeof(struct TreeNode*) * 1);
+        fullBinaryTrees[0] = createTreeNode(0, NULL, NULL);
+        *returnSize = 1;
+        return fullBinaryTrees;
+    }
+
+    Node *list = NULL, *node = NULL;
+    int len = 0;
+    for (int i = 1; i < n; i += 2) {
+        int leftCount = 0, rightCount = 0;
+        struct TreeNode** leftSubtrees = allPossibleFBT(i, &leftCount);
+        struct TreeNode** rightSubtrees = allPossibleFBT(n - 1 - i, &rightCount);
+        for (int j = 0; j < leftCount; j++) {
+            for (int k = 0; k < rightCount; k++) {
+                struct TreeNode *leftSubtree = leftSubtrees[j];
+                struct TreeNode *rightSubtree = rightSubtrees[k];
+                struct TreeNode *root = createTreeNode(0, leftSubtree, rightSubtree);
+                node = createNode(root);
+                node->next = list;
+                list = node;
+                len++;
+            }
+        }
+    }
+
+    fullBinaryTrees = (struct TreeNode **)malloc(sizeof(struct TreeNode *) * len);
+    int pos = 0;
+    *returnSize = len;
+    for (node = list; node != NULL; node = node->next) {
+        fullBinaryTrees[pos++] = node->val;
+    }
+    freeList(list);
+    return fullBinaryTrees;
+}

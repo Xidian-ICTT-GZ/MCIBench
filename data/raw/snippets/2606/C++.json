@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    int maximumCostSubstring(string s, string chars, vector<int>& vals) {\n        \n    }\n};"

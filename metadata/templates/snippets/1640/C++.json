@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    bool canFormArray(vector<int>& arr, vector<vector<int>>& pieces) {\n        \n    }\n};"

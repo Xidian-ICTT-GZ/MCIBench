@@ -1,0 +1,36 @@
+var minFlips = function(grid) {
+    const m = grid.length, n = grid[0].length;
+    let f = new Array(4).fill(Infinity);
+    f[0] = 0;
+    for (let i = 0; i < Math.floor((n + 1) / 2); i++) {
+        for (let j = 0; j < Math.floor((m + 1) / 2); j++) {
+            let ones = grid[i][j];
+            let cnt = 1;
+            if (j !== n - 1 - j) {
+                ones += grid[i][n - 1 - j];
+                cnt++;
+            }
+            if (i !== m - 1 - i) {
+                ones += grid[m - 1 - i][j];
+                cnt++;
+            }
+            if (i !== m - 1 - i && j !== n - 1 - j) {
+                ones += grid[m - 1 - i][n - 1 - j];
+                cnt++;
+            }
+            
+            const cnt1 = cnt - ones;
+            
+            const cnt0 = ones;
+            let tmp = new Array(4).fill(0);
+            for (let k = 0; k < 4; k++) {
+                tmp[k] = f[k] + cnt0;
+            }
+            for (let k = 0; k < 4; k++) {
+                tmp[(k + cnt) % 4] = Math.min(tmp[(k + cnt) % 4], f[k] + cnt1);
+            }
+            f = tmp;
+        }
+    }
+    return f[0];
+};

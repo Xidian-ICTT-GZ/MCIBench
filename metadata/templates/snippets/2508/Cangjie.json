@@ -1,0 +1,1 @@
+"class Solution {\n    func isPossible(n: Int64, edges: ArrayList<ArrayList<Int64>>): Bool {\n\n    }\n}"

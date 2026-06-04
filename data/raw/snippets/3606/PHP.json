@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String[] $code\n     * @param String[] $businessLine\n     * @param Boolean[] $isActive\n     * @return String[]\n     */\n    function validateCoupons($code, $businessLine, $isActive) {\n        \n    }\n}"

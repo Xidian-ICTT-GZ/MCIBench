@@ -1,0 +1,1 @@
+"class MedianFinder() {\n\n    def addNum(num: Int): Unit = {\n        \n    }\n\n    def findMedian(): Double = {\n        \n    }\n\n}\n\n/**\n * Your MedianFinder object will be instantiated and called as such:\n * val obj = new MedianFinder()\n * obj.addNum(num)\n * val param_2 = obj.findMedian()\n */"

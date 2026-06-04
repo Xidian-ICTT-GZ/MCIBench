@@ -1,0 +1,1 @@
+"/**\n * Definition for singly-linked list.\n * type ListNode struct {\n *     Val int\n *     Next *ListNode\n * }\n */\nfunc hasCycle(head *ListNode) bool {\n    \n}"

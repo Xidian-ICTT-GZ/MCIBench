@@ -1,1 +1,0 @@
-"class Solution(object):\n    def distributeCandies(self, candyType):\n        \"\"\"\n        :type candyType: List[int]\n        :rtype: int\n        \"\"\"\n        "

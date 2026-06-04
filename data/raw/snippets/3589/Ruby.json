@@ -1,1 +1,0 @@
-"# @param {Integer[]} nums\n# @param {Integer} k\n# @return {Integer}\ndef prime_subarray(nums, k)\n    \nend"

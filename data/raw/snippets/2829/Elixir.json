@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec minimum_sum(n :: integer, k :: integer) :: integer\n  def minimum_sum(n, k) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @param {Integer} k\n# @return {Integer}\ndef num_subarray_product_less_than_k(nums, k)\n    \nend"

@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String[] $strs\n     * @return Integer\n     */\n    function findLUSlength($strs) {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"-spec max_ice_cream(Costs :: [integer()], Coins :: integer()) -> integer().\nmax_ice_cream(Costs, Coins) ->\n  ."

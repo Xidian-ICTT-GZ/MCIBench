@@ -1,1 +1,0 @@
-"-spec ways_to_fill_array(Queries :: [[integer()]]) -> [integer()].\nways_to_fill_array(Queries) ->\n  ."

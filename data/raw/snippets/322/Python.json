@@ -1,1 +1,0 @@
-"class Solution(object):\n    def coinChange(self, coins, amount):\n        \"\"\"\n        :type coins: List[int]\n        :type amount: int\n        :rtype: int\n        \"\"\"\n        "

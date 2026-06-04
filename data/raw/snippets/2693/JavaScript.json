@@ -1,1 +1,0 @@
-"/**\n * @param {Object} context\n * @param {Array} args\n * @return {null|boolean|number|string|Array|Object}\n */\nFunction.prototype.callPolyfill = function(context, ...args) {\n    \n}\n\n/**\n * function increment() { this.count++; return this.count; }\n * increment.callPolyfill({count: 1}); // 2\n */"

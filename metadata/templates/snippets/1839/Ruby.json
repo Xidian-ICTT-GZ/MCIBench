@@ -1,0 +1,1 @@
+"# @param {String} word\n# @return {Integer}\ndef longest_beautiful_substring(word)\n    \nend"

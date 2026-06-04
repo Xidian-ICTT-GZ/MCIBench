@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec xor_operation(n :: integer, start :: integer) :: integer\n  def xor_operation(n, start) do\n    \n  end\nend"

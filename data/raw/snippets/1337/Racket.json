@@ -1,1 +1,0 @@
-"(define/contract (k-weakest-rows mat k)\n  (-> (listof (listof exact-integer?)) exact-integer? (listof exact-integer?))\n  )"

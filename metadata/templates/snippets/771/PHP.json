@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $jewels\n     * @param String $stones\n     * @return Integer\n     */\n    function numJewelsInStones($jewels, $stones) {\n        \n    }\n}"

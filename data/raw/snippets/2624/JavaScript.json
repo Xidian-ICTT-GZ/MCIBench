@@ -1,1 +1,0 @@
-"/**\n * @param {number} rowsCount\n * @param {number} colsCount\n * @return {Array<Array<number>>}\n */\nArray.prototype.snail = function(rowsCount, colsCount) {\n    \n}\n\n/**\n * const arr = [1,2,3,4];\n * arr.snail(1,4); // [[1,2,3,4]]\n */"

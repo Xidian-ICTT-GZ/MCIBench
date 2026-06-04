@@ -1,0 +1,14 @@
+public class Solution {
+    public int HeightChecker(int[] heights) {
+        int n = heights.Length, ans = 0;
+        int[] expected = new int[n];
+        Array.Copy(heights, 0, expected, 0, n);
+        Array.Sort(expected);
+        for (int i = 0; i < n; ++i) {
+            if (heights[i] != expected[i]) {
+                ++ans;
+            }
+        }
+        return ans;
+    }
+}

@@ -1,1 +1,0 @@
-"class Solution:\n    def longestIdealString(self, s: str, k: int) -> int:\n        "

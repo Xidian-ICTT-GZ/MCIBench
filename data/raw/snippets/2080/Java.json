@@ -1,1 +1,0 @@
-"class RangeFreqQuery {\n\n    public RangeFreqQuery(int[] arr) {\n        \n    }\n    \n    public int query(int left, int right, int value) {\n        \n    }\n}\n\n/**\n * Your RangeFreqQuery object will be instantiated and called as such:\n * RangeFreqQuery obj = new RangeFreqQuery(arr);\n * int param_1 = obj.query(left,right,value);\n */"

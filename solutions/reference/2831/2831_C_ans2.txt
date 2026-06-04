@@ -1,0 +1,16 @@
+int longestEqualSubarray(int* nums, int numsSize, int k){
+    int cnt[numsSize + 1];
+    int ans = 0;
+    memset(cnt, 0, sizeof(cnt));
+
+    for (int i = 0, j = 0; j < numsSize; j++) {
+        cnt[nums[j]]++;
+        
+        while (j - i + 1 - cnt[nums[i]] > k) {
+            cnt[nums[i]]--;
+            i++;
+        }
+        ans = fmax(ans, cnt[nums[j]]);
+    }
+    return ans;
+}

@@ -1,0 +1,1 @@
+"/**\n * @param {string} text\n * @param {string} first\n * @param {string} second\n * @return {string[]}\n */\nvar findOcurrences = function(text, first, second) {\n    \n};"

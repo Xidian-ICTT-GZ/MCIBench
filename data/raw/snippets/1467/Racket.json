@@ -1,1 +1,0 @@
-"(define/contract (get-probability balls)\n  (-> (listof exact-integer?) flonum?)\n  )"

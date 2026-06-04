@@ -1,1 +1,0 @@
-"%% Definition for singly-linked list.\n%%\n%% -record(list_node, {val = 0 :: integer(),\n%%                     next = null :: 'null' | #list_node{}}).\n\n-spec num_components(Head :: #list_node{} | null, Nums :: [integer()]) -> integer().\nnum_components(Head, Nums) ->\n  ."

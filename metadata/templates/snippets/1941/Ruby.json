@@ -1,0 +1,1 @@
+"# @param {String} s\n# @return {Boolean}\ndef are_occurrences_equal(s)\n    \nend"

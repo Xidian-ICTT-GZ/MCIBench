@@ -1,1 +1,0 @@
-"(define/contract (count-time time)\n  (-> string? exact-integer?)\n  )"

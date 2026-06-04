@@ -1,0 +1,119 @@
+typedef struct {
+    int *tree;
+    int treeSize;
+} BinaryIndexedTree;
+
+BinaryIndexedTree* createBinaryIndexedTree(int n) {
+    BinaryIndexedTree *obj = (BinaryIndexedTree*)malloc(sizeof(BinaryIndexedTree));
+    obj->tree = (int *)malloc(sizeof(int) * (n + 1));
+    memset(obj->tree, 0, sizeof(int) * (n + 1));
+    obj->treeSize = n + 1;
+    return obj;
+}
+
+void add(BinaryIndexedTree* obj, int i) {
+    while (i < obj->treeSize) {
+        obj->tree[i] += 1;
+        i += i & -i;
+    }
+}
+
+int get(BinaryIndexedTree* obj, int i) {
+    int res = 0;
+    while (i > 0) {
+        res += obj->tree[i];
+        i &= i - 1;
+    }
+    return res;
+}
+
+static int cmp(const void *a, const void *b) {
+    return *(int *)a - *(int *)b;
+}
+
+typedef struct {
+    int key;
+    int val;
+    UT_hash_handle hh;
+} HashItem; 
+
+HashItem *hashFindItem(HashItem **obj, int key) {
+    HashItem *pEntry = NULL;
+    HASH_FIND_INT(*obj, &key, pEntry);
+    return pEntry;
+}
+
+bool hashAddItem(HashItem **obj, int key, int val) {
+    if (hashFindItem(obj, key)) {
+        return false;
+    }
+    HashItem *pEntry = (HashItem *)malloc(sizeof(HashItem));
+    pEntry->key = key;
+    pEntry->val = val;
+    HASH_ADD_INT(*obj, key, pEntry);
+    return true;
+}
+
+bool hashSetItem(HashItem **obj, int key, int val) {
+    HashItem *pEntry = hashFindItem(obj, key);
+    if (!pEntry) {
+        hashAddItem(obj, key, val);
+    } else {
+        pEntry->val = val;
+    }
+    return true;
+}
+
+int hashGetItem(HashItem **obj, int key, int defaultVal) {
+    HashItem *pEntry = hashFindItem(obj, key);
+    if (!pEntry) {
+        return defaultVal;
+    }
+    return pEntry->val;
+}
+
+void hashFree(HashItem **obj) {
+    HashItem *curr = NULL, *tmp = NULL;
+    HASH_ITER(hh, *obj, curr, tmp) {
+        HASH_DEL(*obj, curr);  
+        free(curr);
+    }
+}
+
+int* resultArray(int* nums, int numsSize, int* returnSize) {
+    int n = numsSize;
+    int sortedNums[n];
+    memcpy(sortedNums, nums, sizeof(int) * numsSize);
+    qsort(sortedNums, numsSize, sizeof(int), cmp);
+    HashItem *index = NULL;
+    for (int i = 0; i < n; ++i) {
+        hashSetItem(&index, sortedNums[i], i + 1);
+    }
+
+    int arr1[n], arr2[n];
+    int arr1Size = 0, arr2Size = 0;
+    arr1[arr1Size++] = nums[0];
+    arr2[arr2Size++] = nums[1];
+    BinaryIndexedTree *tree1 = createBinaryIndexedTree(n);
+    BinaryIndexedTree *tree2 = createBinaryIndexedTree(n);
+    add(tree1, hashGetItem(&index, nums[0], 0));
+    add(tree2, hashGetItem(&index, nums[1], 0));
+    for (int i = 2; i < n; ++i) {
+        int count1 = arr1Size - get(tree1, hashGetItem(&index, nums[i], 0));
+        int count2 = arr2Size - get(tree2, hashGetItem(&index, nums[i], 0));
+        if (count1 > count2 || (count1 == count2 && arr1Size <= arr2Size)) {
+            arr1[arr1Size++] = nums[i];
+            add(tree1, hashGetItem(&index, nums[i], 0));
+        } else {
+            arr2[arr2Size++] = nums[i];
+            add(tree2, hashGetItem(&index, nums[i], 0));
+        }
+    }
+
+    int *res = (int *)malloc(sizeof(int) * (arr1Size + arr2Size));
+    memcpy(res, arr1, sizeof(int) * arr1Size);
+    memcpy(res + arr1Size, arr2, sizeof(int) * arr2Size);
+    *returnSize = arr1Size + arr2Size;
+    hashFree(&index);
+    return res;
+}

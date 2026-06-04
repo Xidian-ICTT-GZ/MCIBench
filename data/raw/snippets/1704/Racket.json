@@ -1,1 +1,0 @@
-"(define/contract (halves-are-alike s)\n  (-> string? boolean?)\n  )"

@@ -1,1 +1,0 @@
-"type RangeFreqQuery struct {\n    \n}\n\n\nfunc Constructor(arr []int) RangeFreqQuery {\n    \n}\n\n\nfunc (this *RangeFreqQuery) Query(left int, right int, value int) int {\n    \n}\n\n\n/**\n * Your RangeFreqQuery object will be instantiated and called as such:\n * obj := Constructor(arr);\n * param_1 := obj.Query(left,right,value);\n */"

@@ -1,0 +1,1 @@
+"class Solution:\n    def rotatedDigits(self, n: int) -> int:\n        "

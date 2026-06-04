@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec repair_cars(ranks :: [integer], cars :: integer) :: integer\n  def repair_cars(ranks, cars) do\n    \n  end\nend"

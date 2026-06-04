@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec get_probability(balls :: [integer]) :: float\n  def get_probability(balls) do\n    \n  end\nend"

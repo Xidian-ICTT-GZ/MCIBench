@@ -1,1 +1,0 @@
-"-spec contains_duplicate(Nums :: [integer()]) -> boolean().\ncontains_duplicate(Nums) ->\n  ."

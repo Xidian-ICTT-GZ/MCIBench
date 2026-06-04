@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    int countRangeSum(vector<int>& nums, int lower, int upper) {\n        \n    }\n};"

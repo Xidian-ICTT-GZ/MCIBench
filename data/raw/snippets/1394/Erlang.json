@@ -1,1 +1,0 @@
-"-spec find_lucky(Arr :: [integer()]) -> integer().\nfind_lucky(Arr) ->\n  ."

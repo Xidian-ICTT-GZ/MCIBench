@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int minPathCost(vector<vector<int>>& grid, vector<vector<int>>& moveCost) {\n        \n    }\n};"

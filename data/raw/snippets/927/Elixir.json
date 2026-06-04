@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec three_equal_parts(arr :: [integer]) :: [integer]\n  def three_equal_parts(arr) do\n    \n  end\nend"

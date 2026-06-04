@@ -1,1 +1,0 @@
-"/**\n * @param {number[][]} dimensions\n * @return {number}\n */\nvar areaOfMaxDiagonal = function(dimensions) {\n    \n};"

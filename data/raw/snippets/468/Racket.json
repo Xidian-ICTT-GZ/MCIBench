@@ -1,1 +1,0 @@
-"(define/contract (valid-ip-address queryIP)\n  (-> string? string?)\n  )"

@@ -1,1 +1,0 @@
-"-spec min_reorder(N :: integer(), Connections :: [[integer()]]) -> integer().\nmin_reorder(N, Connections) ->\n  ."

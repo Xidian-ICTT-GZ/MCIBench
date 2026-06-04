@@ -1,0 +1,1 @@
+"class Solution {\n    func mostPopularCreator(_ creators: [String], _ ids: [String], _ views: [Int]) -> [[String]] {\n        \n    }\n}"

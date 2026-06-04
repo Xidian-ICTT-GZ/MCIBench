@@ -1,0 +1,1 @@
+"object Solution {\n    def validArrangement(pairs: Array[Array[Int]]): Array[Array[Int]] = {\n        \n    }\n}"

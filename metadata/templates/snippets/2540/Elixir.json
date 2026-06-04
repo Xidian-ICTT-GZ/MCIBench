@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec get_common(nums1 :: [integer], nums2 :: [integer]) :: integer\n  def get_common(nums1, nums2) do\n    \n  end\nend"

@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String $title\n     * @return String\n     */\n    function capitalizeTitle($title) {\n        \n    }\n}"

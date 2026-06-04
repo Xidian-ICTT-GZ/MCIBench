@@ -1,1 +1,0 @@
-"/**\n * @param {string} customers\n * @return {number}\n */\nvar bestClosingTime = function(customers) {\n    \n};"

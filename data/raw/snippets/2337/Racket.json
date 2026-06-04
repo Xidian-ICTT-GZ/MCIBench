@@ -1,1 +1,0 @@
-"(define/contract (can-change start target)\n  (-> string? string? boolean?)\n  )"

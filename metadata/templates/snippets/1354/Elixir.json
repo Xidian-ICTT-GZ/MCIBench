@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec is_possible(target :: [integer]) :: boolean\n  def is_possible(target) do\n    \n  end\nend"

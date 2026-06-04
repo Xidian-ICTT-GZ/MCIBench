@@ -1,1 +1,0 @@
-"# @param {Integer[]} arr\n# @param {Integer} k\n# @return {Integer[]}\ndef kth_smallest_prime_fraction(arr, k)\n    \nend"

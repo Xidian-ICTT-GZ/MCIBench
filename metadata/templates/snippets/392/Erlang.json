@@ -1,0 +1,1 @@
+"-spec is_subsequence(S :: unicode:unicode_binary(), T :: unicode:unicode_binary()) -> boolean().\nis_subsequence(S, T) ->\n  ."

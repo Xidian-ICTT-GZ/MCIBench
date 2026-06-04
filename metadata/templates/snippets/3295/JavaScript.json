@@ -1,0 +1,1 @@
+"/**\n * @param {string[]} message\n * @param {string[]} bannedWords\n * @return {boolean}\n */\nvar reportSpam = function(message, bannedWords) {\n    \n};"

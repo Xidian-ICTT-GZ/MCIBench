@@ -1,1 +1,0 @@
-"(define/contract (winning-player x y)\n  (-> exact-integer? exact-integer? string?)\n  )"

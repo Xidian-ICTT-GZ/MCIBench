@@ -1,0 +1,10 @@
+public class Solution {
+    public int MinOperations(int[] nums) {
+        int pre = nums[0] - 1, res = 0;
+        foreach (int num in nums) {
+            pre = Math.Max(pre + 1, num);
+            res += pre - num;
+        }
+        return res;
+    }
+}

@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec check_record(s :: String.t) :: boolean\n  def check_record(s) do\n    \n  end\nend"

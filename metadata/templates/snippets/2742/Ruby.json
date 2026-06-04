@@ -1,0 +1,1 @@
+"# @param {Integer[]} cost\n# @param {Integer[]} time\n# @return {Integer}\ndef paint_walls(cost, time)\n    \nend"

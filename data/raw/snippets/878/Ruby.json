@@ -1,1 +1,0 @@
-"# @param {Integer} n\n# @param {Integer} a\n# @param {Integer} b\n# @return {Integer}\ndef nth_magical_number(n, a, b)\n    \nend"

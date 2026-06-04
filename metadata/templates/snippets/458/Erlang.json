@@ -1,0 +1,1 @@
+"-spec poor_pigs(Buckets :: integer(), MinutesToDie :: integer(), MinutesToTest :: integer()) -> integer().\npoor_pigs(Buckets, MinutesToDie, MinutesToTest) ->\n  ."

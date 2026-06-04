@@ -1,0 +1,1 @@
+"-spec replace_elements(Arr :: [integer()]) -> [integer()].\nreplace_elements(Arr) ->\n  ."

@@ -1,0 +1,1 @@
+"-spec count_subarrays(Nums :: [integer()], MinK :: integer(), MaxK :: integer()) -> integer().\ncount_subarrays(Nums, MinK, MaxK) ->\n  ."

@@ -1,0 +1,28 @@
+impl Solution {
+    pub fn find_minimum_time(tasks: Vec<Vec<i32>>) -> i32 {
+        let n = tasks.len();
+        let mut sorted_tasks = tasks;
+        sorted_tasks.sort_by(|a, b| a[1].cmp(&b[1]));
+        let max_end_time = sorted_tasks[n - 1][1];
+        let mut run = vec![0; max_end_time as usize + 1];
+        let mut res = 0;
+        for task in sorted_tasks.iter() {
+            let start = task[0] as usize;
+            let end = task[1] as usize;
+            let mut duration = task[2] as i32;
+            let covered_duration: i32 = run[start ..=end].iter().sum();
+            duration -= covered_duration;
+            res += duration.max(0);
+            for j in (start..=end).rev() {
+                if duration <= 0 {
+                    break;
+                }
+                if run[j] == 0 {
+                    run[j] = 1;
+                    duration -= 1;
+                }
+            }
+        }
+        res
+    }
+}

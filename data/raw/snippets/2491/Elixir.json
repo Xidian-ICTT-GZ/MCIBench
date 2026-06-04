@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec divide_players(skill :: [integer]) :: integer\n  def divide_players(skill) do\n    \n  end\nend"

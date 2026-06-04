@@ -1,1 +1,0 @@
-"-spec process_str(S :: unicode:unicode_binary()) -> unicode:unicode_binary().\nprocess_str(S) ->\n  ."

@@ -1,1 +1,0 @@
-"class Solution(object):\n    def validPath(self, n, edges, source, destination):\n        \"\"\"\n        :type n: int\n        :type edges: List[List[int]]\n        :type source: int\n        :type destination: int\n        :rtype: bool\n        \"\"\"\n        "

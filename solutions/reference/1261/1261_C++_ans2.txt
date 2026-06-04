@@ -1,0 +1,34 @@
+class FindElements {
+private:
+    TreeNode *root;
+
+public:
+    FindElements(TreeNode* root) {
+        this->root = root;
+        dfs(root, 0);
+    }
+
+    void dfs(TreeNode *node, int val) {
+        if (node == nullptr) {
+            return;
+        }
+        node->val = val;
+        dfs(node->left, val * 2 + 1);
+        dfs(node->right, val * 2 + 2);
+    }
+
+    bool find(int target) {
+        target++;
+        int k = 30 - __builtin_clz(target);
+        TreeNode *node = root;
+        while (k >= 0 && node != nullptr) {
+            if ((target & (1 << k)) == 0) {
+                node = node->left;
+            } else {
+                node = node->right;
+            }
+            k--;
+        }
+        return node != nullptr;
+    }
+};

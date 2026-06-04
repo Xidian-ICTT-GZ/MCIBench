@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec judge_square_sum(c :: integer) :: boolean\n  def judge_square_sum(c) do\n    \n  end\nend"

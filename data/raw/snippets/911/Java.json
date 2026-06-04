@@ -1,1 +1,0 @@
-"class TopVotedCandidate {\n\n    public TopVotedCandidate(int[] persons, int[] times) {\n        \n    }\n    \n    public int q(int t) {\n        \n    }\n}\n\n/**\n * Your TopVotedCandidate object will be instantiated and called as such:\n * TopVotedCandidate obj = new TopVotedCandidate(persons, times);\n * int param_1 = obj.q(t);\n */"

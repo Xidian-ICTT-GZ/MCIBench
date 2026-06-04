@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec solve_equation(equation :: String.t) :: String.t\n  def solve_equation(equation) do\n    \n  end\nend"

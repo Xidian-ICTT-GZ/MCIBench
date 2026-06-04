@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    long long makeSimilar(vector<int>& nums, vector<int>& target) {\n        \n    }\n};"

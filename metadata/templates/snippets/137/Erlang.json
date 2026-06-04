@@ -1,0 +1,1 @@
+"-spec single_number(Nums :: [integer()]) -> integer().\nsingle_number(Nums) ->\n  ."

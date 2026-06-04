@@ -1,1 +1,0 @@
-"(define/contract (schedule-course courses)\n  (-> (listof (listof exact-integer?)) exact-integer?)\n  )"

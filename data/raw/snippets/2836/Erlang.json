@@ -1,1 +1,0 @@
-"-spec get_max_function_value(Receiver :: [integer()], K :: integer()) -> integer().\nget_max_function_value(Receiver, K) ->\n  ."

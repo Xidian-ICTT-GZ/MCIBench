@@ -1,0 +1,1 @@
+"impl Solution {\n    pub fn count_winning_sequences(s: String) -> i32 {\n        \n    }\n}"

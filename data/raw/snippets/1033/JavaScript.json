@@ -1,1 +1,0 @@
-"/**\n * @param {number} a\n * @param {number} b\n * @param {number} c\n * @return {number[]}\n */\nvar numMovesStones = function(a, b, c) {\n    \n};"

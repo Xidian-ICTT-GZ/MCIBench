@@ -1,1 +1,0 @@
-"-spec is_valid(Word :: unicode:unicode_binary()) -> boolean().\nis_valid(Word) ->\n  ."

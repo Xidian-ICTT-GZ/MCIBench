@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[][] $matrix\n     * @param Integer $target\n     * @return Boolean\n     */\n    function searchMatrix($matrix, $target) {\n        \n    }\n}"

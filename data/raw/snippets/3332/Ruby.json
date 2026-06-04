@@ -1,1 +1,0 @@
-"# @param {Integer} n\n# @param {Integer} k\n# @param {Integer[][]} stay_score\n# @param {Integer[][]} travel_score\n# @return {Integer}\ndef max_score(n, k, stay_score, travel_score)\n    \nend"

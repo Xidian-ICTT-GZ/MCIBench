@@ -1,1 +1,0 @@
-"-spec rearrange_barcodes(Barcodes :: [integer()]) -> [integer()].\nrearrange_barcodes(Barcodes) ->\n  ."

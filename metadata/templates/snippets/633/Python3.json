@@ -1,0 +1,1 @@
+"class Solution:\n    def judgeSquareSum(self, c: int) -> bool:\n        "

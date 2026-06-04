@@ -1,1 +1,0 @@
-"(define/contract (satisfies-conditions grid)\n  (-> (listof (listof exact-integer?)) boolean?)\n  )"

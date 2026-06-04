@@ -1,1 +1,0 @@
-"class Solution(object):\n    def shipWithinDays(self, weights, days):\n        \"\"\"\n        :type weights: List[int]\n        :type days: int\n        :rtype: int\n        \"\"\"\n        "

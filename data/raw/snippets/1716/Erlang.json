@@ -1,1 +1,0 @@
-"-spec total_money(N :: integer()) -> integer().\ntotal_money(N) ->\n  ."

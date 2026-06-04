@@ -1,0 +1,1 @@
+"# @param {String} s\n# @param {String} chars\n# @param {Integer[]} vals\n# @return {Integer}\ndef maximum_cost_substring(s, chars, vals)\n    \nend"

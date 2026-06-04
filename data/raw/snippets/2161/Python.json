@@ -1,1 +1,0 @@
-"class Solution(object):\n    def pivotArray(self, nums, pivot):\n        \"\"\"\n        :type nums: List[int]\n        :type pivot: int\n        :rtype: List[int]\n        \"\"\"\n        "

@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec max_turbulence_size(arr :: [integer]) :: integer\n  def max_turbulence_size(arr) do\n    \n  end\nend"

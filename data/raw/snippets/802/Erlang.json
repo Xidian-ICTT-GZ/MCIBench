@@ -1,1 +1,0 @@
-"-spec eventual_safe_nodes(Graph :: [[integer()]]) -> [integer()].\neventual_safe_nodes(Graph) ->\n  ."

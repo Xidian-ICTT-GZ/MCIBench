@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int firstDayBeenInAllRooms(vector<int>& nextVisit) {\n        \n    }\n};"

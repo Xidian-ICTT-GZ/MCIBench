@@ -1,1 +1,0 @@
-"import pandas as pd\n\ndef second_highest_salary(employee: pd.DataFrame) -> pd.DataFrame:\n    "

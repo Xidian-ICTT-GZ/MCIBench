@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    int waysToReachTarget(int target, vector<vector<int>>& types) {\n        \n    }\n};"

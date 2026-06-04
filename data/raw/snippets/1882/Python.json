@@ -1,1 +1,0 @@
-"class Solution(object):\n    def assignTasks(self, servers, tasks):\n        \"\"\"\n        :type servers: List[int]\n        :type tasks: List[int]\n        :rtype: List[int]\n        \"\"\"\n        "

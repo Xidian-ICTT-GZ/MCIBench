@@ -1,0 +1,1 @@
+"/**\n * @param {string} licensePlate\n * @param {string[]} words\n * @return {string}\n */\nvar shortestCompletingWord = function(licensePlate, words) {\n    \n};"

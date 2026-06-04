@@ -1,0 +1,1 @@
+"-spec generate_parenthesis(N :: integer()) -> [unicode:unicode_binary()].\ngenerate_parenthesis(N) ->\n  ."

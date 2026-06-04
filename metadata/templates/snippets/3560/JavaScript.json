@@ -1,0 +1,1 @@
+"/**\n * @param {number} n\n * @param {number} m\n * @param {number} k\n * @return {number}\n */\nvar minCuttingCost = function(n, m, k) {\n    \n};"

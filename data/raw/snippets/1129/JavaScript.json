@@ -1,1 +1,0 @@
-"/**\n * @param {number} n\n * @param {number[][]} redEdges\n * @param {number[][]} blueEdges\n * @return {number[]}\n */\nvar shortestAlternatingPaths = function(n, redEdges, blueEdges) {\n    \n};"

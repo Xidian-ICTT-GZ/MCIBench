@@ -1,0 +1,1 @@
+"object Solution {\n    def longestCommonPrefix(strs: Array[String]): String = {\n        \n    }\n}"

@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec convert_to_base7(num :: integer) :: String.t\n  def convert_to_base7(num) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<vector<int>> largeGroupPositions(string s) {\n        \n    }\n};"

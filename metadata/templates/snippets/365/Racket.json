@@ -1,0 +1,1 @@
+"(define/contract (can-measure-water x y target)\n  (-> exact-integer? exact-integer? exact-integer? boolean?)\n  )"

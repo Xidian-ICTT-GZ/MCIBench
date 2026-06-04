@@ -1,0 +1,1 @@
+"object Solution {\n    def countSubstrings(s: String, c: Char): Long = {\n        \n    }\n}"

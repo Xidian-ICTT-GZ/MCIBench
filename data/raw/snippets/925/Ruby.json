@@ -1,1 +1,0 @@
-"# @param {String} name\n# @param {String} typed\n# @return {Boolean}\ndef is_long_pressed_name(name, typed)\n    \nend"

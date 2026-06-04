@@ -1,0 +1,14 @@
+public class Solution {
+    public int MaxAscendingSum(int[] nums) {
+        int res = 0;
+        int l = 0;
+        while (l < nums.Length) {
+            int cursum = nums[l++];
+            while (l < nums.Length && nums[l] > nums[l - 1]) {
+                cursum += nums[l++];
+            }
+            res = Math.Max(res, cursum);
+        }
+        return res;
+    }
+}

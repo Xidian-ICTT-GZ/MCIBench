@@ -1,0 +1,1 @@
+"# @param {Integer} start\n# @param {Integer} finish\n# @param {Integer} limit\n# @param {String} s\n# @return {Integer}\ndef number_of_powerful_int(start, finish, limit, s)\n    \nend"

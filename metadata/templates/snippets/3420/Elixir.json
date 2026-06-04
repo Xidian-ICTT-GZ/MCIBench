@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec count_non_decreasing_subarrays(nums :: [integer], k :: integer) :: integer\n  def count_non_decreasing_subarrays(nums, k) do\n    \n  end\nend"

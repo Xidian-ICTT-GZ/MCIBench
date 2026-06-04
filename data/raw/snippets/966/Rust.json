@@ -1,1 +1,0 @@
-"impl Solution {\n    pub fn spellchecker(wordlist: Vec<String>, queries: Vec<String>) -> Vec<String> {\n        \n    }\n}"

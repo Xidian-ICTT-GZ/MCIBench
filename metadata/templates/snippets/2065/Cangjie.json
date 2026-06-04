@@ -1,0 +1,1 @@
+"class Solution {\n    func maximalPathQuality(values: Array<Int64>, edges: Array<Array<Int64>>, maxTime: Int64): Int64 {\n\n    }\n}"

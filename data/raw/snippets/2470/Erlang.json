@@ -1,1 +1,0 @@
-"-spec subarray_lcm(Nums :: [integer()], K :: integer()) -> integer().\nsubarray_lcm(Nums, K) ->\n  ."

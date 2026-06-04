@@ -1,1 +1,0 @@
-"/**\n * Definition for a Node.\n * class Node(var _value: Int) {\n *   var value: Int = _value\n *   var children: List[Node] = List()\n * }\n */\n\nobject Solution {\n    def maxDepth(root: Node): Int = {\n        \n    }\n}"

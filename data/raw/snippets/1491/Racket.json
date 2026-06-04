@@ -1,1 +1,0 @@
-"(define/contract (average salary)\n  (-> (listof exact-integer?) flonum?)\n  )"

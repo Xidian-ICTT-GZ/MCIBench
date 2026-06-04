@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec super_pow(a :: integer, b :: [integer]) :: integer\n  def super_pow(a, b) do\n    \n  end\nend"

@@ -1,1 +1,0 @@
-"class Solution(object):\n    def validIPAddress(self, queryIP):\n        \"\"\"\n        :type queryIP: str\n        :rtype: str\n        \"\"\"\n        "

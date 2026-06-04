@@ -1,1 +1,0 @@
-"/**\n * @param {number} m\n * @param {number} n\n * @param {number} maxMove\n * @param {number} startRow\n * @param {number} startColumn\n * @return {number}\n */\nvar findPaths = function(m, n, maxMove, startRow, startColumn) {\n    \n};"

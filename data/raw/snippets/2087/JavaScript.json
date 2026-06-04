@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} startPos\n * @param {number[]} homePos\n * @param {number[]} rowCosts\n * @param {number[]} colCosts\n * @return {number}\n */\nvar minCost = function(startPos, homePos, rowCosts, colCosts) {\n    \n};"

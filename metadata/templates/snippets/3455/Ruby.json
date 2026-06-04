@@ -1,0 +1,1 @@
+"# @param {String} s\n# @param {String} p\n# @return {Integer}\ndef shortest_matching_substring(s, p)\n    \nend"

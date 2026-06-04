@@ -1,0 +1,1 @@
+"-spec num_of_subarrays(Arr :: [integer()]) -> integer().\nnum_of_subarrays(Arr) ->\n  ."

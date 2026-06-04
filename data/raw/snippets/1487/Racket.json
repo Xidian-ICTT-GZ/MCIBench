@@ -1,1 +1,0 @@
-"(define/contract (get-folder-names names)\n  (-> (listof string?) (listof string?))\n  )"

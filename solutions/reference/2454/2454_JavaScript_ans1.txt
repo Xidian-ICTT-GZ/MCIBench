@@ -1,0 +1,20 @@
+var secondGreaterElement = function(nums) {
+    const n = nums.length;
+    const res = new Array(n).fill(-1);
+    const stack = [];
+    const q = new MinPriorityQueue();
+    
+    for (let i = 0; i < n; i++) {
+        while (!q.isEmpty() && q.front().element[0] < nums[i]) {
+            res[q.front().element[1]] = nums[i];
+            q.dequeue();
+        }
+        while (stack.length > 0 && nums[stack[stack.length - 1]] < nums[i]) {
+            let x = stack[stack.length - 1]
+            q.enqueue([nums[x], x], nums[x]);
+            stack.pop();
+        }
+        stack.push(i);
+    }
+    return res;
+};

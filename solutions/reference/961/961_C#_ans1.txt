@@ -1,0 +1,12 @@
+public class Solution {
+    public int RepeatedNTimes(int[] nums) {
+        ISet<int> found = new HashSet<int>();
+        foreach (int num in nums) {
+            if (!found.Add(num)) {
+                return num;
+            }
+        }
+        
+        return -1;
+    }
+}

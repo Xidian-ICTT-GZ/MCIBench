@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $flips\n     * @return Integer\n     */\n    function numTimesAllBlue($flips) {\n        \n    }\n}"

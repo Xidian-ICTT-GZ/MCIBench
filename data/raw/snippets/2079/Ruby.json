@@ -1,1 +1,0 @@
-"# @param {Integer[]} plants\n# @param {Integer} capacity\n# @return {Integer}\ndef watering_plants(plants, capacity)\n    \nend"

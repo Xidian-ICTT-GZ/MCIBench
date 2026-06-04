@@ -1,1 +1,0 @@
-"object Solution {\n    def longestSubsequence(arr: Array[Int], difference: Int): Int = {\n        \n    }\n}"

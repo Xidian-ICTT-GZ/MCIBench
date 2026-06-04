@@ -1,1 +1,0 @@
-"-spec count_fair_pairs(Nums :: [integer()], Lower :: integer(), Upper :: integer()) -> integer().\ncount_fair_pairs(Nums, Lower, Upper) ->\n  ."

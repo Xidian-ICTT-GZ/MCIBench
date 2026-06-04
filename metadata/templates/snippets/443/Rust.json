@@ -1,0 +1,1 @@
+"impl Solution {\n    pub fn compress(chars: &mut Vec<char>) -> i32 {\n        \n    }\n}"

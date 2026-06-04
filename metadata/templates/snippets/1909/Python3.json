@@ -1,0 +1,1 @@
+"class Solution:\n    def canBeIncreasing(self, nums: List[int]) -> bool:\n        "

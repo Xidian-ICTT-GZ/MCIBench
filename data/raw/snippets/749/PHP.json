@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[][] $isInfected\n     * @return Integer\n     */\n    function containVirus($isInfected) {\n        \n    }\n}"

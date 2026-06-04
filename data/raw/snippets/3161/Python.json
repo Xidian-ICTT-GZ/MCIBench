@@ -1,1 +1,0 @@
-"class Solution(object):\n    def getResults(self, queries):\n        \"\"\"\n        :type queries: List[List[int]]\n        :rtype: List[bool]\n        \"\"\"\n        "

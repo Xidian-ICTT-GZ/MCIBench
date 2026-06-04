@@ -1,0 +1,1 @@
+"class Solution:\n    def removeTrailingZeros(self, num: str) -> str:\n        "

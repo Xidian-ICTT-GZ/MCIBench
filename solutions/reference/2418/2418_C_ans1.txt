@@ -1,0 +1,21 @@
+int cmp(const void *pa, const void *pb) {
+    int *a = (int *)pa;
+    int *b = (int *)pb;
+    return b[0] - a[0];
+}
+
+char ** sortPeople(char ** names, int namesSize, int* heights, int heightsSize, int* returnSize) {
+    int indices[heightsSize][2];
+    for (int i = 0; i < heightsSize; i++) {
+        indices[i][0] = heights[i];
+        indices[i][1] = i;
+    }
+    qsort(indices, heightsSize, sizeof(indices[0]), cmp);
+    int **res = (int **)malloc(sizeof(char *) * heightsSize);
+    for (int i = 0; i < heightsSize; i++) {
+        int index = indices[i][1];
+        res[i] = names[index];
+    }
+    *returnSize = heightsSize;
+    return res;
+}

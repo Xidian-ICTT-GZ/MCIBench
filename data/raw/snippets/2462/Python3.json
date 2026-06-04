@@ -1,1 +1,0 @@
-"class Solution:\n    def totalCost(self, costs: List[int], k: int, candidates: int) -> int:\n        "

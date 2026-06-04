@@ -1,1 +1,0 @@
-"class Solution:\n    def shortestSuperstring(self, words: List[str]) -> str:\n        "

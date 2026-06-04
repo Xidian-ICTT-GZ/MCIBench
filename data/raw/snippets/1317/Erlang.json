@@ -1,1 +1,0 @@
-"-spec get_no_zero_integers(N :: integer()) -> [integer()].\nget_no_zero_integers(N) ->\n  ."

@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[][] $edges\n     * @param Integer $bob\n     * @param Integer[] $amount\n     * @return Integer\n     */\n    function mostProfitablePath($edges, $bob, $amount) {\n        \n    }\n}"

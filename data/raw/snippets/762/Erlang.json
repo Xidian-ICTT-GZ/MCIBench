@@ -1,1 +1,0 @@
-"-spec count_prime_set_bits(Left :: integer(), Right :: integer()) -> integer().\ncount_prime_set_bits(Left, Right) ->\n  ."

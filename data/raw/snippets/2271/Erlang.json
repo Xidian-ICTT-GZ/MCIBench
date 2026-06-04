@@ -1,1 +1,0 @@
-"-spec maximum_white_tiles(Tiles :: [[integer()]], CarpetLen :: integer()) -> integer().\nmaximum_white_tiles(Tiles, CarpetLen) ->\n  ."

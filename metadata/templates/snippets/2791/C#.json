@@ -1,0 +1,1 @@
+"public class Solution {\n    public long CountPalindromePaths(IList<int> parent, string s) {\n        \n    }\n}"

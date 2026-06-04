@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer $numCourses\n     * @param Integer[][] $prerequisites\n     * @return Boolean\n     */\n    function canFinish($numCourses, $prerequisites) {\n        \n    }\n}"

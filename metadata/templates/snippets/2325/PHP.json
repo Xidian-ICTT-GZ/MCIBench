@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $key\n     * @param String $message\n     * @return String\n     */\n    function decodeMessage($key, $message) {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"-spec min_max_difference(Num :: integer()) -> integer().\nmin_max_difference(Num) ->\n  ."

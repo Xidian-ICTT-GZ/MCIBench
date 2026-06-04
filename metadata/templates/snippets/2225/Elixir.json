@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec find_winners(matches :: [[integer]]) :: [[integer]]\n  def find_winners(matches) do\n    \n  end\nend"

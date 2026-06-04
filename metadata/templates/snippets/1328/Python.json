@@ -1,0 +1,1 @@
+"class Solution(object):\n    def breakPalindrome(self, palindrome):\n        \"\"\"\n        :type palindrome: str\n        :rtype: str\n        \"\"\"\n        "

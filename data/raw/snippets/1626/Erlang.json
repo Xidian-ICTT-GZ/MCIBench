@@ -1,1 +1,0 @@
-"-spec best_team_score(Scores :: [integer()], Ages :: [integer()]) -> integer().\nbest_team_score(Scores, Ages) ->\n  ."

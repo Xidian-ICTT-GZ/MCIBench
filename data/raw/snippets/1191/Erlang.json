@@ -1,1 +1,0 @@
-"-spec k_concatenation_max_sum(Arr :: [integer()], K :: integer()) -> integer().\nk_concatenation_max_sum(Arr, K) ->\n  ."

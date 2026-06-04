@@ -1,1 +1,0 @@
-"-spec max_operations(S :: unicode:unicode_binary()) -> integer().\nmax_operations(S) ->\n  ."

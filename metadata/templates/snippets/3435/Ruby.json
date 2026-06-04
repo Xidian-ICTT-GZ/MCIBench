@@ -1,0 +1,1 @@
+"# @param {String[]} words\n# @return {Integer[][]}\ndef supersequences(words)\n    \nend"

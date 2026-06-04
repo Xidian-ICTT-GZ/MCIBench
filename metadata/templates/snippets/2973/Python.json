@@ -1,0 +1,1 @@
+"class Solution(object):\n    def placedCoins(self, edges, cost):\n        \"\"\"\n        :type edges: List[List[int]]\n        :type cost: List[int]\n        :rtype: List[int]\n        \"\"\"\n        "

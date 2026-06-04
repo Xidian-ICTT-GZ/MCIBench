@@ -1,0 +1,1 @@
+"-spec closed_island(Grid :: [[integer()]]) -> integer().\nclosed_island(Grid) ->\n  ."

@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec get_sum_absolute_differences(nums :: [integer]) :: [integer]\n  def get_sum_absolute_differences(nums) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"# @param {Integer[][]} grid\n# @param {Integer[]} queries\n# @return {Integer[]}\ndef max_points(grid, queries)\n    \nend"

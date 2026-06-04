@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec number_of_permutations(n :: integer, requirements :: [[integer]]) :: integer\n  def number_of_permutations(n, requirements) do\n    \n  end\nend"

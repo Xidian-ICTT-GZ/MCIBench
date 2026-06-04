@@ -1,0 +1,1 @@
+"/**\n * @param {string} queryIP\n * @return {string}\n */\nvar validIPAddress = function(queryIP) {\n    \n};"

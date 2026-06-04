@@ -1,0 +1,21 @@
+int compare(const void *a, const void *b) {
+    return (*(int*)a - *(int*)b);
+}
+
+int minimumAddedInteger(int* nums1, int nums1Size, int* nums2, int nums2Size) {
+    qsort(nums1, nums1Size, sizeof(int), compare);
+    qsort(nums2, nums2Size, sizeof(int), compare);
+    for (int i = 2; i >= 0; --i) {
+        int left = i + 1, right = 1;
+        while (left < nums1Size && right < nums2Size) {
+            if (nums1[left] - nums2[right] == nums1[i] - nums2[0]) {
+                ++right;
+            }
+            ++left;
+        }
+        if (right == nums2Size) {
+            return nums2[0] - nums1[i];
+        }
+    }
+    return 0;
+}

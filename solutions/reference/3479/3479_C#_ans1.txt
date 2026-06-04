@@ -1,0 +1,39 @@
+public class Solution {
+    public int NumOfUnplacedFruits(int[] fruits, int[] baskets) {
+        int n = baskets.Length;
+        int m = (int)Math.Sqrt(n);
+        int section = (n + m - 1) / m;
+        int count = 0;
+        int[] maxV = new int[section];
+        Array.Fill(maxV, 0);
+
+        for (int i = 0; i < n; i++) {
+            maxV[i / m] = Math.Max(maxV[i / m], baskets[i]);
+        }
+
+        foreach (int fruit in fruits) {
+            int unset = 1;
+            for (int sec = 0; sec < section; sec++) {
+                if (maxV[sec] < fruit) {
+                    continue;
+                }
+                int choose = 0;
+                maxV[sec] = 0;
+                for (int i = 0; i < m; i++) {
+                    int pos = sec * m + i;
+                    if (pos < n && baskets[pos] >= fruit && choose == 0) {
+                        baskets[pos] = 0;
+                        choose = 1;
+                    }
+                    if (pos < n) {
+                        maxV[sec] = Math.Max(maxV[sec], baskets[pos]);
+                    }
+                }
+                unset = 0;
+                break;
+            }
+            count += unset;
+        }
+        return count;
+    }
+}

@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer $day\n     * @param Integer $month\n     * @param Integer $year\n     * @return String\n     */\n    function dayOfTheWeek($day, $month, $year) {\n        \n    }\n}"

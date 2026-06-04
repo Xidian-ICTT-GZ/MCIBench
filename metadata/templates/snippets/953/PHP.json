@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String[] $words\n     * @param String $order\n     * @return Boolean\n     */\n    function isAlienSorted($words, $order) {\n        \n    }\n}"

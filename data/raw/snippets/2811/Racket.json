@@ -1,1 +1,0 @@
-"(define/contract (can-split-array nums m)\n  (-> (listof exact-integer?) exact-integer? boolean?)\n  )"

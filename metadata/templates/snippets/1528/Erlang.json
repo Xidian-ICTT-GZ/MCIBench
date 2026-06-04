@@ -1,0 +1,1 @@
+"-spec restore_string(S :: unicode:unicode_binary(), Indices :: [integer()]) -> unicode:unicode_binary().\nrestore_string(S, Indices) ->\n  ."

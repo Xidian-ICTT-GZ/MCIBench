@@ -1,1 +1,0 @@
-"# @param {String} column_title\n# @return {Integer}\ndef title_to_number(column_title)\n    \nend"

@@ -1,0 +1,1 @@
+"class Solution {\n    fun minimumTime(n: Int, relations: Array<IntArray>, time: IntArray): Int {\n        \n    }\n}"

@@ -1,1 +1,0 @@
-"-spec maximum_score(Nums :: [integer()], K :: integer()) -> integer().\nmaximum_score(Nums, K) ->\n  ."

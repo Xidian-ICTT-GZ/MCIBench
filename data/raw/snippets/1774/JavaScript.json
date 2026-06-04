@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} baseCosts\n * @param {number[]} toppingCosts\n * @param {number} target\n * @return {number}\n */\nvar closestCost = function(baseCosts, toppingCosts, target) {\n    \n};"

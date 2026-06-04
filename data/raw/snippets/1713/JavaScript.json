@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} target\n * @param {number[]} arr\n * @return {number}\n */\nvar minOperations = function(target, arr) {\n    \n};"

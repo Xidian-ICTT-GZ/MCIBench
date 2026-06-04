@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    vector<int> numberOfAlternatingGroups(vector<int>& colors, vector<vector<int>>& queries) {\n        \n    }\n};"

@@ -1,0 +1,11 @@
+char * makeSmallestPalindrome(char * s) {
+    int left = 0, right = strlen(s) - 1;
+    while (left < right) {
+        if (s[left] != s[right]) {
+            s[left] = s[right] = fmin(s[left], s[right]);
+        }
+        ++left;
+        --right;
+    }
+    return s;
+}

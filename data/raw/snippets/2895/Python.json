@@ -1,1 +1,0 @@
-"class Solution(object):\n    def minProcessingTime(self, processorTime, tasks):\n        \"\"\"\n        :type processorTime: List[int]\n        :type tasks: List[int]\n        :rtype: int\n        \"\"\"\n        "

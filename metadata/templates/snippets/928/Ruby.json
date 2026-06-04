@@ -1,0 +1,1 @@
+"# @param {Integer[][]} graph\n# @param {Integer[]} initial\n# @return {Integer}\ndef min_malware_spread(graph, initial)\n    \nend"

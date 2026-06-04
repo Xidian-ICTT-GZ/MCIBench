@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec preimage_size_fzf(k :: integer) :: integer\n  def preimage_size_fzf(k) do\n    \n  end\nend"

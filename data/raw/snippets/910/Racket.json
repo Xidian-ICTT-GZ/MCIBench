@@ -1,1 +1,0 @@
-"(define/contract (smallest-range-ii nums k)\n  (-> (listof exact-integer?) exact-integer? exact-integer?)\n  )"

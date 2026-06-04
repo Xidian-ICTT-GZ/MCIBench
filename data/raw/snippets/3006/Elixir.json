@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec beautiful_indices(s :: String.t, a :: String.t, b :: String.t, k :: integer) :: [integer]\n  def beautiful_indices(s, a, b, k) do\n    \n  end\nend"

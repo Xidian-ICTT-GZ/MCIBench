@@ -1,0 +1,1 @@
+"class DataStream(value: Int, k: Int) {\n\n    fun consec(num: Int): Boolean {\n        \n    }\n\n}\n\n/**\n * Your DataStream object will be instantiated and called as such:\n * var obj = DataStream(value, k)\n * var param_1 = obj.consec(num)\n */"

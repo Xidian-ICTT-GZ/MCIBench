@@ -1,1 +1,0 @@
-"(define/contract (triangle-type nums)\n  (-> (listof exact-integer?) string?)\n  )"

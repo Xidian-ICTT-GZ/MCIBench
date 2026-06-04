@@ -1,0 +1,1 @@
+"class Solution {\n    func secondMinimum(n: Int64, edges: Array<Array<Int64>>, time: Int64, change: Int64): Int64 {\n\n    }\n}"

@@ -1,0 +1,31 @@
+int dist(int r1, int c1, int r2, int c2) {
+    return fabs(r1 - r2) + fabs(c1 - c2);
+}
+
+int** allCellsDistOrder(int rows, int cols, int rCenter, int cCenter, int* returnSize, int** returnColumnSizes) {
+    int maxDist = fmax(rCenter, rows - 1 - rCenter) + fmax(cCenter, cols - 1 - cCenter);
+    int* bucket[maxDist + 1][2 * (rows + cols)];
+    int bucketSize[maxDist + 1];
+    memset(bucketSize, 0, sizeof(bucketSize));
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < cols; j++) {
+            int d = dist(i, j, rCenter, cCenter);
+            int* tmp = malloc(sizeof(int) * 2);
+            tmp[0] = i, tmp[1] = j;
+            bucket[d][bucketSize[d]++] = tmp;
+        }
+    }
+
+    int** ret = malloc(sizeof(int*) * rows * cols);
+    *returnColumnSizes = malloc(sizeof(int) * rows * cols);
+    for (int i = 0; i < rows * cols; i++) {
+        (*returnColumnSizes)[i] = 2;
+    }
+    *returnSize = 0;
+    for (int i = 0; i <= maxDist; i++) {
+        for (int j = 0; j < bucketSize[i]; j++) {
+            ret[(*returnSize)++] = bucket[i][j];
+        }
+    }
+    return ret;
+}

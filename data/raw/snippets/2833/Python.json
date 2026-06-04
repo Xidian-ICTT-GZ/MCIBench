@@ -1,1 +1,0 @@
-"class Solution(object):\n    def furthestDistanceFromOrigin(self, moves):\n        \"\"\"\n        :type moves: str\n        :rtype: int\n        \"\"\"\n        "

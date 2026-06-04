@@ -1,0 +1,1 @@
+"-spec maximum_count(Nums :: [integer()]) -> integer().\nmaximum_count(Nums) ->\n  ."

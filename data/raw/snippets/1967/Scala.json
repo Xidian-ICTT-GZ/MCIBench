@@ -1,1 +1,0 @@
-"object Solution {\n    def numOfStrings(patterns: Array[String], word: String): Int = {\n        \n    }\n}"

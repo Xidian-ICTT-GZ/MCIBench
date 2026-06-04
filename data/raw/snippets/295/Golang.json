@@ -1,1 +1,0 @@
-"type MedianFinder struct {\n    \n}\n\n\nfunc Constructor() MedianFinder {\n    \n}\n\n\nfunc (this *MedianFinder) AddNum(num int)  {\n    \n}\n\n\nfunc (this *MedianFinder) FindMedian() float64 {\n    \n}\n\n\n/**\n * Your MedianFinder object will be instantiated and called as such:\n * obj := Constructor();\n * obj.AddNum(num);\n * param_2 := obj.FindMedian();\n */"

@@ -1,0 +1,1 @@
+"-spec update_board(Board :: [[char()]], Click :: [integer()]) -> [[char()]].\nupdate_board(Board, Click) ->\n  ."

@@ -1,1 +1,0 @@
-"-spec similar_pairs(Words :: [unicode:unicode_binary()]) -> integer().\nsimilar_pairs(Words) ->\n  ."

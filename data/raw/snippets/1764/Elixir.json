@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec can_choose(groups :: [[integer]], nums :: [integer]) :: boolean\n  def can_choose(groups, nums) do\n    \n  end\nend"

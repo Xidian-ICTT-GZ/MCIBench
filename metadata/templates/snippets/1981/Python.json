@@ -1,0 +1,1 @@
+"class Solution(object):\n    def minimizeTheDifference(self, mat, target):\n        \"\"\"\n        :type mat: List[List[int]]\n        :type target: int\n        :rtype: int\n        \"\"\"\n        "

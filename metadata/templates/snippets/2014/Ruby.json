@@ -1,0 +1,1 @@
+"# @param {String} s\n# @param {Integer} k\n# @return {String}\ndef longest_subsequence_repeated_k(s, k)\n    \nend"

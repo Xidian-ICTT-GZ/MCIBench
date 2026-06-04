@@ -1,0 +1,1 @@
+"object Solution {\n    def maxRunTime(n: Int, batteries: Array[Int]): Long = {\n        \n    }\n}"

@@ -1,1 +1,0 @@
-"class Solution(object):\n    def closestMeetingNode(self, edges, node1, node2):\n        \"\"\"\n        :type edges: List[int]\n        :type node1: int\n        :type node2: int\n        :rtype: int\n        \"\"\"\n        "

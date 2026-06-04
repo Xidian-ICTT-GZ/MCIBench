@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec delete_greatest_value(grid :: [[integer]]) :: integer\n  def delete_greatest_value(grid) do\n    \n  end\nend"

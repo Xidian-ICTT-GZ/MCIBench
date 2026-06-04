@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[][] $rooms\n     * @return Boolean\n     */\n    function canVisitAllRooms($rooms) {\n        \n    }\n}"

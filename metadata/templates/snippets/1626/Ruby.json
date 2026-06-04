@@ -1,0 +1,1 @@
+"# @param {Integer[]} scores\n# @param {Integer[]} ages\n# @return {Integer}\ndef best_team_score(scores, ages)\n    \nend"

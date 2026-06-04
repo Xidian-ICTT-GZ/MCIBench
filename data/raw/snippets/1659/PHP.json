@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer $m\n     * @param Integer $n\n     * @param Integer $introvertsCount\n     * @param Integer $extrovertsCount\n     * @return Integer\n     */\n    function getMaxGridHappiness($m, $n, $introvertsCount, $extrovertsCount) {\n        \n    }\n}"

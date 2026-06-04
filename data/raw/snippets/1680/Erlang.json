@@ -1,1 +1,0 @@
-"-spec concatenated_binary(N :: integer()) -> integer().\nconcatenated_binary(N) ->\n  ."

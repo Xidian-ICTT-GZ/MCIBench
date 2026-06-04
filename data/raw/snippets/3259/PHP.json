@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $energyDrinkA\n     * @param Integer[] $energyDrinkB\n     * @return Integer\n     */\n    function maxEnergyBoost($energyDrinkA, $energyDrinkB) {\n        \n    }\n}"

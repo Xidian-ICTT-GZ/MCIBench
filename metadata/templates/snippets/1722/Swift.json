@@ -1,0 +1,1 @@
+"class Solution {\n    func minimumHammingDistance(_ source: [Int], _ target: [Int], _ allowedSwaps: [[Int]]) -> Int {\n        \n    }\n}"

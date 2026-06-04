@@ -1,0 +1,1 @@
+"-spec max_satisfaction(Satisfaction :: [integer()]) -> integer().\nmax_satisfaction(Satisfaction) ->\n  ."

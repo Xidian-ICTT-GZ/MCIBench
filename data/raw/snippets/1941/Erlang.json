@@ -1,1 +1,0 @@
-"-spec are_occurrences_equal(S :: unicode:unicode_binary()) -> boolean().\nare_occurrences_equal(S) ->\n  ."

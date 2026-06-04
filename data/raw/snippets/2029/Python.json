@@ -1,1 +1,0 @@
-"class Solution(object):\n    def stoneGameIX(self, stones):\n        \"\"\"\n        :type stones: List[int]\n        :rtype: bool\n        \"\"\"\n        "

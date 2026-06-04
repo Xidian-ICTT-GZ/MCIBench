@@ -1,0 +1,44 @@
+int directions[4][2] = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
+
+int find(int* f, int x) {
+    if (f[x] == x) {
+        return x;
+    }
+    int fa = find(f, f[x]);
+    f[x] = fa;
+    return fa;
+}
+
+void merge(int* f, int x, int y) {
+    int fx = find(f, x), fy = find(f, y);
+    f[fx] = fy;
+}
+
+int swimInWater(int** grid, int gridSize, int* gridColSize) {
+    int f[gridSize * gridSize];
+    for (int i = 0; i < gridSize * gridSize; i++) {
+        f[i] = i;
+    }
+
+    int idx[gridSize * gridSize][2];  
+    for (int i = 0; i < gridSize; i++) {
+        for (int j = 0; j < gridSize; j++) {
+            idx[grid[i][j]][0] = i;
+            idx[grid[i][j]][1] = j;
+        }
+    }
+
+    for (int threshold = 0; threshold < gridSize * gridSize; threshold++) {
+        int i = idx[threshold][0], j = idx[threshold][1];
+        for (int k = 0; k < 4; k++) {
+            int ni = i + directions[k][0], nj = j + directions[k][1];
+            if (ni >= 0 && ni < gridSize && nj >= 0 && nj < gridSize && grid[ni][nj] <= threshold) {
+                merge(f, i * gridSize + j, ni * gridSize + nj);
+            }
+        }
+        if (find(f, 0) == find(f, gridSize * gridSize - 1)) {
+            return threshold;
+        }
+    }
+    return -1;  
+}

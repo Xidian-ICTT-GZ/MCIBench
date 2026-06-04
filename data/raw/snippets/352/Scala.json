@@ -1,1 +1,0 @@
-"class SummaryRanges() {\n\n    def addNum(value: Int): Unit = {\n        \n    }\n\n    def getIntervals(): Array[Array[Int]] = {\n        \n    }\n\n}\n\n/**\n * Your SummaryRanges object will be instantiated and called as such:\n * val obj = new SummaryRanges()\n * obj.addNum(value)\n * val param_2 = obj.getIntervals()\n */"

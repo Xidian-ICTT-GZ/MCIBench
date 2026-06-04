@@ -1,1 +1,0 @@
-"class Solution:\n    def reportSpam(self, message: List[str], bannedWords: List[str]) -> bool:\n        "

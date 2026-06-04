@@ -1,9 +1,0 @@
-var countAlternatingSubarrays = function(nums) {
-    let res = 0, cur = 0, pre = -1;
-    for (const a of nums) {
-        cur = (pre != a) ? cur + 1 : 1;
-        pre = a;
-        res += cur;
-    }
-    return res;
-};

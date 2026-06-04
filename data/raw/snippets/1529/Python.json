@@ -1,1 +1,0 @@
-"class Solution(object):\n    def minFlips(self, target):\n        \"\"\"\n        :type target: str\n        :rtype: int\n        \"\"\"\n        "

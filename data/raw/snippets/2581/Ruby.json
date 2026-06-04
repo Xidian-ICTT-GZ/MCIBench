@@ -1,1 +1,0 @@
-"# @param {Integer[][]} edges\n# @param {Integer[][]} guesses\n# @param {Integer} k\n# @return {Integer}\ndef root_count(edges, guesses, k)\n    \nend"

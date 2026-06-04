@@ -1,0 +1,1 @@
+"(define/contract (has-valid-path grid)\n  (-> (listof (listof exact-integer?)) boolean?)\n  )"

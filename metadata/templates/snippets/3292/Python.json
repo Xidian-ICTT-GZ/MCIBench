@@ -1,0 +1,1 @@
+"class Solution(object):\n    def minValidStrings(self, words, target):\n        \"\"\"\n        :type words: List[str]\n        :type target: str\n        :rtype: int\n        \"\"\"\n        "

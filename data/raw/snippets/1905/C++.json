@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    int countSubIslands(vector<vector<int>>& grid1, vector<vector<int>>& grid2) {\n        \n    }\n};"

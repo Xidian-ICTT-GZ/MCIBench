@@ -1,0 +1,28 @@
+public class Solution {
+    public bool CanBeEqual(int[] target, int[] arr) {
+        Dictionary<int, int> counts1 = new Dictionary<int, int>();
+        Dictionary<int, int> counts2 = new Dictionary<int, int>();
+        foreach (int num in target) {
+            if (!counts1.ContainsKey(num)) {
+                counts1.Add(num, 0);
+            }
+            counts1[num]++;
+        }
+        foreach (int num in arr) {
+            if (!counts2.ContainsKey(num)) {
+                counts2.Add(num, 0);
+            }
+            counts2[num]++;
+        }
+        if (counts1.Count != counts2.Count) {
+            return false;
+        }
+        foreach (KeyValuePair<int, int> pair in counts1) {
+            int key = pair.Key, value = pair.Value;
+            if (!counts2.ContainsKey(key) || counts2[key] != value) {
+                return false;
+            }
+        }
+        return true;
+    }
+}

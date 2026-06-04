@@ -1,1 +1,0 @@
-"-spec equal_substring(S :: unicode:unicode_binary(), T :: unicode:unicode_binary(), MaxCost :: integer()) -> integer().\nequal_substring(S, T, MaxCost) ->\n  ."

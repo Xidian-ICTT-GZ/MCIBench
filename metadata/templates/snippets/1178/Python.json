@@ -1,0 +1,1 @@
+"class Solution(object):\n    def findNumOfValidWords(self, words, puzzles):\n        \"\"\"\n        :type words: List[str]\n        :type puzzles: List[str]\n        :rtype: List[int]\n        \"\"\"\n        "

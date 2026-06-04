@@ -1,0 +1,1 @@
+"object Solution {\n    def maxSum(nums: Array[Int], k: Int, m: Int): Int = {\n        \n    }\n}"

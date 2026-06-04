@@ -1,0 +1,1 @@
+"class Solution(object):\n    def minimumOperationsToMakeKPeriodic(self, word, k):\n        \"\"\"\n        :type word: str\n        :type k: int\n        :rtype: int\n        \"\"\"\n        "

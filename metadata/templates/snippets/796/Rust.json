@@ -1,0 +1,1 @@
+"impl Solution {\n    pub fn rotate_string(s: String, goal: String) -> bool {\n        \n    }\n}"

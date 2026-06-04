@@ -1,0 +1,24 @@
+int countGoodTriplets(int* arr, int arrSize, int a, int b, int c) {
+    int ans = 0;
+    int sum[1001] = {0};
+    for (int j = 0; j < arrSize; ++j) {
+        for (int k = j + 1; k < arrSize; ++k) {
+            if (abs(arr[j] - arr[k]) <= b) {
+                int lj = arr[j] - a, rj = arr[j] + a;
+                int lk = arr[k] - c, rk = arr[k] + c;
+                int l = fmax(0, fmax(lj, lk)), r = fmin(1000, fmin(rj, rk));
+                if (l <= r) {
+                    if (l == 0) {
+                        ans += sum[r];
+                    } else {
+                        ans += sum[r] - sum[l - 1];
+                    }
+                }
+            }
+        }
+        for (int k = arr[j]; k <= 1000; ++k) {
+            ++sum[k];
+        }
+    }
+    return ans;
+}

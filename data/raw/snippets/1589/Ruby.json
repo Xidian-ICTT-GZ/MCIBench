@@ -1,1 +1,0 @@
-"# @param {Integer[]} nums\n# @param {Integer[][]} requests\n# @return {Integer}\ndef max_sum_range_query(nums, requests)\n    \nend"

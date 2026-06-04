@@ -1,1 +1,0 @@
-"/**\n * @param {string} s\n * @param {string[]} words\n * @return {boolean}\n */\nvar isPrefixString = function(s, words) {\n    \n};"

@@ -1,0 +1,1 @@
+"class Solution {\n  int maximumRobots(List<int> chargeTimes, List<int> runningCosts, int budget) {\n    \n  }\n}"

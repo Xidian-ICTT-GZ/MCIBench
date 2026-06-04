@@ -1,1 +1,0 @@
-"-spec max_compatibility_sum(Students :: [[integer()]], Mentors :: [[integer()]]) -> integer().\nmax_compatibility_sum(Students, Mentors) ->\n  ."

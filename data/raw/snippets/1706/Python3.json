@@ -1,1 +1,0 @@
-"class Solution:\n    def findBall(self, grid: List[List[int]]) -> List[int]:\n        "

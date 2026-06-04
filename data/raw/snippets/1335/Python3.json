@@ -1,1 +1,0 @@
-"class Solution:\n    def minDifficulty(self, jobDifficulty: List[int], d: int) -> int:\n        "

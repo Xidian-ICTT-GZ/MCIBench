@@ -1,1 +1,0 @@
-"(define/contract (check-x-matrix grid)\n  (-> (listof (listof exact-integer?)) boolean?)\n  )"

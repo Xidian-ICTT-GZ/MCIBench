@@ -1,0 +1,26 @@
+function getF(x) {
+    if (x === 1) {
+        return 0;
+    }
+    if (x & 1) {
+        return getF(x * 3 + 1) + 1;
+    } else {
+        return getF(Math.floor(x / 2)) + 1;
+    }
+}
+
+var getKth = function(lo, hi, k) {
+    let v = [];
+    for (let i = lo; i <= hi; i++) {
+        v.push(i);
+    }
+    v.sort((u, v) => {
+        let f1 = getF(u);
+        let f2 = getF(v);
+        if (f1 !== f2) {
+            return f1 - f2;
+        }
+        return u - v;
+    });
+    return v[k - 1];
+};

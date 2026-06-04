@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<int> countVisitedNodes(vector<int>& edges) {\n        \n    }\n};"

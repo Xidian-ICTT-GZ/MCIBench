@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec solve_queries(nums :: [integer], queries :: [integer]) :: [integer]\n  def solve_queries(nums, queries) do\n    \n  end\nend"

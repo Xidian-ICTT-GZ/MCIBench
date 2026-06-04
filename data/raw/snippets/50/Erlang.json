@@ -1,1 +1,0 @@
-"-spec my_pow(X :: float(), N :: integer()) -> float().\nmy_pow(X, N) ->\n  ."

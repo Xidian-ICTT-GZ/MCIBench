@@ -1,1 +1,0 @@
-"-spec make_equal(Words :: [unicode:unicode_binary()]) -> boolean().\nmake_equal(Words) ->\n  ."

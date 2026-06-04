@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec unique_paths(m :: integer, n :: integer) :: integer\n  def unique_paths(m, n) do\n    \n  end\nend"

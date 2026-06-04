@@ -1,1 +1,0 @@
-"class MyCalendar {\npublic:\n    MyCalendar() {\n        \n    }\n    \n    bool book(int startTime, int endTime) {\n        \n    }\n};\n\n/**\n * Your MyCalendar object will be instantiated and called as such:\n * MyCalendar* obj = new MyCalendar();\n * bool param_1 = obj->book(startTime,endTime);\n */"

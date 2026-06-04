@@ -1,0 +1,1 @@
+"class Solution {\n    fun findCrossingTime(n: Int, k: Int, time: Array<IntArray>): Int {\n        \n    }\n}"

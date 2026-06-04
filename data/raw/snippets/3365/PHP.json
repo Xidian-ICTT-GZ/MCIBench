@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String $s\n     * @param String $t\n     * @param Integer $k\n     * @return Boolean\n     */\n    function isPossibleToRearrange($s, $t, $k) {\n        \n    }\n}"

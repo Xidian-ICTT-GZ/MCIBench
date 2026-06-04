@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec minimum_delete_sum(s1 :: String.t, s2 :: String.t) :: integer\n  def minimum_delete_sum(s1, s2) do\n    \n  end\nend"

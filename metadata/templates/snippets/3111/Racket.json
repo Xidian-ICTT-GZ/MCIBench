@@ -1,0 +1,1 @@
+"(define/contract (min-rectangles-to-cover-points points w)\n  (-> (listof (listof exact-integer?)) exact-integer? exact-integer?)\n  )"

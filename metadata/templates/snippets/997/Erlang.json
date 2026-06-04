@@ -1,0 +1,1 @@
+"-spec find_judge(N :: integer(), Trust :: [[integer()]]) -> integer().\nfind_judge(N, Trust) ->\n  ."

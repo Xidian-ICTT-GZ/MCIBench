@@ -1,1 +1,0 @@
-"-spec min_deletion_size(Strs :: [unicode:unicode_binary()]) -> integer().\nmin_deletion_size(Strs) ->\n  ."

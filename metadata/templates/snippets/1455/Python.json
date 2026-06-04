@@ -1,0 +1,1 @@
+"class Solution(object):\n    def isPrefixOfWord(self, sentence, searchWord):\n        \"\"\"\n        :type sentence: str\n        :type searchWord: str\n        :rtype: int\n        \"\"\"\n        "

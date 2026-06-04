@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} arr\n * @param {number} difference\n * @return {number}\n */\nvar longestSubsequence = function(arr, difference) {\n    \n};"

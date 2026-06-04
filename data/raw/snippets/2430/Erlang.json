@@ -1,1 +1,0 @@
-"-spec delete_string(S :: unicode:unicode_binary()) -> integer().\ndelete_string(S) ->\n  ."

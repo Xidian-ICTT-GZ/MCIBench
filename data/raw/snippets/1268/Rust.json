@@ -1,1 +1,0 @@
-"impl Solution {\n    pub fn suggested_products(products: Vec<String>, search_word: String) -> Vec<Vec<String>> {\n        \n    }\n}"

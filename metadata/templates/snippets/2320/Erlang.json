@@ -1,0 +1,1 @@
+"-spec count_house_placements(N :: integer()) -> integer().\ncount_house_placements(N) ->\n  ."

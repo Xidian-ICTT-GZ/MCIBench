@@ -1,0 +1,1 @@
+"class Solution(object):\n    def minimumRefill(self, plants, capacityA, capacityB):\n        \"\"\"\n        :type plants: List[int]\n        :type capacityA: int\n        :type capacityB: int\n        :rtype: int\n        \"\"\"\n        "

@@ -1,1 +1,0 @@
-"class Solution(object):\n    def evalRPN(self, tokens):\n        \"\"\"\n        :type tokens: List[str]\n        :rtype: int\n        \"\"\"\n        "

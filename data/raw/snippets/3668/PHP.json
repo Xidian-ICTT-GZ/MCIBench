@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $order\n     * @param Integer[] $friends\n     * @return Integer[]\n     */\n    function recoverOrder($order, $friends) {\n        \n    }\n}"

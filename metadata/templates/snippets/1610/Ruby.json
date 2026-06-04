@@ -1,0 +1,1 @@
+"# @param {Integer[][]} points\n# @param {Integer} angle\n# @param {Integer[]} location\n# @return {Integer}\ndef visible_points(points, angle, location)\n    \nend"

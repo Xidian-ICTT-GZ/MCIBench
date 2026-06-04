@@ -1,0 +1,1 @@
+"class Solution {\n    func closestTarget(words: Array<String>, target: String, startIndex: Int64): Int64 {\n\n    }\n}"

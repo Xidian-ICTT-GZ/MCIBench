@@ -1,0 +1,1 @@
+"class Solution:\n    def minimumWhiteTiles(self, floor: str, numCarpets: int, carpetLen: int) -> int:\n        "

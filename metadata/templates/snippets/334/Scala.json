@@ -1,0 +1,1 @@
+"object Solution {\n    def increasingTriplet(nums: Array[Int]): Boolean = {\n        \n    }\n}"

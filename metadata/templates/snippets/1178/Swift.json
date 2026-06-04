@@ -1,0 +1,1 @@
+"class Solution {\n    func findNumOfValidWords(_ words: [String], _ puzzles: [String]) -> [Int] {\n        \n    }\n}"

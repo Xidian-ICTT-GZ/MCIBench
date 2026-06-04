@@ -1,1 +1,0 @@
-"-spec handle_query(Nums1 :: [integer()], Nums2 :: [integer()], Queries :: [[integer()]]) -> [integer()].\nhandle_query(Nums1, Nums2, Queries) ->\n  ."

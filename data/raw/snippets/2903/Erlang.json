@@ -1,1 +1,0 @@
-"-spec find_indices(Nums :: [integer()], IndexDifference :: integer(), ValueDifference :: integer()) -> [integer()].\nfind_indices(Nums, IndexDifference, ValueDifference) ->\n  ."

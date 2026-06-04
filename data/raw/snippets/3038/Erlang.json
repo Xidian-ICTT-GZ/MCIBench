@@ -1,1 +1,0 @@
-"-spec max_operations(Nums :: [integer()]) -> integer().\nmax_operations(Nums) ->\n  ."

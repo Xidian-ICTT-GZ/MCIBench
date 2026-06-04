@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec match_replacement(s :: String.t, sub :: String.t, mappings :: [[char]]) :: boolean\n  def match_replacement(s, sub, mappings) do\n    \n  end\nend"

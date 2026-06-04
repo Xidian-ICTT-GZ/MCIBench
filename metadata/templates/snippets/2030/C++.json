@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    string smallestSubsequence(string s, int k, char letter, int repetition) {\n        \n    }\n};"

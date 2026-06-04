@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $n\n     * @param Integer[][] $preferences\n     * @param Integer[][] $pairs\n     * @return Integer\n     */\n    function unhappyFriends($n, $preferences, $pairs) {\n        \n    }\n}"

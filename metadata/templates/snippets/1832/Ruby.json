@@ -1,0 +1,1 @@
+"# @param {String} sentence\n# @return {Boolean}\ndef check_if_pangram(sentence)\n    \nend"

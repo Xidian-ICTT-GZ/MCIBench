@@ -1,1 +1,0 @@
-"-spec num_of_arrays(N :: integer(), M :: integer(), K :: integer()) -> integer().\nnum_of_arrays(N, M, K) ->\n  ."

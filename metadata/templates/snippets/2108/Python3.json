@@ -1,0 +1,1 @@
+"class Solution:\n    def firstPalindrome(self, words: List[str]) -> str:\n        "

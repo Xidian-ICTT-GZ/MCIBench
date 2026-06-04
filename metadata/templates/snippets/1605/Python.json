@@ -1,0 +1,1 @@
+"class Solution(object):\n    def restoreMatrix(self, rowSum, colSum):\n        \"\"\"\n        :type rowSum: List[int]\n        :type colSum: List[int]\n        :rtype: List[List[int]]\n        \"\"\"\n        "

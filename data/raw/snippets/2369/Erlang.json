@@ -1,1 +1,0 @@
-"-spec valid_partition(Nums :: [integer()]) -> boolean().\nvalid_partition(Nums) ->\n  ."

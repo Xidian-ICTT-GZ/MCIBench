@@ -1,0 +1,34 @@
+public class Solution {
+    public long DistinctNames(string[] ideas) {
+        IDictionary<char, ISet<string>> names = new Dictionary<char, ISet<string>>();
+        foreach (string idea in ideas) {
+            names.TryAdd(idea[0], new HashSet<string>());
+            names[idea[0]].Add(idea.Substring(1));
+        }
+        long ans = 0;
+        foreach (KeyValuePair<char, ISet<string>> pairA in names) {
+            char preA = pairA.Key;
+            ISet<string> setA = pairA.Value;
+            foreach (KeyValuePair<char, ISet<string>> pairB in names) {
+                char preB = pairB.Key;
+                ISet<string> setB = pairB.Value;
+                if (preA == preB) {
+                    continue;
+                }
+                int intersect = GetIntersectSize(setA, setB);
+                ans += (long) (setA.Count - intersect) * (setB.Count - intersect);
+            }
+        }
+        return ans;
+    }
+
+    public int GetIntersectSize(ISet<string> a, ISet<string> b) {
+        int ans = 0;
+        foreach (string s in a) {
+            if (b.Contains(s)) {
+                ans++;
+            }
+        }
+        return ans;
+    }
+}

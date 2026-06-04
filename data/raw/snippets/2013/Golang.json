@@ -1,1 +1,0 @@
-"type DetectSquares struct {\n    \n}\n\n\nfunc Constructor() DetectSquares {\n    \n}\n\n\nfunc (this *DetectSquares) Add(point []int)  {\n    \n}\n\n\nfunc (this *DetectSquares) Count(point []int) int {\n    \n}\n\n\n/**\n * Your DetectSquares object will be instantiated and called as such:\n * obj := Constructor();\n * obj.Add(point);\n * param_2 := obj.Count(point);\n */"

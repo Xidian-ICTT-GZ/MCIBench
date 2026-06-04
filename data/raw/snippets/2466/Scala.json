@@ -1,1 +1,0 @@
-"object Solution {\n    def countGoodStrings(low: Int, high: Int, zero: Int, one: Int): Int = {\n        \n    }\n}"

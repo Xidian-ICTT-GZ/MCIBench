@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int maxSumTwoNoOverlap(vector<int>& nums, int firstLen, int secondLen) {\n        \n    }\n};"

@@ -1,1 +1,0 @@
-"impl Solution {\n    pub fn result_grid(image: Vec<Vec<i32>>, threshold: i32) -> Vec<Vec<i32>> {\n        \n    }\n}"

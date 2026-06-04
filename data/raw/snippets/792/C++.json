@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    int numMatchingSubseq(string s, vector<string>& words) {\n        \n    }\n};"

@@ -1,1 +1,0 @@
-"class CountIntervals {\n\n  CountIntervals() {\n    \n  }\n  \n  void add(int left, int right) {\n    \n  }\n  \n  int count() {\n    \n  }\n}\n\n/**\n * Your CountIntervals object will be instantiated and called as such:\n * CountIntervals obj = CountIntervals();\n * obj.add(left,right);\n * int param2 = obj.count();\n */"

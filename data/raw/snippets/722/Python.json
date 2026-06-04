@@ -1,1 +1,0 @@
-"class Solution(object):\n    def removeComments(self, source):\n        \"\"\"\n        :type source: List[str]\n        :rtype: List[str]\n        \"\"\"\n        "

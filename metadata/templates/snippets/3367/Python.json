@@ -1,0 +1,1 @@
+"class Solution(object):\n    def maximizeSumOfWeights(self, edges, k):\n        \"\"\"\n        :type edges: List[List[int]]\n        :type k: int\n        :rtype: int\n        \"\"\"\n        "

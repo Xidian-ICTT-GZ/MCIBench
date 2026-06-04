@@ -1,1 +1,0 @@
-"# @param {Integer[][]} matrix\n# @return {Integer}\ndef min_falling_path_sum(matrix)\n    \nend"

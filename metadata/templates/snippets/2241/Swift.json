@@ -1,0 +1,1 @@
+"\nclass ATM {\n\n    init() {\n        \n    }\n    \n    func deposit(_ banknotesCount: [Int]) {\n        \n    }\n    \n    func withdraw(_ amount: Int) -> [Int] {\n        \n    }\n}\n\n/**\n * Your ATM object will be instantiated and called as such:\n * let obj = ATM()\n * obj.deposit(banknotesCount)\n * let ret_2: [Int] = obj.withdraw(amount)\n */"

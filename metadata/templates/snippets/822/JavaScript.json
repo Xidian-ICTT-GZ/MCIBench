@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} fronts\n * @param {number[]} backs\n * @return {number}\n */\nvar flipgame = function(fronts, backs) {\n    \n};"

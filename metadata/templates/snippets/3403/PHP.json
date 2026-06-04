@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $word\n     * @param Integer $numFriends\n     * @return String\n     */\n    function answerString($word, $numFriends) {\n        \n    }\n}"

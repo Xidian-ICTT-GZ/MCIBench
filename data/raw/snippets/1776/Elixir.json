@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec get_collision_times(cars :: [[integer]]) :: [float]\n  def get_collision_times(cars) do\n    \n  end\nend"

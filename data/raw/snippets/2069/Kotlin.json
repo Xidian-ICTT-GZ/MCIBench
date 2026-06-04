@@ -1,1 +1,0 @@
-"class Robot(width: Int, height: Int) {\n\n    fun step(num: Int) {\n        \n    }\n\n    fun getPos(): IntArray {\n        \n    }\n\n    fun getDir(): String {\n        \n    }\n\n}\n\n/**\n * Your Robot object will be instantiated and called as such:\n * var obj = Robot(width, height)\n * obj.step(num)\n * var param_2 = obj.getPos()\n * var param_3 = obj.getDir()\n */"

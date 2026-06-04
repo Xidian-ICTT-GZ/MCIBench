@@ -1,0 +1,1 @@
+"-spec construct_grid_layout(N :: integer(), Edges :: [[integer()]]) -> [[integer()]].\nconstruct_grid_layout(N, Edges) ->\n  ."

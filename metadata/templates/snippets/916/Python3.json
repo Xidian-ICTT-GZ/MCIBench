@@ -1,0 +1,1 @@
+"class Solution:\n    def wordSubsets(self, words1: List[str], words2: List[str]) -> List[str]:\n        "

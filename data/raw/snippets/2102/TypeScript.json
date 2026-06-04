@@ -1,1 +1,0 @@
-"class SORTracker {\n    constructor() {\n        \n    }\n\n    add(name: string, score: number): void {\n        \n    }\n\n    get(): string {\n        \n    }\n}\n\n/**\n * Your SORTracker object will be instantiated and called as such:\n * var obj = new SORTracker()\n * obj.add(name,score)\n * var param_2 = obj.get()\n */"

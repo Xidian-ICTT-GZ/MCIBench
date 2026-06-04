@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec min_number_of_semesters(n :: integer, relations :: [[integer]], k :: integer) :: integer\n  def min_number_of_semesters(n, relations, k) do\n    \n  end\nend"

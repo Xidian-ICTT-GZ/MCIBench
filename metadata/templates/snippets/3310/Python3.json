@@ -1,0 +1,1 @@
+"class Solution:\n    def remainingMethods(self, n: int, k: int, invocations: List[List[int]]) -> List[int]:\n        "

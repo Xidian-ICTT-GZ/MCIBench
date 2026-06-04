@@ -1,1 +1,0 @@
-"-spec appeal_sum(S :: unicode:unicode_binary()) -> integer().\nappeal_sum(S) ->\n  ."

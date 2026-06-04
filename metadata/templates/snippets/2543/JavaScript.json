@@ -1,0 +1,1 @@
+"/**\n * @param {number} targetX\n * @param {number} targetY\n * @return {boolean}\n */\nvar isReachable = function(targetX, targetY) {\n    \n};"

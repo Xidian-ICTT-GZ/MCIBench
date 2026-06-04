@@ -1,0 +1,1 @@
+"object Solution {\n    def minOperations(grid: Array[Array[Int]], x: Int): Int = {\n        \n    }\n}"

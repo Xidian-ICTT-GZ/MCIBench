@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec subarrays_with_k_distinct(nums :: [integer], k :: integer) :: integer\n  def subarrays_with_k_distinct(nums, k) do\n    \n  end\nend"

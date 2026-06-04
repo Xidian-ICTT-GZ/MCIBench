@@ -1,1 +1,0 @@
-"class Solution:\n    def maxScore(self, grid: List[List[int]]) -> int:\n        "

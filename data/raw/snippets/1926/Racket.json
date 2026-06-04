@@ -1,1 +1,0 @@
-"(define/contract (nearest-exit maze entrance)\n  (-> (listof (listof char?)) (listof exact-integer?) exact-integer?)\n  )"

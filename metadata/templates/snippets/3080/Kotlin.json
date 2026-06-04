@@ -1,0 +1,1 @@
+"class Solution {\n    fun unmarkedSumArray(nums: IntArray, queries: Array<IntArray>): LongArray {\n        \n    }\n}"

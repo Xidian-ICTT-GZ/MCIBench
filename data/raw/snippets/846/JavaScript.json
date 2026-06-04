@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} hand\n * @param {number} groupSize\n * @return {boolean}\n */\nvar isNStraightHand = function(hand, groupSize) {\n    \n};"

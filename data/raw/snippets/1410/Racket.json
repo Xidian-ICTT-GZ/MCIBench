@@ -1,1 +1,0 @@
-"(define/contract (entity-parser text)\n  (-> string? string?)\n  )"

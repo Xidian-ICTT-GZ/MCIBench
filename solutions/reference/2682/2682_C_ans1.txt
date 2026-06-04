@@ -1,0 +1,17 @@
+int* circularGameLosers(int n, int k, int* returnSize) {
+    bool visit[n];
+    memset(visit, 0, sizeof(visit));
+    for (int i = k, j = 0; !visit[j]; i += k) {
+        visit[j] = true;
+        j = (j + i) % n;
+    }
+    int *ans = (int *)malloc(sizeof(int) * n);
+    int pos = 0;
+    for (int i = 0; i < n; i++) {
+        if (!visit[i]) {
+            ans[pos++] = i + 1;
+        }
+    }
+    *returnSize = pos;
+    return ans;
+}

@@ -1,0 +1,1 @@
+"public class Solution {\n    public long MaxOutput(int n, int[][] edges, int[] price) {\n        \n    }\n}"

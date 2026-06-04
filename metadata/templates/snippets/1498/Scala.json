@@ -1,0 +1,1 @@
+"object Solution {\n    def numSubseq(nums: Array[Int], target: Int): Int = {\n        \n    }\n}"

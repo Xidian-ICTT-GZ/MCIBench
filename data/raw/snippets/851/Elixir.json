@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec loud_and_rich(richer :: [[integer]], quiet :: [integer]) :: [integer]\n  def loud_and_rich(richer, quiet) do\n    \n  end\nend"

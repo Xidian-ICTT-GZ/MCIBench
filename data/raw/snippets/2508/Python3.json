@@ -1,1 +1,0 @@
-"class Solution:\n    def isPossible(self, n: int, edges: List[List[int]]) -> bool:\n        "

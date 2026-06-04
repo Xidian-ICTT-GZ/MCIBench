@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec eliminate_maximum(dist :: [integer], speed :: [integer]) :: integer\n  def eliminate_maximum(dist, speed) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nbool* camelMatch(char** queries, int queriesSize, char* pattern, int* returnSize) {\n    \n}"

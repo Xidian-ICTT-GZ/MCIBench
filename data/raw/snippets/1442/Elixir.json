@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec count_triplets(arr :: [integer]) :: integer\n  def count_triplets(arr) do\n    \n  end\nend"

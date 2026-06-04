@@ -1,1 +1,0 @@
-"-spec triangle_type(Nums :: [integer()]) -> unicode:unicode_binary().\ntriangle_type(Nums) ->\n  ."

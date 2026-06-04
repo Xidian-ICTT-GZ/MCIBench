@@ -1,1 +1,0 @@
-"# @param {Integer[]} time_series\n# @param {Integer} duration\n# @return {Integer}\ndef find_poisoned_duration(time_series, duration)\n    \nend"

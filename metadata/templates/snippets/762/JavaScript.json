@@ -1,0 +1,1 @@
+"/**\n * @param {number} left\n * @param {number} right\n * @return {number}\n */\nvar countPrimeSetBits = function(left, right) {\n    \n};"

@@ -1,1 +1,0 @@
-"(define/contract (count-distinct nums k p)\n  (-> (listof exact-integer?) exact-integer? exact-integer? exact-integer?)\n  )"

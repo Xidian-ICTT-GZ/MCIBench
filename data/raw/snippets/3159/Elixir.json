@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec occurrences_of_element(nums :: [integer], queries :: [integer], x :: integer) :: [integer]\n  def occurrences_of_element(nums, queries, x) do\n    \n  end\nend"

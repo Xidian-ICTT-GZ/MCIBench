@@ -1,1 +1,0 @@
-"type JSONValue = null | boolean | number | string | JSONValue[] | { [key: string]: JSONValue };\ntype ArrayType = { \"id\": number } & Record<string, JSONValue>;\n\nfunction join(arr1: ArrayType[], arr2: ArrayType[]): ArrayType[] {\n    \n};"

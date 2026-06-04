@@ -1,0 +1,1 @@
+"/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* minCosts(int* cost, int costSize, int* returnSize) {\n    \n}"

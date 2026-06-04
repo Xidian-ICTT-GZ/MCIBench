@@ -1,1 +1,0 @@
-"(define/contract (shortest-alternating-paths n redEdges blueEdges)\n  (-> exact-integer? (listof (listof exact-integer?)) (listof (listof exact-integer?)) (listof exact-integer?))\n  )"

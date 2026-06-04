@@ -1,0 +1,1 @@
+"object Solution {\n    def haveConflict(event1: Array[String], event2: Array[String]): Boolean = {\n        \n    }\n}"

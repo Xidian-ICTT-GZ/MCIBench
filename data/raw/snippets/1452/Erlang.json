@@ -1,1 +1,0 @@
-"-spec people_indexes(FavoriteCompanies :: [[unicode:unicode_binary()]]) -> [integer()].\npeople_indexes(FavoriteCompanies) ->\n  ."

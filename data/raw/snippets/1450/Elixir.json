@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec busy_student(start_time :: [integer], end_time :: [integer], query_time :: integer) :: integer\n  def busy_student(start_time, end_time, query_time) do\n    \n  end\nend"

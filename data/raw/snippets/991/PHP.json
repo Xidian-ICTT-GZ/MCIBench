@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer $startValue\n     * @param Integer $target\n     * @return Integer\n     */\n    function brokenCalc($startValue, $target) {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $n\n     * @param Integer[][] $edges\n     * @param Integer $time\n     * @param Integer $change\n     * @return Integer\n     */\n    function secondMinimum($n, $edges, $time, $change) {\n        \n    }\n}"

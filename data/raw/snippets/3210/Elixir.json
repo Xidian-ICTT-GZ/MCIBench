@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec get_encrypted_string(s :: String.t, k :: integer) :: String.t\n  def get_encrypted_string(s, k) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"class Solution {\n    fun queryResults(limit: Int, queries: Array<IntArray>): IntArray {\n        \n    }\n}"

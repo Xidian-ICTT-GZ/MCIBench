@@ -1,0 +1,41 @@
+var Solution = function(m, n) {
+    this.m = m;
+    this.n = n;
+    this.total = m * n;
+    this.bucketSize = Math.floor(Math.sqrt(this.total));
+    this.buckets = [];
+    for (let i = 0; i < this.total; i += this.bucketSize) {
+        this.buckets.push(new Set());
+    }
+};
+
+Solution.prototype.flip = function() {
+    const x = Math.floor(Math.random() * this.total);
+    let sumZero = 0;
+    let curr = 0;
+    this.total--;
+
+    for (const bucket of this.buckets) {
+        if (sumZero + this.bucketSize - bucket.size > x) {
+            for (let i = 0; i < this.bucketSize; ++i) {
+                if (!bucket.has(curr + i)) {
+                    if (sumZero === x) {
+                        bucket.add(curr + i);
+                        return [Math.floor((curr + i) / this.n), (curr + i) % this.n];
+                    } 
+                    sumZero++;
+                }
+            }
+        }
+        curr += this.bucketSize;
+        sumZero += this.bucketSize - bucket.size;
+    }
+    return undefined;
+};
+
+Solution.prototype.reset = function() {
+    this.total = this.m * this.n;
+    for (const bucket of this.buckets) {
+        bucket.clear();
+    }
+};

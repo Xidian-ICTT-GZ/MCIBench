@@ -1,1 +1,0 @@
-"-spec racecar(Target :: integer()) -> integer().\nracecar(Target) ->\n  ."

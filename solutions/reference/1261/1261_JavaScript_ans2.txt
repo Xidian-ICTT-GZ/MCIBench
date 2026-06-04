@@ -1,0 +1,36 @@
+var FindElements = function(root) {
+    const dfs = (node, val) => {
+        if (node == null) {
+            return;
+        }
+        node.val = val;
+        dfs(node.left, val * 2 + 1)
+        dfs(node.right, val * 2 + 2)
+    }
+    dfs(root, 0);
+    this.root = root
+};
+
+FindElements.prototype.find = function(target) {
+    target++;
+    let k = 30 - numberOfLeadingZeros(target);
+    let node = this.root;
+    while (k >= 0 && node != null) {
+        if ((target & (1 << k)) == 0) {
+            node = node.left;
+        } else {
+            node = node.right;
+        }
+        k--;
+    }
+    return node != null;
+};
+
+function numberOfLeadingZeros(value) {
+    let count = 0;
+    while (value > 0) {
+        value = value >>> 1; 
+        count++;
+    }
+    return 32 - count;
+}

@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String[][] $orders\n     * @return String[][]\n     */\n    function displayTable($orders) {\n        \n    }\n}"

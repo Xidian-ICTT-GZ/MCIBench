@@ -1,1 +1,0 @@
-"impl Solution {\n    pub fn popcount_depth(nums: Vec<i64>, queries: Vec<Vec<i64>>) -> Vec<i32> {\n        \n    }\n}"

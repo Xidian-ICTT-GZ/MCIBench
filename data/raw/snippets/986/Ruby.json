@@ -1,1 +1,0 @@
-"# @param {Integer[][]} first_list\n# @param {Integer[][]} second_list\n# @return {Integer[][]}\ndef interval_intersection(first_list, second_list)\n    \nend"

@@ -1,1 +1,0 @@
-"# @param {Integer[]} arr\n# @param {Integer[][]} queries\n# @return {Integer[]}\ndef xor_queries(arr, queries)\n    \nend"

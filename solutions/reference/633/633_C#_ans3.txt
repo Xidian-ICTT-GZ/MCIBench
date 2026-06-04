@@ -1,0 +1,25 @@
+public class Solution {
+    public bool JudgeSquareSum(int c) {
+        for (int baseNum = 2; baseNum * baseNum <= c; baseNum++) {
+            
+            if (c % baseNum != 0) {
+                continue;
+            }
+            
+            int exp = 0;
+            while (c % baseNum == 0) {
+                c /= baseNum;
+                exp++;
+            }
+
+            
+            if (baseNum % 4 == 3 && exp % 2 != 0) {
+                return false;
+            }
+        }
+
+        
+        
+        return c % 4 != 3;
+    }
+}

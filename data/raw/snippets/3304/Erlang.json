@@ -1,1 +1,0 @@
-"-spec kth_character(K :: integer()) -> char().\nkth_character(K) ->\n  ."

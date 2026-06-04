@@ -1,1 +1,0 @@
-"-spec box_delivering(Boxes :: [[integer()]], PortsCount :: integer(), MaxBoxes :: integer(), MaxWeight :: integer()) -> integer().\nbox_delivering(Boxes, PortsCount, MaxBoxes, MaxWeight) ->\n  ."

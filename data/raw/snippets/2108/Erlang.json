@@ -1,1 +1,0 @@
-"-spec first_palindrome(Words :: [unicode:unicode_binary()]) -> unicode:unicode_binary().\nfirst_palindrome(Words) ->\n  ."

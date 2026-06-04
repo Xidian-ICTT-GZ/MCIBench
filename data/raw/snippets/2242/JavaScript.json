@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} scores\n * @param {number[][]} edges\n * @return {number}\n */\nvar maximumScore = function(scores, edges) {\n    \n};"

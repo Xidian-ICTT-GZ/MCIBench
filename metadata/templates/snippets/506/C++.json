@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<string> findRelativeRanks(vector<int>& score) {\n        \n    }\n};"

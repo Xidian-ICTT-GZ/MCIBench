@@ -1,0 +1,1 @@
+"# Definition for singly-linked list.\n# class ListNode\n#     attr_accessor :val, :next\n#     def initialize(val)\n#         @val = val\n#         @next = nil\n#     end\n# end\n\n# @param {ListNode} node\n# @return {Void} Do not return anything, modify node in-place instead.\ndef delete_node(node)\n    \nend"

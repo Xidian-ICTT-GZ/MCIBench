@@ -1,0 +1,1 @@
+"%% Definition for singly-linked list.\n%%\n%% -record(list_node, {val = 0 :: integer(),\n%%                     next = null :: 'null' | #list_node{}}).\n\n-spec pair_sum(Head :: #list_node{} | null) -> integer().\npair_sum(Head) ->\n  ."

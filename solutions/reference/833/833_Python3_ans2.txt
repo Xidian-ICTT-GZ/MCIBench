@@ -1,0 +1,24 @@
+class Solution:
+    def findReplaceString(self, s: str, indices: List[int], sources: List[str], targets: List[str]) -> str:
+        n, m = len(s), len(indices)
+
+        ops = defaultdict(list)
+        for i, idx in enumerate(indices):
+            ops[idx].append(i)
+
+        ans = list()
+        i = 0
+        while i < n:
+            succeed = False
+            if i in ops:
+                for pt in ops[i]:
+                    if s[i:i+len(sources[pt])] == sources[pt]:
+                        succeed = True
+                        ans.append(targets[pt])
+                        i += len(sources[pt])
+                        break
+            if not succeed:
+                ans.append(s[i])
+                i += 1
+
+        return "".join(ans)

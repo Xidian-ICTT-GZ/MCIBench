@@ -1,1 +1,0 @@
-"object Solution {\n    def getLongestSubsequence(words: Array[String], groups: Array[Int]): List[String] = {\n        \n    }\n}"

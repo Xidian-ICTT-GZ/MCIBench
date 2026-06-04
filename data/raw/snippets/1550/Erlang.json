@@ -1,1 +1,0 @@
-"-spec three_consecutive_odds(Arr :: [integer()]) -> boolean().\nthree_consecutive_odds(Arr) ->\n  ."

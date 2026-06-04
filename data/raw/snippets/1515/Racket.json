@@ -1,1 +1,0 @@
-"(define/contract (get-min-dist-sum positions)\n  (-> (listof (listof exact-integer?)) flonum?)\n  )"

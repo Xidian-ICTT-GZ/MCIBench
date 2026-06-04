@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec minimum_jumps(forbidden :: [integer], a :: integer, b :: integer, x :: integer) :: integer\n  def minimum_jumps(forbidden, a, b, x) do\n    \n  end\nend"

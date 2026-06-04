@@ -1,0 +1,1 @@
+"-spec maximize_the_profit(N :: integer(), Offers :: [[integer()]]) -> integer().\nmaximize_the_profit(N, Offers) ->\n  ."

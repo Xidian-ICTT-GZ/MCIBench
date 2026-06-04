@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $n\n     * @return Integer\n     */\n    function smallestEvenMultiple($n) {\n        \n    }\n}"

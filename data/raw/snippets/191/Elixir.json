@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec hamming_weight(n :: integer) :: integer\n  def hamming_weight(n) do\n    \n  end\nend"

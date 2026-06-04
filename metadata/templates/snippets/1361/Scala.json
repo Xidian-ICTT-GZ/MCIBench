@@ -1,0 +1,1 @@
+"object Solution {\n    def validateBinaryTreeNodes(n: Int, leftChild: Array[Int], rightChild: Array[Int]): Boolean = {\n        \n    }\n}"

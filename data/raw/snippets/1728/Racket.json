@@ -1,1 +1,0 @@
-"(define/contract (can-mouse-win grid catJump mouseJump)\n  (-> (listof string?) exact-integer? exact-integer? boolean?)\n  )"

@@ -1,0 +1,1 @@
+"class Solution {\n    fun numSmallerByFrequency(queries: Array<String>, words: Array<String>): IntArray {\n        \n    }\n}"

@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String $number\n     * @param String $digit\n     * @return String\n     */\n    function removeDigit($number, $digit) {\n        \n    }\n}"

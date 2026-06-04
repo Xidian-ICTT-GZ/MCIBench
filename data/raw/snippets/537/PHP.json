@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String $num1\n     * @param String $num2\n     * @return String\n     */\n    function complexNumberMultiply($num1, $num2) {\n        \n    }\n}"

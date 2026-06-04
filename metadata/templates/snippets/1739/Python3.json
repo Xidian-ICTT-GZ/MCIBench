@@ -1,0 +1,1 @@
+"class Solution:\n    def minimumBoxes(self, n: int) -> int:\n        "

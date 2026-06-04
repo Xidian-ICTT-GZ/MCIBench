@@ -1,0 +1,44 @@
+const int MOD = 1000000007;
+
+struct Matrix {
+    long mat[6][6];
+    int row, col;
+};
+
+struct Matrix multiply(struct Matrix a, struct Matrix b) {
+    int rows = a.row, columns = b.col, temp = b.row;
+    struct Matrix c;
+    memset(c.mat, 0, sizeof(c.mat));
+    c.row = rows, c.col = columns;
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < columns; j++) {
+            for (int k = 0; k < temp; k++) {
+                c.mat[i][j] += a.mat[i][k] * b.mat[k][j];
+                c.mat[i][j] %= MOD;
+            }
+        }
+    }
+    return c;
+}
+
+struct Matrix matricPow(struct Matrix mat, int n) {
+    struct Matrix ret = {{{1, 0, 0, 0, 0, 0}}, 1, 6};
+    while (n > 0) {
+        if ((n & 1) == 1) {
+            ret = multiply(ret, mat);
+        }
+        n >>= 1;
+        mat = multiply(mat, mat);
+    }
+    return ret;
+}
+
+int checkRecord(int n) {
+    struct Matrix mat = {{{1, 1, 0, 1, 0, 0}, {1, 0, 1, 1, 0, 0}, {1, 0, 0, 1, 0, 0}, {0, 0, 0, 1, 1, 0}, {0, 0, 0, 1, 0, 1}, {0, 0, 0, 1, 0, 0}}, 6, 6};
+    struct Matrix res = matricPow(mat, n);
+    long sum = 0;
+    for (int i = 0; i < res.col; i++) {
+        sum += res.mat[0][i];
+    }
+    return (int)(sum % MOD);
+}

@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    int maxValue(vector<vector<int>>& events, int k) {\n        \n    }\n};"

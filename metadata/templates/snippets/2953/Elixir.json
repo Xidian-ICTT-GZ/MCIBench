@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec count_complete_substrings(word :: String.t, k :: integer) :: integer\n  def count_complete_substrings(word, k) do\n    \n  end\nend"

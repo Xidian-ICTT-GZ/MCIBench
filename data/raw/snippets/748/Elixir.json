@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec shortest_completing_word(license_plate :: String.t, words :: [String.t]) :: String.t\n  def shortest_completing_word(license_plate, words) do\n    \n  end\nend"

@@ -1,1 +1,0 @@
-"# @param {Integer[]} nums\n# @param {Integer[]} pattern\n# @return {Integer}\ndef count_matching_subarrays(nums, pattern)\n    \nend"

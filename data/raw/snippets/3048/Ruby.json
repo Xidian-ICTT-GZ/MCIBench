@@ -1,1 +1,0 @@
-"# @param {Integer[]} nums\n# @param {Integer[]} change_indices\n# @return {Integer}\ndef earliest_second_to_mark_indices(nums, change_indices)\n    \nend"

@@ -1,0 +1,33 @@
+struct TreeNode* createTreeNode(int val) {
+    struct TreeNode* ret = malloc(sizeof(struct TreeNode));
+    ret->val = val;
+    ret->left = ret->right = NULL;
+    return ret;
+}
+
+struct TreeNode* buildTree(int* inorder, int inorderSize, int* postorder, int postorderSize) {
+    if (postorderSize == 0) {
+        return NULL;
+    }
+    struct TreeNode* root = createTreeNode(postorder[postorderSize - 1]);
+    struct TreeNode** s = malloc(sizeof(struct TreeNode*) * 10001);
+    int top = 0;
+    s[top++] = root;
+    int inorderIndex = inorderSize - 1;
+    for (int i = postorderSize - 2; i >= 0; i--) {
+        int postorderVal = postorder[i];
+        struct TreeNode* node = s[top - 1];
+        if (node->val != inorder[inorderIndex]) {
+            node->right = createTreeNode(postorderVal);
+            s[top++] = node->right;
+        } else {
+            while (top > 0 && s[top - 1]->val == inorder[inorderIndex]) {
+                node = s[--top];
+                inorderIndex--;
+            }
+            node->left = createTreeNode(postorderVal);
+            s[top++] = node->left;
+        }
+    }
+    return root;
+}

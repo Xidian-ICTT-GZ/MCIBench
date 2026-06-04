@@ -1,1 +1,0 @@
-"impl Solution {\n    pub fn decode_ciphertext(encoded_text: String, rows: i32) -> String {\n        \n    }\n}"

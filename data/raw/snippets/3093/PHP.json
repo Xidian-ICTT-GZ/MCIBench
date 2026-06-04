@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String[] $wordsContainer\n     * @param String[] $wordsQuery\n     * @return Integer[]\n     */\n    function stringIndices($wordsContainer, $wordsQuery) {\n        \n    }\n}"

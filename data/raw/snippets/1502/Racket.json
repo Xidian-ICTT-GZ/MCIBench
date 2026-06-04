@@ -1,1 +1,0 @@
-"(define/contract (can-make-arithmetic-progression arr)\n  (-> (listof exact-integer?) boolean?)\n  )"

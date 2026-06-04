@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    long long subtreeInversionSum(vector<vector<int>>& edges, vector<int>& nums, int k) {\n        \n    }\n};"

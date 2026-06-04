@@ -1,0 +1,1 @@
+"class Solution {\n    func maxArea(_ h: Int, _ w: Int, _ horizontalCuts: [Int], _ verticalCuts: [Int]) -> Int {\n        \n    }\n}"

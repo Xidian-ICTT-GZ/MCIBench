@@ -1,1 +1,0 @@
-"# @param {Integer[][]} grid\n# @return {Integer}\ndef shortest_path_binary_matrix(grid)\n    \nend"

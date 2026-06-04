@@ -1,1 +1,0 @@
-"-spec smallest_even_multiple(N :: integer()) -> integer().\nsmallest_even_multiple(N) ->\n  ."

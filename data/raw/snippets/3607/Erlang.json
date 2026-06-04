@@ -1,1 +1,0 @@
-"-spec process_queries(C :: integer(), Connections :: [[integer()]], Queries :: [[integer()]]) -> [integer()].\nprocess_queries(C, Connections, Queries) ->\n  ."

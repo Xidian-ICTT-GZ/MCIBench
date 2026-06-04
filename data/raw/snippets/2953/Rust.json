@@ -1,1 +1,0 @@
-"impl Solution {\n    pub fn count_complete_substrings(word: String, k: i32) -> i32 {\n        \n    }\n}"

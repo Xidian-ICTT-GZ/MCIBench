@@ -1,0 +1,1 @@
+"-spec min_time(N :: integer(), K :: integer(), M :: integer(), Time :: [integer()], Mul :: [float()]) -> float().\nmin_time(N, K, M, Time, Mul) ->\n  ."

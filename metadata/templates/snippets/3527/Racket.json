@@ -1,0 +1,1 @@
+"(define/contract (find-common-response responses)\n  (-> (listof (listof string?)) string?)\n  )"

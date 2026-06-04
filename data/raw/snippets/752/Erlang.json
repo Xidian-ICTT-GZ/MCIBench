@@ -1,1 +1,0 @@
-"-spec open_lock(Deadends :: [unicode:unicode_binary()], Target :: unicode:unicode_binary()) -> integer().\nopen_lock(Deadends, Target) ->\n  ."

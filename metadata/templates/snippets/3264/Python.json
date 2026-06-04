@@ -1,0 +1,1 @@
+"class Solution(object):\n    def getFinalState(self, nums, k, multiplier):\n        \"\"\"\n        :type nums: List[int]\n        :type k: int\n        :type multiplier: int\n        :rtype: List[int]\n        \"\"\"\n        "

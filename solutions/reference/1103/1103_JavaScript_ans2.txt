@@ -1,0 +1,19 @@
+var distributeCandies = function(candies, num_people) {
+    const n = num_people;
+    
+    const p = Math.floor(Math.sqrt(2 * candies + 0.25) - 0.5);
+    const remaining = candies - Math.floor((p + 1) * p * 0.5);
+    const rows = Math.floor(p / n), cols = p % n;
+    const d = new Array(n).fill(0);
+    for (let i = 0; i < n; ++i) {
+        
+        d[i] = (i + 1) * rows + Math.floor(rows * (rows - 1) * 0.5) * n;
+        
+        if (i < cols) {
+            d[i] += i + 1 + rows * n;
+        }
+    }
+    
+    d[cols] += remaining;
+    return d;
+};

@@ -1,1 +1,0 @@
-"(define/contract (is-possible n edges)\n  (-> exact-integer? (listof (listof exact-integer?)) boolean?)\n  )"

@@ -1,1 +1,0 @@
-"class Solution(object):\n    def canMouseWin(self, grid, catJump, mouseJump):\n        \"\"\"\n        :type grid: List[str]\n        :type catJump: int\n        :type mouseJump: int\n        :rtype: bool\n        \"\"\"\n        "

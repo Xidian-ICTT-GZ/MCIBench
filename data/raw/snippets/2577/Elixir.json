@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec minimum_time(grid :: [[integer]]) :: integer\n  def minimum_time(grid) do\n    \n  end\nend"

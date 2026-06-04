@@ -1,1 +1,0 @@
-"# @param {Integer} m\n# @param {Integer} n\n# @param {Integer[]} horizontal_cut\n# @param {Integer[]} vertical_cut\n# @return {Integer}\ndef minimum_cost(m, n, horizontal_cut, vertical_cut)\n    \nend"

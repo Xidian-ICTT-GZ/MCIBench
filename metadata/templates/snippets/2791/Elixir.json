@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec count_palindrome_paths(parent :: [integer], s :: String.t) :: integer\n  def count_palindrome_paths(parent, s) do\n    \n  end\nend"

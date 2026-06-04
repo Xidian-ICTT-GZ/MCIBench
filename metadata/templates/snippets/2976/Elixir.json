@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec minimum_cost(source :: String.t, target :: String.t, original :: [char], changed :: [char], cost :: [integer]) :: integer\n  def minimum_cost(source, target, original, changed, cost) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"(define/contract (count-binary-palindromes n)\n  (-> exact-integer? exact-integer?)\n  )"

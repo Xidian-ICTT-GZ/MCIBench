@@ -1,1 +1,0 @@
-"class Solution(object):\n    def basicCalculatorIV(self, expression, evalvars, evalints):\n        \"\"\"\n        :type expression: str\n        :type evalvars: List[str]\n        :type evalints: List[int]\n        :rtype: List[str]\n        \"\"\"\n        "

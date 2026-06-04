@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int minMutation(string startGene, string endGene, vector<string>& bank) {\n        \n    }\n};"

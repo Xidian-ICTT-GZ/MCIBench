@@ -1,1 +1,0 @@
-"class Solution(object):\n    def validateCoupons(self, code, businessLine, isActive):\n        \"\"\"\n        :type code: List[str]\n        :type businessLine: List[str]\n        :type isActive: List[bool]\n        :rtype: List[str]\n        \"\"\"\n        "

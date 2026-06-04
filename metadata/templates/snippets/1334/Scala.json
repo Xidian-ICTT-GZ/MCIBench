@@ -1,0 +1,1 @@
+"object Solution {\n    def findTheCity(n: Int, edges: Array[Array[Int]], distanceThreshold: Int): Int = {\n        \n    }\n}"

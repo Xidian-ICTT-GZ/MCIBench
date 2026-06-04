@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $colors\n     * @return Integer\n     */\n    function maxDistance($colors) {\n        \n    }\n}"

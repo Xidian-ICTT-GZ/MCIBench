@@ -1,0 +1,30 @@
+public class Solution {
+    private const int MOD = 1000000007;
+    
+    public int PeopleAwareOfSecret(int n, int delay, int forget) {
+        LinkedList<int[]> know = new LinkedList<int[]>();
+        LinkedList<int[]> share = new LinkedList<int[]>();
+        know.AddLast(new int[]{1, 1});
+        int knowCnt = 1, shareCnt = 0;
+        
+        for (int i = 2; i <= n; i++) {
+            if (know.First != null && know.First.Value[0] == i - delay) {
+                int[] first = know.First.Value;
+                know.RemoveFirst();
+                knowCnt = (knowCnt - first[1] + MOD) % MOD;
+                shareCnt = (shareCnt + first[1]) % MOD;
+                share.AddLast(first);
+            }
+            if (share.First != null && share.First.Value[0] == i - forget) {
+                int[] first = share.First.Value;
+                share.RemoveFirst();
+                shareCnt = (shareCnt - first[1] + MOD) % MOD;
+            }
+            if (share.First != null) {
+                knowCnt = (knowCnt + shareCnt) % MOD;
+                know.AddLast(new int[]{i, shareCnt});
+            }
+        }
+        return (knowCnt + shareCnt) % MOD;
+    }
+}

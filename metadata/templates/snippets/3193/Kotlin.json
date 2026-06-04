@@ -1,0 +1,1 @@
+"class Solution {\n    fun numberOfPermutations(n: Int, requirements: Array<IntArray>): Int {\n        \n    }\n}"

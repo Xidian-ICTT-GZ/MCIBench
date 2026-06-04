@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec distinct_difference_array(nums :: [integer]) :: [integer]\n  def distinct_difference_array(nums) do\n    \n  end\nend"

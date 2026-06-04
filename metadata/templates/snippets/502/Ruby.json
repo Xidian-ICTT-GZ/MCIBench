@@ -1,0 +1,1 @@
+"# @param {Integer} k\n# @param {Integer} w\n# @param {Integer[]} profits\n# @param {Integer[]} capital\n# @return {Integer}\ndef find_maximized_capital(k, w, profits, capital)\n    \nend"

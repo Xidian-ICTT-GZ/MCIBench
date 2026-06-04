@@ -1,1 +1,0 @@
-"class Solution:\n    def restoreArray(self, adjacentPairs: List[List[int]]) -> List[int]:\n        "

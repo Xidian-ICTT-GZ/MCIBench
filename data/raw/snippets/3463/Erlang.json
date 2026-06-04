@@ -1,1 +1,0 @@
-"-spec has_same_digits(S :: unicode:unicode_binary()) -> boolean().\nhas_same_digits(S) ->\n  ."

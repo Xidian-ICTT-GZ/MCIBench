@@ -1,0 +1,16 @@
+long long maximumTripletValue(int* nums, int numsSize) {
+    long long res = 0;
+    for (int k = 2; k < numsSize; k++) {
+        int m = nums[0];
+        for (int j = 1; j < k; j++) {
+            long long value = (long long)(m - nums[j]) * nums[k];
+            if (value > res) {
+                res = value;
+            }
+            if (nums[j] > m) {
+                m = nums[j];
+            }
+        }
+    }
+    return res;
+}

@@ -1,1 +1,0 @@
-"-spec pivot_integer(N :: integer()) -> integer().\npivot_integer(N) ->\n  ."

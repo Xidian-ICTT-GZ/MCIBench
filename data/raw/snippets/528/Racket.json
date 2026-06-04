@@ -1,1 +1,0 @@
-"(define solution%\n  (class object%\n    (super-new)\n    \n    ; w : (listof exact-integer?)\n    (init-field\n      w)\n    \n    ; pick-index : -> exact-integer?\n    (define/public (pick-index)\n      )))\n\n;; Your solution% object will be instantiated and called as such:\n;; (define obj (new solution% [w w]))\n;; (define param_1 (send obj pick-index))"

@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @param {Integer} max_value\n# @return {Integer}\ndef ideal_arrays(n, max_value)\n    \nend"

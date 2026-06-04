@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} nums\n * @param {string} s\n * @param {number} d\n * @return {number}\n */\nvar sumDistance = function(nums, s, d) {\n    \n};"

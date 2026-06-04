@@ -1,0 +1,40 @@
+var eatenApples = function(apples, days) {
+    let ans = 0;
+    let pq = new MinPriorityQueue();
+    const n = apples.length;
+    let i = 0;
+    while (i < n) {
+        while (!pq.isEmpty() && pq.front().element[0] <= i) {
+            pq.dequeue();
+        }
+        let rottenDay = i + days[i];
+        let count = apples[i];
+        if (count > 0) {
+            pq.enqueue([rottenDay, count], rottenDay);
+        }
+        if (!pq.isEmpty()) {
+            [rottenDay, count] = pq.dequeue().element;
+            count--;
+            if (count != 0) {   
+                pq.enqueue([rottenDay, count], rottenDay);               
+            }
+            ans++;
+        }
+        i++;
+    }
+
+    while (!pq.isEmpty()) {
+        while (!pq.isEmpty() && pq.front().element[0] <= i) {
+            pq.dequeue();
+        }
+        if (pq.isEmpty()) {
+            break;
+        }
+        [rottenDay, count] = pq.dequeue().element;
+        const num = Math.min(rottenDay - i, count);
+        ans += num;
+        i += num;
+    }
+
+    return ans;
+};

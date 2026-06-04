@@ -1,1 +1,0 @@
-"/**\n * @param {string} blocks\n * @param {number} k\n * @return {number}\n */\nvar minimumRecolors = function(blocks, k) {\n    \n};"

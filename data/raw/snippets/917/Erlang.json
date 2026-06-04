@@ -1,1 +1,0 @@
-"-spec reverse_only_letters(S :: unicode:unicode_binary()) -> unicode:unicode_binary().\nreverse_only_letters(S) ->\n  ."

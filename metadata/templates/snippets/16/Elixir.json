@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec three_sum_closest(nums :: [integer], target :: integer) :: integer\n  def three_sum_closest(nums, target) do\n    \n  end\nend"

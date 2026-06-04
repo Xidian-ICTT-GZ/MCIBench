@@ -1,1 +1,0 @@
-"(define/contract (max-palindromes s k)\n  (-> string? exact-integer? exact-integer?)\n  )"

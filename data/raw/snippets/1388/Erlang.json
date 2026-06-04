@@ -1,1 +1,0 @@
-"-spec max_size_slices(Slices :: [integer()]) -> integer().\nmax_size_slices(Slices) ->\n  ."

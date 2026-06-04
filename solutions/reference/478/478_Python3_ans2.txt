@@ -1,0 +1,11 @@
+class Solution:
+
+    def __init__(self, radius: float, x_center: float, y_center: float):
+        self.xc = x_center
+        self.yc = y_center
+        self.r = radius
+
+    def randPoint(self) -> List[float]:
+        u, theta = random.random(), random.random() * 2 * math.pi
+        r = sqrt(u)
+        return [self.xc + r * math.cos(theta) * self.r, self.yc + r * math.sin(theta) * self.r]

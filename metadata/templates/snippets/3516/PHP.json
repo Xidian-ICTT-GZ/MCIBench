@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $x\n     * @param Integer $y\n     * @param Integer $z\n     * @return Integer\n     */\n    function findClosest($x, $y, $z) {\n        \n    }\n}"

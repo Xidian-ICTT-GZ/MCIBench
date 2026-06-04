@@ -1,1 +1,0 @@
-"(define/contract (check-partitioning s)\n  (-> string? boolean?)\n  )"

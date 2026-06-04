@@ -1,0 +1,13 @@
+int* countBits(int n, int* returnSize) {
+    int* bits = malloc(sizeof(int) * (n + 1));
+    *returnSize = n + 1;
+    bits[0] = 0;
+    int highBit = 0;
+    for (int i = 1; i <= n; i++) {
+        if ((i & (i - 1)) == 0) {
+            highBit = i;
+        }
+        bits[i] = bits[i - highBit] + 1;
+    }
+    return bits;
+}

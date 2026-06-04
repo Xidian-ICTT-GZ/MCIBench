@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec k_closest(points :: [[integer]], k :: integer) :: [[integer]]\n  def k_closest(points, k) do\n    \n  end\nend"

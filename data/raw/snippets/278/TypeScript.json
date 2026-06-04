@@ -1,1 +1,0 @@
-"/**\n * The knows API is defined in the parent class Relation.\n * isBadVersion(version: number): boolean {\n *     ...\n * };\n */\n\nvar solution = function(isBadVersion: any) {\n\n    return function(n: number): number {\n        \n    };\n};"

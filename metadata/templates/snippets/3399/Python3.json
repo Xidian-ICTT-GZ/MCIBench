@@ -1,0 +1,1 @@
+"class Solution:\n    def minLength(self, s: str, numOps: int) -> int:\n        "

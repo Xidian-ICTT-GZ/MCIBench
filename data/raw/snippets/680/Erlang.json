@@ -1,1 +1,0 @@
-"-spec valid_palindrome(S :: unicode:unicode_binary()) -> boolean().\nvalid_palindrome(S) ->\n  ."

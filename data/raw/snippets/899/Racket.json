@@ -1,1 +1,0 @@
-"(define/contract (orderly-queue s k)\n  (-> string? exact-integer? string?)\n  )"

@@ -1,1 +1,0 @@
-"/**\n * @param {number[][]} logs\n * @param {number} k\n * @return {number[]}\n */\nvar findingUsersActiveMinutes = function(logs, k) {\n    \n};"

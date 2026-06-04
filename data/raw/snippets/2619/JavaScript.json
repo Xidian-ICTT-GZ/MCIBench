@@ -1,1 +1,0 @@
-"/**\n * @return {null|boolean|number|string|Array|Object}\n */\nArray.prototype.last = function() {\n    \n};\n\n/**\n * const arr = [1, 2, 3];\n * arr.last(); // 3\n */"

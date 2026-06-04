@@ -1,0 +1,1 @@
+"object Solution {\n    def missingRolls(rolls: Array[Int], mean: Int, n: Int): Array[Int] = {\n        \n    }\n}"

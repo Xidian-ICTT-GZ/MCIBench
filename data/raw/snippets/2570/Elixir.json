@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec merge_arrays(nums1 :: [[integer]], nums2 :: [[integer]]) :: [[integer]]\n  def merge_arrays(nums1, nums2) do\n    \n  end\nend"

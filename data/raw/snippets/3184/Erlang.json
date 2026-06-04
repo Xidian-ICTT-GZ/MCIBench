@@ -1,1 +1,0 @@
-"-spec count_complete_day_pairs(Hours :: [integer()]) -> integer().\ncount_complete_day_pairs(Hours) ->\n  ."

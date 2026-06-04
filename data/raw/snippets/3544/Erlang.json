@@ -1,1 +1,0 @@
-"-spec subtree_inversion_sum(Edges :: [[integer()]], Nums :: [integer()], K :: integer()) -> integer().\nsubtree_inversion_sum(Edges, Nums, K) ->\n  ."

@@ -1,0 +1,1 @@
+"object Solution {\n    def ladderLength(beginWord: String, endWord: String, wordList: List[String]): Int = {\n        \n    }\n}"

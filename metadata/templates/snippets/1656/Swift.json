@@ -1,0 +1,1 @@
+"\nclass OrderedStream {\n\n    init(_ n: Int) {\n        \n    }\n    \n    func insert(_ idKey: Int, _ value: String) -> [String] {\n        \n    }\n}\n\n/**\n * Your OrderedStream object will be instantiated and called as such:\n * let obj = OrderedStream(n)\n * let ret_1: [String] = obj.insert(idKey, value)\n */"

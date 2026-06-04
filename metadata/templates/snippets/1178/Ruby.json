@@ -1,0 +1,1 @@
+"# @param {String[]} words\n# @param {String[]} puzzles\n# @return {Integer[]}\ndef find_num_of_valid_words(words, puzzles)\n    \nend"

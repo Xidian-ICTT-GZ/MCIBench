@@ -1,1 +1,0 @@
-"(define/contract (range-bitwise-and left right)\n  (-> exact-integer? exact-integer? exact-integer?)\n  )"

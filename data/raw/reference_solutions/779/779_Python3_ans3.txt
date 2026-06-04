@@ -1,9 +1,0 @@
-class Solution:
-    def kthGrammar(self, n: int, k: int) -> int:
-        
-        k -= 1
-        res = 0
-        while k:
-            k &= k - 1
-            res ^= 1
-        return res

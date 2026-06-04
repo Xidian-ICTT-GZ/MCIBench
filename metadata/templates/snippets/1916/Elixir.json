@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec ways_to_build_rooms(prev_room :: [integer]) :: integer\n  def ways_to_build_rooms(prev_room) do\n    \n  end\nend"

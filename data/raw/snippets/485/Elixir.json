@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec find_max_consecutive_ones(nums :: [integer]) :: integer\n  def find_max_consecutive_ones(nums) do\n    \n  end\nend"

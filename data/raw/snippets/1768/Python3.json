@@ -1,1 +1,0 @@
-"class Solution:\n    def mergeAlternately(self, word1: str, word2: str) -> str:\n        "

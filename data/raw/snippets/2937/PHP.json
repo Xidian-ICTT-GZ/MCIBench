@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String $s1\n     * @param String $s2\n     * @param String $s3\n     * @return Integer\n     */\n    function findMinimumOperations($s1, $s2, $s3) {\n        \n    }\n}"

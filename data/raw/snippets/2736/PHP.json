@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $nums1\n     * @param Integer[] $nums2\n     * @param Integer[][] $queries\n     * @return Integer[]\n     */\n    function maximumSumQueries($nums1, $nums2, $queries) {\n        \n    }\n}"

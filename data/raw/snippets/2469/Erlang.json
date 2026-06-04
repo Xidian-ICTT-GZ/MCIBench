@@ -1,1 +1,0 @@
-"-spec convert_temperature(Celsius :: float()) -> [float()].\nconvert_temperature(Celsius) ->\n  ."

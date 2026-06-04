@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer[] $queries\n     * @param Integer $x\n     * @return Integer[]\n     */\n    function occurrencesOfElement($nums, $queries, $x) {\n        \n    }\n}"

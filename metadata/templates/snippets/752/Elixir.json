@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec open_lock(deadends :: [String.t], target :: String.t) :: integer\n  def open_lock(deadends, target) do\n    \n  end\nend"

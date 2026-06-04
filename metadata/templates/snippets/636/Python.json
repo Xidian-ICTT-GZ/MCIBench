@@ -1,0 +1,1 @@
+"class Solution(object):\n    def exclusiveTime(self, n, logs):\n        \"\"\"\n        :type n: int\n        :type logs: List[str]\n        :rtype: List[int]\n        \"\"\"\n        "

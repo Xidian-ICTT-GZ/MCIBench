@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<vector<int>> allCellsDistOrder(int rows, int cols, int rCenter, int cCenter) {\n        \n    }\n};"

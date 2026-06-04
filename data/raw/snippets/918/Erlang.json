@@ -1,1 +1,0 @@
-"-spec max_subarray_sum_circular(Nums :: [integer()]) -> integer().\nmax_subarray_sum_circular(Nums) ->\n  ."

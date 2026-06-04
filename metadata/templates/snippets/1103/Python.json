@@ -1,0 +1,1 @@
+"class Solution(object):\n    def distributeCandies(self, candies, num_people):\n        \"\"\"\n        :type candies: int\n        :type num_people: int\n        :rtype: List[int]\n        \"\"\"\n        "

@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @param {Integer} a\n# @param {Integer} b\n# @param {Integer} c\n# @return {Integer}\ndef nth_ugly_number(n, a, b, c)\n    \nend"

@@ -1,0 +1,1 @@
+"class Solution {\n    fun maximumBeauty(flowers: IntArray, newFlowers: Long, target: Int, full: Int, partial: Int): Long {\n        \n    }\n}"

@@ -1,0 +1,34 @@
+type NumberContainers struct {
+	nums  map[int]int
+	heaps map[int]*treeset.Set
+}
+
+func Constructor() NumberContainers {
+	return NumberContainers{
+		nums:  make(map[int]int),
+		heaps: make(map[int]*treeset.Set),
+	}
+}
+
+func (nc *NumberContainers) Change(index int, number int) {
+	if prev, exists := nc.nums[index]; exists && prev != number {
+		if set, ok := nc.heaps[prev]; ok {
+			set.Remove(index)
+		}
+	}
+	nc.nums[index] = number
+	if _, ok := nc.heaps[number]; !ok {
+		nc.heaps[number] = treeset.NewWithIntComparator()
+	}
+	nc.heaps[number].Add(index)
+}
+
+func (nc *NumberContainers) Find(number int) int {
+	if set, ok := nc.heaps[number]; ok {
+		it := set.Iterator()
+		if it.First() {
+			return it.Value().(int)
+		}
+	}
+	return -1
+}

@@ -1,0 +1,1 @@
+"# @param {Integer[][]} dominoes\n# @return {Integer}\ndef num_equiv_domino_pairs(dominoes)\n    \nend"

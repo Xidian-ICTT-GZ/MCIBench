@@ -1,0 +1,1 @@
+"# @param {Float} x\n# @param {Integer} n\n# @return {Float}\ndef my_pow(x, n)\n    \nend"

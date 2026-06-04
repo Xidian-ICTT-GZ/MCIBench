@@ -1,0 +1,13 @@
+int* evenOddBit(int n, int* returnSize) {
+    *returnSize = 2;
+    int* res = (int*)malloc(sizeof(int) * 2);
+    res[0] = 0;
+    res[1] = 0;
+    int i = 0;
+    while (n > 0) {
+        res[i] += n & 1;
+        n >>= 1;
+        i ^= 1;
+    }
+    return res;
+}

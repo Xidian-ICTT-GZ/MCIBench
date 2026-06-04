@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec max_removal(nums :: [integer], queries :: [[integer]]) :: integer\n  def max_removal(nums, queries) do\n    \n  end\nend"

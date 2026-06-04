@@ -1,1 +1,0 @@
-"-spec min_operations(S :: unicode:unicode_binary(), K :: integer()) -> integer().\nmin_operations(S, K) ->\n  ."

@@ -1,0 +1,1 @@
+"class Solution(object):\n    def minSubarray(self, nums, p):\n        \"\"\"\n        :type nums: List[int]\n        :type p: int\n        :rtype: int\n        \"\"\"\n        "

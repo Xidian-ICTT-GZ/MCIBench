@@ -1,1 +1,0 @@
-"class FindSumPairs:\n\n    def __init__(self, nums1: List[int], nums2: List[int]):\n        \n\n    def add(self, index: int, val: int) -> None:\n        \n\n    def count(self, tot: int) -> int:\n        \n\n\n# Your FindSumPairs object will be instantiated and called as such:\n# obj = FindSumPairs(nums1, nums2)\n# obj.add(index,val)\n# param_2 = obj.count(tot)"

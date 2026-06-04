@@ -1,1 +1,0 @@
-"# Definition for a binary tree node.\n# class TreeNode\n#     attr_accessor :val, :left, :right\n#     def initialize(val)\n#         @val = val\n#         @left, @right = nil, nil\n#     end\n# end\n\n# @param {TreeNode} root\n# @param {TreeNode} p\n# @param {TreeNode} q\n# @return {TreeNode}\ndef lowest_common_ancestor(root, p, q)\n    \nend"

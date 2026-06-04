@@ -1,1 +1,0 @@
-"class Solution:\n    def maximumTripletValue(self, nums: List[int]) -> int:\n        "

@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $numberOfUsers\n     * @param String[][] $events\n     * @return Integer[]\n     */\n    function countMentions($numberOfUsers, $events) {\n        \n    }\n}"

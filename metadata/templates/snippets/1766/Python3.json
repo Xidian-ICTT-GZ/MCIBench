@@ -1,0 +1,1 @@
+"class Solution:\n    def getCoprimes(self, nums: List[int], edges: List[List[int]]) -> List[int]:\n        "

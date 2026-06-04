@@ -1,0 +1,14 @@
+char * categorizeBox(int length, int width, int height, int mass){
+    int maxd = fmax(length, fmax(width, height));
+    long long vol = 1LL * length * width * height;
+    bool isBulky = maxd >= 10000 || vol >= 1000000000, isHeavy = mass >= 100;
+    if (isBulky && isHeavy) {
+        return "Both";
+    } else if (isBulky) {
+        return "Bulky";
+    } else if (isHeavy) {
+        return "Heavy";
+    } else {
+        return "Neither";
+    }
+}

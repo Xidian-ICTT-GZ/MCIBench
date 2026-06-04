@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec longest_diverse_string(a :: integer, b :: integer, c :: integer) :: String.t\n  def longest_diverse_string(a, b, c) do\n    \n  end\nend"

@@ -1,0 +1,9 @@
+var zeroFilledSubarray = function(nums) {
+    let ans = 0;
+    let cur = 0;
+    for (const num of nums) {
+        cur = (num === 0 ? cur + 1 : 0);
+        ans += cur;
+    }
+    return ans;
+};

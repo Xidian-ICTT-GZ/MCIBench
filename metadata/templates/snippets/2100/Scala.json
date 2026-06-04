@@ -1,0 +1,1 @@
+"object Solution {\n    def goodDaysToRobBank(security: Array[Int], time: Int): List[Int] = {\n        \n    }\n}"

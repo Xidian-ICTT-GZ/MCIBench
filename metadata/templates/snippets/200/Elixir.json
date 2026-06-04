@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec num_islands(grid :: [[char]]) :: integer\n  def num_islands(grid) do\n    \n  end\nend"

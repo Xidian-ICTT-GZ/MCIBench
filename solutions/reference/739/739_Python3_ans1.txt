@@ -1,0 +1,10 @@
+class Solution:
+    def dailyTemperatures(self, temperatures: List[int]) -> List[int]:
+        n = len(temperatures)
+        ans, nxt, big = [0] * n, dict(), 10**9
+        for i in range(n - 1, -1, -1):
+            warmer_index = min(nxt.get(t, big) for t in range(temperatures[i] + 1, 102))
+            if warmer_index != big:
+                ans[i] = warmer_index - i
+            nxt[temperatures[i]] = i
+        return ans

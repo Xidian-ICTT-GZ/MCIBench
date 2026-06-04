@@ -1,1 +1,0 @@
-"-spec grid_game(Grid :: [[integer()]]) -> integer().\ngrid_game(Grid) ->\n  ."

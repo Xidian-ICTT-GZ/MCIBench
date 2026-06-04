@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec stone_game_ix(stones :: [integer]) :: boolean\n  def stone_game_ix(stones) do\n    \n  end\nend"

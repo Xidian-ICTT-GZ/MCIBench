@@ -1,0 +1,1 @@
+"-spec maximum_even_split(FinalSum :: integer()) -> [integer()].\nmaximum_even_split(FinalSum) ->\n  ."

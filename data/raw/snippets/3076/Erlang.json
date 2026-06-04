@@ -1,1 +1,0 @@
-"-spec shortest_substrings(Arr :: [unicode:unicode_binary()]) -> [unicode:unicode_binary()].\nshortest_substrings(Arr) ->\n  ."

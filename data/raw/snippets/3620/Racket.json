@@ -1,1 +1,0 @@
-"(define/contract (find-max-path-score edges online k)\n  (-> (listof (listof exact-integer?)) (listof boolean?) exact-integer? exact-integer?)\n  )"

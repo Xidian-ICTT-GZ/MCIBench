@@ -1,0 +1,1 @@
+"class Solution:\n    def findPeakElement(self, nums: List[int]) -> int:\n        "

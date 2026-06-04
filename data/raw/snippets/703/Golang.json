@@ -1,1 +1,0 @@
-"type KthLargest struct {\n    \n}\n\n\nfunc Constructor(k int, nums []int) KthLargest {\n    \n}\n\n\nfunc (this *KthLargest) Add(val int) int {\n    \n}\n\n\n/**\n * Your KthLargest object will be instantiated and called as such:\n * obj := Constructor(k, nums);\n * param_1 := obj.Add(val);\n */"

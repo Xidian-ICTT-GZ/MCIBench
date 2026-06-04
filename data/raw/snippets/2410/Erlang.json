@@ -1,1 +1,0 @@
-"-spec match_players_and_trainers(Players :: [integer()], Trainers :: [integer()]) -> integer().\nmatch_players_and_trainers(Players, Trainers) ->\n  ."

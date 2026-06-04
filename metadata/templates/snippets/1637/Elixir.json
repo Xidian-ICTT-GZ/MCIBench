@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec max_width_of_vertical_area(points :: [[integer]]) :: integer\n  def max_width_of_vertical_area(points) do\n    \n  end\nend"

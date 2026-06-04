@@ -1,1 +1,0 @@
-"class Solution(object):\n    def loudAndRich(self, richer, quiet):\n        \"\"\"\n        :type richer: List[List[int]]\n        :type quiet: List[int]\n        :rtype: List[int]\n        \"\"\"\n        "

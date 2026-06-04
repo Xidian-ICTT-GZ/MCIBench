@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec match_players_and_trainers(players :: [integer], trainers :: [integer]) :: integer\n  def match_players_and_trainers(players, trainers) do\n    \n  end\nend"

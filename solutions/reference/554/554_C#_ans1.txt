@@ -1,0 +1,22 @@
+public class Solution {
+    public int LeastBricks(IList<IList<int>> wall) {
+        Dictionary<int, int> cnt = new Dictionary<int, int>();
+        foreach (IList<int> widths in wall) {
+            int n = widths.Count;
+            int sum = 0;
+            for (int i = 0; i < n - 1; i++) {
+                sum += widths[i];
+                if (!cnt.ContainsKey(sum)) {
+                    cnt.Add(sum, 1);
+                } else {
+                    cnt[sum]++;
+                }
+            }
+        }
+        int maxCnt = 0;
+        foreach (var entry in cnt) {
+            maxCnt = Math.Max(maxCnt, entry.Value);
+        }
+        return wall.Count - maxCnt;
+    }
+}

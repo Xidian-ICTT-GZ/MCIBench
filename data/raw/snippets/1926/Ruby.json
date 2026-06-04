@@ -1,1 +1,0 @@
-"# @param {Character[][]} maze\n# @param {Integer[]} entrance\n# @return {Integer}\ndef nearest_exit(maze, entrance)\n    \nend"

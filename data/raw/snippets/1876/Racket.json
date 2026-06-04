@@ -1,1 +1,0 @@
-"(define/contract (count-good-substrings s)\n  (-> string? exact-integer?)\n  )"

@@ -1,1 +1,0 @@
-"-spec kth_palindrome(Queries :: [integer()], IntLength :: integer()) -> [integer()].\nkth_palindrome(Queries, IntLength) ->\n  ."

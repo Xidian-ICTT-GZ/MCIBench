@@ -1,0 +1,1 @@
+"-spec alphabet_board_path(Target :: unicode:unicode_binary()) -> unicode:unicode_binary().\nalphabet_board_path(Target) ->\n  ."

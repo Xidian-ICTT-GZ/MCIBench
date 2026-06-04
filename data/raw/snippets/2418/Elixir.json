@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec sort_people(names :: [String.t], heights :: [integer]) :: [String.t]\n  def sort_people(names, heights) do\n    \n  end\nend"

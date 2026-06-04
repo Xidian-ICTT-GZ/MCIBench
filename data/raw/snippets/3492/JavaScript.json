@@ -1,1 +1,0 @@
-"/**\n * @param {number} n\n * @param {number} w\n * @param {number} maxWeight\n * @return {number}\n */\nvar maxContainers = function(n, w, maxWeight) {\n    \n};"

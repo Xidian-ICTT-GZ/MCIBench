@@ -1,1 +1,0 @@
-"class Solution:\n    def bestHand(self, ranks: List[int], suits: List[str]) -> str:\n        "

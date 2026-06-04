@@ -1,1 +1,0 @@
-"-spec earliest_finish_time(LandStartTime :: [integer()], LandDuration :: [integer()], WaterStartTime :: [integer()], WaterDuration :: [integer()]) -> integer().\nearliest_finish_time(LandStartTime, LandDuration, WaterStartTime, WaterDuration) ->\n  ."

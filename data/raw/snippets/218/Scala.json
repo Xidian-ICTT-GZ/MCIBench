@@ -1,1 +1,0 @@
-"object Solution {\n    def getSkyline(buildings: Array[Array[Int]]): List[List[Int]] = {\n        \n    }\n}"

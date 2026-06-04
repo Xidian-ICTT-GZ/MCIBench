@@ -1,1 +1,0 @@
-"class Solution {\n    fun minimumCost(source: String, target: String, original: Array<String>, changed: Array<String>, cost: IntArray): Long {\n        \n    }\n}"

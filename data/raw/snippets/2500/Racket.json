@@ -1,1 +1,0 @@
-"(define/contract (delete-greatest-value grid)\n  (-> (listof (listof exact-integer?)) exact-integer?)\n  )"

@@ -1,0 +1,1 @@
+"object Solution {\n    def longestRepeating(s: String, queryCharacters: String, queryIndices: Array[Int]): Array[Int] = {\n        \n    }\n}"

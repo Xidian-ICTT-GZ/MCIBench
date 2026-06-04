@@ -1,1 +1,0 @@
-"class Solution:\n    def isSubsequence(self, s: str, t: str) -> bool:\n        "

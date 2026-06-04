@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec get_maximum_consecutive(coins :: [integer]) :: integer\n  def get_maximum_consecutive(coins) do\n    \n  end\nend"

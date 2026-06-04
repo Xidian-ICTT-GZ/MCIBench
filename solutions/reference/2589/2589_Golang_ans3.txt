@@ -1,0 +1,26 @@
+func findMinimumTime(tasks [][]int) int {
+    sort.Slice(tasks, func(i, j int) bool {
+        return tasks[i][1] < tasks[j][1]
+    })
+    var st [][]int
+    st = append(st, []int{-1, -1, 0})
+    for _, task := range tasks {
+        start, end, duration := task[0], task[1], task[2]
+        k := sort.Search(len(st), func(i int) bool {
+            return st[i][0] >= start
+        })
+        duration -= st[len(st) - 1][2] - st[k - 1][2]
+        if start <= st[k - 1][1] {
+            duration -= st[k - 1][1] - start + 1
+        }
+        if duration <= 0 {
+            continue
+        }
+        for end - st[len(st) - 1][1] <= duration {
+            duration += st[len(st) - 1][1] - st[len(st) - 1][0] + 1
+            st = st[:len(st) - 1]
+        }
+        st = append(st, []int{end - duration + 1, end, st[len(st) - 1][2] + duration})
+    }
+    return st[len(st) - 1][2]
+}

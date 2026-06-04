@@ -1,0 +1,1 @@
+"object Solution {\n    def circularPermutation(n: Int, start: Int): List[Int] = {\n        \n    }\n}"

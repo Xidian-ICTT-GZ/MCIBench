@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec min_cost_set_time(start_at :: integer, move_cost :: integer, push_cost :: integer, target_seconds :: integer) :: integer\n  def min_cost_set_time(start_at, move_cost, push_cost, target_seconds) do\n    \n  end\nend"

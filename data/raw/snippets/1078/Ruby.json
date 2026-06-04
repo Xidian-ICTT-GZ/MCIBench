@@ -1,1 +1,0 @@
-"# @param {String} text\n# @param {String} first\n# @param {String} second\n# @return {String[]}\ndef find_ocurrences(text, first, second)\n    \nend"

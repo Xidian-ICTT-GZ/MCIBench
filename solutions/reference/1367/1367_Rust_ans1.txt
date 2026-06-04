@@ -1,0 +1,28 @@
+use std::rc::Rc;
+use std::cell::RefCell;
+
+impl Solution {
+    pub fn is_sub_path(head: Option<Box<ListNode>>, root: Option<Rc<RefCell<TreeNode>>>) -> bool {
+        match (head.clone(), root.clone()) {
+            (None, _) => true,
+            (_, None) => false,
+            (Some(list_node), Some(tree_node)) => {
+                Self::dfs(&head, &root) || 
+                Self::is_sub_path(head.clone(), tree_node.borrow().left.clone()) || 
+                Self::is_sub_path(head.clone(), tree_node.borrow().right.clone())
+            }
+        }
+    }
+
+    pub fn dfs(head: &Option<Box<ListNode>>, root: &Option<Rc<RefCell<TreeNode>>>) -> bool {
+        match (head, root) {
+            (None, _) => true, 
+            (_, None) => false, 
+            (Some(list_node), Some(tree_node)) => {
+                list_node.val == tree_node.borrow().val && 
+                (Self::dfs(&list_node.next, &tree_node.borrow().left) || 
+                 Self::dfs(&list_node.next, &tree_node.borrow().right))
+            }
+        }
+    }
+}

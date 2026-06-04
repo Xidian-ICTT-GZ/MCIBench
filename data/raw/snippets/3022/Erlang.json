@@ -1,1 +1,0 @@
-"-spec min_or_after_operations(Nums :: [integer()], K :: integer()) -> integer().\nmin_or_after_operations(Nums, K) ->\n  ."

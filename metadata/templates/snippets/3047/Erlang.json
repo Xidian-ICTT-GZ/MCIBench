@@ -1,0 +1,1 @@
+"-spec largest_square_area(BottomLeft :: [[integer()]], TopRight :: [[integer()]]) -> integer().\nlargest_square_area(BottomLeft, TopRight) ->\n  ."

@@ -1,1 +1,0 @@
-"class Solution:\n    def angleClock(self, hour: int, minutes: int) -> float:\n        "

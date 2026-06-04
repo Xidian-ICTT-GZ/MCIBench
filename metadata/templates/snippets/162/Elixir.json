@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec find_peak_element(nums :: [integer]) :: integer\n  def find_peak_element(nums) do\n    \n  end\nend"

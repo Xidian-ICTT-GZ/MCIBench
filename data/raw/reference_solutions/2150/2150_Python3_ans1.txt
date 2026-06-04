@@ -1,8 +1,0 @@
-class Solution:
-    def findLonely(self, nums: List[int]) -> List[int]:
-        res = []
-        freq = Counter(nums)   
-        for num in nums:
-            if freq[num-1] == 0 and freq[num+1] == 0 and freq[num] == 1:
-                res.append(num)
-        return res

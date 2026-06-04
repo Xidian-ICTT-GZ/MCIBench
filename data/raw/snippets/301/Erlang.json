@@ -1,1 +1,0 @@
-"-spec remove_invalid_parentheses(S :: unicode:unicode_binary()) -> [unicode:unicode_binary()].\nremove_invalid_parentheses(S) ->\n  ."

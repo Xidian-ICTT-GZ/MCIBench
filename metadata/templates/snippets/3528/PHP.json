@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $conversions\n     * @return Integer[]\n     */\n    function baseUnitConversions($conversions) {\n        \n    }\n}"

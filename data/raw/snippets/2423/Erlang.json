@@ -1,1 +1,0 @@
-"-spec equal_frequency(Word :: unicode:unicode_binary()) -> boolean().\nequal_frequency(Word) ->\n  ."

@@ -1,1 +1,0 @@
-"-spec moves_to_chessboard(Board :: [[integer()]]) -> integer().\nmoves_to_chessboard(Board) ->\n  ."

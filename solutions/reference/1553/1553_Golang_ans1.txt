@@ -1,0 +1,13 @@
+func minDays(n int) int {
+	memo := map[int]int{0 : 0, 1 : 1}
+    
+	var helper func(n int) int
+	helper = func(n int) int {
+		if days, ok := memo[n]; ok {
+			return days
+		}
+		memo[n] = min(n % 2 + 1 + helper(n / 2), n % 3 + 1 + helper(n / 3))
+		return memo[n]
+	}
+	return helper(n)
+}

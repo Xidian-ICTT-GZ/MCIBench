@@ -1,1 +1,0 @@
-"-spec can_arrange(Arr :: [integer()], K :: integer()) -> boolean().\ncan_arrange(Arr, K) ->\n  ."

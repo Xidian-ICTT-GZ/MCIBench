@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    string decodeMessage(string key, string message) {\n        \n    }\n};"

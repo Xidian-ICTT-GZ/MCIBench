@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} nums\n * @param {number} target\n * @param {number} start\n * @return {number}\n */\nvar getMinDistance = function(nums, target, start) {\n    \n};"

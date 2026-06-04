@@ -1,1 +1,0 @@
-"class Solution(object):\n    def subdomainVisits(self, cpdomains):\n        \"\"\"\n        :type cpdomains: List[str]\n        :rtype: List[str]\n        \"\"\"\n        "

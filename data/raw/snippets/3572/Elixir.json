@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec max_sum_distinct_triplet(x :: [integer], y :: [integer]) :: integer\n  def max_sum_distinct_triplet(x, y) do\n    \n  end\nend"

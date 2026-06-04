@@ -1,0 +1,1 @@
+"/**\n * @param {string} expression\n * @return {string}\n */\nvar minimizeResult = function(expression) {\n    \n};"

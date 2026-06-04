@@ -1,0 +1,1 @@
+"/**\n * Definition for singly-linked list.\n * type ListNode struct {\n *     Val int\n *     Next *ListNode\n * }\n */\nfunc mergeInBetween(list1 *ListNode, a int, b int, list2 *ListNode) *ListNode {\n    \n}"

@@ -1,0 +1,1 @@
+"-spec satisfies_conditions(Grid :: [[integer()]]) -> boolean().\nsatisfies_conditions(Grid) ->\n  ."

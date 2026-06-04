@@ -1,1 +1,0 @@
-"-spec day_of_year(Date :: unicode:unicode_binary()) -> integer().\nday_of_year(Date) ->\n  ."

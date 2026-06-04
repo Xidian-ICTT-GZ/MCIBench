@@ -1,1 +1,0 @@
-"# @param {Integer[]} nums\n# @param {Integer} x\n# @return {Integer}\ndef min_absolute_difference(nums, x)\n    \nend"

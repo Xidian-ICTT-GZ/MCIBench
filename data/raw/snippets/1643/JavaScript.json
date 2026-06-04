@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} destination\n * @param {number} k\n * @return {string}\n */\nvar kthSmallestPath = function(destination, k) {\n    \n};"

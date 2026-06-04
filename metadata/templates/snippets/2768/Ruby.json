@@ -1,0 +1,1 @@
+"# @param {Integer} m\n# @param {Integer} n\n# @param {Integer[][]} coordinates\n# @return {Integer[]}\ndef count_black_blocks(m, n, coordinates)\n    \nend"

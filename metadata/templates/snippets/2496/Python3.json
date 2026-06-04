@@ -1,0 +1,1 @@
+"class Solution:\n    def maximumValue(self, strs: List[str]) -> int:\n        "

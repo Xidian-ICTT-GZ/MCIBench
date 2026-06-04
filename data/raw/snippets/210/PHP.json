@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer $numCourses\n     * @param Integer[][] $prerequisites\n     * @return Integer[]\n     */\n    function findOrder($numCourses, $prerequisites) {\n        \n    }\n}"

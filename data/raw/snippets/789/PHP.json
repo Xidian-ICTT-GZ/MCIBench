@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[][] $ghosts\n     * @param Integer[] $target\n     * @return Boolean\n     */\n    function escapeGhosts($ghosts, $target) {\n        \n    }\n}"

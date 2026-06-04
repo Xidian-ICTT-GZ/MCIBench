@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec spiral_matrix_iii(rows :: integer, cols :: integer, r_start :: integer, c_start :: integer) :: [[integer]]\n  def spiral_matrix_iii(rows, cols, r_start, c_start) do\n    \n  end\nend"

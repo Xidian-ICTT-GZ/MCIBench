@@ -1,0 +1,1 @@
+"-spec min_trio_degree(N :: integer(), Edges :: [[integer()]]) -> integer().\nmin_trio_degree(N, Edges) ->\n  ."

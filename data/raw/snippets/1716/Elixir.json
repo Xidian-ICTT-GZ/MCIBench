@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec total_money(n :: integer) :: integer\n  def total_money(n) do\n    \n  end\nend"

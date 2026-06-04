@@ -1,1 +1,0 @@
-"-spec max_containers(N :: integer(), W :: integer(), MaxWeight :: integer()) -> integer().\nmax_containers(N, W, MaxWeight) ->\n  ."

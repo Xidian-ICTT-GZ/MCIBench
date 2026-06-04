@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $money\n     * @param Integer $children\n     * @return Integer\n     */\n    function distMoney($money, $children) {\n        \n    }\n}"

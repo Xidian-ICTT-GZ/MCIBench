@@ -1,1 +1,0 @@
-"-spec max_num_of_marked_indices(Nums :: [integer()]) -> integer().\nmax_num_of_marked_indices(Nums) ->\n  ."

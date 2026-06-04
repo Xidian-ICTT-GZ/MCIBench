@@ -1,0 +1,1 @@
+"# @param {Integer[][]} grid\n# @return {Integer}\ndef max_product_path(grid)\n    \nend"

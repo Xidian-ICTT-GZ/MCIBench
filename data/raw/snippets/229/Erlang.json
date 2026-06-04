@@ -1,1 +1,0 @@
-"-spec majority_element(Nums :: [integer()]) -> [integer()].\nmajority_element(Nums) ->\n  ."

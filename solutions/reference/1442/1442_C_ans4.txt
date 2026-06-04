@@ -1,0 +1,45 @@
+struct HashTable {
+    int val, key;
+    UT_hash_handle hh;
+};
+
+bool count(struct HashTable* hashTable, int x) {
+    struct HashTable* tmp;
+    HASH_FIND_INT(hashTable, &x, tmp);
+    return tmp != NULL;
+}
+
+int getValue(struct HashTable* hashTable, int x) {
+    struct HashTable* tmp;
+    HASH_FIND_INT(hashTable, &x, tmp);
+    return tmp == NULL ? 0 : tmp->val;
+}
+
+void addValue(struct HashTable** hashTable, int x, int y) {
+    struct HashTable* tmp;
+    HASH_FIND_INT(*hashTable, &x, tmp);
+    if (tmp == NULL) {
+        tmp = malloc(sizeof(struct HashTable));
+        tmp->key = x;
+        tmp->val = y;
+        HASH_ADD_INT(*hashTable, key, tmp);
+    } else {
+        tmp->val += y;
+    }
+}
+
+int countTriplets(int* arr, int arrSize) {
+    int n = arrSize;
+    struct HashTable *cnt = NULL, *total = NULL;
+    int ans = 0, s = 0;
+    for (int k = 0; k < n; ++k) {
+        int val = arr[k];
+        if (count(cnt, s ^ val)) {
+            ans += getValue(cnt, s ^ val) * k - getValue(total, s ^ val);
+        }
+        addValue(&cnt, s, 1);
+        addValue(&total, s, k);
+        s ^= val;
+    }
+    return ans;
+}

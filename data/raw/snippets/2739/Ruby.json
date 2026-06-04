@@ -1,1 +1,0 @@
-"# @param {Integer} main_tank\n# @param {Integer} additional_tank\n# @return {Integer}\ndef distance_traveled(main_tank, additional_tank)\n    \nend"

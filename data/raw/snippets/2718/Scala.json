@@ -1,1 +1,0 @@
-"object Solution {\n    def matrixSumQueries(n: Int, queries: Array[Array[Int]]): Long = {\n        \n    }\n}"

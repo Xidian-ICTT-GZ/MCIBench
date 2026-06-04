@@ -1,1 +1,0 @@
-"(define/contract (count-components nums threshold)\n  (-> (listof exact-integer?) exact-integer? exact-integer?)\n  )"

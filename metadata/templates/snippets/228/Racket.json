@@ -1,0 +1,1 @@
+"(define/contract (summary-ranges nums)\n  (-> (listof exact-integer?) (listof string?))\n  )"

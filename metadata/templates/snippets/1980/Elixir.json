@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec find_different_binary_string(nums :: [String.t]) :: String.t\n  def find_different_binary_string(nums) do\n    \n  end\nend"

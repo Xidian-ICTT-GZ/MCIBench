@@ -1,1 +1,0 @@
-"/**\n * @param {number} n\n * @param {number[]} primes\n * @return {number}\n */\nvar nthSuperUglyNumber = function(n, primes) {\n    \n};"

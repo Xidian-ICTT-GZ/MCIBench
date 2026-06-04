@@ -1,1 +1,0 @@
-"# @param {Integer[]} flowers\n# @param {Integer} new_flowers\n# @param {Integer} target\n# @param {Integer} full\n# @param {Integer} partial\n# @return {Integer}\ndef maximum_beauty(flowers, new_flowers, target, full, partial)\n    \nend"

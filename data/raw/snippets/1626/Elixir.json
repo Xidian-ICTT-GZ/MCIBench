@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec best_team_score(scores :: [integer], ages :: [integer]) :: integer\n  def best_team_score(scores, ages) do\n    \n  end\nend"

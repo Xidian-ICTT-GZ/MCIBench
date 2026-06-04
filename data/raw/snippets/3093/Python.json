@@ -1,1 +1,0 @@
-"class Solution(object):\n    def stringIndices(self, wordsContainer, wordsQuery):\n        \"\"\"\n        :type wordsContainer: List[str]\n        :type wordsQuery: List[str]\n        :rtype: List[int]\n        \"\"\"\n        "

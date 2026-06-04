@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec count_symmetric_integers(low :: integer, high :: integer) :: integer\n  def count_symmetric_integers(low, high) do\n    \n  end\nend"

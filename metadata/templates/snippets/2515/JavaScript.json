@@ -1,0 +1,1 @@
+"/**\n * @param {string[]} words\n * @param {string} target\n * @param {number} startIndex\n * @return {number}\n */\nvar closestTarget = function(words, target, startIndex) {\n    \n};"

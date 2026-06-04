@@ -1,1 +1,0 @@
-"(define/contract (moves-to-make-zigzag nums)\n  (-> (listof exact-integer?) exact-integer?)\n  )"

@@ -1,0 +1,1 @@
+"-spec can_visit_all_rooms(Rooms :: [[integer()]]) -> boolean().\ncan_visit_all_rooms(Rooms) ->\n  ."

@@ -1,0 +1,1 @@
+"-spec max_stability(N :: integer(), Edges :: [[integer()]], K :: integer()) -> integer().\nmax_stability(N, Edges, K) ->\n  ."

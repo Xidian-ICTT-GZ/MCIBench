@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $rating\n     * @return Integer\n     */\n    function numTeams($rating) {\n        \n    }\n}"

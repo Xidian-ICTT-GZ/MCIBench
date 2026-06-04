@@ -1,1 +1,0 @@
-"# @param {Integer[]} x\n# @param {Integer[]} y\n# @return {Integer}\ndef max_sum_distinct_triplet(x, y)\n    \nend"

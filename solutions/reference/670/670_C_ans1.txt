@@ -1,0 +1,23 @@
+#define MAX(a, b) ((a) > (b) ? (a) : (b))
+#define MAX_LEN 32
+
+static inline void swap(char* a, char* b) {
+    char c = *a;
+    *a = *b;
+    *b = c;
+}
+
+int maximumSwap(int num) {
+    char charArray[MAX_LEN];
+    sprintf(charArray, "%d", num);
+    int n = strlen(charArray);
+    int maxNum = num;
+    for (int i = 0; i < n; i++) {
+        for (int j = i + 1; j < n; j++) {
+            swap(&charArray[i], &charArray[j]);
+            maxNum = MAX(maxNum, atoi(charArray));
+            swap(&charArray[i], &charArray[j]);
+        }
+    }
+    return maxNum;
+}

@@ -1,0 +1,10 @@
+void swap(char *a, char *b) {
+    char t = *a;
+    *a = *b, *b = t;
+}
+
+void reverseString(char *s, int sSize) {
+    for (int left = 0, right = sSize - 1; left < right; ++left, --right) {
+        swap(s + left, s + right);
+    }
+}

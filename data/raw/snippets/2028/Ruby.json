@@ -1,1 +1,0 @@
-"# @param {Integer[]} rolls\n# @param {Integer} mean\n# @param {Integer} n\n# @return {Integer[]}\ndef missing_rolls(rolls, mean, n)\n    \nend"

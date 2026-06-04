@@ -1,1 +1,0 @@
-"-spec check_two_chessboards(Coordinate1 :: unicode:unicode_binary(), Coordinate2 :: unicode:unicode_binary()) -> boolean().\ncheck_two_chessboards(Coordinate1, Coordinate2) ->\n  ."

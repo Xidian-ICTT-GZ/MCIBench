@@ -1,0 +1,33 @@
+public class Solution {
+    public int MinimumDifference(int[] nums, int k) {
+        int n = nums.Length;
+        int[] bitsMaxPos = new int[31];
+        Array.Fill(bitsMaxPos, -1);
+        IList<Tuple<int, int>> posToBit = new List<Tuple<int, int>>();
+        int res = int.MaxValue;
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j <= 30; j++) {
+                if ((nums[i] >> j & 1) != 0) {
+                    bitsMaxPos[j] = i;
+                }
+            }
+            posToBit.Clear();
+            for (int j = 0; j <= 30; j++) {
+                if (bitsMaxPos[j] != -1) {
+                    posToBit.Add(new Tuple<int, int>(bitsMaxPos[j], j));
+                }
+            }
+            ((List<Tuple<int, int>>) posToBit).Sort((a, b) => a.Item1 != b.Item1 ? b.Item1 - a.Item1 : b.Item2 - a.Item2);
+            int val = 0;
+            for (int j = 0, p = 0; j < posToBit.Count; ) {
+                while (j < posToBit.Count && posToBit[j].Item1 == posToBit[p].Item1) {
+                    val |= 1 << posToBit[j].Item2;
+                    j++;
+                }
+                res = Math.Min(res, Math.Abs(val - k));
+                p = j;
+            }
+        }
+        return res;
+    }
+}

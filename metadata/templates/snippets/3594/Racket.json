@@ -1,0 +1,1 @@
+"(define/contract (min-time n k m time mul)\n  (-> exact-integer? exact-integer? exact-integer? (listof exact-integer?) (listof flonum?) flonum?)\n  )"

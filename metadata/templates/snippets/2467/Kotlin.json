@@ -1,0 +1,1 @@
+"class Solution {\n    fun mostProfitablePath(edges: Array<IntArray>, bob: Int, amount: IntArray): Int {\n        \n    }\n}"

@@ -1,1 +1,0 @@
-"-spec is_transformable(S :: unicode:unicode_binary(), T :: unicode:unicode_binary()) -> boolean().\nis_transformable(S, T) ->\n  ."

@@ -1,8 +1,0 @@
-class Solution:
-    def mostFrequent(self, nums: List[int], key: int) -> int:
-        n = len(nums)
-        freq = Counter()   
-        for i in range(n - 1):
-            if nums[i] == key:
-                freq[nums[i+1]] += 1;
-        return freq.most_common(1)[0][0]

@@ -1,1 +1,0 @@
-"(define/contract (count-routes locations start finish fuel)\n  (-> (listof exact-integer?) exact-integer? exact-integer? exact-integer? exact-integer?)\n  )"

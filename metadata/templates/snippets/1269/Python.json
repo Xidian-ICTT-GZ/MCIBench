@@ -1,0 +1,1 @@
+"class Solution(object):\n    def numWays(self, steps, arrLen):\n        \"\"\"\n        :type steps: int\n        :type arrLen: int\n        :rtype: int\n        \"\"\"\n        "

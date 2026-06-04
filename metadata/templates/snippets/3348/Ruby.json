@@ -1,0 +1,1 @@
+"# @param {String} num\n# @param {Integer} t\n# @return {String}\ndef smallest_number(num, t)\n    \nend"

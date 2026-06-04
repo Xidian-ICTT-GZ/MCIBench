@@ -1,0 +1,1 @@
+"(define/contract (count-visited-nodes edges)\n  (-> (listof exact-integer?) (listof exact-integer?))\n  )"

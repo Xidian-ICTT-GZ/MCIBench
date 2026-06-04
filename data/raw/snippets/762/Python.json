@@ -1,1 +1,0 @@
-"class Solution(object):\n    def countPrimeSetBits(self, left, right):\n        \"\"\"\n        :type left: int\n        :type right: int\n        :rtype: int\n        \"\"\"\n        "

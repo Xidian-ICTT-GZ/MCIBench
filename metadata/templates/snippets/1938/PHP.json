@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $parents\n     * @param Integer[][] $queries\n     * @return Integer[]\n     */\n    function maxGeneticDifference($parents, $queries) {\n        \n    }\n}"

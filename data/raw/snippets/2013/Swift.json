@@ -1,1 +1,0 @@
-"\nclass DetectSquares {\n\n    init() {\n        \n    }\n    \n    func add(_ point: [Int]) {\n        \n    }\n    \n    func count(_ point: [Int]) -> Int {\n        \n    }\n}\n\n/**\n * Your DetectSquares object will be instantiated and called as such:\n * let obj = DetectSquares()\n * obj.add(point)\n * let ret_2: Int = obj.count(point)\n */"

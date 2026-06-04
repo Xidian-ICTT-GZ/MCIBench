@@ -1,0 +1,71 @@
+public class Solution {
+    public int MinMutation(string start, string end, string[] bank) {
+        int m = start.Length;
+        int n = bank.Length;
+        IList<int>[] adj = new IList<int>[n];
+        for (int i = 0; i < n; i++) {
+            adj[i] = new List<int>();
+        }
+        int endIndex = -1;
+        for (int i = 0; i < n; i++) {
+            if (end.Equals(bank[i])) {
+                endIndex = i;
+            }
+            for (int j = i + 1; j < n; j++) {
+                int mutations = 0;
+                for (int k = 0; k < m; k++) {
+                    if (bank[i][k] != bank[j][k]) {
+                        mutations++;
+                    }
+                    if (mutations > 1) {
+                        break;
+                    }
+                }
+                if (mutations == 1) {
+                    adj[i].Add(j);
+                    adj[j].Add(i);
+                }
+            }
+        }
+        if (endIndex == -1) {
+            return -1;
+        }
+
+        Queue<int> queue = new Queue<int>();
+        bool[] visited = new bool[n];
+        int step = 1;
+        for (int i = 0; i < n; i++) {
+            int mutations = 0;
+            for (int k = 0; k < m; k++) {
+                if (start[k] != bank[i][k]) {
+                    mutations++;
+                }
+                if (mutations > 1) {
+                    break;
+                }
+            }
+            if (mutations == 1) {
+                queue.Enqueue(i);
+                visited[i] = true;
+            }
+        }        
+        while (queue.Count > 0) {
+            int sz = queue.Count;
+            for (int i = 0; i < sz; i++) {
+                int curr = queue.Dequeue();
+                if (curr == endIndex) {
+                    return step;
+                }
+                foreach (int next in adj[curr]) {
+                    if (visited[next]) {
+                        continue;
+                    }
+                    visited[next] = true;
+                    queue.Enqueue(next);
+                }
+            }
+            step++;
+        }
+        return -1;
+    }
+}

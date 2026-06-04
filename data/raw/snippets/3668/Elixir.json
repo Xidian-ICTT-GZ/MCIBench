@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec recover_order(order :: [integer], friends :: [integer]) :: [integer]\n  def recover_order(order, friends) do\n    \n  end\nend"

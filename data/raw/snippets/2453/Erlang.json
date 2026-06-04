@@ -1,1 +1,0 @@
-"-spec destroy_targets(Nums :: [integer()], Space :: integer()) -> integer().\ndestroy_targets(Nums, Space) ->\n  ."

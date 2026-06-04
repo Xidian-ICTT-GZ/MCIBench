@@ -1,0 +1,1 @@
+"class Solution:\n    def findMinMoves(self, machines: List[int]) -> int:\n        "

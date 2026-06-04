@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    bool checkMove(vector<vector<char>>& board, int rMove, int cMove, char color) {\n        \n    }\n};"

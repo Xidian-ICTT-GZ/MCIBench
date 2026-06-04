@@ -1,0 +1,1 @@
+"class Solution(object):\n    def largestNumber(self, cost, target):\n        \"\"\"\n        :type cost: List[int]\n        :type target: int\n        :rtype: str\n        \"\"\"\n        "

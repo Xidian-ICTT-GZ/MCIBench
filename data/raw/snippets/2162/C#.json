@@ -1,1 +1,0 @@
-"public class Solution {\n    public int MinCostSetTime(int startAt, int moveCost, int pushCost, int targetSeconds) {\n        \n    }\n}"

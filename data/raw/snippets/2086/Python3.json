@@ -1,1 +1,0 @@
-"class Solution:\n    def minimumBuckets(self, hamsters: str) -> int:\n        "

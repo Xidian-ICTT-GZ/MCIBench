@@ -1,1 +1,0 @@
-"/**\n * @param {number[][]} times\n * @param {number} targetFriend\n * @return {number}\n */\nvar smallestChair = function(times, targetFriend) {\n    \n};"

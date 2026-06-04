@@ -1,1 +1,0 @@
-"class Solution(object):\n    def maxMoves(self, kx, ky, positions):\n        \"\"\"\n        :type kx: int\n        :type ky: int\n        :type positions: List[List[int]]\n        :rtype: int\n        \"\"\"\n        "

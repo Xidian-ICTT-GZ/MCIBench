@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[][] $intervals\n     * @return Integer[][]\n     */\n    function merge($intervals) {\n        \n    }\n}"

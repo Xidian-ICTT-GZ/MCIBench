@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec maximum_gain(s :: String.t, x :: integer, y :: integer) :: integer\n  def maximum_gain(s, x, y) do\n    \n  end\nend"

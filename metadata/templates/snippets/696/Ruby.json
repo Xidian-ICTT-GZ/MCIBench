@@ -1,0 +1,1 @@
+"# @param {String} s\n# @return {Integer}\ndef count_binary_substrings(s)\n    \nend"

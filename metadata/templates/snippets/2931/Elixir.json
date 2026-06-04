@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec max_spending(values :: [[integer]]) :: integer\n  def max_spending(values) do\n    \n  end\nend"

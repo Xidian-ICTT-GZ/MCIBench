@@ -1,1 +1,0 @@
-"(define/contract (minimum-abs-difference arr)\n  (-> (listof exact-integer?) (listof (listof exact-integer?)))\n  )"

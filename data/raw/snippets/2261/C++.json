@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    int countDistinct(vector<int>& nums, int k, int p) {\n        \n    }\n};"

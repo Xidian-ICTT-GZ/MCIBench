@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $numArrows\n     * @param Integer[] $aliceArrows\n     * @return Integer[]\n     */\n    function maximumBobPoints($numArrows, $aliceArrows) {\n        \n    }\n}"

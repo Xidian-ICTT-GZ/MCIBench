@@ -1,1 +1,0 @@
-"-spec garbage_collection(Garbage :: [unicode:unicode_binary()], Travel :: [integer()]) -> integer().\ngarbage_collection(Garbage, Travel) ->\n  ."

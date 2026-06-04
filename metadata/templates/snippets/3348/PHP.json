@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $num\n     * @param Integer $t\n     * @return String\n     */\n    function smallestNumber($num, $t) {\n        \n    }\n}"

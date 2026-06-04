@@ -1,0 +1,1 @@
+"# @param {Integer[]} ranks\n# @param {Integer} cars\n# @return {Integer}\ndef repair_cars(ranks, cars)\n    \nend"

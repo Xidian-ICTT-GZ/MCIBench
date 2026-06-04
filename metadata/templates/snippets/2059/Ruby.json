@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @param {Integer} start\n# @param {Integer} goal\n# @return {Integer}\ndef minimum_operations(nums, start, goal)\n    \nend"

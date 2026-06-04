@@ -1,1 +1,0 @@
-"/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* findWordsContaining(char** words, int wordsSize, char x, int* returnSize) {\n    \n}"

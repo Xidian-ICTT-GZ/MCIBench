@@ -1,1 +1,0 @@
-"-spec character_replacement(S :: unicode:unicode_binary(), K :: integer()) -> integer().\ncharacter_replacement(S, K) ->\n  ."

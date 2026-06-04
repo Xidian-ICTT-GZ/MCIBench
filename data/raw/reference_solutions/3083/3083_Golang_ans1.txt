@@ -1,9 +1,0 @@
-func isSubstringPresent(s string) bool {
-    for i := 0; i < len(s) - 1; i++ {
-		substr := string([]byte{s[i + 1], s[i]})
-		if strings.Contains(s, substr) {
-			return true
-		}
-	}
-	return false
-}

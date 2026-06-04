@@ -1,1 +1,0 @@
-"/**\n * @param {number} mainTank\n * @param {number} additionalTank\n * @return {number}\n */\nvar distanceTraveled = function(mainTank, additionalTank) {\n    \n};"

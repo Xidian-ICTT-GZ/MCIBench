@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec minimum_time(n :: integer, edges :: [[integer]], disappear :: [integer]) :: [integer]\n  def minimum_time(n, edges, disappear) do\n    \n  end\nend"

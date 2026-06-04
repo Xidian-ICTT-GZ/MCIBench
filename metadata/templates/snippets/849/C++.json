@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int maxDistToClosest(vector<int>& seats) {\n        \n    }\n};"

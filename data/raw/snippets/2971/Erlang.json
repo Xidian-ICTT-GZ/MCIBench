@@ -1,1 +1,0 @@
-"-spec largest_perimeter(Nums :: [integer()]) -> integer().\nlargest_perimeter(Nums) ->\n  ."

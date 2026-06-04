@@ -1,1 +1,0 @@
-"(define/contract (result-array nums k queries)\n  (-> (listof exact-integer?) exact-integer? (listof (listof exact-integer?)) (listof exact-integer?))\n  )"

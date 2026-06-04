@@ -1,1 +1,0 @@
-"class Solution(object):\n    def maxScoreSightseeingPair(self, values):\n        \"\"\"\n        :type values: List[int]\n        :rtype: int\n        \"\"\"\n        "

@@ -1,0 +1,1 @@
+"/**\n * @param {string} sentence\n * @return {boolean}\n */\nvar checkIfPangram = function(sentence) {\n    \n};"

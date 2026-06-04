@@ -1,1 +1,0 @@
-"-spec assign_tasks(Servers :: [integer()], Tasks :: [integer()]) -> [integer()].\nassign_tasks(Servers, Tasks) ->\n  ."

@@ -1,1 +1,0 @@
-"-spec min_subsequence(Nums :: [integer()]) -> [integer()].\nmin_subsequence(Nums) ->\n  ."

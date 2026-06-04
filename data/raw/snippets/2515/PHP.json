@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String[] $words\n     * @param String $target\n     * @param Integer $startIndex\n     * @return Integer\n     */\n    function closestTarget($words, $target, $startIndex) {\n        \n    }\n}"

@@ -1,1 +1,0 @@
-"/**\n * @param {number} n\n * @param {number[]} left\n * @param {number[]} right\n * @return {number}\n */\nvar getLastMoment = function(n, left, right) {\n    \n};"

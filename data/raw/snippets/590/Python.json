@@ -1,1 +1,0 @@
-"\"\"\"\n# Definition for a Node.\nclass Node(object):\n\tdef __init__(self, val: Optional[int] = None, children: Optional[List['Node']] = None):\n        self.val = val\n        self.children = children\n\"\"\"\n\nclass Solution(object):\n    def postorder(self, root):\n        \"\"\"\n        :type root: Node\n        :rtype: List[int]\n        \"\"\"\n        "

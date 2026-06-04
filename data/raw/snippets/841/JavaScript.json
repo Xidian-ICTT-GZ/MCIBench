@@ -1,1 +1,0 @@
-"/**\n * @param {number[][]} rooms\n * @return {boolean}\n */\nvar canVisitAllRooms = function(rooms) {\n    \n};"

@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String $s\n     * @param String[] $wordDict\n     * @return String[]\n     */\n    function wordBreak($s, $wordDict) {\n        \n    }\n}"

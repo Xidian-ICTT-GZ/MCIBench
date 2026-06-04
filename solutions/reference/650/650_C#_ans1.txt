@@ -1,0 +1,15 @@
+public class Solution {
+    public int MinSteps(int n) {
+        int[] f = new int[n + 1];
+        for (int i = 2; i <= n; ++i) {
+            f[i] = int.MaxValue;
+            for (int j = 1; j * j <= i; ++j) {
+                if (i % j == 0) {
+                    f[i] = Math.Min(f[i], f[j] + i / j);
+                    f[i] = Math.Min(f[i], f[i / j] + j);
+                }
+            }
+        }
+        return f[n];
+    }
+}

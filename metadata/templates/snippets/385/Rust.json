@@ -1,0 +1,1 @@
+"// #[derive(Debug, PartialEq, Eq)]\n// pub enum NestedInteger {\n//   Int(i32),\n//   List(Vec<NestedInteger>)\n// }\nimpl Solution {\n    pub fn deserialize(s: String) -> NestedInteger {\n        \n    }\n}"

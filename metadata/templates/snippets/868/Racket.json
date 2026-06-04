@@ -1,0 +1,1 @@
+"(define/contract (binary-gap n)\n  (-> exact-integer? exact-integer?)\n  )"

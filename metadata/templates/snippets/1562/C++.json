@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int findLatestStep(vector<int>& arr, int m) {\n        \n    }\n};"

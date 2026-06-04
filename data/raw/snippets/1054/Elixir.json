@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec rearrange_barcodes(barcodes :: [integer]) :: [integer]\n  def rearrange_barcodes(barcodes) do\n    \n  end\nend"

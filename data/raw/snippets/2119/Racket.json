@@ -1,1 +1,0 @@
-"(define/contract (is-same-after-reversals num)\n  (-> exact-integer? boolean?)\n  )"

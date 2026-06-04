@@ -1,1 +1,0 @@
-"-spec smallest_equal(Nums :: [integer()]) -> integer().\nsmallest_equal(Nums) ->\n  ."

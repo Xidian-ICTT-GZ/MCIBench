@@ -1,1 +1,0 @@
-"class Solution:\n    def subtreeInversionSum(self, edges: List[List[int]], nums: List[int], k: int) -> int:\n        "

@@ -1,1 +1,0 @@
-"class Solution(object):\n    def separateSquares(self, squares):\n        \"\"\"\n        :type squares: List[List[int]]\n        :rtype: float\n        \"\"\"\n        "

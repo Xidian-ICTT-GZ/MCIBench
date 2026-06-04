@@ -1,1 +1,0 @@
-"(define/contract (sum-of-number-and-reverse num)\n  (-> exact-integer? boolean?)\n  )"

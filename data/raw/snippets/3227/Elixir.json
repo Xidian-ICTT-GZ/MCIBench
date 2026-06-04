@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec does_alice_win(s :: String.t) :: boolean\n  def does_alice_win(s) do\n    \n  end\nend"

@@ -1,1 +1,0 @@
-"-spec count_digit_one(N :: integer()) -> integer().\ncount_digit_one(N) ->\n  ."

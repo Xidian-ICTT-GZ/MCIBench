@@ -1,0 +1,21 @@
+public class Solution {
+    public int MaximumSum(int[] nums) {
+        IDictionary<int, int> dictionary = new Dictionary<int, int>();
+        int res = -1;
+        foreach (int i in nums) {
+            int digitsSum = 0;
+            int temp = i;
+            while (temp > 0) {
+                digitsSum += temp % 10;
+                temp /= 10;
+            }
+            if (dictionary.ContainsKey(digitsSum)) {
+                res = Math.Max(res, dictionary[digitsSum] + i);
+                dictionary[digitsSum] = Math.Max(dictionary[digitsSum], i);
+            } else {
+                dictionary.Add(digitsSum, i);
+            }
+        }
+        return res;
+    }
+}

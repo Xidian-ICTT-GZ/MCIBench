@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec unique_paths_with_obstacles(obstacle_grid :: [[integer]]) :: integer\n  def unique_paths_with_obstacles(obstacle_grid) do\n    \n  end\nend"

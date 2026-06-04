@@ -1,1 +1,0 @@
-"-spec shortest_sequence(Rolls :: [integer()], K :: integer()) -> integer().\nshortest_sequence(Rolls, K) ->\n  ."

@@ -1,1 +1,0 @@
-"/**\n * @param {number} kx\n * @param {number} ky\n * @param {number[][]} positions\n * @return {number}\n */\nvar maxMoves = function(kx, ky, positions) {\n    \n};"

@@ -1,0 +1,1 @@
+"class Solution(object):\n    def minMoves(self, target, maxDoubles):\n        \"\"\"\n        :type target: int\n        :type maxDoubles: int\n        :rtype: int\n        \"\"\"\n        "

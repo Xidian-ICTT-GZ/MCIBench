@@ -1,1 +1,0 @@
-"-spec find_gcd(Nums :: [integer()]) -> integer().\nfind_gcd(Nums) ->\n  ."

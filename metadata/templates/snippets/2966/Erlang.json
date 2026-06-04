@@ -1,0 +1,1 @@
+"-spec divide_array(Nums :: [integer()], K :: integer()) -> [[integer()]].\ndivide_array(Nums, K) ->\n  ."

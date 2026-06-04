@@ -1,0 +1,1 @@
+"/**\n Do not return anything, modify matrix in-place instead.\n */\nfunction setZeroes(matrix: number[][]): void {\n    \n};"

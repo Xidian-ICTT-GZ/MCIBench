@@ -1,0 +1,1 @@
+"# @param {Integer[][]} heights\n# @return {Integer}\ndef minimum_effort_path(heights)\n    \nend"

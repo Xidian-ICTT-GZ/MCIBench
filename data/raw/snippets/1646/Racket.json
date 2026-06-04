@@ -1,1 +1,0 @@
-"(define/contract (get-maximum-generated n)\n  (-> exact-integer? exact-integer?)\n  )"

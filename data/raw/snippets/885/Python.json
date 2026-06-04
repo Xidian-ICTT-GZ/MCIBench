@@ -1,1 +1,0 @@
-"class Solution(object):\n    def spiralMatrixIII(self, rows, cols, rStart, cStart):\n        \"\"\"\n        :type rows: int\n        :type cols: int\n        :type rStart: int\n        :type cStart: int\n        :rtype: List[List[int]]\n        \"\"\"\n        "

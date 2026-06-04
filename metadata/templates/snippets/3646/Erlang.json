@@ -1,0 +1,1 @@
+"-spec special_palindrome(N :: integer()) -> integer().\nspecial_palindrome(N) ->\n  ."

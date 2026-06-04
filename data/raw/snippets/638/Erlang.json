@@ -1,1 +1,0 @@
-"-spec shopping_offers(Price :: [integer()], Special :: [[integer()]], Needs :: [integer()]) -> integer().\nshopping_offers(Price, Special, Needs) ->\n  ."

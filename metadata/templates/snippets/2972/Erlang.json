@@ -1,0 +1,1 @@
+"-spec incremovable_subarray_count(Nums :: [integer()]) -> integer().\nincremovable_subarray_count(Nums) ->\n  ."

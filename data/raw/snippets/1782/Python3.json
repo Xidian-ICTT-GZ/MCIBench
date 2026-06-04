@@ -1,1 +1,0 @@
-"class Solution:\n    def countPairs(self, n: int, edges: List[List[int]], queries: List[int]) -> List[int]:\n        "

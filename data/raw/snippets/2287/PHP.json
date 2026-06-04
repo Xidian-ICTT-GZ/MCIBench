@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String $s\n     * @param String $target\n     * @return Integer\n     */\n    function rearrangeCharacters($s, $target) {\n        \n    }\n}"

@@ -1,1 +1,0 @@
-"class Solution(object):\n    def containsPattern(self, arr, m, k):\n        \"\"\"\n        :type arr: List[int]\n        :type m: int\n        :type k: int\n        :rtype: bool\n        \"\"\"\n        "

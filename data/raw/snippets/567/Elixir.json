@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec check_inclusion(s1 :: String.t, s2 :: String.t) :: boolean\n  def check_inclusion(s1, s2) do\n    \n  end\nend"

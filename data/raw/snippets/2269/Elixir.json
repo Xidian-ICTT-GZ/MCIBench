@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec divisor_substrings(num :: integer, k :: integer) :: integer\n  def divisor_substrings(num, k) do\n    \n  end\nend"

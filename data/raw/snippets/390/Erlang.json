@@ -1,1 +1,0 @@
-"-spec last_remaining(N :: integer()) -> integer().\nlast_remaining(N) ->\n  ."

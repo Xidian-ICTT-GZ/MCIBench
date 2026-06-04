@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    vector<int> findAllPeople(int n, vector<vector<int>>& meetings, int firstPerson) {\n        \n    }\n};"

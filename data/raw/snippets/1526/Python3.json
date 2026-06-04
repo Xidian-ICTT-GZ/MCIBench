@@ -1,1 +1,0 @@
-"class Solution:\n    def minNumberOperations(self, target: List[int]) -> int:\n        "

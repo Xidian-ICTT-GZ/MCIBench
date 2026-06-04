@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec closest_meeting_node(edges :: [integer], node1 :: integer, node2 :: integer) :: integer\n  def closest_meeting_node(edges, node1, node2) do\n    \n  end\nend"

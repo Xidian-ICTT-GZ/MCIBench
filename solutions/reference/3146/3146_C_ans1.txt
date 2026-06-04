@@ -1,0 +1,11 @@
+int findPermutationDifference(char* s, char* t) {
+    int char2index[26] = {0}; 
+    for (int i = 0; s[i] != '\0'; ++i) {
+        char2index[s[i] - 'a'] = i;
+    }
+    int sum = 0;
+    for (int i = 0; t[i] != '\0'; ++i) {
+        sum += abs(i - char2index[t[i] - 'a']);
+    }
+    return sum;
+}

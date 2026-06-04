@@ -1,1 +1,0 @@
-"(define/contract (have-conflict event1 event2)\n  (-> (listof string?) (listof string?) boolean?)\n  )"

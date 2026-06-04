@@ -1,0 +1,40 @@
+static const int check[10] = {0, 0, 1, -1, -1, 1, 1, -1, 0, 1};
+int memo[5][2][2];
+
+void reverse(int *arr, int l, int r) {
+    while (l < r) {
+        int element = arr[l];
+        arr[l] = arr[r];
+        arr[r] = element;
+        l++, r--;
+    }
+}
+
+int dfs(int pos, bool bound, bool diff, int *digits, int digitsSize) {
+    if (pos == digitsSize) {
+        return diff;
+    }
+    if (memo[pos][bound][diff] != -1) {
+        return memo[pos][bound][diff];
+    }
+
+    int ret = 0;
+    for (int i = 0; i <= (bound ? digits[pos] : 9); ++i) {
+        if (check[i] != -1) {
+            ret += dfs(pos + 1, bound && (i == digits[pos]), diff || (check[i] == 1), digits, digitsSize);
+        }
+    }
+    return memo[pos][bound][diff] = ret;
+};
+
+int rotatedDigits(int n) {
+    int digits[8];
+    int pos = 0;
+    while (n) {
+        digits[pos++] = n % 10;
+        n /= 10;
+    }
+    reverse(digits, 0, pos - 1);    
+    memset(memo, -1, sizeof(memo));
+    return dfs(0, true, false, digits, pos);
+}

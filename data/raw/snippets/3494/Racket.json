@@ -1,1 +1,0 @@
-"(define/contract (min-time skill mana)\n  (-> (listof exact-integer?) (listof exact-integer?) exact-integer?)\n  )"

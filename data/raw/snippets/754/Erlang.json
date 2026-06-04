@@ -1,1 +1,0 @@
-"-spec reach_number(Target :: integer()) -> integer().\nreach_number(Target) ->\n  ."

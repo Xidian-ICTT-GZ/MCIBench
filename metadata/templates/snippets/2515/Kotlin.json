@@ -1,0 +1,1 @@
+"class Solution {\n    fun closestTarget(words: Array<String>, target: String, startIndex: Int): Int {\n        \n    }\n}"

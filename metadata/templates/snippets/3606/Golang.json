@@ -1,0 +1,1 @@
+"func validateCoupons(code []string, businessLine []string, isActive []bool) []string {\n    \n}"

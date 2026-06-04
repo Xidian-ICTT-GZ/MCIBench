@@ -1,1 +1,0 @@
-"class Solution {\n    fun findReplaceString(s: String, indices: IntArray, sources: Array<String>, targets: Array<String>): String {\n        \n    }\n}"

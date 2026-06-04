@@ -1,1 +1,0 @@
-"class Solution:\n    def maxHeightOfTriangle(self, red: int, blue: int) -> int:\n        "

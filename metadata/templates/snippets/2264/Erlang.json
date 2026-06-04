@@ -1,0 +1,1 @@
+"-spec largest_good_integer(Num :: unicode:unicode_binary()) -> unicode:unicode_binary().\nlargest_good_integer(Num) ->\n  ."

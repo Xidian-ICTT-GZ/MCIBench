@@ -1,1 +1,0 @@
-"-spec min_side_jumps(Obstacles :: [integer()]) -> integer().\nmin_side_jumps(Obstacles) ->\n  ."

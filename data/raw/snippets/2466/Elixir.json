@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec count_good_strings(low :: integer, high :: integer, zero :: integer, one :: integer) :: integer\n  def count_good_strings(low, high, zero, one) do\n    \n  end\nend"

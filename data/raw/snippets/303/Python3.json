@@ -1,1 +1,0 @@
-"class NumArray:\n\n    def __init__(self, nums: List[int]):\n        \n\n    def sumRange(self, left: int, right: int) -> int:\n        \n\n\n# Your NumArray object will be instantiated and called as such:\n# obj = NumArray(nums)\n# param_1 = obj.sumRange(left,right)"

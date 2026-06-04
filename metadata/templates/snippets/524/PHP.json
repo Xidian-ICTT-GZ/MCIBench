@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $s\n     * @param String[] $dictionary\n     * @return String\n     */\n    function findLongestWord($s, $dictionary) {\n        \n    }\n}"

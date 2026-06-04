@@ -1,9 +1,0 @@
-class Solution:
-    def removeDigit(self, number: str, digit: str) -> str:
-        n = len(number)
-        res = ""   
-        for i in range(n):
-            if number[i] == digit:
-                tmp = number[:i] + number[i+1:]
-                res = max(res, tmp)
-        return res

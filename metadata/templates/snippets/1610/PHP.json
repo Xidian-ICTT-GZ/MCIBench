@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $points\n     * @param Integer $angle\n     * @param Integer[] $location\n     * @return Integer\n     */\n    function visiblePoints($points, $angle, $location) {\n        \n    }\n}"

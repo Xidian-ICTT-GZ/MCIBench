@@ -1,0 +1,1 @@
+"class Solution(object):\n    def decrypt(self, code, k):\n        \"\"\"\n        :type code: List[int]\n        :type k: int\n        :rtype: List[int]\n        \"\"\"\n        "

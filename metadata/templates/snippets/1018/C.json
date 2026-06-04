@@ -1,0 +1,1 @@
+"/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nbool* prefixesDivBy5(int* nums, int numsSize, int* returnSize) {\n    \n}"

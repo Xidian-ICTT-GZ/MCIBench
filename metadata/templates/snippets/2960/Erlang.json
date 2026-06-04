@@ -1,0 +1,1 @@
+"-spec count_tested_devices(BatteryPercentages :: [integer()]) -> integer().\ncount_tested_devices(BatteryPercentages) ->\n  ."

@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} apple\n * @param {number[]} capacity\n * @return {number}\n */\nvar minimumBoxes = function(apple, capacity) {\n    \n};"

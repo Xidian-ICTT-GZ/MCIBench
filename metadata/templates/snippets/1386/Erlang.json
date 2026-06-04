@@ -1,0 +1,1 @@
+"-spec max_number_of_families(N :: integer(), ReservedSeats :: [[integer()]]) -> integer().\nmax_number_of_families(N, ReservedSeats) ->\n  ."

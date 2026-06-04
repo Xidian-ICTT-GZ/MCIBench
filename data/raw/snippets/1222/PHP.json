@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[][] $queens\n     * @param Integer[] $king\n     * @return Integer[][]\n     */\n    function queensAttacktheKing($queens, $king) {\n        \n    }\n}"

@@ -1,1 +1,0 @@
-"-spec min_number(Nums1 :: [integer()], Nums2 :: [integer()]) -> integer().\nmin_number(Nums1, Nums2) ->\n  ."

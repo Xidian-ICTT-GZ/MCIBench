@@ -1,0 +1,1 @@
+"public class Solution {\n    public IList<IList<string>> DisplayTable(IList<IList<string>> orders) {\n        \n    }\n}"

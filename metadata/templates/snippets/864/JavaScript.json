@@ -1,0 +1,1 @@
+"/**\n * @param {string[]} grid\n * @return {number}\n */\nvar shortestPathAllKeys = function(grid) {\n    \n};"

@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @param {Integer} target\n# @return {Integer}\ndef min_size_subarray(nums, target)\n    \nend"

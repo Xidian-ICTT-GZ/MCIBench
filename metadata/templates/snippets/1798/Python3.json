@@ -1,0 +1,1 @@
+"class Solution:\n    def getMaximumConsecutive(self, coins: List[int]) -> int:\n        "

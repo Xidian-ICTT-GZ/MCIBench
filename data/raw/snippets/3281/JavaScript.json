@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} start\n * @param {number} d\n * @return {number}\n */\nvar maxPossibleScore = function(start, d) {\n    \n};"

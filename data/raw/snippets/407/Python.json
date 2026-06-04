@@ -1,1 +1,0 @@
-"class Solution(object):\n    def trapRainWater(self, heightMap):\n        \"\"\"\n        :type heightMap: List[List[int]]\n        :rtype: int\n        \"\"\"\n        "

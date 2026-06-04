@@ -1,0 +1,1 @@
+"class Solution(object):\n    def countPrefixes(self, words, s):\n        \"\"\"\n        :type words: List[str]\n        :type s: str\n        :rtype: int\n        \"\"\"\n        "

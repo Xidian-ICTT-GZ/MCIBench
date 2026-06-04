@@ -1,0 +1,1 @@
+"impl Solution {\n    pub fn count_words(words1: Vec<String>, words2: Vec<String>) -> i32 {\n        \n    }\n}"

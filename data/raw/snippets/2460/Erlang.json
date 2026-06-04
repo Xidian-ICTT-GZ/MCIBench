@@ -1,1 +1,0 @@
-"-spec apply_operations(Nums :: [integer()]) -> [integer()].\napply_operations(Nums) ->\n  ."

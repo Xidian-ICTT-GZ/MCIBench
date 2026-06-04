@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec find_min_step(board :: String.t, hand :: String.t) :: integer\n  def find_min_step(board, hand) do\n    \n  end\nend"

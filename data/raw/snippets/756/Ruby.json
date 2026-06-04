@@ -1,1 +1,0 @@
-"# @param {String} bottom\n# @param {String[]} allowed\n# @return {Boolean}\ndef pyramid_transition(bottom, allowed)\n    \nend"

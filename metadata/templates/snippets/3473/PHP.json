@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer $k\n     * @param Integer $m\n     * @return Integer\n     */\n    function maxSum($nums, $k, $m) {\n        \n    }\n}"

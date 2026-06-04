@@ -1,0 +1,16 @@
+public class Solution {
+    public int ScoreOfParentheses(string s) {
+        Stack<int> st = new Stack<int>();
+        st.Push(0);
+        foreach (char c in s) {
+            if (c == '(') {
+                st.Push(0);
+            } else {
+                int v = st.Pop();
+                int top = st.Pop() + Math.Max(2 * v, 1);
+                st.Push(top);
+            }
+        }
+        return st.Peek();
+    }
+}

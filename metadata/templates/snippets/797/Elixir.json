@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec all_paths_source_target(graph :: [[integer]]) :: [[integer]]\n  def all_paths_source_target(graph) do\n    \n  end\nend"

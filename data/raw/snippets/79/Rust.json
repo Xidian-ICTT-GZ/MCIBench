@@ -1,1 +1,0 @@
-"impl Solution {\n    pub fn exist(board: Vec<Vec<char>>, word: String) -> bool {\n        \n    }\n}"

@@ -1,1 +1,0 @@
-"-spec count_special_numbers(N :: integer()) -> integer().\ncount_special_numbers(N) ->\n  ."

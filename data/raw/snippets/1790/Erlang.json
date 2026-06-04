@@ -1,1 +1,0 @@
-"-spec are_almost_equal(S1 :: unicode:unicode_binary(), S2 :: unicode:unicode_binary()) -> boolean().\nare_almost_equal(S1, S2) ->\n  ."

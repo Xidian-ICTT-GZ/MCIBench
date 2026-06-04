@@ -1,0 +1,1 @@
+"class Solution {\n    func numOfSubarrays(_ arr: [Int], _ k: Int, _ threshold: Int) -> Int {\n        \n    }\n}"

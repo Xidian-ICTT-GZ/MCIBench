@@ -1,0 +1,1 @@
+"class Solution {\n    func distributeCandies(candies: Int64, num_people: Int64): Array<Int64> {\n\n    }\n}"

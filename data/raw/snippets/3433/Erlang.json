@@ -1,1 +1,0 @@
-"-spec count_mentions(NumberOfUsers :: integer(), Events :: [[unicode:unicode_binary()]]) -> [integer()].\ncount_mentions(NumberOfUsers, Events) ->\n  ."

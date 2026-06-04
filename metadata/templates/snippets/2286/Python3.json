@@ -1,0 +1,1 @@
+"class BookMyShow:\n\n    def __init__(self, n: int, m: int):\n        \n\n    def gather(self, k: int, maxRow: int) -> List[int]:\n        \n\n    def scatter(self, k: int, maxRow: int) -> bool:\n        \n\n\n# Your BookMyShow object will be instantiated and called as such:\n# obj = BookMyShow(n, m)\n# param_1 = obj.gather(k,maxRow)\n# param_2 = obj.scatter(k,maxRow)"

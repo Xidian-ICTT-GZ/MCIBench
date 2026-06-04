@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec maximize_win(prize_positions :: [integer], k :: integer) :: integer\n  def maximize_win(prize_positions, k) do\n    \n  end\nend"

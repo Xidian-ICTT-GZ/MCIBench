@@ -1,8 +1,0 @@
-class Solution:
-    def nthPersonGetsNthSeat(self, n: int) -> float:
-        if n <= 2:
-            return 1 / n
-        prob = 0.5
-        for i in range(3, n + 1):
-            prob = (1 + (i - 2) * prob) / i
-        return prob

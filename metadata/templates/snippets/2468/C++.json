@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<string> splitMessage(string message, int limit) {\n        \n    }\n};"

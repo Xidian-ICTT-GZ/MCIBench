@@ -1,0 +1,1 @@
+"class Solution(object):\n    def countCells(self, grid, pattern):\n        \"\"\"\n        :type grid: List[List[str]]\n        :type pattern: str\n        :rtype: int\n        \"\"\"\n        "

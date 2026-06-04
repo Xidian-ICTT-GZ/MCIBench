@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer[] $multipliers\n     * @return Integer\n     */\n    function maximumScore($nums, $multipliers) {\n        \n    }\n}"

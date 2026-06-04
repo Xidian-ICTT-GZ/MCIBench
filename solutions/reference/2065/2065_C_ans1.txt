@@ -1,0 +1,67 @@
+typedef struct Element {
+    int v;
+    int dist;
+    struct Element *next;
+} Element;
+
+Element *creatElement(int v, int dist) {
+    Element *obj = (Element *)malloc(sizeof(Element));
+    obj->v = v;
+    obj->dist = dist;
+    return obj;
+}
+
+void dfs(int *ans, int u, int time, int value, Element** g, bool* visited, int *values, int maxTime) {
+    if (u == 0) {
+        *ans = fmax(*ans, value);
+    }
+    for (Element *p = g[u]; p; p = p->next) {
+        int v = p->v, dist = p->dist;
+        if (time + dist <= maxTime) {
+            if (!visited[v]) {
+                visited[v] = 1;
+                dfs(ans, v, time + dist, value + values[v], g, visited, values, maxTime);
+                visited[v] = 0;
+            } else {
+                dfs(ans, v, time + dist, value, g, visited, values, maxTime);
+            }
+        }
+    }
+}
+
+void freeList(Element *list) {
+    while (list) {
+        Element *p = list;
+        list = list->next;
+        free(p);
+    }
+}
+
+int maximalPathQuality(int* values, int valuesSize, int** edges, int edgesSize, int* edgesColSize, int maxTime) {
+    int n = valuesSize;
+    Element **g = (Element **)malloc(sizeof(Element *) * n);
+    for (int i = 0; i < n; i++) {
+        g[i] = NULL;
+    }
+    for (int i = 0; i < edgesSize; i++) {
+        int x = edges[i][0];
+        int y = edges[i][1];
+        int cost = edges[i][2];
+        Element *ex = creatElement(y, cost);
+        ex->next = g[x];
+        g[x] = ex;
+        Element *ey = creatElement(x, cost);
+        ey->next = g[y];
+        g[y] = ey;
+    }
+    int visited[n];
+    memset(visited, 0, sizeof(visited));
+    visited[0] = 1;
+    int ans = 0;
+    dfs(&ans, 0, 0, values[0], g, visited, values, maxTime);
+    for (int i = 0; i < n; i++) {
+        freeList(g[i]);
+    }
+    free(g);
+    return ans;
+}

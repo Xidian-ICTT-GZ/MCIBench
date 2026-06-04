@@ -1,1 +1,0 @@
-"-spec construct_product_matrix(Grid :: [[integer()]]) -> [[integer()]].\nconstruct_product_matrix(Grid) ->\n  ."

@@ -1,0 +1,1 @@
+"# @param {String} s\n# @param {Integer[]} order\n# @param {Integer} k\n# @return {Integer}\ndef min_time(s, order, k)\n    \nend"

@@ -1,0 +1,1 @@
+"-spec check_partitioning(S :: unicode:unicode_binary()) -> boolean().\ncheck_partitioning(S) ->\n  ."

@@ -1,0 +1,1 @@
+"# @param {Integer[]} alice_sizes\n# @param {Integer[]} bob_sizes\n# @return {Integer[]}\ndef fair_candy_swap(alice_sizes, bob_sizes)\n    \nend"

@@ -1,1 +1,0 @@
-"# @param {Integer} num_ones\n# @param {Integer} num_zeros\n# @param {Integer} num_neg_ones\n# @param {Integer} k\n# @return {Integer}\ndef k_items_with_maximum_sum(num_ones, num_zeros, num_neg_ones, k)\n    \nend"

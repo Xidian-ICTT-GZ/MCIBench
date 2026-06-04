@@ -1,0 +1,1 @@
+"-spec winning_player_count(N :: integer(), Pick :: [[integer()]]) -> integer().\nwinning_player_count(N, Pick) ->\n  ."

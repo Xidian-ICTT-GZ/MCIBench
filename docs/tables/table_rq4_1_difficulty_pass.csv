@@ -1,0 +1,4 @@
+difficulty,n_tasks,pass_at_1,pass_at_5,pass_at_5_gain
+Easy,"38,480",73.4%,81.8%,8.4%
+Medium,"57,840",57.7%,68.2%,10.5%
+Hard,"22,800",36.8%,49.3%,12.5%

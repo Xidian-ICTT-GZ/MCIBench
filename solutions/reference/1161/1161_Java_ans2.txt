@@ -1,0 +1,26 @@
+class Solution {
+    public int maxLevelSum(TreeNode root) {
+        int ans = 1, maxSum = root.val;
+        List<TreeNode> q = new ArrayList<TreeNode>();
+        q.add(root);
+        for (int level = 1; !q.isEmpty(); ++level) {
+            List<TreeNode> nq = new ArrayList<TreeNode>();
+            int sum = 0;
+            for (TreeNode node : q) {
+                sum += node.val;
+                if (node.left != null) {
+                    nq.add(node.left);
+                }
+                if (node.right != null) {
+                    nq.add(node.right);
+                }
+            }
+            if (sum > maxSum) {
+                maxSum = sum;
+                ans = level;
+            }
+            q = nq;
+        }
+        return ans;
+    }
+}

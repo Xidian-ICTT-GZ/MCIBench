@@ -1,0 +1,1 @@
+"class Solution:\n    def chalkReplacer(self, chalk: List[int], k: int) -> int:\n        "

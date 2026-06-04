@@ -1,1 +1,0 @@
-"class Solution:\n    def shortestSequence(self, rolls: List[int], k: int) -> int:\n        "

@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} plants\n * @param {number} capacityA\n * @param {number} capacityB\n * @return {number}\n */\nvar minimumRefill = function(plants, capacityA, capacityB) {\n    \n};"

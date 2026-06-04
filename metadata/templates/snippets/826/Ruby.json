@@ -1,0 +1,1 @@
+"# @param {Integer[]} difficulty\n# @param {Integer[]} profit\n# @param {Integer[]} worker\n# @return {Integer}\ndef max_profit_assignment(difficulty, profit, worker)\n    \nend"

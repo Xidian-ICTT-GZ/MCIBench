@@ -1,0 +1,1 @@
+"-spec is_possible(Target :: [integer()]) -> boolean().\nis_possible(Target) ->\n  ."

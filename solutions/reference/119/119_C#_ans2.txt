@@ -1,0 +1,15 @@
+public class Solution {
+    public IList<int> GetRow(int rowIndex) {
+        List<int> pre = new List<int>();
+        List<int> cur = new List<int>();
+        for (int i = 0; i <= rowIndex; ++i) {
+            cur = new List<int>(new int[i + 1]);
+            cur[0] = cur[i] = 1;
+            for (int j = 1; j < i; ++j) {
+                cur[j] = pre[j - 1] + pre[j];
+            }
+            pre = new List<int>(cur);
+        }
+        return pre;
+    }
+}

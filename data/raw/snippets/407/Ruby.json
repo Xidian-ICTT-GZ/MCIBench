@@ -1,1 +1,0 @@
-"# @param {Integer[][]} height_map\n# @return {Integer}\ndef trap_rain_water(height_map)\n    \nend"

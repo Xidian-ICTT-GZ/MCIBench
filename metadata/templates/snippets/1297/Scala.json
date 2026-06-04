@@ -1,0 +1,1 @@
+"object Solution {\n    def maxFreq(s: String, maxLetters: Int, minSize: Int, maxSize: Int): Int = {\n        \n    }\n}"

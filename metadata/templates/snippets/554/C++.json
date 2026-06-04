@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int leastBricks(vector<vector<int>>& wall) {\n        \n    }\n};"

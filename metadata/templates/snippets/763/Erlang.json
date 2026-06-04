@@ -1,0 +1,1 @@
+"-spec partition_labels(S :: unicode:unicode_binary()) -> [integer()].\npartition_labels(S) ->\n  ."

@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<string> findRepeatedDnaSequences(string s) {\n        \n    }\n};"

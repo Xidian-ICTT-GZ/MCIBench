@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec put_marbles(weights :: [integer], k :: integer) :: integer\n  def put_marbles(weights, k) do\n    \n  end\nend"

@@ -1,1 +1,0 @@
-"class Solution(object):\n    def maxSumDistinctTriplet(self, x, y):\n        \"\"\"\n        :type x: List[int]\n        :type y: List[int]\n        :rtype: int\n        \"\"\"\n        "

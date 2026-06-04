@@ -1,1 +1,0 @@
-"/**\n * Definition for a binary tree node.\n * class TreeNode(_value: Int = 0, _left: TreeNode = null, _right: TreeNode = null) {\n *   var value: Int = _value\n *   var left: TreeNode = _left\n *   var right: TreeNode = _right\n * }\n */\nobject Solution {\n    def constructMaximumBinaryTree(nums: Array[Int]): TreeNode = {\n        \n    }\n}"

@@ -1,1 +1,0 @@
-"class Solution(_rects: Array[Array[Int]]) {\n\n    def pick(): Array[Int] = {\n        \n    }\n\n}\n\n/**\n * Your Solution object will be instantiated and called as such:\n * val obj = new Solution(rects)\n * val param_1 = obj.pick()\n */"

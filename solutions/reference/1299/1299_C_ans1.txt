@@ -1,0 +1,9 @@
+int* replaceElements(int* arr, int arrSize, int* returnSize) {
+    int *ans = calloc(arrSize, sizeof(int));
+    ans[arrSize - 1] = -1;
+    *returnSize = arrSize;
+    for (int i = arrSize - 2; i >= 0; --i) {
+        ans[i] = (arr[i + 1] > ans[i + 1]) ? arr[i + 1] : ans[i + 1];
+    }
+    return ans;
+}

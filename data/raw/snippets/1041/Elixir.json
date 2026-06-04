@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec is_robot_bounded(instructions :: String.t) :: boolean\n  def is_robot_bounded(instructions) do\n    \n  end\nend"

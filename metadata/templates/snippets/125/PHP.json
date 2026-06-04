@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $s\n     * @return Boolean\n     */\n    function isPalindrome($s) {\n        \n    }\n}"

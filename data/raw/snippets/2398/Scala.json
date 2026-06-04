@@ -1,1 +1,0 @@
-"object Solution {\n    def maximumRobots(chargeTimes: Array[Int], runningCosts: Array[Int], budget: Long): Int = {\n        \n    }\n}"

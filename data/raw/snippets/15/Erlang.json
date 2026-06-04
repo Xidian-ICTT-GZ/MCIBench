@@ -1,1 +1,0 @@
-"-spec three_sum(Nums :: [integer()]) -> [[integer()]].\nthree_sum(Nums) ->\n  ."

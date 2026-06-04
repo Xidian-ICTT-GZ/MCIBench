@@ -1,1 +1,0 @@
-"class Solution(object):\n    def maxSubarrays(self, n, conflictingPairs):\n        \"\"\"\n        :type n: int\n        :type conflictingPairs: List[List[int]]\n        :rtype: int\n        \"\"\"\n        "

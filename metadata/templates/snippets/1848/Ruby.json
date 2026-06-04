@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @param {Integer} target\n# @param {Integer} start\n# @return {Integer}\ndef get_min_distance(nums, target, start)\n    \nend"

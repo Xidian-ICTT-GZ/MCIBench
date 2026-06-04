@@ -1,1 +1,0 @@
-"# @param {String} word\n# @param {Integer} k\n# @return {Integer}\ndef count_of_substrings(word, k)\n    \nend"

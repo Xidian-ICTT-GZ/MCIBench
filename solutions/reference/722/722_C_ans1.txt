@@ -1,0 +1,38 @@
+#define MAX_LINE_LEN 80
+
+char ** removeComments(char ** source, int sourceSize, int* returnSize) {
+    char **res = (char **)calloc(sourceSize, sizeof(char *));
+    char new_line[sourceSize * MAX_LINE_LEN + 1];
+    int pos = 0, new_line_pos = 0;
+    bool in_block = false;
+    for (int j = 0; j < sourceSize; j++) {
+        char *line = source[j];
+        int line_size = strlen(line);
+        for (int i = 0; i < line_size; i++) {
+            if (in_block) {
+                if (i + 1 < line_size && line[i] == '*' && line[i + 1] == '/') {
+                    in_block = false;
+                    i++;
+                }
+            } else {
+                if (i + 1 < line_size && line[i] == '/' && line[i + 1] == '*') {
+                    in_block = true;
+                    i++;
+                } else if (i + 1 < line_size && line[i] == '/' && line[i + 1] == '/') {
+                    break;
+                } else {
+                    new_line[new_line_pos++] = line[i];
+                }
+            }
+        }
+        if (!in_block && new_line_pos > 0) {
+            new_line[new_line_pos] = '\0';
+            res[pos] = (char *)calloc(new_line_pos + 1, sizeof(char));
+            strcpy(res[pos], new_line);
+            pos++;
+            new_line_pos = 0;
+        }
+        *returnSize = pos;
+    }
+    return res;
+}

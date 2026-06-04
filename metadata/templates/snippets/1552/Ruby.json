@@ -1,0 +1,1 @@
+"# @param {Integer[]} position\n# @param {Integer} m\n# @return {Integer}\ndef max_distance(position, m)\n    \nend"

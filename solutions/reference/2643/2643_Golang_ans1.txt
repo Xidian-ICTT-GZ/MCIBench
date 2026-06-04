@@ -1,0 +1,15 @@
+func rowAndMaximumOnes(mat [][]int) []int {
+    maxOnes := 0
+    rowIndex := 0
+    for i, row := range mat {
+        tot := 0
+        for _, val := range row {
+            tot += val
+        }
+        if tot > maxOnes {
+            maxOnes = tot
+            rowIndex = i
+        }
+    }
+    return []int{rowIndex, maxOnes}
+}

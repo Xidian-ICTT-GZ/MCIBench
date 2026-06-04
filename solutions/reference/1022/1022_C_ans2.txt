@@ -1,0 +1,29 @@
+#define MAX_NODE_SIZE 1000
+
+int sumRootToLeaf(struct TreeNode* root) {
+    struct TreeNode ** stack = (struct TreeNode **)malloc(sizeof(struct TreeNode *) * MAX_NODE_SIZE);
+    int top = 0;
+    int val = 0, ret = 0;
+    struct TreeNode *prev = NULL;
+    while (root != NULL || top) {
+        while (root != NULL) {
+            val = (val << 1) | root->val;
+            stack[top++] = root;
+            root = root->left;
+        }
+        root = stack[top - 1];
+        if (root->right == NULL || root->right == prev) {
+            if (root->left == NULL && root->right == NULL) {
+                ret += val;
+            }
+            val >>= 1;
+            top--;
+            prev = root;
+            root = NULL;
+        } else {
+            root = root->right;
+        }
+    }
+    free(stack);
+    return ret;
+}

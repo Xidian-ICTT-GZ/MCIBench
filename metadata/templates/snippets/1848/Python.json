@@ -1,0 +1,1 @@
+"class Solution(object):\n    def getMinDistance(self, nums, target, start):\n        \"\"\"\n        :type nums: List[int]\n        :type target: int\n        :type start: int\n        :rtype: int\n        \"\"\"\n        "

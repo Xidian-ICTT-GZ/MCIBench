@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} batteryPercentages\n * @return {number}\n */\nvar countTestedDevices = function(batteryPercentages) {\n    \n};"

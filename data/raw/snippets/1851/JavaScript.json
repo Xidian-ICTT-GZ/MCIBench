@@ -1,1 +1,0 @@
-"/**\n * @param {number[][]} intervals\n * @param {number[]} queries\n * @return {number[]}\n */\nvar minInterval = function(intervals, queries) {\n    \n};"

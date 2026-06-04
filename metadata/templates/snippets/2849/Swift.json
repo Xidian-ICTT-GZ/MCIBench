@@ -1,0 +1,1 @@
+"class Solution {\n    func isReachableAtTime(_ sx: Int, _ sy: Int, _ fx: Int, _ fy: Int, _ t: Int) -> Bool {\n        \n    }\n}"

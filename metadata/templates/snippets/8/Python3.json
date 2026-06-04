@@ -1,0 +1,1 @@
+"class Solution:\n    def myAtoi(self, s: str) -> int:\n        "

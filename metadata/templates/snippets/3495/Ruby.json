@@ -1,0 +1,1 @@
+"# @param {Integer[][]} queries\n# @return {Integer}\ndef min_operations(queries)\n    \nend"

@@ -1,0 +1,1 @@
+"class Solution {\n  List<int> maximumSegmentSum(List<int> nums, List<int> removeQueries) {\n    \n  }\n}"

@@ -1,1 +1,0 @@
-"-spec count_vowel_permutation(N :: integer()) -> integer().\ncount_vowel_permutation(N) ->\n  ."

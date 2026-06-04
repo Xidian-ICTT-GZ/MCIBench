@@ -1,9 +1,0 @@
-static inline int cmp(const void* pa, const void* pb) {
-    return *(int *)pa - *(int *)pb;
-}
-
-bool canBeEqual(int* target, int targetSize, int* arr, int arrSize) {
-    qsort(target, targetSize, sizeof(int), cmp);
-    qsort(arr, arrSize, sizeof(int), cmp);
-    return memcmp(target, arr, sizeof(int) * arrSize) == 0;
-}

@@ -1,0 +1,1 @@
+"-spec number_to_words(Num :: integer()) -> unicode:unicode_binary().\nnumber_to_words(Num) ->\n  ."

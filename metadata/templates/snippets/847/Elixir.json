@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec shortest_path_length(graph :: [[integer]]) :: integer\n  def shortest_path_length(graph) do\n    \n  end\nend"

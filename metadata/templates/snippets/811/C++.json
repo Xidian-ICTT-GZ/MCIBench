@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<string> subdomainVisits(vector<string>& cpdomains) {\n        \n    }\n};"

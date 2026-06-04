@@ -1,1 +1,0 @@
-"-spec count_stepping_numbers(Low :: unicode:unicode_binary(), High :: unicode:unicode_binary()) -> integer().\ncount_stepping_numbers(Low, High) ->\n  ."

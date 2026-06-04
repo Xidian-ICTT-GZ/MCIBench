@@ -1,0 +1,15 @@
+public class Solution {
+    public int[] SortArrayByParity(int[] nums) {
+        int n = nums.Length;
+        int[] res = new int[n];
+        int left = 0, right = n - 1;
+        foreach (int num in nums) {
+            if (num % 2 == 0) {
+                res[left++] = num;
+            } else {
+                res[right--] = num;
+            }
+        }
+        return res;
+    }
+}

@@ -1,1 +1,0 @@
-"(define/contract (angle-clock hour minutes)\n  (-> exact-integer? exact-integer? flonum?)\n  )"

@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $n\n     * @param Integer[][] $edges\n     * @param String $labels\n     * @return Integer[]\n     */\n    function countSubTrees($n, $edges, $labels) {\n        \n    }\n}"

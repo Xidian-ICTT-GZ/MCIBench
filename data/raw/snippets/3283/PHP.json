@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer $kx\n     * @param Integer $ky\n     * @param Integer[][] $positions\n     * @return Integer\n     */\n    function maxMoves($kx, $ky, $positions) {\n        \n    }\n}"

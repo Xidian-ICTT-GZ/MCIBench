@@ -1,1 +1,0 @@
-"/**\n * @param {number[][]} lcp\n * @return {string}\n */\nvar findTheString = function(lcp) {\n    \n};"

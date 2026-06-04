@@ -1,1 +1,0 @@
-"-spec minimum_removal(Beans :: [integer()]) -> integer().\nminimum_removal(Beans) ->\n  ."

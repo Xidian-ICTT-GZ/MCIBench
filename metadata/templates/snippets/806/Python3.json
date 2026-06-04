@@ -1,0 +1,1 @@
+"class Solution:\n    def numberOfLines(self, widths: List[int], s: str) -> List[int]:\n        "

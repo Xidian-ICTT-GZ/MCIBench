@@ -1,1 +1,0 @@
-"# @param {Integer[][]} matrix\n# @return {Void} Do not return anything, modify matrix in-place instead.\ndef rotate(matrix)\n    \nend"

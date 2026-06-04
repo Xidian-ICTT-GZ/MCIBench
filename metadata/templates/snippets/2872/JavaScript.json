@@ -1,0 +1,1 @@
+"/**\n * @param {number} n\n * @param {number[][]} edges\n * @param {number[]} values\n * @param {number} k\n * @return {number}\n */\nvar maxKDivisibleComponents = function(n, edges, values, k) {\n    \n};"

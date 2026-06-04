@@ -1,1 +1,0 @@
-"class Solution(object):\n    def minStartingIndex(self, s, pattern):\n        \"\"\"\n        :type s: str\n        :type pattern: str\n        :rtype: int\n        \"\"\"\n        "

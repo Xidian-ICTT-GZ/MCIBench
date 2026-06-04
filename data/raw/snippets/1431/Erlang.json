@@ -1,1 +1,0 @@
-"-spec kids_with_candies(Candies :: [integer()], ExtraCandies :: integer()) -> [boolean()].\nkids_with_candies(Candies, ExtraCandies) ->\n  ."

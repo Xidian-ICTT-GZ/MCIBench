@@ -1,1 +1,0 @@
-"-spec maximum_jumps(Nums :: [integer()], Target :: integer()) -> integer().\nmaximum_jumps(Nums, Target) ->\n  ."

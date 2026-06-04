@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $asteroids\n     * @return Integer[]\n     */\n    function asteroidCollision($asteroids) {\n        \n    }\n}"

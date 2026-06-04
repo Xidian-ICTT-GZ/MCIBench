@@ -1,0 +1,1 @@
+"class Solution {\n    fun canMakePalindromeQueries(s: String, queries: Array<IntArray>): BooleanArray {\n        \n    }\n}"

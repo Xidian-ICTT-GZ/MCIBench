@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String[] $words\n     * @param String $s\n     * @return Boolean\n     */\n    function isAcronym($words, $s) {\n        \n    }\n}"

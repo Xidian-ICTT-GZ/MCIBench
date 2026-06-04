@@ -1,1 +1,0 @@
-"\nclass FreqStack {\n\n    init() {\n        \n    }\n    \n    func push(_ val: Int) {\n        \n    }\n    \n    func pop() -> Int {\n        \n    }\n}\n\n/**\n * Your FreqStack object will be instantiated and called as such:\n * let obj = FreqStack()\n * obj.push(val)\n * let ret_2: Int = obj.pop()\n */"

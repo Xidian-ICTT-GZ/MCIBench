@@ -1,0 +1,1 @@
+"public class Solution {\n    public IList<int> FindAnagrams(string s, string p) {\n        \n    }\n}"

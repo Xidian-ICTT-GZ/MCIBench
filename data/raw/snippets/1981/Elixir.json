@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec minimize_the_difference(mat :: [[integer]], target :: integer) :: integer\n  def minimize_the_difference(mat, target) do\n    \n  end\nend"

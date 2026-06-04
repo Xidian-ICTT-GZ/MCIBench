@@ -1,0 +1,11 @@
+int* divisibilityArray(char * word, int m, int* returnSize){
+    int n = strlen(word);
+    int* res = (int*)malloc(n * sizeof(int));
+    long long cur = 0;
+    for (int i = 0; i < n; i++) {
+        cur = (cur * 10 + (word[i] - '0')) % m;
+        res[i] = (cur == 0) ? 1 : 0;
+    }
+    *returnSize = n;
+    return res;
+}

@@ -1,0 +1,1 @@
+"-spec min_patches(Nums :: [integer()], N :: integer()) -> integer().\nmin_patches(Nums, N) ->\n  ."

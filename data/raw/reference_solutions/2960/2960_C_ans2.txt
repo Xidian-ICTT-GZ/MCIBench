@@ -1,9 +1,0 @@
-int countTestedDevices(int* batteryPercentages, int batteryPercentagesSize) {
-    int need = 0;
-    for (int i = 0; i < batteryPercentagesSize; i++) {
-        if (batteryPercentages[i] > need) {
-            need++;
-        }
-    }
-    return need;
-}

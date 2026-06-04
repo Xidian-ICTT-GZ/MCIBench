@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String[] $words\n     * @param String $chars\n     * @return Integer\n     */\n    function countCharacters($words, $chars) {\n        \n    }\n}"

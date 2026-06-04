@@ -1,0 +1,93 @@
+var evaluate = function(expression) {
+    const scope = new Map();
+    let start = 0;
+
+    const innerEvaluate = (expression) => {
+        if (expression[start] !== '(') { 
+            if (isLowerCase(expression[start])) {
+                const v = parseVar(expression); 
+                const n = scope.get(v).length;
+                return scope.get(v)[n - 1];
+            } else { 
+                return parseInt(expression);
+            }
+        }
+        let ret;
+        start++; 
+        if (expression[start] === 'l') { 
+            start += 4; 
+            const vars = [];
+            while (true) {
+                if (!isLowerCase(expression[start])) {
+                    ret = innerEvaluate(expression); 
+                    break;
+                }
+                const v = parseVar(expression);
+                if (expression[start] === ')') {
+                    const n = scope.get(v).length;
+                    ret = scope.get(v)[n - 1]; 
+                    break;
+                }
+                vars.push(v);
+                start++; 
+                const e = innerEvaluate(expression);
+                if (!scope.has(v)) {
+                    scope.set(v, []);
+                }
+                scope.get(v).push(e);
+                start++; 
+            }
+            for (const v of vars) {
+                scope.get(v).pop(); 
+            }
+        } else if (expression[start] === 'a') { 
+            start += 4; 
+            const e1 = innerEvaluate(expression);
+            start++; 
+            const e2 = innerEvaluate(expression);
+            ret = e1 + e2;
+        } else { 
+            start += 5; 
+            const e1 = innerEvaluate(expression);
+            start++; 
+            const e2 = innerEvaluate(expression);
+            ret = e1 * e2;
+        }
+        start++; 
+        return ret;
+    }
+
+    const parseInt = (expression) => { 
+        const n = expression.length;
+        let ret = 0, sign = 1;
+        if (expression[start] === '-') {
+            sign = -1;
+            start++;
+        }
+        while (start < n && isDigit(expression[start])) {
+            ret = ret * 10 + (expression.charAt(start) - '0');
+            start++;
+        }
+        return sign * ret;
+    }
+
+    const parseVar = (expression) => { 
+        const n = expression.length;
+        let ret = '';
+        while (start < n && expression[start] !== ' ' && expression[start] !== ')') {
+            ret += expression[start];
+            start++;
+        }
+        return ret;
+    }
+
+    return innerEvaluate(expression, start);
+};
+
+const isDigit = (ch) => {
+    return parseFloat(ch).toString() === "NaN" ? false : true;
+}
+
+const isLowerCase = (ch) => {
+    return ch >= 'a' && ch <= 'z';
+}

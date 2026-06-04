@@ -1,1 +1,0 @@
-"(define/contract (make-strings-equal s target)\n  (-> string? string? boolean?)\n  )"

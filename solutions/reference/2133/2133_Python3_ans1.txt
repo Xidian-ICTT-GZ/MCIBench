@@ -1,0 +1,21 @@
+class Solution:
+    def checkValid(self, matrix: List[List[int]]) -> bool:
+        n = len(matrix)
+        occur = set()   
+        
+        for i in range(n):
+            occur.clear()   
+            for j in range(n):
+                if matrix[i][j] in occur:
+                    
+                    return False
+                occur.add(matrix[i][j])
+        
+        for i in range(n):
+            occur.clear()   
+            for j in range(n):
+                if matrix[j][i] in occur:
+                    
+                    return False
+                occur.add(matrix[j][i])
+        return True

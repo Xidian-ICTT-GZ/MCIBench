@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @param {Integer[][]} relations\n# @param {Integer} k\n# @return {Integer}\ndef min_number_of_semesters(n, relations, k)\n    \nend"

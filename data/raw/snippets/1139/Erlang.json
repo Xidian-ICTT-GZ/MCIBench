@@ -1,1 +1,0 @@
-"-spec largest1_bordered_square(Grid :: [[integer()]]) -> integer().\nlargest1_bordered_square(Grid) ->\n  ."

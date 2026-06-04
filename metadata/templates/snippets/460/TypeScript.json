@@ -1,0 +1,1 @@
+"class LFUCache {\n    constructor(capacity: number) {\n        \n    }\n\n    get(key: number): number {\n        \n    }\n\n    put(key: number, value: number): void {\n        \n    }\n}\n\n/**\n * Your LFUCache object will be instantiated and called as such:\n * var obj = new LFUCache(capacity)\n * var param_1 = obj.get(key)\n * obj.put(key,value)\n */"

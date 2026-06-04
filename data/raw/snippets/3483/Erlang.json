@@ -1,1 +1,0 @@
-"-spec total_numbers(Digits :: [integer()]) -> integer().\ntotal_numbers(Digits) ->\n  ."

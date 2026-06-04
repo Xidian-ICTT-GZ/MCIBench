@@ -1,1 +1,0 @@
-"-spec min_cost_good_caption(Caption :: unicode:unicode_binary()) -> unicode:unicode_binary().\nmin_cost_good_caption(Caption) ->\n  ."

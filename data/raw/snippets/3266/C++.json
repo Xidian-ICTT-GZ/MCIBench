@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    vector<int> getFinalState(vector<int>& nums, int k, int multiplier) {\n        \n    }\n};"

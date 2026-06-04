@@ -1,1 +1,0 @@
-"(define/contract (number-of-submatrices grid)\n  (-> (listof (listof char?)) exact-integer?)\n  )"

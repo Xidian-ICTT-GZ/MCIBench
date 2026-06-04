@@ -1,1 +1,0 @@
-"# @param {Integer[]} battery_percentages\n# @return {Integer}\ndef count_tested_devices(battery_percentages)\n    \nend"

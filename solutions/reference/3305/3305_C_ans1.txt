@@ -1,0 +1,31 @@
+char vowels[] = {'a', 'e', 'i', 'o', 'u'};
+
+bool isVowel(char c) {
+    for (int i = 0; i < 5; i++) {
+        if (c == vowels[i]) {
+            return true;
+        }
+    }
+    return false;
+}
+
+int countOfSubstrings(char* word, int k) {
+    int n = strlen(word);
+    int res = 0;
+    for (int i = 0; i < n; i++) {
+        int occur[26] = {0};
+        int consonants = 0, vowelCount = 0;
+        for (int j = i; j < n; j++) {
+            if (isVowel(word[j])) {
+                occur[word[j] - 'a']++;
+                vowelCount += occur[word[j] - 'a'] == 1;
+            } else {
+                consonants++;
+            }
+            if (vowelCount == 5 && consonants == k) {
+                res++;
+            }
+        }
+    }
+    return res;
+}

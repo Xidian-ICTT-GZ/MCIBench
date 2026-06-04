@@ -1,1 +1,0 @@
-"-spec maximum_strong_pair_xor(Nums :: [integer()]) -> integer().\nmaximum_strong_pair_xor(Nums) ->\n  ."

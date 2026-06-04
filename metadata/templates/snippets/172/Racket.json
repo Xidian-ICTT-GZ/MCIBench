@@ -1,0 +1,1 @@
+"(define/contract (trailing-zeroes n)\n  (-> exact-integer? exact-integer?)\n  )"

@@ -1,1 +1,0 @@
-"/**\n * @param {number[][]} rectangles\n * @return {boolean}\n */\nvar isRectangleCover = function(rectangles) {\n    \n};"

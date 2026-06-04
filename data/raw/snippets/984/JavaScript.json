@@ -1,1 +1,0 @@
-"/**\n * @param {number} a\n * @param {number} b\n * @return {string}\n */\nvar strWithout3a3b = function(a, b) {\n    \n};"

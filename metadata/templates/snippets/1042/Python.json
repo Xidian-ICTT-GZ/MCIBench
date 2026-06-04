@@ -1,0 +1,1 @@
+"class Solution(object):\n    def gardenNoAdj(self, n, paths):\n        \"\"\"\n        :type n: int\n        :type paths: List[List[int]]\n        :rtype: List[int]\n        \"\"\"\n        "

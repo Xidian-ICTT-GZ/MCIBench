@@ -1,1 +1,0 @@
-"# @param {Integer[]} servers\n# @param {Integer[]} tasks\n# @return {Integer[]}\ndef assign_tasks(servers, tasks)\n    \nend"

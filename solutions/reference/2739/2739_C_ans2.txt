@@ -1,0 +1,3 @@
+int distanceTraveled(int mainTank, int additionalTank){
+    return 10 * (mainTank + fmin((mainTank - 1) / 4, additionalTank));
+}

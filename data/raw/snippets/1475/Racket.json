@@ -1,1 +1,0 @@
-"(define/contract (final-prices prices)\n  (-> (listof exact-integer?) (listof exact-integer?))\n  )"

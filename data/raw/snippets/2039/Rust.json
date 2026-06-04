@@ -1,1 +1,0 @@
-"impl Solution {\n    pub fn network_becomes_idle(edges: Vec<Vec<i32>>, patience: Vec<i32>) -> i32 {\n        \n    }\n}"

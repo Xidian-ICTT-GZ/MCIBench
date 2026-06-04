@@ -1,1 +1,0 @@
-"/**\n * Definition for a Node.\n * struct Node {\n *     int val;\n *     struct Node *left;\n *     struct Node *right;\n *     struct Node *next;\n * };\n */\n\nstruct Node* connect(struct Node* root) {\n\t\n}"

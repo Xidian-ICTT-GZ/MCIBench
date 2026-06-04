@@ -1,0 +1,1 @@
+"class Solution {\n    func numberOfAlternatingGroups(_ colors: [Int], _ queries: [[Int]]) -> [Int] {\n        \n    }\n}"

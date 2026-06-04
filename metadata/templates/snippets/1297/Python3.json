@@ -1,0 +1,1 @@
+"class Solution:\n    def maxFreq(self, s: str, maxLetters: int, minSize: int, maxSize: int) -> int:\n        "

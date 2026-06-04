@@ -1,0 +1,28 @@
+func minimumTime(time []int, totalTrips int) int64 {
+    
+	l, r := int64(1), int64(totalTrips) * int64(time[0])
+	for _, period := range time {
+		if period > int(r / int64(totalTrips)) {
+			r = int64(totalTrips) * int64(period)
+		}
+	}
+	
+	for l < r {
+		mid := l + (r - l) / 2
+		if check(mid, time, totalTrips) {
+			r = mid
+		} else {
+			l = mid + 1
+		}
+	}
+	return l
+}
+
+
+func check(t int64, time []int, totalTrips int) bool {
+	var cnt int64 = 0
+	for _, period := range time {
+		cnt += t / int64(period)
+	}
+	return cnt >= int64(totalTrips)
+}

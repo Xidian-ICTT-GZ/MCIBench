@@ -1,0 +1,20 @@
+class Solution:
+    def possibleBipartition(self, n: int, dislikes: List[List[int]]) -> bool:
+        g = [[] for _ in range(n)]
+        for x, y in dislikes:
+            g[x - 1].append(y - 1)
+            g[y - 1].append(x - 1)
+        color = [0] * n  
+        for i, c in enumerate(color):
+            if c == 0:
+                q = deque([i])
+                color[i] = 1
+                while q:
+                    x = q.popleft()
+                    for y in g[x]:
+                        if color[y] == color[x]:
+                            return False
+                        if color[y] == 0:
+                            color[y] = -color[x]
+                            q.append(y)
+        return True

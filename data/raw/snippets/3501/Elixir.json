@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec max_active_sections_after_trade(s :: String.t, queries :: [[integer]]) :: [integer]\n  def max_active_sections_after_trade(s, queries) do\n    \n  end\nend"

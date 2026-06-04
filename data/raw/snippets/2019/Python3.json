@@ -1,1 +1,0 @@
-"class Solution:\n    def scoreOfStudents(self, s: str, answers: List[int]) -> int:\n        "

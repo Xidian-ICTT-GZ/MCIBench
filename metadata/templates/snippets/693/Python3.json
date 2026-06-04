@@ -1,0 +1,1 @@
+"class Solution:\n    def hasAlternatingBits(self, n: int) -> bool:\n        "

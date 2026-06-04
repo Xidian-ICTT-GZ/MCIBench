@@ -1,1 +1,0 @@
-"class Solution(object):\n    def pathExistenceQueries(self, n, nums, maxDiff, queries):\n        \"\"\"\n        :type n: int\n        :type nums: List[int]\n        :type maxDiff: int\n        :type queries: List[List[int]]\n        :rtype: List[int]\n        \"\"\"\n        "

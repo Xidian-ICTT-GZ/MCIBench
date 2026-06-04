@@ -1,1 +1,0 @@
-"/**\n * @param {number} target\n * @param {number[]} position\n * @param {number[]} speed\n * @return {number}\n */\nvar carFleet = function(target, position, speed) {\n    \n};"

@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} nums\n * @return {boolean}\n */\nvar canJump = function(nums) {\n    \n};"

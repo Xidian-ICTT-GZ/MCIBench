@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    bool canReach(string s, int minJump, int maxJump) {\n        \n    }\n};"

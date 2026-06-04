@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int minimumHammingDistance(vector<int>& source, vector<int>& target, vector<vector<int>>& allowedSwaps) {\n        \n    }\n};"

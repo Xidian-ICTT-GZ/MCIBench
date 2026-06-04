@@ -1,1 +1,0 @@
-"(define/contract (find-all-concatenated-words-in-a-dict words)\n  (-> (listof string?) (listof string?))\n  )"

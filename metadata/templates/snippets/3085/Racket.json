@@ -1,0 +1,1 @@
+"(define/contract (minimum-deletions word k)\n  (-> string? exact-integer? exact-integer?)\n  )"

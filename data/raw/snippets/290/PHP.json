@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String $pattern\n     * @param String $s\n     * @return Boolean\n     */\n    function wordPattern($pattern, $s) {\n        \n    }\n}"

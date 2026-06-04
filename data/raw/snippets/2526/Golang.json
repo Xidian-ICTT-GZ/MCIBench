@@ -1,1 +1,0 @@
-"type DataStream struct {\n    \n}\n\n\nfunc Constructor(value int, k int) DataStream {\n    \n}\n\n\nfunc (this *DataStream) Consec(num int) bool {\n    \n}\n\n\n/**\n * Your DataStream object will be instantiated and called as such:\n * obj := Constructor(value, k);\n * param_1 := obj.Consec(num);\n */"

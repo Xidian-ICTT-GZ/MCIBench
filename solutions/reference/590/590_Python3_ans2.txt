@@ -1,0 +1,26 @@
+class Solution:
+    def postorder(self, root: 'Node') -> List[int]:
+        if root is None:
+            return []
+        ans = []
+        st = []
+        nextIndex = defaultdict(int)
+        node = root
+        while st or node:
+            while node:
+                st.append(node)
+                if not node.children:
+                    break
+                nextIndex[node] = 1
+                node = node.children[0]
+            node = st[-1]
+            i = nextIndex[node]
+            if i < len(node.children):
+                nextIndex[node] = i + 1
+                node = node.children[i]
+            else:
+                ans.append(node.val)
+                st.pop()
+                del nextIndex[node]
+                node = None
+        return ans

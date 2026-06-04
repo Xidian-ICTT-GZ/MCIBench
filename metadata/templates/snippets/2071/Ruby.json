@@ -1,0 +1,1 @@
+"# @param {Integer[]} tasks\n# @param {Integer[]} workers\n# @param {Integer} pills\n# @param {Integer} strength\n# @return {Integer}\ndef max_task_assign(tasks, workers, pills, strength)\n    \nend"

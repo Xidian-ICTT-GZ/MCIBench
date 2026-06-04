@@ -1,0 +1,1 @@
+"-spec number_ways(Hats :: [[integer()]]) -> integer().\nnumber_ways(Hats) ->\n  ."

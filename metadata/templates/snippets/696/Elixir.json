@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec count_binary_substrings(s :: String.t) :: integer\n  def count_binary_substrings(s) do\n    \n  end\nend"

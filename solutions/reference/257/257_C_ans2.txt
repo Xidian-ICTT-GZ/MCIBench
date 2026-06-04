@@ -1,0 +1,48 @@
+char** binaryTreePaths(struct TreeNode* root, int* returnSize) {
+    char** paths = (char**)malloc(sizeof(char*) * 1001);
+    *returnSize = 0;
+    if (root == NULL) {
+        return paths;
+    }
+
+    struct TreeNode** node_queue = (struct TreeNode**)malloc(sizeof(struct TreeNode*) * 1001);
+    char** path_queue = (char**)malloc(sizeof(char*) * 1001);
+
+    int left = 0, right = 0;
+
+    char* tmp = malloc(sizeof(char) * 1001);
+    sprintf(tmp, "%d", root->val);
+    node_queue[right] = root;
+    path_queue[right++] = tmp;
+
+    while (left < right) {
+        struct TreeNode* node = node_queue[left];
+        char* path = path_queue[left++];
+
+        if (node->left == NULL && node->right == NULL) {
+            paths[(*returnSize)++] = path;
+        } else {
+            int n = strlen(path);
+            if (node->left != NULL) {
+                char* tmp = malloc(sizeof(char) * 1001);
+                for (int i = 0; i < n; i++) {
+                    tmp[i] = path[i];
+                }
+                sprintf(tmp + n, "->%d", node->left->val);
+                node_queue[right] = node->left;
+                path_queue[right++] = tmp;
+            }
+
+            if (node->right != NULL) {
+                char* tmp = malloc(sizeof(char) * 1001);
+                for (int i = 0; i < n; i++) {
+                    tmp[i] = path[i];
+                }
+                sprintf(tmp + n, "->%d", node->right->val);
+                node_queue[right] = node->right;
+                path_queue[right++] = tmp;
+            }
+        }
+    }
+    return paths;
+}

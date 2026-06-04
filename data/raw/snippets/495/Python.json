@@ -1,1 +1,0 @@
-"class Solution(object):\n    def findPoisonedDuration(self, timeSeries, duration):\n        \"\"\"\n        :type timeSeries: List[int]\n        :type duration: int\n        :rtype: int\n        \"\"\"\n        "

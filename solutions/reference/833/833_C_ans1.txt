@@ -1,0 +1,42 @@
+static int cmp(const void *a, const void *b) {
+    return ((int *)a)[1] - ((int *)b)[1];
+}
+
+char * findReplaceString(char * s, int* indices, int indicesSize, char ** sources, int sourcesSize, char ** targets, int targetsSize) {
+    int n = strlen(s), m = indicesSize;
+
+    int ops[m][2];
+    int sourcesLen[sourcesSize];
+    for (int i = 0; i < m; i++) {
+        ops[i][0] = i;
+        ops[i][1] = indices[i];
+    }
+    for (int i = 0; i < sourcesSize; i++) {
+        sourcesLen[i] = strlen(sources[i]);
+    }
+    qsort(ops, m, sizeof(ops[0]), cmp);
+
+    char *ans = (char *)calloc(1024, sizeof(char));
+    int pt = 0, pos = 0;
+    for (int i = 0; i < n;) {
+        while (pt < m && indices[ops[pt][0]] < i) {
+            ++pt;
+        }
+        bool succeed = false;
+        while (pt < m && indices[ops[pt][0]] == i) {
+            if (strncmp(s + i, sources[ops[pt][0]], sourcesLen[ops[pt][0]]) == 0) {
+                succeed = true;
+                break;
+            }
+            ++pt;
+        }
+        if (succeed) {
+            pos += sprintf(ans + pos, "%s", targets[ops[pt][0]]);
+            i += sourcesLen[ops[pt][0]];
+        } else {
+            ans[pos++] = s[i];
+            ++i;
+        }
+    }
+    return ans;
+}

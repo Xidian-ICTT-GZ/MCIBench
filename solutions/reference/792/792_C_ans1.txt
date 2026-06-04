@@ -1,0 +1,53 @@
+int binarySearch(const int *list, int listSize, int target) {
+    int left = 0, right = listSize - 1;
+    while (left < right) {
+        int mid = left + (right - left) / 2;
+        if (list[mid] > target) {
+            right = mid;
+        } else {
+            left = mid + 1;
+        }
+    }
+    return list[left];
+}
+
+int numMatchingSubseq(char * s, char ** words, int wordsSize) {
+    int cnt[26], *pos[26], posSize[26];
+    for (int i = 0; i < 26; ++i) {
+        pos[i] = NULL;
+        cnt[i] = 0;
+        posSize[i] = 0;
+    }
+    int len = strlen(s);
+    for (int i = 0; i < len; ++i) {
+        posSize[s[i] - 'a']++;
+    }
+    for (int i = 0; i < 26; i++) {
+        pos[i] = (int *)malloc(sizeof(int) * posSize[i]);
+    }
+    for (int i = 0; i < len; ++i) {
+        pos[s[i] - 'a'][cnt[s[i] - 'a']] = i;
+        cnt[s[i] - 'a']++;
+    }
+    int res = wordsSize;
+    for (int i = 0; i < wordsSize; i++) {
+        if (strlen(words[i]) > len) {
+            --res;
+            continue;
+        }
+        int p = -1;
+        for (int j = 0; words[i][j] != '\0' ; ++j) {
+            char c = words[i][j];
+            int m = posSize[c - 'a'];
+            if (m == 0 || pos[c - 'a'][m - 1] <= p) {
+                --res;
+                break;
+            }
+            p = binarySearch(pos[c - 'a'], posSize[c - 'a'], p);
+        }
+    }
+    for (int i = 0; i < 26; i++) {
+        free(pos[i]);
+    }
+    return res;
+}

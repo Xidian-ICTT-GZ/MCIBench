@@ -1,0 +1,1 @@
+"class Solution:\n    def maxDistToClosest(self, seats: List[int]) -> int:\n        "

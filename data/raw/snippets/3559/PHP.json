@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[][] $edges\n     * @param Integer[][] $queries\n     * @return Integer[]\n     */\n    function assignEdgeWeights($edges, $queries) {\n        \n    }\n}"

@@ -1,1 +1,0 @@
-"class Solution {\n  bool validateBinaryTreeNodes(int n, List<int> leftChild, List<int> rightChild) {\n    \n  }\n}"

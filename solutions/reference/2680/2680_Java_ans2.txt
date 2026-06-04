@@ -1,0 +1,14 @@
+class Solution {
+    public long maximumOr(int[] nums, int k) {
+        long orSum = 0, multiBits = 0;
+        for (int x : nums) {
+            multiBits |= x & orSum;
+            orSum |= x;
+        }
+        long res = 0;
+        for (int x : nums) {
+            res = Math.max(res, (orSum ^ x) | ((long) x << k) | multiBits);
+        }
+        return res;
+    }
+}

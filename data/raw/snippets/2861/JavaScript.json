@@ -1,1 +1,0 @@
-"/**\n * @param {number} n\n * @param {number} k\n * @param {number} budget\n * @param {number[][]} composition\n * @param {number[]} stock\n * @param {number[]} cost\n * @return {number}\n */\nvar maxNumberOfAlloys = function(n, k, budget, composition, stock, cost) {\n    \n};"

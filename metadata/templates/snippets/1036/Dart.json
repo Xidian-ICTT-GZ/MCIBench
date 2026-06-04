@@ -1,0 +1,1 @@
+"class Solution {\n  bool isEscapePossible(List<List<int>> blocked, List<int> source, List<int> target) {\n    \n  }\n}"

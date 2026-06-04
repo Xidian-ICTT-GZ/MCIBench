@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int minTimeToReach(vector<vector<int>>& moveTime) {\n        \n    }\n};"

@@ -1,0 +1,14 @@
+public class Solution {
+    public int MaximumNumberOfStringPairs(string[] words) {
+        int n = words.Length;
+        int ans = 0;
+        ISet<int> seen = new HashSet<int>();
+        for (int i = 0; i < n; ++i) {
+            if (seen.Contains(words[i][1] * 100 + words[i][0])) {
+                ++ans;
+            }
+            seen.Add(words[i][0] * 100 + words[i][1]);
+        }
+        return ans;
+    }
+}

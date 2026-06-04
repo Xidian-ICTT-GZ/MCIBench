@@ -1,1 +1,0 @@
-"(define/contract (longest-subsequence-repeated-k s k)\n  (-> string? exact-integer? string?)\n  )"

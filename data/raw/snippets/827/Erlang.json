@@ -1,1 +1,0 @@
-"-spec largest_island(Grid :: [[integer()]]) -> integer().\nlargest_island(Grid) ->\n  ."

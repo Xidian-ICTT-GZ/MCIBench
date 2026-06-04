@@ -1,0 +1,1 @@
+"-spec num_equiv_domino_pairs(Dominoes :: [[integer()]]) -> integer().\nnum_equiv_domino_pairs(Dominoes) ->\n  ."

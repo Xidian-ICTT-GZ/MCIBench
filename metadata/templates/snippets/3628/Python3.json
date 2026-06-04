@@ -1,0 +1,1 @@
+"class Solution:\n    def numOfSubsequences(self, s: str) -> int:\n        "

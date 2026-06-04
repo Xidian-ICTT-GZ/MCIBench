@@ -1,1 +1,0 @@
-"class NeighborSum:\n\n    def __init__(self, grid: List[List[int]]):\n        \n\n    def adjacentSum(self, value: int) -> int:\n        \n\n    def diagonalSum(self, value: int) -> int:\n        \n\n\n# Your NeighborSum object will be instantiated and called as such:\n# obj = NeighborSum(grid)\n# param_1 = obj.adjacentSum(value)\n# param_2 = obj.diagonalSum(value)"

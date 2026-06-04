@@ -1,0 +1,38 @@
+func closedIsland(grid [][]int) int {
+	m, n := len(grid), len(grid[0])
+	ans := 0
+
+	for i := 0; i < m; i++ {
+		for j := 0; j < n; j++ {
+			if grid[i][j] == 0 {
+				qu := [][]int{{i, j}}
+				grid[i][j] = 1
+				closed := true
+
+				for len(qu) > 0 {
+					cx, cy := qu[0][0], qu[0][1]
+					qu = qu[1:]
+
+					if cx == 0 || cy == 0 || cx == m-1 || cy == n-1 {
+						closed = false
+					}
+
+					directions := [][]int{{-1, 0}, {1, 0}, {0, -1}, {0, 1}}
+					for _, dir := range directions {
+						nx, ny := cx+dir[0], cy+dir[1]
+						if 0 <= nx && nx < m && 0 <= ny && ny < n && grid[nx][ny] == 0 {
+							grid[nx][ny] = 1
+							qu = append(qu, []int{nx, ny})
+						}
+					}
+				}
+
+				if closed {
+					ans++
+				}
+			}
+		}
+	}
+
+	return ans
+}

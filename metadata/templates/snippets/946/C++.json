@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    bool validateStackSequences(vector<int>& pushed, vector<int>& popped) {\n        \n    }\n};"

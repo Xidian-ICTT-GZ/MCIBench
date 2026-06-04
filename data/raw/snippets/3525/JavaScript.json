@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} nums\n * @param {number} k\n * @param {number[][]} queries\n * @return {number[]}\n */\nvar resultArray = function(nums, k, queries) {\n    \n};"

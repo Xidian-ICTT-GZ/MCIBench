@@ -1,0 +1,1 @@
+"object Solution {\n    def minOperations(nums: Array[Int], k: Int): Int = {\n        \n    }\n}"

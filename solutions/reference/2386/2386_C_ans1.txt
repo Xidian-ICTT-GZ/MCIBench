@@ -1,0 +1,133 @@
+typedef struct {
+    long long first;
+    int second;
+} Node;
+
+typedef bool (*cmp)(const void *, const void *);
+
+typedef long long LL;
+
+typedef struct {
+    Node *arr;
+    int capacity;
+    int queueSize;
+    cmp compare;
+} PriorityQueue;
+
+Node *createNode(long long x, int y) {
+    Node *obj = (Node *)malloc(sizeof(Node));
+    obj->first = x;
+    obj->second = y;
+    return obj;
+}
+
+PriorityQueue *createPriorityQueue(int size, cmp compare) {
+    PriorityQueue *obj = (PriorityQueue *)malloc(sizeof(PriorityQueue));
+    obj->arr = (Node *)malloc(sizeof(Node) * size);
+    obj->queueSize = 0;
+    obj->capacity = size;
+    obj->compare = compare;
+    return obj;
+}
+
+static void swap(Node *arr, int i, int j) {
+    Node tmp;
+    memcpy(&tmp, &arr[i], sizeof(Node));
+    memcpy(&arr[i], &arr[j], sizeof(Node));
+    memcpy(&arr[j], &tmp, sizeof(Node));
+}
+
+static void down(Node *arr, int size, int i, cmp compare) {
+    for (int k = 2 * i + 1; k < size; k = 2 * k + 1) {
+        
+        if (k + 1 < size && compare(&arr[k], &arr[k + 1])) {
+            k++;
+        }
+        if (compare(&arr[k], &arr[(k - 1) / 2])) {
+            break;
+        }
+        swap(arr, k, (k - 1) / 2);
+    }
+}
+
+void Heapfiy(PriorityQueue *obj) {
+    for (int i = obj->queueSize / 2 - 1; i >= 0; i--) {
+        down(obj->arr, obj->queueSize, i, obj->compare);
+    }
+}
+
+void Push(PriorityQueue *obj, Node *node) {
+    memcpy(&obj->arr[obj->queueSize], node, sizeof(Node));
+    for (int i = obj->queueSize; i > 0 && obj->compare(&obj->arr[(i - 1) / 2], &obj->arr[i]); i = (i - 1) / 2) {
+        swap(obj->arr, i, (i - 1) / 2);
+    }
+    obj->queueSize++;
+}
+
+Node* Pop(PriorityQueue *obj) {
+    swap(obj->arr, 0, obj->queueSize - 1);
+    down(obj->arr, obj->queueSize - 1, 0, obj->compare);
+    Node *ret =  &obj->arr[obj->queueSize - 1];
+    obj->queueSize--;
+    return ret;
+}
+
+bool isEmpty(PriorityQueue *obj) {
+    return obj->queueSize == 0;
+}
+
+Node* Top(PriorityQueue *obj) {
+    if (obj->queueSize == 0) {
+        return NULL;
+    } else {
+        return &obj->arr[0];
+    }
+}
+
+void FreePriorityQueue(PriorityQueue *obj) {
+    free(obj->arr);
+    free(obj);
+}
+
+bool greater(const void *a, const void *b) {
+   return ((Node *)a)->first > ((Node *)b)->first;
+}
+
+static int compare(const void *a, const void *b) {
+    return *(int *)a - *(int *)b;
+}
+
+long long kSum(int* nums, int numsSize, int k) {
+    long long total = 0;
+    for (int i = 0; i < numsSize; i++) {
+        if (nums[i] >= 0) {
+            total += nums[i];
+        } else {
+            nums[i] = -nums[i];
+        }
+    }
+    qsort(nums, numsSize, sizeof(int), compare);
+    long long ret = 0;
+    PriorityQueue *pq = createPriorityQueue(k * 2, greater);
+    Node node;
+    node.first = nums[0];
+    node.second = 0;
+    Push(pq, &node);
+    for (int j = 2; j <= k; j++) {
+        Node *p = Pop(pq);
+        long long t = p->first;
+        int i = p->second;
+        ret = t;
+        if (i == numsSize - 1) {
+            continue;
+        }
+        node.first = t + nums[i + 1];
+        node.second = i + 1;
+        Push(pq, &node);
+        node.first = t - nums[i] + nums[i + 1];
+        node.second = i + 1;
+        Push(pq, &node);
+    }
+    FreePriorityQueue(pq);
+    return total - ret;
+}

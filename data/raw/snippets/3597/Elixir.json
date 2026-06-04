@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec partition_string(s :: String.t) :: [String.t]\n  def partition_string(s) do\n    \n  end\nend"

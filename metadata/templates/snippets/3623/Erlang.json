@@ -1,0 +1,1 @@
+"-spec count_trapezoids(Points :: [[integer()]]) -> integer().\ncount_trapezoids(Points) ->\n  ."

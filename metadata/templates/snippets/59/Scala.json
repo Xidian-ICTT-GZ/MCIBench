@@ -1,0 +1,1 @@
+"object Solution {\n    def generateMatrix(n: Int): Array[Array[Int]] = {\n        \n    }\n}"

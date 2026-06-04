@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    vector<vector<string>> mostPopularCreator(vector<string>& creators, vector<string>& ids, vector<int>& views) {\n        \n    }\n};"

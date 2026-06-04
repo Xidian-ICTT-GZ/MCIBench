@@ -1,0 +1,31 @@
+func pseudoPalindromicPaths (root *TreeNode) int {
+    counter := make([]int, 10)
+    return dfs(root, counter)
+}
+
+func dfs(root *TreeNode, counter []int) int {
+    if root == nil {
+        return 0
+    }
+    counter[root.Val]++
+    res := 0
+    if root.Left == nil && root.Right == nil {
+        if isPseudoPalindrome(counter) {
+            res = 1
+        }
+    } else {
+        res = dfs(root.Left, counter) + dfs(root.Right, counter)
+    }
+    counter[root.Val]--
+    return res
+}
+
+func isPseudoPalindrome(counter []int) bool {
+    odd := 0
+    for _, value := range counter {
+        if value % 2 == 1 {
+            odd++
+        }
+    }
+    return odd <= 1
+}

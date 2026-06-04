@@ -1,1 +1,0 @@
-"/**\n * @param {number[][]} isInfected\n * @return {number}\n */\nvar containVirus = function(isInfected) {\n    \n};"

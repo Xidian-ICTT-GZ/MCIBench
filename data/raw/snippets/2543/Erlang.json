@@ -1,1 +1,0 @@
-"-spec is_reachable(TargetX :: integer(), TargetY :: integer()) -> boolean().\nis_reachable(TargetX, TargetY) ->\n  ."

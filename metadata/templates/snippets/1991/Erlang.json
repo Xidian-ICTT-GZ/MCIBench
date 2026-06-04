@@ -1,0 +1,1 @@
+"-spec find_middle_index(Nums :: [integer()]) -> integer().\nfind_middle_index(Nums) ->\n  ."

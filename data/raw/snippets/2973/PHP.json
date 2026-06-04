@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[][] $edges\n     * @param Integer[] $cost\n     * @return Integer[]\n     */\n    function placedCoins($edges, $cost) {\n        \n    }\n}"

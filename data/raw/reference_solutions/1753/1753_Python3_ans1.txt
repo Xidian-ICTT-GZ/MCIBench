@@ -1,5 +1,0 @@
-class Solution:
-    def maximumScore(self, a: int, b: int, c: int) -> int:
-        s = a + b + c
-        max_val = max(a, b, c)
-        return s - max_val if s < max_val * 2 else s // 2

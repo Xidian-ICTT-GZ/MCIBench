@@ -1,0 +1,1 @@
+"class Solution(object):\n    def minOperationsMaxProfit(self, customers, boardingCost, runningCost):\n        \"\"\"\n        :type customers: List[int]\n        :type boardingCost: int\n        :type runningCost: int\n        :rtype: int\n        \"\"\"\n        "

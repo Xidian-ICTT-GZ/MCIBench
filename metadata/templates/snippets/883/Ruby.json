@@ -1,0 +1,1 @@
+"# @param {Integer[][]} grid\n# @return {Integer}\ndef projection_area(grid)\n    \nend"

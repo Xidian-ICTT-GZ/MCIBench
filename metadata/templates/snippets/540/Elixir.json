@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec single_non_duplicate(nums :: [integer]) :: integer\n  def single_non_duplicate(nums) do\n    \n  end\nend"

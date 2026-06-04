@@ -1,0 +1,1 @@
+"type MyCalendar struct {\n    \n}\n\n\nfunc Constructor() MyCalendar {\n    \n}\n\n\nfunc (this *MyCalendar) Book(startTime int, endTime int) bool {\n    \n}\n\n\n/**\n * Your MyCalendar object will be instantiated and called as such:\n * obj := Constructor();\n * param_1 := obj.Book(startTime,endTime);\n */"

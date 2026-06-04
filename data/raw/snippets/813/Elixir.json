@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec largest_sum_of_averages(nums :: [integer], k :: integer) :: float\n  def largest_sum_of_averages(nums, k) do\n    \n  end\nend"

@@ -1,0 +1,55 @@
+typedef struct {
+    int key;
+    UT_hash_handle hh;
+} HashItem; 
+
+HashItem *hashFindItem(HashItem **obj, int key) {
+    HashItem *pEntry = NULL;
+    HASH_FIND_INT(*obj, &key, pEntry);
+    return pEntry;
+}
+
+bool hashAddItem(HashItem **obj, int key) {
+    if (hashFindItem(obj, key)) {
+        return false;
+    }
+    HashItem *pEntry = (HashItem *)malloc(sizeof(HashItem));
+    pEntry->key = key;
+    HASH_ADD_INT(*obj, key, pEntry);
+    return true;
+}
+
+void hashFree(HashItem **obj) {
+    HashItem *curr = NULL, *tmp = NULL;
+    HASH_ITER(hh, *obj, curr, tmp) {
+        HASH_DEL(*obj, curr);  
+        free(curr);             
+    }
+}
+
+int flipLights(int n, int presses){
+    HashItem *seen = NULL;
+    for (int i = 0; i < 1 << 4; i++) {
+        int pressArr[4], sum = 0;
+        for (int j = 0; j < 4; j++) {
+            pressArr[j] = (i >> j) & 1;
+            sum += pressArr[j];
+        }
+        if (sum % 2 == presses % 2 && sum <= presses) {
+            int status = pressArr[0] ^ pressArr[2] ^ pressArr[3];
+            if (n >= 2) {
+                status |= (pressArr[0] ^ pressArr[1]) << 1;
+            }
+            if (n >= 3) {
+                status |= (pressArr[0] ^ pressArr[2]) << 2;
+            }
+            if (n >= 4) {
+                status |= (pressArr[0] ^ pressArr[1] ^ pressArr[3]) << 3;
+            }
+            hashAddItem(&seen, status);
+        }
+    }
+    int ret = HASH_COUNT(seen);
+    hashFree(&seen);
+    return ret;
+}

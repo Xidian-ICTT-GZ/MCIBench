@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<string> shortestSubstrings(vector<string>& arr) {\n        \n    }\n};"

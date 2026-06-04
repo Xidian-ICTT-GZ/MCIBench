@@ -1,0 +1,1 @@
+"# @param {String} senate\n# @return {String}\ndef predict_party_victory(senate)\n    \nend"

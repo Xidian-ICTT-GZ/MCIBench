@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} arr1\n * @param {number[]} arr2\n * @return {number[]}\n */\nvar addNegabinary = function(arr1, arr2) {\n    \n};"

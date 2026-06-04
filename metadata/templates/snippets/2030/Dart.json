@@ -1,0 +1,1 @@
+"class Solution {\n  String smallestSubsequence(String s, int k, String letter, int repetition) {\n    \n  }\n}"

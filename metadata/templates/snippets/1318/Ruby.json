@@ -1,0 +1,1 @@
+"# @param {Integer} a\n# @param {Integer} b\n# @param {Integer} c\n# @return {Integer}\ndef min_flips(a, b, c)\n    \nend"

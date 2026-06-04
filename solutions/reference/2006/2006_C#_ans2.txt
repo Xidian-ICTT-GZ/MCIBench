@@ -1,0 +1,14 @@
+public class Solution {
+    public int CountKDifference(int[] nums, int k) {
+        int res = 0, n = nums.Length;
+        Dictionary<int, int> cnt = new Dictionary<int, int>();
+        for (int j = 0; j < n; ++j) {
+            res += (cnt.ContainsKey(nums[j] - k) ? cnt[nums[j] - k] : 0) + (cnt.ContainsKey(nums[j] + k) ? cnt[nums[j] + k] : 0);
+            if (!cnt.ContainsKey(nums[j])) {
+                cnt.Add(nums[j], 0);
+            }
+            ++cnt[nums[j]];
+        }
+        return res;
+    }
+}

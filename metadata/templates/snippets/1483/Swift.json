@@ -1,0 +1,1 @@
+"\nclass TreeAncestor {\n\n    init(_ n: Int, _ parent: [Int]) {\n        \n    }\n    \n    func getKthAncestor(_ node: Int, _ k: Int) -> Int {\n        \n    }\n}\n\n/**\n * Your TreeAncestor object will be instantiated and called as such:\n * let obj = TreeAncestor(n, parent)\n * let ret_1: Int = obj.getKthAncestor(node, k)\n */"

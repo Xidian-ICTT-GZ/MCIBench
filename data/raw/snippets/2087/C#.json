@@ -1,1 +1,0 @@
-"public class Solution {\n    public int MinCost(int[] startPos, int[] homePos, int[] rowCosts, int[] colCosts) {\n        \n    }\n}"

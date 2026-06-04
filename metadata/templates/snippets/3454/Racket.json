@@ -1,0 +1,1 @@
+"(define/contract (separate-squares squares)\n  (-> (listof (listof exact-integer?)) flonum?)\n  )"

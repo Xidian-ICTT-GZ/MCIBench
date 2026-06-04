@@ -1,1 +1,0 @@
-"class Solution(object):\n    def minimumCost(self, nums, cost, k):\n        \"\"\"\n        :type nums: List[int]\n        :type cost: List[int]\n        :type k: int\n        :rtype: int\n        \"\"\"\n        "

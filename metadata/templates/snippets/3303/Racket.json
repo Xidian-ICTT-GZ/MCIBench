@@ -1,0 +1,1 @@
+"(define/contract (min-starting-index s pattern)\n  (-> string? string? exact-integer?)\n  )"

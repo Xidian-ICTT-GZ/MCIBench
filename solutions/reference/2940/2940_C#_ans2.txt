@@ -1,0 +1,58 @@
+public class Solution {
+    public int[] LeftmostBuildingQueries(int[] heights, int[][] queries) {
+        int n = heights.Length;
+        int m = queries.Length;
+        IList<Tuple<int, int>>[] query = new IList<Tuple<int, int>>[n];
+        for (int i = 0; i < n; i++) {
+            query[i] = new List<Tuple<int, int>>();
+        }
+        int[] ans = new int[m];
+        IList<int> st = new List<int>();
+
+        for (int i = 0; i < m; i++) {
+            int a = queries[i][0];
+            int b = queries[i][1];
+            if (a > b) {
+                int temp = a;
+                a = b;
+                b = temp;
+            }
+            if (a == b || heights[a] < heights[b]) {
+                ans[i] = b;
+                continue;
+            }
+            query[b].Add(new Tuple<int, int>(i, heights[a]));
+        }
+
+        int top = -1;
+        for (int i = n - 1; i >= 0; i--) {
+            for (int j = 0; j < query[i].Count; j++) {
+                int q = query[i][j].Item1;
+                int val = query[i][j].Item2;
+                if (top == -1 || heights[st[0]] <= val) {
+                    ans[q] = -1;
+                    continue;
+                }
+
+                int l = 0, r = top;
+                while (l <= r) {
+                    int mid = (l + r) >> 1;
+                    if (heights[st[mid]] > val) {
+                        l = mid + 1;
+                    } else {
+                        r = mid - 1;
+                    }
+                }
+                ans[q] = st[r];
+            }
+
+            while (top >= 0 && heights[st[top]] <= heights[i]) {
+                st.RemoveAt(st.Count - 1);
+                top--;
+            }
+            st.Add(i);
+            top++;
+        }
+        return ans;
+    }
+}

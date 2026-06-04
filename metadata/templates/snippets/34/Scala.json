@@ -1,0 +1,1 @@
+"object Solution {\n    def searchRange(nums: Array[Int], target: Int): Array[Int] = {\n        \n    }\n}"

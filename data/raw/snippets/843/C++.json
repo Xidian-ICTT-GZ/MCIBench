@@ -1,1 +1,0 @@
-"/**\n * // This is the Master's API interface.\n * // You should not implement it, or speculate about its implementation\n * class Master {\n *   public:\n *     int guess(string word);\n * };\n */\nclass Solution {\npublic:\n    void findSecretWord(vector<string>& words, Master& master) {\n        \n    }\n};"

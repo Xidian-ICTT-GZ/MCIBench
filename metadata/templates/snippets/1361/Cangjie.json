@@ -1,0 +1,1 @@
+"class Solution {\n    func validateBinaryTreeNodes(n: Int64, leftChild: Array<Int64>, rightChild: Array<Int64>): Bool {\n\n    }\n}"

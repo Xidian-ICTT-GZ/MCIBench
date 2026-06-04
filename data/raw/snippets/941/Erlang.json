@@ -1,1 +1,0 @@
-"-spec valid_mountain_array(Arr :: [integer()]) -> boolean().\nvalid_mountain_array(Arr) ->\n  ."

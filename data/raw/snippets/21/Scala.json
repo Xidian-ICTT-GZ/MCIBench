@@ -1,1 +1,0 @@
-"/**\n * Definition for singly-linked list.\n * class ListNode(_x: Int = 0, _next: ListNode = null) {\n *   var next: ListNode = _next\n *   var x: Int = _x\n * }\n */\nobject Solution {\n    def mergeTwoLists(list1: ListNode, list2: ListNode): ListNode = {\n        \n    }\n}"

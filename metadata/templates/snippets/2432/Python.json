@@ -1,0 +1,1 @@
+"class Solution(object):\n    def hardestWorker(self, n, logs):\n        \"\"\"\n        :type n: int\n        :type logs: List[List[int]]\n        :rtype: int\n        \"\"\"\n        "

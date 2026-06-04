@@ -1,1 +1,0 @@
-"object Solution {\n    def minMalwareSpread(graph: Array[Array[Int]], initial: Array[Int]): Int = {\n        \n    }\n}"

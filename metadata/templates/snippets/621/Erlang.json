@@ -1,0 +1,1 @@
+"-spec least_interval(Tasks :: [char()], N :: integer()) -> integer().\nleast_interval(Tasks, N) ->\n  ."

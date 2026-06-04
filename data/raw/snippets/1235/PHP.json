@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $startTime\n     * @param Integer[] $endTime\n     * @param Integer[] $profit\n     * @return Integer\n     */\n    function jobScheduling($startTime, $endTime, $profit) {\n        \n    }\n}"

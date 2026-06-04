@@ -1,1 +1,0 @@
-"class Solution:\n    def maximizeSumOfWeights(self, edges: List[List[int]], k: int) -> int:\n        "

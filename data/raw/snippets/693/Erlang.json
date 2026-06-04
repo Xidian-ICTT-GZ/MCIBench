@@ -1,1 +1,0 @@
-"-spec has_alternating_bits(N :: integer()) -> boolean().\nhas_alternating_bits(N) ->\n  ."

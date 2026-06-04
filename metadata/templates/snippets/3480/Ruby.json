@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @param {Integer[][]} conflicting_pairs\n# @return {Integer}\ndef max_subarrays(n, conflicting_pairs)\n    \nend"

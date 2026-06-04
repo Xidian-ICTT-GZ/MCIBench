@@ -1,0 +1,1 @@
+"-spec sliding_puzzle(Board :: [[integer()]]) -> integer().\nsliding_puzzle(Board) ->\n  ."

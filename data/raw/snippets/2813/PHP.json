@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[][] $items\n     * @param Integer $k\n     * @return Integer\n     */\n    function findMaximumElegance($items, $k) {\n        \n    }\n}"

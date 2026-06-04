@@ -1,1 +1,0 @@
-"class Solution(object):\n    def minimumTime(self, n, edges, disappear):\n        \"\"\"\n        :type n: int\n        :type edges: List[List[int]]\n        :type disappear: List[int]\n        :rtype: List[int]\n        \"\"\"\n        "

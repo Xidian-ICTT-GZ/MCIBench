@@ -1,1 +1,0 @@
-"%% Definition for a binary tree node.\n%%\n%% -record(tree_node, {val = 0 :: integer(),\n%%                     left = null  :: 'null' | #tree_node{},\n%%                     right = null :: 'null' | #tree_node{}}).\n\n-spec generate_trees(N :: integer()) -> [#tree_node{} | null].\ngenerate_trees(N) ->\n  ."

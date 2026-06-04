@@ -1,0 +1,1 @@
+"(define/contract (can-three-parts-equal-sum arr)\n  (-> (listof exact-integer?) boolean?)\n  )"

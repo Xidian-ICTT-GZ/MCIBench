@@ -1,0 +1,1 @@
+"class Solution:\n    def percentageLetter(self, s: str, letter: str) -> int:\n        "

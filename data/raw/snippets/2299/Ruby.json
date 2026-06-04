@@ -1,1 +1,0 @@
-"# @param {String} password\n# @return {Boolean}\ndef strong_password_checker_ii(password)\n    \nend"

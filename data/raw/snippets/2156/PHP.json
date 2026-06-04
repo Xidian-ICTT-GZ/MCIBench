@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String $s\n     * @param Integer $power\n     * @param Integer $modulo\n     * @param Integer $k\n     * @param Integer $hashValue\n     * @return String\n     */\n    function subStrHash($s, $power, $modulo, $k, $hashValue) {\n        \n    }\n}"

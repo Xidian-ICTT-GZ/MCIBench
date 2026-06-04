@@ -1,1 +1,0 @@
-"class Solution:\n    def printVertically(self, s: str) -> List[str]:\n        "

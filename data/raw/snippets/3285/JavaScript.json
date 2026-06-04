@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} height\n * @param {number} threshold\n * @return {number[]}\n */\nvar stableMountains = function(height, threshold) {\n    \n};"

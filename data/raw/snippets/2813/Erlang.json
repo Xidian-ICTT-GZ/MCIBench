@@ -1,1 +1,0 @@
-"-spec find_maximum_elegance(Items :: [[integer()]], K :: integer()) -> integer().\nfind_maximum_elegance(Items, K) ->\n  ."

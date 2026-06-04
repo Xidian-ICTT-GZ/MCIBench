@@ -1,1 +1,0 @@
-"(define/contract (split-into-fibonacci num)\n  (-> string? (listof exact-integer?))\n  )"

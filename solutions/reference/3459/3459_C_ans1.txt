@@ -1,0 +1,42 @@
+#define MAX_N 500
+
+const int dirs[4][2] = {{1, 1}, {1, -1}, {-1, -1}, {-1, 1}};
+int memo[MAX_N][MAX_N][4][2][3];
+
+int dfs(int cx, int cy, int direction, int turn, int target, int **grid, int m, int n) {
+    int nx = cx + dirs[direction][0];
+    int ny = cy + dirs[direction][1];
+    
+    if (nx < 0 || ny < 0 || nx >= m || ny >= n || grid[nx][ny] != target) {
+        return 0;
+    }
+    if (memo[nx][ny][direction][turn][2 - target] != -1) {
+        return memo[nx][ny][direction][turn][2 - target];
+    }
+    
+    int maxStep = dfs(nx, ny, direction, turn, 2 - target, grid, m, n);
+    if (turn) {
+        
+        maxStep = fmax(maxStep, dfs(nx, ny, (direction + 1) % 4, 0, 2 - target, grid, m, n));
+    }
+    memo[nx][ny][direction][turn][2 - target] = maxStep + 1;
+    return maxStep + 1;
+}
+
+int lenOfVDiagonal(int** grid, int gridSize, int* gridColSize) {
+    int m = gridSize, n = gridColSize[0];
+    memset(memo, -1, sizeof(memo));
+
+    int res = 0;
+    for (int i = 0; i < m; i++) {
+        for (int j = 0; j < n; j++) {
+            if (grid[i][j] == 1) {
+                for (int direction = 0; direction < 4; direction++) {
+                    res = fmax(res, dfs(i, j, direction, 1, 2, grid, m, n) + 1);
+                }
+            }
+        }
+    }
+
+    return res;
+}

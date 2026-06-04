@@ -1,1 +1,0 @@
-"/**\n * @param {number[][]} edges\n * @param {number[]} patience\n * @return {number}\n */\nvar networkBecomesIdle = function(edges, patience) {\n    \n};"

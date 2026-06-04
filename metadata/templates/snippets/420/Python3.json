@@ -1,0 +1,1 @@
+"class Solution:\n    def strongPasswordChecker(self, password: str) -> int:\n        "

@@ -1,0 +1,97 @@
+struct ListNode *createListNode(int val) {
+    struct ListNode *obj = (struct ListNode *)malloc(sizeof(struct ListNode));
+    obj->val = val;
+    obj->next = NULL;
+    return obj;
+}
+
+void freeList(struct ListNode *list) {
+    while (list) {
+        struct ListNode *p = list;
+        list = list->next;
+        free(p);
+    }
+}
+
+void dfs(int x, int depth, int *dep, int *ans, const int *nums, struct ListNode **tmp, struct ListNode **gcds, struct ListNode **g) {
+    dep[x] = depth;
+    for (struct ListNode *p = gcds[nums[x]]; p; p = p->next) {
+        int val = p->val;
+        if (tmp[val] == NULL) {
+            continue;
+        }
+        int las = tmp[val]->val;
+        if (ans[x] == -1 || dep[las] > dep[ans[x]]) {
+            ans[x] = las;
+        }
+    }
+    struct ListNode *node = createListNode(x);
+    node->next = tmp[nums[x]];
+    tmp[nums[x]] = node;
+    for (struct ListNode *p = g[x]; p; p = p->next) {
+        int val = p->val;
+        if (dep[val] == -1) { 
+            dfs(val, depth + 1, dep, ans, nums, tmp, gcds, g);
+        }
+    }
+    node = tmp[nums[x]];
+    tmp[nums[x]] = tmp[nums[x]]->next;
+    free(node);
+}
+
+int gcd(int a, int b) {
+    while (b != 0) {
+        int temp = b;
+        b = a % b;
+        a = temp;
+    }
+    return a;
+}
+
+int* getCoprimes(int* nums, int numsSize, int** edges, int edgesSize, int* edgesColSize, int* returnSize) {
+    int n = numsSize;
+
+    struct ListNode *gcds[51];
+    struct ListNode *tmp[51];
+    struct ListNode *g[n];
+    int *ans = (int *)malloc(sizeof(int) * n);
+    int *dep = (int *)malloc(sizeof(int) * n);
+    
+    for (int i = 0; i < n; i++) {
+        g[i] = NULL;
+        ans[i] = -1;
+        dep[i] = -1;
+    }
+    for (int i = 1; i <= 50; i++) {
+        gcds[i] = NULL;
+        tmp[i] = NULL;
+        for (int j = 1; j <= 50; j++) {
+            if (gcd(i, j) == 1) {
+                struct ListNode *p = createListNode(j);
+                p->next = gcds[i];
+                gcds[i] = p;
+            } 
+        }
+    }
+    for (int i = 0; i < edgesSize; i++) {
+        int x = edges[i][0], y = edges[i][1];
+        struct ListNode *nodex = createListNode(x);
+        nodex->next = g[y];
+        g[y] = nodex;
+        struct ListNode *nodey = createListNode(y);
+        nodey->next = g[x];
+        g[x] = nodey;
+    }
+
+    dfs(0, 1, dep, ans, nums, tmp, gcds, g);
+    *returnSize = n;
+    for (int i = 1; i <= 50; i++) {
+        freeList(gcds[i]);
+        freeList(tmp[i]);
+    }
+    for (int i = 0; i < n; i++) {
+        freeList(g[i]);
+    }
+    free(dep);
+    return ans;
+}

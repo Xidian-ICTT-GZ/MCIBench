@@ -1,1 +1,0 @@
-"object Solution {\n    def numSubarraysWithSum(nums: Array[Int], goal: Int): Int = {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"-spec xor_beauty(Nums :: [integer()]) -> integer().\nxor_beauty(Nums) ->\n  ."

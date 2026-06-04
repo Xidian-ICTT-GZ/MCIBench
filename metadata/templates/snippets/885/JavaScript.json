@@ -1,0 +1,1 @@
+"/**\n * @param {number} rows\n * @param {number} cols\n * @param {number} rStart\n * @param {number} cStart\n * @return {number[][]}\n */\nvar spiralMatrixIII = function(rows, cols, rStart, cStart) {\n    \n};"

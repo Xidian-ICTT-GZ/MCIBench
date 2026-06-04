@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $source\n     * @param Integer[] $target\n     * @param Integer[][] $allowedSwaps\n     * @return Integer\n     */\n    function minimumHammingDistance($source, $target, $allowedSwaps) {\n        \n    }\n}"

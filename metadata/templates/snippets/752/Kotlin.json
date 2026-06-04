@@ -1,0 +1,1 @@
+"class Solution {\n    fun openLock(deadends: Array<String>, target: String): Int {\n        \n    }\n}"

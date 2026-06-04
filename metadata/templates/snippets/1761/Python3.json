@@ -1,0 +1,1 @@
+"class Solution:\n    def minTrioDegree(self, n: int, edges: List[List[int]]) -> int:\n        "

@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec count_smaller(nums :: [integer]) :: [integer]\n  def count_smaller(nums) do\n    \n  end\nend"

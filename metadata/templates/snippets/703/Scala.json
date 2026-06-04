@@ -1,0 +1,1 @@
+"class KthLargest(_k: Int, _nums: Array[Int]) {\n\n    def add(`val`: Int): Int = {\n        \n    }\n\n}\n\n/**\n * Your KthLargest object will be instantiated and called as such:\n * val obj = new KthLargest(k, nums)\n * val param_1 = obj.add(`val`)\n */"

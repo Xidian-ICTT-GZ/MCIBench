@@ -1,1 +1,0 @@
-"class Solution(object):\n    def minScore(self, n, roads):\n        \"\"\"\n        :type n: int\n        :type roads: List[List[int]]\n        :rtype: int\n        \"\"\"\n        "

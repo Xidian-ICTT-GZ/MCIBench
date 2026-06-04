@@ -1,0 +1,20 @@
+public class Solution {
+    public int MaximumCount(int[] nums) {
+        int pos1 = LowerBound(nums, 0);
+        int pos2 = LowerBound(nums, 1);
+        return Math.Max(pos1, nums.Length - pos2);
+    }
+
+    public int LowerBound(int[] nums, int val) {
+        int l = 0, r = nums.Length;
+        while (l < r) {
+            int m = (l + r) / 2;
+            if (nums[m] >= val) {
+                r = m;
+            } else {
+                l = m + 1;
+            }
+        }
+        return l;
+    }
+}

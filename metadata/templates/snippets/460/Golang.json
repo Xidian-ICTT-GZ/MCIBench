@@ -1,0 +1,1 @@
+"type LFUCache struct {\n    \n}\n\n\nfunc Constructor(capacity int) LFUCache {\n    \n}\n\n\nfunc (this *LFUCache) Get(key int) int {\n    \n}\n\n\nfunc (this *LFUCache) Put(key int, value int)  {\n    \n}\n\n\n/**\n * Your LFUCache object will be instantiated and called as such:\n * obj := Constructor(capacity);\n * param_1 := obj.Get(key);\n * obj.Put(key,value);\n */"

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec make_good(s :: String.t) :: String.t\n  def make_good(s) do\n    \n  end\nend"

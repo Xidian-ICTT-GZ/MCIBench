@@ -1,1 +1,0 @@
-"/**\n * @param {string} s\n * @param {character} letter\n * @return {number}\n */\nvar percentageLetter = function(s, letter) {\n    \n};"

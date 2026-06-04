@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} asteroids\n * @return {number[]}\n */\nvar asteroidCollision = function(asteroids) {\n    \n};"

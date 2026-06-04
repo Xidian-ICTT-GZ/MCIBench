@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec max_taxi_earnings(n :: integer, rides :: [[integer]]) :: integer\n  def max_taxi_earnings(n, rides) do\n    \n  end\nend"

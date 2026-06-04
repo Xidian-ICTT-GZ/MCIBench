@@ -1,1 +1,0 @@
-"# @param {Integer} n\n# @param {Integer} head_id\n# @param {Integer[]} manager\n# @param {Integer[]} inform_time\n# @return {Integer}\ndef num_of_minutes(n, head_id, manager, inform_time)\n    \nend"

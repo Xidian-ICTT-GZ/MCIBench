@@ -1,0 +1,13 @@
+var findClosestNumber = function(nums) {
+    let res = nums[0];   
+    let dis = Math.abs(nums[0]);   
+    for (let num of nums) {
+        if (Math.abs(num) < dis) {
+            dis = Math.abs(num);
+            res = num;
+        } else if (Math.abs(num) === dis) {
+            res = Math.max(res, num);
+        }
+    }
+    return res;
+};

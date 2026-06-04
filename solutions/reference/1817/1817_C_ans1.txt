@@ -1,0 +1,58 @@
+typedef struct {
+    int key;
+    UT_hash_handle hh;
+} HashSetItem; 
+
+typedef struct {
+    int key;
+    HashSetItem *val;
+    UT_hash_handle hh;
+} HashMapItem; 
+
+void hashSetFree(HashSetItem **obj) {
+    HashSetItem *curr = NULL, *tmp = NULL;
+    HASH_ITER(hh, *obj, curr, tmp) {
+        HASH_DEL(*obj, curr);  
+        free(curr);             
+    }
+}
+
+void hashMapFree(HashMapItem **obj) {
+    HashMapItem *curr = NULL, *tmp = NULL;
+    HASH_ITER(hh, *obj, curr, tmp) {
+        HASH_DEL(*obj, curr);
+        hashSetFree(&curr->val);  
+        free(curr);             
+    }
+}
+
+int* findingUsersActiveMinutes(int** logs, int logsSize, int* logsColSize, int k, int* returnSize) {
+    HashMapItem *activeMinutes = NULL;
+    for (int i = 0; i < logsSize; i++) {
+        int id = logs[i][0], time = logs[i][1];
+        HashMapItem *pMapEntry = NULL;
+        HASH_FIND_INT(activeMinutes, &id, pMapEntry);
+        if (NULL == pMapEntry) {
+            pMapEntry = (HashMapItem *)malloc(sizeof(HashMapItem));
+            pMapEntry->key = id;
+            pMapEntry->val = NULL;
+            HASH_ADD_INT(activeMinutes, key, pMapEntry);
+        }
+        HashSetItem *pSetEntry = NULL;
+        HASH_FIND_INT(pMapEntry->val, &time, pSetEntry);
+        if (NULL == pSetEntry) {
+            pSetEntry = (HashSetItem *)malloc(sizeof(HashSetItem));
+            pSetEntry->key = time;
+            HASH_ADD_INT(pMapEntry->val, key, pSetEntry);
+        }
+    }
+    int *answer = (int *)malloc(sizeof(int) * k);
+    memset(answer, 0, sizeof(int) * k);
+    for (HashMapItem *pEntry = activeMinutes; pEntry != NULL; pEntry = pEntry->hh.next) {
+        int activeCount = HASH_COUNT(pEntry->val);
+        answer[activeCount - 1]++;
+    }
+    *returnSize = k;
+    hashMapFree(&activeMinutes);
+    return answer;
+}

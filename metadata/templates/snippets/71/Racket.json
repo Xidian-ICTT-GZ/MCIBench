@@ -1,0 +1,1 @@
+"(define/contract (simplify-path path)\n  (-> string? string?)\n  )"

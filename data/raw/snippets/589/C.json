@@ -1,1 +1,0 @@
-"/**\n * Definition for a Node.\n * struct Node {\n *     int val;\n *     int numChildren;\n *     struct Node** children;\n * };\n */\n\n/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* preorder(struct Node* root, int* returnSize) {\n    \n}"

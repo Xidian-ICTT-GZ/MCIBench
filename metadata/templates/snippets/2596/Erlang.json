@@ -1,0 +1,1 @@
+"-spec check_valid_grid(Grid :: [[integer()]]) -> boolean().\ncheck_valid_grid(Grid) ->\n  ."

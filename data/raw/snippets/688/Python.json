@@ -1,1 +1,0 @@
-"class Solution(object):\n    def knightProbability(self, n, k, row, column):\n        \"\"\"\n        :type n: int\n        :type k: int\n        :type row: int\n        :type column: int\n        :rtype: float\n        \"\"\"\n        "

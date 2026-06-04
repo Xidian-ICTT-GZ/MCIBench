@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec num_rolls_to_target(n :: integer, k :: integer, target :: integer) :: integer\n  def num_rolls_to_target(n, k, target) do\n    \n  end\nend"

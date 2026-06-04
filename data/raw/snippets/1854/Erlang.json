@@ -1,1 +1,0 @@
-"-spec maximum_population(Logs :: [[integer()]]) -> integer().\nmaximum_population(Logs) ->\n  ."

@@ -1,1 +1,0 @@
-"/**\n * @param {string} date\n * @return {string}\n */\nvar convertDateToBinary = function(date) {\n    \n};"

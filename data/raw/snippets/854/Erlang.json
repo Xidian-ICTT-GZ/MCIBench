@@ -1,1 +1,0 @@
-"-spec k_similarity(S1 :: unicode:unicode_binary(), S2 :: unicode:unicode_binary()) -> integer().\nk_similarity(S1, S2) ->\n  ."

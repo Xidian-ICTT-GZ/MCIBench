@@ -1,1 +1,0 @@
-"# @param {Integer[][]} towers\n# @param {Integer} radius\n# @return {Integer[]}\ndef best_coordinate(towers, radius)\n    \nend"

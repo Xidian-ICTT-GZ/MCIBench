@@ -1,0 +1,1 @@
+"class Solution(object):\n    def updateBoard(self, board, click):\n        \"\"\"\n        :type board: List[List[str]]\n        :type click: List[int]\n        :rtype: List[List[str]]\n        \"\"\"\n        "

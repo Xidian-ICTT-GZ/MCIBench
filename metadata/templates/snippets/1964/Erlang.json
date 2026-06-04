@@ -1,0 +1,1 @@
+"-spec longest_obstacle_course_at_each_position(Obstacles :: [integer()]) -> [integer()].\nlongest_obstacle_course_at_each_position(Obstacles) ->\n  ."

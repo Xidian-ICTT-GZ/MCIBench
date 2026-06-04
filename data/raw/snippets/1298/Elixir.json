@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec max_candies(status :: [integer], candies :: [integer], keys :: [[integer]], contained_boxes :: [[integer]], initial_boxes :: [integer]) :: integer\n  def max_candies(status, candies, keys, contained_boxes, initial_boxes) do\n    \n  end\nend"

@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String[] $cards\n     * @param String $x\n     * @return Integer\n     */\n    function score($cards, $x) {\n        \n    }\n}"

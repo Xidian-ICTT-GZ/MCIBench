@@ -1,1 +1,0 @@
-"-spec remove_covered_intervals(Intervals :: [[integer()]]) -> integer().\nremove_covered_intervals(Intervals) ->\n  ."

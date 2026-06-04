@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec remove_duplicates(s :: String.t) :: String.t\n  def remove_duplicates(s) do\n    \n  end\nend"

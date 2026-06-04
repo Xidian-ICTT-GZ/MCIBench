@@ -1,1 +1,0 @@
-"impl Solution {\n    pub fn min_size_subarray(nums: Vec<i32>, target: i32) -> i32 {\n        \n    }\n}"

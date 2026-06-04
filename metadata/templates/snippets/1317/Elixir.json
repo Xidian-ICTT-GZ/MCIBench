@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec get_no_zero_integers(n :: integer) :: [integer]\n  def get_no_zero_integers(n) do\n    \n  end\nend"

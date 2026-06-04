@@ -1,1 +1,0 @@
-"-spec matrix_rank_transform(Matrix :: [[integer()]]) -> [[integer()]].\nmatrix_rank_transform(Matrix) ->\n  ."

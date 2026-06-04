@@ -1,1 +1,0 @@
-"class Solution:\n    def countDaysTogether(self, arriveAlice: str, leaveAlice: str, arriveBob: str, leaveBob: str) -> int:\n        "

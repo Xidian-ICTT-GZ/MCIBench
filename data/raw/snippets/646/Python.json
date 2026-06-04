@@ -1,1 +1,0 @@
-"class Solution(object):\n    def findLongestChain(self, pairs):\n        \"\"\"\n        :type pairs: List[List[int]]\n        :rtype: int\n        \"\"\"\n        "

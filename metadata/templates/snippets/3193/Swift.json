@@ -1,0 +1,1 @@
+"class Solution {\n    func numberOfPermutations(_ n: Int, _ requirements: [[Int]]) -> Int {\n        \n    }\n}"

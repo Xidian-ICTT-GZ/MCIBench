@@ -1,1 +1,0 @@
-"-spec eaten_apples(Apples :: [integer()], Days :: [integer()]) -> integer().\neaten_apples(Apples, Days) ->\n  ."

@@ -1,1 +1,0 @@
-"class Solution(object):\n    def carFleet(self, target, position, speed):\n        \"\"\"\n        :type target: int\n        :type position: List[int]\n        :type speed: List[int]\n        :rtype: int\n        \"\"\"\n        "

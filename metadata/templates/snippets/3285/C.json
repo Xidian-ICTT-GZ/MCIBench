@@ -1,0 +1,1 @@
+"/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* stableMountains(int* height, int heightSize, int threshold, int* returnSize) {\n    \n}"

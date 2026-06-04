@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec can_partition_grid(grid :: [[integer]]) :: boolean\n  def can_partition_grid(grid) do\n    \n  end\nend"

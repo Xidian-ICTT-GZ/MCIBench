@@ -1,0 +1,1 @@
+"public class Solution {\n    public int NumberOfGoodPaths(int[] vals, int[][] edges) {\n        \n    }\n}"

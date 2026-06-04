@@ -1,1 +1,0 @@
-"class Solution(object):\n    def findCoins(self, numWays):\n        \"\"\"\n        :type numWays: List[int]\n        :rtype: List[int]\n        \"\"\"\n        "

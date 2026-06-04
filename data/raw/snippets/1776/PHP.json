@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[][] $cars\n     * @return Float[]\n     */\n    function getCollisionTimes($cars) {\n        \n    }\n}"

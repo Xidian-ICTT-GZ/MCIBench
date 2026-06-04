@@ -1,1 +1,0 @@
-"import pandas as pd\n\ndef restaurant_growth(customer: pd.DataFrame) -> pd.DataFrame:\n    "

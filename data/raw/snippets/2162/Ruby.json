@@ -1,1 +1,0 @@
-"# @param {Integer} start_at\n# @param {Integer} move_cost\n# @param {Integer} push_cost\n# @param {Integer} target_seconds\n# @return {Integer}\ndef min_cost_set_time(start_at, move_cost, push_cost, target_seconds)\n    \nend"

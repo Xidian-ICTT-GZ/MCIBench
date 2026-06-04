@@ -1,1 +1,0 @@
-"-spec trim_mean(Arr :: [integer()]) -> float().\ntrim_mean(Arr) ->\n  ."

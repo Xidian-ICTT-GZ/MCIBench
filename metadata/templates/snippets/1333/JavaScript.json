@@ -1,0 +1,1 @@
+"/**\n * @param {number[][]} restaurants\n * @param {number} veganFriendly\n * @param {number} maxPrice\n * @param {number} maxDistance\n * @return {number[]}\n */\nvar filterRestaurants = function(restaurants, veganFriendly, maxPrice, maxDistance) {\n    \n};"

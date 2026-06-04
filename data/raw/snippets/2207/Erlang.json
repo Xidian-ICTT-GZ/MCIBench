@@ -1,1 +1,0 @@
-"-spec maximum_subsequence_count(Text :: unicode:unicode_binary(), Pattern :: unicode:unicode_binary()) -> integer().\nmaximum_subsequence_count(Text, Pattern) ->\n  ."

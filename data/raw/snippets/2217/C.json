@@ -1,1 +1,0 @@
-"/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nlong long* kthPalindrome(int* queries, int queriesSize, int intLength, int* returnSize) {\n    \n}"

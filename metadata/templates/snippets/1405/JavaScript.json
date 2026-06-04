@@ -1,0 +1,1 @@
+"/**\n * @param {number} a\n * @param {number} b\n * @param {number} c\n * @return {string}\n */\nvar longestDiverseString = function(a, b, c) {\n    \n};"

@@ -1,0 +1,167 @@
+#define BOUNDARY 1000000
+
+int dirs[4][2] = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
+
+struct Pair{
+    int x;
+    int y;
+};
+
+struct HashEntry {
+    int key;                  
+    int val;
+    UT_hash_handle hh;         
+};
+
+void hashAddItem(struct HashEntry **obj, int key, int val) {
+    struct HashEntry *pEntry;
+    pEntry = malloc(sizeof(struct HashEntry));
+    pEntry->key = key;
+    pEntry->val = val;
+    HASH_ADD(hh, *obj, key, sizeof(int), pEntry);
+} 
+
+struct HashEntry *hashFindItem(struct HashEntry **obj, int key)
+{
+    struct HashEntry *pEntry = NULL;
+    HASH_FIND(hh, *obj, &key, sizeof(int), pEntry);
+    return pEntry;
+}
+
+int hashGetValue(struct HashEntry **obj, int key) {
+    struct HashEntry *pEntry = NULL;
+    HASH_FIND(hh, *obj, &key, sizeof(int), pEntry);
+    return pEntry->val;
+}
+
+void hashEraseItem(struct HashEntry **obj, int key)
+{   
+    struct HashEntry *pEntry = NULL;
+    HASH_FIND(hh, *obj, &key, sizeof(int), pEntry);
+    if (NULL != pEntry) {
+        HASH_DEL(*obj, pEntry);
+        free(pEntry);
+    } 
+}
+
+void hashFreeAll(struct HashEntry **obj)
+{
+    struct HashEntry *curr, *next;
+    HASH_ITER(hh, *obj, curr, next)
+    {
+        HASH_DEL(*obj, curr);  
+        free(curr);      
+    }
+}
+
+int cmp(const void * pa, const void * pb) {
+    int a = *((int *)pa);
+    int b = *((int *)pb);
+    return a - b;
+}
+
+int unique(int ** arr, int arrSize) {
+    int pos = 0;
+    int * p = *arr;
+    qsort(*arr, arrSize, sizeof(int), cmp);
+    for (int i = 1; i < arrSize; i++) {
+        if(p[i] > p[pos]) {
+            pos++;
+            p[pos] = p[i];
+        }
+    }
+    return pos + 1;
+}
+
+bool isEscapePossible(int** blocked, int blockedSize, int* blockedColSize, int* source, int sourceSize, int* target, int targetSize){
+    if (blockedSize < 2) {
+        return true;
+    }
+    int * rows = (int *)malloc(sizeof(int) * (blockedSize + 2));
+    int * columns = (int *)malloc(sizeof(int) * (blockedSize + 2));
+    for (int i = 0; i < blockedSize; i++) {
+        rows[i] = blocked[i][0];
+        columns[i] = blocked[i][1];
+    }
+    rows[blockedSize] = source[0];
+    rows[blockedSize + 1] = target[0];
+    columns[blockedSize] = source[1];
+    columns[blockedSize + 1] = target[1];
+    
+    
+    int rowsSize = unique(&rows, blockedSize + 2);
+    int columnsSize = unique(&columns, blockedSize + 2);
+    struct HashEntry * r_mapping = NULL;
+    struct HashEntry * c_mapping = NULL;
+
+    int r_id = (rows[0] == 0 ? 0 : 1);
+    hashAddItem(&r_mapping, rows[0], r_id);
+    for (int i = 1; i < rowsSize; i++) {
+        r_id += (rows[i] == rows[i - 1] + 1 ? 1 : 2);
+        hashAddItem(&r_mapping, rows[i], r_id);
+    }
+    if (rows[rowsSize - 1] != BOUNDARY - 1) {
+        r_id++;
+    }
+
+    int c_id = (columns[0] == 0 ? 0 : 1);
+    hashAddItem(&c_mapping, columns[0], c_id);
+    for (int i = 1; i < columnsSize; ++i) {
+        c_id += (columns[i] == columns[i - 1] + 1 ? 1 : 2);
+        hashAddItem(&c_mapping, columns[i], c_id);
+    }
+    if (columns[columnsSize - 1] != BOUNDARY - 1) {
+        c_id++;
+    }
+
+    int ** grid = (int **)malloc(sizeof(int *) * (r_id + 1));
+    for (int i = 0; i <= r_id; i++) {
+        grid[i] = (int *)malloc(sizeof(int) * (c_id + 1));
+    }
+    for (int i = 0; i < blockedSize; i++) {
+         int x = hashGetValue(&r_mapping, blocked[i][0]);
+         int y = hashGetValue(&c_mapping, blocked[i][1]);
+         grid[x][y] = 1;
+    }
+    
+    int sx = hashGetValue(&r_mapping, source[0]);
+    int sy = hashGetValue(&c_mapping, source[1]);
+    int tx = hashGetValue(&r_mapping, target[0]);
+    int ty = hashGetValue(&c_mapping, target[1]);
+
+    struct Pair * queue = (struct Pair *)malloc(sizeof(struct Pair) * c_id * r_id * 4);
+    int head = 0, tail = 0;
+    queue[tail].x = sx;
+    queue[tail].y = sy;
+    tail++;
+    grid[sx][sy] = 1;
+    while (head != tail) {
+        int x = queue[head].x;
+        int y = queue[head].y;
+        head++;
+        for (int d = 0; d < 4; ++d) {
+            int nx = x + dirs[d][0], ny = y + dirs[d][1];
+            if (nx >= 0 && nx <= r_id && ny >= 0 && ny <= c_id && grid[nx][ny] != 1) {
+                if (nx == tx && ny == ty) {
+                    hashFreeAll(&r_mapping);
+                    hashFreeAll(&c_mapping);
+                    free(rows);
+                    free(columns);
+                    free(queue);
+                    return true;
+                }
+                queue[tail].x = nx;
+                queue[tail].y = ny;
+                tail++;
+                grid[nx][ny] = 1;
+            }
+        }
+    }
+    
+    hashFreeAll(&r_mapping);
+    hashFreeAll(&c_mapping);
+    free(rows);
+    free(columns);
+    free(queue);
+    return false;
+}

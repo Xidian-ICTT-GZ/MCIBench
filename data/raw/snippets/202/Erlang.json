@@ -1,1 +1,0 @@
-"-spec is_happy(N :: integer()) -> boolean().\nis_happy(N) ->\n  ."

@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $arr\n     * @param Integer $k\n     * @param Integer $x\n     * @return Integer[]\n     */\n    function findClosestElements($arr, $k, $x) {\n        \n    }\n}"

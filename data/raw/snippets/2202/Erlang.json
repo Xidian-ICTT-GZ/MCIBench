@@ -1,1 +1,0 @@
-"-spec maximum_top(Nums :: [integer()], K :: integer()) -> integer().\nmaximum_top(Nums, K) ->\n  ."

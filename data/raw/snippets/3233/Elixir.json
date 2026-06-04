@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec non_special_count(l :: integer, r :: integer) :: integer\n  def non_special_count(l, r) do\n    \n  end\nend"

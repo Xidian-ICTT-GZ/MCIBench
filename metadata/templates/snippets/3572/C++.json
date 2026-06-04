@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int maxSumDistinctTriplet(vector<int>& x, vector<int>& y) {\n        \n    }\n};"

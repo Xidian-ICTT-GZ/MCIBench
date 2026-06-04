@@ -1,0 +1,24 @@
+#define MAX(a, b) ((a) > (b) ? (a) : (b))
+
+int heightChecker(int* heights, int heightsSize) {
+    int m = 0;
+    for (int i = 0; i < heightsSize; i++) {
+        m = MAX(m, heights[i]);
+    }
+    int *cnt = (int *)malloc(sizeof(int) * (m + 1));
+    memset(cnt, 0, sizeof(int) * (m + 1));
+    for (int i = 0; i < heightsSize; i++) {
+        ++cnt[heights[i]];
+    }
+    int idx = 0, ans = 0;
+    for (int i = 1; i <= m; ++i) {
+        for (int j = 1; j <= cnt[i]; ++j) {
+            if (heights[idx] != i) {
+                ++ans;
+            }
+            ++idx;
+        }
+    }
+    free(cnt);
+    return ans;
+}

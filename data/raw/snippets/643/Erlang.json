@@ -1,1 +1,0 @@
-"-spec find_max_average(Nums :: [integer()], K :: integer()) -> float().\nfind_max_average(Nums, K) ->\n  ."

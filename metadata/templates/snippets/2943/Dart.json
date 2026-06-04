@@ -1,0 +1,1 @@
+"class Solution {\n  int maximizeSquareHoleArea(int n, int m, List<int> hBars, List<int> vBars) {\n    \n  }\n}"

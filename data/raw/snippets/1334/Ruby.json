@@ -1,1 +1,0 @@
-"# @param {Integer} n\n# @param {Integer[][]} edges\n# @param {Integer} distance_threshold\n# @return {Integer}\ndef find_the_city(n, edges, distance_threshold)\n    \nend"

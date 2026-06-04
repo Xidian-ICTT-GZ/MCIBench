@@ -1,0 +1,1 @@
+"(define/contract (min-absolute-difference nums x)\n  (-> (listof exact-integer?) exact-integer? exact-integer?)\n  )"

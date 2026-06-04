@@ -1,1 +1,0 @@
-"(define/contract (add-minimum word)\n  (-> string? exact-integer?)\n  )"

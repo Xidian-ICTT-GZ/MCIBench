@@ -1,1 +1,0 @@
-"class Solution {\n    func reachableNodes(_ n: Int, _ edges: [[Int]], _ restricted: [Int]) -> Int {\n        \n    }\n}"

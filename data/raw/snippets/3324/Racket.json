@@ -1,1 +1,0 @@
-"(define/contract (string-sequence target)\n  (-> string? (listof string?))\n  )"

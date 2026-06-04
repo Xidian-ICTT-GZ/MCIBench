@@ -1,1 +1,0 @@
-"class Solution(object):\n    def winnerOfGame(self, colors):\n        \"\"\"\n        :type colors: str\n        :rtype: bool\n        \"\"\"\n        "

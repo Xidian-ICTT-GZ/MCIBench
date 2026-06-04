@@ -1,1 +1,0 @@
-"class Solution(object):\n    def findMaximumNumber(self, k, x):\n        \"\"\"\n        :type k: int\n        :type x: int\n        :rtype: int\n        \"\"\"\n        "

@@ -1,0 +1,1 @@
+"class Solution:\n    def leastBricks(self, wall: List[List[int]]) -> int:\n        "

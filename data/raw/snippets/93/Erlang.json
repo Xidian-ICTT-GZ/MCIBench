@@ -1,1 +1,0 @@
-"-spec restore_ip_addresses(S :: unicode:unicode_binary()) -> [unicode:unicode_binary()].\nrestore_ip_addresses(S) ->\n  ."

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec k_concatenation_max_sum(arr :: [integer], k :: integer) :: integer\n  def k_concatenation_max_sum(arr, k) do\n    \n  end\nend"

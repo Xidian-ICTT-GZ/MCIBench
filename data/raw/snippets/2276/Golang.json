@@ -1,1 +1,0 @@
-"type CountIntervals struct {\n    \n}\n\n\nfunc Constructor() CountIntervals {\n    \n}\n\n\nfunc (this *CountIntervals) Add(left int, right int)  {\n    \n}\n\n\nfunc (this *CountIntervals) Count() int {\n    \n}\n\n\n/**\n * Your CountIntervals object will be instantiated and called as such:\n * obj := Constructor();\n * obj.Add(left,right);\n * param_2 := obj.Count();\n */"

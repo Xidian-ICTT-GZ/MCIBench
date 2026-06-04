@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer $start\n     * @param Integer $finish\n     * @param Integer $limit\n     * @param String $s\n     * @return Integer\n     */\n    function numberOfPowerfulInt($start, $finish, $limit, $s) {\n        \n    }\n}"

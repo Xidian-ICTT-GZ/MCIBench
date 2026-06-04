@@ -1,0 +1,1 @@
+"-spec subarray_gcd(Nums :: [integer()], K :: integer()) -> integer().\nsubarray_gcd(Nums, K) ->\n  ."

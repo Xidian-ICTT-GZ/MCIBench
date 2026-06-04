@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $stoneValue\n     * @return Integer\n     */\n    function stoneGameV($stoneValue) {\n        \n    }\n}"

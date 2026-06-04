@@ -1,0 +1,1 @@
+"-spec num_music_playlists(N :: integer(), Goal :: integer(), K :: integer()) -> integer().\nnum_music_playlists(N, Goal, K) ->\n  ."

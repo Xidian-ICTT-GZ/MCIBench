@@ -1,0 +1,1 @@
+"/**\n * @param {number} n\n * @return {number}\n */\nvar bitwiseComplement = function(n) {\n    \n};"

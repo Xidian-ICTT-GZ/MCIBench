@@ -1,1 +1,0 @@
-"# @param {Integer[][]} grid\n# @return {Integer}\ndef num_magic_squares_inside(grid)\n    \nend"

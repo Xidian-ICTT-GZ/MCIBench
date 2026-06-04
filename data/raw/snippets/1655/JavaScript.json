@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} nums\n * @param {number[]} quantity\n * @return {boolean}\n */\nvar canDistribute = function(nums, quantity) {\n    \n};"

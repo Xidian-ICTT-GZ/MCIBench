@@ -1,0 +1,20 @@
+var Spreadsheet = function(rows) {
+    this.cellValues = {};
+};
+
+Spreadsheet.prototype.setCell = function(cell, value) {
+    this.cellValues[cell] = value;
+};
+
+Spreadsheet.prototype.resetCell = function(cell) {
+    delete this.cellValues[cell];
+};
+
+Spreadsheet.prototype.getValue = function(formula) {
+    const i = formula.indexOf('+');
+    const cell1 = formula.substring(1, i);
+    const cell2 = formula.substring(i + 1);
+    const val1 = /[a-z]/i.test(cell1[0]) ? (this.cellValues[cell1] || 0) : parseInt(cell1);
+    const val2 = /[a-z]/i.test(cell2[0]) ? (this.cellValues[cell2] || 0) : parseInt(cell2);
+    return val1 + val2;
+};

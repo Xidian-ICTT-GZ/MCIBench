@@ -1,0 +1,28 @@
+public class Solution {
+    private IList<int> sum = new List<int>();
+
+    public int MaxLevelSum(TreeNode root) {
+        DFS(root, 0);
+        int ans = 0;
+        for (int i = 0; i < sum.Count; ++i) {
+            if (sum[i] > sum[ans]) {
+                ans = i;
+            }
+        }
+        return ans + 1; 
+    }
+
+    private void DFS(TreeNode node, int level) {
+        if (level == sum.Count) {
+            sum.Add(node.val);
+        } else {
+            sum[level] += node.val;
+        }
+        if (node.left != null) {
+            DFS(node.left, level + 1);
+        }
+        if (node.right != null) {
+            DFS(node.right, level + 1);
+        }
+    }
+}

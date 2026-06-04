@@ -1,1 +1,0 @@
-"(define/contract (longest-dup-substring s)\n  (-> string? string?)\n  )"

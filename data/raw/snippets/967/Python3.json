@@ -1,1 +1,0 @@
-"class Solution:\n    def numsSameConsecDiff(self, n: int, k: int) -> List[int]:\n        "

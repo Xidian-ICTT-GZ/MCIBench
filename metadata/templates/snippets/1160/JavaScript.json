@@ -1,0 +1,1 @@
+"/**\n * @param {string[]} words\n * @param {string} chars\n * @return {number}\n */\nvar countCharacters = function(words, chars) {\n    \n};"

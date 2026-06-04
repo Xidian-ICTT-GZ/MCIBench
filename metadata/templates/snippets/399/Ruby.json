@@ -1,0 +1,1 @@
+"# @param {String[][]} equations\n# @param {Float[]} values\n# @param {String[][]} queries\n# @return {Float[]}\ndef calc_equation(equations, values, queries)\n    \nend"

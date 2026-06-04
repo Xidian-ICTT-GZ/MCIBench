@@ -1,0 +1,21 @@
+func sum(arr []int) int64 {
+    ans := int64(0)
+    for _, a := range arr {
+        ans += int64(a)
+    }
+    return ans
+}
+
+func minCost(nums []int, x int) int64 {
+    n := len(nums)
+    f := make([]int, n)
+    copy(f, nums)
+    ans := sum(f)
+    for k := 1; k < n; k++ {
+        for i := 0; i < n; i++ {
+            f[i] = min(f[i], nums[(i + k) % n])
+        }
+        ans = min(ans, int64(k) * int64(x) + sum(f))
+    }
+    return ans
+}

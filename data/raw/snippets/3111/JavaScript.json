@@ -1,1 +1,0 @@
-"/**\n * @param {number[][]} points\n * @param {number} w\n * @return {number}\n */\nvar minRectanglesToCoverPoints = function(points, w) {\n    \n};"

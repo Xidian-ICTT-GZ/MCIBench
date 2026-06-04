@@ -1,1 +1,0 @@
-"class Solution:\n    def minimumValueSum(self, nums: List[int], andValues: List[int]) -> int:\n        "

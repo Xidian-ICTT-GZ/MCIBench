@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    long long minDamage(int power, vector<int>& damage, vector<int>& health) {\n        \n    }\n};"

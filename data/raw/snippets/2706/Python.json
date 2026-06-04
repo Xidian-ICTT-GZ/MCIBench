@@ -1,1 +1,0 @@
-"class Solution(object):\n    def buyChoco(self, prices, money):\n        \"\"\"\n        :type prices: List[int]\n        :type money: int\n        :rtype: int\n        \"\"\"\n        "

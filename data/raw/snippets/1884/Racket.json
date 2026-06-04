@@ -1,1 +1,0 @@
-"(define/contract (two-egg-drop n)\n  (-> exact-integer? exact-integer?)\n  )"

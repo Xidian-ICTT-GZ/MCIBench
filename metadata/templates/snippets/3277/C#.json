@@ -1,0 +1,1 @@
+"public class Solution {\n    public int[] MaximumSubarrayXor(int[] nums, int[][] queries) {\n        \n    }\n}"

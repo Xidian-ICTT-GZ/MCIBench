@@ -1,0 +1,42 @@
+public class Solution {
+    public int MinimumDistance(int[][] points) {
+        int n = points.Length;
+        IList<int[]> sx = new List<int[]>();
+        IList<int[]> sy = new List<int[]>();
+        for (int i = 0; i < n; i++) {
+            int x = points[i][0], y = points[i][1];
+            sx.Add(new int[]{x - y, i});
+            sy.Add(new int[]{x + y, i});
+        }
+        ((List<int[]>) sx).Sort((a, b) => a[0] - b[0]);
+        ((List<int[]>) sy).Sort((a, b) => a[0] - b[0]);
+        int maxVal1 = sx[sx.Count - 1][0] - sx[0][0];
+        int maxVal2 = sy[sy.Count - 1][0] - sy[0][0];
+        int res = int.MaxValue;
+        if (maxVal1 >= maxVal2) {
+            int i = sx[0][1], j = sx[sx.Count - 1][1];
+            
+            res = Math.Min(res, Math.Max(remove(sx, i), remove(sy, i)));
+            
+            res = Math.Min(res, Math.Max(remove(sx, j), remove(sy, j)));
+        } else {
+            int i = sy[0][1], j = sy[sy.Count - 1][1];
+            
+            res = Math.Min(res, Math.Max(remove(sx, i), remove(sy, i)));
+            
+            res = Math.Min(res, Math.Max(remove(sx, j), remove(sy, j)));
+        }
+        return res;
+    }
+
+    public int remove(IList<int[]> arr, int i) {
+        int n = arr.Count;
+        if (arr[0][1] == i) {
+            return arr[n - 1][0] - arr[1][0];
+        } else if (arr[n - 1][1] == i) {
+            return arr[n - 2][0] - arr[0][0];
+        } else {
+            return arr[n - 1][0] - arr[0][0];
+        }
+    }
+}

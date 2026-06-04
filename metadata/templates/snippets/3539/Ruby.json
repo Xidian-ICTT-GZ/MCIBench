@@ -1,0 +1,1 @@
+"# @param {Integer} m\n# @param {Integer} k\n# @param {Integer[]} nums\n# @return {Integer}\ndef magical_sum(m, k, nums)\n    \nend"

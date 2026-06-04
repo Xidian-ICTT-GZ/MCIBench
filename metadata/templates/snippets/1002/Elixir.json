@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec common_chars(words :: [String.t]) :: [String.t]\n  def common_chars(words) do\n    \n  end\nend"

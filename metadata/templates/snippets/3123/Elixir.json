@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec find_answer(n :: integer, edges :: [[integer]]) :: [boolean]\n  def find_answer(n, edges) do\n    \n  end\nend"

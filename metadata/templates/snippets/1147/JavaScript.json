@@ -1,0 +1,1 @@
+"/**\n * @param {string} text\n * @return {number}\n */\nvar longestDecomposition = function(text) {\n    \n};"

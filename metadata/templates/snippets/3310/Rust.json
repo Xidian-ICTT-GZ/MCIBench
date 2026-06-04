@@ -1,0 +1,1 @@
+"impl Solution {\n    pub fn remaining_methods(n: i32, k: i32, invocations: Vec<Vec<i32>>) -> Vec<i32> {\n        \n    }\n}"

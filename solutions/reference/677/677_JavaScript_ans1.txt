@@ -1,0 +1,18 @@
+var MapSum = function() {
+    this.map = new Map();
+
+};
+
+MapSum.prototype.insert = function(key, val) {
+    this.map.set(key, val);
+};
+
+MapSum.prototype.sum = function(prefix) {
+    let res = 0;
+    for (const s of this.map.keys()) {
+        if (s.startsWith(prefix)) {
+            res += this.map.get(s);
+        }
+    }
+    return res;
+};

@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec eaten_apples(apples :: [integer], days :: [integer]) :: integer\n  def eaten_apples(apples, days) do\n    \n  end\nend"

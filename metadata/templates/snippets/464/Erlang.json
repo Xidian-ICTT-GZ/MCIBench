@@ -1,0 +1,1 @@
+"-spec can_i_win(MaxChoosableInteger :: integer(), DesiredTotal :: integer()) -> boolean().\ncan_i_win(MaxChoosableInteger, DesiredTotal) ->\n  ."

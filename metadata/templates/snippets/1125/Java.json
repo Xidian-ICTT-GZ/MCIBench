@@ -1,0 +1,1 @@
+"class Solution {\n    public int[] smallestSufficientTeam(String[] req_skills, List<List<String>> people) {\n        \n    }\n}"

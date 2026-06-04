@@ -1,1 +1,0 @@
-"/**\n * Definition for Employee.\n * type Employee struct {\n *     Id int\n *     Importance int\n *     Subordinates []int\n * }\n */\n\nfunc getImportance(employees []*Employee, id int) int {\n    \n}"

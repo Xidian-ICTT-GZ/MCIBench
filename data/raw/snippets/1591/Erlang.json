@@ -1,1 +1,0 @@
-"-spec is_printable(TargetGrid :: [[integer()]]) -> boolean().\nis_printable(TargetGrid) ->\n  ."

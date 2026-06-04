@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec num_submatrix_sum_target(matrix :: [[integer]], target :: integer) :: integer\n  def num_submatrix_sum_target(matrix, target) do\n    \n  end\nend"

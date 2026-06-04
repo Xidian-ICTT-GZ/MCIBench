@@ -1,0 +1,1 @@
+"-spec is_same_after_reversals(Num :: integer()) -> boolean().\nis_same_after_reversals(Num) ->\n  ."

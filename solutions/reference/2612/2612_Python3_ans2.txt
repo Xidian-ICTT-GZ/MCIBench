@@ -1,0 +1,35 @@
+class Solution:
+    def minReverseOperations(self, n: int, p: int, banned: List[int], k: int) -> List[int]:
+        fa = [[i for i in range(n + 2)] for _ in range(2)]
+        for ban in banned:
+            self.merge(fa[ban % 2], ban, ban + 2)
+        ans = [-1] * n
+        q = deque()
+        q.append(p)
+        ans[p] = 0
+        self.merge(fa[p % 2], p, p + 2)
+        while q:
+            i = q.popleft()
+            mn = max(i - k + 1, k - i - 1)
+            mx = min(i + k - 1, n * 2 - k - i - 1)
+            j = mn
+            while j <= mx:
+                fi = self.find(fa[mn % 2], j)
+                if fi > mx:
+                    break
+                ans[fi] = ans[i] + 1
+                q.append(fi)
+                self.merge(fa[mn % 2], fi, fi + 2)
+                j = fi + 2
+        return ans
+
+    def find(self, f, x):
+        if f[x] == x:
+            return x
+        f[x] = self.find(f, f[x])
+        return f[x]
+
+    def merge(self, f, x, y):
+        fx = self.find(f, x)
+        fy = self.find(f, y)
+        f[fx] = fy

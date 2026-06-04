@@ -1,1 +1,0 @@
-"-spec check_possibility(Nums :: [integer()]) -> boolean().\ncheck_possibility(Nums) ->\n  ."

@@ -1,0 +1,1 @@
+"class Solution {\n    func minInterval(_ intervals: [[Int]], _ queries: [Int]) -> [Int] {\n        \n    }\n}"

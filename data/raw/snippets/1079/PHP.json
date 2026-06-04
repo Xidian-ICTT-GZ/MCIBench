@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String $tiles\n     * @return Integer\n     */\n    function numTilePossibilities($tiles) {\n        \n    }\n}"

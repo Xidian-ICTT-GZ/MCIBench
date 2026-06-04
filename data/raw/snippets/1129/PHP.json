@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer $n\n     * @param Integer[][] $redEdges\n     * @param Integer[][] $blueEdges\n     * @return Integer[]\n     */\n    function shortestAlternatingPaths($n, $redEdges, $blueEdges) {\n        \n    }\n}"

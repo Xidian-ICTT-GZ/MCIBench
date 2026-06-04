@@ -1,4 +1,0 @@
-var sortTheStudents = function(score, k) {
-    score.sort((u, v) => v[k] - u[k]);
-    return score;
-};

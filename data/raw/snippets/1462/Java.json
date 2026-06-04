@@ -1,1 +1,0 @@
-"class Solution {\n    public List<Boolean> checkIfPrerequisite(int numCourses, int[][] prerequisites, int[][] queries) {\n        \n    }\n}"

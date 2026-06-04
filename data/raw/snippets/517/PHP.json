@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $machines\n     * @return Integer\n     */\n    function findMinMoves($machines) {\n        \n    }\n}"

@@ -1,1 +1,0 @@
-"class Solution(object):\n    def minimumSize(self, nums, maxOperations):\n        \"\"\"\n        :type nums: List[int]\n        :type maxOperations: int\n        :rtype: int\n        \"\"\"\n        "

@@ -1,0 +1,22 @@
+class Solution {
+public:
+    int minimumLines(vector<vector<int>>& stockPrices) {
+        sort(stockPrices.begin(), stockPrices.end());
+        int n = stockPrices.size();
+        if (n <= 2) {
+            return n - 1;
+        }
+        int res = 1;
+        for (int i = 2; i < n; ++i) {
+            
+            long long dx0 = stockPrices[i-1][0] - stockPrices[i-2][0];
+            long long dy0 = stockPrices[i-1][1] - stockPrices[i-2][1];
+            long long dx1 = stockPrices[i][0] - stockPrices[i-1][0];
+            long long dy1 = stockPrices[i][1] - stockPrices[i-1][1];
+            if (dx0 * dy1 != dy0 * dx1) {
+                ++res;
+            }
+        }
+        return res;
+    }
+};

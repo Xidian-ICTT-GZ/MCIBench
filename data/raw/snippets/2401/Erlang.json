@@ -1,1 +1,0 @@
-"-spec longest_nice_subarray(Nums :: [integer()]) -> integer().\nlongest_nice_subarray(Nums) ->\n  ."

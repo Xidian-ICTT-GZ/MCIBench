@@ -1,1 +1,0 @@
-"-spec crack_safe(N :: integer(), K :: integer()) -> unicode:unicode_binary().\ncrack_safe(N, K) ->\n  ."

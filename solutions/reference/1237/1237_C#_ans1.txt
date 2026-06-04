@@ -1,0 +1,13 @@
+public class Solution {
+    public IList<IList<int>> FindSolution(CustomFunction customfunction, int z) {
+        IList<IList<int>> res = new List<IList<int>>();
+        for (int x = 1; x <= 1000; x++) {
+            for (int y = 1; y <= 1000; y++) {
+                if (customfunction.f(x, y) == z) {
+                    res.Add(new List<int> {x, y});
+                }
+            }
+        }
+        return res;
+    }
+}

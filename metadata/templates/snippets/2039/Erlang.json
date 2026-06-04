@@ -1,0 +1,1 @@
+"-spec network_becomes_idle(Edges :: [[integer()]], Patience :: [integer()]) -> integer().\nnetwork_becomes_idle(Edges, Patience) ->\n  ."

@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    int findPoisonedDuration(vector<int>& timeSeries, int duration) {\n        \n    }\n};"

@@ -1,0 +1,65 @@
+class Solution {
+public:
+    int kSimilarity(string s1, string s2) {
+        string str1, str2;
+        for (int i = 0; i < s1.size(); i++) {
+            if (s1[i] != s2[i]) {
+                str1.push_back(s1[i]);
+                str2.push_back(s2[i]);
+            }
+        }
+        int n = str1.size();
+        if (n == 0) {
+            return 0;
+        }
+        vector<int> smallCycles;
+        vector<int> largeCycles;
+        for (int i = 1; i < (1 << n); i++) {
+            vector<int> cnt(6);
+            for (int j = 0; j < n; j++) {
+                if (i & (1 << j)) {
+                    cnt[str1[j] - 'a']++;
+                    cnt[str2[j] - 'a']--;
+                }
+            }
+            bool isCycle = true;
+            for (int j = 0; j < 6; j++) {
+                if (cnt[j] != 0) {
+                    isCycle = false;
+                    break;
+                }
+            }
+            if (isCycle) {
+                int size = __builtin_popcount(i);
+                if (size <= 6) {
+                    smallCycles.emplace_back(i);
+                } else {
+                    largeCycles.emplace_back(i);
+                }
+            }
+        }
+        auto cmp = [](const int &a, const int &b)->bool {
+            return __builtin_popcount(a) < __builtin_popcount(b);
+        };
+        sort(smallCycles.begin(), smallCycles.end(), cmp);
+        sort(largeCycles.begin(), largeCycles.end(), cmp);
+        vector<int> dp(1 << n, 1);
+        dp[0] = 0;
+        for (int i = 0; i < smallCycles.size(); i++) {
+            for (int j = 0; j < i; j++) {
+                int x = smallCycles[i], y = smallCycles[j];
+                if ((x & y) == y) {
+                    dp[x] = max(dp[x], dp[y] + dp[x ^ y]);
+                }
+            }
+        }
+        for (auto &x : largeCycles) {
+            for (auto &y : smallCycles) {
+                if ((x & y) == y) {
+                    dp[x] = max(dp[x], dp[y] + dp[x ^ y]);
+                }
+            }
+        }
+        return n - dp[(1 << n) - 1];
+    }
+};

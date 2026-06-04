@@ -1,0 +1,1 @@
+"-spec sort_string(S :: unicode:unicode_binary()) -> unicode:unicode_binary().\nsort_string(S) ->\n  ."

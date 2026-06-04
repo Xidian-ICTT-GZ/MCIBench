@@ -1,1 +1,0 @@
-"class Solution:\n    def getDescentPeriods(self, prices: List[int]) -> int:\n        "

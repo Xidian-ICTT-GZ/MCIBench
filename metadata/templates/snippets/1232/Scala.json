@@ -1,0 +1,1 @@
+"object Solution {\n    def checkStraightLine(coordinates: Array[Array[Int]]): Boolean = {\n        \n    }\n}"

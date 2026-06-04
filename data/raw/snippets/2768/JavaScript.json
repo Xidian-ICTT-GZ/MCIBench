@@ -1,1 +1,0 @@
-"/**\n * @param {number} m\n * @param {number} n\n * @param {number[][]} coordinates\n * @return {number[]}\n */\nvar countBlackBlocks = function(m, n, coordinates) {\n    \n};"

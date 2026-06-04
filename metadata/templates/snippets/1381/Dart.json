@@ -1,0 +1,1 @@
+"class CustomStack {\n\n  CustomStack(int maxSize) {\n    \n  }\n  \n  void push(int x) {\n    \n  }\n  \n  int pop() {\n    \n  }\n  \n  void increment(int k, int val) {\n    \n  }\n}\n\n/**\n * Your CustomStack object will be instantiated and called as such:\n * CustomStack obj = CustomStack(maxSize);\n * obj.push(x);\n * int param2 = obj.pop();\n * obj.increment(k,val);\n */"

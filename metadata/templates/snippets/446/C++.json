@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int numberOfArithmeticSlices(vector<int>& nums) {\n        \n    }\n};"

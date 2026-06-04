@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec construct_grid_layout(n :: integer, edges :: [[integer]]) :: [[integer]]\n  def construct_grid_layout(n, edges) do\n    \n  end\nend"

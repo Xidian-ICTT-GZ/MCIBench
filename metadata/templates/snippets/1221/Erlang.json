@@ -1,0 +1,1 @@
+"-spec balanced_string_split(S :: unicode:unicode_binary()) -> integer().\nbalanced_string_split(S) ->\n  ."

@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} nums\n * @param {number} k\n * @return {boolean}\n */\nvar isPossibleDivide = function(nums, k) {\n    \n};"

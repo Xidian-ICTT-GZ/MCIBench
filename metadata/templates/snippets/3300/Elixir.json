@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec min_element(nums :: [integer]) :: integer\n  def min_element(nums) do\n    \n  end\nend"

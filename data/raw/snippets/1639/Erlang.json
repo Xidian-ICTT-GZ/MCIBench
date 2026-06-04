@@ -1,1 +1,0 @@
-"-spec num_ways(Words :: [unicode:unicode_binary()], Target :: unicode:unicode_binary()) -> integer().\nnum_ways(Words, Target) ->\n  ."

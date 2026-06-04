@@ -1,1 +1,0 @@
-"(define/contract (garbage-collection garbage travel)\n  (-> (listof string?) (listof exact-integer?) exact-integer?)\n  )"

@@ -1,1 +1,0 @@
-"class Solution(object):\n    def maxSumTwoNoOverlap(self, nums, firstLen, secondLen):\n        \"\"\"\n        :type nums: List[int]\n        :type firstLen: int\n        :type secondLen: int\n        :rtype: int\n        \"\"\"\n        "

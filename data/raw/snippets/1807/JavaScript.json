@@ -1,1 +1,0 @@
-"/**\n * @param {string} s\n * @param {string[][]} knowledge\n * @return {string}\n */\nvar evaluate = function(s, knowledge) {\n    \n};"

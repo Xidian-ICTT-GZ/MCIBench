@@ -1,1 +1,0 @@
-"-spec recover_order(Order :: [integer()], Friends :: [integer()]) -> [integer()].\nrecover_order(Order, Friends) ->\n  ."

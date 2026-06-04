@@ -1,0 +1,40 @@
+const MOD = 1e9 + 7;
+
+var numberOfPermutations = function(n, requirements) {
+    const reqMap = {0: 0};
+    let maxCnt = 0;
+    requirements.forEach(([end, cnt]) => {
+        reqMap[end] = cnt;
+        maxCnt = Math.max(maxCnt, cnt);
+    });
+    if (reqMap[0] !== 0) {
+        return 0;
+    }
+    const dp = Array.from({ length: n }, () => Array(maxCnt + 1).fill(-1));
+
+    function dfs(end, cnt) {
+        if (end === 0) {
+            return 1;
+        }
+        if (dp[end][cnt] !== -1) {
+            return dp[end][cnt];
+        }
+        if (reqMap.hasOwnProperty(end - 1)) {
+            const r = reqMap[end - 1];
+            if (r <= cnt && cnt <= end + r) {
+                dp[end][cnt] = dfs(end - 1, r);
+                return dp[end][cnt];
+            }
+            return 0;
+        }
+
+        let totSum = 0;
+        for (let i = 0; i <= Math.min(end, cnt); i++) {
+            totSum = (totSum + dfs(end - 1, cnt - i)) % MOD;
+        }
+        dp[end][cnt] = totSum;
+        return dp[end][cnt];
+    }
+
+    return dfs(n - 1, reqMap[n - 1]);
+};

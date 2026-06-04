@@ -1,0 +1,1 @@
+"/**\n * Definition for a Node.\n * type Node struct {\n *     Val int\n *     Next *Node\n *     Random *Node\n * }\n */\n\nfunc copyRandomList(head *Node) *Node {\n    \n}"

@@ -1,0 +1,1 @@
+"# @param {String[]} words\n# @return {String[]}\ndef common_chars(words)\n    \nend"

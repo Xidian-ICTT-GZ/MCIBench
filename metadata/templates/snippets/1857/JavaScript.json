@@ -1,0 +1,1 @@
+"/**\n * @param {string} colors\n * @param {number[][]} edges\n * @return {number}\n */\nvar largestPathValue = function(colors, edges) {\n    \n};"

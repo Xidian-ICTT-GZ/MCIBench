@@ -1,1 +1,0 @@
-"class Solution(object):\n    def maximumUnits(self, boxTypes, truckSize):\n        \"\"\"\n        :type boxTypes: List[List[int]]\n        :type truckSize: int\n        :rtype: int\n        \"\"\"\n        "

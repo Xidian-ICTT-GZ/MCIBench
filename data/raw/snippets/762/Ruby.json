@@ -1,1 +1,0 @@
-"# @param {Integer} left\n# @param {Integer} right\n# @return {Integer}\ndef count_prime_set_bits(left, right)\n    \nend"

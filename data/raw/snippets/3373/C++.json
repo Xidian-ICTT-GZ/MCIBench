@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    vector<int> maxTargetNodes(vector<vector<int>>& edges1, vector<vector<int>>& edges2) {\n        \n    }\n};"

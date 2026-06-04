@@ -1,1 +1,0 @@
-"-spec is_monotonic(Nums :: [integer()]) -> boolean().\nis_monotonic(Nums) ->\n  ."

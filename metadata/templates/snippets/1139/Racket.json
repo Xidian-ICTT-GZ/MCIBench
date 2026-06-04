@@ -1,0 +1,1 @@
+"(define/contract (largest1-bordered-square grid)\n  (-> (listof (listof exact-integer?)) exact-integer?)\n  )"

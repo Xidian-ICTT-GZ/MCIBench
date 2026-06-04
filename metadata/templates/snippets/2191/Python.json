@@ -1,0 +1,1 @@
+"class Solution(object):\n    def sortJumbled(self, mapping, nums):\n        \"\"\"\n        :type mapping: List[int]\n        :type nums: List[int]\n        :rtype: List[int]\n        \"\"\"\n        "

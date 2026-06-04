@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec asteroid_collision(asteroids :: [integer]) :: [integer]\n  def asteroid_collision(asteroids) do\n    \n  end\nend"

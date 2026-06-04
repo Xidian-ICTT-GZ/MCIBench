@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int magicalSum(int m, int k, vector<int>& nums) {\n        \n    }\n};"

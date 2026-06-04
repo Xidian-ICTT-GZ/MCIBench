@@ -1,1 +1,0 @@
-"-spec string_indices(WordsContainer :: [unicode:unicode_binary()], WordsQuery :: [unicode:unicode_binary()]) -> [integer()].\nstring_indices(WordsContainer, WordsQuery) ->\n  ."

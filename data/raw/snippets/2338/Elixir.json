@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec ideal_arrays(n :: integer, max_value :: integer) :: integer\n  def ideal_arrays(n, max_value) do\n    \n  end\nend"

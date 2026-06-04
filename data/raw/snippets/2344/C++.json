@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    int minOperations(vector<int>& nums, vector<int>& numsDivide) {\n        \n    }\n};"

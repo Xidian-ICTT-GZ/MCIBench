@@ -1,0 +1,1 @@
+"public class Solution {\n    public IList<int> FindWordsContaining(string[] words, char x) {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"object Solution {\n    def mostFrequentIDs(nums: Array[Int], freq: Array[Int]): Array[Long] = {\n        \n    }\n}"

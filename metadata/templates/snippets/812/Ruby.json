@@ -1,0 +1,1 @@
+"# @param {Integer[][]} points\n# @return {Float}\ndef largest_triangle_area(points)\n    \nend"

@@ -1,1 +1,0 @@
-"%% Definition for singly-linked list.\n%%\n%% -record(list_node, {val = 0 :: integer(),\n%%                     next = null :: 'null' | #list_node{}}).\n\n-spec insert_greatest_common_divisors(Head :: #list_node{} | null) -> #list_node{} | null.\ninsert_greatest_common_divisors(Head) ->\n  ."

@@ -1,1 +1,0 @@
-"# @param {Integer} total\n# @param {Integer} cost1\n# @param {Integer} cost2\n# @return {Integer}\ndef ways_to_buy_pens_pencils(total, cost1, cost2)\n    \nend"

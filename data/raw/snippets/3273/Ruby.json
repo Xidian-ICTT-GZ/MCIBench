@@ -1,1 +1,0 @@
-"# @param {Integer} power\n# @param {Integer[]} damage\n# @param {Integer[]} health\n# @return {Integer}\ndef min_damage(power, damage, health)\n    \nend"

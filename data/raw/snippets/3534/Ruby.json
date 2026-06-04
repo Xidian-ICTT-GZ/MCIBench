@@ -1,1 +1,0 @@
-"# @param {Integer} n\n# @param {Integer[]} nums\n# @param {Integer} max_diff\n# @param {Integer[][]} queries\n# @return {Integer[]}\ndef path_existence_queries(n, nums, max_diff, queries)\n    \nend"

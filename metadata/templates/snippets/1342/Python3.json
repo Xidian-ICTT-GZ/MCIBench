@@ -1,0 +1,1 @@
+"class Solution:\n    def numberOfSteps(self, num: int) -> int:\n        "

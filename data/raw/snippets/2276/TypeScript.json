@@ -1,1 +1,0 @@
-"class CountIntervals {\n    constructor() {\n        \n    }\n\n    add(left: number, right: number): void {\n        \n    }\n\n    count(): number {\n        \n    }\n}\n\n/**\n * Your CountIntervals object will be instantiated and called as such:\n * var obj = new CountIntervals()\n * obj.add(left,right)\n * var param_2 = obj.count()\n */"

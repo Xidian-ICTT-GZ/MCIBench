@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} nums\n * @param {number} target\n * @return {number[]}\n */\nvar targetIndices = function(nums, target) {\n    \n};"

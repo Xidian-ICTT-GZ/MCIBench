@@ -1,0 +1,1 @@
+"class Solution:\n    def maxTaskAssign(self, tasks: List[int], workers: List[int], pills: int, strength: int) -> int:\n        "

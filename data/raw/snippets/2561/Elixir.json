@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec min_cost(basket1 :: [integer], basket2 :: [integer]) :: integer\n  def min_cost(basket1, basket2) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"-spec max_difference(S :: unicode:unicode_binary()) -> integer().\nmax_difference(S) ->\n  ."

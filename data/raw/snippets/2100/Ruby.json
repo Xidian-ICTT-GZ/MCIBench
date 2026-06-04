@@ -1,1 +1,0 @@
-"# @param {Integer[]} security\n# @param {Integer} time\n# @return {Integer[]}\ndef good_days_to_rob_bank(security, time)\n    \nend"

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec repeated_character(s :: String.t) :: char\n  def repeated_character(s) do\n    \n  end\nend"

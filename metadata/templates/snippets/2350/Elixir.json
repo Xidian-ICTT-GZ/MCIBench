@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec shortest_sequence(rolls :: [integer], k :: integer) :: integer\n  def shortest_sequence(rolls, k) do\n    \n  end\nend"

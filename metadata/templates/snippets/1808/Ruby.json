@@ -1,0 +1,1 @@
+"# @param {Integer} prime_factors\n# @return {Integer}\ndef max_nice_divisors(prime_factors)\n    \nend"

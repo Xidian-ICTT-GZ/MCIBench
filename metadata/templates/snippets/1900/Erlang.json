@@ -1,0 +1,1 @@
+"-spec earliest_and_latest(N :: integer(), FirstPlayer :: integer(), SecondPlayer :: integer()) -> [integer()].\nearliest_and_latest(N, FirstPlayer, SecondPlayer) ->\n  ."

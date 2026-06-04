@@ -1,1 +1,0 @@
-"%% Definition for a binary tree node.\n%%\n%% -record(tree_node, {val = 0 :: integer(),\n%%                     left = null  :: 'null' | #tree_node{},\n%%                     right = null :: 'null' | #tree_node{}}).\n\n-spec smallest_from_leaf(Root :: #tree_node{} | null) -> unicode:unicode_binary().\nsmallest_from_leaf(Root) ->\n  ."

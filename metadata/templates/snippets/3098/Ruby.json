@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @param {Integer} k\n# @return {Integer}\ndef sum_of_powers(nums, k)\n    \nend"

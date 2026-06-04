@@ -1,0 +1,1 @@
+"impl Solution {\n    pub fn get_collision_times(cars: Vec<Vec<i32>>) -> Vec<f64> {\n        \n    }\n}"

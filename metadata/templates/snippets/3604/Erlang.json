@@ -1,0 +1,1 @@
+"-spec min_time(N :: integer(), Edges :: [[integer()]]) -> integer().\nmin_time(N, Edges) ->\n  ."

@@ -1,1 +1,0 @@
-"-spec max_freq_sum(S :: unicode:unicode_binary()) -> integer().\nmax_freq_sum(S) ->\n  ."

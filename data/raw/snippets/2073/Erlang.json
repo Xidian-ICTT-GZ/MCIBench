@@ -1,1 +1,0 @@
-"-spec time_required_to_buy(Tickets :: [integer()], K :: integer()) -> integer().\ntime_required_to_buy(Tickets, K) ->\n  ."

@@ -1,1 +1,0 @@
-"-spec split_array(Nums :: [integer()], K :: integer()) -> integer().\nsplit_array(Nums, K) ->\n  ."

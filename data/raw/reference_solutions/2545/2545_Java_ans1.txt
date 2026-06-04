@@ -1,6 +1,0 @@
-class Solution {
-    public int[][] sortTheStudents(int[][] score, int k) {
-        Arrays.sort(score, (u, v) -> v[k] - u[k]);
-        return score;
-    }
-}

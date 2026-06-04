@@ -1,1 +1,0 @@
-"object Solution {\n    def beautifulIndices(s: String, a: String, b: String, k: Int): List[Int] = {\n        \n    }\n}"

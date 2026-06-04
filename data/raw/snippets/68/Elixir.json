@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec full_justify(words :: [String.t], max_width :: integer) :: [String.t]\n  def full_justify(words, max_width) do\n    \n  end\nend"

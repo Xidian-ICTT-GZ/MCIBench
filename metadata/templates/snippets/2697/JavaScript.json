@@ -1,0 +1,1 @@
+"/**\n * @param {string} s\n * @return {string}\n */\nvar makeSmallestPalindrome = function(s) {\n    \n};"

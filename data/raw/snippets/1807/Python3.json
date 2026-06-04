@@ -1,1 +1,0 @@
-"class Solution:\n    def evaluate(self, s: str, knowledge: List[List[str]]) -> str:\n        "

@@ -1,0 +1,1 @@
+"-spec minimum_average(Nums :: [integer()]) -> float().\nminimum_average(Nums) ->\n  ."

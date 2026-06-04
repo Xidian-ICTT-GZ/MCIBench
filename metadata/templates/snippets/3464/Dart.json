@@ -1,0 +1,1 @@
+"class Solution {\n  int maxDistance(int side, List<List<int>> points, int k) {\n    \n  }\n}"

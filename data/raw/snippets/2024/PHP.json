@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String $answerKey\n     * @param Integer $k\n     * @return Integer\n     */\n    function maxConsecutiveAnswers($answerKey, $k) {\n        \n    }\n}"

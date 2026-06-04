@@ -1,1 +1,0 @@
-"-spec separate_squares(Squares :: [[integer()]]) -> float().\nseparate_squares(Squares) ->\n  ."

@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @return {Integer[]}\ndef get_sum_absolute_differences(nums)\n    \nend"

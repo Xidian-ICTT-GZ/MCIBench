@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec min_operations(k :: integer) :: integer\n  def min_operations(k) do\n    \n  end\nend"

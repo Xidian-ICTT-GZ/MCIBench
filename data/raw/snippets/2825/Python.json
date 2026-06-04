@@ -1,1 +1,0 @@
-"class Solution(object):\n    def canMakeSubsequence(self, str1, str2):\n        \"\"\"\n        :type str1: str\n        :type str2: str\n        :rtype: bool\n        \"\"\"\n        "

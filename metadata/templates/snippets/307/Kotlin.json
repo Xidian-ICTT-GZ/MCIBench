@@ -1,0 +1,1 @@
+"class NumArray(nums: IntArray) {\n\n    fun update(index: Int, `val`: Int) {\n        \n    }\n\n    fun sumRange(left: Int, right: Int): Int {\n        \n    }\n\n}\n\n/**\n * Your NumArray object will be instantiated and called as such:\n * var obj = NumArray(nums)\n * obj.update(index,`val`)\n * var param_2 = obj.sumRange(left,right)\n */"

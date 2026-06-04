@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer $memory1\n     * @param Integer $memory2\n     * @return Integer[]\n     */\n    function memLeak($memory1, $memory2) {\n        \n    }\n}"

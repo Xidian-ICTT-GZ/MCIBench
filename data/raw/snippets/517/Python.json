@@ -1,1 +1,0 @@
-"class Solution(object):\n    def findMinMoves(self, machines):\n        \"\"\"\n        :type machines: List[int]\n        :rtype: int\n        \"\"\"\n        "

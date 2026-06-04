@@ -1,1 +1,0 @@
-"class Solution(object):\n    def countSteppingNumbers(self, low, high):\n        \"\"\"\n        :type low: str\n        :type high: str\n        :rtype: int\n        \"\"\"\n        "

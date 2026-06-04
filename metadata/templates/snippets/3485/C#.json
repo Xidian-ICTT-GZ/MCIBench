@@ -1,0 +1,1 @@
+"public class Solution {\n    public int[] LongestCommonPrefix(string[] words, int k) {\n        \n    }\n}"

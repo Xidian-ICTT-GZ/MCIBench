@@ -1,1 +1,0 @@
-"class Solution(object):\n    def minCostToEqualizeArray(self, nums, cost1, cost2):\n        \"\"\"\n        :type nums: List[int]\n        :type cost1: int\n        :type cost2: int\n        :rtype: int\n        \"\"\"\n        "

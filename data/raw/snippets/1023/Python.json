@@ -1,1 +1,0 @@
-"class Solution(object):\n    def camelMatch(self, queries, pattern):\n        \"\"\"\n        :type queries: List[str]\n        :type pattern: str\n        :rtype: List[bool]\n        \"\"\"\n        "

@@ -1,0 +1,1 @@
+"# @param {Integer[]} base_costs\n# @param {Integer[]} topping_costs\n# @param {Integer} target\n# @return {Integer}\ndef closest_cost(base_costs, topping_costs, target)\n    \nend"

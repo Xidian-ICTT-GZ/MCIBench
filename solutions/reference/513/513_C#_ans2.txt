@@ -1,0 +1,18 @@
+public class Solution {
+    public int FindBottomLeftValue(TreeNode root) {
+        int ret = 0;
+        Queue<TreeNode> queue = new Queue<TreeNode>();
+        queue.Enqueue(root);
+        while (queue.Count > 0) {
+            TreeNode p = queue.Dequeue();
+            if (p.right != null) {
+                queue.Enqueue(p.right);
+            }
+            if (p.left != null) {
+                queue.Enqueue(p.left);
+            }
+            ret = p.val;
+        }
+        return ret;
+    }
+}

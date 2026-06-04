@@ -1,1 +1,0 @@
-"impl Solution {\n    pub fn min_area_free_rect(points: Vec<Vec<i32>>) -> f64 {\n        \n    }\n}"

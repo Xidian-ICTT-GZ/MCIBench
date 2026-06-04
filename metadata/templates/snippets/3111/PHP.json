@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $points\n     * @param Integer $w\n     * @return Integer\n     */\n    function minRectanglesToCoverPoints($points, $w) {\n        \n    }\n}"

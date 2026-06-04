@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec maximum_safeness_factor(grid :: [[integer]]) :: integer\n  def maximum_safeness_factor(grid) do\n\n  end\nend"

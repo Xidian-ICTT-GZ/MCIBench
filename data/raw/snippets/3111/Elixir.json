@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec min_rectangles_to_cover_points(points :: [[integer]], w :: integer) :: integer\n  def min_rectangles_to_cover_points(points, w) do\n    \n  end\nend"

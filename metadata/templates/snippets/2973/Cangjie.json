@@ -1,0 +1,1 @@
+"class Solution {\n    func placedCoins(edges: Array<Array<Int64>>, cost: Array<Int64>): Array<Int64> {\n\n    }\n}"

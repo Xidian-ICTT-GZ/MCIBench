@@ -1,1 +1,0 @@
-"class Solution(object):\n    def maxProbability(self, n, edges, succProb, start_node, end_node):\n        \"\"\"\n        :type n: int\n        :type edges: List[List[int]]\n        :type succProb: List[float]\n        :type start_node: int\n        :type end_node: int\n        :rtype: float\n        \"\"\"\n        "

@@ -1,1 +1,0 @@
-"class ExamRoom {\n    init(n: Int64) {\n\n    }\n    \n    func seat(): Int64 {\n\n    }\n    \n    func leave(p: Int64): Unit {\n\n    }\n}\n\n/**\n * Your ExamRoom object will be instantiated and called as such:\n * let obj: ExamRoom = ExamRoom(n)\n * let param_1 = obj.seat()\n * obj.leave(p)\n */"

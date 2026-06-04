@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @param {Integer[][]} edges\n# @param {Integer} threshold\n# @return {Integer}\ndef min_max_weight(n, edges, threshold)\n    \nend"

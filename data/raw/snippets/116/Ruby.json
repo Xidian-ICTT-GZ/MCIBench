@@ -1,1 +1,0 @@
-"# Definition for Node.\n# class Node\n#     attr_accessor :val, :left, :right, :next\n#     def initialize(val)\n#         @val = val\n#         @left, @right, @next = nil, nil, nil\n#     end\n# end\n\n# @param {Node} root\n# @return {Node}\ndef connect(root)\n    \nend"

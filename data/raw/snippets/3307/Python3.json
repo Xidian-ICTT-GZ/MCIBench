@@ -1,1 +1,0 @@
-"class Solution:\n    def kthCharacter(self, k: int, operations: List[int]) -> str:\n        "

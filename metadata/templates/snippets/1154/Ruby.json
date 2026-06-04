@@ -1,0 +1,1 @@
+"# @param {String} date\n# @return {Integer}\ndef day_of_year(date)\n    \nend"

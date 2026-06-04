@@ -1,1 +1,0 @@
-"-spec number_of_alternating_groups(Colors :: [integer()]) -> integer().\nnumber_of_alternating_groups(Colors) ->\n  ."

@@ -1,1 +1,0 @@
-"-spec max_spending(Values :: [[integer()]]) -> integer().\nmax_spending(Values) ->\n  ."

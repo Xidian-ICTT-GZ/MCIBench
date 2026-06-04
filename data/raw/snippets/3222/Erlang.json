@@ -1,1 +1,0 @@
-"-spec winning_player(X :: integer(), Y :: integer()) -> unicode:unicode_binary().\nwinning_player(X, Y) ->\n  ."

@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int minimumFinishTime(vector<vector<int>>& tires, int changeTime, int numLaps) {\n        \n    }\n};"

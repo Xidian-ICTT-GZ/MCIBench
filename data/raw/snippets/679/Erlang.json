@@ -1,1 +1,0 @@
-"-spec judge_point24(Cards :: [integer()]) -> boolean().\njudge_point24(Cards) ->\n  ."

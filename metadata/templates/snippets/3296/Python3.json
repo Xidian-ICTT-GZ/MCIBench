@@ -1,0 +1,1 @@
+"class Solution:\n    def minNumberOfSeconds(self, mountainHeight: int, workerTimes: List[int]) -> int:\n        "

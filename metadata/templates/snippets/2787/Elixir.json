@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec number_of_ways(n :: integer, x :: integer) :: integer\n  def number_of_ways(n, x) do\n    \n  end\nend"

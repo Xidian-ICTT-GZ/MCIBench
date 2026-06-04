@@ -1,1 +1,0 @@
-"# @param {Character[][]} board\n# @param {String} word\n# @return {Boolean}\ndef place_word_in_crossword(board, word)\n    \nend"

@@ -1,0 +1,1 @@
+"object Solution {\n    def updateBoard(board: Array[Array[Char]], click: Array[Int]): Array[Array[Char]] = {\n        \n    }\n}"

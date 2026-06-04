@@ -1,0 +1,24 @@
+int findCircleNum(int** isConnected, int isConnectedSize, int* isConnectedColSize) {
+    int cities = isConnectedSize;
+    int visited[cities];
+    memset(visited, 0, sizeof(visited));
+    int provinces = 0;
+    int que[cities * cities];
+    int left = 0, right = 0;
+    for (int i = 0; i < cities; i++) {
+        if (!visited[i]) {
+            que[right++] = i;
+            while (left < right) {
+                int j = que[left++];
+                visited[j] = true;
+                for (int k = 0; k < cities; k++) {
+                    if (isConnected[j][k] == 1 && !visited[k]) {
+                        que[right++] = k;
+                    }
+                }
+            }
+            provinces++;
+        }
+    }
+    return provinces;
+}

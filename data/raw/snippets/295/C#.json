@@ -1,1 +1,0 @@
-"public class MedianFinder {\n\n    public MedianFinder() {\n        \n    }\n    \n    public void AddNum(int num) {\n        \n    }\n    \n    public double FindMedian() {\n        \n    }\n}\n\n/**\n * Your MedianFinder object will be instantiated and called as such:\n * MedianFinder obj = new MedianFinder();\n * obj.AddNum(num);\n * double param_2 = obj.FindMedian();\n */"

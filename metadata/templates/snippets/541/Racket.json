@@ -1,0 +1,1 @@
+"(define/contract (reverse-str s k)\n  (-> string? exact-integer? string?)\n  )"

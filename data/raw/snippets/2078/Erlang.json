@@ -1,1 +1,0 @@
-"-spec max_distance(Colors :: [integer()]) -> integer().\nmax_distance(Colors) ->\n  ."

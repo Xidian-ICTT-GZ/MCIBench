@@ -1,1 +1,0 @@
-"-spec delete_and_earn(Nums :: [integer()]) -> integer().\ndelete_and_earn(Nums) ->\n  ."

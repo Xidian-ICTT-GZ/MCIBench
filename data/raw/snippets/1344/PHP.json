@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer $hour\n     * @param Integer $minutes\n     * @return Float\n     */\n    function angleClock($hour, $minutes) {\n        \n    }\n}"

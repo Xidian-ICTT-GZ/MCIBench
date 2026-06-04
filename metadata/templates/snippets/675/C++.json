@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int cutOffTree(vector<vector<int>>& forest) {\n        \n    }\n};"

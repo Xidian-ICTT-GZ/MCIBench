@@ -1,1 +1,0 @@
-"object Solution {\n    def largestSumOfAverages(nums: Array[Int], k: Int): Double = {\n        \n    }\n}"

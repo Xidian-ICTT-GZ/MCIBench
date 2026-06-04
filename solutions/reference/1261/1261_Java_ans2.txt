@@ -1,0 +1,32 @@
+class FindElements {
+    private TreeNode root;
+
+    public FindElements(TreeNode root) {
+        dfs(root, 0);
+        this.root = root;
+    }
+    
+    public boolean find(int target) {
+        target++;
+        int k = 30 - Integer.numberOfLeadingZeros(target);
+        TreeNode node = root;
+        while (k >= 0 && node != null) {
+            if ((target & (1 << k)) == 0) {
+                node = node.left;
+            } else {
+                node = node.right;
+            }
+            k--;
+        }
+        return node != null;
+    }
+
+    private void dfs(TreeNode node, int val) {
+        if (node == null) {
+            return;
+        }
+        node.val = val;
+        dfs(node.left, val * 2 + 1);
+        dfs(node.right, val * 2 + 2);
+    }
+}

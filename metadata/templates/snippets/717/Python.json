@@ -1,0 +1,1 @@
+"class Solution(object):\n    def isOneBitCharacter(self, bits):\n        \"\"\"\n        :type bits: List[int]\n        :rtype: bool\n        \"\"\"\n        "

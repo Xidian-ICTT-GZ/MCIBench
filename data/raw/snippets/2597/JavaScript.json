@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} nums\n * @param {number} k\n * @return {number}\n */\nvar beautifulSubsets = function(nums, k) {\n    \n};"

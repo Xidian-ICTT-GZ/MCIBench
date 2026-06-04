@@ -1,0 +1,1 @@
+"-spec array_change(Nums :: [integer()], Operations :: [[integer()]]) -> [integer()].\narray_change(Nums, Operations) ->\n  ."

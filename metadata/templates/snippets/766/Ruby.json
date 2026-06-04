@@ -1,0 +1,1 @@
+"# @param {Integer[][]} matrix\n# @return {Boolean}\ndef is_toeplitz_matrix(matrix)\n    \nend"

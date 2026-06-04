@@ -1,1 +1,0 @@
-"-spec closest_to_target(Arr :: [integer()], Target :: integer()) -> integer().\nclosest_to_target(Arr, Target) ->\n  ."

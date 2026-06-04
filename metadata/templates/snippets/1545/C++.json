@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    char findKthBit(int n, int k) {\n        \n    }\n};"

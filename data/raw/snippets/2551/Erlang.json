@@ -1,1 +1,0 @@
-"-spec put_marbles(Weights :: [integer()], K :: integer()) -> integer().\nput_marbles(Weights, K) ->\n  ."

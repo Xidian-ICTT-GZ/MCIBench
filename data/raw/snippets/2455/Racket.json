@@ -1,1 +1,0 @@
-"(define/contract (average-value nums)\n  (-> (listof exact-integer?) exact-integer?)\n  )"

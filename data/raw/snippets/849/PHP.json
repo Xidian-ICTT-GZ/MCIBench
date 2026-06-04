@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $seats\n     * @return Integer\n     */\n    function maxDistToClosest($seats) {\n        \n    }\n}"

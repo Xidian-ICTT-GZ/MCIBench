@@ -1,1 +1,0 @@
-"object Solution {\n    def countSubIslands(grid1: Array[Array[Int]], grid2: Array[Array[Int]]): Int = {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"(define/contract (total-n-queens n)\n  (-> exact-integer? exact-integer?)\n  )"

@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @param {Integer} threshold\n# @return {Integer}\ndef smallest_divisor(nums, threshold)\n    \nend"

@@ -1,0 +1,1 @@
+"# @param {Integer[]} job_difficulty\n# @param {Integer} d\n# @return {Integer}\ndef min_difficulty(job_difficulty, d)\n    \nend"

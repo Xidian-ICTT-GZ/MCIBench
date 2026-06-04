@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $batteryPercentages\n     * @return Integer\n     */\n    function countTestedDevices($batteryPercentages) {\n        \n    }\n}"

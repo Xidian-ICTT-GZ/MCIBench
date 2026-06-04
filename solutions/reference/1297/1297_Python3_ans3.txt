@@ -1,0 +1,30 @@
+class Solution:
+    def maxFreq(self, s: str, maxLetters: int, minSize: int, maxSize: int) -> int:
+        n = len(s)
+        occ = collections.defaultdict(int)
+        exist = collections.defaultdict(int)
+        mod = 1e9 + 7
+        ans, exist_cnt = 0, 0
+        rabin, base, base_mul = 0, 26, 26
+
+        for i in range(minSize - 1):
+            exist[s[i]] += 1
+            if exist[s[i]] == 1:
+                exist_cnt += 1
+            rabin = (rabin * base + (ord(s[i]) - 97)) % mod
+            base_mul = base_mul * base % mod
+
+        for i in range(minSize - 1, n):
+            exist[s[i]] += 1
+            if exist[s[i]] == 1:
+                exist_cnt += 1
+            rabin = (rabin * base + (ord(s[i]) - 97)) % mod
+            if i >= minSize:
+                exist[s[i - minSize]] -= 1
+                if exist[s[i - minSize]] == 0:
+                    exist_cnt -= 1
+                rabin = (rabin - base_mul * (ord(s[i - minSize]) - 97) % mod + mod) % mod
+            if exist_cnt <= maxLetters:
+                occ[rabin] += 1
+                ans = max(ans, occ[rabin])
+        return ans

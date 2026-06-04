@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<int> findWordsContaining(vector<string>& words, char x) {\n        \n    }\n};"

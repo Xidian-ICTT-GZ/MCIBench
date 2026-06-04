@@ -1,1 +1,0 @@
-"class Solution(object):\n    def waysToBuildRooms(self, prevRoom):\n        \"\"\"\n        :type prevRoom: List[int]\n        :rtype: int\n        \"\"\"\n        "

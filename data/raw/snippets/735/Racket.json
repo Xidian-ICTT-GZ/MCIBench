@@ -1,1 +1,0 @@
-"(define/contract (asteroid-collision asteroids)\n  (-> (listof exact-integer?) (listof exact-integer?))\n  )"

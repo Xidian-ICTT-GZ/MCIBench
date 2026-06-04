@@ -1,1 +1,0 @@
-"-spec answer_string(Word :: unicode:unicode_binary(), NumFriends :: integer()) -> unicode:unicode_binary().\nanswer_string(Word, NumFriends) ->\n  ."

@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec advantage_count(nums1 :: [integer], nums2 :: [integer]) :: [integer]\n  def advantage_count(nums1, nums2) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec min_array_sum(nums :: [integer], k :: integer, op1 :: integer, op2 :: integer) :: integer\n  def min_array_sum(nums, k, op1, op2) do\n    \n  end\nend"

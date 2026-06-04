@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    int removeElement(vector<int>& nums, int val) {\n        \n    }\n};"

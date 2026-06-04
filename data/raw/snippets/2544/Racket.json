@@ -1,1 +1,0 @@
-"(define/contract (alternate-digit-sum n)\n  (-> exact-integer? exact-integer?)\n  )"

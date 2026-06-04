@@ -1,0 +1,1 @@
+"-spec can_partition(Nums :: [integer()]) -> boolean().\ncan_partition(Nums) ->\n  ."

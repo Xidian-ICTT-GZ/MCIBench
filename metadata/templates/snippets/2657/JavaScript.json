@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} A\n * @param {number[]} B\n * @return {number[]}\n */\nvar findThePrefixCommonArray = function(A, B) {\n    \n};"

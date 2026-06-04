@@ -1,1 +1,0 @@
-"# @param {String} answer_key\n# @param {Integer} k\n# @return {Integer}\ndef max_consecutive_answers(answer_key, k)\n    \nend"

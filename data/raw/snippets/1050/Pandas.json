@@ -1,1 +1,0 @@
-"import pandas as pd\n\ndef actors_and_directors(actor_director: pd.DataFrame) -> pd.DataFrame:\n    "

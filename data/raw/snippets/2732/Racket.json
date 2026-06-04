@@ -1,1 +1,0 @@
-"(define/contract (good-subsetof-binary-matrix grid)\n  (-> (listof (listof exact-integer?)) (listof exact-integer?))\n  )"

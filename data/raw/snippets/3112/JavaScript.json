@@ -1,1 +1,0 @@
-"/**\n * @param {number} n\n * @param {number[][]} edges\n * @param {number[]} disappear\n * @return {number[]}\n */\nvar minimumTime = function(n, edges, disappear) {\n    \n};"

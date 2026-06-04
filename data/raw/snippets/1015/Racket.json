@@ -1,1 +1,0 @@
-"(define/contract (smallest-repunit-div-by-k k)\n  (-> exact-integer? exact-integer?)\n  )"

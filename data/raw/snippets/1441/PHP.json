@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $target\n     * @param Integer $n\n     * @return String[]\n     */\n    function buildArray($target, $n) {\n        \n    }\n}"

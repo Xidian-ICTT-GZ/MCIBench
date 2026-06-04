@@ -1,1 +1,0 @@
-"class Solution(object):\n    def busiestServers(self, k, arrival, load):\n        \"\"\"\n        :type k: int\n        :type arrival: List[int]\n        :type load: List[int]\n        :rtype: List[int]\n        \"\"\"\n        "

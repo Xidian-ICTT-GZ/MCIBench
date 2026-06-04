@@ -1,1 +1,0 @@
-"-spec longest_continuous_substring(S :: unicode:unicode_binary()) -> integer().\nlongest_continuous_substring(S) ->\n  ."

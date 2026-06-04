@@ -1,0 +1,1 @@
+"(define/contract (furthest-distance-from-origin moves)\n  (-> string? exact-integer?)\n  )"

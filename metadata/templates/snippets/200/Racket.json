@@ -1,0 +1,1 @@
+"(define/contract (num-islands grid)\n  (-> (listof (listof char?)) exact-integer?)\n  )"

@@ -1,1 +1,0 @@
-"class Solution:\n    def searchInsert(self, nums: List[int], target: int) -> int:\n        "

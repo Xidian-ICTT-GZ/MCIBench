@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @param {Integer[][]} edges\n# @param {Integer[][]} queries\n# @return {Integer[]}\ndef tree_queries(n, edges, queries)\n    \nend"

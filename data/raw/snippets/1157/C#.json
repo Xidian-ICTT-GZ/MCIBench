@@ -1,1 +1,0 @@
-"public class MajorityChecker {\n\n    public MajorityChecker(int[] arr) {\n        \n    }\n    \n    public int Query(int left, int right, int threshold) {\n        \n    }\n}\n\n/**\n * Your MajorityChecker object will be instantiated and called as such:\n * MajorityChecker obj = new MajorityChecker(arr);\n * int param_1 = obj.Query(left,right,threshold);\n */"

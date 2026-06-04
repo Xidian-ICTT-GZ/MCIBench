@@ -1,1 +1,0 @@
-"object Solution {\n    def maximumUnits(boxTypes: Array[Array[Int]], truckSize: Int): Int = {\n        \n    }\n}"

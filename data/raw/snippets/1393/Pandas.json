@@ -1,1 +1,0 @@
-"import pandas as pd\n\ndef capital_gainloss(stocks: pd.DataFrame) -> pd.DataFrame:\n    "

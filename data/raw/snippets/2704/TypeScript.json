@@ -1,1 +1,0 @@
-"type ToBeOrNotToBe = {\n    toBe: (val: any) => boolean;\n    notToBe: (val: any) => boolean;\n};\n\nfunction expect(val: any): ToBeOrNotToBe {\n    \n};\n\n/**\n * expect(5).toBe(5); // true\n * expect(5).notToBe(5); // throws \"Equal\"\n */"

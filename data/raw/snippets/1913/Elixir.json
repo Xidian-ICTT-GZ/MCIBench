@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec max_product_difference(nums :: [integer]) :: integer\n  def max_product_difference(nums) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"-spec count_pairs(Deliciousness :: [integer()]) -> integer().\ncount_pairs(Deliciousness) ->\n  ."

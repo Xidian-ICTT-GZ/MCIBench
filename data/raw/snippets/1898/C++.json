@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    int maximumRemovals(string s, string p, vector<int>& removable) {\n        \n    }\n};"

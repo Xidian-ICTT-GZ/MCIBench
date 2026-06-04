@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec sum_game(num :: String.t) :: boolean\n  def sum_game(num) do\n    \n  end\nend"

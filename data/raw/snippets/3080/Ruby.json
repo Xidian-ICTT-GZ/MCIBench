@@ -1,1 +1,0 @@
-"# @param {Integer[]} nums\n# @param {Integer[][]} queries\n# @return {Integer[]}\ndef unmarked_sum_array(nums, queries)\n    \nend"

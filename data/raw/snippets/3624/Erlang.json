@@ -1,1 +1,0 @@
-"-spec popcount_depth(Nums :: [integer()], Queries :: [[integer()]]) -> [integer()].\npopcount_depth(Nums, Queries) ->\n  ."

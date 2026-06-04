@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} nums1\n * @param {number[]} nums2\n * @param {number} k1\n * @param {number} k2\n * @return {number}\n */\nvar minSumSquareDiff = function(nums1, nums2, k1, k2) {\n    \n};"

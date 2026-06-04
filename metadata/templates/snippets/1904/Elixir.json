@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec number_of_rounds(login_time :: String.t, logout_time :: String.t) :: integer\n  def number_of_rounds(login_time, logout_time) do\n    \n  end\nend"

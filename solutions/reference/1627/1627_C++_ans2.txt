@@ -1,0 +1,58 @@
+class UnionFind {
+public:
+    vector<int> parent;
+    vector<int> size;
+    int n;
+    
+public:
+    UnionFind(int _n): n(_n), parent(_n), size(_n, 1) {
+        iota(parent.begin(), parent.end(), 0);
+    }
+    
+    int findset(int x) {
+        return parent[x] == x ? x : parent[x] = findset(parent[x]);
+    }
+    
+    void unite(int x, int y) {
+        x = findset(x);
+        y = findset(y);
+        if (x == y) {
+            return;
+        }
+        if (size[x] < size[y]) {
+            swap(x, y);
+        }
+        parent[y] = x;
+        size[x] += size[y];
+    }
+    
+    bool connected(int x, int y) {
+        x = findset(x);
+        y = findset(y);
+        return x == y;
+    }
+};
+
+class Solution {
+public:
+    vector<bool> areConnected(int n, int threshold, vector<vector<int>>& queries) {
+        UnionFind uf(n + 1);
+        vector<int> isPrime(n + 1, 1);
+        for (int z = threshold + 1; z <= n; ++z) {
+            if (isPrime[z]) {
+                for (int p = z, q = z * 2; q <= n; p += z, q += z) {
+                    uf.unite(p, q);
+                    isPrime[q] = 0;
+                }
+            }
+        }
+        
+        vector<bool> ans;
+        for (const auto& q: queries) {
+            int x = q[0];
+            int y = q[1];
+            ans.push_back(uf.connected(x, y));
+        }
+        return ans;
+    }
+};

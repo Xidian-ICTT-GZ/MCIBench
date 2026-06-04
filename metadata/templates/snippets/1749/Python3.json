@@ -1,0 +1,1 @@
+"class Solution:\n    def maxAbsoluteSum(self, nums: List[int]) -> int:\n        "

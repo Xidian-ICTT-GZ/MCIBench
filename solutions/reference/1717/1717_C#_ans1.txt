@@ -1,0 +1,40 @@
+using System;
+
+public class Solution {
+    public int MaximumGain(string s, int x, int y) {
+        if (x < y) {
+            (x, y) = (y, x);
+            char[] arr = s.ToCharArray();
+            for (int i = 0; i < arr.Length; i++) {
+                if (arr[i] == 'a') {
+                    arr[i] = 'b';
+                }
+                else if (arr[i] == 'b') {
+                    arr[i] = 'a';
+                }
+            }
+            s = new string(arr);
+        }
+
+        int ans = 0;
+        for (int i = 0; i < s.Length; i++) {
+            int cntA = 0, cntB = 0;
+            while (i < s.Length && (s[i] == 'a' || s[i] == 'b')) {
+                if (s[i] == 'a') {
+                    cntA++;
+                }
+                else {
+                    if (cntA > 0) {
+                        cntA--;
+                        ans += x;
+                    } else {
+                        cntB++;
+                    }
+                }
+                i++;
+            }
+            ans += Math.Min(cntA, cntB) * y;
+        }
+        return ans;
+    }
+}

@@ -1,0 +1,1 @@
+"class Solution(object):\n    def minOperations(self, target, arr):\n        \"\"\"\n        :type target: List[int]\n        :type arr: List[int]\n        :rtype: int\n        \"\"\"\n        "

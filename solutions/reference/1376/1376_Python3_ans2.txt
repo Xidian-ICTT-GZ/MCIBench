@@ -1,0 +1,21 @@
+import queue
+class Solution:
+    def numOfMinutes(self, n: int, headID: int, manager: List[int], informTime: List[int]) -> int:
+        
+        g = collections.defaultdict(list)
+        for i in range(n):
+            g[manager[i]].append(i)
+        q = queue.Queue()
+        
+        q.put((headID, 0))
+        res = 0
+        while not q.empty():
+            tmp_id, val = q.get()
+            
+            if len(g[tmp_id]) == 0:
+                res = max(res, val)
+            else:   
+                
+                for ne in g[tmp_id]:
+                    q.put((ne, val + informTime[tmp_id]))
+        return res

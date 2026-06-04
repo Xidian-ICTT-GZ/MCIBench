@@ -1,1 +1,0 @@
-"/**\n * @param {string} s\n * @param {number} k\n * @return {boolean}\n */\nvar hasAllCodes = function(s, k) {\n    \n};"

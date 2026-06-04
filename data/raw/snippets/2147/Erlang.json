@@ -1,1 +1,0 @@
-"-spec number_of_ways(Corridor :: unicode:unicode_binary()) -> integer().\nnumber_of_ways(Corridor) ->\n  ."

@@ -1,0 +1,1 @@
+"/**\n * @param {number} maxTime\n * @param {number[][]} edges\n * @param {number[]} passingFees\n * @return {number}\n */\nvar minCost = function(maxTime, edges, passingFees) {\n    \n};"

@@ -1,1 +1,0 @@
-"class Solution:\n    def findNumOfValidWords(self, words: List[str], puzzles: List[str]) -> List[int]:\n        "

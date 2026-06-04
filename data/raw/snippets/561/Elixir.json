@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec array_pair_sum(nums :: [integer]) :: integer\n  def array_pair_sum(nums) do\n    \n  end\nend"

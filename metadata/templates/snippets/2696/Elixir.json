@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec min_length(s :: String.t) :: integer\n  def min_length(s) do\n    \n  end\nend"

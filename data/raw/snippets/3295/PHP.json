@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String[] $message\n     * @param String[] $bannedWords\n     * @return Boolean\n     */\n    function reportSpam($message, $bannedWords) {\n        \n    }\n}"

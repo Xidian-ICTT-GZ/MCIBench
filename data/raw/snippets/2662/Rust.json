@@ -1,1 +1,0 @@
-"impl Solution {\n    pub fn minimum_cost(start: Vec<i32>, target: Vec<i32>, special_roads: Vec<Vec<i32>>) -> i32 {\n        \n    }\n}"

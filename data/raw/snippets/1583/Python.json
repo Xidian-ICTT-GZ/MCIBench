@@ -1,1 +1,0 @@
-"class Solution(object):\n    def unhappyFriends(self, n, preferences, pairs):\n        \"\"\"\n        :type n: int\n        :type preferences: List[List[int]]\n        :type pairs: List[List[int]]\n        :rtype: int\n        \"\"\"\n        "

@@ -1,0 +1,1 @@
+"-spec sum_of_three(Num :: integer()) -> [integer()].\nsum_of_three(Num) ->\n  ."

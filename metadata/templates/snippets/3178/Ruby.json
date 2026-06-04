@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @param {Integer} k\n# @return {Integer}\ndef number_of_child(n, k)\n    \nend"

@@ -1,0 +1,16 @@
+class Solution {
+public:
+    int minFlips(string target) {
+        int flips = 0;
+        char prev = '0';
+        int n = target.size();
+        for (int i = 0; i < n; i++) {
+            char curr = target.at(i);
+            if (curr != prev) {
+                flips++;
+                prev = curr;
+            }
+        }
+        return flips;
+    }
+};

@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec soup_servings(n :: integer) :: float\n  def soup_servings(n) do\n    \n  end\nend"

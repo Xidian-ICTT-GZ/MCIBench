@@ -1,0 +1,1 @@
+"class Solution:\n    def trailingZeroes(self, n: int) -> int:\n        "

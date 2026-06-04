@@ -1,0 +1,1 @@
+"/**\n * @param {string} s\n * @param {number[]} indices\n * @return {string}\n */\nvar restoreString = function(s, indices) {\n    \n};"

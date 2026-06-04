@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec min_impossible_or(nums :: [integer]) :: integer\n  def min_impossible_or(nums) do\n    \n  end\nend"

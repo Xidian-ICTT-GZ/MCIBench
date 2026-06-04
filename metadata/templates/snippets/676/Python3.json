@@ -1,0 +1,1 @@
+"class MagicDictionary:\n\n    def __init__(self):\n        \n\n    def buildDict(self, dictionary: List[str]) -> None:\n        \n\n    def search(self, searchWord: str) -> bool:\n        \n\n\n# Your MagicDictionary object will be instantiated and called as such:\n# obj = MagicDictionary()\n# obj.buildDict(dictionary)\n# param_2 = obj.search(searchWord)"

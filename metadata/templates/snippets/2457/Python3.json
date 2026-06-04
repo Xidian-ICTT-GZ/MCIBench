@@ -1,0 +1,1 @@
+"class Solution:\n    def makeIntegerBeautiful(self, n: int, target: int) -> int:\n        "

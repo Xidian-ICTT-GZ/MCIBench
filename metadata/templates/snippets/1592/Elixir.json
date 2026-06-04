@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec reorder_spaces(text :: String.t) :: String.t\n  def reorder_spaces(text) do\n    \n  end\nend"

@@ -1,1 +1,0 @@
-"// The API isBadVersion is defined for you.\n// bool isBadVersion(int version);\n\nint firstBadVersion(int n) {\n    \n}"

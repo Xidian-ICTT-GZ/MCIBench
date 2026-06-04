@@ -1,1 +1,0 @@
-"class Solution(object):\n    def canChange(self, start, target):\n        \"\"\"\n        :type start: str\n        :type target: str\n        :rtype: bool\n        \"\"\"\n        "

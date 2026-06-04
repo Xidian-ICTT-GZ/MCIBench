@@ -1,1 +1,0 @@
-"class Solution(object):\n    def winningPlayer(self, x, y):\n        \"\"\"\n        :type x: int\n        :type y: int\n        :rtype: str\n        \"\"\"\n        "

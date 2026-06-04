@@ -1,1 +1,0 @@
-"-spec is_alien_sorted(Words :: [unicode:unicode_binary()], Order :: unicode:unicode_binary()) -> boolean().\nis_alien_sorted(Words, Order) ->\n  ."

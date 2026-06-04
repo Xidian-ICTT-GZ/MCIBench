@@ -1,1 +1,0 @@
-"(define/contract (final-value-after-operations operations)\n  (-> (listof string?) exact-integer?)\n  )"

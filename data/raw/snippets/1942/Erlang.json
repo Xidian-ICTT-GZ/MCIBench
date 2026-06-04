@@ -1,1 +1,0 @@
-"-spec smallest_chair(Times :: [[integer()]], TargetFriend :: integer()) -> integer().\nsmallest_chair(Times, TargetFriend) ->\n  ."

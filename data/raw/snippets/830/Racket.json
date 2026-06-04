@@ -1,1 +1,0 @@
-"(define/contract (large-group-positions s)\n  (-> string? (listof (listof exact-integer?)))\n  )"

@@ -1,1 +1,0 @@
-"(define/contract (gcd-values nums queries)\n  (-> (listof exact-integer?) (listof exact-integer?) (listof exact-integer?))\n  )"

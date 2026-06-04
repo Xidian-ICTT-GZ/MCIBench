@@ -1,1 +1,0 @@
-"-spec find_smallest_set_of_vertices(N :: integer(), Edges :: [[integer()]]) -> [integer()].\nfind_smallest_set_of_vertices(N, Edges) ->\n  ."

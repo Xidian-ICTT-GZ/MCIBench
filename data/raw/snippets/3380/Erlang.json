@@ -1,1 +1,0 @@
-"-spec max_rectangle_area(Points :: [[integer()]]) -> integer().\nmax_rectangle_area(Points) ->\n  ."

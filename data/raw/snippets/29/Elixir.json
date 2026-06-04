@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec divide(dividend :: integer, divisor :: integer) :: integer\n  def divide(dividend, divisor) do\n    \n  end\nend"

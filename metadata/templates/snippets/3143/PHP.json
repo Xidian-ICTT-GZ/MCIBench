@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $points\n     * @param String $s\n     * @return Integer\n     */\n    function maxPointsInsideSquare($points, $s) {\n        \n    }\n}"

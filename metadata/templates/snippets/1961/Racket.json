@@ -1,0 +1,1 @@
+"(define/contract (is-prefix-string s words)\n  (-> string? (listof string?) boolean?)\n  )"

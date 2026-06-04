@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int reachableNodes(int n, vector<vector<int>>& edges, vector<int>& restricted) {\n        \n    }\n};"

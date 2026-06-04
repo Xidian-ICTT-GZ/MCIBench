@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} ranks\n * @param {character[]} suits\n * @return {string}\n */\nvar bestHand = function(ranks, suits) {\n    \n};"

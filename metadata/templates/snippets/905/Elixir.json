@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec sort_array_by_parity(nums :: [integer]) :: [integer]\n  def sort_array_by_parity(nums) do\n    \n  end\nend"

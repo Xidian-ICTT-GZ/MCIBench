@@ -1,0 +1,1 @@
+"class Graph {\n\n  Graph(int n, List<List<int>> edges) {\n    \n  }\n  \n  void addEdge(List<int> edge) {\n    \n  }\n  \n  int shortestPath(int node1, int node2) {\n    \n  }\n}\n\n/**\n * Your Graph object will be instantiated and called as such:\n * Graph obj = Graph(n, edges);\n * obj.addEdge(edge);\n * int param2 = obj.shortestPath(node1,node2);\n */"

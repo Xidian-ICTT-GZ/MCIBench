@@ -1,1 +1,0 @@
-"class Solution(object):\n    def sumOfUnique(self, nums):\n        \"\"\"\n        :type nums: List[int]\n        :rtype: int\n        \"\"\"\n        "

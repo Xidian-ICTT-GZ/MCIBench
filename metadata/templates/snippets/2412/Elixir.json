@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec minimum_money(transactions :: [[integer]]) :: integer\n  def minimum_money(transactions) do\n    \n  end\nend"

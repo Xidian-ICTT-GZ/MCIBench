@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec champagne_tower(poured :: integer, query_row :: integer, query_glass :: integer) :: float\n  def champagne_tower(poured, query_row, query_glass) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"class Solution:\n    def largestSumOfAverages(self, nums: List[int], k: int) -> float:\n        "

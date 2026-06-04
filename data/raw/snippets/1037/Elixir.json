@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec is_boomerang(points :: [[integer]]) :: boolean\n  def is_boomerang(points) do\n    \n  end\nend"

@@ -1,1 +1,0 @@
-"class Solution:\n    def maximumAmount(self, coins: List[List[int]]) -> int:\n        "

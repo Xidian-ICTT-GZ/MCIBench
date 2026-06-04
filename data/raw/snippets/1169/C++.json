@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    vector<string> invalidTransactions(vector<string>& transactions) {\n        \n    }\n};"

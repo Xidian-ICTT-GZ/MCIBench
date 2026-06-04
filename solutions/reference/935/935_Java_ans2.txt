@@ -1,0 +1,53 @@
+class Solution {
+    static final int MOD = 1000000007;
+
+    public int knightDialer(int n) {
+        int[][] original = {
+            {0, 0, 0, 0, 1, 0, 1, 0, 0, 0},
+            {0, 0, 0, 0, 0, 0, 1, 0, 1, 0},
+            {0, 0, 0, 0, 0, 0, 0, 1, 0, 1},
+            {0, 0, 0, 0, 1, 0, 0, 0, 1, 0},
+            {1, 0, 0, 1, 0, 0, 0, 0, 0, 1},
+            {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+            {1, 1, 0, 0, 0, 0, 0, 1, 0, 0},
+            {0, 0, 1, 0, 0, 0, 1, 0, 0, 0},
+            {0, 1, 0, 1, 0, 0, 0, 0, 0, 0},
+            {0, 0, 1, 0, 1, 0, 0, 0, 0, 0}
+        };
+        int[][] res = {
+            {1, 1, 1, 1, 1, 1, 1, 1, 1, 1}
+        };
+
+        int[][] original2 = new int[10][10];
+        for (int i = 0; i < 10; i++) {
+            original2[i][i] = 1;
+        }
+        n--;
+        while (n > 0) {
+            if ((n & 1) != 0) {
+                original2 = mul(original2, original);
+            }
+            original = mul(original, original);
+            n >>= 1;
+        }
+        res = mul(res, original2);
+        int ret = 0;
+        for (int x : res[0]) {
+            ret = (ret + x) % MOD;
+        }
+
+        return ret;
+    }
+
+    public int[][] mul(int[][] lth, int[][] rth) {
+        int[][] res = new int[lth.length][rth[0].length];
+        for (int k = 0; k < lth[0].length; k++) {
+            for (int i = 0; i < lth.length; i++) {
+                for (int j = 0; j < rth[0].length; j++) {
+                    res[i][j] = (int) ((res[i][j] + 1L * lth[i][k] * rth[k][j] % MOD) % MOD);
+                }
+            }
+        }
+        return res;
+    }
+}

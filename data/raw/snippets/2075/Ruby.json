@@ -1,1 +1,0 @@
-"# @param {String} encoded_text\n# @param {Integer} rows\n# @return {String}\ndef decode_ciphertext(encoded_text, rows)\n    \nend"

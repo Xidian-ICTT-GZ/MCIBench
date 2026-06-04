@@ -1,1 +1,0 @@
-"# @param {Integer[]} arr\n# @param {Integer} m\n# @param {Integer} k\n# @return {Boolean}\ndef contains_pattern(arr, m, k)\n    \nend"

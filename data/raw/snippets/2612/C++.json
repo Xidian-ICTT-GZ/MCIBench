@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    vector<int> minReverseOperations(int n, int p, vector<int>& banned, int k) {\n        \n    }\n};"

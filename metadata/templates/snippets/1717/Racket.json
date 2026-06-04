@@ -1,0 +1,1 @@
+"(define/contract (maximum-gain s x y)\n  (-> string? exact-integer? exact-integer? exact-integer?)\n  )"

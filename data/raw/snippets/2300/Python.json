@@ -1,1 +1,0 @@
-"class Solution(object):\n    def successfulPairs(self, spells, potions, success):\n        \"\"\"\n        :type spells: List[int]\n        :type potions: List[int]\n        :type success: int\n        :rtype: List[int]\n        \"\"\"\n        "

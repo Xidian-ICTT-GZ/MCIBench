@@ -1,1 +1,0 @@
-"(define/contract (last-substring s)\n  (-> string? string?)\n  )"

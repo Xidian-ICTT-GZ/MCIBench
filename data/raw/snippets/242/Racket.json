@@ -1,1 +1,0 @@
-"(define/contract (is-anagram s t)\n  (-> string? string? boolean?)\n  )"

@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} par\n * @param {number[]} vals\n * @param {number[][]} queries\n * @return {number[]}\n */\nvar kthSmallest = function(par, vals, queries) {\n    \n};"

@@ -1,1 +1,0 @@
-"/**\n * @param {number[][]} edges\n * @param {number} k\n * @return {number}\n */\nvar maximizeSumOfWeights = function(edges, k) {\n    \n};"

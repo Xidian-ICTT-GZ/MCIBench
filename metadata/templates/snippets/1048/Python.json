@@ -1,0 +1,1 @@
+"class Solution(object):\n    def longestStrChain(self, words):\n        \"\"\"\n        :type words: List[str]\n        :rtype: int\n        \"\"\"\n        "

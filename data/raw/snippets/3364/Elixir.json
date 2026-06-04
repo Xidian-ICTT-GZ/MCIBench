@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec minimum_sum_subarray(nums :: [integer], l :: integer, r :: integer) :: integer\n  def minimum_sum_subarray(nums, l, r) do\n    \n  end\nend"

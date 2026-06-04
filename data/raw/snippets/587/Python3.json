@@ -1,1 +1,0 @@
-"class Solution:\n    def outerTrees(self, trees: List[List[int]]) -> List[List[int]]:\n        "

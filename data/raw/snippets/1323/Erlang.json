@@ -1,1 +1,0 @@
-"-spec maximum69_number (Num :: integer()) -> integer().\nmaximum69_number (Num) ->\n  ."

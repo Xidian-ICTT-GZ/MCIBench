@@ -1,1 +1,0 @@
-"# @param {String[]} words\n# @param {String} s\n# @return {Integer}\ndef count_prefixes(words, s)\n    \nend"

@@ -1,1 +1,0 @@
-"# @param {String} s\n# @param {String} query_characters\n# @param {Integer[]} query_indices\n# @return {Integer[]}\ndef longest_repeating(s, query_characters, query_indices)\n    \nend"

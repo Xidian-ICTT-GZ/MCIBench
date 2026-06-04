@@ -1,0 +1,1 @@
+"-spec account_balance_after_purchase(PurchaseAmount :: integer()) -> integer().\naccount_balance_after_purchase(PurchaseAmount) ->\n  ."

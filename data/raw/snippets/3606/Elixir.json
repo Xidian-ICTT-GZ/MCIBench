@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec validate_coupons(code :: [String.t], business_line :: [String.t], is_active :: [boolean]) :: [String.t]\n  def validate_coupons(code, business_line, is_active) do\n    \n  end\nend"

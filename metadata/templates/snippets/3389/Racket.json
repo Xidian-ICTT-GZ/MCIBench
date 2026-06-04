@@ -1,0 +1,1 @@
+"(define/contract (make-string-good s)\n  (-> string? exact-integer?)\n  )"

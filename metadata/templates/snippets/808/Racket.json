@@ -1,0 +1,1 @@
+"(define/contract (soup-servings n)\n  (-> exact-integer? flonum?)\n  )"

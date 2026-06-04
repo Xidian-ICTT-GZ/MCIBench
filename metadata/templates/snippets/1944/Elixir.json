@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec can_see_persons_count(heights :: [integer]) :: [integer]\n  def can_see_persons_count(heights) do\n    \n  end\nend"

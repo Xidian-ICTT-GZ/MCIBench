@@ -1,1 +1,0 @@
-"(define/contract (reformat s)\n  (-> string? string?)\n  )"

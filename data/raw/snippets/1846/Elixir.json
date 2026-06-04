@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec maximum_element_after_decrementing_and_rearranging(arr :: [integer]) :: integer\n  def maximum_element_after_decrementing_and_rearranging(arr) do\n    \n  end\nend"

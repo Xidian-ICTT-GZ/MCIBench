@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<int> missingRolls(vector<int>& rolls, int mean, int n) {\n        \n    }\n};"

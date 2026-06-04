@@ -1,0 +1,1 @@
+"-spec closest_divisors(Num :: integer()) -> [integer()].\nclosest_divisors(Num) ->\n  ."

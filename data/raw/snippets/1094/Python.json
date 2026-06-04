@@ -1,1 +1,0 @@
-"class Solution(object):\n    def carPooling(self, trips, capacity):\n        \"\"\"\n        :type trips: List[List[int]]\n        :type capacity: int\n        :rtype: bool\n        \"\"\"\n        "

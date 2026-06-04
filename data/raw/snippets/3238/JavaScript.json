@@ -1,1 +1,0 @@
-"/**\n * @param {number} n\n * @param {number[][]} pick\n * @return {number}\n */\nvar winningPlayerCount = function(n, pick) {\n    \n};"

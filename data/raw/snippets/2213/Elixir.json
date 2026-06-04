@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec longest_repeating(s :: String.t, query_characters :: String.t, query_indices :: [integer]) :: [integer]\n  def longest_repeating(s, query_characters, query_indices) do\n    \n  end\nend"

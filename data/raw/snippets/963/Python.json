@@ -1,1 +1,0 @@
-"class Solution(object):\n    def minAreaFreeRect(self, points):\n        \"\"\"\n        :type points: List[List[int]]\n        :rtype: float\n        \"\"\"\n        "

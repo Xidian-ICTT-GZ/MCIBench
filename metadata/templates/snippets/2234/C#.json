@@ -1,0 +1,1 @@
+"public class Solution {\n    public long MaximumBeauty(int[] flowers, long newFlowers, int target, int full, int partial) {\n        \n    }\n}"

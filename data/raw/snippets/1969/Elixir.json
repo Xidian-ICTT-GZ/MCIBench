@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec min_non_zero_product(p :: integer) :: integer\n  def min_non_zero_product(p) do\n    \n  end\nend"

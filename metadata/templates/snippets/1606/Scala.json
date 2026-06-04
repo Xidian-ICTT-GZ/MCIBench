@@ -1,0 +1,1 @@
+"object Solution {\n    def busiestServers(k: Int, arrival: Array[Int], load: Array[Int]): List[Int] = {\n        \n    }\n}"

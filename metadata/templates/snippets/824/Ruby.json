@@ -1,0 +1,1 @@
+"# @param {String} sentence\n# @return {String}\ndef to_goat_latin(sentence)\n    \nend"

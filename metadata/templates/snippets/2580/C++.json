@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int countWays(vector<vector<int>>& ranges) {\n        \n    }\n};"

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec interpret(command :: String.t) :: String.t\n  def interpret(command) do\n    \n  end\nend"

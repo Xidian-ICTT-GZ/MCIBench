@@ -1,1 +1,0 @@
-"class Solution:\n    def minMaxGame(self, nums: List[int]) -> int:\n        "

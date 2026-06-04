@@ -1,0 +1,1 @@
+"class Solution {\n  List<int> minInterval(List<List<int>> intervals, List<int> queries) {\n    \n  }\n}"

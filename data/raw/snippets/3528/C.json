@@ -1,1 +1,0 @@
-"/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* baseUnitConversions(int** conversions, int conversionsSize, int* conversionsColSize, int* returnSize) {\n    \n}"

@@ -1,1 +1,0 @@
-"-spec num_rescue_boats(People :: [integer()], Limit :: integer()) -> integer().\nnum_rescue_boats(People, Limit) ->\n  ."

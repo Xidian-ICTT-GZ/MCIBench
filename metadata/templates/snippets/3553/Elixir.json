@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec minimum_weight(edges :: [[integer]], queries :: [[integer]]) :: [integer]\n  def minimum_weight(edges, queries) do\n    \n  end\nend"

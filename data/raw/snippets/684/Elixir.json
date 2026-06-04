@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec find_redundant_connection(edges :: [[integer]]) :: [integer]\n  def find_redundant_connection(edges) do\n    \n  end\nend"

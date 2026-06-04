@@ -1,0 +1,1 @@
+"\nclass Solution {\n\n    init(_ rects: [[Int]]) {\n        \n    }\n    \n    func pick() -> [Int] {\n        \n    }\n}\n\n/**\n * Your Solution object will be instantiated and called as such:\n * let obj = Solution(rects)\n * let ret_1: [Int] = obj.pick()\n */"

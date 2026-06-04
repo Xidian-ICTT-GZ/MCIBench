@@ -1,1 +1,0 @@
-"-spec generate_matrix(N :: integer()) -> [[integer()]].\ngenerate_matrix(N) ->\n  ."

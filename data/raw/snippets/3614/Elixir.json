@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec process_str(s :: String.t, k :: integer) :: char\n  def process_str(s, k) do\n    \n  end\nend"

@@ -1,1 +1,0 @@
-"/**\n * @param {string} s\n * @param {number} k\n * @return {number}\n */\nvar longestIdealString = function(s, k) {\n    \n};"

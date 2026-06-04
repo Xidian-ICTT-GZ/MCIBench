@@ -1,1 +1,0 @@
-"(define/contract (top-k-frequent nums k)\n  (-> (listof exact-integer?) exact-integer? (listof exact-integer?))\n  )"

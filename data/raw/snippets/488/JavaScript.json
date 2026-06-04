@@ -1,1 +1,0 @@
-"/**\n * @param {string} board\n * @param {string} hand\n * @return {number}\n */\nvar findMinStep = function(board, hand) {\n    \n};"

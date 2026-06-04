@@ -1,1 +1,0 @@
-"-spec num_rook_captures(Board :: [[char()]]) -> integer().\nnum_rook_captures(Board) ->\n  ."

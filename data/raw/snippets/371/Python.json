@@ -1,1 +1,0 @@
-"class Solution(object):\n    def getSum(self, a, b):\n        \"\"\"\n        :type a: int\n        :type b: int\n        :rtype: int\n        \"\"\"\n        "

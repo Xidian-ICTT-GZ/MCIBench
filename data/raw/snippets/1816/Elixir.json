@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec truncate_sentence(s :: String.t, k :: integer) :: String.t\n  def truncate_sentence(s, k) do\n    \n  end\nend"

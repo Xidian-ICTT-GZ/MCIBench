@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec repeated_n_times(nums :: [integer]) :: integer\n  def repeated_n_times(nums) do\n    \n  end\nend"

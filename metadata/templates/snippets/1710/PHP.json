@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $boxTypes\n     * @param Integer $truckSize\n     * @return Integer\n     */\n    function maximumUnits($boxTypes, $truckSize) {\n        \n    }\n}"

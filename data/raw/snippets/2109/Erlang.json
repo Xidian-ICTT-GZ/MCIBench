@@ -1,1 +1,0 @@
-"-spec add_spaces(S :: unicode:unicode_binary(), Spaces :: [integer()]) -> unicode:unicode_binary().\nadd_spaces(S, Spaces) ->\n  ."

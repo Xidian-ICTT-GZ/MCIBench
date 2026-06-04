@@ -1,1 +1,0 @@
-"# @param {Integer[]} price\n# @param {Integer[][]} special\n# @param {Integer[]} needs\n# @return {Integer}\ndef shopping_offers(price, special, needs)\n    \nend"

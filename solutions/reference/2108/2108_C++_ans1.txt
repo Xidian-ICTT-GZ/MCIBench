@@ -1,0 +1,26 @@
+class Solution {
+public:
+    string firstPalindrome(vector<string>& words) {
+        
+        auto isPalindrome = [](const string& word) -> bool {
+            int n = word.size();
+            int l = 0, r = n - 1;
+            while (l < r) {
+                if (word[l] != word[r]) {
+                    return false;
+                }
+                ++l;
+                --r;
+            }
+            return true;
+        };
+        
+        
+        for (const string& word: words) {
+            if (isPalindrome(word)) {
+                return word;
+            }
+        }
+        return "";
+    }
+};

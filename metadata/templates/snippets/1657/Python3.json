@@ -1,0 +1,1 @@
+"class Solution:\n    def closeStrings(self, word1: str, word2: str) -> bool:\n        "

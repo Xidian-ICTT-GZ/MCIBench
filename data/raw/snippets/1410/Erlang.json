@@ -1,1 +1,0 @@
-"-spec entity_parser(Text :: unicode:unicode_binary()) -> unicode:unicode_binary().\nentity_parser(Text) ->\n  ."

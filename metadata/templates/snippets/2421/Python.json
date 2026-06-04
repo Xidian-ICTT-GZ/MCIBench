@@ -1,0 +1,1 @@
+"class Solution(object):\n    def numberOfGoodPaths(self, vals, edges):\n        \"\"\"\n        :type vals: List[int]\n        :type edges: List[List[int]]\n        :rtype: int\n        \"\"\"\n        "

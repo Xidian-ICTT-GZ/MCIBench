@@ -1,0 +1,1 @@
+"type Fn = (n: number, i: number) => any\n\nfunction filter(arr: number[], fn: Fn): number[] {\n    \n};"

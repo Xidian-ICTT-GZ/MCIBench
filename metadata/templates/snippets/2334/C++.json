@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int validSubarraySize(vector<int>& nums, int threshold) {\n        \n    }\n};"

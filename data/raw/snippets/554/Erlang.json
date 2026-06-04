@@ -1,1 +1,0 @@
-"-spec least_bricks(Wall :: [[integer()]]) -> integer().\nleast_bricks(Wall) ->\n  ."

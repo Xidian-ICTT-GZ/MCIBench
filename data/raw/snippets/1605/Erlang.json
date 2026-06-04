@@ -1,1 +1,0 @@
-"-spec restore_matrix(RowSum :: [integer()], ColSum :: [integer()]) -> [[integer()]].\nrestore_matrix(RowSum, ColSum) ->\n  ."

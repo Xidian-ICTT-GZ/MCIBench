@@ -1,0 +1,1 @@
+"public class Solution {\n    public int NetworkBecomesIdle(int[][] edges, int[] patience) {\n        \n    }\n}"

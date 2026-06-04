@@ -1,1 +1,0 @@
-"# @param {Integer} n\n# @param {Integer[][]} preferences\n# @param {Integer[][]} pairs\n# @return {Integer}\ndef unhappy_friends(n, preferences, pairs)\n    \nend"

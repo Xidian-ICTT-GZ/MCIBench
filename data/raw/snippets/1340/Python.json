@@ -1,1 +1,0 @@
-"class Solution(object):\n    def maxJumps(self, arr, d):\n        \"\"\"\n        :type arr: List[int]\n        :type d: int\n        :rtype: int\n        \"\"\"\n        "

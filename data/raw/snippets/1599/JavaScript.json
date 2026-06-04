@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} customers\n * @param {number} boardingCost\n * @param {number} runningCost\n * @return {number}\n */\nvar minOperationsMaxProfit = function(customers, boardingCost, runningCost) {\n    \n};"

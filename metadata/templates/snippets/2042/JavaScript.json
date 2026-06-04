@@ -1,0 +1,1 @@
+"/**\n * @param {string} s\n * @return {boolean}\n */\nvar areNumbersAscending = function(s) {\n    \n};"

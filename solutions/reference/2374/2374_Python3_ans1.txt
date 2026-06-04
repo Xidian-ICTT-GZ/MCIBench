@@ -1,0 +1,13 @@
+class Solution:
+    def edgeScore(self, edges: List[int]) -> int:
+        n = len(edges)
+        points = [0] * n
+        for x, y in enumerate(edges):
+            points[y] += x
+        max_points = -1
+        res = -1
+        for i in range(n):
+            if points[i] > max_points:
+                max_points = points[i]
+                res = i
+        return res

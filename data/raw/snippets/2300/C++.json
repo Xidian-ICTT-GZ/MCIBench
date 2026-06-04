@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    vector<int> successfulPairs(vector<int>& spells, vector<int>& potions, long long success) {\n        \n    }\n};"

@@ -1,0 +1,1 @@
+"class Solution {\n    init(m: Int64, n: Int64) {\n\n    }\n    \n    func flip(): Array<Int64> {\n\n    }\n    \n    func reset(): Unit {\n\n    }\n}\n\n/**\n * Your Solution object will be instantiated and called as such:\n * let obj: Solution = Solution(m, n)\n * let param_1 = obj.flip()\n * obj.reset()\n */"

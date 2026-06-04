@@ -1,1 +1,0 @@
-"-spec vowel_strings(Words :: [unicode:unicode_binary()], Left :: integer(), Right :: integer()) -> integer().\nvowel_strings(Words, Left, Right) ->\n  ."

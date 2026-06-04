@@ -1,1 +1,0 @@
-"class Solution {\n\n  Solution(double radius, double x_center, double y_center) {\n    \n  }\n  \n  List<double> randPoint() {\n    \n  }\n}\n\n/**\n * Your Solution object will be instantiated and called as such:\n * Solution obj = Solution(radius, x_center, y_center);\n * List<double> param1 = obj.randPoint();\n */"

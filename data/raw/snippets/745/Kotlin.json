@@ -1,1 +1,0 @@
-"class WordFilter(words: Array<String>) {\n\n    fun f(pref: String, suff: String): Int {\n        \n    }\n\n}\n\n/**\n * Your WordFilter object will be instantiated and called as such:\n * var obj = WordFilter(words)\n * var param_1 = obj.f(pref,suff)\n */"

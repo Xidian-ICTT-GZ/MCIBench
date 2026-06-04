@@ -1,1 +1,0 @@
-"(define/contract (find-error-nums nums)\n  (-> (listof exact-integer?) (listof exact-integer?))\n  )"

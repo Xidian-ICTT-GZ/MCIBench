@@ -1,1 +1,0 @@
-"(define/contract (row-and-maximum-ones mat)\n  (-> (listof (listof exact-integer?)) (listof exact-integer?))\n  )"

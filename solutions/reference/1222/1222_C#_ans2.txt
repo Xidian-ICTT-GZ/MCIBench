@@ -1,0 +1,33 @@
+public class Solution {
+    public IList<IList<int>> QueensAttacktheKing(int[][] queens, int[] king) {
+        IDictionary<int, int[]> candidates = new Dictionary<int, int[]>();
+        int kx = king[0], ky = king[1];
+        foreach (int[] queen in queens) {
+            int qx = queen[0], qy = queen[1];
+            int x = qx - kx, y = qy - ky;
+            if (x == 0 || y == 0 || Math.Abs(x) == Math.Abs(y)) {
+                int dx = Sgn(x), dy = Sgn(y);
+                int key = dx * 10 + dy;
+                if (!candidates.ContainsKey(key)) {
+                    candidates.Add(key, new int[]{queen[0], queen[1], Math.Abs(x) + Math.Abs(y)});
+                } else if (candidates[key][2] > Math.Abs(x) + Math.Abs(y)) {
+                    candidates[key] = new int[]{queen[0], queen[1], Math.Abs(x) + Math.Abs(y)};
+                }
+            }
+        }
+
+        IList<IList<int>> ans = new List<IList<int>>();
+        foreach (KeyValuePair<int, int[]> pair in candidates) {
+            int[] value = pair.Value;
+            IList<int> posList = new List<int>();
+            posList.Add(value[0]);
+            posList.Add(value[1]);
+            ans.Add(posList);
+        }
+        return ans;
+    }
+
+    public int Sgn(int x) {
+        return x > 0 ? 1 : (x == 0 ? 0 : -1);
+    }
+}

@@ -1,1 +1,0 @@
-"-spec min_stone_sum(Piles :: [integer()], K :: integer()) -> integer().\nmin_stone_sum(Piles, K) ->\n  ."

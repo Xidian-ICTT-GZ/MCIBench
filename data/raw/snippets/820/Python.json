@@ -1,1 +1,0 @@
-"class Solution(object):\n    def minimumLengthEncoding(self, words):\n        \"\"\"\n        :type words: List[str]\n        :rtype: int\n        \"\"\"\n        "

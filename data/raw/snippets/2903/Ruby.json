@@ -1,1 +1,0 @@
-"# @param {Integer[]} nums\n# @param {Integer} index_difference\n# @param {Integer} value_difference\n# @return {Integer[]}\ndef find_indices(nums, index_difference, value_difference)\n    \nend"

@@ -1,0 +1,28 @@
+public class Solution {
+    public int MaxScore(IList<IList<int>> grid) {
+        int m = grid.Count, n = grid[0].Count;
+        int[][] premin = new int[m][];
+        for (int i = 0; i < m; ++i) {
+            premin[i] = new int[n];
+            Array.Fill(premin[i], int.MaxValue);
+        }
+        int ans = int.MinValue;
+        for (int i = 0; i < m; ++i) {
+            for (int j = 0; j < n; ++j) {
+                int pre = int.MaxValue;
+                if (i > 0) {
+                    pre = Math.Min(pre, premin[i - 1][j]);
+                }
+                if (j > 0) {
+                    pre = Math.Min(pre, premin[i][j - 1]);
+                }
+                
+                if (i + j > 0) {
+                    ans = Math.Max(ans, grid[i][j] - pre);
+                }
+                premin[i][j] = Math.Min(pre, grid[i][j]);
+            }
+        }
+        return ans;
+    }
+}

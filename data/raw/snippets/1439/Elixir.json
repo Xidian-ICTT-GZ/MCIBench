@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec kth_smallest(mat :: [[integer]], k :: integer) :: integer\n  def kth_smallest(mat, k) do\n    \n  end\nend"

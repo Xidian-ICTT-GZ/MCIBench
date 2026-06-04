@@ -1,1 +1,0 @@
-"(define/contract (find-lex-smallest-string s a b)\n  (-> string? exact-integer? exact-integer? string?)\n  )"

@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    long long maxTotal(vector<int>& value, vector<int>& limit) {\n        \n    }\n};"

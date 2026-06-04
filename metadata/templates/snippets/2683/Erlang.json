@@ -1,0 +1,1 @@
+"-spec does_valid_array_exist(Derived :: [integer()]) -> boolean().\ndoes_valid_array_exist(Derived) ->\n  ."

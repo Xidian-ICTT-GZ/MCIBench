@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec ways_to_make_fair(nums :: [integer]) :: integer\n  def ways_to_make_fair(nums) do\n    \n  end\nend"

@@ -1,1 +1,0 @@
-"class Solution:\n    def garbageCollection(self, garbage: List[str], travel: List[int]) -> int:\n        "

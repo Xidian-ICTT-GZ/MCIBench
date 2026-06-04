@@ -1,0 +1,1 @@
+"class Solution {\n    func numWays(words: Array<String>, target: String): Int64 {\n\n    }\n}"

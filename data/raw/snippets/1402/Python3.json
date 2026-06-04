@@ -1,1 +1,0 @@
-"class Solution:\n    def maxSatisfaction(self, satisfaction: List[int]) -> int:\n        "

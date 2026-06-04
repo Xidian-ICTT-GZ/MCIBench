@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec maximum_points(enemy_energies :: [integer], current_energy :: integer) :: integer\n  def maximum_points(enemy_energies, current_energy) do\n    \n  end\nend"

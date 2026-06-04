@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String $s\n     * @param String $part\n     * @return String\n     */\n    function removeOccurrences($s, $part) {\n        \n    }\n}"

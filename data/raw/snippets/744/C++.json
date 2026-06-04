@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    char nextGreatestLetter(vector<char>& letters, char target) {\n        \n    }\n};"

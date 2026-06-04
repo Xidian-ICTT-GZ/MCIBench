@@ -1,1 +1,0 @@
-"-spec construct_distanced_sequence(N :: integer()) -> [integer()].\nconstruct_distanced_sequence(N) ->\n  ."

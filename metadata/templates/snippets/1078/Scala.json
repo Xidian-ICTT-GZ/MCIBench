@@ -1,0 +1,1 @@
+"object Solution {\n    def findOcurrences(text: String, first: String, second: String): Array[String] = {\n        \n    }\n}"

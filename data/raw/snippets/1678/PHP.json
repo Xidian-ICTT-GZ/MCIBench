@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String $command\n     * @return String\n     */\n    function interpret($command) {\n        \n    }\n}"

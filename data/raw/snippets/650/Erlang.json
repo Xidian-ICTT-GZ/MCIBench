@@ -1,1 +1,0 @@
-"-spec min_steps(N :: integer()) -> integer().\nmin_steps(N) ->\n  ."

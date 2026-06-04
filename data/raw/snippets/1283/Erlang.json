@@ -1,1 +1,0 @@
-"-spec smallest_divisor(Nums :: [integer()], Threshold :: integer()) -> integer().\nsmallest_divisor(Nums, Threshold) ->\n  ."

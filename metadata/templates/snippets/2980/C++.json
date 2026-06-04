@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    bool hasTrailingZeros(vector<int>& nums) {\n        \n    }\n};"

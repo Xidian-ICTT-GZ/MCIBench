@@ -1,1 +1,0 @@
-"-spec is_isomorphic(S :: unicode:unicode_binary(), T :: unicode:unicode_binary()) -> boolean().\nis_isomorphic(S, T) ->\n  ."

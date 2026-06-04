@@ -1,1 +1,0 @@
-"class Solution:\n    def goodSubsetofBinaryMatrix(self, grid: List[List[int]]) -> List[int]:\n        "

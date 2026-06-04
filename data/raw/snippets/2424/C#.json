@@ -1,1 +1,0 @@
-"public class LUPrefix {\n\n    public LUPrefix(int n) {\n        \n    }\n    \n    public void Upload(int video) {\n        \n    }\n    \n    public int Longest() {\n        \n    }\n}\n\n/**\n * Your LUPrefix object will be instantiated and called as such:\n * LUPrefix obj = new LUPrefix(n);\n * obj.Upload(video);\n * int param_2 = obj.Longest();\n */"

@@ -1,1 +1,0 @@
-"\nclass SeatManager {\n\n    init(_ n: Int) {\n        \n    }\n    \n    func reserve() -> Int {\n        \n    }\n    \n    func unreserve(_ seatNumber: Int) {\n        \n    }\n}\n\n/**\n * Your SeatManager object will be instantiated and called as such:\n * let obj = SeatManager(n)\n * let ret_1: Int = obj.reserve()\n * obj.unreserve(seatNumber)\n */"

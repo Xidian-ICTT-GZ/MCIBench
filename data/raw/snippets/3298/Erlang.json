@@ -1,1 +1,0 @@
-"-spec valid_substring_count(Word1 :: unicode:unicode_binary(), Word2 :: unicode:unicode_binary()) -> integer().\nvalid_substring_count(Word1, Word2) ->\n  ."

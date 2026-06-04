@@ -1,0 +1,1 @@
+"class Solution(object):\n    def lexicalOrder(self, n):\n        \"\"\"\n        :type n: int\n        :rtype: List[int]\n        \"\"\"\n        "

@@ -1,0 +1,1 @@
+"type ATM struct {\n    \n}\n\n\nfunc Constructor() ATM {\n    \n}\n\n\nfunc (this *ATM) Deposit(banknotesCount []int)  {\n    \n}\n\n\nfunc (this *ATM) Withdraw(amount int) []int {\n    \n}\n\n\n/**\n * Your ATM object will be instantiated and called as such:\n * obj := Constructor();\n * obj.Deposit(banknotesCount);\n * param_2 := obj.Withdraw(amount);\n */"

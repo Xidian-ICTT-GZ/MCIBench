@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $cost\n     * @param Integer $target\n     * @return String\n     */\n    function largestNumber($cost, $target) {\n        \n    }\n}"

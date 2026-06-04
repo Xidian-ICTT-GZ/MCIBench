@@ -1,1 +1,0 @@
-"-spec reconstruct_queue(People :: [[integer()]]) -> [[integer()]].\nreconstruct_queue(People) ->\n  ."

@@ -1,1 +1,0 @@
-"-spec increasing_triplet(Nums :: [integer()]) -> boolean().\nincreasing_triplet(Nums) ->\n  ."

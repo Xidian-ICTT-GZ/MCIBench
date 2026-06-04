@@ -1,1 +1,0 @@
-"class Solution(object):\n    def readBinaryWatch(self, turnedOn):\n        \"\"\"\n        :type turnedOn: int\n        :rtype: List[str]\n        \"\"\"\n        "

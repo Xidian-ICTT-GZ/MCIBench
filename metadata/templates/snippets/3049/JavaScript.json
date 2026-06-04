@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} nums\n * @param {number[]} changeIndices\n * @return {number}\n */\nvar earliestSecondToMarkIndices = function(nums, changeIndices) {\n    \n};"

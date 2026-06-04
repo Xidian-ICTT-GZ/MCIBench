@@ -1,1 +1,0 @@
-"-spec max_output(N :: integer(), Edges :: [[integer()]], Price :: [integer()]) -> integer().\nmax_output(N, Edges, Price) ->\n  ."

@@ -1,1 +1,0 @@
-"-spec distinct_integers(N :: integer()) -> integer().\ndistinct_integers(N) ->\n  ."

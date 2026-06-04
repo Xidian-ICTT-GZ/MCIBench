@@ -1,0 +1,1 @@
+"/**\n * Definition for a Node.\n * type Node struct {\n *     Val int\n *     Left *Node\n *     Right *Node\n *     Next *Node\n * }\n */\n\nfunc connect(root *Node) *Node {\n\t\n}"

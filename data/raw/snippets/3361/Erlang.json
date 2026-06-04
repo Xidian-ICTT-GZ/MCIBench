@@ -1,1 +1,0 @@
-"-spec shift_distance(S :: unicode:unicode_binary(), T :: unicode:unicode_binary(), NextCost :: [integer()], PreviousCost :: [integer()]) -> integer().\nshift_distance(S, T, NextCost, PreviousCost) ->\n  ."

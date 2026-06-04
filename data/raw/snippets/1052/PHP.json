@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $customers\n     * @param Integer[] $grumpy\n     * @param Integer $minutes\n     * @return Integer\n     */\n    function maxSatisfied($customers, $grumpy, $minutes) {\n        \n    }\n}"

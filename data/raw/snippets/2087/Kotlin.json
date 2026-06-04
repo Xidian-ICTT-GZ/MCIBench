@@ -1,1 +1,0 @@
-"class Solution {\n    fun minCost(startPos: IntArray, homePos: IntArray, rowCosts: IntArray, colCosts: IntArray): Int {\n        \n    }\n}"

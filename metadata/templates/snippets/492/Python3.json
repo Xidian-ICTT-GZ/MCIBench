@@ -1,0 +1,1 @@
+"class Solution:\n    def constructRectangle(self, area: int) -> List[int]:\n        "

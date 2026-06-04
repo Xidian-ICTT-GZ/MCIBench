@@ -1,1 +1,0 @@
-"# @param {Integer[]} locations\n# @param {Integer} start\n# @param {Integer} finish\n# @param {Integer} fuel\n# @return {Integer}\ndef count_routes(locations, start, finish, fuel)\n    \nend"

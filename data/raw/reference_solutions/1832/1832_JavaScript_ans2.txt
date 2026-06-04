@@ -1,8 +1,0 @@
-var checkIfPangram = function(sentence) {
-    let state = 0;
-    for (let i = 0; i < sentence.length; i++) {
-        const c = sentence[i];
-        state |= 1 << (c.charCodeAt() - 'a'.charCodeAt());
-    }
-    return state == (1 << 26) - 1;
-};

@@ -1,1 +1,0 @@
-"/**\n * @param {string[]} wordsContainer\n * @param {string[]} wordsQuery\n * @return {number[]}\n */\nvar stringIndices = function(wordsContainer, wordsQuery) {\n    \n};"

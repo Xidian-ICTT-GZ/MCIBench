@@ -1,1 +1,0 @@
-"-spec dist_money(Money :: integer(), Children :: integer()) -> integer().\ndist_money(Money, Children) ->\n  ."

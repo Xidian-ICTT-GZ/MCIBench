@@ -1,1 +1,0 @@
-"class Solution {\n    fun smallestSubsequence(s: String, k: Int, letter: Char, repetition: Int): String {\n        \n    }\n}"

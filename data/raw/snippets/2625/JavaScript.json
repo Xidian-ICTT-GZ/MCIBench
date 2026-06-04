@@ -1,1 +1,0 @@
-"/**\n * @param {Array} arr\n * @param {number} depth\n * @return {Array}\n */\nvar flat = function (arr, n) {\n    \n};"

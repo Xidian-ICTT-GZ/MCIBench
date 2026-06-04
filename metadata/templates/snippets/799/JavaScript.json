@@ -1,0 +1,1 @@
+"/**\n * @param {number} poured\n * @param {number} query_row\n * @param {number} query_glass\n * @return {number}\n */\nvar champagneTower = function(poured, query_row, query_glass) {\n    \n};"

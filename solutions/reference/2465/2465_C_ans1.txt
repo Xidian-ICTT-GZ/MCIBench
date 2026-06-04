@@ -1,0 +1,17 @@
+int cmp(const void* a, const void* b) {
+    return *(int*)a - *(int*)b;
+}
+
+int distinctAverages(int* nums, int numsSize) {
+    qsort(nums, numsSize, sizeof(int), cmp);
+    int seen[201] = {};
+    int count = 0;
+    for (int i = 0, j = numsSize - 1; i < j; i++, j--) {
+        int sum = nums[i] + nums[j];
+            if (!seen[sum]) {
+            seen[sum] = 1;
+            count++;
+        }
+    }
+    return count;
+}

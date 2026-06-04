@@ -1,0 +1,1 @@
+"-spec gcd_of_strings(Str1 :: unicode:unicode_binary(), Str2 :: unicode:unicode_binary()) -> unicode:unicode_binary().\ngcd_of_strings(Str1, Str2) ->\n  ."

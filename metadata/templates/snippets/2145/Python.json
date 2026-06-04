@@ -1,0 +1,1 @@
+"class Solution(object):\n    def numberOfArrays(self, differences, lower, upper):\n        \"\"\"\n        :type differences: List[int]\n        :type lower: int\n        :type upper: int\n        :rtype: int\n        \"\"\"\n        "

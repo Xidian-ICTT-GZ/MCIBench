@@ -1,1 +1,0 @@
-"# @param {Integer} n\n# @param {Integer} k\n# @param {Integer} target\n# @return {Integer}\ndef num_rolls_to_target(n, k, target)\n    \nend"

@@ -1,1 +1,0 @@
-"# @param {String} s\n# @param {Integer[][]} queries\n# @return {Integer[]}\ndef plates_between_candles(s, queries)\n    \nend"

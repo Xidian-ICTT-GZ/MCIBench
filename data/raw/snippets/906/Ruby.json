@@ -1,1 +1,0 @@
-"# @param {String} left\n# @param {String} right\n# @return {Integer}\ndef superpalindromes_in_range(left, right)\n    \nend"

@@ -1,1 +1,0 @@
-"-spec last_stone_weight(Stones :: [integer()]) -> integer().\nlast_stone_weight(Stones) ->\n  ."

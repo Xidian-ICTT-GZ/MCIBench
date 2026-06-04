@@ -1,0 +1,1 @@
+"class Solution:\n    def longestValidParentheses(self, s: str) -> int:\n        "

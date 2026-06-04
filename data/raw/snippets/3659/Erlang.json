@@ -1,1 +1,0 @@
-"-spec partition_array(Nums :: [integer()], K :: integer()) -> boolean().\npartition_array(Nums, K) ->\n  ."

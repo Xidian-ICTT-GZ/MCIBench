@@ -1,1 +1,0 @@
-"-spec maximum_robots(ChargeTimes :: [integer()], RunningCosts :: [integer()], Budget :: integer()) -> integer().\nmaximum_robots(ChargeTimes, RunningCosts, Budget) ->\n  ."

@@ -1,0 +1,1 @@
+"-spec length_longest_path(Input :: unicode:unicode_binary()) -> integer().\nlength_longest_path(Input) ->\n  ."

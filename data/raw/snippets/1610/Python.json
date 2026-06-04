@@ -1,1 +1,0 @@
-"class Solution(object):\n    def visiblePoints(self, points, angle, location):\n        \"\"\"\n        :type points: List[List[int]]\n        :type angle: int\n        :type location: List[int]\n        :rtype: int\n        \"\"\"\n        "

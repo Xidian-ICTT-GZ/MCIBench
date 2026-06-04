@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $p1\n     * @param Integer[] $p2\n     * @param Integer[] $p3\n     * @param Integer[] $p4\n     * @return Boolean\n     */\n    function validSquare($p1, $p2, $p3, $p4) {\n        \n    }\n}"

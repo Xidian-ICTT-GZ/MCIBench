@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $nums1\n     * @param Integer[] $nums2\n     * @param Integer[] $nums3\n     * @return Integer[]\n     */\n    function twoOutOfThree($nums1, $nums2, $nums3) {\n        \n    }\n}"

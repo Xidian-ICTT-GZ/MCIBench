@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec most_profitable_path(edges :: [[integer]], bob :: integer, amount :: [integer]) :: integer\n  def most_profitable_path(edges, bob, amount) do\n    \n  end\nend"

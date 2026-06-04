@@ -1,1 +1,0 @@
-"class Solution {\n    func pathExistenceQueries(_ n: Int, _ nums: [Int], _ maxDiff: Int, _ queries: [[Int]]) -> [Bool] {\n        \n    }\n}"

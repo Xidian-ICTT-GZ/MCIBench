@@ -1,7 +1,0 @@
-impl Solution {
-    pub fn added_integer(nums1: Vec<i32>, nums2: Vec<i32>) -> i32 {
-        let max_num1 = *nums1.iter().max().unwrap_or(&i32::MIN);
-        let max_num2 = *nums2.iter().max().unwrap_or(&i32::MAX);
-        max_num2 - max_num1
-    }
-}

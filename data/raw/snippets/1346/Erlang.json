@@ -1,1 +1,0 @@
-"-spec check_if_exist(Arr :: [integer()]) -> boolean().\ncheck_if_exist(Arr) ->\n  ."

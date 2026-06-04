@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec min_swaps(nums :: [integer]) :: integer\n  def min_swaps(nums) do\n    \n  end\nend"

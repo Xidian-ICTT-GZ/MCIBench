@@ -1,0 +1,1 @@
+"-spec second_minimum(N :: integer(), Edges :: [[integer()]], Time :: integer(), Change :: integer()) -> integer().\nsecond_minimum(N, Edges, Time, Change) ->\n  ."

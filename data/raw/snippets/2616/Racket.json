@@ -1,1 +1,0 @@
-"(define/contract (minimize-max nums p)\n  (-> (listof exact-integer?) exact-integer? exact-integer?)\n  )"

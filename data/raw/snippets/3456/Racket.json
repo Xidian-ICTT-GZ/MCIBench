@@ -1,1 +1,0 @@
-"(define/contract (has-special-substring s k)\n  (-> string? exact-integer? boolean?)\n  )"

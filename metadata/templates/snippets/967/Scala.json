@@ -1,0 +1,1 @@
+"object Solution {\n    def numsSameConsecDiff(n: Int, k: Int): Array[Int] = {\n        \n    }\n}"

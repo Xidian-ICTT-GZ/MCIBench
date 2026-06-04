@@ -1,0 +1,1 @@
+"# @param {String} word\n# @return {String}\ndef compressed_string(word)\n    \nend"

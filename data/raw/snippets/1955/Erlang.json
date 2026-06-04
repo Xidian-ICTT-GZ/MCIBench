@@ -1,1 +1,0 @@
-"-spec count_special_subsequences(Nums :: [integer()]) -> integer().\ncount_special_subsequences(Nums) ->\n  ."

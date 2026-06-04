@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec make_strings_equal(s :: String.t, target :: String.t) :: boolean\n  def make_strings_equal(s, target) do\n    \n  end\nend"

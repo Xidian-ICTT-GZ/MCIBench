@@ -1,0 +1,1 @@
+"/**\n * @param {number} xCorner\n * @param {number} yCorner\n * @param {number[][]} circles\n * @return {boolean}\n */\nvar canReachCorner = function(xCorner, yCorner, circles) {\n    \n};"

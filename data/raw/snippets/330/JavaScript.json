@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} nums\n * @param {number} n\n * @return {number}\n */\nvar minPatches = function(nums, n) {\n    \n};"

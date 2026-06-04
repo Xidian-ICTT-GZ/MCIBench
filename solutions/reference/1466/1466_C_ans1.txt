@@ -1,0 +1,52 @@
+typedef struct Node {
+    int city;
+    int direction;
+    struct Node *next;
+} Node;
+
+Node *createNode(int city, int direction) {
+    Node *obj = (Node *)malloc(sizeof(Node));
+    obj->city = city;
+    obj->direction = direction;
+    obj->next = NULL;
+    return obj;
+}
+
+void freeList(Node *list) {
+    while (list) {
+        Node *cur = list;
+        list = list->next;
+        free(cur);
+    }
+}
+
+int dfs(int x, int parent, const Node **e) {
+    int res = 0;
+    for (Node *node = e[x]; node; node = node->next) {
+        if (node->city == parent) {
+            continue;
+        }
+        res += node->direction + dfs(node->city, x, e);
+    }
+    return res;
+}
+
+int minReorder(int n, int** connections, int connectionsSize, int* connectionsColSize) {
+    Node **e = (Node **)calloc(n, sizeof(Node *));
+    for (int i = 0; i < connectionsSize; i++) {
+        int x = connections[i][0];
+        int y = connections[i][1];
+        Node *nodex = createNode(x, 0);
+        Node *nodey = createNode(y, 1);
+        nodex->next = e[y];
+        e[y] = nodex;
+        nodey->next = e[x];
+        e[x] = nodey;
+    }
+    int ret = dfs(0, -1, e);
+    for (int i = 0; i < n; i++) {
+        freeList(e[i]);
+    }
+    free(e);
+    return ret;
+}

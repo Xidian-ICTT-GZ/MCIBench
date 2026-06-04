@@ -1,1 +1,0 @@
-"class Solution(object):\n    def getKth(self, lo, hi, k):\n        \"\"\"\n        :type lo: int\n        :type hi: int\n        :type k: int\n        :rtype: int\n        \"\"\"\n        "

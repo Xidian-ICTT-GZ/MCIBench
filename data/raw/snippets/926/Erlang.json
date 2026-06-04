@@ -1,1 +1,0 @@
-"-spec min_flips_mono_incr(S :: unicode:unicode_binary()) -> integer().\nmin_flips_mono_incr(S) ->\n  ."

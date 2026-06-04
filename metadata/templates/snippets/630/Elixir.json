@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec schedule_course(courses :: [[integer]]) :: integer\n  def schedule_course(courses) do\n    \n  end\nend"

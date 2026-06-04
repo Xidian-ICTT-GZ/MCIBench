@@ -1,0 +1,1 @@
+"class RLEIterator:\n\n    def __init__(self, encoding: List[int]):\n        \n\n    def next(self, n: int) -> int:\n        \n\n\n# Your RLEIterator object will be instantiated and called as such:\n# obj = RLEIterator(encoding)\n# param_1 = obj.next(n)"

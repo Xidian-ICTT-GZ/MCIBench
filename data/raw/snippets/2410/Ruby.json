@@ -1,1 +1,0 @@
-"# @param {Integer[]} players\n# @param {Integer[]} trainers\n# @return {Integer}\ndef match_players_and_trainers(players, trainers)\n    \nend"

@@ -1,1 +1,0 @@
-"public class Solution {\n    public IList<int> FindSmallestSetOfVertices(int n, IList<IList<int>> edges) {\n        \n    }\n}"

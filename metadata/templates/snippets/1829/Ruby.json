@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @param {Integer} maximum_bit\n# @return {Integer[]}\ndef get_maximum_xor(nums, maximum_bit)\n    \nend"

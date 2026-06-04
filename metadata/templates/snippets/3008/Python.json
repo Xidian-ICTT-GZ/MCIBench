@@ -1,0 +1,1 @@
+"class Solution(object):\n    def beautifulIndices(self, s, a, b, k):\n        \"\"\"\n        :type s: str\n        :type a: str\n        :type b: str\n        :type k: int\n        :rtype: List[int]\n        \"\"\"\n        "

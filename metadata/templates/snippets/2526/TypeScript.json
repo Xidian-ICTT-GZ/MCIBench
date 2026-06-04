@@ -1,0 +1,1 @@
+"class DataStream {\n    constructor(value: number, k: number) {\n        \n    }\n\n    consec(num: number): boolean {\n        \n    }\n}\n\n/**\n * Your DataStream object will be instantiated and called as such:\n * var obj = new DataStream(value, k)\n * var param_1 = obj.consec(num)\n */"

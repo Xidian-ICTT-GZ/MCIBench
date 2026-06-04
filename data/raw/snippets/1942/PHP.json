@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[][] $times\n     * @param Integer $targetFriend\n     * @return Integer\n     */\n    function smallestChair($times, $targetFriend) {\n        \n    }\n}"

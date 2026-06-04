@@ -1,1 +1,0 @@
-"-spec relative_sort_array(Arr1 :: [integer()], Arr2 :: [integer()]) -> [integer()].\nrelative_sort_array(Arr1, Arr2) ->\n  ."

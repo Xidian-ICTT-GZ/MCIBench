@@ -1,0 +1,1 @@
+"(define/contract (knight-dialer n)\n  (-> exact-integer? exact-integer?)\n  )"

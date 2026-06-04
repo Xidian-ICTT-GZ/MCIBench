@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer $left\n     * @param Integer $right\n     * @return Integer[]\n     */\n    function selfDividingNumbers($left, $right) {\n        \n    }\n}"

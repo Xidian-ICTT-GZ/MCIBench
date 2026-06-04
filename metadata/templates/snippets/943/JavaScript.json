@@ -1,0 +1,1 @@
+"/**\n * @param {string[]} words\n * @return {string}\n */\nvar shortestSuperstring = function(words) {\n    \n};"

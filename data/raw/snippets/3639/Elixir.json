@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec min_time(s :: String.t, order :: [integer], k :: integer) :: integer\n  def min_time(s, order, k) do\n    \n  end\nend"

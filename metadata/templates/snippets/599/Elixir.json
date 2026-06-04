@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec find_restaurant(list1 :: [String.t], list2 :: [String.t]) :: [String.t]\n  def find_restaurant(list1, list2) do\n    \n  end\nend"

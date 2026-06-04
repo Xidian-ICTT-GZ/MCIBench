@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} startTime\n * @param {number[]} endTime\n * @param {number} queryTime\n * @return {number}\n */\nvar busyStudent = function(startTime, endTime, queryTime) {\n    \n};"

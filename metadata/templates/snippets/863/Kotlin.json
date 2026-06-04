@@ -1,0 +1,1 @@
+"/**\n * Definition for a binary tree node.\n * class TreeNode(var `val`: Int = 0) {\n *     var left: TreeNode? = null\n *     var right: TreeNode? = null\n * }\n */\nclass Solution {\n    fun distanceK(root: TreeNode?, target: TreeNode?, k: Int): List<Int> {\n        \n    }\n}"

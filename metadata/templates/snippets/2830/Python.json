@@ -1,0 +1,1 @@
+"class Solution(object):\n    def maximizeTheProfit(self, n, offers):\n        \"\"\"\n        :type n: int\n        :type offers: List[List[int]]\n        :rtype: int\n        \"\"\"\n        "

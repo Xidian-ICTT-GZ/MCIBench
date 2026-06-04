@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec max_genetic_difference(parents :: [integer], queries :: [[integer]]) :: [integer]\n  def max_genetic_difference(parents, queries) do\n    \n  end\nend"

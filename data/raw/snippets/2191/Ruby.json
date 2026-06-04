@@ -1,1 +1,0 @@
-"# @param {Integer[]} mapping\n# @param {Integer[]} nums\n# @return {Integer[]}\ndef sort_jumbled(mapping, nums)\n    \nend"

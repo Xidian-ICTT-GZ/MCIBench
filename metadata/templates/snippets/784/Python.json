@@ -1,0 +1,1 @@
+"class Solution(object):\n    def letterCasePermutation(self, s):\n        \"\"\"\n        :type s: str\n        :rtype: List[str]\n        \"\"\"\n        "

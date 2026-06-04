@@ -1,0 +1,1 @@
+"object Solution {\n    def findWinningPlayer(skills: Array[Int], k: Int): Int = {\n        \n    }\n}"

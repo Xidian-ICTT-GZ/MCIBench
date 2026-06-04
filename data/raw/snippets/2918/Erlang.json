@@ -1,1 +1,0 @@
-"-spec min_sum(Nums1 :: [integer()], Nums2 :: [integer()]) -> integer().\nmin_sum(Nums1, Nums2) ->\n  ."

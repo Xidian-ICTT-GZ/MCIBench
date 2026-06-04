@@ -1,0 +1,1 @@
+"class Solution(object):\n    def captureForts(self, forts):\n        \"\"\"\n        :type forts: List[int]\n        :rtype: int\n        \"\"\"\n        "

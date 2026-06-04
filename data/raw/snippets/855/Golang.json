@@ -1,1 +1,0 @@
-"type ExamRoom struct {\n    \n}\n\n\nfunc Constructor(n int) ExamRoom {\n    \n}\n\n\nfunc (this *ExamRoom) Seat() int {\n    \n}\n\n\nfunc (this *ExamRoom) Leave(p int)  {\n    \n}\n\n\n/**\n * Your ExamRoom object will be instantiated and called as such:\n * obj := Constructor(n);\n * param_1 := obj.Seat();\n * obj.Leave(p);\n */"

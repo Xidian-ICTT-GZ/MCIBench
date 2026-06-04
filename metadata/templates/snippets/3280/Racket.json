@@ -1,0 +1,1 @@
+"(define/contract (convert-date-to-binary date)\n  (-> string? string?)\n  )"

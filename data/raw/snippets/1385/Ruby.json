@@ -1,1 +1,0 @@
-"# @param {Integer[]} arr1\n# @param {Integer[]} arr2\n# @param {Integer} d\n# @return {Integer}\ndef find_the_distance_value(arr1, arr2, d)\n    \nend"

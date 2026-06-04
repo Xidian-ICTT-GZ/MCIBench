@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int minGroups(vector<vector<int>>& intervals) {\n        \n    }\n};"

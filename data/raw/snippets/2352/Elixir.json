@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec equal_pairs(grid :: [[integer]]) :: integer\n  def equal_pairs(grid) do\n    \n  end\nend"

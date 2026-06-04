@@ -1,1 +1,0 @@
-"-spec max_subarrays(N :: integer(), ConflictingPairs :: [[integer()]]) -> integer().\nmax_subarrays(N, ConflictingPairs) ->\n  ."

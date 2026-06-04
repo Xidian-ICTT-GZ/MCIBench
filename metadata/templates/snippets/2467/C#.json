@@ -1,0 +1,1 @@
+"public class Solution {\n    public int MostProfitablePath(int[][] edges, int bob, int[] amount) {\n        \n    }\n}"

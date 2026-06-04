@@ -1,0 +1,1 @@
+"class Solution {\n  List<int> closestRoom(List<List<int>> rooms, List<List<int>> queries) {\n    \n  }\n}"

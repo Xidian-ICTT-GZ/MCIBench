@@ -1,1 +1,0 @@
-"/**\n * @param {number} n\n * @param {number[][]} rectangles\n * @return {boolean}\n */\nvar checkValidCuts = function(n, rectangles) {\n    \n};"

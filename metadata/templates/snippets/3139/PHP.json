@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer $cost1\n     * @param Integer $cost2\n     * @return Integer\n     */\n    function minCostToEqualizeArray($nums, $cost1, $cost2) {\n        \n    }\n}"

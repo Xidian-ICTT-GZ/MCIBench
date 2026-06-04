@@ -1,0 +1,27 @@
+class Solution {
+    public List<Integer> largestValues(TreeNode root) {
+        if (root == null) {
+            return new ArrayList<Integer>();
+        }
+        List<Integer> res = new ArrayList<Integer>();
+        Queue<TreeNode> queue = new ArrayDeque<TreeNode>();
+        queue.offer(root);
+        while (!queue.isEmpty()) {
+            int len = queue.size();
+            int maxVal = Integer.MIN_VALUE;
+            while (len > 0) {
+                len--;
+                TreeNode t = queue.poll();
+                maxVal = Math.max(maxVal, t.val);
+                if (t.left != null) {
+                    queue.offer(t.left);
+                }
+                if (t.right != null) {
+                    queue.offer(t.right);
+                }
+            }
+            res.add(maxVal);
+        }
+        return res;
+    }
+}

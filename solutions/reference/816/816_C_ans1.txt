@@ -1,0 +1,63 @@
+char ** getPos(const char *s, int *returnSize) {
+    int len = strlen(s);
+    char **res = (char **)malloc(sizeof(char *) * len);
+    int pos = 0;
+    if (s[0] != '0' || strcmp(s, "0") == 0) {
+        res[pos] = (char *)malloc(sizeof(char) * (len + 1));
+        strcpy(res[pos], s);
+        pos++;
+    }
+    for (int p = 1; p < len; ++p) {
+        if ((p != 1 && s[0] == '0') || s[len - 1] == '0') {
+            continue;
+        }
+        res[pos] = (char *)malloc(sizeof(char) * (len + 2));
+        strncpy(res[pos], s, p);
+        sprintf(res[pos] + p, ".%s", s + p);
+        pos++;
+    }
+    *returnSize = pos;
+    return res;
+}
+
+char ** ambiguousCoordinates(char * s, int* returnSize) {
+    int n = strlen(s) - 2;
+    s = s + 1;
+    s[n] = '\0';
+    char **res = (char *)malloc(sizeof(char *) * pow(n, 3));
+    int pos = 0;
+    for (int l = 1; l < n; ++l) {
+        char ls[n + 1];
+        strncpy(ls, s, l);
+        ls[l] = '\0';
+        int ltSize = 0;
+        char **lt = getPos(ls, &ltSize);
+        if (ltSize == 0) {
+            continue;
+        }
+        char rs[n + 1];
+        strncpy(rs, s + l, n - l);
+        rs[n - l] = '\0';
+        int rtSize = 0;
+        char **rt = getPos(rs, &rtSize);
+        if (rtSize == 0) {
+            continue;
+        }
+        for (int i = 0; i < ltSize; i++) {
+            for (int j = 0; j < rtSize; j++) {
+                res[pos] = (char *)malloc(sizeof(char) * (n + 8));
+                sprintf(res[pos++], "(%s, %s)", lt[i], rt[j]);
+            }
+        }
+        for (int i = 0; i < ltSize; i++) {
+            free(lt[i]);
+        }
+        for (int i = 0; i < rtSize; i++) {
+            free(rt[i]);
+        }
+        free(lt);
+        free(rt);
+    }
+    *returnSize = pos;
+    return res;
+}

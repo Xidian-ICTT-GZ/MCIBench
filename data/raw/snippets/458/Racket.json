@@ -1,1 +1,0 @@
-"(define/contract (poor-pigs buckets minutesToDie minutesToTest)\n  (-> exact-integer? exact-integer? exact-integer? exact-integer?)\n  )"

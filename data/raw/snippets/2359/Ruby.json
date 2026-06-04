@@ -1,1 +1,0 @@
-"# @param {Integer[]} edges\n# @param {Integer} node1\n# @param {Integer} node2\n# @return {Integer}\ndef closest_meeting_node(edges, node1, node2)\n    \nend"

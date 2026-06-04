@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec min_time_to_type(word :: String.t) :: integer\n  def min_time_to_type(word) do\n    \n  end\nend"

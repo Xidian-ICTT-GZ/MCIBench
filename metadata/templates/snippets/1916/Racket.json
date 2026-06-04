@@ -1,0 +1,1 @@
+"(define/contract (ways-to-build-rooms prevRoom)\n  (-> (listof exact-integer?) exact-integer?)\n  )"

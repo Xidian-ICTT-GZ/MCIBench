@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int minimumTotal(vector<vector<int>>& triangle) {\n        \n    }\n};"

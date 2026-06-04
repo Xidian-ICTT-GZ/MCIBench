@@ -1,1 +1,0 @@
-"class StreamChecker(words: Array<String>) {\n\n    fun query(letter: Char): Boolean {\n        \n    }\n\n}\n\n/**\n * Your StreamChecker object will be instantiated and called as such:\n * var obj = StreamChecker(words)\n * var param_1 = obj.query(letter)\n */"

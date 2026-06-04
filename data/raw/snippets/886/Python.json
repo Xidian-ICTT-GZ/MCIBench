@@ -1,1 +1,0 @@
-"class Solution(object):\n    def possibleBipartition(self, n, dislikes):\n        \"\"\"\n        :type n: int\n        :type dislikes: List[List[int]]\n        :rtype: bool\n        \"\"\"\n        "

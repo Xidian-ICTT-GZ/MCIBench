@@ -1,1 +1,0 @@
-"/**\n * @param {number[][]} rooms\n * @param {number[][]} queries\n * @return {number[]}\n */\nvar closestRoom = function(rooms, queries) {\n    \n};"

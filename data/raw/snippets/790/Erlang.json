@@ -1,1 +1,0 @@
-"-spec num_tilings(N :: integer()) -> integer().\nnum_tilings(N) ->\n  ."

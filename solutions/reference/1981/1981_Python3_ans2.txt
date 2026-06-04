@@ -1,0 +1,24 @@
+class Solution:
+    def minimizeTheDifference(self, mat: List[List[int]], target: int) -> int:
+        m, n = len(mat), len(mat[0])
+        
+        f = {0}
+        
+        large = float("inf")
+        for i in range(m):
+            g = set()
+            next_large = float("inf")
+            for x in mat[i]:
+                for j in f:
+                    if j + x >= target:
+                        next_large = min(next_large, j + x)
+                    else:
+                        g.add(j + x)
+                next_large = min(next_large, large + x)
+            f = g
+            large = next_large
+        
+        ans = abs(large - target)
+        for x in f:
+            ans = min(ans, abs(x - target))
+        return ans

@@ -1,1 +1,0 @@
-"-spec stone_game(Piles :: [integer()]) -> boolean().\nstone_game(Piles) ->\n  ."

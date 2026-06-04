@@ -1,1 +1,0 @@
-"class Solution {\n    fun spiralMatrixIII(rows: Int, cols: Int, rStart: Int, cStart: Int): Array<IntArray> {\n        \n    }\n}"

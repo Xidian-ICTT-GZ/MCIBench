@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec get_smallest_string(n :: integer, k :: integer) :: String.t\n  def get_smallest_string(n, k) do\n    \n  end\nend"

@@ -1,1 +1,0 @@
-"object Solution {\n    def findSafeWalk(grid: List[List[Int]], health: Int): Boolean = {\n        \n    }\n}"

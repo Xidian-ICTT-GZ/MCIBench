@@ -1,1 +1,0 @@
-"(define/contract (find-kth-bit n k)\n  (-> exact-integer? exact-integer? char?)\n  )"

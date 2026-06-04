@@ -1,0 +1,48 @@
+public class Solution {
+    public bool PossibleBipartition(int n, int[][] dislikes) {
+        int[] fa = new int[n + 1];
+        Array.Fill(fa, -1);
+        IList<int>[] g = new IList<int>[n + 1];
+        for (int i = 0; i <= n; ++i) {
+            g[i] = new List<int>();
+        }
+        foreach (int[] p in dislikes) {
+            g[p[0]].Add(p[1]);
+            g[p[1]].Add(p[0]);
+        }
+        for (int i = 1; i <= n; ++i) {
+            for (int j = 0; j < g[i].Count; ++j) {
+                Unit(g[i][0], g[i][j], fa);
+                if (Isconnect(i, g[i][j], fa)) {
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+
+    public void Unit(int x, int y, int[] fa) {
+        x = FindFa(x, fa);
+        y = FindFa(y, fa);
+        if (x == y) {
+            return ;
+        }
+        if (fa[x] < fa[y]) {
+            int temp = x;
+            x = y;
+            y = temp;
+        }
+        fa[x] += fa[y];
+        fa[y] = x;
+    }
+
+    public bool Isconnect(int x, int y, int[] fa) {
+        x = FindFa(x, fa);
+        y = FindFa(y, fa);
+        return x == y;
+    }
+
+    public int FindFa(int x, int[] fa) {
+        return fa[x] < 0 ? x : (fa[x] = FindFa(fa[x], fa));
+    }
+}

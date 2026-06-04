@@ -1,1 +1,0 @@
-"-spec escape_ghosts(Ghosts :: [[integer()]], Target :: [integer()]) -> boolean().\nescape_ghosts(Ghosts, Target) ->\n  ."

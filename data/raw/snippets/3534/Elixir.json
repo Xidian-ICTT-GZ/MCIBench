@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec path_existence_queries(n :: integer, nums :: [integer], max_diff :: integer, queries :: [[integer]]) :: [integer]\n  def path_existence_queries(n, nums, max_diff, queries) do\n    \n  end\nend"

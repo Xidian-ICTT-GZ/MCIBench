@@ -1,1 +1,0 @@
-"class Solution:\n    def longestCommonPrefix(self, words: List[str], k: int) -> List[int]:\n        "

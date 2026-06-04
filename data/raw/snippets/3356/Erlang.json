@@ -1,1 +1,0 @@
-"-spec min_zero_array(Nums :: [integer()], Queries :: [[integer()]]) -> integer().\nmin_zero_array(Nums, Queries) ->\n  ."

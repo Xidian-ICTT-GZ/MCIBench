@@ -1,1 +1,0 @@
-"-spec color_the_grid(M :: integer(), N :: integer()) -> integer().\ncolor_the_grid(M, N) ->\n  ."

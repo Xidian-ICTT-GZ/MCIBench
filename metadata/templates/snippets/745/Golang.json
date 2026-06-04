@@ -1,0 +1,1 @@
+"type WordFilter struct {\n    \n}\n\n\nfunc Constructor(words []string) WordFilter {\n    \n}\n\n\nfunc (this *WordFilter) F(pref string, suff string) int {\n    \n}\n\n\n/**\n * Your WordFilter object will be instantiated and called as such:\n * obj := Constructor(words);\n * param_1 := obj.F(pref,suff);\n */"

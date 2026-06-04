@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec remove_digit(number :: String.t, digit :: char) :: String.t\n  def remove_digit(number, digit) do\n    \n  end\nend"

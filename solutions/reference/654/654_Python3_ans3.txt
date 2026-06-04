@@ -1,0 +1,16 @@
+class Solution:
+    def constructMaximumBinaryTree(self, nums: List[int]) -> Optional[TreeNode]:
+        n = len(nums)
+        stk = list()
+        tree = [None] * n
+
+        for i in range(n):
+            tree[i] = TreeNode(nums[i])
+            while stk and nums[i] > nums[stk[-1]]:
+                tree[i].left = tree[stk[-1]]
+                stk.pop()
+            if stk:
+                tree[stk[-1]].right = tree[i]
+            stk.append(i)
+        
+        return tree[stk[0]]

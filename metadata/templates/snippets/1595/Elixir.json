@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec connect_two_groups(cost :: [[integer]]) :: integer\n  def connect_two_groups(cost) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"class Solution(object):\n    def isPathCrossing(self, path):\n        \"\"\"\n        :type path: str\n        :rtype: bool\n        \"\"\"\n        "

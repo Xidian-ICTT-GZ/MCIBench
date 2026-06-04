@@ -1,1 +1,0 @@
-"class WordDictionary() {\n\n    fun addWord(word: String) {\n        \n    }\n\n    fun search(word: String): Boolean {\n        \n    }\n\n}\n\n/**\n * Your WordDictionary object will be instantiated and called as such:\n * var obj = WordDictionary()\n * obj.addWord(word)\n * var param_2 = obj.search(word)\n */"

@@ -1,1 +1,0 @@
-"class Solution {\n    fun subtreeInversionSum(edges: Array<IntArray>, nums: IntArray, k: Int): Long {\n        \n    }\n}"

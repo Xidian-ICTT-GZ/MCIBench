@@ -1,0 +1,1 @@
+"object Solution {\n    def kItemsWithMaximumSum(numOnes: Int, numZeros: Int, numNegOnes: Int, k: Int): Int = {\n        \n    }\n}"

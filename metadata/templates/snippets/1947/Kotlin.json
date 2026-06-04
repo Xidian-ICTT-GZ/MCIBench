@@ -1,0 +1,1 @@
+"class Solution {\n    fun maxCompatibilitySum(students: Array<IntArray>, mentors: Array<IntArray>): Int {\n        \n    }\n}"

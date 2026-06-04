@@ -1,0 +1,1 @@
+"class Solution:\n    def countMentions(self, numberOfUsers: int, events: List[List[str]]) -> List[int]:\n        "

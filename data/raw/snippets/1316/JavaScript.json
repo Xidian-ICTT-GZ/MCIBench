@@ -1,1 +1,0 @@
-"/**\n * @param {string} text\n * @return {number}\n */\nvar distinctEchoSubstrings = function(text) {\n    \n};"

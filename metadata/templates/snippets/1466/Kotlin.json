@@ -1,0 +1,1 @@
+"class Solution {\n    fun minReorder(n: Int, connections: Array<IntArray>): Int {\n        \n    }\n}"

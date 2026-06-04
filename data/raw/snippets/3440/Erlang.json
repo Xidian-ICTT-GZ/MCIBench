@@ -1,1 +1,0 @@
-"-spec max_free_time(EventTime :: integer(), StartTime :: [integer()], EndTime :: [integer()]) -> integer().\nmax_free_time(EventTime, StartTime, EndTime) ->\n  ."

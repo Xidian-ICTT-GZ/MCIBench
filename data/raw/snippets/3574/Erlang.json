@@ -1,1 +1,0 @@
-"-spec max_gcd_score(Nums :: [integer()], K :: integer()) -> integer().\nmax_gcd_score(Nums, K) ->\n  ."

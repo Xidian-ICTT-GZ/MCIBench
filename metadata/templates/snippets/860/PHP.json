@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $bills\n     * @return Boolean\n     */\n    function lemonadeChange($bills) {\n        \n    }\n}"

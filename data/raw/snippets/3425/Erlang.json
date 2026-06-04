@@ -1,1 +1,0 @@
-"-spec longest_special_path(Edges :: [[integer()]], Nums :: [integer()]) -> [integer()].\nlongest_special_path(Edges, Nums) ->\n  ."

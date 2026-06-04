@@ -1,1 +1,0 @@
-"class Solution(object):\n    def accountsMerge(self, accounts):\n        \"\"\"\n        :type accounts: List[List[str]]\n        :rtype: List[List[str]]\n        \"\"\"\n        "

@@ -1,1 +1,0 @@
-"class Solution(object):\n    def divideString(self, s, k, fill):\n        \"\"\"\n        :type s: str\n        :type k: int\n        :type fill: str\n        :rtype: List[str]\n        \"\"\"\n        "

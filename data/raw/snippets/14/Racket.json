@@ -1,1 +1,0 @@
-"(define/contract (longest-common-prefix strs)\n  (-> (listof string?) string?)\n  )"

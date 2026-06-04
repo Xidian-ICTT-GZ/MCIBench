@@ -1,0 +1,1 @@
+"object Solution {\n    def maximumSafenessFactor(grid: List[List[Int]]): Int = {\n        \n    }\n}"

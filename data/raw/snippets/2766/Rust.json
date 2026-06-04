@@ -1,1 +1,0 @@
-"impl Solution {\n    pub fn relocate_marbles(nums: Vec<i32>, move_from: Vec<i32>, move_to: Vec<i32>) -> Vec<i32> {\n        \n    }\n}"

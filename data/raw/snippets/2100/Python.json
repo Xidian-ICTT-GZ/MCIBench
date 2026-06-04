@@ -1,1 +1,0 @@
-"class Solution(object):\n    def goodDaysToRobBank(self, security, time):\n        \"\"\"\n        :type security: List[int]\n        :type time: int\n        :rtype: List[int]\n        \"\"\"\n        "

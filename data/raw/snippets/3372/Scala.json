@@ -1,1 +1,0 @@
-"object Solution {\n    def maxTargetNodes(edges1: Array[Array[Int]], edges2: Array[Array[Int]], k: Int): Array[Int] = {\n        \n    }\n}"

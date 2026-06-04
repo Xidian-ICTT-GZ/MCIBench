@@ -1,1 +1,0 @@
-"(define/contract (can-alice-win nums)\n  (-> (listof exact-integer?) boolean?)\n  )"

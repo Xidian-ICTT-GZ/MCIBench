@@ -1,1 +1,0 @@
-"-spec minimum_card_pickup(Cards :: [integer()]) -> integer().\nminimum_card_pickup(Cards) ->\n  ."

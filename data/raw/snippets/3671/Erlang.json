@@ -1,1 +1,0 @@
-"-spec total_beauty(Nums :: [integer()]) -> integer().\ntotal_beauty(Nums) ->\n  ."

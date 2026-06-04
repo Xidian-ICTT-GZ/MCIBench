@@ -1,1 +1,0 @@
-"-spec smallest_range_ii(Nums :: [integer()], K :: integer()) -> integer().\nsmallest_range_ii(Nums, K) ->\n  ."

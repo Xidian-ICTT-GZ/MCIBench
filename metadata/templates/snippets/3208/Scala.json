@@ -1,0 +1,1 @@
+"object Solution {\n    def numberOfAlternatingGroups(colors: Array[Int], k: Int): Int = {\n        \n    }\n}"

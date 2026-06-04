@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    long long maxSubarrays(int n, vector<vector<int>>& conflictingPairs) {\n        \n    }\n};"

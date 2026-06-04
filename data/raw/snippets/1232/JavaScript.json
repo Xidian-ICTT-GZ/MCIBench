@@ -1,1 +1,0 @@
-"/**\n * @param {number[][]} coordinates\n * @return {boolean}\n */\nvar checkStraightLine = function(coordinates) {\n    \n};"

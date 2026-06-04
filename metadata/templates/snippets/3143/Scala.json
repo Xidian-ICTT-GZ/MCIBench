@@ -1,0 +1,1 @@
+"object Solution {\n    def maxPointsInsideSquare(points: Array[Array[Int]], s: String): Int = {\n        \n    }\n}"

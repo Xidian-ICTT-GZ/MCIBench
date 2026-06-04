@@ -1,1 +1,0 @@
-"-spec can_win_nim(N :: integer()) -> boolean().\ncan_win_nim(N) ->\n  ."

@@ -1,1 +1,0 @@
-"class NumMatrix {\n    constructor(matrix: number[][]) {\n        \n    }\n\n    sumRegion(row1: number, col1: number, row2: number, col2: number): number {\n        \n    }\n}\n\n/**\n * Your NumMatrix object will be instantiated and called as such:\n * var obj = new NumMatrix(matrix)\n * var param_1 = obj.sumRegion(row1,col1,row2,col2)\n */"

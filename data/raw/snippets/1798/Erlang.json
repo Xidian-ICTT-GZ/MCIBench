@@ -1,1 +1,0 @@
-"-spec get_maximum_consecutive(Coins :: [integer()]) -> integer().\nget_maximum_consecutive(Coins) ->\n  ."

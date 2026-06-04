@@ -1,0 +1,1 @@
+"-spec get_xor_sum(Arr1 :: [integer()], Arr2 :: [integer()]) -> integer().\nget_xor_sum(Arr1, Arr2) ->\n  ."

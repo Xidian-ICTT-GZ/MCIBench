@@ -1,1 +1,0 @@
-"# @param {Integer[]} nums\n# @param {Integer} k\n# @param {Integer} x\n# @return {Integer[]}\ndef find_x_sum(nums, k, x)\n    \nend"

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec check_if_exist(arr :: [integer]) :: boolean\n  def check_if_exist(arr) do\n    \n  end\nend"

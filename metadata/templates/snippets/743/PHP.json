@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $times\n     * @param Integer $n\n     * @param Integer $k\n     * @return Integer\n     */\n    function networkDelayTime($times, $n, $k) {\n        \n    }\n}"

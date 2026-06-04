@@ -1,1 +1,0 @@
-"class Solution(object):\n    def minimizeSet(self, divisor1, divisor2, uniqueCnt1, uniqueCnt2):\n        \"\"\"\n        :type divisor1: int\n        :type divisor2: int\n        :type uniqueCnt1: int\n        :type uniqueCnt2: int\n        :rtype: int\n        \"\"\"\n        "

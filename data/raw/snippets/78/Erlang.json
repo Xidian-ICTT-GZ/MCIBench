@@ -1,1 +1,0 @@
-"-spec subsets(Nums :: [integer()]) -> [[integer()]].\nsubsets(Nums) ->\n  ."

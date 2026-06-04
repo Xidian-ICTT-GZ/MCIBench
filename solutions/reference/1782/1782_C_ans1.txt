@@ -1,0 +1,110 @@
+typedef struct {
+    int key;
+    int val;
+    UT_hash_handle hh;
+} HashItem; 
+
+HashItem *hashFindItem(HashItem **obj, int key) {
+    HashItem *pEntry = NULL;
+    HASH_FIND_INT(*obj, &key, pEntry);
+    return pEntry;
+}
+
+bool hashAddItem(HashItem **obj, int key, int val) {
+    if (hashFindItem(obj, key)) {
+        return false;
+    }
+    HashItem *pEntry = (HashItem *)malloc(sizeof(HashItem));
+    pEntry->key = key;
+    pEntry->val = val;
+    HASH_ADD_INT(*obj, key, pEntry);
+    return true;
+}
+
+bool hashSetItem(HashItem **obj, int key, int val) {
+    HashItem *pEntry = hashFindItem(obj, key);
+    if (!pEntry) {
+        hashAddItem(obj, key, val);
+    } else {
+        pEntry->val = val;
+    }
+    return true;
+}
+
+int hashGetItem(HashItem **obj, int key, int defaultVal) {
+    HashItem *pEntry = hashFindItem(obj, key);
+    if (!pEntry) {
+        return defaultVal;
+    }
+    return pEntry->val;
+}
+
+void hashFree(HashItem **obj) {
+    HashItem *curr = NULL, *tmp = NULL;
+    HASH_ITER(hh, *obj, curr, tmp) {
+        HASH_DEL(*obj, curr);  
+        free(curr);
+    }
+}
+
+static inline int cmp(const void *a, const void *b) {
+    return *(int *)a - *(int *)b;
+}
+
+int binarySearch(const int *arr, int left, int right, int target) {
+    int ans = right + 1;
+    while (left <= right) {
+        int mid = (left + right) >> 1;
+        if (arr[mid] <= target) {
+            left = mid + 1;
+        } else {
+            right = mid - 1;
+            ans = mid;
+        }
+    }
+    return ans;
+}
+
+int* countPairs(int n, int** edges, int edgesSize, int* edgesColSize, int* queries, int queriesSize, int* returnSize) {
+    int degree[n];
+    HashItem *cnt = NULL;
+    memset(degree, 0, sizeof(degree));
+    for (int i = 0; i < edgesSize; i++) {
+        int x = edges[i][0] - 1, y = edges[i][1] - 1;
+        if (x > y) {
+            int tmp = x;
+            x = y;
+            y = tmp;
+        }
+        degree[x]++;
+        degree[y]++;
+        hashSetItem(&cnt, x * n + y, hashGetItem(&cnt, x * n + y, 0) + 1);
+    }
+
+    int arr[n];
+    int *ans = (int *)malloc(sizeof(int) * queriesSize);
+    int pos = 0;
+    memcpy(arr, degree, sizeof(degree));
+    qsort(arr, n, sizeof(int), cmp);
+    for (int k = 0; k < queriesSize; k++) {
+        int bound = queries[k];
+        int total = 0;
+        for (int i = 0; i < n; i++) {
+            int j = binarySearch(arr, i + 1, n - 1, bound - arr[i]);
+            total += n - j;
+        }
+        for (HashItem *pEntry = cnt; pEntry; pEntry = pEntry->hh.next) {
+            int val = pEntry->key;
+            int freq = pEntry->val;
+            int x = val / n;
+            int y = val % n;
+            if (degree[x] + degree[y] > bound && degree[x] + degree[y] - freq <= bound) {
+                total--;
+            }
+        }
+        ans[k] = total;
+    }
+    hashFree(&cnt);
+    *returnSize = queriesSize;
+    return ans;
+}

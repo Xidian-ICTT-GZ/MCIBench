@@ -1,1 +1,0 @@
-"-spec good_subtree_sum(Vals :: [integer()], Par :: [integer()]) -> integer().\ngood_subtree_sum(Vals, Par) ->\n  ."

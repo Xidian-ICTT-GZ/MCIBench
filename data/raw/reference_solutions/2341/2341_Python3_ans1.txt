@@ -1,9 +1,0 @@
-class Solution:
-    def numberOfPairs(self, nums: List[int]) -> List[int]:
-        cnt = defaultdict(bool)
-        res = 0
-        for num in nums:
-            cnt[num] = not cnt[num]
-            if not cnt[num]:
-                res += 1
-        return [res, len(nums) - 2 * res]

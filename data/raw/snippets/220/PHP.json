@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer $indexDiff\n     * @param Integer $valueDiff\n     * @return Boolean\n     */\n    function containsNearbyAlmostDuplicate($nums, $indexDiff, $valueDiff) {\n        \n    }\n}"

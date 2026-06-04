@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec total_fruit(fruits :: [integer]) :: integer\n  def total_fruit(fruits) do\n    \n  end\nend"

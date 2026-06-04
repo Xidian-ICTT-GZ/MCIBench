@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec button_with_longest_time(events :: [[integer]]) :: integer\n  def button_with_longest_time(events) do\n    \n  end\nend"

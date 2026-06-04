@@ -1,1 +1,0 @@
-"class Solution:\n    def minimumBoxes(self, apple: List[int], capacity: List[int]) -> int:\n        "

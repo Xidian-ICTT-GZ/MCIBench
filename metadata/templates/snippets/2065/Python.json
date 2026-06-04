@@ -1,0 +1,1 @@
+"class Solution(object):\n    def maximalPathQuality(self, values, edges, maxTime):\n        \"\"\"\n        :type values: List[int]\n        :type edges: List[List[int]]\n        :type maxTime: int\n        :rtype: int\n        \"\"\"\n        "

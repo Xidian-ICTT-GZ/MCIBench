@@ -1,0 +1,1 @@
+"/**\n * @param {string[]} patterns\n * @param {string} word\n * @return {number}\n */\nvar numOfStrings = function(patterns, word) {\n    \n};"

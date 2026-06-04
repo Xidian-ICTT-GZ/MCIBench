@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String $beginWord\n     * @param String $endWord\n     * @param String[] $wordList\n     * @return Integer\n     */\n    function ladderLength($beginWord, $endWord, $wordList) {\n        \n    }\n}"

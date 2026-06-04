@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer $target\n     * @param Integer $maxDoubles\n     * @return Integer\n     */\n    function minMoves($target, $maxDoubles) {\n        \n    }\n}"

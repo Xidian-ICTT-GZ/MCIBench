@@ -1,0 +1,3 @@
+var distanceTraveled = function(mainTank, additionalTank) {
+    return 10 * (mainTank + Math.min(Math.floor((mainTank - 1) / 4), additionalTank));
+};

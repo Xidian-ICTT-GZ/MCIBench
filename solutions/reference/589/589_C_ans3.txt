@@ -1,0 +1,23 @@
+#define MAX_NODE_SIZE 10000
+
+int* preorder(const struct Node* root, int* returnSize) {
+    if (NULL == root) {
+        *returnSize = 0;
+        return NULL;
+    }
+    int * res = (int *)malloc(sizeof(int) * MAX_NODE_SIZE);
+    struct Node ** stack = (struct Node **)malloc(sizeof(struct Node *) * MAX_NODE_SIZE);
+    int pos = 0, top = 0;  
+
+    stack[top++] = root;
+    while (top != 0) {
+        struct Node * node = stack[--top];
+        res[pos++] = node->val;
+        for (int i = node->numChildren - 1; i >= 0; i--) {
+            stack[top++] = node->children[i];
+        }
+    }
+    free(stack);
+    *returnSize = pos;
+    return res;
+}

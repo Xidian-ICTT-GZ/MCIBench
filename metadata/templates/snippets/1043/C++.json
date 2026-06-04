@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int maxSumAfterPartitioning(vector<int>& arr, int k) {\n        \n    }\n};"

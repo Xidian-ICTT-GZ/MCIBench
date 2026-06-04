@@ -1,1 +1,0 @@
-"(define/contract (max-distance position m)\n  (-> (listof exact-integer?) exact-integer? exact-integer?)\n  )"

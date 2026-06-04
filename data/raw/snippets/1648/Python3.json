@@ -1,1 +1,0 @@
-"class Solution:\n    def maxProfit(self, inventory: List[int], orders: int) -> int:\n        "

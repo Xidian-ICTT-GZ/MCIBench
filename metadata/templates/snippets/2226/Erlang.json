@@ -1,0 +1,1 @@
+"-spec maximum_candies(Candies :: [integer()], K :: integer()) -> integer().\nmaximum_candies(Candies, K) ->\n  ."

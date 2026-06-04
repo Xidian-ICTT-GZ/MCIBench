@@ -1,0 +1,24 @@
+var SmallestInfiniteSet = function() {
+    this.thres = 1;
+    this.s = new Set();
+    this.pq = new MinPriorityQueue();
+};
+
+SmallestInfiniteSet.prototype.popSmallest = function() {
+    let ans = 0;
+    if (this.s.size == 0) {
+        ans = this.thres;
+        this.thres++;
+        return ans;
+    }
+    ans = this.pq.dequeue().element;
+    this.s.delete(ans);
+    return ans;
+};
+
+SmallestInfiniteSet.prototype.addBack = function(num) {
+    if (num < this.thres && !this.s.has(num)) {
+        this.s.add(num);
+        this.pq.enqueue(num);
+    }
+};

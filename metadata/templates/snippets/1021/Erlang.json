@@ -1,0 +1,1 @@
+"-spec remove_outer_parentheses(S :: unicode:unicode_binary()) -> unicode:unicode_binary().\nremove_outer_parentheses(S) ->\n  ."

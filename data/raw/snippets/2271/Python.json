@@ -1,1 +1,0 @@
-"class Solution(object):\n    def maximumWhiteTiles(self, tiles, carpetLen):\n        \"\"\"\n        :type tiles: List[List[int]]\n        :type carpetLen: int\n        :rtype: int\n        \"\"\"\n        "

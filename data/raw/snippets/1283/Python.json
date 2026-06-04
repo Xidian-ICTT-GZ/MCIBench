@@ -1,1 +1,0 @@
-"class Solution(object):\n    def smallestDivisor(self, nums, threshold):\n        \"\"\"\n        :type nums: List[int]\n        :type threshold: int\n        :rtype: int\n        \"\"\"\n        "

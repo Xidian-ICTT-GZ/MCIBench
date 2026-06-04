@@ -1,1 +1,0 @@
-"-spec minimum_time_required(Jobs :: [integer()], K :: integer()) -> integer().\nminimum_time_required(Jobs, K) ->\n  ."

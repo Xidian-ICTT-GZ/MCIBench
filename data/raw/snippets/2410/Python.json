@@ -1,1 +1,0 @@
-"class Solution(object):\n    def matchPlayersAndTrainers(self, players, trainers):\n        \"\"\"\n        :type players: List[int]\n        :type trainers: List[int]\n        :rtype: int\n        \"\"\"\n        "

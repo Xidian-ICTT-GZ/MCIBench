@@ -1,1 +1,0 @@
-"-spec make_array_increasing(Arr1 :: [integer()], Arr2 :: [integer()]) -> integer().\nmake_array_increasing(Arr1, Arr2) ->\n  ."

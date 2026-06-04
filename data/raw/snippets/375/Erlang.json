@@ -1,1 +1,0 @@
-"-spec get_money_amount(N :: integer()) -> integer().\nget_money_amount(N) ->\n  ."

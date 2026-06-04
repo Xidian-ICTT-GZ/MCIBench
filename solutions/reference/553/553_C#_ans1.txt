@@ -1,0 +1,53 @@
+public class Solution {
+    public string OptimalDivision(int[] nums) {
+        int n = nums.Length;
+        Node[,] dp = new Node[n, n];
+        for (int i = 0; i < n; i++) {
+            for (int j = i; j < n; j++) {
+                dp[i, j] = new Node();
+            }
+        }
+
+        for (int i = 0; i < n; i++) {
+            dp[i, i].MinVal = nums[i];
+            dp[i, i].MaxVal = nums[i];
+            dp[i, i].MinStr = nums[i].ToString();
+            dp[i, i].MaxStr = nums[i].ToString();
+        }
+        for (int i = 1; i < n; i++) {
+            for (int j = 0; j + i < n; j++) {
+                for (int k = j; k < j + i; k++) {
+                    if (dp[j, j + i].MaxVal < dp[j, k].MaxVal / dp[k + 1, j + i].MinVal) {
+                        dp[j, j + i].MaxVal = dp[j, k].MaxVal / dp[k + 1, j + i].MinVal;
+                        if (k + 1 == j + i) {
+                            dp[j, j + i].MaxStr = dp[j, k].MaxStr + "/" + dp[k + 1, j + i].MinStr;
+                        } else {
+                            dp[j, j + i].MaxStr = dp[j, k].MaxStr + "/(" + dp[k + 1, j + i].MinStr + ")";
+                        }
+                    }
+                    if (dp[j, j + i].MinVal > dp[j, k].MinVal / dp[k + 1, j + i].MaxVal) {
+                        dp[j, j + i].MinVal = dp[j, k].MinVal / dp[k + 1, j + i].MaxVal;
+                        if (k + 1 == j + i) {
+                            dp[j, j + i].MinStr = dp[j, k].MinStr + "/" + dp[k + 1, j + i].MaxStr; 
+                        } else {
+                            dp[j, j + i].MinStr = dp[j, k].MinStr + "/(" + dp[k + 1, j + i].MaxStr + ")"; 
+                        }
+                    }
+                }
+            }
+        }
+        return dp[0, n - 1].MaxStr;
+    }
+}
+
+class Node {
+    public double MaxVal { get; set; }
+    public double MinVal { get; set; }
+    public string MinStr { get; set; }
+    public string MaxStr { get; set; }
+
+    public Node() {
+        this.MinVal = 10000.0;
+        this.MaxVal = 0.0;
+    }
+}

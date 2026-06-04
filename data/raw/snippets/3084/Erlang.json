@@ -1,1 +1,0 @@
-"-spec count_substrings(S :: unicode:unicode_binary(), C :: char()) -> integer().\ncount_substrings(S, C) ->\n  ."

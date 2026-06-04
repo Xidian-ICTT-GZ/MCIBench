@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} nums\n * @param {number} threshold\n * @return {number}\n */\nvar smallestDivisor = function(nums, threshold) {\n    \n};"

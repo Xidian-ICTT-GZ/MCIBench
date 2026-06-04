@@ -1,1 +1,0 @@
-"%% Definition for singly-linked list.\n%%\n%% -record(list_node, {val = 0 :: integer(),\n%%                     next = null :: 'null' | #list_node{}}).\n\n-spec nodes_between_critical_points(Head :: #list_node{} | null) -> [integer()].\nnodes_between_critical_points(Head) ->\n  ."

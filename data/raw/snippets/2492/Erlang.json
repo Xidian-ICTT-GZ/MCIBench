@@ -1,1 +1,0 @@
-"-spec min_score(N :: integer(), Roads :: [[integer()]]) -> integer().\nmin_score(N, Roads) ->\n  ."

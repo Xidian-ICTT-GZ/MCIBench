@@ -1,1 +1,0 @@
-"class Solution(object):\n    def shiftDistance(self, s, t, nextCost, previousCost):\n        \"\"\"\n        :type s: str\n        :type t: str\n        :type nextCost: List[int]\n        :type previousCost: List[int]\n        :rtype: int\n        \"\"\"\n        "

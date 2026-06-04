@@ -1,0 +1,1 @@
+"object Solution {\n    def exclusiveTime(n: Int, logs: List[String]): Array[Int] = {\n        \n    }\n}"

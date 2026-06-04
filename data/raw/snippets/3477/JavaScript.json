@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} fruits\n * @param {number[]} baskets\n * @return {number}\n */\nvar numOfUnplacedFruits = function(fruits, baskets) {\n    \n};"

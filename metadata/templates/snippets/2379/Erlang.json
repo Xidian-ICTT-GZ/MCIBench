@@ -1,0 +1,1 @@
+"-spec minimum_recolors(Blocks :: unicode:unicode_binary(), K :: integer()) -> integer().\nminimum_recolors(Blocks, K) ->\n  ."

@@ -1,1 +1,0 @@
-"-spec first_complete_index(Arr :: [integer()], Mat :: [[integer()]]) -> integer().\nfirst_complete_index(Arr, Mat) ->\n  ."

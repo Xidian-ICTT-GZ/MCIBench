@@ -1,0 +1,1 @@
+"-spec min_cost_connect_points(Points :: [[integer()]]) -> integer().\nmin_cost_connect_points(Points) ->\n  ."

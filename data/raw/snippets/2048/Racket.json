@@ -1,1 +1,0 @@
-"(define/contract (next-beautiful-number n)\n  (-> exact-integer? exact-integer?)\n  )"

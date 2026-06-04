@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec longest_ones(nums :: [integer], k :: integer) :: integer\n  def longest_ones(nums, k) do\n    \n  end\nend"

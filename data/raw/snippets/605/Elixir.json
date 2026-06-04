@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec can_place_flowers(flowerbed :: [integer], n :: integer) :: boolean\n  def can_place_flowers(flowerbed, n) do\n    \n  end\nend"

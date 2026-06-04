@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @return {Integer}\ndef find_maximum_score(nums)\n    \nend"

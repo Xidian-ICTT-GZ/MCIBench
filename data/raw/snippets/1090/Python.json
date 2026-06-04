@@ -1,1 +1,0 @@
-"class Solution(object):\n    def largestValsFromLabels(self, values, labels, numWanted, useLimit):\n        \"\"\"\n        :type values: List[int]\n        :type labels: List[int]\n        :type numWanted: int\n        :type useLimit: int\n        :rtype: int\n        \"\"\"\n        "

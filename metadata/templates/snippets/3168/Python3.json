@@ -1,0 +1,1 @@
+"class Solution:\n    def minimumChairs(self, s: str) -> int:\n        "

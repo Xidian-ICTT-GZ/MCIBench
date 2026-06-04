@@ -1,1 +1,0 @@
-"-spec maximum_prime_difference(Nums :: [integer()]) -> integer().\nmaximum_prime_difference(Nums) ->\n  ."

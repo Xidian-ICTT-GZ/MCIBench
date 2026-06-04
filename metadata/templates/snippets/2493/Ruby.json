@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @param {Integer[][]} edges\n# @return {Integer}\ndef magnificent_sets(n, edges)\n    \nend"

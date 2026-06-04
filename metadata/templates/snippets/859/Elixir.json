@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec buddy_strings(s :: String.t, goal :: String.t) :: boolean\n  def buddy_strings(s, goal) do\n    \n  end\nend"

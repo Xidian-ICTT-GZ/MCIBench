@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} nums\n * @return {number[]}\n */\nvar minSubsequence = function(nums) {\n    \n};"

@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @return {Integer[]}\ndef product_except_self(nums)\n    \nend"

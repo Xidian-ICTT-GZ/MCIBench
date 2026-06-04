@@ -1,1 +1,0 @@
-"# @param {Integer[]} values\n# @param {Integer[]} labels\n# @param {Integer} num_wanted\n# @param {Integer} use_limit\n# @return {Integer}\ndef largest_vals_from_labels(values, labels, num_wanted, use_limit)\n    \nend"

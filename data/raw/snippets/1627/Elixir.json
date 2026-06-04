@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec are_connected(n :: integer, threshold :: integer, queries :: [[integer]]) :: [boolean]\n  def are_connected(n, threshold, queries) do\n    \n  end\nend"

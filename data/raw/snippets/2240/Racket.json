@@ -1,1 +1,0 @@
-"(define/contract (ways-to-buy-pens-pencils total cost1 cost2)\n  (-> exact-integer? exact-integer? exact-integer? exact-integer?)\n  )"

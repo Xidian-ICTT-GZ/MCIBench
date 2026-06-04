@@ -1,1 +1,0 @@
-"-spec find_latest_step(Arr :: [integer()], M :: integer()) -> integer().\nfind_latest_step(Arr, M) ->\n  ."

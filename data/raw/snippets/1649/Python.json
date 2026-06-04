@@ -1,1 +1,0 @@
-"class Solution(object):\n    def createSortedArray(self, instructions):\n        \"\"\"\n        :type instructions: List[int]\n        :rtype: int\n        \"\"\"\n        "

@@ -1,0 +1,1 @@
+"class Solution(object):\n    def maxEvents(self, events):\n        \"\"\"\n        :type events: List[List[int]]\n        :rtype: int\n        \"\"\"\n        "

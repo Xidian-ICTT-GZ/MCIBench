@@ -1,1 +1,0 @@
-"# @param {Integer[]} nums1\n# @param {Integer[]} nums2\n# @param {Integer[]} nums3\n# @param {Integer[]} nums4\n# @return {Integer}\ndef four_sum_count(nums1, nums2, nums3, nums4)\n    \nend"

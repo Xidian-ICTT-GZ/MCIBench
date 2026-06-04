@@ -1,1 +1,0 @@
-"-spec max_length_between_equal_characters(S :: unicode:unicode_binary()) -> integer().\nmax_length_between_equal_characters(S) ->\n  ."

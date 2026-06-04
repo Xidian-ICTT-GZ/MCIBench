@@ -1,0 +1,14 @@
+class Solution:
+    def getXORSum(self, arr1: List[int], arr2: List[int]) -> int:
+        m, n = len(arr1), len(arr2)
+        ans = 0
+        
+        
+        for k in range(30, -1, -1):
+            cnt1 = sum(1 for num in arr1 if num & (1 << k))
+            cnt2 = sum(1 for num in arr2 if num & (1 << k))
+            
+            if cnt1 % 2 == 1 and cnt2 % 2 == 1:
+                ans |= (1 << k)
+
+        return ans

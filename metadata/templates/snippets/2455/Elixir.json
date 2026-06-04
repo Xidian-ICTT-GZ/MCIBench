@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec average_value(nums :: [integer]) :: integer\n  def average_value(nums) do\n    \n  end\nend"

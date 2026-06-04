@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    Solution(double radius, double x_center, double y_center) {\n        \n    }\n    \n    vector<double> randPoint() {\n        \n    }\n};\n\n/**\n * Your Solution object will be instantiated and called as such:\n * Solution* obj = new Solution(radius, x_center, y_center);\n * vector<double> param_1 = obj->randPoint();\n */"

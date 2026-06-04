@@ -1,0 +1,28 @@
+public class Solution {
+    public int[] SuccessfulPairs(int[] spells, int[] potions, long success) {
+        int n = spells.Length, m = potions.Length;
+        int[] res = new int[n];
+        int[][] idx = new int[n][];
+        for (int i = 0; i < n; ++i) {
+            idx[i] = new int[2];
+            idx[i][0] = spells[i];
+            idx[i][1] = i;
+        }
+        Array.Sort(potions);
+        for (int i = 0, j = m - 1; i < j; ++i, --j) {
+            int temp = potions[i];
+            potions[i] = potions[j];
+            potions[j] = temp;
+        }
+        Array.Sort(idx, (a, b) => a[0] - b[0]);
+        for (int i = 0, j = 0; i < n; ++i) {
+            int p = idx[i][1];
+            int v = idx[i][0];
+            while (j < m && (long) potions[j] * v >= success) {
+                ++j;
+            }
+            res[p] = j;
+        }
+        return res;
+    }
+}

@@ -1,1 +1,0 @@
-"/**\n * @param {number[][]} mat\n * @param {number} k\n * @return {boolean}\n */\nvar areSimilar = function(mat, k) {\n    \n};"

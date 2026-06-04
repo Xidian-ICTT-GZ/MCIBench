@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    long long maxPower(vector<int>& stations, int r, int k) {\n        \n    }\n};"

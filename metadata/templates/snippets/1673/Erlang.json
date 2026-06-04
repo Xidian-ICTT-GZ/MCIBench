@@ -1,0 +1,1 @@
+"-spec most_competitive(Nums :: [integer()], K :: integer()) -> [integer()].\nmost_competitive(Nums, K) ->\n  ."

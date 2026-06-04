@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    vector<vector<int>> palindromePairs(vector<string>& words) {\n        \n    }\n};"

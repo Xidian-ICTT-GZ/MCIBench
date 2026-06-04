@@ -1,1 +1,0 @@
-"-spec max_total(Value :: [integer()], Limit :: [integer()]) -> integer().\nmax_total(Value, Limit) ->\n  ."

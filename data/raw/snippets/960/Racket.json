@@ -1,1 +1,0 @@
-"(define/contract (min-deletion-size strs)\n  (-> (listof string?) exact-integer?)\n  )"

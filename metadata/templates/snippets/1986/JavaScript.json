@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} tasks\n * @param {number} sessionTime\n * @return {number}\n */\nvar minSessions = function(tasks, sessionTime) {\n    \n};"

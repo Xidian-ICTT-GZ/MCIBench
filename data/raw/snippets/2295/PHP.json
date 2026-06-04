@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer[][] $operations\n     * @return Integer[]\n     */\n    function arrayChange($nums, $operations) {\n        \n    }\n}"

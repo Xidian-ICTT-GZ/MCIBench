@@ -1,1 +1,0 @@
-"class Solution(object):\n    def assignElements(self, groups, elements):\n        \"\"\"\n        :type groups: List[int]\n        :type elements: List[int]\n        :rtype: List[int]\n        \"\"\"\n        "

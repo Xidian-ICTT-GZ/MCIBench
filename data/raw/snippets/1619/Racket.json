@@ -1,1 +1,0 @@
-"(define/contract (trim-mean arr)\n  (-> (listof exact-integer?) flonum?)\n  )"

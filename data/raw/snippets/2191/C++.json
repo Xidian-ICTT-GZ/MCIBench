@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    vector<int> sortJumbled(vector<int>& mapping, vector<int>& nums) {\n        \n    }\n};"

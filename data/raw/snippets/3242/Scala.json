@@ -1,1 +1,0 @@
-"class NeighborSum(_grid: Array[Array[Int]]) {\n\n    def adjacentSum(value: Int): Int = {\n        \n    }\n\n    def diagonalSum(value: Int): Int = {\n        \n    }\n\n}\n\n/**\n * Your NeighborSum object will be instantiated and called as such:\n * val obj = new NeighborSum(grid)\n * val param_1 = obj.adjacentSum(value)\n * val param_2 = obj.diagonalSum(value)\n */"

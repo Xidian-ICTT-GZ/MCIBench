@@ -1,1 +1,0 @@
-"-spec subsequence_pair_count(Nums :: [integer()]) -> integer().\nsubsequence_pair_count(Nums) ->\n  ."

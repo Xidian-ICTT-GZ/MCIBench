@@ -1,1 +1,0 @@
-"# @param {Integer} n\n# @param {Integer[][]} edges\n# @param {Integer} k\n# @param {Integer} t\n# @return {Integer}\ndef max_weight(n, edges, k, t)\n    \nend"

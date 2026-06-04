@@ -1,1 +1,0 @@
-"class Solution(object):\n    def reachNumber(self, target):\n        \"\"\"\n        :type target: int\n        :rtype: int\n        \"\"\"\n        "

@@ -1,1 +1,0 @@
-"class Solution {\n    /**\n     * @param Integer[][] $rects\n     */\n    function __construct($rects) {\n        \n    }\n  \n    /**\n     * @return Integer[]\n     */\n    function pick() {\n        \n    }\n}\n\n/**\n * Your Solution object will be instantiated and called as such:\n * $obj = Solution($rects);\n * $ret_1 = $obj->pick();\n */"

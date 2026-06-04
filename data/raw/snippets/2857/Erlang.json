@@ -1,1 +1,0 @@
-"-spec count_pairs(Coordinates :: [[integer()]], K :: integer()) -> integer().\ncount_pairs(Coordinates, K) ->\n  ."

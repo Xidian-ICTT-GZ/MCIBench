@@ -1,1 +1,0 @@
-"(define/contract (color-the-grid m n)\n  (-> exact-integer? exact-integer? exact-integer?)\n  )"

@@ -1,0 +1,1 @@
+"class Solution:\n    def oddEvenJumps(self, arr: List[int]) -> int:\n        "

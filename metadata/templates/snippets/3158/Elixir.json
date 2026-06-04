@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec duplicate_numbers_xor(nums :: [integer]) :: integer\n  def duplicate_numbers_xor(nums) do\n    \n  end\nend"

@@ -1,1 +1,0 @@
-"/**\n * Definition for a QuadTree node.\n * class Node(var `val`: Boolean, var isLeaf: Boolean) {\n *     var topLeft: Node? = null\n *     var topRight: Node? = null\n *     var bottomLeft: Node? = null\n *     var bottomRight: Node? = null\n * }\n */\n\nclass Solution {\n    fun intersect(quadTree1: Node?, quadTree2: Node?): Node? {\n        \n    }\n}"

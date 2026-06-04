@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    vector<int> circularGameLosers(int n, int k) {\n        \n    }\n};"

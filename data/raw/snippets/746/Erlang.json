@@ -1,1 +1,0 @@
-"-spec min_cost_climbing_stairs(Cost :: [integer()]) -> integer().\nmin_cost_climbing_stairs(Cost) ->\n  ."

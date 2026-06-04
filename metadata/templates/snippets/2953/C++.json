@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int countCompleteSubstrings(string word, int k) {\n        \n    }\n};"

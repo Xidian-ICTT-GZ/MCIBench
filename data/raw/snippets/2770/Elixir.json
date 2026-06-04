@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec maximum_jumps(nums :: [integer], target :: integer) :: integer\n  def maximum_jumps(nums, target) do\n    \n  end\nend"

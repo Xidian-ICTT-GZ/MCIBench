@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec max_rep_opt1(text :: String.t) :: integer\n  def max_rep_opt1(text) do\n    \n  end\nend"

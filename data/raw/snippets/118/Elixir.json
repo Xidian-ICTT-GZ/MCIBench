@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec generate(num_rows :: integer) :: [[integer]]\n  def generate(num_rows) do\n    \n  end\nend"

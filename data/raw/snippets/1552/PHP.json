@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $position\n     * @param Integer $m\n     * @return Integer\n     */\n    function maxDistance($position, $m) {\n        \n    }\n}"

@@ -1,1 +1,0 @@
-"/**\n * @param {string[]} words\n * @param {string} order\n * @return {boolean}\n */\nvar isAlienSorted = function(words, order) {\n    \n};"

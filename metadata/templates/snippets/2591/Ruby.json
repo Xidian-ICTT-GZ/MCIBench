@@ -1,0 +1,1 @@
+"# @param {Integer} money\n# @param {Integer} children\n# @return {Integer}\ndef dist_money(money, children)\n    \nend"

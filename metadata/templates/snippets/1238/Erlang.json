@@ -1,0 +1,1 @@
+"-spec circular_permutation(N :: integer(), Start :: integer()) -> [integer()].\ncircular_permutation(N, Start) ->\n  ."

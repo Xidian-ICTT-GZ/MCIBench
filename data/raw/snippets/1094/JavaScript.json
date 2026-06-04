@@ -1,1 +1,0 @@
-"/**\n * @param {number[][]} trips\n * @param {number} capacity\n * @return {boolean}\n */\nvar carPooling = function(trips, capacity) {\n    \n};"

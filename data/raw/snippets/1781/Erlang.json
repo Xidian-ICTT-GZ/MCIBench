@@ -1,1 +1,0 @@
-"-spec beauty_sum(S :: unicode:unicode_binary()) -> integer().\nbeauty_sum(S) ->\n  ."

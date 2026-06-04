@@ -1,1 +1,0 @@
-"impl Solution {\n    pub fn most_common_word(paragraph: String, banned: Vec<String>) -> String {\n        \n    }\n}"

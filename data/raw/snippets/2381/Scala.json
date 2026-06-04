@@ -1,1 +1,0 @@
-"object Solution {\n    def shiftingLetters(s: String, shifts: Array[Array[Int]]): String = {\n        \n    }\n}"

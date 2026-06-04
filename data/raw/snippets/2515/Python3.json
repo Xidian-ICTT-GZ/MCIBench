@@ -1,1 +1,0 @@
-"class Solution:\n    def closestTarget(self, words: List[str], target: str, startIndex: int) -> int:\n        "

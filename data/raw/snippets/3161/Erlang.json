@@ -1,1 +1,0 @@
-"-spec get_results(Queries :: [[integer()]]) -> [boolean()].\nget_results(Queries) ->\n  ."

@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} nums\n * @param {number} key\n * @param {number} k\n * @return {number[]}\n */\nvar findKDistantIndices = function(nums, key, k) {\n    \n};"

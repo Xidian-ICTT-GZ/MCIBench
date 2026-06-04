@@ -1,1 +1,0 @@
-"(define/contract (count-vowel-permutation n)\n  (-> exact-integer? exact-integer?)\n  )"

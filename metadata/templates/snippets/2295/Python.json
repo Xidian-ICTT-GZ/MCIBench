@@ -1,0 +1,1 @@
+"class Solution(object):\n    def arrayChange(self, nums, operations):\n        \"\"\"\n        :type nums: List[int]\n        :type operations: List[List[int]]\n        :rtype: List[int]\n        \"\"\"\n        "

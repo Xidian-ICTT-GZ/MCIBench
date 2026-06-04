@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    int minimumCost(vector<int>& start, vector<int>& target, vector<vector<int>>& specialRoads) {\n        \n    }\n};"

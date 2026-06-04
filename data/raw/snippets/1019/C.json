@@ -1,1 +1,0 @@
-"/**\n * Definition for singly-linked list.\n * struct ListNode {\n *     int val;\n *     struct ListNode *next;\n * };\n */\n/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* nextLargerNodes(struct ListNode* head, int* returnSize) {\n    \n}"

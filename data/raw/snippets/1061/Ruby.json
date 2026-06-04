@@ -1,1 +1,0 @@
-"# @param {String} s1\n# @param {String} s2\n# @param {String} base_str\n# @return {String}\ndef smallest_equivalent_string(s1, s2, base_str)\n    \nend"

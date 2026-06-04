@@ -1,0 +1,1 @@
+"# @param {Integer} start_pos\n# @param {Integer} end_pos\n# @param {Integer} k\n# @return {Integer}\ndef number_of_ways(start_pos, end_pos, k)\n    \nend"

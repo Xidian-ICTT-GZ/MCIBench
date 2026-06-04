@@ -1,0 +1,1 @@
+"class Solution(object):\n    def survivedRobotsHealths(self, positions, healths, directions):\n        \"\"\"\n        :type positions: List[int]\n        :type healths: List[int]\n        :type directions: str\n        :rtype: List[int]\n        \"\"\"\n        "

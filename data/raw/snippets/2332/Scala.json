@@ -1,1 +1,0 @@
-"object Solution {\n    def latestTimeCatchTheBus(buses: Array[Int], passengers: Array[Int], capacity: Int): Int = {\n        \n    }\n}"

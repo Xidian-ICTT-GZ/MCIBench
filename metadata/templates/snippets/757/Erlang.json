@@ -1,0 +1,1 @@
+"-spec intersection_size_two(Intervals :: [[integer()]]) -> integer().\nintersection_size_two(Intervals) ->\n  ."

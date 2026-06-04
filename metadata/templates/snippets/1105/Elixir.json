@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec min_height_shelves(books :: [[integer]], shelf_width :: integer) :: integer\n  def min_height_shelves(books, shelf_width) do\n    \n  end\nend"

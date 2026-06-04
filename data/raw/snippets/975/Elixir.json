@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec odd_even_jumps(arr :: [integer]) :: integer\n  def odd_even_jumps(arr) do\n    \n  end\nend"

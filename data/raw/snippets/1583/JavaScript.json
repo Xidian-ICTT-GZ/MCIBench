@@ -1,1 +1,0 @@
-"/**\n * @param {number} n\n * @param {number[][]} preferences\n * @param {number[][]} pairs\n * @return {number}\n */\nvar unhappyFriends = function(n, preferences, pairs) {\n    \n};"

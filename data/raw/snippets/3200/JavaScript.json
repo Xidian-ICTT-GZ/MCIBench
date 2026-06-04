@@ -1,1 +1,0 @@
-"/**\n * @param {number} red\n * @param {number} blue\n * @return {number}\n */\nvar maxHeightOfTriangle = function(red, blue) {\n    \n};"

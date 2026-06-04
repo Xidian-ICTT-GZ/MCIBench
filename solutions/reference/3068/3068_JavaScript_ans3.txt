@@ -1,0 +1,9 @@
+var maximumValueSum = function (nums, k, edges) {
+    let f0 = 0, f1 = -Infinity;
+    for (const x of nums) {
+        const t = Math.max(f1 + x, f0 + (x ^ k));
+        f0 = Math.max(f0 + x, f1 + (x ^ k));
+        f1 = t;
+    }
+    return f0;
+};

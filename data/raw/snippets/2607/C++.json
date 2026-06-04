@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    long long makeSubKSumEqual(vector<int>& arr, int k) {\n        \n    }\n};"

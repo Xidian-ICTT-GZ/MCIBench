@@ -1,0 +1,1 @@
+"-spec min_damage(Power :: integer(), Damage :: [integer()], Health :: [integer()]) -> integer().\nmin_damage(Power, Damage, Health) ->\n  ."

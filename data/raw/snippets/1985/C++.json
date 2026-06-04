@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    string kthLargestNumber(vector<string>& nums, int k) {\n        \n    }\n};"

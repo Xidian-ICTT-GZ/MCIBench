@@ -1,0 +1,1 @@
+"# @param {Integer[][]} matrix\n# @return {Integer[][]}\ndef matrix_rank_transform(matrix)\n    \nend"

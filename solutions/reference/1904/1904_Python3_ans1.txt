@@ -1,0 +1,11 @@
+class Solution:
+    def numberOfRounds(self, startTime: str, finishTime: str) -> int:
+        
+        t0 = 60 * int(startTime[:2]) + int(startTime[3:])
+        t1 = 60 * int(finishTime[:2]) + int(finishTime[3:])
+        if t1 < t0:
+            
+            t1 += 1440
+        
+        t1 = t1 // 15 * 15
+        return max(0, (t1 - t0)) // 15

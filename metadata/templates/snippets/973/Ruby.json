@@ -1,0 +1,1 @@
+"# @param {Integer[][]} points\n# @param {Integer} k\n# @return {Integer[][]}\ndef k_closest(points, k)\n    \nend"

@@ -1,0 +1,26 @@
+#define MAX(a, b) ((a) > (b) ? (a) : (b))
+
+static inline int cmp(const void *pa, const void *pb) {
+    if ((*(int **)pa)[0] == (*(int **)pb)[0]) {
+        return (*(int **)pa)[1] == (*(int **)pb)[1];
+    } 
+    return (*(int **)pa)[0] - (*(int **)pb)[0];
+}
+
+int findLongestChain(int** pairs, int pairsSize, int* pairsColSize){
+    qsort(pairs, pairsSize, sizeof(int *), cmp);
+    int *dp = (int *)malloc(sizeof(int) * pairsSize);
+    for (int i = 0; i < pairsSize; i++) {
+        dp[i] = 1;
+    }
+    for (int i = 0; i < pairsSize; i++) {
+        for (int j = 0; j < i; j++) {
+            if (pairs[i][0] > pairs[j][1]) {
+                dp[i] = MAX(dp[i], dp[j] + 1);
+            }
+        }
+    }
+    int ret = dp[pairsSize - 1];
+    free(dp);
+    return ret;
+}

@@ -1,1 +1,0 @@
-"# @param {String} date1\n# @param {String} date2\n# @return {Integer}\ndef days_between_dates(date1, date2)\n    \nend"

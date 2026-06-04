@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec min_days(n :: integer) :: integer\n  def min_days(n) do\n    \n  end\nend"

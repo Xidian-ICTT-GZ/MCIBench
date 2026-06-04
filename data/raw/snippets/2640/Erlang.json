@@ -1,1 +1,0 @@
-"-spec find_prefix_score(Nums :: [integer()]) -> [integer()].\nfind_prefix_score(Nums) ->\n  ."

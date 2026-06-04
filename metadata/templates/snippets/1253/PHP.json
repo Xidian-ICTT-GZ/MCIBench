@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $upper\n     * @param Integer $lower\n     * @param Integer[] $colsum\n     * @return Integer[][]\n     */\n    function reconstructMatrix($upper, $lower, $colsum) {\n        \n    }\n}"

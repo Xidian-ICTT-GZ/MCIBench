@@ -1,1 +1,0 @@
-"class Solution(object):\n    def splitIntoFibonacci(self, num):\n        \"\"\"\n        :type num: str\n        :rtype: List[int]\n        \"\"\"\n        "

@@ -1,1 +1,0 @@
-"-spec minimized_maximum(N :: integer(), Quantities :: [integer()]) -> integer().\nminimized_maximum(N, Quantities) ->\n  ."

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec min_time_to_visit_all_points(points :: [[integer]]) :: integer\n  def min_time_to_visit_all_points(points) do\n    \n  end\nend"

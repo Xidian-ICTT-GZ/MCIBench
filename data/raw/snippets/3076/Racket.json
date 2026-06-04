@@ -1,1 +1,0 @@
-"(define/contract (shortest-substrings arr)\n  (-> (listof string?) (listof string?))\n  )"

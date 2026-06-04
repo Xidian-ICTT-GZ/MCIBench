@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec min_trio_degree(n :: integer, edges :: [[integer]]) :: integer\n  def min_trio_degree(n, edges) do\n    \n  end\nend"

@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec count_even(num :: integer) :: integer\n  def count_even(num) do\n    \n  end\nend"

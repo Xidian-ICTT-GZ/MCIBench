@@ -1,0 +1,1 @@
+"(define/contract (count-stepping-numbers low high)\n  (-> string? string? exact-integer?)\n  )"

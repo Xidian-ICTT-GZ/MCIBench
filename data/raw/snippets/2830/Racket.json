@@ -1,1 +1,0 @@
-"(define/contract (maximize-the-profit n offers)\n  (-> exact-integer? (listof (listof exact-integer?)) exact-integer?)\n  )"

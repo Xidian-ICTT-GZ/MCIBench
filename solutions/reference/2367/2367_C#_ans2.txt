@@ -1,0 +1,15 @@
+public class Solution {
+    public int ArithmeticTriplets(int[] nums, int diff) {
+        ISet<int> set = new HashSet<int>();
+        foreach (int x in nums) {
+            set.Add(x);
+        }
+        int ans = 0;
+        foreach (int x in nums) {
+            if (set.Contains(x + diff) && set.Contains(x + 2 * diff)) {
+                ans++;
+            }
+        }
+        return ans;
+    }
+}

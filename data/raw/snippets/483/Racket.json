@@ -1,1 +1,0 @@
-"(define/contract (smallest-good-base n)\n  (-> string? string?)\n  )"

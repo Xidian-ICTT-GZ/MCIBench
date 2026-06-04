@@ -1,1 +1,0 @@
-"-spec min_operations(Word1 :: unicode:unicode_binary(), Word2 :: unicode:unicode_binary()) -> integer().\nmin_operations(Word1, Word2) ->\n  ."

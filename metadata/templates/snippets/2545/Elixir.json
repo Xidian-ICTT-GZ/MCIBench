@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec sort_the_students(score :: [[integer]], k :: integer) :: [[integer]]\n  def sort_the_students(score, k) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int collectTheCoins(vector<int>& coins, vector<vector<int>>& edges) {\n        \n    }\n};"

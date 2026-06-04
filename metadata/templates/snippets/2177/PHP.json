@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $num\n     * @return Integer[]\n     */\n    function sumOfThree($num) {\n        \n    }\n}"

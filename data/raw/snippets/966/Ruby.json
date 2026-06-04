@@ -1,1 +1,0 @@
-"# @param {String[]} wordlist\n# @param {String[]} queries\n# @return {String[]}\ndef spellchecker(wordlist, queries)\n    \nend"

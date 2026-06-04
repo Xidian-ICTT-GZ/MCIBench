@@ -1,0 +1,15 @@
+int maximumValue(char ** strs, int strsSize){
+    int res = 0;
+    for (int i = 0; i < strsSize; i++) {
+        bool isDigits = true;
+        for (int j = 0; j < strlen(strs[i]); j++) {
+            isDigits &= strs[i][j] >= '0' && strs[i][j] <= '9';
+        }
+        if (isDigits) {
+            res = fmax(res, atoi(strs[i]));
+        } else {
+            res = fmax(res, strlen(strs[i]));
+        }
+    }
+    return res;
+}

@@ -1,0 +1,1 @@
+"(define/contract (max-equal-freq nums)\n  (-> (listof exact-integer?) exact-integer?)\n  )"

@@ -1,0 +1,36 @@
+public class Solution {
+    public int LargestSumAfterKNegations(int[] nums, int k) {
+        Dictionary<int, int> freq = new Dictionary<int, int>();
+        foreach (int num in nums) {
+            if (!freq.ContainsKey(num)) {
+                freq.Add(num, 0);
+            }
+            freq[num] += 1;
+        }
+        int ans = nums.Sum();
+        for (int i = -100; i < 0; ++i) {
+            if (freq.ContainsKey(i)) {
+                int ops = Math.Min(k, freq[i]);
+                ans += (-i) * ops * 2;
+                freq[i] -= ops;
+                if (!freq.ContainsKey(-i)) {
+                    freq.Add(-i, 0);
+                }
+                freq[-i] += ops;
+                k -= ops;
+                if (k == 0) {
+                    break;
+                }
+            }
+        }
+        if (k > 0 && k % 2 == 1 && !freq.ContainsKey(0)) {
+            for (int i = 1; i <= 100; ++i) {
+                if (freq.ContainsKey(i)) {
+                    ans -= i * 2;
+                    break;
+                }
+            }
+        }
+        return ans;
+    }
+}

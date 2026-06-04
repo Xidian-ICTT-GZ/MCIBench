@@ -1,0 +1,25 @@
+impl Solution {
+    pub fn can_be_valid(s: String, locked: String) -> bool {
+        let n = s.len();
+        let mut mx = 0; 
+        let mut mn = 0; 
+        for (i, (sc, lc)) in s.chars().zip(locked.chars()).enumerate() {
+            if lc == '1' {
+                
+                let diff = if sc == '(' { 1 } else { -1 };
+                mx += diff;
+                mn = std::cmp::max(mn + diff, (i as i32 + 1) % 2);
+            } else {
+                
+                mx += 1;
+                mn = std::cmp::max(mn - 1, (i as i32 + 1) % 2);
+            }
+            if mx < mn {
+                
+                return false;
+            }
+        }
+        
+        mn == 0
+    }
+}

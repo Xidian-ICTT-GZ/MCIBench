@@ -1,0 +1,14 @@
+func swapColors(colors []int, target int) (countTarget int) {
+    for i, c := range colors {
+        if c == target {
+            colors[i], colors[countTarget] = colors[countTarget], colors[i]
+            countTarget++
+        }
+    }
+    return
+}
+
+func sortColors(nums []int) {
+    count0 := swapColors(nums, 0) 
+    swapColors(nums[count0:], 1)  
+}

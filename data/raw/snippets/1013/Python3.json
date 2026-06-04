@@ -1,1 +1,0 @@
-"class Solution:\n    def canThreePartsEqualSum(self, arr: List[int]) -> bool:\n        "

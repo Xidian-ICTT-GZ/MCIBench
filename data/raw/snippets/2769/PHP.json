@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer $num\n     * @param Integer $t\n     * @return Integer\n     */\n    function theMaximumAchievableX($num, $t) {\n        \n    }\n}"

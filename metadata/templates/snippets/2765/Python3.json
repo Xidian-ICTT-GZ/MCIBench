@@ -1,0 +1,1 @@
+"class Solution:\n    def alternatingSubarray(self, nums: List[int]) -> int:\n        "

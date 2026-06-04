@@ -1,1 +1,0 @@
-"class Solution(object):\n    def repairCars(self, ranks, cars):\n        \"\"\"\n        :type ranks: List[int]\n        :type cars: int\n        :rtype: int\n        \"\"\"\n        "

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec number_to_words(num :: integer) :: String.t\n  def number_to_words(num) do\n    \n  end\nend"

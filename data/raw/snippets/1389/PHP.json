@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer[] $index\n     * @return Integer[]\n     */\n    function createTargetArray($nums, $index) {\n        \n    }\n}"

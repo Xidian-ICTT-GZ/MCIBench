@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec remove_covered_intervals(intervals :: [[integer]]) :: integer\n  def remove_covered_intervals(intervals) do\n    \n  end\nend"

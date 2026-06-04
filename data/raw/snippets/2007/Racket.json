@@ -1,1 +1,0 @@
-"(define/contract (find-original-array changed)\n  (-> (listof exact-integer?) (listof exact-integer?))\n  )"

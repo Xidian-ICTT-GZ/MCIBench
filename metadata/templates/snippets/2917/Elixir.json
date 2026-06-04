@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec find_k_or(nums :: [integer], k :: integer) :: integer\n  def find_k_or(nums, k) do\n    \n  end\nend"

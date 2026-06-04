@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<int> evenOddBit(int n) {\n        \n    }\n};"

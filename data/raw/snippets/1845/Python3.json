@@ -1,1 +1,0 @@
-"class SeatManager:\n\n    def __init__(self, n: int):\n        \n\n    def reserve(self) -> int:\n        \n\n    def unreserve(self, seatNumber: int) -> None:\n        \n\n\n# Your SeatManager object will be instantiated and called as such:\n# obj = SeatManager(n)\n# param_1 = obj.reserve()\n# obj.unreserve(seatNumber)"

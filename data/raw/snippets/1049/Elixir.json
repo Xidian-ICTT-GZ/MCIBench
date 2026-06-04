@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec last_stone_weight_ii(stones :: [integer]) :: integer\n  def last_stone_weight_ii(stones) do\n    \n  end\nend"

@@ -1,1 +1,0 @@
-"(define/contract (num-steps s)\n  (-> string? exact-integer?)\n  )"

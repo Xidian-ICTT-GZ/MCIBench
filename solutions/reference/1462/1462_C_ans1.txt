@@ -1,0 +1,44 @@
+bool* checkIfPrerequisite(int numCourses, int** prerequisites, int prerequisitesSize, int* prerequisitesColSize, int** queries, int queriesSize, int* queriesColSize, int* returnSize) {
+    int g[numCourses][numCourses];
+    int gColSize[numCourses], indgree[numCourses];
+    bool isPre[numCourses][numCourses];
+    memset(gColSize, 0, sizeof(gColSize));
+    memset(indgree, 0, sizeof(indgree));
+    memset(isPre, 0, sizeof(isPre));
+    for (int i = 0; i < prerequisitesSize; i++) {
+        int *p = prerequisites[i];
+        ++indgree[p[1]];
+        g[p[0]][gColSize[p[0]]++] = p[1];
+    }
+
+    int queue[numCourses];
+    int head = 0, tail = 0;
+    for (int i = 0; i < numCourses; ++i) {
+        if (indgree[i] == 0) {
+            queue[tail++] = i;
+        }
+    }
+    while (head != tail) {
+        int cur = queue[head];
+        head++;
+        for (int j = 0; j < gColSize[cur]; j++) {
+            int ne = g[cur][j];
+            isPre[cur][ne] = true;
+            for (int i = 0; i < numCourses; ++i) {
+                isPre[i][ne] = isPre[i][ne] | isPre[i][cur];
+            }
+            --indgree[ne];
+            if (indgree[ne] == 0) {
+                queue[tail++] = ne;
+            }
+        }
+    }
+
+    bool *res = (bool *)malloc(sizeof(char) * queriesSize);
+    for (int i = 0; i < queriesSize; i++) {
+        int *query = queries[i];
+        res[i] = isPre[query[0]][query[1]];
+    }
+    *returnSize = queriesSize;
+    return res;
+}

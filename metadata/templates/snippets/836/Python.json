@@ -1,0 +1,1 @@
+"class Solution(object):\n    def isRectangleOverlap(self, rec1, rec2):\n        \"\"\"\n        :type rec1: List[int]\n        :type rec2: List[int]\n        :rtype: bool\n        \"\"\"\n        "

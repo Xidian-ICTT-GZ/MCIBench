@@ -1,0 +1,27 @@
+int cmp(const void *a, const void *b) {
+    return *(int *)a - *(int *)b;
+}
+
+int maxTotalReward(int *rewardValues, int rewardValuesSize) {
+    qsort(rewardValues, rewardValuesSize, sizeof(int), cmp);
+    int m = rewardValues[rewardValuesSize - 1];
+    int* dp = (int*)malloc(2 * m * sizeof(int));
+    memset(dp, 0, 2 * m * sizeof(int));
+    dp[0] = 1;
+    for (int i = 0; i < rewardValuesSize; i++) {
+        int x = rewardValues[i];
+        for (int k = 2 * x - 1; k >= x; k--) {
+            if (dp[k - x] == 1) {
+                dp[k] = 1;
+            }
+        }
+    }
+    int res = 0;
+    for (int i = 0; i < 2 * m; i++) {
+        if (dp[i] == 1) {
+            res = i;
+        }
+    }
+    free(dp);
+    return res;
+}

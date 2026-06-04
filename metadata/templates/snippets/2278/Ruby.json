@@ -1,0 +1,1 @@
+"# @param {String} s\n# @param {Character} letter\n# @return {Integer}\ndef percentage_letter(s, letter)\n    \nend"

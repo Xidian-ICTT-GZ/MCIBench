@@ -1,0 +1,1 @@
+"-spec can_be_increasing(Nums :: [integer()]) -> boolean().\ncan_be_increasing(Nums) ->\n  ."

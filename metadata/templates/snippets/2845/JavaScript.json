@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} nums\n * @param {number} modulo\n * @param {number} k\n * @return {number}\n */\nvar countInterestingSubarrays = function(nums, modulo, k) {\n    \n};"

@@ -1,1 +1,0 @@
-"-spec minimum_cost(Start :: [integer()], Target :: [integer()], SpecialRoads :: [[integer()]]) -> integer().\nminimum_cost(Start, Target, SpecialRoads) ->\n  ."

@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int maxNumEdgesToRemove(int n, vector<vector<int>>& edges) {\n        \n    }\n};"

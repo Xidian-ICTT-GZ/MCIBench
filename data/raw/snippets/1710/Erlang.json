@@ -1,1 +1,0 @@
-"-spec maximum_units(BoxTypes :: [[integer()]], TruckSize :: integer()) -> integer().\nmaximum_units(BoxTypes, TruckSize) ->\n  ."

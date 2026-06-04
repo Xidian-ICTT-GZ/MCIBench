@@ -1,1 +1,0 @@
-"-spec reverse(X :: integer()) -> integer().\nreverse(X) ->\n  ."

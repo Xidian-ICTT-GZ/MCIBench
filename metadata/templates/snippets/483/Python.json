@@ -1,0 +1,1 @@
+"class Solution(object):\n    def smallestGoodBase(self, n):\n        \"\"\"\n        :type n: str\n        :rtype: str\n        \"\"\"\n        "

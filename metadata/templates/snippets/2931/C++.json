@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    long long maxSpending(vector<vector<int>>& values) {\n        \n    }\n};"

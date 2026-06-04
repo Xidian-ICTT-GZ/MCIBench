@@ -1,0 +1,22 @@
+#define MIN(a, b) ((a) < (b) ? (a) : (b))
+
+int minimumDeletions(char * s) {
+    int len = strlen(s);
+    int leftb = 0, righta = 0;
+    for (int i = 0; i < len; i++) {
+        if (s[i] == 'a') {
+            righta++;
+        }
+    }
+    int res = righta;
+    for (int i = 0; i < len; i++) {
+        char c = s[i];
+        if (c == 'a') {
+            righta--;
+        } else {
+            leftb++;
+        }
+        res = MIN(res, leftb + righta);
+    }
+    return res;
+}

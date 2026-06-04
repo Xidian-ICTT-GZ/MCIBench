@@ -1,1 +1,0 @@
-"(define/contract (moves-to-stamp stamp target)\n  (-> string? string? (listof exact-integer?))\n  )"

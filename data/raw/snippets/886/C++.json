@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    bool possibleBipartition(int n, vector<vector<int>>& dislikes) {\n        \n    }\n};"

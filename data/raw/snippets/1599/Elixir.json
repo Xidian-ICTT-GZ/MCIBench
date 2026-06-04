@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec min_operations_max_profit(customers :: [integer], boarding_cost :: integer, running_cost :: integer) :: integer\n  def min_operations_max_profit(customers, boarding_cost, running_cost) do\n    \n  end\nend"

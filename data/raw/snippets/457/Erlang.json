@@ -1,1 +1,0 @@
-"-spec circular_array_loop(Nums :: [integer()]) -> boolean().\ncircular_array_loop(Nums) ->\n  ."

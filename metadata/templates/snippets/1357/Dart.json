@@ -1,0 +1,1 @@
+"class Cashier {\n\n  Cashier(int n, int discount, List<int> products, List<int> prices) {\n    \n  }\n  \n  double getBill(List<int> product, List<int> amount) {\n    \n  }\n}\n\n/**\n * Your Cashier object will be instantiated and called as such:\n * Cashier obj = Cashier(n, discount, products, prices);\n * double param1 = obj.getBill(product,amount);\n */"

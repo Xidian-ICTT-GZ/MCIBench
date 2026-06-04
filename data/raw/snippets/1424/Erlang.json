@@ -1,1 +1,0 @@
-"-spec find_diagonal_order(Nums :: [[integer()]]) -> [integer()].\nfind_diagonal_order(Nums) ->\n  ."

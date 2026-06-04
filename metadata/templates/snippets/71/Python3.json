@@ -1,0 +1,1 @@
+"class Solution:\n    def simplifyPath(self, path: str) -> str:\n        "

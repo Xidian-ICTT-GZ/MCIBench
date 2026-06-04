@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[][] $mat\n     * @param Integer $k\n     * @return Boolean\n     */\n    function areSimilar($mat, $k) {\n        \n    }\n}"

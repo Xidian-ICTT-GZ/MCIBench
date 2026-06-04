@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer $lower\n     * @param Integer $upper\n     * @return Integer\n     */\n    function countRangeSum($nums, $lower, $upper) {\n        \n    }\n}"

@@ -1,1 +1,0 @@
-"/**\n * @param {number} num\n * @param {number} k\n * @return {number}\n */\nvar divisorSubstrings = function(num, k) {\n    \n};"

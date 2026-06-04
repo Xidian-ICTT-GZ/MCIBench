@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} enemyEnergies\n * @param {number} currentEnergy\n * @return {number}\n */\nvar maximumPoints = function(enemyEnergies, currentEnergy) {\n    \n};"

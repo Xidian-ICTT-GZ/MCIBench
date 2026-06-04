@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec lexicographically_smallest_array(nums :: [integer], limit :: integer) :: [integer]\n  def lexicographically_smallest_array(nums, limit) do\n    \n  end\nend"

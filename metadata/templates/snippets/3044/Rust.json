@@ -1,0 +1,1 @@
+"impl Solution {\n    pub fn most_frequent_prime(mat: Vec<Vec<i32>>) -> i32 {\n        \n    }\n}"

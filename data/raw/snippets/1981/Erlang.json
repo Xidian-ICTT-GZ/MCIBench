@@ -1,1 +1,0 @@
-"-spec minimize_the_difference(Mat :: [[integer()]], Target :: integer()) -> integer().\nminimize_the_difference(Mat, Target) ->\n  ."

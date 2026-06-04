@@ -1,1 +1,0 @@
-"%% Definition for a binary tree node.\n%%\n%% -record(tree_node, {val = 0 :: integer(),\n%%                     left = null  :: 'null' | #tree_node{},\n%%                     right = null :: 'null' | #tree_node{}}).\n\n-spec flip_match_voyage(Root :: #tree_node{} | null, Voyage :: [integer()]) -> [integer()].\nflip_match_voyage(Root, Voyage) ->\n  ."

@@ -1,0 +1,13 @@
+var maximum69Number = function (num) {
+    let digitBase = Math.pow(10, Math.trunc(Math.log10(num)));
+
+    while (digitBase > 0) {
+        if (Math.trunc(num / digitBase) % 10 === 6) {
+            num += 3 * digitBase;
+            return num;
+        }
+        digitBase = Math.trunc(digitBase / 10);
+    }
+
+    return num;
+};

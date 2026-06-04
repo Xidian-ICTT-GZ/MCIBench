@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec kth_smallest(par :: [integer], vals :: [integer], queries :: [[integer]]) :: [integer]\n  def kth_smallest(par, vals, queries) do\n    \n  end\nend"

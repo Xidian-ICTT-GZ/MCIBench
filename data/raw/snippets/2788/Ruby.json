@@ -1,1 +1,0 @@
-"# @param {String[]} words\n# @param {Character} separator\n# @return {String[]}\ndef split_words_by_separator(words, separator)\n    \nend"

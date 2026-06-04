@@ -1,1 +1,0 @@
-"class Solution(object):\n    def largestMultipleOfThree(self, digits):\n        \"\"\"\n        :type digits: List[int]\n        :rtype: str\n        \"\"\"\n        "

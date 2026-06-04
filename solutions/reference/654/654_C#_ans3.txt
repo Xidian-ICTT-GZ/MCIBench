@@ -1,0 +1,19 @@
+public class Solution {
+    public TreeNode ConstructMaximumBinaryTree(int[] nums) {
+        int n = nums.Length;
+        IList<int> stack = new List<int>();
+        TreeNode[] tree = new TreeNode[n];
+        for (int i = 0; i < n; ++i) {
+            tree[i] = new TreeNode(nums[i]);
+            while (stack.Count > 0 && nums[i] > nums[stack[stack.Count - 1]]) {
+                tree[i].left = tree[stack[stack.Count - 1]];
+                stack.RemoveAt(stack.Count - 1);
+            }
+            if (stack.Count > 0) {
+                tree[stack[stack.Count - 1]].right = tree[i];
+            }
+            stack.Add(i);
+        }
+        return tree[stack[0]];
+    }
+}

@@ -1,0 +1,1 @@
+"# @param {Integer[][]} points\n# @return {Integer}\ndef minimum_distance(points)\n    \nend"

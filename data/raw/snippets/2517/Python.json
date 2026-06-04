@@ -1,1 +1,0 @@
-"class Solution(object):\n    def maximumTastiness(self, price, k):\n        \"\"\"\n        :type price: List[int]\n        :type k: int\n        :rtype: int\n        \"\"\"\n        "

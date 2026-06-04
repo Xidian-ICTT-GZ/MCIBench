@@ -1,1 +1,0 @@
-"# @param {String[][]} favorite_companies\n# @return {Integer[]}\ndef people_indexes(favorite_companies)\n    \nend"

@@ -1,1 +1,0 @@
-"# @param {Integer[][]} edges1\n# @param {Integer[][]} edges2\n# @return {Integer}\ndef minimum_diameter_after_merge(edges1, edges2)\n    \nend"

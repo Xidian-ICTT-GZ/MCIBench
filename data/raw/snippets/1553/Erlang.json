@@ -1,1 +1,0 @@
-"-spec min_days(N :: integer()) -> integer().\nmin_days(N) ->\n  ."

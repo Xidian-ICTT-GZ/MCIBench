@@ -1,1 +1,0 @@
-"class OrderedStream {\n\n  OrderedStream(int n) {\n    \n  }\n  \n  List<String> insert(int idKey, String value) {\n    \n  }\n}\n\n/**\n * Your OrderedStream object will be instantiated and called as such:\n * OrderedStream obj = OrderedStream(n);\n * List<String> param1 = obj.insert(idKey,value);\n */"

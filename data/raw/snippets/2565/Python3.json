@@ -1,1 +1,0 @@
-"class Solution:\n    def minimumScore(self, s: str, t: str) -> int:\n        "

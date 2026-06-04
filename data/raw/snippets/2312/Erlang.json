@@ -1,1 +1,0 @@
-"-spec selling_wood(M :: integer(), N :: integer(), Prices :: [[integer()]]) -> integer().\nselling_wood(M, N, Prices) ->\n  ."

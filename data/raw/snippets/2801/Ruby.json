@@ -1,1 +1,0 @@
-"# @param {String} low\n# @param {String} high\n# @return {Integer}\ndef count_stepping_numbers(low, high)\n    \nend"

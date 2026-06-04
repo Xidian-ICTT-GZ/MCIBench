@@ -1,0 +1,1 @@
+"class Solution {\n    public int profitableSchemes(int n, int minProfit, int[] group, int[] profit) {\n        \n    }\n}"

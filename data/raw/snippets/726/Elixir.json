@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec count_of_atoms(formula :: String.t) :: String.t\n  def count_of_atoms(formula) do\n    \n  end\nend"

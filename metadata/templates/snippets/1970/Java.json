@@ -1,0 +1,1 @@
+"class Solution {\n    public int latestDayToCross(int row, int col, int[][] cells) {\n        \n    }\n}"

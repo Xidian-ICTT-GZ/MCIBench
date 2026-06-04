@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec mirror_reflection(p :: integer, q :: integer) :: integer\n  def mirror_reflection(p, q) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"# @param {Integer[][]} stones\n# @return {Integer}\ndef remove_stones(stones)\n    \nend"

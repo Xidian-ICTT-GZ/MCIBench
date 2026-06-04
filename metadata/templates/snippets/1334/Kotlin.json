@@ -1,0 +1,1 @@
+"class Solution {\n    fun findTheCity(n: Int, edges: Array<IntArray>, distanceThreshold: Int): Int {\n        \n    }\n}"

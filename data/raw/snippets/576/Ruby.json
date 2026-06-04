@@ -1,1 +1,0 @@
-"# @param {Integer} m\n# @param {Integer} n\n# @param {Integer} max_move\n# @param {Integer} start_row\n# @param {Integer} start_column\n# @return {Integer}\ndef find_paths(m, n, max_move, start_row, start_column)\n    \nend"

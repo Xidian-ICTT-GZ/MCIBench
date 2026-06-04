@@ -1,0 +1,1 @@
+"class Solution:\n    def networkBecomesIdle(self, edges: List[List[int]], patience: List[int]) -> int:\n        "

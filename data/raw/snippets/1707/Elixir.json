@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec maximize_xor(nums :: [integer], queries :: [[integer]]) :: [integer]\n  def maximize_xor(nums, queries) do\n    \n  end\nend"

@@ -1,1 +1,0 @@
-"-spec largest_palindrome(N :: integer()) -> integer().\nlargest_palindrome(N) ->\n  ."

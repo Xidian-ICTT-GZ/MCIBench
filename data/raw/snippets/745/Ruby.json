@@ -1,1 +1,0 @@
-"class WordFilter\n\n=begin\n    :type words: String[]\n=end\n    def initialize(words)\n        \n    end\n\n\n=begin\n    :type pref: String\n    :type suff: String\n    :rtype: Integer\n=end\n    def f(pref, suff)\n        \n    end\n\n\nend\n\n# Your WordFilter object will be instantiated and called as such:\n# obj = WordFilter.new(words)\n# param_1 = obj.f(pref, suff)"

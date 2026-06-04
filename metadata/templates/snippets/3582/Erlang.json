@@ -1,0 +1,1 @@
+"-spec generate_tag(Caption :: unicode:unicode_binary()) -> unicode:unicode_binary().\ngenerate_tag(Caption) ->\n  ."

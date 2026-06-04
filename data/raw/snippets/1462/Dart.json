@@ -1,1 +1,0 @@
-"class Solution {\n  List<bool> checkIfPrerequisite(int numCourses, List<List<int>> prerequisites, List<List<int>> queries) {\n    \n  }\n}"

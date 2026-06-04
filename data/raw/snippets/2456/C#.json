@@ -1,1 +1,0 @@
-"public class Solution {\n    public IList<IList<string>> MostPopularCreator(string[] creators, string[] ids, int[] views) {\n        \n    }\n}"

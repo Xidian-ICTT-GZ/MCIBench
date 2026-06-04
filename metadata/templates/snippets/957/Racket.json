@@ -1,0 +1,1 @@
+"(define/contract (prison-after-n-days cells n)\n  (-> (listof exact-integer?) exact-integer? (listof exact-integer?))\n  )"

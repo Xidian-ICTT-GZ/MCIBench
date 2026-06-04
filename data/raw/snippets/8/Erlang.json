@@ -1,1 +1,0 @@
-"-spec my_atoi(S :: unicode:unicode_binary()) -> integer().\nmy_atoi(S) ->\n  ."

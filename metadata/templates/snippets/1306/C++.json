@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    bool canReach(vector<int>& arr, int start) {\n        \n    }\n};"

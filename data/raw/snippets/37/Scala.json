@@ -1,1 +1,0 @@
-"object Solution {\n    def solveSudoku(board: Array[Array[Char]]): Unit = {\n        \n    }\n}"

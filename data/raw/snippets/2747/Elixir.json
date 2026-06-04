@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec count_servers(n :: integer, logs :: [[integer]], x :: integer, queries :: [integer]) :: [integer]\n  def count_servers(n, logs, x, queries) do\n    \n  end\nend"

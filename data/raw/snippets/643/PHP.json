@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer $k\n     * @return Float\n     */\n    function findMaxAverage($nums, $k) {\n        \n    }\n}"

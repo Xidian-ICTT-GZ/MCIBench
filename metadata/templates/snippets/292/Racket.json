@@ -1,0 +1,1 @@
+"(define/contract (can-win-nim n)\n  (-> exact-integer? boolean?)\n  )"

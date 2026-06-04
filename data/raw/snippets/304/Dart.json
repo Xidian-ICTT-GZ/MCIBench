@@ -1,1 +1,0 @@
-"class NumMatrix {\n\n  NumMatrix(List<List<int>> matrix) {\n    \n  }\n  \n  int sumRegion(int row1, int col1, int row2, int col2) {\n    \n  }\n}\n\n/**\n * Your NumMatrix object will be instantiated and called as such:\n * NumMatrix obj = NumMatrix(matrix);\n * int param1 = obj.sumRegion(row1,col1,row2,col2);\n */"

@@ -1,1 +1,0 @@
-"# @param {Integer[]} colors\n# @param {Integer} k\n# @return {Integer}\ndef number_of_alternating_groups(colors, k)\n    \nend"

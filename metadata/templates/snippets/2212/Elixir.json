@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec maximum_bob_points(num_arrows :: integer, alice_arrows :: [integer]) :: [integer]\n  def maximum_bob_points(num_arrows, alice_arrows) do\n    \n  end\nend"

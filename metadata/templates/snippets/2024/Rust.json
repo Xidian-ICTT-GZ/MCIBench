@@ -1,0 +1,1 @@
+"impl Solution {\n    pub fn max_consecutive_answers(answer_key: String, k: i32) -> i32 {\n        \n    }\n}"

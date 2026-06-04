@@ -1,1 +1,0 @@
-"# @param {Integer} start_value\n# @param {Integer} target\n# @return {Integer}\ndef broken_calc(start_value, target)\n    \nend"

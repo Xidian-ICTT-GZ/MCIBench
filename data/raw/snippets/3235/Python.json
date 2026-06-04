@@ -1,1 +1,0 @@
-"class Solution(object):\n    def canReachCorner(self, xCorner, yCorner, circles):\n        \"\"\"\n        :type xCorner: int\n        :type yCorner: int\n        :type circles: List[List[int]]\n        :rtype: bool\n        \"\"\"\n        "

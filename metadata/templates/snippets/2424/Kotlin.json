@@ -1,0 +1,1 @@
+"class LUPrefix(n: Int) {\n\n    fun upload(video: Int) {\n        \n    }\n\n    fun longest(): Int {\n        \n    }\n\n}\n\n/**\n * Your LUPrefix object will be instantiated and called as such:\n * var obj = LUPrefix(n)\n * obj.upload(video)\n * var param_2 = obj.longest()\n */"

@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    vector<int> findKDistantIndices(vector<int>& nums, int key, int k) {\n        \n    }\n};"

@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec first_missing_positive(nums :: [integer]) :: integer\n  def first_missing_positive(nums) do\n    \n  end\nend"

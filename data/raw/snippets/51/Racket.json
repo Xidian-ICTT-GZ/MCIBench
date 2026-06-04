@@ -1,1 +1,0 @@
-"(define/contract (solve-n-queens n)\n  (-> exact-integer? (listof (listof string?)))\n  )"

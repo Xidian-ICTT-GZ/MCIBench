@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $values\n     * @param Integer[] $labels\n     * @param Integer $numWanted\n     * @param Integer $useLimit\n     * @return Integer\n     */\n    function largestValsFromLabels($values, $labels, $numWanted, $useLimit) {\n        \n    }\n}"

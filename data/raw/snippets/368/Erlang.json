@@ -1,1 +1,0 @@
-"-spec largest_divisible_subset(Nums :: [integer()]) -> [integer()].\nlargest_divisible_subset(Nums) ->\n  ."

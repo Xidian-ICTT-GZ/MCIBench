@@ -1,1 +1,0 @@
-"# @param {Integer} buckets\n# @param {Integer} minutes_to_die\n# @param {Integer} minutes_to_test\n# @return {Integer}\ndef poor_pigs(buckets, minutes_to_die, minutes_to_test)\n    \nend"

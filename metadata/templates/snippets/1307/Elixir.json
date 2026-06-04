@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec is_solvable(words :: [String.t], result :: String.t) :: boolean\n  def is_solvable(words, result) do\n    \n  end\nend"

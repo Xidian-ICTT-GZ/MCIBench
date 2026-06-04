@@ -1,0 +1,1 @@
+"\"\"\"\n# Definition for a Node.\nclass Node:\n    def __init__(self, x, next=None, random=None):\n        self.val = int(x)\n        self.next = next\n        self.random = random\n\"\"\"\n\nclass Solution(object):\n    def copyRandomList(self, head):\n        \"\"\"\n        :type head: Node\n        :rtype: Node\n        \"\"\"\n        "

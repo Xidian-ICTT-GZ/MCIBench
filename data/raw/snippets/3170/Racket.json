@@ -1,1 +1,0 @@
-"(define/contract (clear-stars s)\n  (-> string? string?)\n  )"

@@ -1,0 +1,1 @@
+"# @param {String} text\n# @param {String} broken_letters\n# @return {Integer}\ndef can_be_typed_words(text, broken_letters)\n    \nend"

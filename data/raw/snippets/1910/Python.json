@@ -1,1 +1,0 @@
-"class Solution(object):\n    def removeOccurrences(self, s, part):\n        \"\"\"\n        :type s: str\n        :type part: str\n        :rtype: str\n        \"\"\"\n        "

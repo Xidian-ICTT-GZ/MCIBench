@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec num_special(mat :: [[integer]]) :: integer\n  def num_special(mat) do\n    \n  end\nend"

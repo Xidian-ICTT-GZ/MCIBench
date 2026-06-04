@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec count_tested_devices(battery_percentages :: [integer]) :: integer\n  def count_tested_devices(battery_percentages) do\n    \n  end\nend"

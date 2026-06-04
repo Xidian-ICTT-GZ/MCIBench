@@ -1,0 +1,1 @@
+"(define/contract (winner-square-game n)\n  (-> exact-integer? boolean?)\n  )"

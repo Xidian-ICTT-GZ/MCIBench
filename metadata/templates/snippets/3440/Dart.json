@@ -1,0 +1,1 @@
+"class Solution {\n  int maxFreeTime(int eventTime, List<int> startTime, List<int> endTime) {\n    \n  }\n}"

@@ -1,1 +1,0 @@
-"class Solution(object):\n    def rotateString(self, s, goal):\n        \"\"\"\n        :type s: str\n        :type goal: str\n        :rtype: bool\n        \"\"\"\n        "

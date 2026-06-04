@@ -1,1 +1,0 @@
-"-spec find_farmland(Land :: [[integer()]]) -> [[integer()]].\nfind_farmland(Land) ->\n  ."

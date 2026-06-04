@@ -1,1 +1,0 @@
-"class Solution(object):\n    def getMaximumConsecutive(self, coins):\n        \"\"\"\n        :type coins: List[int]\n        :rtype: int\n        \"\"\"\n        "

@@ -1,1 +1,0 @@
-"type RecentCounter struct {\n    \n}\n\n\nfunc Constructor() RecentCounter {\n    \n}\n\n\nfunc (this *RecentCounter) Ping(t int) int {\n    \n}\n\n\n/**\n * Your RecentCounter object will be instantiated and called as such:\n * obj := Constructor();\n * param_1 := obj.Ping(t);\n */"

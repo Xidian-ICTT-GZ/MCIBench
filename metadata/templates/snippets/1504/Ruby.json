@@ -1,0 +1,1 @@
+"# @param {Integer[][]} mat\n# @return {Integer}\ndef num_submat(mat)\n    \nend"

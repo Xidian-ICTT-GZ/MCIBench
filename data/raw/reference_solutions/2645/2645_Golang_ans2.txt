@@ -1,8 +1,0 @@
-func addMinimum(word string) int {
-    n := len(word)
-    res := int(word[0] - word[n - 1] + 2)
-    for i := 1; i < n; i++ {
-        res += int(word[i] - word[i - 1] + 2) % 3
-    }
-    return res
-}

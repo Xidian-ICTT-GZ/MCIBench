@@ -1,1 +1,0 @@
-"object Solution {\n    def kthSmallestPath(destination: Array[Int], k: Int): String = {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"public class SORTracker {\n\n    public SORTracker() {\n        \n    }\n    \n    public void Add(string name, int score) {\n        \n    }\n    \n    public string Get() {\n        \n    }\n}\n\n/**\n * Your SORTracker object will be instantiated and called as such:\n * SORTracker obj = new SORTracker();\n * obj.Add(name,score);\n * string param_2 = obj.Get();\n */"

@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $m\n     * @param Integer $n\n     * @param Integer[][] $prices\n     * @return Integer\n     */\n    function sellingWood($m, $n, $prices) {\n        \n    }\n}"

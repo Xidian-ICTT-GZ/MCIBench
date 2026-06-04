@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $ranks\n     * @param String[] $suits\n     * @return String\n     */\n    function bestHand($ranks, $suits) {\n        \n    }\n}"

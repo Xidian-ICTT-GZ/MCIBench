@@ -1,1 +1,0 @@
-"-spec sort_even_odd(Nums :: [integer()]) -> [integer()].\nsort_even_odd(Nums) ->\n  ."

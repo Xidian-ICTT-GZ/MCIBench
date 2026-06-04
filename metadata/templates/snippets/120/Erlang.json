@@ -1,0 +1,1 @@
+"-spec minimum_total(Triangle :: [[integer()]]) -> integer().\nminimum_total(Triangle) ->\n  ."

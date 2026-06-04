@@ -1,0 +1,1 @@
+"-spec min_path_cost(Grid :: [[integer()]], MoveCost :: [[integer()]]) -> integer().\nmin_path_cost(Grid, MoveCost) ->\n  ."

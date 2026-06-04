@@ -1,1 +1,0 @@
-"-spec group_anagrams(Strs :: [unicode:unicode_binary()]) -> [[unicode:unicode_binary()]].\ngroup_anagrams(Strs) ->\n  ."

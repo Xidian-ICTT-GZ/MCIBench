@@ -1,0 +1,1 @@
+"-spec maximum_detonation(Bombs :: [[integer()]]) -> integer().\nmaximum_detonation(Bombs) ->\n  ."

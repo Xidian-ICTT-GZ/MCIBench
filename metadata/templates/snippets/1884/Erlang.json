@@ -1,0 +1,1 @@
+"-spec two_egg_drop(N :: integer()) -> integer().\ntwo_egg_drop(N) ->\n  ."

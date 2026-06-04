@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer[][] $edges\n     * @return Integer[]\n     */\n    function getCoprimes($nums, $edges) {\n        \n    }\n}"

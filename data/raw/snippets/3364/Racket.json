@@ -1,1 +1,0 @@
-"(define/contract (minimum-sum-subarray nums l r)\n  (-> (listof exact-integer?) exact-integer? exact-integer? exact-integer?)\n  )"

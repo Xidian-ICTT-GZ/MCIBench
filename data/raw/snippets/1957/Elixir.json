@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec make_fancy_string(s :: String.t) :: String.t\n  def make_fancy_string(s) do\n    \n  end\nend"

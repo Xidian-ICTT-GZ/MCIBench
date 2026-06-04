@@ -1,1 +1,0 @@
-"class Solution {\n    fun possibleToStamp(grid: Array<IntArray>, stampHeight: Int, stampWidth: Int): Boolean {\n        \n    }\n}"

@@ -1,1 +1,0 @@
-"-spec compressed_string(Word :: unicode:unicode_binary()) -> unicode:unicode_binary().\ncompressed_string(Word) ->\n  ."

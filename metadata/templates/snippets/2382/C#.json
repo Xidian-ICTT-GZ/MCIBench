@@ -1,0 +1,1 @@
+"public class Solution {\n    public long[] MaximumSegmentSum(int[] nums, int[] removeQueries) {\n        \n    }\n}"

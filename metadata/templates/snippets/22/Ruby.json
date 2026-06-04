@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @return {String[]}\ndef generate_parenthesis(n)\n    \nend"

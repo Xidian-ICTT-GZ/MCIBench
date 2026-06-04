@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String[] $queries\n     * @param String $pattern\n     * @return Boolean[]\n     */\n    function camelMatch($queries, $pattern) {\n        \n    }\n}"

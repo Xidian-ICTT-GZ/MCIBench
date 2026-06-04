@@ -1,1 +1,0 @@
-"-spec maximum_invitations(Favorite :: [integer()]) -> integer().\nmaximum_invitations(Favorite) ->\n  ."

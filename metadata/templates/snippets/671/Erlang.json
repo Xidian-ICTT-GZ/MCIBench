@@ -1,0 +1,1 @@
+"%% Definition for a binary tree node.\n%%\n%% -record(tree_node, {val = 0 :: integer(),\n%%                     left = null  :: 'null' | #tree_node{},\n%%                     right = null :: 'null' | #tree_node{}}).\n\n-spec find_second_minimum_value(Root :: #tree_node{} | null) -> integer().\nfind_second_minimum_value(Root) ->\n  ."

@@ -1,0 +1,1 @@
+"(define/contract (hamming-distance x y)\n  (-> exact-integer? exact-integer? exact-integer?)\n  )"

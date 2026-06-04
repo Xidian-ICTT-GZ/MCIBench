@@ -1,0 +1,1 @@
+"object Solution {\n    def checkTwoChessboards(coordinate1: String, coordinate2: String): Boolean = {\n        \n    }\n}"

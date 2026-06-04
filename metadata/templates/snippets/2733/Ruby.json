@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @return {Integer}\ndef find_non_min_or_max(nums)\n    \nend"

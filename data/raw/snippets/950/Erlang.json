@@ -1,1 +1,0 @@
-"-spec deck_revealed_increasing(Deck :: [integer()]) -> [integer()].\ndeck_revealed_increasing(Deck) ->\n  ."

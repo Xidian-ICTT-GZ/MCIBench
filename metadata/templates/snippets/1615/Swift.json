@@ -1,0 +1,1 @@
+"class Solution {\n    func maximalNetworkRank(_ n: Int, _ roads: [[Int]]) -> Int {\n        \n    }\n}"

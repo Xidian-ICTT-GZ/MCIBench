@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} nums\n * @param {number[][]} queries\n * @return {number[]}\n */\nvar subarrayMajority = function(nums, queries) {\n    \n};"

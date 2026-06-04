@@ -1,1 +1,0 @@
-"-spec next_greatest_letter(Letters :: [char()], Target :: char()) -> char().\nnext_greatest_letter(Letters, Target) ->\n  ."

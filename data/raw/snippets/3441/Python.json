@@ -1,1 +1,0 @@
-"class Solution(object):\n    def minCostGoodCaption(self, caption):\n        \"\"\"\n        :type caption: str\n        :rtype: str\n        \"\"\"\n        "

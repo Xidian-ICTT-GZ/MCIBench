@@ -1,0 +1,29 @@
+class Solution {
+    public int findMinimumTime(int[][] tasks) {
+        int res = 0;
+        for (int i = 1; ; i++) {
+            boolean finished = true, run = false;
+            for (int[] task : tasks) {
+                if (task[2] > 0 && task[1] - i + 1 == task[2]) {
+                    run = true;
+                }
+                if (i <= task[1]) {
+                    finished = false;
+                }
+            }
+            if (finished) {
+                break;
+            }
+
+            if (run) {
+                for (int[] task : tasks) {
+                    if (i >= task[0] && i <= task[1] && task[2] > 0) {
+                        task[2]--;
+                    }
+                }
+                res++;
+            }
+        }
+        return res;
+    }
+}

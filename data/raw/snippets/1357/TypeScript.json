@@ -1,1 +1,0 @@
-"class Cashier {\n    constructor(n: number, discount: number, products: number[], prices: number[]) {\n        \n    }\n\n    getBill(product: number[], amount: number[]): number {\n        \n    }\n}\n\n/**\n * Your Cashier object will be instantiated and called as such:\n * var obj = new Cashier(n, discount, products, prices)\n * var param_1 = obj.getBill(product,amount)\n */"

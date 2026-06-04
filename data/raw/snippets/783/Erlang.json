@@ -1,1 +1,0 @@
-"%% Definition for a binary tree node.\n%%\n%% -record(tree_node, {val = 0 :: integer(),\n%%                     left = null  :: 'null' | #tree_node{},\n%%                     right = null :: 'null' | #tree_node{}}).\n\n-spec min_diff_in_bst(Root :: #tree_node{} | null) -> integer().\nmin_diff_in_bst(Root) ->\n  ."

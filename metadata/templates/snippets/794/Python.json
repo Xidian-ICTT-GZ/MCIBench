@@ -1,0 +1,1 @@
+"class Solution(object):\n    def validTicTacToe(self, board):\n        \"\"\"\n        :type board: List[str]\n        :rtype: bool\n        \"\"\"\n        "

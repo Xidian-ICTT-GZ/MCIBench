@@ -1,0 +1,21 @@
+impl Solution {
+    pub fn distance_between_bus_stops(distance: Vec<i32>, start: i32, destination: i32) -> i32 {
+        let mut start = start;
+        let mut destination = destination;
+        if (start > destination) {
+            let temp = start;
+            start = destination;
+            destination = temp;
+        }
+        let mut sum1 = 0;
+        let mut sum2 = 0;
+        for (i, x) in distance.iter().enumerate() {
+            if (i >= start as usize && i < destination as usize) {
+                sum1 += x;
+            } else {
+                sum2 += x;
+            }
+        }
+        sum1.min(sum2)
+    }
+}

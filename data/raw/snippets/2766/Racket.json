@@ -1,1 +1,0 @@
-"(define/contract (relocate-marbles nums moveFrom moveTo)\n  (-> (listof exact-integer?) (listof exact-integer?) (listof exact-integer?) (listof exact-integer?))\n  )"

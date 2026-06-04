@@ -1,0 +1,31 @@
+int getF(int x) {
+    if (x == 1) {
+        return 0;
+    }
+    if (x & 1) {
+        return getF(x * 3 + 1) + 1;
+    } else {
+        return getF(x / 2) + 1;
+    }
+}
+
+int compare(const void *a, const void *b) {
+    int u = *(int*)a;
+    int v = *(int*)b;
+    int f1 = getF(u);
+    int f2 = getF(v);
+    if (f1 != f2) {
+        return f1 - f2;
+    }
+    return u - v;
+}
+
+int getKth(int lo, int hi, int k) {
+    int size = hi - lo + 1;
+    int *v = (int *)malloc(size * sizeof(int));
+    for (int i = 0; i < size; ++i) v[i] = lo + i;
+    qsort(v, size, sizeof(int), compare);
+    int res = v[k - 1];
+    free(v);
+    return res;
+}

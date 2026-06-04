@@ -1,1 +1,0 @@
-"object Solution {\n    def supersequences(words: Array[String]): List[List[Int]] = {\n        \n    }\n}"

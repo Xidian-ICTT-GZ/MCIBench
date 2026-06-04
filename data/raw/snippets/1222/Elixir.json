@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec queens_attackthe_king(queens :: [[integer]], king :: [integer]) :: [[integer]]\n  def queens_attackthe_king(queens, king) do\n    \n  end\nend"

@@ -1,1 +1,0 @@
-"-spec num_submat(Mat :: [[integer()]]) -> integer().\nnum_submat(Mat) ->\n  ."

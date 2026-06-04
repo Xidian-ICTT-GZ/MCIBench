@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    int numberOfComponents(vector<vector<int>>& properties, int k) {\n        \n    }\n};"

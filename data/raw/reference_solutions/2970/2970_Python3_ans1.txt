@@ -1,9 +1,0 @@
-class Solution:
-    def incremovableSubarrayCount(self, nums: List[int]) -> int:
-        n = len(nums)
-        return sum([self.isIncreasing(nums[:i] + nums[j+1:]) for i in range(n) for j in range(i, n)])
-    
-    def isIncreasing(self, nums):
-        if len(nums) == 0:
-            return True
-        return all(nums[i] < nums[i + 1] for i in range(len(nums) - 1))

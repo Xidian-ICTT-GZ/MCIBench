@@ -1,1 +1,0 @@
-"-spec count_good_nodes(Edges :: [[integer()]]) -> integer().\ncount_good_nodes(Edges) ->\n  ."

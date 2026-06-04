@@ -1,1 +1,0 @@
-"(define/contract (can-be-typed-words text brokenLetters)\n  (-> string? string? exact-integer?)\n  )"

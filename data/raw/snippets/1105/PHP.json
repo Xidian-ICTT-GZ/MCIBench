@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[][] $books\n     * @param Integer $shelfWidth\n     * @return Integer\n     */\n    function minHeightShelves($books, $shelfWidth) {\n        \n    }\n}"

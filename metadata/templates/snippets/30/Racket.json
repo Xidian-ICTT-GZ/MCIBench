@@ -1,0 +1,1 @@
+"(define/contract (find-substring s words)\n  (-> string? (listof string?) (listof exact-integer?))\n  )"

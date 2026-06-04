@@ -1,0 +1,15 @@
+func addedInteger(nums1 []int, nums2 []int) int {
+    maxVal1, maxVal2  := 0, 0
+
+	for _, num := range nums1 {
+		if num > maxVal1 {
+			maxVal1 = num
+		}
+	}
+	for _, num := range nums2 {
+		if num > maxVal2 {
+			maxVal2 = num
+		}
+	}
+	return maxVal2 - maxVal1
+}

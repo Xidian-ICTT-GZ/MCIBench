@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<vector<char>> rotateTheBox(vector<vector<char>>& boxGrid) {\n        \n    }\n};"

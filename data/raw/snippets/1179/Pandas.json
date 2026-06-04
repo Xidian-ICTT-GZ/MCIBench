@@ -1,1 +1,0 @@
-"import pandas as pd\n\ndef reformat_table(department: pd.DataFrame) -> pd.DataFrame:\n    "

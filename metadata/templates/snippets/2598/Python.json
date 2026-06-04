@@ -1,0 +1,1 @@
+"class Solution(object):\n    def findSmallestInteger(self, nums, value):\n        \"\"\"\n        :type nums: List[int]\n        :type value: int\n        :rtype: int\n        \"\"\"\n        "

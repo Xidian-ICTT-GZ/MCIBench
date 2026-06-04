@@ -1,0 +1,1 @@
+"object Solution {\n    def minTime(skill: Array[Int], mana: Array[Int]): Long = {\n        \n    }\n}"

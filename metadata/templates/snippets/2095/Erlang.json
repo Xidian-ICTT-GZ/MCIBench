@@ -1,0 +1,1 @@
+"%% Definition for singly-linked list.\n%%\n%% -record(list_node, {val = 0 :: integer(),\n%%                     next = null :: 'null' | #list_node{}}).\n\n-spec delete_middle(Head :: #list_node{} | null) -> #list_node{} | null.\ndelete_middle(Head) ->\n  ."

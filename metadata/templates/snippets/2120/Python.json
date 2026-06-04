@@ -1,0 +1,1 @@
+"class Solution(object):\n    def executeInstructions(self, n, startPos, s):\n        \"\"\"\n        :type n: int\n        :type startPos: List[int]\n        :type s: str\n        :rtype: List[int]\n        \"\"\"\n        "

@@ -1,0 +1,1 @@
+"/**\n * @param {string} directions\n * @return {number}\n */\nvar countCollisions = function(directions) {\n    \n};"

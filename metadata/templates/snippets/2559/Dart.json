@@ -1,0 +1,1 @@
+"class Solution {\n  List<int> vowelStrings(List<String> words, List<List<int>> queries) {\n    \n  }\n}"

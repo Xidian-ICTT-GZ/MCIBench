@@ -1,1 +1,0 @@
-"-spec calculate_score(Instructions :: [unicode:unicode_binary()], Values :: [integer()]) -> integer().\ncalculate_score(Instructions, Values) ->\n  ."

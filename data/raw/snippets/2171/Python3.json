@@ -1,1 +1,0 @@
-"class Solution:\n    def minimumRemoval(self, beans: List[int]) -> int:\n        "

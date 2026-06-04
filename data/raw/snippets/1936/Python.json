@@ -1,1 +1,0 @@
-"class Solution(object):\n    def addRungs(self, rungs, dist):\n        \"\"\"\n        :type rungs: List[int]\n        :type dist: int\n        :rtype: int\n        \"\"\"\n        "

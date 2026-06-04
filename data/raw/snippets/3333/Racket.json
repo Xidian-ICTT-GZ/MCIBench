@@ -1,1 +1,0 @@
-"(define/contract (possible-string-count word k)\n  (-> string? exact-integer? exact-integer?)\n  )"

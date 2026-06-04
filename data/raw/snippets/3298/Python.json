@@ -1,1 +1,0 @@
-"class Solution(object):\n    def validSubstringCount(self, word1, word2):\n        \"\"\"\n        :type word1: str\n        :type word2: str\n        :rtype: int\n        \"\"\"\n        "

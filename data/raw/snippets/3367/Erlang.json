@@ -1,1 +1,0 @@
-"-spec maximize_sum_of_weights(Edges :: [[integer()]], K :: integer()) -> integer().\nmaximize_sum_of_weights(Edges, K) ->\n  ."

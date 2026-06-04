@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec falling_squares(positions :: [[integer]]) :: [integer]\n  def falling_squares(positions) do\n    \n  end\nend"

@@ -1,1 +1,0 @@
-"object Solution {\n    def goodSubtreeSum(vals: Array[Int], par: Array[Int]): Int = {\n        \n    }\n}"

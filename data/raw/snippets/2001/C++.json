@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    long long interchangeableRectangles(vector<vector<int>>& rectangles) {\n        \n    }\n};"

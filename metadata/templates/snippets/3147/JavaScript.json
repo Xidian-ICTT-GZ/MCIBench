@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} energy\n * @param {number} k\n * @return {number}\n */\nvar maximumEnergy = function(energy, k) {\n    \n};"

@@ -1,1 +1,0 @@
-"-spec prefixes_div_by5(Nums :: [integer()]) -> [boolean()].\nprefixes_div_by5(Nums) ->\n  ."

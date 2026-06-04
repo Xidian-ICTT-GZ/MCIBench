@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec sum_imbalance_numbers(nums :: [integer]) :: integer\n  def sum_imbalance_numbers(nums) do\n    \n  end\nend"

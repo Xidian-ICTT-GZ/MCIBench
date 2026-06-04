@@ -1,1 +1,0 @@
-"-spec sum_of_power(Nums :: [integer()]) -> integer().\nsum_of_power(Nums) ->\n  ."

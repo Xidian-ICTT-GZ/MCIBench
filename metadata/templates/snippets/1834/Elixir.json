@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec get_order(tasks :: [[integer]]) :: [integer]\n  def get_order(tasks) do\n    \n  end\nend"

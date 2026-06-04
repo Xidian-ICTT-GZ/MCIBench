@@ -1,0 +1,1 @@
+"class Solution(object):\n    def minimumTotalDistance(self, robot, factory):\n        \"\"\"\n        :type robot: List[int]\n        :type factory: List[List[int]]\n        :rtype: int\n        \"\"\"\n        "

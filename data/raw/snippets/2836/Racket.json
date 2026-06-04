@@ -1,1 +1,0 @@
-"(define/contract (get-max-function-value receiver k)\n  (-> (listof exact-integer?) exact-integer? exact-integer?)\n  )"

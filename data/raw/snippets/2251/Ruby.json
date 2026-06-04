@@ -1,1 +1,0 @@
-"# @param {Integer[][]} flowers\n# @param {Integer[]} people\n# @return {Integer[]}\ndef full_bloom_flowers(flowers, people)\n    \nend"

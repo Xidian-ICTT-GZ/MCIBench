@@ -1,1 +1,0 @@
-"class Solution(object):\n    def minSwap(self, nums1, nums2):\n        \"\"\"\n        :type nums1: List[int]\n        :type nums2: List[int]\n        :rtype: int\n        \"\"\"\n        "

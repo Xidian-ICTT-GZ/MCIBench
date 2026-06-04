@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec ways_to_partition(nums :: [integer], k :: integer) :: integer\n  def ways_to_partition(nums, k) do\n    \n  end\nend"

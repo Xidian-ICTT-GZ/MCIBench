@@ -1,1 +1,0 @@
-"public class Solution {\n    public IList<bool> CanMakePaliQueries(string s, int[][] queries) {\n        \n    }\n}"

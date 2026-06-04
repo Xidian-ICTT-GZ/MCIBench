@@ -1,0 +1,1 @@
+"(define/contract (finding-users-active-minutes logs k)\n  (-> (listof (listof exact-integer?)) exact-integer? (listof exact-integer?))\n  )"

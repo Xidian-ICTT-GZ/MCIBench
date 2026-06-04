@@ -1,0 +1,1 @@
+"# @param {String} s\n# @param {String} p\n# @param {Integer[]} removable\n# @return {Integer}\ndef maximum_removals(s, p, removable)\n    \nend"

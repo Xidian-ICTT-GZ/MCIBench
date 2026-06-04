@@ -1,1 +1,0 @@
-"-spec shortest_to_char(S :: unicode:unicode_binary(), C :: char()) -> [integer()].\nshortest_to_char(S, C) ->\n  ."

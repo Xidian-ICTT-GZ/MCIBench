@@ -1,1 +1,0 @@
-"class SeatManager {\n\n  SeatManager(int n) {\n    \n  }\n  \n  int reserve() {\n    \n  }\n  \n  void unreserve(int seatNumber) {\n    \n  }\n}\n\n/**\n * Your SeatManager object will be instantiated and called as such:\n * SeatManager obj = SeatManager(n);\n * int param1 = obj.reserve();\n * obj.unreserve(seatNumber);\n */"

@@ -1,1 +1,0 @@
-"(define/contract (is-sum-equal firstWord secondWord targetWord)\n  (-> string? string? string? boolean?)\n  )"

@@ -1,1 +1,0 @@
-"-spec stone_game_vi(AliceValues :: [integer()], BobValues :: [integer()]) -> integer().\nstone_game_vi(AliceValues, BobValues) ->\n  ."

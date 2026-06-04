@@ -1,1 +1,0 @@
-"class Solution(object):\n    def numberOfWeakCharacters(self, properties):\n        \"\"\"\n        :type properties: List[List[int]]\n        :rtype: int\n        \"\"\"\n        "

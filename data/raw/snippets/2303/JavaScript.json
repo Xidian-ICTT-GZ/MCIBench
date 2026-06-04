@@ -1,1 +1,0 @@
-"/**\n * @param {number[][]} brackets\n * @param {number} income\n * @return {number}\n */\nvar calculateTax = function(brackets, income) {\n    \n};"

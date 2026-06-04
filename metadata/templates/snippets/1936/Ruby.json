@@ -1,0 +1,1 @@
+"# @param {Integer[]} rungs\n# @param {Integer} dist\n# @return {Integer}\ndef add_rungs(rungs, dist)\n    \nend"

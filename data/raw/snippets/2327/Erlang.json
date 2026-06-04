@@ -1,1 +1,0 @@
-"-spec people_aware_of_secret(N :: integer(), Delay :: integer(), Forget :: integer()) -> integer().\npeople_aware_of_secret(N, Delay, Forget) ->\n  ."

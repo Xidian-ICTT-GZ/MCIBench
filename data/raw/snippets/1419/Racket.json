@@ -1,1 +1,0 @@
-"(define/contract (min-number-of-frogs croakOfFrogs)\n  (-> string? exact-integer?)\n  )"

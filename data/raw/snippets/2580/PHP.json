@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[][] $ranges\n     * @return Integer\n     */\n    function countWays($ranges) {\n        \n    }\n}"

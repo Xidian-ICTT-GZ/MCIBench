@@ -1,9 +1,0 @@
-public class Solution {
-    public string GenerateTheString(int n) {
-        StringBuilder sb = new StringBuilder();
-        if (n % 2 == 1) {
-            return new string('a', n);
-        }
-        return new string('a', n - 1) + "b";
-    }
-}

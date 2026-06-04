@@ -1,0 +1,1 @@
+"public class DataStream {\n\n    public DataStream(int value, int k) {\n        \n    }\n    \n    public bool Consec(int num) {\n        \n    }\n}\n\n/**\n * Your DataStream object will be instantiated and called as such:\n * DataStream obj = new DataStream(value, k);\n * bool param_1 = obj.Consec(num);\n */"

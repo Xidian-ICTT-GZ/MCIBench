@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec last_non_empty_string(s :: String.t) :: String.t\n  def last_non_empty_string(s) do\n    \n  end\nend"

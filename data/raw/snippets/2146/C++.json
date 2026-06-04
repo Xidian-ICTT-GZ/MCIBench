@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    vector<vector<int>> highestRankedKItems(vector<vector<int>>& grid, vector<int>& pricing, vector<int>& start, int k) {\n        \n    }\n};"

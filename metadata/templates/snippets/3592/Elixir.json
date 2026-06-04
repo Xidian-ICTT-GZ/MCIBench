@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec find_coins(num_ways :: [integer]) :: [integer]\n  def find_coins(num_ways) do\n    \n  end\nend"

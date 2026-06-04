@@ -1,0 +1,1 @@
+"-spec count_complete_subarrays(Nums :: [integer()]) -> integer().\ncount_complete_subarrays(Nums) ->\n  ."

@@ -1,1 +1,0 @@
-"class RecentCounter() {\n\n    def ping(t: Int): Int = {\n        \n    }\n\n}\n\n/**\n * Your RecentCounter object will be instantiated and called as such:\n * val obj = new RecentCounter()\n * val param_1 = obj.ping(t)\n */"

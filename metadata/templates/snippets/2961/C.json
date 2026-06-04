@@ -1,0 +1,1 @@
+"/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* getGoodIndices(int** variables, int variablesSize, int* variablesColSize, int target, int* returnSize) {\n    \n}"

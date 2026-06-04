@@ -1,0 +1,1 @@
+"class Solution(object):\n    def countPermutations(self, complexity):\n        \"\"\"\n        :type complexity: List[int]\n        :rtype: int\n        \"\"\"\n        "

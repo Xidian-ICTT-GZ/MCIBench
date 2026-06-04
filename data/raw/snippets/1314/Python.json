@@ -1,1 +1,0 @@
-"class Solution(object):\n    def matrixBlockSum(self, mat, k):\n        \"\"\"\n        :type mat: List[List[int]]\n        :type k: int\n        :rtype: List[List[int]]\n        \"\"\"\n        "

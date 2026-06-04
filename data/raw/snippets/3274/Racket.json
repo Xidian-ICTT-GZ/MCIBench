@@ -1,1 +1,0 @@
-"(define/contract (check-two-chessboards coordinate1 coordinate2)\n  (-> string? string? boolean?)\n  )"

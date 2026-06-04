@@ -1,1 +1,0 @@
-"(define/contract (num-of-pairs nums target)\n  (-> (listof string?) string? exact-integer?)\n  )"

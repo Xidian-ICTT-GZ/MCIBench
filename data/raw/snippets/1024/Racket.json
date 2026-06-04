@@ -1,1 +1,0 @@
-"(define/contract (video-stitching clips time)\n  (-> (listof (listof exact-integer?)) exact-integer? exact-integer?)\n  )"

@@ -1,0 +1,1 @@
+"-spec number_of_cuts(N :: integer()) -> integer().\nnumber_of_cuts(N) ->\n  ."

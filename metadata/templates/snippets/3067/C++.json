@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<int> countPairsOfConnectableServers(vector<vector<int>>& edges, int signalSpeed) {\n        \n    }\n};"

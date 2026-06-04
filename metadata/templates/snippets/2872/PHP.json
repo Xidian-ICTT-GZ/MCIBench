@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $n\n     * @param Integer[][] $edges\n     * @param Integer[] $values\n     * @param Integer $k\n     * @return Integer\n     */\n    function maxKDivisibleComponents($n, $edges, $values, $k) {\n        \n    }\n}"

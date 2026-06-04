@@ -1,0 +1,1 @@
+"object Solution {\n    def isReachable(targetX: Int, targetY: Int): Boolean = {\n        \n    }\n}"

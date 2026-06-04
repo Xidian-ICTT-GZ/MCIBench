@@ -1,1 +1,0 @@
-"-spec max_total_reward(RewardValues :: [integer()]) -> integer().\nmax_total_reward(RewardValues) ->\n  ."

@@ -1,0 +1,1 @@
+"public class Solution {\n    public IList<string> ValidateCoupons(string[] code, string[] businessLine, bool[] isActive) {\n        \n    }\n}"

@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec add_operators(num :: String.t, target :: integer) :: [String.t]\n  def add_operators(num, target) do\n    \n  end\nend"

@@ -1,1 +1,0 @@
-"/**\n * @param {number} turnedOn\n * @return {string[]}\n */\nvar readBinaryWatch = function(turnedOn) {\n    \n};"

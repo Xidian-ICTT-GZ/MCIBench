@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    vector<int> minBitwiseArray(vector<int>& nums) {\n        \n    }\n};"

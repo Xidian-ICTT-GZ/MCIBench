@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $image\n     * @param Integer $threshold\n     * @return Integer[][]\n     */\n    function resultGrid($image, $threshold) {\n        \n    }\n}"

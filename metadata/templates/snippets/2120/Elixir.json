@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec execute_instructions(n :: integer, start_pos :: [integer], s :: String.t) :: [integer]\n  def execute_instructions(n, start_pos, s) do\n    \n  end\nend"

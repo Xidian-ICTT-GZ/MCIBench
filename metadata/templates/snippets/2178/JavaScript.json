@@ -1,0 +1,1 @@
+"/**\n * @param {number} finalSum\n * @return {number[]}\n */\nvar maximumEvenSplit = function(finalSum) {\n    \n};"

@@ -1,1 +1,0 @@
-"(define/contract (reformat-date date)\n  (-> string? string?)\n  )"

@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec max_count(banned :: [integer], n :: integer, max_sum :: integer) :: integer\n  def max_count(banned, n, max_sum) do\n    \n  end\nend"

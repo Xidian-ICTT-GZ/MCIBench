@@ -1,1 +1,0 @@
-"(define/contract (has-valid-path grid)\n  (-> (listof (listof char?)) boolean?)\n  )"

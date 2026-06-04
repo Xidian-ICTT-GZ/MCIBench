@@ -1,0 +1,1 @@
+"-spec group_the_people(GroupSizes :: [integer()]) -> [[integer()]].\ngroup_the_people(GroupSizes) ->\n  ."

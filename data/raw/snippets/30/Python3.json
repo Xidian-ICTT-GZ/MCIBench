@@ -1,1 +1,0 @@
-"class Solution:\n    def findSubstring(self, s: str, words: List[str]) -> List[int]:\n        "

@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    vector<vector<int>> restoreMatrix(vector<int>& rowSum, vector<int>& colSum) {\n        \n    }\n};"

@@ -1,1 +1,0 @@
-"class Solution:\n    def maxAverageRatio(self, classes: List[List[int]], extraStudents: int) -> float:\n        "

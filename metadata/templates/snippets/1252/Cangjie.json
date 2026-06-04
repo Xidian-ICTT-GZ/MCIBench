@@ -1,0 +1,1 @@
+"class Solution {\n    func oddCells(m: Int64, n: Int64, indices: Array<Array<Int64>>): Int64 {\n\n    }\n}"

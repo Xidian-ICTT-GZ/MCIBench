@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec min_stone_sum(piles :: [integer], k :: integer) :: integer\n  def min_stone_sum(piles, k) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"(define/contract (truncate-sentence s k)\n  (-> string? exact-integer? string?)\n  )"

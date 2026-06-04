@@ -1,0 +1,1 @@
+"(define/contract (people-indexes favoriteCompanies)\n  (-> (listof (listof string?)) (listof exact-integer?))\n  )"

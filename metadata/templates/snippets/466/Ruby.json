@@ -1,0 +1,1 @@
+"# @param {String} s1\n# @param {Integer} n1\n# @param {String} s2\n# @param {Integer} n2\n# @return {Integer}\ndef get_max_repetitions(s1, n1, s2, n2)\n    \nend"

@@ -1,0 +1,22 @@
+int rangeSumBST(struct TreeNode *root, int low, int high) {
+    int sum = 0;
+    struct TreeNode *q[40000];
+    int left = 0, right = 0;
+    q[right++] = root;
+    while (left < right) {
+        struct TreeNode *node = q[left++];
+        if (node == NULL) {
+            continue;
+        }
+        if (node->val > high) {
+            q[right++] = node->left;
+        } else if (node->val < low) {
+            q[right++] = node->right;
+        } else {
+            sum += node->val;
+            q[right++] = node->left;
+            q[right++] = node->right;
+        }
+    }
+    return sum;
+}

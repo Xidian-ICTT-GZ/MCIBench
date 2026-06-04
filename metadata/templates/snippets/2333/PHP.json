@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $nums1\n     * @param Integer[] $nums2\n     * @param Integer $k1\n     * @param Integer $k2\n     * @return Integer\n     */\n    function minSumSquareDiff($nums1, $nums2, $k1, $k2) {\n        \n    }\n}"

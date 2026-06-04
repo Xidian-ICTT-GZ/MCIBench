@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer $k\n     * @param Integer $numOperations\n     * @return Integer\n     */\n    function maxFrequency($nums, $k, $numOperations) {\n        \n    }\n}"

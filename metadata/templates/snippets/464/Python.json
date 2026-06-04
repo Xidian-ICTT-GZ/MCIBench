@@ -1,0 +1,1 @@
+"class Solution(object):\n    def canIWin(self, maxChoosableInteger, desiredTotal):\n        \"\"\"\n        :type maxChoosableInteger: int\n        :type desiredTotal: int\n        :rtype: bool\n        \"\"\"\n        "

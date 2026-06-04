@@ -1,0 +1,1 @@
+"class Solution(object):\n    def idealArrays(self, n, maxValue):\n        \"\"\"\n        :type n: int\n        :type maxValue: int\n        :rtype: int\n        \"\"\"\n        "

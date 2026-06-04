@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec maximum_points(edges :: [[integer]], coins :: [integer], k :: integer) :: integer\n  def maximum_points(edges, coins, k) do\n    \n  end\nend"

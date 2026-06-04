@@ -1,0 +1,1 @@
+"public class ExamRoom {\n\n    public ExamRoom(int n) {\n        \n    }\n    \n    public int Seat() {\n        \n    }\n    \n    public void Leave(int p) {\n        \n    }\n}\n\n/**\n * Your ExamRoom object will be instantiated and called as such:\n * ExamRoom obj = new ExamRoom(n);\n * int param_1 = obj.Seat();\n * obj.Leave(p);\n */"

@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $cost\n     * @return Integer\n     */\n    function connectTwoGroups($cost) {\n        \n    }\n}"

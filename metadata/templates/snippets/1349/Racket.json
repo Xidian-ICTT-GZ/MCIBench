@@ -1,0 +1,1 @@
+"(define/contract (max-students seats)\n  (-> (listof (listof char?)) exact-integer?)\n  )"

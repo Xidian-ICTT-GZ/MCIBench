@@ -1,1 +1,0 @@
-"# @param {Integer[]} numbers\n# @param {Integer} target\n# @return {Integer[]}\ndef two_sum(numbers, target)\n    \nend"

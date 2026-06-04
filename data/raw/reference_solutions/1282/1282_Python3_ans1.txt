@@ -1,9 +1,0 @@
-class Solution:
-    def groupThePeople(self, groupSizes: List[int]) -> List[List[int]]:
-        groups = defaultdict(list)
-        for i, size in enumerate(groupSizes):
-            groups[size].append(i)
-        ans = []
-        for size, people in groups.items():
-            ans.extend(people[i: i + size] for i in range(0, len(people), size))
-        return ans

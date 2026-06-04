@@ -1,1 +1,0 @@
-"class Solution {\n    constructor(radius: number, x_center: number, y_center: number) {\n        \n    }\n\n    randPoint(): number[] {\n        \n    }\n}\n\n/**\n * Your Solution object will be instantiated and called as such:\n * var obj = new Solution(radius, x_center, y_center)\n * var param_1 = obj.randPoint()\n */"

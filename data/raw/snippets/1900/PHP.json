@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer $n\n     * @param Integer $firstPlayer\n     * @param Integer $secondPlayer\n     * @return Integer[]\n     */\n    function earliestAndLatest($n, $firstPlayer, $secondPlayer) {\n        \n    }\n}"

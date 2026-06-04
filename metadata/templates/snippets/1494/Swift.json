@@ -1,0 +1,1 @@
+"class Solution {\n    func minNumberOfSemesters(_ n: Int, _ relations: [[Int]], _ k: Int) -> Int {\n        \n    }\n}"

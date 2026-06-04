@@ -1,1 +1,0 @@
-"# @param {Integer[]} days\n# @param {Integer[]} costs\n# @return {Integer}\ndef mincost_tickets(days, costs)\n    \nend"

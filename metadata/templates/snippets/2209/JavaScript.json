@@ -1,0 +1,1 @@
+"/**\n * @param {string} floor\n * @param {number} numCarpets\n * @param {number} carpetLen\n * @return {number}\n */\nvar minimumWhiteTiles = function(floor, numCarpets, carpetLen) {\n    \n};"

@@ -1,0 +1,1 @@
+"class Solution {\n  int findPaths(int m, int n, int maxMove, int startRow, int startColumn) {\n    \n  }\n}"

@@ -1,1 +1,0 @@
-"-spec num_subarray_bounded_max(Nums :: [integer()], Left :: integer(), Right :: integer()) -> integer().\nnum_subarray_bounded_max(Nums, Left, Right) ->\n  ."

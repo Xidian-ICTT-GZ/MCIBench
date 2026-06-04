@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} nums\n * @return {number}\n */\nvar countHillValley = function(nums) {\n    \n};"

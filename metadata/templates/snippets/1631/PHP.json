@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $heights\n     * @return Integer\n     */\n    function minimumEffortPath($heights) {\n        \n    }\n}"

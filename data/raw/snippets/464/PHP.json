@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer $maxChoosableInteger\n     * @param Integer $desiredTotal\n     * @return Boolean\n     */\n    function canIWin($maxChoosableInteger, $desiredTotal) {\n        \n    }\n}"

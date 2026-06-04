@@ -1,1 +1,0 @@
-"-spec num_prime_arrangements(N :: integer()) -> integer().\nnum_prime_arrangements(N) ->\n  ."

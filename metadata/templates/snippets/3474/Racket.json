@@ -1,0 +1,1 @@
+"(define/contract (generate-string str1 str2)\n  (-> string? string? string?)\n  )"

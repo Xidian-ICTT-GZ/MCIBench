@@ -1,1 +1,0 @@
-"-spec max_substrings(Word :: unicode:unicode_binary()) -> integer().\nmax_substrings(Word) ->\n  ."

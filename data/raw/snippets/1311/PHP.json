@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String[][] $watchedVideos\n     * @param Integer[][] $friends\n     * @param Integer $id\n     * @param Integer $level\n     * @return String[]\n     */\n    function watchedVideosByFriends($watchedVideos, $friends, $id, $level) {\n        \n    }\n}"

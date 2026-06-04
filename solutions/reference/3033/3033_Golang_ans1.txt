@@ -1,0 +1,23 @@
+func modifiedMatrix(matrix [][]int) [][]int {
+    n := len(matrix)
+    m := len(matrix[0])
+    for j := 0; j < m; j++ {
+        zd := -1
+        for i := 0; i < n; i++ {
+            zd = max(zd, matrix[i][j])
+        }
+        for i := 0; i < n; i++ {
+            if matrix[i][j] == -1 {
+                matrix[i][j] = zd
+            }
+        }
+    }
+    return matrix
+}
+
+func max(a, b int) int {
+    if a > b {
+    return a
+}
+return b
+}

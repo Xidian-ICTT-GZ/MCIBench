@@ -1,1 +1,0 @@
-"class Solution:\n    def getGoodIndices(self, variables: List[List[int]], target: int) -> List[int]:\n        "

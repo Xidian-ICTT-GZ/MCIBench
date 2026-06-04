@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec distance_between_bus_stops(distance :: [integer], start :: integer, destination :: integer) :: integer\n  def distance_between_bus_stops(distance, start, destination) do\n    \n  end\nend"

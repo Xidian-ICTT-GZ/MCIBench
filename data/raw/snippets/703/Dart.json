@@ -1,1 +1,0 @@
-"class KthLargest {\n\n  KthLargest(int k, List<int> nums) {\n    \n  }\n  \n  int add(int val) {\n    \n  }\n}\n\n/**\n * Your KthLargest object will be instantiated and called as such:\n * KthLargest obj = KthLargest(k, nums);\n * int param1 = obj.add(val);\n */"

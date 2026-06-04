@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec nums_same_consec_diff(n :: integer, k :: integer) :: [integer]\n  def nums_same_consec_diff(n, k) do\n    \n  end\nend"

@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    vector<vector<long long>> splitPainting(vector<vector<int>>& segments) {\n        \n    }\n};"

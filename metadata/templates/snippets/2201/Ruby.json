@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @param {Integer[][]} artifacts\n# @param {Integer[][]} dig\n# @return {Integer}\ndef dig_artifacts(n, artifacts, dig)\n    \nend"

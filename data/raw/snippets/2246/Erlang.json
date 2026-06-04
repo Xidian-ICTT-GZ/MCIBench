@@ -1,1 +1,0 @@
-"-spec longest_path(Parent :: [integer()], S :: unicode:unicode_binary()) -> integer().\nlongest_path(Parent, S) ->\n  ."

@@ -1,0 +1,1 @@
+"class Solution:\n    def splitString(self, s: str) -> bool:\n        "

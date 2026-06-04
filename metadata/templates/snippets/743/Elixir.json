@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec network_delay_time(times :: [[integer]], n :: integer, k :: integer) :: integer\n  def network_delay_time(times, n, k) do\n\n  end\nend"

@@ -1,1 +1,0 @@
-"/**\n * Definition for singly-linked list.\n * public class ListNode {\n *     public var val: Int\n *     public var next: ListNode?\n *     public init(_ val: Int) {\n *         self.val = val\n *         self.next = nil\n *     }\n * }\n */\n\nclass Solution {\n    func deleteNode(_ node: ListNode?) {\n        \n    }\n}"

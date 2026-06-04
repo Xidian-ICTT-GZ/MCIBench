@@ -1,0 +1,1 @@
+"class Solution(object):\n    def accountBalanceAfterPurchase(self, purchaseAmount):\n        \"\"\"\n        :type purchaseAmount: int\n        :rtype: int\n        \"\"\"\n        "

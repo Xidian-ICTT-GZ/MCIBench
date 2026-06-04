@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec pyramid_transition(bottom :: String.t, allowed :: [String.t]) :: boolean\n  def pyramid_transition(bottom, allowed) do\n    \n  end\nend"

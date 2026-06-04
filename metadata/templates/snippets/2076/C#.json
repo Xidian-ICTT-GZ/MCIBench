@@ -1,0 +1,1 @@
+"public class Solution {\n    public bool[] FriendRequests(int n, int[][] restrictions, int[][] requests) {\n        \n    }\n}"

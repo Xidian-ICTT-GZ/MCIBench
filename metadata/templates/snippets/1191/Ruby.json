@@ -1,0 +1,1 @@
+"# @param {Integer[]} arr\n# @param {Integer} k\n# @return {Integer}\ndef k_concatenation_max_sum(arr, k)\n    \nend"

@@ -1,1 +1,0 @@
-"(define/contract (minimum-string a b c)\n  (-> string? string? string? string?)\n  )"

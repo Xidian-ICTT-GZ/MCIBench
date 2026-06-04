@@ -1,1 +1,0 @@
-"%% Definition for a binary tree node.\n%%\n%% -record(tree_node, {val = 0 :: integer(),\n%%                     left = null  :: 'null' | #tree_node{},\n%%                     right = null :: 'null' | #tree_node{}}).\n\n-spec kth_largest_perfect_subtree(Root :: #tree_node{} | null, K :: integer()) -> integer().\nkth_largest_perfect_subtree(Root, K) ->\n  ."

@@ -1,1 +1,0 @@
-"-spec max_nice_divisors(PrimeFactors :: integer()) -> integer().\nmax_nice_divisors(PrimeFactors) ->\n  ."

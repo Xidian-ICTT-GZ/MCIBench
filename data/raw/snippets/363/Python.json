@@ -1,1 +1,0 @@
-"class Solution(object):\n    def maxSumSubmatrix(self, matrix, k):\n        \"\"\"\n        :type matrix: List[List[int]]\n        :type k: int\n        :rtype: int\n        \"\"\"\n        "

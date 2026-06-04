@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $reward1\n     * @param Integer[] $reward2\n     * @param Integer $k\n     * @return Integer\n     */\n    function miceAndCheese($reward1, $reward2, $k) {\n        \n    }\n}"

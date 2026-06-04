@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec string_indices(words_container :: [String.t], words_query :: [String.t]) :: [integer]\n  def string_indices(words_container, words_query) do\n    \n  end\nend"

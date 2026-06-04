@@ -1,1 +1,0 @@
-"# @param {Integer[][]} edges\n# @param {Integer} max_moves\n# @param {Integer} n\n# @return {Integer}\ndef reachable_nodes(edges, max_moves, n)\n    \nend"

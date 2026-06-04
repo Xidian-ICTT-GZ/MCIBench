@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec count_matching_subarrays(nums :: [integer], pattern :: [integer]) :: integer\n  def count_matching_subarrays(nums, pattern) do\n    \n  end\nend"

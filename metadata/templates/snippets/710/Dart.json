@@ -1,0 +1,1 @@
+"class Solution {\n\n  Solution(int n, List<int> blacklist) {\n    \n  }\n  \n  int pick() {\n    \n  }\n}\n\n/**\n * Your Solution object will be instantiated and called as such:\n * Solution obj = Solution(n, blacklist);\n * int param1 = obj.pick();\n */"

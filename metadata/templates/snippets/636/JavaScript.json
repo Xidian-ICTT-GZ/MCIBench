@@ -1,0 +1,1 @@
+"/**\n * @param {number} n\n * @param {string[]} logs\n * @return {number[]}\n */\nvar exclusiveTime = function(n, logs) {\n    \n};"

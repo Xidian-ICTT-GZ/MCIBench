@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec distance(nums :: [integer]) :: [integer]\n  def distance(nums) do\n    \n  end\nend"

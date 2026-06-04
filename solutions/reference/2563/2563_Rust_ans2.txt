@@ -1,0 +1,19 @@
+impl Solution {
+    pub fn count_fair_pairs(mut nums: Vec<i32>, lower: i32, upper: i32) -> i64 {
+        nums.sort();
+        let mut ans = 0;
+        let (mut left, mut right) = (nums.len(), nums.len());
+
+        for (j, &num) in nums.iter().enumerate() {
+            while right > 0 && nums[right - 1] > upper - num {
+                right -= 1;
+            }
+            while left > 0 && nums[left - 1] >= lower - num {
+                left -= 1;
+            }
+            ans += (right.min(j) as i64) - (left.min(j) as i64);
+        }
+        
+        ans
+    }
+}

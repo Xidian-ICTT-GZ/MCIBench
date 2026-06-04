@@ -1,1 +1,0 @@
-"-spec get_folder_names(Names :: [unicode:unicode_binary()]) -> [unicode:unicode_binary()].\nget_folder_names(Names) ->\n  ."

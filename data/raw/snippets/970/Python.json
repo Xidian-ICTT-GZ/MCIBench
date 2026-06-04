@@ -1,1 +1,0 @@
-"class Solution(object):\n    def powerfulIntegers(self, x, y, bound):\n        \"\"\"\n        :type x: int\n        :type y: int\n        :type bound: int\n        :rtype: List[int]\n        \"\"\"\n        "

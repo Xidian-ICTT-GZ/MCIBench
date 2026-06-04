@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<int> maxActiveSectionsAfterTrade(string s, vector<vector<int>>& queries) {\n        \n    }\n};"

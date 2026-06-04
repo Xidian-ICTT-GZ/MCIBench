@@ -1,0 +1,1 @@
+"-spec max_sum_range_query(Nums :: [integer()], Requests :: [[integer()]]) -> integer().\nmax_sum_range_query(Nums, Requests) ->\n  ."

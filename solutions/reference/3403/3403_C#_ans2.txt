@@ -1,0 +1,28 @@
+public class Solution {
+    public string LastSubstring(string s) {
+        int i = 0, j = 1, n = s.Length;
+        while (j < n) {
+            int k = 0;
+            while (j + k < n && s[i + k] == s[j + k]) {
+                k++;
+            }
+            if (j + k < n && s[i + k] < s[j + k]) {
+                int t = i;
+                i = j;
+                j = Math.Max(j + 1, t + k + 1);
+            } else {
+                j = j + k + 1;
+            }
+        }
+        return s.Substring(i);
+    }
+
+    public string AnswerString(string word, int numFriends) {
+        if (numFriends == 1) {
+            return word;
+        }
+        string last = LastSubstring(word);
+        int n = word.Length, m = last.Length;
+        return last.Substring(0, Math.Min(m, n - numFriends + 1));
+    }
+}

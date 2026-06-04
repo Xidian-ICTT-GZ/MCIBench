@@ -1,1 +1,0 @@
-"# @param {String} current\n# @param {String} correct\n# @return {Integer}\ndef convert_time(current, correct)\n    \nend"

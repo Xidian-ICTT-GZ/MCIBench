@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec nearest_exit(maze :: [[char]], entrance :: [integer]) :: integer\n  def nearest_exit(maze, entrance) do\n    \n  end\nend"

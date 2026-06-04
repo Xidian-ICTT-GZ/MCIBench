@@ -1,1 +1,0 @@
-"%% Definition for singly-linked list.\n%%\n%% -record(list_node, {val = 0 :: integer(),\n%%                     next = null :: 'null' | #list_node{}}).\n\n-spec rotate_right(Head :: #list_node{} | null, K :: integer()) -> #list_node{} | null.\nrotate_right(Head, K) ->\n  ."

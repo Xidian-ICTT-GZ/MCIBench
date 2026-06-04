@@ -1,1 +1,0 @@
-"/**\n * @param {number[][]} land\n * @return {number[][]}\n */\nvar findFarmland = function(land) {\n    \n};"

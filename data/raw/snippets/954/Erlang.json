@@ -1,1 +1,0 @@
-"-spec can_reorder_doubled(Arr :: [integer()]) -> boolean().\ncan_reorder_doubled(Arr) ->\n  ."

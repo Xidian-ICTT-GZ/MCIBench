@@ -1,9 +1,0 @@
-class Solution:
-    def minDifference(self, nums: List[int]) -> int:
-        if len(nums) <= 4:
-            return 0
-        
-        n = len(nums)
-        nums.sort()
-        ret = min(nums[n - 4 + i] - nums[i] for i in range(4))
-        return ret

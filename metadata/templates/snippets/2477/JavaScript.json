@@ -1,0 +1,1 @@
+"/**\n * @param {number[][]} roads\n * @param {number} seats\n * @return {number}\n */\nvar minimumFuelCost = function(roads, seats) {\n    \n};"

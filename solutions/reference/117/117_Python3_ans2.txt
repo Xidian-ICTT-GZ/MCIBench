@@ -1,0 +1,24 @@
+class Solution:
+    def connect(self, root: 'Node') -> 'Node':
+        if not root:
+            return None
+        start = root
+        while start:
+            self.last = None
+            self.nextStart = None
+            p = start
+            while p:
+                if p.left:
+                    self.handle(p.left)
+                if p.right:
+                    self.handle(p.right)
+                p = p.next
+            start = self.nextStart
+        return root
+
+    def handle(self, p):
+        if self.last:
+            self.last.next = p
+        if not self.nextStart:
+            self.nextStart = p
+        self.last = p

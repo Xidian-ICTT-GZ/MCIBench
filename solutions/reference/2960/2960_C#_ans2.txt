@@ -1,0 +1,11 @@
+public class Solution {
+    public int CountTestedDevices(int[] batteryPercentages) {
+        int need = 0;
+        foreach (int battery in batteryPercentages) {
+            if (battery > need) {
+                need++;
+            }
+        }
+        return need;
+    }
+}

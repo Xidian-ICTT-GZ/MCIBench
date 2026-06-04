@@ -1,1 +1,0 @@
-"-spec count_pairs(N :: integer(), Edges :: [[integer()]]) -> integer().\ncount_pairs(N, Edges) ->\n  ."

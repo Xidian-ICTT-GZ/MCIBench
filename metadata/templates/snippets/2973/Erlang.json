@@ -1,0 +1,1 @@
+"-spec placed_coins(Edges :: [[integer()]], Cost :: [integer()]) -> [integer()].\nplaced_coins(Edges, Cost) ->\n  ."

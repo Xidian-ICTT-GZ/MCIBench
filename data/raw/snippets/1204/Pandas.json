@@ -1,1 +1,0 @@
-"import pandas as pd\n\ndef last_passenger(queue: pd.DataFrame) -> pd.DataFrame:\n    "

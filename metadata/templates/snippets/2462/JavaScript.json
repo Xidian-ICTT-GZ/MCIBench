@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} costs\n * @param {number} k\n * @param {number} candidates\n * @return {number}\n */\nvar totalCost = function(costs, k, candidates) {\n    \n};"

@@ -1,1 +1,0 @@
-"/**\n * @param {number[][]} towers\n * @param {number} radius\n * @return {number[]}\n */\nvar bestCoordinate = function(towers, radius) {\n    \n};"

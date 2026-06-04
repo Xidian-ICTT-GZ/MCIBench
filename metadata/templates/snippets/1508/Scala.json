@@ -1,0 +1,1 @@
+"object Solution {\n    def rangeSum(nums: Array[Int], n: Int, left: Int, right: Int): Int = {\n        \n    }\n}"

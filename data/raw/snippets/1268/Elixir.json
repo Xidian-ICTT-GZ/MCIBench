@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec suggested_products(products :: [String.t], search_word :: String.t) :: [[String.t]]\n  def suggested_products(products, search_word) do\n    \n  end\nend"

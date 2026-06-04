@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} nums\n * @param {number} cost1\n * @param {number} cost2\n * @return {number}\n */\nvar minCostToEqualizeArray = function(nums, cost1, cost2) {\n    \n};"

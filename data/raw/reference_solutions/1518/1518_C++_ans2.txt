@@ -1,6 +1,0 @@
-class Solution {
-public:
-    int numWaterBottles(int numBottles, int numExchange) {
-        return numBottles >= numExchange ? (numBottles - numExchange) / (numExchange - 1) + 1 + numBottles : numBottles;
-    }
-};

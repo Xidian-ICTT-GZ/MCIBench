@@ -1,1 +1,0 @@
-"class Solution(object):\n    def paintWalls(self, cost, time):\n        \"\"\"\n        :type cost: List[int]\n        :type time: List[int]\n        :rtype: int\n        \"\"\"\n        "

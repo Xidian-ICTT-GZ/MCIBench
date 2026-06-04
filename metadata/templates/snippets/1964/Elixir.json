@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec longest_obstacle_course_at_each_position(obstacles :: [integer]) :: [integer]\n  def longest_obstacle_course_at_each_position(obstacles) do\n    \n  end\nend"

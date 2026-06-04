@@ -1,1 +1,0 @@
-"-spec split_array_same_average(Nums :: [integer()]) -> boolean().\nsplit_array_same_average(Nums) ->\n  ."

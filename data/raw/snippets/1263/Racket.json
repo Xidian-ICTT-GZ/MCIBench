@@ -1,1 +1,0 @@
-"(define/contract (min-push-box grid)\n  (-> (listof (listof char?)) exact-integer?)\n  )"

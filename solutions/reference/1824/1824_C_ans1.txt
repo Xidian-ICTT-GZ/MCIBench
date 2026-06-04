@@ -1,0 +1,26 @@
+const int INF = 0X3f3f3f3f;
+
+static inline int min(int a, int b) {
+    return a < b ? a : b;
+}
+
+int minSideJumps(int* obstacles, int obstaclesSize) {
+    int d[3] = {1, 0, 1};
+    for (int i = 1; i < obstaclesSize; i++) {
+        int minCnt = INF;
+        for (int j = 0; j < 3; j++) {
+            if (j == obstacles[i] - 1) {
+                d[j] = INF;
+            } else {
+                minCnt = min(minCnt, d[j]);
+            }
+        }
+        for (int j = 0; j < 3; j++) {
+            if (j == obstacles[i] - 1) {
+                continue;
+            }
+            d[j] = min(d[j], minCnt + 1);
+        }
+    }
+    return min(d[0], min(d[1], d[2]));
+}

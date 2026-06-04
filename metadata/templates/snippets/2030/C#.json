@@ -1,0 +1,1 @@
+"public class Solution {\n    public string SmallestSubsequence(string s, int k, char letter, int repetition) {\n        \n    }\n}"

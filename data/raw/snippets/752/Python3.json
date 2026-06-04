@@ -1,1 +1,0 @@
-"class Solution:\n    def openLock(self, deadends: List[str], target: str) -> int:\n        "

@@ -1,0 +1,1 @@
+"/**\n * @return {Function}\n */\nvar createHelloWorld = function() {\n    \n    return function(...args) {\n        \n    }\n};\n\n/**\n * const f = createHelloWorld();\n * f(); // \"Hello World\"\n */"

@@ -1,1 +1,0 @@
-"(define/contract (backspace-compare s t)\n  (-> string? string? boolean?)\n  )"

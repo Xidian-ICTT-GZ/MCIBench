@@ -1,1 +1,0 @@
-"-spec find_prime_pairs(N :: integer()) -> [[integer()]].\nfind_prime_pairs(N) ->\n  ."

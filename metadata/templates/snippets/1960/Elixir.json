@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec max_product(s :: String.t) :: integer\n  def max_product(s) do\n    \n  end\nend"

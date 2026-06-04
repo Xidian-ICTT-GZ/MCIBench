@@ -1,1 +1,0 @@
-"class DataStream {\n\n  DataStream(int value, int k) {\n    \n  }\n  \n  bool consec(int num) {\n    \n  }\n}\n\n/**\n * Your DataStream object will be instantiated and called as such:\n * DataStream obj = DataStream(value, k);\n * bool param1 = obj.consec(num);\n */"

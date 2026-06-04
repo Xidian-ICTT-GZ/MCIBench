@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec array_nesting(nums :: [integer]) :: integer\n  def array_nesting(nums) do\n    \n  end\nend"

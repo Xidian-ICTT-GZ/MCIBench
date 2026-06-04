@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec is_winner(player1 :: [integer], player2 :: [integer]) :: integer\n  def is_winner(player1, player2) do\n    \n  end\nend"

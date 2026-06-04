@@ -1,1 +1,0 @@
-"class Solution:\n    def fallingSquares(self, positions: List[List[int]]) -> List[int]:\n        "

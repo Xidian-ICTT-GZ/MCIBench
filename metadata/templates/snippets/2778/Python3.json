@@ -1,0 +1,1 @@
+"class Solution:\n    def sumOfSquares(self, nums: List[int]) -> int:\n        "

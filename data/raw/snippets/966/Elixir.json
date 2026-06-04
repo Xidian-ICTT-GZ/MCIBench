@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec spellchecker(wordlist :: [String.t], queries :: [String.t]) :: [String.t]\n  def spellchecker(wordlist, queries) do\n    \n  end\nend"

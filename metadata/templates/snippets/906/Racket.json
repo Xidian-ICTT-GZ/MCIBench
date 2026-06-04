@@ -1,0 +1,1 @@
+"(define/contract (superpalindromes-in-range left right)\n  (-> string? string? exact-integer?)\n  )"

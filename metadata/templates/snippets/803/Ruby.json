@@ -1,0 +1,1 @@
+"# @param {Integer[][]} grid\n# @param {Integer[][]} hits\n# @return {Integer[]}\ndef hit_bricks(grid, hits)\n    \nend"

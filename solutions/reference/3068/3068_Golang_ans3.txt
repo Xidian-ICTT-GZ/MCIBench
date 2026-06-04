@@ -1,0 +1,8 @@
+func maximumValueSum(nums []int, k int, edges [][]int) int64 {
+	var f0, f1 int64
+	f0, f1 = int64(0), math.MinInt64
+	for _, x := range nums {
+		f0, f1 = max(f0+int64(x), f1+int64(x^k)), max(f1+int64(x), f0+int64(x^k))
+	}
+	return f0
+}

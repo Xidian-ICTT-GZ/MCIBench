@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec min_length_after_removals(nums :: [integer]) :: integer\n  def min_length_after_removals(nums) do\n    \n  end\nend"

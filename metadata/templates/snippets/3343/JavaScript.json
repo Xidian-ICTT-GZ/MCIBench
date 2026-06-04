@@ -1,0 +1,1 @@
+"/**\n * @param {string} num\n * @return {number}\n */\nvar countBalancedPermutations = function(num) {\n    \n};"

@@ -1,0 +1,15 @@
+int* constructArray(int n, int k, int* returnSize){
+    int *answer = (int *)malloc(sizeof(int) * n);
+    int pos = 0;
+    for (int i = 1; i < n - k; ++i) {
+        answer[pos++] = i;
+    }
+    for (int i = n - k, j = n; i <= j; ++i, --j) {
+        answer[pos++] = i;
+        if (i != j) {
+            answer[pos++] = j;
+        }
+    }
+    *returnSize = n;
+    return answer;
+}

@@ -1,1 +1,0 @@
-"/**\n * @param {number[][]} edges\n * @param {number[]} nums\n * @return {number[]}\n */\nvar longestSpecialPath = function(edges, nums) {\n    \n};"

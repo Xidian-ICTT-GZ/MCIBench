@@ -1,0 +1,105 @@
+typedef struct Node {
+    char val;
+    struct Node* prev;
+    struct Node* next;
+} Node;
+
+Node *newNode(char val) {
+    Node* node = (Node*)malloc(sizeof(Node));
+    memset(node, 0, sizeof(Node));
+    node->val = val;
+    return node;
+}
+
+void nodeInsert(Node* cursor, char val) {
+    Node* node = newNode(val);
+    node->next = cursor;
+    node->prev = cursor->prev;
+    if (cursor->prev) {
+        cursor->prev->next = node;
+    }
+    cursor->prev = node;
+}
+
+void nodeRemove(Node* cursor) {
+    Node* node = cursor->prev;
+    cursor->prev = node->prev;
+    if (node->prev) {
+        node->prev->next = cursor;
+    }
+    free(node);
+}
+
+char* nodeRange(Node* start, Node* end) {
+    char* result = (char*)malloc(11);
+    int i = 0;
+    while (start != end) {
+        result[i++] = start->val;
+        start = start->next;
+    }
+    result[i] = '\0';
+    return result;
+}
+
+typedef struct {
+    Node* cursor;
+} TextEditor;
+
+TextEditor* textEditorCreate() {
+    TextEditor* editor = (TextEditor*)malloc(sizeof(TextEditor));
+    editor->cursor = newNode('\0');
+    return editor;
+}
+
+void textEditorAddText(TextEditor* obj, char* text) {
+    while (*text) {
+        nodeInsert(obj->cursor, *text);
+        text++;
+    }
+}
+
+int textEditorDeleteText(TextEditor* obj, int k) {
+    int count = 0;
+    while (k > 0 && obj->cursor->prev) {
+        nodeRemove(obj->cursor);
+        k--;
+        count++;
+    }
+    return count;
+}
+
+char* textEditorCursorLeft(TextEditor* obj, int k) {
+    while (k > 0 && obj->cursor->prev) {
+        obj->cursor = obj->cursor->prev;
+        k--;
+    }
+    Node* head = obj->cursor;
+    for (int i = 0; i < 10 && head->prev; i++) {
+        head = head->prev;
+    }
+    return nodeRange(head, obj->cursor);
+}
+
+char* textEditorCursorRight(TextEditor* obj, int k) {
+    while (k > 0 && obj->cursor->next) {
+        obj->cursor = obj->cursor->next;
+        k--;
+    }
+    Node* head = obj->cursor;
+    for (int i = 0; i < 10 && head->prev; i++) {
+        head = head->prev;
+    }
+    return nodeRange(head, obj->cursor);
+}
+
+void textEditorFree(TextEditor* obj) {
+    while (obj->cursor->prev) {
+        obj->cursor = obj->cursor->prev;
+    }
+    while (obj->cursor) {
+        Node* next = obj->cursor->next;
+        free(obj->cursor);
+        obj->cursor = next;
+    }
+    free(obj);
+}

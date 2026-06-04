@@ -1,0 +1,74 @@
+static int cmp1(const void *a, const void *b) {
+    return ((int *)b)[0] - ((int *)a)[0];
+}
+
+static int cmp2(const void *a, const void *b) {
+    return ((int *)b)[1] - ((int *)a)[1];
+}
+
+int binarySearch(const int **list, int low, int high, int target) {
+    while (low < high) {
+        int mid = low + (high - low) / 2;
+        if (list[mid][0] >= target) {
+            high = mid;
+        } else {
+            low = mid + 1;
+        }
+    }
+    return low;
+}
+
+int* maximumSumQueries(int* nums1, int nums1Size, int* nums2, int nums2Size, int** queries, int queriesSize, int* queriesColSize, int* returnSize) {
+    int sortedNums[nums1Size][2];
+    int sortedQueries[queriesSize][3];
+    for (int i = 0; i < nums1Size; i++) {
+        sortedNums[i][0] = nums1[i];
+        sortedNums[i][1] = nums2[i];
+    }
+    qsort(sortedNums, nums1Size, sizeof(sortedNums[0]), cmp1);
+    for (int i = 0; i < queriesSize; i++) {
+        sortedQueries[i][0] = i;
+        sortedQueries[i][1] = queries[i][0];
+        sortedQueries[i][2] = queries[i][1];
+    }
+    qsort(sortedQueries, queriesSize, sizeof(sortedQueries[0]), cmp2);
+    
+    int **stack = (int **)calloc(nums1Size, sizeof(int *));
+    int top = 0;
+    for (int i = 0; i < nums1Size; i++) {
+        stack[i] = (int *)calloc(2, sizeof(int));
+    }
+    int *answer = (int *)calloc(queriesSize, sizeof(int));
+    int j = 0;
+    for (int i = 0; i < queriesSize; i++) {
+        answer[i] = -1;
+    }
+    for (int i = 0; i < queriesSize; i++) {
+        int index = sortedQueries[i][0];
+        int x = sortedQueries[i][1];
+        int y = sortedQueries[i][2];
+        while (j < nums1Size && sortedNums[j][0] >= x) {
+            int num1 = sortedNums[j][0];
+            int num2 = sortedNums[j][1];
+            while (top > 0 && stack[top - 1][1] <= num1 + num2) {
+                top--;
+            }
+            if (top == 0 || stack[top - 1][0] < num2) {
+                stack[top][0] = num2;
+                stack[top][1] = num1 + num2;
+                top++;
+            }
+            j++;
+        }
+        int k = binarySearch(stack, 0, top, y);
+        if (k < top) {
+            answer[index] = stack[k][1];
+        }
+    }   
+    for (int i = 0; i < nums1Size; i++) {
+        free(stack[i]);
+    }    
+    free(stack);
+    *returnSize = queriesSize;    
+    return answer;
+}

@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $par\n     * @param Integer[] $vals\n     * @param Integer[][] $queries\n     * @return Integer[]\n     */\n    function kthSmallest($par, $vals, $queries) {\n        \n    }\n}"

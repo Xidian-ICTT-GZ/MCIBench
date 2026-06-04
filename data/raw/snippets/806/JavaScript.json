@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} widths\n * @param {string} s\n * @return {number[]}\n */\nvar numberOfLines = function(widths, s) {\n    \n};"

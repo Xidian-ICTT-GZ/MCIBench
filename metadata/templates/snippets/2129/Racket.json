@@ -1,0 +1,1 @@
+"(define/contract (capitalize-title title)\n  (-> string? string?)\n  )"

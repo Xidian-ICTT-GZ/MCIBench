@@ -1,1 +1,0 @@
-"class StockSpanner {\n\n  StockSpanner() {\n    \n  }\n  \n  int next(int price) {\n    \n  }\n}\n\n/**\n * Your StockSpanner object will be instantiated and called as such:\n * StockSpanner obj = StockSpanner();\n * int param1 = obj.next(price);\n */"

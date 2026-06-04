@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec is_covered(ranges :: [[integer]], left :: integer, right :: integer) :: boolean\n  def is_covered(ranges, left, right) do\n    \n  end\nend"

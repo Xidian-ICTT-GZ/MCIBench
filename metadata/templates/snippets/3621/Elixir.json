@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec popcount_depth(n :: integer, k :: integer) :: integer\n  def popcount_depth(n, k) do\n    \n  end\nend"

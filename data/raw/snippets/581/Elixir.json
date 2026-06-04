@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec find_unsorted_subarray(nums :: [integer]) :: integer\n  def find_unsorted_subarray(nums) do\n    \n  end\nend"

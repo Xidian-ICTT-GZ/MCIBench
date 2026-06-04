@@ -1,1 +1,0 @@
-"-spec sum_of_beauties(Nums :: [integer()]) -> integer().\nsum_of_beauties(Nums) ->\n  ."

@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} prizePositions\n * @param {number} k\n * @return {number}\n */\nvar maximizeWin = function(prizePositions, k) {\n    \n};"

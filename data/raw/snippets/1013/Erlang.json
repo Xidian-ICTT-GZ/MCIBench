@@ -1,1 +1,0 @@
-"-spec can_three_parts_equal_sum(Arr :: [integer()]) -> boolean().\ncan_three_parts_equal_sum(Arr) ->\n  ."

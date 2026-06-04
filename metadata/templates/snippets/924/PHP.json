@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $graph\n     * @param Integer[] $initial\n     * @return Integer\n     */\n    function minMalwareSpread($graph, $initial) {\n        \n    }\n}"

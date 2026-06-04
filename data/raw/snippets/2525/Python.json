@@ -1,1 +1,0 @@
-"class Solution(object):\n    def categorizeBox(self, length, width, height, mass):\n        \"\"\"\n        :type length: int\n        :type width: int\n        :type height: int\n        :type mass: int\n        :rtype: str\n        \"\"\"\n        "

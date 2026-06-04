@@ -1,0 +1,1 @@
+"object Solution {\n    def minBitFlips(start: Int, goal: Int): Int = {\n        \n    }\n}"

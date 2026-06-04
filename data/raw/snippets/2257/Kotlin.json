@@ -1,1 +1,0 @@
-"class Solution {\n    fun countUnguarded(m: Int, n: Int, guards: Array<IntArray>, walls: Array<IntArray>): Int {\n        \n    }\n}"

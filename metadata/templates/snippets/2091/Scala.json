@@ -1,0 +1,1 @@
+"object Solution {\n    def minimumDeletions(nums: Array[Int]): Int = {\n        \n    }\n}"

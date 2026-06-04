@@ -1,0 +1,1 @@
+"/**\n * @param {string[]} sentences\n * @return {number}\n */\nvar mostWordsFound = function(sentences) {\n    \n};"

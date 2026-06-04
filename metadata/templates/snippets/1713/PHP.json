@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $target\n     * @param Integer[] $arr\n     * @return Integer\n     */\n    function minOperations($target, $arr) {\n        \n    }\n}"

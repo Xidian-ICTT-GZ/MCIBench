@@ -1,1 +1,0 @@
-"class Solution {\n    fun findLadders(beginWord: String, endWord: String, wordList: List<String>): List<List<String>> {\n        \n    }\n}"

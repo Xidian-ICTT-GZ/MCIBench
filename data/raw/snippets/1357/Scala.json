@@ -1,1 +1,0 @@
-"class Cashier(_n: Int, _discount: Int, _products: Array[Int], _prices: Array[Int]) {\n\n    def getBill(product: Array[Int], amount: Array[Int]): Double = {\n        \n    }\n\n}\n\n/**\n * Your Cashier object will be instantiated and called as such:\n * val obj = new Cashier(n, discount, products, prices)\n * val param_1 = obj.getBill(product,amount)\n */"

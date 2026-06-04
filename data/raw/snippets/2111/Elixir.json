@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec k_increasing(arr :: [integer], k :: integer) :: integer\n  def k_increasing(arr, k) do\n    \n  end\nend"

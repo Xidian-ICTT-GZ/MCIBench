@@ -1,1 +1,0 @@
-"(define/contract (mem-leak memory1 memory2)\n  (-> exact-integer? exact-integer? (listof exact-integer?))\n  )"

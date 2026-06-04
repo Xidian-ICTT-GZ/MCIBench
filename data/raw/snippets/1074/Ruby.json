@@ -1,1 +1,0 @@
-"# @param {Integer[][]} matrix\n# @param {Integer} target\n# @return {Integer}\ndef num_submatrix_sum_target(matrix, target)\n    \nend"

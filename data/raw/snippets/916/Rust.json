@@ -1,1 +1,0 @@
-"impl Solution {\n    pub fn word_subsets(words1: Vec<String>, words2: Vec<String>) -> Vec<String> {\n        \n    }\n}"

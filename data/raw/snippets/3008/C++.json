@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    vector<int> beautifulIndices(string s, string a, string b, int k) {\n        \n    }\n};"

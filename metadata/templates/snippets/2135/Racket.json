@@ -1,0 +1,1 @@
+"(define/contract (word-count startWords targetWords)\n  (-> (listof string?) (listof string?) exact-integer?)\n  )"

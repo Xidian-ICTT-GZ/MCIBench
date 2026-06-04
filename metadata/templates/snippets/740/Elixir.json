@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec delete_and_earn(nums :: [integer]) :: integer\n  def delete_and_earn(nums) do\n    \n  end\nend"

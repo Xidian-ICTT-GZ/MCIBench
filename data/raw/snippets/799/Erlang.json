@@ -1,1 +1,0 @@
-"-spec champagne_tower(Poured :: integer(), Query_row :: integer(), Query_glass :: integer()) -> float().\nchampagne_tower(Poured, Query_row, Query_glass) ->\n  ."

@@ -1,1 +1,0 @@
-"(define/contract (maximum-score scores edges)\n  (-> (listof exact-integer?) (listof (listof exact-integer?)) exact-integer?)\n  )"

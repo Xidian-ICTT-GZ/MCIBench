@@ -1,0 +1,69 @@
+#define MOD 1000000007
+
+int matrix[10][10] = {
+    {0, 0, 0, 0, 1, 0, 1, 0, 0, 0},
+    {0, 0, 0, 0, 0, 0, 1, 0, 1, 0},
+    {0, 0, 0, 0, 0, 0, 0, 1, 0, 1},
+    {0, 0, 0, 0, 1, 0, 0, 0, 1, 0},
+    {1, 0, 0, 1, 0, 0, 0, 0, 0, 1},
+    {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+    {1, 1, 0, 0, 0, 0, 0, 1, 0, 0},
+    {0, 0, 1, 0, 0, 0, 1, 0, 0, 0},
+    {0, 1, 0, 1, 0, 0, 0, 0, 0, 0},
+    {0, 0, 1, 0, 1, 0, 0, 0, 0, 0},
+};
+
+void mul(int **lth, int **rth, int **res, int rowsl, int colsl, int colsr) {
+    int *temp[rowsl];
+    for (int i = 0; i < rowsl; i++) {
+        temp[i] = (int *)malloc(sizeof(int) * colsr);
+        memset(temp[i], 0, sizeof(int) * colsr);
+        for (int j = 0; j < colsr; j++) {
+            for (int k = 0; k < colsl; k++) {
+                temp[i][j] = (temp[i][j] + (long long)lth[i][k] * rth[k][j] % MOD) % MOD;
+            }
+        }
+    }
+    for (int i = 0; i < rowsl; i++) {
+        memcpy(res[i], temp[i], sizeof(int) * colsr);
+        free(temp[i]);
+    }
+}
+
+int knightDialer(int n) {
+    int *base[10], *base2[10];
+    int *res[1];
+    int *finalRes[1];
+    for (int i = 0; i < 10; i++) {
+        base[i] = (int *)malloc(sizeof(int) * 10);
+        base2[i] = (int *)malloc(sizeof(int) * 10);
+        memset(base2[i], 0, sizeof(int) * 10);
+        memcpy(base[i], &matrix[i], sizeof(int) * 10);
+    }
+    res[0] = (int *)malloc(sizeof(int) * 10);
+    finalRes[0] = (int *)malloc(sizeof(int) * 10);
+    for (int i = 0; i < 10; i++) {
+        base2[i][i] = 1;
+        res[0][i] = 1;
+    }
+    n--;
+    while (n > 0) {
+        if (n & 1) {
+            mul(base2, base, base2, 10, 10, 10);
+        }
+        mul(base, base, base, 10, 10 , 10);
+        n >>= 1;
+    }
+    mul(res, base2, finalRes, 1, 10, 10);
+    long long ret = 0;
+    for (int i = 0; i < 10; i++) {
+        ret = (ret + finalRes[0][i]) % MOD;
+    }
+    for (int i = 0; i < 10; i++) {
+        free(base[i]);
+        free(base2[i]);
+    }
+    free(res[0]);
+    free(finalRes[0]);
+    return ret;
+}

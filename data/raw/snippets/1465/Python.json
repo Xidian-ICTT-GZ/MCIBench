@@ -1,1 +1,0 @@
-"class Solution(object):\n    def maxArea(self, h, w, horizontalCuts, verticalCuts):\n        \"\"\"\n        :type h: int\n        :type w: int\n        :type horizontalCuts: List[int]\n        :type verticalCuts: List[int]\n        :rtype: int\n        \"\"\"\n        "

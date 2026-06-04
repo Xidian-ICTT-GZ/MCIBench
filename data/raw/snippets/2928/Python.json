@@ -1,1 +1,0 @@
-"class Solution(object):\n    def distributeCandies(self, n, limit):\n        \"\"\"\n        :type n: int\n        :type limit: int\n        :rtype: int\n        \"\"\"\n        "

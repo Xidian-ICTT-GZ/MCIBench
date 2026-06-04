@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    vector<int> executeInstructions(int n, vector<int>& startPos, string s) {\n        \n    }\n};"

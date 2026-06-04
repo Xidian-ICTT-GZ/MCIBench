@@ -1,0 +1,1 @@
+"class Solution:\n    def isSolvable(self, words: List[str], result: str) -> bool:\n        "

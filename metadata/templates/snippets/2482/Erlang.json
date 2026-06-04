@@ -1,0 +1,1 @@
+"-spec ones_minus_zeros(Grid :: [[integer()]]) -> [[integer()]].\nones_minus_zeros(Grid) ->\n  ."

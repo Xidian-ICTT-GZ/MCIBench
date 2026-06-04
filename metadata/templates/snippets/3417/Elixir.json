@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec zigzag_traversal(grid :: [[integer]]) :: [integer]\n  def zigzag_traversal(grid) do\n    \n  end\nend"

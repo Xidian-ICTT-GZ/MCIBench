@@ -1,1 +1,0 @@
-"class Solution:\n    def canBeValid(self, s: str, locked: str) -> bool:\n        "

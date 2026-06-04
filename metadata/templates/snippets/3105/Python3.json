@@ -1,0 +1,1 @@
+"class Solution:\n    def longestMonotonicSubarray(self, nums: List[int]) -> int:\n        "

@@ -1,0 +1,1 @@
+"# @param {Integer[]} original\n# @param {Integer} m\n# @param {Integer} n\n# @return {Integer[][]}\ndef construct2_d_array(original, m, n)\n    \nend"

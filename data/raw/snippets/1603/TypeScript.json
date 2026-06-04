@@ -1,1 +1,0 @@
-"class ParkingSystem {\n    constructor(big: number, medium: number, small: number) {\n        \n    }\n\n    addCar(carType: number): boolean {\n        \n    }\n}\n\n/**\n * Your ParkingSystem object will be instantiated and called as such:\n * var obj = new ParkingSystem(big, medium, small)\n * var param_1 = obj.addCar(carType)\n */"

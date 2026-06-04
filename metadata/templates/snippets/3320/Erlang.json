@@ -1,0 +1,1 @@
+"-spec count_winning_sequences(S :: unicode:unicode_binary()) -> integer().\ncount_winning_sequences(S) ->\n  ."

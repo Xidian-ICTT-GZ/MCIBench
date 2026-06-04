@@ -1,0 +1,1 @@
+"-spec minimum_cost(N :: integer(), Edges :: [[integer()]], Query :: [[integer()]]) -> [integer()].\nminimum_cost(N, Edges, Query) ->\n  ."

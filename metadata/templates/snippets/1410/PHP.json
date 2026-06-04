@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $text\n     * @return String\n     */\n    function entityParser($text) {\n        \n    }\n}"

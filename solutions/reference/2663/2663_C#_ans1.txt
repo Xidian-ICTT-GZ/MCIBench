@@ -1,0 +1,38 @@
+public class Solution {
+    public string SmallestBeautifulString(string s, int k) {
+        for (int i = s.Length - 1; i >= 0; i--) {
+            ISet<char> blockedchars = new HashSet<char>();
+            for (int j = 1; j < 3; j++) {
+                if (i - j >= 0) {
+                    blockedchars.Add(s[i - j]);
+                }
+            }
+            for (int j = 1; j < 4; j++) {
+                if (s[i] - 'a' + j + 1 <= k && !blockedchars.Contains((char) (s[i] + j))) {
+                    return Generate(s, i, j);
+                }
+            }
+        }
+        return "";
+    }
+
+    public string Generate(String s, int idx, int offset) {
+        char[] res = s.ToCharArray();
+        res[idx] = (char) (res[idx] + offset);
+        for (int i = idx + 1; i < s.Length; i++) {
+            ISet<char> blockedchars = new HashSet<char>();
+            for (int j = 1; j < 3; j++) {
+                if (i - j >= 0) {
+                    blockedchars.Add(res[i - j]);
+                }
+            }
+            for (int j = 0; j < 3; j++) {
+                if (!blockedchars.Contains((char) ('a' + j))) {
+                    res[i] = (char) ('a' + j);
+                    break;
+                }
+            }
+        }
+        return new string(res);
+    }
+}

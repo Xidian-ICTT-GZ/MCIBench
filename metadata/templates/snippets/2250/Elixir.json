@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec count_rectangles(rectangles :: [[integer]], points :: [[integer]]) :: [integer]\n  def count_rectangles(rectangles, points) do\n    \n  end\nend"

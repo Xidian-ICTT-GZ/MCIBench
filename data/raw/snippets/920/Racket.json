@@ -1,1 +1,0 @@
-"(define/contract (num-music-playlists n goal k)\n  (-> exact-integer? exact-integer? exact-integer? exact-integer?)\n  )"

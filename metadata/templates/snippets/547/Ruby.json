@@ -1,0 +1,1 @@
+"# @param {Integer[][]} is_connected\n# @return {Integer}\ndef find_circle_num(is_connected)\n    \nend"

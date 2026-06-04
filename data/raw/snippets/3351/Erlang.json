@@ -1,1 +1,0 @@
-"-spec sum_of_good_subsequences(Nums :: [integer()]) -> integer().\nsum_of_good_subsequences(Nums) ->\n  ."

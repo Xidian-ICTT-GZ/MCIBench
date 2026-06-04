@@ -1,1 +1,0 @@
-"# @param {Integer[]} pushed\n# @param {Integer[]} popped\n# @return {Boolean}\ndef validate_stack_sequences(pushed, popped)\n    \nend"

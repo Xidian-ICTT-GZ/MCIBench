@@ -1,0 +1,1 @@
+"object Solution {\n    def numRollsToTarget(n: Int, k: Int, target: Int): Int = {\n        \n    }\n}"

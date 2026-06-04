@@ -1,0 +1,1 @@
+"public class ZeroEvenOdd {\n    private int n;\n    \n    public ZeroEvenOdd(int n) {\n        this.n = n;\n    }\n\n    // printNumber(x) outputs \"x\", where x is an integer.\n    public void Zero(Action<int> printNumber) {\n        \n    }\n\n    public void Even(Action<int> printNumber) {\n        \n    }\n\n    public void Odd(Action<int> printNumber) {\n        \n    }\n}"

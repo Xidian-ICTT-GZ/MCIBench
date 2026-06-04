@@ -1,0 +1,1 @@
+"/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nchar** reorderLogFiles(char** logs, int logsSize, int* returnSize) {\n    \n}"

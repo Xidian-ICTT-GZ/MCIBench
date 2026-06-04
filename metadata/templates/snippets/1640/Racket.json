@@ -1,0 +1,1 @@
+"(define/contract (can-form-array arr pieces)\n  (-> (listof exact-integer?) (listof (listof exact-integer?)) boolean?)\n  )"

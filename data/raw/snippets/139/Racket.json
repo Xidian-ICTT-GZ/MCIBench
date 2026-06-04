@@ -1,1 +1,0 @@
-"(define/contract (word-break s wordDict)\n  (-> string? (listof string?) boolean?)\n  )"

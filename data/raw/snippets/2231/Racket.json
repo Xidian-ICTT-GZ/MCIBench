@@ -1,1 +1,0 @@
-"(define/contract (largest-integer num)\n  (-> exact-integer? exact-integer?)\n  )"

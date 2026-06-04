@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} nums\n * @param {number} k\n * @return {number}\n */\nvar sumOfPower = function(nums, k) {\n    \n};"

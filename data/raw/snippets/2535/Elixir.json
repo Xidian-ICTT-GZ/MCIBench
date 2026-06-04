@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec difference_of_sum(nums :: [integer]) :: integer\n  def difference_of_sum(nums) do\n    \n  end\nend"

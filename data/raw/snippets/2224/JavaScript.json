@@ -1,1 +1,0 @@
-"/**\n * @param {string} current\n * @param {string} correct\n * @return {number}\n */\nvar convertTime = function(current, correct) {\n    \n};"

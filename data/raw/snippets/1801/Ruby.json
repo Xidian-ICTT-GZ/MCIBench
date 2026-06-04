@@ -1,1 +1,0 @@
-"# @param {Integer[][]} orders\n# @return {Integer}\ndef get_number_of_backlog_orders(orders)\n    \nend"

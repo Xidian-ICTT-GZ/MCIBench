@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer $length\n     * @param Integer $width\n     * @param Integer $height\n     * @param Integer $mass\n     * @return String\n     */\n    function categorizeBox($length, $width, $height, $mass) {\n        \n    }\n}"

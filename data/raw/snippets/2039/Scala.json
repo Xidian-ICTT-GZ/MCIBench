@@ -1,1 +1,0 @@
-"object Solution {\n    def networkBecomesIdle(edges: Array[Array[Int]], patience: Array[Int]): Int = {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"object Solution {\n    def isPossibleDivide(nums: Array[Int], k: Int): Boolean = {\n        \n    }\n}"

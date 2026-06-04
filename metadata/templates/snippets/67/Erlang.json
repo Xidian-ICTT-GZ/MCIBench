@@ -1,0 +1,1 @@
+"-spec add_binary(A :: unicode:unicode_binary(), B :: unicode:unicode_binary()) -> unicode:unicode_binary().\nadd_binary(A, B) ->\n  ."

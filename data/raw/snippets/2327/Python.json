@@ -1,1 +1,0 @@
-"class Solution(object):\n    def peopleAwareOfSecret(self, n, delay, forget):\n        \"\"\"\n        :type n: int\n        :type delay: int\n        :type forget: int\n        :rtype: int\n        \"\"\"\n        "

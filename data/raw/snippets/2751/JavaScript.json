@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} positions\n * @param {number[]} healths\n * @param {string} directions\n * @return {number[]}\n */\nvar survivedRobotsHealths = function(positions, healths, directions) {\n    \n};"

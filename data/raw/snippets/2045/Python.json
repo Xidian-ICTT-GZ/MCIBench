@@ -1,1 +1,0 @@
-"class Solution(object):\n    def secondMinimum(self, n, edges, time, change):\n        \"\"\"\n        :type n: int\n        :type edges: List[List[int]]\n        :type time: int\n        :type change: int\n        :rtype: int\n        \"\"\"\n        "

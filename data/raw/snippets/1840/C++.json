@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    int maxBuilding(int n, vector<vector<int>>& restrictions) {\n        \n    }\n};"

@@ -1,1 +1,0 @@
-"/**\n * @param {string[]} board\n * @return {boolean}\n */\nvar validTicTacToe = function(board) {\n    \n};"

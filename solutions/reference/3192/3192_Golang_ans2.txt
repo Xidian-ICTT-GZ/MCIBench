@@ -1,0 +1,12 @@
+func minOperations(nums []int) int {
+    operation := 0
+    for i := len(nums) - 2; i >= 0; i-- {
+        if nums[i] != nums[i + 1] {
+            operation++
+        }
+    }
+    if nums[0] == 1 {
+        return operation
+    }
+    return operation + 1
+}

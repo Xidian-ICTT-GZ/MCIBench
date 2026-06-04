@@ -1,0 +1,1 @@
+"# @param {Integer[][]} graph\n# @return {Integer[][]}\ndef all_paths_source_target(graph)\n    \nend"

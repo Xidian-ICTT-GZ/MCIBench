@@ -1,0 +1,9 @@
+bool rotateString(char * s, char * goal){
+    int m = strlen(s), n = strlen(goal);
+    if (m != n) {
+        return false;
+    }
+    char * str = (char *)malloc(sizeof(char) * (m + n + 1));
+    sprintf(str, "%s%s", goal, goal);
+    return strstr(str, s) != NULL;
+}

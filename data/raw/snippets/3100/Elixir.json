@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec max_bottles_drunk(num_bottles :: integer, num_exchange :: integer) :: integer\n  def max_bottles_drunk(num_bottles, num_exchange) do\n    \n  end\nend"

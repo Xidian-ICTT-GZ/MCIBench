@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $houses\n     * @param Integer $k\n     * @return Integer\n     */\n    function minDistance($houses, $k) {\n        \n    }\n}"

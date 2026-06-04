@@ -1,0 +1,1 @@
+"class Solution:\n    def secondHighest(self, s: str) -> int:\n        "

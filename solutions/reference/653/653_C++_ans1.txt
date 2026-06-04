@@ -1,0 +1,15 @@
+class Solution {
+public:
+    unordered_set<int> hashTable;
+
+    bool findTarget(TreeNode *root, int k) {
+        if (root == nullptr) {
+            return false;
+        }
+        if (hashTable.count(k - root->val)) {
+            return true;
+        }
+        hashTable.insert(root->val);
+        return findTarget(root->left, k) || findTarget(root->right, k);
+    }
+};

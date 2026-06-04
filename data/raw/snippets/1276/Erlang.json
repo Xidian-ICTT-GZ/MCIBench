@@ -1,1 +1,0 @@
-"-spec num_of_burgers(TomatoSlices :: integer(), CheeseSlices :: integer()) -> [integer()].\nnum_of_burgers(TomatoSlices, CheeseSlices) ->\n  ."

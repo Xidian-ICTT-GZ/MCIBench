@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec min_stickers(stickers :: [String.t], target :: String.t) :: integer\n  def min_stickers(stickers, target) do\n    \n  end\nend"

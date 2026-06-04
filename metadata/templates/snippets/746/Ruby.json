@@ -1,0 +1,1 @@
+"# @param {Integer[]} cost\n# @return {Integer}\ndef min_cost_climbing_stairs(cost)\n    \nend"

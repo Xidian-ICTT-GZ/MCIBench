@@ -1,0 +1,1 @@
+"class Solution:\n    def countOfPairs(self, n: int, x: int, y: int) -> List[int]:\n        "

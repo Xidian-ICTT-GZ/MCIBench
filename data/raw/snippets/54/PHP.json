@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[][] $matrix\n     * @return Integer[]\n     */\n    function spiralOrder($matrix) {\n        \n    }\n}"

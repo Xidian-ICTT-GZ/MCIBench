@@ -1,0 +1,1 @@
+"class Solution {\n  int minReorder(int n, List<List<int>> connections) {\n    \n  }\n}"

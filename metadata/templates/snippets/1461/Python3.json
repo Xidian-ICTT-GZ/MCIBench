@@ -1,0 +1,1 @@
+"class Solution:\n    def hasAllCodes(self, s: str, k: int) -> bool:\n        "

@@ -1,1 +1,0 @@
-"-spec closest_room(Rooms :: [[integer()]], Queries :: [[integer()]]) -> [integer()].\nclosest_room(Rooms, Queries) ->\n  ."

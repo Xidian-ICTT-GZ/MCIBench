@@ -1,1 +1,0 @@
-"/**\n * @param {string} sequence\n * @param {string} word\n * @return {number}\n */\nvar maxRepeating = function(sequence, word) {\n    \n};"

@@ -1,1 +1,0 @@
-"(define/contract (compressed-string word)\n  (-> string? string?)\n  )"

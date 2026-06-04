@@ -1,0 +1,1 @@
+"class Solution {\n    func splitMessage(_ message: String, _ limit: Int) -> [String] {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"class Solution(object):\n    def flipLights(self, n, presses):\n        \"\"\"\n        :type n: int\n        :type presses: int\n        :rtype: int\n        \"\"\"\n        "

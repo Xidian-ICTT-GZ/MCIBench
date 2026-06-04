@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $heights\n     * @param Integer $bricks\n     * @param Integer $ladders\n     * @return Integer\n     */\n    function furthestBuilding($heights, $bricks, $ladders) {\n        \n    }\n}"

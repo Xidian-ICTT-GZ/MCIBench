@@ -1,1 +1,0 @@
-"-spec unique_paths_with_obstacles(ObstacleGrid :: [[integer()]]) -> integer().\nunique_paths_with_obstacles(ObstacleGrid) ->\n  ."

@@ -1,1 +1,0 @@
-"class Solution {\n    fun filterRestaurants(restaurants: Array<IntArray>, veganFriendly: Int, maxPrice: Int, maxDistance: Int): List<Int> {\n        \n    }\n}"

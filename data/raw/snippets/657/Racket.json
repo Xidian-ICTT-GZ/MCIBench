@@ -1,1 +1,0 @@
-"(define/contract (judge-circle moves)\n  (-> string? boolean?)\n  )"

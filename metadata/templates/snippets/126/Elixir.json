@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec find_ladders(begin_word :: String.t, end_word :: String.t, word_list :: [String.t]) :: [[String.t]]\n  def find_ladders(begin_word, end_word, word_list) do\n    \n  end\nend"

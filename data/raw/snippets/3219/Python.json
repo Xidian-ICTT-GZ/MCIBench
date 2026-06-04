@@ -1,1 +1,0 @@
-"class Solution(object):\n    def minimumCost(self, m, n, horizontalCut, verticalCut):\n        \"\"\"\n        :type m: int\n        :type n: int\n        :type horizontalCut: List[int]\n        :type verticalCut: List[int]\n        :rtype: int\n        \"\"\"\n        "

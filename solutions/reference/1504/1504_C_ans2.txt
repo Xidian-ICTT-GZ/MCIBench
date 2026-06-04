@@ -1,0 +1,34 @@
+int numSubmat(int** mat, int matSize, int* matColSize) {
+    int n = matColSize[0];
+    int heights[n];
+    int res = 0;
+    memset(heights, 0, sizeof(heights));
+
+    int stack[n + 1][3];
+    int top = 0;
+    for (int r = 0; r < matSize; r++) {
+        for (int i = 0; i < n; i++) {
+            heights[i] = mat[r][i] == 0 ? 0 : heights[i] + 1;
+        }
+        top = 0;
+        stack[top][0] = -1;
+        stack[top][1] = 0;
+        stack[top][2] = -1;
+        top++;
+        for (int i = 0; i < n; i++) {
+            int h = heights[i];
+            while (top > 0 && stack[top - 1][2] >= h) {
+                top--;
+            }
+            int j = stack[top - 1][0];
+            int prev = stack[top - 1][1];
+            int cur = prev + (i - j) * h;
+            stack[top][0] = i;
+            stack[top][1] = cur;
+            stack[top][2] = h;
+            top++;
+            res += cur;
+        }
+    }
+    return res;
+}

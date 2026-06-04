@@ -1,1 +1,0 @@
-"/**\n * @param {string} coordinates\n * @return {boolean}\n */\nvar squareIsWhite = function(coordinates) {\n    \n};"

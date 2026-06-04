@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec can_be_increasing(nums :: [integer]) :: boolean\n  def can_be_increasing(nums) do\n    \n  end\nend"

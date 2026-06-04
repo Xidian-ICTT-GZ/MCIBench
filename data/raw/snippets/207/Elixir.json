@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec can_finish(num_courses :: integer, prerequisites :: [[integer]]) :: boolean\n  def can_finish(num_courses, prerequisites) do\n    \n  end\nend"

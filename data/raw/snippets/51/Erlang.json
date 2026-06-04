@@ -1,1 +1,0 @@
-"-spec solve_n_queens(N :: integer()) -> [[unicode:unicode_binary()]].\nsolve_n_queens(N) ->\n  ."

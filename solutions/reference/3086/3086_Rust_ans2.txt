@@ -1,0 +1,61 @@
+impl Solution {
+    pub fn f(i: i32, nums: &Vec<i32>) -> i32 {
+        let mut x = nums[i as usize];
+        if i - 1 >= 0 {
+            x += nums[(i - 1) as usize];
+        }
+        if (i + 1) < nums.len() as i32 {
+            x += nums[(i + 1) as usize];
+        }
+        x
+    }
+    pub fn minimum_moves(nums: Vec<i32>, k: i32, max_changes: i32) -> i64 {
+        let mut n = nums.len() as i32;
+        let (mut left, mut right) = (0 as i32, -1 as i32);
+        let (mut leftSum, mut rightSum) = (0 as i64, 0 as i64);
+        let (mut leftCount, mut rightCount) = (0 as i64, 0 as i64);
+        let mut res = (((1 as u64) << 63) - 1) as i64;
+        for i in 0..n {
+            if Self::f(i, &nums) + max_changes >= k {
+                if k <= Self::f(i, &nums) {
+                    res = std::cmp::min(res, (k - nums[i as usize]) as i64);
+                } else {
+                    res = std::cmp::min(res, (2 * k - Self::f(i, &nums) - nums[i as usize]) as i64);
+                }
+            }
+            if k <= max_changes {
+                continue;
+            }
+            while right + 1 < n && (right - i < i - left || leftCount + rightCount + (max_changes as i64) < (k as i64)) {
+                if nums[right as usize + 1] == 1 {
+                    rightCount += 1;
+                    rightSum += right as i64 + 1;
+                }
+                right += 1;
+            }
+            while leftCount + rightCount + (max_changes as i64) > (k as i64) {
+                if right - i < i - left || right - i == i - left && nums[left as usize] == 1 {
+                    if nums[left as usize] == 1 {
+                        leftCount -= 1;
+                        leftSum -= (left as i64);
+                    }
+                    left += 1;
+                } else {
+                    if nums[right as usize] == 1 {
+                        rightCount -= 1;
+                        rightSum -= (right as i64);
+                    }
+                    right -= 1;
+                }
+            }
+            res = std::cmp::min(res, leftCount * (i as i64) - leftSum + rightSum - rightCount * (i as i64) + 2 * (max_changes as i64));
+            if nums[i as usize] == 1 {
+                leftCount += 1;
+                leftSum += (i as i64);
+                rightCount -= 1;
+                rightSum -= (i as i64);
+            }
+        }
+        res
+    }
+}

@@ -1,0 +1,1 @@
+"# @param {Integer} num1\n# @param {Integer} num2\n# @return {Integer}\ndef make_the_integer_zero(num1, num2)\n    \nend"

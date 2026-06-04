@@ -1,1 +1,0 @@
-"# @param {Integer[]} packages\n# @param {Integer[][]} boxes\n# @return {Integer}\ndef min_wasted_space(packages, boxes)\n    \nend"

@@ -1,1 +1,0 @@
-"-spec divisibility_array(Word :: unicode:unicode_binary(), M :: integer()) -> [integer()].\ndivisibility_array(Word, M) ->\n  ."

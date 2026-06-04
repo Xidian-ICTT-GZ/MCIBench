@@ -1,1 +1,0 @@
-"(define/contract (get-collision-times cars)\n  (-> (listof (listof exact-integer?)) (listof flonum?))\n  )"

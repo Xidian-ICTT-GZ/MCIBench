@@ -1,1 +1,0 @@
-"-spec number_of_submatrices(Grid :: [[char()]]) -> integer().\nnumber_of_submatrices(Grid) ->\n  ."

@@ -1,6 +1,0 @@
-var numJewelsInStones = function(jewels, stones) {
-    const jewelsSet = new Set(jewels.split(''));
-    return stones.split('').reduce((prev, val) => {
-        return prev + jewelsSet.has(val);
-    }, 0);
-};

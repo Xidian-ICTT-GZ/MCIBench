@@ -1,1 +1,0 @@
-"-spec length_after_transformations(S :: unicode:unicode_binary(), T :: integer(), Nums :: [integer()]) -> integer().\nlength_after_transformations(S, T, Nums) ->\n  ."

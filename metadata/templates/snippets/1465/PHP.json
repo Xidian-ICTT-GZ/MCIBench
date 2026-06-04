@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $h\n     * @param Integer $w\n     * @param Integer[] $horizontalCuts\n     * @param Integer[] $verticalCuts\n     * @return Integer\n     */\n    function maxArea($h, $w, $horizontalCuts, $verticalCuts) {\n        \n    }\n}"

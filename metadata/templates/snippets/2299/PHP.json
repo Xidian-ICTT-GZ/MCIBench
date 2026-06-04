@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $password\n     * @return Boolean\n     */\n    function strongPasswordCheckerII($password) {\n        \n    }\n}"

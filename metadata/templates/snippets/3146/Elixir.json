@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec find_permutation_difference(s :: String.t, t :: String.t) :: integer\n  def find_permutation_difference(s, t) do\n    \n  end\nend"

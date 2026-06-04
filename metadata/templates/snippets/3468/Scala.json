@@ -1,0 +1,1 @@
+"object Solution {\n    def countArrays(original: Array[Int], bounds: Array[Array[Int]]): Int = {\n        \n    }\n}"

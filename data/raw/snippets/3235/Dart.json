@@ -1,1 +1,0 @@
-"class Solution {\n  bool canReachCorner(int xCorner, int yCorner, List<List<int>> circles) {\n    \n  }\n}"

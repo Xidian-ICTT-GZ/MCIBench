@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec sort_jumbled(mapping :: [integer], nums :: [integer]) :: [integer]\n  def sort_jumbled(mapping, nums) do\n    \n  end\nend"

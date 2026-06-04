@@ -1,0 +1,1 @@
+"class Solution {\n  List<int> queryResults(int limit, List<List<int>> queries) {\n    \n  }\n}"

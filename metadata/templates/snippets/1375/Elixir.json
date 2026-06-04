@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec num_times_all_blue(flips :: [integer]) :: integer\n  def num_times_all_blue(flips) do\n    \n  end\nend"

@@ -1,1 +1,0 @@
-"class Solution(object):\n    def minSkips(self, dist, speed, hoursBefore):\n        \"\"\"\n        :type dist: List[int]\n        :type speed: int\n        :type hoursBefore: int\n        :rtype: int\n        \"\"\"\n        "

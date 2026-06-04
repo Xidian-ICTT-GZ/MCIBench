@@ -1,1 +1,0 @@
-"# Definition for a binary tree node.\n# class TreeNode\n#     attr_accessor :val, :left, :right\n#     def initialize(val = 0, left = nil, right = nil)\n#         @val = val\n#         @left = left\n#         @right = right\n#     end\n# end\n# @param {Integer[]} nums\n# @return {TreeNode}\ndef construct_maximum_binary_tree(nums)\n    \nend"

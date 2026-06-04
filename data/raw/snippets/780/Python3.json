@@ -1,1 +1,0 @@
-"class Solution:\n    def reachingPoints(self, sx: int, sy: int, tx: int, ty: int) -> bool:\n        "

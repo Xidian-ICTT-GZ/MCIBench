@@ -1,9 +1,0 @@
-func maximumNumberOfStringPairs(words []string) int {
-    ans := 0
-    seen := map[int]int{}
-    for _, word := range words {
-        ans += seen[int(word[1]) * 100 + int(word[0])]
-        seen[int(word[0]) * 100 + int(word[1])] = 1
-    }
-    return ans
-}

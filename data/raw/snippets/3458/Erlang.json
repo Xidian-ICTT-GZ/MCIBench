@@ -1,1 +1,0 @@
-"-spec max_substring_length(S :: unicode:unicode_binary(), K :: integer()) -> boolean().\nmax_substring_length(S, K) ->\n  ."

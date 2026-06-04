@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec get_max_grid_happiness(m :: integer, n :: integer, introverts_count :: integer, extroverts_count :: integer) :: integer\n  def get_max_grid_happiness(m, n, introverts_count, extroverts_count) do\n    \n  end\nend"

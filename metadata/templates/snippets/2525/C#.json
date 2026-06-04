@@ -1,0 +1,1 @@
+"public class Solution {\n    public string CategorizeBox(int length, int width, int height, int mass) {\n        \n    }\n}"

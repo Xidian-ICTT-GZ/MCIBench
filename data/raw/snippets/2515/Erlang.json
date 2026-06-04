@@ -1,1 +1,0 @@
-"-spec closest_target(Words :: [unicode:unicode_binary()], Target :: unicode:unicode_binary(), StartIndex :: integer()) -> integer().\nclosest_target(Words, Target, StartIndex) ->\n  ."

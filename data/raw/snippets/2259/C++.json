@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    string removeDigit(string number, char digit) {\n        \n    }\n};"

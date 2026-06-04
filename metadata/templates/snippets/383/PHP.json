@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $ransomNote\n     * @param String $magazine\n     * @return Boolean\n     */\n    function canConstruct($ransomNote, $magazine) {\n        \n    }\n}"

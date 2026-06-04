@@ -1,0 +1,1 @@
+"-spec percentage_letter(S :: unicode:unicode_binary(), Letter :: char()) -> integer().\npercentage_letter(S, Letter) ->\n  ."

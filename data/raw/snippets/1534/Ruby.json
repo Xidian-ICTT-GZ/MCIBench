@@ -1,1 +1,0 @@
-"# @param {Integer[]} arr\n# @param {Integer} a\n# @param {Integer} b\n# @param {Integer} c\n# @return {Integer}\ndef count_good_triplets(arr, a, b, c)\n    \nend"

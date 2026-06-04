@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $prevRoom\n     * @return Integer\n     */\n    function waysToBuildRooms($prevRoom) {\n        \n    }\n}"

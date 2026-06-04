@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec max_profit(n :: integer, present :: [integer], future :: [integer], hierarchy :: [[integer]], budget :: integer) :: integer\n  def max_profit(n, present, future, hierarchy, budget) do\n    \n  end\nend"

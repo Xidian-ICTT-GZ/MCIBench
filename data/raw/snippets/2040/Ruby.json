@@ -1,1 +1,0 @@
-"# @param {Integer[]} nums1\n# @param {Integer[]} nums2\n# @param {Integer} k\n# @return {Integer}\ndef kth_smallest_product(nums1, nums2, k)\n    \nend"

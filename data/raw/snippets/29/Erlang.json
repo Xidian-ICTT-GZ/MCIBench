@@ -1,1 +1,0 @@
-"-spec divide(Dividend :: integer(), Divisor :: integer()) -> integer().\ndivide(Dividend, Divisor) ->\n  ."

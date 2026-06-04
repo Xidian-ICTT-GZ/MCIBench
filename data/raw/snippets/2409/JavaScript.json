@@ -1,1 +1,0 @@
-"/**\n * @param {string} arriveAlice\n * @param {string} leaveAlice\n * @param {string} arriveBob\n * @param {string} leaveBob\n * @return {number}\n */\nvar countDaysTogether = function(arriveAlice, leaveAlice, arriveBob, leaveBob) {\n    \n};"

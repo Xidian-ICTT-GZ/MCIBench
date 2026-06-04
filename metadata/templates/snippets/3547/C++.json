@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    long long maxScore(int n, vector<vector<int>>& edges) {\n        \n    }\n};"

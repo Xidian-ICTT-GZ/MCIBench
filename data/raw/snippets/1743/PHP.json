@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[][] $adjacentPairs\n     * @return Integer[]\n     */\n    function restoreArray($adjacentPairs) {\n        \n    }\n}"

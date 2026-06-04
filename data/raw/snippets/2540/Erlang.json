@@ -1,1 +1,0 @@
-"-spec get_common(Nums1 :: [integer()], Nums2 :: [integer()]) -> integer().\nget_common(Nums1, Nums2) ->\n  ."

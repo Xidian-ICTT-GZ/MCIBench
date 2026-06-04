@@ -1,0 +1,1 @@
+"-spec possible_to_stamp(Grid :: [[integer()]], StampHeight :: integer(), StampWidth :: integer()) -> boolean().\npossible_to_stamp(Grid, StampHeight, StampWidth) ->\n  ."

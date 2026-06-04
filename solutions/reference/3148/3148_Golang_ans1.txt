@@ -1,0 +1,38 @@
+func maxScore(grid [][]int) int {
+    m := len(grid)
+	n := len(grid[0])
+	prerow := make([][]int, m)
+	precol := make([][]int, m)
+	f := make([][]int, m)
+
+	for i := range prerow {
+		prerow[i] = make([]int, n)
+		precol[i] = make([]int, n)
+		f[i] = make([]int, n)
+		for j := range f[i] {
+			f[i][j] = math.MinInt32
+		}
+	}
+
+	ans := math.MinInt32
+	for i := 0; i < m; i++ {
+		for j := 0; j < n; j++ {
+			if i > 0 {
+				f[i][j] = max(f[i][j], grid[i][j] + precol[i - 1][j])
+			}
+			if j > 0 {
+				f[i][j] = max(f[i][j], grid[i][j] + prerow[i][j - 1])
+			}
+			ans = max(ans, f[i][j])
+			prerow[i][j] = max(f[i][j], 0) - grid[i][j]
+            precol[i][j] = prerow[i][j]
+			if i > 0 {
+				precol[i][j] = max(precol[i][j], precol[i - 1][j])
+			}
+			if j > 0 {
+				prerow[i][j] = max(prerow[i][j], prerow[i][j - 1])
+			}
+		}
+	}
+	return ans
+}

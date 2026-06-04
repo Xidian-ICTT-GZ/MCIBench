@@ -1,1 +1,0 @@
-"-spec is_n_straight_hand(Hand :: [integer()], GroupSize :: integer()) -> boolean().\nis_n_straight_hand(Hand, GroupSize) ->\n  ."

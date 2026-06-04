@@ -1,0 +1,1 @@
+"-spec find_subsequences(Nums :: [integer()]) -> [[integer()]].\nfind_subsequences(Nums) ->\n  ."

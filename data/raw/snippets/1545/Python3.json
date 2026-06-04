@@ -1,1 +1,0 @@
-"class Solution:\n    def findKthBit(self, n: int, k: int) -> str:\n        "

@@ -1,0 +1,1 @@
+"(define/contract (minimum-time-to-initial-state word k)\n  (-> string? exact-integer? exact-integer?)\n  )"

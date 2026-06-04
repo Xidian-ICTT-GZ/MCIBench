@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec bag_of_tokens_score(tokens :: [integer], power :: integer) :: integer\n  def bag_of_tokens_score(tokens, power) do\n    \n  end\nend"

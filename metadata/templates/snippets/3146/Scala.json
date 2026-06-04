@@ -1,0 +1,1 @@
+"object Solution {\n    def findPermutationDifference(s: String, t: String): Int = {\n        \n    }\n}"

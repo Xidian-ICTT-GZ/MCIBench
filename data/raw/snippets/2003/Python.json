@@ -1,1 +1,0 @@
-"class Solution(object):\n    def smallestMissingValueSubtree(self, parents, nums):\n        \"\"\"\n        :type parents: List[int]\n        :type nums: List[int]\n        :rtype: List[int]\n        \"\"\"\n        "

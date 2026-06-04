@@ -1,1 +1,0 @@
-"/**\n * @param {Array} arr\n * @param {number} size\n * @return {Array}\n */\nvar chunk = function(arr, size) {\n    \n};"

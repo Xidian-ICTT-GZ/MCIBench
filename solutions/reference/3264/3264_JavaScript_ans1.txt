@@ -1,0 +1,12 @@
+var getFinalState = function(nums, k, multiplier) {
+    for (let i = 0; i < k; i++) {
+        let m = 0;
+        for (let j = 0; j < nums.length; j++) {
+            if (nums[j] < nums[m]) {
+                m = j;
+            }
+        }
+        nums[m] *= multiplier;
+    }
+    return nums;
+};

@@ -1,1 +1,0 @@
-"-spec min_days(BloomDay :: [integer()], M :: integer(), K :: integer()) -> integer().\nmin_days(BloomDay, M, K) ->\n  ."

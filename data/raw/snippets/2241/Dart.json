@@ -1,1 +1,0 @@
-"class ATM {\n\n  ATM() {\n    \n  }\n  \n  void deposit(List<int> banknotesCount) {\n    \n  }\n  \n  List<int> withdraw(int amount) {\n    \n  }\n}\n\n/**\n * Your ATM object will be instantiated and called as such:\n * ATM obj = ATM();\n * obj.deposit(banknotesCount);\n * List<int> param2 = obj.withdraw(amount);\n */"

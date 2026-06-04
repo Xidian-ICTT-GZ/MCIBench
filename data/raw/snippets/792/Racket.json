@@ -1,1 +1,0 @@
-"(define/contract (num-matching-subseq s words)\n  (-> string? (listof string?) exact-integer?)\n  )"

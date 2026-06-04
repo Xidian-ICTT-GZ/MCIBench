@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String[] $wordlist\n     * @param String[] $queries\n     * @return String[]\n     */\n    function spellchecker($wordlist, $queries) {\n        \n    }\n}"

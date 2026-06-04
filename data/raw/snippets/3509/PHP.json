@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer $k\n     * @param Integer $limit\n     * @return Integer\n     */\n    function maxProduct($nums, $k, $limit) {\n        \n    }\n}"

@@ -1,1 +1,0 @@
-"class DataStream\n\n=begin\n    :type value: Integer\n    :type k: Integer\n=end\n    def initialize(value, k)\n        \n    end\n\n\n=begin\n    :type num: Integer\n    :rtype: Boolean\n=end\n    def consec(num)\n        \n    end\n\n\nend\n\n# Your DataStream object will be instantiated and called as such:\n# obj = DataStream.new(value, k)\n# param_1 = obj.consec(num)"

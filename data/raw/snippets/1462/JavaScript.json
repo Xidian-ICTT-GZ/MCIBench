@@ -1,1 +1,0 @@
-"/**\n * @param {number} numCourses\n * @param {number[][]} prerequisites\n * @param {number[][]} queries\n * @return {boolean[]}\n */\nvar checkIfPrerequisite = function(numCourses, prerequisites, queries) {\n    \n};"

@@ -1,0 +1,1 @@
+"class Solution:\n    def getMinDistSum(self, positions: List[List[int]]) -> float:\n        "

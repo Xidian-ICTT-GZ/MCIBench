@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec regions_by_slashes(grid :: [String.t]) :: integer\n  def regions_by_slashes(grid) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"class Solution(object):\n    def findLonely(self, nums):\n        \"\"\"\n        :type nums: List[int]\n        :rtype: List[int]\n        \"\"\"\n        "

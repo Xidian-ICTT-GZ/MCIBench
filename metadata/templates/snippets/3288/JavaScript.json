@@ -1,0 +1,1 @@
+"/**\n * @param {number[][]} coordinates\n * @param {number} k\n * @return {number}\n */\nvar maxPathLength = function(coordinates, k) {\n    \n};"

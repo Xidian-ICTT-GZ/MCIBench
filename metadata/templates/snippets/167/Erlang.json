@@ -1,0 +1,1 @@
+"-spec two_sum(Numbers :: [integer()], Target :: integer()) -> [integer()].\ntwo_sum(Numbers, Target) ->\n  ."

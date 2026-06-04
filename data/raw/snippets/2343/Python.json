@@ -1,1 +1,0 @@
-"class Solution(object):\n    def smallestTrimmedNumbers(self, nums, queries):\n        \"\"\"\n        :type nums: List[str]\n        :type queries: List[List[int]]\n        :rtype: List[int]\n        \"\"\"\n        "

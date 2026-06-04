@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec palindrome_pairs(words :: [String.t]) :: [[integer]]\n  def palindrome_pairs(words) do\n    \n  end\nend"

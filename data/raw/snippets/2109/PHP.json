@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String $s\n     * @param Integer[] $spaces\n     * @return String\n     */\n    function addSpaces($s, $spaces) {\n        \n    }\n}"

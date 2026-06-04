@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec smallest_missing_value_subtree(parents :: [integer], nums :: [integer]) :: [integer]\n  def smallest_missing_value_subtree(parents, nums) do\n    \n  end\nend"

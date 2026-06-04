@@ -1,1 +1,0 @@
-"class Solution(object):\n    def canMeasureWater(self, x, y, target):\n        \"\"\"\n        :type x: int\n        :type y: int\n        :type target: int\n        :rtype: bool\n        \"\"\"\n        "

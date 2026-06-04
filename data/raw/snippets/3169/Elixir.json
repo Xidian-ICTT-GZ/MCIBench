@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec count_days(days :: integer, meetings :: [[integer]]) :: integer\n  def count_days(days, meetings) do\n    \n  end\nend"

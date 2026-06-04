@@ -1,1 +1,0 @@
-"# @param {Integer[][]} grid\n# @return {Boolean}\ndef is_possible_to_cut_path(grid)\n    \nend"

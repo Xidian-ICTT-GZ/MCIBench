@@ -1,1 +1,0 @@
-"(define/contract (assign-elements groups elements)\n  (-> (listof exact-integer?) (listof exact-integer?) (listof exact-integer?))\n  )"

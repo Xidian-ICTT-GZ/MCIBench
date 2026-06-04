@@ -1,1 +1,0 @@
-"class Solution(object):\n    def largestWordCount(self, messages, senders):\n        \"\"\"\n        :type messages: List[str]\n        :type senders: List[str]\n        :rtype: str\n        \"\"\"\n        "

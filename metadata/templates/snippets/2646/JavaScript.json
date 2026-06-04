@@ -1,0 +1,1 @@
+"/**\n * @param {number} n\n * @param {number[][]} edges\n * @param {number[]} price\n * @param {number[][]} trips\n * @return {number}\n */\nvar minimumTotalPrice = function(n, edges, price, trips) {\n    \n};"

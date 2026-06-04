@@ -1,0 +1,1 @@
+"# @param {Integer} a\n# @param {Integer} b\n# @param {Integer} c\n# @return {String}\ndef longest_diverse_string(a, b, c)\n    \nend"

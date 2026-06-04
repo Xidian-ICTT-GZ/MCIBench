@@ -1,1 +1,0 @@
-"import pandas as pd\n\ndef user_activity(activity: pd.DataFrame) -> pd.DataFrame:\n    "

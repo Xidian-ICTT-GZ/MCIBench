@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} tasks\n * @param {number[]} workers\n * @param {number} pills\n * @param {number} strength\n * @return {number}\n */\nvar maxTaskAssign = function(tasks, workers, pills, strength) {\n    \n};"

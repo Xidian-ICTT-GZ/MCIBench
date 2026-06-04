@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int findRotateSteps(string ring, string key) {\n        \n    }\n};"

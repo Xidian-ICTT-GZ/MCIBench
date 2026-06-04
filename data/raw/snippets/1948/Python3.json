@@ -1,1 +1,0 @@
-"class Solution:\n    def deleteDuplicateFolder(self, paths: List[List[str]]) -> List[List[str]]:\n        "

@@ -1,1 +1,0 @@
-"-spec max_array_value(Nums :: [integer()]) -> integer().\nmax_array_value(Nums) ->\n  ."

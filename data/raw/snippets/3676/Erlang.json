@@ -1,1 +1,0 @@
-"-spec bowl_subarrays(Nums :: [integer()]) -> integer().\nbowl_subarrays(Nums) ->\n  ."

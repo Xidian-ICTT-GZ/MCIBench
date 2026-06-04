@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String[] $words\n     * @param String $x\n     * @return Integer[]\n     */\n    function findWordsContaining($words, $x) {\n        \n    }\n}"

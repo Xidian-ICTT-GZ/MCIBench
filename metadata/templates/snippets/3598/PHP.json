@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String[] $words\n     * @return Integer[]\n     */\n    function longestCommonPrefix($words) {\n        \n    }\n}"

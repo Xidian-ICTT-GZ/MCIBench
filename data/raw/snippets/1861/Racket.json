@@ -1,1 +1,0 @@
-"(define/contract (rotate-the-box boxGrid)\n  (-> (listof (listof char?)) (listof (listof char?)))\n  )"

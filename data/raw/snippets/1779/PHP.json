@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer $x\n     * @param Integer $y\n     * @param Integer[][] $points\n     * @return Integer\n     */\n    function nearestValidPoint($x, $y, $points) {\n        \n    }\n}"

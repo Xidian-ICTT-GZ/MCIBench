@@ -1,0 +1,1 @@
+"-spec max_score_indices(Nums :: [integer()]) -> [integer()].\nmax_score_indices(Nums) ->\n  ."

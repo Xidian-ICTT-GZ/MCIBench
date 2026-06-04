@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec count_fair_pairs(nums :: [integer], lower :: integer, upper :: integer) :: integer\n  def count_fair_pairs(nums, lower, upper) do\n    \n  end\nend"

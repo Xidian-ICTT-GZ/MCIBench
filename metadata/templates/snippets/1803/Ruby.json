@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @param {Integer} low\n# @param {Integer} high\n# @return {Integer}\ndef count_pairs(nums, low, high)\n    \nend"

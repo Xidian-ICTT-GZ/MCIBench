@@ -1,0 +1,13 @@
+class Solution {
+    public int twoEggDrop(int n) {
+        int[] f = new int[n + 1];
+        Arrays.fill(f, Integer.MAX_VALUE / 2);
+        f[0] = 0;
+        for (int i = 1; i <= n; i++) {
+            for (int k = 1; k <= i; k++) {
+                f[i] = Math.min(f[i], Math.max(k - 1, f[i - k]) + 1);
+            }
+        }
+        return f[n];
+    }
+}

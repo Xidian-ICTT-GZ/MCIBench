@@ -1,0 +1,41 @@
+type TextEditor struct {
+    left  []byte
+    right []byte
+}
+
+func Constructor() TextEditor {
+    return TextEditor{}
+}
+
+func (this *TextEditor) AddText(text string) {
+    this.left = append(this.left, text...)
+}
+
+func (this *TextEditor) DeleteText(k int) int {
+    count := min(k, len(this.left))
+    this.left = this.left[:len(this.left)-count]
+    return count
+}
+
+func (this *TextEditor) CursorLeft(k int) string {
+    move := min(k, len(this.left))
+    for i := 0; i < move; i++ {
+        this.right = append(this.right, this.left[len(this.left) - 1])
+        this.left = this.left[:len(this.left) - 1]
+    }
+    return this.getLeftText()
+}
+
+func (this *TextEditor) CursorRight(k int) string {
+    move := min(k, len(this.right))
+    for i := 0; i < move; i++ {
+        this.left = append(this.left, this.right[len(this.right) - 1])
+        this.right = this.right[:len(this.right) - 1]
+    }
+    return this.getLeftText()
+}
+
+func (this *TextEditor) getLeftText() string {
+    start := max(0, len(this.left)-10)
+    return string(this.left[start:])
+}

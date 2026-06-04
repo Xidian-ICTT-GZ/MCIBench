@@ -1,0 +1,1 @@
+"-spec can_place_flowers(Flowerbed :: [integer()], N :: integer()) -> boolean().\ncan_place_flowers(Flowerbed, N) ->\n  ."

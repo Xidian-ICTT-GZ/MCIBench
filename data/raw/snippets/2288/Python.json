@@ -1,1 +1,0 @@
-"class Solution(object):\n    def discountPrices(self, sentence, discount):\n        \"\"\"\n        :type sentence: str\n        :type discount: int\n        :rtype: str\n        \"\"\"\n        "

@@ -1,1 +1,0 @@
-"(define/contract (find-winning-player skills k)\n  (-> (listof exact-integer?) exact-integer? exact-integer?)\n  )"

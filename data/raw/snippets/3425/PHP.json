@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[][] $edges\n     * @param Integer[] $nums\n     * @return Integer[]\n     */\n    function longestSpecialPath($edges, $nums) {\n        \n    }\n}"

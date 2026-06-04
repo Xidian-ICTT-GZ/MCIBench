@@ -1,1 +1,0 @@
-"# @param {Integer[]} candies\n# @param {Integer} k\n# @return {Integer}\ndef maximum_candies(candies, k)\n    \nend"

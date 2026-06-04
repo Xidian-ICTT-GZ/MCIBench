@@ -1,1 +1,0 @@
-"-spec rearrange_array(Nums :: [integer()]) -> [integer()].\nrearrange_array(Nums) ->\n  ."

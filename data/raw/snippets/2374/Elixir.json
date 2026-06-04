@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec edge_score(edges :: [integer]) :: integer\n  def edge_score(edges) do\n    \n  end\nend"

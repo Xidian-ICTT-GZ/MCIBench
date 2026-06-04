@@ -1,1 +1,0 @@
-"/**\n * @param {string[]} nums\n * @param {number} k\n * @return {string}\n */\nvar kthLargestNumber = function(nums, k) {\n    \n};"

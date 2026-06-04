@@ -1,1 +1,0 @@
-"(define/contract (find-repeated-dna-sequences s)\n  (-> string? (listof string?))\n  )"

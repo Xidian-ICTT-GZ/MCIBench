@@ -1,0 +1,1 @@
+"class Solution:\n    def balancedString(self, s: str) -> int:\n        "

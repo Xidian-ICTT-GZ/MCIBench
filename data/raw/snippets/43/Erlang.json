@@ -1,1 +1,0 @@
-"-spec multiply(Num1 :: unicode:unicode_binary(), Num2 :: unicode:unicode_binary()) -> unicode:unicode_binary().\nmultiply(Num1, Num2) ->\n  ."

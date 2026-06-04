@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} nums\n * @param {number} k\n * @param {number} maxChanges\n * @return {number}\n */\nvar minimumMoves = function(nums, k, maxChanges) {\n    \n};"

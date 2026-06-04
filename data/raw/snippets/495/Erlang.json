@@ -1,1 +1,0 @@
-"-spec find_poisoned_duration(TimeSeries :: [integer()], Duration :: integer()) -> integer().\nfind_poisoned_duration(TimeSeries, Duration) ->\n  ."

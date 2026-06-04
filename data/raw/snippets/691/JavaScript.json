@@ -1,1 +1,0 @@
-"/**\n * @param {string[]} stickers\n * @param {string} target\n * @return {number}\n */\nvar minStickers = function(stickers, target) {\n    \n};"

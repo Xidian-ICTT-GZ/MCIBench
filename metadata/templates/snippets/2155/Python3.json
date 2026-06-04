@@ -1,0 +1,1 @@
+"class Solution:\n    def maxScoreIndices(self, nums: List[int]) -> List[int]:\n        "

@@ -1,1 +1,0 @@
-"-spec total_steps(Nums :: [integer()]) -> integer().\ntotal_steps(Nums) ->\n  ."

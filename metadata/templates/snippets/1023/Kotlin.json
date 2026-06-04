@@ -1,0 +1,1 @@
+"class Solution {\n    fun camelMatch(queries: Array<String>, pattern: String): List<Boolean> {\n        \n    }\n}"

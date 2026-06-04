@@ -1,1 +1,0 @@
-"class SummaryRanges {\n    constructor() {\n        \n    }\n\n    addNum(value: number): void {\n        \n    }\n\n    getIntervals(): number[][] {\n        \n    }\n}\n\n/**\n * Your SummaryRanges object will be instantiated and called as such:\n * var obj = new SummaryRanges()\n * obj.addNum(value)\n * var param_2 = obj.getIntervals()\n */"

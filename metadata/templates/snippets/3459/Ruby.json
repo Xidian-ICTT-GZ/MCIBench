@@ -1,0 +1,1 @@
+"# @param {Integer[][]} grid\n# @return {Integer}\ndef len_of_v_diagonal(grid)\n    \nend"

@@ -1,0 +1,1 @@
+"object Solution {\n    def countCells(grid: Array[Array[Char]], pattern: String): Int = {\n        \n    }\n}"

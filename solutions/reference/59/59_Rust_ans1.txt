@@ -1,0 +1,22 @@
+impl Solution {
+    pub fn generate_matrix(n: i32) -> Vec<Vec<i32>> {
+        let max_num = n * n;
+        let mut cur_num = 1;
+        let mut matrix = vec![vec![0; n as usize]; n as usize];
+        let (mut row, mut column) = (0, 0);
+        let directions = vec![[0, 1], [1, 0], [0, -1], [-1, 0]];  
+        let mut direction_index = 0;
+        while cur_num <= max_num {
+            matrix[row as usize][column as usize] = cur_num;
+            cur_num += 1;
+            let next_row = row + directions[direction_index][0];
+            let next_column = column + directions[direction_index][1];
+            if next_row < 0 || next_row >= n || next_column < 0 || next_column >= n || matrix[next_row as usize][next_column as usize] != 0 {
+                direction_index = (direction_index + 1) % 4;  
+            }
+            row += directions[direction_index][0];
+            column += directions[direction_index][1];
+        }
+        matrix
+    }
+}

@@ -1,1 +1,0 @@
-"-spec maximums_spliced_array(Nums1 :: [integer()], Nums2 :: [integer()]) -> integer().\nmaximums_spliced_array(Nums1, Nums2) ->\n  ."

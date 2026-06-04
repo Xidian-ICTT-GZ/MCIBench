@@ -1,1 +1,0 @@
-"-spec find_coins(NumWays :: [integer()]) -> [integer()].\nfind_coins(NumWays) ->\n  ."

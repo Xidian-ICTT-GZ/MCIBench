@@ -1,0 +1,12 @@
+public class Solution {
+    public char KthCharacter(long k, int[] operations) {
+        int ans = 0;
+        k--;
+        for (int i = (int)Math.Log(k, 2); i >= 0; i--) {
+            if ((k >> i & 1) == 1) {
+                ans += operations[i];
+            }
+        }
+        return (char)('a' + (ans % 26));
+    }
+}

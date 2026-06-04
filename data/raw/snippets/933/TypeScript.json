@@ -1,1 +1,0 @@
-"class RecentCounter {\n    constructor() {\n        \n    }\n\n    ping(t: number): number {\n        \n    }\n}\n\n/**\n * Your RecentCounter object will be instantiated and called as such:\n * var obj = new RecentCounter()\n * var param_1 = obj.ping(t)\n */"

@@ -1,0 +1,1 @@
+"class Solution {\n    public long[] kthPalindrome(int[] queries, int intLength) {\n        \n    }\n}"

@@ -1,0 +1,24 @@
+bool check(const int *g, int gSize, const int *nums, int numsSize, int k) {
+    if (k + gSize > numsSize) {
+        return false;
+    }
+    for (int j = 0; j < gSize; j++) {
+        if (g[j] != nums[k + j]) {
+            return false;
+        }
+    }
+    return true;
+}
+
+bool canChoose(int** groups, int groupsSize, int* groupsColSize, int* nums, int numsSize) {
+    int i = 0;
+    for (int k = 0; k < numsSize && i < groupsSize;) {
+        if (check(groups[i], groupsColSize[i], nums, numsSize, k)) {
+            k += groupsColSize[i];
+            i++;
+        } else {
+            k++;
+        }
+    }
+    return i == groupsSize;
+}

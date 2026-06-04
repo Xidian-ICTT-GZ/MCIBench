@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec is_rectangle_cover(rectangles :: [[integer]]) :: boolean\n  def is_rectangle_cover(rectangles) do\n    \n  end\nend"

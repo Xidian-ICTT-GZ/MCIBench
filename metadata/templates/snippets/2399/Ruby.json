@@ -1,0 +1,1 @@
+"# @param {String} s\n# @param {Integer[]} distance\n# @return {Boolean}\ndef check_distances(s, distance)\n    \nend"

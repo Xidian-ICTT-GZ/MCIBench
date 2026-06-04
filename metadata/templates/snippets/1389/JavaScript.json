@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} nums\n * @param {number[]} index\n * @return {number[]}\n */\nvar createTargetArray = function(nums, index) {\n    \n};"

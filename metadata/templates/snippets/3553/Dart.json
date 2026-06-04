@@ -1,0 +1,1 @@
+"class Solution {\n  List<int> minimumWeight(List<List<int>> edges, List<List<int>> queries) {\n    \n  }\n}"

@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $arr\n     * @return Integer\n     */\n    function findLucky($arr) {\n        \n    }\n}"

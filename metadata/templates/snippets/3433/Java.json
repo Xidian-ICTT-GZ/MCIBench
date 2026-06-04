@@ -1,0 +1,1 @@
+"class Solution {\n    public int[] countMentions(int numberOfUsers, List<List<String>> events) {\n        \n    }\n}"

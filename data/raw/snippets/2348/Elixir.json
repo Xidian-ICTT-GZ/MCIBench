@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec zero_filled_subarray(nums :: [integer]) :: integer\n  def zero_filled_subarray(nums) do\n    \n  end\nend"

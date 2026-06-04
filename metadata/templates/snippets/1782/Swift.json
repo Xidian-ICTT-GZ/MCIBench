@@ -1,0 +1,1 @@
+"class Solution {\n    func countPairs(_ n: Int, _ edges: [[Int]], _ queries: [Int]) -> [Int] {\n        \n    }\n}"

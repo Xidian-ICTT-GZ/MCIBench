@@ -1,1 +1,0 @@
-"-spec mask_pii(S :: unicode:unicode_binary()) -> unicode:unicode_binary().\nmask_pii(S) ->\n  ."

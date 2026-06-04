@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer $n\n     * @param Integer $k\n     * @param Integer $m\n     * @param Integer[] $time\n     * @param Float[] $mul\n     * @return Float\n     */\n    function minTime($n, $k, $m, $time, $mul) {\n        \n    }\n}"

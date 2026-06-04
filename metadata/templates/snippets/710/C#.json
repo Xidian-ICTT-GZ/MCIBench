@@ -1,0 +1,1 @@
+"public class Solution {\n\n    public Solution(int n, int[] blacklist) {\n        \n    }\n    \n    public int Pick() {\n        \n    }\n}\n\n/**\n * Your Solution object will be instantiated and called as such:\n * Solution obj = new Solution(n, blacklist);\n * int param_1 = obj.Pick();\n */"

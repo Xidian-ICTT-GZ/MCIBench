@@ -1,1 +1,0 @@
-"# @param {String} sentence1\n# @param {String} sentence2\n# @return {Boolean}\ndef are_sentences_similar(sentence1, sentence2)\n    \nend"

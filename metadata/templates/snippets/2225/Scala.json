@@ -1,0 +1,1 @@
+"object Solution {\n    def findWinners(matches: Array[Array[Int]]): List[List[Int]] = {\n        \n    }\n}"

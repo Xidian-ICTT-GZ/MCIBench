@@ -1,0 +1,1 @@
+"class Solution {\n    fun findOcurrences(text: String, first: String, second: String): Array<String> {\n        \n    }\n}"

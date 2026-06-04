@@ -1,0 +1,1 @@
+"(define/contract (open-lock deadends target)\n  (-> (listof string?) string? exact-integer?)\n  )"

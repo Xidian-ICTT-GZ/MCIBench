@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec group_the_people(group_sizes :: [integer]) :: [[integer]]\n  def group_the_people(group_sizes) do\n    \n  end\nend"

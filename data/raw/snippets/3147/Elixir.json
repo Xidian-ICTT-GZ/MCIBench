@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec maximum_energy(energy :: [integer], k :: integer) :: integer\n  def maximum_energy(energy, k) do\n    \n  end\nend"

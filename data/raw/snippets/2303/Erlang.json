@@ -1,1 +1,0 @@
-"-spec calculate_tax(Brackets :: [[integer()]], Income :: integer()) -> float().\ncalculate_tax(Brackets, Income) ->\n  ."

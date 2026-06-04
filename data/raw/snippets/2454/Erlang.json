@@ -1,1 +1,0 @@
-"-spec second_greater_element(Nums :: [integer()]) -> [integer()].\nsecond_greater_element(Nums) ->\n  ."

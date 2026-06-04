@@ -1,0 +1,1 @@
+"(define/contract (maximum-time time)\n  (-> string? string?)\n  )"

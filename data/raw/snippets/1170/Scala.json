@@ -1,1 +1,0 @@
-"object Solution {\n    def numSmallerByFrequency(queries: Array[String], words: Array[String]): Array[Int] = {\n        \n    }\n}"

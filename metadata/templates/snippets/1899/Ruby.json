@@ -1,0 +1,1 @@
+"# @param {Integer[][]} triplets\n# @param {Integer[]} target\n# @return {Boolean}\ndef merge_triplets(triplets, target)\n    \nend"

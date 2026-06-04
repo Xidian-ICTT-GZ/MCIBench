@@ -1,0 +1,23 @@
+public class Solution {
+    public int MaxHeightOfTriangle(int red, int blue) {
+        return Math.Max(MaxHeight(red, blue), MaxHeight(blue, red));
+    }
+
+    public int MaxHeight(int x, int y) {
+        int i = 1;
+        do {
+            if (i % 2 == 1) {
+                x -= i;
+                if (x < 0) {
+                    return i - 1;
+                }
+            } else {
+                y -= i;
+                if (y < 0) {
+                    return i - 1;
+                }
+            }
+            i++;
+        } while (true);
+    }
+}

@@ -1,0 +1,12 @@
+public class Solution {
+    public bool XorGame(int[] nums) {
+        if (nums.Length % 2 == 0) {
+            return true;
+        }
+        int xor = 0;
+        foreach (int num in nums) {
+            xor ^= num;
+        }
+        return xor == 0;
+    }
+}

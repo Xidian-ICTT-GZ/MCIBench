@@ -1,1 +1,0 @@
-"class Solution:\n    def scoreOfParentheses(self, s: str) -> int:\n        "

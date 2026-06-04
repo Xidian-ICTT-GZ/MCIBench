@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec earliest_second_to_mark_indices(nums :: [integer], change_indices :: [integer]) :: integer\n  def earliest_second_to_mark_indices(nums, change_indices) do\n    \n  end\nend"

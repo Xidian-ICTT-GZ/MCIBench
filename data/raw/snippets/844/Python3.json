@@ -1,1 +1,0 @@
-"class Solution:\n    def backspaceCompare(self, s: str, t: str) -> bool:\n        "

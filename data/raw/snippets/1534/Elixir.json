@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec count_good_triplets(arr :: [integer], a :: integer, b :: integer, c :: integer) :: integer\n  def count_good_triplets(arr, a, b, c) do\n    \n  end\nend"

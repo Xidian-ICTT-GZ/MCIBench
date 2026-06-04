@@ -1,1 +1,0 @@
-"(define/contract (split-message message limit)\n  (-> string? exact-integer? (listof string?))\n  )"

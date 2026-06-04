@@ -1,0 +1,37 @@
+class Solution:
+    def minimumTotalPrice(self, n: int, edges: List[List[int]], price: List[int], trips: List[List[int]]) -> int:
+        children = [[] for _ in range(n)]
+        for edge in edges:
+            children[edge[0]].append(edge[1])
+            children[edge[1]].append(edge[0])
+        
+        count = [0] * n
+        def dfs(node: int, parent: int, end: int) -> bool:
+            if node == end:
+                count[node] += 1
+                return True
+            for child in children[node]:
+                if child == parent:
+                    continue
+                if dfs(child, node, end):
+                    count[node] += 1
+                    return True
+            return False
+        
+        for [x, y] in trips:
+            dfs(x, -1, y)
+        
+        def dp(node: int, parent: int) -> List[int]:
+            res = [
+                price[node] * count[node], price[node] * count[node] // 2
+            ]
+            for child in children[node]:
+                if child == parent:
+                    continue
+                [x, y] = dp(child, node)
+                
+                
+                res[0], res[1] = res[0] + min(x, y), res[1] + x
+            return res
+
+        return min(dp(0, -1))

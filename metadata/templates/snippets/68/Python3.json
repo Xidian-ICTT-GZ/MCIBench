@@ -1,0 +1,1 @@
+"class Solution:\n    def fullJustify(self, words: List[str], maxWidth: int) -> List[str]:\n        "

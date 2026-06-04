@@ -1,0 +1,1 @@
+"class StreamChecker {\n    constructor(words: string[]) {\n        \n    }\n\n    query(letter: string): boolean {\n        \n    }\n}\n\n/**\n * Your StreamChecker object will be instantiated and called as such:\n * var obj = new StreamChecker(words)\n * var param_1 = obj.query(letter)\n */"

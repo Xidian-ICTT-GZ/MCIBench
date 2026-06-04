@@ -1,0 +1,1 @@
+"# @param {Integer[]} barcodes\n# @return {Integer[]}\ndef rearrange_barcodes(barcodes)\n    \nend"

@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer $n\n     * @param Integer[][] $pick\n     * @return Integer\n     */\n    function winningPlayerCount($n, $pick) {\n        \n    }\n}"

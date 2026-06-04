@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec minimum_string(a :: String.t, b :: String.t, c :: String.t) :: String.t\n  def minimum_string(a, b, c) do\n    \n  end\nend"

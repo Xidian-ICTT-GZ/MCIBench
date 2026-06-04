@@ -1,1 +1,0 @@
-"class FreqStack {\npublic:\n    FreqStack() {\n        \n    }\n    \n    void push(int val) {\n        \n    }\n    \n    int pop() {\n        \n    }\n};\n\n/**\n * Your FreqStack object will be instantiated and called as such:\n * FreqStack* obj = new FreqStack();\n * obj->push(val);\n * int param_2 = obj->pop();\n */"

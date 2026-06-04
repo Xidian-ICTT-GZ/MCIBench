@@ -1,1 +1,0 @@
-"(define/contract (max-removal nums queries)\n  (-> (listof exact-integer?) (listof (listof exact-integer?)) exact-integer?)\n  )"

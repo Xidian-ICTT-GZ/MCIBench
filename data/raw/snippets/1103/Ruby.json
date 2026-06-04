@@ -1,1 +1,0 @@
-"# @param {Integer} candies\n# @param {Integer} num_people\n# @return {Integer[]}\ndef distribute_candies(candies, num_people)\n    \nend"

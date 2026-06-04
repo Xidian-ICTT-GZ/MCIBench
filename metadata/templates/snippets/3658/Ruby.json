@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @return {Integer}\ndef gcd_of_odd_even_sums(n)\n    \nend"

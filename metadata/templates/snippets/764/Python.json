@@ -1,0 +1,1 @@
+"class Solution(object):\n    def orderOfLargestPlusSign(self, n, mines):\n        \"\"\"\n        :type n: int\n        :type mines: List[List[int]]\n        :rtype: int\n        \"\"\"\n        "

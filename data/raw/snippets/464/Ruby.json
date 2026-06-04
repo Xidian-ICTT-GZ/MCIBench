@@ -1,1 +1,0 @@
-"# @param {Integer} max_choosable_integer\n# @param {Integer} desired_total\n# @return {Boolean}\ndef can_i_win(max_choosable_integer, desired_total)\n    \nend"

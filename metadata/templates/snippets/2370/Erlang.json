@@ -1,0 +1,1 @@
+"-spec longest_ideal_string(S :: unicode:unicode_binary(), K :: integer()) -> integer().\nlongest_ideal_string(S, K) ->\n  ."

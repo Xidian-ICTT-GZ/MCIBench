@@ -1,0 +1,1 @@
+"object Solution {\n    def flipgame(fronts: Array[Int], backs: Array[Int]): Int = {\n        \n    }\n}"

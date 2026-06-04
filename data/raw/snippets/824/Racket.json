@@ -1,1 +1,0 @@
-"(define/contract (to-goat-latin sentence)\n  (-> string? string?)\n  )"

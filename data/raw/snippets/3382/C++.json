@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    long long maxRectangleArea(vector<int>& xCoord, vector<int>& yCoord) {\n        \n    }\n};"

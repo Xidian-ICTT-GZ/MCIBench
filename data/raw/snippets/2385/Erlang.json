@@ -1,1 +1,0 @@
-"%% Definition for a binary tree node.\n%%\n%% -record(tree_node, {val = 0 :: integer(),\n%%                     left = null  :: 'null' | #tree_node{},\n%%                     right = null :: 'null' | #tree_node{}}).\n\n-spec amount_of_time(Root :: #tree_node{} | null, Start :: integer()) -> integer().\namount_of_time(Root, Start) ->\n  ."

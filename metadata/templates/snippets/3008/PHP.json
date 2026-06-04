@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $s\n     * @param String $a\n     * @param String $b\n     * @param Integer $k\n     * @return Integer[]\n     */\n    function beautifulIndices($s, $a, $b, $k) {\n        \n    }\n}"

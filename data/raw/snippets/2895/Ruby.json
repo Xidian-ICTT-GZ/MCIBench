@@ -1,1 +1,0 @@
-"# @param {Integer[]} processor_time\n# @param {Integer[]} tasks\n# @return {Integer}\ndef min_processing_time(processor_time, tasks)\n    \nend"

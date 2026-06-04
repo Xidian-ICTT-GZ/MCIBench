@@ -1,0 +1,1 @@
+"# @param {Integer[]} skill\n# @param {Integer[]} mana\n# @return {Integer}\ndef min_time(skill, mana)\n    \nend"

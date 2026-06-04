@@ -1,0 +1,1 @@
+"# @param {Integer[][]} cost\n# @return {Integer}\ndef connect_two_groups(cost)\n    \nend"

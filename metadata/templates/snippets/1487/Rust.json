@@ -1,0 +1,1 @@
+"impl Solution {\n    pub fn get_folder_names(names: Vec<String>) -> Vec<String> {\n        \n    }\n}"

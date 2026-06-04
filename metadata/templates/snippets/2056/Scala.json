@@ -1,0 +1,1 @@
+"object Solution {\n    def countCombinations(pieces: Array[String], positions: Array[Array[Int]]): Int = {\n        \n    }\n}"

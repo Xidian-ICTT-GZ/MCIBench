@@ -1,0 +1,1 @@
+"class Solution(object):\n    def nearestExit(self, maze, entrance):\n        \"\"\"\n        :type maze: List[List[str]]\n        :type entrance: List[int]\n        :rtype: int\n        \"\"\"\n        "

@@ -1,1 +1,0 @@
-"impl Solution {\n    pub fn minimum_jumps(forbidden: Vec<i32>, a: i32, b: i32, x: i32) -> i32 {\n        \n    }\n}"

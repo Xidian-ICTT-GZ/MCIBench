@@ -1,0 +1,29 @@
+const int dx[4] = {1, 0, 0, -1};
+const int dy[4] = {0, 1, -1, 0};
+
+int n, m;
+
+void dfs(int** image, int x, int y, int currColor, int color) {
+    if (image[x][y] == currColor) {
+        image[x][y] = color;
+        for (int i = 0; i < 4; i++) {
+            int mx = x + dx[i], my = y + dy[i];
+            if (mx >= 0 && mx < n && my >= 0 && my < m) {
+                dfs(image, mx, my, currColor, color);
+            }
+        }
+    }
+}
+
+int** floodFill(int** image, int imageSize, int* imageColSize, int sr, int sc, int color, int* returnSize, int** returnColumnSizes) {
+    n = imageSize, m = imageColSize[0];
+    *returnSize = n;
+    for (int i = 0; i < n; i++) {
+        (*returnColumnSizes)[i] = m;
+    }
+    int currColor = image[sr][sc];
+    if (currColor != color) {
+        dfs(image, sr, sc, currColor, color);
+    }
+    return image;
+}

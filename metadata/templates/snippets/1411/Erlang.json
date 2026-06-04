@@ -1,0 +1,1 @@
+"-spec num_of_ways(N :: integer()) -> integer().\nnum_of_ways(N) ->\n  ."

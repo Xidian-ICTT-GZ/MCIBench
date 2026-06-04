@@ -1,1 +1,0 @@
-"-spec smallest_value(N :: integer()) -> integer().\nsmallest_value(N) ->\n  ."

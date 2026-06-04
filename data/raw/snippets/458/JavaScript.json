@@ -1,1 +1,0 @@
-"/**\n * @param {number} buckets\n * @param {number} minutesToDie\n * @param {number} minutesToTest\n * @return {number}\n */\nvar poorPigs = function(buckets, minutesToDie, minutesToTest) {\n    \n};"

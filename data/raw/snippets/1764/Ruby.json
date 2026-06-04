@@ -1,1 +1,0 @@
-"# @param {Integer[][]} groups\n# @param {Integer[]} nums\n# @return {Boolean}\ndef can_choose(groups, nums)\n    \nend"

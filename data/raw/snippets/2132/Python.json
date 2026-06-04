@@ -1,1 +1,0 @@
-"class Solution(object):\n    def possibleToStamp(self, grid, stampHeight, stampWidth):\n        \"\"\"\n        :type grid: List[List[int]]\n        :type stampHeight: int\n        :type stampWidth: int\n        :rtype: bool\n        \"\"\"\n        "

@@ -1,1 +1,0 @@
-"class Solution(object):\n    def minDays(self, bloomDay, m, k):\n        \"\"\"\n        :type bloomDay: List[int]\n        :type m: int\n        :type k: int\n        :rtype: int\n        \"\"\"\n        "

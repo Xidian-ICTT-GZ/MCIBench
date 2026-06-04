@@ -1,0 +1,1 @@
+"/**\n * @param {string} seq\n * @return {number[]}\n */\nvar maxDepthAfterSplit = function(seq) {\n    \n};"

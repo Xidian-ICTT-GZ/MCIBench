@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec reorganize_string(s :: String.t) :: String.t\n  def reorganize_string(s) do\n    \n  end\nend"

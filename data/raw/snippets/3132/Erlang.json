@@ -1,1 +1,0 @@
-"-spec minimum_added_integer(Nums1 :: [integer()], Nums2 :: [integer()]) -> integer().\nminimum_added_integer(Nums1, Nums2) ->\n  ."

@@ -1,1 +1,0 @@
-"/**\n * @param {number[][]} mat\n * @param {number} threshold\n * @return {number}\n */\nvar maxSideLength = function(mat, threshold) {\n    \n};"

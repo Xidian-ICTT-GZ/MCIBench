@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    int minimumScore(vector<int>& nums, vector<vector<int>>& edges) {\n        \n    }\n};"

@@ -1,1 +1,0 @@
-"class Solution:\n    def repairCars(self, ranks: List[int], cars: int) -> int:\n        "

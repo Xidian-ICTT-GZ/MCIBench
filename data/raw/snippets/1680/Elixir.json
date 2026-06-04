@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec concatenated_binary(n :: integer) :: integer\n  def concatenated_binary(n) do\n    \n  end\nend"

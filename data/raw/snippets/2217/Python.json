@@ -1,1 +1,0 @@
-"class Solution(object):\n    def kthPalindrome(self, queries, intLength):\n        \"\"\"\n        :type queries: List[int]\n        :type intLength: int\n        :rtype: List[int]\n        \"\"\"\n        "

@@ -1,9 +1,0 @@
-public class Solution {
-    public bool IsOneBitCharacter(int[] bits) {
-        int n = bits.Length, i = n - 2;
-        while (i >= 0 && bits[i] == 1) {
-            --i;
-        }
-        return (n - i) % 2 == 0;
-    }
-}

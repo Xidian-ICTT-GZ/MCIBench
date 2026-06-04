@@ -1,0 +1,1 @@
+"object Solution {\n    def earliestAndLatest(n: Int, firstPlayer: Int, secondPlayer: Int): Array[Int] = {\n        \n    }\n}"

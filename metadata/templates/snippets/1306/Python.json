@@ -1,0 +1,1 @@
+"class Solution(object):\n    def canReach(self, arr, start):\n        \"\"\"\n        :type arr: List[int]\n        :type start: int\n        :rtype: bool\n        \"\"\"\n        "

@@ -1,1 +1,0 @@
-"class Solution(object):\n    def isWinner(self, player1, player2):\n        \"\"\"\n        :type player1: List[int]\n        :type player2: List[int]\n        :rtype: int\n        \"\"\"\n        "

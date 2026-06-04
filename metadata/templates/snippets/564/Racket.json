@@ -1,0 +1,1 @@
+"(define/contract (nearest-palindromic n)\n  (-> string? string?)\n  )"

@@ -1,0 +1,13 @@
+class Solution:
+    def findMinimumTime(self, tasks: List[List[int]]) -> int:
+        tasks.sort(key = lambda task: task[1])
+        run, res = [False] * (tasks[-1][1] + 1), 0
+        for start, end, duration in tasks:
+            duration -= sum(run[start : end+1])
+            res += max(duration, 0)
+            for j in range(end, -1, -1):
+                if duration <= 0:
+                    break
+                if not run[j]:
+                    run[j], duration = True, duration - 1
+        return res

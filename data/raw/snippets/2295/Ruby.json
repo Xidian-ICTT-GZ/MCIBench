@@ -1,1 +1,0 @@
-"# @param {Integer[]} nums\n# @param {Integer[][]} operations\n# @return {Integer[]}\ndef array_change(nums, operations)\n    \nend"

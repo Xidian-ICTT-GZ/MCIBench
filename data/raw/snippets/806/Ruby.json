@@ -1,1 +1,0 @@
-"# @param {Integer[]} widths\n# @param {String} s\n# @return {Integer[]}\ndef number_of_lines(widths, s)\n    \nend"

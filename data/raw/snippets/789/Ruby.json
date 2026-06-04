@@ -1,1 +1,0 @@
-"# @param {Integer[][]} ghosts\n# @param {Integer[]} target\n# @return {Boolean}\ndef escape_ghosts(ghosts, target)\n    \nend"

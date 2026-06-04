@@ -1,1 +1,0 @@
-"class Solution:\n    def regionsBySlashes(self, grid: List[str]) -> int:\n        "

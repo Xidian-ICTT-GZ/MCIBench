@@ -1,1 +1,0 @@
-"-spec partition_string(S :: unicode:unicode_binary()) -> integer().\npartition_string(S) ->\n  ."

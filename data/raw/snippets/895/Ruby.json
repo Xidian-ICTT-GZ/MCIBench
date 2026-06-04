@@ -1,1 +1,0 @@
-"class FreqStack\n    def initialize()\n        \n    end\n\n\n=begin\n    :type val: Integer\n    :rtype: Void\n=end\n    def push(val)\n        \n    end\n\n\n=begin\n    :rtype: Integer\n=end\n    def pop()\n        \n    end\n\n\nend\n\n# Your FreqStack object will be instantiated and called as such:\n# obj = FreqStack.new()\n# obj.push(val)\n# param_2 = obj.pop()"

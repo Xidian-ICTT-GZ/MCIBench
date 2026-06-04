@@ -1,0 +1,1 @@
+"class Solution(object):\n    def allPathsSourceTarget(self, graph):\n        \"\"\"\n        :type graph: List[List[int]]\n        :rtype: List[List[int]]\n        \"\"\"\n        "

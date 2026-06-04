@@ -1,0 +1,1 @@
+"# @param {Integer[]} houses\n# @param {Integer} k\n# @return {Integer}\ndef min_distance(houses, k)\n    \nend"

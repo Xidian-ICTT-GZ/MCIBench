@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec sum_of_power(nums :: [integer]) :: integer\n  def sum_of_power(nums) do\n    \n  end\nend"

@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec max_score_words(words :: [String.t], letters :: [char], score :: [integer]) :: integer\n  def max_score_words(words, letters, score) do\n    \n  end\nend"

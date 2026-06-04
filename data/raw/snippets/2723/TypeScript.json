@@ -1,1 +1,0 @@
-"type P = Promise<number>\n\nasync function addTwoPromises(promise1: P, promise2: P): P {\n    \n};\n\n/**\n * addTwoPromises(Promise.resolve(2), Promise.resolve(2))\n *   .then(console.log); // 4\n */"

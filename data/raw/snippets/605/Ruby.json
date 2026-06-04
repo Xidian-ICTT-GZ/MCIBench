@@ -1,1 +1,0 @@
-"# @param {Integer[]} flowerbed\n# @param {Integer} n\n# @return {Boolean}\ndef can_place_flowers(flowerbed, n)\n    \nend"

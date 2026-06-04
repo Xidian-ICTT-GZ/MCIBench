@@ -1,0 +1,1 @@
+"class Solution {\n    func maxSumRangeQuery(_ nums: [Int], _ requests: [[Int]]) -> Int {\n        \n    }\n}"

@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec min_travel_time(l :: integer, n :: integer, k :: integer, position :: [integer], time :: [integer]) :: integer\n  def min_travel_time(l, n, k, position, time) do\n    \n  end\nend"

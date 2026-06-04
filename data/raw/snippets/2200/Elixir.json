@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec find_k_distant_indices(nums :: [integer], key :: integer, k :: integer) :: [integer]\n  def find_k_distant_indices(nums, key, k) do\n    \n  end\nend"

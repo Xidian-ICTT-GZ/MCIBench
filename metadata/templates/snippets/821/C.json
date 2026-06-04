@@ -1,0 +1,1 @@
+"/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* shortestToChar(char* s, char c, int* returnSize) {\n    \n}"

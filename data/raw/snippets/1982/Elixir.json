@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec recover_array(n :: integer, sums :: [integer]) :: [integer]\n  def recover_array(n, sums) do\n    \n  end\nend"

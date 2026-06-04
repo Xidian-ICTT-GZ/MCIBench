@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    int minStable(vector<int>& nums, int maxC) {\n        \n    }\n};"

@@ -1,0 +1,1 @@
+"object Solution {\n    def splitArray(nums: Array[Int], k: Int): Int = {\n        \n    }\n}"

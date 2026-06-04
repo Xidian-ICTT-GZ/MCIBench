@@ -1,1 +1,0 @@
-"class TimeMap() {\n\n    fun set(key: String, value: String, timestamp: Int) {\n        \n    }\n\n    fun get(key: String, timestamp: Int): String {\n        \n    }\n\n}\n\n/**\n * Your TimeMap object will be instantiated and called as such:\n * var obj = TimeMap()\n * obj.set(key,value,timestamp)\n * var param_2 = obj.get(key,timestamp)\n */"

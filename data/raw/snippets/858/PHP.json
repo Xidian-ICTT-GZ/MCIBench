@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer $p\n     * @param Integer $q\n     * @return Integer\n     */\n    function mirrorReflection($p, $q) {\n        \n    }\n}"

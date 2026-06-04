@@ -1,0 +1,1 @@
+"-spec count_lattice_points(Circles :: [[integer()]]) -> integer().\ncount_lattice_points(Circles) ->\n  ."

@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int digArtifacts(int n, vector<vector<int>>& artifacts, vector<vector<int>>& dig) {\n        \n    }\n};"

@@ -1,0 +1,1 @@
+"-spec max_unique_split(S :: unicode:unicode_binary()) -> integer().\nmax_unique_split(S) ->\n  ."

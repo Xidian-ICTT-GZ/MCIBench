@@ -1,0 +1,24 @@
+public class Solution {
+    public int MinSetSize(int[] arr) {
+        Dictionary<int, int> freq = new Dictionary<int, int>();
+        foreach (int num in arr) {
+            if (freq.ContainsKey(num)) {
+                freq[num]++;
+            } else {
+                freq[num] = 1;
+            }
+        }
+
+        List<int> occ = freq.Values.ToList();
+        occ.Sort((a, b) => b - a);
+        int cnt = 0, ans = 0;
+        foreach (int c in occ) {
+            cnt += c;
+            ans += 1;
+            if (cnt * 2 >= arr.Length) {
+                break;
+            }
+        }
+        return ans;
+    }
+}

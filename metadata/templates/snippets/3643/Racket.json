@@ -1,0 +1,1 @@
+"(define/contract (reverse-submatrix grid x y k)\n  (-> (listof (listof exact-integer?)) exact-integer? exact-integer? exact-integer? (listof (listof exact-integer?)))\n  )"

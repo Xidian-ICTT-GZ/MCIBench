@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    vector<int> countPairs(int n, vector<vector<int>>& edges, vector<int>& queries) {\n        \n    }\n};"

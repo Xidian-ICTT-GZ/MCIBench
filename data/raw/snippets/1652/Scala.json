@@ -1,1 +1,0 @@
-"object Solution {\n    def decrypt(code: Array[Int], k: Int): Array[Int] = {\n        \n    }\n}"

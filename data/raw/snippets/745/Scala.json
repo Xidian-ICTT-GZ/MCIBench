@@ -1,1 +1,0 @@
-"class WordFilter(_words: Array[String]) {\n\n    def f(pref: String, suff: String): Int = {\n        \n    }\n\n}\n\n/**\n * Your WordFilter object will be instantiated and called as such:\n * val obj = new WordFilter(words)\n * val param_1 = obj.f(pref,suff)\n */"

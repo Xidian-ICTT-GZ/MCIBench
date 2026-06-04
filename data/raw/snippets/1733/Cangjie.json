@@ -1,1 +1,0 @@
-"class Solution {\n    func minimumTeachings(n: Int64, languages: Array<Array<Int64>>, friendships: Array<Array<Int64>>): Int64 {\n\n    }\n}"

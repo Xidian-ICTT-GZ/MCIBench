@@ -1,1 +1,0 @@
-"class Solution:\n    def numberOfWays(self, s: str, t: str, k: int) -> int:\n        "

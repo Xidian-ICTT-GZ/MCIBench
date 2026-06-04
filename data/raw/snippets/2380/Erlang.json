@@ -1,1 +1,0 @@
-"-spec seconds_to_remove_occurrences(S :: unicode:unicode_binary()) -> integer().\nseconds_to_remove_occurrences(S) ->\n  ."

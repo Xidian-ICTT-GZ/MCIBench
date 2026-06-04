@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec largest_component_size(nums :: [integer]) :: integer\n  def largest_component_size(nums) do\n    \n  end\nend"

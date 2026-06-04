@@ -1,0 +1,27 @@
+class Solution:
+    def minZeroArray(self, nums: List[int], queries: List[List[int]]) -> int:
+        left, right = 0, len(queries)
+        if not self.check(nums, queries, right):
+            return -1
+        while left < right:
+            k = (left + right) // 2
+            if self.check(nums, queries, k):
+                right = k
+            else:
+                left = k + 1
+        return left
+
+    def check(self, nums: List[int], queries: List[List[int]], k: int) -> bool:
+        deltaArray = [0] * (len(nums) + 1)
+        for left, right, value in queries[:k]:
+            deltaArray[left] += value
+            deltaArray[right + 1] -= value
+        operationCounts = []
+        currentOperations = 0
+        for delta in deltaArray:
+            currentOperations += delta
+            operationCounts.append(currentOperations)
+        for operations, target in zip(operationCounts, nums):
+            if operations < target:
+                return False
+        return True

@@ -1,0 +1,1 @@
+"class Solution {\n    fun mostPopularCreator(creators: Array<String>, ids: Array<String>, views: IntArray): List<List<String>> {\n        \n    }\n}"

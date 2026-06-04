@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} buses\n * @param {number[]} passengers\n * @param {number} capacity\n * @return {number}\n */\nvar latestTimeCatchTheBus = function(buses, passengers, capacity) {\n    \n};"

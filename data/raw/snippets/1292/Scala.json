@@ -1,1 +1,0 @@
-"object Solution {\n    def maxSideLength(mat: Array[Array[Int]], threshold: Int): Int = {\n        \n    }\n}"

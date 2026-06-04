@@ -1,0 +1,1 @@
+"(define/contract (construct-rectangle area)\n  (-> exact-integer? (listof exact-integer?))\n  )"

@@ -1,0 +1,1 @@
+"object Solution {\n    def orderOfLargestPlusSign(n: Int, mines: Array[Array[Int]]): Int = {\n        \n    }\n}"

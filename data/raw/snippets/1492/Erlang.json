@@ -1,1 +1,0 @@
-"-spec kth_factor(N :: integer(), K :: integer()) -> integer().\nkth_factor(N, K) ->\n  ."

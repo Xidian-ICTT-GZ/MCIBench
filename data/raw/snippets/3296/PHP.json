@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer $mountainHeight\n     * @param Integer[] $workerTimes\n     * @return Integer\n     */\n    function minNumberOfSeconds($mountainHeight, $workerTimes) {\n        \n    }\n}"

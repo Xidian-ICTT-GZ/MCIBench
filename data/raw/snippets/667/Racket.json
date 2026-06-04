@@ -1,1 +1,0 @@
-"(define/contract (construct-array n k)\n  (-> exact-integer? exact-integer? (listof exact-integer?))\n  )"

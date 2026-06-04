@@ -1,0 +1,1 @@
+"-spec avoid_flood(Rains :: [integer()]) -> [integer()].\navoid_flood(Rains) ->\n  ."

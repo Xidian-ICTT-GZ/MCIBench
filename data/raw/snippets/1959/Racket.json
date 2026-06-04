@@ -1,1 +1,0 @@
-"(define/contract (min-space-wasted-k-resizing nums k)\n  (-> (listof exact-integer?) exact-integer? exact-integer?)\n  )"

@@ -1,0 +1,1 @@
+"# @param {Integer[]} plants\n# @param {Integer} capacity_a\n# @param {Integer} capacity_b\n# @return {Integer}\ndef minimum_refill(plants, capacity_a, capacity_b)\n    \nend"

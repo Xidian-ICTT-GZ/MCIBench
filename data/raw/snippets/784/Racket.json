@@ -1,1 +1,0 @@
-"(define/contract (letter-case-permutation s)\n  (-> string? (listof string?))\n  )"

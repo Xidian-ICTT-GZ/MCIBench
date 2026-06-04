@@ -1,0 +1,7 @@
+func minimizedStringLength(s string) int {
+	var mask uint
+	for _, c := range s {
+		mask |= 1 << (c - 'a')
+	}
+	return bits.OnesCount(mask)
+}

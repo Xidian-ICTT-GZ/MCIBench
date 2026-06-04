@@ -1,0 +1,41 @@
+int directions[4][2] = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
+
+bool check(int** grid, int gridSize, int threshold) {
+    if (grid[0][0] > threshold) {
+        return false;
+    }
+    int visited[gridSize][gridSize];
+    memset(visited, 0, sizeof(visited));
+    visited[0][0] = 1;
+    int q[gridSize * gridSize][2];
+    int left = 0, right = 0;
+    q[right][0] = 0, q[right++][1] = 0;
+
+    while (left < right) {
+        int i = q[left][0], j = q[left++][1];
+
+        for (int k = 0; k < 4; k++) {
+            int ni = i + directions[k][0], nj = j + directions[k][1];
+            if (ni >= 0 && ni < gridSize && nj >= 0 && nj < gridSize) {
+                if (visited[ni][nj] == 0 && grid[ni][nj] <= threshold) {
+                    q[right][0] = ni, q[right++][1] = nj;
+                    visited[ni][nj] = 1;
+                }
+            }
+        }
+    }
+    return visited[gridSize - 1][gridSize - 1] == 1;
+}
+
+int swimInWater(int** grid, int gridSize, int* gridColSize) {
+    int left = 0, right = gridSize * gridSize - 1;
+    while (left < right) {
+        int mid = (left + right) >> 1;
+        if (check(grid, gridSize, mid)) {
+            right = mid;
+        } else {
+            left = mid + 1;
+        }
+    }
+    return left;
+}

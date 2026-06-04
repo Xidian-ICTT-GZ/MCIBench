@@ -1,0 +1,24 @@
+void dfs(char *arr, int index, int n, char **res, int *count) {
+    if (index == n) {
+        res[*count] = strdup(arr);
+        (*count)++;
+        return;
+    }
+    if (index == 0 || arr[index - 1] == '1') {
+        arr[index] = '0';
+        dfs(arr, index + 1, n, res, count);
+    }
+    arr[index] = '1';
+    dfs(arr, index + 1, n, res, count);
+}
+
+char** validStrings(int n, int* returnSize) {
+    char **res = malloc((1 << n) * sizeof(char *));
+    char *arr = malloc((n + 1) * sizeof(char));
+    arr[n] = '\0';
+    int count = 0;
+    dfs(arr, 0, n, res, &count);
+    free(arr);
+    *returnSize = count;
+    return res;
+}

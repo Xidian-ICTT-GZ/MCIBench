@@ -1,1 +1,0 @@
-"(define/contract (is-self-crossing distance)\n  (-> (listof exact-integer?) boolean?)\n  )"

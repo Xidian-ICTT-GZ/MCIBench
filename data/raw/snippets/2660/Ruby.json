@@ -1,1 +1,0 @@
-"# @param {Integer[]} player1\n# @param {Integer[]} player2\n# @return {Integer}\ndef is_winner(player1, player2)\n    \nend"

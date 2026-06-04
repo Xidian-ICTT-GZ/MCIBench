@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    Solution(vector<vector<int>>& rects) {\n        \n    }\n    \n    vector<int> pick() {\n        \n    }\n};\n\n/**\n * Your Solution object will be instantiated and called as such:\n * Solution* obj = new Solution(rects);\n * vector<int> param_1 = obj->pick();\n */"

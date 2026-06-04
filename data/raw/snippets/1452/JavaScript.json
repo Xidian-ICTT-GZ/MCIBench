@@ -1,1 +1,0 @@
-"/**\n * @param {string[][]} favoriteCompanies\n * @return {number[]}\n */\nvar peopleIndexes = function(favoriteCompanies) {\n    \n};"

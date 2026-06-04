@@ -1,1 +1,0 @@
-"class Solution(object):\n    def suggestedProducts(self, products, searchWord):\n        \"\"\"\n        :type products: List[str]\n        :type searchWord: str\n        :rtype: List[List[str]]\n        \"\"\"\n        "

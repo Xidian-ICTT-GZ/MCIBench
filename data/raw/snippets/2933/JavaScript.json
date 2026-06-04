@@ -1,1 +1,0 @@
-"/**\n * @param {string[][]} access_times\n * @return {string[]}\n */\nvar findHighAccessEmployees = function(access_times) {\n    \n};"

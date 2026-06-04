@@ -1,0 +1,1 @@
+"# @param {String} s\n# @param {String} t\n# @param {Integer[]} next_cost\n# @param {Integer[]} previous_cost\n# @return {Integer}\ndef shift_distance(s, t, next_cost, previous_cost)\n    \nend"

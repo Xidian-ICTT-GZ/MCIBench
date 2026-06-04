@@ -1,0 +1,1 @@
+"class Solution:\n    def generateTag(self, caption: str) -> str:\n        "

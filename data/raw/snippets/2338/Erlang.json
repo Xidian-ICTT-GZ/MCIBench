@@ -1,1 +1,0 @@
-"-spec ideal_arrays(N :: integer(), MaxValue :: integer()) -> integer().\nideal_arrays(N, MaxValue) ->\n  ."

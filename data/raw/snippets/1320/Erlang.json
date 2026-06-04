@@ -1,1 +1,0 @@
-"-spec minimum_distance(Word :: unicode:unicode_binary()) -> integer().\nminimum_distance(Word) ->\n  ."

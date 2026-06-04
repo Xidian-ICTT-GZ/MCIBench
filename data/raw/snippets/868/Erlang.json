@@ -1,1 +1,0 @@
-"-spec binary_gap(N :: integer()) -> integer().\nbinary_gap(N) ->\n  ."

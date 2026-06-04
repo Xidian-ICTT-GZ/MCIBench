@@ -1,0 +1,1 @@
+"# @param {Integer[]} bloom_day\n# @param {Integer} m\n# @param {Integer} k\n# @return {Integer}\ndef min_days(bloom_day, m, k)\n    \nend"

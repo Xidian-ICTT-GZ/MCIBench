@@ -1,0 +1,1 @@
+"(define/contract (min-add-to-make-valid s)\n  (-> string? exact-integer?)\n  )"

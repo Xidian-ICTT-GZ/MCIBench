@@ -1,1 +1,0 @@
-"-spec calculate(S :: unicode:unicode_binary()) -> integer().\ncalculate(S) ->\n  ."

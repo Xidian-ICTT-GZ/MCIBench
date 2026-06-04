@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec pacific_atlantic(heights :: [[integer]]) :: [[integer]]\n  def pacific_atlantic(heights) do\n    \n  end\nend"

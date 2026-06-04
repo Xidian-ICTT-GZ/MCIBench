@@ -1,1 +1,0 @@
-"class Solution(object):\n    def maxDistance(self, position, m):\n        \"\"\"\n        :type position: List[int]\n        :type m: int\n        :rtype: int\n        \"\"\"\n        "

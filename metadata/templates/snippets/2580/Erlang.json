@@ -1,0 +1,1 @@
+"-spec count_ways(Ranges :: [[integer()]]) -> integer().\ncount_ways(Ranges) ->\n  ."

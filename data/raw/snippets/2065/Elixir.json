@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec maximal_path_quality(values :: [integer], edges :: [[integer]], max_time :: integer) :: integer\n  def maximal_path_quality(values, edges, max_time) do\n    \n  end\nend"

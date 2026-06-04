@@ -1,1 +1,0 @@
-"class Solution {\n    init(radius: Float64, x_center: Float64, y_center: Float64) {\n\n    }\n    \n    func randPoint(): Array<Float64> {\n\n    }\n}\n\n/**\n * Your Solution object will be instantiated and called as such:\n * let obj: Solution = Solution(radius, x_center, y_center)\n * let param_1 = obj.randPoint()\n */"

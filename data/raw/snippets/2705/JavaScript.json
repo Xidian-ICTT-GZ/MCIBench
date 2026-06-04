@@ -1,1 +1,0 @@
-"/**\n * @param {Object|Array} obj\n * @return {Object|Array}\n */\nvar compactObject = function(obj) {\n    \n};"

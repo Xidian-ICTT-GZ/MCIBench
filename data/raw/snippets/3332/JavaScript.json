@@ -1,1 +1,0 @@
-"/**\n * @param {number} n\n * @param {number} k\n * @param {number[][]} stayScore\n * @param {number[][]} travelScore\n * @return {number}\n */\nvar maxScore = function(n, k, stayScore, travelScore) {\n    \n};"

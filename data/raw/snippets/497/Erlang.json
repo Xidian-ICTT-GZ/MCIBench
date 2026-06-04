@@ -1,1 +1,0 @@
-"-spec solution_init_(Rects :: [[integer()]]) -> any().\nsolution_init_(Rects) ->\n  .\n\n-spec solution_pick() -> [integer()].\nsolution_pick() ->\n  .\n\n\n%% Your functions will be called as such:\n%% solution_init_(Rects),\n%% Param_1 = solution_pick(),\n\n%% solution_init_ will be called before every test case, in which you can do some necessary initializations."

@@ -1,1 +1,0 @@
-"class Solution(object):\n    def differenceOfSums(self, n, m):\n        \"\"\"\n        :type n: int\n        :type m: int\n        :rtype: int\n        \"\"\"\n        "

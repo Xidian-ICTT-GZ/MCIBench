@@ -1,1 +1,0 @@
-"class Solution(object):\n    def frogPosition(self, n, edges, t, target):\n        \"\"\"\n        :type n: int\n        :type edges: List[List[int]]\n        :type t: int\n        :type target: int\n        :rtype: float\n        \"\"\"\n        "

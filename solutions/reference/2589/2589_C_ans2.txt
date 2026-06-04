@@ -1,0 +1,29 @@
+int findMinimumTime(int** tasks, int tasksSize, int* tasksColSize) {
+    int res = 0;
+    for (int i = 1; ; i++) {
+        bool finished = true, run = false;
+        for (int j = 0; j < tasksSize; j++) {
+            int *task = tasks[j];
+            if (task[2] > 0 && task[1] - i + 1 == task[2]) {
+                run = true;
+            }
+            if (i <= task[1]) {
+                finished = false;
+            }
+        }
+        if (finished) {
+            break;
+        }
+
+        if (run) {
+            for (int j = 0; j < tasksSize; j++) {
+                int *task = tasks[j]; 
+                if (i >= task[0] && i <= task[1] && task[2] > 0) {
+                    task[2]--;
+                }
+            }
+            res++;
+        }
+    }
+    return res;
+}

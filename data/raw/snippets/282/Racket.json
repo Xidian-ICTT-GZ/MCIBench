@@ -1,1 +1,0 @@
-"(define/contract (add-operators num target)\n  (-> string? exact-integer? (listof string?))\n  )"

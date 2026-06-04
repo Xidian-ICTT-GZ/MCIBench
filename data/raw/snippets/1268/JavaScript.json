@@ -1,1 +1,0 @@
-"/**\n * @param {string[]} products\n * @param {string} searchWord\n * @return {string[][]}\n */\nvar suggestedProducts = function(products, searchWord) {\n    \n};"

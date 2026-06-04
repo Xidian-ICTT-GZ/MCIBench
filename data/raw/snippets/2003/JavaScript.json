@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} parents\n * @param {number[]} nums\n * @return {number[]}\n */\nvar smallestMissingValueSubtree = function(parents, nums) {\n    \n};"

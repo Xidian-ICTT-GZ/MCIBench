@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec min_score_triangulation(values :: [integer]) :: integer\n  def min_score_triangulation(values) do\n    \n  end\nend"

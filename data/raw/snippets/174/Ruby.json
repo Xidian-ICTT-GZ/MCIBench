@@ -1,1 +1,0 @@
-"# @param {Integer[][]} dungeon\n# @return {Integer}\ndef calculate_minimum_hp(dungeon)\n    \nend"

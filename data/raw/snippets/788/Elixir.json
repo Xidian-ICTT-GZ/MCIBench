@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec rotated_digits(n :: integer) :: integer\n  def rotated_digits(n) do\n    \n  end\nend"

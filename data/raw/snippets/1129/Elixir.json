@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec shortest_alternating_paths(n :: integer, red_edges :: [[integer]], blue_edges :: [[integer]]) :: [integer]\n  def shortest_alternating_paths(n, red_edges, blue_edges) do\n    \n  end\nend"

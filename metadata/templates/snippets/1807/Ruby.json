@@ -1,0 +1,1 @@
+"# @param {String} s\n# @param {String[][]} knowledge\n# @return {String}\ndef evaluate(s, knowledge)\n    \nend"

@@ -1,1 +1,0 @@
-"/**\n * @param {number} n\n * @param {number[][]} languages\n * @param {number[][]} friendships\n * @return {number}\n */\nvar minimumTeachings = function(n, languages, friendships) {\n    \n};"

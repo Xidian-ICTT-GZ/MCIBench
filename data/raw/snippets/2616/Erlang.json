@@ -1,1 +1,0 @@
-"-spec minimize_max(Nums :: [integer()], P :: integer()) -> integer().\nminimize_max(Nums, P) ->\n  ."

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec detect_capital_use(word :: String.t) :: boolean\n  def detect_capital_use(word) do\n    \n  end\nend"

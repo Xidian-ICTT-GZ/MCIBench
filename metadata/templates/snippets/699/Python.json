@@ -1,0 +1,1 @@
+"class Solution(object):\n    def fallingSquares(self, positions):\n        \"\"\"\n        :type positions: List[List[int]]\n        :rtype: List[int]\n        \"\"\"\n        "

@@ -1,1 +1,0 @@
-"-spec max_frequency_score(Nums :: [integer()], K :: integer()) -> integer().\nmax_frequency_score(Nums, K) ->\n  ."

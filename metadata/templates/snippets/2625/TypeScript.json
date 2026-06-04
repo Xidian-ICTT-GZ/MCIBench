@@ -1,0 +1,1 @@
+"type MultiDimensionalArray = (number | MultiDimensionalArray)[];\n\nvar flat = function (arr:  MultiDimensionalArray, n: number):  MultiDimensionalArray {\n    \n};"

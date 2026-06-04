@@ -1,0 +1,1 @@
+"impl Solution {\n    pub fn shortest_path_all_keys(grid: Vec<String>) -> i32 {\n        \n    }\n}"

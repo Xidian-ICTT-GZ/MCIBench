@@ -1,1 +1,0 @@
-"object Solution {\n    def isNStraightHand(hand: Array[Int], groupSize: Int): Boolean = {\n        \n    }\n}"

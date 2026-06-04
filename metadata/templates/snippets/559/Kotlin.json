@@ -1,0 +1,1 @@
+"/**\n * Definition for a Node.\n * class Node(var `val`: Int) {\n *     var children: List<Node?> = listOf()\n * }\n */\n\nclass Solution {\n    fun maxDepth(root: Node?): Int {\n        \n    }\n}"

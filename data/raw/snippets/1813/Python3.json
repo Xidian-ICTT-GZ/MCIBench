@@ -1,1 +1,0 @@
-"class Solution:\n    def areSentencesSimilar(self, sentence1: str, sentence2: str) -> bool:\n        "

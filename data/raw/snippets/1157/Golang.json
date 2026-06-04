@@ -1,1 +1,0 @@
-"type MajorityChecker struct {\n    \n}\n\n\nfunc Constructor(arr []int) MajorityChecker {\n    \n}\n\n\nfunc (this *MajorityChecker) Query(left int, right int, threshold int) int {\n    \n}\n\n\n/**\n * Your MajorityChecker object will be instantiated and called as such:\n * obj := Constructor(arr);\n * param_1 := obj.Query(left,right,threshold);\n */"

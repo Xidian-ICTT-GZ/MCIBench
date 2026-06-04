@@ -1,0 +1,1 @@
+"# @param {Integer[]} heights\n# @param {Integer} bricks\n# @param {Integer} ladders\n# @return {Integer}\ndef furthest_building(heights, bricks, ladders)\n    \nend"

@@ -1,1 +1,0 @@
-"-spec tictactoe(Moves :: [[integer()]]) -> unicode:unicode_binary().\ntictactoe(Moves) ->\n  ."

@@ -1,1 +1,0 @@
-"object Solution {\n    def maxCount(banned: Array[Int], n: Int, maxSum: Int): Int = {\n        \n    }\n}"

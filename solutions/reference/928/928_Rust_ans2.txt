@@ -1,0 +1,81 @@
+impl Solution {
+    fn find(uf: &mut Vec<usize>, u: usize) -> usize {
+        if uf[u] == u {
+            u
+        } else {
+            uf[u] = Self::find(uf, uf[u]);
+            uf[u]
+        }
+    }
+
+    fn merge(uf: &mut Vec<usize>, u: usize, v: usize) {
+        let ru = Self::find(uf, u);
+        let rv = Self::find(uf, v);
+        if ru != rv {
+            uf[ru] = rv;
+        }
+    }
+
+    pub fn min_malware_spread(graph: Vec<Vec<i32>>, initial: Vec<i32>) -> i32 {
+        let n = graph.len();
+        let mut initial_set: Vec<i32> = vec![0; n];
+        for &v in initial.iter() {
+            initial_set[v as usize] = 1;
+        }
+        let mut uf: Vec<usize> = vec![0; n];
+        for i in 0..n {
+            uf[i] = i;
+        }
+        for u in 0..n {
+            if initial_set[u] == 1 {
+                continue;
+            }
+            for v in 0..n {
+                if initial_set[v] == 1 {
+                    continue;
+                }
+                if graph[u][v] == 1 {
+                    Self::merge(&mut uf, u, v);
+                }
+            }
+        }
+
+        let mut infected_by = vec![Vec::new(); n];
+        for &v in initial.iter() {
+            let mut infected_set = vec![0; n];
+            for u in 0..n {
+                if initial_set[u] == 1 {
+                    continue;
+                }
+                if graph[u][v as usize] == 1 {
+                    infected_set[Self::find(&mut uf, u)] = 1;
+                }
+            }
+            for u in 0..n {
+                if infected_set[u] == 1 {
+                    infected_by[u].push(v);
+                }
+            }
+        }
+
+        let mut count: Vec<i32> = vec![0; n];
+        for u in 0..n {
+            if infected_by[u].len() != 1 {
+                continue;
+            }
+            let v = infected_by[u][0];
+            for w in 0..n {
+                if (Self::find(&mut uf, w) == Self::find(&mut uf, u)) {
+                    count[v as usize] += 1;
+                }
+            }
+        }
+        let mut res = initial[0];
+        for &v in initial.iter() {
+            if count[v as usize] > count[res as usize] || (count[v as usize] == count[res as usize] && v < res) {
+                res = v;
+            }
+        }
+        return res;
+    }
+}

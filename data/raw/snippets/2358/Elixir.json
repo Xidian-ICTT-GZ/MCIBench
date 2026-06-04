@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec maximum_groups(grades :: [integer]) :: integer\n  def maximum_groups(grades) do\n    \n  end\nend"

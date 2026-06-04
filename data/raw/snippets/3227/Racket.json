@@ -1,1 +1,0 @@
-"(define/contract (does-alice-win s)\n  (-> string? boolean?)\n  )"

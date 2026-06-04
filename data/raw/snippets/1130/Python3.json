@@ -1,1 +1,0 @@
-"class Solution:\n    def mctFromLeafValues(self, arr: List[int]) -> int:\n        "

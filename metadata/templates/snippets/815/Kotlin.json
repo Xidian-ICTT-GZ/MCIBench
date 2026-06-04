@@ -1,0 +1,1 @@
+"class Solution {\n    fun numBusesToDestination(routes: Array<IntArray>, source: Int, target: Int): Int {\n        \n    }\n}"

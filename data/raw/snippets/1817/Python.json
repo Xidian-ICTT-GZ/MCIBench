@@ -1,1 +1,0 @@
-"class Solution(object):\n    def findingUsersActiveMinutes(self, logs, k):\n        \"\"\"\n        :type logs: List[List[int]]\n        :type k: int\n        :rtype: List[int]\n        \"\"\"\n        "

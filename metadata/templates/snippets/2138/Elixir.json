@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec divide_string(s :: String.t, k :: integer, fill :: char) :: [String.t]\n  def divide_string(s, k, fill) do\n    \n  end\nend"

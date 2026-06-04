@@ -1,0 +1,1 @@
+"class Solution:\n    def minElement(self, nums: List[int]) -> int:\n        "

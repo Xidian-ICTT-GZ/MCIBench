@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec smallest_divisor(nums :: [integer], threshold :: integer) :: integer\n  def smallest_divisor(nums, threshold) do\n    \n  end\nend"

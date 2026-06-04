@@ -1,1 +1,0 @@
-"# @param {Integer[]} houses\n# @param {Integer[][]} cost\n# @param {Integer} m\n# @param {Integer} n\n# @param {Integer} target\n# @return {Integer}\ndef min_cost(houses, cost, m, n, target)\n    \nend"

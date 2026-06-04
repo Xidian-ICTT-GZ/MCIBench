@@ -1,1 +1,0 @@
-"class Solution:\n    def pathExistenceQueries(self, n: int, nums: List[int], maxDiff: int, queries: List[List[int]]) -> List[int]:\n        "

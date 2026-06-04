@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec min_capability(nums :: [integer], k :: integer) :: integer\n  def min_capability(nums, k) do\n    \n  end\nend"

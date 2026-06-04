@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec capitalize_title(title :: String.t) :: String.t\n  def capitalize_title(title) do\n    \n  end\nend"

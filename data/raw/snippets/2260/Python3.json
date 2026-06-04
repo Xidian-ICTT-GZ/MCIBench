@@ -1,1 +1,0 @@
-"class Solution:\n    def minimumCardPickup(self, cards: List[int]) -> int:\n        "

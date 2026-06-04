@@ -1,1 +1,0 @@
-"-spec maximal_path_quality(Values :: [integer()], Edges :: [[integer()]], MaxTime :: integer()) -> integer().\nmaximal_path_quality(Values, Edges, MaxTime) ->\n  ."

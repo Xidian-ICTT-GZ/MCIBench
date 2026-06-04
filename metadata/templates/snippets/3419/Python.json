@@ -1,0 +1,1 @@
+"class Solution(object):\n    def minMaxWeight(self, n, edges, threshold):\n        \"\"\"\n        :type n: int\n        :type edges: List[List[int]]\n        :type threshold: int\n        :rtype: int\n        \"\"\"\n        "

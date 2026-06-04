@@ -1,1 +1,0 @@
-"/**\n * @param {number[][]} grid\n * @return {boolean}\n */\nvar checkXMatrix = function(grid) {\n    \n};"

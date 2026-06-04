@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} mapping\n * @param {number[]} nums\n * @return {number[]}\n */\nvar sortJumbled = function(mapping, nums) {\n    \n};"

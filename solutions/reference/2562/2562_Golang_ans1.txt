@@ -1,0 +1,15 @@
+func findTheArrayConcVal(nums []int) int64 {
+    ans := 0
+    i, j := 0, len(nums) - 1
+    for i <= j {
+        if i != j {
+            val, _ := strconv.Atoi(strconv.Itoa(nums[i]) + strconv.Itoa(nums[j]))
+            ans += val
+        } else {
+            ans += nums[i]
+        }        
+        i++
+        j--
+    } 
+    return int64(ans)
+}

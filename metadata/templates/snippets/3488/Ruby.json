@@ -1,0 +1,1 @@
+"# @param {Integer[]} nums\n# @param {Integer[]} queries\n# @return {Integer[]}\ndef solve_queries(nums, queries)\n    \nend"

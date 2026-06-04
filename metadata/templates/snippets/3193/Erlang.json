@@ -1,0 +1,1 @@
+"-spec number_of_permutations(N :: integer(), Requirements :: [[integer()]]) -> integer().\nnumber_of_permutations(N, Requirements) ->\n  ."

@@ -1,0 +1,1 @@
+"(define/contract (array-rank-transform arr)\n  (-> (listof exact-integer?) (listof exact-integer?))\n  )"

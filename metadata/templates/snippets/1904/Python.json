@@ -1,0 +1,1 @@
+"class Solution(object):\n    def numberOfRounds(self, loginTime, logoutTime):\n        \"\"\"\n        :type loginTime: str\n        :type logoutTime: str\n        :rtype: int\n        \"\"\"\n        "

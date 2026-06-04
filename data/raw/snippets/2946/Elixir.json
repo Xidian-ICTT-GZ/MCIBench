@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec are_similar(mat :: [[integer]], k :: integer) :: boolean\n  def are_similar(mat, k) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"# @param {Integer[][]} items\n# @param {Integer[]} queries\n# @return {Integer[]}\ndef maximum_beauty(items, queries)\n    \nend"

@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    vector<int> queryResults(int limit, vector<vector<int>>& queries) {\n        \n    }\n};"

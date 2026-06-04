@@ -1,1 +1,0 @@
-"class Solution(object):\n    def myPow(self, x, n):\n        \"\"\"\n        :type x: float\n        :type n: int\n        :rtype: float\n        \"\"\"\n        "

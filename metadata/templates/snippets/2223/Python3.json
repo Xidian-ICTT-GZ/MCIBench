@@ -1,0 +1,1 @@
+"class Solution:\n    def sumScores(self, s: str) -> int:\n        "

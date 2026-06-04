@@ -1,0 +1,23 @@
+typedef long long ll;
+
+static bool check(ll m, int* ranks, int ranksSize, int cars) {
+    ll cnt = 0;
+    for (int i = 0; i < ranksSize; i++) {
+        int x = ranks[i];
+        cnt += sqrt(m / x);
+    }
+    return cnt >= cars;
+}
+
+long long repairCars(int* ranks, int ranksSize, int cars) {
+    ll l = 1, r = 1ll * ranks[0] * cars * cars;
+    while (l < r) {
+        ll m = l + r >> 1;
+        if (check(m, ranks, ranksSize, cars)) {
+            r = m;
+        } else {
+            l = m + 1;
+        }
+    }
+    return l;
+}

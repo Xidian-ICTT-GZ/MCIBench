@@ -1,1 +1,0 @@
-"(define/contract (find-words-containing words x)\n  (-> (listof string?) char? (listof exact-integer?))\n  )"

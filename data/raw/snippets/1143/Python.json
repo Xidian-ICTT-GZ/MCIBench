@@ -1,1 +1,0 @@
-"class Solution(object):\n    def longestCommonSubsequence(self, text1, text2):\n        \"\"\"\n        :type text1: str\n        :type text2: str\n        :rtype: int\n        \"\"\"\n        "

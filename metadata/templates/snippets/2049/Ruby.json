@@ -1,0 +1,1 @@
+"# @param {Integer[]} parents\n# @return {Integer}\ndef count_highest_score_nodes(parents)\n    \nend"

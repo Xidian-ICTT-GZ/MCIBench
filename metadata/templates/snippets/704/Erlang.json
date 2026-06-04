@@ -1,0 +1,1 @@
+"-spec search(Nums :: [integer()], Target :: integer()) -> integer().\nsearch(Nums, Target) ->\n  ."

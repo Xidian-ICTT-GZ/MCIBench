@@ -1,0 +1,1 @@
+"class Solution(object):\n    def minimumTeachings(self, n, languages, friendships):\n        \"\"\"\n        :type n: int\n        :type languages: List[List[int]]\n        :type friendships: List[List[int]]\n        :rtype: int\n        \"\"\"\n        "

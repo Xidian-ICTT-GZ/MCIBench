@@ -1,1 +1,0 @@
-"(define/contract (average-waiting-time customers)\n  (-> (listof (listof exact-integer?)) flonum?)\n  )"

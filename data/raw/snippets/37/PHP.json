@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String[][] $board\n     * @return NULL\n     */\n    function solveSudoku(&$board) {\n        \n    }\n}"

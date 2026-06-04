@@ -1,0 +1,72 @@
+char** split(const char *str, char trim, int *returnSize) {
+    int n = strlen(str);
+    char **words = (char **)malloc(sizeof(char *) * n);
+    int wordsSize = 0, pos = 0;
+    while (pos < n) {
+        while(pos < n && str[pos] == trim) {
+            pos++;
+        }
+        if (pos < n) {
+            int curr = pos;
+            while(pos < n && str[pos] != trim) {
+                pos++;
+            }
+            words[wordsSize] = (char *)malloc(sizeof(char) * (pos - curr + 1));
+            strncpy(words[wordsSize], str + curr, pos - curr);
+            words[wordsSize++][pos - curr] = '\0';
+        }
+    }
+    *returnSize = wordsSize;
+    return words;
+}
+
+
+char * reorderSpaces(char * text){
+    int length = strlen(text);
+    int wordsSize = 0;
+    char **words = split(text, ' ', &wordsSize);
+    int cntSpace = length;
+    int wordCount = 0;
+    for (int i = 0; i < wordsSize; i++) {
+        int len = strlen(words[i]);
+        if (len > 0) {
+            cntSpace -= len;
+            wordCount++;
+        }
+    }
+
+    char *ans = (char *)malloc(sizeof(char) * (length + 1));
+    int pos = 0;
+    if (wordsSize == 1) {
+        pos += sprintf(ans + pos, "%s", words[0]);
+        for (int i = 0; i < cntSpace; i++) {
+            ans[pos++] = ' ';
+        }
+        ans[pos] = '\0';
+        free(words[0]);
+        free(words);
+        return ans;
+    }
+    int perSpace = cntSpace / (wordCount - 1);
+    int restSpace = cntSpace % (wordCount - 1);
+    for (int i = 0; i < wordsSize; i++) {
+        if (strlen(words[i]) == 0) {
+            continue;
+        }
+        if (pos > 0) {
+            for (int j = 0; j < perSpace; j++) {
+                ans[pos++] = ' ';
+            }
+        }
+        pos += sprintf(ans + pos, "%s", words[i]);
+    }
+    for (int i = 0; i < restSpace; i++) {
+        ans[pos++] = ' ';
+    }
+    ans[pos] = '\0';
+    for (int i = 0; i < wordsSize; i++) {
+        free(words[i]);
+    }
+    free(words);
+    return ans;  
+}

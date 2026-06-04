@@ -1,0 +1,1 @@
+"class SeatManager(n: Int) {\n\n    fun reserve(): Int {\n        \n    }\n\n    fun unreserve(seatNumber: Int) {\n        \n    }\n\n}\n\n/**\n * Your SeatManager object will be instantiated and called as such:\n * var obj = SeatManager(n)\n * var param_1 = obj.reserve()\n * obj.unreserve(seatNumber)\n */"

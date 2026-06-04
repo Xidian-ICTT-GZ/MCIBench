@@ -1,1 +1,0 @@
-"class DetectSquares {\n    constructor() {\n        \n    }\n\n    add(point: number[]): void {\n        \n    }\n\n    count(point: number[]): number {\n        \n    }\n}\n\n/**\n * Your DetectSquares object will be instantiated and called as such:\n * var obj = new DetectSquares()\n * obj.add(point)\n * var param_2 = obj.count(point)\n */"

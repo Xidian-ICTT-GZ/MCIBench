@@ -1,1 +1,0 @@
-"class Solution:\n    def sumDistance(self, nums: List[int], s: str, d: int) -> int:\n        "

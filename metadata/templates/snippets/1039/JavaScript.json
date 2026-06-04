@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} values\n * @return {number}\n */\nvar minScoreTriangulation = function(values) {\n    \n};"

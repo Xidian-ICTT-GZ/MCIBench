@@ -1,1 +1,0 @@
-"class Solution:\n    def sortJumbled(self, mapping: List[int], nums: List[int]) -> List[int]:\n        "

@@ -1,1 +1,0 @@
-"# @param {Character[]} letters\n# @param {Character} target\n# @return {Character}\ndef next_greatest_letter(letters, target)\n    \nend"

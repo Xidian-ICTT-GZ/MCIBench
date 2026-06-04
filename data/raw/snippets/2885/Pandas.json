@@ -1,1 +1,0 @@
-"import pandas as pd\n\ndef renameColumns(students: pd.DataFrame) -> pd.DataFrame:\n    "

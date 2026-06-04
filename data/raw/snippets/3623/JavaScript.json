@@ -1,1 +1,0 @@
-"/**\n * @param {number[][]} points\n * @return {number}\n */\nvar countTrapezoids = function(points) {\n    \n};"

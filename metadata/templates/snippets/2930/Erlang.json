@@ -1,0 +1,1 @@
+"-spec string_count(N :: integer()) -> integer().\nstring_count(N) ->\n  ."

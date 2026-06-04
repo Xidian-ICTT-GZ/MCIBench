@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec get_xor_sum(arr1 :: [integer], arr2 :: [integer]) :: integer\n  def get_xor_sum(arr1, arr2) do\n    \n  end\nend"

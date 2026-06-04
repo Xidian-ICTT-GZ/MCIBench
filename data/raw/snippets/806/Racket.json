@@ -1,1 +1,0 @@
-"(define/contract (number-of-lines widths s)\n  (-> (listof exact-integer?) string? (listof exact-integer?))\n  )"

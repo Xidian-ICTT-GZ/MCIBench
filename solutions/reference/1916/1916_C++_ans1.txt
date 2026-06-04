@@ -1,0 +1,56 @@
+class Solution {
+private:
+    static constexpr int mod = 1000000007;
+    using LL = long long;
+
+public:
+    int waysToBuildRooms(vector<int>& prevRoom) {
+        
+        
+        auto quickmul = [&](int x, int y) {
+            int ret = 1, cur = x;
+            while (y) {
+                if (y & 1) {
+                    ret = (LL)ret * cur % mod;
+                }
+                cur = (LL)cur * cur % mod;
+                y >>= 1;
+            }
+            return ret;
+        };
+        
+        int n = prevRoom.size();
+        
+        
+        vector<int> fac(n), inv(n);
+        fac[0] = inv[0] = 1;
+        for (int i = 1; i < n; ++i) {
+            fac[i] = (LL)fac[i - 1] * i % mod;
+            
+            inv[i] = quickmul(fac[i], mod - 2);
+        }
+        
+        
+        vector<vector<int>> edges(n);
+        for (int i = 1; i < n; ++i) {
+            edges[prevRoom[i]].push_back(i);
+        }
+        
+        vector<int> f(n), cnt(n);
+        function<void(int)> dfs = [&](int u) {
+            f[u] = 1;
+            for (int v: edges[u]) {
+                dfs(v);
+                
+                f[u] = (LL)f[u] * f[v] % mod * inv[cnt[v]] % mod;
+                cnt[u] += cnt[v];
+            }
+            
+            f[u] = (LL)f[u] * fac[cnt[u]] % mod;
+            ++cnt[u];
+        };
+        
+        dfs(0);
+        return f[0];
+    }
+};

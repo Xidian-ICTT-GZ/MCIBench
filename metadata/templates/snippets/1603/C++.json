@@ -1,0 +1,1 @@
+"class ParkingSystem {\npublic:\n    ParkingSystem(int big, int medium, int small) {\n        \n    }\n    \n    bool addCar(int carType) {\n        \n    }\n};\n\n/**\n * Your ParkingSystem object will be instantiated and called as such:\n * ParkingSystem* obj = new ParkingSystem(big, medium, small);\n * bool param_1 = obj->addCar(carType);\n */"

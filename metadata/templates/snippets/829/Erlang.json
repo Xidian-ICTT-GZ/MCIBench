@@ -1,0 +1,1 @@
+"-spec consecutive_numbers_sum(N :: integer()) -> integer().\nconsecutive_numbers_sum(N) ->\n  ."

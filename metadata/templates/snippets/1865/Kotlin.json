@@ -1,0 +1,1 @@
+"class FindSumPairs(nums1: IntArray, nums2: IntArray) {\n\n    fun add(index: Int, `val`: Int) {\n        \n    }\n\n    fun count(tot: Int): Int {\n        \n    }\n\n}\n\n/**\n * Your FindSumPairs object will be instantiated and called as such:\n * var obj = FindSumPairs(nums1, nums2)\n * obj.add(index,`val`)\n * var param_2 = obj.count(tot)\n */"

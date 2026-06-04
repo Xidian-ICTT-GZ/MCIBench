@@ -1,1 +1,0 @@
-"/**\n * @param {number} n\n * @param {number} k\n * @param {number} maxPts\n * @return {number}\n */\nvar new21Game = function(n, k, maxPts) {\n    \n};"

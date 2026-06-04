@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec add_spaces(s :: String.t, spaces :: [integer]) :: String.t\n  def add_spaces(s, spaces) do\n    \n  end\nend"

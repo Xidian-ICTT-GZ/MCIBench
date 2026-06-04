@@ -1,1 +1,0 @@
-"-spec find_all_people(N :: integer(), Meetings :: [[integer()]], FirstPerson :: integer()) -> [integer()].\nfind_all_people(N, Meetings, FirstPerson) ->\n  ."

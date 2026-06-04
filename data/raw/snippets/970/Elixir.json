@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec powerful_integers(x :: integer, y :: integer, bound :: integer) :: [integer]\n  def powerful_integers(x, y, bound) do\n    \n  end\nend"

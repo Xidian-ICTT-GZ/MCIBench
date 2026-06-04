@@ -1,0 +1,23 @@
+class FindElements:
+    def __init__(self, root: Optional[TreeNode]):
+        self.dfs(root, 0)
+        self.root = root
+
+    def dfs(self, node: TreeNode, val: int):
+        if node is None:
+            return
+        node.val = val
+        self.dfs(node.left, val * 2 + 1)
+        self.dfs(node.right, val * 2 + 2)
+
+    def find(self, target: int) -> bool:
+        target += 1
+        k = target.bit_length() - 2
+        node = self.root
+        while k >= 0 and node is not None:
+            if (target & (1 << k)) == 0:
+                node = node.left
+            else:
+                node = node.right
+            k -= 1
+        return node is not None

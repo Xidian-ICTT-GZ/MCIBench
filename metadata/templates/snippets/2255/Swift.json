@@ -1,0 +1,1 @@
+"class Solution {\n    func countPrefixes(_ words: [String], _ s: String) -> Int {\n        \n    }\n}"

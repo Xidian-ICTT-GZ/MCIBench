@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec maximum_removals(s :: String.t, p :: String.t, removable :: [integer]) :: integer\n  def maximum_removals(s, p, removable) do\n    \n  end\nend"

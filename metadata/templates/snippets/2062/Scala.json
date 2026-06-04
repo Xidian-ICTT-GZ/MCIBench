@@ -1,0 +1,1 @@
+"object Solution {\n    def countVowelSubstrings(word: String): Int = {\n        \n    }\n}"

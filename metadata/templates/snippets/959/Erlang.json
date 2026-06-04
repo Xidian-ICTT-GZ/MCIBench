@@ -1,0 +1,1 @@
+"-spec regions_by_slashes(Grid :: [unicode:unicode_binary()]) -> integer().\nregions_by_slashes(Grid) ->\n  ."

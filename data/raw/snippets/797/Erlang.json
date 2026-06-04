@@ -1,1 +1,0 @@
-"-spec all_paths_source_target(Graph :: [[integer()]]) -> [[integer()]].\nall_paths_source_target(Graph) ->\n  ."

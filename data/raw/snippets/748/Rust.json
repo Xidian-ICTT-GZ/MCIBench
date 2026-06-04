@@ -1,1 +1,0 @@
-"impl Solution {\n    pub fn shortest_completing_word(license_plate: String, words: Vec<String>) -> String {\n        \n    }\n}"

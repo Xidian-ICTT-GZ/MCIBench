@@ -1,1 +1,0 @@
-"# @param {Integer[]} hours\n# @param {Integer} target\n# @return {Integer}\ndef number_of_employees_who_met_target(hours, target)\n    \nend"

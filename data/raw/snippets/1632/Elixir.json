@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec matrix_rank_transform(matrix :: [[integer]]) :: [[integer]]\n  def matrix_rank_transform(matrix) do\n    \n  end\nend"

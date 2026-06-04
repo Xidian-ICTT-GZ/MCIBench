@@ -1,1 +1,0 @@
-"# @param {Integer[]} original\n# @param {Integer[][]} bounds\n# @return {Integer}\ndef count_arrays(original, bounds)\n    \nend"

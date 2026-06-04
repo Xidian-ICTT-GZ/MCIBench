@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String $text\n     * @return Integer\n     */\n    function distinctEchoSubstrings($text) {\n        \n    }\n}"

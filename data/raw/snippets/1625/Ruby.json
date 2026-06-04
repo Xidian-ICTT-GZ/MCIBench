@@ -1,1 +1,0 @@
-"# @param {String} s\n# @param {Integer} a\n# @param {Integer} b\n# @return {String}\ndef find_lex_smallest_string(s, a, b)\n    \nend"

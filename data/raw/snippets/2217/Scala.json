@@ -1,1 +1,0 @@
-"object Solution {\n    def kthPalindrome(queries: Array[Int], intLength: Int): Array[Long] = {\n        \n    }\n}"

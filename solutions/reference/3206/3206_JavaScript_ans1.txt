@@ -1,0 +1,10 @@
+var numberOfAlternatingGroups = function(colors) {
+    const n = colors.length;
+    let res = 0;
+    for (let i = 0; i < n; i++) {
+        if (colors[i] !== colors[(i - 1 + n) % n] && colors[i] !== colors[(i + 1) % n]) {
+            res++;
+        }
+    }
+    return res;
+};

@@ -1,1 +1,0 @@
-"-spec max_area(Coords :: [[integer()]]) -> integer().\nmax_area(Coords) ->\n  ."

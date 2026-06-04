@@ -1,1 +1,0 @@
-"-spec number_of_components(Properties :: [[integer()]], K :: integer()) -> integer().\nnumber_of_components(Properties, K) ->\n  ."

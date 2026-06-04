@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    string replaceWords(vector<string>& dictionary, string sentence) {\n        \n    }\n};"

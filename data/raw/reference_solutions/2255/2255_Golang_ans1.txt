@@ -1,9 +1,0 @@
-func countPrefixes(words []string, s string) int {
-    res := 0
-    for _, word := range words {
-        if len(s) >= len(word) && s[:len(word)] == word {
-            res++
-        }
-    }
-    return res
-}

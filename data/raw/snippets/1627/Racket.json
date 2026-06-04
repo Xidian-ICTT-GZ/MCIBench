@@ -1,1 +1,0 @@
-"(define/contract (are-connected n threshold queries)\n  (-> exact-integer? exact-integer? (listof (listof exact-integer?)) (listof boolean?))\n  )"

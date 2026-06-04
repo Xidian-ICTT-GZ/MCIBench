@@ -1,0 +1,1 @@
+"class LUPrefix {\n    constructor(n: number) {\n        \n    }\n\n    upload(video: number): void {\n        \n    }\n\n    longest(): number {\n        \n    }\n}\n\n/**\n * Your LUPrefix object will be instantiated and called as such:\n * var obj = new LUPrefix(n)\n * obj.upload(video)\n * var param_2 = obj.longest()\n */"

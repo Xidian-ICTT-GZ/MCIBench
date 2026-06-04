@@ -1,0 +1,4 @@
+var isPerfectSquare = function(num) {
+    const x = Math.floor(Math.sqrt(num));
+    return x * x === num;
+};

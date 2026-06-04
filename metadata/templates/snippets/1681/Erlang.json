@@ -1,0 +1,1 @@
+"-spec minimum_incompatibility(Nums :: [integer()], K :: integer()) -> integer().\nminimum_incompatibility(Nums, K) ->\n  ."

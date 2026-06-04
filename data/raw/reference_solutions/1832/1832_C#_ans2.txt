@@ -1,9 +1,0 @@
-public class Solution {
-    public bool CheckIfPangram(string sentence) {
-        int state = 0;
-        foreach (char c in sentence) {
-            state |= 1 << (c - 'a');
-        }
-        return state == (1 << 26) - 1;
-    }
-}

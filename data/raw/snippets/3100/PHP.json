@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer $numBottles\n     * @param Integer $numExchange\n     * @return Integer\n     */\n    function maxBottlesDrunk($numBottles, $numExchange) {\n        \n    }\n}"

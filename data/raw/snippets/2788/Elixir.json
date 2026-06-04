@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec split_words_by_separator(words :: [String.t], separator :: char) :: [String.t]\n  def split_words_by_separator(words, separator) do\n    \n  end\nend"

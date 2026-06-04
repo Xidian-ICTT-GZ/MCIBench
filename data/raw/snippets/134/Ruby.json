@@ -1,1 +1,0 @@
-"# @param {Integer[]} gas\n# @param {Integer[]} cost\n# @return {Integer}\ndef can_complete_circuit(gas, cost)\n    \nend"

@@ -1,1 +1,0 @@
-"-spec find_special_integer(Arr :: [integer()]) -> integer().\nfind_special_integer(Arr) ->\n  ."

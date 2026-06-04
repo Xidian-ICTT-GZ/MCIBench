@@ -1,0 +1,1 @@
+"public class Solution {\n    public int MaxFreeTime(int eventTime, int k, int[] startTime, int[] endTime) {\n        \n    }\n}"

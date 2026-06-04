@@ -1,1 +1,0 @@
-"# @param {Integer[]} parent\n# @param {String} s\n# @return {Boolean[]}\ndef find_answer(parent, s)\n    \nend"

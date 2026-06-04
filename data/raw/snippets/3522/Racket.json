@@ -1,1 +1,0 @@
-"(define/contract (calculate-score instructions values)\n  (-> (listof string?) (listof exact-integer?) exact-integer?)\n  )"

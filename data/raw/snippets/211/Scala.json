@@ -1,1 +1,0 @@
-"class WordDictionary() {\n\n    def addWord(word: String): Unit = {\n        \n    }\n\n    def search(word: String): Boolean = {\n        \n    }\n\n}\n\n/**\n * Your WordDictionary object will be instantiated and called as such:\n * val obj = new WordDictionary()\n * obj.addWord(word)\n * val param_2 = obj.search(word)\n */"

@@ -1,1 +1,0 @@
-"(define/contract (minimize-set divisor1 divisor2 uniqueCnt1 uniqueCnt2)\n  (-> exact-integer? exact-integer? exact-integer? exact-integer? exact-integer?)\n  )"

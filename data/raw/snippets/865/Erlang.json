@@ -1,1 +1,0 @@
-"%% Definition for a binary tree node.\n%%\n%% -record(tree_node, {val = 0 :: integer(),\n%%                     left = null  :: 'null' | #tree_node{},\n%%                     right = null :: 'null' | #tree_node{}}).\n\n-spec subtree_with_all_deepest(Root :: #tree_node{} | null) -> #tree_node{} | null.\nsubtree_with_all_deepest(Root) ->\n  ."

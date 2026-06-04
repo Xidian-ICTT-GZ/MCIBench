@@ -1,0 +1,1 @@
+"/**\n * @param {number[][]} envelopes\n * @return {number}\n */\nvar maxEnvelopes = function(envelopes) {\n    \n};"

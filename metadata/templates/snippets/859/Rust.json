@@ -1,0 +1,1 @@
+"impl Solution {\n    pub fn buddy_strings(s: String, goal: String) -> bool {\n        \n    }\n}"

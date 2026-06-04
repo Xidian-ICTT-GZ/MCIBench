@@ -1,1 +1,0 @@
-"/**\n * @param {number} m\n * @param {number} n\n * @param {number} k\n * @return {number}\n */\nvar distanceSum = function(m, n, k) {\n    \n};"

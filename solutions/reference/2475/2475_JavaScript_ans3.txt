@@ -1,0 +1,12 @@
+var unequalTriplets = function(nums) {
+    let count = {}, res = 0, n = nums.length, t = 0;
+    for (let x of nums) {
+        count[x] = count[x] || 0;
+        count[x]++;
+    }
+    for (let k in count) {
+        res += t * count[k] * (n - t - count[k]);
+        t += count[k];
+    }
+    return res;
+};

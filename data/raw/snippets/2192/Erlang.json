@@ -1,1 +1,0 @@
-"-spec get_ancestors(N :: integer(), Edges :: [[integer()]]) -> [[integer()]].\nget_ancestors(N, Edges) ->\n  ."

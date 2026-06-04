@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $queries\n     * @param Integer $m\n     * @return Integer[]\n     */\n    function processQueries($queries, $m) {\n        \n    }\n}"

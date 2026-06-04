@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec most_words_found(sentences :: [String.t]) :: integer\n  def most_words_found(sentences) do\n    \n  end\nend"

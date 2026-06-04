@@ -1,0 +1,18 @@
+int lowerBound(const int *nums, int numsSize, int val) {
+    int l = 0, r = numsSize;
+    while (l < r) {
+        int m = (l + r) / 2;
+        if (nums[m] >= val) {
+            r = m;
+        } else {
+            l = m + 1;
+        }
+    }
+    return l;
+}
+
+int maximumCount(int* nums, int numsSize) {
+    int pos1 = lowerBound(nums, numsSize, 0);
+    int pos2 = lowerBound(nums, numsSize, 1);
+    return fmax(pos1, numsSize - pos2);
+}

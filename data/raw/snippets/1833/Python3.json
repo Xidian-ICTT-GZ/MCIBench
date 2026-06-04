@@ -1,1 +1,0 @@
-"class Solution:\n    def maxIceCream(self, costs: List[int], coins: int) -> int:\n        "

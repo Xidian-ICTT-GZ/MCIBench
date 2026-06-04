@@ -1,1 +1,0 @@
-"-spec k_closest(Points :: [[integer()]], K :: integer()) -> [[integer()]].\nk_closest(Points, K) ->\n  ."

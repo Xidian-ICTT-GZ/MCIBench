@@ -1,1 +1,0 @@
-"class Solution:\n    def numWays(self, steps: int, arrLen: int) -> int:\n        "

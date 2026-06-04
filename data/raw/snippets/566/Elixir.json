@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec matrix_reshape(mat :: [[integer]], r :: integer, c :: integer) :: [[integer]]\n  def matrix_reshape(mat, r, c) do\n    \n  end\nend"

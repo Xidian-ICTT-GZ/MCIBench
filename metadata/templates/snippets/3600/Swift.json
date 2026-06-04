@@ -1,0 +1,1 @@
+"class Solution {\n    func maxStability(_ n: Int, _ edges: [[Int]], _ k: Int) -> Int {\n        \n    }\n}"

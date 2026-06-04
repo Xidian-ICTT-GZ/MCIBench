@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec maximal_network_rank(n :: integer, roads :: [[integer]]) :: integer\n  def maximal_network_rank(n, roads) do\n    \n  end\nend"

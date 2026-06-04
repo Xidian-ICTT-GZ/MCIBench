@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec minimum_time(time :: [integer], total_trips :: integer) :: integer\n  def minimum_time(time, total_trips) do\n    \n  end\nend"

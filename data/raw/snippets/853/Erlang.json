@@ -1,1 +1,0 @@
-"-spec car_fleet(Target :: integer(), Position :: [integer()], Speed :: [integer()]) -> integer().\ncar_fleet(Target, Position, Speed) ->\n  ."

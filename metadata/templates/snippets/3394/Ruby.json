@@ -1,0 +1,1 @@
+"# @param {Integer} n\n# @param {Integer[][]} rectangles\n# @return {Boolean}\ndef check_valid_cuts(n, rectangles)\n    \nend"

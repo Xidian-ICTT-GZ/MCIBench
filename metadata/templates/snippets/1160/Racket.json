@@ -1,0 +1,1 @@
+"(define/contract (count-characters words chars)\n  (-> (listof string?) string? exact-integer?)\n  )"

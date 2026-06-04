@@ -1,0 +1,1 @@
+"object Solution {\n    def countBalls(lowLimit: Int, highLimit: Int): Int = {\n        \n    }\n}"

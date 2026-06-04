@@ -1,0 +1,21 @@
+#define MAX(a, b) ((a) > (b) ? (a) : (b))
+
+double largestSumOfAverages(int* nums, int numsSize, int k) {
+    double prefix[numsSize + 1];
+    prefix[0] = 0.0;
+    for (int i = 0; i < numsSize; i++) {
+        prefix[i + 1] = prefix[i] + nums[i];
+    }
+    double dp[numsSize + 1];
+    for (int i = 1; i <= numsSize; i++) {
+        dp[i] = prefix[i] / i;
+    }
+    for (int j = 2; j <= k; j++) {
+        for (int i = numsSize; i >= j; i--) {
+            for (int x = j - 1; x < i; x++) {
+                dp[i] = MAX(dp[i], dp[x] + (prefix[i] - prefix[x]) / (i - x));
+            }
+        }
+    }
+    return dp[numsSize];
+}

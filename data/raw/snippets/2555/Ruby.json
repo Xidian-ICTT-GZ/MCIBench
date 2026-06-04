@@ -1,1 +1,0 @@
-"# @param {Integer[]} prize_positions\n# @param {Integer} k\n# @return {Integer}\ndef maximize_win(prize_positions, k)\n    \nend"

@@ -1,1 +1,0 @@
-"impl Solution {\n    pub fn have_conflict(event1: Vec<String>, event2: Vec<String>) -> bool {\n        \n    }\n}"

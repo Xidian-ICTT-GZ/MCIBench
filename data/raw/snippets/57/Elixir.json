@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec insert(intervals :: [[integer]], new_interval :: [integer]) :: [[integer]]\n  def insert(intervals, new_interval) do\n    \n  end\nend"

@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String[][] $board\n     * @param Integer[] $click\n     * @return String[][]\n     */\n    function updateBoard($board, $click) {\n        \n    }\n}"

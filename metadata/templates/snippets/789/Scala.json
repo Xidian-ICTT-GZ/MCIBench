@@ -1,0 +1,1 @@
+"object Solution {\n    def escapeGhosts(ghosts: Array[Array[Int]], target: Array[Int]): Boolean = {\n        \n    }\n}"

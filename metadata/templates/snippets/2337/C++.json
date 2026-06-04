@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    bool canChange(string start, string target) {\n        \n    }\n};"

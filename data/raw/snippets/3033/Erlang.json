@@ -1,1 +1,0 @@
-"-spec modified_matrix(Matrix :: [[integer()]]) -> [[integer()]].\nmodified_matrix(Matrix) ->\n  ."

@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[][] $graph\n     * @return Integer\n     */\n    function shortestPathLength($graph) {\n        \n    }\n}"

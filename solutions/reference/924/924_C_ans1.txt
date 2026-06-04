@@ -1,0 +1,45 @@
+int minMalwareSpread(int** graph, int graphSize, int* graphColSize, int* initial, int initialSize) {
+    int n = graphSize;
+    int ids[n + 1], idToSize[n + 1];
+    memset(ids, 0, sizeof(ids));
+    memset(idToSize, 0, sizeof(idToSize));
+    int id = 0;
+    for (int i = 0; i < n; ++i) {
+        if (!ids[i]) {
+            id++;
+            ids[i] = id;
+            int size = 1;
+            int q[n];
+            int front = 0, rear = 0;
+            q[rear++] = i;
+            while (front < rear) {
+                int u = q[front++];
+                for (int v = 0; v < n; ++v) {
+                    if (!ids[v] && graph[u][v] == 1) {
+                        size++;
+                        ids[v] = id;
+                        q[rear++] = v;
+                    }
+                }
+            }
+            idToSize[id] = size;
+        }
+    }
+
+    int idToInitials[n + 1];
+    memset(idToInitials, 0, sizeof(idToInitials));
+    for (int i = 0; i < initialSize; i++) {
+        int u = initial[i];
+        idToInitials[ids[u]]++;
+    }
+    int ans = n + 1, ansRemoved = 0;
+    for (int i = 0; i < initialSize; i++) {
+        int u = initial[i];
+        int removed = idToInitials[ids[u]] == 1 ? idToSize[ids[u]] : 0;
+        if (removed > ansRemoved || (removed == ansRemoved && u < ans)) {
+            ans = u;
+            ansRemoved = removed;
+        }
+    }
+    return ans;
+}

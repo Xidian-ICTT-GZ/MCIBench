@@ -1,1 +1,0 @@
-"# Definition for singly-linked list.\n#\n# defmodule ListNode do\n#   @type t :: %__MODULE__{\n#           val: integer,\n#           next: ListNode.t() | nil\n#         }\n#   defstruct val: 0, next: nil\n# end\n\ndefmodule Solution do\n  @spec reverse_even_length_groups(head :: ListNode.t | nil) :: ListNode.t | nil\n  def reverse_even_length_groups(head) do\n    \n  end\nend"

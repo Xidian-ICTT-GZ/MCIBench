@@ -1,1 +1,0 @@
-"-spec minimum_cost(Cost :: [integer()]) -> integer().\nminimum_cost(Cost) ->\n  ."

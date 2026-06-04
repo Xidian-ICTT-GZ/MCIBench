@@ -1,0 +1,1 @@
+"(define/contract (read-binary-watch turnedOn)\n  (-> exact-integer? (listof string?))\n  )"

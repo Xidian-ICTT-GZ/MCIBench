@@ -1,0 +1,1 @@
+"class Solution(object):\n    def equalSubstring(self, s, t, maxCost):\n        \"\"\"\n        :type s: str\n        :type t: str\n        :type maxCost: int\n        :rtype: int\n        \"\"\"\n        "

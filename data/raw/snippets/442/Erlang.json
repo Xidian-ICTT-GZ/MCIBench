@@ -1,1 +1,0 @@
-"-spec find_duplicates(Nums :: [integer()]) -> [integer()].\nfind_duplicates(Nums) ->\n  ."

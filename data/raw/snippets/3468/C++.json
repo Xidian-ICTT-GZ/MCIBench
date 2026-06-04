@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    int countArrays(vector<int>& original, vector<vector<int>>& bounds) {\n        \n    }\n};"

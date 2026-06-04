@@ -1,1 +1,0 @@
-"class Solution(object):\n    def edgeScore(self, edges):\n        \"\"\"\n        :type edges: List[int]\n        :rtype: int\n        \"\"\"\n        "

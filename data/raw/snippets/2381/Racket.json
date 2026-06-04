@@ -1,1 +1,0 @@
-"(define/contract (shifting-letters s shifts)\n  (-> string? (listof (listof exact-integer?)) string?)\n  )"

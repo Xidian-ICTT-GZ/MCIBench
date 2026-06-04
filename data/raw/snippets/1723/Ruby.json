@@ -1,1 +1,0 @@
-"# @param {Integer[]} jobs\n# @param {Integer} k\n# @return {Integer}\ndef minimum_time_required(jobs, k)\n    \nend"

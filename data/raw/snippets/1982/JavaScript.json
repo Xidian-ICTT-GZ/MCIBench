@@ -1,1 +1,0 @@
-"/**\n * @param {number} n\n * @param {number[]} sums\n * @return {number[]}\n */\nvar recoverArray = function(n, sums) {\n    \n};"

@@ -1,0 +1,18 @@
+var maximumCount = function(nums) {
+    const pos1 = lowerBound(nums, 0);
+    const pos2 = lowerBound(nums, 1);
+    return Math.max(pos1, nums.length - pos2);
+};
+
+const lowerBound = (nums, val) => {
+    let l = 0, r = nums.length;
+    while (l < r) {
+        const m = (l + r) >> 1;
+        if (nums[m] >= val) {
+            r = m;
+        } else {
+            l = m + 1;
+        }
+    }
+    return l;
+}

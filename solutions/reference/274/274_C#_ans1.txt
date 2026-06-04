@@ -1,0 +1,11 @@
+public class Solution {
+    public int HIndex(int[] citations) {
+        Array.Sort(citations);
+        int h = 0, i = citations.Length - 1; 
+        while (i >= 0 && citations[i] > h) {
+            h++; 
+            i--;
+        }
+        return h;
+    }
+}

@@ -1,0 +1,22 @@
+int trap(int* height, int heightSize) {
+    int n = heightSize;
+    if (n == 0) {
+        return 0;
+    }
+    int ans = 0;
+    int stk[n], top = 0;
+    for (int i = 0; i < n; ++i) {
+        while (top && height[i] > height[stk[top - 1]]) {
+            int stk_top = stk[--top];
+            if (!top) {
+                break;
+            }
+            int left = stk[top - 1];
+            int currWidth = i - left - 1;
+            int currHeight = fmin(height[left], height[i]) - height[stk_top];
+            ans += currWidth * currHeight;
+        }
+        stk[top++] = i;
+    }
+    return ans;
+}

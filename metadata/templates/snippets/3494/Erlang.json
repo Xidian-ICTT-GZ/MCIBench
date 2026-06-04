@@ -1,0 +1,1 @@
+"-spec min_time(Skill :: [integer()], Mana :: [integer()]) -> integer().\nmin_time(Skill, Mana) ->\n  ."

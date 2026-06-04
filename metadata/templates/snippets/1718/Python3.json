@@ -1,0 +1,1 @@
+"class Solution:\n    def constructDistancedSequence(self, n: int) -> List[int]:\n        "

@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer $modulo\n     * @param Integer $k\n     * @return Integer\n     */\n    function countInterestingSubarrays($nums, $modulo, $k) {\n        \n    }\n}"

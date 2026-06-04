@@ -1,1 +1,0 @@
-"/**\n Do not return anything, modify nums in-place instead.\n */\nfunction moveZeroes(nums: number[]): void {\n    \n};"

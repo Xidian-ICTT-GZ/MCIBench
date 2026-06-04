@@ -1,1 +1,0 @@
-"class Solution(object):\n    def maxTotal(self, value, limit):\n        \"\"\"\n        :type value: List[int]\n        :type limit: List[int]\n        :rtype: int\n        \"\"\"\n        "

@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} xCoord\n * @param {number[]} yCoord\n * @return {number}\n */\nvar maxRectangleArea = function(xCoord, yCoord) {\n    \n};"

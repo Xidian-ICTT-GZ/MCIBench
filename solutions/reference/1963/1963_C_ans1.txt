@@ -1,0 +1,12 @@
+int minSwaps(char* s) {
+    int cnt = 0, mincnt = 0;
+    for (int i = 0; s[i] != '\0'; ++i) {
+        if (s[i] == '[') {
+            cnt += 1;
+        } else {
+            cnt -= 1;
+            mincnt = fmin(mincnt, cnt);
+        }
+    }
+    return (-mincnt + 1) / 2;
+}

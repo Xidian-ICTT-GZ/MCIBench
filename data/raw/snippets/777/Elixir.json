@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec can_transform(start :: String.t, result :: String.t) :: boolean\n  def can_transform(start, result) do\n    \n  end\nend"

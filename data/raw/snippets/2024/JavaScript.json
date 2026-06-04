@@ -1,1 +1,0 @@
-"/**\n * @param {string} answerKey\n * @param {number} k\n * @return {number}\n */\nvar maxConsecutiveAnswers = function(answerKey, k) {\n    \n};"

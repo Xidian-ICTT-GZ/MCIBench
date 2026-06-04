@@ -1,1 +1,0 @@
-"(define/contract (last-stone-weight stones)\n  (-> (listof exact-integer?) exact-integer?)\n  )"

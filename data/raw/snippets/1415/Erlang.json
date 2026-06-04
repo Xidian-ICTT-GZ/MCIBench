@@ -1,1 +1,0 @@
-"-spec get_happy_string(N :: integer(), K :: integer()) -> unicode:unicode_binary().\nget_happy_string(N, K) ->\n  ."

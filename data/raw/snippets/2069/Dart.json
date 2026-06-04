@@ -1,1 +1,0 @@
-"class Robot {\n\n  Robot(int width, int height) {\n    \n  }\n  \n  void step(int num) {\n    \n  }\n  \n  List<int> getPos() {\n    \n  }\n  \n  String getDir() {\n    \n  }\n}\n\n/**\n * Your Robot object will be instantiated and called as such:\n * Robot obj = Robot(width, height);\n * obj.step(num);\n * List<int> param2 = obj.getPos();\n * String param3 = obj.getDir();\n */"

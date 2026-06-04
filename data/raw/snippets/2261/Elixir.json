@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec count_distinct(nums :: [integer], k :: integer, p :: integer) :: integer\n  def count_distinct(nums, k, p) do\n    \n  end\nend"

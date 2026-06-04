@@ -1,0 +1,25 @@
+public class Solution {
+    public int MaxFrequencyElements(int[] nums) {
+        Dictionary<int, int> count = new Dictionary<int, int>();
+        foreach (int a in nums) {
+            if (count.ContainsKey(a)) {
+                count[a]++;
+            } else {
+                count[a] = 1;
+            }
+        }
+        int maxf = 0;
+        foreach (int freq in count.Values) {
+            if (freq > maxf) {
+                maxf = freq;
+            }
+        }
+        int res = 0;
+        foreach (int freq in count.Values) {
+            if (freq == maxf) {
+                res += maxf;
+            }
+        }
+        return res;
+    }
+}

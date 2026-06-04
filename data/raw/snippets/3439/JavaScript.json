@@ -1,1 +1,0 @@
-"/**\n * @param {number} eventTime\n * @param {number} k\n * @param {number[]} startTime\n * @param {number[]} endTime\n * @return {number}\n */\nvar maxFreeTime = function(eventTime, k, startTime, endTime) {\n    \n};"

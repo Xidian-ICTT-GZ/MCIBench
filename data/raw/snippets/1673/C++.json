@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    vector<int> mostCompetitive(vector<int>& nums, int k) {\n        \n    }\n};"

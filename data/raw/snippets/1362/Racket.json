@@ -1,1 +1,0 @@
-"(define/contract (closest-divisors num)\n  (-> exact-integer? (listof exact-integer?))\n  )"

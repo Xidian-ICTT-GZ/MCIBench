@@ -1,1 +1,0 @@
-"object Solution {\n    def countDays(days: Int, meetings: Array[Array[Int]]): Int = {\n        \n    }\n}"

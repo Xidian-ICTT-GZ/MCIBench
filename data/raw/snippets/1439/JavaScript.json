@@ -1,1 +1,0 @@
-"/**\n * @param {number[][]} mat\n * @param {number} k\n * @return {number}\n */\nvar kthSmallest = function(mat, k) {\n    \n};"

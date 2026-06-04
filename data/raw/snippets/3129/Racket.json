@@ -1,1 +1,0 @@
-"(define/contract (number-of-stable-arrays zero one limit)\n  (-> exact-integer? exact-integer? exact-integer? exact-integer?)\n  )"

@@ -1,1 +1,0 @@
-"# @param {String} password\n# @return {Integer}\ndef strong_password_checker(password)\n    \nend"

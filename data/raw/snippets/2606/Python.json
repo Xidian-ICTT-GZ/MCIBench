@@ -1,1 +1,0 @@
-"class Solution(object):\n    def maximumCostSubstring(self, s, chars, vals):\n        \"\"\"\n        :type s: str\n        :type chars: str\n        :type vals: List[int]\n        :rtype: int\n        \"\"\"\n        "

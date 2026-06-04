@@ -1,1 +1,0 @@
-"-spec find_words_containing(Words :: [unicode:unicode_binary()], X :: char()) -> [integer()].\nfind_words_containing(Words, X) ->\n  ."

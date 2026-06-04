@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec min_cost(arr :: [integer], brr :: [integer], k :: integer) :: integer\n  def min_cost(arr, brr, k) do\n    \n  end\nend"

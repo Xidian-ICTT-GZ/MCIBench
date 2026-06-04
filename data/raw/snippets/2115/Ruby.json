@@ -1,1 +1,0 @@
-"# @param {String[]} recipes\n# @param {String[][]} ingredients\n# @param {String[]} supplies\n# @return {String[]}\ndef find_all_recipes(recipes, ingredients, supplies)\n    \nend"

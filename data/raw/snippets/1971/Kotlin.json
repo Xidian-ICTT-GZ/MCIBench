@@ -1,1 +1,0 @@
-"class Solution {\n    fun validPath(n: Int, edges: Array<IntArray>, source: Int, destination: Int): Boolean {\n        \n    }\n}"

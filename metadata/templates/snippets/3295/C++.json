@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    bool reportSpam(vector<string>& message, vector<string>& bannedWords) {\n        \n    }\n};"

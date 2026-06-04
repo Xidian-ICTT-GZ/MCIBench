@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec minimize_result(expression :: String.t) :: String.t\n  def minimize_result(expression) do\n    \n  end\nend"

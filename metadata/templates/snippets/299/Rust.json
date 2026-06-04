@@ -1,0 +1,1 @@
+"impl Solution {\n    pub fn get_hint(secret: String, guess: String) -> String {\n        \n    }\n}"

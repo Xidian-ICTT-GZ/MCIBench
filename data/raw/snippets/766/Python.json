@@ -1,1 +1,0 @@
-"class Solution(object):\n    def isToeplitzMatrix(self, matrix):\n        \"\"\"\n        :type matrix: List[List[int]]\n        :rtype: bool\n        \"\"\"\n        "

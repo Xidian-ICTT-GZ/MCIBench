@@ -1,1 +1,0 @@
-"-spec is_scramble(S1 :: unicode:unicode_binary(), S2 :: unicode:unicode_binary()) -> boolean().\nis_scramble(S1, S2) ->\n  ."

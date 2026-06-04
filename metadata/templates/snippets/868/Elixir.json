@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec binary_gap(n :: integer) :: integer\n  def binary_gap(n) do\n    \n  end\nend"

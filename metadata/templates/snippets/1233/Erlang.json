@@ -1,0 +1,1 @@
+"-spec remove_subfolders(Folder :: [unicode:unicode_binary()]) -> [unicode:unicode_binary()].\nremove_subfolders(Folder) ->\n  ."

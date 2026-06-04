@@ -1,1 +1,0 @@
-"# @param {Integer} limit\n# @param {Integer[][]} queries\n# @return {Integer[]}\ndef query_results(limit, queries)\n    \nend"

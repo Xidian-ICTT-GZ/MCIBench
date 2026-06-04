@@ -1,0 +1,1 @@
+"-spec projection_area(Grid :: [[integer()]]) -> integer().\nprojection_area(Grid) ->\n  ."

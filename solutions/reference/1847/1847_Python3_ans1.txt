@@ -1,0 +1,51 @@
+class Event:
+    
+    def __init__(self, op: int, size: int, idx: int, origin: int):
+        self.op = op
+        self.size = size
+        self.idx = idx
+        self.origin = origin
+
+    
+    def __lt__(self, other: "Event") -> bool:
+        return self.size > other.size or (self.size == other.size and self.op < other.op)
+
+class Solution:
+    def closestRoom(self, rooms: List[List[int]], queries: List[List[int]]) -> List[int]:
+        n = len(queries)
+
+        events = list()
+        for i, (roomId, size) in enumerate(rooms):
+            
+            events.append(Event(0, size, roomId, i))
+
+        for i, (minSize, preferred) in enumerate(queries):
+            
+            events.append(Event(1, preferred, minSize, i))
+
+        events.sort()
+
+        ans = [-1] * n
+        
+        
+        valid = sortedcontainers.SortedList()
+        for event in events:
+            if event.op == 0:
+                
+                valid.add(event.idx)
+            else:
+                
+                dist = float("inf")
+                
+                x = valid.bisect_left(event.idx)
+                if x != len(valid) and valid[x] - event.idx < dist:
+                    dist = valid[x] - event.idx
+                    ans[event.origin] = valid[x]
+                if x != 0:
+                    
+                    x -= 1
+                    if event.idx - valid[x] <= dist:
+                        dist = event.idx - valid[x]
+                        ans[event.origin] = valid[x]
+            
+        return ans

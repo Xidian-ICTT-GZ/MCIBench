@@ -1,1 +1,0 @@
-"-spec make_fancy_string(S :: unicode:unicode_binary()) -> unicode:unicode_binary().\nmake_fancy_string(S) ->\n  ."

@@ -1,1 +1,0 @@
-"-spec get_largest_outlier(Nums :: [integer()]) -> integer().\nget_largest_outlier(Nums) ->\n  ."

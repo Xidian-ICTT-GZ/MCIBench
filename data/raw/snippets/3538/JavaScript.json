@@ -1,1 +1,0 @@
-"/**\n * @param {number} l\n * @param {number} n\n * @param {number} k\n * @param {number[]} position\n * @param {number[]} time\n * @return {number}\n */\nvar minTravelTime = function(l, n, k, position, time) {\n    \n};"

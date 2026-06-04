@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $target\n     * @param Integer[] $position\n     * @param Integer[] $speed\n     * @return Integer\n     */\n    function carFleet($target, $position, $speed) {\n        \n    }\n}"

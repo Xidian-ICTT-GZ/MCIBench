@@ -1,4 +1,0 @@
-class Solution:
-    def divideArray(self, nums: List[int]) -> bool:
-        freq = Counter(nums)   
-        return all(f % 2 == 0 for f in freq.values())

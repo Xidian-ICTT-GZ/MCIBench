@@ -1,1 +1,0 @@
-"class Solution(object):\n    def differenceOfDistinctValues(self, grid):\n        \"\"\"\n        :type grid: List[List[int]]\n        :rtype: List[List[int]]\n        \"\"\"\n        "

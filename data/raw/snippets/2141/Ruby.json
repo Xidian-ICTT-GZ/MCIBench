@@ -1,1 +1,0 @@
-"# @param {Integer} n\n# @param {Integer[]} batteries\n# @return {Integer}\ndef max_run_time(n, batteries)\n    \nend"

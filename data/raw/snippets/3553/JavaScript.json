@@ -1,1 +1,0 @@
-"/**\n * @param {number[][]} edges\n * @param {number[][]} queries\n * @return {number[]}\n */\nvar minimumWeight = function(edges, queries) {\n    \n};"

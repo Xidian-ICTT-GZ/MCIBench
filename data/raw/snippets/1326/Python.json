@@ -1,1 +1,0 @@
-"class Solution(object):\n    def minTaps(self, n, ranges):\n        \"\"\"\n        :type n: int\n        :type ranges: List[int]\n        :rtype: int\n        \"\"\"\n        "

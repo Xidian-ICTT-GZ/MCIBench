@@ -1,0 +1,1 @@
+"class Solution:\n    def checkStrings(self, s1: str, s2: str) -> bool:\n        "

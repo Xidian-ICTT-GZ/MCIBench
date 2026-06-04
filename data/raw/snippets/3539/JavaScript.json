@@ -1,1 +1,0 @@
-"/**\n * @param {number} m\n * @param {number} k\n * @param {number[]} nums\n * @return {number}\n */\nvar magicalSum = function(m, k, nums) {\n    \n};"

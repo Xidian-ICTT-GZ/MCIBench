@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer $numOnes\n     * @param Integer $numZeros\n     * @param Integer $numNegOnes\n     * @param Integer $k\n     * @return Integer\n     */\n    function kItemsWithMaximumSum($numOnes, $numZeros, $numNegOnes, $k) {\n        \n    }\n}"

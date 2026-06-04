@@ -1,1 +1,0 @@
-"class Solution(object):\n    def getNumberOfBacklogOrders(self, orders):\n        \"\"\"\n        :type orders: List[List[int]]\n        :rtype: int\n        \"\"\"\n        "

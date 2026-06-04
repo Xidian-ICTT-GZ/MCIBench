@@ -1,0 +1,1 @@
+"/**\n * @param {number} label\n * @return {number[]}\n */\nvar pathInZigZagTree = function(label) {\n    \n};"

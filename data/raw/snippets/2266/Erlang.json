@@ -1,1 +1,0 @@
-"-spec count_texts(PressedKeys :: unicode:unicode_binary()) -> integer().\ncount_texts(PressedKeys) ->\n  ."

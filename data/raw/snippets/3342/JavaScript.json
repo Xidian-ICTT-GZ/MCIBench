@@ -1,1 +1,0 @@
-"/**\n * @param {number[][]} moveTime\n * @return {number}\n */\nvar minTimeToReach = function(moveTime) {\n    \n};"

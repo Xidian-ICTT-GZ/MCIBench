@@ -1,1 +1,0 @@
-"/**\n * // This is the Master's API interface.\n * // You should not implement it, or speculate about its implementation\n * interface Master {\n *     public int guess(String word) {}\n * }\n */\nclass Solution {\n    public void findSecretWord(String[] words, Master master) {\n        \n    }\n}"

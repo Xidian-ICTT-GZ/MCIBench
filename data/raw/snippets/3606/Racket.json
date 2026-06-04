@@ -1,1 +1,0 @@
-"(define/contract (validate-coupons code businessLine isActive)\n  (-> (listof string?) (listof string?) (listof boolean?) (listof string?))\n  )"

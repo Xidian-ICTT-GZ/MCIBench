@@ -1,1 +1,0 @@
-"-spec get_max_grid_happiness(M :: integer(), N :: integer(), IntrovertsCount :: integer(), ExtrovertsCount :: integer()) -> integer().\nget_max_grid_happiness(M, N, IntrovertsCount, ExtrovertsCount) ->\n  ."

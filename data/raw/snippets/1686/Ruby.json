@@ -1,1 +1,0 @@
-"# @param {Integer[]} alice_values\n# @param {Integer[]} bob_values\n# @return {Integer}\ndef stone_game_vi(alice_values, bob_values)\n    \nend"

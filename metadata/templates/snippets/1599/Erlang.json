@@ -1,0 +1,1 @@
+"-spec min_operations_max_profit(Customers :: [integer()], BoardingCost :: integer(), RunningCost :: integer()) -> integer().\nmin_operations_max_profit(Customers, BoardingCost, RunningCost) ->\n  ."

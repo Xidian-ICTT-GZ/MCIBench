@@ -1,0 +1,1 @@
+"class Solution:\n    def countHillValley(self, nums: List[int]) -> int:\n        "

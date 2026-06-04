@@ -1,1 +1,0 @@
-"class Solution:\n    def permute(self, n: int, k: int) -> List[int]:\n        "

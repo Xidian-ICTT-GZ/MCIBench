@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    string shortestCompletingWord(string licensePlate, vector<string>& words) {\n        \n    }\n};"

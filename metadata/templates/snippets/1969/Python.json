@@ -1,0 +1,1 @@
+"class Solution(object):\n    def minNonZeroProduct(self, p):\n        \"\"\"\n        :type p: int\n        :rtype: int\n        \"\"\"\n        "

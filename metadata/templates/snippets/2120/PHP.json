@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer $n\n     * @param Integer[] $startPos\n     * @param String $s\n     * @return Integer[]\n     */\n    function executeInstructions($n, $startPos, $s) {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int furthestBuilding(vector<int>& heights, int bricks, int ladders) {\n        \n    }\n};"

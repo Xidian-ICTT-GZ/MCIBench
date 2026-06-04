@@ -1,1 +1,0 @@
-"class Solution(object):\n    def maxHappyGroups(self, batchSize, groups):\n        \"\"\"\n        :type batchSize: int\n        :type groups: List[int]\n        :rtype: int\n        \"\"\"\n        "

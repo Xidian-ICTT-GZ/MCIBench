@@ -1,1 +1,0 @@
-"-spec count_days(Days :: integer(), Meetings :: [[integer()]]) -> integer().\ncount_days(Days, Meetings) ->\n  ."

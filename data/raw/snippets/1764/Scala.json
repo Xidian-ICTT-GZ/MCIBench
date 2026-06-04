@@ -1,1 +1,0 @@
-"object Solution {\n    def canChoose(groups: Array[Array[Int]], nums: Array[Int]): Boolean = {\n        \n    }\n}"

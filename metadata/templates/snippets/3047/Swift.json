@@ -1,0 +1,1 @@
+"class Solution {\n    func largestSquareArea(_ bottomLeft: [[Int]], _ topRight: [[Int]]) -> Int {\n        \n    }\n}"

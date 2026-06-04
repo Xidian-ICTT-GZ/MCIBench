@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec count_winning_sequences(s :: String.t) :: integer\n  def count_winning_sequences(s) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"-spec count_battleships(Board :: [[char()]]) -> integer().\ncount_battleships(Board) ->\n  ."

@@ -1,0 +1,13 @@
+int maxAbsoluteSum(int* nums, int numsSize) {
+    int positiveMax = 0, negativeMin = 0;
+    int positiveSum = 0, negativeSum = 0;
+    for (int i = 0; i < numsSize; i++) {
+        positiveSum += nums[i];
+        positiveMax = fmax(positiveMax, positiveSum);
+        positiveSum = fmax(0, positiveSum);
+        negativeSum += nums[i];
+        negativeMin = fmin(negativeMin, negativeSum);
+        negativeSum = fmin(0, negativeSum);
+    }
+    return fmax(positiveMax, -negativeMin);
+}

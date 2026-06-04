@@ -1,0 +1,1 @@
+"class Solution {\n\n  Solution(List<int> w) {\n    \n  }\n  \n  int pickIndex() {\n    \n  }\n}\n\n/**\n * Your Solution object will be instantiated and called as such:\n * Solution obj = Solution(w);\n * int param1 = obj.pickIndex();\n */"

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec shortest_distance_after_queries(n :: integer, queries :: [[integer]]) :: [integer]\n  def shortest_distance_after_queries(n, queries) do\n    \n  end\nend"

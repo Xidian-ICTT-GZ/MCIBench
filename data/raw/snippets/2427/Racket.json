@@ -1,1 +1,0 @@
-"(define/contract (common-factors a b)\n  (-> exact-integer? exact-integer? exact-integer?)\n  )"

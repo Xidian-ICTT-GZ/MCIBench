@@ -1,0 +1,1 @@
+"# @param {String} word1\n# @param {String} word2\n# @return {Integer}\ndef valid_substring_count(word1, word2)\n    \nend"

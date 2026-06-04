@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String $sentence1\n     * @param String $sentence2\n     * @return Boolean\n     */\n    function areSentencesSimilar($sentence1, $sentence2) {\n        \n    }\n}"

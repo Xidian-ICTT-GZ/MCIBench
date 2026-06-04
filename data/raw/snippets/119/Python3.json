@@ -1,1 +1,0 @@
-"class Solution:\n    def getRow(self, rowIndex: int) -> List[int]:\n        "

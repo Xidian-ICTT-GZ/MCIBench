@@ -1,1 +1,0 @@
-"(define/contract (daily-temperatures temperatures)\n  (-> (listof exact-integer?) (listof exact-integer?))\n  )"

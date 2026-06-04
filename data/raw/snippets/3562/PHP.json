@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer $n\n     * @param Integer[] $present\n     * @param Integer[] $future\n     * @param Integer[][] $hierarchy\n     * @param Integer $budget\n     * @return Integer\n     */\n    function maxProfit($n, $present, $future, $hierarchy, $budget) {\n        \n    }\n}"

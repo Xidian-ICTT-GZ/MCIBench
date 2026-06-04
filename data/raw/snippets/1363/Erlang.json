@@ -1,1 +1,0 @@
-"-spec largest_multiple_of_three(Digits :: [integer()]) -> unicode:unicode_binary().\nlargest_multiple_of_three(Digits) ->\n  ."

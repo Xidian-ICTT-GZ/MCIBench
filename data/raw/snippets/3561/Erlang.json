@@ -1,1 +1,0 @@
-"-spec resulting_string(S :: unicode:unicode_binary()) -> unicode:unicode_binary().\nresulting_string(S) ->\n  ."

@@ -1,1 +1,0 @@
-"(define/contract (min-set-size arr)\n  (-> (listof exact-integer?) exact-integer?)\n  )"

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec have_conflict(event1 :: [String.t], event2 :: [String.t]) :: boolean\n  def have_conflict(event1, event2) do\n    \n  end\nend"

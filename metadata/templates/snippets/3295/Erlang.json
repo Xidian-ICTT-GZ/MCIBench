@@ -1,0 +1,1 @@
+"-spec report_spam(Message :: [unicode:unicode_binary()], BannedWords :: [unicode:unicode_binary()]) -> boolean().\nreport_spam(Message, BannedWords) ->\n  ."

@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    int numberOfPairs(vector<int>& nums1, vector<int>& nums2, int k) {\n        \n    }\n};"

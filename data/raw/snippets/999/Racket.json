@@ -1,1 +1,0 @@
-"(define/contract (num-rook-captures board)\n  (-> (listof (listof char?)) exact-integer?)\n  )"

@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} nums\n * @param {number[]} numsDivide\n * @return {number}\n */\nvar minOperations = function(nums, numsDivide) {\n    \n};"

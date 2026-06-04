@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int numberOfPermutations(int n, vector<vector<int>>& requirements) {\n        \n    }\n};"

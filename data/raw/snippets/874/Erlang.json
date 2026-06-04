@@ -1,1 +1,0 @@
-"-spec robot_sim(Commands :: [integer()], Obstacles :: [[integer()]]) -> integer().\nrobot_sim(Commands, Obstacles) ->\n  ."

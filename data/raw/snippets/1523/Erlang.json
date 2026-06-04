@@ -1,1 +1,0 @@
-"-spec count_odds(Low :: integer(), High :: integer()) -> integer().\ncount_odds(Low, High) ->\n  ."

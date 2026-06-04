@@ -1,1 +1,0 @@
-"type JSONValue = null | boolean | number | string | JSONValue[] | { [key: string]: JSONValue };\ntype Obj = Record<string, JSONValue> | Array<JSONValue>;\n\nfunction compactObject(obj: Obj): Obj {\n    \n};"

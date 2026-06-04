@@ -1,1 +1,0 @@
-"class Solution {\n    fun isEscapePossible(blocked: Array<IntArray>, source: IntArray, target: IntArray): Boolean {\n        \n    }\n}"

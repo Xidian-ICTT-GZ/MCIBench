@@ -1,0 +1,1 @@
+"interface Array<T> {\n    last(): T | -1;\n}\n\nArray.prototype.last = function() {\n    \n};\n\n/**\n * const arr = [1, 2, 3];\n * arr.last(); // 3\n */"

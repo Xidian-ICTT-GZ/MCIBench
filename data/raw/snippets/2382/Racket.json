@@ -1,1 +1,0 @@
-"(define/contract (maximum-segment-sum nums removeQueries)\n  (-> (listof exact-integer?) (listof exact-integer?) (listof exact-integer?))\n  )"

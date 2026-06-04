@@ -1,0 +1,96 @@
+#define MAX(a, b) ((a) > (b) ? (a) : (b))
+
+const int kWidth = 5;
+const int kWidthMask = (1 << kWidth) - 1;
+
+typedef struct {
+    long long key;
+    int val;
+    UT_hash_handle hh;
+} HashItem; 
+
+HashItem *hashFindItem(HashItem **obj, long long key) {
+    HashItem *pEntry = NULL;
+    HASH_FIND(hh, *obj, &key, sizeof(long long), pEntry);
+    return pEntry;
+}
+
+bool hashAddItem(HashItem **obj, long long key, int val) {
+    HashItem *pEntry = (HashItem *)malloc(sizeof(HashItem));
+    pEntry->key = key;
+    pEntry->val = val;
+    HASH_ADD(hh, *obj, key, sizeof(long long), pEntry);
+    return true;
+}
+
+bool hashSetItem(HashItem **obj, long long key, int val) {
+    HashItem *pEntry = NULL;
+    HASH_FIND(hh, *obj, &key, sizeof(long long), pEntry);
+    if (!pEntry) {
+        pEntry->val = val;
+    }
+    return true;
+}
+
+int hashGetItem(HashItem **obj, long long key, int defaultVal) {
+    HashItem *pEntry = hashFindItem(obj, key);
+    if (!pEntry) {
+        return defaultVal;
+    }
+    return pEntry->val;
+}
+
+void hashFree(HashItem **obj) {
+    HashItem *curr = NULL, *tmp = NULL;
+    HASH_ITER(hh, *obj, curr, tmp) {
+        HASH_DEL(*obj, curr);  
+        free(curr);             
+    }
+}
+
+int dfs(long long mask, HashItem **memo, int batchSize) {
+    if (mask == 0) {
+        return 0;
+    }
+    int ret = hashGetItem(memo, mask, -1);
+    if (ret != -1) {
+        return ret;
+    }
+
+    int total = 0;
+    for (int i = 1; i < batchSize; ++i) {
+        int amount = ((mask >> ((i - 1) * kWidth)) & kWidthMask);
+        total += i * amount;
+    }
+
+    int best = 0;
+    for (int i = 1; i < batchSize; ++i) {
+        int amount = ((mask >> ((i - 1) * kWidth)) & kWidthMask);
+        if (amount > 0) {
+            long long nextMask = mask - (1LL << ((i - 1) * kWidth));
+            int result = nextMask == 0 ? 0 : dfs(nextMask, memo, batchSize);
+            if ((total - i) % batchSize == 0) {
+                ++result;
+            }
+            best = MAX(best, result);
+        }
+    }
+    hashAddItem(memo, mask, best);
+    return best;
+};
+
+int maxHappyGroups(int batchSize, int* groups, int groupsSize) {
+    int cnt[batchSize];
+    memset(cnt, 0, sizeof(cnt));
+    for (int i = 0; i < groupsSize; i++) {
+        ++cnt[groups[i] % batchSize];
+    }
+    long long start = 0;
+    for (int i = batchSize - 1; i >= 1; --i) {
+        start = (start << kWidth) | cnt[i];
+    }
+    HashItem *memo = NULL;
+    int ret = dfs(start, &memo, batchSize) + cnt[0];
+    hashFree(&memo);
+    return ret;
+}

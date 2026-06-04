@@ -1,0 +1,22 @@
+func findOriginalArray(changed []int) []int {
+    sort.Ints(changed)
+    count := make(map[int]int)
+    for _, num := range changed {
+        count[num]++
+    }
+    res := []int{}
+    for _, a := range changed {
+        if count[a] == 0 {
+            continue
+        }
+        count[a]--
+
+        if count[a*2] == 0 {
+            return []int{}
+        }
+        count[a*2]--
+
+        res = append(res, a)
+    }
+    return res
+}

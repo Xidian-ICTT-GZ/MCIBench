@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    vector<int> gcdValues(vector<int>& nums, vector<long long>& queries) {\n        \n    }\n};"

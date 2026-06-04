@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec remove_comments(source :: [String.t]) :: [String.t]\n  def remove_comments(source) do\n    \n  end\nend"

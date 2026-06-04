@@ -1,1 +1,0 @@
-"# @param {String} s\n# @param {Integer} k\n# @return {String}\ndef decode_at_index(s, k)\n    \nend"

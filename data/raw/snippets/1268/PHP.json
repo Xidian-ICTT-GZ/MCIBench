@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String[] $products\n     * @param String $searchWord\n     * @return String[][]\n     */\n    function suggestedProducts($products, $searchWord) {\n        \n    }\n}"

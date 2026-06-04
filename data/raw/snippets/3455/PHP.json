@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param String $s\n     * @param String $p\n     * @return Integer\n     */\n    function shortestMatchingSubstring($s, $p) {\n        \n    }\n}"

@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec xor_beauty(nums :: [integer]) :: integer\n  def xor_beauty(nums) do\n    \n  end\nend"

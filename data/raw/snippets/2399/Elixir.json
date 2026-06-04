@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec check_distances(s :: String.t, distance :: [integer]) :: boolean\n  def check_distances(s, distance) do\n    \n  end\nend"

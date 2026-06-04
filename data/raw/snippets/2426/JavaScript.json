@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} nums1\n * @param {number[]} nums2\n * @param {number} diff\n * @return {number}\n */\nvar numberOfPairs = function(nums1, nums2, diff) {\n    \n};"

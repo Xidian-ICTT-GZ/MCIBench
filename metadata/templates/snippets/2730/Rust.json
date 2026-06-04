@@ -1,0 +1,1 @@
+"impl Solution {\n    pub fn longest_semi_repetitive_substring(s: String) -> i32 {\n        \n    }\n}"

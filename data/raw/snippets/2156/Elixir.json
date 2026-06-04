@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec sub_str_hash(s :: String.t, power :: integer, modulo :: integer, k :: integer, hash_value :: integer) :: String.t\n  def sub_str_hash(s, power, modulo, k, hash_value) do\n    \n  end\nend"

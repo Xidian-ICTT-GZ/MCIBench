@@ -1,0 +1,26 @@
+int reinitializePermutation(int n) {
+    int perm[n], arr[n], target[n];
+    for (int i = 0; i < n; i++) {
+        perm[i] = i;
+        target[i] = i;
+    }
+    int step = 0;
+    int *pArr = arr, *pPerm = perm;
+    while (true) {
+        for (int i = 0; i < n; i++) {
+            if (i & 1) {
+                pArr[i] = pPerm[n / 2 + (i - 1) / 2];
+            } else {
+                pArr[i] = pPerm[i / 2];
+            }
+        }
+        int *tmp = pArr;
+        pArr = pPerm;
+        pPerm = tmp;
+        step++;
+        if (memcmp(pPerm, target, sizeof(int) * n) == 0) {
+            break;
+        }
+    }
+    return step;
+}

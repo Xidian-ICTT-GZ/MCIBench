@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer[] $moveFrom\n     * @param Integer[] $moveTo\n     * @return Integer[]\n     */\n    function relocateMarbles($nums, $moveFrom, $moveTo) {\n        \n    }\n}"

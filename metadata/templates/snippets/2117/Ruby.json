@@ -1,0 +1,1 @@
+"# @param {Integer} left\n# @param {Integer} right\n# @return {String}\ndef abbreviate_product(left, right)\n    \nend"

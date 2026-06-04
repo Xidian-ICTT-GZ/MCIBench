@@ -1,0 +1,1 @@
+"class SeatManager(_n: Int) {\n\n    def reserve(): Int = {\n        \n    }\n\n    def unreserve(seatNumber: Int): Unit = {\n        \n    }\n\n}\n\n/**\n * Your SeatManager object will be instantiated and called as such:\n * val obj = new SeatManager(n)\n * val param_1 = obj.reserve()\n * obj.unreserve(seatNumber)\n */"

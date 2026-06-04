@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    int countCells(vector<vector<char>>& grid, string pattern) {\n        \n    }\n};"

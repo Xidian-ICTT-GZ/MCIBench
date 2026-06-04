@@ -1,1 +1,0 @@
-"-spec check_arithmetic_subarrays(Nums :: [integer()], L :: [integer()], R :: [integer()]) -> [boolean()].\ncheck_arithmetic_subarrays(Nums, L, R) ->\n  ."

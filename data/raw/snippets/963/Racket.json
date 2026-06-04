@@ -1,1 +1,0 @@
-"(define/contract (min-area-free-rect points)\n  (-> (listof (listof exact-integer?)) flonum?)\n  )"

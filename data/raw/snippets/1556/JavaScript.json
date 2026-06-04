@@ -1,1 +1,0 @@
-"/**\n * @param {number} n\n * @return {string}\n */\nvar thousandSeparator = function(n) {\n    \n};"

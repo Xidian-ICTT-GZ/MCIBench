@@ -1,0 +1,33 @@
+public class Solution {
+    public int[] MinimumTime(int n, int[][] edges, int[] disappear) {
+        IList<int[]>[] adj = new IList<int[]>[n];
+        for (int i = 0; i < n; i++) {
+            adj[i] = new List<int[]>();
+        }
+        foreach (int[] edge in edges) {
+            int u = edge[0], v = edge[1], length = edge[2];
+            adj[u].Add(new int[]{v, length});
+            adj[v].Add(new int[]{u, length});
+        }
+        PriorityQueue<int[], int> pq = new PriorityQueue<int[], int>();
+        pq.Enqueue(new int[]{0, 0}, 0);
+        int[] answer = new int[n];
+        Array.Fill(answer, -1);
+        answer[0] = 0;
+        while (pq.Count > 0) {
+            int[] arr = pq.Dequeue();
+            int t = arr[0], u = arr[1];
+            if (t != answer[u]) {
+                continue;
+            }
+            foreach (int[] next in adj[u]) {
+                int v = next[0], length = next[1];
+                if (t + length < disappear[v] && (answer[v] == -1 || t + length < answer[v])) {
+                    pq.Enqueue(new int[]{t + length, v}, t + length);
+                    answer[v] = t + length;
+                }
+            }
+        }
+        return answer;
+    }
+}

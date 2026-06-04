@@ -1,0 +1,26 @@
+public class Solution {
+    public int[] FindOriginalArray(int[] changed) {
+        Array.Sort(changed);
+        var count = new Dictionary<int, int>();
+        foreach (var a in changed) {
+            if (!count.ContainsKey(a)) {
+                count[a] = 0;
+            }
+            count[a]++;
+        }
+        int[] res = new int[changed.Length / 2];
+        int i = 0;
+        foreach (var a in changed) {
+            if (count[a] == 0) {
+                continue;
+            }
+            count[a]--;
+            if (!count.ContainsKey(a * 2) || count[a * 2] == 0) {
+                return new int[0];
+            }
+            count[a * 2]--;
+            res[i++] = a;
+        }
+        return res;
+    }
+}

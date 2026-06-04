@@ -1,0 +1,1 @@
+"-spec can_cross(Stones :: [integer()]) -> boolean().\ncan_cross(Stones) ->\n  ."

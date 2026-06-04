@@ -1,0 +1,1 @@
+"# @param {Integer} k\n# @param {Integer[][]} row_conditions\n# @param {Integer[][]} col_conditions\n# @return {Integer[][]}\ndef build_matrix(k, row_conditions, col_conditions)\n    \nend"

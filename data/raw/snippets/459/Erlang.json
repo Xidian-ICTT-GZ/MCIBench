@@ -1,1 +1,0 @@
-"-spec repeated_substring_pattern(S :: unicode:unicode_binary()) -> boolean().\nrepeated_substring_pattern(S) ->\n  ."

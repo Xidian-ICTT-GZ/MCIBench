@@ -1,1 +1,0 @@
-"-spec maximum_total_sum(MaximumHeight :: [integer()]) -> integer().\nmaximum_total_sum(MaximumHeight) ->\n  ."

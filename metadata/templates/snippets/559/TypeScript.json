@@ -1,0 +1,1 @@
+"/**\n * Definition for _Node.\n * class _Node {\n *     val: number\n *     children: _Node[]\n * \n *     constructor(val?: number, children?: _Node[]) {\n *         this.val = (val===undefined ? 0 : val)\n *         this.children = (children===undefined ? [] : children)\n *     }\n * }\n */\n\n\nfunction maxDepth(root: _Node | null): number {\n    \n};"

@@ -1,0 +1,1 @@
+"-spec xor_game(Nums :: [integer()]) -> boolean().\nxor_game(Nums) ->\n  ."

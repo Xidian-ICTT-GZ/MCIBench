@@ -1,1 +1,0 @@
-"# @param {Integer} m\n# @param {Integer} n\n# @param {Integer[]} h_fences\n# @param {Integer[]} v_fences\n# @return {Integer}\ndef maximize_square_area(m, n, h_fences, v_fences)\n    \nend"

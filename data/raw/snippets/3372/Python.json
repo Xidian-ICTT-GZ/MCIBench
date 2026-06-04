@@ -1,1 +1,0 @@
-"class Solution(object):\n    def maxTargetNodes(self, edges1, edges2, k):\n        \"\"\"\n        :type edges1: List[List[int]]\n        :type edges2: List[List[int]]\n        :type k: int\n        :rtype: List[int]\n        \"\"\"\n        "

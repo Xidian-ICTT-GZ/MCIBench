@@ -1,0 +1,1 @@
+"(define/contract (find-ladders beginWord endWord wordList)\n  (-> string? string? (listof string?) (listof (listof string?)))\n  )"

@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec is_happy(n :: integer) :: boolean\n  def is_happy(n) do\n    \n  end\nend"

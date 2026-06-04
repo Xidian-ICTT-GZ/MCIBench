@@ -1,1 +1,0 @@
-"# @param {Integer} n\n# @param {Integer[][]} pick\n# @return {Integer}\ndef winning_player_count(n, pick)\n    \nend"

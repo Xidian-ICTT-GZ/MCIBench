@@ -1,1 +1,0 @@
-"/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* countOfPairs(int n, int x, int y, int* returnSize) {\n    \n}"

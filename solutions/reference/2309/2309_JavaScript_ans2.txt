@@ -1,0 +1,17 @@
+var greatestLetter = function(s) {
+    let lower = 0, upper = 0;
+    for (let i = 0; i < s.length; i++) {
+        const c = s[i];
+        if ('a' <= c && c <= 'z') {
+            lower |= 1 << (c.charCodeAt() - 'a'.charCodeAt());
+        } else {
+            upper |= 1 << (c.charCodeAt() - 'A'.charCodeAt());
+        }
+    }
+    for (let i = 25; i >= 0; i--) {
+        if ((lower & upper & (1 << i)) !== 0) {
+            return String.fromCharCode('A'.charCodeAt() + i);
+        }
+    }
+    return "";
+};

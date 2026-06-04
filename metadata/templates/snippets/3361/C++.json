@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    long long shiftDistance(string s, string t, vector<int>& nextCost, vector<int>& previousCost) {\n        \n    }\n};"

@@ -1,0 +1,1 @@
+"class Solution(object):\n    def numPairsDivisibleBy60(self, time):\n        \"\"\"\n        :type time: List[int]\n        :rtype: int\n        \"\"\"\n        "

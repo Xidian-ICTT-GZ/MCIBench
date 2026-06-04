@@ -1,1 +1,0 @@
-"/**\n * @param {number[][]} bookings\n * @param {number} n\n * @return {number[]}\n */\nvar corpFlightBookings = function(bookings, n) {\n    \n};"

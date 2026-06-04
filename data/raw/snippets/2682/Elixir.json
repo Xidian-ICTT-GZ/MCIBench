@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec circular_game_losers(n :: integer, k :: integer) :: [integer]\n  def circular_game_losers(n, k) do\n    \n  end\nend"

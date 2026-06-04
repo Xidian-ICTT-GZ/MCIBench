@@ -1,1 +1,0 @@
-"class Solution {\n\n  Solution(int m, int n) {\n    \n  }\n  \n  List<int> flip() {\n    \n  }\n  \n  void reset() {\n    \n  }\n}\n\n/**\n * Your Solution object will be instantiated and called as such:\n * Solution obj = Solution(m, n);\n * List<int> param1 = obj.flip();\n * obj.reset();\n */"

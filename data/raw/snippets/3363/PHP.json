@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[][] $fruits\n     * @return Integer\n     */\n    function maxCollectedFruits($fruits) {\n        \n    }\n}"

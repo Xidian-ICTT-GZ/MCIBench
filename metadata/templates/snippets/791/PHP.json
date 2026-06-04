@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $order\n     * @param String $s\n     * @return String\n     */\n    function customSortString($order, $s) {\n        \n    }\n}"

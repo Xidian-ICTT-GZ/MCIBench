@@ -1,0 +1,1 @@
+"class Solution(object):\n    def canMakePaliQueries(self, s, queries):\n        \"\"\"\n        :type s: str\n        :type queries: List[List[int]]\n        :rtype: List[bool]\n        \"\"\"\n        "

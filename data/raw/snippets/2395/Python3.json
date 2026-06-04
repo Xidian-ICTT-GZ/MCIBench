@@ -1,1 +1,0 @@
-"class Solution:\n    def findSubarrays(self, nums: List[int]) -> bool:\n        "

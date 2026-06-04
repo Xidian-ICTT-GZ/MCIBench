@@ -1,1 +1,0 @@
-"# @param {String[]} words\n# @param {Character[]} letters\n# @param {Integer[]} score\n# @return {Integer}\ndef max_score_words(words, letters, score)\n    \nend"

@@ -1,1 +1,0 @@
-"object Solution {\n    def findMaximizedCapital(k: Int, w: Int, profits: Array[Int], capital: Array[Int]): Int = {\n        \n    }\n}"

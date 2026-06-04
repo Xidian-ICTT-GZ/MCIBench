@@ -1,0 +1,1 @@
+"class Solution(object):\n    def minNumberOfFrogs(self, croakOfFrogs):\n        \"\"\"\n        :type croakOfFrogs: str\n        :rtype: int\n        \"\"\"\n        "

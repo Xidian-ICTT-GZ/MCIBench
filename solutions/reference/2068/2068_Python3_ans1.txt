@@ -1,0 +1,9 @@
+class Solution:
+    def checkAlmostEquivalent(self, word1: str, word2: str) -> bool:
+        freq = defaultdict(int)   
+        for ch in word1:
+            freq[ch] += 1
+        for ch in word2:
+            freq[ch] -= 1
+        
+        return all(abs(x) <= 3 for x in freq.values())

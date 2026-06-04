@@ -1,1 +1,0 @@
-"class Solution(object):\n    def eliminateMaximum(self, dist, speed):\n        \"\"\"\n        :type dist: List[int]\n        :type speed: List[int]\n        :rtype: int\n        \"\"\"\n        "

@@ -1,9 +1,0 @@
-func maxHeightOfTriangle(red int, blue int) int {
-    return max(maxHeight(red, blue), maxHeight(blue, red))
-}
-
-func maxHeight(x, y int) int {
-	odd := 2 * int(math.Sqrt(float64(x))) - 1
-	even := 2 * int((-1 + math.Sqrt(1 + 4 * float64(y))) / 2)
-	return min(odd, even) + 1
-}

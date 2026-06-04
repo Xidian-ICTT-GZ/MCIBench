@@ -1,1 +1,0 @@
-"-spec is_trionic(Nums :: [integer()]) -> boolean().\nis_trionic(Nums) ->\n  ."

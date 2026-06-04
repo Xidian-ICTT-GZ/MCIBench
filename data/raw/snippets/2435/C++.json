@@ -1,1 +1,0 @@
-"class Solution {\npublic:\n    int numberOfPaths(vector<vector<int>>& grid, int k) {\n        \n    }\n};"

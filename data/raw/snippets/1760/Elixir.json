@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec minimum_size(nums :: [integer], max_operations :: integer) :: integer\n  def minimum_size(nums, max_operations) do\n    \n  end\nend"

@@ -1,0 +1,1 @@
+"class Solution:\n    def shiftDistance(self, s: str, t: str, nextCost: List[int], previousCost: List[int]) -> int:\n        "

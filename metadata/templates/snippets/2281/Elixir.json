@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec total_strength(strength :: [integer]) :: integer\n  def total_strength(strength) do\n    \n  end\nend"

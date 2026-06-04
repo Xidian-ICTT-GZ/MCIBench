@@ -1,0 +1,1 @@
+"class Solution {\n    fun maxSumTwoNoOverlap(nums: IntArray, firstLen: Int, secondLen: Int): Int {\n        \n    }\n}"

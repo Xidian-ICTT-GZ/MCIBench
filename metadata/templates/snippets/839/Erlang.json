@@ -1,0 +1,1 @@
+"-spec num_similar_groups(Strs :: [unicode:unicode_binary()]) -> integer().\nnum_similar_groups(Strs) ->\n  ."

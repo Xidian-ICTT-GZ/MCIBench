@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec get_subarray_beauty(nums :: [integer], k :: integer, x :: integer) :: [integer]\n  def get_subarray_beauty(nums, k, x) do\n    \n  end\nend"

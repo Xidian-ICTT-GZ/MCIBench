@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[][] $grid\n     * @param Integer[] $pricing\n     * @param Integer[] $start\n     * @param Integer $k\n     * @return Integer[][]\n     */\n    function highestRankedKItems($grid, $pricing, $start, $k) {\n        \n    }\n}"

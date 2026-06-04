@@ -1,1 +1,0 @@
-"/**\n * @param {number[]} nums\n * @param {number[]} andValues\n * @return {number}\n */\nvar minimumValueSum = function(nums, andValues) {\n    \n};"

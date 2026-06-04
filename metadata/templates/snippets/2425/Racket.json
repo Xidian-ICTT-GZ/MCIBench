@@ -1,0 +1,1 @@
+"(define/contract (xor-all-nums nums1 nums2)\n  (-> (listof exact-integer?) (listof exact-integer?) exact-integer?)\n  )"

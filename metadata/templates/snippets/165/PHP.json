@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param String $version1\n     * @param String $version2\n     * @return Integer\n     */\n    function compareVersion($version1, $version2) {\n        \n    }\n}"

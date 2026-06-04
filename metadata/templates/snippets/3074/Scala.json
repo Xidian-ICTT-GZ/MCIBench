@@ -1,0 +1,1 @@
+"object Solution {\n    def minimumBoxes(apple: Array[Int], capacity: Array[Int]): Int = {\n        \n    }\n}"

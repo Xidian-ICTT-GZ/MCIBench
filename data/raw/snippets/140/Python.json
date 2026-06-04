@@ -1,1 +1,0 @@
-"class Solution(object):\n    def wordBreak(self, s, wordDict):\n        \"\"\"\n        :type s: str\n        :type wordDict: List[str]\n        :rtype: List[str]\n        \"\"\"\n        "

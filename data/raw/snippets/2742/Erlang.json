@@ -1,1 +1,0 @@
-"-spec paint_walls(Cost :: [integer()], Time :: [integer()]) -> integer().\npaint_walls(Cost, Time) ->\n  ."

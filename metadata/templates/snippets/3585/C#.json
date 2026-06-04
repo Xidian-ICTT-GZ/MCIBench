@@ -1,0 +1,1 @@
+"public class Solution {\n    public int[] FindMedian(int n, int[][] edges, int[][] queries) {\n        \n    }\n}"

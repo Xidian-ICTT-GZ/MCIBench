@@ -1,0 +1,1 @@
+"class Solution:\n    def removeAnagrams(self, words: List[str]) -> List[str]:\n        "

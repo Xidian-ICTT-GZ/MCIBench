@@ -1,1 +1,0 @@
-"-spec median_sliding_window(Nums :: [integer()], K :: integer()) -> [float()].\nmedian_sliding_window(Nums, K) ->\n  ."

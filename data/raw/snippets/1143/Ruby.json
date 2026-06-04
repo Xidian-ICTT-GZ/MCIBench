@@ -1,1 +1,0 @@
-"# @param {String} text1\n# @param {String} text2\n# @return {Integer}\ndef longest_common_subsequence(text1, text2)\n    \nend"

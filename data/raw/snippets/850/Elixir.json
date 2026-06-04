@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec rectangle_area(rectangles :: [[integer]]) :: integer\n  def rectangle_area(rectangles) do\n    \n  end\nend"

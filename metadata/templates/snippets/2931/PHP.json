@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[][] $values\n     * @return Integer\n     */\n    function maxSpending($values) {\n        \n    }\n}"

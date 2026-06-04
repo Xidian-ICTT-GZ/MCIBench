@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int minFlips(vector<vector<int>>& grid) {\n        \n    }\n};"

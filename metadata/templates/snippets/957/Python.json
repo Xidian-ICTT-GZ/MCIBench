@@ -1,0 +1,1 @@
+"class Solution(object):\n    def prisonAfterNDays(self, cells, n):\n        \"\"\"\n        :type cells: List[int]\n        :type n: int\n        :rtype: List[int]\n        \"\"\"\n        "

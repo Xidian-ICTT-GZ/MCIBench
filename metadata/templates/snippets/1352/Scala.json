@@ -1,0 +1,1 @@
+"class ProductOfNumbers() {\n\n    def add(num: Int): Unit = {\n        \n    }\n\n    def getProduct(k: Int): Int = {\n        \n    }\n\n}\n\n/**\n * Your ProductOfNumbers object will be instantiated and called as such:\n * val obj = new ProductOfNumbers()\n * obj.add(num)\n * val param_2 = obj.getProduct(k)\n */"

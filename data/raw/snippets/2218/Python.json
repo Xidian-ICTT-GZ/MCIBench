@@ -1,1 +1,0 @@
-"class Solution(object):\n    def maxValueOfCoins(self, piles, k):\n        \"\"\"\n        :type piles: List[List[int]]\n        :type k: int\n        :rtype: int\n        \"\"\"\n        "

@@ -1,0 +1,1 @@
+"class Solution {\npublic:\n    int numberOfUniqueGoodSubsequences(string binary) {\n        \n    }\n};"

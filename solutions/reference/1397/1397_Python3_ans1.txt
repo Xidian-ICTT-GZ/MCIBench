@@ -1,0 +1,59 @@
+class Solution:
+    
+    
+    def findGoodStrings(self, n: int, s1: str, s2: str, evil: str) -> int:
+        @lru_cache(None)
+        def getTrans(stats, ch):
+            
+
+            u = ord(ch) - 97
+            
+            
+            while stats > 0 and evil[stats] != ch:
+                stats = fail[stats - 1]
+            return stats + 1 if evil[stats] == ch else 0
+        
+        @lru_cache(None)
+        def dfs(pos, stats, bound):
+            
+
+            
+            
+            
+            if stats == len(evil):
+                return 0
+            
+            
+            
+            if pos == len(s1):
+                return 1
+            
+            ans = 0
+            
+            l = (ord(s1[pos]) if bound & 1 else ord('a'))
+            
+            r = (ord(s2[pos]) if bound & 2 else ord('z'))
+            for u in range(l, r + 1):
+                ch = chr(u)
+                nxt_stats = getTrans(stats, ch)
+                
+                
+                
+                nxt_bound = (ch == s1[pos] if bound & 1 else 0) ^ ((ch == s2[pos]) << 1 if bound & 2 else 0)
+                ans += dfs(pos + 1, nxt_stats, nxt_bound)
+            return ans % 1000000007
+
+        m = len(evil)
+        
+        fail = [0] * m
+        
+        
+        for i in range(1, m):
+            j = fail[i - 1]
+            while j > 0 and evil[j] != evil[i]:
+                j = fail[j - 1]
+            if evil[j] == evil[i]:
+                fail[i] = j + 1
+        
+        
+        return dfs(0, 0, 3)

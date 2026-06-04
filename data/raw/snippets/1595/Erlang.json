@@ -1,1 +1,0 @@
-"-spec connect_two_groups(Cost :: [[integer()]]) -> integer().\nconnect_two_groups(Cost) ->\n  ."

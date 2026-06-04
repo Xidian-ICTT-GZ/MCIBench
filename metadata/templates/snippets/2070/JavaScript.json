@@ -1,0 +1,1 @@
+"/**\n * @param {number[][]} items\n * @param {number[]} queries\n * @return {number[]}\n */\nvar maximumBeauty = function(items, queries) {\n    \n};"

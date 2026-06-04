@@ -1,1 +1,0 @@
-"-spec candy(Ratings :: [integer()]) -> integer().\ncandy(Ratings) ->\n  ."

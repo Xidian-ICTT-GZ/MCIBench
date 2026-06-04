@@ -1,1 +1,0 @@
-"class Solution {\n    fun countInterestingSubarrays(nums: List<Int>, modulo: Int, k: Int): Long {\n        \n    }\n}"

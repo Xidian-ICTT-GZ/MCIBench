@@ -1,1 +1,0 @@
-"-spec eliminate_maximum(Dist :: [integer()], Speed :: [integer()]) -> integer().\neliminate_maximum(Dist, Speed) ->\n  ."

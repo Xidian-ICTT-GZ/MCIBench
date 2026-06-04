@@ -1,1 +1,0 @@
-"-spec unique_occurrences(Arr :: [integer()]) -> boolean().\nunique_occurrences(Arr) ->\n  ."

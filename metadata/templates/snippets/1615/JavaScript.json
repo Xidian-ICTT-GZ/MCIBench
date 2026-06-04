@@ -1,0 +1,1 @@
+"/**\n * @param {number} n\n * @param {number[][]} roads\n * @return {number}\n */\nvar maximalNetworkRank = function(n, roads) {\n    \n};"

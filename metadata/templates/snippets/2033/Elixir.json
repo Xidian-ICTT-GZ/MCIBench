@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec min_operations(grid :: [[integer]], x :: integer) :: integer\n  def min_operations(grid, x) do\n    \n  end\nend"

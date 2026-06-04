@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec semi_ordered_permutation(nums :: [integer]) :: integer\n  def semi_ordered_permutation(nums) do\n    \n  end\nend"

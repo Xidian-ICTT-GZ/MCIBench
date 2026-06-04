@@ -1,1 +1,0 @@
-"-spec k_increasing(Arr :: [integer()], K :: integer()) -> integer().\nk_increasing(Arr, K) ->\n  ."

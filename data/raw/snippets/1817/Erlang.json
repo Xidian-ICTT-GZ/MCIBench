@@ -1,1 +1,0 @@
-"-spec finding_users_active_minutes(Logs :: [[integer()]], K :: integer()) -> [integer()].\nfinding_users_active_minutes(Logs, K) ->\n  ."

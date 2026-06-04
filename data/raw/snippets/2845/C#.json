@@ -1,1 +1,0 @@
-"public class Solution {\n    public long CountInterestingSubarrays(IList<int> nums, int modulo, int k) {\n        \n    }\n}"

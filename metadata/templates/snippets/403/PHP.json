@@ -1,0 +1,1 @@
+"class Solution {\n\n    /**\n     * @param Integer[] $stones\n     * @return Boolean\n     */\n    function canCross($stones) {\n        \n    }\n}"

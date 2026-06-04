@@ -1,0 +1,1 @@
+"class Solution(object):\n    def findAllPeople(self, n, meetings, firstPerson):\n        \"\"\"\n        :type n: int\n        :type meetings: List[List[int]]\n        :type firstPerson: int\n        :rtype: List[int]\n        \"\"\"\n        "

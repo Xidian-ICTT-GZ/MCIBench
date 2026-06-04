@@ -1,0 +1,15 @@
+public class Solution {
+    public int MaxSatisfaction(int[] satisfaction) {
+        Array.Sort(satisfaction, (a, b) => b - a);
+        int presum = 0, ans = 0;
+        foreach (int si in satisfaction) {
+            if (presum + si > 0) {
+                presum += si;
+                ans += presum;
+            } else {
+                break;
+            }
+        }
+        return ans;
+    }
+}

@@ -1,0 +1,1 @@
+"/**\n * Definition for a Node.\n * struct Node {\n *     int val;\n *     int numChildren;\n *     struct Node** children;\n * };\n */\n\nint maxDepth(struct Node* root) {\n    \n}"

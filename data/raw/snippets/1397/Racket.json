@@ -1,1 +1,0 @@
-"(define/contract (find-good-strings n s1 s2 evil)\n  (-> exact-integer? string? string? string? exact-integer?)\n  )"

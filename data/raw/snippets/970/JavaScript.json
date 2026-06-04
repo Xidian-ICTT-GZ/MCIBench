@@ -1,1 +1,0 @@
-"/**\n * @param {number} x\n * @param {number} y\n * @param {number} bound\n * @return {number[]}\n */\nvar powerfulIntegers = function(x, y, bound) {\n    \n};"

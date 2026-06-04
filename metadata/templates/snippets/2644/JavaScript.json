@@ -1,0 +1,1 @@
+"/**\n * @param {number[]} nums\n * @param {number[]} divisors\n * @return {number}\n */\nvar maxDivScore = function(nums, divisors) {\n    \n};"

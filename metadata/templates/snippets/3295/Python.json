@@ -1,0 +1,1 @@
+"class Solution(object):\n    def reportSpam(self, message, bannedWords):\n        \"\"\"\n        :type message: List[str]\n        :type bannedWords: List[str]\n        :rtype: bool\n        \"\"\"\n        "

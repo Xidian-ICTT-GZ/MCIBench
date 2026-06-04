@@ -1,0 +1,1 @@
+"# @param {Integer} num_courses\n# @param {Integer[][]} prerequisites\n# @param {Integer[][]} queries\n# @return {Boolean[]}\ndef check_if_prerequisite(num_courses, prerequisites, queries)\n    \nend"

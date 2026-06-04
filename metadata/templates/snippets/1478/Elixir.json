@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec min_distance(houses :: [integer], k :: integer) :: integer\n  def min_distance(houses, k) do\n    \n  end\nend"

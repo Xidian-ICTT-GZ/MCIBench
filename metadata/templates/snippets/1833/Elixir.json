@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec max_ice_cream(costs :: [integer], coins :: integer) :: integer\n  def max_ice_cream(costs, coins) do\n    \n  end\nend"

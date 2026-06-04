@@ -1,0 +1,1 @@
+"class Solution:\n    def minFlips(self, s: str) -> int:\n        "

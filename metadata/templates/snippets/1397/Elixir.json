@@ -1,0 +1,1 @@
+"defmodule Solution do\n  @spec find_good_strings(n :: integer, s1 :: String.t, s2 :: String.t, evil :: String.t) :: integer\n  def find_good_strings(n, s1, s2, evil) do\n    \n  end\nend"

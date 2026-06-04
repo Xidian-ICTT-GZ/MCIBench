@@ -1,0 +1,31 @@
+typedef struct {
+    struct TreeNode* cur;
+    struct StackTreeNode* stk[128];
+    int stkSize;
+} BSTIterator;
+
+BSTIterator* bSTIteratorCreate(struct TreeNode* root) {
+    BSTIterator* ret = malloc(sizeof(BSTIterator));
+    ret->cur = root;
+    ret->stkSize = 0;
+    return ret;
+}
+
+int bSTIteratorNext(BSTIterator* obj) {
+    while (obj->cur != NULL) {
+        obj->stk[(obj->stkSize)++] = obj->cur;
+        obj->cur = obj->cur->left;
+    }
+    obj->cur = obj->stk[--(obj->stkSize)];
+    int ret = obj->cur->val;
+    obj->cur = obj->cur->right;
+    return ret;
+}
+
+bool bSTIteratorHasNext(BSTIterator* obj) {
+    return obj->cur != NULL || obj->stkSize;
+}
+
+void bSTIteratorFree(BSTIterator* obj) {
+    free(obj);
+}

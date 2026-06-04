@@ -1,1 +1,0 @@
-"/**\n * @param {string} a\n * @param {string} b\n * @return {boolean}\n */\nvar checkPalindromeFormation = function(a, b) {\n    \n};"

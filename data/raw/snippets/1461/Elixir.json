@@ -1,1 +1,0 @@
-"defmodule Solution do\n  @spec has_all_codes(s :: String.t, k :: integer) :: boolean\n  def has_all_codes(s, k) do\n    \n  end\nend"

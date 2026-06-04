@@ -1,0 +1,1 @@
+"class Solution {\n    func maxNumEdgesToRemove(_ n: Int, _ edges: [[Int]]) -> Int {\n        \n    }\n}"

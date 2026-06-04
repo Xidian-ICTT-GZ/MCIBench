@@ -1,1 +1,0 @@
-"class Solution {\n\n    /**\n     * @param Integer[] $parent\n     * @param String $s\n     * @return Boolean[]\n     */\n    function findAnswer($parent, $s) {\n        \n    }\n}"
