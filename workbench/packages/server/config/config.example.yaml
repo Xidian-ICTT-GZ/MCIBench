@@ -1,0 +1,30 @@
+server:
+  # 8090：刻意避开主仪表盘的 8080，两者可以同时跑，互不干扰。
+  port: 8090
+  mode: debug  # debug / release
+
+database:
+  # 本地判题库：由 scripts/import_local_results.py 从对拍缓存 + 本地结果生成。
+  path: ./data/local.db
+
+web:
+  # 构建好的前端由后端一并托管，只需开一个端口：
+  #   cd packages/web && npm install && npm run build
+  dist_path: "../web/dist"
+
+# Interactive code generation and Code-MUE evaluation. Install local/lab/requirements.txt first.
+lab:
+  enabled: true
+  python_path: python
+  workspace_root: "../../../.."
+  data_path: "./data/lab.sqlite3"
+
+# Minimal accounts and permissions. Off by default so an existing local
+# deployment keeps working; turning it on requires an account first:
+#   go run ./cmd/admin -command bootstrap -config ./config/config.yaml
+# The generated one-time password is printed once and never logged.
+auth:
+  enabled: false
+  database_path: "./data/auth.sqlite3"
+  session_hours: 8
+  secure_cookie: false   # set true behind TLS

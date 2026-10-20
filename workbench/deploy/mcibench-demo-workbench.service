@@ -1,0 +1,14 @@
+[Unit]
+Description=MCIBench workbench
+After=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/mcibench-demo/wb
+ExecStart=/opt/mcibench-demo/wb/mcibench-workbench -config /opt/mcibench-demo/wb/config/config.yaml
+Restart=always
+RestartSec=3
+Environment=TZ=Asia/Shanghai
+
+[Install]
+WantedBy=multi-user.target

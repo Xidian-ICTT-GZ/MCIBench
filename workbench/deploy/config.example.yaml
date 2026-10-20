@@ -1,0 +1,22 @@
+server:
+  host: 127.0.0.1
+  port: 8095
+  mode: release
+
+database:
+  path: ./data/local.db
+
+web:
+  dist_path: ./packages/web/dist
+
+lab:
+  enabled: true
+  python_path: "/usr/bin/python3.12"
+  workspace_root: .
+  data_path: ./data/lab.sqlite3
+
+auth:
+  enabled: false
+  database_path: ./data/auth.sqlite3
+  session_hours: 8
+  secure_cookie: false
