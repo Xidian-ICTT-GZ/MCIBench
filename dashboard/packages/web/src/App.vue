@@ -18,6 +18,10 @@ const navItems = computed(() =>
 const currentTitle = computed(() => {
   return (route.meta?.title as string) || 'MCIBench'
 })
+// 被其它系统嵌入时（?embed=1），隐藏本应用的侧栏与标题栏，避免出现双列菜单；
+// 独立访问时行为与样式完全不变。
+const embedded = new URLSearchParams(location.search).has('embed')
+
 
 const iconMap: Record<string, string> = {
   Odometer: '📊',
@@ -28,7 +32,7 @@ const iconMap: Record<string, string> = {
 </script>
 
 <template>
-  <div class="app-layout">
+  <div class="app-layout" :class="{ 'is-embedded': embedded }">
     <!-- Sidebar -->
     <aside class="app-sidebar">
       <div class="sidebar-logo">
@@ -72,6 +76,9 @@ const iconMap: Record<string, string> = {
 </template>
 
 <style scoped>
+.app-layout.is-embedded .app-sidebar,
+.app-layout.is-embedded .app-header { display: none; }
+.app-layout.is-embedded .app-content { padding: 16px 20px; }
 .nav-item {
   text-decoration: none;
 }
