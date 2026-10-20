@@ -14,6 +14,7 @@ MCIBench/
   translation/    # 互译任务输出、提交记录压缩包、执行记录
   scripts/        # 评测、复现、分析、归档同步脚本
   dashboard/      # 在线界面实现
+  workbench/      # 交互式工作台：生成、本地执行、行为指标
   docs/           # README、教程说明、图表、schema 说明
 ```
 

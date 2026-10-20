@@ -14,6 +14,7 @@ MCIBench/
   translation/    # translation outputs, submissions archive, execution records
   scripts/        # evaluation, reproduction, analysis, archive sync scripts
   dashboard/      # online interface implementation
+  workbench/      # interactive workbench: generation, local execution, behavioural metrics
   docs/           # README material, tutorial notes, figures, tables, schemas
 ```
 
